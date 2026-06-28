@@ -1,3 +1,26 @@
+/* ===== OPENDYSLEXIC FONT (self-hosted via jsdelivr) ===== */
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/opendyslexic@5.0.2/files/opendyslexic-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/opendyslexic@5.0.2/files/opendyslexic-latin-700-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/opendyslexic@5.0.2/files/opendyslexic-latin-400-italic.woff2') format('woff2');
+}
+
 /* ===== LIGHT THEME (default) ===== */
 :root, [data-theme="light"] {
   --bg-body: #f0e8f7;

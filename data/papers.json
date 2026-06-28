@@ -10,8 +10,8 @@
       "Mood Disorders"
     ],
     "summary": "Explores causal inference approaches for depression using N-of-1 designs, examining within-person temporal dynamics of depressive symptoms and potential causal mechanisms.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "N-of-1 causal methods enable therapists to identify which specific triggers and behaviors drive depressive episodes for individual clients, rather than relying on group-level predictors. Clinicians can use repeated symptom monitoring data to collaboratively map each patient's unique causal network and tailor interventions to disrupt personally relevant maintenance cycles. This approach supports precision mental health by shifting from diagnostic protocols to individualized formulation.",
+    "relevant_for": "CBT therapists treating recurrent or treatment-resistant depression",
     "published": null,
     "link": null
   },
@@ -26,8 +26,8 @@
       "Anxiety & OCD"
     ],
     "summary": "Investigates the relationship between social anxiety and rumination patterns, examining how repetitive negative thinking maintains social anxiety symptomatology.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Post-event rumination is a key mechanism that maintains social anxiety by reinforcing negative self-imagery and threat appraisals after social encounters. Therapists should directly target repetitive negative thinking through techniques such as detached mindfulness, rumination-focused CBT, and behavioral experiments that test feared social outcomes. Intervening on rumination may yield greater symptom reduction than standard exposure alone.",
+    "relevant_for": "Therapists specializing in social anxiety disorder and CBT",
     "published": null,
     "link": null
   },
@@ -42,8 +42,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Uses EMA methodology to capture real-time data on NSSI urges and behaviors, providing ecological validity to understanding self-injury patterns in daily life.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Ecological momentary assessment reveals that NSSI urges and acts are often preceded by specific real-time emotional and interpersonal triggers that retrospective self-report fails to capture. Clinicians can use these findings to develop individualized safety plans grounded in patients' actual daily patterns rather than assumed risk factors. Incorporating brief between-session EMA check-ins may also improve crisis prediction and timely intervention delivery.",
+    "relevant_for": "Dialectical behavior therapy (DBT) clinicians working with self-harm",
     "published": null,
     "link": null
   },
@@ -58,8 +58,8 @@
       "Neurodivergence"
     ],
     "summary": "Examines ADHD through a neurodiversity-affirming lens, discussing implications for clinical practice and assessment approaches that move beyond deficit-based models.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "A neurodiversity-affirming approach reframes ADHD traits as variations in cognition rather than deficits, reducing internalized stigma and improving therapeutic alliance. Therapists should adapt assessment to include strengths-based measures and collaborate with clients on environmental accommodations rather than solely targeting symptom reduction. This shift can improve treatment engagement, especially among adults who have had negative experiences with pathologizing clinical models.",
+    "relevant_for": "Clinical psychologists conducting adult ADHD assessments",
     "published": null,
     "link": null
   },
@@ -75,8 +75,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Reviews the role of intolerance of uncertainty across clinical presentations, with implications for transdiagnostic treatment approaches.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Intolerance of uncertainty is a transdiagnostic maintaining factor across anxiety, depression, and obsessive-compulsive presentations, making it a high-yield treatment target regardless of primary diagnosis. Therapists can integrate uncertainty exposure and metacognitive strategies into existing protocols to address this common thread. Assessing IU at intake helps clinicians anticipate treatment barriers such as avoidance, reassurance-seeking, and therapy non-completion.",
+    "relevant_for": "Transdiagnostic CBT practitioners and clinical psychologists",
     "published": null,
     "link": null
   },
@@ -91,8 +91,8 @@
       "Couples Therapy & Sexology"
     ],
     "summary": "Examines therapeutic approaches for couples navigating relationship challenges following acquired brain injury, addressing the intersection of neurological and relational factors.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Standard couples therapy models often fail when one partner has an acquired brain injury because cognitive, emotional, and communication changes require significant adaptation. Therapists need to integrate psychoeducation about neurological sequelae, modify communication exercises for cognitive-linguistic deficits, and address grief and identity shifts in both partners. Tailoring interventions to the specific cognitive profile of the injured partner can significantly improve relational outcomes.",
+    "relevant_for": "Couples therapists working in neuropsychological rehabilitation settings",
     "published": null,
     "link": null
   },
@@ -108,8 +108,8 @@
       "Psychosis & Schizophrenia"
     ],
     "summary": "Investigates cognitive functioning in bipolar disorder, examining cognitive deficits across mood phases and their impact on functional outcomes.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Cognitive deficits in bipolar disorder persist during euthymic periods and directly impair occupational and social functioning, yet are rarely addressed in standard mood-stabilization treatment. Therapists should incorporate cognitive remediation strategies and compensatory techniques into treatment plans alongside pharmacotherapy and psychoeducation. Regular cognitive screening can help differentiate whether functional difficulties are driven by mood symptoms, cognitive impairment, or both.",
+    "relevant_for": "Psychiatrists and clinical psychologists treating bipolar disorder",
     "published": null,
     "link": null
   },
@@ -124,8 +124,8 @@
       "Eating Disorders"
     ],
     "summary": "Applies network analysis methods to understand symptom interactions in eating disorders, identifying central symptoms and potential treatment targets.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Network analysis identifies specific central symptoms in eating disorders—such as fear of weight gain or body dissatisfaction—that, when targeted, may produce cascading improvements across the broader symptom network. Clinicians can use these findings to prioritize treatment targets and track network-level change rather than focusing solely on global symptom severity. This approach supports more efficient allocation of limited therapy time toward the most impactful intervention points.",
+    "relevant_for": "Eating disorder specialists and clinical psychologists",
     "published": null,
     "link": null
   },
@@ -141,8 +141,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines predictors and patterns of depression treatment outcomes, identifying factors associated with response and non-response.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Understanding predictors of non-response to depression treatment—such as comorbid personality pathology, early adversity, or cognitive reserve—allows clinicians to proactively adjust treatment intensity or modality before a full trial fails. Therapists should systematically track early change signals and be prepared to switch or augment interventions by session 6-8 if expected trajectories are not observed. This evidence supports a measurement-based care model rather than a wait-and-see approach.",
+    "relevant_for": "Outpatient mental health clinicians treating major depressive disorder",
     "published": null,
     "link": null
   },
@@ -157,8 +157,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Explores the therapeutic model and clinical applications of PEP (Prescriptive Experiential Psychotherapy) as an approach to emotional processing.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Prescriptive Experiential Psychotherapy (PEP) provides a structured yet emotion-focused framework that guides therapists in selecting specific experiential interventions based on session-by-session markers of emotional processing. Clinicians can use PEP's prescriptive principles to determine when to deepen emotional experiencing, when to use chair work, and when to shift to reflective meaning-making. This model offers a bridge between manualized protocols and the flexibility demanded by complex clinical presentations.",
+    "relevant_for": "Emotion-focused therapists and experiential psychotherapy practitioners",
     "published": null,
     "link": null
   },
@@ -173,8 +173,8 @@
       "Mood Disorders"
     ],
     "summary": "Further examination of N-of-1 causal methods for understanding individual depression trajectories and personalized treatment planning.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Extended N-of-1 causal methods move beyond identifying triggers to modeling time-lagged causal chains within individual depression trajectories, enabling truly personalized treatment planning. Therapists can use individual causal graphs collaboratively with clients to visually demonstrate how specific behaviors, thoughts, and contexts cascade into depressive episodes and where intervention points lie. This methodology is particularly valuable for patients with atypical or non-linear depression courses.",
+    "relevant_for": "Clinical psychologists specializing in personalized depression treatment",
     "published": null,
     "link": null
   },
@@ -189,8 +189,8 @@
       "Anxiety & OCD"
     ],
     "summary": "Investigates therapeutic interventions targeting rumination in social anxiety disorder, examining mechanisms of change.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Targeting rumination in social anxiety requires distinct strategies from standard exposure, including cognitive defusion from post-event review, attention training to interrupt self-focused processing, and behavioral experiments that directly test rumination content. Therapists should assess rumination frequency and its functional role at intake, as high ruminators may need extended treatment or integration of third-wave CBT techniques. Reducing rumination appears to enhance the durability of exposure gains by preventing relapse through negative self-review.",
+    "relevant_for": "CBT therapists treating social anxiety disorder",
     "published": null,
     "link": null
   },
@@ -205,8 +205,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Methodological advances in using ecological momentary assessment to study nonsuicidal self-injury in naturalistic settings.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Advances in EMA methodology for NSSI research offer clinicians practical tools for implementing real-time monitoring in clinical practice, such as smartphone-based urge tracking between sessions. These tools can transform safety planning from a static document into a dynamic, data-informed process that evolves with the patient's real-world patterns. Clinicians adopting EMA-informed approaches may detect worsening trajectories earlier and intervene before self-injury occurs.",
+    "relevant_for": "Clinical researchers and DBT clinicians studying self-injury",
     "published": null,
     "link": null
   },
@@ -221,8 +221,8 @@
       "Neurodivergence"
     ],
     "summary": "Proposes neurodiversity-affirming frameworks for ADHD assessment that complement traditional diagnostic approaches.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Neurodiversity-affirming ADHD assessment frameworks complement traditional diagnostic criteria by incorporating strengths profiles, environmental fit analysis, and self-identified support needs. Clinicians using these frameworks can provide more validating assessment feedback and co-create intervention plans that prioritize environmental adaptation over behavioral conformity. This is especially important for adults, women, and people of color who are frequently missed or misdiagnosed by standard assessments.",
+    "relevant_for": "Neuropsychologists and clinical psychologists conducting ADHD evaluations",
     "published": null,
     "link": null
   },
@@ -238,8 +238,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Systematic review of intolerance of uncertainty as a transdiagnostic construct across anxiety, depression, and related disorders.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This systematic review confirms that intolerance of uncertainty maintains pathology across anxiety disorders, depression, OCD, and PTSD, making it one of the most robust transdiagnostic targets available. Clinicians should consider adding a dedicated IU-focused module—such as uncertainty exposure, behavioral experiments with deliberate ambiguity, or metacognitive therapy for worry—to any protocol where IU is elevated. Measuring IU change during treatment can serve as an early indicator of broader symptom improvement.",
+    "relevant_for": "Transdiagnostic therapists and CBT clinicians across anxiety and mood disorders",
     "published": null,
     "link": null
   },
@@ -254,8 +254,8 @@
       "Couples Therapy & Sexology"
     ],
     "summary": "Examines how acquired brain injury affects couple dynamics and reviews adapted couples therapy approaches for this population.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Acquired brain injury disrupts established couple dynamics through cognitive, emotional, and role changes that require specifically adapted therapeutic approaches. Therapists must balance validating the non-injured partner's experience of loss and caregiver burden while supporting the injured partner's identity reconstruction. Structured communication frameworks, psychoeducation about neurobehavioral changes, and phased treatment that accounts for recovery trajectory are essential components of effective intervention.",
+    "relevant_for": "Marriage and family therapists in rehabilitation settings",
     "published": null,
     "link": null
   },
@@ -270,8 +270,8 @@
       "Mood Disorders"
     ],
     "summary": "Meta-analytic review of cognitive impairments in bipolar disorder across different mood states and treatment phases.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Meta-analytic findings confirm that cognitive impairments in bipolar disorder are not limited to acute episodes but represent a trait-level vulnerability affecting executive function, verbal memory, and processing speed. Therapists should advocate for cognitive accommodations at work and in daily life, use compensatory strategies during therapy sessions, and set realistic functional expectations. Incorporating cognitive rehabilitation exercises alongside mood management may improve both occupational outcomes and treatment adherence.",
+    "relevant_for": "Psychiatrists and neuropsychologists managing bipolar disorder",
     "published": null,
     "link": null
   },
@@ -286,8 +286,8 @@
       "Eating Disorders"
     ],
     "summary": "Network analysis of eating disorder symptoms identifying bridge symptoms between core ED pathology and comorbid conditions.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Identifying bridge symptoms between eating disorder pathology and comorbid conditions—such as perfectionism linking ED symptoms to anxiety, or emotional dysregulation linking to depression—enables clinicians to target nodes with the greatest cross-disorder impact. Therapists should map individual symptom networks at intake and prioritize interventions on bridge symptoms to simultaneously reduce ED severity and comorbid distress. This network-informed approach may reduce the need for separate sequential treatments.",
+    "relevant_for": "Eating disorder clinicians treating patients with complex comorbidity",
     "published": null,
     "link": null
   },
@@ -303,8 +303,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Examines the relationship between disinhibition and anankastia (obsessive-compulsive personality traits) and their differential associations with clinical outcomes across disorders.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The differential impact of disinhibition versus anankastia on clinical outcomes suggests that personality profiling using these dimensions can guide treatment selection and prognostic planning. High disinhibition may predict impulsive self-harm, substance use, and therapy dropout, warranting a focus on distress tolerance and behavioral regulation. High anankastia may predict rigidity, treatment over-engagement without change, and obsessive coping, requiring flexible pacing and attention to therapeutic alliance.",
+    "relevant_for": "Personality disorder specialists and clinical psychologists",
     "published": null,
     "link": null
   },
@@ -319,8 +319,8 @@
       "Neurodivergence"
     ],
     "summary": "Develops and evaluates personalised mental health interventions tailored to the specific needs of autistic adults, moving beyond one-size-fits-all approaches.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Personalized mental health interventions for autistic adults significantly outperform generic approaches when they account for sensory sensitivities, social communication differences, and alexithymia in treatment delivery. Therapists should adapt session pacing, use visual supports, offer written session summaries, and avoid implicit social demands that standard protocols assume. Co-designing treatment goals with autistic clients around self-identified priorities rather than neurotypical benchmarks improves both engagement and outcomes.",
+    "relevant_for": "Clinical psychologists and therapists working with autistic adults",
     "published": null,
     "link": null
   },
@@ -336,8 +336,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Reviews and evaluates mobile applications designed to monitor and support autistic individuals experiencing suicidal ideation, assessing their clinical utility and accessibility.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Mobile apps for suicidality monitoring in autistic populations can bridge the accessibility gap created by difficulties with in-person crisis disclosure and alexithymic presentations. Clinicians should integrate app-based mood and urge tracking into safety plans, enabling real-time data sharing between sessions and more responsive care. Selecting apps with sensory-friendly interfaces, clear visual cues, and optional caregiver alerts is critical for adoption in this population.",
+    "relevant_for": "Crisis clinicians and autism spectrum disorder specialists",
     "published": null,
     "link": null
   },
@@ -353,8 +353,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines the potential of MDMA-assisted psychotherapy as a treatment for social anxiety disorder, discussing proposed mechanisms and preliminary evidence.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "MDMA-assisted therapy may reduce social anxiety by lowering threat sensitivity, increasing emotional openness, and enhancing the therapeutic alliance during exposure to social fear memories. If preliminary evidence holds, this approach could benefit treatment-resistant social anxiety patients who have not responded to multiple CBT or pharmacotherapy trials. Clinicians should stay informed of regulatory developments and clinical trial results to appropriately counsel interested patients about benefits, risks, and evidence status.",
+    "relevant_for": "Clinical trial therapists and psychedelic-assisted therapy researchers",
     "published": null,
     "link": null
   },
@@ -370,8 +370,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Uses natural language processing to analyze therapy session transcripts and predict patient adherence, with implications for early identification of drop-out risk.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "NLP-based analysis of session transcripts can identify subtle linguistic markers of disengagement and dropout risk—such as reduced emotional word use, increased pronoun distance, or topic avoidance—weeks before a patient actually leaves treatment. Clinicians and clinic managers can use these tools as an early warning system to trigger check-ins, motivational enhancement, or treatment plan adjustments. Integrating automated adherence prediction into electronic health records could become a standard quality improvement tool.",
+    "relevant_for": "Community mental health clinic directors and psychotherapy researchers",
     "published": null,
     "link": null
   },
@@ -386,8 +386,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Applies large language models to study the relationship between intolerance of uncertainty and PTSD symptomatology, demonstrating novel computational approaches to trauma research.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Computational modeling with LLMs reveals that intolerance of uncertainty interacts with PTSD symptom clusters in nuanced ways, particularly by amplifying hyperarousal and avoidance through catastrophic uncertainty appraisals about future threat. Therapists treating trauma should directly assess IU and incorporate uncertainty tolerance training alongside trauma-focused work to address this maintaining factor. This approach may be especially important for patients whose PTSD presentations include prominent anticipatory anxiety and safety behaviors.",
+    "relevant_for": "Trauma-focused therapists and EMDR practitioners",
     "published": null,
     "link": null
   },
@@ -403,8 +403,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Develops computational models of overgeneral autobiographical memory, a transdiagnostic cognitive marker common in depression and PTSD.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Overgeneral autobiographical memory is a transdiagnostic marker that therapists can assess using the Autobiographical Memory Test. Computational modeling of this phenomenon enables more precise identification of patients at risk for treatment non-response, allowing clinicians to target memory specificity training (e.g., MEST) early in treatment to improve outcomes in both depression and PTSD.",
+    "relevant_for": "CBT therapists and trauma specialists working with depression and PTSD",
     "published": null,
     "link": null
   },
@@ -419,8 +419,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Uses a dismantling design to identify the active components of virtual reality-based self-compassion interventions, determining which elements drive therapeutic change.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Understanding which VR components—such as embodied perspective-taking, visual immersion, or compassionate avatar interaction—drive therapeutic change allows clinicians to adopt the most cost-effective elements of VR self-compassion interventions. Therapists integrating technology into practice can prioritize evidence-backed VR features while using traditional self-compassion exercises for the remaining components.",
+    "relevant_for": "Clinicians incorporating virtual reality and digital therapeutics into practice",
     "published": null,
     "link": null
   },
@@ -435,8 +435,8 @@
       "Other Clinical"
     ],
     "summary": "Paper curated from PsyArXiv for clinical relevance based on the established curation criteria. Full details available in the original Discord post.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This paper addresses a clinical topic curated for relevance to evidence-based practice. Clinicians should review the full preprint for specific findings applicable to their therapeutic approach and population.",
+    "relevant_for": "Clinicians seeking emerging evidence-based updates across practice areas",
     "published": null,
     "link": null
   },
@@ -451,8 +451,8 @@
       "Other Clinical"
     ],
     "summary": "Paper curated from PsyArXiv for clinical relevance based on the established curation criteria. Full details available in the original Discord post.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This paper contributes to the clinical literature on a topic identified as relevant to practice. Therapists should consult the original preprint for detailed methodology and clinical recommendations that may inform assessment or intervention strategies.",
+    "relevant_for": "Practitioners monitoring current developments in clinical psychology research",
     "published": null,
     "link": null
   },
@@ -467,8 +467,8 @@
       "Other Clinical"
     ],
     "summary": "Paper curated from PsyArXiv for clinical relevance based on the established curation criteria. Full details available in the original Discord post.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This curated paper addresses a clinically relevant question in the evidence base. Reviewing the original source can inform assessment strategies or intervention refinements for the relevant clinical population described in the preprint.",
+    "relevant_for": "Evidence-based clinicians looking to integrate recent preprint findings",
     "published": null,
     "link": null
   },
@@ -483,8 +483,8 @@
       "Other Clinical"
     ],
     "summary": "Paper curated from PsyArXiv for clinical relevance based on the established curation criteria. Full details available in the original Discord post.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This preprint was selected for its potential to influence clinical decision-making. Clinicians are encouraged to evaluate the original study's methods and consider how its findings might apply to their treatment protocols and case formulations.",
+    "relevant_for": "Therapists and clinical researchers focused on emerging psychotherapy research",
     "published": null,
     "link": null
   },
@@ -499,8 +499,8 @@
       "Other Clinical"
     ],
     "summary": "Paper curated from PsyArXiv for clinical relevance based on the established curation criteria. Full details available in the original Discord post.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This paper was identified as clinically relevant through systematic curation. Practitioners should review the original preprint for specific implications regarding assessment, formulation, or intervention with the population studied.",
+    "relevant_for": "Clinical psychologists and trainees seeking to stay current with preprint literature",
     "published": null,
     "link": null
   },
@@ -515,8 +515,8 @@
       "Other Clinical"
     ],
     "summary": "Paper curated from PsyArXiv for clinical relevance based on the established curation criteria. Full details available in the original Discord post.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This curated paper addresses a topic with direct or indirect implications for therapeutic practice. Clinicians should consult the full text to evaluate the strength of evidence and relevance to their specific clinical context and client presentations.",
+    "relevant_for": "Mental health professionals monitoring PsyArXiv for practice-relevant research",
     "published": null,
     "link": null
   },
@@ -532,8 +532,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines the therapeutic potential of nature-based prescriptions and green care interventions for trauma recovery, reviewing evidence for mechanisms and clinical outcomes.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Nature-based prescriptions offer an accessible, low-stigma adjunct to trauma-focused therapy by leveraging outdoor environments to support affect regulation and grounding. Therapists can collaboratively develop nature-exposure plans with clients—such as structured walks or horticultural activities—to complement traditional trauma processing work and enhance between-session regulation skills.",
+    "relevant_for": "Trauma-focused therapists and those working in integrated or holistic treatment settings",
     "published": null,
     "link": null
   },
@@ -549,8 +549,8 @@
       "Couples Therapy & Sexology"
     ],
     "summary": "Applies network analysis to understand the dynamics of intimate partner violence, identifying central maintaining factors and potential intervention targets.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Network analysis reveals which factors—such as jealousy, substance use, or emotional dysregulation—most centrally maintain intimate partner violence cycles, allowing therapists to prioritize intervention targets rather than addressing all problems equally. Clinicians can use these network-informed formulations to design more efficient treatment plans that disrupt the most influential pathways in the violence-maintaining system.",
+    "relevant_for": "Domestic violence intervention specialists and couples therapists working with relationship aggression",
     "published": null,
     "link": null
   },
@@ -566,8 +566,8 @@
       "Somatic & Functional"
     ],
     "summary": "Investigates how anxiety becomes associated with conditioned somatic sensations, with implications for understanding panic disorder and health anxiety.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Recognizing that somatic symptoms can become conditioned triggers for anxiety helps therapists reframe interoceptive cues as learned associations rather than evidence of medical illness. Clinicians can integrate interoceptive exposure and conditioning-based psychoeducation into treatment for panic disorder and health anxiety, directly targeting the learned fear responses that maintain these conditions.",
+    "relevant_for": "Therapists specializing in panic disorder, health anxiety, and somatic symptom presentations",
     "published": null,
     "link": null
   },
@@ -582,8 +582,8 @@
       "Somatic & Functional"
     ],
     "summary": "Analyzes how traumatic brain injury affects discourse production, specifically topic shifts in conversation, with implications for social communication rehabilitation.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Difficulty with topic maintenance after TBI can undermine social relationships and therapy engagement, yet this communication deficit is often overlooked in standard cognitive rehabilitation. Clinicians should assess discourse coherence during intake and incorporate conversational scaffolding strategies—such as explicit topic-tracking cues and structured dialogue exercises—into rehabilitation and psychotherapy sessions.",
+    "relevant_for": "Neuropsychologists and rehabilitation therapists working with TBI patients",
     "published": null,
     "link": null
   },
@@ -598,8 +598,8 @@
       "Psychosis & Schizophrenia"
     ],
     "summary": "Critically examines potential harms arising from early psychosis intervention, including stigma, identity disruption, and over-treatment, calling for balanced approaches.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Early psychosis programs, while beneficial, can inadvertently stigmatize young people and disrupt identity development through labeling and intensive treatment demands. Clinicians should adopt a shared decision-making approach, carefully weighing the benefits of early intervention against risks of pathologizing normative experiences, and preserve the young person's sense of agency throughout treatment.",
+    "relevant_for": "Clinicians and case managers in early psychosis intervention services",
     "published": null,
     "link": null
   },
@@ -614,8 +614,8 @@
       "Mood Disorders"
     ],
     "summary": "Investigates the relationship between community belonging and mental health outcomes among LGBTIQ+ individuals, examining protective factors within minority stress frameworks.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Community belonging functions as a powerful buffer against minority stress, suggesting that therapists should actively assess and facilitate clients' connections to affirming social networks as part of treatment. Clinicians can integrate resource mapping and community referral into therapy, helping LGBTIQ+ clients build supportive relationships that complement individual-level coping strategies for depression and anxiety.",
+    "relevant_for": "LGBTQ+-affirming therapists and mental health clinicians working with sexual and gender minority clients",
     "published": null,
     "link": null
   },
@@ -631,8 +631,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Proposes an AI-driven taxonomy for classifying psychotherapy processes, using computational methods to identify common factors and therapeutic mechanisms.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "An AI-derived taxonomy of therapy processes can help supervisors and trainers identify which therapist behaviors and interaction patterns are most associated with good outcomes across modalities. Clinicians can use these computational frameworks to refine their case conceptualization skills, recognize effective intervention patterns, and engage in more targeted self-reflection on their in-session techniques.",
+    "relevant_for": "Psychotherapy supervisors, trainers, and process researchers",
     "published": null,
     "link": null
   },
@@ -648,8 +648,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines predictors of treatment outcomes in depression, identifying patient-level and therapy-level factors associated with response.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Identifying specific predictors of depression treatment response enables clinicians to make more informed decisions about treatment selection and intensity at the outset of care. Therapists can use patient-level factors—such as chronicity and comorbidity—to set realistic expectations, adjust treatment pacing, and consider stepping up to alternative interventions earlier when poor-response indicators are present.",
+    "relevant_for": "Clinicians treating depressive disorders in outpatient and community settings",
     "published": null,
     "link": null
   },
@@ -664,8 +664,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Details the PEP therapeutic model and its application to various clinical presentations, discussing its theoretical foundations and practical implementation.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "PEP offers a structured yet flexible framework that combines experiential techniques with prescriptive treatment matching, allowing therapists to tailor interventions based on patient presentation and readiness. Clinicians can draw on PEP's principles to select and sequence experiential exercises—such as chair work, imagery, and emotional focusing—based on formulation-driven treatment planning rather than a one-size-fits-all approach.",
+    "relevant_for": "Experiential and emotion-focused therapists seeking integrative treatment frameworks",
     "published": null,
     "link": null
   },
@@ -680,8 +680,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Introduces the MTIIF, a framework for understanding and treating complex trauma presentations that integrates multiple trauma exposures and their interacting effects.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The MTIIF provides a structured approach to conceptualizing how multiple trauma exposures interact to create complex clinical presentations, moving beyond single-event trauma models. Therapists can use this framework to map the cumulative and interactive effects of repeated traumas, prioritize which trauma narratives to process first, and anticipate how processing one memory may activate or clarify others.",
+    "relevant_for": "Trauma therapists working with complex PTSD and multiply-traumatized clients",
     "published": null,
     "link": null
   },
@@ -696,8 +696,8 @@
       "Personality Disorders"
     ],
     "summary": "Examines ways in which borderline personality disorder treatment can inadvertently cause harm, identifying systemic and clinical factors contributing to iatrogenic outcomes.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "BPD treatment can inadvertently cause harm through therapist burnout-driven invalidation, rigid boundary enforcement that feels punitive, or over-reliance on crisis services that reinforce dependency. Clinicians should monitor for signs of iatrogenic deterioration—such as increasing crisis frequency—and adjust their approach using consistent validation, collaborative treatment goals, and regular treatment reviews.",
+    "relevant_for": "DBT and mentalization-based therapy clinicians treating borderline personality disorder",
     "published": null,
     "link": null
   },
@@ -713,8 +713,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Reviews cognitive bias modification for interpretation as a treatment for anxiety disorders, examining its efficacy and mechanisms of action.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "CBM-I provides a structured, accessible adjunct to traditional anxiety treatment by directly training patients to reinterpret ambiguous information in a less threatening way. Therapists can assign CBM-I exercises as between-session homework or use them in-session to complement cognitive restructuring, particularly for clients who struggle to engage in verbal Socratic questioning or have limited insight into their biased interpretations.",
+    "relevant_for": "CBT practitioners treating anxiety disorders, especially with resistant or mild-moderate presentations",
     "published": null,
     "link": null
   },
@@ -730,8 +730,8 @@
       "Mood Disorders"
     ],
     "summary": "Meta-analytic review of cognitive reappraisal as an emotion regulation strategy, examining its efficacy across disorders and identifying moderators of effectiveness.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This meta-analysis clarifies when and for whom cognitive reappraisal is most effective, helping therapists determine whether to prioritize this strategy or complement it with alternative emotion regulation techniques. Clinicians can use the identified moderators—such as disorder type, symptom severity, or cognitive capacity—to personalize reappraisal training and set appropriate expectations for its role within a broader emotion regulation repertoire.",
+    "relevant_for": "CBT and emotion-focused therapists treating mood and anxiety disorders",
     "published": null,
     "link": null
   },
@@ -746,8 +746,8 @@
       "Couples Therapy & Sexology"
     ],
     "summary": "Reviews evidence for different couples therapy approaches, comparing efficacy across presenting problems and identifying common change mechanisms.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Understanding the comparative efficacy and common change mechanisms across couples therapy models helps clinicians select the most appropriate approach for specific relational presentations. Therapists can focus on identified common factors—such as improved communication and emotional responsiveness—while choosing the modality that best fits the couple's conflict style and attachment dynamics.",
+    "relevant_for": "Couples therapists and marriage and family therapists selecting evidence-based treatment approaches",
     "published": null,
     "link": null
   },
@@ -762,8 +762,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Investigates how patients disclose suicidal ideation in clinical settings and how clinicians respond, identifying gaps and best practices for suicide risk assessment.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Patients often disclose suicidality indirectly or incrementally, meaning clinicians must be attuned to subtle verbal and nonverbal cues rather than relying solely on direct questioning. Therapists should create explicit opportunities for disclosure, respond with nonjudgmental validation rather than immediate risk-management reflexes, and use collaborative safety planning that preserves the therapeutic alliance while ensuring appropriate care escalation.",
+    "relevant_for": "All mental health clinicians conducting suicide risk assessments in any treatment setting",
     "published": null,
     "link": null
   },
@@ -779,8 +779,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Applies sentiment analysis to text-based therapy transcripts, demonstrating computational approaches to monitoring therapeutic process and patient affect.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Computational sentiment analysis of therapy transcripts can detect shifts in patient affect that may not be apparent to the therapist in real-time, serving as a potential early warning system for treatment deterioration. Clinicians offering text-based therapy or supervision can use these tools to review session patterns, identify emotional themes that warrant follow-up, and track progress in a more quantifiable way alongside clinical judgment.",
+    "relevant_for": "Therapists providing online text-based therapy and clinical supervisors monitoring session quality",
     "published": null,
     "link": null
   },
@@ -796,8 +796,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Reviews anhedonia as a transdiagnostic construct across depression, schizophrenia, and substance use disorders, examining shared mechanisms.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Recognizing anhedonia as a transdiagnostic target allows therapists to move beyond disorder-specific protocols and apply reward-sensitization interventions — such as behavioral activation, positive event scheduling, and approach-oriented exposure — across depression, schizophrenia, and substance use presentations. Clinicians should routinely assess anhedonia severity using tools like the SHAPS and address reward-processing deficits early in treatment to prevent chronicity and functional decline.",
+    "relevant_for": "Clinicians treating mood disorders, psychosis, and addiction in community mental health settings",
     "published": null,
     "link": null
   },
@@ -812,8 +812,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Systematic review of MDMA's effects on social functioning, with implications for understanding its therapeutic mechanism in social anxiety and PTSD.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "MDMA's pro-social effects — including enhanced trust, empathy, and reduced fear of social evaluation — suggest it may serve as a catalyst for processing interpersonal trauma in PTSD and social anxiety treatment. Therapists integrating MDMA-assisted therapy should prepare patients for intensified emotional processing sessions and plan structured integration work afterward to consolidate relational gains into daily life.",
+    "relevant_for": "Clinicians providing MDMA-assisted psychotherapy for PTSD and social anxiety",
     "published": null,
     "link": null
   },
@@ -829,8 +829,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines how romantic partners regulate each other's emotions, and how interpersonal emotion regulation patterns relate to relationship and individual mental health outcomes.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Couples therapists should assess not only how each partner self-regulates emotions but how they co-regulate or dysregulate each other, identifying patterns such as co-rumination, emotional flooding, or dismissive responses that perpetuate distress. Interventions targeting interpersonal emotion regulation — like teaching partners to accurately read and responsively soothe each other's emotional states — can improve both relationship satisfaction and individual mental health outcomes.",
+    "relevant_for": "Couples and family therapists working with relational distress and emotional dysregulation",
     "published": null,
     "link": null
   },
@@ -846,8 +846,8 @@
       "Anxiety & OCD"
     ],
     "summary": "Investigates how depression is associated with过度generalization of avoidance behaviors, linking depressive cognition to behavioral patterns across contexts.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Depressed patients often generalize avoidance from one stressful context to many unrelated situations, reinforcing behavioral withdrawal and depressive maintenance. Therapists should use behavioral experiments and graded exposure to help clients discriminate between contexts where avoidance was originally adaptive versus where it now functions as a barrier, directly targeting this overgeneralization pattern within CBT protocols.",
+    "relevant_for": "CBT practitioners treating depression with comorbid anxiety and avoidance behaviors",
     "published": null,
     "link": null
   },
@@ -863,8 +863,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Examines the experience and impact of self-stigma among individuals with dissociative disorders, including its effects on help-seeking and treatment engagement.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Self-stigma in dissociative disorders significantly undermines help-seeking and treatment engagement, meaning therapists must address internalized shame as a primary treatment target rather than assuming clients will readily disclose symptoms. Psychoeducation about the neurobiological basis of dissociation, normalizing experiences, and incorporating compassion-focused or acceptance-based approaches can reduce self-stigma and improve retention in phase-based trauma treatment.",
+    "relevant_for": "Trauma therapists specializing in dissociative disorders and complex PTSD",
     "published": null,
     "link": null
   },
@@ -880,8 +880,8 @@
       "Mood Disorders"
     ],
     "summary": "Investigates the relationship between state mindfulness and repetitive negative thinking, examining mindfulness as a moderator of rumination and worry.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Momentary mindfulness appears to disrupt the escalation of repetitive negative thinking, suggesting therapists should teach clients brief, in-session mindfulness exercises — such as anchored breathing or body scan micro-practices — to use at the first sign of rumination or worry. Rather than relying solely on formal meditation homework, clinicians should emphasize state-level mindfulness as a real-time coping skill accessible during daily stressors.",
+    "relevant_for": "Mindfulness-based therapists and CBT practitioners treating rumination and generalized worry",
     "published": null,
     "link": null
   },
@@ -896,8 +896,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Analyzes patterns of emotional synchrony and discord between therapists and clients during sessions, linking affect dynamics to treatment outcomes.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Therapists should develop awareness of their own emotional patterns during sessions, as moments of affective synchrony can deepen therapeutic alliance while persistent discord may signal ruptures needing repair. Training in affect attunement — monitoring and subtly matching or complementing the client's emotional tone — can be a practical skill for improving outcomes, particularly with clients who have difficulty identifying and expressing emotions.",
+    "relevant_for": "Psychodynamic and relational psychotherapists focused on the therapeutic alliance",
     "published": null,
     "link": null
   },
@@ -913,8 +913,8 @@
       "Personality Disorders"
     ],
     "summary": "Examines the diagnostic overlap between ADHD and personality disorders in adults, discussing differential diagnosis and treatment implications of comorbidity.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The diagnostic overlap between ADHD and personality disorders frequently leads to misdiagnosis or missed comorbidity, so clinicians should conduct thorough developmental histories and use validated ADHD screening tools even when personality pathology is prominent. Accurate differentiation matters because ADHD-responsive treatments — such as stimulant medication, executive function coaching, and CBT-ADHD protocols — may reduce functional impairment that has been misattributed solely to personality dysfunction.",
+    "relevant_for": "Psychiatrists and clinical psychologists conducting adult ADHD and personality disorder assessments",
     "published": null,
     "link": null
   },
@@ -929,8 +929,8 @@
       "Neurodivergence"
     ],
     "summary": "Qualitative exploration of shame experiences among autistic adults, examining how masking, social difficulties, and societal attitudes contribute to chronic shame.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Autistic adults carry pervasive shame rooted in years of masking, social rejection, and internalized ableism that often goes unaddressed in standard autism-supportive therapy. Clinicians should explicitly explore shame narratives, validate the exhaustion of camouflaging, and use interventions from compassion-focused therapy or radical acceptance frameworks to help clients decouple their self-worth from neurotypical social expectations.",
+    "relevant_for": "Neurodiversity-affirming therapists working with autistic adults",
     "published": null,
     "link": null
   },
@@ -945,8 +945,8 @@
       "Psychosis & Schizophrenia"
     ],
     "summary": "Proposes a reconceptualization of relapse in schizophrenia that moves beyond symptom-based definitions to incorporate functional and subjective recovery dimensions.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Redefining relapse in schizophrenia to include functional decline and subjective loss of well-being — not just symptom recurrence — allows clinicians to intervene earlier and more holistically. Therapists should collaboratively monitor functional markers such as social withdrawal, daily routine disruption, and self-reported quality of life alongside traditional symptom ratings, enabling preemptive adjustment of psychosocial and pharmacological interventions before full relapse occurs.",
+    "relevant_for": "Community mental health teams and ACT/CBT practitioners in early intervention for psychosis",
     "published": null,
     "link": null
   },
@@ -962,8 +962,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Meta-analytic review of future thinking fluency across clinical populations, examining its role as a cognitive marker for depression and suicidality.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Impaired future thinking fluency — difficulty generating specific, vivid mental representations of future events — is a robust cognitive marker for depression and suicidality that therapists can assess and target directly. Clinicians should incorporate future-oriented interventions such as positive future imagery exercises, goal-setting with mental simulation, and values-based behavioral activation to strengthen prospective thinking and reduce suicide risk.",
+    "relevant_for": "Suicide risk assessors and CBT therapists working with depressed and suicidal patients",
     "published": null,
     "link": null
   },
@@ -978,8 +978,8 @@
       "Neurodivergence"
     ],
     "summary": "Reviews camouflaging behaviors in autism and ADHD, examining their mental health consequences and implications for assessment accuracy in adults.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Camouflaging in autism and ADHD is associated with significant mental health costs including burnout, anxiety, and delayed diagnosis, so assessors must look beyond surface presentation and use multi-informant or self-report measures that capture internal experience. Therapists should support clients in reducing compensatory masking where safe and appropriate, and address the underlying anxiety and identity confusion that camouflaging creates rather than reinforcing assimilation to neurotypical norms.",
+    "relevant_for": "Neuropsychologists and diagnosticians assessing adult autism and ADHD",
     "published": null,
     "link": null
   },
@@ -995,8 +995,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Meta-analysis of predictors of premature psychotherapy dropout, identifying patient, therapist, and treatment-level risk factors.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "With identified predictors of premature dropout spanning patient expectations, therapeutic alliance quality, and structural barriers, clinicians should proactively address dropout risk at intake by negotiating clear treatment goals, discussing expectations openly, and monitoring alliance early. Implementing routine outcome monitoring and providing motivational enhancement at critical early sessions can significantly improve retention, especially for clients with personality pathology, low readiness for change, or practical access barriers.",
+    "relevant_for": "Clinic directors and therapists seeking to improve treatment retention across modalities",
     "published": null,
     "link": null
   },
@@ -1012,8 +1012,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines emerging evidence for psilocybin-assisted therapy in treating alcohol use disorder, discussing proposed mechanisms and preliminary clinical data.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Psilocybin-assisted therapy shows preliminary promise for reducing alcohol use by promoting insight into addictive patterns, enhancing motivation for change, and fostering a sense of meaning beyond substance use. Clinicians working in addiction settings should stay informed about emerging regulatory developments and be prepared to integrate preparation and integration psychotherapy sessions around psychedelic experiences, while maintaining evidence-based relapse prevention strategies as the core of treatment.",
+    "relevant_for": "Addiction psychiatrists and therapists exploring psychedelic-assisted treatments for substance use disorders",
     "published": null,
     "link": null
   },
@@ -1028,8 +1028,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Proposes a theoretical framework for understanding holotropic (non-ordinary) states in psychotherapy and their potential therapeutic applications.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "A framework for understanding holotropic or non-ordinary states of consciousness provides therapists with a conceptual map for working with clients who experience altered states through meditation, breathwork, spiritual emergencies, or psychedelic use. Clinicians can use this framework to normalize these experiences, distinguish between transformative and destabilizing states, and integrate insights from non-ordinary consciousness into conventional psychotherapy without pathologizing the experience.",
+    "relevant_for": "Transpersonal therapists and clinicians working with spiritual or psychedelic experiences",
     "published": null,
     "link": null
   },
@@ -1045,8 +1045,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Develops and validates an inventory measuring responses to suicidal ideation, creating a tool for clinical assessment of how patients manage suicidal thoughts.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This new inventory for measuring how patients respond to and manage suicidal ideation gives clinicians a structured way to assess protective cognitive and behavioral strategies — such as reason-giving, distraction, and help-seeking — alongside risk factors. Therapists can use it to identify which coping responses a patient lacks, then target those specific deficits in safety planning and skills-based interventions like DBT's crisis survival strategies.",
+    "relevant_for": "Suicide prevention clinicians and DBT therapists conducting risk formulations",
     "published": null,
     "link": null
   },
@@ -1061,8 +1061,8 @@
       "Personality Disorders"
     ],
     "summary": "Investigates hostile attribution bias across personality disorders, examining how interpersonal perception distortions maintain pathological personality patterns.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Hostile attribution bias — the tendency to interpret ambiguous social cues as intentionally harmful — is a key maintaining factor in personality pathology, particularly in borderline and paranoid presentations. Therapists should use social information-processing training, mentalization-based techniques, and real-time interpersonal experiments within sessions to help clients slow their automatic interpretations, consider alternative explanations, and test biases through behavioral experiments.",
+    "relevant_for": "Schema therapists and MBT practitioners treating personality disorders",
     "published": null,
     "link": null
   },
@@ -1078,8 +1078,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Tests whether machine learning algorithms can predict optimal therapist-patient matching, reporting null results that challenge assumptions about algorithmic matching.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The null findings for algorithmic therapist-patient matching suggest that resources currently invested in complex matching systems may be better directed toward training all therapists in evidence-based alliance-building skills and common factors. Clinic administrators should focus on ensuring consistent treatment quality, robust supervision, and regular outcome feedback rather than relying on proprietary matching algorithms to improve patient outcomes.",
+    "relevant_for": "Behavioral health clinic administrators and healthcare system designers",
     "published": null,
     "link": null
   },
@@ -1094,8 +1094,8 @@
       "Psychosis & Schizophrenia"
     ],
     "summary": "Uses ecological momentary assessment to study alterations in time-passage experience in schizophrenia, linking temporal distortion to symptom severity.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Alterations in the subjective experience of time passing are common in schizophrenia and correlate with symptom severity, meaning therapists should routinely assess temporal distortions as part of symptom monitoring. Grounding techniques, structured daily scheduling, and mindfulness-based attention to present-moment anchoring can help patients re-establish a more stable sense of temporal flow, potentially reducing dissociative and psychotic experiences.",
+    "relevant_for": "Psychosis clinicians and occupational therapists in community mental health",
     "published": null,
     "link": null
   },
@@ -1111,8 +1111,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Dismantles the relationship between different mindfulness facets and depression, identifying which specific mindfulness components drive therapeutic change.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Not all mindfulness facets contribute equally to depression reduction; this dismantling research suggests therapists should prioritize teaching non-judgmental awareness and decentering over generic relaxation or attentional focus. By identifying which specific mindfulness skills drive improvement for a given patient, clinicians can personalize mindfulness-based interventions rather than delivering one-size-fits-all protocols.",
+    "relevant_for": "MBCT and mindfulness-based therapists treating recurrent depression",
     "published": null,
     "link": null
   },
@@ -1128,8 +1128,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial testing psychological distancing interventions for prolonged grief, examining effects on emotional processing and adjustment to loss.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Psychological distancing techniques — helping bereaved individuals observe grief-related thoughts and memories from a detached, third-person perspective — show promise in RCTs for reducing prolonged grief symptom severity. Therapists should teach clients concrete distancing strategies such as temporal distancing, linguistic distancing in journaling, and imagery rescripting to facilitate adaptive emotional processing without emotional avoidance or rumination.",
+    "relevant_for": "Grief counselors and bereavement therapists treating complicated or prolonged grief",
     "published": null,
     "link": null
   },
@@ -1145,8 +1145,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines early maladaptive schema patterns in gay men, exploring how minority stress and developmental experiences interact with schema formation.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Gay men often carry early maladaptive schemas shaped by minority stress experiences such as rejection, concealment, and internalized homophobia, which schema therapists should explicitly assess and link to developmental context. Treatment should integrate schema-mode work with affirming approaches that validate these experiences as responses to systemic oppression rather than individual pathology, targeting schemas like defectiveness/shame, social isolation, and emotional deprivation.",
+    "relevant_for": "Schema therapists and LGBTQ+-affirming clinicians working with sexual minority men",
     "published": null,
     "link": null
   },
@@ -1162,8 +1162,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Investigates the relationship between ADHD in women and experiences of adversity, examining gender-specific pathways and their clinical implications.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Women with ADHD frequently experience cumulative adversity — including relationship violence, educational dismissal, and medical misattribution of symptoms — creating a cycle where undiagnosed ADHD increases adversity risk and adversity worsens ADHD impairment. Clinicians should maintain a high index of suspicion for ADHD in women presenting with trauma histories, and integrate executive function support into trauma-informed treatment to address both pathways simultaneously.",
+    "relevant_for": "Women's mental health clinicians and trauma therapists assessing for ADHD in adult women",
     "published": null,
     "link": null
   },
@@ -1179,8 +1179,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines the mechanisms by which cognitive behavioral therapy for insomnia (CBT-I) improves depression outcomes, testing whether sleep improvement mediates mood change.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "CBT-I improves depression largely through direct sleep improvement rather than nonspecific therapy effects, supporting the use of CBT-I as a first-line intervention for comorbid insomnia and depression rather than waiting for mood symptoms to remit first. Therapists treating depressed patients with sleep complaints should prioritize sleep restriction, stimulus control, and cognitive restructuring of sleep-related beliefs early in treatment, as sleep gains appear to catalyze broader mood improvement.",
+    "relevant_for": "CBT therapists and sleep medicine clinicians treating comorbid insomnia and depression",
     "published": null,
     "link": null
   },
@@ -1195,8 +1195,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Identifies predictors of dropout from group-based CBT programs and proposes strategies for improving retention in group therapy settings.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Therapists running group CBT can proactively screen for identified dropout risk factors at intake and early sessions, then implement targeted retention strategies such as orientation sessions, group cohesion exercises, and early check-ins with at-risk members. Monitoring engagement patterns session-by-session allows timely intervention before disengagement solidifies.",
+    "relevant_for": "Group CBT facilitators in community mental health and outpatient clinics",
     "published": null,
     "link": null
   },
@@ -1212,8 +1212,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial of cognitive bias modification for interpretation in social anxiety disorder, testing its efficacy as a standalone and adjunctive intervention.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "CBM-I offers a low-burden digital adjunct that therapists can assign as homework to help social anxiety patients practice interpreting ambiguous social scenarios in a non-threatening way. It can be used as a stepping-stone for patients too avoidant to begin exposure therapy, or layered alongside standard CBT to accelerate threat-bias reduction.",
+    "relevant_for": "CBT practitioners treating social anxiety disorder in private and outpatient settings",
     "published": null,
     "link": null
   },
@@ -1229,8 +1229,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Longitudinal study identifying predictors of intimate partner violence perpetration, examining individual, relational, and contextual risk factors.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians conducting couples assessments can use the identified risk factor profiles to inform structured risk formulations, enabling earlier identification of escalating dynamics. Findings support integrating individual-level risk screening (e.g., emotion dysregulation, substance use) into couples therapy intake to guide safety planning and targeted referrals.",
+    "relevant_for": "Couples therapists and domestic violence intervention program clinicians",
     "published": null,
     "link": null
   },
@@ -1246,8 +1246,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Examines the interaction between childhood maltreatment and oxytocin receptor gene (OXTR) variants in predicting adult psychopathology.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "While OXTR genotyping is not yet ready for routine clinical use, these findings reinforce that patients with maltreatment histories and certain oxytocin receptor profiles may be at heightened risk for relational and affective psychopathology. Therapists should prioritize trauma-informed relational approaches and may pay particular attention to attachment difficulties in this subgroup.",
+    "relevant_for": "Trauma-focused psychologists and clinical researchers in developmental psychopathology",
     "published": null,
     "link": null
   },
@@ -1263,8 +1263,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Investigates how contingency instructions affect fear extinction learning, with implications for optimizing exposure therapy protocols.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Therapists conducting exposure therapy should carefully consider how they frame the rationale for extinction — explicit contingency instructions that clarify the safety of the exposure context can enhance inhibitory learning. This supports using more precise psychoeducation scripts that specify why feared outcomes no longer apply in the exposure setting.",
+    "relevant_for": "Exposure therapists and anxiety disorder treatment specialists",
     "published": null,
     "link": null
   },
@@ -1279,8 +1279,8 @@
       "Personality Disorders"
     ],
     "summary": "Further examination of the relationship between behavioral disinhibition and anankastic traits across clinical and non-clinical populations.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Understanding the co-occurrence of disinhibition and anankastic (obsessive-compulsive) traits helps clinicians recognize a clinically challenging presentation where impulsivity and rigidity coexist. Treatment planning should address both poles — using behavioral strategies for disinhibition while respecting the patient's need for structure to avoid therapeutic resistance.",
+    "relevant_for": "Personality disorder specialists and clinicians in forensic or specialist personality services",
     "published": null,
     "link": null
   },
@@ -1295,8 +1295,8 @@
       "Neurodivergence"
     ],
     "summary": "Explores the experiences and support needs of autistic parents, examining the intersection of neurodivergence and parenting demands.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians supporting autistic parents should assess for sensory overload, social camouflaging fatigue, and executive function demands specific to parenting rather than assuming standard parenting interventions fit. Adapting parent-training programs to accommodate neurodivergent processing styles and offering practical environmental accommodations can significantly improve family functioning.",
+    "relevant_for": "Perinatal and family clinicians working with neurodivergent populations",
     "published": null,
     "link": null
   },
@@ -1312,8 +1312,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Critically examines the evidence for repressed memory recovery in therapy, addressing the ongoing scientific debate about memory repression and its clinical implications.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Therapists working with trauma patients should exercise caution with memory recovery techniques, as the evidence base for repressed memory remains contested. Best practice involves using memory-grounding strategies, avoiding suggestive questioning, and focusing on present-day symptom management rather than pursuing recovered memories as a treatment goal.",
+    "relevant_for": "Trauma therapists and EMDR practitioners",
     "published": null,
     "link": null
   },
@@ -1328,8 +1328,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Develops and validates a clinical tool for measuring cognitive rigidity, testing its psychometric properties and clinical utility in a randomized design.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "A validated cognitive rigidity measure enables therapists to systematically track flexibility as a treatment target across conditions like OCD, depression, and personality disorders. Clinicians can administer the tool at intake and at intervals to monitor whether interventions such as behavioral experiments or schema work are producing measurable shifts in cognitive flexibility.",
+    "relevant_for": "Clinical psychologists and neuropsychologists in assessment and therapy roles",
     "published": null,
     "link": null
   },
@@ -1344,8 +1344,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Meta-analysis examining the therapeutic alliance in blended (online + face-to-face) mental health care, comparing alliance quality and its relationship with outcomes across modalities.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians delivering blended care should actively invest in alliance-building during both in-person and digital components, as the meta-analytic findings clarify which digital touchpoints most strengthen the therapeutic bond. Structured video check-ins, personalized feedback on online modules, and consistent therapist presence across platforms are key leverage points.",
+    "relevant_for": "Telehealth and blended-care mental health providers",
     "published": null,
     "link": null
   },
@@ -1361,8 +1361,8 @@
       "Somatic & Functional"
     ],
     "summary": "Uses network analysis to examine the relationship between interoceptive awareness and dissociative experiences, identifying pathways between body awareness and dissociation.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Network findings suggest that targeting interoceptive awareness through grounded body-based techniques (e.g., body scanning, mindfulness of internal sensations) may reduce dissociative symptoms by disrupting key pathways. Therapists can sequence interventions so that interoceptive grounding is established before processing trauma memories, creating a more stable foundation for exposure-based work.",
+    "relevant_for": "Trauma therapists and clinicians treating dissociative disorders and functional neurological symptoms",
     "published": null,
     "link": null
   },
@@ -1378,8 +1378,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Applies causal machine learning methods to match patients to optimal depression interventions, demonstrating a precision psychiatry approach to treatment selection.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "As causal machine learning tools for treatment matching mature, clinicians in stepped-care systems can use them to make more informed first-line treatment recommendations for depression rather than relying solely on clinical judgment or simple symptom checklists. This supports moving toward data-driven referral pathways that match patient profiles to CBT, IPT, behavioral activation, or pharmacotherapy.",
+    "relevant_for": "Clinical directors and care coordinators in large mental health systems",
     "published": null,
     "link": null
   },
@@ -1394,8 +1394,8 @@
       "Anxiety & OCD"
     ],
     "summary": "Investigates feedback-seeking behaviors in social anxiety disorder, examining how reassurance-seeking patterns maintain social anxiety and negative self-beliefs.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Therapists should assess for excessive feedback-seeking and reassurance patterns as maintaining factors in social anxiety, and address them through behavioral experiments that test the patient's ability to tolerate uncertainty about others' evaluations. Reducing digital reassurance-seeking (e.g., monitoring social media reactions) should be a specific behavioral target in treatment plans.",
+    "relevant_for": "CBT therapists specializing in social anxiety disorder",
     "published": null,
     "link": null
   },
@@ -1411,8 +1411,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Reviews the clinical characteristics of maladaptive daydreaming, examining its relationship with psychopathology and proposing assessment approaches.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians should screen for maladaptive daydreaming in patients presenting with excessive fantasy absorption, procrastination, or difficulty distinguishing internal imagery from external goals. Treatment can draw on behavioral activation and mindfulness to reduce compulsive daydreaming episodes, helping patients reallocate attentional resources toward valued life activities.",
+    "relevant_for": "Outpatient therapists and psychiatrists assessing patients with excessive fantasy or dissociative-absorptive presentations",
     "published": null,
     "link": null
   },
@@ -1428,8 +1428,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines how men experience the therapeutic relationship in depression treatment, identifying gender-specific factors that influence engagement and outcomes.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Therapists treating men for depression should attend to gendered barriers such as reluctance to disclose vulnerability, discomfort with emotional exploration, and preferences for action-oriented or problem-solving approaches. Adapting the therapeutic frame to include collaborative goal-setting, skill-building, and normalizing help-seeking can significantly improve engagement and outcomes for male patients.",
+    "relevant_for": "Psychologists and counselors treating depression in men's health and primary care settings",
     "published": null,
     "link": null
   },
@@ -1445,8 +1445,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Surveys clinicians about their depression assessment practices, identifying gaps between evidence-based recommendations and real-world clinical practice.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The identified gaps between recommended and actual depression assessment practices highlight the need for clinicians to adopt structured, measurement-based screening tools (e.g., PHQ-9) as standard intake and progress-monitoring procedures. Integrating routine symptom tracking into electronic health records and audit workflows can close these evidence-to-practice gaps.",
+    "relevant_for": "Primary care mental health clinicians and outpatient psychiatric assessors",
     "published": null,
     "link": null
   },
@@ -1461,8 +1461,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Identifies predictors of suicidal ideation in transgender adults, examining the role of minority stress, social support, and gender-affirming factors.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians working with transgender adults should routinely assess minority stressors, access to gender-affirming care, and social support as part of suicide risk formulation. Affirming therapeutic stances combined with active facilitation of gender-affirming resources and community connection serve as protective factors that should be central to treatment planning.",
+    "relevant_for": "LGBTQ+-affirming therapists and suicide risk assessors in community and crisis settings",
     "published": null,
     "link": null
   },
@@ -1478,8 +1478,8 @@
       "Psychosis & Schizophrenia"
     ],
     "summary": "Systematic review of virtual reality interventions in psychiatric care from the end-user perspective, examining patient experiences and preferences.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians considering VR interventions should prioritize patient acceptability and comfort, using end-user preferences to guide session length, immersion level, and the degree of therapist accompaniment. VR exposure for anxiety and psychosis can be highly effective when patients feel in control of the virtual environment and understand the therapeutic rationale.",
+    "relevant_for": "Psychologists integrating digital therapeutics and VR-based exposure into clinical practice",
     "published": null,
     "link": null
   },
@@ -1495,8 +1495,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Investigates emotion regulation difficulties in functional neurological disorder (FND), examining how affect regulation strategies relate to symptom presentation.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Assessing and targeting emotion regulation difficulties should be central to treating FND, with therapists helping patients develop adaptive strategies such as distress tolerance, affect labeling, and graduated exposure to avoided emotions. Psychoeducation that normalizes the link between emotional processing and neurological symptoms reduces stigma and improves treatment engagement.",
+    "relevant_for": "Neuropsychiatrists and therapists in functional neurological disorder specialty clinics",
     "published": null,
     "link": null
   },
@@ -1511,8 +1511,8 @@
       "Neurodivergence"
     ],
     "summary": "Systematic review of character strengths in individuals with ADHD, examining positive psychological resources and their relationship to functioning.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians working with ADHD patients should identify and leverage character strengths such as creativity, humor, and perseverance in treatment planning, using strengths-based approaches alongside symptom management. Incorporating VIA character strength assessments into sessions can boost self-efficacy and provide a counter-narrative to the deficit-focused lens patients often internalize.",
+    "relevant_for": "ADHD clinicians and positive psychology practitioners in child and adult ADHD services",
     "published": null,
     "link": null
   },
@@ -1528,8 +1528,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Evaluates the safety of AI-powered mental health chatbots, identifying potential risks and proposing safety frameworks for clinical deployment.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians considering AI chatbot adjuncts should adopt proposed safety frameworks, including clear informed consent about AI limitations, crisis escalation protocols, and regular human oversight of chatbot interactions. AI tools should be positioned as supplements to — not replacements for — therapeutic relationships, with explicit boundaries about their scope.",
+    "relevant_for": "Digital mental health program directors and clinicians integrating AI tools into practice",
     "published": null,
     "link": null
   },
@@ -1545,8 +1545,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial of a self-help intervention for clinical perfectionism, testing its efficacy and examining mechanisms of change.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "A validated self-help protocol for perfectionism gives clinicians a structured bibliotherapy option to offer patients on waitlists or as a low-intensity step in a stepped-care model. Therapists can also extract specific CBT techniques from the manual (e.g., behavioral experiments challenging all-or-nothing standards) to integrate into individual sessions for perfectionistic presentations.",
+    "relevant_for": "CBT therapists and guided self-help practitioners in university counseling and eating disorder services",
     "published": null,
     "link": null
   },
@@ -1561,8 +1561,8 @@
       "Neurodivergence"
     ],
     "summary": "Examines sex and gender differences in camouflaging behaviors among autistic adults, with implications for assessment and support.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Assessors should account for camouflaging differences across sex and gender when screening for autism, as women and gender-diverse individuals may mask traits more effectively, leading to missed or delayed diagnoses. Tailoring clinical interviews to probe for hidden autistic features — such as internal distress from masking, sensory coping strategies, and social exhaustion — improves diagnostic accuracy.",
+    "relevant_for": "Autism assessment clinicians and neuropsychologists in adult diagnostic services",
     "published": null,
     "link": null
   },
@@ -1578,8 +1578,8 @@
       "Mood Disorders"
     ],
     "summary": "Adapts dialectical behavior therapy coaching principles for preventing and addressing burnout among social activists, extending DBT beyond traditional clinical populations.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "DBT skills such as distress tolerance, emotion regulation, and self-validation can be adapted into coaching formats for activists experiencing chronic burnout from sustained advocacy work. Clinicians in community and organizational settings can offer brief DBT-informed psychoeducation workshops that help activists recognize early burnout signs and apply actionable coping strategies.",
+    "relevant_for": "Community psychologists and organizational mental health consultants working with advocacy and nonprofit groups",
     "published": null,
     "link": null
   },
@@ -1595,8 +1595,8 @@
       "Somatic & Functional"
     ],
     "summary": "Uses Delphi methodology to develop consensus on which CBT process strategies best match different chronic pain presentations, creating a clinical decision-making framework.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Provides a consensus-based decision framework to help clinicians select the most appropriate CBT process strategies—such as cognitive restructuring, behavioral activation, or acceptance-based techniques—for specific chronic pain presentations rather than applying a one-size-fits-all protocol. Therapists can use this framework during case conceptualization to tailor interventions, potentially improving outcomes for patients who have not responded to standard CBT for pain.",
+    "relevant_for": "Pain psychologists and behavioral medicine clinicians working in multidisciplinary chronic pain clinics",
     "published": null,
     "link": null
   },
@@ -1612,8 +1612,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial of internet-based cognitive behavioral therapy for panic disorder, examining efficacy and comparing guided and unguided formats.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Demonstrates that internet-based CBT for panic disorder can be effective, with guided formats likely showing superior outcomes to unguided ones. Clinicians can consider recommending guided iCBT as a scalable first-line or stepped-care option for patients with panic disorder, particularly those in underserved areas or who prefer remote treatment, while maintaining therapist oversight to maximize engagement and outcomes.",
+    "relevant_for": "CBT therapists and anxiety disorder specialists expanding into digital or telehealth service delivery",
     "published": null,
     "link": null
   },
@@ -1629,8 +1629,8 @@
       "Mood Disorders"
     ],
     "summary": "Investigates how the ability to identify causes of one's emotions relates to the persistence of suicidal thoughts, with implications for emotion-focused interventions.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Suggests that difficulty identifying the causes of one's emotions may contribute to the persistence of suicidal thoughts, pointing to alexithymia or emotional awareness deficits as therapeutic targets. Clinicians should assess and explicitly build clients' capacity for emotion cause identification—using skills from emotion-focused therapy or dialectical behavior therapy—as part of suicide risk interventions to help disrupt the ruminative cycles that maintain suicidal ideation.",
+    "relevant_for": "Suicide prevention clinicians and crisis intervention therapists working with high-risk clients",
     "published": null,
     "link": null
   },
@@ -1646,8 +1646,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Introduces the SPACE Framework for supporting autistic individuals in clinical practice, providing a structured approach to neurodiversity-affirming care.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Introduces a structured, neurodiversity-affirming framework (SPACE) that guides clinicians in adapting their assessment, formulation, and intervention approaches for autistic clients. Therapists can use this model to move beyond deficit-based models, ensuring sensory sensitivities, communication preferences, and social context are systematically addressed in treatment planning and session structure.",
+    "relevant_for": "Neurodiversity-affirming therapists and clinicians assessing or treating autistic adults in outpatient settings",
     "published": null,
     "link": null
   },
@@ -1663,8 +1663,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Tests whether song-making activities can facilitate belief updating in individuals with paranoid ideation, exploring creative arts-based approaches to psychosis treatment.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Shows that creative, non-verbal approaches like song-making can facilitate belief updating in individuals with paranoid ideation, offering an alternative pathway when traditional cognitive techniques face resistance. Therapists working with psychosis can incorporate structured creative arts activities to indirectly challenge rigid paranoid beliefs, particularly for clients who struggle with direct cognitive disputation or verbal confrontation.",
+    "relevant_for": "Psychosis therapists and early intervention in psychosis (EIP) team clinicians",
     "published": null,
     "link": null
   },
@@ -1679,8 +1679,8 @@
       "Eating Disorders"
     ],
     "summary": "Ecological momentary assessment study of emotion regulation strategies in eating disorders, examining real-time associations between ER and disordered eating behaviors.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Reveals real-time associations between specific emotion regulation strategies and disordered eating behaviors as they unfold in daily life, allowing therapists to pinpoint which ER strategies (e.g., suppression vs. reappraisal) serve as proximal triggers or buffers for bingeing or purging episodes. Clinicians can use these findings to personalize ER skills training, helping clients develop situation-specific regulation plans that target their unique antecedent patterns.",
+    "relevant_for": "Eating disorder therapists and registered dietitians working in outpatient or residential ED treatment",
     "published": null,
     "link": null
   },
@@ -1696,8 +1696,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Applies dynamic network analysis to understand symptom interactions in prolonged grief disorder, identifying central symptoms and temporal patterns of symptom activation.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Identifies central symptoms and temporal activation patterns in prolonged grief disorder through network analysis, suggesting which symptoms act as primary drivers of the grief network at different stages. Clinicians can prioritize targeting these bridge or central symptoms—such as yearning or identity disruption—early in treatment to produce cascading improvements across the broader symptom network, optimizing the sequencing of grief-focused interventions.",
+    "relevant_for": "Grief counselors, bereavement therapists, and complicated grief treatment providers",
     "published": null,
     "link": null
   },
@@ -1712,8 +1712,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Describes the cultural adaptation of virtual reality-enhanced CBT for Inuit communities, addressing cultural and logistical barriers to mental health care in remote populations.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Demonstrates that VR-enhanced CBT can be successfully adapted for Inuit communities when cultural values, language, and local imagery are integrated into the virtual environments. Clinicians serving remote or Indigenous populations can leverage culturally adapted VR-CBT to overcome geographic barriers while respecting cultural context, potentially improving engagement and reducing dropout in communities with limited access to mental health services.",
+    "relevant_for": "Telepsychology clinicians and cultural adaptation specialists working with remote Indigenous populations",
     "published": null,
     "link": null
   },
@@ -1729,8 +1729,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Identifies systemic and individual barriers to addressing sleep problems in mental health treatment settings, proposing organizational changes to integrate sleep care.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Highlights that sleep problems are frequently overlooked in mental health treatment settings due to both systemic barriers (e.g., lack of screening protocols) and individual clinician factors (e.g., low confidence in sleep interventions). Clinicians and clinic directors should advocate for routine sleep screening at intake, integrate basic sleep hygiene and CBT-I principles into treatment plans, and pursue training in evidence-based sleep interventions to address this critical comorbidity.",
+    "relevant_for": "Community mental health clinicians and clinical directors in outpatient psychiatric settings",
     "published": null,
     "link": null
   },
@@ -1745,8 +1745,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Explores how clients perceive ongoing suicide risk monitoring practices, identifying factors that influence acceptability and therapeutic alliance.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Reveals that how clients experience ongoing suicide risk monitoring can significantly affect the therapeutic relationship, with some perceiving it as caring and others as intrusive or stigmatizing. Clinicians should transparently discuss the purpose of risk monitoring with clients, invite collaboration in safety planning, and regularly check in on how monitoring practices are experienced to preserve alliance while maintaining safety.",
+    "relevant_for": "All therapists and counselors who conduct ongoing suicide risk assessment in any clinical setting",
     "published": null,
     "link": null
   },
@@ -1762,8 +1762,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial testing virtual reality-enhanced cognitive behavioral interventions for depression, examining added benefit over standard CBT.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Tests whether adding virtual reality environments to standard CBT enhances depression treatment outcomes, potentially through immersive behavioral activation or cognitive restructuring scenarios. If effective, clinicians could incorporate VR-based exercises—such as virtual exposure to rewarding activities or perspective-taking environments—to augment traditional CBT, particularly for clients who struggle with imaginal techniques or have limited access to real-world activation opportunities.",
+    "relevant_for": "CBT practitioners and depression treatment specialists with access to VR technology",
     "published": null,
     "link": null
   },
@@ -1778,8 +1778,8 @@
       "Personality Disorders"
     ],
     "summary": "Examines the characteristics and functions of inner speech in BPD, linking dialogic inner speech to identity diffusion and emotional dysregulation.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Links disturbed inner speech patterns—such as fragmented self-dialogue and poor internal coherence—to core BPD features including identity diffusion and emotional dysregulation. Therapists can use this understanding to help clients develop a more coherent and compassionate internal voice through techniques like chair work, voice dialogue, or structured journaling, directly targeting the intrapsychic processes that underlie BPD instability.",
+    "relevant_for": "DBT and schema therapy clinicians treating borderline personality disorder",
     "published": null,
     "link": null
   },
@@ -1795,8 +1795,8 @@
       "Psychosis & Schizophrenia"
     ],
     "summary": "Uses fMRI to investigate how ketamine affects neural correlates of rumination, providing neurobiological evidence for ketamine's rapid antidepressant mechanism.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Provides neurobiological evidence that ketamine rapidly disrupts the neural circuits underlying repetitive negative thinking (rumination), suggesting a mechanism beyond simple mood elevation. Clinicians overseeing ketamine-assisted therapy can leverage this by timing psychotherapeutic interventions to coincide with the post-infusion window when rumination pathways are most disrupted, potentially enhancing the integration of cognitive and behavioral strategies for treatment-resistant depression.",
+    "relevant_for": "Psychiatrists and psychotherapists involved in ketamine-assisted psychotherapy programs",
     "published": null,
     "link": null
   },
@@ -1812,8 +1812,8 @@
       "Mood Disorders"
     ],
     "summary": "Examines how contextual factors (social setting, task demands, time of day) influence the selection and effectiveness of emotion regulation strategies.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Shows that the effectiveness of emotion regulation strategies varies substantially depending on context (social setting, task demands, time of day), challenging the assumption that certain strategies are universally adaptive. Therapists should teach clients flexible ER repertoires rather than promoting a fixed set of strategies, and use functional analysis to help clients match regulation approaches to the specific situational demands they face in daily life.",
+    "relevant_for": "Emotion-focused therapists and DBT skills group facilitators",
     "published": null,
     "link": null
   },
@@ -1829,8 +1829,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Investigates how temporal proximity between conditioned stimuli and unconditioned stimuli affects fear learning, with implications for exposure therapy timing.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Demonstrates that the temporal gap between a feared cue and an aversive outcome influences the strength and persistence of fear learning, with implications for how exposure therapy sessions are designed. Clinicians can use these findings to optimize the timing and spacing of exposure exercises—for example, by considering whether the feared outcome is perceived as immediate or delayed—to maximize fear extinction and reduce the likelihood of fear renewal between sessions.",
+    "relevant_for": "Exposure therapists and anxiety disorder specialists using prolonged exposure or fear extinction protocols",
     "published": null,
     "link": null
   },
@@ -1846,8 +1846,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Develops and validates a short-form version of the Clinician-Administered Dissociative States Scale (CADSS) for efficient dissociation screening in clinical settings.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Offers a validated short-form dissociation screening tool that retains the psychometric properties of the full CADSS while being practical for busy clinical settings. Clinicians can incorporate this brief measure into routine intakes and ongoing monitoring for clients with trauma histories, enabling faster identification of dissociative symptoms that may require targeted intervention such as grounding techniques or phase-based trauma treatment.",
+    "relevant_for": "Trauma therapists and intake assessors in community mental health and hospital-based settings",
     "published": null,
     "link": null
   },
@@ -1862,8 +1862,8 @@
       "Neurodivergence"
     ],
     "summary": "Explores the phenomenon of diagnostic doubt among adults who receive an autism diagnosis, examining its psychological impact and implications for post-diagnostic support.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Reveals that many adults experience significant doubt following an autism diagnosis, which can undermine the very sense of identity and self-understanding the diagnosis was meant to provide. Clinicians conducting or supporting adult autism assessments should proactively address diagnostic doubt in post-diagnostic sessions, normalizing ambivalence while helping clients integrate the diagnosis into their self-narrative through psychoeducation and identity exploration work.",
+    "relevant_for": "Neuropsychologists and therapists conducting adult autism assessments and post-diagnostic counseling",
     "published": null,
     "link": null
   },
@@ -1879,8 +1879,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines bulimia nervosa through an object relations psychodynamic lens, exploring how early relational patterns manifest in disordered eating.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Frames bulimia nervosa as rooted in early relational disturbances and internalized object relations, suggesting that binging and purging serve functions related to managing internalized relational conflicts rather than solely body image concerns. Psychodynamic therapists can use this formulation to explore transference patterns, early attachment wounds, and the symbolic meaning of disordered eating behaviors, complementing CBT approaches with deeper relational work for clients who have not responded to symptom-focused treatment alone.",
+    "relevant_for": "Psychodynamic psychotherapists and eating disorder specialists integrating psychodynamic and CBT approaches",
     "published": null,
     "link": null
   },
@@ -1896,8 +1896,8 @@
       "Couples Therapy & Sexology"
     ],
     "summary": "Meta-analysis using the actor-partner interdependence model to examine how mindfulness in one partner affects relationship outcomes for both partners.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Shows that one partner's mindfulness practice can produce cross-over benefits for relationship satisfaction in the other partner, supporting the inclusion of individual mindfulness training within couples therapy. Therapists can recommend that even one partner engage in regular mindfulness practice as a lever for improving dyadic outcomes, or incorporate brief mindfulness exercises into couples sessions to strengthen both partners' relational awareness and reactivity regulation.",
+    "relevant_for": "Couples therapists and relationship counselors integrating mindfulness-based interventions",
     "published": null,
     "link": null
   },
@@ -1913,8 +1913,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Uses EMA to examine the real-time relationship between dissociative experiences and functional neurological symptoms.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Uses real-time EMA data to establish that dissociative experiences and functional neurological (conversion) symptoms fluctuate together in daily life, suggesting dissociation may be a proximal trigger for symptom exacerbation. Clinicians can teach clients with functional neurological disorder to recognize early dissociative states and use grounding or orienting techniques as a preemptive strategy, potentially reducing the frequency or severity of functional symptoms.",
+    "relevant_for": "Clinical neuropsychologists and therapists treating functional neurological disorder (conversion disorder)",
     "published": null,
     "link": null
   },
@@ -1930,8 +1930,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Critically examines the evidence base for CBT in eating disorders, identifying populations and contexts where CBT may be less effective.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Critically examines the limits of CBT's evidence base in eating disorders, identifying specific subgroups—such as those with severe personality comorbidity, long illness duration, or anorexia nervosa—where CBT outcomes are less robust. Clinicians should consider alternative or adjunctive approaches such as DBT, psychodynamic therapy, or specialist eating disorder models when clients with eating disorders do not respond to standard CBT-ED, rather than persisting with an approach that may not be the optimal fit.",
+    "relevant_for": "Eating disorder treatment teams and clinical supervisors guiding evidence-based ED practice",
     "published": null,
     "link": null
   },
@@ -1946,8 +1946,8 @@
       "Psychosis & Schizophrenia"
     ],
     "summary": "Investigates the relationship between paranoid ideation and hallucinatory experiences in social contexts.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Demonstrates that paranoid ideation and hallucinatory experiences are closely linked in social contexts, suggesting that social threat perception may drive both symptom domains simultaneously. Therapists can address both paranoia and social hallucinations through integrated social cognition interventions—such as social skills training, virtual social exposure, or metacognitive reflection—rather than treating these as separate symptom clusters, potentially improving outcomes for clients with comorbid psychotic features.",
+    "relevant_for": "Clinical psychologists in early psychosis programs and community mental health teams treating schizophrenia-spectrum disorders",
     "published": null,
     "link": null
   },
@@ -1962,8 +1962,8 @@
       "Somatic & Functional"
     ],
     "summary": "Develops and tests a comprehensive model of coping with chronic pain, identifying adaptive and maladaptive coping pathways.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Presents a comprehensive coping model for chronic pain that distinguishes adaptive pathways (e.g., acceptance, paced activity) from maladaptive ones (e.g., catastrophizing, avoidance), providing a clear map for intervention targeting. Clinicians can use this model to assess which coping pathway a client is on, then selectively reinforce adaptive strategies while restructuring maladaptive ones within a CBT or ACT framework for pain management.",
+    "relevant_for": "Pain management psychologists and occupational therapists in chronic pain rehabilitation programs",
     "published": null,
     "link": null
   },
@@ -1979,8 +1979,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Introduces a trauma-informed practice model (TVI) for structuring trauma therapy sessions.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Introduces the TVI (Trauma-informed) practice model as a structured framework for organizing trauma therapy sessions, ensuring safety, pacing, and stabilization are systematically addressed before and during trauma processing. Clinicians can adopt this model to improve session planning and reduce the risk of client destabilization during trauma-focused work, providing a clear roadmap for when to use grounding, resource-building, and processing techniques within and across sessions.",
+    "relevant_for": "Trauma-focused therapists and EMDR practitioners seeking structured session-planning frameworks",
     "published": null,
     "link": null
   },
@@ -1996,8 +1996,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial of EEG neurofeedback as a treatment for PTSD, examining effects on symptom reduction and neural regulation.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "EEG neurofeedback offers a non-pharmacological avenue for PTSD patients who have not responded to first-line trauma therapies by directly training neural regulation patterns. Clinicians could consider it as an adjunctive treatment, particularly for patients with prominent hyperarousal or dissociative symptoms where traditional exposure-based approaches may be poorly tolerated.",
+    "relevant_for": "Trauma-focused therapists and neuropsychologists working with treatment-resistant PTSD patients",
     "published": null,
     "link": null
   },
@@ -2012,8 +2012,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Uses network analysis to differentiate between passive and active suicidal ideation, identifying distinct network structures and clinical implications.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Distinguishing between passive and active suicidal ideation through network structures helps clinicians identify which bridging symptoms signal escalation from passive wishes to active planning. This allows for more targeted risk monitoring and intervention at the specific network nodes that drive transitions to higher-risk states.",
+    "relevant_for": "Suicide risk assessors and crisis intervention clinicians in emergency and inpatient settings",
     "published": null,
     "link": null
   },
@@ -2029,8 +2029,8 @@
       "Personality Disorders"
     ],
     "summary": "Examines how structural stigma affects individuals with comorbid CPTSD and BPD, identifying systemic barriers to care.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Individuals with comorbid CPTSD and BPD face compounded stigma from both diagnostic labels and structural barriers in healthcare systems, leading to fragmented care and treatment avoidance. Clinicians must actively counter institutional stigma by validating patients' experiences, advocating for integrated trauma-personality treatment pathways, and examining their own diagnostic biases.",
+    "relevant_for": "Clinicians in community mental health and personality disorder treatment programs",
     "published": null,
     "link": null
   },
@@ -2046,8 +2046,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Describes the cultural adaptation of dialectical behavior therapy for reducing nonsuicidal self-injury in specific cultural contexts.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Adapting DBT skills training to align with cultural values and communication styles significantly improves engagement and reduces nonsuicidal self-injury in diverse populations. Therapists should incorporate cultural formulations into DBT skills coaching, ensuring that examples, metaphors, and behavioral chain analyses resonate with the client's cultural context.",
+    "relevant_for": "DBT therapists working with culturally diverse and immigrant populations",
     "published": null,
     "link": null
   },
@@ -2062,8 +2062,8 @@
       "Personality Disorders"
     ],
     "summary": "Examines differential item functioning of BPD symptom measures across sexual orientations, assessing measurement equivalence.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Standard BPD measures may function differently across sexual orientations, potentially leading to over- or under-diagnosis of BPD in LGBTQ+ individuals. Clinicians should interpret BPD assessment results with caution for sexual minority clients, supplementing standardized measures with culturally sensitive clinical interviews that distinguish identity-related distress from personality pathology.",
+    "relevant_for": "Assessors and diagnosticians evaluating BPD in LGBTQ+ populations",
     "published": null,
     "link": null
   },
@@ -2079,8 +2079,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines the mechanisms of intensive short-term dynamic psychotherapy (ISTDP) in treatment-resistant depression, identifying active therapeutic ingredients.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "ISTDP appears effective for treatment-resistant depression through mechanisms involving the unlocking of blocked emotions and resolution of unconscious anxiety pathways. Therapists working with chronically depressed patients who have failed CBT or medication may find ISTDP's focus on somatic experiencing of blocked emotions and defense restructuring to be a viable alternative approach.",
+    "relevant_for": "Psychodynamic therapists treating chronic and treatment-resistant depression",
     "published": null,
     "link": null
   },
@@ -2095,8 +2095,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Applies the influential machine vision (IMV) model to analyze suicide attempt networks, identifying risk pathways.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The IMV model applied to suicide attempt networks clarifies the distinct pathways from ideation through to action, identifying key intervention points where clinicians can disrupt the chain. Therapists can use this framework to map individual patients' risk pathways and intervene specifically at the volitional modulation stage—addressing acquired capability, access to means, and mental rehearsal of attempts.",
+    "relevant_for": "Suicide prevention clinicians conducting structured risk formulation",
     "published": null,
     "link": null
   },
@@ -2111,8 +2111,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Uses dynamic network analysis to examine NSSI behaviors in individual case studies, revealing person-specific symptom networks.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Idiographic network analysis reveals that NSSI triggers and maintaining factors are highly individualized, challenging one-size-fits-all formulations. Therapists can use repeated symptom monitoring to map each client's unique network and target the most central, changeable nodes—such as specific emotional precursors or interpersonal triggers—rather than applying generic relapse prevention plans.",
+    "relevant_for": "Therapists providing individualized treatment for recurrent self-injury",
     "published": null,
     "link": null
   },
@@ -2128,8 +2128,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Ecological momentary assessment study examining how adverse childhood experiences affect stress sensitivity and suicidal ideation in daily life.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "EMA findings confirm that individuals with high ACE scores experience amplified stress-reactivity in daily life that directly increases momentary suicidal ideation, suggesting a stress-sensitization pathway. Clinicians should prioritize real-time stress management and grounding skills in trauma-informed work, and consider EMA-based monitoring to identify acute risk windows in patients with significant adverse childhood histories.",
+    "relevant_for": "Trauma-informed therapists working with clients who have complex trauma histories",
     "published": null,
     "link": null
   },
@@ -2144,8 +2144,8 @@
       "Mood Disorders"
     ],
     "summary": "Randomized controlled trial testing an intervention to reduce self-stigma in bipolar disorder.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Targeted interventions that reduce self-stigma in bipolar disorder can improve treatment adherence, self-efficacy, and quality of life independent of mood symptom change. Clinicians should integrate psychoeducation and cognitive restructuring of internalized stigma into standard bipolar treatment, addressing beliefs like 'I am dangerous' or 'my diagnosis defines me' that undermine engagement with mood stabilization strategies.",
+    "relevant_for": "Psychiatrists and psychotherapists treating bipolar disorder in outpatient settings",
     "published": null,
     "link": null
   },
@@ -2160,8 +2160,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines the causal effect of CBT on interpersonal problems, using longitudinal methods to establish directional relationships.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "CBT exerts a direct causal effect on reducing interpersonal difficulties, suggesting that cognitive restructuring and behavioral activation may improve relational functioning beyond symptom remission. Therapists can leverage this by explicitly linking cognitive interventions to interpersonal goals, helping clients recognize how maladaptive thinking patterns perpetuate relationship conflicts and social withdrawal.",
+    "relevant_for": "CBT practitioners treating clients with comorbid depression and interpersonal dysfunction",
     "published": null,
     "link": null
   },
@@ -2177,8 +2177,8 @@
       "Mood Disorders"
     ],
     "summary": "Uses directed acyclic graphs to model the relationships between different rumination facets and PTSD symptoms.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Different facets of rumination—such as brooding versus reflective pondering—play distinct causal roles in maintaining PTSD symptoms, with brooding acting as a stronger driver of the re-experiencing and hyperarousal clusters. Clinicians should assess rumination subtype specifically in PTSD treatment and prioritize interventions that disrupt brooding (e.g., mindfulness-based attentional retraining) rather than assuming all rumination is equally pathological.",
+    "relevant_for": "PTSD therapists using cognitive processing or trauma-focused CBT",
     "published": null,
     "link": null
   },
@@ -2194,8 +2194,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Reviews the diagnostic criteria for obsessional jealousy (Othello syndrome), discussing its placement within OCD and related disorders.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Obsessional jealousy often presents with intrusive, ego-dystonic thoughts about infidelity that can be misdiagnosed as delusional jealousy or BPD-related interpersonal pathology. Clinicians should assess for OCD-spectrum features when patients present with relationship-focused intrusive thoughts, as these may respond better to ERP techniques than to interventions aimed at delusional disorders or personality pathology.",
+    "relevant_for": "OCD specialists and couples therapists assessing pathological jealousy",
     "published": null,
     "link": null
   },
@@ -2211,8 +2211,8 @@
       "Mood Disorders"
     ],
     "summary": "Examines meta-emotional beliefs (beliefs about one's emotions) as a transdiagnostic construct across mood and anxiety disorders.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Negative beliefs about one's own emotions (e.g., 'my sadness is dangerous' or 'I must control my anger') cut across mood and anxiety disorders and maintain emotional avoidance cycles. Clinicians working transdiagnostically should assess and directly target meta-emotional beliefs using techniques from metacognitive therapy and schema-based approaches, as these beliefs may be more central to maintaining distress than the primary emotions themselves.",
+    "relevant_for": "Transdiagnostic CBT therapists and metacognitive therapy practitioners",
     "published": null,
     "link": null
   },
@@ -2228,8 +2228,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Scoping review of digital biomarkers (smartphone data, social media, wearables) for identifying and predicting suicidality.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Digital biomarkers from smartphones, wearables, and social media can detect suicidal risk shifts before they are reported in clinical sessions, offering a passive early-warning system. Clinicians should consider incorporating digital phenotyping tools into their practice where available, using data on sleep disruption, social withdrawal, and behavioral patterns to inform between-session risk monitoring and proactive outreach.",
+    "relevant_for": "Clinicians in suicide prevention programs and digital mental health researchers",
     "published": null,
     "link": null
   },
@@ -2245,8 +2245,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Develops an idiographic network approach to PTSD case formulation, personalizing treatment targets based on individual symptom networks.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Building individualized symptom network formulations for PTSD allows therapists to identify which specific symptoms (e.g., nightmares, avoidance, hypervigilance) are most central for each patient, enabling precision targeting of treatment. Rather than applying a uniform protocol, clinicians can use idiographic network maps to decide whether to prioritize re-experiencing, avoidance, or negative cognition interventions first based on each patient's unique network structure.",
+    "relevant_for": "Trauma therapists developing personalized PTSD treatment plans",
     "published": null,
     "link": null
   },
@@ -2262,8 +2262,8 @@
       "Mood Disorders"
     ],
     "summary": "Investigates whether sharing cognitive reframes with others enhances the effectiveness of cognitive reappraisal as an emotion regulation strategy.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Verbalizing and sharing cognitive reframes with others appears to strengthen the effectiveness of cognitive reappraisal, suggesting that the social process of articulation enhances cognitive restructuring. Therapists should encourage clients to discuss their reframes with trusted others, use between-session homework that involves sharing alternative perspectives, and consider group therapy formats that leverage peer modeling of cognitive flexibility.",
+    "relevant_for": "CBT therapists facilitating individual or group cognitive restructuring",
     "published": null,
     "link": null
   },
@@ -2278,8 +2278,8 @@
       "Other Clinical"
     ],
     "summary": "Examines the psychological profile and therapeutic needs of incel-identified individuals, discussing approaches for engaging this population in treatment.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Incel-identified clients often present with a complex blend of depression, social anxiety, shame, entitlement, and grievance narratives that can challenge standard therapeutic engagement. Clinicians should approach these clients with genuine curiosity about their subjective experience while maintaining clear boundaries around harmful ideology, focusing on underlying emotional needs for connection and belonging rather than confronting beliefs directly in early treatment.",
+    "relevant_for": "Psychotherapists working with young men experiencing social isolation and identity distress",
     "published": null,
     "link": null
   },
@@ -2294,8 +2294,8 @@
       "Mood Disorders"
     ],
     "summary": "Analyzes how depression symptom dynamics in the pre-treatment period predict treatment response and dropout.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The trajectory of depression symptoms during the pre-treatment waiting period strongly predicts subsequent treatment response and dropout risk, suggesting that symptom volatility itself is a clinically meaningful indicator. Clinicians should consider providing brief stabilization interventions or monitoring during waitlist periods, as patients with rapidly fluctuating symptoms may need additional preparation or a modified treatment approach to prevent early dropout.",
+    "relevant_for": "Clinic directors and intake therapists managing treatment waitlists",
     "published": null,
     "link": null
   },
@@ -2311,8 +2311,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Tests a digital acceptance and commitment therapy intervention for managing pain after surgery.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Delivering ACT principles digitally for postsurgical pain management improves pain acceptance and psychological flexibility, leading to better pain outcomes without requiring in-person therapy sessions. Surgeons and pain management teams should consider prescribing digital ACT interventions as a standard adjunct to postsurgical care, particularly for patients at risk of chronic pain development or opioid overuse.",
+    "relevant_for": "Pain psychologists and perioperative clinical teams",
     "published": null,
     "link": null
   },
@@ -2328,8 +2328,8 @@
       "Personality Disorders"
     ],
     "summary": "Examines how comorbid personality pathology moderates response to ADHD pharmacotherapy in adults.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Comorbid personality pathology significantly attenuates the therapeutic response to ADHD medication in adults, suggesting that pharmacotherapy alone is insufficient when personality features are present. Prescribing clinicians should assess for personality disorder features before or during ADHD medication trials and integrate psychotherapy—particularly targeted interventions for emotional dysregulation and interpersonal dysfunction—alongside pharmacological treatment for optimal outcomes.",
+    "relevant_for": "Psychiatrists and psychiatric nurse practitioners treating adult ADHD",
     "published": null,
     "link": null
   },
@@ -2344,8 +2344,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Introduces the Conflict Square Algorithm, a structured tool for analyzing and resolving therapeutic impasses and alliance ruptures.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The Conflict Square Algorithm provides a structured framework for identifying and resolving therapeutic impasses by mapping competing needs of both therapist and client across four domains (autonomy, connection, competence, and security). Therapists can use this tool when alliance ruptures occur to systematically diagnose the source of the impasse, select the appropriate repair strategy, and prevent premature termination.",
+    "relevant_for": "Psychotherapists of all orientations experiencing alliance ruptures or therapeutic impasses",
     "published": null,
     "link": null
   },
@@ -2361,8 +2361,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Reviews suicide risk factors and prevention approaches among refugee populations, examining the intersection of trauma, displacement, and cultural factors.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Suicide risk in refugee populations is shaped by a unique intersection of pre-migration trauma, displacement stressors, cultural bereavement, and barriers to mental health access including stigma and language. Clinicians should employ culturally adapted suicide risk assessments, work with interpreters trained in mental health, and address practical stressors alongside psychological treatment, recognizing that Western conceptualizations of suicidality may not fully capture risk in this population.",
+    "relevant_for": "Clinicians and case managers working in refugee resettlement and cross-cultural mental health services",
     "published": null,
     "link": null
   },
@@ -2378,8 +2378,8 @@
       "Somatic & Functional"
     ],
     "summary": "Examines the phenomenon of pain intrusions in PTSD, investigating shared mechanisms between physical pain and traumatic memories.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Pain intrusions in PTSD—where physical pain sensations trigger trauma memories and vice versa—suggest overlapping neurobiological mechanisms that maintain both conditions in a reinforcing cycle. Clinicians treating comorbid chronic pain and PTSD should integrate exposure-based approaches that simultaneously address pain-related fear and trauma re-experiencing, using interoceptive exposure techniques that help patients differentiate pain signals from trauma responses.",
+    "relevant_for": "Health psychologists and trauma therapists treating comorbid PTSD and chronic pain",
     "published": null,
     "link": null
   },
@@ -2395,8 +2395,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial testing fear-antagonistic action strategies (acting opposite to fear-driven impulses) in exposure therapy for acrophobia.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Fear-antagonistic actions—deliberately acting opposite to fear-driven impulses during exposure—offer therapists a concrete behavioral strategy to enhance extinction learning beyond standard graded exposure. Clinicians can coach acrophobia patients to lean toward edges, look down voluntarily, or reach outward, transforming passive endurance into active disconfirmation of threat beliefs. This approach may accelerate habituation and reduce dropout by giving patients a sense of agency during the most distressing moments of exposure.",
+    "relevant_for": "Behavioral therapists and exposure therapists treating specific phobias",
     "published": null,
     "link": null
   },
@@ -2412,8 +2412,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Feasibility randomized controlled trial of trauma-sensitive somatic yoga for functional neurological disorder.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Trauma-sensitive somatic yoga provides a body-first therapeutic entry point for patients with functional neurological disorder whose symptoms may be worsened by traditional talk therapy. Clinicians can integrate gentle, interoceptive-awareness practices to help patients reconnect with bodily signals without triggering dissociation or symptom escalation. This feasibility evidence supports offering somatic yoga as an adjunct or alternative early in treatment when patients are ambivalent about psychological framing of their symptoms.",
+    "relevant_for": "Neuropsychologists and rehabilitation therapists working with functional neurological disorder",
     "published": null,
     "link": null
   },
@@ -2429,8 +2429,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Cross-cultural network analysis comparing prolonged grief symptom structure between Chinese and US samples.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Cross-cultural network findings reveal that prolonged grief may present through different symptom pathways in Chinese versus US populations, suggesting clinicians should not assume universal symptom centrality. Therapists working with culturally diverse bereaved clients should assess for culturally salient grief expressions—such as yearning versus role disruption—rather than applying a one-size-fits-all diagnostic lens. This supports culturally adapted grief counseling that prioritizes the most network-central symptoms for each cultural group.",
+    "relevant_for": "Grief counselors and bereavement therapists in multicultural settings",
     "published": null,
     "link": null
   },
@@ -2446,8 +2446,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Meta-analysis examining the efficacy of transdiagnostic treatments when somatic comorbidities are present.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Transdiagnostic treatments appear effective even when somatic comorbidities are present, meaning therapists do not need to defer CBT or ACT until medical conditions are resolved. Clinicians should proceed with evidence-based protocols while monitoring how physical symptoms interact with psychological change, and may need to adapt pacing or psychoeducation accordingly. This meta-analysis reassures practitioners that treating the psychological dimension actively benefits patients regardless of co-occurring medical burden.",
+    "relevant_for": "CBT and ACT practitioners in integrated primary care settings",
     "published": null,
     "link": null
   },
@@ -2462,8 +2462,8 @@
       "Mood Disorders"
     ],
     "summary": "Uses network analysis to trace depression symptom trajectories from adolescence into adulthood, identifying stable and changing network features.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Network analysis identifying which depressive symptoms remain stable versus shift from adolescence to adulthood helps therapists prioritize intervention targets with the longest developmental impact. Clinicians working with depressed teens should focus on bridge symptoms—such as anhedonia or self-worth—that most strongly predict chronicity into adulthood, rather than treating all symptoms equally. This developmental lens supports early, targeted intervention that may alter the long-term depressive trajectory.",
+    "relevant_for": "Adolescent and child psychiatrists treating early-onset depression",
     "published": null,
     "link": null
   },
@@ -2478,8 +2478,8 @@
       "Anxiety & OCD"
     ],
     "summary": "Three-year longitudinal study of anxiety symptom patterns across the COVID-19 pandemic, identifying risk and resilience trajectories.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Three-year anxiety trajectories during COVID-19 reveal distinct resilience and chronicity patterns, enabling therapists to identify which patients are on a deteriorating versus recovering course. Clinicians can use trajectory-informed screening to allocate stepped-care resources—intensive therapy for chronic clusters and psychoeducation for resilient ones. Understanding that pandemic-related anxiety followed predictable patterns also normalizes prolonged distress for some clients, reducing secondary self-blame.",
+    "relevant_for": "Community mental health clinicians treating post-pandemic anxiety disorders",
     "published": null,
     "link": null
   },
@@ -2494,8 +2494,8 @@
       "Neurodivergence"
     ],
     "summary": "IPA study exploring the lived experiences of women diagnosed with autism in adulthood, examining the impact of late diagnosis on identity and wellbeing.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Late-diagnosed autistic women often carry years of misdiagnoses and invalidation, so clinicians should approach adult autism assessment with sensitivity to masking histories and complex identity reintegration. Therapists can support post-diagnosis adjustment by validating the grief, relief, and identity reconstruction that follow a late autism diagnosis, rather than treating it as purely informational. This research underscores the need for gender-sensitive diagnostic pathways and post-diagnostic counseling that addresses decades of camouflaging.",
+    "relevant_for": "Clinical psychologists conducting adult autism assessments and neurodivergence-affirming therapists",
     "published": null,
     "link": null
   },
@@ -2511,8 +2511,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial of a smartphone-delivered interpretation bias modification intervention for anxiety.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Smartphone-based interpretation bias modification allows therapists to extend therapeutic work between sessions through brief, accessible cognitive exercises that patients complete on their own devices. Clinicians can prescribe these apps as homework to actively reshape threat-related interpretation biases in generalized or social anxiety, complementing in-session CBT. The digital delivery format reduces barriers for clients who cannot attend frequent sessions while maintaining an evidence-based cognitive mechanism of change.",
+    "relevant_for": "CBT practitioners treating generalized and social anxiety disorders",
     "published": null,
     "link": null
   },
@@ -2527,8 +2527,8 @@
       "Anxiety & OCD"
     ],
     "summary": "Examines decision-making styles in obsessive-compulsive disorder, linking decisional patterns to symptom severity and treatment response.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Identifying specific decision-making styles in OCD—such as excessive information-seeking or intolerant-of-uncertainty patterns—allows therapists to tailor ERP and cognitive interventions to the patient's core decisional impairment. Clinicians can use decision-making assessments to predict treatment resistance and proactively address the checking, reassurance-seeking, or avoidance that maintains compulsions. This supports moving beyond symptom counts to target the underlying decisional architecture that drives OCD behaviors.",
+    "relevant_for": "OCD specialists and ERP therapists",
     "published": null,
     "link": null
   },
@@ -2544,8 +2544,8 @@
       "Somatic & Functional"
     ],
     "summary": "Network analysis examining the interplay between PTSD symptoms and chronic pain, with focus on pain-intrusion phenomena.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The pain-intrusion network between PTSD and chronic pain suggests that pain sensations can trigger trauma-related intrusive memories and vice versa, creating a reinforcing cycle. Therapists should assess for both conditions simultaneously and address pain-intrusion phenomena directly—using grounding techniques when pain triggers flashbacks, and pain management strategies when trauma processing exacerbates physical symptoms. Integrated treatment plans that disrupt this bidirectional loop are likely more effective than treating each condition in isolation.",
+    "relevant_for": "Trauma therapists working in chronic pain and interdisciplinary rehabilitation clinics",
     "published": null,
     "link": null
   },
@@ -2561,8 +2561,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Examines how personality functioning varies across different interpersonal contexts and relationships.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Personality functioning that shifts dramatically across interpersonal contexts suggests clinicians should assess patients across multiple relationships rather than relying on a single clinical interview snapshot. Therapists can use this variability as both a diagnostic indicator and a treatment target, helping patients develop more stable self-functioning regardless of relational context. This is particularly useful for case formulation in personality disorder treatment, where contextual triggers for decompensation can be mapped and anticipated.",
+    "relevant_for": "Personality disorder specialists and psychodynamic therapists",
     "published": null,
     "link": null
   },
@@ -2578,8 +2578,8 @@
       "Psychosis & Schizophrenia"
     ],
     "summary": "Meta-analysis examining the association between autism spectrum conditions and psychotic experiences/disorders.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The autism-psychosis association means that clinicians working with autistic individuals should maintain a high index of suspicion for psychotic experiences and vice versa, especially when patients present with atypical or treatment-resistant features. Therapists should adapt assessment tools to account for overlapping social-cognitive difficulties—distinguishing autistic literalness from psychotic thought disorder requires careful differential diagnosis. Treatment planning should address the compounded social and cognitive challenges that arise when both conditions co-occur.",
+    "relevant_for": "Psychosis clinicians and clinical psychologists in neurodevelopmental assessment services",
     "published": null,
     "link": null
   },
@@ -2595,8 +2595,8 @@
       "Mood Disorders"
     ],
     "summary": "Develops CBT bridging elements designed to prevent relapse after acute depression treatment, maintaining treatment gains.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "CBT bridging elements—structured transition activities that maintain treatment gains after acute-phase therapy—provide a practical framework for therapists to reduce relapse rates in depression. Clinicians can incorporate relapse-prevention modules that identify early warning signs, practice adaptive responses, and create personalized bridging plans during the final sessions of acute treatment. This approach extends the therapist's influence beyond the formal therapy window, addressing the well-documented gap between acute response and sustained recovery.",
+    "relevant_for": "CBT therapists treating recurrent major depressive disorder",
     "published": null,
     "link": null
   },
@@ -2612,8 +2612,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Case study demonstrating narrative therapy approaches to treating moral injury, illustrating the re-authoring of traumatic moral narratives.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Narrative therapy's re-authoring approach offers clinicians a non-pathologizing method for moral injury that helps patients reconstruct a coherent, morally integrated life narrative. Therapists can guide clients through externalizing the morally injurious event, identifying preferred values, and re-storying their experience in ways that incorporate both self-compassion and accountability. This is particularly valuable when traditional trauma processing alone leaves patients stuck in shame and self-condemnation.",
+    "relevant_for": "Military and veteran mental health therapists treating moral injury",
     "published": null,
     "link": null
   },
@@ -2628,8 +2628,8 @@
       "Personality Disorders"
     ],
     "summary": "Compares vulnerable and grandiose narcissism in relation to shame and mentalizing capacity, with implications for therapeutic engagement.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Distinguishing shame-driven vulnerable narcissism from mentalizing-deficient grandiose narcissism enables therapists to select the correct therapeutic stance—empathic exploration for the former and mentalization-based interventions for the latter. Clinicians should assess which narcissistic presentation predominates, as vulnerable narcissists may initially appear depressed or anxious while grandiose narcissists often present with interpersonal conflict. This differentiation prevents misapplication of empathic approaches that may be experienced as threatening by grandiose patients or therapeutic techniques that feel dismissive to vulnerable ones.",
+    "relevant_for": "Psychodynamic and mentalization-based therapists treating narcissistic personality presentations",
     "published": null,
     "link": null
   },
@@ -2645,8 +2645,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Uses routine outcome monitoring data to examine the clinical implications of waiting time for psychotherapy.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Routine outcome monitoring data showing the impact of waiting time on symptom deterioration provides clinicians and service administrators with evidence to advocate for reduced waitlists or stepped interim support. Therapists should be aware that patients often worsen while waiting, so providing even minimal contact—such as psychoeducation or self-help resources during the wait period—may preserve baseline functioning. This data also supports using ROM data proactively to identify at-risk patients whose symptoms are escalating before their first session.",
+    "relevant_for": "Clinic directors and intake coordinators in publicly funded mental health services",
     "published": null,
     "link": null
   },
@@ -2661,8 +2661,8 @@
       "Personality Disorders"
     ],
     "summary": "Integrative review of borderline personality disorder etiology, synthesizing biological, psychological, and social risk factors.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The integrative BPD etiology review helps therapists move beyond unidimensional models and present a biopsychosocial formulation to patients that normalizes their experience as understandable rather than characterological. Clinicians can use this synthesis to explain to patients why they react intensely—linking biological sensitivity, attachment disruption, and invalidating environments into a coherent narrative. This facilitates engagement in evidence-based treatments like DBT by providing a rationale that reduces shame and increases treatment motivation.",
+    "relevant_for": "DBT therapists and clinicians treating borderline personality disorder",
     "published": null,
     "link": null
   },
@@ -2677,8 +2677,8 @@
       "Eating Disorders"
     ],
     "summary": "Ecological momentary assessment study differentiating cognitive restraint from dietary restriction in eating disorders.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Differentiating cognitive restraint (thoughts about controlling eating) from actual dietary restriction helps eating disorder therapists identify which cognitive processes most strongly predict symptom maintenance. Clinicians can use EMA-informed assessments to determine whether a patient's primary driver is rigid dietary rules or preoccupation with food, and then target the more pathological process in treatment. This nuance supports moving beyond calorie-counting metrics to address the cognitive dimensions that sustain disordered eating patterns.",
+    "relevant_for": "Eating disorder therapists and CBT-E practitioners",
     "published": null,
     "link": null
   },
@@ -2693,8 +2693,8 @@
       "Eating Disorders"
     ],
     "summary": "EMA study testing whether negative affect mediates the relationship between dietary restriction and binge eating episodes.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Confirming negative affect as the mediator between restriction and binge eating gives therapists a clear mechanism to target—emotion regulation skills should be prioritized alongside nutritional rehabilitation. Clinicians can teach patients to recognize the negative emotional shift that precedes binge episodes and intervene with distress tolerance or affect regulation strategies before the binge is triggered. This EMA evidence supports integrated approaches like DBT-informed eating disorder treatment that address both behavioral and emotional pathways simultaneously.",
+    "relevant_for": "Eating disorder specialists and DBT-informed therapists treating binge eating",
     "published": null,
     "link": null
   },
@@ -2709,8 +2709,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Investigates the relationship between aphantasia (inability to voluntarily visualize imagery) and PTSD symptomatology in military veterans, with implications for imagery-based trauma treatments.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Veterans with aphantasia may not benefit from standard imagery-based PTSD treatments like prolonged exposure or imaginal rehearsal, requiring therapists to adapt toward narrative, somatic, or sensory-based processing instead. Clinicians should screen for aphantasia when trauma-focused therapy stalls, and shift to approaches such as written trauma accounts, EMDR, or body-oriented techniques that do not rely on voluntary visual imagery. This finding challenges the assumption that all patients can engage in imaginal exposure and calls for personalized trauma treatment matching.",
+    "relevant_for": "Military and veteran PTSD therapists using trauma-focused exposure therapies",
     "published": null,
     "link": null
   },
@@ -2726,8 +2726,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Develops and evaluates a trauma-sensitive yoga intervention adapted for Indigenous communities, integrating cultural healing practices.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Indigenous-adapted trauma-sensitive yoga demonstrates that body-based interventions must be culturally grounded to be effective, guiding clinicians to incorporate community-specific healing frameworks rather than applying generic somatic protocols. Therapists working with Indigenous populations should collaborate with cultural advisors to integrate traditional practices, respect spiritual dimensions of the body, and ensure interventions do not replicate colonial dynamics. This model provides a template for culturally responsive somatic therapy that can be adapted to other marginalized communities.",
+    "relevant_for": "Trauma therapists working with Indigenous and culturally diverse communities",
     "published": null,
     "link": null
   },
@@ -2743,8 +2743,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Examines the use of the Implicit Association Test (IAT) as a measure of social anxiety, assessing its validity and clinical utility.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The IAT offers therapists an indirect measure of social anxiety that captures automatic negative self-associations patients may not report on self-questionnaires due to shame or lack of insight. Clinicians can use the IAT as a supplementary assessment tool to detect hidden social anxiety, monitor implicit attitude change during treatment, or identify patients who verbally minimize their social fears. This is especially useful when self-report and behavioral observation diverge, suggesting unconscious threat associations that may sustain social avoidance.",
+    "relevant_for": "Clinical psychologists specializing in social anxiety assessment and research",
     "published": null,
     "link": null
   },
@@ -2760,8 +2760,8 @@
       "Somatic & Functional"
     ],
     "summary": "Applies the Hierarchical Taxonomy of Psychopathology (HiTOP) to understand the structure of cancer-related psychological symptoms.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Applying HiTOP dimensions to cancer-related psychopathology helps oncology clinicians move beyond comorbidity counting toward a dimensional understanding of how emotional distress, somatic symptoms, and personality factors interact. Therapists can use this framework to identify which hierarchical dimensions—such as internalizing, detachment, or thought dysfunction—are most prominent in a given cancer patient, guiding more precise psychopharmacological and psychotherapeutic interventions. This dimensional approach is particularly valuable given the complex, overlapping symptom profiles common in cancer populations.",
+    "relevant_for": "Psycho-oncologists and mental health clinicians embedded in cancer treatment centers",
     "published": null,
     "link": null
   },
@@ -2776,8 +2776,8 @@
       "Other Clinical"
     ],
     "summary": "Evaluates training programs designed to enhance empathy and compassion among police officers, with implications for mental health crisis response.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Empathy and compassion training for police officers has downstream effects on crisis intervention outcomes, giving mental health consultants a structured curriculum to recommend when training law enforcement. Clinicians collaborating with police departments can advocate for evidence-based compassion programs that reduce escalation during mental health crisis calls, ultimately improving outcomes for the individuals in crisis. This research bridges clinical psychology and public safety, supporting the integration of mental health perspectives into first-responder training.",
+    "relevant_for": "Police and public safety mental health consultants and crisis intervention team trainers",
     "published": null,
     "link": null
   },
@@ -2792,8 +2792,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Examines how reward and punishment processing abnormalities map onto different psychopathological conditions.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Understanding whether a patient is more sensitive to reward or punishment can guide treatment selection — reward-hypersensitive presentations may benefit from approaches that calibrate positive reinforcement schedules, while punishment-hypersensitive patients may need graded exposure to reduce avoidance. Clinicians can use behavioral observation during assessment to identify these tendencies and tailor interventions accordingly.",
+    "relevant_for": "Clinical neuropsychologists and therapists conducting diagnostic case formulations across psychopathology",
     "published": null,
     "link": null
   },
@@ -2809,8 +2809,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Reviews compassion fatigue prevalence among mental health professionals and examines evidence for prevention strategies.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Therapists should proactively monitor their own compassion fatigue symptoms and implement structured self-care, peer consultation, and supervision practices. This review identifies evidence-based prevention strategies that can be woven into routine professional development to sustain clinical effectiveness over time.",
+    "relevant_for": "Mental health professionals working in trauma-focused, palliative, and high-caseload settings",
     "published": null,
     "link": null
   },
@@ -2826,8 +2826,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Investigates how Pavlovian approach-avoidance biases affect behavioral activation treatment for anhedonic depression.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Behavioral activation for anhedonic depression may be undermined by Pavlovian avoidance biases, suggesting therapists should assess for approach-avoidance tendencies at intake. Clinicians may need to begin with very small, low-stakes positively valenced activities and use motivational interviewing before assigning full behavioral activation schedules.",
+    "relevant_for": "CBT therapists treating depression with prominent anhedonic features",
     "published": null,
     "link": null
   },
@@ -2843,8 +2843,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Examines minority stress processes in transgender and non-binary populations, identifying unique stressors and protective factors.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians should assess for minority stress–specific variables such as internalized transphobia, anticipated discrimination, and gender-affirming support when working with transgender and non-binary clients. These factors have distinct pathways to depression and anxiety that require culturally informed, targeted intervention beyond standard CBT protocols.",
+    "relevant_for": "LGBTQ+-affirming therapists and gender clinic mental health providers",
     "published": null,
     "link": null
   },
@@ -2860,8 +2860,8 @@
       "Addiction & Substance Use"
     ],
     "summary": "Explores LGBTQ+ individuals' experiences with ayahuasca-assisted therapy, examining intersections of identity, trauma, and healing.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Clinicians working with LGBTQ+ clients exploring psychedelic-assisted therapy should attend to how identity-related trauma and minority stress shape the therapeutic experience. Cultural safety, intersectional attunement, and integration support appear critical for positive outcomes in this population.",
+    "relevant_for": "Psychedelic-assisted therapy facilitators and integration therapists working with LGBTQ+ populations",
     "published": null,
     "link": null
   },
@@ -2877,8 +2877,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Proposes a shared oxidative stress framework for understanding the high comorbidity between ADHD and PTSD.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The high ADHD-PTSD comorbidity may partly reflect shared neurobiological stress mechanisms, suggesting clinicians treating either condition should routinely screen for the other. Treatment planning should address dysregulated stress responses holistically rather than treating each disorder in isolation, potentially incorporating lifestyle and antioxidant-supportive interventions alongside psychotherapy.",
+    "relevant_for": "Neuropsychologists and trauma therapists assessing and treating comorbid ADHD and PTSD",
     "published": null,
     "link": null
   },
@@ -2893,8 +2893,8 @@
       "Eating Disorders"
     ],
     "summary": "Examines the role of shame in eating disorder pathology, reviewing evidence for shame as a maintaining factor and treatment target.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Shame appears to be a core maintaining factor in eating disorders, indicating therapists should explicitly assess shame levels and incorporate compassion-focused or shame-attenuation strategies such as self-compassion exercises, cognitive defusion, and externalization of the critical inner voice rather than focusing solely on eating behavior change.",
+    "relevant_for": "Eating disorder specialists and CBT-E practitioners",
     "published": null,
     "link": null
   },
@@ -2909,8 +2909,8 @@
       "Personality Disorders"
     ],
     "summary": "Comprehensive review of avoidant personality disorder covering etiology, assessment, differential diagnosis, and evidence-based treatment approaches.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This comprehensive review clarifies AvPD's distinction from social anxiety disorder and other personality pathology, helping clinicians refine differential diagnosis. Treatment should combine graduated interpersonal exposure with schema-focused techniques targeting core beliefs of social inadequacy and rejection sensitivity rather than relying on standard social anxiety protocols.",
+    "relevant_for": "Personality disorder specialists and clinicians conducting differential diagnosis of social anxiety presentations",
     "published": null,
     "link": null
   },
@@ -2926,8 +2926,8 @@
       "Couples Therapy & Sexology"
     ],
     "summary": "Meta-analysis examining the efficacy of systemic and family therapy across presenting problems and populations.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Meta-analytic evidence supports systemic therapy as effective across a range of presenting problems, suggesting clinicians should consider involving family or relational systems even when the identified patient presents with individual symptoms. Systemic interventions can enhance and sustain outcomes beyond what individual treatment achieves alone.",
+    "relevant_for": "Family and couples therapists, and individual therapists considering systemic referral options",
     "published": null,
     "link": null
   },
@@ -2942,8 +2942,8 @@
       "Suicidality & Self-Harm"
     ],
     "summary": "Ecological momentary assessment study examining how real-time emotion regulation strategies relate to subsequent suicidal thoughts.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Real-time data show that specific emotion regulation strategies either amplify or reduce subsequent suicidal ideation, suggesting therapists should help clients identify their habitual strategies and replace maladaptive ones like suppression and rumination with adaptive alternatives like cognitive reappraisal and acceptance during crisis safety planning.",
+    "relevant_for": "Suicide risk assessors and crisis intervention therapists",
     "published": null,
     "link": null
   },
@@ -2959,8 +2959,8 @@
       "Somatic & Functional"
     ],
     "summary": "Develops and tests a comprehensive coping model for the trauma-PTSD-pain comorbidity, examining shared and distinct coping pathways.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The trauma-pain coping model identifies shared and distinct pathways, indicating clinicians should address both PTSD and pain coping simultaneously rather than sequentially. Integrating trauma-focused interventions with pain management techniques such as paced activity scheduling, somatic grounding, and sleep hygiene can improve outcomes for this complex comorbidity.",
+    "relevant_for": "Pain psychologists and trauma therapists working with comorbid chronic pain populations",
     "published": null,
     "link": null
   },
@@ -2976,8 +2976,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Ecological momentary assessment study examining the temporal relationship between physiological arousal and dissociative experiences in BPD.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Physiological arousal appears to temporally precede dissociative episodes in BPD, suggesting therapists can teach clients to recognize early autonomic warning signs such as racing heart or shallow breathing and use grounding techniques proactively to prevent dissociation rather than responding only after it has occurred.",
+    "relevant_for": "DBT therapists and clinicians treating borderline personality disorder",
     "published": null,
     "link": null
   },
@@ -2993,8 +2993,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Meta-analysis examining the relationship between therapy skills acquisition and depression treatment outcomes across modalities.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The degree to which clients actually acquire therapeutic skills predicts depression outcomes, suggesting therapists should routinely assess skill mastery using between-session practice reviews, structured homework, and in-session behavioral experiments rather than assuming skills are learned simply from session attendance.",
+    "relevant_for": "CBT and behavioral therapists treating depressive disorders",
     "published": null,
     "link": null
   },
@@ -3010,8 +3010,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Randomized controlled trial of a mindfulness-based emotion management intervention for generalized anxiety disorder.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This RCT supports a structured mindfulness-based emotion management intervention for GAD, offering clinicians an evidence-based alternative or adjunct to CBT for clients who struggle with chronic worry and may respond better to present-moment awareness and nonjudgmental acceptance of anxious sensations.",
+    "relevant_for": "Anxiety disorder specialists and mindfulness-based clinicians treating generalized anxiety disorder",
     "published": null,
     "link": null
   },
@@ -3026,8 +3026,8 @@
       "Neurodivergence"
     ],
     "summary": "Scoping review of adult ADHD theory, synthesizing current understanding of ADHD as a lifespan neurodevelopmental condition with clinical implications.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Recognizing ADHD as a lifespan neurodevelopmental condition rather than a childhood disorder can improve adult assessment accuracy and help clinicians provide psychoeducation, compensatory strategy training, and medication coordination tailored to adult functional impairments in work, relationships, and daily self-management.",
+    "relevant_for": "Adult psychiatrists and clinical psychologists assessing and managing adult ADHD",
     "published": null,
     "link": null
   },
@@ -3043,8 +3043,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Examines the relationship between mystical experiences during psilocybin sessions and outcomes in OCD treatment, discussing the role of altered states of consciousness.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The intensity of mystical experiences during psilocybin sessions may predict OCD symptom improvement, suggesting clinicians facilitating psychedelic-assisted OCD treatment should attend to set-and-setting factors that promote meaningful psychological experiences. Integration sessions should help clients make sense of these experiences to consolidate therapeutic gains.",
+    "relevant_for": "Psychedelic-assisted therapy researchers and OCD treatment specialists",
     "published": null,
     "link": null
   },
@@ -3059,8 +3059,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Introduces Evolutionary Systems Therapy as a novel integrative therapeutic approach grounded in evolutionary psychology and systems thinking.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This novel integrative framework combines evolutionary psychology with systems thinking, offering clinicians a new lens for understanding maladaptive patterns as evolved strategies within relational contexts. It can enhance case conceptualization and guide interventions that work with rather than against clients' instinctive behavioral tendencies.",
+    "relevant_for": "Integrative psychotherapists and clinicians interested in evolutionary approaches to case formulation",
     "published": null,
     "link": null
   },
@@ -3076,8 +3076,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Develops a comprehensive framework for implementing routine psychotherapy feedback, examining how feedback affects outcomes and alliance.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Routine client feedback on progress and alliance significantly improves outcomes and helps identify clients who are not benefiting. Therapists should implement structured feedback tools to catch treatment failures early and adjust their approach collaboratively before clients disengage or deteriorate.",
+    "relevant_for": "Psychotherapists across all modalities and clinical training program directors",
     "published": null,
     "link": null
   },
@@ -3093,8 +3093,8 @@
       "Psychopathology & Assessment"
     ],
     "summary": "Critically examines the evidence for and against trigger warnings, discussing potential iatrogenic effects of avoidance-based approaches.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The evidence reviewed suggests trigger warnings may inadvertently reinforce avoidance and increase fragility. Clinicians working in educational or clinical settings should prioritize graded exposure, distress tolerance building, and resilience-focused approaches over accommodation-based strategies that may paradoxically maintain anxiety sensitivity.",
+    "relevant_for": "University counseling center clinicians and clinical training supervisors",
     "published": null,
     "link": null
   },
@@ -3110,8 +3110,8 @@
       "Mood Disorders"
     ],
     "summary": "Reports 6-year follow-up outcomes of long-term psychodynamic psychotherapy, examining durability of treatment effects.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The 6-year durability of LTPP outcomes supports its use for clients with complex or personality-based difficulties where shorter treatments have failed. Therapists should consider psychodynamic referral for chronic, characterologically rooted presentations rather than defaulting exclusively to brief manualized interventions.",
+    "relevant_for": "Psychodynamic psychotherapists and clinicians treating complex, chronic mental health conditions",
     "published": null,
     "link": null
   },
@@ -3127,8 +3127,8 @@
       "Trauma & Stressor-Related"
     ],
     "summary": "Investigates hyper-associative cognition patterns shared by ADHD and PTSD, examining how trauma and neurodivergence interact.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "The shared hyper-associative thinking pattern in ADHD and PTSD suggests clinicians treating either condition should assess for loosely connected, rapidly shifting cognitions. Teaching clients cognitive anchoring strategies such as structured journaling, thought-record worksheets, and mindfulness can improve cognitive coherence and reduce distress from intrusive associations.",
+    "relevant_for": "Neuropsychologists and trauma-focused CBT therapists working with ADHD-PTSD comorbidity",
     "published": null,
     "link": null
   },
@@ -3144,8 +3144,8 @@
       "Therapeutic Modalities"
     ],
     "summary": "Meta-analysis of treatments for moral injury, comparing efficacy of different therapeutic approaches across populations.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "This meta-analysis identifies which therapeutic approaches are most effective for moral injury, guiding clinicians to move beyond standard PTSD protocols and incorporate interventions that specifically address guilt, shame, and meaning-making — particularly adaptive disclosure and acceptance-based approaches — rather than relying solely on exposure techniques.",
+    "relevant_for": "Military and veteran mental health clinicians treating moral injury",
     "published": null,
     "link": null
   },
@@ -3160,8 +3160,8 @@
       "Anxiety & OCD"
     ],
     "summary": "Meta-analysis distinguishing compulsive and impulsive dimensions in OCD, examining their differential relationships with symptom clusters and treatment response.",
-    "clinical_insight": null,
-    "relevant_for": null,
+    "clinical_insight": "Distinguishing compulsive from impulsive dimensions in OCD helps clinicians tailor treatment: compulsive-dominant presentations may respond best to traditional ERP, while impulsive-dominant presentations may require additional impulse control strategies, distress tolerance training, and emotion regulation work alongside exposure to achieve full symptom remission.",
+    "relevant_for": "OCD specialists and clinical psychologists conducting case formulation for treatment-resistant OCD",
     "published": null,
     "link": null
   },
