@@ -291,10 +291,26 @@
     return CATEGORIES.findIndex(function(cat) { return cat.id === id; });
   }
 
+  function getDirectPsyArxivUrl(p) {
+    var explicitId = p && p.osf_id ? String(p.osf_id).trim() : '';
+    var linkValue = p && p.link ? String(p.link).trim() : '';
+    var extractedId = '';
+
+    if (!explicitId && linkValue) {
+      var match = linkValue.match(/osf\.io\/(?:preprints\/psyarxiv\/)?([a-z0-9]+(?:_v\d+)*)/i);
+      if (match) extractedId = match[1];
+    }
+
+    var finalId = explicitId || extractedId;
+    if (!finalId) return '';
+    return 'https://osf.io/preprints/psyarxiv/' + finalId;
+  }
+
   function getPsyArxivLinkInfo(p) {
-    if (p.link) {
+    var directUrl = getDirectPsyArxivUrl(p);
+    if (directUrl) {
       return {
-        href: p.link,
+        href: directUrl,
         label: 'View on PsyArXiv',
         modalLabel: 'View on PsyArXiv &rarr;',
         title: 'Open this paper on PsyArXiv'
@@ -302,10 +318,10 @@
     }
     if (p.title) {
       return {
-        href: 'https://osf.io/preprints/psyarxiv/?q=' + encodeURIComponent(p.title),
-        label: 'Search PsyArXiv',
-        modalLabel: 'Search PsyArXiv &rarr;',
-        title: 'Search PsyArXiv for this paper because a verified direct link is unavailable'
+        href: 'resolve.html?paper=' + encodeURIComponent(p.number),
+        label: 'Find Paper Link',
+        modalLabel: 'Find Paper Link &rarr;',
+        title: 'Attempt to resolve the direct PsyArXiv paper page automatically'
       };
     }
     return null;
@@ -534,7 +550,7 @@
   /* ===== STATS ===== */
   function updateStats() {
     document.getElementById('stat-total').textContent = totalIndexedPapers || papers.length;
-    document.getElementById('stat-shown').textContent = shown;
+    document.getElementById('stat-shown').textContent = filtered.length;
   }
 
   /* ===== SEARCH ===== */

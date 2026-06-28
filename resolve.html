@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resolving Paper Link</title>
+<script>
+try {
+  var savedSettings = JSON.parse(localStorage.getItem('psyarxiv-settings') || '{}');
+  var root = document.documentElement;
+  if (savedSettings.theme) root.setAttribute('data-theme', savedSettings.theme);
+  if (savedSettings.fontSize) root.setAttribute('data-fontsize', savedSettings.fontSize);
+  if (savedSettings.dyslexic) root.setAttribute('data-dyslexic', savedSettings.dyslexic);
+} catch (error) {}
+</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="resolver-shell">
+    <div class="resolver-card">
+      <p class="resolver-kicker">PsyHub</p>
+      <h1>Resolving direct paper link</h1>
+      <p id="resolver-status">Looking for the paper page on PsyArXiv...</p>
+      <div id="resolver-paper" class="resolver-paper"></div>
+      <div id="resolver-actions" class="resolver-actions"></div>
+    </div>
+  </main>
+  <script src="js/resolve.js"></script>
+</body>
+</html>
