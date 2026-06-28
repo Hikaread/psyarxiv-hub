@@ -4909,5 +4909,139 @@
     "relevant_for": "Clinicians working with sexual trauma survivors, particularly those treating young adult women with complex victimization histories",
     "published": null,
     "link": "https://osf.io/52jyr"
+  },
+  {
+    "number": 298,
+    "title": "Machine Learning Prediction of Treatment Response to Internet-Delivered Cognitive Behavioural Therapy vs. Antidepressant Medication",
+    "authors": "Lee et al.",
+    "osf_id": "4u638",
+    "date_posted": "2025-08-21",
+    "source_date": "21.08.2025",
+    "categories": [
+      "Therapeutic Modalities",
+      "Mood Disorders"
+    ],
+    "summary": "This study developed and validated a multivariable predictive model for iCBT treatment response using real-world data from 776 patients. An elastic net regression with 27 predictors (including baseline depression severity, treatment expectation, and transdiagnostic symptoms) explained 14.6% of variance in depression change. A key finding was that models trained exclusively on iCBT patients showed treatment-specificity (R2=19.3% for iCBT vs. 10.8% for antidepressant-only), suggesting that treatment-specific models may better guide personalized treatment selection.",
+    "clinical_insight": "This study supports the feasibility of using routine self-report data to guide treatment selection between iCBT and pharmacotherapy for depression. Clinicians should note that treatment expectation emerged as a key predictor, reinforcing the importance of expectancy management early in therapy. The finding that treatment-specific models outperformed mixed-treatment models has a notable blind spot: 24-34% of participants were concurrently receiving both treatments, potentially inflating cross-treatment generalizability. Nonetheless, this represents a concrete step toward personalized treatment matching in routine care.",
+    "relevant_for": "Clinicians involved in treatment selection for depression, particularly those offering or referring to internet-based CBT programs",
+    "published": null,
+    "link": "https://osf.io/4u638"
+  },
+  {
+    "number": 299,
+    "title": "Cost-Utility Analysis of Internet-Delivered Cognitive Control Training Plus Treatment as Usual Versus Treatment as Usual Alone for Relapse Prevention in Major Depressive Disorder",
+    "authors": "Demeester et al.",
+    "osf_id": "razkf",
+    "date_posted": "2025-12-14",
+    "source_date": "14.12.2025",
+    "categories": [
+      "Therapeutic Modalities",
+      "Mood Disorders"
+    ],
+    "summary": "This health economic evaluation assessed the cost-utility of adding internet-delivered Cognitive Control Training (aPASAT) to treatment as usual for adults in remission from MDD. Using a Markov model over a five-year time horizon from the Belgian healthcare payer perspective, aPASAT + TAU dominated TAU alone, yielding additional QALYs and lower healthcare costs. Probabilistic sensitivity analysis indicated a 99.9% probability of cost-effectiveness at a €48,000/QALY threshold, with scenario analyses consistently confirming cost savings and improved outcomes.",
+    "clinical_insight": "The finding that a fully unguided, low-cost digital intervention can both improve outcomes and reduce costs has significant implications for stepped-care models in depression relapse prevention. Clinicians working in primary care or mental health systems should consider recommending CCT as a scalable prevention tool for remitted MDD patients. A notable blind spot: the model parameters rely heavily on published literature rather than primary trial data for the economic evaluation, so real-world implementation may yield different cost profiles. The tension between the promise of scalable digital prevention and the need for long-term adherence data remains unresolved.",
+    "relevant_for": "Clinicians and healthcare administrators designing relapse prevention pathways for major depressive disorder",
+    "published": null,
+    "link": "https://osf.io/razkf"
+  },
+  {
+    "number": 300,
+    "title": "Internet Cognitive Therapy for Prolonged Grief Disorder (iCT-PG): A Developmental Case Series",
+    "authors": "Smith, Wild, Stonciute, Ehlers",
+    "osf_id": "2xwdz",
+    "date_posted": "2025-09-12",
+    "source_date": "12.09.2025",
+    "categories": [
+      "Therapeutic Modalities",
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This study evaluated a novel 12-session, therapist-assisted internet cognitive therapy adapted from iCT-PTSD for Prolonged Grief Disorder (iCT-PG). Eight adults meeting PGD criteria completed the program over 14 weeks, targeting loss-related memory characteristics, negative grief appraisals, social disconnection, and unhelpful coping. All participants completed treatment, with 87.5% showing both reliable improvement and recovery below clinical cut-offs. Large reductions were observed in comorbid PTSD, depression, anxiety, and functional impairment, maintained at 3-month follow-up. Average therapist time was approximately 10 hours per participant.",
+    "clinical_insight": "The adaptation of evidence-based CT for PTSD to target PGD-specific maintenance mechanisms represents a promising approach for a disorder with limited treatment access. The strong recovery rate (87.5%) and low therapist time (10 hours) support the scalability of this format. Clinicians should note that the intervention explicitly targeted cognitive mechanisms (negative grief appraisals, memory characteristics) rather than solely providing supportive counseling. The primary blind spot is the uncontrolled design and tiny sample—these results cannot distinguish treatment effects from natural remission or therapist attention, though the consistency of improvement across multiple outcome domains is encouraging.",
+    "relevant_for": "Grief therapists and clinicians working with prolonged grief disorder, particularly those seeking scalable digital treatment options",
+    "published": null,
+    "link": "https://osf.io/2xwdz"
+  },
+  {
+    "number": 301,
+    "title": "When “Bothered by” Means “Often”: Evidence for Misinterpretation of the Patient Health Questionnaire",
+    "authors": "Panayiotou et al.",
+    "osf_id": "jcsq8",
+    "date_posted": "2025-10-03",
+    "source_date": "03.10.2025",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This study investigated how respondents interpret the PHQ’s instructions across a general population sample (N=503) and a clinical sample with elevated depression (N=349). Only 54.7% of community participants and 15.5% of the clinical sample interpreted the PHQ as instructed (frequency of being bothered). When asked directly, only 21.3% and 11.7% respectively had responded based on the instructed interpretation, with even fewer intending to do so in the future. PHQ-8 validity varied depending on how participants interpreted the instructions, raising questions about whether the measure captures symptom frequency, distress severity, or some combination.",
+    "clinical_insight": "This study has immediate clinical implications: if only 11-21% of respondents interpret the PHQ as intended, then depression severity scores in both research and clinical practice are systematically contaminated by response interpretation variance. Clinicians should be aware that a patient reporting being “bothered a lot” may be reporting frequency rather than distress, or vice versa. The finding that clinical participants were even less likely to interpret instructions correctly than community participants suggests that severity of symptoms may further distort comprehension. A blind spot: the study cannot determine which interpretation produces more valid depression measurement—it only demonstrates that the current instrument conflates distinct constructs.",
+    "relevant_for": "All clinicians using the PHQ-9, PHQ-8, or PHQ-2 for depression screening or outcome monitoring",
+    "published": null,
+    "link": "https://osf.io/jcsq8"
+  },
+  {
+    "number": 302,
+    "title": "Diminished Positive Affect in Social Anhedonia: Linking Anticipation and Experience During Dyadic Interaction",
+    "authors": "Riehle et al.",
+    "osf_id": "4j5kn",
+    "date_posted": "2025-10-30",
+    "source_date": "30.10.2025",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This preregistered study examined how social anhedonia relates to affective responses before, during, and after dyadic social interactions in 100 young adults. Controlling for social anxiety and suspiciousness, social anhedonia was specifically associated with diminished positive affect both in anticipation of and during social interaction, but not with increased negative affect. Negative affect during interaction was specifically explained by co-occurring social anxiety. An indirect effect of social anhedonia via diminished positive experience on social motivation and volition was also found.",
+    "clinical_insight": "The dissociation between social anhedonia (diminished positive affect) and social anxiety (increased negative affect) has direct implications for differential diagnosis and treatment planning. Clinicians often encounter patients presenting with social withdrawal who may have either or both conditions. This study suggests that treatments should be tailored: social anhedonia may respond to behavioral activation targeting reward processing and positive affect forecasting, whereas social anxiety requires exposure-based approaches. The exploratory finding that socially anhedonic participants had a comforting effect on their interaction partners warrants investigation. A limitation: the WEIRD young adult sample limits generalizability to older clinical populations.",
+    "relevant_for": "Clinicians assessing and treating adults with social withdrawal, social anhedonia, or social anxiety disorder",
+    "published": null,
+    "link": "https://osf.io/4j5kn"
+  },
+  {
+    "number": 303,
+    "title": "Anxiety Identity Centrality Is Associated With Avoidant Coping in Anxious Adults",
+    "authors": "Ahuvia et al.",
+    "osf_id": "5wgnc",
+    "date_posted": "2025-09-05",
+    "source_date": "05.09.2025",
+    "categories": [
+      "Anxiety & OCD",
+      "Psychopathology & Assessment"
+    ],
+    "summary": "In a large sample of 1,234 high-anxiety adults, this study examined whether anxiety identity centrality—seeing one’s anxiety as important to one’s self-concept—predicts avoidant coping. Using Bayesian ordered probit regression, anxiety identity centrality showed small-to-medium correlations with situational (r=.42) and experiential (r=.12) avoidance. Crucially, these associations held after controlling for anxiety symptom severity, suggesting that identity centrality contributes to avoidance beyond symptom level alone. The construct was measurable with a single-item ordinal measure.",
+    "clinical_insight": "This study introduces a clinically relevant construct with direct therapeutic implications: patients who have incorporated anxiety into their identity may resist treatment approaches that could reduce their anxiety, as improvement would threaten their self-concept. Clinicians should consider assessing anxiety identity centrality early in treatment, particularly for patients who seem stuck in avoidant patterns despite adequate symptom-focused intervention. The debate about whether labeling mental health conditions promotes or hinders recovery is given empirical grounding here. A blind spot: the cross-sectional design cannot establish whether anxiety centrality causes avoidance or emerges from chronic anxiety experiences, limiting causal inferences for treatment planning.",
+    "relevant_for": "CBT and ACT practitioners working with anxious adults who show chronic avoidant coping patterns",
+    "published": null,
+    "link": "https://osf.io/5wgnc"
+  },
+  {
+    "number": 304,
+    "title": "When Happiness Becomes Aversive: A Meta-Analysis of Fear of Happiness in Depression and Anxiety",
+    "authors": "Collins, Coster",
+    "osf_id": "8cng4",
+    "date_posted": "2025-10-31",
+    "source_date": "31.10.2025",
+    "categories": [
+      "Mood Disorders",
+      "Anxiety & OCD"
+    ],
+    "summary": "This meta-analysis examined associations between fear of happiness—a construct representing reward devaluation—and psychopathology in depression and anxiety. The analysis synthesized available evidence on how aversive responses to positive affect relate to symptom severity and treatment outcomes. The construct is particularly relevant because many current interventions target reward deficits in depression and anxiety, yet fear of happiness may undermine the efficacy of these reward-based approaches by making positive emotional experiences feel threatening or unsafe.",
+    "clinical_insight": "Fear of happiness represents an underrecognized mechanism that may explain why some patients with depression or anxiety fail to benefit from interventions targeting positive affect or reward processing (e.g., behavioral activation, positive psychology interventions). Clinicians should be alert to patients who resist, avoid, or feel distressed by positive experiences, as this may indicate fear of happiness rather than simple anhedonia. This construct bridges the literatures on reward processing, emotion regulation, and clinical intervention. A key blind spot: the meta-analysis highlights the current lack of validated, brief clinical measures for fear of happiness, limiting its integration into routine assessment. The tension between treating reward deficits and inadvertently triggering reward devaluation remains a challenge for intervention design.",
+    "relevant_for": "Clinicians using behavioral activation, positive psychology, or well-being interventions who encounter patients who resist positive experiences",
+    "published": null,
+    "link": "https://osf.io/8cng4"
+  },
+  {
+    "number": 305,
+    "title": "Enhancing the Efficacy of Exposure Therapy: Translation of Pharmacological Augmentation of Fear Extinction",
+    "authors": "Smits, Kredlow, Monfils, Otto",
+    "osf_id": "ek7qb",
+    "date_posted": "2025-09-06",
+    "source_date": "06.09.2025",
+    "categories": [
+      "Therapeutic Modalities",
+      "Anxiety & OCD"
+    ],
+    "summary": "This critical review examines translational research on pharmacological enhancement of fear extinction, focusing on D-cycloserine (DCS)—the most extensively studied agent. Despite early promise, results across preclinical, human laboratory, and clinical trials have been mixed. The authors identify factors accounting for inconsistent findings including study design differences, subject selection, sample size, and measurement approaches. They argue for a rigorous mechanistic research agenda that distinguishes between acquisition, consolidation, and retrieval of extinction processes as separate targets, and examines the relationship between changes in these processes and clinical outcomes.",
+    "clinical_insight": "The mixed evidence on DCS augmentation of exposure therapy has left many clinicians uncertain about its utility. This review provides a framework for understanding why results have been inconsistent and offers a roadmap for future research. For practicing clinicians, the key takeaway is that pharmacological augmentation of exposure remains experimental rather than ready for routine clinical use. The debate over whether DCS enhances extinction learning, consolidation, or retrieval has direct implications for when and how it should be administered relative to exposure sessions. A significant blind spot: the review largely focuses on DCS, leaving other potentially promising augmentation agents (e.g., MDMA, psilocybin) outside its scope.",
+    "relevant_for": "Exposure therapists and researchers interested in pharmacological augmentation strategies for anxiety disorder treatment",
+    "published": null,
+    "link": "https://osf.io/ek7qb"
   }
 ]
