@@ -1,3 +1,43 @@
+/* ===== DESIGN TOKENS ===== */
+:root {
+  --purple-900: #1a0a2e;
+  --purple-800: #2d1654;
+  --purple-700: #3d1558;
+  --purple-600: #5c2d91;
+  --purple-500: #7b3fb8;
+  --purple-400: #9c5fd0;
+  --purple-300: #b88ae0;
+  --purple-200: #d4b5ef;
+  --purple-100: #e8d5f5;
+  --purple-50:  #f3eaf9;
+
+  --bg-body: #f0e8f7;
+  --bg-card: #ffffff;
+  --bg-sidebar: #faf7fc;
+  --bg-stats: #f8f3fc;
+
+  --text-primary: #1a0a2e;
+  --text-secondary: #4a2d6e;
+  --text-muted: #7b6a94;
+  --text-on-purple: #ffffff;
+
+  --border-light: #e0d0ed;
+  --border-card: #d4c2e8;
+  --border-focus: #7b3fb8;
+
+  --accent: #5c2d91;
+  --accent-light: #7b3fb8;
+  --accent-hover: #4a1f7a;
+
+  --shadow-sm: 0 1px 3px rgba(60, 20, 100, 0.08);
+  --shadow-md: 0 4px 12px rgba(60, 20, 100, 0.1);
+  --shadow-lg: 0 8px 24px rgba(60, 20, 100, 0.15);
+
+  --radius: 8px;
+  --radius-sm: 5px;
+  --radius-lg: 12px;
+}
+
 /* ===== RESET & BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -9,22 +49,23 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
-  color: #1a1a2e;
-  background: #f5f5f7;
+  color: var(--text-primary);
+  background: var(--bg-body);
   min-height: 100vh;
 }
 
-a { color: #5b2d8e; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--accent-hover); }
 
 /* ===== HEADER ===== */
 #site-header {
-  background: linear-gradient(135deg, #3d1558 0%, #5c2d91 50%, #6b3fa0 100%);
-  color: #fff;
+  background: linear-gradient(135deg, var(--purple-800) 0%, var(--purple-600) 40%, var(--purple-500) 100%);
+  color: var(--text-on-purple);
   padding: 0 24px;
   position: sticky;
   top: 0;
   z-index: 100;
+  box-shadow: var(--shadow-md);
 }
 
 .header-inner {
@@ -33,12 +74,12 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 68px;
   gap: 24px;
 }
 
 #site-header h1 {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.01em;
   white-space: nowrap;
@@ -54,90 +95,104 @@ a:hover { text-decoration: underline; }
 
 #search-input {
   width: 100%;
-  padding: 8px 14px;
+  padding: 9px 14px;
   border: 1px solid rgba(255,255,255,0.25);
-  border-radius: 3px;
+  border-radius: var(--radius-sm);
   background: rgba(255,255,255,0.12);
-  color: #fff;
+  color: var(--text-on-purple);
   font-size: 0.88rem;
   outline: none;
+  transition: all 0.2s ease;
 }
 
 #search-input::placeholder { color: rgba(255,255,255,0.5); }
-#search-input:focus { border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.18); }
+#search-input:focus { border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.2); box-shadow: 0 0 0 2px rgba(255,255,255,0.15); }
 
 /* ===== STATS BAR ===== */
 #stats-bar {
-  background: #fff;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 6px 24px;
+  background: var(--bg-stats);
+  border-bottom: 1px solid var(--border-light);
+  padding: 7px 24px;
   font-size: 0.8rem;
-  color: #555;
+  color: var(--text-muted);
 }
 
 .stats-inner { max-width: 1200px; margin: 0 auto; }
-
-.stat-sep { margin: 0 8px; color: #ccc; }
+.stat-sep { margin: 0 8px; color: var(--border-card); }
 
 /* ===== MAIN LAYOUT ===== */
 .main-layout {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 24px 60px;
+  padding: 24px 24px 60px;
   display: flex;
-  gap: 28px;
+  gap: 24px;
 }
 
 /* ===== SIDEBAR ===== */
 #sidebar {
-  width: 220px;
+  width: 240px;
   flex-shrink: 0;
 }
 
 .sidebar-section {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 3px;
-  padding: 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  padding: 16px;
   margin-bottom: 16px;
+  box-shadow: var(--shadow-sm);
 }
 
 .sidebar-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-  font-size: 0.82rem;
-  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #333;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
 }
 
 .sidebar-actions { display: flex; gap: 4px; }
 
 .sidebar-actions button {
   font-size: 0.7rem;
-  padding: 2px 8px;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  background: #fff;
-  color: #555;
+  padding: 3px 10px;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-sm);
+  background: var(--purple-50);
+  color: var(--accent);
   cursor: pointer;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.sidebar-actions button:hover {
+  background: var(--purple-100);
+  border-color: var(--accent);
 }
 
 #category-filters label {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 4px 0;
+  padding: 5px 6px;
   font-size: 0.84rem;
-  color: #333;
+  color: var(--text-primary);
   cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s ease;
+}
+
+#category-filters label:hover {
+  background: var(--purple-50);
 }
 
 #category-filters input[type="checkbox"] {
-  accent-color: #5c2d91;
+  accent-color: var(--accent);
   width: 15px;
   height: 15px;
 }
@@ -145,32 +200,49 @@ a:hover { text-decoration: underline; }
 .cat-count {
   margin-left: auto;
   font-size: 0.72rem;
-  color: #999;
+  color: var(--text-muted);
   font-variant-numeric: tabular-nums;
+  background: var(--purple-50);
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-weight: 500;
 }
 
 #sort-select {
   width: 100%;
-  padding: 6px 8px;
-  border: 1px solid #ddd;
-  border-radius: 3px;
+  padding: 8px 10px;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
   font-size: 0.84rem;
-  color: #333;
-  background: #fff;
+  color: var(--text-primary);
+  background: var(--bg-card);
   cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+#sort-select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(92, 45, 145, 0.15);
 }
 
 /* ===== PAPERS LIST ===== */
 #papers-container { flex: 1; min-width: 0; }
-
-#papers-list { display: flex; flex-direction: column; gap: 12px; }
+#papers-list { display: flex; flex-direction: column; gap: 14px; }
 
 /* ===== PAPER CARD ===== */
 .paper-card {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 3px;
-  padding: 18px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.paper-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-card);
 }
 
 .paper-card-header {
@@ -183,7 +255,7 @@ a:hover { text-decoration: underline; }
 .paper-number {
   font-size: 0.78rem;
   font-weight: 700;
-  color: #5c2d91;
+  color: var(--accent);
   min-width: 32px;
   padding-top: 2px;
 }
@@ -192,24 +264,25 @@ a:hover { text-decoration: underline; }
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.4;
-  color: #1a1a2e;
+  color: var(--text-primary);
 }
 
 .paper-meta {
   font-size: 0.8rem;
-  color: #666;
+  color: var(--text-muted);
   margin-bottom: 8px;
   padding-left: 44px;
 }
 
-.paper-meta .author-name { font-weight: 500; color: #444; }
+.paper-meta .author-name { font-weight: 500; color: var(--text-secondary); }
 .paper-meta .date-text { margin-left: 12px; }
 
 .paper-summary {
   font-size: 0.88rem;
-  color: #333;
+  color: var(--text-primary);
   line-height: 1.55;
   padding-left: 44px;
+  opacity: 0.85;
 }
 
 .paper-badges {
@@ -222,41 +295,43 @@ a:hover { text-decoration: underline; }
 
 .badge {
   font-size: 0.7rem;
-  font-weight: 500;
-  padding: 2px 8px;
-  border-radius: 2px;
-  background: #f0eaf6;
-  color: #5c2d91;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: var(--purple-100);
+  color: var(--purple-700);
+  letter-spacing: 0.01em;
 }
 
 .badge[data-cat="couples"]         { background: #fce4ec; color: #880e4f; }
 .badge[data-cat="neurodivergence"]  { background: #e8eaf6; color: #283593; }
-.badge[data-cat="mood"]            { background: #fff3e0; color: #e65100; }
+.badge[data-cat="mood"]            { background: var(--purple-100); color: var(--purple-700); }
 .badge[data-cat="trauma"]          { background: #fce4ec; color: #ad1457; }
 .badge[data-cat="personality"]     { background: #f3e5f5; color: #6a1b9a; }
 .badge[data-cat="modalities"]      { background: #e8f5e9; color: #2e7d32; }
 .badge[data-cat="psychopathology"] { background: #e0f2f1; color: #00695c; }
-.badge[data-cat="eating"]          { background: #fff8e1; color: #f57f17; }
+.badge[data-cat="eating"]          { background: #fff3e0; color: #e65100; }
 .badge[data-cat="somatic"]         { background: #efebe9; color: #4e342e; }
 .badge[data-cat="suicidality"]     { background: #ffebee; color: #c62828; }
 .badge[data-cat="psychosis"]       { background: #ede7f6; color: #4527a0; }
 .badge[data-cat="addiction"]       { background: #e3f2fd; color: #1565c0; }
-.badge[data-cat="other"]           { background: #f5f5f5; color: #616161; }
+.badge[data-cat="other"]           { background: #f5f0fa; color: var(--text-muted); }
 
 .paper-expand-btn {
   display: inline-block;
-  margin-top: 8px;
+  margin-top: 10px;
   margin-left: 44px;
   font-size: 0.8rem;
-  color: #5c2d91;
+  color: var(--accent);
   cursor: pointer;
   border: none;
   background: none;
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
+  transition: color 0.15s ease;
 }
 
-.paper-expand-btn:hover { text-decoration: underline; }
+.paper-expand-btn:hover { color: var(--accent-hover); text-decoration: underline; }
 
 /* Published line */
 .paper-published {
@@ -270,117 +345,157 @@ a:hover { text-decoration: underline; }
 /* ===== LOAD MORE ===== */
 #load-more {
   display: block;
-  margin: 20px auto;
-  padding: 10px 32px;
+  margin: 24px auto;
+  padding: 10px 36px;
   font-size: 0.88rem;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  background: #fff;
-  color: #333;
+  font-weight: 600;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  color: var(--accent);
   cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+#load-more:hover {
+  background: var(--accent);
+  color: var(--text-on-purple);
+  box-shadow: var(--shadow-md);
 }
 
 #no-results {
   text-align: center;
   padding: 60px 20px;
-  color: #888;
+  color: var(--text-muted);
   font-size: 0.95rem;
 }
 
 /* ===== FOOTER ===== */
 #site-footer {
-  border-top: 1px solid #e0e0e0;
-  padding: 20px 24px;
+  border-top: 1px solid var(--border-light);
+  padding: 24px 24px;
   text-align: center;
   font-size: 0.78rem;
-  color: #888;
-  background: #fff;
+  color: var(--text-muted);
+  background: var(--bg-card);
 }
+
+#site-footer a { color: var(--accent); }
 
 /* ===== MODAL ===== */
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(26, 10, 46, 0.6);
   z-index: 200;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   padding: 60px 20px;
   overflow-y: auto;
+  backdrop-filter: blur(3px);
 }
 
 .modal-content {
-  background: #fff;
-  border-radius: 3px;
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
   max-width: 720px;
   width: 100%;
-  padding: 32px;
+  padding: 36px;
   position: relative;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-light);
 }
 
 #modal-close {
   position: absolute;
-  top: 12px;
-  right: 16px;
-  font-size: 1.4rem;
-  background: none;
-  border: none;
-  color: #888;
+  top: 14px;
+  right: 18px;
+  font-size: 1.5rem;
+  background: var(--purple-50);
+  border: 1px solid var(--border-light);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
   cursor: pointer;
   line-height: 1;
+  transition: all 0.15s ease;
+}
+
+#modal-close:hover {
+  background: var(--purple-100);
+  color: var(--accent);
 }
 
 .modal-title {
   font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 6px;
-  padding-right: 30px;
+  margin-bottom: 8px;
+  padding-right: 44px;
+  color: var(--text-primary);
 }
 
 .modal-meta {
   font-size: 0.84rem;
-  color: #666;
-  margin-bottom: 16px;
+  color: var(--text-muted);
+  margin-bottom: 18px;
 }
 
-.modal-section { margin-bottom: 14px; }
+.modal-meta .author-name { color: var(--text-secondary); font-weight: 500; }
+
+.modal-section { margin-bottom: 16px; }
 
 .modal-section-label {
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #5c2d91;
-  margin-bottom: 4px;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin-bottom: 6px;
 }
 
 .modal-section-text {
   font-size: 0.9rem;
-  line-height: 1.6;
-  color: #333;
+  line-height: 1.65;
+  color: var(--text-primary);
 }
 
 .modal-link {
   display: inline-block;
-  margin-top: 16px;
+  margin-top: 20px;
   font-size: 0.88rem;
-  color: #5c2d91;
-  font-weight: 500;
+  color: var(--accent);
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.modal-link:hover {
+  background: var(--accent);
+  color: var(--text-on-purple);
+  text-decoration: none;
 }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
   .main-layout { flex-direction: column; }
   #sidebar { width: 100%; }
+  .sidebar-section { margin-bottom: 12px; }
   #category-filters { display: flex; flex-wrap: wrap; gap: 4px 14px; }
   .paper-summary, .paper-badges, .paper-expand-btn, .paper-published { padding-left: 0; }
   .paper-meta { padding-left: 0; }
 }
 
 @media (max-width: 600px) {
-  .header-inner { flex-direction: column; height: auto; padding: 12px 0; gap: 10px; }
+  .header-inner { flex-direction: column; height: auto; padding: 14px 0; gap: 10px; }
   .header-search { max-width: 100%; }
-  .paper-card { padding: 14px 16px; }
+  .paper-card { padding: 16px 18px; }
   .modal-content { padding: 24px 18px; }
 }

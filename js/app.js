@@ -19,7 +19,8 @@
   ];
 
   var catMap = {};
-  CATEGORIES.forEach(function(c) { catMap[c.id] = c.label; });
+  var labelToId = {};
+  CATEGORIES.forEach(function(c) { catMap[c.id] = c.label; labelToId[c.label] = c.id; });
 
   var papers = [];
   var filtered = [];
@@ -80,9 +81,9 @@
   function applyFilters() {
     var q = searchQuery.toLowerCase().trim();
     filtered = papers.filter(function(p) {
-      if (!activeCats[p.categories[0]] && p.categories.every(function(c) { return !activeCats[c]; })) {
-        return false;
-      }
+      var catIds = (p.categories || []).map(function(c) { return labelToId[c] || 'other'; });
+      var anyActive = catIds.some(function(id) { return activeCats[id]; });
+      if (!anyActive) return false;
       if (q) {
         var haystack = [
           p.title, p.authors, p.summary, p.clinical_insight, p.relevant_for
