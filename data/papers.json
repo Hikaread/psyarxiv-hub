@@ -3867,5 +3867,149 @@
     "relevant_for": "Clinicians treating bipolar spectrum conditions using CBT, MBCT, DBT, or psychoeducation approaches that incorporate emotional awareness components",
     "published": null,
     "link": "https://osf.io/praq2"
+  },
+  {
+    "number": 286,
+    "title": "Personality Markers for Common Mental Disorders: A Multi-Trait, Multi-Diagnosis, Multi-Rater Approach",
+    "authors": "Zhang, Luciano, Vainik, Mottus",
+    "osf_id": "kuem5",
+    "date_posted": "2025-11-29",
+    "source_date": "29.11.2025",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "Using data from the Estonian Biobank (N=3,221), this study identifies facet-level personality markers that predict common mental disorders including anxiety and mood disorders, going beyond broad trait domains to examine specific personality facets. By employing a multi-trait, multi-diagnosis, and multi-rater design, the research reveals that narrow personality facets substantially outperform broad domains in predicting clinical outcomes, with different facets predicting different disorders.",
+    "clinical_insight": "The finding that narrow personality facets outperform broad traits for clinical prediction has significant implications for intake assessment in private practice. Rather than relying solely on broad measures like the NEO-FFI, clinicians should consider facet-level assessment tools like the NEO-PI-R or IPIP-300 to identify specific risk profiles. For example, a patient scoring high on vulnerability (a neuroticism facet) but low on impulsiveness may have a different prognosis and treatment trajectory than a patient with the same overall neuroticism score but the reverse facet profile. The tension between assessment efficiency (short broad measures) and predictive precision (long facet measures) is a practical dilemma for time-limited intake sessions. A blind spot is that biobank samples, while large, may underrepresent the severity and comorbidity typical of clinical populations, potentially overestimating how cleanly personality facets map onto single diagnoses.",
+    "relevant_for": "Clinicians conducting personality-informed case formulations and intake assessments for anxiety and mood disorders in adult private practice",
+    "published": null,
+    "link": "https://osf.io/kuem5"
+  },
+  {
+    "number": 287,
+    "title": "Temporal Relationships Between Mood and Eating Across Eating Disorders: A Network Approach",
+    "authors": "Kahveci et al.",
+    "osf_id": "f7svd",
+    "date_posted": "2026-04-23",
+    "source_date": "23.04.2026",
+    "categories": [
+      "Eating Disorders"
+    ],
+    "summary": "This network analysis examines prospective temporal relationships between negative and positive emotions and eating-related behaviors (hunger, food craving, calorie intake, binge episodes) across different eating disorder diagnoses and healthy controls. By mapping directional pathways between mood states and eating behaviors, the study tests whether the theorized vicious cycle between emotional distress and disordered eating operates consistently across AN, BN, BED, and healthy populations.",
+    "clinical_insight": "Network analysis of temporal mood-eating relationships provides clinicians with a mechanistic understanding of when and how emotional interventions should be deployed in eating disorder treatment. If negative mood prospectively predicts binge episodes but not restriction, this supports prioritizing emotion regulation skills early in BN and BED treatment, while focusing on different mechanisms in AN. For CBT-E and DBT-ED practitioners, these network structures could guide individualized treatment planning by identifying each patient's specific mood-eating cycle. The tension between universal treatment protocols (CBT-E for all EDs) and diagnosis-specific mechanisms revealed by network analysis is significant: if the temporal structures differ across diagnoses, a one-size-fits-all approach may miss critical intervention targets. A blind spot is that network analyses capture population-level temporal patterns that may not apply to any individual patient, highlighting the ongoing gap between group-level network findings and idiographic clinical formulation.",
+    "relevant_for": "Clinicians treating eating disorders with CBT-E, DBT-ED, or integrative approaches who want to understand the temporal dynamics of mood-eating relationships",
+    "published": null,
+    "link": "https://osf.io/f7svd"
+  },
+  {
+    "number": 288,
+    "title": "Understanding Types of Transitions in Clinical Change: An Introduction from the Complex Dynamic Systems Perspective",
+    "authors": "Cui, Hasselman, Olthof, Lichtwarck-Aschoff",
+    "osf_id": "b68wh",
+    "date_posted": "2025-09-06",
+    "source_date": "06.09.2025",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This theoretical paper introduces four types of sudden transitions in clinical change drawn from complex dynamic systems theory: bifurcation-induced tipping, noise-induced tipping, rate-induced tipping, and noise-induced diffusion. Each transition type describes a distinct mechanism by which therapeutic change can occur suddenly rather than gradually, providing a unifying framework for understanding nonlinear change processes in psychotherapy.",
+    "clinical_insight": "Sudden therapeutic change, long observed in clinical practice but poorly explained by linear models of psychotherapy, is a phenomenon most therapists recognize intuitively. This framework provides clinicians with a vocabulary for understanding why some sessions appear to produce breakthrough moments while others do not. B-tipping (a critical threshold crossed through accumulated change) supports the dose-response model of therapy where persistence matters. N-tipping (random fluctuations triggering change) helps explain why the same intervention works in one session but not another. For therapists, this validates the clinical intuition that some change cannot be planned but can be facilitated by creating conditions that make tipping points more likely. The tension between this framework and manualized approaches is that manualization assumes predictable dose-response relationships, while tipping point dynamics are inherently unpredictable. A blind spot is the absence of empirical validation of these transition types in actual therapy data.",
+    "relevant_for": "Psychotherapists across all modalities interested in understanding and facilitating sudden therapeutic change and nonlinear recovery processes",
+    "published": null,
+    "link": "https://osf.io/b68wh"
+  },
+  {
+    "number": 289,
+    "title": "Excessive Switching in OCD and Paranoia Arises from Different Deficits in Belief-Updating",
+    "authors": "Corlett, Freeland, de Obeso, Suthaharan, Pittenger",
+    "osf_id": "f3mhg",
+    "date_posted": "2025-09-05",
+    "source_date": "05.09.2025",
+    "categories": [
+      "Obsessive-Compulsive"
+    ],
+    "summary": "Using a probabilistic reversal learning task, this study demonstrates that excessive belief switching in OCD and paranoia arises from fundamentally different cognitive deficits. Individuals with OCD show instability in learning from positive feedback, while those with paranoia show instability in learning from negative feedback. These distinct computational signatures suggest that OCD and paranoia, despite sharing surface-level features of cognitive inflexibility, are maintained by different belief-updating mechanisms.",
+    "clinical_insight": "The identification of distinct belief-updating signatures for OCD versus paranoia has direct implications for differential diagnosis and treatment planning. In clinical practice, OCD and paranoid ideation can present similarly, particularly when OCD involves harm-related obsessions that resemble paranoid fears. This computational approach provides an objective framework for distinguishing them: OCD patients may be more responsive to interventions targeting positive feedback processing (e.g., behavioral experiments that disconfirm catastrophic predictions), while paranoid patients may need interventions targeting negative feedback processing (e.g., cognitive restructuring of threat beliefs). A blind spot is that the study does not examine how these computational signatures change with treatment, leaving it unclear whether successful therapy normalizes the specific deficit or works through compensatory mechanisms.",
+    "relevant_for": "Clinicians treating OCD and psychosis-spectrum presentations who need to differentiate between obsessive and paranoid cognitive patterns",
+    "published": null,
+    "link": "https://osf.io/f3mhg"
+  },
+  {
+    "number": 290,
+    "title": "Putting the Vicious Cycle to the Test: Evidence for the Cognitive Behavioral Model of Persistent Somatic Symptoms",
+    "authors": "Sahm, Witthoft, Bailer, Mier",
+    "osf_id": "7c4yf",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Somatic & Functional"
+    ],
+    "summary": "This study tests the complete cognitive-behavioral model of persistent somatic symptoms using an online survey of 2,114 participants. Rather than examining isolated components, the research evaluates the full vicious cycle model including predisposing, perpetuating, and precipitating factors and their interactions in explaining somatic symptom onset and endurance. Results provide evidence for the model's proposed pathways linking illness-related cognition, health anxiety, and attentional focus to symptom persistence.",
+    "clinical_insight": "The CBT model of persistent somatic symptoms is widely used in clinical practice but has rarely been tested in its entirety. This large-scale validation provides empirical support for the complete model, giving CBT practitioners stronger footing when explaining treatment rationale to skeptical patients who attribute symptoms purely to physical causes. For therapists working with FND, somatic symptom disorder, or illness anxiety, this supports a formulation-based approach mapping specific perpetuating factors. The tension between this model and the emerging neurobiological understanding of FND is significant: patients and some neurologists may view psychological models as dismissive, making psychoeducation a critical early intervention. A blind spot is the COVID-19 pandemic data collection, which may have inflated health anxiety and somatic symptom reporting.",
+    "relevant_for": "CBT practitioners working with somatic symptom disorder, FND, illness anxiety, and chronic pain where the cognitive-behavioral vicious cycle model informs treatment",
+    "published": null,
+    "link": "https://osf.io/7c4yf"
+  },
+  {
+    "number": 291,
+    "title": "Pain Before, During, and After Non-Suicidal Self-Injury: Findings from a Large Web Study",
+    "authors": "Carpenter, Hepp, Trull",
+    "osf_id": "dca47",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Suicidality & Self-Harm"
+    ],
+    "summary": "In a large online survey of 1,630 individuals with NSSI histories, this study tests competing models of the role of pain in self-injury by examining pain before, during, and after NSSI acts. The research assesses pain experience descriptively and tests pre-registered hypotheses about factors explaining individual differences in NSSI pain, including dissociation, emotion regulation difficulties, and self-criticism, providing a comprehensive test of pain-onset, pain-offset, and analgesia models of NSSI.",
+    "clinical_insight": "The competing models of pain in NSSI (pain as antecedent, consequence, or absent through analgesia) have direct implications for treatment. If pain onset drives NSSI, interventions should target the pre-existing emotional or physical pain preceding self-injury. If pain offset is the mechanism, treatment should focus on building alternative ways to achieve emotional relief. If analgesia is present, the task is to address dissociative processes that disconnect the person from their body. For DBT therapists teaching distress tolerance, understanding which pain model applies to each client determines whether to emphasize TIPP, alternative activities, or mindfulness to reduce dissociation. The tension between these models has persisted because most studies test only one. A blind spot is the reliance on retrospective self-report, which may be distorted by emotional state and time elapsed since episodes.",
+    "relevant_for": "Clinicians working with NSSI in the context of BPD, complex trauma, or eating disorders, particularly those using DBT and schema therapy",
+    "published": null,
+    "link": "https://osf.io/dca47"
+  },
+  {
+    "number": 292,
+    "title": "Evolution of Linguistic Markers of Agency, Centrality and Content During Metacognitive Therapy for Psychosis",
+    "authors": "Nikzad, Lysaker, Minor, Leonhardt, Liberman, Vohs, Wiesepape, Tang",
+    "osf_id": "qyt72",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Psychosis & Schizophrenia"
+    ],
+    "summary": "This study examines how linguistic markers of agency, self-centrality, and thematic content evolve over the course of Metacognitive Reflection and Insight Therapy (MERIT) for psychosis. Using natural language processing to analyze therapy transcripts, the research tracks whether increases in metacognitive capacity are reflected in changes in how patients talk about themselves, providing an objective measure of recovery-oriented change in psychosis treatment.",
+    "clinical_insight": "The use of linguistic analysis as an objective measure of therapeutic change in psychosis is a novel methodological contribution. For therapists using MERIT, metacognitive therapy, or recovery-oriented approaches to psychosis, the finding that linguistic markers of agency shift during treatment provides a concrete way to track progress beyond symptom reduction. If patients begin using more agentic language and less first-person centrality, this may indicate metacognitive capacity is developing before symptom changes appear. The tension between symptom-focused and recovery-focused outcomes in psychosis treatment is well-established, and this study provides tools for measuring the latter. A blind spot is that linguistic markers may reflect therapist influence or social desirability rather than genuine metacognitive change.",
+    "relevant_for": "Therapists using MERIT, metacognitive therapy, or CBTp for psychosis who want to track recovery-oriented changes beyond symptom reduction",
+    "published": null,
+    "link": "https://osf.io/qyt72"
+  },
+  {
+    "number": 293,
+    "title": "The Relationship Between the Perception of Major Life Events and Depression in Adulthood: A Systematic Scoping Review and Meta-Analysis",
+    "authors": "Haehner, Wurtz, Kritzler, Kunna, Luhmann, Woud",
+    "osf_id": "p3qzc",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This systematic scoping review and meta-analysis synthesizes 276 studies (N=89,600) examining the relationship between how people perceive major life events and depression in adulthood. Rather than focusing on objective event occurrence, this review examines whether subjective perception, interpretation, and meaning-making around life events predicts depression onset, testing predictions from cognitive, stress-vulnerability, and rumination models.",
+    "clinical_insight": "The massive scale of this meta-analysis (276 studies, nearly 90,000 participants) gives exceptional weight to its central finding: event perception matters as much as or more than event occurrence for depression risk. For CBT and schema therapy practitioners, this validates the core assumption that cognitive appraisal and meaning-making, rather than circumstances alone, drive depressive episodes. This supports interventions targeting cognitive reappraisal, schema modification, and narrative reconstruction of life events. The tension between changing circumstances and changing perceptions is fundamental: clients often want circumstances to change, while therapy primarily changes their relationship to those circumstances. A blind spot is the aggregation of cross-sectional studies where causality cannot be established, meaning depression may influence event perception rather than vice versa, creating a self-reinforcing cycle that CBT aims to interrupt.",
+    "relevant_for": "CBT and schema therapy clinicians working with depression who need evidence for the centrality of cognitive appraisal in case formulations",
+    "published": null,
+    "link": "https://osf.io/p3qzc"
+  },
+  {
+    "number": 294,
+    "title": "A SMART Approach to Personalized Care: Preliminary Data on How to Select and Sequence Skills in Transdiagnostic CBT",
+    "authors": "Sauer-Zavala, Southward, Stumpp, Semcho, Hood, Garlock, Urs",
+    "osf_id": "7jd34",
+    "date_posted": "2022-07-13",
+    "source_date": "13.07.2022",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "Using a Sequential Multiple Assignment Randomized Trial (SMART) design, this study tests two strategies for increasing transdiagnostic CBT efficiency: personalized skill sequences (adapting the order of skills based on early response) and personalized skill selections (choosing which skills to teach based on patient characteristics). With 70 participants with anxiety and depression, the research collects feasibility and acceptability data on whether adaptive treatment algorithms can improve outcomes while reducing the number of sessions needed.",
+    "clinical_insight": "The SMART design represents the gold standard for developing adaptive treatment algorithms, and its application to transdiagnostic CBT is both timely and practically important. For private practice clinicians, the question of which skills to teach in which order is a daily clinical decision that currently relies on intuition rather than evidence. If this research identifies algorithm-supported sequences that outperform clinician judgment, it could transform how transdiagnostic CBT is delivered. The tension between protocol fidelity and personalized treatment is at the heart of evidence-based practice, and SMART designs provide the tools to resolve it empirically. A blind spot is the small sample size (N=70), limiting statistical power for detecting differences between adaptive strategies, meaning this should be viewed as a proof of concept rather than definitive evidence.",
+    "relevant_for": "CBT clinicians and clinical researchers interested in personalized treatment algorithms and adaptive intervention design for transdiagnostic treatment",
+    "published": null,
+    "link": "https://osf.io/7jd34"
   }
 ]
