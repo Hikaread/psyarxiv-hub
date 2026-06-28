@@ -64,6 +64,7 @@
         activeCats[c.id] = this.checked;
         applyFilters();
         saveHash();
+        if (window.innerWidth <= 900) closeSidebar();
       });
       var span = document.createElement('span');
       span.textContent = c.label;
@@ -323,6 +324,26 @@
       document.getElementById('sort-select').value = sortMode;
     }
   }
+
+  /* ===== MOBILE SIDEBAR TOGGLE ===== */
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebar-overlay');
+  var toggle = document.getElementById('sidebar-toggle');
+
+  function openSidebar() {
+    sidebar.classList.add('open');
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeSidebar() {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  toggle.addEventListener('click', function() {
+    if (sidebar.classList.contains('open')) closeSidebar(); else openSidebar();
+  });
+  overlay.addEventListener('click', closeSidebar);
 
   /* ===== UTILS ===== */
   function esc(s) {

@@ -11,8 +11,15 @@
 <header id="site-header">
   <div class="header-inner">
     <div class="header-left">
-      <h1>PsyArXiv Therapist Hub</h1>
-      <span class="header-tagline">Curated preprints for clinical practice</span>
+      <button id="sidebar-toggle" type="button" aria-label="Toggle filters">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="5" x2="17" y2="5"/><line x1="3" y1="10" x2="17" y2="10"/><line x1="3" y1="15" x2="17" y2="15"/>
+        </svg>
+      </button>
+      <div class="header-titles">
+        <h1>PsyArXiv Therapist Hub</h1>
+        <span class="header-tagline">Curated preprints for clinical practice</span>
+      </div>
     </div>
     <div class="header-search">
       <input type="text" id="search-input" placeholder="Search titles, authors, topics..." autocomplete="off" aria-label="Search papers">
@@ -58,6 +65,8 @@
     <p id="no-results" style="display:none;">No papers match your search or filters.</p>
   </main>
 </div>
+
+<div id="sidebar-overlay"></div>
 
 <footer id="site-footer">
   <p>Papers sourced from <a href="https://osf.io/preprints/psyarxiv/" target="_blank" rel="noopener">PsyArXiv</a> (OSF). Curated for clinical relevance. Not peer-reviewed unless noted.</p>
