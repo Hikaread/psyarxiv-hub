@@ -328,7 +328,17 @@
     }
 
     card.innerHTML = h;
-    card.querySelector('.paper-title').addEventListener('click', function() { openModal(p); });
+    var hasDetails = p.clinical_insight || p.relevant_for || p.published;
+    var titleEl = card.querySelector('.paper-title');
+    if (hasDetails) {
+      titleEl.classList.add('has-modal');
+      titleEl.addEventListener('click', function() { openModal(p); });
+    } else if (p.link) {
+      titleEl.classList.add('has-link');
+      titleEl.addEventListener('click', function() { window.open(p.link, '_blank'); });
+    } else {
+      titleEl.classList.add('no-detail');
+    }
     return card;
   }
 
@@ -339,7 +349,6 @@
     var h = '<div class="modal-title">' + esc(p.title) + '</div>';
     h += '<div class="modal-meta"><span class="author-name">' + esc(p.authors) + '</span>';
     if (p.source_date) h += ' &middot; ' + esc(p.source_date);
-    if (p.link) h += ' &middot; <a href="' + esc(p.link) + '" target="_blank" rel="noopener">OSF</a>';
     h += '</div>';
 
     if (p.categories && p.categories.length) {
@@ -351,9 +360,6 @@
       h += '</div>';
     }
 
-    if (p.summary) {
-      h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text">' + esc(p.summary) + '</div></div>';
-    }
     if (p.clinical_insight) {
       h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text">' + esc(p.clinical_insight) + '</div></div>';
     }

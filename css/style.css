@@ -387,8 +387,11 @@ a:hover { color: var(--accent-hover); }
   font-weight: 600;
   line-height: 1.4;
   color: var(--text-primary);
-  cursor: pointer;
 }
+.paper-title.has-modal, .paper-title.has-link { cursor: pointer; }
+.paper-title.has-modal:hover { color: var(--accent); }
+.paper-title.has-link:hover { color: var(--accent); text-decoration: underline; }
+.paper-title.no-detail { opacity: 0.7; }
 .paper-meta {
   font-size: 0.76rem;
   color: var(--text-muted);
