@@ -506,18 +506,16 @@ a:hover { color: var(--accent-hover); }
 
 /* Category section divider */
 .cat-divider {
-  padding: 10px 4px 4px;
-  font-size: 0.72rem;
+  padding: 6px 2px 2px;
+  font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--accent);
   border-bottom: 1px solid var(--border);
-  margin-top: 6px;
-  position: sticky;
-  top: 70px;
-  background: var(--bg-body);
-  z-index: 5;
+  margin-top: 8px;
+  background: transparent;
+  scroll-margin-top: 68px;
 }
 
 /* ===== PAPER CARD ===== */

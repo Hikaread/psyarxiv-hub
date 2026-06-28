@@ -405,10 +405,7 @@
 
   function scrollCategoryIntoView(element) {
     if (!element) return;
-    var header = document.getElementById('site-header');
-    var headerOffset = header ? header.offsetHeight + 10 : 10;
-    var top = element.offsetTop - headerOffset;
-    window.scrollTo({ top: Math.max(top, 0), behavior: 'smooth' });
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function ensureCategoryRendered(categoryName) {
