@@ -522,9 +522,14 @@ a:hover { color: var(--accent-hover); }
 .badge[data-cat="other"]           { background: var(--accent-subtle); color: var(--text-muted); }
 
 .paper-osf-link {
+  display: inline-flex;
+  align-items: center;
   font-size: 0.76rem;
   color: var(--accent);
   font-weight: 500;
+  line-height: 1.4;
+  max-width: 100%;
+  word-break: break-word;
 }
 .paper-osf-link:hover { text-decoration: underline; }
 
@@ -768,6 +773,8 @@ a:hover { color: var(--accent-hover); }
   .paper-card-header { gap: 5px; }
   .paper-number { min-width: 22px; font-size: 0.65rem; }
   .paper-title { font-size: 0.85rem; }
+  .paper-link-wrap { margin-top: 8px; }
+  .paper-osf-link { font-size: 0.72rem; }
   .paper-actions { gap: 3px; }
   .paper-action-btn { padding: 2px 4px; font-size: 0.8rem; }
   .modal-content { padding: 18px 12px; }

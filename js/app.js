@@ -281,6 +281,26 @@
     return CATEGORIES.findIndex(function(cat) { return cat.id === id; });
   }
 
+  function getPsyArxivLinkInfo(p) {
+    if (p.link) {
+      return {
+        href: p.link,
+        label: 'View on PsyArXiv',
+        modalLabel: 'View on PsyArXiv &rarr;',
+        title: 'Open this paper on PsyArXiv'
+      };
+    }
+    if (p.title) {
+      return {
+        href: 'https://osf.io/preprints/psyarxiv/?q=' + encodeURIComponent(p.title),
+        label: 'View on PsyArXiv',
+        modalLabel: 'View on PsyArXiv &rarr;',
+        title: 'Open matching PsyArXiv search results because a direct paper link is unavailable'
+      };
+    }
+    return null;
+  }
+
   /* ===== QUICK NAV (category sort only) ===== */
   function buildQuickNav() {
     var qn = document.getElementById('quick-nav');
@@ -387,13 +407,9 @@
       h += '</div>';
     }
 
-    var paperLink = p.link || '';
-    if (!paperLink && p.title) {
-      paperLink = 'https://osf.io/preprints/psyarxiv/?q=' + encodeURIComponent(p.title);
-    }
-    if (paperLink) {
-      var linkLabel = p.link ? 'View on PsyArXiv' : 'Search on PsyArXiv';
-      h += '<div class="paper-link-wrap"><a href="' + esc(paperLink) + '" target="_blank" rel="noopener" class="paper-osf-link">' + linkLabel + '</a></div>';
+    var linkInfo = getPsyArxivLinkInfo(p);
+    if (linkInfo) {
+      h += '<div class="paper-link-wrap"><a href="' + esc(linkInfo.href) + '" target="_blank" rel="noopener" class="paper-osf-link" title="' + esc(linkInfo.title) + '">' + linkInfo.label + '</a></div>';
     }
 
     if (p.published) {
@@ -452,10 +468,9 @@
       h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + esc(p.published) + '</div></div>';
     }
 
-    var modalLink = p.link || (p.title ? 'https://osf.io/preprints/psyarxiv/?q=' + encodeURIComponent(p.title) : '');
-    if (modalLink) {
-      var modalLinkLabel = p.link ? 'View on PsyArXiv &rarr;' : 'Search on PsyArXiv &rarr;';
-      h += '<a class="modal-link" href="' + esc(modalLink) + '" target="_blank" rel="noopener">' + modalLinkLabel + '</a>';
+    var modalLinkInfo = getPsyArxivLinkInfo(p);
+    if (modalLinkInfo) {
+      h += '<a class="modal-link" href="' + esc(modalLinkInfo.href) + '" target="_blank" rel="noopener" title="' + esc(modalLinkInfo.title) + '">' + modalLinkInfo.modalLabel + '</a>';
     }
 
     body.innerHTML = h;
