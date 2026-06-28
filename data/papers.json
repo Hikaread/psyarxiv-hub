@@ -2138,23 +2138,6 @@
     "link": null
   },
   {
-    "number": 141,
-    "title": "PTSD idiographic network formulation",
-    "authors": "Ehlers & Clark",
-    "osf_id": null,
-    "date_posted": "2026-06-18",
-    "source_date": "2025-12-15",
-    "categories": [
-      "Trauma & Stressor-Related",
-      "Therapeutic Modalities"
-    ],
-    "summary": "Develops an idiographic network approach to PTSD case formulation, personalizing treatment targets based on individual symptom networks.",
-    "clinical_insight": "Building individualized symptom network formulations for PTSD allows therapists to identify which specific symptoms (e.g., nightmares, avoidance, hypervigilance) are most central for each patient, enabling precision targeting of treatment. Rather than applying a uniform protocol, clinicians can use idiographic network maps to decide whether to prioritize re-experiencing, avoidance, or negative cognition interventions first based on each patient's unique network structure.",
-    "relevant_for": "Trauma therapists developing personalized PTSD treatment plans",
-    "published": null,
-    "link": null
-  },
-  {
     "number": 142,
     "title": "Sharing cognitive reframes boosts reappraisal",
     "authors": "Unknown",
@@ -2603,22 +2586,6 @@
     "link": null
   },
   {
-    "number": 215,
-    "title": "PTSD and aphantasia in veterans",
-    "authors": "Swick",
-    "osf_id": null,
-    "date_posted": "2026-06-27",
-    "source_date": "2026-06-27",
-    "categories": [
-      "Trauma & Stressor-Related"
-    ],
-    "summary": "Investigates the relationship between aphantasia (inability to voluntarily visualize imagery) and PTSD symptomatology in military veterans, with implications for imagery-based trauma treatments.",
-    "clinical_insight": "Veterans with aphantasia may not benefit from standard imagery-based PTSD treatments like prolonged exposure or imaginal rehearsal, requiring therapists to adapt toward narrative, somatic, or sensory-based processing instead. Clinicians should screen for aphantasia when trauma-focused therapy stalls, and shift to approaches such as written trauma accounts, EMDR, or body-oriented techniques that do not rely on voluntary visual imagery. This finding challenges the assumption that all patients can engage in imaginal exposure and calls for personalized trauma treatment matching.",
-    "relevant_for": "Military and veteran PTSD therapists using trauma-focused exposure therapies",
-    "published": null,
-    "link": null
-  },
-  {
     "number": 216,
     "title": "Experiences with One-to-One Trauma Center Trauma-Sensitive Yoga Sessions: Consensual Qualitative Research",
     "authors": "Kelsey Madison Dietrich, Nicole Strumbel, Ashley Baumann, Viann N Nguyen-Feng",
@@ -2634,23 +2601,6 @@
     "relevant_for": "Trauma therapists working with Indigenous and culturally diverse communities",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/hkga5_v2"
-  },
-  {
-    "number": 217,
-    "title": "Implicit Association Test for social anxiety",
-    "authors": "Pattison",
-    "osf_id": null,
-    "date_posted": "2026-06-27",
-    "source_date": "2026-06-27",
-    "categories": [
-      "Anxiety & OCD",
-      "Psychopathology & Assessment"
-    ],
-    "summary": "Examines the use of the Implicit Association Test (IAT) as a measure of social anxiety, assessing its validity and clinical utility.",
-    "clinical_insight": "The IAT offers therapists an indirect measure of social anxiety that captures automatic negative self-associations patients may not report on self-questionnaires due to shame or lack of insight. Clinicians can use the IAT as a supplementary assessment tool to detect hidden social anxiety, monitor implicit attitude change during treatment, or identify patients who verbally minimize their social fears. This is especially useful when self-report and behavioral observation diverge, suggesting unconscious threat associations that may sustain social avoidance.",
-    "relevant_for": "Clinical psychologists specializing in social anxiety assessment and research",
-    "published": null,
-    "link": null
   },
   {
     "number": 218,
@@ -2768,23 +2718,6 @@
     "relevant_for": "Psychedelic-assisted therapy facilitators and integration therapists working with LGBTQ+ populations",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/sfpqa_v1"
-  },
-  {
-    "number": 225,
-    "title": "ADHD and PTSD: shared oxidative stress framework",
-    "authors": "Faulkner",
-    "osf_id": null,
-    "date_posted": "2026-06-27",
-    "source_date": "2026-06-20",
-    "categories": [
-      "Neurodivergence",
-      "Trauma & Stressor-Related"
-    ],
-    "summary": "Proposes a shared oxidative stress framework for understanding the high comorbidity between ADHD and PTSD.",
-    "clinical_insight": "The high ADHD-PTSD comorbidity may partly reflect shared neurobiological stress mechanisms, suggesting clinicians treating either condition should routinely screen for the other. Treatment planning should address dysregulated stress responses holistically rather than treating each disorder in isolation, potentially incorporating lifestyle and antioxidant-supportive interventions alongside psychotherapy.",
-    "relevant_for": "Neuropsychologists and trauma therapists assessing and treating comorbid ADHD and PTSD",
-    "published": null,
-    "link": null
   },
   {
     "number": 226,
@@ -4322,5 +4255,85 @@
     "relevant_for": "Trauma therapists and clinical psychologists navigating the CPTSD vs. BPD diagnostic landscape",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/3tx6e_v1"
+  },
+  {
+    "number": 320,
+    "title": "Confabulation and False Memory in Clinical Psychology: A Review of Theoretical Perspectives and Clinical Implications",
+    "authors": "Kryvosheia",
+    "osf_id": "h68bc",
+    "date_posted": "2026-06-27",
+    "source_date": "27.06.2026",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "Reviews theoretical perspectives on confabulation and false memory, distinguishing their different aetiologies and clinical meanings. Confabulation typically follows neurological insult and reflects memory gap-filling, while false memories arise from source-monitoring errors and schema-driven reconstruction common in healthy cognition. The review synthesizes clinical implications for assessment and treatment across neuropsychological and psychotherapeutic contexts.",
+    "clinical_insight": "Clinicians conducting trauma-focused therapy must distinguish between confabulation (suggesting neurological involvement requiring referral) and false memory (a normal cognitive process amplified by suggestive techniques). The review supports careful use of memory recovery techniques, emphasizing that source-monitoring training can help patients differentiate genuine memories from reconstructed ones. A key blind spot is the limited empirical guidance on how to apply these distinctions in real-time clinical sessions with trauma survivors reporting recovered memories.",
+    "relevant_for": "Neuropsychologists and trauma therapists assessing memory accuracy in clinical practice",
+    "published": null,
+    "link": "https://osf.io/h68bc"
+  },
+  {
+    "number": 321,
+    "title": "The Development of a Culturally-Adapted Dialectical Behavioral Therapy Single-Session Intervention: Encouraging Flexible Control",
+    "authors": "Ramadurai, Nelson",
+    "osf_id": "up8dn",
+    "date_posted": "2026-06-27",
+    "source_date": "27.06.2026",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "Develops and describes a culturally-adapted DBT single-session intervention for African American women experiencing intersectional stress and overcontrolled coping patterns. The adaptation validates environmental stressors while exploring flexibility in coping, integrating cultural context into the DBT framework of dialectical thinking between acceptance and change.",
+    "clinical_insight": "DBT therapists working with marginalized populations should consider how cultural stressors shape overcontrolled coping patterns and adapt skills training accordingly. The single-session format makes this intervention practical for crisis intervention, intake sessions, or settings where full DBT programs are unavailable. The main limitation is the early development stage without controlled outcome data, though the cultural adaptation framework provides a replicable model for other populations experiencing intersectional stress.",
+    "relevant_for": "DBT therapists and crisis clinicians working with African American women and other marginalized groups",
+    "published": null,
+    "link": "https://osf.io/up8dn"
+  },
+  {
+    "number": 322,
+    "title": "Self-Esteem and Suicidal Thoughts and Behaviors: A Meta-Analytic Review",
+    "authors": "Buecker et al.",
+    "osf_id": "srkmp",
+    "date_posted": "2026-06-27",
+    "source_date": "27.06.2026",
+    "categories": [
+      "Suicidality & Self-Harm"
+    ],
+    "summary": "Meta-analysis of 114 studies examining the association between self-esteem and suicidal thoughts and behaviors. Finds moderate-to-strong negative associations (r=-.435 for ideation, r=-.258 for behavior), with moderation by age, clinical status, and measurement approach. Results support self-esteem as both a risk marker and potential intervention target for suicide prevention.",
+    "clinical_insight": "This meta-analysis provides robust evidence that self-esteem is a significant and modifiable risk factor for suicidal ideation and behavior, with effect sizes large enough to be clinically meaningful. Therapists should integrate self-esteem assessment into suicide risk formulations and consider interventions that directly target self-worth, such as compassion-focused therapy or schema therapy limited re-parenting, alongside standard safety planning. A critical blind spot is that most included studies are cross-sectional, limiting causal inference about whether low self-esteem causes suicidality or vice versa.",
+    "relevant_for": "Suicide risk assessors and therapists using CFT or schema therapy with suicidal patients",
+    "published": null,
+    "link": "https://osf.io/srkmp"
+  },
+  {
+    "number": 323,
+    "title": "Intolerance of Uncertainty and Psychosis: A Systematic Review",
+    "authors": "Morriss, Ellett",
+    "osf_id": "5m2e9",
+    "date_posted": "2026-06-27",
+    "source_date": "27.06.2026",
+    "categories": [
+      "Psychosis & Schizophrenia"
+    ],
+    "summary": "Systematic review examining the relationship between intolerance of uncertainty (IU) and psychosis-spectrum symptoms. Finds evidence that IU is elevated in individuals with schizophrenia-spectrum diagnoses and contributes to distress, delusional conviction, and anomalous experiences, positioning IU as a transdiagnostic mechanism relevant to early intervention approaches for psychosis.",
+    "clinical_insight": "For clinicians working with early psychosis or high-risk populations, assessing intolerance of uncertainty provides a transdiagnostic target that bridges anxiety and psychotic experiences. ACT-based interventions that build psychological flexibility in the face of uncertainty may reduce both distress and delusional conviction, complementing antipsychotic medication. The review highlights the tension between psychosis-specific and transdiagnostic models, noting that IU-based interventions developed for anxiety may need significant adaptation for psychotic populations. A limitation is the relatively small evidence base compared to the anxiety-IU literature.",
+    "relevant_for": "Early psychosis clinicians and ACT therapists working with schizophrenia-spectrum disorders",
+    "published": "Br J Clin Psychol (2025) — https://doi.org/10.1111/bjc.12509",
+    "link": "https://osf.io/5m2e9"
+  },
+  {
+    "number": 324,
+    "title": "Predictive Formats and Informational Attenuation: A Unified Account of Autism Across Cognition, Phenomenology, and Social Interaction",
+    "authors": "Safader",
+    "osf_id": "q53bj",
+    "date_posted": "2026-06-27",
+    "source_date": "27.06.2026",
+    "categories": [
+      "Neurodivergence"
+    ],
+    "summary": "Proposes a unified account of autism grounded in predictive processing and information theory, explaining autistic differences in perception, reasoning, and social interaction as systematic consequences of attenuated prior precision. The framework integrates cognitive, phenomenological, and social levels, offering a parsimonious alternative to fragmented domain-specific explanations of autistic cognition.",
+    "clinical_insight": "This predictive processing framework gives therapists a coherent way to understand autistic clients experiences without pathologizing them: sensory sensitivities, social differences, and reliance on routine all follow from the same underlying mechanism of attenuated prior precision. For assessment, this supports moving away from deficit-based models toward understanding how information processing differences create specific strengths and challenges. The key limitation is that this remains a theoretical framework without direct clinical trial evidence, though it aligns with neurodiversity-affirming approaches gaining traction in clinical practice.",
+    "relevant_for": "Neuropsychologists and therapists conducting autism assessments and neurodiversity-affirming therapy with adult autistic clients",
+    "published": null,
+    "link": "https://osf.io/q53bj"
   }
 ]
