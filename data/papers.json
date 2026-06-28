@@ -3316,5 +3316,137 @@
     "relevant_for": "Clinicians prescribing or referring to internet-based depression treatments, and researchers studying psychotherapy adverse effects",
     "published": null,
     "link": "https://osf.io/zxdcr"
+  },
+  {
+    "number": 252,
+    "title": "Racial/Ethnic Identity Moderates Changes in Skill Use and Therapeutic Alliance but Not Anxiety or Depression in the Unified Protocol",
+    "authors": "Southward, Urs, Adams, Sauer-Zavala",
+    "osf_id": "42kzj",
+    "date_posted": "2026-06-28",
+    "source_date": "03.09.2025",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This study examined how racial/ethnic background impacted treatment outcomes, therapeutic alliance, and skill use in the Unified Protocol (UP), a transdiagnostic CBT approach. Among 70 adults with emotional disorders who completed six core UP sessions, minoritized patients showed weaker alliances and less frequent skill use, though outcomes for anxiety and depression were comparable to White patients.",
+    "clinical_insight": "Therapists using transdiagnostic approaches like the Unified Protocol should proactively attend to racial/ethnic identity as a moderating factor in the therapeutic alliance and skill acquisition, not just as a demographic variable. Even when symptom outcomes appear equivalent across groups, the pathway to change may differ substantially — minority patients may need more alliance-building and skill-use encouragement early in treatment to achieve comparable gains.",
+    "relevant_for": "CBT therapists using transdiagnostic protocols with racially and ethnically diverse adult populations",
+    "published": null,
+    "link": "https://osf.io/42kzj"
+  },
+  {
+    "number": 253,
+    "title": "Slowed Extinction of Repetitive Threat-Neutralization Behavior in Anxiety-Related Disorders: Effects from a Novel Fear-Conditioning Paradigm",
+    "authors": "Rozniarek, Rostel, Robinson, Smith, Paulus, Aupperle, Berg",
+    "osf_id": "gzmt2",
+    "date_posted": "2026-06-28",
+    "source_date": "15.10.2025",
+    "categories": [
+      "Anxiety & OCD",
+      "Obsessive-Compulsive"
+    ],
+    "summary": "Examined repetitive threat-neutralization (RTN) behavior — a pattern common across anxiety and OCD — using a novel Tap-to-Safety paradigm. Adults with anxiety-related disorders (n=40) showed slowed extinction of RTN compared to healthy controls, and anxiety sensitivity predicted more persistent threat-neutralization. The findings suggest RTN is a measurable, modifiable behavioral marker that persists even when the threat is removed.",
+    "clinical_insight": "Repetitive checking, reassurance-seeking, and neutralizing behaviors that clients present in session likely reflect the same threat-neutralization mechanism captured in this paradigm. The finding that extinction is slowed in anxiety-disordered individuals supports the clinical observation that simply telling clients their fears are unfounded rarely works — clinicians should expect these behaviors to be entrenched and plan exposure-based interventions accordingly, rather than relying on cognitive restructuring alone.",
+    "relevant_for": "CBT and exposure therapists working with anxiety disorders and OCD, particularly those with prominent checking or neutralizing rituals",
+    "published": null,
+    "link": "https://osf.io/gzmt2"
+  },
+  {
+    "number": 254,
+    "title": "Mapping Post-Traumatic Stress Disorder: A Proof of Concept for Network-Based Case Formulation",
+    "authors": "Blomfield, Hertz-Palmor, El Leithy, Dalgleish, Bevan, Brown",
+    "osf_id": "2bevk",
+    "date_posted": "2026-06-28",
+    "source_date": "01.11.2025",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "Applied the network approach to PTSD by building personalized symptom networks from ecological momentary assessment (EMA) data. Network-derived formulations were compared against clinician-generated cognitive formulations following the Ehlers and Clark model. Cognitive variables predicted affective variables over time, supporting the clinical utility of network-based individualized case formulation for PTSD.",
+    "clinical_insight": "Network-based case formulation offers a data-driven complement to traditional clinical judgment in PTSD treatment planning. By identifying which symptoms are central hubs in an individual patient network, therapists can prioritize intervention targets more precisely — for example, if negative self-beliefs are a central node driving the network, targeting cognitions becomes the priority rather than a one-size-fits-all protocol. This is particularly useful for complex, treatment-resistant PTSD where standard protocols have failed.",
+    "relevant_for": "Trauma-focused therapists working with complex or treatment-resistant PTSD, especially those interested in personalized treatment planning and EMA-informed care",
+    "published": null,
+    "link": "https://osf.io/2bevk"
+  },
+  {
+    "number": 255,
+    "title": "Targeting Mechanisms of Change as a Path to Precision Psychotherapy in Community Settings",
+    "authors": "Solomonov",
+    "osf_id": "k5b2v",
+    "date_posted": "2026-06-28",
+    "source_date": "06.09.2025",
+    "categories": [
+      "Therapeutic Modalities",
+      "Mood Disorders"
+    ],
+    "summary": "Argues for a mechanism-focused approach to improving psychotherapy outcomes for depression in community settings, where response rates remain stagnant despite scientific progress. Proposes integrating neuroscience tools, brain-based mechanisms, and AI methods to identify change mechanisms and develop simpler, scalable interventions that target these mechanisms directly rather than delivering full manualized protocols.",
+    "clinical_insight": "Community therapists often lack the resources to deliver full manualized protocols with fidelity. This paper supports a pragmatic alternative: identify the active mechanism of change for a given patient (e.g., cognitive reappraisal, behavioral activation, affect regulation) and deliver targeted interventions around that mechanism. This precision approach could improve outcomes without requiring therapists to adopt entirely new treatment models.",
+    "relevant_for": "Community mental health clinicians treating depression who seek to improve outcomes without overhauling their therapeutic approach",
+    "published": null,
+    "link": "https://osf.io/k5b2v"
+  },
+  {
+    "number": 256,
+    "title": "Clinician Perspectives on Process-Based Therapy",
+    "authors": "Ong, Sheehan, Ciarrochi, Lee",
+    "osf_id": "yzp6a",
+    "date_posted": "2026-06-28",
+    "source_date": "08.09.2025",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "Surveyed clinicians about their perspectives on Process-Based Therapy (PBT), an approach focused on precisely matching treatment components to individual needs rather than applying protocols based on diagnosis. Clinicians reported moderate familiarity with PBT and identified both enthusiasm for its individualized approach and barriers including training gaps, implementation challenges, and limited available resources for adoption.",
+    "clinical_insight": "Process-Based Therapy represents a shift from diagnosis-driven treatment selection to mechanism-driven intervention matching. For therapists already practicing eclectically, PBT provides a formal framework that legitimizes what many already do intuitively. However, the identified training and implementation barriers suggest that adoption will depend on accessible continuing education and clear case illustrations rather than theoretical papers alone.",
+    "relevant_for": "Therapists interested in transdiagnostic, mechanism-based approaches to treatment selection and those seeking frameworks beyond manualized protocols",
+    "published": null,
+    "link": "https://osf.io/yzp6a"
+  },
+  {
+    "number": 257,
+    "title": "Clinical Utility of the Level of Personality Functioning Scale: A Survey of German Mental Health Professionals",
+    "authors": "Wendt, Klein, Benecke, Singer, Maier, Engesser, van Haaren, Zimmermann",
+    "osf_id": "u9ycr",
+    "date_posted": "2026-06-28",
+    "source_date": "04.09.2025",
+    "categories": [
+      "Personality Disorders",
+      "Psychopathology & Assessment"
+    ],
+    "summary": "Surveyed 346 German mental health professionals on the clinical utility of the Level of Personality Functioning Scale (LPFS), a clinician-rated global evaluation of personality functioning aligned with the DSM-5 AMPD and ICD-11 dimensional approach to personality disorders. The study examined perceived usefulness, ease of use, and barriers to implementation in routine clinical practice.",
+    "clinical_insight": "The shift from categorical to dimensional personality disorder assessment (DSM-5 AMPD, ICD-11) is gaining traction internationally. This survey provides practical intelligence on how frontline clinicians experience the LPFS — its strengths in capturing severity gradients, and its limitations in time-pressed settings. Therapists working with personality pathology should consider integrating the LPFS or similar dimensional tools to track functional impairment across self and interpersonal domains, which can guide treatment planning more flexibly than categorical diagnoses.",
+    "relevant_for": "Clinicians assessing and treating personality disorders, particularly those transitioning to DSM-5 Alternative Model or ICD-11 dimensional approaches",
+    "published": null,
+    "link": "https://osf.io/u9ycr"
+  },
+  {
+    "number": 258,
+    "title": "Introducing the Causal Graph Approach to Psychopathology: An Illustration in Patients with Obsessive-Compulsive Disorder",
+    "authors": "Kossakowski, Oudheusden, McNally, Riemann, Waldorp, van der Maas",
+    "osf_id": "ed2v5",
+    "date_posted": "2026-06-28",
+    "source_date": "01.10.2019",
+    "categories": [
+      "Obsessive-Compulsive"
+    ],
+    "summary": "Introduces a causal graph approach to understanding psychopathology, illustrated with OCD patients. Unlike correlational network analysis, causal graphs allow clinicians to hypothesize and test directional relationships between symptoms (e.g., does obsessions cause compulsions, or vice versa?). The paper demonstrates how observational data combined with causal inference methods can reveal the likely causal structure of symptom interactions.",
+    "clinical_insight": "In OCD treatment, understanding the causal direction between symptoms has direct implications for intervention sequencing. If the analysis suggests that intrusive thoughts causally drive compulsive behavior (rather than the reverse), then targeting the intrusive thoughts through cognitive techniques or exposure becomes the logical priority. This approach helps clinicians move beyond the traditional exposure-and-response-prevention protocol to consider individualized causal formulations, especially for treatment-resistant cases where standard ERP has been insufficient.",
+    "relevant_for": "OCD specialists and CBT therapists treating treatment-resistant obsessive-compulsive disorder who want to refine case conceptualization beyond standard models",
+    "published": null,
+    "link": "https://osf.io/ed2v5"
+  },
+  {
+    "number": 259,
+    "title": "Experiences with One-to-One Trauma Center Trauma-Sensitive Yoga Sessions: Consensual Qualitative Research",
+    "authors": "Dietrich, Strumbel, Baumann, Nguyen-Feng",
+    "osf_id": "hkga5",
+    "date_posted": "2026-06-28",
+    "source_date": "07.09.2025",
+    "categories": [
+      "Trauma & Stressor-Related",
+      "Therapeutic Modalities"
+    ],
+    "summary": "Examined individual experiences with Trauma Center Trauma-Sensitive Yoga (TCTSY) delivered in one-to-one sessions, an evidence-based adjunct treatment for PTSD. Previous research focused on group TCTSY; this study used consensual qualitative research to explore how individual delivery is experienced. Findings highlight themes of bodily reconnection, safety, and the importance of the therapeutic relationship in somatic trauma work.",
+    "clinical_insight": "Trauma-sensitive yoga is increasingly recognized as an adjunct to talk therapy for PTSD, particularly for clients who struggle with traditional exposure-based approaches or who present with dissociative symptoms. The finding that one-to-one delivery offers unique benefits — particularly around safety and bodily reconnection — suggests that therapists should consider individual TCTSY referrals for clients who have not benefited from group formats or who have significant attachment-related trauma that makes group settings challenging.",
+    "relevant_for": "Trauma therapists working with PTSD, particularly those treating clients with dissociative features, complex trauma, or those who have not responded to traditional exposure therapy alone",
+    "published": null,
+    "link": "https://osf.io/hkga5"
   }
 ]
