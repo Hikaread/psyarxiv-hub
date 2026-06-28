@@ -301,6 +301,29 @@
     return null;
   }
 
+  function linkifyText(value) {
+    var text = String(value || '');
+    var urlPattern = /https?:\/\/[^\s]+/g;
+    var result = '';
+    var lastIndex = 0;
+    var match;
+
+    while ((match = urlPattern.exec(text)) !== null) {
+      var url = match[0];
+      var trailing = '';
+      while (/[.,;:!?)]$/.test(url)) {
+        trailing = url.slice(-1) + trailing;
+        url = url.slice(0, -1);
+      }
+      result += esc(text.slice(lastIndex, match.index));
+      result += '<a class="text-link" href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(url) + '</a>';
+      result += esc(trailing);
+      lastIndex = match.index + match[0].length;
+    }
+
+    return result + esc(text.slice(lastIndex));
+  }
+
   /* ===== QUICK NAV (category sort only) ===== */
   function buildQuickNav() {
     var qn = document.getElementById('quick-nav');
@@ -413,7 +436,7 @@
     }
 
     if (p.published) {
-      h += '<div class="paper-published-text">\u2714 Peer reviewed: ' + esc(p.published) + '</div>';
+      h += '<div class="paper-published-text">\u2714 Peer reviewed: ' + linkifyText(p.published) + '</div>';
     }
 
     card.innerHTML = h;
@@ -465,7 +488,7 @@
       h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text">' + esc(p.relevant_for) + '</div></div>';
     }
     if (p.published) {
-      h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + esc(p.published) + '</div></div>';
+      h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + linkifyText(p.published) + '</div></div>';
     }
 
     var modalLinkInfo = getPsyArxivLinkInfo(p);
