@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets - NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Temp scraper files
+psyarxiv_pass*.json
+psyarxiv_merged.json
+psyarxiv_batch.json
+psyarxiv_with_authors.json
+psyarxiv_extra_*.json
+
+# Internal scripts (not for public repo)
+build_papers_db.py
+update_website_papers.py
+psyarxiv_scraper.py
+merge_passes.py
+pubmed_batch.py
+sanitize_discord.py
+psyarxiv_seen.json
+psyarxiv_counter.json
+psyarxiv_curation_results.txt
+worklog.md
