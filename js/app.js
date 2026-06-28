@@ -387,8 +387,13 @@
       h += '</div>';
     }
 
-    if (p.link) {
-      h += '<div class="paper-link-wrap"><a href="' + esc(p.link) + '" target="_blank" rel="noopener" class="paper-osf-link">View on PsyArXiv</a></div>';
+    var paperLink = p.link || '';
+    if (!paperLink && p.title) {
+      paperLink = 'https://osf.io/preprints/psyarxiv/?q=' + encodeURIComponent(p.title);
+    }
+    if (paperLink) {
+      var linkLabel = p.link ? 'View on PsyArXiv' : 'Search on PsyArXiv';
+      h += '<div class="paper-link-wrap"><a href="' + esc(paperLink) + '" target="_blank" rel="noopener" class="paper-osf-link">' + linkLabel + '</a></div>';
     }
 
     if (p.published) {
@@ -447,8 +452,10 @@
       h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + esc(p.published) + '</div></div>';
     }
 
-    if (p.link) {
-      h += '<a class="modal-link" href="' + esc(p.link) + '" target="_blank" rel="noopener">View on PsyArXiv &rarr;</a>';
+    var modalLink = p.link || (p.title ? 'https://osf.io/preprints/psyarxiv/?q=' + encodeURIComponent(p.title) : '');
+    if (modalLink) {
+      var modalLinkLabel = p.link ? 'View on PsyArXiv &rarr;' : 'Search on PsyArXiv &rarr;';
+      h += '<a class="modal-link" href="' + esc(modalLink) + '" target="_blank" rel="noopener">' + modalLinkLabel + '</a>';
     }
 
     body.innerHTML = h;
