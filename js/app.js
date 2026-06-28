@@ -319,14 +319,6 @@
         title: 'Open this paper on PsyArXiv'
       };
     }
-    if (p.title) {
-      return {
-        href: 'resolve.html?paper=' + encodeURIComponent(p.number),
-        label: 'View on PsyArXiv',
-        modalLabel: 'View on PsyArXiv &rarr;',
-        title: 'Attempt to resolve the direct PsyArXiv paper page automatically'
-      };
-    }
     return null;
   }
 
