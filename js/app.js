@@ -297,7 +297,7 @@
 
     var h = '<div class="paper-card-header">';
     h += '<span class="paper-number">#' + p.number + '</span>';
-    h += '<div class="paper-title">' + esc(p.title) + '</div>';
+    h += '<div class="paper-title has-modal">' + esc(p.title) + '</div>';
     h += '</div>';
 
     h += '<div class="paper-meta">';
@@ -306,7 +306,7 @@
     h += '</div>';
 
     if (p.summary) {
-      h += '<div class="paper-summary">' + esc(truncate(p.summary, 200)) + '</div>';
+      h += '<div class="paper-summary">' + esc(truncate(p.summary, 220)) + '</div>';
     }
 
     if (p.categories && p.categories.length) {
@@ -318,27 +318,13 @@
       h += '</div>';
     }
 
-    if (p.published) {
-      h += '<div class="paper-published">Published: ' + esc(p.published) + '</div>';
-    }
-
-    // Link to OSF if available
     if (p.link) {
       h += '<div style="padding-left:36px;margin-top:6px;"><a href="' + esc(p.link) + '" target="_blank" rel="noopener" class="paper-osf-link">View on PsyArXiv</a></div>';
     }
 
     card.innerHTML = h;
-    var hasDetails = p.clinical_insight || p.relevant_for || p.published;
     var titleEl = card.querySelector('.paper-title');
-    if (hasDetails) {
-      titleEl.classList.add('has-modal');
-      titleEl.addEventListener('click', function() { openModal(p); });
-    } else if (p.link) {
-      titleEl.classList.add('has-link');
-      titleEl.addEventListener('click', function() { window.open(p.link, '_blank'); });
-    } else {
-      titleEl.classList.add('no-detail');
-    }
+    titleEl.addEventListener('click', function() { openModal(p); });
     return card;
   }
 
@@ -360,6 +346,10 @@
       h += '</div>';
     }
 
+    // Always show summary in modal (full text, not truncated)
+    if (p.summary) {
+      h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text">' + esc(p.summary) + '</div></div>';
+    }
     if (p.clinical_insight) {
       h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text">' + esc(p.clinical_insight) + '</div></div>';
     }
