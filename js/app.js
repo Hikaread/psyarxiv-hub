@@ -170,7 +170,6 @@
         activeCats[c.id] = this.checked;
         applyFilters();
         saveHash();
-        if (window.innerWidth <= 900) closeSidebar();
       });
       var span = document.createElement('span');
       span.textContent = c.label;
@@ -323,11 +322,13 @@
       h += '<div class="paper-published">Published: ' + esc(p.published) + '</div>';
     }
 
-    // ALWAYS show read more
-    h += '<button class="paper-expand-btn" data-idx="' + p.number + '">Read more</button>';
+    // Link to OSF if available
+    if (p.link) {
+      h += '<div style="padding-left:36px;margin-top:6px;"><a href="' + esc(p.link) + '" target="_blank" rel="noopener" class="paper-osf-link">View on PsyArXiv</a></div>';
+    }
 
     card.innerHTML = h;
-    card.querySelector('.paper-expand-btn').addEventListener('click', function() { openModal(p); });
+    card.querySelector('.paper-title').addEventListener('click', function() { openModal(p); });
     return card;
   }
 
@@ -380,7 +381,9 @@
 
   function closeModal() {
     document.getElementById('paper-modal').style.display = 'none';
-    document.body.style.overflow = '';
+    if (!settingsDrawer.classList.contains('open') && !sidebar.classList.contains('open')) {
+      document.body.style.overflow = '';
+    }
   }
 
   /* ===== STATS ===== */
