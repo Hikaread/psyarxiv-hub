@@ -23,7 +23,7 @@
   CATEGORIES.forEach(function(c) { catMap[c.id] = c.label; labelToId[c.label] = c.id; });
 
   /* ===== STATE ===== */
-  var papers = [], filtered = [], shown = 0, totalIndexedPapers = 0;
+  var papers = [], filtered = [], shown = 0;
   var activeCats = {};
   CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
   var searchQuery = '', sortMode = 'newest';
@@ -190,9 +190,6 @@
     .then(function(r) { return r.json(); })
     .then(function(data) {
       papers = data;
-      totalIndexedPapers = papers.reduce(function(maxValue, paper) {
-        return Math.max(maxValue, Number(paper.number) || 0);
-      }, 0);
       buildCategoryFilters();
       applyStateFromHash();
       applyFilters();
@@ -549,7 +546,7 @@
 
   /* ===== STATS ===== */
   function updateStats() {
-    document.getElementById('stat-total').textContent = totalIndexedPapers || papers.length;
+    document.getElementById('stat-total').textContent = papers.length;
     document.getElementById('stat-shown').textContent = filtered.length;
   }
 

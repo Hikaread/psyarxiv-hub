@@ -79,7 +79,7 @@ function buildPaperRecord(parsed) {
     clinical_insight: sections['clinical insight'],
     relevant_for: sections['relevant for'],
     published: metadata.published || null,
-    link: `https://osf.io/${metadata.osf_id}`
+    link: `https://osf.io/preprints/psyarxiv/${metadata.osf_id}`
   };
 }
 
