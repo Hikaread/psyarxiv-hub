@@ -119,17 +119,31 @@
   var settingsDrawer = document.getElementById('settings-drawer');
   var settingsOverlay = document.getElementById('settings-overlay');
 
+  function positionSettingsDrawer() {
+    var headerBottom = document.getElementById('site-header').getBoundingClientRect().bottom;
+    var statsBottom = document.getElementById('stats-bar').getBoundingClientRect().bottom;
+    document.documentElement.style.setProperty('--settings-top', Math.max(headerBottom, statsBottom) + 'px');
+  }
+
   function openSettings() {
+    document.getElementById('site-header').classList.remove('hidden');
+    document.getElementById('stats-bar').classList.remove('hidden');
+    positionSettingsDrawer();
     settingsDrawer.classList.add('open');
     settingsOverlay.classList.add('open');
+    document.getElementById('settings-toggle').setAttribute('aria-expanded', 'true');
     document.body.style.overflow = 'hidden';
   }
   function closeSettings() {
     settingsDrawer.classList.remove('open');
     settingsOverlay.classList.remove('open');
+    document.getElementById('settings-toggle').setAttribute('aria-expanded', 'false');
     if (!sidebar.classList.contains('open')) document.body.style.overflow = '';
   }
-  document.getElementById('settings-toggle').addEventListener('click', openSettings);
+  document.getElementById('settings-toggle').addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (settingsDrawer.classList.contains('open')) closeSettings(); else openSettings();
+  });
   document.getElementById('settings-close').addEventListener('click', closeSettings);
   settingsOverlay.addEventListener('click', closeSettings);
 
