@@ -26,7 +26,7 @@
   var papers = [], filtered = [], shown = 0;
   var activeCats = {};
   CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
-  var searchQuery = '', sortMode = 'newest';
+  var searchQuery = '', sortMode = 'newest', categoryView = false;
   var PAGE_SIZE = 25;
   var ticking = false;
 
@@ -263,23 +263,29 @@
 
   function sortPapers() {
     filtered.sort(function(a, b) {
-      switch (sortMode) {
-        case 'oldest':    return a.number - b.number;
-        case 'newest':    return b.number - a.number;
-        case 'favorites':
-          var aS = isStar(a.number) ? 1 : 0, bS = isStar(b.number) ? 1 : 0;
-          if (aS !== bS) return bS - aS;
-          return b.number - a.number;
-        case 'unread':
-          var aR = isRead(a.number) ? 1 : 0, bR = isRead(b.number) ? 1 : 0;
-          if (aR !== bR) return aR - bR;
-          return b.number - a.number;
-        case 'date-desc': return parseDateNum(b.source_date) - parseDateNum(a.source_date);
-        case 'date-asc':  return parseDateNum(a.source_date) - parseDateNum(b.source_date);
-        case 'category':  return getCatSort(a) - getCatSort(b) || b.number - a.number;
-        default:          return b.number - a.number;
+      if (categoryView) {
+        return getCatSort(a) - getCatSort(b) || compareBySortMode(a, b, sortMode);
       }
+      return compareBySortMode(a, b, sortMode);
     });
+  }
+
+  function compareBySortMode(a, b, mode) {
+    switch (mode) {
+      case 'oldest':    return a.number - b.number;
+      case 'newest':    return b.number - a.number;
+      case 'favorites':
+        var aS = isStar(a.number) ? 1 : 0, bS = isStar(b.number) ? 1 : 0;
+        if (aS !== bS) return bS - aS;
+        return b.number - a.number;
+      case 'unread':
+        var aR = isRead(a.number) ? 1 : 0, bR = isRead(b.number) ? 1 : 0;
+        if (aR !== bR) return aR - bR;
+        return b.number - a.number;
+      case 'date-desc': return parseDateNum(b.source_date) - parseDateNum(a.source_date);
+      case 'date-asc':  return parseDateNum(a.source_date) - parseDateNum(b.source_date);
+      default:          return b.number - a.number;
+    }
   }
 
   function getCatSort(p) {
@@ -316,8 +322,8 @@
     if (p.title) {
       return {
         href: 'resolve.html?paper=' + encodeURIComponent(p.number),
-        label: 'Find Paper Link',
-        modalLabel: 'Find Paper Link &rarr;',
+        label: 'View on PsyArXiv',
+        modalLabel: 'View on PsyArXiv &rarr;',
         title: 'Attempt to resolve the direct PsyArXiv paper page automatically'
       };
     }
@@ -354,11 +360,11 @@
     return value;
   }
 
-  /* ===== QUICK NAV (category sort only) ===== */
+  /* ===== QUICK NAV (category view only) ===== */
   function buildQuickNav() {
     var qn = document.getElementById('quick-nav');
     qn.innerHTML = '';
-    if (sortMode !== 'category') { qn.classList.remove('visible'); return; }
+    if (!categoryView) { qn.classList.remove('visible'); return; }
     var seen = [];
     filtered.forEach(function(p) {
       var c = (p.categories || [])[0] || 'Other Clinical';
@@ -368,8 +374,10 @@
     seen.forEach(function(cat) {
       var btn = document.createElement('button');
       btn.className = 'qn-btn';
-      btn.setAttribute('data-tooltip', cat);
+      btn.type = 'button';
+      btn.setAttribute('aria-label', 'Jump to ' + cat);
       btn.dataset.cat = cat;
+      btn.innerHTML = '<span class="qn-dot" aria-hidden="true"></span><span class="qn-label">' + esc(cat) + '</span>';
       btn.addEventListener('click', function() {
         var el = document.getElementById('cat-' + catToAnchor(cat));
         if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -380,7 +388,7 @@
   }
 
   function updateQuickNav() {
-    if (sortMode !== 'category') return;
+    if (!categoryView) return;
     var dividers = document.querySelectorAll('.cat-divider');
     var qnBtns = document.querySelectorAll('.qn-btn');
     if (!dividers.length || !qnBtns.length) return;
@@ -403,7 +411,7 @@
     var list = document.getElementById('papers-list');
     var end = Math.min(shown + PAGE_SIZE, filtered.length);
     for (var i = shown; i < end; i++) {
-      if (sortMode === 'category') {
+      if (categoryView) {
         var cat = (filtered[i].categories || [])[0] || 'Other Clinical';
         if (cat !== lastRenderedCat) {
           var div = document.createElement('div');
@@ -552,9 +560,17 @@
 
   /* ===== SEARCH ===== */
   var searchTimer;
-  document.getElementById('search-input').addEventListener('input', function() {
+  var searchInput = document.getElementById('search-input');
+  var searchClear = document.getElementById('search-clear');
+
+  function syncSearchClearButton() {
+    searchClear.classList.toggle('visible', !!searchInput.value);
+  }
+
+  searchInput.addEventListener('input', function() {
     clearTimeout(searchTimer);
     var val = this.value;
+    syncSearchClearButton();
     searchTimer = setTimeout(function() {
       searchQuery = val;
       applyFilters();
@@ -562,9 +578,27 @@
     }, 200);
   });
 
+  searchClear.addEventListener('click', function() {
+    searchInput.value = '';
+    searchQuery = '';
+    syncSearchClearButton();
+    applyFilters();
+    saveHash();
+    searchInput.focus();
+  });
+
   /* ===== SORT ===== */
   document.getElementById('sort-select').addEventListener('change', function() {
     sortMode = this.value;
+    lastRenderedCat = '';
+    applyFilters();
+    saveHash();
+  });
+
+  document.getElementById('category-view-toggle').addEventListener('click', function() {
+    categoryView = !categoryView;
+    this.classList.toggle('active', categoryView);
+    this.setAttribute('aria-pressed', categoryView ? 'true' : 'false');
     lastRenderedCat = '';
     applyFilters();
     saveHash();
@@ -600,6 +634,7 @@
     var cats = CATEGORIES.filter(function(c) { return !activeCats[c.id]; }).map(function(c) { return c.id; });
     if (cats.length) state.off = cats.join(',');
     if (sortMode !== 'newest') state.sort = sortMode;
+    if (categoryView) state.view = 'category';
     var hash = '#' + Object.keys(state).map(function(k) { return k + '=' + encodeURIComponent(state[k]); }).join('&');
     history.replaceState(null, '', hash);
   }
@@ -614,7 +649,21 @@
     });
     if (params.q) { searchQuery = params.q; document.getElementById('search-input').value = params.q; }
     if (params.off) { params.off.split(',').forEach(function(c) { activeCats[c] = false; }); syncCheckboxes(); }
-    if (params.sort) { sortMode = params.sort; document.getElementById('sort-select').value = sortMode; }
+    if (params.sort === 'category') {
+      categoryView = true;
+    } else if (params.sort) {
+      sortMode = params.sort;
+      document.getElementById('sort-select').value = sortMode;
+    }
+    if (params.view === 'category') {
+      categoryView = true;
+    }
+    if (categoryView) {
+      var toggle = document.getElementById('category-view-toggle');
+      toggle.classList.add('active');
+      toggle.setAttribute('aria-pressed', 'true');
+    }
+    syncSearchClearButton();
   }
 
   /* ===== UTILS ===== */
