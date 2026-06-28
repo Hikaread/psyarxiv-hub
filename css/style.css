@@ -223,6 +223,64 @@ a:hover { color: var(--accent-hover); }
 }
 #settings-toggle:active { background: rgba(255,255,255,0.25); }
 
+/* ===== CARD ACTION BUTTONS (Read / Star) ===== */
+.paper-actions {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+.paper-action-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-muted);
+  padding: 3px 5px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.paper-action-btn:hover { border-color: var(--accent); color: var(--accent); }
+.paper-action-btn.active-read {
+  background: var(--accent-subtle2);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.paper-action-btn.active-star {
+  color: #f59e0b;
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+}
+.paper-card.read-dimmed { opacity: 0.55; }
+.paper-card.read-dimmed .paper-title { text-decoration: line-through; text-decoration-color: var(--text-muted); }
+
+/* ===== PUBLISHED BADGE ===== */
+.badge-published {
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: #dcfce7;
+  color: #166534;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+[data-theme="dark"] .badge-published { background: #14532d; color: #86efac; }
+[data-theme="purple"] .badge-published { background: #14532d; color: #86efac; }
+
+/* ===== PAPER LINK WRAPPER ===== */
+.paper-link-wrap {
+  margin-top: 6px;
+  padding-left: 36px;
+}
+
 /* ===== STATS BAR ===== */
 #stats-bar {
   background: var(--bg-stats);
@@ -470,13 +528,15 @@ a:hover { color: var(--accent-hover); }
 }
 .paper-osf-link:hover { text-decoration: underline; }
 
-.paper-published {
-  margin-top: 6px;
+.paper-published-text {
+  margin-top: 4px;
   padding-left: 36px;
-  font-size: 0.8rem;
+  font-size: 0.76rem;
   color: #2e7d32;
   font-weight: 500;
 }
+[data-theme="dark"] .paper-published-text { color: #86efac; }
+[data-theme="purple"] .paper-published-text { color: #86efac; }
 
 /* ===== LOAD MORE ===== */
 #load-more {
@@ -681,7 +741,7 @@ a:hover { color: var(--accent-hover); }
     width: 270px;
     max-width: 80vw;
     max-height: 100vh;
-    padding: 16px 12px;
+    padding: 70px 12px 16px;
     background: var(--bg-body);
     border-right: 1px solid var(--border);
     transform: translateX(-100%);
@@ -692,20 +752,24 @@ a:hover { color: var(--accent-hover); }
   #sidebar-overlay.open { display: block; }
 
   .main-layout { padding: 72px 12px 40px; }
-  .paper-summary, .paper-badges, .paper-osf-link, .paper-published, .paper-meta { padding-left: 0; }
+  .paper-summary, .paper-badges, .paper-osf-link, .paper-published-text, .paper-meta, .paper-link-wrap { padding-left: 0; }
   #quick-nav { display: none !important; }
 }
 
 @media (max-width: 600px) {
-  .header-inner { gap: 6px; }
-  #site-header h1 { font-size: 0.82rem; }
-  #search-input { width: 90px; font-size: 0.78rem; }
-  #search-input:focus { width: 120px; }
-  #sort-select { font-size: 0.7rem; padding: 3px 3px; }
-  .paper-card { padding: 12px 14px; }
-  .paper-card-header { gap: 6px; }
-  .paper-number { min-width: 24px; font-size: 0.68rem; }
-  .paper-title { font-size: 0.9rem; }
-  .modal-content { padding: 20px 14px; }
-  .modal-overlay { padding: 56px 8px; }
+  .header-inner { gap: 5px; overflow: hidden; }
+  #site-header h1 { font-size: 0.78rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  #search-input { width: 70px; font-size: 0.75rem; padding: 5px 6px; }
+  #search-input:focus { width: 100px; }
+  #sort-select { font-size: 0.65rem; padding: 3px 2px; }
+  #settings-toggle { padding: 4px; }
+  #settings-toggle svg { width: 16px; height: 16px; }
+  .paper-card { padding: 10px 12px; }
+  .paper-card-header { gap: 5px; }
+  .paper-number { min-width: 22px; font-size: 0.65rem; }
+  .paper-title { font-size: 0.85rem; }
+  .paper-actions { gap: 3px; }
+  .paper-action-btn { padding: 2px 4px; font-size: 0.8rem; }
+  .modal-content { padding: 18px 12px; }
+  .modal-overlay { padding: 56px 6px; }
 }

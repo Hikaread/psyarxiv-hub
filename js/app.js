@@ -30,6 +30,52 @@
   var PAGE_SIZE = 25;
   var lastScrollY = 0, ticking = false;
 
+  /* ===== LOCAL STORAGE HELPERS ===== */
+  function loadJSON(key, fallback) {
+    try { var v = JSON.parse(localStorage.getItem(key)); return v && typeof v === 'object' ? v : fallback; } catch(e) { return fallback; }
+  }
+  function saveJSON(key, val) {
+    try { localStorage.setItem(key, JSON.stringify(val)); } catch(e) {}
+  }
+
+  /* ===== READ / STAR STATE ===== */
+  var readPapers = loadJSON('psyarxiv-read', {});
+  var starPapers = loadJSON('psyarxiv-star', {});
+
+  function isRead(num) { return !!readPapers[num]; }
+  function isStar(num) { return !!starPapers[num]; }
+
+  function toggleRead(num) {
+    if (readPapers[num]) { delete readPapers[num]; } else { readPapers[num] = true; }
+    saveJSON('psyarxiv-read', readPapers);
+    updateCardState(num);
+  }
+
+  function toggleStar(num) {
+    if (starPapers[num]) { delete starPapers[num]; } else { starPapers[num] = true; }
+    saveJSON('psyarxiv-star', starPapers);
+    updateCardState(num);
+  }
+
+  function updateCardState(num) {
+    var card = document.querySelector('[data-num="' + num + '"]');
+    if (!card) return;
+    var r = isRead(num), s = isStar(num);
+    card.classList.toggle('read-dimmed', r);
+    var readBtn = card.querySelector('.btn-read');
+    var starBtn = card.querySelector('.btn-star');
+    if (readBtn) {
+      readBtn.classList.toggle('active-read', r);
+      readBtn.textContent = r ? '\u25C9' : '\u25CB';
+      readBtn.setAttribute('aria-label', r ? 'Mark as unread' : 'Mark as read');
+    }
+    if (starBtn) {
+      starBtn.classList.toggle('active-star', s);
+      starBtn.textContent = s ? '\u2605' : '\u2606';
+      starBtn.setAttribute('aria-label', s ? 'Remove from favorites' : 'Add to favorites');
+    }
+  }
+
   /* ===== SETTINGS ===== */
   var settings = loadSettings();
   applySettings(settings);
@@ -49,7 +95,6 @@
     document.documentElement.setAttribute('data-fontsize', s.fontSize);
     document.documentElement.setAttribute('data-dyslexic', s.dyslexic);
     PAGE_SIZE = parseInt(s.pageSize, 10) || 25;
-    // Update button states
     document.querySelectorAll('.setting-options').forEach(function(group) {
       var key = group.dataset.setting;
       group.querySelectorAll('.opt-btn').forEach(function(btn) {
@@ -58,7 +103,6 @@
     });
   }
 
-  // Settings button clicks
   document.querySelectorAll('.setting-options').forEach(function(group) {
     var key = group.dataset.setting;
     group.querySelectorAll('.opt-btn').forEach(function(btn) {
@@ -66,7 +110,6 @@
         settings[key] = this.dataset.value;
         applySettings(settings);
         saveSettings();
-        // Re-render if page size changed
         if (key === 'pageSize') { shown = 0; document.getElementById('papers-list').innerHTML = ''; showMore(); }
       });
     });
@@ -198,8 +241,17 @@
     sortPapers();
     shown = 0;
     document.getElementById('papers-list').innerHTML = '';
+    lastRenderedCat = '';
     buildQuickNav();
     showMore();
+  }
+
+  /* ===== DATE PARSING (dd.mm.yyyy -> sortable number) ===== */
+  function parseDateNum(d) {
+    if (!d) return 0;
+    var p = d.split('.');
+    if (p.length !== 3) return 0;
+    return (parseInt(p[2], 10) || 0) * 10000 + (parseInt(p[1], 10) || 0) * 100 + (parseInt(p[0], 10) || 0);
   }
 
   function sortPapers() {
@@ -207,8 +259,16 @@
       switch (sortMode) {
         case 'oldest':    return a.number - b.number;
         case 'newest':    return b.number - a.number;
-        case 'date-desc': return (b.source_date || '').localeCompare(a.source_date || '');
-        case 'date-asc':  return (a.source_date || '').localeCompare(b.source_date || '');
+        case 'favorites':
+          var aS = isStar(a.number) ? 1 : 0, bS = isStar(b.number) ? 1 : 0;
+          if (aS !== bS) return bS - aS;
+          return b.number - a.number;
+        case 'unread':
+          var aR = isRead(a.number) ? 1 : 0, bR = isRead(b.number) ? 1 : 0;
+          if (aR !== bR) return aR - bR;
+          return b.number - a.number;
+        case 'date-desc': return parseDateNum(b.source_date) - parseDateNum(a.source_date);
+        case 'date-asc':  return parseDateNum(a.source_date) - parseDateNum(b.source_date);
         case 'category':  return getCatSort(a) - getCatSort(b) || b.number - a.number;
         default:          return b.number - a.number;
       }
@@ -226,7 +286,6 @@
     var qn = document.getElementById('quick-nav');
     qn.innerHTML = '';
     if (sortMode !== 'category') { qn.classList.remove('visible'); return; }
-    // Find unique category order
     var seen = [];
     filtered.forEach(function(p) {
       var c = (p.categories || [])[0] || 'Other Clinical';
@@ -271,7 +330,6 @@
     var list = document.getElementById('papers-list');
     var end = Math.min(shown + PAGE_SIZE, filtered.length);
     for (var i = shown; i < end; i++) {
-      // Insert category divider when sorting by category
       if (sortMode === 'category') {
         var cat = (filtered[i].categories || [])[0] || 'Other Clinical';
         if (cat !== lastRenderedCat) {
@@ -294,10 +352,21 @@
   function createCard(p) {
     var card = document.createElement('div');
     card.className = 'paper-card';
+    card.dataset.num = p.number;
+
+    var r = isRead(p.number), s = isStar(p.number);
+    if (r) card.classList.add('read-dimmed');
 
     var h = '<div class="paper-card-header">';
     h += '<span class="paper-number">#' + p.number + '</span>';
     h += '<div class="paper-title has-modal">' + esc(p.title) + '</div>';
+    if (p.published) {
+      h += '<span class="badge-published">PR</span>';
+    }
+    h += '<div class="paper-actions">';
+    h += '<button class="paper-action-btn btn-read' + (r ? ' active-read' : '') + '" data-action="read" aria-label="' + (r ? 'Mark as unread' : 'Mark as read') + '" title="' + (r ? 'Mark as unread' : 'Mark as read') + '">' + (r ? '\u25C9' : '\u25CB') + '</button>';
+    h += '<button class="paper-action-btn btn-star' + (s ? ' active-star' : '') + '" data-action="star" aria-label="' + (s ? 'Remove from favorites' : 'Add to favorites') + '" title="' + (s ? 'Remove from favorites' : 'Add to favorites') + '">' + (s ? '\u2605' : '\u2606') + '</button>';
+    h += '</div>';
     h += '</div>';
 
     h += '<div class="paper-meta">';
@@ -319,12 +388,28 @@
     }
 
     if (p.link) {
-      h += '<div style="padding-left:36px;margin-top:6px;"><a href="' + esc(p.link) + '" target="_blank" rel="noopener" class="paper-osf-link">View on PsyArXiv</a></div>';
+      h += '<div class="paper-link-wrap"><a href="' + esc(p.link) + '" target="_blank" rel="noopener" class="paper-osf-link">View on PsyArXiv</a></div>';
+    }
+
+    if (p.published) {
+      h += '<div class="paper-published-text">\u2714 Peer reviewed: ' + esc(p.published) + '</div>';
     }
 
     card.innerHTML = h;
-    var titleEl = card.querySelector('.paper-title');
-    titleEl.addEventListener('click', function() { openModal(p); });
+
+    // Title click -> modal
+    card.querySelector('.paper-title').addEventListener('click', function() { openModal(p); });
+
+    // Read / Star toggle buttons
+    card.querySelector('.btn-read').addEventListener('click', function(e) {
+      e.stopPropagation();
+      toggleRead(p.number);
+    });
+    card.querySelector('.btn-star').addEventListener('click', function(e) {
+      e.stopPropagation();
+      toggleStar(p.number);
+    });
+
     return card;
   }
 
@@ -332,6 +417,8 @@
   function openModal(p) {
     var modal = document.getElementById('paper-modal');
     var body = document.getElementById('modal-body');
+    var r = isRead(p.number), s = isStar(p.number);
+
     var h = '<div class="modal-title">' + esc(p.title) + '</div>';
     h += '<div class="modal-meta"><span class="author-name">' + esc(p.authors) + '</span>';
     if (p.source_date) h += ' &middot; ' + esc(p.source_date);
@@ -343,10 +430,10 @@
         var dataCat = labelToId[c] || 'other';
         h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
       });
+      if (p.published) h += '<span class="badge-published">PR</span>';
       h += '</div>';
     }
 
-    // Always show summary in modal (full text, not truncated)
     if (p.summary) {
       h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text">' + esc(p.summary) + '</div></div>';
     }
