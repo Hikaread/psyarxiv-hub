@@ -20,3 +20,11 @@ Curated psychology preprints for clinical practice. Papers are sourced from [Psy
 ## About
 
 This site is automatically updated with newly curated papers from the PsyArXiv hourly pipeline. Each paper includes a clinical summary, clinical insight, and relevance tags for practitioners.
+
+## Data repair
+
+Run `node scripts/repair-papers.mjs` to audit missing PsyArXiv links and author metadata against the official OSF API.
+
+Run `node scripts/repair-papers.mjs --write` to write back only confident matches to `data/papers.json`.
+
+The audit report is saved to `data/papers-repair-report.json`.

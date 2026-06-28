@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PsyHub</title>
+<script>
+try {
+  var savedSettings = JSON.parse(localStorage.getItem('psyarxiv-settings') || '{}');
+  var root = document.documentElement;
+  if (savedSettings.theme) root.setAttribute('data-theme', savedSettings.theme);
+  if (savedSettings.fontSize) root.setAttribute('data-fontsize', savedSettings.fontSize);
+  if (savedSettings.dyslexic) root.setAttribute('data-dyslexic', savedSettings.dyslexic);
+} catch (error) {}
+</script>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>

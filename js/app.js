@@ -23,12 +23,12 @@
   CATEGORIES.forEach(function(c) { catMap[c.id] = c.label; labelToId[c.label] = c.id; });
 
   /* ===== STATE ===== */
-  var papers = [], filtered = [], shown = 0;
+  var papers = [], filtered = [], shown = 0, totalIndexedPapers = 0;
   var activeCats = {};
   CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
   var searchQuery = '', sortMode = 'newest';
   var PAGE_SIZE = 25;
-  var lastScrollY = 0, ticking = false;
+  var ticking = false;
 
   /* ===== LOCAL STORAGE HELPERS ===== */
   function loadJSON(key, fallback) {
@@ -44,7 +44,7 @@
 
   function getReadIcon(isReadState) {
     if (isReadState) {
-      return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12s3.8-6 9-6 9 6 9 6-3.8 6-9 6-9-6-9-6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.5 4.5 19.5 19.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+      return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12c2.2-3.3 5.4-5 9-5s6.8 1.7 9 5c-2.2 3.3-5.4 5-9 5s-6.8-1.7-9-5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 12c1.2-1.7 2.8-2.5 4.5-2.5s3.3.8 4.5 2.5c-1.2 1.7-2.8 2.5-4.5 2.5s-3.3-.8-4.5-2.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     }
     return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12s3.8-6 9-6 9 6 9 6-3.8 6-9 6-9-6-9-6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>';
   }
@@ -175,19 +175,9 @@
   });
   sidebarOverlay.addEventListener('click', closeSidebar);
 
-  /* ===== AUTO-HIDE HEADER ===== */
-  var header = document.getElementById('site-header');
-
   window.addEventListener('scroll', function() {
     if (!ticking) {
       requestAnimationFrame(function() {
-        var sy = window.scrollY;
-        if (sy > lastScrollY && sy > 60) {
-          header.classList.add('hidden');
-        } else {
-          header.classList.remove('hidden');
-        }
-        lastScrollY = sy;
         updateQuickNav();
         ticking = false;
       });
@@ -200,6 +190,9 @@
     .then(function(r) { return r.json(); })
     .then(function(data) {
       papers = data;
+      totalIndexedPapers = papers.reduce(function(maxValue, paper) {
+        return Math.max(maxValue, Number(paper.number) || 0);
+      }, 0);
       buildCategoryFilters();
       applyStateFromHash();
       applyFilters();
@@ -310,9 +303,9 @@
     if (p.title) {
       return {
         href: 'https://osf.io/preprints/psyarxiv/?q=' + encodeURIComponent(p.title),
-        label: 'View on PsyArXiv',
-        modalLabel: 'View on PsyArXiv &rarr;',
-        title: 'Open matching PsyArXiv search results because a direct paper link is unavailable'
+        label: 'Search PsyArXiv',
+        modalLabel: 'Search PsyArXiv &rarr;',
+        title: 'Search PsyArXiv for this paper because a verified direct link is unavailable'
       };
     }
     return null;
@@ -339,6 +332,13 @@
     }
 
     return result + esc(text.slice(lastIndex));
+  }
+
+  function getAuthorDisplayValue(value) {
+    if (!value || value === 'Unknown') {
+      return 'Author metadata unavailable';
+    }
+    return value;
   }
 
   /* ===== QUICK NAV (category sort only) ===== */
@@ -430,7 +430,7 @@
     h += '</div>';
 
     h += '<div class="paper-meta">';
-    h += '<span class="author-name">' + esc(p.authors) + '</span>';
+    h += '<span class="author-name">' + esc(getAuthorDisplayValue(p.authors)) + '</span>';
     if (p.source_date) h += '<span class="date-text">' + esc(p.source_date) + '</span>';
     h += '</div>';
 
@@ -481,7 +481,7 @@
     var r = isRead(p.number), s = isStar(p.number);
 
     var h = '<div class="modal-title">' + esc(p.title) + '</div>';
-    h += '<div class="modal-meta"><span class="author-name">' + esc(p.authors) + '</span>';
+    h += '<div class="modal-meta"><span class="author-name">' + esc(getAuthorDisplayValue(p.authors)) + '</span>';
     if (p.source_date) h += ' &middot; ' + esc(p.source_date);
     h += '</div>';
 
@@ -533,7 +533,7 @@
 
   /* ===== STATS ===== */
   function updateStats() {
-    document.getElementById('stat-total').textContent = filtered.length;
+    document.getElementById('stat-total').textContent = totalIndexedPapers || papers.length;
     document.getElementById('stat-shown').textContent = shown;
   }
 

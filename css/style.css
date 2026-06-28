@@ -133,7 +133,7 @@ a:hover { color: var(--accent-hover); }
   background: var(--header-bg);
   color: var(--text-on-accent);
   padding: 0 16px;
-  position: fixed;
+  position: sticky;
   top: 0; left: 0; right: 0;
   z-index: 100;
   transform: translateY(0);
@@ -290,7 +290,6 @@ a:hover { color: var(--accent-hover); }
   background: rgba(245, 158, 11, 0.08);
 }
 .paper-card.read-dimmed { opacity: 0.55; }
-.paper-card.read-dimmed .paper-title { text-decoration: line-through; text-decoration-color: var(--text-muted); }
 
 /* ===== PUBLISHED BADGE ===== */
 .badge-published {
@@ -317,7 +316,7 @@ a:hover { color: var(--accent-hover); }
 .main-layout {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 68px 16px 48px;
+  padding: 12px 16px 48px;
   display: flex;
   gap: 20px;
   align-items: flex-start;
@@ -790,7 +789,7 @@ a:hover { color: var(--accent-hover); }
   #sidebar.open { transform: translateX(0); }
   #sidebar-overlay.open { display: block; }
 
-  .main-layout { padding: 68px 12px 40px; }
+  .main-layout { padding: 12px 12px 40px; }
   .paper-summary, .paper-badges, .paper-osf-link, .paper-published-text, .paper-meta, .paper-link-wrap { padding-left: 0; }
   #quick-nav { display: none !important; }
 }
@@ -824,7 +823,7 @@ a:hover { color: var(--accent-hover); }
   #sort-select { font-size: 0.65rem; padding: 3px 2px; }
   #settings-toggle { padding: 4px; }
   #settings-toggle svg { width: 16px; height: 16px; }
-  .main-layout { padding-top: 62px; }
+  .main-layout { padding-top: 10px; }
   .paper-card { padding: 10px 12px; }
   .paper-card-header { gap: 5px; }
   .paper-number { min-width: 22px; font-size: 0.65rem; }
