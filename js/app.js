@@ -377,10 +377,9 @@
       btn.type = 'button';
       btn.setAttribute('aria-label', 'Jump to ' + cat);
       btn.dataset.cat = cat;
-      btn.innerHTML = '<span class="qn-dot" aria-hidden="true"></span><span class="qn-label">' + esc(cat) + '</span>';
+      btn.innerHTML = '<span class="qn-label">' + esc(cat) + '</span><span class="qn-dot" aria-hidden="true"></span>';
       btn.addEventListener('click', function() {
-        var el = document.getElementById('cat-' + catToAnchor(cat));
-        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        jumpToCategory(cat);
       });
       qn.appendChild(btn);
     });
@@ -402,6 +401,34 @@
 
   function catToAnchor(cat) {
     return cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  function scrollCategoryIntoView(element) {
+    if (!element) return;
+    var header = document.getElementById('site-header');
+    var headerOffset = header ? header.offsetHeight + 10 : 10;
+    var top = element.getBoundingClientRect().top + window.scrollY - headerOffset;
+    window.scrollTo({ top: Math.max(top, 0), behavior: 'smooth' });
+  }
+
+  function ensureCategoryRendered(categoryName) {
+    var anchorId = 'cat-' + catToAnchor(categoryName);
+    var existing = document.getElementById(anchorId);
+    if (existing) return existing;
+
+    while (shown < filtered.length) {
+      var before = shown;
+      showMore();
+      existing = document.getElementById(anchorId);
+      if (existing || shown === before) break;
+    }
+
+    return existing;
+  }
+
+  function jumpToCategory(categoryName) {
+    var element = ensureCategoryRendered(categoryName);
+    if (element) scrollCategoryIntoView(element);
   }
 
   /* ===== RENDERING ===== */

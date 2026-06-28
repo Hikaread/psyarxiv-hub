@@ -464,9 +464,12 @@ a:hover { color: var(--accent-hover); }
   background: transparent;
   padding: 0;
   cursor: pointer;
-  transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease, transform 0.15s ease;
 }
-.qn-btn:hover, .qn-btn.active { opacity: 1; }
+.qn-btn:hover, .qn-btn.active {
+  opacity: 1;
+  transform: translateX(-2px);
+}
 .qn-dot {
   width: 8px;
   height: 8px;
@@ -482,15 +485,19 @@ a:hover { color: var(--accent-hover); }
   transform: scale(1.35);
 }
 .qn-label {
-  font-size: 0.62rem;
+  font-size: 0.69rem;
+  font-weight: 700;
   line-height: 1.15;
-  color: var(--text-secondary);
-  background: rgba(255,255,255,0.82);
-  border: 1px solid var(--border);
+  color: color-mix(in srgb, var(--text-secondary) 78%, var(--text-primary) 22%);
+  background: color-mix(in srgb, var(--bg-card) 88%, transparent 12%);
+  border: 1px solid color-mix(in srgb, var(--border-card) 70%, transparent 30%);
   border-radius: 999px;
-  padding: 2px 8px;
+  padding: 3px 9px;
   white-space: nowrap;
   box-shadow: var(--shadow-sm);
+  opacity: 0.82;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 /* ===== PAPERS LIST ===== */
@@ -976,5 +983,5 @@ a:hover { color: var(--accent-hover); }
     align-items: flex-start;
     padding: 0;
   }
-  .qn-label { font-size: 0.58rem; padding: 2px 6px; }
+  .qn-label { font-size: 0.64rem; padding: 3px 7px; opacity: 0.84; }
 }
