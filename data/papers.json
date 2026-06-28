@@ -4674,5 +4674,125 @@
     "relevant_for": "Clinicians assessing and treating nonsuicidal self-injury in adult mental health settings",
     "published": null,
     "link": "https://osf.io/adn6m"
+  },
+  {
+    "number": 284,
+    "title": "Self-Harm in Eating Disorders: Identifying Contextual Patterns Using an Ecological Momentary Assessment Study",
+    "authors": "Pendrous et al.",
+    "osf_id": "8qp7d",
+    "date_posted": "2026-05-07",
+    "source_date": "07.05.2026",
+    "categories": [
+      "Suicidality & Self-Harm",
+      "Eating Disorders"
+    ],
+    "summary": "This EMA study recruited 43 participants from specialist eating disorder outpatient services, prompting them six times daily for 14 days via smartphone app. Seventy-eight percent reported at least one self-harm thought and 42% reported at least one self-harm act. When self-harm thoughts arose, participants were commonly alone, experiencing worry, and considering cutting. Actual self-harm acts were preceded by 1-30 minutes of self-harm rumination and were accompanied by self-hatred. The findings highlight the co-morbidity of eating disorders and self-harm and the need for co-designed safety planning in outpatient ED services.",
+    "clinical_insight": "This study provides the first granular, momentary-level map of when and how self-harm unfolds in eating disorder patients in their daily lives. For clinicians working with ED populations, the key takeaway is that self-harm thoughts often emerge in the context of worry and solitude, with a build-up period of 1-30 minutes before acting — a window that safety plans can explicitly target. The high co-occurrence of self-harm thoughts (78%) in a specialist outpatient sample underscores that ED clinicians should routinely assess for self-harm rather than treating it as a secondary concern. A notable blind spot is the exclusion of participants under 16, which may underestimate self-harm prevalence in younger ED populations.",
+    "relevant_for": "Clinicians in eating disorder outpatient services who routinely assess and manage self-harm risk",
+    "published": null,
+    "link": "https://osf.io/8qp7d"
+  },
+  {
+    "number": 285,
+    "title": "Affective Suppression Fatigue: A Neurocognitive Framework for Emotional Numbing and Reactive Dysregulation",
+    "authors": "Kim",
+    "osf_id": "3jtca",
+    "date_posted": "2025-08-26",
+    "source_date": "26.08.2025",
+    "categories": [
+      "Psychopathology & Assessment",
+      "Therapeutic Modalities"
+    ],
+    "summary": "This paper introduces Affective Suppression Fatigue (ASF), a neurocognitive model proposing that chronic expressive suppression degrades the brain regulatory systems themselves, particularly prefrontal inhibitory control. The model explains two paradoxical outcomes: emotional numbing (affective blunting under low-intensity conditions) and reactive dysregulation (explosive emotional outbursts under high-intensity conditions). By integrating findings on cognitive depletion, burnout, and chronic stress, ASF offers a unified framework for understanding why long-term emotion suppression often backfires, producing the very dysregulation it was intended to prevent.",
+    "clinical_insight": "Many patients in private practice present with a pattern of emotional constriction punctuated by sudden dysregulation — a clinical presentation that existing models (gross emotion regulation, dialectical behaviour theory) explain only partially. The ASF model gives clinicians a coherent explanatory framework for this common pattern, linking the patient chronic suppression habit to observable neurocognitive degradation. This is particularly useful for psychoeducation with patients who intellectualise emotions or present with alexithymia — explaining that suppression itself damages the regulatory system may motivate engagement with experiential approaches. The framework also bridges CBT, ACT, and psychodynamic perspectives by identifying a shared mechanism. A limitation is that the model is theoretical; empirical validation is needed.",
+    "relevant_for": "Clinicians working with patients who present with emotional numbing, alexithymia, or reactive dysregulation patterns across mood, trauma, and personality disorder presentations",
+    "published": null,
+    "link": "https://osf.io/3jtca"
+  },
+  {
+    "number": 286,
+    "title": "Network Analysis on the Efficacy of the Unified Protocol for Transdiagnostic Cognitive Behavioral Therapy of Emotional Disorders",
+    "authors": "Kashihara et al.",
+    "osf_id": "s45dt",
+    "date_posted": "2025-09-10",
+    "source_date": "10.09.2025",
+    "categories": [
+      "Therapeutic Modalities",
+      "Anxiety & OCD",
+      "Mood Disorders"
+    ],
+    "summary": "Using multilevel vector autoregressive (ML-VAR) network models, this study analysed time-series data from 123 adult patients (M=37.9 years) with emotional disorders undergoing the Unified Protocol (UP) for transdiagnostic CBT in Japanese trials. Functional impairment nodes (both depressive and anxiety-related) emerged as the most central in the temporal network structure. Non-responders had significantly denser network structures than responders, suggesting that treatment resistance may be characterised by more tightly interconnected symptom-impairment cycles. Between-treatment and end-of-treatment cross-sectional network comparisons showed no significant structural changes, challenging the assumption that treatment simply reduces overall connectivity.",
+    "clinical_insight": "This study offers the first process-level network analysis of the Unified Protocol in action, and its findings have direct clinical implications. The centrality of functional impairment nodes suggests that clinicians using the UP should monitor functional recovery alongside symptom reduction — impairment may be the engine that maintains the symptom network rather than a mere consequence. The finding that non-responders show denser networks points to a potential early-warning marker: patients whose symptom-impairment connections remain highly interconnected early in treatment may need a modified approach, such as more intensive exposure work or adjunctive interventions. The tension between the null cross-sectional results and the meaningful temporal findings highlights a debate in network psychopathology about whether treatment changes network structure or simply weakens individual node activation. The adult sample (mean age 38) makes findings directly relevant to private practice.",
+    "relevant_for": "CBT clinicians using the Unified Protocol or transdiagnostic approaches for adult anxiety and depression",
+    "published": null,
+    "link": "https://osf.io/s45dt"
+  },
+  {
+    "number": 287,
+    "title": "Obsessive-Compulsive Symptoms and Sound Sensitivities: Comparing Misophonia and Hyperacusis",
+    "authors": "Castro et al.",
+    "osf_id": "92yas",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Obsessive-Compulsive",
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This multi-trait, multi-method study examined the relationship between obsessive-compulsive symptoms and two types of sound sensitivity — misophonia and hyperacusis — in a large online sample (N=1,094) with a subset completing in-person audiological and psychological assessments (N=102). Results showed that O-C symptoms were associated with both misophonia and hyperacusis, and that this association was consistent regardless of measurement method (questionnaire, clinician rating, or laboratory assessment). Depression was less strongly associated with sound sensitivities than O-C symptoms, suggesting the link is not an artifact of general distress. The findings indicate that sensory sensitivities broadly, rather than misophonia specifically, are linked to O-C symptoms.",
+    "clinical_insight": "Patients with OCD frequently report sound sensitivities, yet the nature of this relationship has been unclear. This study clarifies that the O-C/sound sensitivity link is robust across measurement methods and extends beyond misophonia to hyperacusis. For clinicians, this means that assessing for sound sensitivities in OCD patients is warranted as part of a comprehensive formulation — these sensory issues may maintain compulsive behaviours (e.g., avoidance of triggering environments, mental rituals to neutralise distress). The finding that general distress does not fully account for the association pushes back against the tendency to dismiss sensory complaints as non-specific anxiety symptoms. A limitation is the university student sample, which may not represent clinical OCD populations with greater symptom severity.",
+    "relevant_for": "Clinicians assessing and treating OCD who encounter comorbid sound sensitivity complaints",
+    "published": null,
+    "link": "https://osf.io/92yas"
+  },
+  {
+    "number": 288,
+    "title": "The Most Vulnerable Are Prone to Use AI Therapists: The Role of Attachment, Epistemic Trust, and Mental Health Symptoms in Acceptance of Digital Mental Health Interventions",
+    "authors": "Bekes, Aafjes-van Doorn",
+    "osf_id": "3u6sd",
+    "date_posted": "2025-12-25",
+    "source_date": "25.12.2025",
+    "categories": [
+      "Therapeutic Modalities",
+      "Psychopathology & Assessment"
+    ],
+    "summary": "Surveying 1,612 potential patients and clinicians, this study used cluster analysis to identify three psychological profiles: Avoidant-not trusting, Secure-trusting-healthy, and Young-anxious-gullible-symptomatic. Paradoxically, the two most psychologically vulnerable clusters showed significantly higher acceptance of AI-based digital mental health interventions (avatars, chatbots), while the healthiest cluster preferred human-delivered teletherapy. Prior therapy experience was associated with lower AI acceptance overall. The authors suggest AI-based tools may serve as a critical entry point to care for individuals who struggle with human-to-human therapeutic relationships, but caution that these same individuals may miss out on the relational learning inherent in human therapy.",
+    "clinical_insight": "As AI therapy tools proliferate, this study provides essential nuance for private practitioners. The paradoxical finding — that the most vulnerable patients are most drawn to AI therapists — carries significant clinical implications. On one hand, AI tools may lower the threshold for engaging patients who would otherwise avoid therapy due to attachment-related fears or epistemic mistrust. On the other, precisely these patients have the most to gain from the corrective relational experience that only a human therapist can provide. Clinicians should be prepared to discuss AI therapy options with avoidant or anxious patients not as a replacement for therapy, but as a potential stepping stone. A blind spot is the Prolific recruitment method, which may not capture the most treatment-averse individuals who never engage with any mental health platform.",
+    "relevant_for": "Private practice clinicians considering how to position their services relative to emerging AI therapy tools, and those working with attachment-disrupted or treatment-reluctant patients",
+    "published": null,
+    "link": "https://osf.io/3u6sd"
+  },
+  {
+    "number": 289,
+    "title": "Self-Treatment of Depression and Complex Post-Traumatic Stress Disorder with Psilocybin and LSD: A Retrospective Case Study",
+    "authors": "Turkia",
+    "osf_id": "wupvy",
+    "date_posted": "2024-09-30",
+    "source_date": "30.09.2024",
+    "categories": [
+      "Trauma & Stressor-Related",
+      "Mood Disorders"
+    ],
+    "summary": "This retrospective case study describes a young man with early-onset complex trauma from chronic school-based abuse who developed severe, treatment-resistant anxiety and depression. After supportive psychotherapy failed and psychiatric contact was experienced as rejecting, he turned to unsupervised self-treatment with psilocybin at age 19. Occasional high-dose sessions alone produced only temporary relief. From age 25, he adopted a more intensive, structured approach with gradually declining doses, focusing on reliving traumatic events while maintaining conscious awareness of somatic sensations and avoiding overwhelm. By age 30, he reported resolving most early trauma and achieving a foundational sense of stability, though societal trauma exposure continued to cause suffering. The author proposes reconceptualising psychedelics as tools for understanding ordinary mental states rather than pathological ones.",
+    "clinical_insight": "This case is notable for its detailed documentation of a self-directed, multi-year psychedelic process — a reality many clinicians will encounter as patients increasingly present with unsupervised psychedelic use histories. The key clinical insight is the patient own discovery that gradual dose reduction combined with sustained somatic focus produced better results than occasional high-dose sessions, directly challenging the prevailing clinical trial model of single or double high-dose administration. The case also illustrates how iatrogenic harm from psychiatric services (experienced rejection) can push patients toward self-treatment, raising questions about how clinicians receive and respond to patients psychedelic experiences. A significant limitation is the retrospective, self-reported nature of the data, and the absence of standardised outcome measures.",
+    "relevant_for": "Trauma therapists whose patients have used or are considering using psychedelics for self-treatment of C-PTSD and treatment-resistant depression",
+    "published": null,
+    "link": "https://osf.io/wupvy"
+  },
+  {
+    "number": 290,
+    "title": "Qualitative Analysis of a Patient Experience of Ketamine-Assisted Psychotherapy for Substance Use Disorder: Empirical Synergies with Twelve-Step Programs",
+    "authors": "Petrovitch et al.",
+    "osf_id": "f53wp",
+    "date_posted": "2025-08-23",
+    "source_date": "23.08.2025",
+    "categories": [
+      "Addiction & Substance Use",
+      "Therapeutic Modalities"
+    ],
+    "summary": "This case report details a 28-year-old woman treated for alcohol and prescription opioid use disorder using an inter-clinic collaborative treatment plan combining ketamine-assisted psychotherapy (KAP) with existing 12-step-based psychosocial treatments. Qualitative analysis of the patient lived experience revealed that ketamine-induced experiences meaningfully overlapped with 12-step concepts such as powerlessness, spiritual awakening, and moral inventory. The authors detail specific clinical practices for managing the unique risks of using ketamine — itself a substance with recreational potential — as a treatment for SUD, and highlight the synergies between psychedelic experiences and 12-step recovery frameworks.",
+    "clinical_insight": "As ketamine clinics expand rapidly, the question of how to integrate KAP with established addiction treatment frameworks like 12-step programs is increasingly urgent. This case report provides a practical clinical roadmap: rather than positioning KAP as an alternative to 12-step work, the authors demonstrate how ketamine experiences can deepen engagement with recovery concepts such as surrender, spiritual experience, and self-examination. For addiction clinicians, the detailed risk-management practices for using a psychoactive substance to treat substance use disorder are particularly valuable. The case highlights a tension in the field: patients may attribute recovery to the ketamine experience itself, while clinicians may see it as a catalyst for engagement with existing therapeutic frameworks. A limitation is the single-case design and the specific cultural context of 12-step programs, which may not generalise to all treatment approaches.",
+    "relevant_for": "Addiction clinicians integrating ketamine-assisted psychotherapy with 12-step or other structured psychosocial treatment programs",
+    "published": null,
+    "link": "https://osf.io/f53wp"
   }
 ]
