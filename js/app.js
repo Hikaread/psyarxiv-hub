@@ -42,6 +42,13 @@
   var readPapers = loadJSON('psyarxiv-read', {});
   var starPapers = loadJSON('psyarxiv-star', {});
 
+  function getReadIcon(isReadState) {
+    if (isReadState) {
+      return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12s3.8-6 9-6 9 6 9 6-3.8 6-9 6-9-6-9-6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.5 4.5 19.5 19.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+    }
+    return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12s3.8-6 9-6 9 6 9 6-3.8 6-9 6-9-6-9-6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>';
+  }
+
   function isRead(num) { return !!readPapers[num]; }
   function isStar(num) { return !!starPapers[num]; }
 
@@ -66,8 +73,9 @@
     var starBtn = card.querySelector('.btn-star');
     if (readBtn) {
       readBtn.classList.toggle('active-read', r);
-      readBtn.textContent = r ? '\u25C9' : '\u25CB';
+      readBtn.innerHTML = getReadIcon(r);
       readBtn.setAttribute('aria-label', r ? 'Mark as unread' : 'Mark as read');
+      readBtn.setAttribute('title', r ? 'Mark as unread' : 'Mark as read');
     }
     if (starBtn) {
       starBtn.classList.toggle('active-star', s);
@@ -121,13 +129,11 @@
 
   function positionSettingsDrawer() {
     var headerBottom = document.getElementById('site-header').getBoundingClientRect().bottom;
-    var statsBottom = document.getElementById('stats-bar').getBoundingClientRect().bottom;
-    document.documentElement.style.setProperty('--settings-top', Math.max(headerBottom, statsBottom) + 'px');
+    document.documentElement.style.setProperty('--settings-top', Math.max(headerBottom, 0) + 'px');
   }
 
   function openSettings() {
     document.getElementById('site-header').classList.remove('hidden');
-    document.getElementById('stats-bar').classList.remove('hidden');
     positionSettingsDrawer();
     settingsDrawer.classList.add('open');
     settingsOverlay.classList.add('open');
@@ -171,7 +177,6 @@
 
   /* ===== AUTO-HIDE HEADER ===== */
   var header = document.getElementById('site-header');
-  var statsBar = document.getElementById('stats-bar');
 
   window.addEventListener('scroll', function() {
     if (!ticking) {
@@ -179,10 +184,8 @@
         var sy = window.scrollY;
         if (sy > lastScrollY && sy > 60) {
           header.classList.add('hidden');
-          statsBar.classList.add('hidden');
         } else {
           header.classList.remove('hidden');
-          statsBar.classList.remove('hidden');
         }
         lastScrollY = sy;
         updateQuickNav();
@@ -421,7 +424,7 @@
       h += '<span class="badge-published">PR</span>';
     }
     h += '<div class="paper-actions">';
-    h += '<button class="paper-action-btn btn-read' + (r ? ' active-read' : '') + '" data-action="read" aria-label="' + (r ? 'Mark as unread' : 'Mark as read') + '" title="' + (r ? 'Mark as unread' : 'Mark as read') + '">' + (r ? '\u25C9' : '\u25CB') + '</button>';
+    h += '<button class="paper-action-btn btn-read' + (r ? ' active-read' : '') + '" data-action="read" aria-label="' + (r ? 'Mark as unread' : 'Mark as read') + '" title="' + (r ? 'Mark as unread' : 'Mark as read') + '">' + getReadIcon(r) + '</button>';
     h += '<button class="paper-action-btn btn-star' + (s ? ' active-star' : '') + '" data-action="star" aria-label="' + (s ? 'Remove from favorites' : 'Add to favorites') + '" title="' + (s ? 'Remove from favorites' : 'Add to favorites') + '">' + (s ? '\u2605' : '\u2606') + '</button>';
     h += '</div>';
     h += '</div>';
@@ -530,8 +533,8 @@
 
   /* ===== STATS ===== */
   function updateStats() {
-    document.getElementById('stat-total').textContent = papers.length + ' papers';
-    document.getElementById('stat-shown').textContent = filtered.length + ' shown';
+    document.getElementById('stat-total').textContent = filtered.length;
+    document.getElementById('stat-shown').textContent = shown;
   }
 
   /* ===== SEARCH ===== */
