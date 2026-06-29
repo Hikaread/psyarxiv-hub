@@ -5248,5 +5248,173 @@
     "relevant_for": "Clinicians specializing in complex trauma, treatment-resistant PTSD/CPTSD, and dissociation who are seeking novel therapeutic approaches for clients unresponsive to standard protocols.",
     "published": null,
     "link": "https://osf.io/8nrwe"
+  },
+  {
+    "number": 320,
+    "title": "Agency in Post-traumatic Stress Disorder: Implications for Therapy",
+    "authors": "Adrien et al.",
+    "osf_id": "j2pwk",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Trauma & Stressor-Related",
+      "Therapeutic Modalities"
+    ],
+    "summary": "This paper proposes an enactive framework for understanding agency deficits in PTSD, linking peritraumatic dissociation to disrupted sense of control. The authors provide a roadmap for agency-based therapies and discuss how sensorimotor technologies such as gesture sonification could help restore agency during trauma recovery.",
+    "clinical_insight": "The enactive perspective offers clinicians a principled way to understand why traditional exposure alone may fail when patients lack foundational agency. Sensorimotor approaches could complement phase-based trauma treatments, particularly for dissociative PTSD presentations. However, the framework remains theoretical and awaits empirical validation.",
+    "relevant_for": "Trauma therapists working with dissociative PTSD and complex trauma seeking somatic adjuncts to phase-based treatment",
+    "published": null,
+    "link": "https://osf.io/j2pwk"
+  },
+  {
+    "number": 321,
+    "title": "Change of Threat Expectancy as Mechanism of Exposure Therapy: Evidence from 8484 Exercises of 605 Patients",
+    "authors": "Pittig et al.",
+    "osf_id": "khezc",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Therapeutic Modalities",
+      "Anxiety & OCD"
+    ],
+    "summary": "Using 8,484 exposure records from 605 patients across anxiety disorders, this study found that the learning rate (how effectively expectancy violation transfers into belief change) and expectancy change magnitude predicted treatment outcome, not violation alone.",
+    "clinical_insight": "Clinicians should track whether threat beliefs actually update between sessions, not just whether patients complete exposures. Patients showing compliance without belief change may need cognitive restructuring or inhibitory learning strategies. A limitation is the naturalistic design without a control group.",
+    "relevant_for": "CBT therapists conducting exposure-based treatment for anxiety disorders optimizing learning processes",
+    "published": null,
+    "link": "https://osf.io/khezc"
+  },
+  {
+    "number": 322,
+    "title": "Understanding CBT for Psychosis Through the Predictive Coding Framework",
+    "authors": "Sheffield et al.",
+    "osf_id": "2ab8m",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Therapeutic Modalities",
+      "Psychosis & Schizophrenia"
+    ],
+    "summary": "This paper integrates CBTp with predictive coding from computational neuroscience, proposing that delusions persist through failed extinction learning and inappropriate reconsolidation of delusional priors, while CBTp works by strengthening non-delusional priors via behavioral experiments.",
+    "clinical_insight": "Bridging CBTp with predictive coding gives therapists mechanistic language for why behavioral experiments work. The framework suggests spaced retrieval of non-delusional experiences may be more important than massed exposure. The theory remains empirically untested, which is a significant blind spot.",
+    "relevant_for": "Psychologists and psychiatrists delivering CBTp who want deeper understanding of belief-update mechanisms",
+    "published": null,
+    "link": "https://osf.io/2ab8m"
+  },
+  {
+    "number": 323,
+    "title": "The Efficacy of Attentional Bias Modification for Anxiety: A Registered Replication",
+    "authors": "Pond et al.",
+    "osf_id": "cf4xz",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Therapeutic Modalities",
+      "Anxiety & OCD"
+    ],
+    "summary": "This registered replication of Hazen et al. (2009) used a Bayesian approach to revisit ABM for GAD, also quantifying potential demand effects. Results add to growing evidence that ABM shows inconsistent efficacy for alleviating anxiety symptoms.",
+    "clinical_insight": "This reinforces that clinicians should not divert patients from established treatments toward ABM as a standalone intervention. The debate now centers on whether ABM might work as an adjunct, which remains untested.",
+    "relevant_for": "Clinicians and researchers interested in cognitive bias modification as a complement to standard anxiety treatments",
+    "published": null,
+    "link": "https://osf.io/cf4xz"
+  },
+  {
+    "number": 324,
+    "title": "Self-efficacy in Internet-based Mental Health Interventions: A Meta-analysis",
+    "authors": "Behr et al.",
+    "osf_id": "28knb",
+    "date_posted": "2024-12-09",
+    "source_date": "09.12.2024",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "Meta-analysis of 70 RCTs (N=17,407) found moderate effects of internet-based interventions on self-efficacy, with guided interventions showing the largest effects. Self-efficacy emerged as a mediator of treatment outcomes, and lower baseline self-efficacy patients may benefit most.",
+    "clinical_insight": "Supports explicitly targeting self-efficacy early in iCBT, particularly for patients with low confidence. The finding that lower self-efficacy patients benefit most is clinically important but counterintuitive. Lack of long-term follow-up on self-efficacy trajectories is a notable gap.",
+    "relevant_for": "Clinicians delivering guided internet-based interventions who want to optimize treatment mechanisms",
+    "published": null,
+    "link": "https://osf.io/28knb"
+  },
+  {
+    "number": 325,
+    "title": "Single-Session Interventions for Mental Health: Umbrella Review",
+    "authors": "Schleider et al.",
+    "osf_id": "gp6sx",
+    "date_posted": "2025-08-25",
+    "source_date": "25.08.2025",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "First umbrella review of SSIs synthesizing 24 systematic reviews (415 unique trials) across anxiety, depression, externalizing, eating, and substance use problems. SSIs showed positive overall effect (SMD=-0.25), with 83% of reviews reporting significant effects.",
+    "clinical_insight": "SSIs are a pragmatic tool for private practitioners to offer meaningful change in single contact, especially for waitlisted patients. Implementation research is the critical next step to determine which SSIs work in routine settings. The review does not address which formats work best for specific disorders.",
+    "relevant_for": "Private practice clinicians and service managers maximizing impact of brief or single-visit interventions",
+    "published": null,
+    "link": "https://osf.io/gp6sx"
+  },
+  {
+    "number": 326,
+    "title": "Neuroception of Psychological Safety Scale (NPSS): Validation in UK Adults",
+    "authors": "Cogan et al.",
+    "osf_id": "5bpgm",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Psychopathology & Assessment",
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "Validated the NPSS (3-factor measure rooted in polyvagal theory) in 2,035 UK adults. Social engagement, compassion, and body sensations subscales showed acceptable-to-excellent reliability, good test-retest, and predicted correlations with PTSD, burnout, and wellbeing.",
+    "clinical_insight": "The NPSS helps trauma therapists assess capacity for psychological safety before beginning trauma processing. Measuring safety neuroception could determine whether a patient needs more stabilization. Performance in clinical trauma populations is still needed.",
+    "relevant_for": "Trauma therapists using polyvagal-informed or phase-based approaches assessing readiness for trauma processing",
+    "published": null,
+    "link": "https://osf.io/5bpgm"
+  },
+  {
+    "number": 327,
+    "title": "Avatar-Based CBT/ACT Intervention for Female Orgasmic Disorder: RCT",
+    "authors": "Vila et al.",
+    "osf_id": "qju56",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Couples Therapy & Sexology",
+      "Therapeutic Modalities"
+    ],
+    "summary": "RCT (N=31) testing avatar-based CBT+ACT intervention in Second Life for female orgasmic disorder showed significant improvements across all outcomes with 100% intervention recovery vs. 0% control at follow-up.",
+    "clinical_insight": "Virtual environments may reduce barriers to discussing sexuality. The CBT+ACT integration targeting both cognitive and experiential aspects is a strength. The 100% recovery rate raises demand-characteristic concerns warranting replication with larger samples.",
+    "relevant_for": "Sex therapists and couples therapists working with female sexual dysfunction open to digital therapeutic tools",
+    "published": null,
+    "link": "https://osf.io/qju56"
+  },
+  {
+    "number": 328,
+    "title": "Anxiety and Compulsive Sexual Behaviour Disorder: Systematic Review",
+    "authors": "Weinandy et al.",
+    "osf_id": "vqwea",
+    "date_posted": "2021-09-25",
+    "source_date": "25.09.2021",
+    "categories": [
+      "Couples Therapy & Sexology",
+      "Anxiety & OCD"
+    ],
+    "summary": "Reviewed 36 quantitative studies on anxiety-CSBD relationship. Due to methodological heterogeneity, the relationship remained unclear, likely due to inconsistent CSBD measurement, limited gender diversity, and scarce longitudinal data.",
+    "clinical_insight": "Clinicians should not assume anxiety drives compulsive sexual behavior or vice versa, but assess both independently. The review highlights that CSBD measurement remains problematic. Directionality cannot yet be determined.",
+    "relevant_for": "Clinicians working with CSBD or hypersexuality needing to understand the anxiety comorbidity evidence base",
+    "published": null,
+    "link": "https://osf.io/vqwea"
+  },
+  {
+    "number": 329,
+    "title": "Predicting Depression and Anxiety from Temporal Rumination Features",
+    "authors": "Hoebeke, Heeren",
+    "osf_id": "cgf8p",
+    "date_posted": "2024-06-20",
+    "source_date": "20.06.2024",
+    "categories": [
+      "Mood Disorders",
+      "Psychopathology & Assessment"
+    ],
+    "summary": "ESM study (4 daily assessments, 2 weeks, N=40) found inertia of thought negativity predicted 67.2% of depression variance, outperforming trait rumination. Combined temporal and trait measures worked best. Moment-to-moment variability did not add predictive value.",
+    "clinical_insight": "Inertia (stickiness) of negative thinking, not variability, predicts depression, supporting interventions targeting cognitive rigidity such as behavioral activation, cognitive defusion, or rumination postponement. Anxiety was better predicted by content features than temporal dynamics, suggesting different targets per disorder. Small sample warrants caution.",
+    "relevant_for": "CBT and ACT therapists treating depression who want to refine rumination interventions by targeting cognitive inertia",
+    "published": null,
+    "link": "https://osf.io/cgf8p"
   }
 ]
