@@ -300,7 +300,7 @@
     var extractedId = '';
 
     if (!explicitId && linkValue) {
-      var match = linkValue.match(/osf\.io\/(?:preprints\/psyarxiv\/)?([a-z0-9]+(?:_v\d+)*)/i);
+      var match = linkValue.match(/osf\.io\/(?:preprints\/psyarxiv\/)?([a-z0-9]{5}(?:_v\d+)*)/i);
       if (match) extractedId = match[1];
     }
 
@@ -317,6 +317,16 @@
         label: 'View on PsyArXiv',
         modalLabel: 'View on PsyArXiv &rarr;',
         title: 'Open this paper on PsyArXiv'
+      };
+    }
+    // Fallback: use link field if it's a valid URL
+    var linkValue = p && p.link ? String(p.link).trim() : '';
+    if (linkValue && /^https?:\/\//i.test(linkValue)) {
+      return {
+        href: linkValue,
+        label: 'View paper',
+        modalLabel: 'View paper &rarr;',
+        title: 'Open this paper'
       };
     }
     return null;
@@ -363,18 +373,21 @@
       if (seen.indexOf(c) === -1) seen.push(c);
     });
     if (seen.length < 3) { qn.classList.remove('visible'); return; }
+    var pills = document.createElement('div');
+    pills.className = 'qn-pills';
     seen.forEach(function(cat) {
       var btn = document.createElement('button');
       btn.className = 'qn-btn';
       btn.type = 'button';
       btn.setAttribute('aria-label', 'Jump to ' + cat);
       btn.dataset.cat = cat;
-      btn.innerHTML = '<span class="qn-label">' + esc(cat) + '</span><span class="qn-dot" aria-hidden="true"></span>';
+      btn.innerHTML = '<span class="qn-label">' + esc(cat) + '</span>';
       btn.addEventListener('click', function() {
         jumpToCategory(cat);
       });
-      qn.appendChild(btn);
+      pills.appendChild(btn);
     });
+    qn.appendChild(pills);
     qn.classList.add('visible');
   }
 
