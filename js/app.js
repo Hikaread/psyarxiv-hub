@@ -29,6 +29,7 @@
   var searchQuery = '', sortMode = 'newest', categoryView = false;
   var PAGE_SIZE = 25;
   var ticking = false;
+  var activeQuickNavCategory = '';
 
   /* ===== LOCAL STORAGE HELPERS ===== */
   function loadJSON(key, fallback) {
@@ -366,6 +367,7 @@
   function buildQuickNav() {
     var qn = document.getElementById('quick-nav');
     qn.innerHTML = '';
+    activeQuickNavCategory = '';
     if (!categoryView) { qn.classList.remove('visible'); return; }
     var seen = [];
     filtered.forEach(function(p) {
@@ -375,6 +377,7 @@
     if (seen.length < 3) { qn.classList.remove('visible'); return; }
     var pills = document.createElement('div');
     pills.className = 'qn-pills';
+    attachQuickNavScroller(pills);
     seen.forEach(function(cat) {
       var btn = document.createElement('button');
       btn.className = 'qn-btn';
@@ -391,6 +394,28 @@
     qn.classList.add('visible');
   }
 
+  function attachQuickNavScroller(element) {
+    if (!element || element.dataset.bound === 'true') return;
+    element.dataset.bound = 'true';
+
+    element.addEventListener('wheel', function(e) {
+      if (element.scrollWidth <= element.clientWidth) return;
+      var delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+      if (!delta) return;
+      e.preventDefault();
+      element.scrollLeft += delta;
+    }, { passive: false });
+  }
+
+  function keepQuickNavButtonVisible(button) {
+    if (!button || typeof button.scrollIntoView !== 'function') return;
+    button.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center'
+    });
+  }
+
   function updateQuickNav() {
     if (!categoryView) return;
     var dividers = document.querySelectorAll('.cat-divider');
@@ -400,7 +425,12 @@
     var activeCat = '';
     dividers.forEach(function(d) { if (d.getBoundingClientRect().top < mid + 40) activeCat = d.id; });
     qnBtns.forEach(function(b) {
-      b.classList.toggle('active', b.dataset.cat && document.getElementById('cat-' + catToAnchor(b.dataset.cat)) === document.getElementById(activeCat));
+      var isActive = b.dataset.cat && document.getElementById('cat-' + catToAnchor(b.dataset.cat)) === document.getElementById(activeCat);
+      b.classList.toggle('active', isActive);
+      if (isActive && activeQuickNavCategory !== b.dataset.cat) {
+        activeQuickNavCategory = b.dataset.cat;
+        keepQuickNavButtonVisible(b);
+      }
     });
   }
 
@@ -583,8 +613,8 @@
 
   /* ===== STATS ===== */
   function updateStats() {
-    document.getElementById('stat-total').textContent = papers.length;
-    document.getElementById('stat-shown').textContent = filtered.length;
+    document.getElementById('stat-total').textContent = filtered.length;
+    document.getElementById('stat-shown').textContent = shown;
   }
 
   /* ===== SEARCH ===== */

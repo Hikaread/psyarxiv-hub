@@ -464,11 +464,15 @@ a:hover { color: var(--accent-hover); }
 #quick-nav.visible { display: flex; flex-direction: row; align-items: center; }
 .qn-pills {
   display: flex;
+  width: 100%;
   gap: 6px;
   overflow-x: auto;
+  overflow-y: hidden;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  padding-bottom: 2px;
+  padding: 0 2px 2px;
+  scroll-behavior: smooth;
+  overscroll-behavior-x: contain;
 }
 .qn-pills::-webkit-scrollbar { display: none; }
 .qn-btn {
@@ -480,6 +484,13 @@ a:hover { color: var(--accent-hover); }
   cursor: pointer;
   transition: opacity 0.15s ease, transform 0.15s ease;
   flex-shrink: 0;
+}
+.qn-btn:focus-visible .qn-label {
+  opacity: 1;
+  border-color: var(--accent);
+  color: var(--accent);
+  outline: 2px solid rgba(192, 132, 252, 0.45);
+  outline-offset: 1px;
 }
 .qn-btn:hover, .qn-btn.active {
   opacity: 1;
