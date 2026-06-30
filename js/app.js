@@ -613,8 +613,8 @@
 
   /* ===== STATS ===== */
   function updateStats() {
-    document.getElementById('stat-total').textContent = filtered.length;
-    document.getElementById('stat-shown').textContent = shown;
+    document.getElementById('stat-total').textContent = papers.length;
+    document.getElementById('stat-shown').textContent = filtered.length;
   }
 
   /* ===== SEARCH ===== */
