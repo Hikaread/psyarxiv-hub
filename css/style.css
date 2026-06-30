@@ -94,10 +94,10 @@
 }
 
 /* ===== FONT SIZE ===== */
-[data-fontsize="small"] { font-size: 14px; }
-[data-fontsize="medium"] { font-size: 16px; }
-[data-fontsize="large"] { font-size: 18px; }
-[data-fontsize="xlarge"] { font-size: 20px; }
+[data-fontsize="small"] { font-size: 15px; }
+[data-fontsize="medium"] { font-size: 17px; }
+[data-fontsize="large"] { font-size: 20px; }
+[data-fontsize="xlarge"] { font-size: 23px; }
 
 /* ===== DYSLEXIC FONT ===== */
 [data-dyslexic="on"] body,
@@ -110,10 +110,10 @@
   word-spacing: 0.03em;
   line-height: 1.55 !important;
 }
-[data-dyslexic="on"][data-fontsize="small"] { font-size: 13px; }
-[data-dyslexic="on"][data-fontsize="medium"] { font-size: 15px; }
-[data-dyslexic="on"][data-fontsize="large"] { font-size: 17px; }
-[data-dyslexic="on"][data-fontsize="xlarge"] { font-size: 19px; }
+[data-dyslexic="on"][data-fontsize="small"] { font-size: 16px; }
+[data-dyslexic="on"][data-fontsize="medium"] { font-size: 18px; }
+[data-dyslexic="on"][data-fontsize="large"] { font-size: 21px; }
+[data-dyslexic="on"][data-fontsize="xlarge"] { font-size: 24px; }
 
 /* ===== RESET ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -560,35 +560,35 @@ a:hover { color: var(--accent-hover); }
   margin-bottom: 4px;
 }
 .paper-number {
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: var(--accent);
   min-width: 28px;
   padding-top: 2px;
 }
 .paper-title {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  line-height: 1.4;
+  line-height: 1.45;
   color: var(--text-primary);
 }
 .paper-title.has-modal, .paper-title.has-link { cursor: pointer; }
 .paper-title.has-modal:hover { color: var(--accent); }
 .paper-title.has-link:hover { color: var(--accent); text-decoration: underline; }
 .paper-meta {
-  font-size: 0.76rem;
+  font-size: 0.82rem;
   color: var(--text-muted);
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   padding-left: 36px;
 }
 .paper-meta .author-name { font-weight: 500; color: var(--text-secondary); }
 .paper-meta .date-text { margin-left: 8px; }
 .paper-summary {
-  font-size: 0.84rem;
+  font-size: 0.92rem;
   color: var(--text-primary);
-  line-height: 1.5;
+  line-height: 1.55;
   padding-left: 36px;
-  opacity: 0.85;
+  opacity: 0.88;
 }
 .paper-badges {
   display: flex;
@@ -598,9 +598,9 @@ a:hover { color: var(--accent-hover); }
   padding-left: 36px;
 }
 .badge {
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  padding: 2px 8px;
+  padding: 3px 9px;
   border-radius: 10px;
   background: var(--accent-subtle2);
   color: var(--accent);
@@ -624,7 +624,7 @@ a:hover { color: var(--accent-hover); }
 .paper-osf-link {
   display: inline-flex;
   align-items: center;
-  font-size: 0.76rem;
+  font-size: 0.82rem;
   color: var(--accent);
   font-weight: 500;
   line-height: 1.4;
@@ -634,9 +634,9 @@ a:hover { color: var(--accent-hover); }
 .paper-osf-link:hover { text-decoration: underline; }
 
 .paper-published-text {
-  margin-top: 4px;
+  margin-top: 5px;
   padding-left: 36px;
-  font-size: 0.76rem;
+  font-size: 0.82rem;
   color: #2e7d32;
   font-weight: 500;
 }
@@ -831,7 +831,7 @@ a:hover { color: var(--accent-hover); }
   color: var(--accent);
   margin-bottom: 4px;
 }
-.modal-section-text { font-size: 0.86rem; line-height: 1.6; }
+.modal-section-text { font-size: 0.94rem; line-height: 1.65; }
 .text-link {
   color: var(--accent);
   overflow-wrap: anywhere;
@@ -1005,10 +1005,10 @@ a:hover { color: var(--accent-hover); }
   .main-layout { padding-top: 10px; }
   .paper-card { padding: 10px 12px; }
   .paper-card-header { gap: 5px; }
-  .paper-number { min-width: 22px; font-size: 0.65rem; }
-  .paper-title { font-size: 0.85rem; }
+  .paper-number { min-width: 22px; font-size: 0.72rem; }
+  .paper-title { font-size: 0.95rem; }
   .paper-link-wrap { margin-top: 8px; }
-  .paper-osf-link { font-size: 0.72rem; }
+  .paper-osf-link { font-size: 0.78rem; }
   .paper-actions { gap: 3px; }
   .paper-action-btn { width: 30px; height: 30px; }
   .paper-action-btn svg { width: 17px; height: 17px; }
