@@ -5552,5 +5552,53 @@
     "relevant_for": "Clinicians using routine outcome monitoring and those supervising trainees in counseling center settings",
     "published": null,
     "link": "https://osf.io/q58jg"
+  },
+  {
+    "number": 338,
+    "title": "Personalizing Chronic Pain Treatment Using Person-Specific Networks: A Single-Case Experimental Design Study",
+    "authors": "Saskia Scholten, Verena Eunike Hofmann, Felicitas Kininger, Julia Glombiewski",
+    "osf_id": "edscr_v3",
+    "date_posted": "2026-06-25",
+    "source_date": "25.06.2026",
+    "categories": [
+      "Somatic & Functional"
+    ],
+    "summary": "This proof-of-concept study evaluated whether person-specific network analysis can guide individualized treatment target selection for chronic pain patients with comorbidities. Twelve patients (mean age 60.25) and nine therapists participated in an ABCD single-case experimental design with randomized baselines. Qualitative interviews explored feasibility and acceptability. Compliance reached at least 80% in seven participants, with a mean of 298 observations per person. Multilevel analysis showed an average decrease in disability scores from baseline to intervention phase. The authors conclude that the clinical value of data-informed personalization lies not in algorithmic precision but in facilitating patient-centered, reflective clinical reasoning in complex cases.",
+    "clinical_insight": "For therapists working with chronic pain, this study supports using repeated self-monitoring data to collaboratively identify each patient's unique symptom network before selecting intervention targets. Rather than applying a standard protocol, the approach uses individual network visualization to help patients recognize patterns in their own daily experience, then matches intervention modules to the most central nodes in their personal network. The finding that structured data-informed reflection, rather than algorithmic output per se, drove therapeutic benefit suggests that network-informed case formulation can be integrated into existing clinical workflows without requiring specialized software. Therapists treating complex somatic presentations where comorbidities obscure the primary maintaining mechanism may find this approach particularly useful for identifying which target to address first.",
+    "relevant_for": "Therapists working with chronic pain and medically unexplained symptoms who want to integrate personalized formulation into treatment planning",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/edscr_v3"
+  },
+  {
+    "number": 339,
+    "title": "The Interplay Between Cognitive-Behavioural and -Interpersonal Factors in Disordered Eating: A Network Analysis",
+    "authors": "Chantal P Delaquis, Yasmin Brown, Dean Spirou, Jayanthi (Jay) Raman, Sylvie Berthoz",
+    "osf_id": "qmz4v_v1",
+    "date_posted": "2026-06-29",
+    "source_date": "29.06.2026",
+    "categories": [
+      "Eating Disorders"
+    ],
+    "summary": "This study integrated the transdiagnostic cognitive-behavioral and cognitive-interpersonal models of eating disorders using network analysis in 493 Australian participants reporting ED symptoms, of whom 271 scored above the clinical cutoff on the EDE-QS and 108 reported a lifetime eating disorder diagnosis. A partial correlation network was estimated, with bootstrapped stability and centrality difference tests. Concern Over Mistakes emerged as the most central node overall (expected influence = 1.48) and the strongest bridge node connecting cognitive-behavioral and interpersonal clusters (bridge expected influence = 0.86). The edge between Overvaluation of Weight and Shape and Weight and Shape Rigidity was among the strongest in the network (0.45). The network demonstrated excellent stability.",
+    "clinical_insight": "The prominence of Concern Over Mistakes as both the most central symptom and the primary bridge between cognitive-behavioral and interpersonal dimensions suggests that perfectionism, rather than body dissatisfaction alone, may be the engine that connects disordered eating cognition with relational dysfunction. For therapists, this supports directly assessing and targeting perfectionism early in treatment, even when a client presents primarily with shape concerns or interpersonal difficulties. The strong connection between Overvaluation of Weight and Shape and Rigidity indicates that rigid beliefs about weight, rather than the content of those beliefs alone, may be a key maintaining factor that deserves explicit attention in cognitive restructuring. These findings are cross-sectional and cannot confirm causal pathways, but they provide a empirically grounded map for prioritizing treatment targets within the transdiagnostic framework.",
+    "relevant_for": "Clinicians treating eating disorders using CBT-E or integrative approaches, particularly when clients present with comorbid perfectionism and interpersonal difficulties",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/qmz4v_v1"
+  },
+  {
+    "number": 340,
+    "title": "\"It's a balancing act\": Autistic fathers navigating parenting in everyday life",
+    "authors": "Chris Edwards, Abigail Love, Ru Ying Cai, Kees-jan Archbald, Dean Dickson, Sean Hynes, Abel Trindade, Sarah Edwards, Bronwyn Leigh, Vicki Gibbs",
+    "osf_id": "xfhek_v2",
+    "date_posted": "2026-06-29",
+    "source_date": "29.06.2026",
+    "categories": [
+      "Neurodivergence"
+    ],
+    "summary": "This co-produced qualitative study explored the parenting experiences of 19 Autistic fathers using semi-structured interviews (spoken or written, per participant preference), analyzed with reflexive thematic analysis. Four Autistic fathers collaborated as co-researchers in study design, interview development, and analysis. Five themes were generated: finding joy and meaning in everyday fatherhood moments; becoming oneself through fatherhood, where parenting strengthened Autistic identity; walking the tightrope of family life, reflecting the continuous effort of balancing sensory, emotional, and practical demands; parenting as relational work, including the tension arising when fathers felt misunderstood by partners and family; and parenting in systems stacked against us, highlighting barriers in services and wider society that fail to recognize Autistic needs.",
+    "clinical_insight": "Autistic fathers in this study described fatherhood as a source of identity consolidation and emotional connection, challenging the deficit-focused narrative that still predominates in clinical work with neurodivergent adults. The theme of walking a tightrope of sensory, emotional, and practical demands highlights that autistic parents may experience parenthood not as a category of impairment but as an ongoing balancing act that can become overwhelming when environmental demands exceed capacity. The finding that fathers felt most distressed not by parenting itself but by being misunderstood within family relationships and by services suggests that clinicians working with neurodivergent families should attend to the relational context and systemic barriers rather than focusing solely on individual coping strategies. When an autistic father presents in therapy, asking about parenting experiences may open a productive avenue for exploring identity, self-worth, and systemic stressors.",
+    "relevant_for": "Therapists working with neurodivergent adults, particularly autistic parents or those navigating family life and relationship dynamics",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/xfhek_v2"
   }
 ]
