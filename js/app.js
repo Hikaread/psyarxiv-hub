@@ -613,7 +613,7 @@
 
   /* ===== STATS ===== */
   function updateStats() {
-    document.getElementById('stat-total').textContent = papers[papers.length - 1].number;
+    document.getElementById('stat-total').textContent = papers.length;
     document.getElementById('stat-shown').textContent = filtered.length;
   }
 
