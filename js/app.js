@@ -30,6 +30,7 @@
   var PAGE_SIZE = 25;
   var ticking = false;
   var activeQuickNavCategory = '';
+  var suppressHashSync = false;
 
   /* ===== LOCAL STORAGE HELPERS ===== */
   function loadJSON(key, fallback) {
@@ -72,13 +73,42 @@
     return window.location.origin + window.location.pathname + '#paper=' + num;
   }
 
+  function copyTextToClipboard(value) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(value);
+    }
+
+    return new Promise(function(resolve, reject) {
+      var textarea = document.createElement('textarea');
+      textarea.value = value;
+      textarea.setAttribute('readonly', 'readonly');
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        if (document.execCommand('copy')) {
+          resolve();
+        } else {
+          reject(new Error('Copy command failed'));
+        }
+      } catch (error) {
+        reject(error);
+      } finally {
+        textarea.remove();
+      }
+    });
+  }
+
   function sharePaper(p) {
     var url = getPaperPermalink(p.number);
-    var text = p.title + ' — ' + (p.authors || '').split(',')[0] + ' et al.';
+    var leadAuthor = (p.authors || '').split(',')[0].trim();
+    var text = leadAuthor ? (p.title + ' — ' + leadAuthor + ' et al.') : p.title;
     if (navigator.share) {
       navigator.share({ title: p.title, text: text, url: url }).catch(function() {});
     } else {
-      navigator.clipboard.writeText(url).then(function() { showToast('Link copied'); }).catch(function() {});
+      copyTextToClipboard(url).then(function() { showToast('Link copied'); }).catch(function() {});
     }
   }
 
@@ -121,9 +151,18 @@
     if (!pendingSharedPaperNumber) return;
     var card = ensurePaperRendered(pendingSharedPaperNumber);
     if (!card) return;
-    card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    card.scrollIntoView({ behavior: 'auto', block: 'start' });
     highlightSharedCard(card);
+    var paper = findPaperByNumber(pendingSharedPaperNumber);
+    if (paper) openModal(paper);
     pendingSharedPaperNumber = null;
+  }
+
+  function findPaperByNumber(num) {
+    for (var i = 0; i < papers.length; i++) {
+      if (papers[i].number === num) return papers[i];
+    }
+    return null;
   }
 
   function updateCardState(num) {
@@ -502,7 +541,7 @@
 
   function scrollCategoryIntoView(element) {
     if (!element) return;
-    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    element.scrollIntoView({ behavior: 'auto', block: 'start' });
   }
 
   function ensureCategoryRendered(categoryName) {
@@ -769,10 +808,27 @@
     if (sortMode !== 'newest') state.sort = sortMode;
     if (categoryView) state.view = 'category';
     var hash = '#' + Object.keys(state).map(function(k) { return k + '=' + encodeURIComponent(state[k]); }).join('&');
+    suppressHashSync = true;
     history.replaceState(null, '', hash);
+    setTimeout(function() { suppressHashSync = false; }, 0);
+  }
+
+  function resetStateToDefaults() {
+    searchQuery = '';
+    sortMode = 'newest';
+    categoryView = false;
+    pendingSharedPaperNumber = null;
+    CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
+    document.getElementById('search-input').value = '';
+    document.getElementById('sort-select').value = 'newest';
+    document.getElementById('category-view-toggle').classList.remove('active');
+    document.getElementById('category-view-toggle').setAttribute('aria-pressed', 'false');
+    syncCheckboxes();
+    syncSearchClearButton();
   }
 
   function applyStateFromHash() {
+    resetStateToDefaults();
     var hash = location.hash.slice(1);
     if (!hash) return;
     var params = {};
@@ -802,6 +858,13 @@
     }
     syncSearchClearButton();
   }
+
+  window.addEventListener('hashchange', function() {
+    if (suppressHashSync || !papers.length) return;
+    closeModal();
+    applyStateFromHash();
+    applyFilters();
+  });
 
   /* ===== UTILS ===== */
   function esc(s) {
