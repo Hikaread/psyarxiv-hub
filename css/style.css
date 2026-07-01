@@ -301,6 +301,8 @@ a:hover { color: var(--accent-hover); }
   gap: 4px;
   margin-left: auto;
   flex-shrink: 0;
+  align-items: center;
+  flex-wrap: nowrap;
   padding-top: 1px;
 }
 .paper-action-btn {
@@ -548,6 +550,7 @@ a:hover { color: var(--accent-hover); }
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 14px 16px;
+  scroll-margin-top: 72px;
   box-shadow: var(--shadow-sm);
   transition: box-shadow 0.2s, border-color 0.2s, background 0.3s;
 }
@@ -558,6 +561,13 @@ a:hover { color: var(--accent-hover); }
   align-items: flex-start;
   gap: 8px;
   margin-bottom: 4px;
+}
+.paper-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 .paper-number {
   font-size: 0.8rem;
@@ -571,6 +581,8 @@ a:hover { color: var(--accent-hover); }
   font-weight: 600;
   line-height: 1.45;
   color: var(--text-primary);
+  min-width: 0;
+  flex: 1 1 auto;
 }
 .paper-title.has-modal, .paper-title.has-link { cursor: pointer; }
 .paper-title.has-modal:hover { color: var(--accent); }
@@ -854,6 +866,7 @@ a:hover { color: var(--accent-hover); }
 .modal-actions {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 16px;
 }
@@ -870,6 +883,11 @@ a:hover { color: var(--accent-hover); }
   transition: all 0.2s;
 }
 .modal-share-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.paper-card.shared-target {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-subtle2), var(--shadow-md);
+}
 
 /* ===== RESOLVER ===== */
 .resolver-shell {
@@ -1022,15 +1040,24 @@ a:hover { color: var(--accent-hover); }
   [data-dyslexic="on"] #category-view-toggle { display: none; }
   [data-dyslexic="on"] #settings-toggle { padding: 4px; flex-shrink: 0; }
   .main-layout { padding-top: 10px; }
-  .paper-card { padding: 10px 12px; }
+  .paper-card {
+    padding: 10px 12px;
+    scroll-margin-top: 60px;
+  }
   .paper-card-header { gap: 5px; }
+  .paper-heading { gap: 6px; }
   .paper-number { min-width: 22px; font-size: 0.72rem; }
   .paper-title { font-size: 0.95rem; }
   .paper-link-wrap { margin-top: 8px; }
   .paper-osf-link { font-size: 0.78rem; }
-  .paper-actions { gap: 3px; }
-  .paper-action-btn { width: 30px; height: 30px; }
-  .paper-action-btn svg { width: 17px; height: 17px; }
+  .paper-actions { gap: 2px; }
+  .paper-action-btn { width: 28px; height: 28px; }
+  .paper-action-btn svg { width: 16px; height: 16px; }
+  .modal-actions { gap: 8px; }
+  .modal-link, .modal-share-btn {
+    flex: 1 1 100%;
+    text-align: center;
+  }
   .modal-content {
     max-height: 100vh;
     max-height: 100dvh;

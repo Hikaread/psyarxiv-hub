@@ -66,9 +66,14 @@
   }
 
   /* ===== SHARE ===== */
+  var pendingSharedPaperNumber = null;
+
+  function getPaperPermalink(num) {
+    return window.location.origin + window.location.pathname + '#paper=' + num;
+  }
+
   function sharePaper(p) {
-    var linkInfo = getPsyArxivLinkInfo(p);
-    var url = linkInfo ? linkInfo.href : (window.location.origin + window.location.pathname + '#paper-' + p.number);
+    var url = getPaperPermalink(p.number);
     var text = p.title + ' — ' + (p.authors || '').split(',')[0] + ' et al.';
     if (navigator.share) {
       navigator.share({ title: p.title, text: text, url: url }).catch(function() {});
@@ -86,6 +91,39 @@
     document.body.appendChild(t);
     requestAnimationFrame(function() { t.classList.add('visible'); });
     setTimeout(function() { t.classList.remove('visible'); setTimeout(function() { t.remove(); }, 300); }, 1500);
+  }
+
+  function highlightSharedCard(card) {
+    if (!card) return;
+    card.classList.remove('shared-target');
+    card.offsetWidth;
+    card.classList.add('shared-target');
+    setTimeout(function() {
+      card.classList.remove('shared-target');
+    }, 2200);
+  }
+
+  function ensurePaperRendered(num) {
+    var card = document.querySelector('.paper-card[data-num="' + num + '"]');
+    if (card) return card;
+
+    while (shown < filtered.length) {
+      var before = shown;
+      showMore();
+      card = document.querySelector('.paper-card[data-num="' + num + '"]');
+      if (card || shown === before) break;
+    }
+
+    return card;
+  }
+
+  function revealSharedPaper() {
+    if (!pendingSharedPaperNumber) return;
+    var card = ensurePaperRendered(pendingSharedPaperNumber);
+    if (!card) return;
+    card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    highlightSharedCard(card);
+    pendingSharedPaperNumber = null;
   }
 
   function updateCardState(num) {
@@ -275,6 +313,7 @@
     lastRenderedCat = '';
     buildQuickNav();
     showMore();
+    revealSharedPaper();
   }
 
   /* ===== DATE PARSING (dd.mm.yyyy -> sortable number) ===== */
@@ -516,21 +555,24 @@
     var card = document.createElement('div');
     card.className = 'paper-card';
     card.dataset.num = p.number;
+    card.id = 'paper-' + p.number;
 
     var r = isRead(p.number), s = isStar(p.number);
     if (r) card.classList.add('read-dimmed');
 
     var h = '<div class="paper-card-header">';
     h += '<span class="paper-number">#' + p.number + '</span>';
+    h += '<div class="paper-heading">';
     h += '<div class="paper-title has-modal">' + esc(p.title) + '</div>';
     if (p.published) {
       h += '<span class="badge-published">PR</span>';
     }
+    h += '</div>';
     h += '<div class="paper-actions">';
     h += '<button class="paper-action-btn btn-read' + (r ? ' active-read' : '') + '" data-action="read" aria-label="' + (r ? 'Mark as unread' : 'Mark as read') + '" title="' + (r ? 'Mark as unread' : 'Mark as read') + '">' + getReadIcon(r) + '</button>';
     h += '<button class="paper-action-btn btn-star' + (s ? ' active-star' : '') + '" data-action="star" aria-label="' + (s ? 'Remove from favorites' : 'Add to favorites') + '" title="' + (s ? 'Remove from favorites' : 'Add to favorites') + '">' + (s ? '\u2605' : '\u2606') + '</button>';
     h += '<button class="paper-action-btn btn-share" data-action="share" aria-label="Share paper" title="Share paper"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="16 6 12 2 8 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="2" x2="12" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>';
-    h += '</div';
+    h += '</div>';
     h += '</div>';
 
     h += '<div class="paper-meta">';
@@ -616,13 +658,13 @@
       h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + linkifyText(p.published) + '</div></div>';
     }
 
+    h += '<div class="modal-actions">';
     var modalLinkInfo = getPsyArxivLinkInfo(p);
     if (modalLinkInfo) {
-      h += '<div class="modal-actions">';
       h += '<a class="modal-link" href="' + esc(modalLinkInfo.href) + '" target="_blank" rel="noopener" title="' + esc(modalLinkInfo.title) + '">' + modalLinkInfo.modalLabel + '</a>';
-      h += '<button class="modal-share-btn" id="modal-share-btn">Share</button>';
-      h += '</div>';
     }
+    h += '<button class="modal-share-btn" id="modal-share-btn" type="button">Share</button>';
+    h += '</div>';
 
     body.innerHTML = h;
     document.getElementById('modal-share-btn').addEventListener('click', function() { sharePaper(p); });
@@ -738,6 +780,10 @@
       var parts = pair.split('=');
       if (parts.length === 2) params[decodeURIComponent(parts[0])] = decodeURIComponent(parts[1]);
     });
+    if (params.paper) {
+      var paperNumber = parseInt(params.paper, 10);
+      if (!isNaN(paperNumber)) pendingSharedPaperNumber = paperNumber;
+    }
     if (params.q) { searchQuery = params.q; document.getElementById('search-input').value = params.q; }
     if (params.off) { params.off.split(',').forEach(function(c) { activeCats[c] = false; }); syncCheckboxes(); }
     if (params.sort === 'category') {
