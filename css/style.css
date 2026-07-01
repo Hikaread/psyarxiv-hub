@@ -851,6 +851,25 @@ a:hover { color: var(--accent-hover); }
   transition: all 0.2s;
 }
 .modal-link:hover { background: var(--accent); color: var(--text-on-accent); text-decoration: none; }
+.modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+.modal-actions .modal-link { margin-top: 0; }
+.modal-share-btn {
+  font-size: 0.84rem;
+  font-weight: 600;
+  padding: 7px 14px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.modal-share-btn:hover { border-color: var(--accent); color: var(--accent); }
 
 /* ===== RESOLVER ===== */
 .resolver-shell {
@@ -1025,4 +1044,27 @@ a:hover { color: var(--accent-hover); }
   #quick-nav { top: 52px; padding: 4px 0; max-height: 36px; border-radius: 8px; }
   .qn-pills { gap: 5px; }
   .qn-label { font-size: 0.62rem; padding: 3px 9px; }
+}
+
+/* ===== SHARE TOAST ===== */
+#share-toast {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%) translateY(12px);
+  background: var(--accent);
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+  z-index: 9999;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+#share-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
