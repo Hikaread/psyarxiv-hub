@@ -82,4 +82,70 @@
 - u6tnx | 1 | No Escape from Behavior in Evaluating Compositionality — linguistics
 - 8daky | 1 | Handing over control: A longitudinal study of delegation in human-AI interaction — AI interaction
 - 2rafb | 1 | Individual Differences in Reliance on Generative AI in Schoolwork — AI/education
-- s47xz | 1 | The Joint Effects of Measurement Error and Model Misspecification — statistics
+- s47xz | 1 | The Joint Effects of Measurement Error and Model Misspecification — statistics- ceu53 | 6 | Psychosocial Wellbeing Assessment Tools for Children with Cerebral Palsy and The — child/pediatric population
+- beh7f | 6 | Outcomes of Peer Coaching, Peer Tutoring, and Peer Mentoring Among International — linguistics/cognitive not clinical
+- ag2kx | 5 | Sensorimotor Learning and Error Correction in a Double-Step Mirror-Reversal Reac — motor/cognitive neuroscience not clinical
+- hkeaq | 5 | Interictal Epileptiform Discharges and Long-Term Neurodevelopmental Outcomes in  — child/pediatric population
+- 4da3g | 4 | Parent experiences of holistic early intervention for children with motor learni — child/pediatric population
+- np4ta | 4 | L2 Input Variability Compensates for Individual Differences in Working Memory: E — linguistics/cognitive not clinical
+- 96mzk | 4 | Development of the Japanese version of online computerized adaptive tests of you — child/pediatric population
+- nwd3j | 4 | Frequency and perceived plasticity of climate-relevant consumer behaviors as a f — environmental behavior not clinical
+- f6xys | 4 | A systematic review and meta-analysis of efficacy beliefs in pro-environmental b — environmental behavior not clinical
+- khfnj | 4 | Foundations of English as a Foreign Language Literacy: Cognitive and Linguistic  — child/pediatric population
+- jqswu | 3 | The Impact of Race and Gender on Tenure and Promotion Decisions in STEM Careers — decision economics not clinical
+- ekvgu | 3 | Time Regained: Decision Processes in Continuous-Outcome Retrieval from Visual Wo — decision economics not clinical
+- ugpfk | 3 | Population heterogeneity in economic preferences: Revisiting the Global Preferen — decision economics not clinical
+- 5md8z | 3 | Psychological features of dispute content and public acceptance of AI in legal a — AI/tech methodology not clinical
+- 9u78c | 3 | The Morality of Partiality: How Relationship Expectations Shape Moral Evaluation — moral psychology not clinical
+- 9edak | 3 | Syllables, not words, minutes, or utterances, to accurately characterize verbal  — child/pediatric population
+- nzy5a | 3 | Successful coordination emerges from aligned self-predictions in a dynamic motor — motor/cognitive neuroscience not clinical
+- ez6fr | 3 | Assessing the added value of process measures for studying gamified learning — educational technology not clinical
+- 9g3xz | 3 | Non-conscious knowledge of complex regularities supports instrumental conditioni — not clinical relevance
+- jqnvg | 3 | Thought experiments elicit non-emotional intuitions that motivate altruistic beh — decision economics not clinical
+- 6fxjv | 3 | Realistic deepfakes are detected better from a single glance than deliberate ins — AI/tech methodology not clinical
+- jx2b7 | 2 | Emergent categorical structure from sensorimotor grounding in a full-size human  — linguistics/cognitive not clinical
+- hnfqy | 2 | Social Gaze Elicits Social Learning — decision economics not clinical
+- 7yhvp | 2 | Auditory Time-to-Contact in the Wild. — environmental behavior not clinical
+- vgu64 | 2 | Voluntary Musical Imagery Use in Musicians’ Mental Practice: Functional Orientat — music/meditation niche not clinical
+- xahqf | 2 | EEG dynamics during prolonged Samatha meditation:  A case study across levels of — music/meditation niche not clinical
+- vqc8r | 2 | Let there be information: rethinking cultural evolution — not clinical relevance
+- jqutn | 2 | From Design to Classroom: How VRT's EDUboxes Tackle Digital Media Literacy for F — AI/tech methodology not clinical
+- rk5vp | 2 | Lexize-SWE: A quick online test to assess print vocabulary knowledge in Swedish — linguistics/cognitive not clinical
+- jg2nr | 2 | The Body Problem: Cautionary Notes on the Embodied Self — moral psychology not clinical
+- jebzx | 2 | When Felt States Become Social Evidence: An Identifiability Framework for Hot-St — not clinical relevance
+- ekqhr | 2 | Perspectives et connaissances des mondes professionnels : un cours de carrière d — not clinical relevance
+- 74mcw | 2 | Goals remap values and not choices — decision economics not clinical
+- ftqcu | 2 | Milestones in the Wild: Mapping Early Gross Motor Development With the Pebbles A — child/pediatric population
+- sqbzn | 2 | Culture in psychology and neuroscience: Concepts, relevance, and empirical evide — music/meditation niche not clinical
+- 9he86 | 2 | Acoustic and social bonding differences between Japanese singing and conversatio — linguistics/cognitive not clinical
+- 9nf7t | 2 | Whole-brain anatomical and temporal patterns  hypothesized to be evoked during a — cognitive development not clinical
+- zmgac | 2 | Developmental changes in attention to faces in naturalistic family scenes — child/pediatric population
+- qub93 | 2 | Temporal interval judgments are affected by stimulus order but not spatial dista — not clinical relevance
+- 3qjsg | 1 | Metabolic connectivity — not clinical relevance
+- 2dp7v | 1 | Psychometric Validation of the Perceived Cognitive Assistance Scale: Exploratory — linguistics/cognitive not clinical
+- 3m6tx | 1 | Did you hear what you said? Inattentional deafness of pitch shifts in self- prod — linguistics/cognitive not clinical
+- 8hb9u | 1 | Flexible Multiple Imputation of Missing Data in Time-Structured Longitudinal Des — not clinical relevance
+- a7nq8 | 1 | Designing, Evaluating, and Using Synthetic Participants in Behavioural Public Po — linguistics/cognitive not clinical
+- 35z7r | 1 | Sustained Attention in the Presence of a Smartphone:  Does Reward Expectation Ma — not clinical relevance
+- 6tj3h | 1 | Initial indications of generative AI influence in linguistics research abstracts — linguistics/cognitive not clinical
+- jz7uf | 1 | Controlled real-world object generation for visual memory experimentation and th — AI/tech methodology not clinical
+- rckpq | 1 | Coherence Across Tasks In the Development of Counterfactual Reasoning — child/pediatric population
+- fw4mx | 1 | On Why Meta-d′ May Not Go the Distance: Confidence Distance as a Calibration-Bas — not clinical relevance
+- kr2vu | 1 | Using Classification Trees to Identify the Best Method in Monte Carlo Simulation — not clinical relevance
+- uk3vf | 1 | Is GenAI Helpful for Writing? A Re-Analysis Using Robust Meta-Analysis (RoBMA) — not clinical relevance
+- rwapn | 1 | Unpacking the Dual-Path Trust Mechanism Driving Students’ Continuance Intention  — AI/tech methodology not clinical
+- b5jzw | 1 | Visual Perception in Elite, Fast-Paced Ball-Sport Athletes: A Systematic Review  — not clinical relevance
+- j4mqa | 1 | Perceived error climate in primary school classrooms: A multidimensional perspec — linguistics/cognitive not clinical
+- tp49n | 1 | Integrating gaze into models for multi-attribute pricing — decision economics not clinical
+- e4y5h | 1 | Traditional progressive tests with stopping rules from Computerized Adaptive Tes — not clinical relevance
+- bmz3e | 1 | The social ecology of development: The changing structure of preschoolers’ every — child/pediatric population
+- a72vb | 1 | Adopting a Creative Persona: Effects of Perspective-Priming on Creativity and Qu — not clinical relevance
+- 8r6pe | 1 | Who Gets and Gives the Benefit of the Doubt? Speaker Accent and Listener Backgro — linguistics/cognitive not clinical
+- x3edu | 1 | Lexical Decision with Real and Deepfake-Generated Voice — linguistics/cognitive not clinical
+- yfx6s | 1 | Insights from Interpretable Machine Learning into the Interplay of Model Misspec — not clinical relevance
+- mdt4u | 1 | A spatiotemporal hierarchy for social interaction perception in the lateral visu — not clinical relevance
+- dm82w | 1 | Overall attitudes towards quantum computing are more positive than overall attit — AI/tech methodology not clinical
+- u6tnx | 1 | No Escape from Behavior in Evaluating Compositionality — AI/tech methodology not clinical
+- 8daky | 1 | Handing over control: A longitudinal study of delegation and disclosure in human — AI/tech methodology not clinical
+- 2rafb | 1 | Individual Differences in Reliance on Generative AI in Schoolwork: The Role of E — AI/tech methodology not clinical
+- s47xz | 1 | The Joint Effects of Measurement Error and Model Misspecification on Statistical — not clinical relevance
