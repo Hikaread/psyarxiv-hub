@@ -149,3 +149,85 @@
 - 8daky | 1 | Handing over control: A longitudinal study of delegation and disclosure in human — AI/tech methodology not clinical
 - 2rafb | 1 | Individual Differences in Reliance on Generative AI in Schoolwork: The Role of E — AI/tech methodology not clinical
 - s47xz | 1 | The Joint Effects of Measurement Error and Model Misspecification on Statistical — not clinical relevance
+
+## 2026-07-03 (85 candidates after seen-filter, 3 accepted, 82 discarded)
+
+- drtvb | 1 | What is Evaluative Conditioning Anyway? A Response to De Houwer (2026) — theory debate, not clinical
+- nzjhu | 1 | Inference of light-source positions and of transparency in brightness illusion — perception/cognitive science, not clinical
+- 2jekz | 1 | Comments on Animal personality — animal behaviour commentary, not clinical
+- 632re | 1 | Researchers can use e-values to safely optional stopping — stats methodology, not clinical
+- me6z3 | 1 | Empathy shapes multimodal child-directed communication — child/adolescent excluded
+- fm9vz | 1 | Model-based evidence for task-dependent representations in VWM — cognitive science, not clinical
+- m3sud | 2 | Emotional and physical abuse impacts on punishment learning in adolescence — child/adolescent population excluded
+- qub93 | 1 | Temporal interval judgments affected by stimulus order — cognitive/psychophysics, not clinical
+- 5j4qt | 1 | AI authorship beliefs alter brain semantic prediction — cognitive neuroscience, not clinical
+- pk7e3 | 1 | Neural Language Models sensitivity to long-distance dependencies — linguistics/AI, not clinical
+- zmgac | 1 | Developmental changes in attention to faces in children — child/adolescent excluded
+- hkeaq | 1 | Interictal Epileptiform Discharges in children with epilepsy — child/pediatric excluded
+- khfnj | 1 | Foundations of EFL Literacy: Cognitive and Linguistic Predictors — education/linguistics, not clinical
+- dm82w | 1 | Attitudes towards quantum computing — tech attitudes, not clinical
+- f6xys | 1 | Meta-analysis of efficacy beliefs in pro-environmental behavior — environmental psychology, not clinical
+- 9nf7t | 1 | Whole-brain patterns during theory of mind tasks — neuroimaging, not clinical
+- kd9et | 2 | Minimum Cost Psychological Defense: Anti-Fraud Application — applied social psychology for fraud prevention, not clinical therapy
+- 6fxjv | 1 | Realistic deepfakes detected better from a single glance — cognitive/perception, not clinical
+- 9he86 | 1 | Acoustic and social bonding in Japanese singing — music psychology, not clinical
+- mdt4u | 1 | Spatiotemporal hierarchy for social interaction perception — cognitive neuroscience, not clinical
+- beh7f | 1 | Peer Coaching outcomes among international students — education, not clinical
+- yfx6s | 1 | Interpretable ML insights into model misspecification — stats methodology, not clinical
+- x3edu | 1 | Lexical Decision with Real and Deepfake-Generated Voice — cognitive/psycholinguistics, not clinical
+- sqbzn | 1 | Culture in psychology and neuroscience — theoretical/review, not directly clinical
+- 8r6pe | 1 | Speaker Accent and Listener Background — psycholinguistics, not clinical
+- jqnvg | 1 | Thought experiments elicit intuitions motivating altruistic behavior — moral psychology/philosophy, not clinical
+- 9g3xz | 1 | Non-conscious knowledge supports instrumental conditioning — learning/conditioning research, not clinical
+- a72vb | 1 | Adopting a Creative Persona — creativity research, not clinical
+- ftqcu | 1 | Milestones in the Wild: Gross Motor Development — child/infant development excluded
+- 74mcw | 1 | Goals remap values and not choices — decision neuroscience, not clinical
+- ekqhr | 1 | Perspectives et connaissances des mondes professionnels — career psychology (French), not clinical
+- bmz3e | 1 | Social ecology of preschoolers everyday interactions — child/adolescent excluded
+- nwd3j | 1 | Climate-relevant consumer behaviors — environmental psychology, not clinical
+- jebzx | 1 | When Felt States Become Social Evidence — social cognition, not clinical
+- mp27u | 1 | People have an accurate folk theory of conspiracy believers — social/cognitive, not clinical
+- e4y5h | 1 | Traditional progressive tests with stopping rules from CAT — psychometrics theory, not clinical
+- tp49n | 1 | Integrating gaze into models for multi-attribute pricing — cognitive/neuroeconomics, not clinical
+- j4mqa | 1 | Perceived error climate in primary school classrooms — education/child, excluded
+- h8ztf | 1 | Appreciating Ambiguity in Art — aesthetics/psychology of art, not clinical
+- jg2nr | 1 | The Body Problem: Cautionary Notes on the Embodied Self — philosophy of mind/neuroscience theory, not clinical
+- ez6fr | 1 | Process measures for gamified learning — education technology, not clinical
+- 7yhvp | 1 | Auditory Time-to-Contact in the Wild — perception/auditory, not clinical
+- b5jzw | 1 | Visual Perception in Elite Athletes — sport psychology/perception, not clinical
+- rk5vp | 1 | Lexize-SWE: vocabulary test in Swedish — linguistics/assessment tool, not clinical
+- jqutn | 1 | VRT EDUboxes for Digital Media Literacy — education technology, not clinical
+- nzy5a | 1 | Successful coordination from aligned self-predictions — motor cognition, not clinical
+- 96mzk | 1 | Japanese CAT of young children vocabulary — child/adolescent excluded
+- 74qj3 | 1 | Cross-modal commutativity in magnitude production — psychophysics, not clinical
+- vqc8r | 1 | Let there be information: rethinking cultural evolution — theoretical/cultural evolution, not clinical
+- rwapn | 1 | Students continuance intention to use GenAI agents — education/AI, not clinical
+- uk3vf | 1 | Is GenAI Helpful for Writing? Re-Analysis — meta-analysis methodology, not clinical
+- kr2vu | 1 | Classification Trees for Monte Carlo Simulation — stats methodology, not clinical
+- 9edak | 1 | Syllables to characterize verbal input to children — child language development, excluded
+- fw4mx | 1 | On Why Meta-d prime May Not Go the Distance — metacognition methodology, not clinical
+- 8krqj | 1 | Learning progress shapes voluntary engagement — cognitive/learning, not clinical
+- rckpq | 1 | Coherence Across Tasks in Counterfactual Reasoning — cognitive development, not clinical
+- xahqf | 1 | EEG dynamics during prolonged Samatha meditation — niche meditation case study, limited clinical applicability
+- vgu64 | 1 | Voluntary Musical Imagery in Musicians Mental Practice — music psychology, not clinical
+- 9u78c | 1 | The Morality of Partiality — moral psychology/philosophy, not clinical
+- ag2kx | 1 | Sensorimotor Learning in Double-Step Mirror-Reversal — motor learning, not clinical
+- np4ta | 1 | L2 Input Variability Compensates for Working Memory — linguistics/education, not clinical
+- jz7uf | 1 | Controlled real-world object generation for visual memory — cognitive/visual memory, not clinical
+- 6tj3h | 1 | Generative AI influence in linguistics research — linguistics methodology, not clinical
+- a7nq8 | 1 | Designing Synthetic Participants in Behavioural Research — research methodology, not clinical
+- fs3k2 | 1 | Researchers Analytical Decisions Impact Brand Price Elasticity — marketing research, not clinical
+- ceu53 | 1 | Psychosocial Wellbeing for Children with Cerebral Palsy — child/pediatric excluded
+- 8hb9u | 1 | Flexible Multiple Imputation for Missing Data — stats methodology, not clinical
+- 3m6tx | 1 | Inattentional deafness of pitch shifts in self-produced speech — psychophysics, not clinical
+- hnfqy | 1 | Social Gaze Elicits Social Learning — social cognition, not clinical
+- jx2b7 | 1 | Emergent categorical structure from sensorimotor grounding — cognitive science, not clinical
+- 2dp7v | 1 | Psychometric Validation of Perceived Cognitive Assistance Scale — psychometrics/AI tool, not clinical
+- 4da3g | 1 | Parent experiences of holistic early intervention for children — child/pediatric excluded
+- 5md8z | 1 | Psychological features of dispute content and AI acceptance — legal/AI psychology, not clinical
+- ugpfk | 1 | Population heterogeneity in economic preferences — behavioral economics, not clinical
+- njgub | 1 | Do Emotional Faces Modulate Pupillary Pseudoneglect — psychophysics/pupillometry, not clinical
+- ekvgu | 1 | Decision Processes in Continuous-Outcome Retrieval — memory/decision research, not clinical
+- jqswu | 1 | Impact of Race and Gender on Tenure in STEM — social/organizational, not clinical
+- 5tshr | 1 | Plasticidad sinaptica durante periodos criticos — pediatric neurodevelopment, excluded
+- 3qjsg | 1 | Metabolic connectivity — neuroscience methodology, not clinical
