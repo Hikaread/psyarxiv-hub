@@ -1,0 +1,85 @@
+# Discarded Papers Log
+
+## 2026-07-02 (78 candidates, 3 accepted, 75 discarded)
+
+- ceu53 | 6 | Psychosocial Wellbeing Assessment Tools for Children with Cerebral Palsy — paediatric/child population excluded
+- cv6r9 | 6 | Period and Prejudice: Cultural Differences in Menstrual Health — not therapy-focused, more public health
+- beh7f | 6 | Outcomes of Peer Coaching, Peer Tutoring, and Peer Mentoring Among International Students — scoping review protocol, not clinical
+- p6nmv | 5 | Autistic adults integrate the timing of beat gestures and spoken prosody — cognitive linguistics, not clinical
+- zevju | 5 | Off-days have real-world consequences: Using high-frequency cognitive assessment — cognitive testing methodology, not clinical
+- ag2kx | 5 | Sensorimotor Learning and Error Correction in a Double-Step Mirror-Reversal Reaching Task — motor neuroscience, not clinical
+- hkeaq | 5 | Interictal Epileptiform Discharges and Long-Term Neurodevelopmental Outcomes in Children — paediatric neurology, excluded
+- 4da3g | 4 | Parent experiences of holistic early intervention for children with motor learning impairments — paediatric population excluded
+- np4ta | 4 | L2 Input Variability Compensates for Individual Differences in Working Memory — linguistics research
+- 96mzk | 4 | Development of the Japanese version of online CAT of young children vocabulary — child assessment tool
+- nwd3j | 4 | Frequency and perceived plasticity of climate-relevant consumer behaviors — environmental psychology, not clinical
+- f6xys | 4 | A systematic review and meta-analysis of efficacy beliefs in pro-environmental behavior — environmental psychology
+- khfnj | 4 | Foundations of English as a Foreign Language Literacy — linguistics/education
+- kjerd | 4 | Recommendations for Recruiting Clinically-Relevant Stratified Samples — methodology, already curated
+- yv9qa | 5 | Gender differences in Academic Stress and Academic Pressure — already curated
+- 7ehdm | 6 | Impact of a Pre-Test Measurement of Alcohol Craving — already curated
+- k65bu | 7 | Sensory Processing Sensitivity and Climate-Change Media — already curated
+- s89xa | 3 | The Repeatable Social Stress Test — already curated
+- wy74h | 3 | Investigating prospective associations between household food insecurity and eating disorder pathology — already curated
+- jqswu | 3 | The Impact of Race and Gender on Tenure and Promotion Decisions in STEM — not clinical
+- ekvgu | 3 | Time Regained: Decision Processes in Continuous-Outcome Retrieval from Visual Working Memory — cognitive neuroscience
+- ugpfk | 3 | Population heterogeneity in economic preferences — economics/decision science
+- 5md8z | 3 | Psychological features of dispute content and public acceptance of AI — legal AI, not clinical
+- 9u78c | 3 | The Morality of Partiality: How Relationship Expectations Shape Moral Evaluations — moral psychology
+- 9edak | 3 | Syllables, not words, minutes, or utterances — developmental linguistics
+- nzy5a | 3 | Successful coordination emerges from aligned self-predictions — motor neuroscience
+- ez6fr | 3 | Assessing the added value of process measures for studying gamified learning — educational technology
+- wfmbs | 3 | Identifying Signal in the Noise: Resting State fMRI after TBI — neuroimaging methodology
+- 9g3xz | 3 | Non-conscious knowledge of complex regularities supports instrumental conditioning — basic learning research
+- jqnvg | 3 | Thought experiments elicit non-emotional intuitions that motivate altruistic behavior — moral psychology
+- 2jdpn | 3 | Multidimensional Insufficient Effort Responding Detection — psychometrics/methodology
+- 6fxjv | 3 | Realistic deepfakes are detected better from a single glance — perception/AI research
+- rhdxz | 2 | Quantum of Silence: The Burden of Imposed Secrecy — social psychology, not clinical
+- jx2b7 | 2 | Emergent categorical structure from sensorimotor grounding — cognitive science
+- hnfqy | 2 | Social Gaze Elicits Social Learning — social cognition research
+- 7yhvp | 2 | Auditory Time-to-Contact in the Wild — perception research
+- vgu64 | 2 | Voluntary Musical Imagery Use in Musicians Mental Practice — music psychology
+- xahqf | 2 | EEG dynamics during prolonged Samatha meditation — single case study, meditation
+- vqc8r | 2 | Let there be information: rethinking cultural evolution — cultural evolution theory
+- jqutn | 2 | From Design to Classroom: How VRT EDUboxes Tackle Digital Media Literacy — educational technology
+- rk5vp | 2 | Lexize-SWE: A quick online test to assess print vocabulary — linguistics assessment
+- jg2nr | 2 | The Body Problem: Cautionary Notes on the Embodied Self — philosophy of mind
+- jebzx | 2 | When Felt States Become Social Evidence — social cognition theory
+- ekqhr | 2 | Perspectives et connaissances des mondes professionnels — career education (French)
+- 74mcw | 2 | Goals remap values and not choices — decision neuroscience
+- ftqcu | 2 | Milestones in the Wild: Mapping Early Gross Motor Development — child development
+- sqbzn | 2 | Culture in psychology and neuroscience: rhythm perception — neuroscience of rhythm
+- 9he86 | 2 | Acoustic and social bonding differences between Japanese singing — music psychology
+- 9nf7t | 2 | Whole-brain anatomical and temporal patterns in false-belief fMRI task — cognitive neuroscience
+- zmgac | 2 | Developmental changes in attention to faces — developmental psychology
+- qub93 | 2 | Temporal interval judgments are affected by stimulus order — time perception
+- 3qjsg | 1 | Metabolic connectivity — neuroimaging methodology
+- 2dp7v | 1 | Psychometric Validation of the Perceived Cognitive Assistance Scale — LLM/trading context, not clinical
+- 3m6tx | 1 | Did you hear what you said? Inattentional deafness — auditory perception
+- 8hb9u | 1 | Flexible Multiple Imputation of Missing Data — statistics methodology
+- a7nq8 | 1 | Designing, Evaluating, and Using Synthetic Participants — research methodology
+- 35z7r | 1 | Sustained Attention in the Presence of a Smartphone — attention research
+- 6tj3h | 1 | Initial indications of generative AI influence in linguistics — linguistics/AI
+- jz7uf | 1 | Controlled real-world object generation for visual memory — cognitive neuroscience
+- rckpq | 1 | Coherence Across Tasks In the Development of Counterfactual Reasoning — developmental cognition
+- fw4mx | 1 | On Why Meta-d May Not Go the Distance — metacognition methodology
+- kr2vu | 1 | Using Classification Trees to Identify the Best Method in Monte Carlo Simulations — statistics
+- uk3vf | 1 | Is GenAI Helpful for Writing? A Re-Analysis Using Robust Meta-Analysis — AI/education
+- rwapn | 1 | Unpacking the Dual-Path Trust Mechanism Driving Students Continuance Intention — AI/education
+- b5jzw | 1 | Visual Perception in Elite Ball-Sport Athletes — sports perception
+- j4mqa | 1 | Perceived error climate in primary school classrooms — educational psychology
+- tp49n | 1 | Integrating gaze into models for multi-attribute pricing — behavioural economics
+- e4y5h | 1 | Traditional progressive tests with stopping rules from CAT — psychometrics
+- bmz3e | 1 | The social ecology of development — developmental psychology
+- a72vb | 1 | Adopting a Creative Persona: Effects of Perspective-Priming on Creativity — creativity research
+- 8r6pe | 1 | Who Gets and Gives the Benefit of the Doubt? — sociolinguistics
+- x3edu | 1 | Lexical Decision with Real and Deepfake-Generated Voice — auditory perception
+- yfx6s | 1 | Insights from Interpretable Machine Learning into Model Misspecifications — statistics
+- mdt4u | 1 | A spatiotemporal hierarchy for social interaction perception — visual neuroscience
+- uq8c5 | 1 | Subjective and physiological measures reveal emotionally salient moments — emotion research
+- dm82w | 1 | Overall attitudes towards quantum computing — technology attitudes
+- 2587c | 1 | Revisiting the Blind Implantation Paradigm: Robustness of False Memory — memory research
+- u6tnx | 1 | No Escape from Behavior in Evaluating Compositionality — linguistics
+- 8daky | 1 | Handing over control: A longitudinal study of delegation in human-AI interaction — AI interaction
+- 2rafb | 1 | Individual Differences in Reliance on Generative AI in Schoolwork — AI/education
+- s47xz | 1 | The Joint Effects of Measurement Error and Model Misspecification — statistics
