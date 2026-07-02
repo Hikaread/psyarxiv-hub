@@ -1,0 +1,502 @@
+   401→Sample Statistics
+   402→Initially, N = 225 datasets were collected. 94 participants (41.8%) terminated their
+   403→participation prematurely and were excluded due to missing data. Additionally, 18 participants
+   404→(8.0%) met the study’s exclusion criteria: 13 participants (5.8%) due to a current diagnosis of
+   405→a mental disorder or a history of psychiatric hospitalization, 3 participants (1.3%) due to
+   406→military affiliation, and 2 participants (0.9%) due to non-Ukrainian nationality. The total
+   407→sample included 113 datasets (50.2%) for the statistical analyses of Hypothesis 1 and 3, and
+   408→109 datasets (48.4%) for Hypothesis 2.
+   409→The mean completion time of the test battery was 14.9 minutes (SD = 5.6). The total
+   410→sample (n = 113) consisted of 99 participants (87.6%) who identified as female and 14
+   411→participants (12.4%) who identified as male. The age of participants ranged from 18 to 69
+   412→years (M = 39.6; SD = 11.6). From the sample, 96 participants (84.9%) completed a
+   413→university education. In total, 67 participants (59.3%) reported to currently reside in Austria,
+   414→while 46 participants (40.7%) reported to reside in Ukraine. Within Ukraine, 12 participants
+   415→(10.6%) resided in Southern Ukraine, followed by Eastern Ukraine (n = 9; 8.0%), Western
+   416→Ukraine (n = 8; 7.1%), Central Ukraine (n = 8; 7.1%), Kyiv (n = 7; 6.2%), and Northern
+   417→Ukraine (n = 2; 1.8%). Following the RUW, 103 participants (91.2%) reported having been
+   418→displaced and ten participants (8.8%) reported not having been displaced. Lastly, 110
+   419→participants (97.3%) responded in Ukrainian language, and three participants (2.7%)
+   420→responded to the English-language version. Frequencies of sociodemographic
+   421→characteristics are displayed in Table 1.
+   422→Differences in sociodemographic characteristics between samples in Austria and
+   423→Ukraine were tested. Participants residing in Ukraine had higher levels of education than
+   424→those residing in Austria, showing a moderate association (𝜒2(4) = 10.60, p = .03, Cramér’s V
+   425→= .31). Participants residing in Ukraine were also significantly older than those residing in
+   426→Austria, reflecting a medium effect size (t(111) = -2.96, p = .004, Cohen’s d = 0.57).
+   427→Table 1
+   428→Sociodemographic Characteristics of Participants
+   429→Characteristic Austria Ukraine Total sample
+   430→n % n % n %
+   431→Gender
+   432→
+   433→13
+   434→Female 60 89.6 39 84.8 99 87.6
+   435→Male 7 10.4 7 15.2 14 12.4
+   436→Education level
+   437→Secondary 9 13.4 1 2.2 10 8.8
+   438→Specialized secondary 6 9.0 0 0.0 6 5.3
+   439→University 49 73.1 42 91.3 91 80.5
+   440→Postgraduate 3 4.5 2 4.3 5 4.4
+   441→Other 0 0.0 1 2.2 1 0.9
+   442→Displacement
+   443→Not displaced 4 6.0 6 13.0 10 8.8
+   444→Displaced 63 94.0 40 87.0 103 91.2
+   445→Note. n = 113 (n = 67 in Austria, n = 46 in Ukraine). Mean age was 39.6 years (SD = 11.6) in
+   446→the total sample, 37.0 years (SD = 10.7) in Austria, and 43.4 years (SD = 12.0) in Ukraine.
+   447→Participant education level and age differed between groups.
+   448→Descriptive Statistics
+   449→Descriptive statistics and zero-order correlations among measurement instruments
+   450→are displayed in Table 2. A heat map of correlations among measurement instruments is
+   451→presented in Appendix B.
+   452→Table 2
+   453→Descriptive Statistics and Correlations of Measurement Instruments
+   454→Measure M SD 1 2 3 4 5 6 7
+   455→1. CTSR 22.33 5.27 –
+   456→2. IDQ 23.61 7.68 .69*** –
+   457→3. IAQ 23.51 7.10 .63*** .85*** –
+   458→4. ITQ-PTSD 16.88 4.77 .54*** .50*** .55*** –
+   459→5. ITQ-DSO 16.23 6.06 .65*** .75*** .63*** .52*** –
+   460→6. DERS 65.53 24.06 .50*** .47*** .45*** .31*** .51*** –
+   461→7. LEC-5 6.35 3.40 .35*** .33*** .31*** .37*** .40*** .18 –
+   462→Note. n = 113. CTSR = Continuous Traumatic Stress Response; IDQ = International
+   463→Depression Questionnaire; IAQ = International Anxiety Questionnaire; ITQ-PTSD =
+   464→International Trauma Questionnaire - Post-Traumatic Stress Disorder; ITQ-DSO =
+   465→International Trauma Questionnaire - Disturbances in Self-Organization; DERS = Difficulties
+   466→in Emotion Regulation Scale; LEC-5 = Life Events Checklist for DSM-5.
+   467→*** p < .001.
+   468→Inference Statistics
+   469→No violations of statistical assumptions for the linear regression models and
+   470→multivariate analysis of variances were observed. Univariate outliers were checked, and no
+   471→standardized residuals with absolute values greater than or equal to 3 were observed.
+   472→Participants’ completion time in relation to the sample’s median (i.e., relative speed index)
+   473→
+   474→14
+   475→was assessed as suggested by Leiner (2019), and no data point exceeded the cut-off value
+   476→of 2. Continuous predictors were mean-centered for analyses.
+   477→Hypothesis 1: Associations of CTS
+   478→Interval measurement level and independence of observations were met. Linearity of
+   479→associations, homoscedasticity of residual variances, and normal distribution of residuals
+   480→were examined graphically by the author and deemed permissive for statistical analysis. The
+   481→model specification was assumed satisfactory, such that all relevant predictors were included
+   482→in the model. Sociodemographic variables were dummy coded and tested as predictors in
+   483→the linear regression models to control for confounding variables within the dataset.
+   484→Residence in Eastern Ukraine compared to Austria showed significant associations with all
+   485→outcome variables, thus was added as predictor into the linear regression model. Additivity of
+   486→predictors was met, and the author did not expect interaction effects between the predictor
+   487→variables in the model. Model parameters of hierarchical multiple linear regression analyses
+   488→are displayed in Table 3.
+   489→In the first step, CTS significantly predicted all outcomes in model 1. CTS explained
+   490→47% of variance in depression, 39% of variance in anxiety, 28% of variance in PTSD, and
+   491→42% of variance in DSO symptoms, respectively. In the second step, residence (i.e., Eastern
+   492→Ukraine compared to Austria) was added as a predictor to the model, and both predictors
+   493→significantly predicted all outcome variables in model 2. Collectively, CTS and residence
+   494→explained 47% of variance in depression, 40% of variance in anxiety, 28% of variance in
+   495→PTSD, and 42% of variance in DSO symptoms, respectively. Residence added 0.1% to 1%
+   496→of explained variance in psychopathological symptoms, while these effects did not reach
+   497→statistical significance.
+   498→Table 3
+   499→CTS and Residence Predicting Psychopathological Symptoms
+   500→Outcomes
+   501→Model 1 Depression Anxiety PTSD DSO
+   502→Intercept 23.57*** 23.48*** 16.87*** 16.20***
+   503→95% CI [22.53, 24.62] [22.45, 24.51] [16.11, 17.62] [15.34, 17.06]
+   504→CTS 1.00*** 0.85*** 0.49*** 0.75***
+   505→95% CI [0.80, 1.20] [0.66, 1.05] [0.34, 0.63] [0.59, 0.92]
+   506→R 2 .47*** .39*** .28*** .42***
+   507→adj
+   508→Model 2
+   509→Intercept 23.78*** 24.54*** 17.09*** 16.01***
+   510→95% CI [22.83, 26.20] [22.88, 26.20] [15.86, 18.32] [14.61, 17.41]
+   511→CTS 1.00*** 0.85*** 0.48*** 0.75***
+   512→95% CI [0.77, 1.18] [0.65, 1.04] [0.34, 0.63] [0.59, 0.92]
+   513→
+   514→15
+   515→Residence a -1.26 -1.41 -0.30 0.25
+   516→95% CI [-3.03, 0.51] [-3.15, 0.34] [-1.58, 0.99] [-1.21, 1.72]
+   517→R 2 .47*** .40*** .28*** .42***
+   518→adj
+   519→ΔR 2 .01 .01 .001 .001
+   520→Note. n = 113. CI = confidence interval; CTS = Continuous Traumatic Stress; PTSD = Post-
+   521→Traumatic Stress Disorder; DSO = Disturbances in Self-Organization. Predictors were mean-
+   522→centered prior to analyses. Values are unstandardized regression coefficients (B). ΔR 2
+   523→reflects the increase in explained variance due to the control variable. p values were adjusted
+   524→for multiple comparisons using the Bonferroni correction. a Residence was dummy coded
+   525→(Austria = 0, Eastern Ukraine = 1).
+   526→* p < .05. *** p < .001.
+   527→Hypothesis 2: Interaction Effects of Emotion Dysregulation
+   528→Univariate and multivariate residual outliers, homoscedasticity of residual variances,
+   529→linearity of associations, independence of observations, and normal distribution of residuals
+   530→revealed no violation of statistical assumptions. Model parameters of moderated multiple
+   531→linear regression analyses are displayed in Table 4.
+   532→The moderation model (i.e., CTS, ED, ED x CTS) explained a total of 57% of variance
+   533→in depression, 53% of variance in anxiety, 34% of variance in PTSD, and 55% of variance in
+   534→DSO symptoms, respectively. CTS significantly predicted all outcome variables. ED
+   535→significantly predicted depressive symptoms, anxiety symptoms, and DSO symptoms. ED x
+   536→CTS significantly predicted anxiety symptoms, PTSD symptoms, and DSO symptoms,
+   537→showing negative associations with the outcome variables. The interaction term added 1% to
+   538→4% of explained variance in psychopathological symptoms to the model. Johnson-Neyman
+   539→analyses indicated that the conditional effects of CTS on psychopathological symptoms were
+   540→dependent on levels of ED. Significant effects were observed for ED values between -37.94
+   541→and 22.73 for anxiety, -37.94 and 24.61 for PTSD, and between -37.94 and 39.71 for DSO
+   542→symptoms. For higher values of ED, the conditional effects were non-significant. Conditional
+   543→effects of the interaction term are visualized in Appendix C.
+   544→Table 4
+   545→Effects of ED on the Associations of CTS with Psychopathological Symptoms
+   546→Outcomes
+   547→Predictors Depression Anxiety PTSD DSO
+   548→Intercept 23.46*** 23.88*** 17.46*** 16.49***
+   549→95% CI [22.26, 24.67] [22.72, 25.04] [16.59, 18.34] [15.54, 17.43]
+   550→CTS 0.65*** 0.49*** 0.42*** 0.47***
+   551→95% CI [0.44, 0.86] [0.28, 0.71] [0.25, 0.58] [0.30, 0.64]
+   552→ED 0.14*** 0.14*** 0.02 0.11***
+   553→
+   554→16
+   555→95% CI [0.09, 0.20] [0.08, 0.20] [-0.01, 0.06] [0.07, 0.16]
+   556→ED x CTS -0.001 -0.01* -0.01*** -0.005*
+   557→95% CI [-0.01, 0.01] [-0.02, -0.001] [-0.01, -0.005] [-0.01, -0.0004]
+   558→R 2 .57*** .53*** .34*** .55***
+   559→ΔR 2 .0004 .02* .04*** .01*
+   560→Note. n = 109. CI = confidence interval; CTS = Continuous Traumatic Stress; ED = Emotion
+   561→Dysregulation; PTSD = Post-Traumatic Stress Disorder; DSO = Disturbances in Self-
+   562→Organization. Predictors were mean-centered prior to analyses. Values are unstandardized
+   563→regression coefficients (B). ΔR 2 reflects the increase in explained variance due to the
+   564→interaction term. p values were adjusted for multiple comparisons using the Benjamini-
+   565→Hochberg correction.
+   566→* p < .05. *** p < .001.
+   567→Hypothesis 3: Group Differences in Psychopathological Symptoms
+   568→The sample size was sufficient, and independence of observations was assumed.
+   569→Group sizes were inequal, with 67 participants in Austria and 46 participants in Ukraine.
+   570→Multivariate normality of variables, homogeneity of variance-covariance matrices, linearity of
+   571→relationships in dependent variables, multicollinearity and multivariate outliers revealed no
+   572→statistical violation. Model parameters of multivariate analysis of variances are displayed in
+   573→Table 5.
+   574→Using Pillai’s Trace, there was a significant effect of residence on psychopathological
+   575→outcomes, V = .19, F(6, 106) = 4.05, p = .001. Mean levels of psychopathological symptoms
+   576→were higher in the sample in Austria compared to Ukraine. Follow-up univariate analyses
+   577→indicated that participants in Austria reported higher levels of PTSD symptoms and DSO
+   578→symptoms, as well as a greater number of traumatic exposures compared to participants in
+   579→Ukraine. Effect sizes were medium for traumatic exposures and DSO symptoms, and small
+   580→for PTSD symptoms.
+   581→Table 5
+   582→Psychopathological Symptoms between Samples from Austria and Ukraine
+   583→Outcome Austria Ukraine F (1,111) ηp²
+   584→M SD M SD
+   585→Traumatic Exposure 7.24 3.08 5.04 3.45 12.58*** .10
+   586→CTS 23.07 5.10 21.24 5.37 3.38 .01
+   587→PTSD 17.66 4.95 15.76 4.31 4.44* .04
+   588→DSO 17.72 5.96 14.07 5.58 10.78** .09
+   589→Depression 24.24 7.43 22.70 8.03 1.10 .01
+   590→Anxiety 23.82 6.75 23.07 7.64 0.31 .003
+   591→Note. n = 113. Scores reflect levels of psychopathological outcomes. CTS = Continuous
+   592→Traumatic Stress; PTSD = Post-Traumatic Stress Disorder; DSO = Disturbances in Self-
+   593→
+   594→17
+   595→Organization.
+   596→* p < .05. ** p < .01. *** p < .001.
+   597→Exploratory Analyses
+   598→The measurement instruments employed in this study allowed the assessment of
+   599→diagnostic criteria for MDD, GAD, PTSD, and CPTSD in accordance with ICD-11 guidelines.
+   600→These questionnaire-based diagnoses were based on algorithms specified in the IDQ, IAQ
+   601→(Shevlin et al., 2023), and ITQ (Cloitre et al., 2018). No a priori hypothesis was formulated for
+   602→these diagnostic outcomes. Descriptive frequencies of participants meeting diagnostic criteria
+   603→are reported in Table 6. In the total sample, 22 (19.5%) met criteria for one disorder, 28
+   604→(24.8%) for two disorders, and 25 (22.1%) for three disorders assessed in this study. The
+   605→prevalence of CPTSD was significantly higher among participants residing in Austria,
+   606→showing a moderate association (𝜒2(1) = 8.07, p = .005, Cramér’s V = .27).
+   607→The LEC-5 (Weathers et al., 2013) was implemented to assess respondents’ most
+   608→distressing lifetime event (i.e., index trauma), with corresponding frequencies by country of
+   609→residence being presented in Table 7. The most frequent index traumas in the total sample
+   610→were combat or exposure to a war-zone (n = 51; 45.1%) and fire or explosion (n = 11; 9.7%).
+   611→Participants in Austria most frequently reported combat or exposure to a war-zone (n = 25,
+   612→37.3%) and fire or explosion (n = 8; 11.9%) as their index trauma. Participants in Ukraine
+   613→most frequently reported combat or exposure to a war-zone (n = 26; 56.5%) and other very
+   614→stressful experience (n = 4; 8.7%) as their index trauma. The prevalence of “combat or
+   615→exposure to a war-zone” as index trauma was significantly higher among participants
+   616→residing in Ukraine, reflecting a weak association (𝜒2(1) = 4.06, p = .044, Cramér’s V = .19).
+   617→Table 6
+   618→Questionnaire-Derived Diagnoses According to ICD-11
+   619→Diagnostic criteria Austria Ukraine Total sample
+   620→n % n % n %
+   621→MDD
+   622→Not fulfilled 40 59.7 28 60.9 68 60.2
+   623→Fulfilled 27 40.3 18 39.1 45 39.8
+   624→GAD
+   625→Not fulfilled 30 44.8 21 45.7 51 45.1
+   626→Fulfilled 37 55.2 25 54.3 62 54.9
+   627→PTSD
+   628→Not fulfilled 59 88.1 39 84.8 98 86.7
+   629→Fulfilled 8 11.9 7 15.2 15 13.3
+   630→CPTSD
+   631→Not fulfilled 42 62.7 40 87.0 82 72.6
+   632→Fulfilled 25 37.3 6 13.0 31 27.4
+   633→Note. n = 113. Scores were derived based on diagnostic algorithms specified in the
+   634→International Depression Questionnaire (IDQ), International Anxiety Questionnaire (IAQ), and
+   635→International Trauma Questionnaire (ITQ).
+   636→
+   637→18
+   638→MDD = Major Depressive Disorder (Single Episode); GAD = Generalized Anxiety Disorder;
+   639→PTSD = Post-Traumatic Stress Disorder; CPTSD = Complex Post-Traumatic Stress Disorder.
+   640→Table 7
+   641→Most Distressing Lifetime Event of Participants
+   642→Event Austria Ukraine Total sample
+   643→n % n % n %
+   644→1. Natural disaster 0 0.0 1 2.2 1 0.9
+   645→2. Fire or explosion 8 11.9 3 6.5 11 9.7
+   646→3. Transportation accident 1 1.5 1 2.2 2 1.8
+   647→4. Serious accident 1 1.5 0 0.0 1 0.9
+   648→5. Exposure to toxic substance 0 0.0 0 0.0 0 0.0
+   649→6. Physical assault 3 4.5 1 2.2 4 3.5
+   650→7. Assault with a weapon 3 4.5 3 6.5 6 5.3
+   651→8. Sexual assault 5 7.5 3 6.5 8 7.1
+   652→9. Other unwanted sexual experience 1 1.5 0 0.0 1 0.9
+   653→10. Combat or exposure to a war-zone 25 37.3 26 56.5 51 45.1
+   654→11. Captivity 1 1.5 2 4.3 3 2.7
+   655→12. Life-threatening illness or injury 3 4.5 1 2.2 4 3.5
+   656→13. Severe human suffering 6 9.0 0 0.0 6 5.3
+   657→14. Sudden violent death 3 4.5 0 0.0 3 2.7
+   658→15. Sudden accidental death 1 1.5 0 0.0 1 0.9
+   659→16. Harm or death caused to someone 0 0.0 1 2.2 1 0.9
+   660→17. Other very stressful experience 6 9.0 4 8.7 10 8.8
+   661→Note. n = 113. Events represent trauma categories of the LEC-5 scale.
+   662→Given the high intercorrelations among the variables assessed in this study, the
+   663→author examined the semantic similarity of questionnaire items. All questionnaire items used
+   664→in this study were evaluated for overlapping descriptions and semantic similarity. Based on
+   665→this assessment, several item pairs among the questionnaires indicated semantic overlap.
+   666→For example: “Have had difficulty concentrating?” (IDQ) and “Had difficulty concentrating?”
+   667→(IAQ), “Feeling jumpy or easily startled?” (ITQ) and “Felt physically tense or agitated?” (IAQ),
+   668→or “When I am upset, it takes me a long time to calm down” (ITQ) and “When I’m upset, it
+   669→takes me a long time to feel better” (DERS). Thus, judged by face validity, multiple
+   670→measurement instruments employed in this study show inherent similarities in their semantic
+   671→content. Furthermore, the similarity of questionnaire items was assessed with the Harmony
+   672→software, using the harmonydata package for R (Wood et al., 2022). Harmony is a free-to-
+   673→use tool developed for harmonization of mental health questionnaires (McElroy et al., 2024).
+   674→It employs natural language processing to represent each text question into a numeric vector,
+   675→and judge its similarity based on its respective distance to other vectors. A cosine similarity
+   676→index is computed ranging from -1 to +1, with values closer to 1 reflecting a greater semantic
+   677→match. A moderate correlation was found between the cosine indices of similarity and the
+   678→Spearman coefficients in a test battery of 39 mental health questions. McElroy et al. (2024)
+   679→examined a holdout sample of questionnaires, which were not used to train the language
+   680→
+   681→19
+   682→model, and found that the cosine similarity indices could predict the real-world correlation
+   683→coefficients of questionnaire-items. Notably, the IDQ, IAQ (Shevlin et al., 2023), and ITQ
+   684→(Cloitre et al., 2018) employed in this study were used in the holdout sample, and similar
+   685→intercorrelations and correlational networks were found between those questionnaires. Thus,
+   686→the author implemented Harmony to objectively assess the semantic similarities among the
+   687→questionnaires used in this study. For analysis, the author disabled matches of item pairs
+   688→within instruments, permitted multiple matches for a single questionnaire item, and set the
+   689→cut-off for relevant similarities to a cosine similarity index greater than or equal to .70. The
+   690→language model produced 11 matches of item pairs with relevant cosine similarity indices
+   691→(see Appendix D). The matches largely overlap the similarity assessment judged by face
+   692→validity.
+   693→Furthermore, post-hoc power analyses revealed less statistical power than a priori
+   694→anticipated, estimating a power of 48.6% for PTSD, 37.0% for anxiety, 18.3% for DSO, and
+   695→6.4% for depressive symptoms. Post-hoc power analysis of interaction effects was conducted
+   696→using the Shiny App InteractionPoweR, an openly available tool to estimate statistical power
+   697→of moderated multiple linear regression models (Finsaas et al., 2021). A review of 261
+   698→articles in psychology journals found that interaction effects tend to be quite small with a
+   699→median effect of r = .04 (Aguinis et al., 2005). In personality science, replicable interaction
+   700→effects tend to be even smaller with a median effect size of r = .02 (Vize et al., 2022). In
+   701→consequence, incorrect power estimations may lead to largely underpowered studies.
+   702→Baranger et al. (2023) described power estimations for interaction effects as a function of
+   703→residual variance explained by the model, which depends on the correlations between each
+   704→predictor and the outcome, as well as the correlation of the predictors with each other. While
+   705→larger correlations of the respective predictors with the outcome can increase the residual
+   706→variance explained by the interaction term, a larger correlation between the predictors and
+   707→the interaction term can both decrease or increase statistical power. The influence on power
+   708→estimations for interaction effects depends on whether the total variance explained by the
+   709→interaction term is greater or less than the sum of their individual effects (Baranger et al.,
+   710→2023). In this study, the effects of ED decreased the individual effects of CTS on the outcome
+   711→variables, leading to less total variance explained by the interaction term and decreased
+   712→statistical power.
+   713→Discussion
+   714→Continuous traumatic stress (CTS) describes the psychological reaction to contexts of
+   715→multiple potentially traumatic stressors, which are experienced as ongoing and
+   716→encompassing. The theoretical framework postulates encompassing psychological reactions
+   717→that are associated with, but distinct from, trauma-related psychopathologies. CTS symptoms
+   718→largely overlap with ICD-11 diagnostic categories, such as CPTSD and MDD (WHO, 2019).
+   719→
+   720→20
+   721→Nonetheless, symptoms in specific contexts (i.e., civilians in war-threatened regions) may not
+   722→represent manifest psychopathologies but psychological distress due to ongoing and
+   723→encompassing traumatic stressors. Moreover, these reactions may constitute a functional
+   724→reaction to threatful environments (Itzhaky et al., 2017). The WHO would include CTS in the
+   725→ICD-11 if sufficient empirical evidence were provided (Bachem & Maercker, 2024). Therefore,
+   726→this study investigated associations between CTS and psychopathological symptoms in two
+   727→samples of Ukrainian civilians in Austria and Ukraine in 2025. Further, effects of emotion
+   728→dysregulation (ED) on these associations and group differences in levels of
+   729→psychopathological symptoms between both subsamples were examined. Exploratory
+   730→analyses comprised frequencies of questionnaire-derived diagnoses and index traumas, as
+   731→well as post-hoc power analyses, and semantic similarity assessments of measurement
+   732→instruments.
+   733→Findings show considerable associations of CTS with psychopathological symptoms,
+   734→accounting for 28% to 47% of variance in depressive, anxiety, PTSD, and DSO symptoms.
+   735→The residence of participants (i.e., Eastern Ukraine vs. Austria) did not explain variance in
+   736→psychopathological symptoms beyond CTS. ED emerged as an additional clinically relevant
+   737→factor, predicting depressive, anxiety, and DSO symptoms. Further, ED influenced the
+   738→associations of CTS with anxiety, PTSD, and DSO symptoms, attenuating these
+   739→associations. However, the incremental variance explained by the interaction term was small,
+   740→and post-hoc power analyses indicated that moderation effects were largely underpowered.
+   741→Contrary to hypotheses, participants residing in Austria reported higher levels of PTSD and
+   742→DSO symptoms, a greater number of traumatic exposures, and a significantly higher
+   743→prevalence of questionnaire-derived CPTSD diagnoses. Exploratory analyses revealed that
+   744→two-thirds (66.4%) of participants met questionnaire-derived diagnostic criteria for one or
+   745→more ICD-11 disorders. Lastly, high comorbidity of questionnaire-derived diagnoses
+   746→throughout the sample and large associations between all measurement instruments were
+   747→observed.
+   748→The strong overlap within internalizing symptoms aligns with the Hierarchical
+   749→Taxonomy of Psychopathology (HiTOP) model (Kotov et al., 2017, 2021), suggesting that a
+   750→general distress factor may underlie the observed symptom patterns and that CTS potentially
+   751→represents a context-specific construct of this distress dimension. At the same time, the size
+   752→of observed effects underscores the necessity of a solid theoretical framework, as these
+   753→associations cannot be interpreted meaningfully from a purely data-driven perspective.
+   754→Therefore, the mechanisms of these relationships remain unclear. However, all
+   755→psychopathological symptoms assessed (i.e., MDD, GAD, PTSD, CPTSD) relate to this
+   756→distress subfactor, which may act as a theoretical framework explaining the large
+   757→associations observed in this study. These findings also pertain to the construct validity of
+   758→
+   759→21
+   760→CTS and support the construct in describing psychological reactions to encompassing and
+   761→current traumatic stressors. Therefore, CTS may act as a context-specific construct
+   762→describing the encompassing psychological reactions to ongoing traumatic stressors.
+   763→Preliminarily evidence indicates a nuanced but limited role of ED in shaping symptom
+   764→severity. However, ED may act as a predictor, outcome, or potential collider variable of
+   765→psychopathological symptoms (Beauchaine & Cicchetti, 2019; Carmassi et al., 2022; Conti et
+   766→al., 2023; Hien et al., 2017; Lincoln et al., 2022). Given the limited statistical power and the
+   767→exploratory nature of the a priori model specification, the findings must be interpreted with
+   768→caution and require replication within more robust theoretical models. Rather than indicating
+   769→a simple geographical effect, findings suggest that the living conditions of Ukrainian civilians
+   770→may encompass more relevant contextual factors as predictors of symptom burden.
+   771→Moreover, effects of geographical distance to the conflict zone may be offset by individuals’
+   772→contextual living conditions, such as occupational status or perceived threat and concern.
+   773→This is supported by anecdotal evidence of participants’ e-mails describing personal
+   774→experiences with war and displacement to Austria (see Appendix E, F), which emphasize the
+   775→psychological distress in Ukrainian civilians who were forced or obliged to flee abroad. A
+   776→meta-analysis reported similar effects, indicating that some civilians who have not been
+   777→forced or obliged to flee experienced less threats to the own security initially (Fornaro et al.,
+   778→2025). Collectively, the findings highlight the psychological distress and symptom burden
+   779→experienced by war-affected Ukrainian civilians, both abroad and in their war-torn homeland.
+   780→Moreover, no participant reported prior diagnoses of a mental disorder or psychiatric
+   781→hospitalization, nonetheless about two-thirds of participants met criteria for at least one
+   782→questionnaire-derived psychopathology. Notably, these results are in line with existing
+   783→literature from 1945 to 2022, reporting prevalences of depression (33.3%), anxiety (38.6%)
+   784→and PTSD (25.7%) in civilian populations in war- or conflict-afflicted areas (Lim et al., 2022).
+   785→Considering these findings, the observed prevalences may constitute a somewhat normal
+   786→reaction to extreme situations. Furthermore, previous findings indicate more conceptual
+   787→similarity and larger associations of CTS with CPTSD compared to PTSD (Eagle & Kaminer,
+   788→2013). Higher prevalences of questionnaire-derived CPTSD in relation to PTSD diagnoses in
+   789→this sample support this notion (see Table 6). Moreover, data suggests civilian trauma
+   790→reactions and accompanying symptoms as encompassing, multidimensional, and non-
+   791→specific. High comorbidity of questionnaire-derived diagnoses and large associations
+   792→between all measurement instruments indicate non-specificity and multidimensionality of
+   793→ongoing trauma reactions. Collectively, these findings emphasize CTS as a clinically relevant
+   794→construct in describing the encompassing symptoms of ongoing traumatic reactions in war-
+   795→affected civilians.
+   796→
+   797→22
+   798→Several limitations in regard to the sample, research design and statistical inference
+   799→restrict the validity and generalizability of findings. First, the cross-sectional, correlational
+   800→design precludes causal inference and limits internal validity of findings. The observed
+   801→associations indicate potential effects, however the directionality and underlying mechanisms
+   802→of effects CTS remain unresolved. Longitudinal designs are necessary to examine symptom
+   803→trajectories, remission following contextual changes, or transitions into manifest
+   804→psychopathology (Maercker & Brewin, 2024; Straker, 2013). Controlled sampling methods
+   805→were not feasible in data collection. However, matching of sociodemographic variables
+   806→between samples (i.e., matched samples) and repeated measurement designs would have
+   807→increased internal validity. Additionally, the data was characterized by high intercorrelations
+   808→among constructs (see Table 2), which have been established in existing literature on
+   809→psychopathology (Kotov et al., 2017, 2021). These intercorrelations are potentially due to
+   810→conceptual overlap and non-specificity of symptoms, such as difficulty concentrating,
+   811→diminished interest, or changes in appetite or sleep. Furthermore, intercorrelations were
+   812→potentially facilitated by the semantic similarities among measurement instruments (see
+   813→Appendix D), thus increased redundancy in measurement and attenuated statistical power in
+   814→this study. Although this augmented the convergent validity of CTS (i.e., Hypothesis 1), the
+   815→specificity between constructs remained limited. Consequently, interpretation of findings
+   816→requires a strong theoretic framework rather than solely data-driven reasoning. Furthermore,
+   817→CTS levels potentially reflect general psychological distress, which may not be specific to
+   818→traumatic stressors but relate to secondary stressors in this highly burdened sample. Further,
+   819→questions remain if CTS accurately reflects ongoing exposure to extreme stressors or
+   820→broader psychological distress to secondary stressors (Lock et al., 2012). This may be
+   821→especially relevant for the subsample in Austria, as ongoing war-exposure was not evident.
+   822→The notion of transnosological psychological distress is further supported by high symptom
+   823→levels, intercorrelations among symptoms, and comorbidity of questionnaire-derived
+   824→diagnoses in this sample. However, these findings are consistent with the distress subfactor
+   825→of the internalizing spectrum in the HiTOP model (Kotov et al., 2017, 2021).
+   826→The model specification for Hypothesis 2 lacked a sufficiently established theoretical
+   827→basis and was partly exploratory. Notably, existing literature reported inconclusive and
+   828→heterogenous effects of ED on psychopathology, stating ED as a risk factor, moderator, as
+   829→well as an outcome of psychopathology (Beauchaine & Cicchetti, 2019; Carmassi et al.,
+   830→2022; Conti et al., 2023; Hien et al., 2017; Lincoln et al., 2022). Thus, it is likely that ED
+   831→exhibits diverse effects in context of CTS and trauma-related psychopathology and
+   832→potentially constitutes both a predictor and outcome of psychopathology. These findings limit
+   833→the proposed model specification of Hypothesis 2, such that ED constitutes a moderator of
+   834→associations between CTS and psychopathological symptoms. Moreover, ED shares
+   835→
+   836→23
+   837→conceptual overlap and semantic similarities with CTS and DSO (see Appendix D),
+   838→accounting for substantive variance in these constructs (see Table 2), as emotion regulation
+   839→difficulties are also part of CTS and DSO symptoms. Collectively, this attenuated statistical
+   840→power due to shared variance and resulted in insufficient statistical power for Hypothesis 2.
+   841→Further, existing literature suggests that ED shows heterogenous effects depending on the
+   842→population, contexts, psychopathology, and ED strategies assessed (Blay et al., 2025;
+   843→Carmassi et al., 2022; Conti et al., 2023; Lincoln et al., 2022; Weiss et al., 2020). Therefore,
+   844→the present findings on ED should be interpreted as preliminary, and effect sizes as modest
+   845→at most.
+   846→Lastly, subsamples in Austria and Ukraine were unequal due to the non-probabilistic
+   847→ad-hoc data collection. Recruitment strategies differed substantially (i.e., psychological
+   848→counseling services in Austria vs. academic contexts in Ukraine), such that the subsample in
+   849→Austria included individuals with explicit help-seeking behavior which was not evident in the
+   850→subsample in Ukraine. Additionally, subsamples differed significantly in age, education level,
+   851→and presumably in help-seeking behavior as well as occupation. Lower symptom levels of
+   852→participants in Ukraine were potentially result of sampling, which was conducted in academic
+   853→networks of Ukrainian researchers. This is supported by early findings during the RUW,
+   854→which identified female sex as a risk factor, whereas higher education appeared to be a
+   855→protective factor for PTSD severity (Zasiekina et al., 2023). Evidently, two different
+   856→subsamples of Ukrainian civilians emerged during data collection, which differed in
+   857→sociodemographic (i.e., age and education level) and clinical dimensions (i.e., help-seeking
+   858→behavior). This sample is not representative of the Ukrainian civilian population and appear
+   859→to comprise distinctive subpopulations. Therefore, group differences in symptom levels
+   860→should not only be attributed to the country of residence but partially to the distinct
+   861→subpopulations. The heterogeneity of the Ukrainian population, which includes internally or
+   862→externally displaced individuals, varying levels of education, and diverse histories of
+   863→traumatic exposures restrict generalizability to the general population. High attrition rates
+   864→(i.e., 50.2% response rate) further limit external validity. However, it is also important to note
+   865→that the study’s sampling may reflect a selection bias. Presumably, civilians who were forced
+   866→or obliged to flee abroad due to high-risk environments or active threats had a higher
+   867→psychological burden initially (i.e., more traumatic exposure, less resources), than those who
+   868→did not have to flee (Fornaro et al., 2025), which is supported by the present study‘s data.
+   869→Lastly, high prevalences of PTSD and CPTSD in this sample may be influenced by the
+   870→predominantly female sample, as women are at higher risk for PTSD (Kessler et al., 2017).
+   871→Therefore, this study may overestimate prevalences in the general population of Ukrainian
+   872→civilians.
+   873→
+   874→24
+   875→Future research should employ multi-method research designs emphasizing clinical
+   876→interviews to inform interpretation of observed effects. Qualitative assessment of the
+   877→subjective meaning of symptoms could facilitate interpretation and theoretical grounding of
+   878→the observed effects. Meaningful factors may constitute war-related stressors and perceived
+   879→threat and concern, which are associated with symptom burden and can significantly impact
+   880→civilian life in war-threatened areas (Eagle & Kaminer, 2013; Kalaitzaki et al., 2024; Kaminer
+   881→et al., 2016; Levin et al., 2023). These findings are also in line with Lock et al. (2012), who
+   882→identified secondary stressors (e.g., economic, health, or social stressors) as equally
+   883→important to primary stressors (e.g., witnessing death or destruction). Secondary stressors
+   884→may include worries about relatives (e.g., separation), difficulties with compensation (e.g.,
+   885→insurance claims), economics (e.g., loss of income), media (e.g., negative reports), or a
+   886→general loss of agency. Such war-related stressors have also shown associations with PTSD
+   887→and CPTSD (Kalaitzaki et al., 2024). Thus, war-related stressors should be regarded as a
+   888→contributing factor to symptom burden in further research. Furthermore, probabilistic
+   889→sampling approaches (i.e., stratified sampling) are needed to generate more representative
+   890→data, facilitating external validity and generalizability of findings to the heterogenous
+   891→population of war-affected Ukrainian civilians. Lastly, future research should acknowledge the
+   892→complex, context-specific living conditions of civilians under CTS, which may ultimately
+   893→shape symptom severity and symptom burden. It is further recommended to establish a solid
+   894→theoretical framework for effects of ED in context of CTS, employ qualitative (e.g., clinical
+   895→interviews) and longitudinal data, to inform interpretation of effects. Lastly, the specific living
+   896→contexts of civilians should be acknowledged and contextual conditions examined (e.g.,
+   897→occupational status, war-related stressors, perception of threat).
+   898→In conclusion, the present study provides meaningful empirical evidence to CTS as a
+   899→context-specific construct describing encompassing and ongoing trauma reactions, which are
+   900→closely associated with, and may partly explain, psychopathological symptoms in war-
+
+[showing lines 401-900 of 1447; use offset=901 with limit to continue reading]

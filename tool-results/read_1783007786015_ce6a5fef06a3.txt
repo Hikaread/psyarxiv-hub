@@ -1,0 +1,699 @@
+     1→     1→DRIVING AND COGNITION 1
+     2→     2→This manuscript is currently undergoing peer review
+     3→     3→6/29/2026
+     4→     4→Off-days have real-world consequences: Using high-frequency cognitive assessment to predict
+     5→     5→naturalistic driving
+     6→     6→Andrew J. Aschenbrenner, PhD1, Joshua J. Jackson, PhD3, Sarah H. Stout, MSW2, Yiqi Zhu,
+     7→     7→PhD2, David C. Brown, PhD2, Noor Al-Hammadi, PhD3, John C. Morris, MD2, Jason
+     8→     8→Hassenstab, PhD2,3, Ganesh Babulal, PhD, OTD2
+     9→     9→1. University of Kansas Alzheimer’s Disease Research Center, Department of Neurology,
+    10→    10→University of Kansas Medical Center
+    11→    11→2. Department of Neurology, Washington University in St. Louis
+    12→    12→3. Department of Psychological and Brain Sciences, Washington University in St. Louis
+    13→    13→4. Department of Health & Clinical Outcomes Research, Saint Louis University
+    14→    14→Correspondence concerning this article can be addressed to: Dr. Andrew J. Aschenbrenner, PhD,
+    15→    15→4350 Shawnee Mission Parkway, Fairway, KS, 66205, aaschenbrenner@kumc.edu
+    16→    16→Author Note:
+    17→    17→This research was supported by the National Institutes of Health grants P30AG066444,
+    18→    18→P01AG026276, P01AG003991, R01AG057840, R01AG056466, R01AG067428,
+    19→    19→R01AG068183, and K01AG071847. The authors report no relevant conflicts of interest
+    20→    20→pertaining to this study.
+    21→    21→
+    22→    22→DRIVING AND COGNITION 2
+    23→    23→Abstract
+    24→    24→It is becoming common to measure cognition repeatedly to capture dynamic fluctuations over
+    25→    25→time. It is currently unknown the extent to which daily deviations in cognitive performance have
+    26→    26→implications for real-world behaviors or merely reflect short-term change of limited scope, such
+    27→    27→as assessment artifacts. Daily driving behavior was captured in 160 older adults using GPS
+    28→    28→tracking across 19,628 individual “trips”, defined as ignition start to ignition off. Automated
+    29→    29→processing pipelines quantified various aspects of each trip including distance traveled and
+    30→    30→frequency of “adverse” events such as speeding or hard braking. Participants completed daily
+    31→    31→assessments of cognition using a remote testing platform. Multilevel negative binomial models
+    32→    32→were constructed to relate daily cognitive performance to adverse driving events and adaptive
+    33→    33→behavior such as avoidance of nighttime driving, controlling for global ability, participant age,
+    34→    34→and distance travelled. Rigorous multi-model inference using AIC-based model averaging
+    35→    35→indicated that daily cognitive deviations received substantial model support (79-98%) in
+    36→    36→predicting adverse events and nighttime driving, relative to models that did not include a daily
+    37→    37→parameter. In contrast, global cognitive ability did not substantially improve prediction of either
+    38→    38→outcome. These results show that deviations in cognitive performance are not merely “noise”, as
+    39→    39→they have measurable implications for real-world outcomes. Importantly, it was not global
+    40→    40→performance that was important but deviations from typical performance. Thus, single-shot
+    41→    41→assessments of cognition may not be sufficient to make determinations about driving safety.
+    42→    42→More generally, our findings highlight the utility of repeated cognitive assessments in
+    43→    43→understanding how cognitive fluctuations may impact real-world behaviors.
+    44→    44→Keywords: remote cognitive assessments; cognitive fluctuations, real-world outcomes
+    45→    45→Public Significance Statement
+    46→    46→This study suggests that momentary drops in cognitive performance may affect everyday
+    47→    47→activities, including driving safely. Tracking these moment-to-moment changes could help
+    48→    48→identify when someone is at higher risk for adverse outcomes and support safer environments,
+    49→    49→especially for individuals who are already at higher risk.
+    50→    50→
+    51→    51→DRIVING AND COGNITION 3
+    52→    52→Introduction
+    53→    53→Performance on standardized cognitive instruments is frequently used to assess aptitude
+    54→    54→for high-risk careers (Draheim et al., 2022). An often-cited example is an air traffic controller
+    55→    55→who must monitor multiple sources of input simultaneously and in real-time, which is accepted
+    56→    56→as a stressful occupation where failure to perform with high accuracy and consistency may result
+    57→    57→in dire consequences. Many other jobs also require sustained attention and stable cognitive
+    58→    58→ability to perform efficiently and safely (e.g., workplace safety in construction or manufacturing;
+    59→    59→drivers transporting toxic chemicals; decision-making in medical settings, etc.). Thus, a test of
+    60→    60→attention, for example, might be a useful screening instrument, and in such situations, the focus
+    61→    61→is typically on average performance, where an individual with “high” (better) attention ability
+    62→    62→will be more likely to succeed. However, it is increasingly recognized that cognition is not static
+    63→    63→and is subject to substantial fluctuations, i.e., deviations from average performance, over short
+    64→    64→intervals (Ram et al., 2005; Salthouse, 2007; Schmiedek et al., 2013). These deviations in
+    65→    65→cognitive ability (i.e., having a “bad cognitive day”) might contribute to the successful (or not)
+    66→    66→completion of a task, which may also have crucial implications for job performance and personal
+    67→    67→safety.
+    68→    68→While most people do not continuously operate in such overtly high-stakes environments
+    69→    69→as the air traffic controller, there are many instances in day-to-day circumstances where cognitive
+    70→    70→deviations might be an essential indicator. Older adult driving behavior is a particularly useful
+    71→    71→example as driving comprises a complex behavior that many adults engage in routinely, relies
+    72→    72→heavily on cognitive processes (including motor and sensory abilities), and is essential for older
+    73→    73→adults to maintain independence within their community (Dickerson et al., 2019). More
+    74→    74→practically, older adults are at increased risk of fatal crashes (Cox & Cicchino, 2021) and often
+    75→    75→
+    76→    76→DRIVING AND COGNITION 4
+    77→    77→must restrict their driving in various ways, such as avoiding night time driving or rush hour
+    78→    78→(Vivoda et al., 2022), to accommodate cognitive or sensory difficulties. Many variables that are
+    79→    79→known to affect cognition, including sleep, blood alcohol levels, and some prescription
+    80→    80→medications, similarly increase the risk of car crashes (Brubacher et al., 2021; Martiniuk et al.,
+    81→    81→2013; Peck et al., 2008). Average performance on standard neuropsychological tests, such as the
+    82→    82→Trail Making Test, is useful for assessing driving safety (Carr et al., 2011), but of course, if
+    83→    83→cognition naturally fluctuates from day-to-day, driving may be more feasible and safer on certain
+    84→    84→days over others. This study seeks to establish whether repeated assessments of cognition have
+    85→    85→any utility in determining a safe and successful driving experience on any given day.
+    86→    86→Due to recent technological and statistical advances, studies that repeatedly measure
+    87→    87→cognitive or psychological processes over short intervals (e.g., several times per day for several
+    88→    88→weeks) are becoming common (Aschenbrenner & Jackson, 2023; Crawford et al., 2022; Doherty
+    89→    89→et al., 2020; McNeish & Hamaker, 2019). Such study designs, which we refer to as “high-
+    90→    90→frequency cognitive assessment”, have many advantages over traditional assessments, including
+    91→    91→enhanced reliability of the mean, which is afforded by averaging noisy individual measurements
+    92→    92→over a specific epoch (Nicosia et al., 2022; Sliwinski et al., 2018). However, deviations from
+    93→    93→average performance may not simply be noise but rather contain meaningful information about
+    94→    94→the likelihood of functionally important events. For example, the magnitude of cognitive
+    95→    95→deviations across multiple timescales (e.g., moment-to-moment or day-to-day) in various
+    96→    96→cognitive tasks has repeatedly been shown to be a predictor of Alzheimer disease (AD) risk
+    97→    97→(Aschenbrenner, Hassenstab, et al., 2024; Cerino et al., 2021; Duchek et al., 2009; Hultsch et al.,
+    98→    98→2000), long-term cognitive change (Bielak et al., 2010; Lövdén et al., 2007), and even mortality
+    99→    99→(Kochan et al., 2017).
+   100→   100→
+   101→   101→DRIVING AND COGNITION 5
+   102→   102→While important, these prior studies are limited as they measure between-person
+   103→   103→variability (i.e., individual differences in amount of variability across a week of time) to predict
+   104→   104→risk of a specific event (e.g., dementia) which is also a between-persons outcome. Other studies
+   105→   105→have utilized high-frequency assessment of other psychological constructs to assess how within-
+   106→   106→person deviations in e.g., happiness or stress, influence cognition measured the same day. For
+   107→   107→example, experience (Sliwinski et al., 2006) or anticipation (Hyun et al., 2019) of a daily stressor
+   108→   108→slows responses on a working memory task, engaging in social interactions improves cognitive
+   109→   109→performance on the same day and across several additional days (Zhaoyang et al., 2021), the
+   110→   110→diversity of tasks accomplished in a particular day is associated with improved working memory
+   111→   111→performance that same day (Luo et al., 2023), and daily happiness ratings are associated with
+   112→   112→improved processing speed (Bomyea et al., 2021).
+   113→   113→These studies clearly show that momentary experiences (e.g., happiness) are associated
+   114→   114→with cognitive performance measured over a similar time interval. However, none of these
+   115→   115→studies directly show whether cognitive deviations themselves transfer and have measurable
+   116→   116→practical implications for daily function in the real world. Some evidence suggests that deviations
+   117→   117→in cognition are associated with real-world outcomes. For example, variability across individual
+   118→   118→trials in an attention task predicted the number of self-reported real-world cognitive failures (e.g.,
+   119→   119→forgetting an appointment or excessive distractedness) in a daily diary study (Unsworth, 2015).
+   120→   120→One study has shown that variation on standard cognitive instruments (e.g., list learning tests,
+   121→   121→digit symbol substitution) across 8 testing sessions over 3 weeks covaried with fluctuation in the
+   122→   122→Daily Everyday Cognition Assessment, a cognitive measure that uses real-world stimuli (e.g.,
+   123→   123→medication use, financial management, etc.) over the same period (Gamaldo & Allaire, 2016).
+   124→   124→
+   125→   125→DRIVING AND COGNITION 6
+   126→   126→These prior studies, while informative, are also limited as the “real-world” measures are
+   127→   127→based either on self-report (such as a daily diary study) or are similar to cognitive assessments in
+   128→   128→the first place (e.g., Daily Everyday Cognitive Assessment). None reflect objective real-world
+   129→   129→activities and currently it is unclear if deviations seen in repeated cognitive assessments reflect a
+   130→   130→momentary lapse in attention, mood or motivation, or reflect meaningful changes in how one
+   131→   131→engages with the environment. Put simply, it is unknown whether deviations from average
+   132→   132→cognitive performance on any given day are associated with real-world behaviors on that same
+   133→   133→day. To answer this question, what is needed is a demonstration that daily cognitive performance
+   134→   134→is associated with objectively measured outcomes, which possess direct implications for real-
+   135→   135→world behavior.
+   136→   136→The present study aims to combine a high-frequency cognitive assessment paradigm with
+   137→   137→daily measurements of real-world driving behaviors to determine if deviations from typical
+   138→   138→cognitive ability directly translate to impaired performance on a functionally important
+   139→   139→behavioral outcome. We ask two questions in the current study: 1) Does poor cognition on a
+   140→   140→given day (deviations from average cognition) predict risky driving performance that day
+   141→   141→(defined as the presence of adverse driving events)? 2) Does poor cognition on a given day
+   142→   142→(deviations from average cognition) predict a decrease in the individual’s driving space
+   143→   143→(frequency of driving at night) that day?
+   144→   144→Method
+   145→   145→Transparency and Openness: All materials (including the ARC smartphone application and
+   146→   146→analysis scripts) are publicly available on the Open Science Framework and be accessed at the
+   147→   147→following URL (https://osf.io/wemsa/?view_only=5c05b56f78ed4ba0b2bf6590e71bf51d). Due
+   148→   148→to the sensitivity of the data (e.g., cognitive status, driving locations, etc.) the data are not
+   149→   149→
+   150→   150→DRIVING AND COGNITION 7
+   151→   151→publicly available but can be requested by qualified researchers using an established data sharing
+   152→   152→pipeline (https://knightadrc.wustl.edu/professionals-clinicians/request-center-
+   153→   153→resources/guidelines-data-available/). The URL links to the Knight ADRC website at
+   154→   154→Washington University in St. Louis. A brief data request form and data sharing agreement is
+   155→   155→required. Individuals wanting the precise dataset used in this report should specifically request
+   156→   156→the data from Aschenbrenner et al. when published. This data sharing pipeline was put in place to
+   157→   157→meet record keeping and data sharing / protection requirements from the NIH. This study was not
+   158→   158→preregistered and all study procedures were approved by the Washington University Institutional
+   159→   159→Review Board (#201907164; 202010214).
+   160→   160→Participants: Data for the present analyses were collated from two separate research studies,
+   161→   161→each of which have standardized data processing pipelines to ensure consistent data treatment
+   162→   162→across participants. Standard outcomes from each of these studies have been previously
+   163→   163→published (Aschenbrenner et al., 2022; Bayat et al., 2021; Nicosia et al., 2022). The two studies
+   164→   164→are The Driving Real-World In-Vehicle Evaluation System (DRIVES) Project and the
+   165→   165→Ambulatory Research in Cognition (ARC) study, both conducted at Washington University in St.
+   166→   166→Louis. DRIVES is a prospective, longitudinal study of daily naturalistic driving behavior in older
+   167→   167→adults using a datalogger plugged into participants’ personal vehicles. ARC is a high-frequency
+   168→   168→cognitive assessment study in healthy and very mildly impaired older adults using smartphone
+   169→   169→devices. Participants in both ARC and DRIVES also participate in ongoing longitudinal studies
+   170→   170→of aging and dementia at the Knight Alzheimer Disease Research Center (ADRC) at Washington
+   171→   171→University in St. Louis, which provides additional clinical data to characterize this sample.
+   172→   172→To be included in the current study, participants must be co-enrolled in ARC and
+   173→   173→DRIVES and have completed at least two sets of ARC testing (~ 6 months of participation). All
+   174→   174→
+   175→   175→DRIVING AND COGNITION 8
+   176→   176→participants at the Knight ADRC undergo comprehensive clinical and cognitive assessments
+   177→   177→annually. An experienced clinician rates each participant for the presence of dementia symptoms
+   178→   178→using the Clinical Dementia Rating® (CDR®) scale (Morris, 1993). The CDR is a semi-
+   179→   179→structured clinical interview that rates the presence of impairment across six different domains
+   180→   180→and yields a global score that indicates the level of impairment. A total of 160 participants met
+   181→   181→our inclusion criteria. The average age of this cohort was 76.2 years (SD = 4.5, range = 66.7 –
+   182→   182→92.5), and most were highly educated (mean years of education = 16.5, SD = 2.2, range = 12 -
+   183→   183→22). The sample comprised equal numbers of males and females (self-reported gender, 51%
+   184→   184→female), 88% of the sample reported their race as non-Hispanic White and 12% reported their
+   185→   185→race as Black/African American. The majority of the sample (93%) were cognitively healthy (a
+   186→   186→CDR rating of 0) and the remainder had a CDR score of 0.5, indicating very mild levels of
+   187→   187→impairment. All participants were recruited from the St. Louis region.
+   188→   188→DRIVES data collection and outcomes: Upon enrollment in DRIVES, a commercial datalogger
+   189→   189→(Azuga G2 Tracking device) was installed in each participant’s personal vehicle. The datalogger
+   190→   190→continuously collects various driving metrics for each driving “trip”, where a trip is defined as
+   191→   191→ignition on to ignition off (Babulal, Addison, et al., 2016; Babulal, Traub, et al., 2016). In total,
+   192→   192→there were 19,628 individual trips examined in this study and on average each person took 123
+   193→   193→trips (SD = 74). Some variables captured on each trip include the average speed, locations visited
+   194→   194→(in latitude and longitude), and specific events such as hard braking or speeding. Although a
+   195→   195→large number of driving variables are available (Bayat et al., 2021), for the purposes of the
+   196→   196→present study, we were interested in two daily metrics: “driving space” and “driving
+   197→   197→performance”, which we have used in prior studies to define meaningful subcomponents of
+   198→   198→driving behavior (Aschenbrenner et al., 2022; Bayat et al., 2021). As not all variables that are
+   199→   199→
+   200→   200→DRIVING AND COGNITION 9
+   201→   201→typically used to summarize driving behaviors are available at the daily level due to
+   202→   202→heterogeneity of driving patterns across participants, for the current study we defined the
+   203→   203→“driving space” variable as “number of night trips”, and “driving performance” as any
+   204→   204→occurrence of adverse events such as hard braking (deceleration greater than 8 miles per hour in
+   205→   205→one second), sudden acceleration (acceleration greater than 8 miles per hour in one second), or
+   206→   206→speeding (a speed greater than 6 miles per hour above the posted speed limit, Aschenbrenner et
+   207→   207→al., 2022). These variables are linked to the risk of vehicle crashes (Simons-Morton et al., 2012)
+   208→   208→and are related to pathological change over time (Doherty et al., 2023), and thus are useful
+   209→   209→descriptors of how well and how safely an individual is able to drive. The three indicators of
+   210→   210→performance were summed to form a single “driving performance” variable. There were 10,025
+   211→   211→adverse events observed during the study with an average of 63 events per person (SD = 67) and
+   212→   212→an average of 2.3 adverse events per day (SD = 2.0).
+   213→   213→ARC data collection and outcomes: Upon enrollment in ARC, participants downloaded a
+   214→   214→custom-built smartphone application that administers three, very brief cognitive tests at pseudo-
+   215→   215→random intervals four times per day for one week. The three tests include “Symbols”, where
+   216→   216→participants are presented with sets of abstract shapes and must find the matching items (primary
+   217→   217→outcome = seconds to make a correct response), “Grids”, where participants view three common
+   218→   218→household objects in a 5x5 grid and must place them back in the appropriate location after a brief
+   219→   219→delay (primary outcome = Euclidean distance score that reflects the difference between the
+   220→   220→selected and correct locations), and “Prices” where participants view 10 shopping items and
+   221→   221→prices and must select the correct price on an immediate memory test (primary outcome =
+   222→   222→percent errors). Outcomes from each test are scored such that higher is worse and for the
+   223→   223→purposes of the present analyses were z-scored to the mean and standard deviation of the initial
+   224→   224→
+   225→   225→DRIVING AND COGNITION 10
+   226→   226→evaluation of a larger sample of ARC participants (Nicosia et al., 2022) and averaged together to
+   227→   227→form an ARC composite score (ICC = 0.54). The weekly assessment “bursts” are repeated at 6-
+   228→   228→month intervals for the duration of the study. As ARC is currently ongoing, we used a data freeze
+   229→   229→of the ARC database in June 2024. In total, we examined performance from 12,960 individual
+   230→   230→ARC assessments and each participant completed, on average, 81 assessments over the course of
+   231→   231→the study (SD = 41). The average number of weeks completed per person was 5.9 (SD = 1.7,
+   232→   232→range = 2-9). The average adherence (defined as the number of ARC assessments completed
+   233→   233→divided by the total number of ARC assessment possible [4 assessments per day for 7 days for
+   234→   234→however many weeks they continued in the study]) across the entire study duration was 80% (SD
+   235→   235→= 11%, range = 43-112%). One participant exceeded 100% adherence as they were administered
+   236→   236→an extra assessment due to technological issues with the application. On average, 48% of the
+   237→   237→days, all 4 ARC assessments were completed, 28% of the days 3 assessments were completed,
+   238→   238→18% had only 2 assessments and 14% had 1 ARC assessment completed. Note that these are
+   239→   239→averages across individual participants, and thus within an individual the percentages will sum to
+   240→   240→100%, but the group averages will not.
+   241→   241→Data Matching: Driving performance and driving space metrics from the DRIVES study are
+   242→   242→automatically tabulated at the daily level, and the ARC composite scores were averaged to form
+   243→   243→a daily ARC score (comprised of up to 4 testing sessions per day) to keep the assessments over
+   244→   244→the same interval (i.e., at the daily level). The data were then matched by calendar date so that a
+   245→   245→daily ARC score was paired with the number of adverse driving events, the number of total trips
+   246→   246→taken, and the number of night trips that occurred that same day.
+   247→   247→Statistical Analysis: The core of our analysis utilizes multilevel, negative binomial regression
+   248→   248→modeling in which an outcome (count of adverse events or number of night trips; each in
+   249→   249→
+   250→   250→DRIVING AND COGNITION 11
+   251→   251→separate models) was predicted by one or more of the following variables: total distance traveled
+   252→   252→on that day, age at enrollment in the study (centered at age 65), sex (dummy coded with “female”
+   253→   253→as the reference group), global CDR rating, “time” (defined as years since enrollment in ARC),
+   254→   254→and “cognition” which was defined in two ways. First, we calculated a “global cognitive score”
+   255→   255→which was simply the average of the cognitive tests across all available assessments. This was
+   256→   256→intended to reflect individuals who are relatively high or relatively low performers overall. We
+   257→   257→also created a person-centered “daily deviation” score, defined as the cognitive composite score
+   258→   258→on a given day subtracted from the person level global cognition score. This latter variable
+   259→   259→reflects how well a given day’s performance was compared to the individual’s average
+   260→   260→performance and is the focal predictor of interest in the current report. The creation of person-
+   261→   261→centered variables in this fashion allows for separation of between person (some people have
+   262→   262→better cognition than others) and within-person (individuals perform better on certain days than
+   263→   263→others) variance (Hoffman & Stawski, 2009). Random effects included an intercept across
+   264→   264→participants and a random slope of time. The days on which no trips occurred (and hence no
+   265→   265→adverse events or night trips were recorded) were not included in any models. We confirmed the
+   266→   266→adequacy of our model by comparing different models of varying complexity. Specifically, we
+   267→   267→compared a negative binomial model, a zero-inflated negative binomial model, a Poisson model
+   268→   268→and a zero-inflated Poisson model. For all outcomes, the negative binomial model (with no zero-
+   269→   269→inflation) produced the smallest (and hence best) AICc, and thus we retained that model for all
+   270→   270→subsequent analyses.
+   271→   271→We were motivated by the desire to avoid reliance on null hypothesis significance testing
+   272→   272→and to simultaneously quantify the strength of evidence of a given effect (cognitive deviations)
+   273→   273→as well as to account for multiple levels of uncertainty. Therefore, we employed multimodel
+   274→   274→
+   275→   275→DRIVING AND COGNITION 12
+   276→   276→inference (Burnham & Anderson, 2004a) to incorporate uncertainty in model structure and
+   277→   277→selection and parameter estimation. Specifically, for each outcome (adverse events and number
+   278→   278→of night trips) we constructed a set of 5 plausible candidate models (see Table 1) that were each
+   279→   279→analyzed with a negative binomial model. These models were compared to one another using
+   280→   280→corrected Akaike Information Criteria and Akaike weights (Burnham & Anderson, 2004b) which
+   281→   281→provide a method to rank the relative plausibility of each model given the observed data.
+   282→   282→Regression coefficients from the different models were then averaged together with each
+   283→   283→coefficient weighted based on the relative plausibility of that model, thereby accounting for
+   284→   284→uncertainty in model structure. We use the model averaged result to report an effect size for our
+   285→   285→focal predictor (cognitive deviations) consisting of the incidence rate ratio (IRR), which
+   286→   286→represents the increase in the outcome associated with a 1 SD increase in the cognitive
+   287→   287→deviations. As they are not of central interest, non-focal predictors (e.g., age, sex) are
+   288→   288→summarized based on the best fitting model only (i.e., not based on model averaging to reduce
+   289→   289→computational complexity). Cognitive scores were scaled so that higher equals worse
+   290→   290→performance; hence a “positive” daily deviation indicates worse cognition than average and
+   291→   291→therefore a positive IRR would indicate a poor cognitive day is associated with worse driving
+   292→   292→outcomes. Negative binomial models were fit using the glmmTMB package version 1.1.11
+   293→   293→(McGillycuddy et al., 2025) and AIC comparisons with AICcmodavg version 2.3.3 (Mazerolle,
+   294→   294→2023) in R version 4.5.0 (R Core Team, 2021)
+   295→   295→Results
+   296→   296→Question 1: Are cognitive deviations associated with adverse driving events at the daily level?
+   297→   297→The results from the model selection process are listed in Table 2. As shown, the model that
+   298→   298→included within-person cognitive deviations was the best fitting model based on AICc. Based on
+   299→   299→
+   300→   300→DRIVING AND COGNITION 13
+   301→   301→the evidence ratio, it was 3 times more supported compared to the base model, which didn’t
+   302→   302→include any cognitive variables, and more than 8 times more likely than a model that only
+   303→   303→included global cognition. Nevertheless, there was considerable variability in support across
+   304→   304→models. The best fitting model only had 49% of the relative support, however when summing all
+   305→   305→models that included cognitive deviations (i.e., the bottom three rows of Table 2) the relative
+   306→   306→support was 78%, lending credence to the notion that cognitive deviations contribute to driving
+   307→   307→behavior. In contrast, the global model was relatively poor performing accounting for only 6% of
+   308→   308→the relative support, suggesting in turn that global cognitive performance does not substantially
+   309→   309→predict adverse driving events.
+   310→   310→The model-averaged IRR of the cognitive deviation variable was 1.04 (95% CI = 1.00,
+   311→   311→1.09) representing a rather weak effect such that a 1 standard deviation increase in cognitive
+   312→   312→deviations would increase adverse events by a little over 4%. Figure 1 illustrates how predicted
+   313→   313→adverse events increase with worsening cognitive deviations. The shaded region corresponds to a
+   314→   314→95% confidence interval, reflecting uncertainty in the estimated mean prediction. The influence
+   315→   315→of non-focal predictors is summarized in Table 3 and are based on the best fitting model rather
+   316→   316→than model averaging.
+   317→   317→Question 2: Are cognitive deviations associated with driving space at the daily level? The results
+   318→   318→from the model selection process are listed in Table 4. As shown, the model that included within-
+   319→   319→person cognitive deviations was again the best fitting model based on AICc. It was 47 times
+   320→   320→more supported compared to the base model or the global model. There was uncertainty
+   321→   321→regarding whether adding global cognition to a deviations model improved fit. Specifically, the
+   322→   322→deviations only model had 47% of the relative support but when summing all models that
+   323→   323→included cognitive deviations (i.e., the bottom three rows of Table 4) the relative support was
+   324→   324→
+   325→   325→DRIVING AND COGNITION 14
+   326→   326→0.98 indicating strong support for the notion that daily deviations influence frequency of
+   327→   327→nighttime driving. In contrast, the global model was relatively poor performing drawing only 1%
+   328→   328→of the relative support, suggesting in turn that global cognitive performance again does not
+   329→   329→predict driving behavior.
+   330→   330→The model-averaged IRR of the cognitive deviations variables was 0.86 (95% CI = 0.82,
+   331→   331→0.90) representing a modest effect such that a 1 standard deviation increase in cognitive
+   332→   332→deviations would decrease frequency of night trips by about 16%. Figure 2 illustrates how
+   333→   333→predicted adverse events increase with worsening cognitive deviations with an associated 95%
+   334→   334→confidence interval and other predictors are summarized in Table 5.
+   335→   335→Discussion
+   336→   336→This study aimed to demonstrate whether short-term deviations in scores on a sensitive
+   337→   337→cognitive outcome are associated with real-world behavior. In line with our research questions,
+   338→   338→there are three critical takeaways from these results. First, high-frequency cognitive testing can
+   339→   339→provide information about practically relevant daily events in the real-world, specifically adverse
+   340→   340→driving events and proclivity to avoid driving at night. Second, it was not global performance
+   341→   341→that was important in these analyses; it was deviations from that global performance. Again, this
+   342→   342→highlights the value of repeated testing at regular intervals that can capture deviations from
+   343→   343→typical levels, so-called “off days”. Finally, the fact that daily deviations is associated with night
+   344→   344→time driving suggests that participants are at least partially adapting their behaviors to match
+   345→   345→their cognitive ability at the daily level. More broadly, these findings continue to support the
+   346→   346→notion that short-term deviations from typical cognitive functioning are not noise in cognitive
+   347→   347→assessment such as mind wandering during the task or getting interrupted by someone while
+   348→   348→taking the test in a non-standardized environment, but rather reflect deviations from typical
+   349→   349→
+   350→   350→DRIVING AND COGNITION 15
+   351→   351→performance that translates outside of the test taking environment into a meaningful, objective,
+   352→   352→real-world outcome. We discuss each of these issues in turn.
+   353→   353→First, in terms of driving performance, overall cognitive ability did not predict adverse
+   354→   354→driving events such that lower-performing individuals were just as likely to experience adverse
+   355→   355→events during driving as higher-performing participants. However, during a “low-performing”
+   356→   356→day, when cognitive scores that day were worse than the participants’ average, the incidence of
+   357→   357→adverse events was increased. This conclusion was based on a rigorous multimodal inference
+   358→   358→approach to account for various levels of uncertainty. These within-person results confirm that
+   359→   359→daily deviations in cognitive performance have detectable implications for real-world driving
+   360→   360→behavior. Previous studies have shown that momentary variation in key psychological constructs
+   361→   361→(e.g., stress, mood, happiness) is associated with deviations in cognitive performance (Bomyea et
+   362→   362→al., 2021; Hyun et al., 2019; Luo et al., 2023; Zhaoyang et al., 2021), but no studies have directly
+   363→   363→shown that these deviations in cognition can themselves have measurable and practical
+   364→   364→implications for real-world outcomes. Notably, because the cognitive testing and driving
+   365→   365→assessments were asynchronous (i.e., participants were not taking the testing at the exact same
+   366→   366→time as driving) the influence of poor cognition extends beyond momentary distractions such as
+   367→   367→brief inattentiveness while responding to a text message or checking phone notifications. Rather,
+   368→   368→poor performance on cognitive testing has implications for driving behavior that extend for at
+   369→   369→least an entire day.
+   370→   370→It was surprising to see that the global cognitive score was not associated with adverse
+   371→   371→events. Individuals were equally likely to experience adverse events regardless of their overall
+   372→   372→levels of cognitive ability. We believe these findings confirm other studies in the literature that
+   373→   373→show cognitively healthy older adults can readily adapt or self-regulate their driving behaviors to
+   374→   374→
+   375→   375→DRIVING AND COGNITION 16
+   376→   376→match their cognitive and / or sensory abilities (Meng & Siren, 2012). For example, we have
+   377→   377→shown that individuals with relatively low attentional control ability significantly reduce their
+   378→   378→“driving space” (e.g., number of trips taken, number of trips at night) over time compared to
+   379→   379→individuals with higher attention scores (Aschenbrenner et al., 2022). We argue that the current
+   380→   380→results are another reflection of this adaptive behavior. That is, a typically low-performing driver
+   381→   381→may choose to avoid certain driving situations that minimizes the likelihood of adverse events
+   382→   382→occurring, for example choosing to avoid driving on freeways during rush hour. However, when
+   383→   383→there is a short-term deviation in their performance (i.e., having a bad cognitive day), their
+   384→   384→typical adaptations may no longer be sufficient to prevent adverse events. Alternatively,
+   385→   385→adaptation of driving behavior likely takes time to implement. Avoidance of the freeway for
+   386→   386→example is not an immediate decision but rather a gradual adjustment over years. Thus, driving
+   387→   387→adaptations that are typically studied in the literature may not be sufficient to guard against the
+   388→   388→relatively rapid changes in cognition that occur from day-to-day.
+   389→   389→This interpretation is partially supported by the effects on the nighttime driving metric. If an
+   390→   390→individual is somewhat aware that they are not performing at their normal cognitive levels, they
+   391→   391→may adjust their behavior to avoid the highest risk driving scenarios, e.g., driving at night. There
+   392→   392→is of course a limit on how much behavior modification is possible at the daily level, as doctor’s
+   393→   393→visits, grocery trips, and grandchildren’s extracurricular activities all occur regardless of one’s
+   394→   394→cognitive performance and hence a bad cognitive day may not be sufficient to overcome these
+   395→   395→other societal factors and limit driving behaviors, which may be contributing to our relatively
+   396→   396→small effect sizes.
+   397→   397→There are many strengths to this study including the combination of two innovative, high-
+   398→   398→frequency research programs that objectively and remotely measure driving behaviors on the
+   399→   399→
+   400→   400→DRIVING AND COGNITION 17
+   401→   401→same day as measures of cognition are collected. Nevertheless, some limitations merit mention.
+   402→   402→First, our sample consisted of highly educated individuals who were predominately non-Hispanic
+   403→   403→White, and the generalizability of our findings to a broader segment of the population, who may
+   404→   404→have different driving habits, is uncertain. It is an ongoing endeavor of both DRIVES and ARC
+   405→   405→to increase the representation of the participants in our sample. Second, we examined only
+   406→   406→adverse events defined as hard braking, sudden acceleration or speeding. More fine-grained
+   407→   407→metrics of driving performance or longer follow-up may produce different findings. Third, we
+   408→   408→did not preregister this study hence there is an inherent risk of bias in the data. We have
+   409→   409→mitigated this by making our data and code fully accessible as well as only defining variables
+   410→   410→that have been operationalized in our prior publications (Aschenbrenner et al., 2022; Nicosia et
+   411→   411→al., 2022). Finally, it should be emphasized that the overall effect size of the cognitive variables
+   412→   412→was small. As noted, a one standard deviation change in cognition increases adverse events by
+   413→   413→about 4% and decreases nighttime driving by 16%. These small effect sizes could in part be due
+   414→   414→to our conservative approach to making inferences with these data. Specifically, we performed
+   415→   415→model averaging whereby coefficients were averaged across all examined models in Table 1
+   416→   416→weighted by the degree of evidence that each model contributed.
+   417→   417→Nevertheless, regardless of estimation technique, all returned IRRs can be considered small.
+   418→   418→On one hand, this may imply our results are trivial and unimportant, especially if the goal is to
+   419→   419→determine “fitness to drive” on any given day. However, when considered within the zeitgeist of
+   420→   420→repeated assessments of psychological phenomena (McNeish & Hamaker, 2019), these results
+   421→   421→could be considered quite important. Specifically, these results demonstrate that repeated
+   422→   422→assessments do not simply capture fluctuations of internal states (e.g., mood, affect, cognition)
+   423→   423→but that these variations translate into functional implications, in our case driving. We consider
+   424→   424→
+   425→   425→DRIVING AND COGNITION 18
+   426→   426→this a critical “proof of concept” study that demonstrates the functional importance of daily
+   427→   427→variations in cognition, and we hope this will spur additional research into other functional
+   428→   428→domains such as risk of falling, financial decision making, or medication management.
+   429→   429→Moreover, it is essential to point out that our sample primarily consisted of clinically healthy
+   430→   430→adults with no evidence of cognitive impairment. Our participants are also very conscientious,
+   431→   431→which have implications for driving performance and could in part contribute to the overall low
+   432→   432→rate of adverse events in our study (Aschenbrenner, Carr, et al., 2024). The results shown here
+   433→   433→could be significantly larger in “at-risk” groups (e.g., those with clinical impairment, lower
+   434→   434→conscientiousness, recovering from stroke, surgery, TBI or any number of other medical events)
+   435→   435→or over longer periods of time than the one-week assessments analyzed here.
+   436→   436→Conclusions
+   437→   437→The ability to drive independently is critical to older adults’ social mobility and mental
+   438→   438→functioning. Determinations of driving ability are typically made using standard cognitive
+   439→   439→instruments or standardized road tests on single occasions. Our study shows that cognition, and
+   440→   440→its ability to predict driving behavior, changes from day-to-day. Repeated, brief cognitive testing
+   441→   441→may ultimately provide helpful information on making a daily determination of driving safety.
+   442→   442→
+   443→   443→DRIVING AND COGNITION 19
+   444→   444→References
+   445→   445→Arnold, T. W. (2010). Uninformative Parameters and Model Selection Using Akaike’s
+   446→   446→Information Criterion. The Journal of Wildlife Management, 74(6), 1175–1178.
+   447→   447→Aschenbrenner, A. J., Carr, D. B., Benzinger, T. L. S., Morris, J. C., & Babulal, G. M. (2024).
+   448→   448→The Influence of Personality Traits on Driving Behaviors in Preclinical Alzheimer
+   449→   449→Disease. Alzheimer Disease & Associated Disorders, 38(3), 241–248.
+   450→   450→https://doi.org/10.1097/WAD.0000000000000632
+   451→   451→Aschenbrenner, A. J., Hassenstab, J., Morris, J. C., Cruchaga, C., & Jackson, J. J. (2024).
+   452→   452→Relationships between hourly cognitive variability and risk of Alzheimer’s disease
+   453→   453→revealed with mixed-effects location scale models. Neuropsychology, 38(1), 69–80.
+   454→   454→https://doi.org/10.1037/neu0000905
+   455→   455→Aschenbrenner, A. J., & Jackson, J. J. (2023). High-frequency assessment of mood, personality,
+   456→   456→and cognition in healthy younger, healthy older and adults with cognitive impairment.
+   457→   457→Aging, Neuropsychology, and Cognition, 31, 914–931.
+   458→   458→https://doi.org/10.1080/13825585.2023.2284412
+   459→   459→Aschenbrenner, A. J., Murphy, S. A., Doherty, J. M., Johnson, A. M., Bayat, S., Walker, A.,
+   460→   460→Peña, Y., Hassenstab, J., Morris, J. C., & Babulal, G. M. (2022). Neuropsychological
+   461→   461→correlates of changes in driving behavior among clinically healthy older adults. The
+   462→   462→Journals of Gerontology: Series B, gbac101. https://doi.org/10.1093/geronb/gbac101
+   463→   463→Babulal, G. M., Addison, A., Ghoshal, N., Stout, S. H., Vernon, E. K., Sellan, M., & Roe, C. M.
+   464→   464→(2016). Development and interval testing of a naturalistic driving methodology to
+   465→   465→evaluate driving behavior in clinical research. F1000Research, 5, 1716.
+   466→   466→https://doi.org/10.12688/f1000research.9150.2
+   467→   467→
+   468→   468→DRIVING AND COGNITION 20
+   469→   469→Babulal, G. M., Traub, C. M., Webb, M., Stout, S. H., Addison, A., Carr, D. B., Ott, B. R.,
+   470→   470→Morris, J. C., & Roe, C. M. (2016). Creating a driving profile for older adults using GPS
+   471→   471→devices and naturalistic driving methodology. F1000Research, 5, 2376.
+   472→   472→https://doi.org/10.12688/f1000research.9608.2
+   473→   473→Bayat, S., Babulal, G. M., Schindler, S. E., Fagan, A. M., Morris, J. C., Mihailidis, A., & Roe, C.
+   474→   474→M. (2021). GPS driving: A digital biomarker for preclinical Alzheimer disease.
+   475→   475→Alzheimer’s Research & Therapy, 13(1), 115. https://doi.org/10.1186/s13195-021-00852-
+   476→   476→1
+   477→   477→Bielak, A. A. M., Hultsch, D. F., Strauss, E., MacDonald, S. W. S., & Hunter, M. A. (2010).
+   478→   478→Intraindividual variability in reaction time predicts cognitive outcomes 5 years later.
+   479→   479→Neuropsychology, 24(6), 731–741. https://doi.org/10.1037/a0019802
+   480→   480→Bomyea, J. A., Parrish, E. M., Paolillo, E. W., Filip, T. F., Eyler, L. T., Depp, C. A., & Moore,
+   481→   481→R. C. (2021). Relationships between daily mood states and real-time cognitive
+   482→   482→performance in individuals with bipolar disorder and healthy comparators: A remote
+   483→   483→ambulatory assessment study. Journal of Clinical and Experimental Neuropsychology,
+   484→   484→43(8), 813–824. https://doi.org/10.1080/13803395.2021.1975656
+   485→   485→Brubacher, J. R., Chan, H., Erdelyi, S., Zed, P. J., Staples, J. A., & Etminan, M. (2021).
+   486→   486→Medications and risk of motor vehicle collision responsibility in British Columbia,
+   487→   487→Canada: A population-based case-control study. The Lancet Public Health, 6(6), e374–
+   488→   488→e385. https://doi.org/10.1016/S2468-2667(21)00027-X
+   489→   489→Burnham, K. P., & Anderson, D. R. (Eds.). (2004a). Model Selection and Multimodel Inference.
+   490→   490→Springer. https://doi.org/10.1007/b97636
+   491→   491→
+   492→   492→DRIVING AND COGNITION 21
+   493→   493→Burnham, K. P., & Anderson, D. R. (2004b). Multimodel inference: Understanding AIC and BIC
+   494→   494→in model selection. Sociological Methods & Research, 33(2), 261–304.
+   495→   495→https://doi.org/10.1177/0049124104268644
+   496→   496→Carr, D. B., Barco, P. P., Wallendorf, M. J., Snellgrove, C. A., & Ott, B. R. (2011). Predicting
+   497→   497→road test performance in drivers with dementia. Journal of the American Geriatrics
+   498→   498→Society, 59(11), 2112–2117. https://doi.org/10.1111/j.1532-5415.2011.03657.x
+   499→   499→Cerino, E. S., Katz, M. J., Wang, C., Qin, J., Gao, Q., Hyun, J., Hakun, J. G., Roque, N. A.,
+   500→   500→Derby, C. A., Lipton, R. B., & Sliwinski, M. J. (2021). Variability in cognitive
+   501→   501→performance on mobile devices is sensitive to mild cognitive impairment: Results from
+   502→   502→the Einstein Sging study. Frontiers in Digital Health, 3, 758031.
+   503→   503→https://doi.org/10.3389/fdgth.2021.758031
+   504→   504→Cox, A. E., & Cicchino, J. B. (2021). Continued trends in older driver crash involvement rates in
+   505→   505→the United States: Data through 2017–2018. Journal of Safety Research, 77, 288–295.
+   506→   506→https://doi.org/10.1016/j.jsr.2021.03.013
+   507→   507→Crawford, J. L., English, T., & Braver, T. S. (2022). Incorporating ecological momentary
+   508→   508→assessment into multimethod investigations of cognitive aging: Promise and practical
+   509→   509→considerations. Psychology and Aging, 37(1), 84–96. https://doi.org/10.1037/pag0000646
+   510→   510→Dickerson, A. E., Molnar, L. J., Bédard, M., Eby, D. W., Berg-Weger, M., Choi, M., Grigg, J.,
+   511→   511→Horowitz, A., Meuser, T., Myers, A., O’Connor, M., & Silverstein, N. M. (2019).
+   512→   512→Transportation and aging: An updated research agenda to advance safe mobility among
+   513→   513→older adults transitioning from driving to non-driving. The Gerontologist, 59(2), 215–
+   514→   514→221. https://doi.org/10.1093/geront/gnx120
+   515→   515→
+   516→   516→DRIVING AND COGNITION 22
+   517→   517→Doherty, J. M., Murphy, S. A., Bayat, S., Wisch, J. K., Johnson, A. M., Walker, A., Schindler, S.
+   518→   518→E., Ances, B. M., Morris, J. C., & Babulal, G. M. (2023). Adverse driving behaviors
+   519→   519→increase over time as a function of preclinical Alzheimer’s disease biomarkers.
+   520→   520→Alzheimer’s & Dementia, 19(5), 2014–2023. https://doi.org/10.1002/alz.12852
+   521→   521→Doherty, K., Balaskas, A., & Doherty, G. (2020). The design of ecological momentary
+   522→   522→assessment technologies. Interacting with Computers, 32(3), 257–278.
+   523→   523→https://doi.org/10.1093/iwcomp/iwaa019
+   524→   524→Draheim, C., Pak, R., Draheim, A. A., & Engle, R. W. (2022). The role of attention control in
+   525→   525→complex real-world tasks. Psychonomic Bulletin & Review.
+   526→   526→https://doi.org/10.3758/s13423-021-02052-2
+   527→   527→Duchek, J. M., Balota, D. A., Tse, C.-S., Holtzman, D. M., Fagan, A. M., & Goate, A. M. (2009).
+   528→   528→The utility of intraindividual variability in selective attention tasks as an early marker for
+   529→   529→Alzheimer’s disease. Neuropsychology, 23(6), Article 6.
+   530→   530→https://doi.org/10.1037/a0016583
+   531→   531→Gamaldo, A. A., & Allaire, J. C. (2016). Daily fluctuations in everyday cognition: Is it
+   532→   532→meaningful? Journal of Aging and Health, 28(5), 834–849.
+   533→   533→https://doi.org/10.1177/0898264315611669
+   534→   534→Hoffman, L., & Stawski, R. S. (2009). Persons as contexts: Evaluating between-person and
+   535→   535→within-person effects in longitudinal analysis. Research in Human Development, 6(2–3),
+   536→   536→Article 2–3. https://doi.org/10.1080/15427600902911189
+   537→   537→Hultsch, D. F., MacDonald, S. W., Hunter, M. A., Levy-Bencheton, J., & Strauss, E. (2000).
+   538→   538→Intraindividual variability in cognitive performance in older adults: Comparison of adults
+   539→   539→
+   540→   540→DRIVING AND COGNITION 23
+   541→   541→with mild dementia, adults with arthritis, and healthy adults. Neuropsychology, 14(4),
+   542→   542→Article 4. https://doi.org/10.1037//0894-4105.14.4.588
+   543→   543→Hyun, J., Sliwinski, M. J., & Smyth, J. M. (2019). Waking up on the wrong side of the bed: The
+   544→   544→effects of stress anticipation on working memory in daily life. The Journals of
+   545→   545→Gerontology: Series B, 74(1), 38–46. https://doi.org/10.1093/geronb/gby042
+   546→   546→Kochan, N. A., Bunce, D., Pont, S., Crawford, J. D., Brodaty, H., & Sachdev, P. S. (2017). Is
+   547→   547→intraindividual reaction time variability an independent cognitive predictor of mortality in
+   548→   548→old age? Findings from the Sydney Memory and Ageing Study. PLOS ONE, 12(8),
+   549→   549→e0181719. https://doi.org/10.1371/journal.pone.0181719
+   550→   550→Lövdén, M., Li, S.-C., Shing, Y. L., & Lindenberger, U. (2007). Within-person trial-to-trial
+   551→   551→variability precedes and predicts cognitive decline in old and very old age: Longitudinal
+   552→   552→data from the Berlin Aging Study. Neuropsychologia, 45(12), 2827–2838.
+   553→   553→https://doi.org/10.1016/j.neuropsychologia.2007.05.005
+   554→   554→Luo, M., Moulder, R. G., Breitfelder, L. K., & Röcke, C. (2023). Daily activity diversity and
+   555→   555→daily working memory in community-dwelling older adults. Neuropsychology, 37(2),
+   556→   556→181–193. https://doi.org/10.1037/neu0000878
+   557→   557→Martiniuk, A. L. C., Senserrick, T., Lo, S., Williamson, A., Du, W., Grunstein, R. R.,
+   558→   558→Woodward, M., Glozier, N., Stevenson, M., Norton, R., & Ivers, R. Q. (2013). Sleep-
+   559→   559→deprived young drivers and the risk for crash: The drive prospective cohort study. JAMA
+   560→   560→Pediatrics, 167(7), 647. https://doi.org/10.1001/jamapediatrics.2013.1429
+   561→   561→Mazerolle, M. (2023). AICcmodavg: Model selection and multimodel inference based on
+   562→   562→(Q)AIC(c). (Version 2.3.3) [Computer software]. https://cran.r-
+   563→   563→project.org/package=AICcmodavg
+   564→   564→
+   565→   565→DRIVING AND COGNITION 24
+   566→   566→McGillycuddy, M., Warton, D. I., Popovic, G., & Bolker, B. M. (2025). Parsimoniously Fitting
+   567→   567→Large Multivariate Random Effects in glmmTMB. Journal of Statistical Software,
+   568→   568→112(1). https://doi.org/10.18637/jss.v112.i01
+   569→   569→McNeish, D., & Hamaker, E. L. (2019). A primer on two-level dynamic structural equation
+   570→   570→models for intensive longitudinal data in Mplus. Psychological Methods.
+   571→   571→https://doi.org/10.1037/met0000250
+   572→   572→Meng, A., & Siren, A. (2012). Cognitive problems, self-rated changes in driving skills, driving-
+   573→   573→related discomfort and self-regulation of driving in old drivers. Accident Analysis &
+   574→   574→Prevention, 49, 322–329. https://doi.org/10.1016/j.aap.2012.01.023
+   575→   575→Morris, J. C. (1993). The Clinical Dementia Rating (CDR): Current version and scoring rules.
+   576→   576→Neurology, 43(11), Article 11. https://doi.org/10.1212/WNL.43.11.2412-a
+   577→   577→Nicosia, J., Aschenbrenner, A. J., Balota, D. A., Sliwinski, M. J., Tahan, M., Adams, S., Stout, S.
+   578→   578→S., Wilks, H., Gordon, B. A., Benzinger, T. L. S., Fagan, A. M., Xiong, C., Bateman, R.
+   579→   579→J., Morris, J. C., & Hassenstab, J. (2022). Unsupervised high-frequency smartphone-
+   580→   580→based cognitive assessments are reliable, valid, and feasible in older adults at risk for
+   581→   581→Alzheimer’s disease. Journal of the International Neuropsychological Society: JINS, 1–
+   582→   582→13. https://doi.org/10.1017/S135561772200042X
+   583→   583→Peck, R. C., Gebers, M. A., Voas, R. B., & Romano, E. (2008). The relationship between blood
+   584→   584→alcohol concentration (BAC), age, and crash risk. Journal of Safety Research, 39(3),
+   585→   585→311–319. https://doi.org/10.1016/j.jsr.2008.02.030
+   586→   586→R Core Team. (2021). R: A Language and Environment for Statisical Computing [Computer
+   587→   587→software]. R Foundation for Statistical Computing. https://www.R-project.org/
+   588→   588→
+   589→   589→DRIVING AND COGNITION 25
+   590→   590→Ram, N., Rabbitt, P., Stollery, B., & Nesselroade, J. R. (2005). Cognitive performance
+   591→   591→inconsistency: Intraindividual change and variability. Psychology and Aging, 20(4), 623–
+   592→   592→633. https://doi.org/10.1037/0882-7974.20.4.623
+   593→   593→Salthouse, T. A. (2007). Implications of within-person variability in cognitive and
+   594→   594→neuropsychological functioning for the interpretation of change. Neuropsychology, 21(4),
+   595→   595→401–411. https://doi.org/10.1037/0894-4105.21.4.401
+   596→   596→Schmiedek, F., Lövdén, M., & Lindenberger, U. (2013). Keeping it steady: Older adults perform
+   597→   597→more consistently on cognitive tasks than younger adults. Psychological Science, 24(9),
+   598→   598→Article 9. https://doi.org/10.1177/0956797613479611
+   599→   599→Simons-Morton, B. G., Zhang, Z., Jackson, J. C., & Albert, P. S. (2012). Do elevated
+   600→   600→gravitational-force events while driving predict crashes and near crashes? American
+   601→   601→Journal of Epidemiology, 175(10), 1075–1079. https://doi.org/10.1093/aje/kwr440
+   602→   602→Sliwinski, M. J., Mogle, J. A., Hyun, J., Munoz, E., Smyth, J. M., & Lipton, R. B. (2018).
+   603→   603→Reliability and validity of ambulatory cognitive assessments. Assessment, 25(1), Article
+   604→   604→1. https://doi.org/10.1177/1073191116643164
+   605→   605→Sliwinski, M. J., Smyth, J. M., Hofer, S. M., & Stawski, R. S. (2006). Intraindividual coupling of
+   606→   606→daily stress and cognition. Psychology and Aging, 21(3), 545–557.
+   607→   607→https://doi.org/10.1037/0882-7974.21.3.545
+   608→   608→Unsworth, N. (2015). Consistency of attentional control as an important cognitive trait: A latent
+   609→   609→variable analysis. Intelligence, 49, 110–128. https://doi.org/10.1016/j.intell.2015.01.005
+   610→   610→Vivoda, J. M., Molnar, L. J., Eby, D. W., DiGuiseppi, C., Jones, V., Li, G., Strogatz, D., Yung,
+   611→   611→R., Nyquist, L., Smith, J., Zakrajsek, J. S., St Louis, R. M., & Zanier, N. (2022). All are
+   612→   612→
+   613→   613→DRIVING AND COGNITION 26
+   614→   614→not created equal: Assessing initial driving self-regulation behaviors among older adults.
+   615→   615→Journal of Transport & Health, 24, 101310. https://doi.org/10.1016/j.jth.2021.101310
+   616→   616→Zhaoyang, R., Scott, S. B., Martire, L. M., & Sliwinski, M. J. (2021). Daily social interactions
+   617→   617→related to daily performance on mobile cognitive tests among older adults. PLOS ONE,
+   618→   618→16(8), e0256583. https://doi.org/10.1371/journal.pone.0256583
+   619→   619→
+   620→   620→DRIVING AND COGNITION 27
+   621→   621→Table 1: Candidate models evaluated for multimodel inference using AIC
+   622→   622→MODEL VARIABLES INCLUDED RATIONALE
+   623→   623→NAME
+   624→   624→BASE Age, sex, distance, CDR, time Baseline model to evaluate
+   625→   625→if cognition provides any
+   626→   626→incremental prediction
+   627→   627→GLOBAL Age, sex, distance, CDR, time, global Does overall cognitive
+   628→   628→cognition ability improve prediction?
+   629→   629→DEVIATIONS Age, sex, distance, CDR, time, daily Does a deviation in
+   630→   630→deviation cognitive performance
+   631→   631→improve prediction?
+   632→   632→ADDITIVE Age, sex, distance, CDR, time, global Do both global cognition +
+   633→   633→cognition, daily deviation deviations improve
+   634→   634→prediction
+   635→   635→INTERACTIVE Age, sex, distance, CDR, time, global Does global cognition and
+   636→   636→cognition*daily deviation deviations interact?
+   637→   637→
+   638→   638→DRIVING AND COGNITION 28
+   639→   639→Table 2: Model selection summary table for adverse events analysis
+   640→   640→MODEL AICC ΔAICC AICC ER
+   641→   641→WEIGHT
+   642→   642→BASE 14522.16 2.26 0.16 3.06
+   643→   643→GLOBAL 14523.98 4.08 0.06 8.16
+   644→   644→DEVIATIONS 14519.90 0.00 0.49 1
+   645→   645→ADDITIVE 14521.71 1.81 0.20 2.45
+   646→   646→INTERACTIVE 14523.24 3.34 0.09 5.44
+   647→   647→Note: AICc = corrected Akaike Information Criteria scored such that lower indicates better fit;
+   648→   648→ΔAICc = change in AICc from the best fitting model; AICc Weight = relative support as
+   649→   649→the best fitting model; ER is the evidence ratio and is the ratio of the AICc weight to the
+   650→   650→weight of the best fitting model.
+   651→   651→
+   652→   652→DRIVING AND COGNITION 29
+   653→   653→Table 3: Effect sizes and 95% Confidence Intervals for the adverse events analysis
+   654→   654→PARAMETER IRR 95% CI METHOD
+   655→   655→DEVIATIONS 1.04 1.00 – 1.09 Model averaged based on AIC weights
+   656→   656→AGE 0.99 0.95-1.02 Profile likelihood based on best fitting model
+   657→   657→SEX 0.98 0.75-1.29 Profile likelihood based on best fitting model
+   658→   658→DISTANCE 1.01 1.01-1.01 Profile likelihood based on best fitting model
+   659→   659→TRAVELED
+   660→   660→CDR 1.01 0.32-3.10 Profile likelihood based on best fitting model
+   661→   661→TIME 1.04 0.98-1.09 Profile likelihood based on best fitting model
+   662→   662→
+   663→   663→DRIVING AND COGNITION 30
+   664→   664→Table 4. Model selection summary table for night trips analysis.
+   665→   665→MODEL AICC ΔAICC AICC ER
+   666→   666→WEIGHT
+   667→   667→BASE 5970.61 7.18 0.01 47
+   668→   668→GLOBAL 5971.10 7.67 0.01 47
+   669→   669→DEVIATIONS 5963.44 0.00 0.47 1
+   670→   670→ADDITIVE 5963.98 0.54 0.36 1.3
+   671→   671→INTERACTIVE 5965.76 2.33 0.15 3.13
+   672→   672→Note: AICc = corrected Akaike Information Criteria scored such that lower indicates better fit;
+   673→   673→ΔAICc = change in AICc from the best fitting model; AICc Weight = relative support as
+   674→   674→the best fitting model; ER is the evidence ratio and is the ratio of the AICc weight to the
+   675→   675→weight of the best fitting model.
+   676→   676→
+   677→   677→DRIVING AND COGNITION 31
+   678→   678→Table 5. Effect sizes and 95% Confidence Intervals for the night trips analysis
+   679→   679→PARAMETER IRR 95% CI METHOD
+   680→   680→DEVIATIONS 0.86 0.82-0.90 Model averaged based on AIC weights
+   681→   681→AGE 0.96 0.93-0.99 Profile likelihood based on best fitting model
+   682→   682→SEX 1.05 0.80-1.39 Profile likelihood based on best fitting model
+   683→   683→DISTANCE 1.00 1.00-1.00 Profile likelihood based on best fitting model
+   684→   684→TRAVELED
+   685→   685→CDR 1.01 0.30-3.35 Profile likelihood based on best fitting model
+   686→   686→TIME 0.75 0.67-0.83 Profile likelihood based on best fitting model
+   687→   687→
+   688→   688→DRIVING AND COGNITION 32
+   689→   689→Figure Captions
+   690→   690→Figure 1: The left panel illustrates the predicted number of adverse events as a function of daily
+   691→   691→cognitive deviations (in z-scores, higher = worse). The solid line represents the model-averaged
+   692→   692→expected outcome and the shaded region shows the 95% confidence band, reflecting uncertainty
+   693→   693→due to model selection and differences among candidate models. The right panel plots raw
+   694→   694→frequency of adverse events color-coded by individual participant.
+   695→   695→Figure 2: The left panel illustrates the predicted number of night trips as a function of daily
+   696→   696→cognitive deviations (in z-scores, higher = worse). The solid line represents the model-averaged
+   697→   697→expected outcome and the shaded region shows the 95% confidence band, reflecting uncertainty
+   698→   698→due to model selection and differences among candidate models. The right panel plots raw
+   699→   699→frequency of night trips color-coded by individual participant.

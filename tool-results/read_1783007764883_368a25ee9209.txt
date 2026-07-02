@@ -1,0 +1,1255 @@
+     1→PREPRINT: Assessing chronic pain processes longitudinally: Psychometric evaluation of
+     2→the German “Assessing Chronic Pain Processes” (ProCEss) item set
+     3→Verena E. Hofmann1, Julia A. Glombiewski1, Wiebke Heider1, Saskia Scholten1
+     4→1RPTU University Kaiserslautern-Landau, Ostbahnstr. 10, 76829 Landau, Germany
+     5→Author Note
+     6→Correspondence address: RPTU Kaiserslautern-Landau, Verena Hofmann, Ostbahnstr. 10,
+     7→76829 Landau, Germany
+     8→E-Mail: verena.hofmann@rptu.de
+     9→This is a preprint. The peer-reviewed publication is available here, please reference the
+    10→publication whenever citing this manuscript:
+    11→http://dx.doi.org/10.1002/ejp.70316
+    12→View-only link to data and analysis scripts:
+    13→https://osf.io/yrvcu/overview?view_only=9b5b8f8c8bc240d3a342ed33778c97a7
+    14→Supplements can be provided upon request and will otherwise be published with the peer-
+    15→reviewed manuscript.
+    16→Following publication, all items will be contributed to the ESM item repository (Kirtley et al.,
+    17→2018). An additional repository for updates on translations or item set extensions as well as
+    18→replications or extensions on evaluative results is already available (https://rptu.de/s/vpcgks).
+    19→
+    20→Abstract
+    21→Background. Ecological Momentary Assessment (EMA) is gaining relevance in contemporary
+    22→pain research. However, EMA questionnaires are rarely psychometrically evaluated, potentially
+    23→compromising data quality. This study aimed to develop and evaluate a German item set
+    24→assessing psychological chronic pain processes for use in EMA, focusing on variability and
+    25→reliability.
+    26→Methods. First, the item set was piloted with three people suffering from chronic pain to gather
+    27→feedback on participant burden and the usability of the data. Second, an evaluation was
+    28→conducted with a sample of n = 68 individuals with lived experience of chronic pain who
+    29→completed an EMA protocol with six assessments per day over twelve days (4,236 datapoints).
+    30→Third, revised parts of the item set were preliminarily evaluated in n = 10 people suffering from
+    31→chronic pain over a 21-day EMA period with six assessments per day (1,253 datapoints).
+    32→Variability was examined primarily using within-person standard deviations and response
+    33→distributions. Reliability was assessed according to current recommendations for single-item
+    34→measures (test-retest reliability), two-item scales (Spearman-Brown coefficient), and multi-item
+    35→scales (McDonald’s Omega).
+    36→Results. Most items and process scales met the predefined criteria for variability and reliability.
+    37→However, variance was largely attributable to between-person differences. Four out of thirteen
+    38→scales demonstrated insufficient reliability.
+    39→Conclusions. This study presents the first psychometrically evaluated German EMA item set
+    40→capturing a broad range of clinically relevant pain processes. While the findings are promising,
+    41→further refinement of several scales and additional psychometric evaluation are warranted.
+    42→Keywords: Ecological Momentary Assessment, Chronic Pain, Psychometric Evaluation,
+    43→Questionnaire Development
+    44→
+    45→1 | INTRODUCTION
+    46→Chronic primary pain is a complex and heterogeneous condition (Breivik et al., 2006; Sundström
+    47→et al., 2025), and individuals often show markedly different responses to treatment (Gómez-
+    48→Pérez et al., 2020; McCracken & Turk, 2002; Murillo et al., 2022). At the same time, the
+    49→generalisation of findings from nomothetic research to individuals has been increasingly
+    50→criticised for methodological reasons (Gloster et al., 2024; McCracken, 2023). Consequently,
+    51→personalised, process-based approaches to research and treatment are being advocated
+    52→(McCracken, 2023; Scholten et al., 2025; Wright & Woods, 2020), drawing on innovative
+    53→research methods such as Ecological Momentary Assessment (EMA) (May et al., 2018), a
+    54→Network Approach to conceptualize and study mental disorders (Åkerblom et al., 2021;
+    55→Borsboom, 2017; Schemer et al., 2023; Scholten et al., 2022), and Single Case Experimental
+    56→Design (SCED) (Jones & Hurrell, 2019; Vlaeyen et al., 2001).
+    57→EMA assesses longitudinal data and enables the examination of dynamic symptom fluctuations
+    58→essential for approaches such as individual-level network analysis (Bringmann, 2021). It has
+    59→become increasingly feasible with the widespread use of digital devices and can be
+    60→implemented in everyday life, thereby enhancing ecological validity and reducing recall bias
+    61→(May et al., 2018). A systematic review concluded that momentary pain measures are feasible
+    62→and valid and might become the new gold-standard of outcome assessment (Overton et al.,
+    63→2023).
+    64→Despite existing recommendations for the development of EMA instruments (Eisele et al., 2021;
+    65→Fritz et al., 2024), formal evaluation is rare, even though establishing the psychometric
+    66→properties of EMA items is a prerequisite for any subsequent analyses (Palmier-Claus et al.,
+    67→2011). Simply adapting the instructions to retrospective questionnaires – originally designed to
+    68→capture between-person differences – is insufficient for individual-level, longitudinal research
+    69→and may compromise the validity of the resulting data (Brose et al., 2020).
+    70→Beyond validity, reliability represents a key psychometric property and refers to the proportion of
+    71→observed variance attributable to true score variance rather than measurement error (Eisele et
+    72→al., 2021). Adequate reliability is a prerequisite for analyses based on EMA data (Bringmann,
+    73→
+    74→2021). However, no gold-standard procedures for estimating reliability in EMA currently exist
+    75→(Eisele et al., 2021). Moreover, commonly used reliability estimators assume multi-item scales,
+    76→whereas EMA research frequently relies on single-item measures (SIM) or very short scales to
+    77→minimise participant burden. These brief measures are particularly susceptible to measurement
+    78→error (Dejonckheere et al., 2022), underscoring the need for systematic psychometric evaluation
+    79→of newly developed EMA items and scales. Furthermore, EMA items need to be sufficiently
+    80→sensitive to capture meaningful temporal fluctuations (Forkmann et al., 2018). Accordingly, item
+    81→variability constitutes another key psychometric property of EMA measures.
+    82→A positive example of a thoroughly evaluated EMA questionnaire in the context of pain is the
+    83→Momentary Pain Catastrophizing Scale (Frumkin et al., 2023). However, no evaluated EMA
+    84→items are available in German that capture a broader range of pain processes. The aim of the
+    85→present study was therefore to develop and evaluate a German-language item set for the
+    86→longitudinal assessment of clinically relevant pain processes.
+    87→2 | METHODS
+    88→The new EMA instrument was named the “Prozesse Chronischer Schmerzen ErfaSSen”
+    89→(ProCEss) item set (English: “assessing chronic pain processes”). Its evaluation comprises
+    90→several preregistrations that are available in the POINT Pain OSF project (doi:
+    91→10.17605/OSF.IO/9TUQR) and has been approved by the university’s local ethics committee
+    92→(#LEK-501).
+    93→The present study focuses on the psychometric evaluation of the ProCEss item set, i.e. item
+    94→reliability and variability. The evaluation procedure comprised a pilot EMA study (see Figure 1,
+    95→Step 5), an EMA evaluation (see Figure 1, Step 6), and a preliminary assessment of revised
+    96→items (see Figure 1, Step 8). The methods of these three studies are described in the following
+    97→sections.
+    98→An overview of the entire evaluation procedure based on Boateng et al. (2018) – from content
+    99→validation to psychometric testing – is provided in Figure 1. The results of the validation are
+   100→currently available as a preprint: https://doi.org/10.31234/osf.io/ruhdf_v1
+   101→
+   102→Figure 1
+   103→Development process of the ProCEss item set
+   104→Note. Bordered components are reported in the present publication; for dashed components,
+   105→only quantitative data is reported in the present publication. All N regarding participants, not
+   106→observations.
+   107→
+   108→2.1 | ProCEss development
+   109→In the absence of established psychological processes of chronic pain, processes included in
+   110→the item set were derived from reviewing existing psychological models as suggested by
+   111→Scholten and Glombiewski (2024) and the IMMPACT recommendations concerning relevant
+   112→pain experiences (Dworkin et al., 2005) (see Figure 1, Step 1). Existing questionnaires and the
+   113→ESM Item Repository (Kirtley et al., 2018) were subsequently screened for suitable item
+   114→formulations (see Figure 1, Step 2). A summary of the development process is provided in the
+   115→supplemental materials (supplement A). Table 1 provides an overview of the processes
+   116→included in the most recent version of the item set along with the respective models they were
+   117→derived from and a definition for each process.
+   118→Table 1
+   119→Processes included in the most recent ProCEss item set version
+   120→Process Model Definition
+   121→Catastrophising Catastrophising describes the tendency
+   122→to perceive negative aspects of a
+   123→situation or possible consequences in an
+   124→excessive manner, and to ruminate
+   125→about or anticipate them (Dorsch
+   126→Fear-Avoidance/Avoidance- Lexikon der Psychologie, 2021)
+   127→Avoidance Endurance (Hasenbring & Avoidance constitutes a behaviour
+   128→Verbunt, 2010; Vlaeyen et al., aiming at prevention, reduction, or
+   129→2016) termination of the exposure to certain
+   130→experiences (in pain context: experience
+   131→of pain) (McCracken, 2005)
+   132→Depression A depressive episode is marked by
+   133→subdued mood and listlessness with a
+   134→
+   135→Process Model Definition
+   136→reduction of activity. Even in light forms
+   137→feelings of guilt and thoughts about the
+   138→own worthlessness can occur (BfArM,
+   139→2020)
+   140→Thought Thought suppression denotes a
+   141→suppression cognitive reactive pattern that forcefully
+   142→ends the perception of pain or the
+   143→disruption of daily activities by pain
+   144→(Hasenbring & Verbunt, 2010; Oxford
+   145→Advanced Learner’s Dictionary, n.d.-c)
+   146→Task persistence Task persistence describes a physical
+   147→over-activity that can lead to over-use of
+   148→bodily structures (Hasenbring & Verbunt,
+   149→2010)
+   150→Avoidance-Endurance
+   151→Positive affect Positive affect marks an emotional state
+   152→(Hasenbring & Verbunt, 2010)
+   153→of pleasant mood or feelings that
+   154→promotes approach oriented behaviour
+   155→or causes the experience of relaxation,
+   156→contentment, or serenity (Finan &
+   157→Garland, 2015)
+   158→Negative Affect Negative affect is a general dimension of
+   159→subjective distress and unpleasurable
+   160→engagement that subsumes a variety of
+   161→aversive mood states, including anger,
+   162→contempt, disgust, guilt, fear, and
+   163→
+   164→Process Model Definition
+   165→nervousness (Watson et al., 1988, p.
+   166→1063)
+   167→Acceptance Acceptance is an embracing attitude that
+   168→leads to goal oriented behaviour within
+   169→the personal frame of control as well as
+   170→distancing oneself from attempts to
+   171→control unwanted feelings or
+   172→Psychological unchangeable circumstances
+   173→Flexibility(McCracken & (McCracken & Morley, 2014)
+   174→Values Morley, 2014) Values are subjectively desirable states
+   175→that influence behaviour. They include
+   176→beliefs about what is right and wrong
+   177→and what is important in life (Oxford
+   178→Advanced Learner’s Dictionary, n.d.-d;
+   179→Spektrum Lexikon der Psychologie, n.d.)
+   180→Expectations Predictive Coding (Wiech, Expectations describe beliefs about
+   181→2016) what will happen based on previous
+   182→experiences and likelihood (Oxford
+   183→Advanced Learner’s Dictionary, n.d.-b;
+   184→Wiech, 2016)
+   185→Pain intensity Pain intensity reflects the subjective
+   186→extent of pain (Dworkin et al., 2005)
+   187→Pain Experience (Dworkin et
+   188→al., 2005)
+   189→
+   190→Process Model Definition
+   191→Pain-related Disability because of pain describes a
+   192→disability limitation in movement, senses, and
+   193→activities most people can do, caused by
+   194→pain (Crombez et al., 2020; Oxford
+   195→Advanced Learner’s Dictionary, n.d.-a)
+   196→Pain self-efficacy Self-efficacy constitutes the belief to be
+   197→(Nicholas, 2007) able to handle even difficult situations
+   198→successfully and to possess the required
+   199→abilities (Bandura, 1977)
+   200→Others
+   201→Self-compassion Self-compassion describes a non-
+   202→(Neff, 2003; Neff, judging understanding for one’s own
+   203→2011) suffering, shortcomings, or failure. It can
+   204→be divided in the three facets of self-
+   205→kindness, sense of common humanity,
+   206→and mindfulness (Neff, 2003; Neff, 2011)
+   207→To minimise participant burden, the number of items within the ProCEss item set, as well as the
+   208→number of items per process, was deliberately limited. Consequently, the included processes do
+   209→not necessarily represent the every process characterizing a specific construct. For example,
+   210→the current version of the ProCEss item set does not yet include an item assessing the
+   211→rumination component of catastrophising. Following an extensive qualitative validation
+   212→procedure (see Figure 1 steps 4, 6, and 8), several items were revised, added, or omitted,
+   213→resulting in formulations that differ from the original questionnaires from which they were
+   214→derived.
+   215→
+   216→The ProCEss item set was developed for the use in a coverage model EMA (cEMA) (Stone et
+   217→al., 2021, 2023), which means that it is designed to capture a broader timeframe. Accordingly,
+   218→the items are formulated in past tense and the timeframe participants are to consider is
+   219→described in the instruction (see Table 2). All items of the ProCEss item set are rated on an 11-
+   220→point Likert scale to approach interval scaling (0 = does not apply at all, 10 = completely
+   221→applies) (Wu & Leung, 2017).
+   222→2.2 | Pilot EMA: Pre-testing of items
+   223→As recommended (Eisele et al., 2021; Forkmann et al., 2018), the item set was piloted with
+   224→people suffering from chronic pain to evaluate the burden associated with completing the
+   225→assessment and to examine the comprehensibility of the item (see Figure 1, Step 5).
+   226→Participants were recruited from the university outpatient clinic based on the primary diagnosis
+   227→F45.4x (ICD-10; (Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) im Auftrag des
+   228→Bundesministeriums für Gesundheit (BMG) unter Beteiligung der Arbeitsgruppe ICD des
+   229→Kuratoriums für Fragen der Klassifikation im Gesundheitswesen (KKG), 2020)). Exclusion
+   230→criteria included insufficient German language proficiency (operationalised as a score of ≥ 4 on
+   231→a five-point scale, with higher scores indicating lower proficiency), and acute cases of
+   232→psychosis, substance abuse, or suicidality.
+   233→Three women suffering from chronic pain participated in a 12-day EMA phase comprising six
+   234→assessments per day. The assessment was carried out using m-path (Mestdagh et al., 2023),
+   235→an app that can be installed on the participants’ smartphones. M-path required smartphones to
+   236→use either Android 5.1 or iOS 11.0 as their operating system. Participants received written study
+   237→information and gave their informed consent prior to enrolment and app installation.
+   238→Prior to the EMA phase, all participants attended an individual onboarding session during which
+   239→the complete item set (excluding distractor items) was reviewed. Participants were first asked to
+   240→paraphrase each item in their own words, and their responses were documented concurrently
+   241→by the interviewer (VEH). If a participant’s phrasing did not correspond to the definition of the
+   242→intended construct, the respective construct definition was provided to ensure a shared
+   243→understanding of each item. Each onboarding session lasted approximately one hour.
+   244→
+   245→The sampling scheme of the pilot EMA is summarised in Table 2. Items of the same construct
+   246→were kept together, as recommended to reduce assessment burden (Eisele et al., 2021).
+   247→After completing the EMA phase, participants were invited again to a semi-structured interview
+   248→in which they were provided with a personalised summary of their data (descriptively analysed
+   249→using Microsoft Excel (Excel, 2025)) and asked about their experiences during the EMA period.
+   250→Responses were documented in real time and subsequently discussed within the research team
+   251→to identify implications for participant burden. Each post interview lasted approximately one
+   252→hour.
+   253→
+   254→Table 2
+   255→Sampling Scheme of all three EMA studies
+   256→Study Duration Assessment frequency Questionnaire density Instruction Reimbursement
+   257→Pilot 12 days First questionnaire of the day: 29 items + 1 Considering the 50 €
+   258→distractor + 1 open-ended question (“Is there past two if compliance
+   259→anything else you would like to tell us?”) + 1 hours… ≥ 80 %
+   260→repeated Single Item Measure (see 2.3.6)
+   261→Others: 25 items + 1 distractor + 1 open-ended
+   262→Six assessments per day, semi-
+   263→question + 1 repeated Single Item Measure
+   264→randomised within 12-hour
+   265→timeframe (usually between 9
+   266→Max. delay 30 minutes
+   267→a.m. and 9 p.m.)
+   268→Completion time max. 15 minutes total (2-3
+   269→minutes per questionnaire)
+   270→Main 12 days First questionnaire of the day: 30 items + 1 Considering the 30 €
+   271→evaluation distractor + 1 open-ended question + 1 repeated past two if compliance
+   272→Single Item Measure hours… ≥ 80 %
+   273→
+   274→Study Duration Assessment frequency Questionnaire density Instruction Reimbursement
+   275→Others: 27 items + 1 distractor + 1 open-ended
+   276→question + 1 repeated Single Item Measure
+   277→Max. delay 30 minutes
+   278→Completion time max. 15 minutes total (2-3
+   279→minutes per questionnaire)
+   280→Preliminary 21 days 25 items + 1-2 idiographic items + 1 distractor + 1 Since the last 50 €
+   281→revision repeated single-item measure beep… if compliance
+   282→evaluation ≥ 80 %
+   283→Max. delay 30 minutes
+   284→Completion time max. 15 minutes total (2-3
+   285→minutes per questionnaire)
+   286→Note. In the pilot EMA, all four sleep items were only assessed in the first prompt of the day; in the main evaluation, three sleep items were only assessed
+   287→in the first daily prompt, while “I was tired” was repeated throughout the day; the preliminary revision evaluation did not have different prompt versions.
+   288→
+   289→2.3 | Main Evaluation: Testing of variability and reliability
+   290→Focusing on the reliability and variability as essential psychometric criteria, an EMA study with
+   291→participants suffering from chronic pain was implemented (preregistration:
+   292→https://doi.org/10.17605/OSF.IO/S4QGP).
+   293→In general, the study followed procedures described by Scholten and colleagues (2024)
+   294→regarding the evaluation of item variability, and Dejonckheere and colleagues (2022) and
+   295→Forkmann and colleagues (2018) for the assessment of item reliability, as will be described
+   296→below.
+   297→2.3.1 | Sample of the main evaluation
+   298→The objective of the recruitment process was to generate a sample of 70 valid data sets, based
+   299→on sample sizes of other EMA evaluation studies. As the methodological design of the current
+   300→evaluation study is largely based on Dejonckheere et al. (2022), the target sample size of N =
+   301→70 was also based on their study. It is evident that other EMA studies which employed a
+   302→comparable methodological design also utilized smaller sample sizes (see Ben-Zeev et al.,
+   303→2009 [N = 51]; Chepenik et al., 2006 [N = 57]). A systematic review of the use of EMA in chronic
+   304→pain research reports an average sample size of N = 62.7 (May et al., 2018).
+   305→The recruitment of the total sample took place in two waves (July-September 2024 and
+   306→January-February 2025). Recruitment was conducted on a nationwide basis in Germany, mainly
+   307→via online self-help groups and flyers distributed in local healthcare centres.
+   308→2.3.2 | Procedure for the main evaluation
+   309→Participants were screened for in- and exclusion criteria using an online questionnaire on SoSci
+   310→Survey (Leiner, 2024). Participants received written study information and provided informed
+   311→consent prior to data assessment and app installation within the online survey. The inclusion
+   312→criteria were: (1) being of age (≥ 18 years), (2) sufficient knowledge of German (native speaker
+   313→or self-assessment of at least 3 (moderate) on a 5-point scale (1 = very good to 5 = very poor),
+   314→(3) self-reported pain symptoms lasting at least six months, (4) a self-reported pain focus
+   315→outside the head or neck area or migraine, (5) an average pain intensity of at least 1 on an 11-
+   316→point scale (0 = no pain to 10 = maximally conceivable pain) in the last 14 days, and (6)
+   317→disability in at least one of the seven areas of life according to the Pain Disability Index (PDI;
+   318→
+   319→Dillmann et al., 2011). The PDI items were recoded dichotomously (1 = Yes, 2 = No), since no
+   320→cut-off to discern pathological from non-pathological disability is defined. Consequently,
+   321→participants whose pain focus was in the head/neck area or who reported no pain or pain-
+   322→related disability during the past 14 days were excluded from the study. Further exclusion
+   323→criteria such as acute suicidality, substance abuse, psychosis, or other circumstances
+   324→endangering the participant were screened in an onboarding session (see below) based on a
+   325→clinical screening instrument (Margraf & Cwik, 2020). We recognise that people seeking
+   326→treatment for chronic pain in tertiary pain clinics display heavier pain intensity scores and
+   327→disability ratings (Nicholas et al., 2019). The broad inclusion criteria intended to account for the
+   328→heterogeneity of chronic pain while ensuring that participants regularly experienced pain
+   329→symptoms they could report in an EMA study.
+   330→Prior to the EMA phase, an onboarding session was conducted via Arztkonsultation.de
+   331→(https://arztkonsultation.de), a digital platform specifically designed for video consultations with
+   332→medical practitioners and psychotherapists, in full compliance with the provisions of the General
+   333→Data Protection Regulation. During the onboarding process, participants could ask questions
+   334→and provided their informed consent again verbally prior to installing the m-path app on their
+   335→smartphone.
+   336→The recruitment was implemented in two assessment waves (see Sample). In the first wave,
+   337→participants provided sociodemographic information in the online screening and completed a
+   338→short questionnaire demonstration in m-path during the onboarding. In the second wave,
+   339→participants were made familiar with m-path by assessing their sociodemographic information in
+   340→m-path during the onboarding session. Each onboarding session took 15-20 minutes.
+   341→Following the onboarding session, participants completed the 12-day EMA period. Interested
+   342→participants received a summary of the study’s overall results via email. All participants received
+   343→an incentive of €30 if they completed 80 % of the questionnaire prompts.
+   344→2.3.3 | Sampling scheme of the main evaluation
+   345→The sampling scheme and item set order correspond mostly to the pilot study and is
+   346→summarised in Table 2: The EMA was 12 days long and included six semi-randomised prompts
+   347→
+   348→per day. The assessment was implemented using m-path (Mestdagh et al., 2023). Of the 30
+   349→process items, six were single-item measures (SIMs). One SIM was repeated at the end of each
+   350→questionnaire prompt, following protocol 1 described by Dejonckheere and colleagues (2022).
+   351→2.3.4 | Compliance management
+   352→Sufficient statistical significance can only be achieved if the number of observations is sufficient
+   353→for the planned analyses (Dejonckheere et al., 2022; Fritz et al., 2024). The total number of
+   354→observations is determined by two key factors: the sample size and the number of data points
+   355→generated per person. The latter is significantly influenced by the response rate.
+   356→Data collection in real-life situations almost inevitably leads to missed surveys (Fritz et al.,
+   357→2024). In order to generate valid data that reflects the temporal dynamics of the constructs
+   358→under investigation as realistically as possible, minimum compliance requirements can be
+   359→established (Trull & Ebner-Priemer, 2020). However, a gold-standard for setting such a
+   360→threshold in EMA studies does not yet exist. Some studies aim for a target compliance value at
+   361→the group level, while others set individual minimum rates for inclusion (Williams et al., 2021).
+   362→For group-level analyses, a target value of 80% is generally accepted (Forkmann et al., 2018).
+   363→Consequently, this value is adopted as the target value at the group level and was accordingly
+   364→incentivised.
+   365→On the individual level, the literature contains varied criteria, some excluding participants with a
+   366→response rate below 50% (e.g. Dejonckheere et al., 2019; Heininga et al., 2019; Van Der Gucht
+   367→et al., 2019), while others set significantly higher thresholds (e.g. 80% [Schiepek et al., 2019]).
+   368→In this study, an individual minimum rate of 60% is defined as an inclusion criterion for data
+   369→analysis. The establishment of minimum compliance requirements at both the group and
+   370→individual levels has been demonstrated to be a useful method of generating valid data that
+   371→reflects the temporal dynamics of the constructs under investigation as realistically as possible
+   372→(Williams et al., 2021).
+   373→In order to achieve this objective, several strategies were implemented with the aim of
+   374→increasing compliance. First, participants were informed in detail about the study design during
+   375→the personal onboarding interview. Secondly, approximately halfway through the 12-day survey
+   376→
+   377→period, the participants received an email containing an interim report on their response rate to
+   378→date. In instances where further clarification was required on technical matters, additional
+   379→contact was initiated via email. This approach was also employed to provide motivational
+   380→support, fostering a sense of engagement and empowerment among the participants. Thirdly,
+   381→upon attaining a compliance rate of at least 80 %, the participants received a payment of €30.
+   382→Participating students could choose to receive the financial incentive or course credit if they
+   383→completed at least 80 % of the questionnaires.
+   384→2.3.5 | Analysis
+   385→All statistical analyses were performed using the software R, version 4.5.1 (R Core Team,
+   386→2025). For data management, descriptive and inferential statistical analyses, functions from the
+   387→packages apaTables (Stanley, 2021), ggrepel (Slowikowski et al., 2024), lavaan (Rosseel,
+   388→2012), lme4 (Lme4 Package - RDocumentation, n.d.), mpathr (Mestdagh et al., 2023), openxlsx
+   389→(Schauberger et al., 2025), psych (Revelle, 2025), semTools (semTools R Package
+   390→[Documentation], n.d.), and tidyverse (Wickham et al., 2019) were used.
+   391→M-path directly gives the compliance rate per person in the app and does not export it as a
+   392→variable in the dataset, which is why the compliance rates reported in the Results section have
+   393→been averaged manually based on the compliance rates noted from m-path.
+   394→Variability
+   395→Currently, there is no standardised procedure for examining the variability of EMA items. In
+   396→studies in the field of time-varying network analysis, standard deviation has been used as a
+   397→pragmatic measure for assessing item variability (Scholten et al., 2022, 2024). Scholten, Rubel
+   398→et al. (2024) excluded items with a standard deviation < 0.2 (after min-max scaling) from the
+   399→data analysis due to insufficient variance. Following this approach, this study also defined a
+   400→criterion for assessing item variability.
+   401→In contrast to the approach of Scholten, Rubel et al. (2024), min-max scaling is not necessary in
+   402→this context because all items are assessed on an 11-point scale and are therefore directly
+   403→comparable. Instead, a within standard deviation of ≥1.0 is defined as an indicator of sufficient
+   404→item variability. This criterion represents a deviation from the original pre-registration
+   405→
+   406→(https://osf.io/s4rmn), in which a standard deviation greater than 0.2 was specified. The
+   407→deviation is due to not using scale normalisation, which makes the selected criterion more
+   408→stringent.
+   409→Additionally, an extra criterion is defined to evaluate the variability of the items, that is that no
+   410→single response option may comprise more than 80% of all responses across the sample
+   411→(Scholten et al., 2022).
+   412→Variability calculations
+   413→The standard deviation was calculated within each individual across their individual
+   414→measurement times. The between-person variance was analysed by calculating random
+   415→intercepts of an intercept-only model.
+   416→Additional to the preregistered analyses and following common recommendations, Intraclass
+   417→Correlation Coefficients (ICCs) will be reported for each item (Eisele et al., 2021; Overton et al.,
+   418→2023). The estimation of ICCs was achieved through the implementation of an intercept-only
+   419→multilevel model, which facilitated an examination of the variance structure across and within
+   420→individuals. ICCs quantify the proportion of the total variance of a variable that can be attributed
+   421→to differences between individuals and to fluctuations within an individual (Bolger & Laurenceau,
+   422→2013). In EMA, ICCs ranging between 0.2 - 0.4 are usual (Eisele et al., 2021), i.e. 20-40 % are
+   423→usually attributable to stable differences between individuals.
+   424→Also additional to the preregistration and following the example of other EMA evaluation studies
+   425→(Forkmann et al., 2018; Frumkin et al., 2023), Root Mean Squared Successive Differences
+   426→(RMSSDs) will be calculated on the individual level. Mean Squared Successive Differences
+   427→indicate the variability from timepoint to timepoint in repeated measures (Jahng et al., 2008),
+   428→and the RMSSD is easier to interpret since it has the same dimension as the originally used
+   429→scale.
+   430→Reliability
+   431→The reliability of the items is analysed using different methods, depending on the number of
+   432→items per construct (i.e. test-retest reliability (Dejonckheere et al., 2022), Spearman Brown
+   433→formula (Eisinga et al., 2013), McDonald’s Omega (ω) (Forkmann et al., 2018)). Further details
+   434→
+   435→are described in the Data Analysis section. Regardless of the method used, reliability was
+   436→considered sufficient if the respective reliability estimator had a value > .70 (Forkmann et al.,
+   437→2018; Nunnally & Bernstein, 1994).
+   438→Reliability calculation
+   439→Single-item measures (SIMs). SIMs are analysed applying a test-retest-logic based on
+   440→protocol 1 by Dejonckheere and colleagues (2022). In this method, the SIM is presented at two
+   441→timepoints within the same measurement. This is then set in relation to the total variance, which
+   442→is constituted by both measurements. The fundamental premise underlying this investigation is
+   443→that the observed discrepancy between the two measurements is exclusively attributable to
+   444→measurement errors, as the underlying construct has remained relatively stable over the brief
+   445→interval (Dejonckheere et al., 2022). This results in the following formula:
+   446→𝐸 (∆2)
+   447→𝜌∗ = 1−( ) with 𝐸(∆2) = 2𝜎2
+   448→𝑇𝑅𝑇 2𝜎2 𝜀
+   449→𝑡𝑜𝑡𝑎𝑙
+   450→𝜌∗ = estimated test-retest reliability,
+   451→𝑇𝑅𝑇
+   452→𝐸(∆2) = expected squared difference between test and retest item,
+   453→𝜎2 = total variance of test and retest responses,
+   454→𝑡𝑜𝑡𝑎𝑙
+   455→𝜎2 = measurement error variance of test and retest responses
+   456→𝜀
+   457→In the present study, at least 22 items separated the first and repeated presentation of the SIM,
+   458→reducing recall effects. On average, each SIM was repeated once per day.
+   459→Test-retest reliability for SIMs was calculated across the sample, accordingly reflecting a
+   460→between-person reliability estimate.
+   461→Two-item measures. The estimation of reliability for scales comprising two items is calculated
+   462→using the Spearman-Brown formula (Eisinga et al., 2013). The formula assumes that both items
+   463→measure the same latent construct. It corrects for the tendency to underestimate reliability in
+   464→short scales (e.g., two-item constructs). This approach is also used by Forkmann et al. (2018) in
+   465→the evaluation of EMA items. The formula is:
+   466→𝑛∙ 𝑟
+   467→𝜌∗ = 𝑖𝑖
+   468→𝑆𝐵 1+(𝑛−1)∙𝑟
+   469→𝑖𝑖
+   470→
+   471→𝜌∗ = predicted reliability (Spearman-Brown correction),
+   472→𝑆𝐵
+   473→𝑛 = number of items,
+   474→𝑟 = inter-item correlation
+   475→𝑖𝑖
+   476→Similar to the test-retest reliability, the Spearman Brown formula is applied across participants
+   477→and provides a between-person reliability estimate.
+   478→Multiple-item measures. As recommended (Brose et al., 2020), McDonald’s ω is calculated for
+   479→constructs measured with at least three items. It was calculated separately on the within and
+   480→between level, based on a one-factorial estimate (group-mean-centred within, person-means
+   481→between). A multilevel confirmatory factor analysis to extract the reliability parameters was not
+   482→feasible due to the limited number of items per factor.
+   483→2.4 | Preliminary evaluation of revised items: Testing variability and reliability
+   484→After the EMA evaluation, the ProCEss item set was reduced to 25 items following the results of
+   485→the validation procedure. Five items underwent revisions regarding their formulations, three
+   486→items were summarised to one item, sleep disturbances were omitted from the questionnaire
+   487→completely due to their different time-scale (being only assessed once per day), and one SIM
+   488→for negative affect was added to the item set. Therefore, the final ProCEss item set version was
+   489→preliminarily evaluated again, repeating the analyses of the main evaluation in a new dataset.
+   490→The data for this preliminary evaluation were drawn from the POINT Pain project, in which
+   491→personalised, network-based CBT is compared with a standardised CBT within a single-case
+   492→experimental design (for more details, see preregistration:
+   493→https://clinicaltrials.gov/study/NCT06784141). Participants are adults with chronic pain (primary
+   494→diagnosis: F45.4x (Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) im Auftrag des
+   495→Bundesministeriums für Gesundheit (BMG) unter Beteiligung der Arbeitsgruppe ICD des
+   496→Kuratoriums für Fragen der Klassifikation im Gesundheitswesen (KKG), 2020)) who complete
+   497→two EMA phases during their study participation: one prior to commencing personalised CBT
+   498→and one after completing the full course of therapy. For the present evaluation, only EMA data
+   499→collected before the personalised CBT phase were analysed, as pain experiences are expected
+   500→to change during treatment, potentially altering the psychometric properties of the items at the
+   501→
+   502→individual level in the post-treatment EMA. As the POINT Pain project is still ongoing, the
+   503→available dataset for the ProCEss evaluation was limited to N = 10 participants. It is accordingly
+   504→considered preliminary.
+   505→2.4.1 | Sampling Scheme of the preliminary re-evaluation
+   506→The sampling scheme of this EMA study is summarised in Table 2. The EMA was 21 days long
+   507→and included six semi-randomised prompts per day. Participants received a financial incentive
+   508→of €50 if they completed at least 80 % of all assessments.
+   509→Unfortunately, due to an error in the questionnaire settings, the new SIM assessing Negative
+   510→Affect was not administered repeatedly. Consequently, test-retest reliability for this item could
+   511→not be evaluated.
+   512→2.5 | Exploratory analyses
+   513→In order to explore the ideal timescale with which the ProCEss item set should be applied,
+   514→descriptive item characteristics as well as the variability indicators regarding within standard
+   515→deviation, random intercept, and ICCs were calculated again in three subsets: The first subset
+   516→included a random selection of three datapoints per day per person, the second included every
+   517→second datapoint per person, and the third included one random datapoint per day per person.
+   518→Additionally, intraindividual standard-deviations were computed per person per item in order to
+   519→explore response types (e.g. generally low versus generally high variance).
+   520→2.6 | Sustainability and Dissemination
+   521→The ProCEss item set is among the first tools developed to capture multiple psychological
+   522→processes in chronic pain using longitudinal assessment. To promote transparency and broad
+   523→accessibility, the items will be deposited in the ESM item repository (Kirtley et al., 2018) after
+   524→publication of the evaluation findings. They will also be included in an additional, item set-
+   525→specific repository, which will document future developments such as translations or item
+   526→extensions (https://psy.rptu.de/aes/klinische-psychologie-und-psychotherapie-des-
+   527→erwachsenenalters/research/forschungsprojekt-process). Contributions from researchers
+   528→conducting translations or further psychometric evaluations are explicitly welcomed to foster
+   529→cumulative scientific progress.
+   530→
+   531→3 | RESULTS
+   532→3.1 | Pilot EMA results
+   533→The three female participants’ mean age was 38.67 years (sd = 4.64). All participants were
+   534→White, native German speakers, had completed vocational training, and were employed part-
+   535→time.
+   536→Burden. All participants judged the EMA with the ProCEss item set (29 item-version) to be
+   537→feasible. This impression is supported by high compliance rates of 89 %, 89 %, and 100 %,
+   538→respectively. Two of the three participants reported benefiting from the EMA through reflection
+   539→and perceived self-efficacy. One of them additionally reported that she would have preferred to
+   540→continue the EMA for a longer period.
+   541→On the other hand, one participant stated that the EMA phase should not be extended beyond
+   542→12 days. She reported becoming bored with the repeated questions towards the end and noted
+   543→that she spent progressively less time answering them, particularly when feeling stressed. A
+   544→factor that impeded participation, mentioned by two of the three participants, was the semi-
+   545→randomised sampling scheme; both expressed a preference for a fixed schedule instead.
+   546→Generally, the results support the feasibility of the ProCEss item set for the use in EMA studies.
+   547→3.2 | Main evaluation results
+   548→Figure 2 provides an overview of the participant flow from recruitment to the final sample,
+   549→combining both survey waves.
+   550→
+   551→Figure 2
+   552→Flowchart of the main ProCEss evaluation
+   553→3.2.1 | Sample of main evaluation
+   554→The final sample comprised N = 68 individuals (91.2% female), with an average age of
+   555→M = 37.69 years (SD = 13.76). The average pain intensity was M = 5.50 (SD = 1.67). The most
+   556→frequently reported pain locations were the limbs (55.88 %), joints (51.47 %), back (41.18 %),
+   557→
+   558→and neck and head area (39.71 %). Pain exclusively in the head/neck area was an exclusion
+   559→criterion; therefore, the values given refer exclusively to participants with multiple pain locations.
+   560→3.2.2 | Compliance rates of the main evaluation
+   561→The average compliance on the group-level is an indicator of the quality of the data basis. The
+   562→final sample – including only participants with a compliance rate of at least 60 % - comprised 68
+   563→individuals, with an average response rate of M = 86.62% (SD = 8.48, Min = 64 %, Max =
+   564→100 %). This led to a data base of n = 4,236 completed measurement points.
+   565→3.2.3 | Variability results of the main evaluation
+   566→Variance. The first criterion for sufficient variability was defined as a within-person standard
+   567→deviation greater than 1. Within-person standard deviations for the 30-item ProCEss version
+   568→ranged from 1.30 (depressive symptom: “I felt guilty”) to 2.59 (sleep disturbance: “Last night I
+   569→woke up too early”). As all sleep-related items were subsequently omitted from the final item
+   570→set, the largest within-person standard deviation was observed for the avoidance item: “I
+   571→avoided an activity that causes pain” (SD = 2.38). In conclusion, all items met the first variability
+   572→criterion.
+   573→With regard to between-person variance, the standard deviations of the random intercepts per
+   574→item, based on an intercept-only model, are reported here. They ranged from 1.66 (self-efficacy:
+   575→“I trusted myself to be able to do something even though I was in pain”) to 2.93 (self-
+   576→compassion: “I have told myself that I am not alone with my problems”), indicating that
+   577→considerable between-person variance was present in the dataset. An overview of the random
+   578→intercepts per item is provided in the supplementary materials (supplements B1-B3).
+   579→Response distribution. The second variability criterion specified that no response category of
+   580→the 11-point Likert scale should account for more than 80 % of all responses across the sample.
+   581→All items met this requirement. The most frequently selected response category was “0 =
+   582→completely disagree” for the item: “Due to my pain I asked others to do a strenuous activity for
+   583→me” (avoidance; 53.90 % of all responses), and for the item: “I felt guilty” (depressive symptoms;
+   584→53.71 % of all responses). As shown in Table 3, the full 11-point scale was utilised for each
+   585→
+   586→item. An overview of the response distribution for each item is provided in the supplemental
+   587→materials (supplement C).
+   588→Intraclass Correlation Coefficient. The ICCs support the notion that, although within-person
+   589→standard deviations met the predefined variability criterion, substantial between-person variance
+   590→was also present. Only one item fell within the expected range of 0.2-0.4 (Eisele et al., 2021),
+   591→with an ICC of ρ = 0.34 (self-efficacy: “I trusted myself to be able to do something even though I
+   592→was in pain”). The item with the highest ICC was: “I could accept that there is no solution for my
+   593→pain” (acceptance), with ρ = 0.74. Across the entire item set, this indicates that between 34 %
+   594→and 74 % of the variance could be attributed to between-person differences. The ICCs for each
+   595→item are provided in Table 3.
+   596→RMSSD. As the MSSD assumes equally spaced time intervals (Jahng et al., 2008), and a semi-
+   597→randomised sampling scheme was employed in this study, the coefficients here should be
+   598→interpreted with caution. They are presented to facilitate comparison with other EMA evaluation
+   599→studies (Forkmann et al., 2018; Frumkin et al., 2023). RMSSDs ranged from 0.57 for pain
+   600→intensity (“How strong was your pain on average?”) to 1.44 for one avoidance item (“Due to my
+   601→pain I asked others to do a strenuous activity for me”). All RMSSDs were larger than zero. They
+   602→are summarised along with the other variability and reliability indicators in Table 3.
+   603→
+   604→Table 3
+   605→Summary of EMA evaluation outcomes
+   606→Construct/items Mean Within SD Random Min Max M SD ICC Reliability
+   607→SD intercept RMSSD RMSSD
+   608→Catastrophising Spearman Brown:
+   609→0.79
+   610→I thought: “It will never get better!” 3.16 1.76 2.40 0 10 2.07 1.08 0.59
+   611→I thought: “I can’t stand it any longer!” 2.99 1.91 2.35 0 10 2.23 1.06 0.55
+   612→Avoidance ω = 0.63
+   613→within
+   614→ω = 0.92
+   615→between
+   616→I ended an activity because of my pain.* 2.35 2.05 2.04 0 10 2.65 1.32 0.44
+   617→Due to my pain I asked others to do a strenuous* activity for 3.41 1.98 2.20 0 10 2.47 1.44 0.48
+   618→me.
+   619→I avoided an activity that causes pain.* 2.26 2.38 2.47 0 10 3.01 1.27 0.48
+   620→
+   621→Construct/items Mean Within SD Random Min Max M SD ICC Reliability
+   622→SD intercept RMSSD RMSSD
+   623→Depressive symptoms ω = 0.71
+   624→within
+   625→ω = 0.90
+   626→between
+   627→I felt irritable. 2.86 1.77 2.20 0 10 2.07 1.02 0.56
+   628→I felt guilty. 2.02 1.30 2.36 0 10 1.51 1.08 0.68
+   629→I felt sad. 3.10 1.94 2.12 0 10 2.15 0.95 0.50
+   630→I felt powerless.* 3.86 2.04 2.39 0 10 2.42 0.81 0.56
+   631→I was exhausted. 5.70 1.95 2.39 0 10 2.23 0.82 0.58
+   632→Thought suppression ω = 0.67
+   633→within
+   634→ω = 0.90
+   635→between
+   636→I thought: “Hold on!”* 3.46 2.06 2.57 0 10 2.38 1.10 0.57
+   637→I thought: “Pull yourself together!”* 2.93 1.71 2.65 0 10 2.04 1.23 0.64
+   638→I thought: “Don’t make such a fuss!”* 2.69 1.50 2.57 0 10 1.83 1.27 0.67
+   639→I tried not to think about my pain. 6.13 1.96 2.07 0 10 2.55 1.15 0.49
+   640→
+   641→Construct/items Mean Within SD Random Min Max M SD ICC Reliability
+   642→SD intercept RMSSD RMSSD
+   643→Task persistence (I pulled through despite my pain.) 6.75 2.07 2.09 0 10 2.44 1.09 0.46 Test-Retest: 0.75
+   644→Positive Affect (I felt cheerful despite my pain.) 5.96 1.96 1.79 0 10 2.29 0.82 0.43 Test-Retest: 0.79
+   645→Acceptance Spearman Brown:
+   646→0.66
+   647→I tried to befriend my pain. 4.15 1.68 0 10 2.12 1.09 0.67
+   648→I could accept that there is no solution for my pain.* 3.36 1.45 2.82 0 10 1.81 1.06 0.74
+   649→Values (I tried to prioritise those things really important 7.12 1.71 2.09 0 10 2.06 1.03 0.55 Test-Retest: 0.84
+   650→to me.)
+   651→Expectations (I expected to experience pain during the 5.42 1.61 2.86 0 10 1.88 0.89 0.72 Test-Retest: 0.90
+   652→next two hours.*)
+   653→Self-efficacy Spearman Brown:
+   654→0.58
+   655→I trusted myself to be able to do something even though I 6.69 2.12 1.66 0 10 2.63 1.24 0.34
+   656→was in pain.
+   657→
+   658→Construct/items Mean Within SD Random Min Max M SD ICC Reliability
+   659→SD intercept RMSSD RMSSD
+   660→I was sure I could lead my life satisfactorily even though I 5.25 1.52 2.46 0 10 1.87 1.11 0.66
+   661→was in pain.
+   662→Self-compassion Spearman Brown:
+   663→0.44
+   664→I tried to be friendly to myself. 6.10 1.56 2.41 0 10 1.93 0.86 0.67
+   665→I told myself that I am not alone with my problems. 3.98 1.58 2.93 0 10 1.91 1.11 0.73
+   666→Sleep ω = 0.62
+   667→within
+   668→ω = 0.88
+   669→between
+   670→I was tired. 6.07 1.94 2.20 0 10 2.27 0.93 0.53
+   671→Last night I had problems falling asleep. 4.35 2.45 2.73 0 10 0.89 - 0.51
+   672→Last night I had problems staying asleep. 5.38 2.58 2.53 0 10 1.38 - 0.44
+   673→Last night I woke up too early. 5.11 2.59 2.67 0 10 1 - 0.46
+   674→
+   675→Construct/items Mean Within SD Random Min Max M SD ICC Reliability
+   676→SD intercept RMSSD RMSSD
+   677→Intensity (How strong was your pain on average?) 4.77 1.36 1.96 0 10 1.56 0.57 0.65 Test-Retest: 0.92
+   678→Disability (How much did you feel disabled because of 4.86 1.78 2.19 0 10 2.12 0.66 0.58 Test-Retest: 0.81
+   679→your pain?)
+   680→Note. SD = standard deviation, Min = minimum, Max = maximum, M = Mean, RMSSD = Root Mean Squared Successive Difference, ICC = Intraclass
+   681→Correlation Coefficient; items preliminarily translated to English; * items were revised after main evaluation
+   682→
+   683→3.2.4 | Reliability results of the main evaluation
+   684→Test-Retest reliability. For the evaluation of SIM’s reliability, a between-person test-retest
+   685→reliability was calculated. All six SIMs displayed sufficient reliability, ranging between rel = 0.75
+   686→for the item: “I pulled through despite my pain” (task persistence) to rel = 0.92 for the item: “How
+   687→strong was your pain on average?” (pain intensity). All reliability coefficients are displayed in
+   688→Table 3.
+   689→Spearman-Brown. Catastrophising was the only process assessed with two items that reached
+   690→a sufficient between-person reliability with rel = 0.79. Acceptance, Self-efficacy, and self-
+   691→compassion displayed reliability scores < 0.7, as summarised in Table 3.
+   692→McDonald’s ω. All processes assessed with at least three items displayed better between than
+   693→within reliability as indicated by McDonald’s ω. Thought suppression, Sleep disturbance as well
+   694→as Avoidance missed the threshold of ω > 0.7 at the within level, while Depressive symptoms
+   695→just achieved a coefficient of ω = 0.71. Confidence intervals could not be estimated due to
+   696→numerical instability. All coefficients are summarised in Table 3.
+   697→3.3 | Results of the preliminary re-evaluation
+   698→The eight female and two male pain people suffering from chronic pain who provided EMA data
+   699→for the preliminary re-evaluation of the revised items were M = 57.60 years old (sd = 9.71). They
+   700→experienced chronic pain since M = 9.38 years (sd = 12.44), with an average pain intensity of M
+   701→= 6.2 on an 11-point scale (sd = 1.03) and an average PDI sum score of M = 34.90 (sd = 11.74).
+   702→Individual compliance rates ranged between 72 % and 97 %, with an average rate of
+   703→M = 86.10 % (sd = 9.28 %). This led to a data-base of n = 1,253 data points.
+   704→The current version of the ProCEss item set comprises 25 process items assessing fourteen
+   705→clinically relevant pain processes: Catastrophising (Crombez et al., 2020), Avoidance
+   706→(Hasenbring et al., 2009; Vlaeyen et al., 2016), Depressive Symptoms, Acceptance (McCracken
+   707→& Morley, 2014), Values-based behaviour, Expectations (Wiech, 2016), Thought Suppression
+   708→(Hasenbring et al., 2009), Task Persistence, Self-Efficacy (Nicholas, 2007), Self-Compassion
+   709→(Neff, 2003; Neff, 2011), Positive Affect (Hasenbring et al., 2009), Negative Affect, Pain
+   710→Intensity (Dworkin et al., 2005), and Pain Disability. The German version of the ProCEss item
+   711→set is provided in the supplemental materials (supplement F) as well as on the ProCEss
+   712→
+   713→repository (https://psy.rptu.de/aes/klinische-psychologie-und-psychotherapie-des-
+   714→erwachsenenalters/research/forschungsprojekt-process).
+   715→The following section focuses on the eight revised items.
+   716→3.3.1 | Variability results the of the preliminary re-evaluation
+   717→Variance. The first criterion for sufficient variability was defined as a within-person standard
+   718→deviation greater than 1. Within-person standard deviations for the eight revised items ranged
+   719→from 0.58 (negative affect: “I was ashamed”) to 1.38 (avoidance: “I avoided activities that cause
+   720→pain”). Four out of eight revised items did not meet this variability criterion (see Table 4).
+   721→With regard to between-person variance, the standard deviations of the random intercepts per
+   722→item, based on an intercept-only model, are reported here. An overview of the random
+   723→intercepts per participant is provided in the supplementary materials (supplements D1-D4). The
+   724→latter ranged from 1.67 (avoidance: “I avoided activities that cause pain”) to 3.10 (depressive
+   725→symptom: “I felt listless”), indicating again that considerable between-person variance was
+   726→present in the dataset.
+   727→Response distribution. The second variability criterion specified that no response category of
+   728→the 11-point Likert scale should account for more than 80 % of all responses across the sample.
+   729→All items met this requirement. The most frequently selected response category was “0 =
+   730→completely disagree” for the item: “I was ashamed” (negative affect; 56.46% of all responses),
+   731→and for the item: “I felt guilty” (depressive symptoms; 54.36 % of all responses). As shown in
+   732→Table 4, the full 11-point scale was utilised for all items except Expectation (“I expect my pain to
+   733→get worse until the next beep”). An overview of the response distributions for each item is
+   734→provided in the supplemental materials (supplement E).
+   735→Intraclass Correlation Coefficient. The ICCs indicate substantial between-person variance.
+   736→The ICCs of the eight revised items ranged between ρ = 0.53 (“I avoided activities that cause
+   737→pain”, avoidance) and ρ = 0.89 (“I was ashamed”, negative affect). This means that between
+   738→53 % and 89 % of the variance in the revised items is attributable to between-person
+   739→differences. The ICCs for each item are provided in Table 4.
+   740→
+   741→RMSSD. Again, since a semi-randomised sampling scheme was employed in this study, the
+   742→RMSSD coefficients should be interpreted with caution. RMSSDs of the revised items ranged
+   743→between 0.54 for the revised acceptance item (“I was able to accept that the pain will
+   744→accompany my life”) to 1.05 for one avoidance item (“I avoided activities that cause pain”). All
+   745→RMSSDs were larger than zero. Table 4 summarises the standard deviations of the RMSSD
+   746→along with the other variability and reliability indicators.
+   747→Overall, most items fulfilled the predefined variability criteria, namely sufficient within-person
+   748→standard deviation and an adequate response distribution. However, four revised items
+   749→(Negative Affect, Expectation) did not reach the required within-person standard deviation,
+   750→albeit two of them (Acceptance, Thought Suppression) fell only marginally below the threshold.
+   751→The remaining four revised items met the variability criterion of a within-person standard
+   752→deviation > 1 only narrowly. Taken together with the comparatively high ICCs, these findings
+   753→suggest that the ProCEss item set may not capture intra-individual process dynamics to the
+   754→extent intended.
+   755→3.3.2 | Reliability results of the preliminary re-evaluation
+   756→Test-Retest reliability. Unfortunately, the Negative affect SIM could not be evaluated with
+   757→regard to its test-retest reliability since it was not repeated in the assessment. The Expectation
+   758→SIM (“I expect my pain to get worse until the next beep”) displayed good between-person test-
+   759→retest reliability (rel = 0.93). All reliability indicators are summarised in Table 4.
+   760→Spearman-Brown. Acceptance displayed sufficient between-person reliability with rel = 0.79.
+   761→For Thought Suppression, the reliability index dropped significantly in comparison to the main
+   762→evaluation (rel = 0.02).
+   763→McDonald’s ω. Both processes assessed with at least three items display better reliability at
+   764→the between than the within level as indicated by McDonald’s ω. While Depressive symptoms
+   765→reach the threshold for sufficient reliability at the within level (ω = 0.72), Avoidance misses that
+   766→criterion scarcely (ω = 0.66). Table 4 summarises all descriptive, variability, and reliability
+   767→indices of the revised items.
+   768→
+   769→Table 4
+   770→Summary of preliminary re-evaluation results
+   771→Construct/items Mean Within SD Random Min Max M SD ICC Reliability
+   772→SD intercept RMSSD RMSSD
+   773→Avoidance ω = 0.66
+   774→within
+   775→ω = 0.94
+   776→between
+   777→I ended activities because of my pain.* 2.70 1.04 2.07 0 10 1.29 1.01 0.72
+   778→Due to my pain I asked others to do strenuous activities for 2.41 1.05 2.08 0 10 1.26 0.94 0.71
+   779→me.*
+   780→I avoided activities that cause pain.* 2.81 1.38 1.67 0 10 1.70 1.05 0.53
+   781→Depressive symptoms ω = 0.72
+   782→within
+   783→ω = 0.88
+   784→between
+   785→I felt irritable. 2.86 1.18 2.37 0 10 1.24 0.63 0.76
+   786→I felt guilty. 2.02 0.85 2.56 0 10 0.91 0.63 0.85
+   787→I felt sad. 3.10 1.51 2.68 0 10 1.36 0.62 0.71
+   788→I felt listless* 5.61 1.18 3.10 0 10 1.24 0.68 0.85
+   789→
+   790→Construct/items Mean Within SD Random Min Max M SD ICC Reliability
+   791→SD intercept RMSSD RMSSD
+   792→I was exhausted. 5.70 1.23 2.87 0 10 1.35 0.76 0.82
+   793→Thought suppression Spearman Brown:
+   794→0.02
+   795→I thought: “Pull yourself together!”/”Don’t make such a 4.71 0.95 3.00 0 10 1.12 0.75 0.88
+   796→fuss!”*
+   797→I tried not to think about my pain. 6.13 1.02 2.57 0 10 1.26 0.63 0.84
+   798→Acceptance Spearman Brown:
+   799→0.79
+   800→I tried to befriend my pain. 4.15 0.97 1.68 0 10 1.16 0.67 0.72
+   801→I was able to accept that the pain will accompany my life.* 5.62 0.95 2.18 0 10 1.10 0.54 0.82
+   802→Expectations (I expect my pain to increase until the 2.85 0.65 2.28 0 8 0.78 0.73 0.87 Test-Retest: 0.93
+   803→next prompt.*)
+   804→Negative Affect (I felt ashamed.*) 1.79 0.58 2.66 0 10 0.66 0.79 0.89 -
+   805→Note. * Revised items; SD = standard deviation, Min = minimum, Max = maximum, M = Mean, RMSSD = Root Mean Squared Successive Difference, ICC =
+   806→Intraclass Correlation Coefficient; items preliminarily translated to English
+   807→
+   808→Regarding reliability, the SIMs in particular demonstrated satisfactory performance. Overall,
+   809→most processes showed adequate reliability, with the exception of Self-efficacy and Self-
+   810→compassion. The revisions to the Avoidance and Depressive Symptoms processes yielded only
+   811→marginal improvements, whereas Acceptance reached acceptable reliability following revision.
+   812→In contrast, the revised Thought Suppression scale exhibited virtually no reliability, indicating a
+   813→need for further investigation of its validity.
+   814→3.4 | Explorative results
+   815→Three subsets including a random selection of three datapoints per day per person (2,430
+   816→datapoints), every second datapoint (2,136 datapoints), and one random datapoint per day per
+   817→person (819 datapoints) were exploratively analysed to investigate the relevance of assessment
+   818→timescales for the psychometric properties of the item set. The analyses revealed negligible
+   819→differences on all indicators. This means that means, within standard deviations, random
+   820→intercepts, and ICCs did not meaningfully differ from the original results. Therefore, all
+   821→timescales (i. e. six, three, or one assessment per day) seem to lead to similar results, and none
+   822→of these timescales can clearly be prioritised over the others. The results for the three subsets
+   823→are provided in the supplemental materials (Tables G1-G3).
+   824→In order to explore intraindividual variability patterns, the standard deviation was calculated per
+   825→participant. A visual inspection of the results implied that there are some participants who
+   826→display medium to high variability on most of the ProCEss item set, while others display very low
+   827→standard deviations on most items. Most participants, however, displayed standard deviations
+   828→≥ 1 across the item set. The intraindividual standard deviations are provided in the supplemental
+   829→materials (H1-H4).
+   830→4 | DISCUSSION AND CONCLUSIONS
+   831→The present study evaluated the ProCEss item set with regard to variability and reliability. A
+   832→pilot study indicated good feasibility, participant acceptance, and manageable burden. The main
+   833→evaluation indicated that most items showed adequate within-person variability, supporting the
+   834→sensitivity of the ProCEss item set to reflect temporal dynamics. However, a substantial
+   835→proportion of variance was attributable to between-person differences, with most ICCs
+   836→exceeding the typical EMA range. Reliability was good to acceptable for most ProCEss items. In
+   837→
+   838→particular, the SIMs demonstrated satisfactory performance. For multi-item measures, between-
+   839→person reliability was consistently higher than within-person reliability. These findings suggest
+   840→that, although the measure performs adequately, certain items and scales may require further
+   841→refinement to fully capture the intended psychological processes.
+   842→4.1 | Discussion of variability
+   843→A substantial proportion of variance was attributable to between-person differences.
+   844→Methodological factors may partly explain this pattern, including the semi-randomised sampling
+   845→scheme violating RMSSD assumptions (Jahng et al., 2008), and the cEMA model increasing
+   846→susceptibility to recall bias (Eisele et al., 2021; Stone et al., 2023). Similar findings have been
+   847→reported for the momentary Pain Catastrophising Scale (Frumkin et al., 2023). As observed in
+   848→the pilot study, some participants reported boredom during participation, which may contribute
+   849→to reduced within-person variability through careless responding that has been found to promote
+   850→neutral responses (Wang et al., 2024). However, response start points were randomised to
+   851→minimise such effects. Alternatively, lower variability may reflect psychopathology-related
+   852→factors in chronic pain, including potentially more rigid behavioural patterns. While psychological
+   853→factors are not inherently pathological in chronic pain (Eccleston, 2001), reduced flexibility as
+   854→observed in chronic pain patients (Krypotos et al., 2022) may limit temporal fluctuations in EMA
+   855→data. Blanchard and colleagues (2023) discussed a similar phenomenon in burnout syndrome,
+   856→where they reflected that greater psychopathology might lead to less fluctuations.
+   857→Determining optimal sampling frequency remains challenging, as timescales may vary across
+   858→processes and individuals (Frumkin et al., 2019; Wright & Woods, 2020). In the present data,
+   859→exploratory artificial reduction of sampling frequency revealed negligible effects on variability,
+   860→suggesting that sampling frequency did not explain the observed ICC patterns.
+   861→The findings highlight the need to further examine the sensitivity to change of the ProCEss item
+   862→set. Some items, such as “I was sure I could lead my life satisfactorily even though I was in
+   863→pain”, may reflect more stable attitudes rather than momentary states. The temporal dynamics
+   864→of the items should therefore be investigated both theoretically and empirically.
+   865→
+   866→4.2 | Discussion of reliability
+   867→Overall, most processes showed good to acceptable reliability. Between-person reliability for
+   868→multi-item measures was consistently higher than within-person reliability, likely due to limited
+   869→within-person variability and the small number of items typical of EMA scales (Nezlek, 2017).
+   870→Thought Suppression showed a marked decrease in between-person reliability after revision.
+   871→This may reflect the combination of two literal thought items (“Pull yourself together/Don’t make
+   872→such a fuss”) with a more abstract cognitive process. The low reliability may also indicate a
+   873→validity issue, as the item “I tried not to think about my pain” was adapted from the Avoidance-
+   874→Endurance-Questionnaire (Hasenbring et al., 2009), where it is associated with task
+   875→persistence. Future research should examine convergent and discriminant validity and consider
+   876→potential restructuring of these scales.
+   877→Self-Efficacy and Self-Compassion require further investigation. Items within these scales may
+   878→be heterogeneous, as they were intended to capture different facets of the respective
+   879→constructs. Both were assessed using two-item scales, for which a more liberal reliability
+   880→threshold of .60 has been proposed (Yang et al., 2022), yet neither scale reached this criterion.
+   881→Future research should examine item loadings using multilevel confirmatory factor analysis as
+   882→another psychometric criterion as well as to establish the expected within- and between-person
+   883→reliability (Yang et al., 2022).
+   884→Psychometric properties may change over time (Fritz et al., 2024), highlighting the need to
+   885→assess additional properties such as measurement invariance. Given the heterogeneous nature
+   886→of chronic pain (Breivik et al., 2006; Sundström et al., 2025) and the fact that the processes
+   887→were derived from multiple psychological models, not all items may be relevant for every
+   888→participant. Even in individual-level research, standardised instruments are required to enable
+   889→data aggregation and meta-analytic synthesis (Morley et al., 2015). If the ProCEss item set
+   890→were further personalised, with individually relevant items administered modularly, psychometric
+   891→properties may differ. Accordingly, assessing reliability of SIMs in each application may be
+   892→advisable, as reliability is sample-dependent and may vary across individuals and time (Brose et
+   893→al., 2020; Stone et al., 2023).
+   894→
+   895→4.3 | Recommendations for users of the ProCEss item set
+   896→We do not recommend calculating scale sum scores, as this would result in a loss of relevant
+   897→information (Pena Loray et al., 2025). In line with this, the processes included in the ProCEss
+   898→item set may not yet be fully captured by the current items and should not be considered
+   899→complete representations of latent constructs.
+   900→Sleep problems are common for chronic pain syndromes and should be considered in
+   901→assessment and treatment (Mathias et al., 2018). The original ProCEss item set included sleep-
+   902→related items, which were removed in the current version to reduce burden and due to their
+   903→differing time scale, which may complicate analyses. However, in the main evaluation they
+   904→showed good between-person and sufficient within-person reliability using a more liberal
+   905→criterion (> .60; Nezlek, 2017; Yang et al., 2022). We therefore encourage their use where
+   906→appropriate, despite their exclusion from the core item set.
+   907→4.4 | Strengths and Limitations
+   908→The ProCEss item is the first German EMA instrument to assess a broad range of clinically
+   909→relevant pain processes. Its development followed current best-practice recommendations
+   910→(Eisele et al., 2021; Fritz et al., 2024) and involved individuals with chronic pain across multiple
+   911→stages, from initial feedback to pilot testing and evaluation. Content validity of the item set has
+   912→been established (see preprint: https://doi.org/10.31234/osf.io/ruhdf_v1), and the main
+   913→evaluation included a reasonably large and diverse sample with compliance rates consistent
+   914→with those reported in EMA research (May et al., 2018; Ono et al., 2019). The preliminary
+   915→revision study showed high compliance and included patients with confirmed chronic pain
+   916→diagnoses. The semi-randomised sampling scheme may have reduced response bias (Stone et
+   917→al., 2023).
+   918→Overall, the findings are promising, although several issues indicate the need for further
+   919→refinement and evaluation of the ProCEss item set. First, especially the revised items should be
+   920→evaluated in a larger sample, as they were only examined in a small cohort of n = 10
+   921→participants. Given that sample size is generally more critical for statistical inference than the
+   922→number of measurement occasions (Oleson et al., 2022), the extended EMA period in the
+   923→
+   924→revised study cannot sufficiently compensate for the limited sample size. At the same time,
+   925→findings from psychometric evaluations are sample-dependent (Brose et al., 2020; Stone et al.,
+   926→2023), limiting their relevance for individual-level applications.
+   927→Second, the limited within-person variance requires further investigation, particularly with
+   928→respect to timescales and alternative sampling strategies, including fixed or momentary EMA
+   929→designs. A fixed sampling scheme may also reduce participant burden, as suggested by the
+   930→pilot phase.
+   931→Third, reliability could not yet be established for the Negative Affect SIM. As the target sample
+   932→size in the main evaluation was slightly underachieved and chronic pain status was based solely
+   933→on self-report, re-evaluation in a clinical sample is warranted.
+   934→Multilevel analyses did not converge in the main and preliminary evaluations of the ProCEss
+   935→item set. This is a notable limitation, as multilevel modelling is considered gold standard for
+   936→EMA data (Castro-Alvarez et al., 2025; Nezlek, 2017). Future research should aim to enable
+   937→more robust multilevel analyses of the item set.
+   938→4.5 | Directions for future research
+   939→Future research should further refine, extend, and evaluate the ProCEss item set. Future work
+   940→may consider estimating variability and reliability at the individual level, as has been
+   941→recommended due to the sample-dependency of psychometric estimators (Brose et al., 2020).
+   942→Similarly, if items are to be administered independently rather than as scales, future research
+   943→should examine the reliability of all ProCEss items at the single-item level, effectively treating
+   944→each as a standalone SIM.
+   945→Some psychometric properties remain to be examined, including sensitivity to change,
+   946→measurement invariance, and the item set’s capacity to capture processes dynamically over
+   947→time. Several processes, such as thought suppression, acceptance, or catastrophising also
+   948→include evaluative or regulatory components that may not be sufficiently salient in real-time
+   949→assessment. Although the ProCEss item set was administered using a cEMA approach,
+   950→whereby participants reflected on a recent time window rather than the exact moment, the
+   951→process labels may require refinement to better reflect their momentary operationalisation (e.g.
+   952→
+   953→“pain-related worry” instead of “catastrophising”). This raises questions regarding construct
+   954→validity and highlights the need for further refinement and extension of the item set.
+   955→4.6 | Conclusion
+   956→The ProCEss item set is to the best of our knowledge the only psychometrically evaluated
+   957→German EMA instrument assessing a broad range of chronic pain processes. Most scales
+   958→showed adequate reliability and variability, although a substantial proportion of variance was
+   959→attributable to between-person differences. Exploratory findings did not indicate a clearly
+   960→preferable sampling timescale. Future research should examine subgroups with differing
+   961→variability patterns (e.g. based on treatment experience) and further psychometric properties,
+   962→including sensitivity to change and measurement invariance. Individual-level psychometric
+   963→evaluation and a more modular structure allowing selection of personally relevant items may
+   964→further support individual-level applications. Overall, the ProCEss item set represents a
+   965→promising tool for EMA-based assessment of chronic pain processes.
+   966→5 | ACKNOWLEDGMENTS
+   967→ChatGPT was used to facilitate formulations and precision of paragraphs as well as to shorten
+   968→R code and eliminate errors in the script. After using ChatGPT, the authors reviewed and edited
+   969→the content as needed and take full responsibility for the content of the published article.
+   970→We express our sincere gratitude to all people suffering from chronic pain, researchers, and
+   971→research assistants involved in this evaluation, particularly Christian Rodemeier, Marlene
+   972→Prasch, and Felicitas Kininger. We are grateful for WiPP e.V. for providing the infrastructure for
+   973→the onboarding sessions, and to the developers of mPath for their ongoing support. Finally, we
+   974→thank our team for their invaluable advice and continuous encouragement, especially Dr.
+   975→Christopher Milde for sharing his expertise in the handling of EMA data.
+   976→6 | AUTHOR CONTRIBUTIONS
+   977→Verena Eunike Hofmann: Conceptualisation, Methodology, Formal analysis, Resources,
+   978→Supervision, Writing – Original Draft, Visualisation
+   979→Julia A. Glombiewski: Writing – Review & Editing, Supervision, Project administration
+   980→
+   981→Wiebke Heider: Conceptualisation, Methodology, Formal Analysis, Investigation, Writing –
+   982→Original Draft, Visualisation
+   983→Saskia Scholten: Conceptualisation, Resources, Writing – Review & Editing, Supervision,
+   984→Project administration
+   985→7 | REFERENCES
+   986→Åkerblom, S., Cervin, M., Perrin, S., Rivano Fischer, M., Gerdle, B., & McCracken, L. M. (2021). A Network
+   987→Analysis of Clinical Variables in Chronic Pain: A Study from the Swedish Quality Registry for Pain
+   988→Rehabilitation (SQRP). Pain Medicine, 22(7), 1591–1602. https://doi.org/10.1093/pm/pnaa473
+   989→Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. Psychological Review, 84(2),
+   990→191–215. https://doi.org/10.1037/0033-295X.84.2.191
+   991→Ben-Zeev, D., Young, M. A., & Madsen, J. W. (2009). Retrospective recall of affect in clinically depressed
+   992→individuals and controls. Cognition & Emotion, 23(5), 1021–1040.
+   993→https://doi.org/10.1080/02699930802607937
+   994→Blanchard, M. A., Revol, J., Hoebeke, Y., Roskam, I., Mikolajczak, M., & Heeren, A. (2023). On the Temporal
+   995→Nature of Parental Burnout: Development of an Experience Sampling Methodology (ESM) Tool to Assess
+   996→Parental Burnout and Its Related Ever-Changing Family Context. Collabra: Psychology, 9(1), 74614.
+   997→https://doi.org/10.1525/collabra.74614
+   998→Boateng, G. O., Neilands, T. B., Frongillo, E. A., Melgar-Quiñonez, H. R., & Young, S. L. (2018). Best Practices
+   999→for Developing and Validating Scales for Health, Social, and Behavioral Research: A Primer. Frontiers in
+  1000→Public Health, 6, 149. https://doi.org/10.3389/fpubh.2018.00149
+  1001→Bolger, N., & Laurenceau, J.-P. (2013). Intensive longitudinal methods: An introduction to diary and experience
+  1002→sampling research. Guilford Press.
+  1003→Borsboom, D. (2017). A network theory of mental disorders. World Psychiatry, 16(1), 5–13.
+  1004→https://doi.org/10.1002/wps.20375
+  1005→Breivik, H., Collett, B., Ventafridda, V., Cohen, R., & Gallacher, D. (2006). Survey of chronic pain in Europe:
+  1006→Prevalence, impact on daily life, and treatment. European Journal of Pain, 10(4), 287–287.
+  1007→https://doi.org/10.1016/j.ejpain.2005.06.009
+  1008→Bringmann, L. F. (2021). Person-specific networks in psychopathology: Past, present and future. Current Opinion in
+  1009→Psychology. https://doi.org/10.1016/j.copsyc.2021.03.004
+  1010→
+  1011→Brose, A., Schmiedek, F., Gerstorf, D., & Voelkle, M. C. (2020). The measurement of within-person affect
+  1012→variation. Emotion, 20(4), 677–699. https://doi.org/10.1037/emo0000583
+  1013→Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) im Auftrag des Bundesministeriums für Gesundheit
+  1014→(BMG) unter Beteiligung der Arbeitsgruppe ICD des Kuratoriums für Fragen der Klassifikation im
+  1015→Gesundheitswesen (KKG). (2020). ICD-10-GM Version 2021, Systematisches Verzeichnis, Internationale
+  1016→statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision, Stand: 18.
+  1017→September 2020. icd10gm2020syst_odt_20190920.pdf
+  1018→Castro-Alvarez, S., Zhou, D. J., Bringmann, L. F., Tutunji, R., Proppert, R. K. K., Rieble, C. L., Fried, E. I., & Liu,
+  1019→S. (2025). Assessing the internal consistency reliability of ecological momentary assessment measures:
+  1020→Insights from the WARN-D study. Psychological Assessment, 37(11), 614–623.
+  1021→https://doi.org/10.1037/pas0001410
+  1022→Chepenik, L. G., Have, T. T., Oslin, D., Datto, C., Zubritsky, C., & Katz, I. R. (2006). A Daily Diary Study of Late-
+  1023→Life Depression. The American Journal of Geriatric Psychiatry, 14(3), 270–279.
+  1024→https://doi.org/10.1097/01.JGP.0000194644.63245.42
+  1025→Crombez, G., De Paepe, A. L., Veirman, E., Eccleston, C., Verleysen, G., & Van Ryckeghem, D. M. L. (2020).
+  1026→Let’s talk about pain catastrophizing measures: An item content analysis. PeerJ, 8, e8643.
+  1027→https://doi.org/10.7717/peerj.8643
+  1028→Dejonckheere, E., Demeyer, F., Geusens, B., Piot, M., Tuerlinckx, F., Verdonck, S., & Mestdagh, M. (2022).
+  1029→Assessing the reliability of single-item momentary affective measurements in experience sampling.
+  1030→Psychological Assessment, 34(12), 1138–1154. https://doi.org/10.1037/pas0001178
+  1031→Dejonckheere, E., Kalokerinos, E. K., Bastian, B., & Kuppens, P. (2019). Poor emotion regulation ability mediates
+  1032→the link between depressive symptoms and affective bipolarity. Cognition and Emotion, 33(5), 1076–1083.
+  1033→https://doi.org/10.1080/02699931.2018.1524747
+  1034→Dillmann, U., Nilges, P., Saile, H., & Gerbershagen, H. U. (2011). PDI - Pain Disability Index—Deutsche Fassung.
+  1035→ZPID (Leibniz Institute for Psychology) – Open Test Archive.
+  1036→https://doi.org/10.23668/PSYCHARCHIVES.4505
+  1037→Dorsch Lexikon der Psychologie. (2021). Katastrophisieren. https://dorsch.hogrefe.com/stichwort/katastrophisieren
+  1038→Dworkin, R. H., Turk, D. C., Farrar, J. T., Haythornthwaite, J. A., Jensen, M. P., Katz, N. P., Kerns, R. D., Stucki,
+  1039→G., Allen, R. R., Bellamy, N., Carr, D. B., Chandler, J., Cowan, P., Dionne, R., Galer, B. S., Hertz, S.,
+  1040→Jadad, A. R., Kramer, L. D., Manning, D. C., … IMMPACT. (2005). Core outcome measures for chronic
+  1041→
+  1042→pain clinical trials: IMMPACT recommendations. Pain, 113(1–2), 9–19.
+  1043→https://doi.org/10.1016/j.pain.2004.09.012
+  1044→Eccleston, C. (2001). Role of psychology in pain management. British Journal of Anaesthesia, 87(1), 144–152.
+  1045→https://doi.org/10.1093/bja/87.1.144
+  1046→Eisele, G., Kasanova, Z., & Houben, M. (2021). Questionnaire design and evaluation. In I. Myin-Germeys & P.
+  1047→Kuppens (Eds), The open handbook of Experience Sampling Methodology: A step-by-step guide to
+  1048→designing, conducting, and analyzing ESM studies (pp. 71–90).
+  1049→Eisinga, R., Grotenhuis, M. T., & Pelzer, B. (2013). The reliability of a two-item scale: Pearson, Cronbach, or
+  1050→Spearman-Brown? International Journal of Public Health, 58(4), 637–642. https://doi.org/10.1007/s00038-
+  1051→012-0416-3
+  1052→Excel (Version Microsoft® Excel® für Microsoft 365 MSO (Version 2510 Build 16.0.19328.20144) 64 Bit). (2025).
+  1053→[Computer software].
+  1054→Finan, P. H., & Garland, E. L. (2015). The Role of Positive Affect in Pain and Its Treatment. The Clinical Journal of
+  1055→Pain, 31(2), 177–187. https://doi.org/10.1097/AJP.0000000000000092
+  1056→Forkmann, T., Spangenberg, L., Rath, D., Hallensleben, N., Hegerl, U., Kersting, A., & Glaesmer, H. (2018).
+  1057→Assessing suicidality in real time: A psychometric evaluation of self-report items for the assessment of
+  1058→suicidal ideation and its proximal risk factors using ecological momentary assessments. Journal of
+  1059→Abnormal Psychology, 127(8), 758–769. https://doi.org/10.1037/abn0000381
+  1060→Fritz, J., Piccirillo, M. L., Cohen, Z. D., Frumkin, M., Kirtley, O., Moeller, J., Neubauer, A. B., Norris, L. A.,
+  1061→Schuurman, N. K., Snippe, E., & Bringmann, L. F. (2024). So You Want to Do ESM? 10 Essential Topics
+  1062→for Implementing the Experience-Sampling Method. Advances in Methods and Practices in Psychological
+  1063→Science, 7(3), 25152459241267912. https://doi.org/10.1177/25152459241267912
+  1064→Frumkin, M. R., Greenberg, J. K., Boyd, P., Javeed, S., Shayo, B., Shin, J., Wilson, E. A., Zhang, J. K., Sullivan, M.
+  1065→J. L., Haroutounian, S., & Rodebaugh, T. L. (2023). Establishing the Reliability, Validity, and Prognostic
+  1066→Utility of the Momentary Pain Catastrophizing Scale for Use in Ecological Momentary Assessment
+  1067→Research. The Journal of Pain, 24(8), 1423–1433. https://doi.org/10.1016/j.jpain.2023.03.010
+  1068→Frumkin, M. R., Piccirillo, M., Beck, E. D., Grossman, J., & Rodebaugh, T. (2019). Feasibility and Utility of
+  1069→Idiographic Models in the Clinic: A Pilot Study [Preprint]. PsyArXiv.
+  1070→https://doi.org/10.31234/osf.io/m34aw
+  1071→Gloster, A. T., Nadler, M., Block, V., Haller, E., Rubel, J., Benoy, C., Villanueva, J., Bader, K., Walter, M., Lang,
+  1072→U., Hofmann, S. G., Ciarrochi, J., & Hayes, S. C. (2024). When Average Isn’t Good Enough: Identifying
+  1073→
+  1074→Meaningful Subgroups in Clinical Data. Cognitive Therapy and Research. https://doi.org/10.1007/s10608-
+  1075→023-10453-x
+  1076→Gómez-Pérez, M. C., García-Palacios, A., Castilla, D., Zaragozá, I., & Suso-Ribera, C. (2020). Brief Acceptance
+  1077→and Commitment Therapy for Fibromyalgia: Feasibility and Effectiveness of a Replicated Single-Case
+  1078→Design. Pain Research and Management, 2020(1), 7897268. https://doi.org/10.1155/2020/7897268
+  1079→Hasenbring, M. I., Hallner, D., & Rusu, A. C. (2009). Fear‐avoidance‐ and endurance‐related responses to pain:
+  1080→Development and validation of the Avoidance‐Endurance Questionnaire (AEQ). European Journal of Pain,
+  1081→13(6), 620–628. https://doi.org/10.1016/j.ejpain.2008.11.001
+  1082→Hasenbring, M. I., & Verbunt, J. A. (2010). Fear-avoidance and endurance-related responses to pain: New models of
+  1083→behavior and their consequences for clinical practice. The Clinical Journal of Pain, 26(9), 747–753.
+  1084→https://doi.org/10.1097/AJP.0b013e3181e104f2
+  1085→Heininga, V. E., Dejonckheere, E., Houben, M., Obbels, J., Sienaert, P., Leroy, B., Van Roy, J., & Kuppens, P.
+  1086→(2019). The dynamical signature of anhedonia in major depressive disorder: Positive emotion dynamics,
+  1087→reactivity, and recovery. BMC Psychiatry, 19(1), 59. https://doi.org/10.1186/s12888-018-1983-5
+  1088→Jahng, S., Wood, P. K., & Trull, T. J. (2008). Analysis of affective instability in ecological momentary assessment:
+  1089→Indices using successive difference and group comparison via multilevel modeling. Psychological
+  1090→Methods, 13(4), 354–375. https://doi.org/10.1037/a0014173
+  1091→Jones, S., & Hurrell, E. (2019). A single case experimental design: How do different psychological outcome
+  1092→measures capture the experience of a client undergoing CBT for chronic pain. British Journal of Pain,
+  1093→13(1), 6–12. https://doi.org/10.1177/2049463718802873
+  1094→Kirtley, O., Eisele, G., Kunkels, Y. K., Hiekkaranta, A. P., Heck, L. V., Pihlajamäki, M., Kunc, B., Schoefs, S.,
+  1095→Vermaelen, N., & Kemme, N. D. F. (2018). The Experience Sampling Method (ESM) Item Repository.
+  1096→https://doi.org/10.17605/OSF.IO/KG376
+  1097→Krypotos, A.-M., Crombez, G., Alves, M., Claes, N., & Vlaeyen, J. W. (2022). The exploration–exploitation
+  1098→dilemma in pain: An experimental investigation. Pain, 163(2), e215–e233.
+  1099→Leiner, D. J. (2024). SoSci Survey (Version 3.6.06) [Computer software]. https://www.soscisurvey.de/
+  1100→lme4 package—RDocumentation. (n.d.). Retrieved 10 December 2025, from
+  1101→https://www.rdocumentation.org/packages/lme4/versions/1.1-38
+  1102→Margraf, J., & Cwik, J. C. (2020). Mini-DIPS Open Access: Diagnostisches Kurzinterview bei psychischen
+  1103→Störungen. In OMP Ruhr-Universität Bochum. https://doi.org/https://doi.org/10.13154/rub.102.91
+  1104→
+  1105→Mathias, J. L., Cant, M. L., & Burke, A. L. J. (2018). Sleep disturbances and sleep disorders in adults living with
+  1106→chronic pain: A meta-analysis. Sleep Medicine, 52, 198–210. https://doi.org/10.1016/j.sleep.2018.05.023
+  1107→May, M., Junghaenel, D. U., Ono, M., Stone, A. A., & Schneider, S. (2018). Ecological Momentary Assessment
+  1108→Methodology in Chronic Pain Research: A Systematic Review. The Journal of Pain, 19(7), 699–716.
+  1109→https://doi.org/10.1016/j.jpain.2018.01.006
+  1110→McCracken, L. M. (2005). Contextual cognitive-behavioral therapy for chronic pain.
+  1111→McCracken, L. M. (2023). Personalized pain management: Is it time for process‐based therapy for particular people
+  1112→with chronic pain? European Journal of Pain, 27(9), 1044–1055. APA PsycInfo (2023-51309-001).
+  1113→https://doi.org/10.1002/ejp.2091
+  1114→McCracken, L. M., & Morley, S. (2014). The Psychological Flexibility Model: A Basis for Integration and Progress
+  1115→in Psychological Approaches to Chronic Pain Management. The Journal of Pain, 15(3), 221–234.
+  1116→https://doi.org/10.1016/j.jpain.2013.10.014
+  1117→McCracken, L. M., & Turk, D. C. (2002). Behavioral and Cognitive–Behavioral Treatment for Chronic Pain:
+  1118→Outcome, Predictors of Outcome, and Treatment Process. Spine, 27(22), 2564–2573.
+  1119→Mestdagh, M., Verdonck, S., Piot, M., Niemeijer, K., Tuerlinckx, F., Kuppens, P., & Dejonckheere, E. (2023). m-
+  1120→Path: An easy-to-use and flexible platform for ecological momentary assessment and intervention in
+  1121→behavioral research and clinical practice. PsyArXiv. https://doi.org/10.31234/osf.io/uqdfs
+  1122→Morley, S., Linton, S. J., & Vlaeyen, J. W. (2015, September). Single case research methodology in clinical pain
+  1123→management—An introduction and practical workshop. 9th Congress of the European Pain Federation
+  1124→(EFIC), Vienna, Austria.
+  1125→Murillo, C., Vo, T.-T., Vansteelandt, S., Harrison, L. E., Cagnie, B., Coppieters, I., Chys, M., Timmers, I., & Meeus,
+  1126→M. (2022). How do psychologically based interventions for chronic musculoskeletal pain work? A
+  1127→systematic review and meta-analysis of specific moderators and mediators of treatment. Clinical
+  1128→Psychology Review, 94, 102160. https://doi.org/10.1016/j.cpr.2022.102160
+  1129→Neff, K. (2003). Self-Compassion: An Alternative Conceptualization of a Healthy Attitude Toward Oneself. Self
+  1130→and Identity, 2(2), 85–101. https://doi.org/10.1080/15298860309032
+  1131→Neff, K. D. (2011). Self‐Compassion, Self‐Esteem, and Well‐Being. Social and Personality Psychology Compass,
+  1132→5(1), 1–12. https://doi.org/10.1111/j.1751-9004.2010.00330.x
+  1133→Nezlek, J. B. (2017). A practical guide to understanding reliability in studies of within-person variability. Journal of
+  1134→Research in Personality, Within-Person Variability in Personality, 69, 149–155.
+  1135→https://doi.org/10.1016/j.jrp.2016.06.020
+  1136→
+  1137→Nicholas, M. K. (2007). The pain self-efficacy questionnaire: Taking pain into account. European Journal of Pain,
+  1138→11(2), 153–163. https://doi.org/10.1016/j.ejpain.2005.12.008
+  1139→Nicholas, M., Vlaeyen, J. W. S., Rief, W., Barke, A., Aziz, Q., Benoliel, R., Cohen, M., Evers, S., Giamberardino,
+  1140→M. A., Goebel, A., Korwisi, B., Perrot, S., Svensson, P., Wang, S.-J., Treede, R.-D., & Pain, T. I. T. for the
+  1141→C. of C. (2019). The IASP classification of chronic pain for ICD-11: Chronic primary pain. PAIN, 160(1),
+  1142→28. https://doi.org/10.1097/j.pain.0000000000001390
+  1143→Nunnally, J. C., & Bernstein, I. H. (1994). Psychometric theory (3rd edn). New York: McGraw-Hill.
+  1144→Oleson, J. J., Jones, M. A., Jorgensen, E. J., & Wu, Y.-H. (2022). Statistical Considerations for Analyzing
+  1145→Ecological Momentary Assessment Data. Journal of Speech, Language, and Hearing Research, 65(1),
+  1146→344–360. https://doi.org/10.1044/2021_JSLHR-21-00081
+  1147→Ono, M., Schneider, S., Junghaenel, D. U., & Stone, A. A. (2019). What Affects the Completion of Ecological
+  1148→Momentary Assessments in Chronic Pain Research? An Individual Patient Data Meta-Analysis. Journal of
+  1149→Medical Internet Research, 21(2), e11398. https://doi.org/10.2196/11398
+  1150→Overton, M., Ward, S., Swain, N., Falling, C., Gwynne-Jones, D., Fillingim, R., & Mani, R. (2023). Are Ecological
+  1151→Momentary Assessments of Pain Valid and Reliable? A Systematic Review and Meta-analysis. The
+  1152→Clinical Journal of Pain, 39(1), 29. https://doi.org/10.1097/AJP.0000000000001084
+  1153→Oxford Advanced Learner’s Dictionary. (n.d.-a). Disability. Retrieved 5 February 2026, from
+  1154→https://www.oxfordlearnersdictionaries.com/definition/english/disability?q=disability
+  1155→Oxford Advanced Learner’s Dictionary. (n.d.-b). Expectation. Retrieved 5 February 2026, from
+  1156→https://www.oxfordlearnersdictionaries.com/definition/english/expectation?q=expectation
+  1157→Oxford Advanced Learner’s Dictionary. (n.d.-c). Suppress. Retrieved 5 February 2026, from
+  1158→https://www.oxfordlearnersdictionaries.com/definition/english/suppress?q=suppress
+  1159→Oxford Advanced Learner’s Dictionary. (n.d.-d). Value. Retrieved 5 February 2026, from
+  1160→https://www.oxfordlearnersdictionaries.com/definition/english/value_1?q=value
+  1161→Palmier-Claus, J. E., Myin-Germeys, I., Barkus, E., Bentley, L., Udachina, A., Delespaul, P. A. E. G., Lewis, S. W.,
+  1162→& Dunn, G. (2011). Experience sampling research in individuals with mental illness: Reflections and
+  1163→guidance: Experience sampling research in individuals with mental illness. Acta Psychiatrica
+  1164→Scandinavica, 123(1), 12–20. https://doi.org/10.1111/j.1600-0447.2010.01596.x
+  1165→Pena Loray, J. S., Hehlmann, M. I., Gomez Penedo, J. M., Schöttke, H., & Rubel, J. A. (2025). Beyond total scores:
+  1166→Enhancing psychotherapy outcome prediction with item-level scores. Journal of Consulting and Clinical
+  1167→Psychology. https://doi.org/10.1037/ccp0000957
+  1168→
+  1169→R Core Team. (2025). R: A Language and Environment for Statistical Computing (Version 4.4.3) [Computer
+  1170→software]. R Foundation for Statistical Computing. https://www.R-project.org/
+  1171→Revelle, W. (2025). psych: Procedures for Psychological, Psychometric, and Personality Research (Version 2.5.6)
+  1172→[Computer software]. https://cran.r-project.org/web/packages/psych/index.html
+  1173→Rosseel, Y. (2012). lavaan: An R Package for Structural Equation Modeling. Journal of Statistical Software, 48(2).
+  1174→https://doi.org/10.18637/jss.v048.i02
+  1175→Schauberger, P., Walker, A., Braglia, L., Sturm, J., Garbuszus, J. M., Barbone, J. M., Zimmermann, D., &
+  1176→Kainhofer, R. (2025). openxlsx: Read, Write and Edit xlsx Files (Version 4.2.8) [Computer software].
+  1177→https://cran.r-project.org/web/packages/openxlsx/index.html
+  1178→Schemer, L., Glombiewski, J. A., & Scholten, S. (2023). All good things come in threes: A systematic review and
+  1179→Delphi study on the advances and challenges of ambulatory assessments, network analyses, and single-case
+  1180→experimental designs. Clinical Psychology: Science and Practice, No Pagination Specified-No Pagination
+  1181→Specified. https://doi.org/10.1037/cps0000083
+  1182→Schiepek, G., Stöger‐Schmidinger, B., Kronberger, H., Aichhorn, W., Kratzer, L., Heinz, P., Viol, K., Lichtwarck‐
+  1183→Aschoff, A., & Schöller, H. (2019). The Therapy Process Questionnaire ‐ Factor analysis and psychometric
+  1184→properties of a multidimensional self‐rating scale for high‐frequency monitoring of psychotherapeutic
+  1185→processes. Clinical Psychology & Psychotherapy, 26(5), 586–602. https://doi.org/10.1002/cpp.2384
+  1186→Scholten, S., & Glombiewski, J. A. (2024). Enhancing Psychological Assessment and Treatment of Chronic Pain: A
+  1187→Research Agenda for Personalized and Process-Based Approaches. Current Opinion in Psychology,
+  1188→101958. https://doi.org/10.1016/j.copsyc.2024.101958
+  1189→Scholten, S., Herzog, P., Glombiewski, J. A., & Kaiser, T. (2025). Is personalization of psychological pain
+  1190→treatments necessary? Evidence from a Bayesian variance ratio meta-analysis. 166(2), 420–427.
+  1191→https://doi.org/https://doi.org/10.1097/j.pain.0000000000003363
+  1192→Scholten, S., Lischetzke, T., & Glombiewski, J. A. (2022). Integrating theory-based and data-driven methods to case
+  1193→conceptualization: A functional analysis approach with ecological momentary assessment. Psychotherapy
+  1194→Research, 32(1), 52–64. https://doi.org/10.1080/10503307.2021.1916639
+  1195→Scholten, S., Rubel, J. A., Glombiewski, J. A., & Milde, C. (2024). What time-varying network models based on
+  1196→functional analysis tell us about the course of a patient’s problem. Psychotherapy Research, 1–19.
+  1197→https://doi.org/10.1080/10503307.2024.2328304
+  1198→semTools R package [Documentation]. (n.d.). R PACKAGES. Retrieved 10 December 2025, from https://r-
+  1199→packages.io/packages/semTools
+  1200→
+  1201→Slowikowski, K., Schep, A., Hughes, S., Dang, T. K., Lukauskas, S., Irisson, J.-O., Kamvar, Z. N., Ryan, T.,
+  1202→Christophe, D., Hiroaki, Y., Gramme, P., Abdol, A. M., Barrett, M., Cannoodt, R., Krassowski, M.,
+  1203→Chirico, M., Aphalo, P., & Barton, F. (2024). ggrepel: Automatically Position Non-Overlapping Text
+  1204→Labels with ‘ggplot2’ (Version 0.9.6) [Computer software]. https://cloud.r-
+  1205→project.org/web/packages/ggrepel/index.html
+  1206→Spektrum Lexikon der Psychologie. (n.d.). Wert. Retrieved 5 February 2026, from
+  1207→https://www.spektrum.de/lexikon/psychologie/wert/16768
+  1208→Stanley, D. (2021). apaTables: Create American Psychological Association (APA) Style Tables -R package version
+  1209→2.0.8. https://CRAN.R-project.org/package=apaTables
+  1210→Stone, A. A., Obbarius, A., Junghaenel, D. U., Wen, C. K. F., & Schneider, S. (2021). High-resolution, field
+  1211→approaches for assessing pain: Ecological Momentary Assessment. Pain, 162(1), 4–9.
+  1212→https://doi.org/10.1097/j.pain.0000000000002049
+  1213→Stone, A. A., Schneider, S., & Smyth, J. M. (2023). Evaluation of Pressing Issues in Ecological Momentary
+  1214→Assessment. Annual Review of Clinical Psychology, 19(Volume 19, 2023), 107–131.
+  1215→https://doi.org/10.1146/annurev-clinpsy-080921-083128
+  1216→Sundström, F. T. A., Lavefjord, A., Buhrman, M., & McCracken, L. M. (2025). Are people with chronic pain more
+  1217→diverse than we think? An investigation of ergodicity. PAIN, 1859–1870.
+  1218→https://doi.org/10.1097/j.pain.0000000000003573
+  1219→Trull, T. J., & Ebner-Priemer, U. W. (2020). Ambulatory assessment in psychopathology research: A review of
+  1220→recommended reporting guidelines and current practices. Journal of Abnormal Psychology, 129(1), 56–63.
+  1221→https://doi.org/10.1037/abn0000473
+  1222→Van Der Gucht, K., Dejonckheere, E., Erbas, Y., Takano, K., Vandemoortele, M., Maex, E., Raes, F., & Kuppens,
+  1223→P. (2019). An experience sampling study examining the potential impact of a mindfulness-based
+  1224→intervention on emotion differentiation. Emotion, 19(1), 123–131. https://doi.org/10.1037/emo0000406
+  1225→Vlaeyen, J. W. S., Crombez, G., & Linton, S. J. (2016). The fear-avoidance model of pain. Pain, 157(8), 1588–1589.
+  1226→https://doi.org/10.1097/j.pain.0000000000000574
+  1227→Vlaeyen, J. W. S., de Jong, J., Geilen, M., Heuts, P. H. T. G., & van Breukelen, G. (2001). Graded exposure in vivo
+  1228→in the treatment of pain-related fear: A replicated single-case experimental design in four patients with
+  1229→chronic low back pain. Behaviour Research and Therapy, 39(2), 151–166. (2001-16387-003).
+  1230→https://doi.org/10.1016/S0005-7967(99)00174-6
+  1231→
+  1232→Wang, S. D., Hatzinger, L., Morales, J., Hewus, M., Intille, S., & Dunton, G. F. (2024). Burden and Inattentive
+  1233→Responding in a 12-Month Intensive Longitudinal Study: Interview Study Among Young Adults. JMIR
+  1234→Formative Research, 8, e52165. https://doi.org/10.2196/52165
+  1235→Watson, D., Clark, L. A., & Tellegen, A. (1988). Development and validation of brief measures of positive and
+  1236→negative affect: The PANAS scales. Journal of Personality and Social Psychology, 54(6), 1063–1070.
+  1237→https://doi.org/10.1037/0022-3514.54.6.1063
+  1238→Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L., François, R., Grolemund, G., Hayes, A., Henry, L.,
+  1239→Hester, J., Kuhn, M., Pedersen, T., Miller, E., Bache, S., Müller, K., Ooms, J., Robinson, D., Seidel, D.,
+  1240→Spinu, V., … Yutani, H. (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), 1686.
+  1241→https://doi.org/10.21105/joss.01686
+  1242→Wiech, K. (2016). Deconstructing the sensation of pain: The influence of cognitive processes on pain perception.
+  1243→Science, 354(6312), 584–587. https://doi.org/10.1126/science.aaf8934
+  1244→Williams, M. T., Lewthwaite, H., Fraysse, F., Gajewska, A., Ignatavicius, J., & Ferrar, K. (2021). Compliance With
+  1245→Mobile Ecological Momentary Assessment of Self-Reported Health-Related Behaviors and Psychological
+  1246→Constructs in Adults: Systematic Review and Meta-analysis. Journal of Medical Internet Research, 23(3),
+  1247→e17023. https://doi.org/10.2196/17023
+  1248→Wright, A. G. C., & Woods, A. C. (2020). Personalized Models of Psychopathology. In T. Widiger & T. D. Cannon
+  1249→(Eds), Annual Review of Clinical Psychology, Vol 16, 2020 (Vol. 16, pp. 49–74). Annual Reviews.
+  1250→https://doi.org/10.1146/annurev-clinpsy-102419-125032
+  1251→Wu, H., & Leung, S.-O. (2017). Can Likert Scales be Treated as Interval Scales?—A Simulation Study. Journal of
+  1252→Social Service Research, 43(4), 527–532. https://doi.org/10.1080/01488376.2017.1329775
+  1253→Yang, L.-Q., Wang, W., Huang, P.-H., & Nguyen, A. (2022). Optimizing Measurement Reliability in Within-Person
+  1254→Research: Guidelines for Research Design and R Shiny Web Application Tools. Journal of Business and
+  1255→Psychology, 37(6), 1141–1156. https://doi.org/10.1007/s10869-022-09803-5

@@ -1,0 +1,574 @@
+     1→     1→Social disconnection, depression, and anxiety during parental leave among Slovak
+     2→     2→women
+     3→     3→Authors
+     4→     4→Celušáková Hana1, Brandoburová Petra1, Krakovská Simona1, Hajdúk Michal1
+     5→     5→1Department of Psychology, Faculty of Arts, Comenius University, Bratislava, Slovakia,
+     6→     6→Email: hana.celusakova@uniba.sk, petra.brandoburova@uniba.sk,
+     7→     7→simona.krakovska@uniba.sk, michal.hajduk@uniba.sk
+     8→     8→ORCID: Celušáková Hana 0009-0006-8901-7133, Brandoburová Petra 0000-0003-2069-
+     9→     9→7557, Krakovská Simona 0000-0002-4090-419X, Hajdúk Michal: 0000-0002-7073-7564
+    10→    10→Corresponding author: Hana Celušáková, Department of Psychology, Faculty of Arts,
+    11→    11→Comenius University in Bratislava, Gondova 2, 814 99 Bratislava, Slovak Republic, email:
+    12→    12→hana.celusakova@uniba.sk
+    13→    13→Abstract
+    14→    14→Purpose
+    15→    15→The study aimed to estimate the prevalence of social disconnection, depression, and anxiety
+    16→    16→among Slovak mothers on parental leave. The secondary objective was to assess the
+    17→    17→contribution of perceived loneliness and social isolation to depressive symptoms among
+    18→    18→mothers.
+    19→    19→
+    20→    20→Methods
+    21→    21→The final sample consisted of 410 mothers with a mean age of M = 33.4 and SD = 4.61. Data
+    22→    22→were collected online via battery of standardized self-report questionnaires, focused on
+    23→    23→depression, anxiety, perceived loneliness, and social isolation.
+    24→    24→Results
+    25→    25→The prevalence rates of moderately severe to severe depression (PHQ-9 ≥ 10) and anxiety
+    26→    26→(GAD-7 ≥ 10) were 38.3% and 28.3%, respectively. The co-occurrence of both conditions
+    27→    27→was observed in 23.2% of mothers. Elevated levels of loneliness were reported by 78.3% of
+    28→    28→participants (UCLA-3 ≥ 6), while 26.8% were classified as socially isolated (LSNS-6 < 12),
+    29→    29→indicating a high prevalence of both loneliness and social isolation in this sample. Regression
+    30→    30→analysis showed that anxiety and loneliness were significant positive predictors of depressive
+    31→    31→symptoms, with the models explaining 61–62% of the variance.
+    32→    32→Conclusion
+    33→    33→The result of the study revealed elevated rates of depression and anxiety among mothers on
+    34→    34→parental leave. Psychological factors, particularly anxiety, loneliness, and social isolation,
+    35→    35→played a more prominent role in explaining depressive symptoms than demographic variables,
+    36→    36→including length of parental leave. The findings underscore the need for systematic screening
+    37→    37→and accessible perinatal mental health care among mothers on parental leave.
+    38→    38→Key words:
+    39→    39→loneliness, social isolation, depression, anxiety, motherhood, postpartum, parental leave
+    40→    40→Highlights:
+    41→    41→• 38.3% of mothers on parental leave reported elevated depressive symptoms.
+    42→    42→• 28.3% reported elevated anxiety symptoms; 23.2% had both depression and anxiety.
+    43→    43→
+    44→    44→• 78.3% reported loneliness; 26.8% were at risk of social isolation.
+    45→    45→• Anxiety and loneliness were the strongest predictors of depressive symptoms.
+    46→    46→• High psychological burden persisted throughout prolonged parental leave.
+    47→    47→Introduction
+    48→    48→Pregnancy and childbirth are major life events accompanied by profound psychological,
+    49→    49→social, and biological changes. The transition to motherhood presents substantial challenges
+    50→    50→across these domains (Saxbe et al. 2018; Olza et al. 2020). The perinatal period is also
+    51→    51→recognized as a critical window for the onset or recurrence of common mental disorders,
+    52→    52→particularly the most prevalent conditions such as depression and anxiety (Howard et al. 2014;
+    53→    53→Jones et al. 2014; Fish-Williamson and Hahn-Holbrook 2023). Postpartum depression affects
+    54→    54→approximately 19% of women during the first year after childbirth, although prevalence
+    55→    55→estimates vary widely across studies (3%-44%) (Shorey et al. 2018; Motrico et al. 2022; Fish-
+    56→    56→Williamson and Hahn-Holbrook 2023). Similarly, anxiety symptoms have been reported in
+    57→    57→18% to 25% of women during pregnancy and in 15% to 21% in the postpartum period
+    58→    58→(Dennis et al. 2017; Fawcett et al. 2019). Given their high prevalence and substantial impact,
+    59→    59→these disorders represent a major public health concern. They are associated with adverse
+    60→    60→pregnancy and birth outcomes (Rejnö et al. 2019; Jahan et al. 2021), impaired maternal
+    61→    61→functioning, difficulties in the mother–infant relationship, poorer emotional and cognitive
+    62→    62→development in offspring, greater behavioral and emotional problems in children (Slomian et
+    63→    63→al. 2019; Saharoy et al. 2023; MacBeth et al. 2026), and increased health care utilization
+    64→    64→(Pollack et al. 2022). From a socioeconomic perspective, severe perinatal mental health
+    65→    65→conditions may increase caregiving demands on partners, contributing to income loss and
+    66→    66→greater financial vulnerability for the family (British Red Cross 2016).
+    67→    67→
+    68→    68→Beyond depression and anxiety, the perinatal period is also characterized by increased
+    69→    69→vulnerability to social disconnection, encompassing both the subjective experience of
+    70→    70→loneliness and the objective state of social isolation. Both are closely linked to maternal
+    71→    71→mental health and may both contribute to and exacerbate psychological distress and adverse
+    72→    72→outcomes (Luoma et al. 2015; Kent-Marvick et al. 2022). In countries where young adults
+    73→    73→often relocate for higher education or employment, internal mobility may coincide with the
+    74→    74→transition to parenthood, potentially reduce social networks, decrease perceived social
+    75→    75→support, and increase feelings of loneliness (Kent-Marvick et al. 2022). A British Red Cross
+    76→    76→(2016) survey found that 32% of young parents reported feeling lonely "all the time" or
+    77→    77→"often" during maternity leave. Across studies, loneliness has been reported in approximately
+    78→    78→32%-42% of pregnant women and mothers, although prevalence estimates vary substantially
+    79→    79→because of differences in study populations, measurement approaches, and sociocultural
+    80→    80→contexts (Kent-Marvick et al. 2022). Maternal loneliness has been associated with greater
+    81→    81→fatigue, stress, lower parental self-efficacy, reduced emotional availability, impaired emotion
+    82→    82→regulation, and difficulties in the mother–infant relationship, which may further contribute to
+    83→    83→feelings of isolation (Kruse et al. 2014; Tuominen et al. 2016; Kent-Marvick et al. 2022).
+    84→    84→Biological evidence further suggests that social disconnection may act as an intense stress
+    85→    85→signal, leading to dysregulation of neuroendocrine, immune, and autonomic systems involved
+    86→    86→in maternal adaptation (Cacioppo et al. 2015) and increasing vulnerability to adverse mental
+    87→    87→and physical health outcomes (Holt-Lunstad et al. 2017). In the postpartum period, both
+    88→    88→loneliness and social isolation have been associated with depression, anxiety, and
+    89→    89→posttraumatic stress symptoms (Kent-Marvick et al. 2022).
+    90→    90→In Slovakia, previous research has primarily examined depressive symptoms during the early
+    91→    91→postpartum period (up to 6-8 weeks after childbirth), with little attention to maternal mental
+    92→    92→health throughout maternity and parental leave (Škodová et al. 2021; Ďuríčeková et al. 2024).
+    93→    93→
+    94→    94→Statutory maternity leave lasts 34 weeks, and parental leave may extend until the child
+    95→    95→reaches 3 years of age. Countries with extended maternity and parental leave provide a unique
+    96→    96→opportunity to examine maternal mental health beyond the early postpartum period, yet this
+    97→    97→stage remains largely overlooked in the literature. The present study therefore aimed to
+    98→    98→estimate the prevalence of depression, anxiety, loneliness, and social isolation among Slovak
+    99→    99→mothers on maternity and parental leave and to identify associated psychological and
+   100→   100→sociodemographic factors. A secondary aim was to examine the contribution of loneliness and
+   101→   101→social isolation to depressive symptoms.
+   102→   102→Materials and methods
+   103→   103→Sample
+   104→   104→Data were collected online between October 2025 and January 2026. Participants were
+   105→   105→recruited through social media, pediatricians, maternity centers, online mothers' groups, and
+   106→   106→non-profit organizations supporting families. All participants provided electronic informed
+   107→   107→consent before completing the online survey. The survey was anonymous.
+   108→   108→A total of 770 individuals responded to the study invitation; 637 provided informed consent
+   109→   109→and initiated the survey, and 424 completed the questionnaires. After excluding nine fathers
+   110→   110→and five adoptive mothers according to the predefined eligibility criteria, complete data from
+   111→   111→410 biological mothers were included in the final analysis.
+   112→   112→The study was conducted in accordance with the Declaration of Helsinki and approved by the
+   113→   113→Ethical Review Board of the Faculty of Arts, Comenius University Bratislava (ER/56/2025).
+   114→   114→
+   115→   115→Measures
+   116→   116→Depression
+   117→   117→Patient Health Questionnaire-9 (PHQ-9) (Kroenke et al. 2001) is a nine-item scale
+   118→   118→assessing depressive symptoms over the previous two weeks. Items are rated from 0 (not at
+   119→   119→all) to 3 (nearly every day), yielding a total score of 0–27. A score of ≥ 10 is considered
+   120→   120→clinically significant, indicating at least moderate depressive symptom severity, while ≥ 15
+   121→   121→indicates more severe symptoms (Kroenke et al. 2001; Hajduk et al. 2019).
+   122→   122→Edinburgh Postnatal Depression Scale (EPDS) (Cox et al. 1987) is a 10-item screening tool
+   123→   123→assessing depressive symptoms over the previous 7 days, particularly in the perinatal period.
+   124→   124→Items are scored from 0 to 3, with total scores ranging from 0 to 30. A cut-off score of ≥ 13 is
+   125→   125→considered clinically significant, representing moderate severity of depressive symptoms
+   126→   126→(Matthey et al. 2006).
+   127→   127→Anxiety
+   128→   128→Generalized Anxiety Disorder-7 (GAD-7) (Spitzer et al. 2006) is a 7-item screening tool
+   129→   129→assessing anxiety symptoms over the previous two weeks and are rated from 0 (not at all) to 3
+   130→   130→(nearly every day), yielding a total score of 0–21. A cut-off score of ≥ 10 is considered
+   131→   131→clinically significant, representing a moderate severity of anxiety symptoms, while ≥ 15
+   132→   132→reflects more severe symptoms (Hajduk et al., 2019; Kroenke et al., 2010).
+   133→   133→Loneliness
+   134→   134→UCLA Loneliness Scale (UCLA-3) (Hughes et al. 2004) is a 3-item self-evaluation scale for
+   135→   135→measuring loneliness. Items are rated from 1 (hardly ever) to 3 (often), with total scores
+   136→   136→ranging from 3 to 9. Higher scores indicate greater perceived loneliness; a cut-off score of ≥ 6
+   137→   137→indicates elevated loneliness (Steptoe et al. 2013).
+   138→   138→
+   139→   139→Social isolation
+   140→   140→The Lubben Social Network Scale (LSNS-6) (Lubben et al. 2006a) is a screening tool, which
+   141→   141→evaluates family and friend networks, including the number of close contacts, contact
+   142→   142→frequency and availability of support. Scores range from 0 to 30, with lower scores indicating
+   143→   143→greater social isolation. A cut-off score of <12 indicates risk of social isolation (Lubben et al.
+   144→   144→2006b).
+   145→   145→Direct measures of social disconnection
+   146→   146→Social disconnection was additionally assessed using two direct questions adapted from the
+   147→   147→EU Loneliness survey (Mauri et al. 2024): “How often have you felt lonely/isolated during the
+   148→   148→last four weeks?” Responses were rated on a 5-point Likert scale ranging from never to
+   149→   149→always.
+   150→   150→Statistical Procedures
+   151→   151→All statistical procedures were done using the program Jamovi (Version 2.6) (The jamovi
+   152→   152→project 2024). Firstly, descriptive statistics were used to estimate the prevalence of depression
+   153→   153→and anxiety. Due to violations of normality, Spearman's rank correlation coefficient was used
+   154→   154→to assess the strength of relationships. Finally, two separate multiple linear regression models
+   155→   155→were estimated: one for depressive symptoms measured by the PHQ-9 and another for
+   156→   156→postpartum depression measured by the EPDS, based on demographic and psychopathological
+   157→   157→variables. In both models, GAD-7, UCLA-3, and LSNS-6 scores were added simultaneously
+   158→   158→in addition with demographic variables.
+   159→   159→Results
+   160→   160→The final sample consisted of 410 mothers who completed the questionnaire fully, with a
+   161→   161→mean age of 33.4 (SD=4.61, range 22 - 44). 52.9% had one child, 33.2% were mothers of two
+   162→   162→
+   163→   163→children, 9.5% had three children, and 4.4% had four or more children. The mean length of
+   164→   164→maternity leave was 34.9 months (SD = 28.0, median = 27.5, range 1–176 months). Most
+   165→   165→women (88.3%) lived in a shared household with a partner or husband, while 9.8% lived as
+   166→   166→single mothers. The sample was dominated by women with a high / university education
+   167→   167→(83.7%), while women with middle and low education were less represented (14.9% resp.
+   168→   168→1.5%). Due to the low frequency of participants in the lower categories, education was
+   169→   169→recoded into a binary variable: low (middle and low education) versus high. Family
+   170→   170→socioeconomic status was self-assessed by participants. Four respondents who selected
+   171→   171→“Prefer not to answer” were excluded from the linear regression model. More detailed
+   172→   172→sociodemographic and anamnestic characteristics are presented in Table 1.
+   173→   173→Table 1. Demographic characteristics of the sample.
+   174→   174→M SD
+   175→   175→Age 33.4 4.61
+   176→   176→Maternity leave length (months) 34.9 28.0
+   177→   177→Partner status Frequency Percent
+   178→   178→Shared household
+   179→   179→(married, live with partner) 362 88.3 %
+   180→   180→Single 40 9.8 %
+   181→   181→Divorced 4 1.0 %
+   182→   182→Other 4 1.0 %
+   183→   183→Education
+   184→   184→Low 6 1.5%
+   185→   185→Middle 61 14.9%
+   186→   186→High 343 83.7%
+   187→   187→Number of children
+   188→   188→1 217 52.9%
+   189→   189→2 136 33.2%
+   190→   190→3 39 9.5%
+   191→   191→4 15 3.7%
+   192→   192→5 2 0.5%
+   193→   193→6 1 0.2%
+   194→   194→Family socioeconomic status
+   195→   195→(self-assessed)
+   196→   196→Very good 70 17.1%
+   197→   197→Good/average 317 77.3%
+   198→   198→Below average 19 4.6%
+   199→   199→
+   200→   200→Prefer not to answer* 4 1.0%
+   201→   201→Mode of delivery
+   202→   202→Vaginal delivery 277 67.6%
+   203→   203→Cesarean section 110 26.8%
+   204→   204→Vacuum extraction 20 4.9%
+   205→   205→Other 3 0.7%
+   206→   206→Note. M ‒ Mean, SD ‒ Standard deviation, *in further analysis, participants who preferred not
+   207→   207→to answer were omitted.
+   208→   208→Prevalence of depression, anxiety, loneliness, and social isolation
+   209→   209→Based on established cut-off scores for depressive symptomatology, 36.6% of participants
+   210→   210→scored above the EPDS threshold ≥ 13, 38.3% exceeded the PHQ-9 ≥ 10, and 17.1%
+   211→   211→exceeded the more stringent criteria for severe intensity of symptoms, PHQ-9 ≥ 15.
+   212→   212→Agreement between EPDS (cut-off ≥ 13) and PHQ-9 (cut-off ≥10) classifications was
+   213→   213→examined using McNemar's test. The test indicated no significant difference in the proportion
+   214→   214→of cases identified by the two measures, χ²(1, N = 410) = 0.65, p = .419, suggesting
+   215→   215→comparable classification rates of elevated depressive symptoms. For anxiety, 28.3% of
+   216→   216→participants scored above the GAD-7 ≥ 10, and 10.5% exceeded the cut-off of 15. Overall,
+   217→   217→23.2% of participants met criteria for both depression and anxiety.
+   218→   218→Regarding the direct measure of loneliness, the most frequent response was "sometimes"
+   219→   219→(39.3%), followed by "most of the time" (24.1%). Only 8.8% of participants reported never
+   220→   220→feeling lonely, whereas 4.9% reported feeling lonely all the time during the previous four
+   221→   221→weeks. Similarly, for the direct measure of social isolation, the most frequent response was
+   222→   222→"sometimes" (35.1%), followed by "most of the time" (28.0%). Only 13.7% of participants
+   223→   223→reported never feeling socially isolated, whereas 7.1% reported feeling socially isolated all the
+   224→   224→time during the previous four weeks.
+   225→   225→
+   226→   226→Consistent with these findings, standardized psychometric measures indicated high levels of
+   227→   227→perceived loneliness and social isolation. Based on the UCLA-3, 78.3% of participants
+   228→   228→reported elevated loneliness (score ≥ 6), while 26.8% were classified as being at risk of social
+   229→   229→isolation according to the LSNS-6 (score < 12; see Table 2). Overall, 23.6% of participants
+   230→   230→met criteria for both elevated loneliness and social isolation.
+   231→   231→Impact of depression and anxiety on social disconnection
+   232→   232→Based on the correlation analysis (Table 2), we found that both depression measures PHQ-9
+   233→   233→and EPDS were strongly correlated with GAD-7 (r = .768 and r = .755, respectively, p <
+   234→   234→.001), positively associated with loneliness (PHQ-9: r = .448; EPDS: r = .440, p < .001) and
+   235→   235→negatively associated with social network size (PHQ-9: r = −.279; EPDS: r = −.327, p <
+   236→   236→.001). GAD-7 was positively correlated with loneliness (r = .394, p < .001) and negatively
+   237→   237→with social network size (r = −.244, p < .001). Length of parental leave was weakly associated
+   238→   238→with GAD-7 (r = .124, p = .05), but not with other variables.
+   239→   239→Table 2. Descriptive statistics and correlation matrix between depression, anxiety, loneliness,
+   240→   240→and social isolation
+   241→   241→M SD
+   242→   242→Child leave
+   243→   243→PHQ-9 EPDS GAD-7 LSNS-6 UCLA-3
+   244→   244→length (m)
+   245→   245→Child leave length
+   246→   246→34.9 28.0 —
+   247→   247→(m)
+   248→   248→PHQ-9 8.94 5.45 0.091 —
+   249→   249→EPDS 10.5 5.92 0.056 0.761*** —
+   250→   250→GAD-7 7.53 4.82 0.124* 0.768*** 0.755*** —
+   251→   251→LSNS-6 14.9 5.34 -0.075 -0.279*** -0.327*** -0.244*** —
+   252→   252→UCLA-3 6.82 1.88 0.087 0.448*** 0.440*** 0.394*** -0.287*** —
+   253→   253→Note. PHQ-9 ‒ Patients' Health Questionnaire ‒ depression, EPDS - Edinburgh Postnatal
+   254→   254→Depression Scale, GAD-7 ‒ Generalized Anxiety Disorder, LSNS-6 - Lubben Social Network
+   255→   255→Scale, UCLA-3 - UCLA Loneliness Scale, M ‒ Mean, SD ‒ Standard deviation. * p < .05, ** p
+   256→   256→< .01, *** p < .001
+   257→   257→We conducted two multiple linear regression analyses (see Table 3) to examine whether
+   258→   258→anxiety, loneliness, and social isolation predict depressive symptoms measured by the PHQ-9
+   259→   259→
+   260→   260→and EPDS, while controlling for demographic variables. Both models were statistically
+   261→   261→significant and demonstrated good fit and explained approximately 61–62% of the variance in
+   262→   262→depressive symptoms (PHQ-9: R² = .618, F(8, 397) = 80.2, p < .001; EPDS: R² = .605, F(8,
+   263→   263→397) = 76.1, p < .001). Across both models, anxiety emerged as the strongest positive
+   264→   264→predictor (PHQ-9: β = .701, p < .001; EPDS: β = .647, p < .001). Loneliness was also
+   265→   265→positively associated with depressive symptoms (PHQ-9: β = .135, p < .001; EPDS: β = .173,
+   266→   266→p < .001), whereas social isolation was negatively associated, reaching significance in the
+   267→   267→EPDS model (β = −.111, p < .001) but not in the PHQ-9 model. Among demographic
+   268→   268→variables, only education showed weak associations in the PHQ-9 model (β = −.099, p < .05),
+   269→   269→and age in the EPDS model (β = −.077, p < .05). Other covariates, including SES, number of
+   270→   270→children, and length of parental leave, were not statistically significant in either model.
+   271→   271→Table 3. Summary of hierarchical regression analysis for depressive symptoms measured by
+   272→   272→EPDS and PHQ-9
+   273→   273→PHQ-9 EPDS
+   274→   274→Variable B SE B β B SE B β
+   275→   275→Constant 4.168 1.770 7.487 1.32
+   276→   276→Age -0.012 0.039 -0.010 -0.099 0.043 -.077*
+   277→   277→Subjective SES -0.078 0.382 -0.006 0.314 0.423 0.024
+   278→   278→Education -1.458 0.481 -0.099* -0.975 0.534 -0.061
+   279→   279→Number of children 0.345 0.327 0.055 -0.360 0.362 -0.053
+   280→   280→Child leave length -0.007 0.010 -0.036 0.008 0.011 0.039
+   281→   281→(months)
+   282→   282→GAD-7 0.792 0.038 0.701** 0.798 0.043 .0647**
+   283→   283→LSNS-6 -0.066 0.034 -0.065 -0.123 0.038 -0.111**
+   284→   284→UCLA-3 0.391 0.100 0.135** 0.544 0.111 0.173**
+   285→   285→R2 0.618 0.605
+   286→   286→Adjusted R2 0.610 0.597
+   287→   287→F 80.2** 76.1**
+   288→   288→Note. PHQ-9 ‒ Patients' Health Questionnaire ‒ depression, EPDS - Edinburgh Postnatal
+   289→   289→Depression Scale, GAD-7 ‒ Generalized Anxiety Disorder, LSNS-6 - Lubben Social Network
+   290→   290→Scale, UCLA-3 - UCLA Loneliness Scale, B ‒ unstandardized regression coefficient, SE B –
+   291→   291→standard error of regression coefficient, β ‒ standardized regression coefficient, F ‒ F test, R2
+   292→   292→‒ Coefficient of determination (proportion of explained variance)
+   293→   293→* p < .05, ** p < .001
+   294→   294→
+   295→   295→Discussion
+   296→   296→The findings indicate a substantial psychological burden among mothers on parental leave in
+   297→   297→Slovakia, with 38.3% of women reporting elevated depressive symptoms, 36.6% elevated
+   298→   298→postpartum depressive symptoms, and 28.3% elevated anxiety. More severe symptoms were
+   299→   299→reported by 17.1% for depression and 10.5% for anxiety symptoms.
+   300→   300→Compared with previous research conducted in Slovakia, these prevalence estimates appear
+   301→   301→higher. Earlier studies focusing on the early postpartum period reported lower rates of
+   302→   302→depressive symptoms (6.1% of women shortly after childbirth and 11.6% at 6–8 weeks
+   303→   303→postpartum) (Škodová et al. 2021). A longitudinal study of women affected by COVID-19
+   304→   304→during pregnancy reported higher depressive symptoms at 6 weeks postpartum (17.8%),
+   305→   305→although differences in recruitment, sample characteristics, and follow-up periods limit direct
+   306→   306→comparisons (Holikova et al. 2026). The higher prevalence observed in the present study may
+   307→   307→partly reflect the inclusion of mothers across a longer parental leave period, capturing later
+   308→   308→phases of motherhood associated with cumulative psychosocial stressors. This interpretation
+   309→   309→is consistent with evidence suggesting that depressive symptoms may increase over time after
+   310→   310→childbirth (Shorey et al. 2018). The prevalence of anxiety symptoms also exceeded commonly
+   311→   311→reported postnatal estimates and approached levels observed during periods of increased
+   312→   312→societal stress, such as the COVID-19 pandemic (Caffieri et al. 2024). However, elevated
+   313→   313→prevalence rates may partly reflect selection bias, as recruitment pathways may have
+   314→   314→preferentially attracted women experiencing psychological distress (Kaźmierczak et al. 2023)
+   315→   315→or with a greater interest in mental health. Conversely, perinatal screening studies suggest that
+   316→   316→women with greater socioeconomic resources may be overrepresented, whereas women with
+   317→   317→lower social support, adverse living conditions, chronic illness, exposure to intimate partner
+   318→   318→violence, or minority backgrounds may be underrepresented despite higher perinatal mental
+   319→   319→
+   320→   320→health risks (Yang et al. 2022; Longoria et al. 2024; Barnwell et al. 2024). Furthermore, self-
+   321→   321→report screening measures may yield higher prevalence estimates than structured clinical
+   322→   322→interviews (Levis et al. 2019).
+   323→   323→The strong agreement between the EPDS and PHQ-9 supports their suitability for assessing
+   324→   324→depressive symptoms in maternal populations (Levis et al. 2019). However, the EPDS may
+   325→   325→offer advantages in perinatal contexts because it focuses on emotional symptoms and avoids
+   326→   326→somatic symptoms that may overlap with normal pregnancy and postpartum changes (Wang et
+   327→   327→al. 2021).
+   328→   328→Loneliness was highly prevalent in our sample, affecting 78.3% of participants, while 26.8%
+   329→   329→were at risk of social isolation and 23.6% experienced both. These findings suggest that social
+   330→   330→disconnection is a prominent feature of maternal experience during extended parental leave.
+   331→   331→Following childbirth, family focus often shifts toward the newborn, leaving mothers with
+   332→   332→fewer opportunities to maintain their own social and emotional connections. In addition,
+   333→   333→major life transitions, including relocation for education or employment and the transition to
+   334→   334→parenthood, together with reduced occupational engagement and limited psychosocial support
+   335→   335→during extended parental leave, may contribute to increased loneliness (MPSVR SR 2022;
+   336→   336→Kent-Marvick et al. 2022; Adlington et al. 2023).
+   337→   337→Consistent with previous research, anxiety was the strongest predictor of depressive
+   338→   338→symptoms, reflecting the established comorbidity between these conditions during the
+   339→   339→perinatal period (Falah-Hassani et al. 2017; Howard et al. 2023). Loneliness also
+   340→   340→independently predicted depressive symptoms, supporting previous longitudinal evidence
+   341→   341→linking social disconnection with postpartum depression (Luoma et al. 2015; Adlington et al.
+   342→   342→2023).
+   343→   343→
+   344→   344→Sociodemographic factors were not strong predictors of depressive symptoms, with only age
+   345→   345→and education showing weak associations. Subjective socioeconomic status, number of
+   346→   346→children, and length of parental leave were not significant predictors in the adjusted model.
+   347→   347→These findings should be interpreted cautiously. In contrast to previous evidence linking
+   348→   348→socioeconomic disadvantage to increased risk of perinatal depression (Yang et al. 2022;
+   349→   349→Longoria et al. 2024), socioeconomic indicators showed limited associations with depressive
+   350→   350→symptoms in our sample, which may reflect the sample’s relatively advantaged
+   351→   351→socioeconomic profile. The absence of an association between parental leave duration and
+   352→   352→depressive symptoms may suggest that the protective effects of parental leave (Hidalgo-
+   353→   353→Padilla et al. 2023) plateau beyond the early postpartum period rather than increasing with
+   354→   354→longer leave duration. Because maternal mental health during prolonged parental leave
+   355→   355→remains understudied, these findings extend current evidence beyond the early postpartum
+   356→   356→period.
+   357→   357→From a clinical perspective, these findings support extending perinatal mental health
+   358→   358→assessment beyond the early postpartum period and highlight loneliness as a potentially
+   359→   359→modifiable target for intervention. Screening for loneliness, alongside depression and anxiety,
+   360→   360→and interventions that strengthen peer support, community engagement, maternal self-
+   361→   361→efficacy, and stigma reduction may improve maternal well-being (Hu et al. 2023; Naughton-
+   362→   362→Doe et al. 2025). Future longitudinal research should examine the temporal relationship
+   363→   363→between social disconnection and maternal mental health and evaluate interventions aimed at
+   364→   364→reducing perinatal loneliness.
+   365→   365→Several limitations should be acknowledged. The cross-sectional design prevents conclusions
+   366→   366→regarding causality. Self-report measures may have overestimated prevalence, selection bias
+   367→   367→cannot be excluded, and the study did not assess prior mental health history. The sample was
+   368→   368→predominantly highly educated and partnered, which may limit generalizability to more
+   369→   369→
+   370→   370→vulnerable groups, including single mothers, migrant women, and women with lower
+   371→   371→socioeconomic status. Additionally, the cultural and policy context of Slovakia, including
+   372→   372→extended parental leave and availability of childcare and community services, may limit the
+   373→   373→generalizability of the findings.
+   374→   374→Conclusion
+   375→   375→Mothers on parental leave in Slovakia experience a substantial burden of depressive and
+   376→   376→anxiety symptoms alongside high levels of loneliness and social isolation. Together, these
+   377→   377→findings suggest that maternal psychological vulnerability extends well beyond the early
+   378→   378→postpartum period, particularly in settings with prolonged parental leave. Extending routine
+   379→   379→maternal mental health assessment to include loneliness, alongside interventions that
+   380→   380→strengthen social connectedness, may enhance opportunities for prevention and early
+   381→   381→intervention.
+   382→   382→Statements and Declarations
+   383→   383→Funding
+   384→   384→This work was supported by the European Union – Next Generation EU, Slovak Recovery
+   385→   385→and Resilience Plan (Project No. 09I03-03-V03-00035).
+   386→   386→Competing interests
+   387→   387→The authors have no competing interests to declare.
+   388→   388→Data availability
+   389→   389→Data will be made available upon reasonable request from corresponding author.
+   390→   390→
+   391→   391→Statements and Declarations
+   392→   392→Funding
+   393→   393→This work was supported by the European Union – Next Generation EU, Slovak Recovery
+   394→   394→and Resilience Plan (Project No. 09I03-03-V03-00035).
+   395→   395→Competing interests
+   396→   396→The authors have no competing interests to declare.
+   397→   397→Data availability
+   398→   398→Data will be made available upon reasonable request from corresponding author.
+   399→   399→Ethics approval
+   400→   400→This study was performed in line with the principles of the Declaration of Helsinki. Approval
+   401→   401→was granted by the Ethical Review Board of the Faculty of Arts, Comenius University in
+   402→   402→Bratislava - ER/56/2025.
+   403→   403→Consent to participate
+   404→   404→All participants provided electronic informed consent before participating in the study.
+   405→   405→CRediT authorship contribution statement
+   406→   406→Hana Celušáková: Conceptualization, Methodology, Data curation, Formal analysis,
+   407→   407→Methodology, Investigation, Writing – original draft, Writing – review & editing, Project
+   408→   408→administration; Brandoburová Petra: Conceptualization, Methodology, Writing – review &
+   409→   409→editing, Supervision, Krakovská Simona: Methodology, Writing – review & editing, Project
+   410→   410→administration; Hajdúk Michal: Conceptualization, Methodology, Formal analysis, Writing –
+   411→   411→review & editing, Funding acquisition, Supervision.
+   412→   412→
+   413→   413→Reference
+   414→   414→Adlington K, Vasquez C, Pearce E, et al (2023) ‘Just snap out of it’ – the experience of
+   415→   415→loneliness in women with perinatal depression: a Meta-synthesis of qualitative studies.
+   416→   416→BMC Psychiatry 23:. https://doi.org/10.1186/s12888-023-04532-2
+   417→   417→Barnwell J, Hénault Robert C, Nguyen T-V, et al (2024) Predictors of Participation in a
+   418→   418→Perinatal Text Message Screening Protocol for Maternal Depression and Anxiety:
+   419→   419→Prospective Cohort Study. JMIR Pediatr Parent 7:e53786.
+   420→   420→https://doi.org/10.2196/53786
+   421→   421→British Red Cross CU (2016) Trapped in a bubble An investigation into triggers for loneliness
+   422→   422→in the UK. Kantar Public, London
+   423→   423→Cacioppo JT, Cacioppo S, Capitanio JP, Cole SW (2015) The neuroendocrinology of social
+   424→   424→isolation. Annu Rev Psychol 66:733–767. https://doi.org/10.1146/annurev-psych-
+   425→   425→010814-015240
+   426→   426→Caffieri A, Gómez-Gómez I, Barquero-Jimenez C, et al (2024) Global prevalence of perinatal
+   427→   427→depression and anxiety during the COVID-19 pandemic: An umbrella review and
+   428→   428→meta-analytic synthesis. Acta Obstetricia et Gynecologica Scandinavica 103:210–224.
+   429→   429→https://doi.org/10.1111/aogs.14740
+   430→   430→Cox JL, Holden JM, Sagovsky R (1987) Detection of postnatal depression. Development of
+   431→   431→the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry 150:782–786.
+   432→   432→https://doi.org/10.1192/bjp.150.6.782
+   433→   433→Dennis C-L, Falah-Hassani K, Shiri R (2017) Prevalence of antenatal and postnatal anxiety:
+   434→   434→systematic review and meta-analysis. Br J Psychiatry 210:315–323.
+   435→   435→https://doi.org/10.1192/bjp.bp.116.187179
+   436→   436→Ďuríčeková B, Škodová Z, Bašková M (2024) Risk factors associated with postpartum
+   437→   437→depression and PTSD after birth in a sample of Slovak women. Heliyon 10:e23560.
+   438→   438→https://doi.org/10.1016/j.heliyon.2023.e23560
+   439→   439→Falah-Hassani K, Shiri R, Dennis C-L (2017) The prevalence of antenatal and postnatal co-
+   440→   440→morbid anxiety and depression: a meta-analysis. Psychol Med 47:2041–2053.
+   441→   441→https://doi.org/10.1017/S0033291717000617
+   442→   442→Fawcett EJ, Fairbrother N, Cox ML, et al (2019) The Prevalence of Anxiety Disorders During
+   443→   443→Pregnancy and the Postpartum Period: A Multivariate Bayesian Meta-Analysis. J Clin
+   444→   444→Psychiatry 80:18r12527. https://doi.org/10.4088/JCP.18r12527
+   445→   445→Fish-Williamson A, Hahn-Holbrook J (2023) Nutritional factors and cross-national
+   446→   446→postpartum depression prevalence: an updated meta-analysis and meta-regression of
+   447→   447→412 studies from 46 countries. Front Psychiatry 14:.
+   448→   448→https://doi.org/10.3389/fpsyt.2023.1193490
+   449→   449→Hajduk M, Heretik A, Vaseckova B, et al (2019) Prevalence and correlations of depression
+   450→   450→and anxiety among Slovak college students. Bratisl Lek Listy 120:695–698.
+   451→   451→https://doi.org/10.4149/BLL_2019_117
+   452→   452→
+   453→   453→Hidalgo-Padilla L, Toyama M, Zafra-Tanaka JH, et al (2023) Association between maternity
+   454→   454→leave policies and postpartum depression: a systematic review. Arch Womens Ment
+   455→   455→Health 26:571–580. https://doi.org/10.1007/s00737-023-01350-z
+   456→   456→Holikova C, Goldbergerova A, Borovsky M, et al (2026) Longitudinal Changes in Maternal
+   457→   457→Depressive and Anxiety Symptoms Following COVID-19 During Pregnancy: A
+   458→   458→Cohort Study from Slovakia. Journal of Clinical Medicine 15:3931.
+   459→   459→https://doi.org/10.3390/jcm15103931
+   460→   460→Holt-Lunstad J, Robles T, Sbarra DA (2017) Advancing Social Connection as a Public Health
+   461→   461→Priority in the United States. Am Psychol 72:517–530.
+   462→   462→https://doi.org/10.1037/amp0000103
+   463→   463→Howard LM, Molyneaux E, Dennis C-L, et al (2014) Non-psychotic mental disorders in the
+   464→   464→perinatal period. The Lancet 384:1775–1788. https://doi.org/10.1016/S0140-
+   465→   465→6736(14)61276-9
+   466→   466→Howard S, Witt C, Martin K, et al (2023) Co-occurrence of depression, anxiety, and perinatal
+   467→   467→posttraumatic stress in postpartum persons. BMC Pregnancy Childbirth 23:232.
+   468→   468→https://doi.org/10.1186/s12884-023-05555-z
+   469→   469→Hu Y, Huang S, Xiao M, et al (2023) Barriers and facilitators of psychological help-seeking
+   470→   470→behaviors for perinatal women with depressive symptoms: A qualitative systematic
+   471→   471→review based on the Consolidated Framework for Implementation Research.
+   472→   472→Midwifery 122:103686. https://doi.org/10.1016/j.midw.2023.103686
+   473→   473→Hughes ME, Waite LJ, Hawkley LC, Cacioppo JT (2004) A Short Scale for Measuring
+   474→   474→Loneliness in Large Surveys: Results From Two Population-Based Studies. Res Aging
+   475→   475→26:655–672. https://doi.org/10.1177/0164027504268574
+   476→   476→Jahan N, Went TR, Sultan W, et al (2021) Untreated Depression During Pregnancy and Its
+   477→   477→Effect on Pregnancy Outcomes: A Systematic Review. Cureus 13:e17251.
+   478→   478→https://doi.org/10.7759/cureus.17251
+   479→   479→Jones I, Chandra PS, Dazzan P, Howard LM (2014) Bipolar disorder, affective psychosis, and
+   480→   480→schizophrenia in pregnancy and the post-partum period. The Lancet 384:1789–1799.
+   481→   481→https://doi.org/10.1016/S0140-6736(14)61278-2
+   482→   482→Kaźmierczak I, Zajenkowska A, Rogoza R, et al (2023) Self-selection biases in psychological
+   483→   483→studies: Personality and affective disorders are prevalent among participants. PLoS
+   484→   484→One 18:e0281046. https://doi.org/10.1371/journal.pone.0281046
+   485→   485→Kent-Marvick J, Simonsen S, Pentecost R, et al (2022) Loneliness in pregnant and postpartum
+   486→   486→people and parents of children aged 5 years or younger: a scoping review. Systematic
+   487→   487→Reviews 11:196. https://doi.org/10.1186/s13643-022-02065-5
+   488→   488→Kroenke K, Spitzer RL, Williams JB (2001) The PHQ-9: validity of a brief depression
+   489→   489→severity measure. J Gen Intern Med 16:606–613. https://doi.org/10.1046/j.1525-
+   490→   490→1497.2001.016009606.x
+   491→   491→
+   492→   492→Kruse JA, Williams RA, Seng JS (2014) Considering a Relational Model for Depression in
+   493→   493→Women with Postpartum Depression. Int J Childbirth 4:151–168.
+   494→   494→https://doi.org/10.1891/2156-5287.4.3.151
+   495→   495→Levis B, Yan XW, He C, et al (2019) Comparison of depression prevalence estimates in meta-
+   496→   496→analyses based on screening tools and rating scales versus diagnostic interviews: a
+   497→   497→meta-research review. BMC Med 17:65. https://doi.org/10.1186/s12916-019-1297-6
+   498→   498→Longoria KD, Nguyen TC, Franco-Rocha O, et al (2024) A sum of its parts: A systematic
+   499→   499→review evaluating biopsychosocial and behavioral determinants of perinatal
+   500→   500→depression. PLoS One 19:e0290059. https://doi.org/10.1371/journal.pone.0290059
+   501→   501→Lubben J, Blozik E, Gillmann G, et al (2006a) Performance of an abbreviated version of the
+   502→   502→Lubben Social Network Scale among three European community-dwelling older adult
+   503→   503→populations. Gerontologist 46:503–513. https://doi.org/10.1093/geront/46.4.503
+   504→   504→Lubben J, Blozik E, Gillmann G, et al (2006b) Performance of an abbreviated version of the
+   505→   505→Lubben Social Network Scale among three European community-dwelling older adult
+   506→   506→populations. Gerontologist 46:503–513. https://doi.org/10.1093/geront/46.4.503
+   507→   507→Luoma I, Korhonen M, Salmelin R, Tamminen T (2015) Mothers’ Feelings of Loneliness:
+   508→   508→Prevalence, Risk Factors and Longitudinal Associations with Depressive Symptoms
+   509→   509→and Child Adjustment. European Psychiatry 30:726. https://doi.org/10.1016/S0924-
+   510→   510→9338(15)30576-9
+   511→   511→MacBeth A, Morales MF, Golds L (2026) Intergenerational transmission of mental health
+   512→   512→during the first 1,000 days of life. Nat Rev Psychol 5:105–119.
+   513→   513→https://doi.org/10.1038/s44159-025-00521-2
+   514→   514→Matthey S, Henshaw C, Elliott S, Barnett B (2006) Variability in use of cut-off scores and
+   515→   515→formats on the Edinburgh Postnatal Depression Scale: implications for clinical and
+   516→   516→research practice. Arch Womens Ment Health 9:309–315.
+   517→   517→https://doi.org/10.1007/s00737-006-0152-x
+   518→   518→Mauri C, Barjaková M, Berlingieri F (2024) Measuring Loneliness: The European Union
+   519→   519→Loneliness Survey Covering 27 European Countries. In: Schnepf SV, d’Hombres B,
+   520→   520→Mauri C (eds) Loneliness in Europe: Determinants, Risks and Interventions. Springer
+   521→   521→Nature Switzerland, Cham, pp 13–39
+   522→   522→Motrico E, Moreno-Peral P, Uriko K, et al (2022) Clinical practice guidelines with
+   523→   523→recommendations for peripartum depression: A European systematic review. Acta
+   524→   524→Psychiatrica Scandinavica 146:325–339. https://doi.org/10.1111/acps.13478
+   525→   525→MPSVR SR (2022) Národný strategický rámec na podporu rodiny a demografického vývoja
+   526→   526→do roku 2030
+   527→   527→Naughton-Doe R, Nowland R, Tierney S, et al (2025) Interventions that prevent or reduce
+   528→   528→perinatal loneliness and its proximal determinants: a restricted scoping review. BMC
+   529→   529→Public Health 25:495. https://doi.org/10.1186/s12889-024-20788-z
+   530→   530→Olza I, Uvnas-Moberg K, Ekström-Bergström A, et al (2020) Birth as a neuro-psycho-social
+   531→   531→event: An integrative model of maternal experiences and their relation to
+   532→   532→
+   533→   533→neurohormonal events during childbirth. PLOS ONE 15:1–15.
+   534→   534→https://doi.org/10.1371/journal.pone.0230992
+   535→   535→Pollack LM, Chen J, Cox S, et al (2022) Healthcare Utilization and Costs Associated With
+   536→   536→Perinatal Depression Among Medicaid Enrollees. American Journal of Preventive
+   537→   537→Medicine 62:e333–e341. https://doi.org/10.1016/j.amepre.2021.12.008
+   538→   538→Rejnö G, Lundholm C, Öberg S, et al (2019) Maternal anxiety, depression and asthma and
+   539→   539→adverse pregnancy outcomes – a population based study. Sci Rep 9:13101.
+   540→   540→https://doi.org/10.1038/s41598-019-49508-z
+   541→   541→Saharoy R, Potdukhe A, Wanjari M, Taksande AB (2023) Postpartum Depression and
+   542→   542→Maternal Care: Exploring the Complex Effects on Mothers and Infants. Cureus
+   543→   543→15:e41381. https://doi.org/10.7759/cureus.41381
+   544→   544→Saxbe D, Rossin-Slater M, Goldenberg D (2018) The Transition to Parenthood as a Critical
+   545→   545→Window for Adult Health. American Psychologist 73:1190.
+   546→   546→https://doi.org/10.1037/amp0000376
+   547→   547→Shorey S, Chee CYI, Ng ED, et al (2018) Prevalence and incidence of postpartum depression
+   548→   548→among healthy mothers: A systematic review and meta-analysis. Journal of Psychiatric
+   549→   549→Research 104:235–248. https://doi.org/10.1016/j.jpsychires.2018.08.001
+   550→   550→Škodová Z, Bánovčinová Ľ, Urbanová E, et al (2021) Factor Structure of the Edinburgh
+   551→   551→Postnatal Depression Scale in a Sample of Postpartum Slovak Women. Int J Environ
+   552→   552→Res Public Health 18:6298. https://doi.org/10.3390/ijerph18126298
+   553→   553→Slomian J, Honvo G, Emonts P, et al (2019) Consequences of maternal postpartum
+   554→   554→depression: A systematic review of maternal and infant outcomes. Womens Health
+   555→   555→(Lond) 15:1745506519844044. https://doi.org/10.1177/1745506519844044
+   556→   556→Spitzer RL, Kroenke K, Williams JBW, Löwe B (2006) A brief measure for assessing
+   557→   557→generalized anxiety disorder: the GAD-7. Arch Intern Med 166:1092–1097.
+   558→   558→https://doi.org/10.1001/archinte.166.10.1092
+   559→   559→Steptoe A, Shankar A, Demakakos P, Wardle J (2013) Social isolation, loneliness, and all-
+   560→   560→cause mortality in older men and women. Proc Natl Acad Sci U S A 110:5797–5801.
+   561→   561→https://doi.org/10.1073/pnas.1219686110
+   562→   562→The jamovi project (2024) jamovi (Version 2.6)
+   563→   563→Tuominen M, Junttila N, Ahonen P, Rautava P (2016) The effect of relational continuity of
+   564→   564→care in maternity and child health clinics on parenting self-efficacy of mothers and
+   565→   565→fathers with loneliness and depressive symptoms. Scand J Psychol 57:193–200.
+   566→   566→https://doi.org/10.1111/sjop.12284
+   567→   567→Wang L, Kroenke K, Stump TE, Monahan PO (2021) Screening for Perinatal Depression with
+   568→   568→the Patient Health Questionnaire Depression Scale (PHQ-9): A Systematic Review and
+   569→   569→Meta-analysis. Gen Hosp Psychiatry 68:74–82.
+   570→   570→https://doi.org/10.1016/j.genhosppsych.2020.12.007
+   571→   571→
+   572→   572→Yang K, Wu J, Chen X (2022) Risk factors of perinatal depression in women: a systematic
+   573→   573→review and meta-analysis. BMC Psychiatry 22:63. https://doi.org/10.1186/s12888-
+   574→   574→021-03684-3

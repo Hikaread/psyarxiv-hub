@@ -1,0 +1,778 @@
+     1→Intertwining experience and evidence: how can co-created causal diagrams guide
+     2→meaningful research questions about psychosocial processes in pain? A participatory co-
+     3→design study
+     4→Rebecca M Pearson1,2, Amanda Ly2,3, Neil Heyton-Dumbleton4, Alexandria Andrayas2,3, Megan A
+     5→Chambers1, Noureen Shivji5,6, Rachael Gooberman-Hill7, Samantha Stone7, Matthew A Nunes8,
+     6→Laura Oporto-Lisboa9, Deborah James10, Hannah M Sallis2,3, Tom J Barry11, Amanda C de C
+     7→Williams12, Diego Vitali12, Ernest Choy13, Anthony E Pickering14, Edmund Keogh11,15
+     8→1 Department of Psychology, Manchester Metropolitan University, UK
+     9→2 Centre for Academic Mental Health, Bristol Medical School, University of Bristol, UK
+    10→3 MRC Integrative Epidemiology Unit, University of Bristol, UK
+    11→4 Expert by Experience and Chair of the Working Delivery Group Panel, Consortium to Research
+    12→Individual, Interpersonal and Social Influences in Pain (CRIISP), University of Bath, UK
+    13→5 School of Medicine, Keele University, UK
+    14→6 School of Health Sciences, Bangor University, UK
+    15→7 Translational Health Sciences, Bristol Medical School, University of Bristol, UK
+    16→8 School of Mathematics, University of Bath, UK
+    17→9 Institute for Mathematical Innovation, University of Bath, UK
+    18→10 School of Education, Manchester Metropolitan University, Manchester, UK
+    19→11 Department of Psychology, University of Bath, UK
+    20→12 Clinical, Education, and Health Psychology, University College London, UK
+    21→13 Division of Infection and Immunity, School of Medicine, Cardiff University, UK
+    22→14 School of Physiology, Pharmacology & Neuroscience, University of Bristol, UK
+    23→15 Bath Centre for Pain Research, University of Bath, UK
+    24→Corresponding author: Rebecca M Pearson; R.Pearson@mmu.ac.uk; Department of
+    25→Psychology, Manchester Metropolitan University, UK
+    26→
+    27→Abstract
+    28→Objectives: To develop and implement a co-creation process for common language and multi-
+    29→stakeholder engagement to produce a shared causal framework that helps identify meaningful
+    30→research questions in the context of psychosocial processes in pain and guide data modelling
+    31→decisions.
+    32→Design: Participatory co-design study using facilitated workshops and iterative synthesis to
+    33→develop a ‘Dream’ Directed Acyclic Graph (Dream-DAG). The Dream-DAG represented an
+    34→idealised visual causal map unconstrained by available study measures or specific dataset
+    35→limitations. We used a storm metaphor where different components of the storm (i.e., thunder
+    36→or lightning) mirror the temporal and causal inference features in DAGs (i.e., exposure or
+    37→confounding).
+    38→Setting: A UK-based multidisciplinary pain research consortium involving researchers,
+    39→clinicians and public contributors.
+    40→Participants: 12 participants took part, including 4 experts by experience living with chronic
+    41→pain and 8 professionals including a wide range of researchers (from quantitative and
+    42→qualitative fields), clinicians and data scientists. Participants were invited because of their
+    43→lived, clinical, methodological or data-related expertise relevant to psychosocial processes in
+    44→pain.
+    45→Results: Through the workshops we developed a shared language for causal thinking, a co-
+    46→created Dream-DAG, and an operationalised set of hypothesised pathways to inform future
+    47→data modelling within pain research. The variables and pathways of interest identified as part of
+    48→this process cover a wide range of concepts considered relevant to the development and
+    49→maintenance of pain. This included individual factors such as anxiety and loss of identity,
+    50→interpersonal factors such as disruption to relationships, and the broader role of social worlds.
+    51→Importantly, the DAG mapped the order of influences and highlighted disruption to relationships
+    52→as a potential mediating indirect pathway between pain-related experiences and ongoing pain
+    53→impact. The process also supported translation of experiential, clinical and methodological
+    54→knowledge into testable research questions for use within existing life-course datasets.
+    55→Conclusion: Collaboration using metaphor-based causal diagram development can support
+    56→multidisciplinary pain research teams to integrate expertise from multiple viewpoints which is
+    57→vital to ensure that research questions are meaningful to those with chronic pain. The resulting
+    58→Dream-DAG provides a transparent, theory-informed and experience-informed framework for
+    59→future empirical analyses, with operationalised and testable hypothesised pathways, although
+    60→further work is needed to evaluate its transferability to other research teams, datasets and
+    61→health contexts.
+    62→Strengths and limitations of this study
+    63→• The storm metaphor provided a shared, accessible language for causal diagram
+    64→development, supporting equitable engagement between researchers and experts by
+    65→experience.
+    66→
+    67→• The co-design process enabled people with lived experience of chronic pain to
+    68→contribute to key decisions about concepts, temporal ordering and hypothesised causal
+    69→pathways, shaping future research.
+    70→• Developing a Dream-DAG before considering data constraints helped distinguish
+    71→meaningful research questions from what could be measured in available data.
+    72→• The approach produced a common framework that could guide analyses across
+    73→different research teams and datasets within a multidisciplinary consortium.
+    74→• The process involved a small number of contributors, and some causal features,
+    75→including complex pathways, unavailable measures and effect modification, were
+    76→difficult to represent fully within the DAG and storm metaphor.
+    77→
+    78→1. Introduction
+    79→Context: Higher education institutions and external public and charity research funders are
+    80→increasingly developing infrastructure and schemes to establish large multidisciplinary
+    81→research hubs/consortia to tackle large health challenges, such as mental health and pain.
+    82→Such consortia have the aim of maximising research potential through making more coherent
+    83→and efficient use of existing resources. However, there are challenges in meaningful integration
+    84→within teams with different expertise, including those with expertise by experience, those with
+    85→data-driven or conceptually/clinically driven backgrounds. Members of such teams often have
+    86→different perspectives, priorities and pressures as well as different languages but need to make
+    87→collective decisions.
+    88→The Consortium to Research Individual, Interpersonal and Social Influences in Pain (CRIISP) is
+    89→one of four pain consortia within the Advanced Pain Discovery Platform, which has been funded
+    90→through a joint initiative between UKRI (MRC, ESRC, BBSRC) and Arthritis UK. Here, we describe
+    91→a process through a real-life worked example of one such challenge within CRIISP, where we
+    92→carried out a consultation/engagement activity to guide our multidisciplinary team in developing
+    93→a coherent analysis plan using different large datasets within one of its key work packages.
+    94→Importantly, our aims were to ensure that data decisions were guided by meaningful research
+    95→questions and informed by multiple perspectives, with each form of expertise valued equitably.
+    96→The data problem in CRIISP: In research there are lots of different approaches to analyse and
+    97→compile the ‘data’ that provides researchers and policy makers the ‘statistical findings’ that are
+    98→ultimately used to inform care, policy and form current ‘evidence’. Changes in the variables
+    99→selected for analysis and the order they appear in statistical models can drastically change the
+   100→resulting inference and subsequent decision making. It is important therefore that data-analytic
+   101→choices are directed by what is most relevant and meaningful to experiences and that the
+   102→assumptions that are made in data models are understood and interrogated. The same
+   103→variables modelled in different ways can give very different answers. Thus, such decisions
+   104→should be co-produced by those with different forms of knowledge and interest. To do this,
+   105→causal analytical models need to be transparent and accessible to those who hold vital
+   106→experiential knowledge but may not be trained in epidemiology.
+   107→Here, in the context of a large research consortium our objective was to investigate
+   108→psychosocial processes involved in pain across several rich longitudinal cohort datasets. To
+   109→meet this objective we present how researchers, clinicians and experts by experience can co-
+   110→create a common data language and make joint decisions on data choice and analysis plans.
+   111→Defining Data: Put simply, ‘data’ consists of numbers or categories that represent aspects of
+   112→individuals’ experiences, attributes and characteristics across several ‘variables’. A variable is
+   113→something that can vary from person to person. For example, age is a variable: each person in a
+   114→dataset has a value for age. How age is recorded can vary between studies; it may be measured
+   115→in days, months or years, or grouped into categories such as young, mid-life or older adult. Most
+   116→analyses of data, in their simplest form, look at how two or more variables are connected. For
+   117→example, we might ask whether people with higher depression scores also tend to report higher
+   118→pain scores.
+   119→
+   120→However, the tested link between the two scores could be used to infer two different research
+   121→questions: whether depression leads to later pain, or whether pain leads to later depression. In
+   122→a statistical model, we may specify depression as the exposure (i.e. the risk factor, the cause,
+   123→the X or in the equation) and pain as the outcome or dependent variable (i.e. Y in the equation).
+   124→Alternatively, we could reverse this order and put the pain score first in our model. Although
+   125→these two models imply different causal questions, it is impossible for the model alone to
+   126→establish the direction of causation. This is why it is important to define the research question
+   127→and hypothesised causal direction before analysing the data.
+   128→Directed Acyclic Graphs (DAGs) are a graphical tool used in epidemiology and mathematics to
+   129→aid causal inference (1,2). They are being utilized across a range of health conditions (3),
+   130→including more recently pain (4). DAGs are used to visualise the assumptions that we make
+   131→about the causal relationship of interest and describe other variables we think might be related
+   132→or influence that relationship. DAGs use rules to guide the researcher in identifying whether the
+   133→causal connection of interest can be identified without bias and, if so, what must be done either
+   134→in study design or data analysis to achieve this. Importantly, given the visual and theoretical
+   135→nature of DAGs, they also open the door to two further opportunities: 1. Co-working because
+   136→the construction of the DAG is task-oriented and interactive and 2. Translation and accessibility
+   137→of complex epidemiological concepts in a visual way to allow true co-design in a common
+   138→visual framework.
+   139→In this study we focus on a ‘Dream-DAG’ to map hypothesised psychosocial processes involved
+   140→in pain over time, of which there are many possibilities with complex inter-relationships.
+   141→Drawing on De Paepe et al. (4), the ‘dream’ concept refers to developing a causal diagram under
+   142→‘ideal’ circumstances before considering the practical constraints of data availability,
+   143→measurement capacity, time, resources, statistical power (i.e., having a large enough sample
+   144→size) or contextual variation. Instead, the Dream-DAG does not necessarily need to directly
+   145→reflect reality and starts with a blank canvas to allow consideration of the causal question of
+   146→interest. This is particularly relevant for psychosocial pain research, where many constructs,
+   147→such as validation of pain symptoms are abstract and difficult to measure.
+   148→In this article we describe the process towards a co-designed Dream-DAG within a large pain
+   149→research consortium aiming to understand psychosocial pathways in pain. The process brought
+   150→together people living with personal experience of living with chronic pain, through the project’s
+   151→public involvement group described in detail elsewhere (5), alongside clinical, data and
+   152→conceptual expertise. While previous work has incorporated varied stakeholders into DAG
+   153→development in similar contexts (4), we adapted this process further by using a storm metaphor
+   154→as a tool to translate the concepts and language of ‘data’ and causal inference, and break
+   155→barriers between lived experience and research evidence generation.
+   156→Specific aim and objectives
+   157→Our aim was to develop a DAG to inform meaningful research questions linked to psychosocial
+   158→mechanisms in pain.
+   159→We had two key objectives to meet this aim:
+   160→
+   161→1. To develop a common language of ‘data’ and causal thinking that could reduce barriers
+   162→between the experiences of those living with chronic pain and the translation of that
+   163→experience into DAGs to design analysis
+   164→2. To create a structured process to navigate and organise contributions within DAGs from
+   165→a wide, mixed audience with equity (i.e. equal chance for decision making), where
+   166→contributions from all are equally weighted in decision making and actions (i.e., what
+   167→variables are included and in what order they appear).
+   168→
+   169→2. Approach
+   170→We take a Consultation and Engagement Framework where public contributors (PCs) were
+   171→active decision makers in the design and approach to our data modelling approach, rather than
+   172→contributing as research participants. CRIISP has an existing public involvement framework,
+   173→reported in detail by Grieve and colleagues (5). Public contributors were defined as individuals
+   174→who have lived experience of chronic pain, either through their own pain experiences or through
+   175→supporting someone else with chronic pain, such as in a caring role. For the engagement
+   176→activities reported here we worked with the public contributors who were members of the big
+   177→data work package development group (5).
+   178→2. 1 Developing a common language for DAGs
+   179→DAGs can identify variables that, if controlled for in the design or analysis phase, are sufficient
+   180→to minimise confounding (non-causal paths) and some forms of selection bias (i.e. who is more
+   181→likely to be in your dataset). DAGs have considerably improved our understanding of
+   182→assumptions and biases in observational epidemiology (6). Online visualisation tools such as
+   183→DAGitty (https://www.dagitty.net/) have also widened the use of DAGs by providing accessible
+   184→ways to draw and analyse causal diagrams, identify implications for statistical adjustment, and
+   185→translate causal assumptions into data analysis plans, see Textor et al. (7).
+   186→Two key features of DAGs needed to be explained in accessible terms to support a shared
+   187→language: they are ‘directed’ and ‘acyclic’.
+   188→Directed means that the links (edges) between variables (nodes) have a direction. In other
+   189→words, arrows point from one variable to another to represent a hypothesised causal direction.
+   190→This can be challenging in psychosocial pain research because many concepts behind the data
+   191→points, such as mood, pain and social relationships, have flexible temporality meaning they
+   192→fluctuate over time and may influence each other in different ways at different points.
+   193→Acyclic means that the diagram does not contain ‘loops’. An arrow cannot lead from a later
+   194→consequence or descendant (outcome) back to an earlier ancestor (cause) within the same
+   195→causal structure. This is important because this allows the relationships in the DAG to be
+   196→assessed using statistical models underpinned by mathematical theory. However, the direction
+   197→of the arrow is not determined by the data or the analysis. Instead, the directions are justified
+   198→using knowledge around timing, theory or plausible mechanisms. For some variables this
+   199→ordering may be straightforward. For example, genotype is determined at conception even if
+   200→DNA is only measured much later in life. For psychosocial processes in pain, however, these
+   201→decisions are often more complex because experiences are dynamic and reciprocal over time.
+   202→2.2 Translating DAG features to a common language via a storm metaphor.
+   203→These terms are central to how DAGs work, but can be difficult to engage with without
+   204→translation into more familiar language. To support this translation, we used a storm metaphor
+   205→to explain these two core features of DAGs: taking a direction and not going in a loop. We chose
+   206→a metaphor that did not rely solely on technical or verbal explanations, but instead used familiar
+   207→
+   208→visual and sensory concepts that would be universally relatable and easy-to-understand for all
+   209→ages, cultures, and genders.
+   210→We also selected the storm metaphor because storms contain multiple components that can
+   211→be used to represent features of DAGs.
+   212→First, storm components have flexible temporality: for example, rain may occur before or after
+   213→sunshine. This mirrors the challenge of deciding how variables should be ordered when there is
+   214→no single obvious temporal sequence, and provides a tool for discussing and debating this
+   215→order.
+   216→Second, storms are dynamic: their components can change in intensity, such as rain being light
+   217→or heavy. This allowed discussion of modifiable and changeable aspects of pain impact, such
+   218→as family relationships or symptoms of anxiety, which may also vary in intensity over time.
+   219→Third, storm components often carry a broadly understood valence: for example, rainbows may
+   220→be viewed positively, rain negatively, and lightning as sudden or threatening. This provided a
+   221→language for discussing prioritisation and direction of influence, including whether a concept
+   222→may worsen or buffer another process (so both the rain and the cloud might link in the same
+   223→direction to the thunder, but the rain makes it worse, and the rainbow makes it better).
+   224→We proposed that this metaphor would help researchers, clinicians and experts by experience
+   225→think together and co-construct statistical models. In doing so, it created conditions for new
+   226→and creative discussion about how to prioritise and order variables in the way that DAG
+   227→development requires. The building blocks of a DAG, and how each was translated into a
+   228→building block of a storm, are shown in Box 1.
+   229→
+   230→BOX 1: Mirroring of Epidemiological Concepts with Storm Metaphor
+   231→OUTCOMES:
+   232→Epidemiology - This is the presenting problem, the end point, symptoms or health condition.
+   233→Storm - The storm itself. How long it lasts/how it feels, the impact it has, which component (rain, thunder or
+   234→a combination) is experienced as the problem.
+   235→EXPOSURES:
+   236→Epidemiology - These are possible causes, things that may have led to the problem, triggers/origins,
+   237→underlying issues.
+   238→Storm - The hot weather that set off the storm perhaps.
+   239→MEDIATORS:
+   240→Epidemiology - These are things that happen along the way, knock on effects that make things worse,
+   241→‘triggers’ or ‘glimmers’ that make things better
+   242→Storm - The rainbow or sun breaking through the rain cloud, if the psychological impact of the storm were our
+   243→outcome.
+   244→MODERATORS:
+   245→Epidemiology - These are things that happen along the way, but not in a chain of events, they are outside
+   246→influences.
+   247→Storm - Elements of the environment that amplify noise or provide shelter.
+   248→CONFOUNDERS:
+   249→Epidemiology - Common causes of the exposure and outcome, but which do not directly link the pathway
+   250→between the cause and the problem.
+   251→Storm - the thunder in the rainstorm is also occurring but the thunder is not the part of the storm making you
+   252→cold and wet. These factors are important because if you focus on them, it will not help (e.g., if you do not
+   253→want to get wet, you need to avoid the rain not the thunder).
+   254→2.3 Co- Development and Consolidation Activities
+   255→Two workshops ran in the same way with different ‘stakeholders’ comprising of members from
+   256→the CRIISP project team. One workshop comprised of 4 members of the CRIISP public
+   257→contributor work package development group (5) whereas the other comprised of 8 researchers
+   258→from the large dataset work stream. During each workshop, DAGs were independently
+   259→constructed, then combined – see the series of events in Flowchart 1. All workshops were led by
+   260→RP who is a trained epidemiologist with experience and expertise in DAGs, but with no lived,
+   261→clinical or research experience in the field of pain specifically. RP is a co-applicant on CRIISP.
+   262→
+   263→Invite and
+   264→preparation 2 weeks
+   265→instructions
+   266→Live co-design Workshop 1 (Experts by Live co-design Workshop 2 (Experts by
+   267→Experience) Academic or Clinical training)
+   268→2 weeks
+   269→DAG 1 sent by RP to workshop 1 DAG 2 sent by RP to attendees
+   270→attendees via secure share point via email and share point file
+   271→Homework Homework
+   272→2 weeks
+   273→comments comments
+   274→Live consolidation meeting (Experts Live consolidation meeting (Experts
+   275→by Experience) by Academic or Clinical training)
+   276→Presentation of DAG 2 Presentation of DAG 1
+   277→Integrated DAG 3 by RP
+   278→2 weeks
+   279→Feedback to experts
+   280→by experience and
+   281→map to data
+   282→Flowchart 1. Series of events during co-design study
+   283→
+   284→2.4 Overall procedure of co-development of the initial DAG live workshops.
+   285→At the start of each workshop, attendees were introduced to DAGs and to the concepts of
+   286→outcomes, exposures, mediators and confounders using the storm metaphor, presented
+   287→through a PowerPoint slide deck (see supplementary file). Each DAG component was then
+   288→considered in turn. For each component, RP presented the relevant definition and metaphor,
+   289→which remained visible on screen while attendees were given 5 minutes for individual reflection.
+   290→During this time, attendees were asked to consider the definition and generate up to five
+   291→possible ideas for variables or constructs that might fit. Attendees could record their ideas on
+   292→physical or virtual post-it notes, share verbally, or enter into the online chat function.
+   293→The session was divided equally across each component, with approximately 10–15 minutes
+   294→spent on each. After individual reflection, attendees each outlined their ideas, listened to
+   295→others’ suggestions and discussed as a group. For outcomes and exposures, attendees were
+   296→then asked to prioritise just one variable or construct. For mediating, moderating and
+   297→confounding variables, as many constructs as mentioned could be included.
+   298→Discussion followed the structure of the DAG, beginning with the outcome, then identifying
+   299→exposures, mediators and confounders. Particular attention was given to temporal ordering,
+   300→with participants encouraged to consider when each variable would occur relative to the others,
+   301→for example what happens first, what follows, and what may occur simultaneously. This helped
+   302→distinguish between the components and ensure that proposed relationships were temporally
+   303→plausible.
+   304→Agreement was reached through an iterative process. Concepts suggested by multiple
+   305→attendees were prioritised and, where possible, the most frequently mentioned option was
+   306→taken forward. Where suggestions differed, attendees discussed whether they represented
+   307→distinct concepts or different ways of describing a shared underlying idea. For outcomes and
+   308→exposures, where only one variable was selected, the facilitator supported further discussion
+   309→until a pragmatic consensus was reached. Then attendees considered when each concept
+   310→occurred, how it related to other variables, and whether it should be represented as an
+   311→exposure, mediator, moderator or confounder. Where disagreements occurred, the group
+   312→discussed both the concept itself and its timing, considering alternative ways to represent or
+   313→integrate it within the sequence of events. This process produced a shared set of variables and
+   314→relationships that formed the building blocks for a coherent research question and subsequent
+   315→DAG.
+   316→The agreed variables and relationships were then entered into DAGitty, moving the discussion
+   317→from generating and prioritising ideas to specification of the causal structure. The visual
+   318→placement of variables was was used to reflect the agreed conceptual and temporal order,
+   319→while arrows represented the hypothesised direction of influence. This step required attendees
+   320→to define and decide each variable’s role from the perspective of the chosen exposure-outcome
+   321→pathway, because the same concept may function differently across research questions. For
+   322→example, a variable that acts as a mediator in one pathway may be an exposure or confounder
+   323→in another.
+   324→
+   325→3. Results
+   326→3.1 Description of the Expert by Experience (Work Package Development Group) DAG
+   327→We conducted a 2-hour online workshop with 4 public contributors who were part of the CRIISP
+   328→work package development group (WDG). In this workshop the researcher (RP) introduced the
+   329→concept of DAGs to the public contributors and guided them using the ‘storm’ metaphor in the
+   330→context of pain to define concepts of outcomes, exposures, mediators, moderators and
+   331→confounders.
+   332→Step 1: Outcome and Exposure. RP placed the agreed outcome and exposure, into DAGitty,
+   333→but with no linked arrows at this point. Exposure and outcome were assigned as such using
+   334→DAGitty’s variable options (Figure 1).
+   335→Figure 1. Inclusion of exposure and outcome (Step 1)
+   336→Step 2: Identifying other variables. At this step, all other variables were included, but not
+   337→assigned a category (Figure 2). This was because the distinction between confounder and
+   338→mediator would only become apparent as a consequence of the arrows, and the direction of
+   339→them linking exposure to outcome.
+   340→
+   341→Figure 2. Inclusion of mediating, confounding and moderating variables (Step 2)
+   342→Step 3: Assigning roles to variables. The WDG discussed how to link each grey variable to
+   343→exposure and outcome, as either confounders or mediators. This approach conformed to DAG
+   344→rules of one direction only and no loops. Once connections to the exposure and outcome were
+   345→assigned, DAGitty displays with colour assignment how the variable is conceptualised. In Figure
+   346→3, for example, ‘life changes/context’ is in red meaning it is a confounder, with arrows going from
+   347→the variable to both X (first presentation of pain) and Y (pain stopping you participating in life). In
+   348→Figure 4, ‘support’ is then considered a mediator, because the arrows go from the exposure
+   349→‘presentation of pain’ exposure to ‘support’ and from ‘support’ to the outcome ‘pain stopping
+   350→you participating in life’.
+   351→
+   352→Figure 3. Representation of a confounding variable connected by red arrows (Step 3)
+   353→Figure 4. Inclusion of mediating variable indicated by green arrows (Step 3)
+   354→
+   355→Step 4: Agreeing the final model. This step involved discussions around the model, and
+   356→settling on a final agreed version. Discussion highlighted the use of the storm metaphor as
+   357→relating to the impact pain had on people’s lives. All public contributors referred to the impact
+   358→pain has as the primary outcome; interestingly, different wording was used initially, but all
+   359→agreed this referred to the same underlying concept. The journey people with pain have was
+   360→seen as starting with the presentation of pain and it stopping them doing what they want to (high
+   361→impact) through to a situation where pain continues but they can still participate in activities
+   362→they want to (low impact). This procedure allowed for a dynamic, iterative and co-created visual
+   363→construction of pathways, until all variables were linked into a final agreed model (Figure 5).
+   364→Figure 5. DAG 1 produced by the WDG. Exposure (X) - initial pain presentation. Outcome (Y) -
+   365→pain stopping you from doing what you would like to do.
+   366→3.2 Description of the Experts by academic and/or clinical experience DAG
+   367→The same set of steps was followed with 8 researchers, using the same definitions and building
+   368→the DAG in DAGitty on a shared screen facilitated by RP. Attendees comprised of researchers
+   369→associated with the CRIISP large cohort work package. This group included academics with
+   370→expertise in pain psychology (e.g., EK, CRIISP PI; TB, CI), those with academic and clinical roles
+   371→(e.g., AW, Consultant Clinical Psychologist; TP, anaesthetist and pain clinician), pain
+   372→researchers employed on the project (e.g., AL, DV), and data scientists (LO).
+   373→Step 1: During discussions around the developed DAG the experts by academic or clinical
+   374→training initially listed possible pain outcomes from pain intensity, duration to pain impact.
+   375→These were collated and the group were asked to rank in importance. There was universal
+   376→
+   377→agreement that pain impact should be prioritised as the outcome of most importance. However,
+   378→different attendees emphasises different aspects of pain impact, including effects on work,
+   379→self-care or social life. Rather than selecting one aspect, the group agreed that the DAG should
+   380→represent pain impact as a multidimensional outcome comprising these three domains.
+   381→Step 2: The broader work on CRIISP had already conducted a series of systematic reviews of the
+   382→literature (8,9) and therefore lists of key variables from the literature were brought to the
+   383→session.
+   384→Steps 3-4: Although similar pathways may exist across domains (relationships may be
+   385→impacted by all domains) the magnitude of this impact was potentially different across domains
+   386→(i.e. stronger for pain that impacts social life). In addition, the role of relationships was initially a
+   387→source of debate. Some attendees viewed relationships as a protective or contextual factor that
+   388→could moderate the impact of pain, while others viewed relationships as mediating part of the
+   389→causal chain linking pain to later outcomes. A proposed solution was to include change in
+   390→relationships as the mediator, and prior social context as background. This is represented in the
+   391→final agreed upon DAG (Figure 6).
+   392→Figure 6. DAG 2 produced by the academic researchers/clinicians/scientists. Exposure (X) -
+   393→pain impact at time 1 (i.e., preventing the impact of pain, impact getting worse over time).
+   394→Outcome (Y) - pain impact across social, occupational and self-care at time 2.
+   395→Figure 6: DAG 2, exposure (X) pain impact at time 1. (i.e., preventing the impact of pain, impact
+   396→getting worse over time) outcome (Y) pain impact across social, occupational and self-care at
+   397→time 2.
+   398→
+   399→3.3 Consolidation/integration process
+   400→Following the two workshops, we engaged in a process of consolidation with the aim of
+   401→integrating and sense checking areas of similarities and differences between the DAGs from
+   402→workshops 1 and 2, separating language differences from conceptual disagreements (see
+   403→Figure 7).
+   404→Figure 7. Comparison of DAGs as presented to each group with a key focus on mutually
+   405→identified processes, highlighted in the purple circle.
+   406→To achieve integration, the two DAGs were presented to each group in separate 1-hour online
+   407→meetings: public contributors in the WDG were shown the researchers’ DAG and vice versa. The
+   408→groups discussed commonalities and common languages. The WDG reflected and expanded
+   409→their DAG, suggesting how some factors intertwined to have better or worse effects on pain. Key
+   410→areas of overlap between the DAGs were identified. For example, for the WDG DAG outcome
+   411→was ‘pain stopping you participating in life’, whereas for researchers ‘pain impact’ was
+   412→identified, which was agreed to reflect the same construct. Similarly, the exposure of initial
+   413→presentation of pain with impact in the WDG DAG can be represented by including pain with
+   414→impact at time 1 and following up pain impact at time 2. The three impact domains identified by
+   415→researchers were also agreed as relevant and best modelled in separate pathways (note: due to
+   416→all domains including the same pathways for simplicity the integrated DAG is presented here),
+   417→and the importance of pain uncertainty highlighted in the WDG DAG, which was not directly
+   418→reflected in the researcher DAG, was incorporated within the pain cognitions and pain anxiety
+   419→components.
+   420→Feedback from discussions were integrated by RP, identifying possible common phrases. The
+   421→WDG also were given offline ‘homework’ tasks to consider terms. Here, it was also explained
+   422→that some of the bidirectional arrows initially included in the WDG DAG were not possible to
+   423→model but were represented as change in variables e.g., multiple bidirectional arrows linked to
+   424→confidence were represented as change in confidence/adaptation in the integrated DAG.
+   425→3.4 The final integrated DAG
+   426→
+   427→The final integrated DAG was generated in DAGitty and presented in Figure 8. In this final model,
+   428→confounding variables are selected as ‘adjusted’ for and represented in white. In our ‘Dream’
+   429→model scenario we can measure all confounding variables and thus estimate the exposure-
+   430→outcome relationship and mediating pathways accounting for all considered confounding. In
+   431→reality, this may not be possible, and reselecting confounding variable as unmeasured
+   432→highlights the paths that are impacted. Figure 9 presents an example of this, where culture is
+   433→indicated as unobserved.
+   434→The final DAG (Figure 8) was shared with the wider CRIISP team for feedback. Reflection
+   435→opportunities were also given to both DAG groups to understand if the workshop process had
+   436→achieved equity in decisions making. For example, the WDG group reflected on how the DAG
+   437→process empowered them to see ‘where’ their experiences contributed, which also motivated
+   438→them to engage further in the research.
+   439→Figure 8. The final integrated DAG
+   440→
+   441→Figure 9. The adjusted integrated DAG where ‘culture' is indicated as an unobserved variable.
+   442→
+   443→4. Discussion
+   444→In summary, in using the storm metaphor and iterative visual mapping process we have
+   445→demonstrated a structured approach for developing a common language around data and
+   446→causal thinking, and for translating this into meaningful and testable DAGs. The process also
+   447→supported equitable contribution from a wide and mixed group of attendees by creating
+   448→opportunities for all participants to suggest, prioritise and discuss variables, as well as their
+   449→placement within the DAG. In this way, decisions about what was included, how concepts were
+   450→ordered, and how relationships were represented were shaped collectively, where public
+   451→contribution and varied research / clinical opinion could be equally weighted. The following
+   452→section outlines the key learning and reflections from the DAG generation exercise.
+   453→4. 1 Action 1- Reconceptualising the ‘outcome’ as an ‘exposure-outcome’ relationship
+   454→When discussing the ‘problem’ and separating it out from the rest of the mechanisms it became
+   455→clear in both groups that the part people wanted to change most was not pain, but the impact
+   456→pain has on life. Pain was therefore not viewed as the outcome, but rather ongoing pain that
+   457→iteratively impacts lives was the focus. This reflects a temporal aspect to pain, and the
+   458→conceptual approach taken by the CRIISP project around pain states and transition (10). It is
+   459→thus an exposure-outcome relationship that we wanted to understand, how pain impacts on
+   460→lives and how this unfolds over time i.e., gets better, gets worse or is maintained. Utilising the
+   461→DAG approach required reconceptualising the outcome as an exposure-outcome relationship.
+   462→In DAG terms, pain impact at time 1 (baseline) is the exposure, and the outcome is continued
+   463→impact at time 2 (follow-up). Figure 10 demonstrates the detailed representation of the
+   464→exposure to outcome parameterisation, that in the integrated DAG was collapsed across
+   465→domains of impact and simplified to ‘extent of pain impact’.
+   466→
+   467→Figure 10. Representation of the exposure to outcome relationship in the DAG process. The
+   468→figure shown is the ‘raw’ DAG from the workshops with variables labelled as they were in initial
+   469→discussions before consolidation.
+   470→4.2 The role of time and identification of key processes
+   471→Another area of shared learning was the importance of time in the definition of our exposure and
+   472→outcome. Time is a powerful tool in epidemiology, but its complexity can be overlooked. In
+   473→DAGs, the timing and sequence of events are often used to guide the direction of arrows:
+   474→causes should occur before their consequences. This can help researchers order variables,
+   475→trace possible chains of events, and identify appropriate measures across longitudinal
+   476→datasets.
+   477→However, the order of events can become restrictive if time is taken too literally. For example,
+   478→the point at which a life event occurs may differ from the point at which the event had its
+   479→greatest impact. Similarly, a reaction to pain that has negative short-term consequence may
+   480→have a positive longer-term impact. In the workshops, visual spacing was therefore used to
+   481→represent the meaning and perceived impact of events rather than the exact temporal distance
+   482→between them.
+   483→This was reflected in the initial DAGs, where a large cluster of variables occupied substantial
+   484→visual space because they represented the initial reaction to pain, even though this period may
+   485→only have lasted a few days. Time is important to keep in mind in DAGs.
+   486→
+   487→4.3 Usefulness of the approach to disentangle proposed mediators and moderators
+   488→The approach enabled the groups to map variables and together make difficult decisions on
+   489→whether or not they are mediators or moderators. Key examples of this are given below.
+   490→Figure 11. Zoomed in to one key prioritised pathway in the final integrated DAG
+   491→4.3.1 Internal mediators (reactivity, confidence and identity)
+   492→The initial variables discussed as part of the pathway ‘within’ the chain of events, therefore
+   493→acting as mediators in epidemiology terms) involved feelings of uncertainty. Identity loss linked
+   494→to uncertainty was placed in the more ‘immediate time’ close to the exposure variables by the
+   495→WDG group and agreed in consolidation processes with researchers as an early mediating
+   496→variable.
+   497→4.3.2 Interpersonal mediators (relationships)
+   498→The consideration of relational processes as a ‘mediator’ rather than a potential risk factor (i.e.
+   499→exposure) or ‘moderator’ was also carefully considered. In epidemiological terms a moderator is
+   500→external to the pathway, but in some way alters the strength or direction between two variables.
+   501→The storm metaphor enabled the placement of relationships as a mediator, it provided the
+   502→common language which meant public contributors clarified that relationships were not
+   503→something outside of the ‘storm’ like a rainbow, but part of the chain of events ‘within’ the core
+   504→
+   505→sequence that links pain to its wider impact on peoples’ lives. The mechanisms informing the
+   506→direction of the link between initial pain and social connections included not wanting to feel like
+   507→a burden, pain symptom experience impacting social ‘performance’ and masking of pain.
+   508→Representing relational impact as a mediator is then important because this implies that if
+   509→psychosocial interventions focus on harnessing positive support in relationships, even if they
+   510→don’t reduce pain, they could reduce pain impact.
+   511→4.4 Mapping the differences between DAGs
+   512→Comparing the two initial DAGs also allowed us to explore differences in how concepts were
+   513→prioritised and represented between public contributors and researchers. For example,
+   514→medication use, and side effects, were prominent in the experts-by-experience DAG, but not in
+   515→the researcher DAG. On discussion, the group agreed that these concepts were partly captured
+   516→through the broader concepts of intervention and physical state, with physical state understood
+   517→as the combined manifestation of the pain itself and any medication and side effects.
+   518→Conversely, sleep was explicitly included in the researchers DAG but not the initial experts-by-
+   519→experience DAG. On consolidation the group felt this to be relevant to both the uncertainty and
+   520→ongoing impact of pain.
+   521→4.5 Comparison to previous co-designed DAGs:
+   522→Previous researchers have developed a similar approach, and they share the same emphasis on
+   523→the value of the perspective of those with lived experience of chronic pain, and the importance
+   524→of ensuring that all aspects of DAGs are explained to those without a clinical or research
+   525→background using accessible language (4). However, our approach differs due to the use of the
+   526→storm metaphor which provides a systematic creative method to support inclusion. The
+   527→metaphor translates the more conceptually challenging and technical features of DAGs (e.g.
+   528→the difference between mediators, moderators and confounders) into more familiar concepts
+   529→(e.g. the sun, shelter and thunder). This allowed multiple stakeholders to contribute
+   530→meaningfully to the development of future research questions. In addition, it was suitable to the
+   531→specific psychosocial mechanisms of interest to the consortium.
+   532→4.6 Strengths
+   533→This approach has several strengths. Firstly, the use of the storm metaphor created a common
+   534→language that allowed researchers and experts by experience to have equity in the decisions
+   535→made. It placed equal value on variable input as well as where they were placed in the DAGs. It
+   536→also created a map to allow us to combine different parts of the mechanisms proposed by the
+   537→DAG, but to then isolate individual pathways that can be tested in specific datasets. In the
+   538→context of the CRIISP project this was important given different research teams were working on
+   539→specific datasets, but the consortium as a whole sought to harmonise research questions,
+   540→analytical approaches, and findings across datasets. Having a clear framework provided a way
+   541→to test specific pathways where data allowed, while maintaining a common mission and
+   542→structure for combining findings later on.
+   543→An important by-product of this approach was wider engagement of public contributors, who
+   544→had the opportunity to share decision-making power by shaping key choices in what variables
+   545→were considered as outcomes and exposures, and the direction of arrows between them. It
+   546→
+   547→enabled those with lived experience of chronic pain to shape future research and to ensure it
+   548→was meaningful to their experiences, while being accessible and enjoyable, which also
+   549→increased general engagement with the CRIISP project. Ultimately, the approach has led to
+   550→more impactful research. In this specific example, the produced DAG model has been
+   551→empirically tested in real data and has led to evidence for important and previously unknown
+   552→pathways highlighting the impact of pain in emerging adults on disrupting later social
+   553→relationships (11). While the link between pain and relationships was already considered in the
+   554→literature, the direction of the association (going from pain impact to relationships) and
+   555→specification of relationships as a mediating variable was a direct consequence and change in
+   556→model specification following the Dream-DAG co-design. Put simply, if not for the co-design
+   557→framework the specific mediating pathway would not have been included.
+   558→Limitations
+   559→Some limitations of this approach should be noted. For example, DAGs can be incredibly
+   560→complex, and it can be impossible to test some pathways due to unavailability of data (for
+   561→example, there is no measure of uncertainty). Also, the concept of effect modification can be
+   562→difficult to represent in DAGs. Although some guidance does exist (12) it is currently not a
+   563→programmed feature in DAGItty. Furthermore, the use of the storm metaphor can also be seen
+   564→as limited in its approach where, for example, features of the storm (rain, sun, wind etc) do not
+   565→fully mirror the complexity and number of features of most causal models. There is scope,
+   566→however, to consider the use of other metaphors in future research, as we hypothesise that it is
+   567→not the metaphor itself per se, but rather the process that offers a simplified, universal and
+   568→relatable concept that is de-personalised from one’s own story. Furthermore, only a small
+   569→number of experts by experience and experts by academic or clinical training were included.
+   570→While this was appropriate for the nature of the involvement activities, which required space for
+   571→discussion and input, it may have limited the breadth of perspectives represented. The outlined
+   572→process/framework can now inform future work that could build on this by engaging with more
+   573→diverse groups of contributors.
+   574→Conclusion
+   575→The final integrated Dream-DAG poses an accessible, interactive consultation and engagement
+   576→activity which mapped complex processes and produced unique and testable models. In future
+   577→steps the CRIISP team are empirically testing research questions from the CRIISP Dream-DAG
+   578→in existing data sets and guiding future decisions on measurement of missing concepts, such as
+   579→identity and uncertainty of pain.
+   580→
+   581→Funding statement
+   582→This work was supported by a joint and equal investment from UK Research and Innovation
+   583→(UKRI [grant numbers MR/W004151/1 and MR/W026872/1] and the charity Arthritis UK [grant
+   584→number 22891] through the Advanced Pain Discovery Platform (APDP) initiative. For UKRI, the
+   585→initiative is led by the Medical Research Council (MRC), with support from the Biotechnology
+   586→and Biological Sciences Research Council (BBSRC) and the Economic and Social Research
+   587→Council (ESRC). The funders had no role in study design, data collection and analysis, decision
+   588→to publish, or preparation of the manuscript.
+   589→Competing interests
+   590→AL is currently an employee of Amgen. Contributions to this manuscript were completed prior to
+   591→commencing employment at Amgen. All remaining authors declare that they have no competing
+   592→interests.
+   593→Acknowledgements
+   594→We are very grateful to the Public Contributors Working Development Group for their valuable
+   595→insights and contributions to this study. We thank the wider CRIISP Consortium for
+   596→conversations and feedback that have shaped our work.
+   597→Author contributions
+   598→Rebecca M Pearson: conceptualization (lead); methodology (lead); investigation (lead);
+   599→visualization (lead); writing—original draft preparation (lead); writing—review and editing (lead);
+   600→funding acquisition (equal). Amanda Ly: conceptualization (equal); methodology (equal);
+   601→investigation (equal); writing—review and editing (equal). Neil Heyton-Dumbleton:
+   602→conceptualization (equal); methodology (equal); investigation (equal); writing—review and
+   603→editing (equal). Alexandria Andrayas: visualization (equal); writing—review and editing (equal).
+   604→Megan A Chambers: visualization (equal); writing—review and editing (equal). Noureen Shivji:
+   605→conceptualization (equal); methodology (equal); writing—review and editing (equal). Rachael
+   606→Gooberman-Hill: conceptualization (equal); writing—review and editing (equal); funding
+   607→acquisition (equal). Samantha Stone: conceptualization (equal); writing—review and editing
+   608→(equal). Matthew A Nunes: conceptualization (equal); methodology (equal); writing—review
+   609→and editing (equal). Laura Oporto-Lisboa: conceptualization (equal); investigation (equal);
+   610→writing—review and editing (equal). Deborah James: conceptualization (equal); methodology
+   611→(equal); writing—review and editing (equal). Hannah M Sallis: conceptualization (equal);
+   612→writing—review and editing (equal). Tom J Barry: conceptualization (equal); investigation
+   613→(equal); writing—review and editing (equal). Amanda C de C Williams: conceptualization
+   614→(equal); investigation (equal); writing—review and editing (equal). Diego Vitali: investigation
+   615→(equal); writing—review and editing (equal). Ernest Choy: writing—review and editing (equal);
+   616→funding acquisition (equal). Anthony E Pickering: investigation (equal); writing—review and
+   617→
+   618→editing (equal); funding acquisition (equal). Edmund Keogh: investigation (equal); writing—
+   619→review and editing (equal); funding acquisition (lead).
+   620→
+   621→References
+   622→1. Greenland S, Pearl J, Robins JM. Causal Diagrams for Epidemiologic Research. Epidemiology. 1999
+   623→Jan;10(1):37.
+   624→2. Hernán MA, Robins JM. Causal Inference: What If. Boca Ranton: Chapman & Hall/CRC; 2020.
+   625→3. Poppe L, Steen J, Loh WW, Crombez G, De Block F, Jacobs N, et al. How to develop causal directed
+   626→acyclic graphs for observational health research: a scoping review. Health Psychol Rev. 2025
+   627→Mar;19(1):45–65. doi:10.1080/17437199.2024.2402809 PubMed PMID: 39327907; PubMed Central
+   628→PMCID: PMC11875439.
+   629→4. De Paepe AL, Gibby A, Oporto-Lisboa L, Ehrhardt B, Nunes M, Fisher E, et al. Building causal models in
+   630→pain research: the case of executive functioning and transitions in pain states. Pain. 2026 Feb
+   631→1;167(2):414–27. doi:10.1097/j.pain.0000000000003833 PubMed PMID: 41143857; PubMed Central
+   632→PMCID: PMC12794360.
+   633→5. Grieve S, Harrison R, Chew-Graham C, Taverner I, Lloyd J, Shivji N, et al. Establishing a Public
+   634→Involvement Network for Chronic Pain Research in the United Kingdom: Lessons Learned. Health
+   635→Expectations. 2025;28(4):e70373. doi:10.1111/hex.70373
+   636→6. Tennant PWG, Murray EJ, Arnold KF, Berrie L, Fox MP, Gadd SC, et al. Use of directed acyclic graphs
+   637→(DAGs) to identify confounders in applied health research: review and recommendations.
+   638→International Journal of Epidemiology. 2021 Apr 1;50(2):620–32. doi:10.1093/ije/dyaa213
+   639→7. Textor J, van der Zander B, Gilthorpe MS, Liśkiewicz M, Ellison GT. Robust causal inference using
+   640→directed acyclic graphs: the R package ‘dagitty’. Int J Epidemiol. 2016 Dec 1;45(6):1887–94.
+   641→doi:10.1093/ije/dyw341
+   642→8. Birkinshaw H, de C Williams AC, Friedrich C, Lee C, Keogh E, Eccleston C, et al. Interpersonal dyadic
+   643→influences on transitions between pain states: a narrative review and synthesis. Pain. 2025 Feb
+   644→21;166(9):1974–95. doi:10.1097/j.pain.0000000000003544 PubMed PMID: 39996588; PubMed Central
+   645→PMCID: PMC12363491.
+   646→9. Stone S, Wainwright E, Guest A, Ghiglieri C, Zeyen A, Gooberman-Hill R. Social influences in the
+   647→experience of transition to or from long-term (chronic) pain: A systematic review of qualitative
+   648→research studies. PLOS ONE. 2025 Jul 10;20(7):e0327984. doi:10.1371/journal.pone.0327984
+   649→10. Eccleston C, Begley E, Birkinshaw H, Choy E, Crombez G, Fisher E, et al. The establishment,
+   650→maintenance, and adaptation of high- and low-impact chronic pain: a framework for biopsychosocial
+   651→pain research. Pain. 2023 Oct 1;164(10):2143–7. doi:10.1097/j.pain.0000000000002951 PubMed
+   652→PMID: 37310436; PubMed Central PMCID: PMC10502876.
+   653→11. Andrayas A, Ly A, Sallis H, Vitali D, Ehrhardt B, Oporto-Lisboa L, et al. The mediating role of social
+   654→relationships in longitudinal patterns of pain impact in young adults: Evidence from the Avon
+   655→Longitudinal Study of Parents and Children. Under Review. 2026.
+   656→12. Weinberg CR. Can DAGs Clarify Effect Modification? Epidemiology. 2007 Sep;18(5):569–72.
+   657→doi:10.1097/EDE.0b013e318126c11d PubMed PMID: 17700243; PubMed Central PMCID:
+   658→PMC2235194.
+   659→
+   660→MODEL syntax for final integrated DAG
+   661→dag {
+   662→bb="0,0,1,1"
+   663→"Accessing Support_Intervention" [pos="0.555,0.907"]
+   664→"Biology- genetics_previous health condition" [adjusted,pos="0.159,0.707"]
+   665→"Change in Lifestyle" [pos="0.679,0.551"]
+   666→"Change in Relationship Quality" [pos="0.781,0.895"]
+   667→"Change in Sleep" [pos="0.443,0.798"]
+   668→"Change in confidence_adaptation" [pos="0.801,0.101"]
+   669→"Change in identity (purpose, self pro-action)" [pos="0.614,0.148"]
+   670→"Earlier life events" [adjusted,pos="0.083,0.623"]
+   671→"Extent of pain impact @time *follow up*" [outcome,pos="0.870,0.420"]
+   672→"For those with pain, the extent of pain impact @time *baseline*" [exposure,pos="0.368,0.434"]
+   673→"Health Beliefs" [adjusted,pos="0.136,0.225"]
+   674→"Living circumstances/neighbourhood" [adjusted,pos="0.273,0.155"]
+   675→"Pain anxiety_cognition_uncertainty" [pos="0.491,0.046"]
+   676→"Physical state (manifestation_medication and side effects)" [pos="0.308,0.838"]
+   677→"Previous Exposure to pain in self or others" [adjusted,pos="0.256,0.284"]
+   678→"Previous Lifestyle" [adjusted,pos="0.170,0.070"]
+   679→"Psychological Traits" [adjusted,pos="0.073,0.492"]
+   680→"Social Family Structure/network" [adjusted,pos="0.194,0.919"]
+   681→Age [adjusted,pos="0.089,0.034"]
+   682→Culture [adjusted,pos="0.047,0.880"]
+   683→Ethnicity [adjusted,pos="0.047,0.220"]
+   684→SES [adjusted,pos="0.056,0.099"]
+   685→Sex [adjusted,pos="0.034,0.342"]
+   686→Understanding_Validation_ [pos="0.510,0.559"]
+   687→"Accessing Support_Intervention" -> "Change in Lifestyle"
+   688→"Accessing Support_Intervention" -> "Change in Relationship Quality"
+   689→"Accessing Support_Intervention" -> "Extent of pain impact @time *follow up*"
+   690→"Biology- genetics_previous health condition" -> "Accessing Support_Intervention"
+   691→"Biology- genetics_previous health condition" -> "For those with pain, the extent of pain impact @time
+   692→*baseline*"
+   693→"Biology- genetics_previous health condition" -> "Physical state (manifestation_medication and side
+   694→effects)"
+   695→"Change in Lifestyle" -> "Change in Relationship Quality"
+   696→"Change in Lifestyle" -> "Change in confidence_adaptation"
+   697→"Change in Lifestyle" -> "Change in identity (purpose, self pro-action)"
+   698→"Change in Lifestyle" -> "Extent of pain impact @time *follow up*"
+   699→"Change in Relationship Quality" -> "Extent of pain impact @time *follow up*"
+   700→"Change in Sleep" -> "Extent of pain impact @time *follow up*"
+   701→"Change in confidence_adaptation" -> "Change in Relationship Quality"
+   702→"Change in confidence_adaptation" -> "Extent of pain impact @time *follow up*"
+   703→"Change in identity (purpose, self pro-action)" -> "Change in Relationship Quality"
+   704→"Change in identity (purpose, self pro-action)" -> "Change in confidence_adaptation"
+   705→"Change in identity (purpose, self pro-action)" -> "Extent of pain impact @time *follow up*"
+   706→"Earlier life events" -> "For those with pain, the extent of pain impact @time *baseline*"
+   707→"Earlier life events" -> "Pain anxiety_cognition_uncertainty"
+   708→"Earlier life events" -> "Physical state (manifestation_medication and side effects)"
+   709→"Earlier life events" -> Understanding_Validation_
+   710→"For those with pain, the extent of pain impact @time *baseline*" -> "Accessing Support_Intervention"
+   711→"For those with pain, the extent of pain impact @time *baseline*" -> "Change in Lifestyle"
+   712→"For those with pain, the extent of pain impact @time *baseline*" -> "Change in Relationship Quality"
+   713→"For those with pain, the extent of pain impact @time *baseline*" -> "Change in Sleep"
+   714→"For those with pain, the extent of pain impact @time *baseline*" -> "Change in identity (purpose, self
+   715→pro-action)"
+   716→
+   717→"For those with pain, the extent of pain impact @time *baseline*" -> "Extent of pain impact @time *follow
+   718→up*"
+   719→"For those with pain, the extent of pain impact @time *baseline*" -> "Pain anxiety_cognition_uncertainty"
+   720→"For those with pain, the extent of pain impact @time *baseline*" -> "Physical state
+   721→(manifestation_medication and side effects)"
+   722→"Health Beliefs" -> "Accessing Support_Intervention"
+   723→"Health Beliefs" -> "For those with pain, the extent of pain impact @time *baseline*"
+   724→"Health Beliefs" -> "Pain anxiety_cognition_uncertainty"
+   725→"Health Beliefs" -> Understanding_Validation_
+   726→"Living circumstances/neighbourhood" -> "Accessing Support_Intervention"
+   727→"Pain anxiety_cognition_uncertainty" -> "Change in Lifestyle"
+   728→"Pain anxiety_cognition_uncertainty" -> "Change in Relationship Quality"
+   729→"Pain anxiety_cognition_uncertainty" -> "Change in confidence_adaptation"
+   730→"Pain anxiety_cognition_uncertainty" -> "Change in identity (purpose, self pro-action)"
+   731→"Pain anxiety_cognition_uncertainty" -> "Extent of pain impact @time *follow up*"
+   732→"Pain anxiety_cognition_uncertainty" -> Understanding_Validation_
+   733→"Physical state (manifestation_medication and side effects)" -> "Accessing Support_Intervention"
+   734→"Physical state (manifestation_medication and side effects)" -> "Change in Lifestyle"
+   735→"Physical state (manifestation_medication and side effects)" -> "Change in Sleep"
+   736→"Physical state (manifestation_medication and side effects)" -> "Pain anxiety_cognition_uncertainty"
+   737→"Physical state (manifestation_medication and side effects)" -> Understanding_Validation_
+   738→"Previous Exposure to pain in self or others" -> "Accessing Support_Intervention"
+   739→"Previous Exposure to pain in self or others" -> "For those with pain, the extent of pain impact @time
+   740→*baseline*"
+   741→"Previous Exposure to pain in self or others" -> "Pain anxiety_cognition_uncertainty"
+   742→"Previous Exposure to pain in self or others" -> Understanding_Validation_
+   743→"Previous Lifestyle" -> "For those with pain, the extent of pain impact @time *baseline*"
+   744→"Previous Lifestyle" -> "Pain anxiety_cognition_uncertainty"
+   745→"Previous Lifestyle" -> "Physical state (manifestation_medication and side effects)"
+   746→"Previous Lifestyle" -> Understanding_Validation_
+   747→"Psychological Traits" -> "Accessing Support_Intervention"
+   748→"Psychological Traits" -> "For those with pain, the extent of pain impact @time *baseline*"
+   749→"Psychological Traits" -> "Pain anxiety_cognition_uncertainty"
+   750→"Psychological Traits" -> Understanding_Validation_
+   751→"Social Family Structure/network" -> "Accessing Support_Intervention"
+   752→"Social Family Structure/network" -> "For those with pain, the extent of pain impact @time *baseline*"
+   753→"Social Family Structure/network" -> Age
+   754→"Social Family Structure/network" -> Understanding_Validation_
+   755→Age -> "Accessing Support_Intervention"
+   756→Age -> "For those with pain, the extent of pain impact @time *baseline*"
+   757→Age -> "Pain anxiety_cognition_uncertainty"
+   758→Age -> "Physical state (manifestation_medication and side effects)"
+   759→Culture -> "For those with pain, the extent of pain impact @time *baseline*"
+   760→Culture -> "Pain anxiety_cognition_uncertainty"
+   761→Culture -> Understanding_Validation_
+   762→Ethnicity -> "Accessing Support_Intervention"
+   763→Ethnicity -> "For those with pain, the extent of pain impact @time *baseline*"
+   764→Ethnicity -> "Pain anxiety_cognition_uncertainty"
+   765→Ethnicity -> Understanding_Validation_
+   766→SES -> "For those with pain, the extent of pain impact @time *baseline*"
+   767→SES -> Understanding_Validation_
+   768→Sex -> "Accessing Support_Intervention"
+   769→Sex -> "For those with pain, the extent of pain impact @time *baseline*"
+   770→Sex -> "Pain anxiety_cognition_uncertainty"
+   771→Sex -> "Physical state (manifestation_medication and side effects)"
+   772→Sex -> Understanding_Validation_
+   773→Understanding_Validation_ -> "Accessing Support_Intervention"
+   774→
+   775→Understanding_Validation_ -> "Change in Relationship Quality"
+   776→Understanding_Validation_ -> "Change in identity (purpose, self pro-action)"
+   777→Understanding_Validation_ -> "Extent of pain impact @time *follow up*"
+   778→}

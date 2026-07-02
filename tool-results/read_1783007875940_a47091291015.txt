@@ -1,0 +1,382 @@
+  1508→essential step toward the prognostic, stratification, and monitoring applications that motivate this work.
+  1509→Since its inception in the early 1990s, fMRI-based research has been hampered by small sample sizes and
+  1510→significant problems with statistical power277 and the rsfMRI literature mirrors these problems. To address this,
+  1511→there has been increased effort to leverage existing datasets and/or organize data sharing amongst established
+  1512→research groups. Doing so affords the opportunity to examine the interaction between vital influences on the
+  1513→neural response and TBI outcome (e.g., age, time-since-injury). There are now unprecedented opportunities for
+  1514→collaborative data sharing through existing datasets (e.g. OpenNeuro, FITBIR, LIMBIC-CENC, CARE) and within
+  1515→teams of investigators in the TBI research community.33,39 If rsfMRI is to realize its potential for identifying reliable
+  1516→and sensitive markers of neural network functioning, the next generation of studies in TBI must directly examine
+  1517→the interacting influences injury (e.g., severity, time post), demographic (age, sex) and contextual (physical and
+  1518→mental health) factors that give rise to the wide range of clinical outcomes observed in the TBI patient population.
+  1519→To meet this demand, data sharing to increase sample size and representativeness will be essential.
+  1520→With increased sample sizes from data sharing, methodological convergence, and clinically informed
+  1521→application, rsfMRI remains promising for the non-invasive modeling of neural network response after injury. In
+  1522→doing so, the neuroplastic response measured by rsfMRI may serve as a biomarker for staging recovery, identifying
+  1523→loci within networks for intervention (e.g., TMS, pharmacologic) and tracking the influence of interactive clinical
+  1524→comorbidities.
+  1525→
+  1526→Acknowledgements
+  1527→Several AI tools were used to conduct this review, as detailed in the Methods section.
+  1528→Funding
+  1529→Funding for this study was provided by R01NS122184 and R33NS120249.
+  1530→
+  1531→Figure and Table Legends
+  1532→Figure 1. Seitzman cortical networks. Adapted from Seitzman et al., 2019.
+  1533→Table 1. Seitzman cortical networks. 13 cortical functional connectivity networks according to Seitzman et al,
+  1534→2019.
+  1535→Figure 2. Between network interactions in healthy (upper) and injured (lower) brains. Four models for network
+  1536→interactions in healthy adults are depicted in the top row (there is less work done mapping these in children and
+  1537→adolescents and interactions change dynamically over development). The lower panel shows how network
+  1538→interactions may break down across the TBI severity spectrum. Network abbreviations are spelled out in Figure 1
+  1539→and Table 1.
+  1540→Table 2. TBI Literature Corpus — Sample Totals by Population. Each study counts in every population it is tagged
+  1541→with; multi-population studies appear in more than one row, so columns exceed corpus totals. For papers with
+  1542→overlapping samples, only the largest sample size is summed to minimize double-counting of study participants.
+  1543→Figure 3. Summary of within network results. Results are summarized for all phases and patient populations, with
+  1544→the exception of IPV due to the limited literature to date. General trends are shown, with mixed results only
+  1545→indicated when the literature was consistently mixed. Within network hyperconnectivity is indicated with orange,
+  1546→hypoconnectivity with teal, mixed results with purple, null in gray, and networks that were not examined with
+  1547→dashed outlined boxes.
+  1548→
+  1549→Figure 1. Seitzman cortical networks. Adapted from Seitzman et al., 2019.
+  1550→
+  1551→Table 1. Seitzman cortical networks. 13 cortical functional connectivity networks according to Seitzman et al,
+  1552→2019.
+  1553→Network Key regions Hypothesized functions
+  1554→Posterior cingulate cortex (PCC), precuneus,
+  1555→Default mode network medial prefrontal cortex (mPFC), angular gyrus, Episodic memory, social cognition, future
+  1556→(DMN) lateral temporal cortex planning, self-referential thought
+  1557→Parietal memory Precuneus, mid-cingulate, angular gyrus, posterior Memory retrieval; previously included in DMN,
+  1558→network (PMN) inferior parietal lobe separation debated
+  1559→Long-term encoding and retrieval of episodic
+  1560→Medial temporal lobe Hippocampus, parahippocampal gyrus, entorhinal and declarative memory, spatial representation;
+  1561→network (MTL) cortex often discussed as part of DMN
+  1562→Parietooccipital Parahippocampal cortex, retrosplenial cortex, Visual context memory; historically lumped with
+  1563→network (PON) superior precuneus, posterior angular gyrus DMN
+  1564→Dorsolateral prefrontal cortex (dlPFC), intraparietal
+  1565→Frontoparietal sulcus, middle temporal gyrus (MTG), dorsomedial Goal-directed functions; also called executive
+  1566→network (FPN) prefrontal cortex (dmPFC) control network or central executive network
+  1567→Inferior anterior insula, most anterior aspect of Task control, sustained attention, vigilance,
+  1568→Salience network (SN) anterior cingulate cortex (ACC) arousal
+  1569→Regions of ACC and anterior insula not in the SN,
+  1570→pars opercularis, regions anterior to
+  1571→Cinguloopercular supplementary motor area (SMA), additional frontal Task control, performance monitoring,
+  1572→network (CON) and medial parietal regions sustained task-set representation
+  1573→Dorsal attention Frontal eye fields, superior parietal lobule (SPL),
+  1574→network (DAN) intraparietal sulcus, sometimes MT+ cortex Goal-directed attention
+  1575→Ventral attention Broca's area, Wernicke's area, temporoparietal Bottom-up attention driven by external stimuli,
+  1576→network (VAN) junction language; also called the language network
+  1577→Somatomotor dorsal Dorsal primary somatosensory (postcentral gyrus) Planning and execution of voluntary movement,
+  1578→network (SMD) and motor cortices, SMA sensory processing for body and limbs
+  1579→Lateral sensorimotor strip, secondary Movement and sensory input for face and hands;
+  1580→Somatomotor lateral somatosensory cortex (parietal operculum, sometimes combined with SMD as sensorimotor
+  1581→network (SML) premotor cortex, auditory cortex) network
+  1582→Visual network (VIS) Striate and extra-striate regions of occipital lobe Visual function
+  1583→Auditory network Primary auditory cortex, regions of insula and
+  1584→(AUD) superior temporal gyrus (STG) Auditory function
+  1585→
+  1586→Figure 2. Between network interactions in healthy (upper) and injured (lower) brains. Four models for network
+  1587→interactions in healthy adults are depicted in the top row (there is less work done mapping these in children and
+  1588→adolescents and interactions change dynamically over development). The lower panel shows how network
+  1589→interactions may break down across the TBI severity spectrum. Network abbreviations are spelled out in Figure 1
+  1590→and Table 1.
+  1591→
+  1592→Table 2. TBI Literature Corpus — Sample Totals by Population. Each study counts in every population it is tagged
+  1593→with; multi-population studies appear in more than one row, so columns exceed corpus totals. For papers with
+  1594→overlapping samples, only the largest sample size is summed to minimize double-counting of study participants.
+  1595→Total TBI participants
+  1596→Population Studies
+  1597→participants (incl. RHI)
+  1598→Civilian mTBI 108 6,908 3,867
+  1599→Mod/Sev 46 1,698 884
+  1600→Sports 42 1,504 883
+  1601→Military 32 2,269 1,497
+  1602→Pediatric 29 3,039 1,559
+  1603→Not specified 5 340 144
+  1604→IPV 2 26 23
+  1605→
+  1606→Figure 3. Summary of within network results. Results are summarized for all phases and patient populations, with
+  1607→the exception of IPV due to the limited literature to date. General trends are shown, with mixed results only
+  1608→indicated when the literature was consistently mixed. Within network hyperconnectivity is indicated with orange,
+  1609→hypoconnectivity with teal, mixed results with purple, null in gray, and networks that were not examined with
+  1610→dashed outlined boxes.
+  1611→
+  1612→References
+  1613→1. Bigler ED. Distinguished Neuropsychologist Award Lecture 1999. The lesion(s) in traumatic brain injury:
+  1614→implications for clinical neuropsychology. Arch Clin Neuropsychol 2001;16(2):95–131.
+  1615→2. Avena-Koenigsberger A, Misic B, Sporns O. Communication dynamics in complex brain networks. Nat Rev
+  1616→Neurosci 2017;19(1):17–33.
+  1617→3. McAllister TW, Saykin AJ, Flashman LA, et al. Brain activation during working memory 1 month after mild
+  1618→traumatic brain injury: a functional MRI study. Neurology 1999;53(6):1300–1308.
+  1619→4. Hillary FG, Genova HM, Chiaravalloti ND, et al. Prefrontal modulation of working memory performance in brain
+  1620→injury and disease. Hum Brain Mapp 2006;27(11):837–847.
+  1621→5. Biswal BB, Mennes M, Zuo X-N, et al. Toward discovery science of human brain function. Proc Natl Acad Sci U
+  1622→S A 2010;107(10):4734–4739.
+  1623→6. van den Heuvel MP, de Lange SC, Zalesky A, et al. Proportional thresholding in resting-state fMRI functional
+  1624→connectivity networks and consequences for patient-control connectome studies: Issues and
+  1625→recommendations. Neuroimage 2017;152:437–449.
+  1626→7. Nakamura T, Hillary FG, Biswal BB. Resting network plasticity following brain injury. PLoS One
+  1627→2009;4(12):e8220.
+  1628→8. Dennis EL, Keleher F, McCabe C, et al. The evolving role of neuroimaging in traumatic brain injury research. J
+  1629→Neurotrauma 2026;43(5-6):351–362.
+  1630→9. Poldrack RA, Baker CI, Durnez J, et al. Scanning the horizon: towards transparent and reproducible
+  1631→neuroimaging research. Nat Rev Neurosci 2017;18(2):115–126.
+  1632→10. Botvinik-Nezer R, Holzmeister F, Camerer CF, et al. Variability in the analysis of a single neuroimaging dataset
+  1633→by many teams. Nature 2020;582(7810):84–88.
+  1634→11. Hallquist MN, Hillary FG. Graph theory approaches to functional network organization in brain disorders: A
+  1635→critique for a brave new small-world. Netw Neurosci 2019;3(1):1–26.
+  1636→12. Rajtmajer SM, Errington TM, Hillary FG. How failure to falsify in high-volume science contributes to the
+  1637→replication crisis. Elife 2022;11:e78830.
+  1638→13. Hillary FG, Grafman JH. Injured Brains and Adaptive Networks: The Benefits and Costs of Hyperconnectivity.
+  1639→Trends Cogn Sci 2017;21(5):385–401.
+  1640→14. Sharp DJ, Scott G, Leech R. Network dysfunction after traumatic brain injury. Nat Rev Neurol
+  1641→2014;10(3):156–166.
+  1642→15. Caeyenberghs K, Verhelst H, Clemente A, et al. Mapping the functional connectome in traumatic brain injury:
+  1643→What can graph metrics tell us? Neuroimage 2017;160:113–123.
+  1644→16. Uddin LQ, Yeo BTT, Spreng RN. Towards a universal taxonomy of macro-scale functional human brain
+  1645→networks. Brain Topogr 2019;32(6):926–942.
+  1646→17. Seitzman BA, Gratton C, Marek S, et al. A set of functionally-defined brain regions with improved
+  1647→representation of the subcortex and cerebellum. Neuroimage 2020;206:116290.
+  1648→18. Gilmore AW, Nelson SM, McDermott KB. A parietal memory network revealed by multiple MRI methods. Trends
+  1649→Cogn Sci 2015;19(9):534–543.
+  1650→
+  1651→19. Gordon EM, Laumann TO, Gilmore AW, et al. Precision functional mapping of individual human brains. Neuron
+  1652→2017;95(4):791–807.e7.
+  1653→20. Schaefer A, Kong R, Gordon EM, et al. Local-global parcellation of the human cerebral cortex from intrinsic
+  1654→functional connectivity MRI. Cereb Cortex 2018;28(9):3095–3114.
+  1655→21. Menon V. Large-scale brain networks and psychopathology: a unifying triple network model. Trends Cogn Sci
+  1656→2011;15(10):483–506.
+  1657→22. Cole MW, Reynolds JR, Power JD, et al. Multi-task connectivity reveals flexible hubs for adaptive task control.
+  1658→Nat Neurosci 2013;16(9):1348–1355.
+  1659→23. Corbetta M, Shulman GL. Control of goal-directed and stimulus-driven attention in the brain. Nat Rev Neurosci
+  1660→2002;3(3):201–215.
+  1661→24. Biswal B, Yetkin FZ, Haughton VM, et al. Functional connectivity in the motor cortex of resting human brain
+  1662→using echo-planar mri. Magn Reson Med 1995;34:537–541.
+  1663→25. Desikan RS, Ségonne F, Fischl B, et al. An automated labeling system for subdividing the human cerebral
+  1664→cortex on MRI scans into gyral based regions of interest. Neuroimage 2006;31(3):968–980.
+  1665→26. Gordon EM, Laumann TO, Adeyemo B, et al. Generation and evaluation of a cortical area parcellation from
+  1666→resting-state correlations. Cerebral cortex 2016;26(1):288–303.
+  1667→27. Power JD, Cohen AL, Nelson SM, et al. Functional network organization of the human brain. Neuron
+  1668→2011;72(4):665–678.
+  1669→28. Fan L, Li H, Zhuo J, et al. The human Brainnetome Atlas: A new brain atlas based on connectional
+  1670→architecture. Cereb Cortex 2016;26(8):3508–3526.
+  1671→29. Beckmann CF, DeLuca M, Devlin JT, et al. Investigations into resting-state connectivity using independent
+  1672→component analysis. Philos Trans R Soc Lond B Biol Sci 2005;360(1457):1001–1013.
+  1673→30. Yeo BTT, Krienen FM, Sepulcre J, et al. The organization of the human cerebral cortex estimated by intrinsic
+  1674→functional connectivity. J Neurophysiol 2011;106(3):1125–1165.
+  1675→31. Smith SM, Fox PT, Miller KL, et al. Correspondence of the brain’s functional architecture during activation and
+  1676→rest. Proc Natl Acad Sci U S A 2009;106(31):13040–13045.
+  1677→32. Bullmore E, Sporns O. Complex brain networks: graph theoretical analysis of structural and functional
+  1678→systems. Nat Rev Neurosci 2009;10(3):186–198.
+  1679→33. Caeyenberghs K, Imms P, Irimia A, et al. ENIGMA’s simple seven: Recommendations to enhance the
+  1680→reproducibility of resting-state fMRI in traumatic brain injury. NeuroImage Clin 2024;42(103585):103585.
+  1681→34. Esopenko C, Meyer J, Wilde EA, et al. A global collaboration to study intimate partner violence-related head
+  1682→trauma: The ENIGMA consortium IPV working group. Brain Imaging Behav 2021;15(Special Issue):475–503.
+  1683→35. Dennis EL, Caeyenberghs K, Asarnow RF, et al. Brain Imaging in Young Brain-Injured Patients: A Coordinated
+  1684→Effort Towards Individualized Predictors from the ENIGMA Pediatric msTBI Group. Brain Imaging Behav
+  1685→2019;Under Review(Special Issue).
+  1686→36. Olsen A, Babikian T, Bigler E, et al. Toward a Global and Open Science for Imaging Brain Trauma: the ENIGMA
+  1687→Adult msTBI Working Group. Brain Imaging Behav 2019;Under Review.
+  1688→
+  1689→37. Koerte IK, Dennis EL, Bazarian JJ, et al. Neuroimaging of Sport-Related Brain Injury: Challenges and
+  1690→Recommendations from the ENIGMA Sports-Related Brain Injury group. Brain Imaging Behav 2019;Under
+  1691→Review.
+  1692→38. Tate DF, Dennis EL, Adams JT, et al. Coordinating Global Multi-Site Studies of Military TBI: Potential,
+  1693→Challenges, and Harmonization Guidelines from the ENIGMA Military Brain Injury Group. Brain Imaging Behav
+  1694→2019;Under Review.
+  1695→39. Dennis EL, Baron D, Bartnik-Olson B, et al. ENIGMA brain injury: Framework, challenges, and opportunities.
+  1696→Hum Brain Mapp 2022;43(1):149–166.
+  1697→40. Wilde EA, Dennis EL, Tate DF. The ENIGMA Brain Injury working group: approach, challenges, and potential
+  1698→benefits. Brain Imaging Behav 2021;15(2):465–474.
+  1699→41. Manley GT, Dams-O’Connor K, Alosco ML, et al. A new characterisation of acute traumatic brain injury: the
+  1700→NIH-NINDS TBI Classification and Nomenclature Initiative. Lancet Neurol 2025;24(6):512–523.
+  1701→42. Menon DK, Silverberg ND, Ferguson AR, et al. Clinical assessment on days 1-14 for the characterization of
+  1702→traumatic brain injury: Recommendations from the 2024 NINDS traumatic brain injury classification and
+  1703→nomenclature initiative clinical/Symptoms Working Group. J Neurotrauma 2025;42(13-14):1038–1055.
+  1704→43. Keleher F, Lindsey HM, Kerestes R, et al. Multimodal Analysis of Secondary Cerebellar Alterations After
+  1705→Pediatric Traumatic Brain Injury. JAMA Netw Open 2023;6(11):e2343410.
+  1706→44. Dennis EL, Caeyenberghs K, Hoskinson KR, et al. White Matter Disruption in Pediatric Traumatic Brain Injury:
+  1707→Results from ENIGMA Pediatric Moderate to Severe Traumatic Brain Injury. Neurology 2021; doi:
+  1708→10.1212/WNL.0000000000012222.
+  1709→45. Dennis EL, Vervoordt S, Adamson MM, et al. Accelerated Aging after Traumatic Brain Injury: An ENIGMA
+  1710→Multi‐Cohort Mega‐Analysis. Annals of Neurology 2024;96(2):365–377.
+  1711→46. Dennis EL, Rowland JA, Esopenko C, et al. Differences in brain volume in military service members and
+  1712→veterans after blast-related mild TBI: A LIMBIC-CENC study: A LIMBIC-CENC study. JAMA Netw Open
+  1713→2024;7(11):e2443416.
+  1714→47. Bailes JE, Petraglia AL, Omalu BI, et al. Role of subconcussion in repetitive mild traumatic brain injury: A
+  1715→review. J Neurosurg 2013;119(5):1235–1245.
+  1716→48. Koerte IK, Ertl-Wagner B, Reiser M, et al. White matter integrity in the brains of professional soccer players
+  1717→without a symptomatic concussion. JAMA 2012;308(18):1859–1861.
+  1718→49. Talavage TM, Nauman EA, Breedlove EL, et al. Functionally-detected cognitive impairment in high school
+  1719→football players without clinically-diagnosed concussion. J Neurotrauma 2014;31(4):327–338.
+  1720→50. Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting
+  1721→systematic reviews. BMJ 2021;372:n71.
+  1722→51. Tinney EM, Ai M, España-Irla G, et al. Physical activity and frontoparietal network connectivity in traumatic
+  1723→brain injury. Brain Behav 2024;14(9):e70022.
+  1724→52. Lindsey HM, Hodges CB, Greer KM, et al. Diffusion-weighted imaging in mild traumatic brain injury: A
+  1725→systematic review of the literature. Neuropsychol Rev 2023;33(1):42–121.
+  1726→53. Iraji A, Benson RR, Welch RD, et al. Resting State Functional Connectivity in Mild Traumatic Brain Injury at the
+  1727→Acute Stage: Independent Component and Seed-Based Analyses. J Neurotrauma 2015;32(14):1031–1045.
+  1728→
+  1729→54. D’Souza MM, Kumar M, Choudhary A, et al. Alterations of connectivity patterns in functional brain networks in
+  1730→patients with mild traumatic brain injury: A longitudinal resting-state functional magnetic resonance imaging
+  1731→study. Neuroradiol J 2020;33(2):186–197.
+  1732→55. Schroder A, Lawrence T, Voets N, et al. A machine learning enhanced mechanistic simulation framework for
+  1733→functional deficit prediction in TBI. Front Bioeng Biotechnol 2021;9:587082.
+  1734→56. Zhang D, Zhu P, Yin B, et al. Frontal white matter hyperintensities effect on default mode network connectivity
+  1735→in acute mild traumatic brain injury. Front Aging Neurosci 2021;13:793491.
+  1736→57. Sours C, Zhuo J, Roys S, et al. Disruptions in Resting State Functional Connectivity and Cerebral Blood Flow in
+  1737→Mild Traumatic Brain Injury Patients. PLoS One 2015;10(8):e0134019.
+  1738→58. Sours C, Rosenberg J, Kane R, et al. Associations between interhemispheric functional connectivity and the
+  1739→Automated Neuropsychological Assessment Metrics (ANAM) in civilian mild TBI. Brain Imaging Behav
+  1740→2015;9(2):190–203.
+  1741→59. Bharath RD, Munivenkatappa A, Gohel S, et al. Recovery of resting brain connectivity ensuing mild traumatic
+  1742→brain injury. Front Hum Neurosci 2015;9:513.
+  1743→60. van der Horn HJ, Wick TV, Ling JM, et al. Trajectories of intrinsic connectivity one year post pediatric mild
+  1744→traumatic brain injury: Neural injury superimposed on neurodevelopment. Cortex 2025;184:120–130.
+  1745→61. Li F, Lu L, Shang S ’an, et al. Disrupted functional network connectivity predicts cognitive impairment after
+  1746→acute mild traumatic brain injury. CNS Neurosci Ther 2020;26(10):1083–1091.
+  1747→62. Lv J, Iraji A, Chen H, et al. Group-Wise Sparse Representation of Brain States Reveal Network Abnormalities in
+  1748→Mild Traumatic Brain Injury. In: 2016 IEEE 13th International Symposium on Biomedical Imaging (ISBI) IEEE;
+  1749→2016; doi: 10.1109/isbi.2016.7493210.
+  1750→63. Ye L, Zhang D, Shao M, et al. Lower posttraumatic α-synuclein level associated with altered default mode
+  1751→network connectivity following acute mild traumatic brain injury. Front Neural Circuits 2019;13:26.
+  1752→64. Brown O, Fang Z, Smith A, et al. Associations between changes in psychological resilience and resting-state
+  1753→functional connectivity throughout pediatric concussion recovery. Brain Connect 2024;14(7):357–368.
+  1754→65. Madhavan R, Joel SE, Mullick R, et al. Longitudinal resting state functional connectivity predicts clinical
+  1755→outcome in mild traumatic brain injury. J Neurotrauma 2019;36(5):650–660.
+  1756→66. Zhou Y, Milham MP, Lui YW, et al. Default-mode network disruption in mild traumatic brain injury. Radiology
+  1757→2012;265(3):882–892.
+  1758→67. Mayer AR, Mannell MV, Ling J, et al. Functional connectivity in mild traumatic brain injury. Hum Brain Mapp
+  1759→2011;32(11):1825–1835.
+  1760→68. Sours C, Zhuo J, Janowich J, et al. Default mode network interference in mild traumatic brain injury - a pilot
+  1761→resting state study. Brain Res 2013;1537:201–215.
+  1762→69. Healey K, Fang Z, Smith A, et al. Adolescents with a concussion have altered brain network functional
+  1763→connectivity one month following injury when compared to adolescents with orthopedic injuries. NeuroImage
+  1764→Clin 2022;36(103211):103211.
+  1765→70. Palacios EM, Yuh EL, Chang Y-S, et al. Resting-State Functional Connectivity Alterations Associated with
+  1766→Six-Month Outcomes in Mild Traumatic Brain Injury. J Neurotrauma 2017;34(8):1546–1557.
+  1767→71. Abdul Rahman MR, Abd Hamid AI, Noh NA, et al. Alteration in the functional organization of the default mode
+  1768→network following closed non-severe traumatic brain injury. Front Neurosci 2022;16:833320.
+  1769→
+  1770→72. Sharma B, Nowikow C, DeMatteo C, et al. Sex-specific differences in resting-state functional brain activity in
+  1771→pediatric concussion. Sci Rep 2023;13(1):3284.
+  1772→73. Mayer AR, Ling JM, Allen EA, et al. Static and dynamic intrinsic connectivity following mild traumatic brain
+  1773→injury. J Neurotrauma 2015;32(14):1046–1055.
+  1774→74. Arabshahi S, Chung S, Alivar A, et al. A comprehensive and broad approach to resting-state functional
+  1775→connectivity in adult patients with mild traumatic brain injury. AJNR Am J Neuroradiol 2024;45(5):637–646.
+  1776→75. Bittencourt-Villalpando M, van der Horn HJ, Maurits NM, et al. Disentangling the effects of age and mild
+  1777→traumatic brain injury on brain network connectivity: A resting state fMRI study. NeuroImage Clin
+  1778→2021;29(102534):102534.
+  1779→76. van der Horn HJ, Scheenen ME, de Koning ME, et al. The default mode network as a biomarker of persistent
+  1780→complaints after mild traumatic brain injury: A longitudinal functional magnetic resonance imaging study. J
+  1781→Neurotrauma 2017;34(23):3262–3269.
+  1782→77. Irimia A, Maher AS, Chaudhari NN, et al. Acute cognitive deficits after traumatic brain injury predict
+  1783→Alzheimer’s disease-like degradation of the human default mode network. Geroscience 2020;42(5):1411–1429.
+  1784→78. Iyer KK, Zalesky A, Barlow KM, et al. Default mode network anatomy and function is linked to pediatric
+  1785→concussion recovery. Ann Clin Transl Neurol 2019;6(12):2544–2554.
+  1786→79. Crasta JE, Nebel MB, Svingos A, et al. Rethinking recovery in adolescent concussions: Network-level
+  1787→functional connectivity alterations associated with motor deficits. Hum Brain Mapp 2023;44(8):3271–3282.
+  1788→80. Risen SR, Barber AD, Mostofsky SH, et al. Altered functional connectivity in children with mild to moderate TBI
+  1789→relates to motor control. J Pediatr Rehabil Med 2015;8(4):309–319.
+  1790→81. Shafi R, Crawley AP, Tartaglia MC, et al. Sex-specific differences in resting-state functional connectivity of
+  1791→large-scale networks in postconcussion syndrome. Sci Rep 2020;10(1):21982.
+  1792→82. Kuceyeski AF, Jamison KW, Owen JP, et al. Longitudinal increases in structural connectome segregation and
+  1793→functional connectome integration are associated with better recovery after mild TBI. Hum Brain Mapp
+  1794→2019;40(15):4441–4456.
+  1795→83. Amir J, Nair JKR, Del Carpio-O’Donovan R, et al. Atypical resting state functional connectivity in mild
+  1796→traumatic brain injury. Brain Behav 2021;11(8):e2261.
+  1797→84. Gumus M, Mack ML, Green R, et al. Brain connectivity changes in postconcussion syndrome as the neural
+  1798→substrate of a heterogeneous syndrome. Brain Connect 2022;12(8):711–724.
+  1799→85. Kang X, Grossner E, Yoon BC, et al. Relationship between structural and functional network connectivity
+  1800→changes for patients with traumatic brain injury and chronic health symptoms. Eur J Neurosci
+  1801→2025;61(2):e16678.
+  1802→86. Vedaei F, Newberg AB, Alizadeh M, et al. Resting-state functional MRI metrics in patients with chronic mild
+  1803→traumatic brain injury and their association with clinical cognitive performance. Front Hum Neurosci
+  1804→2021;15:768485.
+  1805→87. Wong JKY, Churchill NW, Graham SJ, et al. Altered connectivity of default mode and executive control
+  1806→networks among female patients with persistent post-concussion symptoms. Brain Inj 2023;37(2):147–158.
+  1807→88. Simos NJ, Manolitsi K, Luppi AI, et al. Chronic mild traumatic Brain Injury: Aberrant static and dynamic
+  1808→connectomic features identified through machine learning model fusion. Neuroinformatics
+  1809→2023;21(2):427–442.
+  1810→
+  1811→89. Arciniega H, Shires J, Furlong S, et al. Impaired visual working memory and reduced connectivity in
+  1812→undergraduates with a history of mild traumatic brain injury. Sci Rep 2021;11(1):2789.
+  1813→90. Champagne AA, Coverdale NS, Ross A, et al. Multi-modal normalization of resting-state using local physiology
+  1814→reduces changes in functional connectivity patterns observed in mTBI patients. NeuroImage Clin
+  1815→2020;26(102204):102204.
+  1816→91. de Souza NL, Parker R, Gonzalez CS, et al. Effect of age at time of injury on long-term changes in intrinsic
+  1817→functional connectivity in traumatic brain injury. Brain Inj 2020;34(12):1646–1654.
+  1818→92. Gimbel SI, Ettenhofer ML, Cordero E, et al. Brain bases of recovery following cognitive rehabilitation for
+  1819→traumatic brain injury: a preliminary study. Brain Imaging Behav 2021;15(1):410–420.
+  1820→93. Han K, Chapman SB, Krawczyk DC. Disrupted intrinsic connectivity among default, dorsal attention, and
+  1821→frontoparietal control networks in individuals with chronic traumatic brain injury. J Int Neuropsychol Soc
+  1822→2016;22(2):263–279.
+  1823→94. Han K, Davis RA, Chapman SB, et al. Strategy-based reasoning training modulates cortical thickness and
+  1824→resting-state functional connectivity in adults with chronic traumatic brain injury. Brain Behav
+  1825→2017;7(5):e00687.
+  1826→95. Han K, Chapman SB, Krawczyk DC. Neuroplasticity of cognitive control networks following cognitive training
+  1827→for chronic traumatic brain injury. NeuroImage Clin 2018;18:262–278.
+  1828→96. Jia X, Chang X, Bai L, et al. A longitudinal study of white matter functional network in mild traumatic brain
+  1829→injury. J Neurotrauma 2021;38(19):2686–2697.
+  1830→97. Messé A, Caplain S, Pélégrini-Issac M, et al. Specific and evolving resting-state network alterations in
+  1831→post-concussion syndrome following mild traumatic brain injury. PLoS One 2013;8(6):e65470.
+  1832→98. Plourde V, Rohr CS, Virani S, et al. Default mode network functional connectivity after multiple concussions in
+  1833→children and adolescents. Arch Clin Neuropsychol 2020;35(3):302–311.
+  1834→99. Sheldrake E, Nishat E, Wheeler AL, et al. Functional network disruptions in youth with concussion using the
+  1835→Adolescent Brain Cognitive Development study. Brain Inj 2025;39(3):199–210.
+  1836→100. Tang CY, Eaves E, Dams-O’Connor K, et al. Diffuse Disconnectivity in tBi: a resting state fMri anD Dti stuDy.
+  1837→Transl Neurosci 2012;3(1):9–14.
+  1838→101. Vergara VM, Mayer AR, Damaraju E, et al. Detection of Mild Traumatic Brain Injury by Machine Learning
+  1839→Classification Using Resting State Functional Network Connectivity and Fractional Anisotropy. J Neurotrauma
+  1840→2017;34(5):1045–1053.
+  1841→102. Wilke S, Prehn K, Taud B, et al. Multimodal assessment of recurrent MTBI across the lifespan. J Clin Med
+  1842→2018;7(5):95.
+  1843→103. Klimova A, Breukelaar IA, Bryant RA, et al. A comparison of the functional connectome in mild traumatic brain
+  1844→injury and post-traumatic stress disorder. Hum Brain Mapp 2023;44(2):813–824.
+  1845→104. Li X, Jia X, Liu Y, et al. Brain dynamics in triple-network interactions and its relation to multiple cognitive
+  1846→impairments in mild traumatic brain injury. Cereb Cortex 2023;33(11):6620–6632.
+  1847→105. Dall’Acqua P, Johannes S, Mica L, et al. Functional and structural network recovery after mild traumatic brain
+  1848→injury: A 1-year longitudinal study. Front Hum Neurosci 2017;11:280.
+  1849→106. Xu H, Wang X, Chen Z, et al. Longitudinal changes of caudate-based resting state functional connectivity in
+  1850→mild traumatic brain injury. Front Neurol 2018;9:467.
+  1851→
+  1852→107. Li F, Lu L, Chen H, et al. Neuroanatomical and functional alterations of insula in mild traumatic brain injury
+  1853→patients at the acute stage. Brain Imaging Behav 2020;14(3):907–916.
+  1854→108. Wang S, Hu L, Cao J, et al. Sex differences in abnormal intrinsic functional connectivity after acute mild
+  1855→traumatic brain injury. Front Neural Circuits 2018;12:107.
+  1856→109. Liu Y, Wu W, Chen X, et al. Aberrant correlation between the default mode and salience networks in mild
+  1857→traumatic brain injury. Front Comput Neurosci 2020;14:68.
+  1858→110. Lu L, Zhang J, Li F, et al. Aberrant static and dynamic functional network connectivity in acute mild traumatic
+  1859→brain injury with cognitive impairment. Clin Neuroradiol 2022;32(1):205–214.
+  1860→111. Shumskaya E, Andriessen TMJC, Norris DG, et al. Abnormal whole-brain functional networks in homogeneous
+  1861→acute mild traumatic brain injury. Neurology 2012;79(2):175–182.
+  1862→112. Ekdahl N, Möller MC, Deboussard CN, et al. Investigating cognitive reserve, symptom resolution and brain
+  1863→connectivity in mild traumatic brain injury. BMC Neurol 2023;23(1):450.
+  1864→113. Shapiro JS, Takagi M, Silk T, et al. No evidence of a difference in susceptibility-weighted imaging lesion
+  1865→burden or functional network connectivity between children with typical and delayed recovery two weeks
+  1866→post-concussion. J Neurotrauma 2021;38(17):2384–2390.
+  1867→114. Banks SD, Coronado RA, Clemons LR, et al. Thalamic functional connectivity in mild traumatic brain injury:
+  1868→Longitudinal associations with patient-reported outcomes and neuropsychological tests. Arch Phys Med
+  1869→Rehabil 2016;97(8):1254–1261.
+  1870→115. van der Horn HJ, Liemburg EJ, Scheenen ME, et al. Brain network dysregulation, emotion, and complaints
+  1871→after mild traumatic brain injury. Hum Brain Mapp 2016;37(4):1645–1654.
+  1872→116. Lemme J, Holmes S, Sibai D, et al. Altered brain network connectivity underlies persistent post-traumatic
+  1873→headache following mild traumatic brain injury in youth. J Neurotrauma 2021;38(12):1632–1641.
+  1874→117. Lu L, Li F, Chen H, et al. Functional connectivity dysfunction of insular subdivisions in cognitive impairment
+  1875→after acute mild traumatic brain injury. Brain Imaging Behav 2020;14(3):941–948.
+  1876→118. Li F, Lu L, Shang S ’an, et al. Altered static and dynamic functional network connectivity in post-traumatic
+  1877→headache. J Headache Pain 2021;22(1):137.
+  1878→119. Liu Y, Li F, Shang S ’an, et al. Functional-structural large-scale brain networks are correlated with
+  1879→neurocognitive impairment in acute mild traumatic brain injury. Quant Imaging Med Surg 2023;13(2):631–644.
+  1880→120. Stevens MC, Lovejoy D, Kim J, et al. Multiple resting state network functional connectivity abnormalities in
+  1881→mild traumatic brain injury. Brain Imaging Behav 2012;6(2):293–318.
+  1882→121. Bittencourt M, van der Horn H-J, Balart-Sánchez SA, et al. Effects of mild traumatic brain injury on resting
+  1883→state brain network connectivity in older adults. Brain Imaging Behav 2022;16(4):1863–1872.
+  1884→122. Han K, Chapman SB, Krawczyk DC. Altered Amygdala Connectivity in Individuals with Chronic Traumatic Brain
+  1885→Injury and Comorbid Depressive Symptoms. Front Neurol 2015;6:231.
+  1886→123. Wang Z, Zhang M, Sun C, et al. Single mild traumatic brain injury deteriorates progressive interhemispheric
+  1887→functional and structural connectivity. J Neurotrauma 2021;38(4):464–473.
+  1888→124. Nikolova S, Chong C, Li J, et al. Brain structural and functional abnormalities associated with acute
+  1889→post-traumatic headache: iron deposition and functional connectivity. J Headache Pain 2024;25(1):88.

@@ -1,0 +1,1485 @@
+     1→     1→Learning while scaling: a dual-engine architecture for governing
+     2→     2→adaptation as evidence-based interventions scale
+     3→     3→TomOsborn
+     4→     4→ShamiriInstitute,13thFloor,CMSAfrica,ChaniaAvenue,Nairobi,Kenya.Email:tom.osborn@shamiri.institute
+     5→     5→Preprintv1·June2026·CCBY4.0·doi.org/10.17605/OSF.IO/893KV
+     6→     6→Abstract
+     7→     7→Background. Social-impactorganizationsscalingevidence-basedinterventionsfaceatension: rigorouscausalev-
+     8→     8→idenceaccruesoveryears, yetorganizationsmustadaptdeliveryinrealtimetofitnewcontexts, workforces, and
+     9→     9→budgets. Adaptingwithoutknowingwhichcomponentsareessentialrisksa”voltagedrop”—thesilenterosionof
+    10→    10→themechanismsthatmadeaninterventionwork. Implementationscienceoffersmanyframeworksandmethods,
+    11→    11→buttheyarelargelyappliedtoorganizationsbyresearchersratherthanusablebyorganizationsasongoingpractice.
+    12→    12→Methods. Weproposethedual-enginelearningarchitecture,anoperatingframeworkthatorganizationscanuseto
+    13→    13→governadaptationwhilescaling.Wedescribeitsthreeintegratedelementsandafive-stepmethodologyforapplying
+    14→    14→it,andillustrateeachstepwithShamiri,atiered,lay-deliveredmental-healthmodelforadolescentsinKenyathat
+    15→    15→hasscaledtomorethan250,000youth.
+    16→    16→Results.Theframeworkhasthreeelements.Adual-enginearchitecturerunstwoprocessesinparallel:anEvidence
+    17→    17→Enginethatgenerateshigh-certaintycausalknowledgethroughconfirmatorydesigns,andanOptimizationEngine
+    18→    18→thatimprovesdeliverythroughrapidembeddedexperiments. Certaintyzonesclassifyeachcomponentbytheev-
+    19→    19→idence a change requires—Zone A (load-bearing core), Zone B (directionally validated), Zone C (operational)—
+    20→    20→routingittotheappropriateengine,withescalationrulesasevidenceaccrues.Prove–Improve–Movelifecyclephases
+    21→    21→coordinatetheengines’shiftingemphasis.AppliedtoShamiri,themethoddecomposedthemodelintoroughlyfifty
+    22→    22→components(onlythreeload-bearing);itsEvidenceEngineconfirmedeffectsacrossadecadeofrandomizedtrials,
+    23→    23→anditsOptimizationEngine,overtwoimplementationyears,madedeliveryleanerandcheaper—eachchangenon-
+    24→    24→inferioronadolescentdepressionandanxiety—whileroutinemonitoringconfirmedeffectsheldatscale.
+    25→    25→Conclusions. Thedual-engineframeworkgivesorganizationsapracticalarchitectureforbeingbothrigorousand
+    26→    26→fast:itgovernsadaptationcomponentbycomponent,accumulatingcausalknowledgewhilecontinuouslyimproving
+    27→    27→delivery.Itdoesnotreplaceexistingimplementation-sciencetoolsbutcoordinateswhichtodeploywhereandwhen.
+    28→    28→Whethercomponent-levelgovernancepreserveseffectivenessbetterthanungovernedadaptationisnowatestable
+    29→    29→question.
+    30→    30→Keywords: dual-engineframework; learningwhilescaling; implementationscience; certaintyzones; intervention
+    31→    31→optimization;evidence-basedinterventions;globalmentalhealth;Shamiri
+    32→    32→1 Background inthefirstplace[3–5]. Intheworstcase,ascaled
+    33→    33→interventionnolongerdeliverstheoutcomesit
+    34→    34→Socialimpactorganizationsfaceahardquestion promised.
+    35→    35→whentheyscaleanevidence-basedintervention:
+    36→    36→Thedangerisacuteforsocialimpactorganiza-
+    37→    37→howmuchcantheyadaptitwithoutdilutingeffec-
+    38→    38→tionsingeneral,andespeciallyforthosescaling
+    39→    39→tiveness?
+    40→    40→healthinterventionsinunder-resourcedsettings
+    41→    41→Rigorouscausalevidence—costly,time-consuming, [6,7]. Astheyscale,theseorganizationsmustsat-
+    42→    42→andtypicallydrawnfromrandomizedcontrolled isfymultipledemandsatonce[8,9]. Theinterven-
+    43→    43→trials(RCTs)—isnowexpectedbeforescale-up tionmustbe“goodenough”: doesitcontinueto
+    44→    44→[1,2]. Butoncegenerated,realityintrudes. Orga- improveoutcomeswithlarge,lastingeffectsizes,
+    45→    45→nizationsmustadapttheinterventiontofitnew aswell-designedrandomizedtrialsestablished
+    46→    46→context,resources,andotherreal-worldconstraints [7]? Itmustbe“bigenough”: doesitaddressthe
+    47→    47→[3,4]: theversionthatreachesscaleisoftennotthe fullextentoftheproblem,workingacrossthege-
+    48→    48→versionthatwasrigorouslytested. ographies,cultures,andsystemsthatdefineitsad-
+    49→    49→Thepresentdangerliesinadapting,whilescaling, dressablemarketforimpact[7]? Itmustbe“cheap
+    50→    50→withoutevidence. Whenaninterventionismod- enough”: docostsfitthebudgetandpurchasing
+    51→    51→ifiedwithoutknowingwhichelementsareessen- poweroftheultimatepayer,whethergovernment,
+    52→    52→tial,itrisksthe“voltagedrop”: modificationsthat philanthropy,orbeneficiaries,whichrequiresun-
+    53→    53→quietlyweakenthemechanismthatmadeitwork derstandingcostsdriversandadaptingtoreduce
+    54→    54→Learningwhilescaling Preprint—notpeerreviewed 1
+    55→    55→
+    56→    56→them[7]? Itmustbe“simpleenough”: canthose Implementationsciencehasrecognizedtheselim-
+    57→    57→deliveringatscale(the“doer-at-scale”)deliverit itsandproducedmorecontext-awareframeworks.
+    58→    58→effectivelyandwithfidelity[7]? Self-replication, TheConsolidatedFrameworkforImplementation
+    59→    59→thoughdiﬀicultandrare,letsanorganizationman- Research(CFIR)mapsthedeterminantsthatshape
+    60→    60→agecomplexity,butgovernmentscalepathways howaninterventionfaresasitscales[19–21];RE-
+    61→    61→oftendemandasubstantiallysimplerintervention AIM(Reach,Effectiveness,Adoption,Implemen-
+    62→    62→[6,7]. tation,andMaintenance)hasevolvedfromaretro-
+    63→    63→spectiveevaluationtoolintoadynamicimplemen-
+    64→    64→Acrosseveryphase—development,pilot,evalu-
+    65→    65→tationone[22,23];PRISM(Practical,RobustIm-
+    66→    66→ation,replication,andscale-up—organizations
+    67→    67→plementationandSustainabilityModel)addedat-
+    68→    68→tradeoffagainstthesedemands. Theresultisthat
+    69→    69→tentiontoimplementationinfrastructureandlong-
+    70→    70→theinterventionreachingscalediffers,sometimes
+    71→    71→termsustainability[24];andEPIS(Exploration-
+    72→    72→substantially,fromtheonethatwastested,and
+    73→    73→Preparation-Implementation-Sustainmentframe-
+    74→    74→theadaptationsscalerequirescanunderminethe
+    75→    75→work)mappedthetemporalphasesofcontext-
+    76→    76→evidencebase. Toavoidthis,organizationsmust
+    77→    77→informedscaling[25–27].
+    78→    78→adaptandlearnwhiletheyscale. Buthow?
+    79→    79→Methodologicalinnovationshavenarrowed
+    80→    80→1.1 Currentapproachestolearningwhilescaling thespeed-rigordivideinparallel: effectiveness-
+    81→    81→implementationhybriddesignshavecombinedef-
+    82→    82→Organizations,andtheirfunders,havelongre- ficacyandimplementationquestionswithinsingle
+    83→    83→liedonimplementationscienceframeworkbuilt studies[28,29];MOST(MultiphaseOptimization
+    84→    84→aroundasequentialpipeline: developaninter- Strategy)hasformalizedoptimizationusingfacto-
+    85→    85→vention,testitseﬀicacyincontrolledconditions, rialdesignstoallowadaptionwithintrials[30–32];
+    86→    86→refineit,testininnaturalistic“implementation” SequentialMultipleAssignmentRandomizedTri-
+    87→    87→settings,andthenscale[10,11]. Thislinearpipeline als(SMART)enablerigoroustestingofadaptive
+    88→    88→offersclearroadmapsandmethodologicalstan- treatmentsequences[25];Micro-RandomizedTri-
+    89→    89→dards,andithasbecomedominantinbothimple- als(MRTs)optimizetimingandcontext-sensitivity
+    90→    90→mentationscienceandfunding[10,11]. TheUnited [33,34];andLearningHealthSystems(LHS)em-
+    91→    91→StatesAgencyforInternationalDevelopment(US- bedrapid-cycleexperimentationintoroutinecare
+    92→    92→AID)DevelopmentInnovationVentures(DIV)pi- delivery[35–37]. Togethertheseadvanceshave
+    93→    93→oneeredthestage-gatedfundingthatoperational- narrowedtheresearch–practicegap.
+    94→    94→izesit: pilot-stagefundingforproof-of-concept,
+    95→    95→Yetorganizationsscalinginterventionsstillstrug-
+    96→    96→testing-stagefundingforthecausalevidencean
+    97→    97→gletoapplytheseframeworksandmethods
+    98→    98→RCTprovides,andtransition-to-scalefundingfor
+    99→    99→[18,38]. forthreereasons.
+   100→   100→disseminationandscale-up. Themodelhasbeen
+   101→   101→widelyadopted,recentlyincludingbytheFundfor First,institutionalcontextmismatch. Theframe-
+   102→   102→InnovationinDevelopment(FID),asub-agencyof worksandmethodsaretypicallybuiltforestab-
+   103→   103→theAgenceFrançaisedeDéveloppement(AFD). lishedsystemswithrobustresearchandimple-
+   104→   104→mentationinfrastructure[18,39–41],whereasso-
+   105→   105→Butthisapproachfaceslimitations. First,rigor-
+   106→   106→cialimpactorganizationsoftenbuildtheirsystems
+   107→   107→ouscausalevidencetakesfivetoseventeenyears
+   108→   108→fromscratchorworkwithinunderdevelopedones
+   109→   109→toaccumulate[12,13]andoverthattimecontexts
+   110→   110→throughfragilepartnerships.
+   111→   111→shift,populationschange,technologiesevolve,and
+   112→   112→systemsadjust[12,14];theevidencemayloserel- Second,astudy-centricfocus. Theframeworks
+   113→   113→evancebythetimeitarrives. Second,thelinear andmethodsoftentreatinvestigationsasdiscrete
+   114→   114→modelassumesastabletemporalenvironmentin eventsratherthanaspartsofacontinuouslyevolv-
+   115→   115→whichscale-upisthestraightforwardapplication ingmodel. Astudy-centricapproachexaminessin-
+   116→   116→ofavalidatedintervention—yetreal-worldsys- gleelements;amodel-centricapproachexamines—
+   117→   117→tems,especiallyinunder-resourcedsettings,are withinonelearningframework—notjustthein-
+   118→   118→markedbyuncertaintyandemergenceratherthan terventionbuthowitisdelivered,whodelivers
+   119→   119→fixedcauseandeffect[15]. Third,stage-gatedfund- it,whopays,andwhetherthecompletepackage
+   120→   120→ingdrawsartificialboundariesthatcutacrossor- isgoodenough,bigenough,cheapenough,and
+   121→   121→ganiclearningcycles,pressuringorganizationsto simpleenoughtoscalesustainably[6,7].
+   122→   122→“freeze”aninterventionprematurelyforevaluation
+   123→   123→Third,diagnosiswithoutprescription. Theframe-
+   124→   124→evenwhentheyrecognizetheneedforembedded
+   125→   125→worksandmethodsexcelatdiagnosisbutnotpre-
+   126→   126→learningandrefinement. Fourth,longtimelines
+   127→   127→scription. CFIRidentifiescontextualdeterminants
+   128→   128→canexhaustphilanthropicfundingbeforeaninter-
+   129→   129→butdoesnotsaywhichrequireconfirmatoryev-
+   130→   130→ventionreachestheimplementersandpayerswho
+   131→   131→idence(RCTs)andwhichrequirerapidtesting
+   132→   132→mustsustainitatscale[16–18].
+   133→   133→(MRTs)[19]. RE-AIMevaluatesimpactdimen-
+   134→   134→Learningwhilescaling Preprint—notpeerreviewed 2
+   135→   135→
+   136→   136→sions[42]andFRAMEdocumentschangessys- encetoolsstrategically—decidingwhichapply
+   137→   137→tematically[43],yetneitheroffersdecisionrules towhichcomponents,when,andunderwhatgov-
+   138→   138→forwhenamodificationneedsfurtherevidence, ernance—andembedthemasongoingpractice
+   139→   139→orwhatkind. Withoutexplicitgovernance,organi- ratherthandiscreteresearchprojects.
+   140→   140→zationseitherover-testminorvariations,wasting
+   141→   141→Theframeworkhasthreeintegratedelements,
+   142→   142→resources,orunder-testconsequentialones,risking
+   143→   143→describedinfullinthenextsection. First,adual-
+   144→   144→alossofeffectiveness[44–46].
+   145→   145→enginearchitecturerunsevidencegenerationand
+   146→   146→optimizationinparallel: anEvidenceEnginepro-
+   147→   147→1.2 Aframeworkfororganizationstoembedimple-
+   148→   148→duceshigh-certaintycausalknowledgethrough
+   149→   149→mentationscience
+   150→   150→confirmatorydesigns,whileanOptimizationEn-
+   151→   151→gineenablesrapid,iterativelearningthroughem-
+   152→   152→Implementationsciencethusoffersorganizations
+   153→   153→beddedexperiments. Second,“Certaintyzones”
+   154→   154→enormousresourcesbutleavesthemwithtwo
+   155→   155→classifyeachcomponentbythestandardofevi-
+   156→   156→problems. Thefirstistoolselection: withsomany
+   157→   157→denceachangetoitrequires,routingthedecision
+   158→   158→frameworksandmethodsavailable,whichapply
+   159→   159→totheappropriateengine,withexplicitescalation
+   160→   160→towhichinterventioncomponents,andwhen? The
+   161→   161→andde-escalationrulesasevidenceaccumulates.
+   162→   162→secondisintegration: formanyorganizationsim-
+   163→   163→Third,threelifecyclephases—”Prove→Improve
+   164→   164→plementationscienceremainsaresearchfunction
+   165→   165→→Move”—coordinatehowtheengines’emphasis
+   166→   166→boltedontodeliveryratherthananembedded
+   167→   167→shiftsasaninterventionmatures,withinformation
+   168→   168→practice. Theresultisagapbetweenwhatimple-
+   169→   169→flowinginbothdirectionsbetweenthem(Figure
+   170→   170→mentationscienceoffersandhoworganizations
+   171→   171→1). Withinthisarchitecture,existingtoolsfindtheir
+   172→   172→useit.
+   173→   173→place: CFIR’sdeterminantsinformzoneassign-
+   174→   174→Weproposeaframeworkthataddressesbothprob- ment,MOSTandSMARTbecomeOptimization
+   175→   175→lems: a“dual-engine”learningarchitectureforem- Enginemethods,hybriddesignsbecomeEvidence
+   176→   176→beddingimplementationscience. Itisnotanew Enginedesigns,andLearningHealthSystems’
+   177→   177→theory,noracompetitortomethodslikeCFIR rapid-cycleinfrastructurebecomestheUniversal
+   178→   178→orLHS,butahigher-leveloperatingarchitecture Monitoringlayerbothenginesquery.
+   179→   179→thatletsorganizationsdeployimplementationsci-
+   180→   180→Figure1.Thedual-enginelearningarchitecture
+   181→   181→1 Twoengines,runinparallel
+   182→   182→EvidenceEngine OptimizationEngine
+   183→   183→setsboundaries→
+   184→   184→Establisheswhatworks,andwhy Improveshowit'sdelivered
+   185→   185→RCTs·mechanism·economic A/B·factorial·SPC
+   186→   186→highcertainty·years speed·weekstomonths
+   187→   187→←raiseshypotheses
+   188→   188→definesthesafetyenvelope continuousimprovement
+   189→   189→2 Certaintyzonesrouteeachcomponenttoanengine
+   190→   190→ZoneA ZoneB ZoneC
+   191→   191→load-bearingcore directionallyvalidated operationaldetail
+   192→   192→→EvidenceEngine →bothengines →OptimizationEngine
+   193→   193→3 Emphasisshiftsacrossthelifecycle Evidence Optimization
+   194→   194→Optimization
+   195→   195→Optimization
+   196→   196→Evidence
+   197→   197→Evidence
+   198→   198→Prove Improve Move
+   199→   199→years0–5 years1–7 years5+
+   200→   200→Evidence-led balanced Optimization-led
+   201→   201→Note.Twoenginesruninparallelthroughoutanintervention’slifecycle.(1)AnEvidenceEnginegenerateshigh-certaintycausal
+   202→   202→knowledgethroughconfirmatorydesigns(randomized,mechanism,andeconomicstudies)overyears,definingthesafetyenvelope;
+   203→   203→anOptimizationEngineimprovesdeliverythroughrapidembeddedexperiments(A/B,factorial,statisticalprocesscontrol)over
+   204→   204→weekstomonths.Informationflowsbothways:theEvidenceEnginesetsboundariesandprotectedelements,theOptimization
+   205→   205→Engineraiseshypothesesforconfirmation.(2)Certaintyzonesrouteeachcomponenttoanengine—ZoneA(load-bearingcore)
+   206→   206→totheEvidenceEngine,ZoneC(operationaldetail)totheOptimizationEngine,ZoneB(directionallyvalidated)toboth.(3)Both
+   207→   207→enginesoperatethroughout,butemphasisshiftsacrosstheProve,Improve,andMovephases:Evidence-ledearly,balancedinthe
+   208→   208→middle,Optimization-ledatscale.Proportionsandyearrangesareillustrative,notprescriptive.
+   209→   209→Learningwhilescaling Preprint—notpeerreviewed 3
+   210→   210→
+   211→   211→Theframeworkthereforeanswerspracticalques- TheOptimizationEngine:Enablingrapidlearningand
+   212→   212→tionsmanyimplementingorganizationsface: given iterativeadaptation
+   213→   213→aportfolioofevidence-basedinterventionsanda
+   214→   214→WhiletheEvidenceEngineestablisheswhatworks
+   215→   215→setofimplementationchallenges,howdoweor-
+   216→   216→andwhy,theOptimizationEngineasksadiffer-
+   217→   217→ganizeourselvestolearnwhilewescale,andhow
+   218→   218→entquestion: howdoweimproveanditerateaswe
+   219→   219→dowemakeimplementationscienceasustained
+   220→   220→scale? Howcanrecruitmentincreaseenrollment?
+   221→   221→capabilityratherthananepisodicresearchactivity?
+   222→   222→Whichtrainingproducesbettercompetence? What
+   223→   223→Thepaperdescribestheframework’sthreeinte- sessionlengthsustainsengagementwhilemain-
+   224→   224→gratedelementsandthemechanismsthatlink tainingfidelity?
+   225→   225→them;presentsafive-stepmethodologyforop-
+   226→   226→Itsmethodsprioritizespeedwithsuﬀicientrigor.
+   227→   227→erationalizingit(withtemplatesandworkedex-
+   228→   228→A/Btestscompareinterventionvariations[63];
+   229→   229→amplesinthesupplementarytoolkit);andcloses
+   230→   230→factorialdesignstestmultiplefeaturesatonce
+   231→   231→withacasestudyofitsapplicationtoShamiri,a
+   232→   232→[31,34,64,65];SMARTdesignstestadaptivese-
+   233→   233→briefgroup-basedinterventionforadolescentde-
+   234→   234→quences[66];micro-randomizedtrialsoptimize
+   235→   235→pressionandanxietyinKenyathatnowreaches
+   236→   236→timingandcontext-sensitivity[28,29];andstatisti-
+   237→   237→over250,000youthacrossmorethan500sec-
+   238→   238→calprocesscontrolmonitorsimplementationmet-
+   239→   239→ondaryschoolsandisscalingtowardgovernment-
+   240→   240→ricsovertime[67].
+   241→   241→embeddeddelivery[47–50].
+   242→   242→Theseexperimentsconcludeinweeksormonths,
+   243→   243→canusesmallersamplesonproximaloutcomes,
+   244→   244→2 Thedual-engineframework
+   245→   245→andkeepprotocolsflexibleforrapiditeration—a
+   246→   246→differentpurpose,notalowerstandard. TheOpti-
+   247→   247→2.1 Dual-enginearchitecture: Parallelprocessesfor
+   248→   248→mizationEnginethusenablescontinuousadapta-
+   249→   249→confirmationandoptimization
+   250→   250→tionwithintheboundariesconfirmatoryresearch
+   251→   251→Inthedual-enginearchitecture,researchandadap- establishes.
+   252→   252→tationrunastwoenginesinparallelthroughout
+   253→   253→Integrationthroughbidirectionalinformationflow
+   254→   254→anintervention’slifecycleratherthaninsequence
+   255→   255→(Figure1;Table1). Theframework’spowercomesfromcoordination
+   256→   256→betweentheengines,nottheirseparateoperation.
+   257→   257→TheEvidenceEngine:Establishingcausalcertainty
+   258→   258→Informationflowsinbothdirections,soeachen-
+   259→   259→TheEvidenceEnginegenerateshigh-certainty gineinformsandstrengthenstheother(Figure1):
+   260→   260→knowledgethroughconfirmatorydesigns,answer-
+   261→   261→ingthequestionsthatdemanddefinitivecausalin-
+   262→   262→• EvidencetoOptimization. RCTsdemonstrating
+   263→   263→ference: whetheraninterventionworks,forwhom,
+   264→   264→eﬀicacymakespecificcomponents”protected
+   265→   265→throughwhatmechanisms,andatwhatcost.
+   266→   266→elements.”Mechanismstudiesdistinguishes-
+   267→   267→Itsmethodsprioritizerigorandinternalvalid- sentialarchitecturefrommodifiablefeatures.
+   268→   268→ity[2,51]. RCTscomparetreatmentwithcontrol Safetymonitoringsetsparametersoptimization
+   269→   269→[2,51];clusterRCTsaddresscontaminationrisks cannotviolate. Cost-effectivenessanalysesset
+   270→   270→[52];pragmaticRCTstesteffectivenessunderreal- valuethresholds.
+   271→   271→worldconditions[53,54];andhybrideffectiveness-
+   272→   272→• OptimizationtoEvidence. WhenanA/Btest
+   273→   273→implementationtrialscombineclinicaleffective-
+   274→   274→showsthatavariationsubstantiallyaffectscore
+   275→   275→nesswithimplementationquestions[28,29].
+   276→   276→outcomes,acomponentassumedtobeperiph-
+   277→   277→TheEvidenceEnginealsoinvestigatesmecha- eralmayinfactbeload-bearing,andwarrants
+   278→   278→nisms,throughmediationanalyses[55,56],dis- EvidenceEngineinvestigation. Processdata
+   279→   279→mantlingstudies[57,58],componentoptimization revealpatternssuggestingdifferentialeffects,
+   280→   280→trials[30,59],andeconomicevaluations[60–62]. generatingmoderatorhypotheses. Adaptations
+   281→   281→Theseactivitiestypicallyspantwotofiveyears thatconvergeacrosssitesbecomecandidatesfor
+   282→   282→[9],thoughasinglestudycanbedoneinoneto formalvalidation.
+   283→   283→two[44,53]. Samplesizesoftenruntohundredsor
+   284→   284→thousands,andprotocolsarepre-registeredwith
+   285→   285→Thisbidirectionalflowpreventstwofailures. With-
+   286→   286→pre-specifiedanalyses. Critically,theEvidenceEn-
+   287→   287→outtheEvidenceEngine’sboundaries,optimiza-
+   288→   288→gineoperatescontinuouslyevenasanintervention
+   289→   289→tionrisksdriftinginwaysthatcompromiseeffec-
+   290→   290→scales—revalidatingeffects,mechanisms,andcost-
+   291→   291→tiveness. WithouttheOptimizationEngine’shy-
+   292→   292→effectivenessasthemodelchanges.
+   293→   293→potheses,confirmatoryresearchriskstestingques-
+   294→   294→tionsdisconnectedfromrealimplementation.
+   295→   295→Learningwhilescaling Preprint—notpeerreviewed 4
+   296→   296→
+   297→   297→Table1.ComparisonoftheEvidenceEngineandtheOptimizationEngine
+   298→   298→Dimension EvidenceEngine OptimizationEngine
+   299→   299→Primarypurpose Establishcausalcertainty—whatworks,forwhom, Improvehowthemodelisdelivered—reach,en-
+   300→   300→why,andatwhatcost gagement,cost,andfidelityatscale
+   301→   301→Questionsitanswers Effectiveness:doesitcausallywork,anddoeffects Goodenough:protectfidelityandeffects · Big
+   302→   302→persist? · Mechanism:whichcomponentsand enough:extendreach,access,retention · Cheap
+   303→   303→mediatorscarrytheeffect? · Boundaryconditions: enough:lowercostperbeneficiary · Simple
+   304→   304→forwhomandwheredoesithold? · Economic: enough:simplifytraininganddelivery
+   305→   305→costandcost-effectiveness
+   306→   306→Questionframing Confirmatory—establishesaneffect Non-inferiorityforleanerlevers;superiorityfor
+   307→   307→cost-addinglevers
+   308→   308→Keymethods RCTs,cluster&pragmatictrials;mechanismstud- A/Btests;factorialdesigns;SMART;micro-
+   309→   309→ies(mediation,dismantling);replicationwithmod- randomizedtrials;statisticalprocesscontrol
+   310→   310→eratoranalyses;cost-effectivenessevaluations
+   311→   311→Certaintyzones ZoneA(automatic);selectedZoneB ZoneC(automatic);sharedZoneB
+   312→   312→Evidencestandard& Highinternalvalidity;pre-registeredprotocols; Suﬀicientrigorforafast,actionablereadagainsta
+   313→   313→decisionlogic decisionsmadeondefinitive,confirmedeffects pre-specifiedmargin;tolerantofiterationandrapid
+   314→   314→(lowtoleranceforfalsepositives) correction
+   315→   315→Timeline ~2–5yearspermajorstudy(somesinglestudiesin Days–weeks(ZoneC);months(ZoneB)
+   316→   316→1–2)
+   317→   317→Samplesize Large,poweredforpreciseeffectestimates(hun- Smaller;sizedtodetectpracticallymeaningfuldif-
+   318→   318→dredstothousands) ferencesonproximaloutcomes(tenstolowhun-
+   319→   319→dreds)
+   320→   320→Whenactive Throughoutthelifecyclebutstrategic;leadsin Continuousandembeddedinroutinedelivery;
+   321→   321→Prove,revalidatesinMove leadsinMove
+   322→   322→Primaryoutputs Publishedtrials,validatedprotocols,cost- Optimizeddeliveryprotocols,implementation
+   323→   323→effectivenessevidence,thesafetyenvelope playbooks,operationalimprovements
+   324→   324→Typicalfunding Researchgrants;stage-gatedfunders Operationalbudgets;eﬀiciencysavings;implemen-
+   325→   325→tationfunders
+   326→   326→Note.TheEvidenceEngineanswersfourconfirmatoryquestions(effectiveness,mechanism,boundaryconditions,economic)throughrigorous,pre-
+   327→   327→registereddesignsoveryears;theOptimizationEngineanswersthefourscalingimperatives(good,big,cheap,simpleenough)throughrapidembedded
+   328→   328→experimentsoverweekstomonths,framingleaneradaptationsasnon-inferioritytestsandcost-addingonesassuperioritytests.Theenginesaddress
+   329→   329→complementaryzones(ZoneAvs.ZoneC,sharingZoneB)andbothrunthroughoutthelifecyclewithshiftingemphasis(Figure1).
+   330→   330→2.2 Certaintyzones: Decidingevidencestandards idenceEngineconfirmationbeforebroad
+   331→   331→forcomponentmodifications implementation—typicallyRCTsorsimilarde-
+   332→   332→signswithstrongcomparisongroupsandcare-
+   333→   333→Thearchitectureestablishesthatbothengines
+   334→   334→fulattentiontoconfounding.
+   335→   335→shouldrunatoncebutleavesonequestionopen:
+   336→   336→whichcomponentsshouldeachengineaddress? ZoneB:Directionallyvalidatedfeatures(importantbut
+   337→   337→Certaintyzonesansweritbyclassifyingcompo- flexibleinfrastructure).
+   338→   338→nentsaccordingtotheircausalimportanceandthe
+   339→   339→ZoneBincludescomponentsthatevidencesug-
+   340→   340→certaintyachangerequires(Figure1;Table2).
+   341→   341→gestscontributetoeffectiveness,thoughtheirexact
+   342→   342→ZoneA:Coreelements(“load-bearingwalls”) formmattersless. Likeabuilding’splumbingor
+   343→   343→heating,theyareimportantforfunction,butmore
+   344→   344→ZoneAcomprisescomponentswithestablished
+   345→   345→thanoneapproachcanwork.
+   346→   346→causalimportance,whereamodificationcould
+   347→   347→altereffectiveness,safety,ormechanisms. Likea
+   348→   348→building’sload-bearingwalls,theyareessentialto • Classificationcriteria. Componentsfitwhen
+   349→   349→theintervention’scorebenefitsandshouldnotbe theoryorpreliminaryevidencesupportsthem
+   350→   350→modifiedorremovedwithoutrigorousevidence. withoutprovingthemnecessary,whenseveral
+   351→   351→approachesachievesimilarresults,orwhen
+   352→   352→changingthemaltersimplementationdetails
+   353→   353→• Classificationcriteria. Componentsbelongin
+   354→   354→withoutfundamentallyalteringmechanisms.
+   355→   355→ZoneAwhentheyarecentraltothetheoryof
+   356→   356→Examplesincludedelivery-formatvariations,
+   357→   357→change,havebeenshowntomediateoutcomes,
+   358→   358→sessionstructureandsequencing,supervision
+   359→   359→involvesafety-criticalprocedures,orwhenmod-
+   360→   360→approaches,trainingmethods,andengagement
+   361→   361→ifyingthemwouldmeanameaningfuldepar-
+   362→   362→strategies.
+   363→   363→turefromvalidatedprotocols. Typicalexamples
+   364→   364→• Evidencestandard. Changesbenefitfromsys-
+   365→   365→areactiveingredients,minimumdosage,effect-
+   366→   366→tematicevaluationbutcanrelyonadaptivede-
+   367→   367→moderatingpopulationcharacteristics,andcore
+   368→   368→signs,stepped-wedgetrials,SMARTdesigns,
+   369→   369→deliveryprinciples.
+   370→   370→A/Btests,orquasi-experimentalapproaches.
+   371→   371→• Evidencestandard. ChangesrequireEv-
+   372→   372→Learningwhilescaling Preprint—notpeerreviewed 5
+   373→   373→
+   374→   374→ZoneC:Operationaldetails(“interiordecoration”). 2.3 Lifecyclephases: Providingtemporalcoordina-
+   375→   375→tionfromdevelopmenttoscale
+   376→   376→ZoneCcoverslogisticalandoperationaldetails
+   377→   377→whosevariationisunlikelytoaffectcoreoutcomes, Bothenginesandthecertaintyzonesoperate
+   378→   378→eventhoughitmayinfluenceimplementationef- acrossanintervention’slifecycle,buttheirrela-
+   379→   379→ficiency,cost,experience,andacceptability. Like tiveemphasisshifts. Thelifecyclemodelidentifies
+   380→   380→interiordecoration,itshapesexperiencebutnot threeoverlappingphases—Prove,Improve,and
+   381→   381→structuralintegrity. Move—distinctinemphasisbutconcurrentinprac-
+   382→   382→tice(Figure1;Table3).
+   383→   383→• Classificationcriteria. Componentsfitwhen ThePROVEphase:Establishingthefound
+   384→   384→theyareoperationalratherthantherapeuticand
+   385→   385→TheProvephaseestablishescoreeﬀicacy,safety,
+   386→   386→reasonablevariationcarrieslittlerisktocore
+   387→   387→andaminimalviableoperatingmodel: theEvi-
+   388→   388→outcomes—sessionschedulinglogistics,recruit-
+   389→   389→denceEnginerunsinitialeﬀicacy,safety,andeco-
+   390→   390→mentmessaging,user-interfacedetails,andad-
+   391→   391→nomicstudies;theOptimizationEnginemakes
+   392→   392→ministrativeprocedures.
+   393→   393→implementationpractical(recruitment,training,
+   394→   394→• Evidencestandard. Changescanbetested
+   395→   395→logistics,measurement);andintegrationsetsup
+   396→   396→rapidlythroughA/Bexperiments,statistical
+   397→   397→governance—zonemapping,protocols,andshared
+   398→   398→processcontrol,orinformedtrial-and-errorwith
+   399→   399→data. Ittypicallyspanstwotofiveyears,overlap-
+   400→   400→monitoring. Thebarisnon-inferiorityonimple-
+   401→   401→pingImprove.
+   402→   402→mentationmetrics,notconfirmationofeffects
+   403→   403→oncoreoutcomes. TheIMPROVEPhase:Maximumintegration
+   404→   404→Principlesguidingzoneclassification. TheImprovephaseistheperiodofmostintensive
+   405→   405→integration. Withcoreeﬀicacyestablished,opti-
+   406→   406→Classifyingacomponentcallsforsystematicrea-
+   407→   407→mizationproceedssystematicallywhileconfirma-
+   408→   408→soningaboutmechanism,evidence,andrisk. We
+   409→   409→toryresearchdeepenstheevidence—replication,
+   410→   410→proposefiveprinciplestoguideit: theoretical
+   411→   411→mechanism,long-term,comparative-effectiveness,
+   412→   412→grounding,empiricalevidence,stakeholderex-
+   413→   413→andnon-inferioritystudiesononeside,andinten-
+   414→   414→pertise,riskassessment,andcontextsensitivity.
+   415→   415→sivetestingofdelivery,training,engagement,cul-
+   416→   416→Classificationsarenotfixed;theyevolvethrough
+   417→   417→turaladaptation,andeﬀiciencyontheother. Itis
+   418→   418→escalationandde-escalationrules(Table2;Supple-
+   419→   419→definedbymaximumparallelism,andtypically
+   420→   420→mentA).
+   421→   421→spansthreetosevenyears,overlappingbothadja-
+   422→   422→centphases.
+   423→   423→• Escalation(movingup). Escalationmovesa TheMOVEPhase:Scalingandsustainedevolution
+   424→   424→componentupwardwhenaccumulatingevi-
+   425→   425→TheMovephaseiswhenamatureinterventionop-
+   426→   426→dencepointstogreatercausalimportanceor
+   427→   427→eratesatscalewhilestilllearning. Emphasisshifts
+   428→   428→safetyrelevance. Rapid-cycletestingshowing
+   429→   429→tosustainability,qualityassuranceacrosspartners,
+   430→   430→thataZoneCfeaturesubstantiallyaffectscore
+   431→   431→andperiodicrevalidation: theEvidenceEngine
+   432→   432→outcomesescalatesittoZoneB;asafetysignal
+   433→   433→revalidatescorecomponents,evaluatespartners,
+   434→   434→escalatesanycomponenttoZoneAimmediately
+   435→   435→andstudieslong-termandpopulation-levelout-
+   436→   436→(Table2).
+   437→   437→comes,whiletheOptimizationEnginepursuescon-
+   438→   438→• De-escalation(movingdown). De-escalation
+   439→   439→tinuousqualityimprovement,costreduction,and
+   440→   440→movesacomponentdownwardwhenitshows
+   441→   441→partner-specificoptimization. Integrationtakeson
+   442→   442→consistentequivalenceacrossvariantsorcon-
+   443→   443→anecosystemcharacter—learningnetworks,part-
+   444→   444→texts. WhenaZoneAcomponentremainsef-
+   445→   445→nercertification,andvalidatedadaptationlibraries.
+   446→   446→fectiveacrossmanysettingsdespitesubstantial
+   447→   447→Movetypicallybeginsaroundyearfiveandcontin-
+   448→   448→deliveryvariation,someaspectscangraduate
+   449→   449→uesindefinitely.
+   450→   450→toZoneB;whennomeaningfulrelationship
+   451→   451→emergesbetweenaZoneBcomponentandcore
+   452→   452→Overlappingphasesandfluidtransitions
+   453→   453→outcomes,itcanmovetoZoneC(Table2)
+   454→   454→Inpracticethephasesoverlap,andeffectivedual-
+   455→   455→engineprogramsrunatseveraltemporalscales
+   456→   456→Nonetheless,limitedresourcesmayjustifylower- atonce: sprintcycles(weeks)foroperationalad-
+   457→   457→ingaZoneAcomponenttoZoneBwithclosemon- justments,iterationcycles(months)forstructured
+   458→   458→itoring(resource-constrainedde-escalation),rather experiments,generationcycles(years)forconfir-
+   459→   459→thanabandoningtheintervention. matorystudies,andlegacycycles(decades)forthe
+   460→   460→Learningwhilescaling Preprint—notpeerreviewed 6
+   461→   461→
+   462→   462→Table2.Certaintyzonesandtheirgovernance
+   463→   463→PanelA.OverviewofCertaintyZones
+   464→   464→Dimension ZoneA ZoneB ZoneC
+   465→   465→Metaphor&definition Load-bearingwalls:proven- Crucialbutflexibleinfrastruc- Interiordecoration:Oper-
+   466→   466→essentialcore(i.e.,active ture ationaldetailsunlikelyto
+   467→   467→ingredients) affectcoremechanisms
+   468→   468→Causalimportance Centraltothetheoryof Contributestoeffectiveness, Notinthetheoryofchange;
+   469→   469→change;provenmediator butmultipleformscanwork assumedperipheral
+   470→   470→ofoutcomes
+   471→   471→Examples Activeingredients,minimum Deliveryformat,supervision, Scheduling,recruitment
+   472→   472→dose,safety-criticalproce- trainingmethods,engage- messaging,venue,admin
+   473→   473→dures ment
+   474→   474→Governingengine EvidenceEngine Bothengines OptimizationEngine
+   475→   475→Evidencestandardto ConfirmatoryRCT(orstrong Systematicevaluationagainst A/Bormonitoring—non-
+   476→   476→modify comparison)beforebroad anon-inferioritymargin inferiorityonimplementation
+   477→   477→change metrics
+   478→   478→Typicaldesigns Pre-registeredRCTs,mecha- Stepped-wedge,SMART, A/Btests,statisticalprocess
+   479→   479→nismstudies quasi-experimental,A/B control,monitoredtrial-and-
+   480→   480→error
+   481→   481→Decisionauthority ARB+ScientificAdvisory ARB(research+implementa- Implementationteam,with
+   482→   482→Board tionleads) ARBreporting
+   483→   483→PanelB.Movingbetween
+   484→   484→zones:Transitionguide-
+   485→   485→lines
+   486→   486→Transition Trigger Evidencerequired Decisionauthority Timeline
+   487→   487→↑EscalateC→B RapidtestingshowsaZoneC Documentedeffectacross Implementation+M&E ~30daysofdetection
+   488→   488→featuremovescoreoutcomes contexts;statisticalsignal document;ARBratifies
+   489→   489→↑EscalateB→A Mechanismstudyshows Mediation/dismantling Researchpresents;SABre- 3–6monthstudy;ARBon
+   490→   490→thecomponentmediatesthe evidence views;ARBratifies completion
+   491→   491→effect
+   492→   492→↓De-escalateA→B Effectholdsacrossmany Consistencyacross≥3studies SABreview;ARBdecides Annualreviewcycle
+   493→   493→settingsdespitevariation /contexts
+   494→   494→↓De-escalateB→C Systematicevaluationfinds ≥2studiesshowingnorela- Research+implementation Afternullfindings
+   495→   495→norelationshipwithout- tionship leads;ARB
+   496→   496→comes
+   497→   497→! Safetyoverride→A Anyadverseeventorsafety Incidentreport+investiga- Immediateescalationto Immediate;review≤24h
+   498→   498→signal(anyzone,immediate) tion leadership;safetyreview
+   499→   499→Note.PanelAclassifieseverycomponentintooneofthreezonesbyitscausalimportanceandthecertaintyachangerequires,fixingboththeevidence
+   500→   500→standardtomodifyitandtheresponsibleengine.PanelBgivestherulesformovingcomponentsbetweenzonesasevidenceaccumulates,includinga
+   501→   501→safetyoverridethatescalatesanycomponenttoZoneAimmediatelyonasafetysignal.Classificationweighsfiveconsiderations:theoreticalimportance,
+   502→   502→empiricalevidence,stakeholderexpertise,risk,andcontextsensitivity.Quantitativethresholds(e.g.,effect-sizeandstudy-countcriteria)aresetper
+   503→   503→interventionandrecordedinthegovernanceregister.
+   504→   504→field’sevolution. 3.1 Step1: Interventiondecompositionandzone
+   505→   505→mapping
+   506→   506→3 Operationalizingtheframework: Afive-
+   507→   507→1A.Mappingintervention’soperationalmodel
+   508→   508→stepmethodology
+   509→   509→Thefirstphasemapstheintervention’scomplete
+   510→   510→Translatingthedual-engineframeworkintoprac- operationalmodel,whichrestsonafoundational
+   511→   511→ticerequiresstructuredprocessesorganizations distinction: interventionversusmodel. Aninter-
+   512→   512→canapplysystematically. Wepresentafive-step ventionisthecoreprogrammaticcontent—theac-
+   513→   513→method(Table4): Steps1–2laythefoundations— tiveingredientstestedineﬀicacytrials;forapsy-
+   514→   514→mappinganintervention’soperationalcomponents chologicalintervention,thetherapeuticcontentde-
+   515→   515→anddesigningameasurementsystem;Steps3–4 liveredtoparticipants[70,71]. Amodelisthecom-
+   516→   516→buildthetwoengines’portfolios;Step5establishes pleteoperationalsystemthatdeliversthatinter-
+   517→   517→thegovernancethatcoordinatesthem. Detailed ventionatscale,ofwhichtheinterventionisonly
+   518→   518→methodology(includingtemplatesandwork- onepart: thedeliverymechanism,theoperational
+   519→   519→sheets)appearsinSupplementA. infrastructurethatsustainsdelivery(recruitment,
+   520→   520→training,supervision,fidelitymonitoring,safety
+   521→   521→WeillustrateeachstepwiththeShamirimodel
+   522→   522→andreferral,anddatasystems),thestakeholderen-
+   523→   523→[48]—agroup-basedmental-healthinterven-
+   524→   524→gagementthatsecuresaccess,thereplicationstrat-
+   525→   525→tionforadolescentsinKenyathathasserved
+   526→   526→egy,andthefinancingstructure[44,72–74]. The
+   527→   527→over250,000youthsince2021,buildinganev-
+   528→   528→interventioniswhatresearcherstest;themodelis
+   529→   529→idencebasethroughmultiplerandomizedtri-
+   530→   530→whatorganizationsrun,andwhatapartnerorgov-
+   531→   531→alswhileadaptingthroughrapiditeration[48–
+   532→   532→ernmentultimatelyreplicatesatscale.
+   533→   533→50,57,58,68,69];thefullworkedcaseisinSupple-
+   534→   534→mentB. Thisdistinctionmattersbecausetheversionthat
+   535→   535→reachesscaleisthemodel,nottheintervention—
+   536→   536→andmostofthemodelisnottheintervention. The
+   537→   537→Learningwhilescaling Preprint—notpeerreviewed 7
+   538→   538→
+   539→   539→Table3.TheProve–Improve–Movelifecycle
+   540→   540→Dimension PROVE(yrs0–5) IMPROVE(yrs1–7) MOVE(yrs5+)
+   541→   541→Centralgoal Establisheﬀicacy&feasibility Optimizedelivery,deepenevi- Scalesustainably,holdquality
+   542→   542→dence
+   543→   543→Guidingquestion “Doesitwork?” “Howdoesitwork,forwhom, “Howdowemaintainquality
+   544→   544→howdoweimprovedelivery?” andimpactatscale?”
+   545→   545→Enginebalance ~80%Evidence/20%Optimiza- ~50%/50% ~30%Evidence/70%Optimiza-
+   546→   546→tion tion
+   547→   547→EvidenceEngineactivi- InitialeﬀicacyRCT(s),safety, Replication,mechanism,long- Periodicrevalidation,partner-
+   548→   548→ties proof-of-concept term,economic effectiveness,population-level
+   549→   549→outcomes
+   550→   550→OptimizationEngine Refinerecruitment,training, Testdelivery,supervision,en- ContinuousQI,partner-specific
+   551→   551→activities logistics gagement,culturaladaptation, optimization,costreduction
+   552→   552→eﬀiciency
+   553→   553→Integrationfocus Zonemapping,governance Cross-enginereview,escalation Learningnetworks,partnercer-
+   554→   554→setup,shareddata protocols,maximumparallelism tification,validatedadaptation
+   555→   555→libraries
+   556→   556→Exitcriteria(readyfor Eﬀicacyproven,safetycharacter- Worksacrosscontexts,ZoneB Scalemaintained,qualityas-
+   557→   557→nextphase) ized,economicsfeasible optimized,mechanismunder- suredacrosspartners,sustain-
+   558→   558→stood able
+   559→   559→Note.Thethreephasesoverlapratherthanrunninginsequence,andbothenginesoperatethroughout—onlytheirrelativeemphasisshifts(Figure1).
+   560→   560→“Enginebalancegivestheapproximateshareofefforteachenginecarriesperphase.Percentages,yearranges,andexitcriteriaareillustrative,notpre-
+   561→   561→scriptive;theprecisemixdependsoninterventioncomplexityandcontext.
+   562→   562→adaptationsscalingforces—simplifyingdelivery X[thecoreidea],then[someone]doesY[thebe-
+   563→   563→foranon-specialistworkforce,loweringcost,fit- haviorchange],andZoutcomeensues[thedesired
+   564→   564→tingapartner’ssystems—falldisproportionately outcome]”—whichnamesthecoreidea,thecentral
+   565→   565→onthemodel’soperationalcomponents[75],andit behavior,andtheintendedimpactatonce,and,as
+   566→   566→isthere,inunmonitoredoperationaldrift,thatthe ahypothesis,remainstobetested. SeeSupplement
+   567→   567→”voltagedrop”takeshold[3,4]. Theframeworkis A.
+   568→   568→consequentlymodel-centric: itbringsthewhole
+   569→   569→modelunderoneexplicitsystemofgovernance, 1B.Mappingbehaviorsanddrivers
+   570→   570→sincecomponentsleftoffthemapare,bydefini-
+   571→   571→Phase1BconvertstheToCintotheconcretecompo-
+   572→   572→tion,ungoverned.
+   573→   573→nentsanorganizationmustbuildandrun,work-
+   574→   574→Mappingbeginswithanexplicittheoryofchange ingbackwardintwosteps: thebehaviorsthat
+   575→   575→(ToC)—anaccountofhowandwhyasetofactiv- mustoccurfortheoutcometoberealized,thenthe
+   576→   576→itiesproducesadesiredoutcome,specifyingthe drivers—whattheorganizationdoestomakeeach
+   577→   577→causalpathwayandtheassumptionseachlink behaviorhappen[6,8,73].
+   578→   578→dependson[76–79]. Webeginherebecausestat-
+   579→   579→Atheoryofchangeisatrootaclaimaboutbehav-
+   580→   580→ing,ratherthanassuming,howeachactivitycon-
+   581→   581→ior: impactoccursonlywhenpeopleactdiffer-
+   582→   582→tributestoimpactisthesamejudgmentthatlater
+   583→   583→ently[6,7]. Thefirsttaskistoask,fortheoutcome
+   584→   584→governswhichcertaintyzoneacomponentbelongs
+   585→   585→namedin1A,“whomustdowhatdifferently?”
+   586→   586→in.
+   587→   587→Thebehaviorsaremappedasashort,ordered
+   588→   588→Severalestablishedmethodsexisttobuildatheory chain(typicallyfourtoseven),eachaconcrete
+   589→   589→ofchange[77–79]. Here,weusetheMulagoFoun- actor-and-actionratherthanastateofmind(”at-
+   590→   590→dation’sapproachforscalingleansocial-impact tendseverysession,”not”valuestheprogram”)
+   591→   591→interventions—deliberatelycompactandimpact- [6,8].
+   592→   592→first[6,8,9]—whichbuildsthetheoryofchange
+   593→   593→Eachbehavior’sdriversthenunpackintospecific
+   594→   594→(or”theoryofimpact”)throughthreequestions
+   595→   595→activities—thedriver”recruitandtrainaprovider
+   596→   596→[6,8,9]:
+   597→   597→workforce”becomescurriculumdesign,trainer
+   598→   598→selection,training,certification,andsupervision—
+   599→   599→1. Definethecoreidea. Whatfundamentalinno-
+   600→   600→yieldingacomprehensiveset,typicallytwentyto
+   601→   601→vationdrivestheintervention?
+   602→   602→fifty,thatextendswellbeyondtheinterventionto
+   603→   603→2. Identifytheoutcome. Whatchangeinbeneficia-
+   604→   604→spandelivery,operationalinfrastructure,stake-
+   605→   605→ries’livesisitintendedtoproduce?
+   606→   606→holderengagement,andsupportstructures(Work-
+   607→   607→3. Specificthecentralbehaviorchange. Who sheet1b,SupplementA)[6,8]. Thissetistheraw
+   608→   608→mustdowhatdifferentlyforthecoreideato materialfortheinventoryofPhase1C.
+   609→   609→producethatoutcome?
+   610→   610→Thesecombineintoasinglehypothesis—”ifwedo
+   611→   611→Learningwhilescaling Preprint—notpeerreviewed 8
+   612→   612→
+   613→   613→Table4.Afive-stepmethodologyforoperationalizingtheframework
+   614→   614→Step Focus Keyactivities Primaryoutput Timeline
+   615→   615→1.Decomposition& Mapthefulloperational Theoryofchange→behavior–driver Governedcomponentinven- 1–2months
+   616→   616→zonemapping model;classifyevery mapping→componentinventory→zone tory+zoneclassification
+   617→   617→component classification→governancesetup matrix
+   618→   618→2.Measurement Designthemeasure- Defineoutcomes(primary,secondary, Measurementplan;Univer- 1–3months(parallel
+   619→   619→planning mentsystem:3outcome organizational);settheUniversalMon- salMonitoringsetlive withStep1)
+   620→   620→types×2collectiontiers itoringset+supplementaryset;attach
+   621→   621→decisionthresholds
+   622→   622→3.EvidenceEngine Planconfirmatoryre- Prioritizecomponents;poseeffectiveness Prioritized,pre-registered 2–6monthstobuild;1–5
+   623→   623→portfolio searchforZoneA+ /mechanism/boundary/economic confirmatoryportfolio yrsperstudy
+   624→   624→selectedZoneB questions;matchtodesigns;pre-register
+   625→   625→decisionrules
+   626→   626→4.Optimization Planrapidembedded Selectcomponents;generatequestionsby Optimizationportfolio+ 1–2monthstostart;
+   627→   627→Engineportfolio experimentsforZoneC thefourimperatives;designA/B/facto- experimentregister ongoing
+   628→   628→+sharedZoneB rial/SPC(non-inferiorityorsuperiority);
+   629→   629→pre-specifydecisions
+   630→   630→5.Coordinatingthe Buildthestanding Establishdecisionrights(ARB+SAB), ARB/SAB,thelivingregis- 1–2monthstosetup;
+   631→   631→enginesintoone systemthatrunsboth capability(R&Lteam),integrationinfras- ter,shareddataplatform evolvescontinuously
+   632→   632→system enginesasone tructure(shareddata,register,cadence),
+   633→   633→andculture
+   634→   634→Note.Steps1–2laythefoundation(agovernedcomponentmodelandameasurementsystem);Steps3–4buildtheengines’portfolios;Step5establishes
+   635→   635→thecoordinatingsystem.Thestepsaresequentialinlogicbutoverlapinpractice.Detailedsub-steps(1A–1E)appearinthemaintext;workedtemplates
+   636→   636→areinSupplementA.
+   637→   637→1C.Compilingthecomponentinventory 1E.Establishingdocumentationandgovernance
+   638→   638→Phase1Cconsolidatesthe1Bactivitiesintoasin- Classificationisusefulonlyifitchangeshowde-
+   639→   639→glecomponentinventory—thecanonicalregister cisionsaremade. Phase1Econvertstheclassified
+   640→   640→ofeverycomponentinthemodel,andtheunitof inventoryintoalivinggovernancesystemwith
+   641→   641→analysisforeverythingthatfollows. Eachactiv- threeelements.
+   642→   642→ityisenteredasacomponent(completenessisthe
+   643→   643→Documentation: asinglelivingregister(azoneclas-
+   644→   644→priority—anomittedcomponentisonethatwill
+   645→   645→sificationmatrix)recordingeachcomponent’sde-
+   646→   646→neverbegoverned),assignedtoacategory(inter-
+   647→   647→scription,category,zone,rationale,date,andevi-
+   648→   648→ventioncontent,delivery,infrastructure,safety,
+   649→   649→dencestandard,accessibletoimplementation,re-
+   650→   650→stakeholderengagement)thatrevealswhereevi-
+   651→   651→search,andleadershipalike.
+   652→   652→denceisthin,anddocumentedwithadescription
+   653→   653→anditsprovenance(Worksheet1c,SupplementA). Decisionauthority: proportionatetostakes—Zone
+   654→   654→Theinventoryisprovisional,buteverysubsequent Capprovedbyimplementationteamswithreport-
+   655→   655→phaseoperatesonitsentries. ing,ZoneBbycross-functionalreview,ZoneAat
+   656→   656→thehighestbar(seniorleadershipwithEvidence
+   657→   657→1D.Classifyingcomponentsintocertaintyzones Engineinput,viatheAdaptationReviewBoardof
+   658→   658→Step5).
+   659→   659→Phase1Dassignseachcomponenttoacertainty
+   660→   660→zone—A,B,orC(definedearlier;Table2)—fixing Transitionrules: pre-specifiedescalationandde-
+   661→   661→theevidencestandardtomodifyitandwhich escalationtriggers,anchoredwherepossibleto
+   662→   662→engineisresponsible. Classificationweighsfive thresholds,plusamandatorysafetyoverride—
+   663→   663→considerations: theoreticalimportance,empirical specifiedinadvancesogovernanceisproactive
+   664→   664→evidenceofaneffectonoutcomes,implementer ratherthanreactive(Worksheets1dand5a,Sup-
+   665→   665→andbeneficiaryexperience,theriskofmisjudg- plementA).
+   666→   666→ingit,andcontextsensitivity[80,81]. Acompo-
+   667→   667→ApplyingStep1totheShamirimodel.
+   668→   668→nentcentraltothetheoryofchangewithevidence
+   669→   669→ofmediatingoutcomesisZoneA;onesupported TheShamiriinterventionisabrief,group-based
+   670→   670→bytheoryorpreliminaryevidencewhereseveral programforadolescentdepressionandanxiety—
+   671→   671→formscouldworkisZoneB;anadministrative fourweeklysessionsofgrowthmindset,gratitude,
+   672→   672→orlogisticaloneisZoneC.Twosafeguardsgov- andvaluesaﬀirmation,showninrandomized
+   673→   673→ernhardcases: whengenuinelyuncertain,errup- trialstoreducebothrelativetoanactivecontrol
+   674→   674→ward(over-protectionwastessometesting;under- [48,49,58]. Buttheinterventionisonlyoneelement
+   675→   675→protectionrisksundetectedeffectivenessloss), oftheShamirimodel,whoseorganizingconceptis
+   676→   676→andanycomponentwithaplausiblesafetylink tieredlaypsychotherapy—layprovidersandclin-
+   677→   677→ispushedhigher(SupplementA).Eachclassifica- icalsupervisorsdeliveringprogressivelymorein-
+   678→   678→tionisrecordedwithabriefrationale,thebasisfor tensivesupport,fromlow-touchsessionsthrough
+   679→   679→anauditablerecordofadaptation[43]. referraltoexpertsforthefewcasesthatrequireit
+   680→   680→[82,83]. SeeSupplementAformoredetails.
+   681→   681→Learningwhilescaling Preprint—notpeerreviewed 9
+   682→   682→
+   683→   683→Shamiriarticulateditstheoryofchange(Phase1A) Whattomeasure:threeoutcometypes
+   684→   684→byansweringthethreequestions:
+   685→   685→Thefirstaxisdefinesthreetypes. Primaryout-
+   686→   686→comescapturethechangeattributabletotheor-
+   687→   687→• Coreidea: Tieredlaypsychotherapy: astepped- ganization’smission—validated,meaningful,and
+   688→   688→caremodelthatsubstitutesatrainedlaywork- feasibletocollectrepeatedlyatscale(mostinter-
+   689→   689→forceforscarceclinicians,reservingspecialists ventionshaveoneortwo). Secondaryoutcomes
+   690→   690→forthemostseverecases. capturewhatmatterstostakeholdersorspeaks
+   691→   691→• Outcome: Reduceddepressionandanxiety tomechanism. Organizationaloutcomescapture
+   692→   692→amongadolescents. whethertheinterventionisdeliveredasintended—
+   693→   693→• Centralbehaviorchange: Trainedlayproviders reach,cost,fidelity,andsafety[22,84]
+   694→   694→andtheirclinicalsupervisorsmustreliablyde-
+   695→   695→Howwidelytocollect:twotiers
+   696→   696→liverlow-touchpsychotherapy,withfidelity,in
+   697→   697→theirowncommunities. Thesecondaxissetshowbroadlyeachoutcomeis
+   698→   698→gathered. TheUniversalMonitoringset—collected
+   699→   699→foreveryparticipantinroutinedelivery,keptde-
+   700→   700→Thesecombineintoasingle,testablehypothesis: if
+   701→   701→liberatelysmalltobesustainable—isthedataon
+   702→   702→Shamiritrainsatieredlayworkforcetodeliverlow-
+   703→   703→whichqualityassuranceandgovernancerun;the
+   704→   704→touchpsychotherapy,thenadolescents’depression
+   705→   705→Supplementarysetholdseverythinggatheredon
+   706→   706→andanxietywillfall. SupplementB.
+   707→   707→subsets,withinstudies,orondemand. Theaxes
+   708→   708→Workingbackwardfromthishypothesis(Phase1B)
+   709→   709→areindependent: anoutcome’stypedoesnotfix
+   710→   710→yieldsafive-behaviorchain—schoolssignup→
+   711→   711→itstier. Aprimaryoutcometypicallysitsinboth—
+   712→   712→mobilizeteachers→studentssignup→attendses-
+   713→   713→universalformonitoring,re-analyzedonsubsets
+   714→   714→sions→practiceskillsandseekhelp—and,beneath
+   715→   715→formechanism,moderators,orbenchmarks—and
+   716→   716→it,roughlyfiftyactivitiesconsolidatedintoanin-
+   717→   717→organizationaloutcomessplitlikewise(participa-
+   718→   718→ventoryof~50componentsacrosssevencategories
+   719→   719→tionandsafetyflagsuniversal;cost-effectiveness
+   720→   720→(Phase1C).Classifyingthem(Phase1D)givesa
+   721→   721→andfidelityauditssupplementary). Thesamemea-
+   722→   722→bottom-heavydistribution: threeZoneA(thether-
+   723→   723→surecanoccupybothtiers,whichiswhythesys-
+   724→   724→apeuticcontent,andtheprinciplethatsupportis
+   725→   725→temneedsbothaxes.
+   726→   726→lay-delivered,stepped,andgroup-based),about
+   727→   727→twentyZoneB(theproviderpipeline,supervision, Decisionthresholds
+   728→   728→materials,safetyandreferral),andtheoperational
+   729→   729→Measurementbecomeslearningonlywheneach
+   730→   730→remainderinZoneC.Theinventoryandclassifica-
+   731→   731→measureistied,inadvance,totheactionitinforms.
+   732→   732→tionsaremaintainedasalivingregisteronNotion
+   733→   733→Step2pairseverymeasurewithapre-specified
+   734→   734→(Phase1E),withzone-baseddecisionauthority
+   735→   735→thresholdthatdiffersbytier: auniversalmeasure
+   736→   736→andthreshold-anchoredtransitiontriggers. The
+   737→   737→carriesaquality-assurancetrigger;asupplemen-
+   738→   738→fullworkedcase—everycomponent,rationale,and
+   739→   739→tarymeasurecarriestheEvidenceEngine’spre-
+   740→   740→transitionpathway—isinSupplementB(summary
+   741→   741→registereddecisionruleortheOptimizationEn-
+   742→   742→inTable5).
+   743→   743→gine’sadopt/replicate/abandon/escalatecriteria.
+   744→   744→Pre-specifyingthresholdsiswhatstopsmeasure-
+   745→   745→3.2 Step2: Measurementplanningacrossengines
+   746→   746→mentfromaccumulatingintodashboardswatched
+   747→   747→andtiers
+   748→   748→butnotactedon. Andbecausetheprimaryout-
+   749→   749→Whatarewemeasuringandwhy[6–8]? Step1pro- comesitsintheUniversalMonitoringset,anunex-
+   750→   750→ducedagovernedmapofwhatthemodelis;Step pectedeffectofafastZoneCoptimizationoncore
+   751→   751→2designsthemeasurementsystemthatletsboth outcomessurfacesinroutinemonitoringrather
+   752→   752→engineslearnfromit. Measurementservesthree thangoingunseen.
+   753→   753→purposeswithdifferentdemandsondata: quality
+   754→   754→assuranceneedscontinuous,low-burdenindicators ApplyingStep2totheShamirimodel
+   755→   755→fromeveryone;theEvidenceEngineneedsrigor-
+   756→   756→Shamiri’sprimaryoutcomesaredepressionand
+   757→   757→ous,pre-specifiedmeasuresundercontrolledcon-
+   758→   758→anxietysymptomsmeasuredbybrief,validatedin-
+   759→   759→ditions;andtheOptimizationEngineneedsfast,
+   760→   760→strumentssuitedtorepeatedadministrationwith
+   761→   761→proximalmetricssensitivetoshort-cyclechange.
+   762→   762→adolescentsinschools: PatientHealthQuestion-
+   763→   763→Nosinglestandardservesallthree. Step2resolves
+   764→   764→naire(PHQ-8)[85]andGeneralizedAnxietyDis-
+   765→   765→thisalongtwoindependentaxes(Figure2a)—
+   766→   766→orderScreener(GAD-7)[86]. Secondaryoutcomes
+   767→   767→whattomeasure,andhowwidelytocollectit—and
+   768→   768→includesocialsupport,academicperformance,and
+   769→   769→keepingthemseparateiswhatmakesthesystem
+   770→   770→agency,plusthemediatorsthatspeaktomecha-
+   771→   771→bothcompleteandsustainable.
+   772→   772→nism[47,50]. Organizationaloutcomestrackreach
+   773→   773→Learningwhilescaling Preprint—notpeerreviewed 10
+   774→   774→
+   775→   775→Table5.Usingthefive-stepmethodologytooperationalizetheframework:examplewiththeShamirimodel
+   776→   776→Step WhatShamiriproduced Keyresults&artifacts
+   777→   777→1.Decomposition&zone Decomposedthemodel(tieredlaypsychotherapy)
+   778→   778→mapping into~50componentsacross7categories;classified •3ZoneA(interventioncontent,delivery-
+   779→   779→each to-protocol,deviationcorrection+thelay-
+   780→   780→deliveryprinciple);
+   781→   781→•19ZoneB(providerpipeline,supervision,
+   782→   782→fidelity,materials,safety/referral);2
+   783→   783→•8ZoneC(authorization,MoUs,scheduling,
+   784→   784→enrollment,data);registeroncentralorganiza-
+   785→   785→tionrepository(Notion)
+   786→   786→2.Measurementplanning Definedoutcomesbytypeandsplitintotiers
+   787→   787→•Primary:Depression,anxiety
+   788→   788→•Secondary:socialsupport,grades,agency,
+   789→   789→mediators·
+   790→   790→•Organizational:reach,cost,fidelity,safety
+   791→   791→•Universalsetliveforall;
+   792→   792→•Supplementaryforstudies;
+   793→   793→•Visibleinorganizationdashboard
+   794→   794→3.EvidenceEngineportfo- Builtconfirmatoryevidenceacrossthefourques-
+   795→   795→lio tiontypes •Effectiveness:PilotRCT(N=51;d=.32/.54)→
+   796→   796→Well-poweredRCT(N=413;d=.35/.37,with
+   797→   797→7-monthfollow-up)
+   798→   798→•Mechanism:5-armdismantling(N=1,252)to
+   799→   799→investigatemechanisms
+   800→   800→•Costs&cost-effectiveness:Formaleconomic
+   801→   801→evaluation(~$7–21/student)
+   802→   802→4.OptimizationEngine RanembeddedA/Btests+QAinsideroutine
+   803→   803→portfolio delivery(2024–25) •8A/Bexperimentstudies:QAconfirmedno
+   804→   804→voltagedrop(d≈.30–.34,withinRCTrange);
+   805→   805→•Experimentwithleanerlevers(groupsize,
+   806→   806→1:15ratio,broaderrecruitment,lighter
+   807→   807→returning-fellowtraining)non-inferior;en-
+   808→   808→hancedsupervisionnotsuperior
+   809→   809→5.Coordinatingtheen- StooduptheR&Lfunctionandgovernance
+   810→   810→gines •In-houseresearchteamwithresearchmanage-
+   811→   811→ment,dataandstatsexperience;relationships
+   812→   812→withresearchlabsatuniversities
+   813→   813→•TypeA/B/Cdecisionprotocol;
+   814→   814→•MonthlyARB+quarterlySAB+decisionlog;
+   815→   815→dataviashamiriOS/Metabase;
+   816→   816→•In-houseplatformtargeting<14-daydata
+   817→   817→Note.Aworkedapplicationofthefive-stepmethodologytotheShamirimodel,listingwhatwasproducedandthekeyresultsandartifactsateachstep.
+   818→   818→(youthserved,attendance,completion),cost,fi- outcomes,byhowmuch,anddoeffectspersist?),
+   819→   819→delity,andsafety. mechanism(whichcomponentsandmediators
+   820→   820→carrytheeffect?),boundaryconditions(forwhom
+   821→   821→AsmallUniversalMonitoringset—theprimary
+   822→   822→andwheredoeseffectivenesshold—includingwho
+   823→   823→outcomes,coreparticipationandexposuremetrics,
+   824→   824→deliversit?),andeconomic(whatdoesitcost,and
+   825→   825→abasicfidelityindicator,andrisk/safetyflags—is
+   826→   826→isitcost-effective?). Non-inferioritytestingofZone
+   827→   827→collectedforeveryparticipant,eachwithanaction
+   828→   828→BadaptationsisdeliberatelynotanEvidenceEn-
+   829→   829→threshold[50,68];everythingelseissupplemen-
+   830→   830→ginequestion—itaskswhetherastreamlinedvari-
+   831→   831→tary. Theorganizationaldashboardmakesthesplit
+   832→   832→antpreservesanestablishedeffect,theOptimiza-
+   833→   833→visible: headlineindicatorsaretheuniversalset;
+   834→   834→tionEngine’sprovince(Step4).
+   835→   835→deep-dives(partner-vs-hub,urban-vs-rural,the
+   836→   836→preventionsub-sample,benchmarkcomparisons)
+   837→   837→Matchingquestionstodesigns,andpre-registeringdeci-
+   838→   838→arethesupplementarysetinuse[87]. SeeSupple-
+   839→   839→sions
+   840→   840→mentB.
+   841→   841→Questionsarematchedtodesigns: randomized,
+   842→   842→cluster,andpragmatictrialsforeffectiveness
+   843→   843→3.3 Step3: DevelopingtheEvidenceEngineportfo-
+   844→   844→[54,88];dismantlingandmediationstudiesfor
+   845→   845→lio.
+   846→   846→mechanism;replicationwithpre-specifiedmod-
+   847→   847→Translatingcomponentsintoresearchquestions eratoranalysesforboundaryconditions;cost-
+   848→   848→effectivenessanalysisforeconomics. Eachstudy’s
+   849→   849→Eachprioritizedcomponentbecomesoneormore
+   850→   850→decisionrules—successcriteria,theconditions
+   851→   851→researchquestionsoffourconfirmatorytypes: ef-
+   852→   852→deemingacomponentmechanisticallyessential,
+   853→   853→fectiveness(doesitcausallyimprovetheprimary
+   854→   854→Learningwhilescaling Preprint—notpeerreviewed 11
+   855→   855→
+   856→   856→Figure2.Whatmakesthetwoenginesactasonesystem
+   857→   857→(a)Measurement—twoaxes
+   858→   858→whattomeasure(outcometype)×howwidelyyoucollectit(tier)
+   859→   859→EPYTEMOCTUO
+   860→   860→Universalmonitoring Supplementary
+   861→   861→everyone·routineQA subsets·studies·ondemand
+   862→   862→Primary depression&anxiety—all benchmarksvs.RCT·hubvs.partner
+   863→   863→missionoutcome theQAbackstop urbanvs.rural·follow-up
+   864→   864→Secondary littleforeveryone socialsupport·grades·agency
+   865→   865→stakeholder+mechanism mechanismmediators
+   866→   866→Organizational served·attendance cost-effectivenessstudies
+   867→   867→reach·cost·fidelity·safety fidelity·safetyflags in-depthfidelityaudits
+   868→   868→Theprimaryoutcomesitsinbothtiers—whichiswhythetwoaxesstayseparate.
+   869→   869→(b)Coordinatingtheenginesintoonesystem
+   870→   870→eachlayermakesthetwoenginesshareonething
+   871→   871→mustactasonesystem
+   872→   872→EvidenceEngine OptimizationEngine
+   873→   873→coordinationspine
+   874→   874→Decisionrights
+   875→   875→RULES onebarforeverychange
+   876→   876→ARB·SAB·zoneauthority
+   877→   877→Capability
+   878→   878→TEAM oneteamrunsbothengines
+   879→   879→research·implementation·data
+   880→   880→Integrationinfrastructure
+   881→   881→INFO eachengineseestheother
+   882→   882→shareddata·register·cadence
+   883→   883→Culture
+   884→   884→NORMS keepslearninghonest
+   885→   885→nullresultscount·alllogged
+   886→   886→Twoengines→onesystem
+   887→   887→Note.PanelA:Measurementisplannedalongtwoindependentaxes:whattomeasure—threeoutcometypes(primary/mission;
+   888→   888→secondary/stakeholderandmechanism;organizational/reach,cost,fidelity,safety)—andhowwidely—asmallUniversalMoni-
+   889→   889→toringsetcollectedforeveryparticipantasroutinequalityassurance,versusaSupplementarysetgatheredonsubsets,withinstud-
+   890→   890→ies,orondemand.Theprimaryoutcomesitsinbothtiers,whichiswhytheaxesstayseparate.PanelB:Governancecoordinatesthe
+   891→   891→enginesthroughonespineoffourlayers—decisionrights,capability,integrationinfrastructure,andculture—eachmakingthe
+   892→   892→enginesshareonething(rules,ateam,information,norms),togetherturningtwoparallelenginesintoonecoordinatedsystem.
+   893→   893→andescalation/abandonmentcriteria—arepre- ditionsspanurbaninformalsettlementsandru-
+   894→   894→registeredbeforedatacollection(SupplementA). ralschools,andnaturalistictrialsfoundnodiffer-
+   895→   895→encebetweenpartner-ledandShamiri-leddelivery
+   896→   896→ApplyingStep3totheShamirimodel [68,89]. Cost-effectivenessanalysisputdeliveryat
+   897→   897→roughly$7–21perstudentand$23–60perclinically
+   898→   898→Shamiri’sEvidenceEngineportfolio,anchored
+   899→   899→meaningfulimprovement[69],aboveGiveWell’s
+   900→   900→byitsthreeZoneAcomponentsandbuiltacross
+   901→   901→10×cash-transferbenchmark[90]. AsShamirien-
+   902→   902→nearlyadecadeoftrials,illustratesallfourques-
+   903→   903→terstheMovephase,theEvidenceEngineshifts
+   904→   904→tiontypes(Figure3). Effectivenesswasestab-
+   905→   905→towardrevalidationandlong-termfollow-up[91].
+   906→   906→lishedinapilot(Shamiri1.0;N=51[48])anda
+   907→   907→SeeFigure3andSupplementB.
+   908→   908→pre-registered,well-poweredreplication(Shamiri
+   909→   909→2.0;N=413[47])thatshowedclinicallymeaningful
+   910→   910→reduceddepressionandanxietyversusanactive 3.4 Step4: DevelopingtheOptimizationEngine
+   911→   911→control,sustainedtosevenmonths[48,49]. Mech- portfolio
+   912→   912→anismwastestedbyafive-armdismantlingtrial
+   913→   913→Buildingtheportfoliofromthezoneclassification
+   914→   914→(N=1,252)thatfoundeachinterventionelements
+   915→   915→(i.e.,growthmindset)wasindividuallyactive,and Step4buildstheOptimizationEngineportfolio—
+   916→   916→notdependentonbundling[58]. Boundarycon- rapid,embeddedexperimentsthatcontinuously
+   917→   917→Learningwhilescaling Preprint—notpeerreviewed 12
+   918→   918→
+   919→   919→Figure3.Shamiri’stwoenginesinoperation
+   920→   920→(a)EvidenceEngine—establishestheeffect
+   921→   921→depression anxiety
+   922→   922→Cohen'sdvs.activestudy-skillscontrol
+   923→   923→effectssustainedto7-monthfollow-up
+   924→   924→SHAMIRI1.0·N=51·BehaviorTherapy
+   925→   925→depression d=.32
+   926→   926→anxiety d=.54
+   927→   927→SHAMIRI2.0·N=413·JAMAPsychiatry
+   928→   928→depression d=.35
+   929→   929→anxiety d=.37
+   930→   930→0 0.2 0.4 0.6
+   931→   931→(b)OptimizationEngine—stayswithinthemargin
+   932→   932→between-armdifferenceindepressionchange(PHQ-8points),95%CI·clinically-elevatedsample
+   933→   933→←leanerarmbetterleanerarmworse→ nodifference non-inferioritymargin→
+   934→   934→BIGENOUGH
+   935→   935→Recruitment:expandedvs.ideal
+   936→   936→Enhancedsupervision(vs.standard)
+   937→   937→CHEAPENOUGH
+   938→   938→Groupsize:≥16vs.11–15
+   939→   939→Supervisorratio:1:15vs.1:10
+   940→   940→SIMPLEENOUGH
+   941→   941→Returning-fellowtraining
+   942→   942→Supervision:groupvs.usual
+   943→   943→−4 −2 0 +2
+   944→   944→non-inferior superior notsuperior/inconclusive
+   945→   945→Everyleaneradaptation'sCIsitsleftofthemargin→non-inferior.Groupsupervisionsitsentirelyleftof0→alsosuperior.
+   946→   946→Note.PanelA:EvidenceEngine:standardizedeffectsizes(Cohen’sd)fromtworandomizedtrialsversusanactivestudy-skills
+   947→   947→controlestablishtheintervention’seffectonadolescentdepressionandanxiety(Shamiri1.0,N=51[48];Shamiri2.0,N=413[49]),
+   948→   948→sustainedtoseven-monthfollow-up.PanelB:OptimizationEngine:anon-inferiorityforestplotofembeddedA/Btestsofdelivery
+   949→   949→adaptations(2024–2025),showingthebetween-armdifferenceindepressionchange(PHQ-8[PatientHealthQuestionnaire–8]
+   950→   950→points,95%CI)intheclinically-elevatedsample;positivevaluesindicatetheleanerarmperformingworse.Everyintervalfalls
+   951→   951→leftofthepre-specifiednon-inferioritymargin(≈½MCID;exactvalueperanalysis),indicatingnon-inferiority;group-protocol
+   952→   952→supervisionfallsentirelyleftofzero(alsosuperior),whileenhancedsupervision—anadded-costlevertestedforsuperiority—
+   953→   953→wasnot.Anxietyandfull-sampleresultsappearintheSupplementB.
+   954→   954→improvedelivery—fromtheotherendofthezone posedasasuperiorityquestion: doestheextrain-
+   955→   955→classification. ZoneCcomponentsenterautomat- vestmentimproveoutcomes? Framingbypurpose
+   956→   956→ically: operationaldetailsunlikelytoaffectmech- keepstheagendatiedtowhatscaledemandsand
+   957→   957→anismsbutcentraltoimplementationquality,ex- letstheengineruleinvestmentsoutasreadilyas
+   958→   958→actlywhatrapidtestingimprovesquickly. ZoneB in.
+   959→   959→componentsareaddedselectively—wherevariants
+   960→   960→mayworkaboutequallywell,whererapidtesting Designingrapidexperiments,andpre-specifyingdecisions
+   961→   961→canestablishdirectionalitybeforeaconfirmatory
+   962→   962→Eachquestionismatchedtoanexperimentbalanc-
+   963→   963→study,orwhereacostoreﬀiciencygainlookspos-
+   964→   964→ingspeedagainstsuﬀicientrigor(choosingthe
+   965→   965→siblewithoutcompromisingoutcomes. Becauseit
+   966→   966→experiment,SupplementA).Theworkhorseisthe
+   967→   967→optimizesthedeliveryscaffoldratherthantheac-
+   968→   968→A/Btest—twodeliveryvariantsjudgedagainsta
+   969→   969→tiveingredients,theportfolioconcentratesonthe
+   970→   970→pre-specifiedmargin;whatmakesitanA/Btestis
+   971→   971→partsofthemodelthatscalingchanges.
+   972→   972→themargin,notthemodeofassignment,sovari-
+   973→   973→antsarerandomizedwhereassignableandcom-
+   974→   974→Formulatingoptimizationquestions
+   975→   975→paredastheyoccurwherenot[30,32].. Factorial
+   976→   976→Questionsareorganizedbythefourscaling designsoptimizeseveralfeaturesatonce,andsta-
+   977→   977→imperatives—goodenough(protectfidelityand tisticalprocesscontrolmonitorsimplementation
+   978→   978→effects),bigenough(extendreachandretention), metricscontinuously[93]. Thenon-inferioritymar-
+   979→   979→cheapenough(lowercostperbeneficiary),simple ginissetagainsttheorganization’sownroutine
+   980→   980→enough(simplifytraininganddelivery)—andeach effect—theyear-matchedUniversalMonitoring
+   981→   981→carriesadirection[92]. Astreamlininglever(a benchmarkfromStep2[94]. Decisionsarepre-
+   982→   982→leanerratio,largergroup,lightertraining)isposed specified—adoption,replication,andabandonment
+   983→   983→asanon-inferiorityquestion: doesthecheaper criteria—plusanescalationcriterionthatsendsa
+   984→   984→variantretainthebenefit? Acost-addingleveris componenttotheEvidenceEnginewhenevera
+   985→   985→Learningwhilescaling Preprint—notpeerreviewed 13
+   986→   986→
+   987→   987→changemeantonlytoimproveanoperationalmet- thePhase1Eauthorityasastandingbodyagainst
+   988→   988→ricmovesacoreoutcome. pre-specifiedcriteria. AScientificAdvisoryBoard
+   989→   989→(SAB)suppliesexternalexpertise,reviewingstudy
+   990→   990→ApplyingStep4totheShamirimodel designsandratifyingzoneassignments—theout-
+   991→   991→sidecheckself-classificationotherwiselacks. The
+   992→   992→Shamiri’sOptimizationEnginecarriestheZone
+   993→   993→SABadvises;theARBdecides(SupplementA).
+   994→   994→CoperationalmajorityplusthesharedZoneB
+   995→   995→scaffold,andrunsinsideroutinedeliverysolive
+   996→   996→Capability:thesharedteam
+   997→   997→operationsdoubleastheirowntestbed. Over
+   998→   998→2024–2025itraneightembeddedevaluations— Operatingbothenginesrequiresfourcapabilities:
+   999→   999→twoquality-assurance(QA)streamsandsixA/B research,implementation,dataandmeasurement,
+  1000→  1000→tests—holdingtheZoneAinterventionconstant andcoordination. Oneteamholdsallfour,sothe
+  1001→  1001→andvaryingoneZoneBlever,withdepressionand peoplewhogenerateevidencearethepeoplewho
+  1002→  1002→anxietyco-primaryintheclinicallyelevatedsub- actonit. Thebalanceshiftswiththelifecycle—
+  1003→  1003→sample(Figure3;SupplementB).TheQAstreams towardtheEvidenceEngineinProve,towardboth
+  1004→  1004→guardedagainstvoltagedrop,withsymptomre- inImprove,towardoptimizationandqualityassur-
+  1005→  1005→ductionsstayingwithinrandomized-trialbench- anceinMove(SupplementA).
+  1006→  1006→marksacrosscentralizedandpartner-ledchan-
+  1007→  1007→nels. TheA/Bteststhenmadedeliveryleanerand Integrationinfrastructure:thesharedinformation
+  1008→  1008→cheaperwithoutlossofeffect: largergroups,a
+  1009→  1009→Fortheenginestoinformeachotherratherthan
+  1010→  1010→leanersupervisor-to-fellowratio,broaderrecruit-
+  1011→  1011→runinisolation,theframeworkrequiresexplicit
+  1012→  1012→ment,andlighterreturning-fellowtrainingwereall
+  1013→  1013→connectivetissue: ashareddatalayerunitingEvi-
+  1014→  1014→non-inferior,whiletheonecost-addinglever(en-
+  1015→  1015→denceEngine,OptimizationEngine,andUniversal
+  1016→  1016→hancedsupervision)showednoadvantageand
+  1017→  1017→Monitoringdata;asingledocumentedregisterof
+  1018→  1018→wasnotadopted. Theenginealsolearnsacross
+  1019→  1019→components,zones,andeverydecision;aregular
+  1020→  1020→cycles—anexploratory2024supervision-models
+  1021→  1021→cross-teamcadence;andcoordinatedplanningcy-
+  1022→  1022→testinformedtheconfirmatory2025ratiotest,an
+  1023→  1023→cles. Thisisthebidirectionalflowmadephysical—
+  1024→  1024→Optimizationsignalfeedingthenextcyclerather
+  1025→  1025→andaprecondition,notaconvenience: aframe-
+  1026→  1026→thantheEvidenceEngine. Descriptionoftestand
+  1027→  1027→workthatassumeseachengineseestheother’s
+  1028→  1028→resultsappearinSupplementB.
+  1029→  1029→signalsfailssilentlyifthedatacannotmovefast
+  1030→  1030→enoughtocarrythem,soStep5treatstheshared
+  1031→  1031→3.5 Step5: Coordinatingtheenginesintoonesys- datalayerasload-bearing(SupplementA).
+  1032→  1032→temthroughgovernanceandinfrastructure
+  1033→  1033→Culture:thesharednorms
+  1034→  1034→Steps1–4producethesubstanceofthe
+  1035→  1035→framework—amappedandclassifiedmodel,a Structuresarehollowwithoutthenormsthatan-
+  1036→  1036→measurementsystem,andthetwoengines’port- imatethem,andeachnormmustbeenforcedby
+  1037→  1037→folios. Step5buildswhatturnsthosepartsintoa amechanism,notmerelyexhorted. Anullresult
+  1038→  1038→singlecoordinatedsystemratherthantwoactiv- countsasdecision-gradebecausetheARBactson
+  1039→  1039→itiesinparallel. Coordinationmeanstheengines pre-registeredcriteriaregardlessofwhichwayit
+  1040→  1040→mustsharewhattheylearnandhowtheydecide; falls;zoneclassificationsareheldas”strongopin-
+  1041→  1041→thisrequiresfourthings,independencyorder ions,weaklyheld”becausetheescalationrules
+  1042→  1042→(Figure2b)—sharedrulesforadapting(decision forcethemtomoveasevidenceaccumulates;every
+  1043→  1043→rights),asharedteam(capability),sharedinfor- adaptationisloggedbecausetheregisterrequires
+  1044→  1044→mationsoeachengineseeswhattheotherlearns itbeforeachangeships;andthosedeliveringand
+  1045→  1045→(integrationinfrastructure),andsharednorms receivingtheinterventionstaycentralbecausetheir
+  1046→  1046→thatkeepthesystemhonest(culture). Decision outcomessitintheUniversalMonitoringset. With-
+  1047→  1047→rightsarethekeystone;capabilityandinfrastruc- outthesenorms,thestructurescanbepresenton
+  1048→  1048→turemakethemwork;culturekeepsthemfrom paperwhiledriftcontinuesunderneath(Supple-
+  1049→  1049→decayingintopaper[35,95]. mentA).
+  1050→  1050→Decisionrights:thesharedrules ApplyingStep5totheShamirimodel
+  1051→  1051→Twobodiesgovernadaptation. AnAdaptationRe- Shamirirunstheframeworkthroughaninternal
+  1052→  1052→viewBoard(ARB)istheinternaldecision-maker: ResearchandLearningteamoffourpodsmatch-
+  1053→  1053→itreviewsevidenceonaregularcycle,approvesor ingthefourcapabilities: ResearchManagement
+  1054→  1054→declinesadaptationsatthebareachcomponent’s (modeldecomposition,universalmeasurement,
+  1055→  1055→zonesets,ratifiesescalationsandde-escalations, fieldQA,evidencegeneration),DataandStatistics
+  1056→  1056→andallocatesresourcesacrossengines—exercising (pipeline,repository,dashboards),Learningand
+  1057→  1057→Learningwhilescaling Preprint—notpeerreviewed 14
+  1058→  1058→
+  1059→  1059→Optimization(A/Bexecution,theexperimentreg- tionsscalingforcesfromquietlyerodingthemech-
+  1060→  1060→ister,decisionthresholds,results-to-decision),and anismsthatmadeaninterventionwork[43,96].
+  1061→  1061→KnowledgeManagement(documentation,gover-
+  1062→  1062→Theframeworkdrawsontraditionsitdoesnotre-
+  1063→  1063→nancehandbook,publications). AsShamirienters
+  1064→  1064→place. Runningconfirmatoryandexploratoryre-
+  1065→  1065→theMovephasetheteamisshiftingweighttoward
+  1066→  1066→searchinparallelistheanimatingideaofLearn-
+  1067→  1067→optimizationandqualityassurance—”frompro-
+  1068→  1068→ingHealthSystems[35–37,95];usingfactorialand
+  1069→  1069→ducingresearchaboutwhetherShamiriworksto
+  1070→  1070→adaptivedesignstooptimizeaninterventionisthe
+  1071→  1071→buildingasystemthatcontinuouslyanswerswhat
+  1072→  1072→contributionoftheMultiphaseOptimizationStrat-
+  1073→  1073→works,forwhom,andhowtomakeitbetter.”
+  1074→  1074→egyanditsgrowingapplicationtoimplementation
+  1075→  1075→Decisionrightsrunthroughanexplicitprotocol: [30,32];andpursuingeffectivenessandimplemen-
+  1076→  1076→everychangeistriagedbyreversibilityandscope— tationquestionstogetheristhepremiseofhybrid
+  1077→  1077→areversible,single-sitechangeismadeandlogged designs[28,29]. Whattheframeworkaddssitsin
+  1078→  1078→(TypeC);abroaderorirreversibleoneisconsulted threeplaces: itgovernsadaptationatthelevelof
+  1079→  1079→first(TypeB);abroad,irreversiblechangegoesto theindividualcomponentthroughcertaintyzones,
+  1080→  1080→theARBforfullevidencereview(TypeA).The notthestudyorthesystem;ittakesthewholeop-
+  1081→  1081→ARB—seniorleadership,podleads,andselectfield eratingmodel—workforce,financing,delivery,and
+  1082→  1082→staff,monthly—iswhereevidencemeetsdecisions: content—astheunitofgovernance,wheremostof
+  1083→  1083→ZoneArequiresRCT-gradeevidenceandconsen- whatchangesduringscalinglives;anditisbuilt
+  1084→  1084→sus,ZoneBrequiresA/Bresultsandmajorityap- fororganizationsassemblingaresearchfunction
+  1085→  1085→proval,andZoneCchangesareloggedbutnever alongsidedelivery,notonlyforoutsideresearchers.
+  1086→  1086→reachit;anexternalScienceAdvisoryBoardmeets Whererecentworkoptimizesapackageofimple-
+  1087→  1087→quarterlyonZoneAandBproposals,studyde- mentationstrategies[32,65],dual-engineframe-
+  1088→  1088→signs,andpublicationstrategy. workgovernstheentiremodelacrossbothconfir-
+  1089→  1089→matoryandrapidlearning,andacrossthelifecycle.
+  1090→  1090→IntegrationinfrastructureisShamiri’smostdevel-
+  1091→  1091→opedyetmostconstrainedlayer: theinventory, Whattheframeworklookslikeinpracticeisbest
+  1092→  1092→classifications,experimentregister,anddecision shownbythecasethatmotivatedit. Shamiri
+  1093→  1093→loglivetogetherinNotionwhiledeliveryandout- Institute—whichimplementsatiered,lay-delivered
+  1094→  1094→comedataflowthroughshamiriOSandMetabase mental-healthmodelforadolescentsinKenya
+  1095→  1095→[87],butpaper-captureddata,third-partyOCR, [48,49,58,82]—isexactlythekindoforganization
+  1096→  1096→andamulti-stepcleaningpipelinerunatroughly theframeworktargets,andhasrunallfivesteps
+  1097→  1097→threemonths’latency—tooslowfortheframe- inliveoperation: itdecomposeditsmodelinto
+  1098→  1098→work’scadence—soShamiriisbuildinganin- roughlyfiftygovernedcomponents,builtboth
+  1099→  1099→houseplatformtargetingunder-two-weekdataand engineportfolios,andstoodupthecoordinating
+  1100→  1100→test-to-decisionwithinfourteendays. Thismakes governance(SupplementB).Overtwoimplemen-
+  1101→  1101→Step5’sclaimconcrete: theshareddatalayeris tationyearsitsOptimizationEnginemadedeliv-
+  1102→  1102→load-bearing,andthesystemrunsonlyasfastas eryleanerandcheaper—largergroups,aleaner
+  1103→  1103→theinfrastructurecarryingitssignals. Thefullgov- supervisor-to-fellowratio,broaderrecruitment—
+  1104→  1104→ernancedetailisinSupplementB. eachnon-inferioronadolescentdepressionand
+  1105→  1105→anxiety,whilearoutinequality-assurancestream
+  1106→  1106→confirmedtheeffectheldwithinrandomized-
+  1107→  1107→4 Discussion
+  1108→  1108→trialbenchmarksacrossmore122,000youthand
+  1109→  1109→partner-leddelivery([68,89];SupplementB).Gov-
+  1110→  1110→Scalinganevidence-basedinterventionforcesa
+  1111→  1111→ernedadaptationproducedrealgainsincostand
+  1112→  1112→choicebetweentwogoodsthefieldhastendedto
+  1113→  1113→simplicitywithoutthe”voltagedrop”thatunmon-
+  1114→  1114→pursueseparately: thecertaintyofconfirmatory
+  1115→  1115→itoredscalingrisks[4,5,96]. Theframework’sde-
+  1116→  1116→researchandthespeedofrapiditeration[13,96].
+  1117→  1117→mandsarereal,though: evenShamiri,anunusu-
+  1118→  1118→Thedual-engineframework’sproposalisthatan
+  1119→  1119→allyresearch-intensiveorganization,isstillbuild-
+  1120→  1120→organizationneednotchoose. Byclassifyingeach
+  1121→  1121→ingthedatainfrastructuretheframeworkassumes,
+  1122→  1122→componentofitsoperatingmodelaccordingto
+  1123→  1123→closingamonths-longlatencybetweendatacollec-
+  1124→  1124→theevidenceachangetoitrequires,androuting
+  1125→  1125→tionandanalysis. Thisiswhywecasttheframe-
+  1126→  1126→thatchangetoaconfirmatoryEvidenceEngine
+  1127→  1127→workasamaturestateapproachedinstages,with
+  1128→  1128→orarapidOptimizationEngine,anorganization
+  1129→  1129→amodestminimum-viablefloor—acomponentin-
+  1130→  1130→canholdasmall,protectedcoretothehighestev-
+  1131→  1131→ventory,afirsttheory-informedclassification,a
+  1132→  1132→identiarystandardwhileimprovingeverything
+  1133→  1133→smalluniversal-monitoringset,andadecisionlog—
+  1134→  1134→arounditcontinuously. Thecontributionislessa
+  1135→  1135→thataleanerorganizationcanadoptwithoutatrial.
+  1136→  1136→newframeworkthanasystemofgovernancethat
+  1137→  1137→decides,componentbycomponent,whichexist-
+  1138→  1138→ingmethodapplies—andthatkeepstheadapta-
+  1139→  1139→Learningwhilescaling Preprint—notpeerreviewed 15
+  1140→  1140→
+  1141→  1141→4.1 Limitations 7605/OSF.IO/893KV).
+  1142→  1142→Severallimitationsboundtheseclaims. Theframe-
+  1143→  1143→4.4 Abbreviations
+  1144→  1144→workisillustratedbyasingleorganization,which
+  1145→  1145→isalsoourown: thecaseshowsthatitcanbeoper- AFD AgenceFrançaisedeDéveloppement
+  1146→  1146→atedandwhatityields,butnotthatorganizations ARB AdaptationReviewBoard
+  1147→  1147→usingitscalebetterthanthosethatadaptwithout CFIR ConsolidatedFrameworkforImplementationRe-
+  1148→  1148→search
+  1149→  1149→explicitgovernance—acomparisonthatremains
+  1150→  1150→CI Confidenceinterval
+  1151→  1151→tobemade. Itsprotectivevaluealsorestsonthe
+  1152→  1152→DIV DevelopmentInnovationVentures
+  1153→  1153→initialzoneclassification,whichattheoutsetis
+  1154→  1154→EPIS Exploration,Preparation,Implementation,Sustain-
+  1155→  1155→necessarilytheory-informedratherthanevidence- ment(framework)
+  1156→  1156→based;thisisarealdependency,thoughonewith FID FundforInnovationinDevelopment
+  1157→  1157→precedent—interventionssuchascognitivebehav- GAD-7 GeneralizedAnxietyDisorder–7(screener)
+  1158→  1158→LHS LearningHealthSystem(s)
+  1159→  1159→ioraltherapyaretypicallygroundedintheorybe-
+  1160→  1160→MCID Minimalclinicallyimportantdifference
+  1161→  1161→foreeﬀicacyevidenceaccrues—andtheescalation
+  1162→  1162→MOST MultiphaseOptimizationStrategy
+  1163→  1163→rulesexisttocorrectearlymisclassificationsasev- MRT Micro-RandomizedTrial
+  1164→  1164→idencearrives. Finally,theframeworkiselaborate; OCR Opticalcharacterrecognition
+  1165→  1165→lighter-touchgovernancemaysuitsettingswhere OSF OpenScienceFramework
+  1166→  1166→thestakesofmis-adaptationarelow. PHQ-8 PatientHealthQuestionnaire–8
+  1167→  1167→PRISM Practical,RobustImplementationandSustainability
+  1168→  1168→Model
+  1169→  1169→4.2 Conclusions QA Qualityassurance
+  1170→  1170→QI Qualityimprovement
+  1171→  1171→Organizationsscalingevidence-basedinterventions RCT Randomizedcontrolledtrial
+  1172→  1172→areaskedtobebothrigorousandfast,andhave RE-AIM Reach,Effectiveness,Adoption,Implementation,
+  1173→  1173→lackedanoperatingsystemforbeingbothatonce Maintenance(framework)
+  1174→  1174→SAB ScientificAdvisoryBoard
+  1175→  1175→[97]. Thedual-engineframeworkoffersone: away
+  1176→  1176→SMART SequentialMultipleAssignmentRandomizedTrial
+  1177→  1177→todecide,foreachcomponentofwhatanorgani-
+  1178→  1178→SPC Statisticalprocesscontrol
+  1179→  1179→zationruns,howmuchcertaintyachangerequires,
+  1180→  1180→ToC Theoryofchange
+  1181→  1181→androuteittoconfirmatoryorrapid-cyclelearning USAID UnitedStatesAgencyforInternationalDevelopment
+  1182→  1182→accordingly. Indoingsoitjoinsagrowingeffort
+  1183→  1183→tobringinterventionoptimizationandcontinuous
+  1184→  1184→learningintoimplementationpractice[30,32],but
+  1185→  1185→extendsitbygoverningadaptationatthecompo-
+  1186→  1186→nentlevel,bytakingthewholeoperatingmodel
+  1187→  1187→ratherthantheinterventionaloneastheunitof
+  1188→  1188→governance,andbygivingorganizations,notonly
+  1189→  1189→researchers,anarchitecturetheycanrunasthey
+  1190→  1190→scale. Itscentralclaimismodestand,wehope,use-
+  1191→  1191→ful: thatthelong-assumedtrade-offbetweenac-
+  1192→  1192→cumulatingcausalknowledgeandcontinuously
+  1193→  1193→improvingdeliveryis,withtherightgovernance,a
+  1194→  1194→falseone.
+  1195→  1195→Whetheritdeliversonthatpromiseatscaleisnow
+  1196→  1196→anempiricalquestion—onewehaveframedsoit
+  1197→  1197→canbeanswered,bytestingwhethercomponent-
+  1198→  1198→levelgovernancepreserveseffectivenessbetter
+  1199→  1199→thanungovernedadaptationandwhethercertainty
+  1200→  1200→zonespredictwhereeffectserode. Ourintentionis
+  1201→  1201→nottoaddanotherframeworktoacrowdedfield
+  1202→  1202→buttogiveorganizationsapracticalchassisforde-
+  1203→  1203→ployingthefield’sexistingtools—andtoinviteoth-
+  1204→  1204→erstotest,refine,andextenditastheylearnwhile
+  1205→  1205→scaling.
+  1206→  1206→4.3 Dataavailability
+  1207→  1207→AllsupportingmaterialscanbefoundonOpen
+  1208→  1208→ScienceFramework(OSF;https://doi.org/10.1
+  1209→  1209→Learningwhilescaling Preprint—notpeerreviewed 16
+  1210→  1210→
+  1211→  1211→References
+  1212→  1212→1. KesslerR,GlasgowRE.AProposaltoSpeedTranslation tationscienceinZambia.ImplementSciCommun.
+  1213→  1213→ofHealthcareResearchIntoPractice:DramaticChange 2024;5:121.https://doi.org/10.1186/s43058-024-0
+  1214→  1214→IsNeeded.AmJPrevMed.Elsevier;2011;40:637–44. 0663-z
+  1215→  1215→https://doi.org/10.1016/j.amepre.2011.02.023 19. BreimaierHE,HeckemannB,HalfensRJG,Lohrmann
+  1216→  1216→2. FlayBR,BiglanA,BoruchRF,CastroFG,GottfredsonD, C.TheConsolidatedFrameworkforImplementationRe-
+  1217→  1217→KellamS,etal.StandardsofEvidence:CriteriaforEﬀicacy, search(CFIR):ausefultheoreticalframeworkforguiding
+  1218→  1218→EffectivenessandDissemination.PrevSci.2005;6:151–75. andevaluatingaguidelineimplementationprocessina
+  1219→  1219→https://doi.org/10.1007/s11121-005-5553-y hospital-basednursingpractice.BMCNurs.2015;14:43.
+  1220→  1220→3. ChambersDA,NortonWE.TheAdaptome:Advancingthe https://doi.org/10.1186/s12912-015-0088-4
+  1221→  1221→ScienceofInterventionAdaptation.AmJPrevMed.Else- 20. DamschroderLJ,AronDC,KeithRE,KirshSR,Alexander
+  1222→  1222→vier;2016;51:S124–31.https://doi.org/10.1016/j.amepre JA,LoweryJC.Fosteringimplementationofhealthservices
+  1223→  1223→.2016.05.011 researchfindingsintopractice:aconsolidatedframework
+  1224→  1224→4. ListJA.Thevoltageeffect:Howtomakegoodideasgreat foradvancingimplementationscience.ImplementSci.
+  1225→  1225→andgreatideasscale.CrownCurrency;2022. 2009;4:50.https://doi.org/10.1186/1748-5908-4-50
+  1226→  1226→5. Al-UbaydliO,LaiC-Y,ListJ.ASimpleRationalExpecta- 21. DamschroderLJ,ReardonCM,WiderquistMAO,Lowery
+  1227→  1227→tionsModeloftheVoltageEffect[Internet].Cambridge, J.TheupdatedConsolidatedFrameworkforImplemen-
+  1228→  1228→MA:NationalBureauofEconomicResearch;2023Janp. tationResearchbasedonuserfeedback.ImplementSci.
+  1229→  1229→w30850.ReportNo.:w30850.https://doi.org/10.3386/ 2022;17:75.https://doi.org/10.1186/s13012-022-01245
+  1230→  1230→w30850 -0
+  1231→  1231→6. StarrK,HattendorfL.TheDoerandthePayer:ASimple 22. GlasgowRE,VogtTM,BolesSM.Evaluatingthepub-
+  1232→  1232→ApproachtoScale.StanfordSocialInnovationReview; lichealthimpactofhealthpromotioninterventions:the
+  1233→  1233→2015[cited2025Jan3];https://doi.org/10.48558/ET3 RE-AIMframework.AmJPublicHealth.1999;89:1322–7.
+  1234→  1234→G-NY28 https://doi.org/10.2105/ajph.89.9.1322
+  1235→  1235→7. StarrK.BigEnough.SimpleEnough.CheapEnough.Stan- 23. GlasgowRE,HardenSM,GaglioB,RabinB,SmithML,
+  1236→  1236→fordSocialInnovationReview;2019[cited2024Aug7]; PorterGC,etal.RE-AIMPlanningandEvaluationFrame-
+  1237→  1237→https://doi.org/10.48558/ZB3A-CG47 work:AdaptingtoNewScienceandPracticeWitha20-
+  1238→  1238→YearReview.FrontPublicHealth[Internet].Frontiers;
+  1239→  1239→8. StarrK.GettingtoScale:SizeMatters.ShapeMattersMore.
+  1240→  1240→2019[cited2025Oct15];7.https://doi.org/10.3389/fpub
+  1241→  1241→StanfordSocialInnovationReview;2021[cited2026May
+  1242→  1242→h.2019.00064
+  1243→  1243→25];https://doi.org/10.48558/XNQJ-9H21
+  1244→  1244→24. RabinBA,McCreightM,BattagliaC,AyeleR,BurkeRE,
+  1245→  1245→9. StarrK.ScaleReallyMatters.StanfordSocialInnovation
+  1246→  1246→HessPL,etal.Systematic,MultimethodAssessmentof
+  1247→  1247→Review;2026[cited2026May25];https://doi.org/10.4
+  1248→  1248→AdaptationsAcrossFourDiverseHealthSystemsInterven-
+  1249→  1249→8558/9GMR-CE33
+  1250→  1250→tions.FrontPublicHealth[Internet].Frontiers;2018[cited
+  1251→  1251→10. GreenLW,OttosonJM,GarcíaC,HiattRA.DiffusionThe-
+  1252→  1252→2025Oct20];6.https://doi.org/10.3389/fpubh.2018.001
+  1253→  1253→oryandKnowledgeDissemination,Utilization,andInte-
+  1254→  1254→02
+  1255→  1255→grationinPublicHealth.AnnuRevPublicHealth.Annual
+  1256→  1256→25. AaronsGA,HurlburtM,HorwitzSM.Advancinga
+  1257→  1257→Reviews;2009;30:151–74.https://doi.org/10.1146/annu
+  1258→  1258→ConceptualModelofEvidence-BasedPracticeImple-
+  1259→  1259→rev.publhealth.031308.100049
+  1260→  1260→mentationinPublicServiceSectors.AdmPolicyMent
+  1261→  1261→11. BalasEA,BorenSA.ManagingClinicalKnowledgefor
+  1262→  1262→HealthMentHealthServRes.2011;38:4–23.https:
+  1263→  1263→HealthCareImprovement.YearbMedInform.2000;65–70.
+  1264→  1264→//doi.org/10.1007/s10488-010-0327-7
+  1265→  1265→12. KhanS,ChambersD,NetaG.Revisitingtimetotransla-
+  1266→  1266→26. AaronsGA,GreenAE,TrottE,WillgingCE,TorresEM,
+  1267→  1267→tion:implementationofevidence-basedpractices(EBPs)
+  1268→  1268→EhrhartMG,etal.TheRolesofSystemandOrganiza-
+  1269→  1269→incancercontrol.CancerCausesControl.2021;32:221–30.
+  1270→  1270→tionalLeadershipinSystem-WideEvidence-BasedInter-
+  1271→  1271→https://doi.org/10.1007/s10552-020-01376-z
+  1272→  1272→ventionSustainment:AMixed-MethodStudy.AdmPol-
+  1273→  1273→13. MorrisZS,WoodingS,GrantJ.Theansweris17years, icyMentHealthMentHealthServRes.2016;43:991–1008.
+  1274→  1274→whatisthequestion:understandingtimelagsintrans- https://doi.org/10.1007/s10488-016-0751-4
+  1275→  1275→lationalresearch.JRSocMed.SAGEPublications;
+  1276→  1276→27. MoullinJC,DicksonKS,StadnickNA,RabinB,AaronsGA.
+  1277→  1277→2011;104:510–20.https://doi.org/10.1258/jrsm.201
+  1278→  1278→SystematicreviewoftheExploration,Preparation,Imple-
+  1279→  1279→1.110180
+  1280→  1280→mentation,Sustainment(EPIS)framework.ImplementSci.
+  1281→  1281→14. KhouryMJ,GwinnM,YoonPW,DowlingN,MooreCA, 2019;14:1.https://doi.org/10.1186/s13012-018-0842-6
+  1282→  1282→BradleyL.Thecontinuumoftranslationresearchinge-
+  1283→  1283→28. CurranGM,BauerM,MittmanB,PyneJM,StetlerC.
+  1284→  1284→nomicmedicine:howcanweacceleratetheappropriate
+  1285→  1285→Effectiveness-implementationHybridDesigns:Combin-
+  1286→  1286→integrationofhumangenomediscoveriesintohealthcare
+  1287→  1287→ingElementsofClinicalEffectivenessandImplementation
+  1288→  1288→anddiseaseprevention?GenetMed.Elsevier;2007;9:665–
+  1289→  1289→ResearchtoEnhancePublicHealthImpact.MedCare.
+  1290→  1290→74.https://doi.org/10.1097/GIM.0b013e31815699d0
+  1291→  1291→2012;50:217.https://doi.org/10.1097/MLR.0b013e318240
+  1292→  1292→15. BraithwaiteJ,ChurrucaK,LongJC,EllisLA,HerkesJ. 8812
+  1293→  1293→Whencomplexitysciencemeetsimplementationscience:a
+  1294→  1294→29. CurranGM,LandesSJ,McBainSA,PyneJM,SmithJD,Fer-
+  1295→  1295→theoreticalandempiricalanalysisofsystemschange.BMC
+  1296→  1296→nandezME,etal.Reflectionson10yearsofeffectiveness-
+  1297→  1297→Med.2018;16:63.https://doi.org/10.1186/s12916-018-1
+  1298→  1298→implementationhybridstudies.FrontHealthServ[In-
+  1299→  1299→057-z
+  1300→  1300→ternet].Frontiers;2022[cited2025Oct15];2.https:
+  1301→  1301→16. AsparouhovaN.Earlystagefundingmarketsforscience: //doi.org/10.3389/frhs.2022.1053496
+  1302→  1302→ananalysis[Internet].Miami;2023.https://nadia.xyz/
+  1303→  1303→30. CollinsLM.ConceptualIntroductiontotheMultiphase
+  1304→  1304→early-stage-scienceAccessed29Dec2025
+  1305→  1305→OptimizationStrategy(MOST).In:CollinsLM,edi-
+  1306→  1306→17. YapaHM,BärnighausenT.Implementationsciencein tor.OptimBehavBiobehavBiomedIntervMultiphOp-
+  1307→  1307→resource-poorcountriesandcommunities.ImplementSci. timStrategyMOST[Internet].Cham:SpringerInter-
+  1308→  1308→2018;13:154.https://doi.org/10.1186/s13012-018-084 nationalPublishing;2018[cited2025Oct20].p.1–34.
+  1309→  1309→7-1 https://doi.org/10.1007/978-3-319-72206-1_1
+  1310→  1310→18. MaritimP,MunakampeMN,NglaziM,MweembaC, 31. CollinsLM.OptimizationofBehavioral,Biobehavioral,
+  1311→  1311→SikombeK,MbeweW,etal.Lostintranslation:key andBiomedicalInterventions:TheMultiphaseOptimiza-
+  1312→  1312→lessonsfromconductingdisseminationandimplemen- tionStrategy(MOST)[Internet].Cham:SpringerInter-
+  1313→  1313→Learningwhilescaling Preprint—notpeerreviewed 17
+  1314→  1314→
+  1315→  1315→nationalPublishing;2018[cited2025Oct20].https: comprehensivedefinitionofsustainability.ImplementSci.
+  1316→  1316→//doi.org/10.1007/978-3-319-72206-1 2017;12:110.https://doi.org/10.1186/s13012-017-063
+  1317→  1317→32. GuastaferroK,MoucheraudC,PurtleJ,CollinsLM, 7-1
+  1318→  1318→ShelleyD.Integratingimplementationscienceandin- 46. WiltseyStirmanS,KimberlyJ,CookN,CallowayA,Cas-
+  1319→  1319→terventionoptimization.ImplementSci.2025;20:41. troF,CharnsM.Thesustainabilityofnewprogramsand
+  1320→  1320→https://doi.org/10.1186/s13012-025-01457-0 innovations:areviewoftheempiricalliteratureandrecom-
+  1321→  1321→33. KlasnjaP,HeklerEB,ShiffmanS,BoruvkaA,AlmirallD, mendationsforfutureresearch.ImplementSci.2012;7:17.
+  1322→  1322→TewariA,etal.Microrandomizedtrials:Anexperimental https://doi.org/10.1186/1748-5908-7-17
+  1323→  1323→designfordevelopingjust-in-timeadaptiveinterventions. 47. OsbornTL,Venturo-ConerlyKE,WasilAR,RodriguezM,
+  1324→  1324→HealthPsycholOffJDivHealthPsycholAmPsycholAs- RoeE,AlemuR,etal.TheShamirigroupinterventionfor
+  1325→  1325→soc.2015;34S:1220–8.https://doi.org/10.1037/hea00003 adolescentanxietyanddepression:studyprotocolfora
+  1326→  1326→05 randomizedcontrolledtrialofalay-provider-delivered,
+  1327→  1327→34. Nahum-ShaniI,SmithSN,SpringBJ,CollinsLM, school-basedinterventioninKenya.Trials.2020;21:938.
+  1328→  1328→WitkiewitzK,TewariA,etal.Just-in-TimeAdaptiveIn- https://doi.org/10.1186/s13063-020-04732-1
+  1329→  1329→terventions(JITAIs)inMobileHealth:KeyComponents 48. OsbornTL,WasilAR,Venturo-ConerlyKE,Schleider
+  1330→  1330→andDesignPrinciplesforOngoingHealthBehaviorSup- JL,WeiszJR.GroupInterventionforAdolescentAnxi-
+  1331→  1331→port.AnnBehavMed[Internet].2016[cited2025Oct20]; etyandDepression:OutcomesofaRandomizedTrial
+  1332→  1332→https://doi.org/10.1007/s12160-016-9830-8 withAdolescentsinKenya.BehavTher.2020;51:601–15.
+  1333→  1333→35. KilbourneAM,BorskyAE,O’BrienRW,Braganza https://doi.org/10.1016/j.beth.2019.09.005
+  1334→  1334→MZ,GarridoMM.Thefoundationalscienceoflearn- 49. OsbornTL,Venturo-ConerlyKE,ArangoG.S,Roe
+  1335→  1335→inghealthsystems.HealthServRes.2024;59:e14374. E,RodriguezM,AlemuRG,etal.EffectofShamiri
+  1336→  1336→https://doi.org/10.1111/1475-6773.14374 Layperson-ProvidedInterventionvsStudySkillsCon-
+  1337→  1337→36. DelaneyBC,PetersonKA,SpeedieS,TaweelA,Arvani- trolInterventionforDepressionandAnxietySymptoms
+  1338→  1338→tisTN,HobbsFDR.EnvisioningaLearningHealthCare inAdolescentsinKenya:ARandomizedClinicalTrial.
+  1339→  1339→System:TheElectronicPrimaryCareResearchNetwork, JAMAPsychiatry[Internet].2021[cited2021June10];
+  1340→  1340→ACaseStudy.AnnFamMed.TheAnnalsofFamily https://doi.org/10.1001/jamapsychiatry.2021.1129
+  1341→  1341→Medicine;2012;10:54–9.https://doi.org/10.1370/af 50. OchukuB,OsbornTL,NerimaD,VanDerMarktA,Rusch
+  1342→  1342→m.1313 T,OmuneH,etal.Testingpathwaystoscale:studyproto-
+  1343→  1343→37. HorwitzLI,KuznetsovaM,JonesSA.CreatingaLearning colforathree-armrandomizedcontrolledtrialofacentral-
+  1344→  1344→HealthSystemthroughRapid-Cycle,RandomizedTesting. izedandadecentralized(“TraintheTrainers”)dissemina-
+  1345→  1345→NEnglJMed[Internet].MassachusettsMedicalSociety; tionofamentalhealthprogramforKenyanadolescents.
+  1346→  1346→2019[cited2025Oct20];https://doi.org/10.1056/NEJM Trials.2023;24:526.https://doi.org/10.1186/s13063-023
+  1347→  1347→sb1900856 -07539-y
+  1348→  1348→38. AndongolileA,NjauR,TupetzA,KnettelB,AlayandeB, 51. VanderWeeleTJ.Explanationincausalinference:devel-
+  1349→  1349→BazimyaD,etal.StrengtheningImplementationScience opmentsinmediationandinteraction.IntJEpidemiol.
+  1350→  1350→withaFocusofEquityinLow-ResourceSettings:Unan- 2016;45:1904–8.https://doi.org/10.1093/ije/dyw277
+  1351→  1351→sweredQuestions,Challenges,andCallstoAction[Inter- 52. HemmingK,HainesTP,ChiltonPJ,GirlingAJ,Lilford
+  1352→  1352→net].Rochester,NY:SocialScienceResearchNetwork;2024 RJ.Thesteppedwedgeclusterrandomisedtrial:ratio-
+  1353→  1353→[cited2025Dec29].https://doi.org/10.2139/ssrn.485 nale,design,analysis,andreporting.BMJ.BritishMed-
+  1354→  1354→4759 icalJournalPublishingGroup;2015;350:h391.https:
+  1355→  1355→39. OjoT,KabaseleL,BoydB,EnechukwuS,RyanN,Gyamfi //doi.org/10.1136/bmj.h391
+  1356→  1356→J,etal.TheRoleofImplementationScienceinAdvanc- 53. FordI,NorrieJ.PragmaticTrials.NEnglJMed.Mas-
+  1357→  1357→ingResourceGenerationforHealthInterventionsinLow- sachusettsMedicalSociety;2016;375:454–63.https:
+  1358→  1358→andMiddle-IncomeCountries.HealthServInsights. //doi.org/10.1056/NEJMra1510059
+  1359→  1359→2021;14:1178632921999652.https://doi.org/10.1177/ 54. NortonWE,LoudonK,ChambersDA,ZwarensteinM.
+  1360→  1360→1178632921999652 Designingprovider-focusedimplementationtrialswith
+  1361→  1361→40. GyamfiJ,OjoT,IwelunmorJ,OgedegbeG,RyanN,Di- purposeandintent:introducingthePRECIS-2-PStool.Im-
+  1362→  1362→awaraA,etal.Implementationscienceresearchforthe plementSci.2021;16:7.https://doi.org/10.1186/s13012
+  1363→  1363→scale-upofevidence-basedinterventionsforsicklecell -020-01075-y
+  1364→  1364→diseaseinafrica:acommentary.GlobHealth.2021;17:20. 55. MacKinnonD.IntroductiontoStatisticalMediationAnaly-
+  1365→  1365→https://doi.org/10.1186/s12992-021-00671-x sis.NewYork:Routledge;2012.https://doi.org/10.432
+  1366→  1366→41. KallamB,Pettitt-SchieberC,OwenM,AgyareAsante 4/9780203809556
+  1367→  1367→R,DarkoE,RamaswamyR.Implementationscience 56. VanderWeeleTJ.Onthepromotionofhumanflourishing.
+  1368→  1368→inlow-resourcesettings:usingtheinteractivesystems ProcNatlAcadSci.ProceedingsoftheNationalAcademy
+  1369→  1369→frameworktoimprovehandhygieneinatertiaryhos- ofSciences;2017;114:8148–56.https://doi.org/10.1073/
+  1370→  1370→pitalinGhana.IntJQualHealthCare.2018;30:724–30. pnas.1702996114
+  1371→  1371→https://doi.org/10.1093/intqhc/mzy111
+  1372→  1372→57. Venturo-ConerlyKE,OsbornTL,AlemuR,RoeE,Ro-
+  1373→  1373→42. StudtsCR,FordB,GlasgowRE.RE-AIMimplementation driguezM,GanJ,etal.Single-sessioninterventionsfor
+  1374→  1374→outcomesandserviceoutcomes:what’stheconnection? adolescentanxietyanddepressionsymptomsinKenya:
+  1375→  1375→resultsofacross-sectionalsurvey.BMCHealthServRes. Acluster-randomizedcontrolledtrial.BehavResTher.
+  1376→  1376→2023;23:1417.https://doi.org/10.1186/s12913-023-104 2022;151:104040.https://doi.org/10.1016/j.brat.2022.
+  1377→  1377→22-w 104040
+  1378→  1378→43. WiltseyStirmanS,BaumannAA,MillerCJ.TheFRAME: 58. Venturo-ConerlyKE,OsbornTL,RuschT,OchukuBK,
+  1379→  1379→anexpandedframeworkforreportingadaptationsand JohnsonNE,VanDerMarktA,etal.TestingtheShamiri
+  1380→  1380→modificationstoevidence-basedinterventions.Implement InterventionandItsComponentsWithKenyanAdoles-
+  1381→  1381→Sci.2019;14:58.https://doi.org/10.1186/s13012-019-0 centsDuringtheCOVID-19Pandemic:Outcomesofa
+  1382→  1382→898-y Universal,5-ArmRandomizedControlledTrial.JAm
+  1383→  1383→44. PowellBJ,BeidasRS,LewisCC,AaronsGA,McMillenJC, AcadChildAdolescPsychiatry.2024;S0890856724003095.
+  1384→  1384→ProctorEK,etal.MethodstoImprovetheSelectionand https://doi.org/10.1016/j.jaac.2024.04.015
+  1385→  1385→TailoringofImplementationStrategies.JBehavHealth 59. CollinsLM,Nahum-ShaniI,AlmirallD.Optimization
+  1386→  1386→ServRes.2017;44:177–94.https://doi.org/10.1007/s114 ofbehavioraldynamictreatmentregimensbasedon
+  1387→  1387→14-015-9475-6 thesequential,multipleassignment,randomizedtrial
+  1388→  1388→45. MooreJE,MascarenhasA,BainJ,StrausSE.Developinga (SMART).ClinTrials.SAGEPublications;2014;11:426–34.
+  1389→  1389→Learningwhilescaling Preprint—notpeerreviewed 18
+  1390→  1390→
+  1391→  1391→https://doi.org/10.1177/1740774514536795 calJournalPublishingGroup;2021;374:n2061.https:
+  1392→  1392→60. NeumannPJ,SandersGD.Cost-effectivenessanalysis2.0. //doi.org/10.1136/bmj.n2061
+  1393→  1393→NEnglJMed.2017;376:203–5. 75. EscofferyC,Lebow-SkelleyE,HaardoerferR,BoingE,
+  1394→  1394→61. HusereauD,DrummondM,PetrouS,CarswellC,Mo- UdelsonH,WoodR,etal.Asystematicreviewofadapta-
+  1395→  1395→herD,GreenbergD,etal.ConsolidatedHealthEconomic tionsofevidence-basedpublichealthinterventionsglob-
+  1396→  1396→EvaluationReportingStandards(CHEERS)—Explanation ally.ImplementSci.2018;13:125.https://doi.org/10.118
+  1397→  1397→andElaboration:AReportoftheISPORHealthEco- 6/s13012-018-0815-9
+  1398→  1398→nomicEvaluationPublicationGuidelinesGoodReport- 76. WeissCH,others.Nothingaspracticalasgoodtheory:
+  1399→  1399→ingPracticesTaskForce.ValueHealth.2013;16:231–50. Exploringtheory-basedevaluationforcomprehensive
+  1400→  1400→https://doi.org/10.1016/j.jval.2013.02.002 communityinitiativesforchildrenandfamilies.NewAp-
+  1401→  1401→62. EismanAB,KilbourneAM,DoppAR,SaldanaL,Eisen- proachesEvalCommunityInitiatConceptsMethodsCon-
+  1402→  1402→bergD.Economicevaluationinimplementationscience: texts.1995;1:65–92.
+  1403→  1403→Makingthebusinesscaseforimplementationstrategies. 77. VogelI.Reviewoftheuseof‘TheoryofChange’ininterna-
+  1404→  1404→PsychiatryRes.2020;283:112433.https://doi.org/10.101 tionaldevelopment.LondDFID.2012;
+  1405→  1405→6/j.psychres.2019.06.008 78. DeSilvaMJ,BreuerE,LeeL,AsherL,ChowdharyN,
+  1406→  1406→63. KohaviR,LongbothamR.OnlineControlledExperiments LundC,etal.TheoryofChange:atheory-drivenap-
+  1407→  1407→andA/BTesting.EncyclMachLearnDataMin[Internet]. proachtoenhancetheMedicalResearchCouncil’sframe-
+  1408→  1408→Springer,Boston,MA;2017[cited2025Oct21].p.922–9. workforcomplexinterventions.Trials.2014;15:267.
+  1409→  1409→https://doi.org/10.1007/978-1-4899-7687-1_891 https://doi.org/10.1186/1745-6215-15-267
+  1410→  1410→64. CollinsLM,DziakJJ,LiR.Designofexperimentswith 79. BreuerE,LeeL,DeSilvaM,LundC.Usingtheoryof
+  1411→  1411→multipleindependentvariables:Aresourcemanagement changetodesignandevaluatepublichealthinterven-
+  1412→  1412→perspectiveoncompleteandreducedfactorialdesigns. tions:asystematicreview.ImplementSci.2016;11:63.
+  1413→  1413→PsycholMethods.US:AmericanPsychologicalAssociation; https://doi.org/10.1186/s13012-016-0422-6
+  1414→  1414→2009;14:202–24.https://doi.org/10.1037/a0015826 80. HaweP,ShiellA,RileyT.Complexinterventions:how
+  1415→  1415→65. SzeszulskiJ,GuastaferroK.Optimizationofimplemen- “outofcontrol”canarandomisedcontrolledtrialbe?BMJ.
+  1416→  1416→tationstrategiesusingtheMultiphaseOptimization BritishMedicalJournalPublishingGroup;2004;328:1561–3.
+  1417→  1417→STratgey(MOST)framework:Practicalguidanceusing https://doi.org/10.1136/bmj.328.7455.1561
+  1418→  1418→thefactorialdesign.TranslBehavMed.2024;14:505–13. 81. PerezJollesM,Lengnick-HallR,MittmanBS.CoreFunc-
+  1419→  1419→https://doi.org/10.1093/tbm/ibae035 tionsandFormsofComplexHealthInterventions:a
+  1420→  1420→66. LeiH,Nahum-ShaniI,LynchK,OslinD,MurphySA.A Patient-CenteredMedicalHomeIllustration.JGenIntern
+  1421→  1421→“SMART”DesignforBuildingIndividualizedTreatment Med.2019;34:1032–8.https://doi.org/10.1007/s11606-0
+  1422→  1422→Sequences.AnnuRevClinPsychol.AnnualReviews; 18-4818-7
+  1423→  1423→2012;8:21–48.https://doi.org/10.1146/annurev-cli 82. KahiS,MembaL,SyanA,NgatiaV,Venturo-ConerlyK,
+  1424→  1424→npsy-032511-143152 WasangaC,etal.Implementationofaschool-basedrisk
+  1425→  1425→67. MohammedMA,WorthingtonP,WoodallWH.Plottingba- managementprotocolwithinatask-shiftedmentalhealth-
+  1426→  1426→siccontrolcharts:tutorialnotesforhealthcarepractitioners. caremodel.CambPrismsGlobMentHealth.2025;12:e127.
+  1427→  1427→BMJQualSaf.BMJPublishingGroupLtd;2008;17:137–45. https://doi.org/10.1017/gmh.2025.10073
+  1428→  1428→https://doi.org/10.1136/qshc.2004.012047 83. Venturo-ConerlyK,RoeE,WasilA,OsbornT,NdeteiD,
+  1429→  1429→68. Venturo-ConerlyK,MmboneW,BasekeR,RuschT,Ngesa MusyimiC,etal.TrainingandSupervisingLayProviders
+  1430→  1430→M,DayaR,etal.ScalingShamiri,aSchool-BasedMental inKenya:StrategiesandMixed-MethodsOutcomes.
+  1431→  1431→HealthIntervention:ResultsofTwoNaturalisticTrialswith CognBehavPract[Internet].2021[cited2022Apr22];
+  1432→  1432→KenyanAdolescents.PsyArxiv;2026. https://doi.org/10.1016/j.cbpra.2021.03.004
+  1433→  1433→69. KacmarekCN,JohnsonNE,OsbornTL,WasangaC,Weisz 84. ProctorE,SilmereH,RaghavanR,HovmandP,AaronsG,
+  1434→  1434→JR,YatesBT.Costsandcost-effectivenessofShamiri,a BungerA,etal.OutcomesforImplementationResearch:
+  1435→  1435→brief,layperson-deliveredinterventionforKenyanadoles- ConceptualDistinctions,MeasurementChallenges,and
+  1436→  1436→cents:arandomizedcontrolledtrial.BMCHealthServRes. ResearchAgenda.AdmPolicyMentHealthMentHealth
+  1437→  1437→2023;23:827.https://doi.org/10.1186/s12913-023-09856 ServRes.2011;38:65–76.https://doi.org/10.1007/s104
+  1438→  1438→-z 88-010-0319-7
+  1439→  1439→70. MichieS,RichardsonM,JohnstonM,AbrahamC,Francis 85. KroenkeK,StrineTW,SpitzerRL,WilliamsJBW,Berry
+  1440→  1440→J,HardemanW,etal.TheBehaviorChangeTechniqueTax- JT,MokdadAH.ThePHQ-8asameasureofcurrent
+  1441→  1441→onomy(v1)of93HierarchicallyClusteredTechniques: depressioninthegeneralpopulation.JAffectDisord.
+  1442→  1442→BuildinganInternationalConsensusfortheReport- 2009;114:163–73.https://doi.org/10.1016/j.jad.20
+  1443→  1443→ingofBehaviorChangeInterventions.AnnBehavMed. 08.06.026
+  1444→  1444→2013;46:81–95.https://doi.org/10.1007/s12160-013-948 86. SpitzerRL,KroenkeK,WilliamsJBW,LöweB.ABrief
+  1445→  1445→6-6 MeasureforAssessingGeneralizedAnxietyDisorder:
+  1446→  1446→71. HoffmannTC,GlasziouPP,BoutronI,MilneR,Perera TheGAD-7.ArchInternMed.2006;166:1092.https:
+  1447→  1447→R,MoherD,etal.Betterreportingofinterventions:tem- //doi.org/10.1001/archinte.166.10.1092
+  1448→  1448→plateforinterventiondescriptionandreplication(TIDieR) 87. LilanS,OsbornTL,MmboneW,KasudiJ,OtienoB,
+  1449→  1449→checklistandguide.BMJ.BritishMedicalJournalPublish- EtyangI,etal.EarlyDeploymentofanIntegratedDig-
+  1450→  1450→ingGroup;2014;348:g1687.https://doi.org/10.1136/bmj. italPlatform(shamiriOS)forScalableYouthMental
+  1451→  1451→g1687 HealthServiceDeliveryinKenya:Developmentand
+  1452→  1452→72. StarrK.We’reBeatingSystemsChangetoDeath.Stan- UsabilityStudy.JMIRHumFactors.2026;13:e79107.
+  1453→  1453→fordSocialInnovationReview;2021[cited2026May25]; https://doi.org/10.2196/79107
+  1454→  1454→https://doi.org/10.48558/DBP6-0H46 88. LoudonK,TreweekS,SullivanF,DonnanP,ThorpeKE,
+  1455→  1455→73. StarrK.YourSoftware,TheirHardware:Stackingthe ZwarensteinM.ThePRECIS-2tool:designingtrialsthat
+  1456→  1456→DeckforHigh-QualityReplication.StanfordSocialIn- arefitforpurpose.BMJ.BritishMedicalJournalPublishing
+  1457→  1457→novationReview;2020[cited2026May25];https: Group;2015;350:h2147.https://doi.org/10.1136/bmj.h2
+  1458→  1458→//doi.org/10.48558/R1K2-QW89 147
+  1459→  1459→74. SkivingtonK,MatthewsL,SimpsonSA,CraigP,Baird 89. OsbornTL,BlockH,MutisoV,BasekeR,MmboneW,Nga-
+  1460→  1460→J,BlazebyJM,etal.Anewframeworkfordeveloping tiaV,etal.Comparingcentralizedanddecentralizedde-
+  1461→  1461→andevaluatingcomplexinterventions:updateofMed- liveryoftheShamiriinterventionforadolescentdepres-
+  1462→  1462→icalResearchCouncilguidance.BMJ.BritishMedi- sionandanxietyinKenya:arandomizedcontrolledtrial.
+  1463→  1463→Learningwhilescaling Preprint—notpeerreviewed 19
+  1464→  1464→
+  1465→  1465→PsyArxiv;2026. https://doi.org/10.1136/qhc.12.6.458
+  1466→  1466→90. McGuireJ,PlantM.StrongMinds:cost-effectivenessanal- 94. PiaggioG,ElbourneDR,AltmanDG,PocockSJ,Evans
+  1467→  1467→ysis[Internet].HappierLivesInst.[cited2024Nov22]. SJW,CONSORTGroupforthe.ReportingofNoninferi-
+  1468→  1468→https://www.happierlivesinstitute.org/report/stron orityandEquivalenceRandomizedTrialsAnExtension
+  1469→  1469→gminds-cost-effectiveness-analysis/Accessed22Nov oftheCONSORTStatement.JAMA.2006;295:1152–60.
+  1470→  1470→2024 https://doi.org/10.1001/jama.295.10.1152
+  1471→  1471→91. Venturo-ConerlyKE,JohnsonNE,OsbornTL,Puffer 95. BestCareatLowerCost:ThePathtoContinuouslyLearn-
+  1472→  1472→ES,RuschT,NdeteiDM,etal.Long-termhealthout- ingHealthCareinAmerica[Internet].Washington,D.C.:
+  1473→  1473→comesofadolescentcharacterstrengthinterventions:3- NationalAcademiesPress;2013[cited2026June27].p.
+  1474→  1474→to4-yearoutcomesofthreerandomizedcontrolledtri- 13444.https://doi.org/10.17226/13444
+  1475→  1475→alsoftheShamiriprogram.Trials.2022;23:443.https: 96. ChambersDA,GlasgowRE,StangeKC.Thedynamicsus-
+  1476→  1476→//doi.org/10.1186/s13063-022-06394-7 tainabilityframework:addressingtheparadoxofsustain-
+  1477→  1477→92. MilatAJ,KingL,BaumanAE,RedmanS.Theconcept mentamidongoingchange.ImplementSci.2013;8:117.
+  1478→  1478→ofscalability:increasingthescaleandpotentialadop- https://doi.org/10.1186/1748-5908-8-117
+  1479→  1479→tionofhealthpromotioninterventionsintopolicyand 97. MorisonL,SimondsL,StewartS-JF.Effectivenessofcre-
+  1480→  1480→practice.HealthPromotInt.2013;28:285–98.https: ativearts-basedinterventionsfortreatingchildrenand
+  1481→  1481→//doi.org/10.1093/heapro/dar097 adolescentsexposedtotraumaticevents:asystematicre-
+  1482→  1482→93. BenneyanJC,LloydRC,PlsekPE.Statisticalprocesscon- viewofthequantitativeevidenceandmeta-analysis.Arts
+  1483→  1483→trolasatoolforresearchandhealthcareimprovement. Health.2021;1–26.https://doi.org/10.1080/17533015.2
+  1484→  1484→BMJQualSaf.BMJPublishingGroupLtd;2003;12:458–64. 021.2009529
+  1485→  1485→Learningwhilescaling Preprint—notpeerreviewed 20

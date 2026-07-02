@@ -1,0 +1,602 @@
+     1→1
+     2→2 Lost in aggregation: from score-based to representational mentalization
+     3→3
+     4→4 Serena Maria Stagnitto1*, Celia Martínez-Tomás2,3, Serena Lecce1, José A. Hinojosa2,3,4, & Daniele Gatti5
+     5→5
+     6→6 1 Department of Brain and Behavioral Sciences, University of Pavia, Pavia, Italy
+     7→7 2 Departamento de Psicología Experimental, Procesos Cognitivos y Logopedia, Universidad
+     8→8 Complutense de Madrid, Madrid, Spain
+     9→9 3 Instituto Pluridisciplinar, Universidad Complutense de Madrid, Madrid, Spain
+    10→10 4 Centro de Investigación Nebrija en Cognición (CINC), Universidad Nebrija, Madrid, Spain
+    11→11 5 Department of Medicine and Surgery, University of Parma, Parma, Italy
+    12→12
+    13→13 * Corresponding author:
+    14→14 Serena Maria Stagnitto, serenamaria.stagnitto@unipv.it
+    15→15
+    16→16 Author Note
+    17→17 Funding: Celia Martínez-Tomás was funded by the Ministry of Universities (Grant FPU21/00460).
+    18→18
+    19→19 Competing interests: Authors declare that they have no competing interests.
+    20→20
+    21→21
+    22→22 Author contributions:
+    23→23 Conceptualization: SMS, DG
+    24→24 Methodology: SMS, CMT, JAH
+    25→25 Investigation: CMT, JAH
+    26→26 Supervision: SL, JAH
+    27→27 Writing – original draft: SMS
+    28→28 Writing – review & editing: SMS, CMT, SL, JAH, DG
+    29→29
+    30→
+    31→30
+    32→31 Abstract
+    33→32 Psychological measures are commonly reduced to aggregate scores, such as questionnaire totals,
+    34→33 accuracy scores, or human-annotated measures. Although useful, these scores may hide information
+    35→34 about the configuration of participants’ responses. The present study took mentalization (i.e., the
+    36→35 ability to infer others’ mental states) as a working example to investigate how this domain can be
+    37→36 characterized through vector-based response representations in addition to classical scoring. One
+    38→37 hundred and sixty-four university participants completed the Interpersonal Reactivity Index (IRI), the
+    39→38 Reading the Mind in the Eyes Test (RMET), and the Triangles task. For each task, we constructed
+    40→39 participant-by-participant distance matrices based on classical scores and on vector representations:
+    41→40 IRI item-response profiles, RMET response-choice patterns, and sentence embeddings of open-ended
+    42→41 Triangles ToM descriptions. Classical score correlations showed limited convergence across tasks,
+    43→42 with only RMET accuracy and Triangles score showing a small positive association. Representational
+    44→43 similarity analyses showed that vector-based representations reliably converged with classical score
+    45→44 distances within each task, although the associations were modest. Cross-task analyses further
+    46→45 indicated that score-based and vector-based representations produced partly different prediction
+    47→46 patterns. Overall, these findings suggest that classical mentalization measures organize individual
+    48→47 differences differently depending on whether responses are represented as aggregate scores or full
+    49→48 response configurations, with implications for how psychologists conceptualize and validate social-
+    50→49 cognitive assessment.
+    51→50
+    52→51 Keywords: mentalization; representational similarity analysis; individual differences.
+    53→52
+    54→2
+    55→
+    56→53 Introduction
+    57→54 Imagine a participant filling in a questionnaire composed of 10 two-alternative forced-choice trials
+    58→55 with the following responses:
+    59→56
+    60→57 [1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+    61→58
+    62→59 Now imagine another participant filling in the same questionnaire with the following responses:
+    63→60
+    64→61 [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+    65→62
+    66→63 If we compute the sum of their responses, both participants obtain the same score: 5. From a score-
+    67→64 based perspective, they are therefore indistinguishable. However, from a response-pattern
+    68→65 perspective, they are completely orthogonal: every response given by the first participant is different
+    69→66 from the corresponding response given by the second. The total score captures how many items were
+    70→67 endorsed, but it does not capture which items were endorsed nor, more importantly, how two or more
+    71→68 response patterns differ.
+    72→69 A similar problem arises with open-ended responses: imagine that two participants are asked to
+    73→70 describe what happened in a short social animation (e.g., Castelli et al., 2000), as a classical Theory
+    74→71 of Mind (ToM) or mentalizing task. The first participant writes: “The small triangle tricked the large
+    75→72 triangle by hiding behind it”, while the second writes: “The orange triangle wanted to play a joke on
+    76→73 the blue triangle and followed it without being seen”. A manual scoring system based on mentalizing
+    77→74 - defined as the ability to infer others’ mental states (Premack & Woodruff, 1978) - might assign both
+    78→75 responses the same score, because both contain a mentalistic explanation of the scene. However, the
+    79→76 two descriptions are not identical: they differ in wording style, but also more directly in the specific
+    80→77 action emphasized (i.e. “hiding” vs. “following”), and in the way the social interaction is framed (i.e.,
+    81→78 “tricking” vs. “playing a joke”). Conversely, two responses might receive slightly different manual
+    82→79 scores while still being semantically very similar (e.g., “The big triangle was angry because the small
+    83→80 triangle had annoyed it” vs. “The big triangle got mad at the little triangle and chased it away”).
+    84→81 These examples illustrate a broader limitation inherent to aggregate scoring. In traditional cognitive
+    85→82 and psychological testing multidimensional behavioral data are frequently reduced to unidimensional
+    86→83 composites, such as total scores, mean scores, or accuracy scores (Cronbach, 1951; Lord & Novick,
+    87→3
+    88→
+    89→84 1968; Nunnally & Bernstein, 1994). This psychometric reductionism overlooks the systematic
+    90→85 variance present within the responses themselves. Notably, recognizing this limitation has historically
+    91→86 driven the development of item-level psychometric approaches, such as item response theory, which
+    92→87 explicitly model responses at the level of individual items rather relying solely on global aggregates
+    93→88 scores (Embretson & Reise, 2000).
+    94→89 A compelling alternative to these aggregate approaches is to conceptualize participants’ responses as
+    95→90 vectors in a representational space. Vector-space approaches have a long tradition in information
+    96→91 retrieval and computational modeling, where objects such as documents can be represented as points
+    97→92 in a multidimensional space and compared through their geometry (Salton et al., 1975; Manning et
+    98→93 al., 2008). In this view, each participant is not described only by a score, but by a distinctive pattern
+    99→94 of responses across items or trials. Inter-individual similarity can subsequently be estimated by
+   100→95 computing the distance / similarity between response vectors, for example via cosine similarity, a
+   101→96 standard measure for comparing the orientation of vectors in a multidimensional space (e.g., Günther
+   102→97 et al., 2019; Manning et al., 2008). This vector-space approach offers a versatile, unifying framework
+   103→98 across diverse experimental paradigms: for self-report questionnaires, it preserves the full item-
+   104→99 response profile; for forced-choice tasks, it retains the specific configuration of selected alternatives
+   105→100 across trials; and, crucially, for open-ended verbal tasks, recent advances in sentence embeddings
+   106→101 make it possible to represent participants’ descriptions as semantic vectors and, ultimately, to
+   107→102 compare them via the same cosine metrics (Reimers & Gurevych, 2019).
+   108→103 This vector representational approach does not necessarily replace traditional psychometric scoring,
+   109→104 but rather, it can complement it. While conventional aggregate scores are designed to quantify the
+   110→105 magnitude of a latent construct or cognitive ability within an individual (i.e., answering how much of
+   111→106 a trait is expressed), vector-based representations address a different issue, related to how similarly
+   112→107 or dissimilarly participants interpret, structure, and describe stimuli. By preserving response-pattern
+   113→108 and semantic information, vector-based approaches may indeed reveal individual-difference structure
+   114→109 that remains hidden when responses are aggregated into a single score.
+   115→110
+   116→111 The present study
+   117→112 The aim of the present study is therefore to demonstrate feasibility and the utility of characterizing
+   118→113 human behavior through participant-level representational spaces rather than relying exclusively on
+   119→114 conventional scoring systems. To provide a rigorous empirical proof of concept, we applied this
+   120→115 framework to three ToM tasks that differ markedly in their cognitive demands and response format:
+   121→116 a self-report questionnaire, a forced-choice emotion/mental-state attribution task, and an open-ended
+   122→4
+   123→
+   124→117 description task. By deploying our model across these distinct paradigms, we aim to illustrate the
+   125→118 methodological versatility of the vector-space approach, establishing it as a (unifying) framework
+   126→119 capable of capturing individual differences across highly heterogeneous measures of social cognition.
+   127→120 To ground this framework, we focus on the construct of mentalization within social cognition, both
+   128→121 as a working example but also because commonly used mentalization-related tasks appear to capture
+   129→122 partly distinct aspects of social cognition (Jarvis et al., 2022; Osterhaus & Bosacki, 2022; Quesque
+   130→123 & Rossetti, 2020) and employ different response formats. This makes mentalization a privileged
+   131→124 domain for testing our vector-based approach. Measures such as the Interpersonal Reactivity Index
+   132→125 (IRI; Davis, 1980, 1983), the Reading the Mind in the Eyes Test (RMET; Baron-Cohen et al., 2001),
+   133→126 and the Triangles task (Abell et al., 2000; Castelli et al., 2000) are commonly operationalized using
+   134→127 sum scores, total accuracy, or manual ratings of intentionality of open-ended responses. While these
+   135→128 scoring procedures are theoretically grounded and widely used, they inherently obscure idiosyncratic
+   136→129 configurations: which empathy items a participant endorses, which mental-state labels they select, or
+   137→130 how they describe social interactions in open-ended language.
+   138→131 To compare these different forms of representation (i.e., questionnaire-based, forced-choice, and
+   139→132 open-ended verbal responses), we adopted a representational similarity analysis (RSA; Kriegeskorte
+   140→133 et al., 2008; Nili et al., 2014) approach. RSA is based on the idea that two measures can be compared
+   141→134 through the pattern of similarities and differences they induce among observations. In the present
+   142→135 context, this translates into examining whether participants who exhibit high similarity within one
+   143→136 behavioral space display a corresponding similarity within another. Practically, this is done by
+   144→137 constructing participant-by-participant distance or similarity matrices, in which each cell represents
+   145→138 how different or similar two participants are according to a given scoring method or response
+   146→139 representation. These matrices can then be compared with one another, allowing us to test whether
+   147→140 different measures organize participants in similar ways. RSA has been particularly influential in
+   148→141 cognitive neuroscience, but it has also been proposed as a useful framework for comparing
+   149→142 multidimensional representations in social neuroscience and individual-differences research (Popal
+   150→143 et al., 2019).
+   151→144 The innovative core of our approach lies in repurposing RSA: rather than utilizing it solely to cross-
+   152→145 examine distinct tasks, we deploy it to directly contrast different levels of representation within the
+   153→146 same psychological data. Specifically, we contrast classical, total score-based representations with
+   154→147 vector-based representations that preserve item-level response patterns, forced-choice response
+   155→148 configurations, and semantic information from open-ended descriptions. In this way, RSA provides
+   156→5
+   157→
+   158→149 a common framework to test whether vector-based scoring merely reproduces conventional scores or
+   159→150 instead captures additional information in participants’ mentalization responses.
+   160→151 For each task, we thus constructed two types of participant-by-participant distance matrices. The first
+   161→152 was based on classical scoring: IRI total score, RMET accuracy, and Triangles ToM scores. The
+   162→153 second was based on vector representations: full IRI item-response profiles, RMET response-choice
+   163→154 patterns, and sentence embeddings of participants’ open-ended Triangles descriptions. We then used
+   164→155 RSA to investigate whether vector-based representations converge with the corresponding classical
+   165→156 scores within each task and whether vector-based representations explain cross-task structure beyond
+   166→157 classical scores.
+   167→158 We hypothesized that vector-based representations would demonstrate significant, yet incomplete,
+   168→159 convergence with traditional scores, thereby confirming that they retain core construct-relevant
+   169→160 information while successfully preserving additional semantic and behavioral granularity. Crucially,
+   170→161 we further hypothesized that vector-space geometries would account for unique, incremental variance
+   171→162 in cross-task similarity structures over and above classical aggregate distances. Such a finding would
+   172→163 provide robust empirical evidence that individual differences in social cognition are fundamentally
+   173→164 multi-layered, and that their full systematic variance is better captured by the geometry of behavioral
+   174→165 response patterns than by unidimensional psychometric reductions.
+   175→166
+   176→167 Method
+   177→168 Participants
+   178→169 One-hundred and sixty-five BSc students from the Universidad Complutense of Madrid participated
+   179→170 in the study. After removing one participant that did not provide answers to one task, the final sample
+   180→171 reached 164 individuals (145 females; M age = 19.12, SD = 2.20). Participants participated in the
+   181→172 study in exchange for extra course credits. Informed consent was obtained from all participants before
+   182→173 the experiment. The protocol was approved by the psychological ethical committee of the
+   183→174 Universidad Complutense of Madrid and participants were treated in accordance with the Declaration
+   184→175 of Helsinki.
+   185→176 Sample size was estimated a priori as we aimed to recruit at least 100 participants, consistent with
+   186→177 recommendations that individual-differences psychological designs often require samples of at least
+   187→178 100 to obtain stable and adequately powered estimates (Brysbaert, 2019).
+   188→179
+   189→6
+   190→
+   191→180 Mentalization battery
+   192→181 Interpersonal Reactivity Index
+   193→182 Participants completed the Interpersonal Reactivity Index (IRI), originally developed by Davis (1980,
+   194→183 1983), in its Spanish version (Pérez-Albéniz et al., 2003). The IRI is a self-report questionnaire
+   195→184 designed to assess individual differences in dispositional empathy. It is composed of 28 items
+   196→185 (divided into four subscales of seven items each: Perspective Taking, Fantasy, Empathic Concern,
+   197→186 and Personal Distress). Participants were presented with each statement and asked to indicate how
+   198→187 well it described them using a 5 points Likert scale. Higher values indicated stronger agreement with
+   199→188 the statement.
+   200→189
+   201→190 Reading the mind in the eyes
+   202→191 Participants were presented with the Reading the Mind in the Eyes Task (RMET) proposed by Baron-
+   203→192 Cohen and colleagues (Baron-Cohen et al., 2003; Baron‐Cohen et al., 2001), in the Spanish version
+   204→193 adapted by Fernández-Abascal and colleagues (2013). The RMET is composed of 37 black and white
+   205→194 photos (i.e., the first photo is presented as a practice trial and the remaining 36 photos as stimuli).
+   206→195 Each image depicts the eye-region of different individuals with different age and of both gender
+   207→196 (Baron-Cohen et al., 2003). See Figure 1A for an example of one trial.
+   208→197 Each image is surrounded by 4 different adjectives or terms regarding emotional states/expressions,
+   209→198 placed one at each corner of the picture, as in the original English version (Baron-Cohen et al., 2003).
+   210→199 Participants were required to look at the image, read each of the four terms presented with that picture
+   211→200 and select the one that best described what the person in the photo was thinking or feeling (i.e., a
+   212→201 forced-choice task between four response options). Accurate trials are typically scored as 1,
+   213→202 inaccurate trials as 0.
+   214→203
+   215→204 Triangles task
+   216→205 Participants were shown 6 silent animations, lasting about 15 seconds each, depicting two triangles:
+   217→206 a big-blue triangle and a small-orange one moving in a framed white landscape (Abell et al., 2000;
+   218→207 Castelli et al., 2000; 2002). The animations were all ToM clips, in which triangles moved interactively
+   219→208 with implied intentions (e.g., coaxing, tricking). See Figure 1B for an example of one trial.
+   220→209 Participants were instructed to watch each video just once and, after it, to answer the following
+   221→210 question (i.e., the same for all the videos): “In your opinion, what happened in this video?”.
+   222→7
+   223→
+   224→211 Participants’ answers were automatically scored on intentionality index via the TrAIngles software
+   225→212 (Stagnitto et al., 2026), which reflects the degree to which the subject attributes intentional mental
+   226→213 states to the moving triangles. The intentionality score for each description ranged from 0 (no
+   227→214 deliberate action, e.g., “bouncing”, “rotating”) to 5 (deliberate action aimed at affecting another’s
+   228→215 mental state, e.g., “persuading”, “pretending”, “deceiving”). The interrater agreement between
+   229→216 automatic scoring and human scoring (based on double-coding of 25% of the responses) was good
+   230→217 (Cohen’s K = .85, p < .001).
+   231→218
+   232→219
+   233→220 Figure 1. Example of trials from the RMET, as retrieved from:
+   234→221 https://www.autismresearchcentre.com/ (A) and from the Triangles task (B).
+   235→222
+   236→223 Sentence embedding model
+   237→224 Semantic representations of participants’ Triangles descriptions were obtained using sentence-
+   238→225 transformers/paraphrase-multilingual-MiniLM-L12-v2, a Sentence-Transformers model available
+   239→226 through the Hugging Face model hub. The model maps sentences and short paragraphs into a 384-
+   240→227 dimensional dense vector space and is explicitly intended for semantic similarity, clustering, and
+   241→228 semantic search applications.
+   242→229 The choice of this model was motivated by the structure of the Triangles task. Participants produced
+   243→230 short, open-ended verbal descriptions of the same animated clips. The main goal was therefore not to
+   244→231 classify responses into predefined categories, but to quantify graded semantic similarity between
+   245→232 descriptions. Sentence-Transformers models are well suited to this aim because they produce fixed-
+   246→8
+   247→
+   248→233 length sentence-level embeddings that can be directly compared with cosine similarity. This follows
+   249→234 the logic of Sentence-BERT, which was designed to overcome the limitations of standard BERT-
+   250→235 style models for semantic similarity and clustering by using siamese and triplet network structures to
+   251→236 derive semantically meaningful sentence embeddings. For each (valid) Triangles response, the full
+   252→237 response sentence was passed to the model and represented as a 384-dimensional embedding.
+   253→238
+   254→239 Results
+   255→240 All analyses were conducted in RStudio (RStudio Team, 2020). As a first, conventional analysis, we
+   256→241 examined classical score convergence across tasks. Spearman correlations were computed among the
+   257→242 three aggregate scores: IRI total score, RMET accuracy, and Triangles ToM score. False discovery
+   258→243 rate (FDR) correction was applied to the three pairwise correlations. Spearman correlations showed
+   259→244 weak associations among aggregate scores (Figure 2). IRI total score was not significantly associated
+   260→245 with RMET accuracy, ρ = .031, pFDR = .696, or with Triangles ToM score, ρ = .107, pFDR = .257.
+   261→246 RMET accuracy was positively associated with Triangles ToM score, although the effect was small,
+   262→247 ρ = .204, pFDR = .026. Thus, conventional aggregate scores provided limited evidence for
+   263→248 convergence across the three mentalization-related measures.
+   264→249
+   265→250
+   266→9
+   267→
+   268→251 Figure 2. Classical score convergence across the three mentalization-related
+   269→252 measures. The heatmap shows Spearman correlations among IRI total score, RMET
+   270→253 accuracy, and Triangles ToM score. Cell values indicate correlation coefficients. Overall,
+   271→254 aggregate-score convergence was weak: only RMET accuracy and Triangles ToM score
+   272→255 were significantly associated after FDR correction.
+   273→256
+   274→257 For the representational similarity analyses (RSA), two participant-by-participant distance matrices
+   275→258 were constructed for each task: one based on classical scoring, and one based on vector-based
+   276→259 response representations. Classical score-distance matrices were computed using absolute pairwise
+   277→260 differences between participants’ scalar scores. For IRI vector-based distances, each participant was
+   278→261 represented by the full vector of 28 scored item responses. For RMET vector-based distances, each
+   279→262 participant was represented by their item-level response pattern across the 36 scored, computed as
+   280→263 the proportion of RMET items for which the two participants selected the same response. For
+   281→264 Triangles ToM vector-based distances, each response was represented by the 384-dimensional
+   282→265 sentence embedding described above and the vector averaged across participants. For each pair of
+   283→266 participants, cosine distance was computed separately for each measure. Classical score-distance and
+   284→267 vector-distance matrices for the three measures are represented as heatmaps in Figure 3.
+   285→268
+   286→10
+   287→
+   288→269
+   289→270 Figure 3. Classical score-distance and vector-distance matrices for the three
+   290→271 mentalization measures. Heatmaps show participant-by-participant distance matrices for
+   291→272 IRI, RMET, and Triangles ToM. The upper rwo displays classical score-distance matrices,
+   292→273 while the lower row displays the corresponding vector-based distance matrices.
+   293→274 Darker/lighter colors indicate lower/higher pairwise distance according to the common
+   294→275 legend.
+   295→276
+   296→277 To further illustrate the geometry of the vector-based representations described above, we computed
+   297→278 two-dimensional metric multidimensional scaling (MDS) solutions for the IRI, RMET, and Triangles
+   298→279 vector-distance matrices (Figure 4). Participants are plotted in resulting two-dimensional spaces and
+   299→280 colored by the corresponding classical score: IRI total score for the IRI item-vector space, RMET
+   300→281 accuracy for the RMET response-vector space, and mean Triangles ToM score for the Triangles
+   301→282 semantic-vector space.
+   302→283
+   303→11
+   304→
+   305→284
+   306→285 Figure 4. Two-dimensional MDS projections of the IRI item-vector space, RMET
+   307→286 response-vector space, and Triangles semantic-vector space. Points represent
+   308→287 participants and colors indicate the corresponding “classical” score: IRI total, RMET
+   309→288 accuracy, and Triangles ToM score, respectively. The IRI and RMET vector spaces show
+   310→289 relatively diffuse participant distributions, with some visual gradient corresponding to the
+   311→290 classical score. The Triangles semantic-vector space shows more visible structure, although
+   312→291 the score gradient appears not to be simply linear.
+   313→292
+   314→293 We then tested with an RSA within-task convergence between classical and vector-based
+   315→294 representations. For each task, the upper triangle of the classical score-distance matrix was correlated
+   316→295 with the upper triangle of the corresponding vector-distance matrix using Spearman correlation. This
+   317→296 analysis tested whether participants who were more dissimilar according to classical scoring were
+   318→297 also more dissimilar according to the vector-based representation of the same task. Statistical
+   319→298 significance was assessed using a 10,000-iteration permutation test. In each iteration, participant
+   320→299 labels in the vector-distance matrix were randomly permuted, the matrix correlation was recomputed,
+   321→300 and the two-tailed permutation p-value was calculated as the proportion of permuted correlations
+   322→301 whose absolute value was at least as large as the observed correlation.
+   323→302 Spearman RSA correlations for this analysis are reported in Figure 5. Across all three measures,
+   324→303 vector-based representations showed reliable convergence with classical score distances: IRI, ρ =
+   325→304 .182, pFDR < .001; RMET, ρ = .230, pFDR < .001; and Triangles ToM, ρ = .130, pFDR < .001. At
+   326→305 the same time, the magnitude of these associations was modest, indicating that vector representations
+   327→306 captured only part of the information summarized by aggregate scoring and also preserved additional
+   328→307 response-level structure.
+   329→308
+   330→12
+   331→
+   332→309
+   333→310 Figure 5. Within-task convergence between classical and vector-based
+   334→311 representations. Bars show Spearman RSA correlations between each classical score-
+   335→312 distance matrix and the corresponding vector-distance matrix.
+   336→313
+   337→314 Finally, matrix-regression models were fitted to the vectorized upper triangles of the distance
+   338→315 matrices. For each target matrix, we fitted a score-only model and a vector-only model. The score-
+   339→316 only model included the classical score-distance matrices from the other two tasks as predictors,
+   340→317 whereas the vector-only model included the corresponding vector-distance matrices from the other
+   341→318 two tasks as predictors. Models’ performance was assessed by computing model-level Spearman ρs,
+   342→319 defined as the rank-order correlation between the observed target distances and the fitted distances
+   343→320 predicted by the model. Model comparisons were then evaluated using permutations: for each target
+   344→321 matrix, the observed difference between the vector-only and score-only model ρs was computed. The
+   345→322 null distribution was generated by randomly permuting the target distances 10,000 times relative to
+   346→323 the predictors, refitting both score-only and vector-only models at each iteration, and recomputing
+   347→324 the difference between model ρs. Two-tailed permutation p-values were then calculated as the
+   348→325 proportion of permuted absolute differences that were at least as large as the observed absolute
+   349→326 difference. These tests evaluated whether score-only and vector-only models differed in their ability
+   350→327 to predict each target representational structure.
+   351→328 We then compared score-only and vector-only cross-task RSA models. For each target matrix, the
+   352→329 score-only model included the classical score-distance matrices from the other two tasks as predictors,
+   353→13
+   354→
+   355→330 whereas the vector-only model included the corresponding vector-distance matrices from the other
+   356→331 two tasks. Model-level Spearman ρs, computed as the correlation between observed and fitted target
+   357→332 distances, are reported in Figure 6. Across the three classical score-distance outcomes, vector-only
+   358→333 models showed higher observed-fitted correlations than score-only models. This was negligible for
+   359→334 IRI score distance, Δρ = .004, p = .599. However, the vector-only model was significantly higher for
+   360→335 RMET score distance, Δρ = .053, p < .001, and for Triangles ToM score distance, Δρ = .050, p <
+   361→336 .001. Thus, when predicting classical score-distance structures, vector-based representations from the
+   362→337 other tasks provided stronger cross-task prediction for RMET and Triangles, but not for IRI. For
+   363→338 vector-distance outcomes, the pattern was mixed. For IRI vector distance, score-only and vector-only
+   364→339 models performed almost identically, Δρ = .001, p = .910. For RMET vector distance, the score-only
+   365→340 model performed better than the vector-only model, Δρ = -.057, p < .001. In contrast, for Triangles
+   366→341 ToM semantic vector distance, the vector-only model performed better than the score-only model,
+   367→342 Δρ = .071, p < .001. Overall, the score-only and vector-only models revealed different patterns of
+   368→343 cross-task prediction, suggesting that classical scores and vector-based representations provide
+   369→344 partially distinct descriptions of individual-difference structure.
+   370→345
+   371→346 Figure 6. Cross-task score-only and vector-only RSA models. Bars show model-level
+   372→347 Spearman ρs, computed as the correlation between observed target distances and fitted
+   373→348 distances from models using either classical score-distance matrices or vector-distance
+   374→349 matrices from the other two tasks.
+   375→350
+   376→14
+   377→
+   378→351 As a robustness check, all analyses involving the Triangles semantic-distance matrix were repeated
+   379→352 using GPT2-based embeddings instead of the main sentence-embedding model. An additional
+   380→353 robustness check was performed using the four IRI subscales separately and yielded the same general
+   381→354 conclusion: score-only and vector-only models showed partly distinct, subscale-dependent patterns
+   382→355 of cross-task prediction. These supplementary analyses are reported in the Supplementary Materials.
+   383→356 Overall, the results indicate that vector-based representations were reliably related to classical scoring
+   384→357 within each task, while also producing a distinct pattern of cross-task prediction. The effects were
+   385→358 generally small, suggesting that vector representations should not be interpreted as replacements for
+   386→359 classical scores. Rather, they appear to provide a complementary description of response-pattern and
+   387→360 semantic structure that is not fully captured by aggregate scoring.
+   388→361
+   389→362 Discussion
+   390→363 The present study targeted a foundational limitation in contemporary psychological research: the
+   391→364 widespread reduction of multidimensional behavioral data into unidimensional aggregate scores. By
+   392→365 repurposing Representational Similarity Analysis (RSA) as a cross-scale benchmarking tool, and
+   393→366 leveraging the construct of mentalization as an empirical test, we sought to investigate whether social-
+   394→367 cognitive phenotypes can be more comprehensively characterized through high-dimensional, vector-
+   395→368 based representations rather than conventional, unidimensional aggregate metrics. This question is
+   396→369 particularly relevant because mentalization and social cognition are inherently non-unitary,
+   397→370 fractionated constructs, emerging from the orchestration of multiple, partially dissociable processes
+   398→371 that span the interpretation of others' beliefs, implicit intentions, affective states, and dynamic social
+   399→372 interactions (Frith & Frith, 2006; Jarvis et al., 2022; Quesque & Rossetti, 2020; Schaafsma et al.,
+   400→373 2015). Starting from the idea that the same total score can correspond to very different response
+   401→374 patterns, we tested whether preserving item-level, response-pattern, and semantic information
+   402→375 provides additional insight into individual differences in social cognition. To this aim, we compared
+   403→376 classical score-distance matrices with vector-based distance matrices across three commonly used
+   404→377 mentalization-related measures: the IRI, the RMET, and the Triangles task (Abell et al., 2000; Baron-
+   405→378 Cohen et al., 2001; Castelli et al., 2000; Davis, 1983).
+   406→379 In line with these overarching objectives, our initial analyses replicated a well-documented paradox
+   407→380 in the social-cognitive literature: the surprisingly constrained empirical convergence among classical,
+   408→381 aggregate-based measures of mentalization (Osterhaus & Bosacki, 2022; Quesque & Rossetti, 2020;
+   409→382 Warnell & Redcay, 2019; Yeung et al., 2024). IRI total score was not significantly associated with
+   410→15
+   411→
+   412→383 either RMET accuracy or the Triangles ToM score, while RMET accuracy showed a small positive
+   413→384 association with Triangles ToM score. This pattern is consistent with the idea that commonly used
+   414→385 mentalization-related tasks do not necessarily measure a single homogeneous construct. Instead, they
+   415→386 appear to capture partly distinct aspects of social cognition (Jarvis et al., 2022; Osterhaus & Bosacki,
+   416→387 2022; Quesque & Rossetti, 2020). Response format can also play a relevant role here, given that self-
+   417→388 reported empathic tendencies, emotion recognition from the eye region, and open-ended descriptions
+   418→389 of animated social interactions place different demands on participants and may rely on partly
+   419→390 different processes (Frith & Frith, 2006; Quesque & Rossetti, 2020; Schaafsma et al., 2015).
+   420→391 Our second core finding established the convergent validity of these high-dimensional metrics,
+   421→392 demonstrating a reliable within-task alignment between vector-based representations and traditional
+   422→393 psychometric scoring. Across the IRI, the RMET, and the Triangles task, participants who exhibited
+   423→394 greater phenotypic dissimilarity within classical score spaces also demonstrated greater geometric
+   424→395 distance within their corresponding vector-space representations. This systematic covariation
+   425→396 confirms that our computational models successfully preserve the core, construct-relevant signal
+   426→397 captured by conventional instruments.
+   427→398 Critically, however, these within-task associations were moderate in magnitude. Rather than
+   428→399 indicating a methodological limitation, this bounded convergence suggests that vector representations
+   429→400 do not merely recapitulate aggregate metrics; instead, they successfully retain systematic variance
+   430→401 that is otherwise collapsed by scalar reductions.
+   431→402 This complementary interpretation was directly corroborated by our cross-task RSA. when evaluating
+   432→403 the predictive power of alternative models against classical score-distance matrices as target
+   433→404 outcomes, the vector-based configurations generally outperformed their aggregate counterparts. This
+   434→405 pattern was pronounced for RMET and Triangles ToM score, while for the IRI, this cross-task
+   435→406 predictive discrepancy was negligible. This suggests that, for some classical outcomes, response-
+   436→407 pattern and semantic representations from the other tasks contained cross-task information that was
+   437→408 not equally captured by the corresponding aggregate score distances. However, the pattern was not
+   438→409 uniform across all outcomes. When vector-distance matrices were used as targets, score-only and
+   439→410 vector-only models performed almost identically for IRI vector distance, the score-only model
+   440→411 performed better for RMET vector distance, and the vector-only model performed better for Triangles
+   441→412 semantic distance. Taken together, these results indicate that score-based and vector-based
+   442→413 representations provide different and (partially) complementary descriptions of individual-difference
+   443→414 structure. This is particularly relevant in the field of mentalization as it is consistent with the idea that
+   444→415 the social-cognitive performances indexed here are multidimensional and heterogeneous (Fonagy &
+   445→16
+   446→
+   447→416 Luyten, 2009; Frith & Frith, 2006; Osterhaus & Bosacki, 2022; Schaafsma et al., 2015; Wellman,
+   448→417 2018).
+   449→418 Beyond its general psychometric utility, this framework holds profound promise for the domain of
+   450→419 computational text analysis. Open-ended language tasks, are increasingly recognized as a rich source
+   451→420 of psychological information, preserving idiosyncratic nuances of meaning, affect, interpretation, and
+   452→421 individual style that may be obliterated by closed-format rating scales (Boyd & Schwartz, 2021;
+   453→422 Pennebaker et al., 2003; Tausczik & Pennebaker, 2010). In the Triangles task, classical scoring
+   454→423 compresses a verbal description into a score that reflects the presence or quality of mental-state
+   455→424 attribution (Abell et al., 2000; Andersen et al., 2022). This is useful and theoretically grounded, but
+   456→425 it necessarily discards much of the semantic content of the response. Sentence embeddings provide a
+   457→426 way to retain this semantic information in a quantitative format, allowing full responses to be
+   458→427 represented and compared in a continuous semantic space (Reimers & Gurevych, 2019). In the
+   459→428 present results, the Triangles semantic-vector space was particularly informative in the cross-task
+   460→429 models, suggesting that semantic representations of open-ended responses may offer a useful
+   461→430 complement to scalar intentionality scores.
+   462→431 From a broader perspective, the distinction between classical score-based analyses and RSA is also
+   463→432 important for interpreting what each approach can tell us about individual differences. Classical
+   464→433 psychometric analyses address a magnitude-based question: do individuals who exhibit higher
+   465→434 phenotypic expressions on one measure also display higher expressions on another? Consequently,
+   466→435 they operationalize individual differences as variation along a set of unidimensional scalar axes (e.g.,
+   467→436 total accuracy, mean intentionality, or cumulative questionnaire endorsement). This paradigm is
+   468→437 undeniably valuable when the core theoretical inquiry concerns the quantity of a latent construct.
+   469→438 However, such analyses are inherently blind to the structural topography of behavior: they cannot
+   470→439 adjudicate whether two participants achieved the identical score via similar or profoundly divergent
+   471→440 behavioral paths, such as endorsing the exact same configuration of empathy items, selecting identical
+   472→441 clusters of incorrect mental-state labels, or producing semantically uniform narrative descriptions.
+   473→442 RSA addresses this complementary question by comparing the geometry of participant similarity
+   474→443 across representational spaces. Instead of asking only whether scores covary across individuals, RSA
+   475→444 asks whether the pattern of distances (or similarities) among individuals is preserved. Thus, classical
+   476→445 correlations evaluate convergence between variables, whereas RSA evaluates convergence between
+   477→446 similarity or structures, thus shifting the analytical focus from a comparison of absolute magnitudes
+   478→447 to a mapping of shared cognitive spaces.
+   479→17
+   480→
+   481→448 This RSA framework is particularly flexible and can be applied to many psychological domains in
+   482→449 which responses are commonly aggregated into total scores. In this sense, the present work further
+   483→450 illustrates how RSA can be applied to the comparison of alternative psychometric representations of
+   484→451 the same behavioral data (Popal et al., 2019). Future research should examine the individual-
+   485→452 difference correlates of the response structures identified through RSA and vector-based approaches,
+   486→453 in order to determine whether they reflect meaningful variation in cognition, interpretive style, or
+   487→454 social understanding. Importantly, vector-based methods should not be interpreted as replacements
+   488→455 for classical scoring, nor as a way to automatically uncover hidden effects. Their value lies instead in
+   489→456 providing an additional representational level at which response structure can be described and
+   490→457 compared.
+   491→458 In conclusion, the present findings support a representational view of social-cognitive responses.
+   492→459 Classical scores remain useful and interpretable, but they capture only one level of information. By
+   493→460 preserving item-level response patterns, forced-choice configurations, and semantic content, vector-
+   494→461 based representations provide a complementary description of how individuals respond to social-
+   495→462 cognitive tasks. More broadly, this approach suggests that individual differences may be studied not
+   496→463 only in terms of how much people score, but also in terms of the geometry of how they respond.
+   497→464
+   498→18
+   499→
+   500→465 References
+   501→466 Abell, F., Happé, F., & Frith, U. (2000). Do triangles play tricks? Attribution of mental states to
+   502→467 animated shapes in normal and abnormal development. Cognitive Development, 15(1), 1–
+   503→468 16. https://doi.org/10.1016/S0885-2014(00)00014-9
+   504→469 Andersen, N. K., Kyllingsbæk, S., & Roepstorff, A. (2022). A psychometric investigation of the
+   505→470 multiple-choice version of the Animated Triangles Task. Frontiers in Psychology, 13,
+   506→471 812722. https://doi.org/10.3389/fpsyg.2022.812722
+   507→472 Baron-Cohen, S., Wheelwright, S., Hill, J., Raste, Y., & Plumb, I. (2001). The “Reading the Mind in
+   508→473 the Eyes” Test revised version: A study with normal adults, and adults with Asperger
+   509→474 syndrome or high-functioning autism. Journal of Child Psychology and Psychiatry, 42(2),
+   510→475 241–251. https://doi.org/10.1111/1469-7610.00715
+   511→476 Boyd, R. L., & Schwartz, H. A. (2021). Natural language analysis and the psychology of verbal
+   512→477 behavior: The past, present, and future states of the field. Journal of Language and Social
+   513→478 Psychology, 40(1), 21–41. https://doi.org/10.1177/0261927X20967028
+   514→479 Castelli, F., Happé, F., Frith, U., & Frith, C. (2000). Movement and mind: A functional imaging study
+   515→480 of perception and interpretation of complex intentional movement patterns. NeuroImage,
+   516→481 12(3), 314–325. https://doi.org/10.1006/nimg.2000.0612
+   517→482 Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16(3),
+   518→483 297–334. https://doi.org/10.1007/BF02310555
+   519→484 Davis, M. H. (1980). A multidimensional approach to individual differences in empathy. JSAS
+   520→485 Catalog of Selected Documents in Psychology, 10, 85.
+   521→486 Davis, M. H. (1983). Measuring individual differences in empathy: Evidence for a multidimensional
+   522→487 approach. Journal of Personality and Social Psychology, 44(1), 113–126.
+   523→488 https://doi.org/10.1037/0022-3514.44.1.113
+   524→489 Embretson, S. E., & Reise, S. P. (2000). Item response theory for psychologists. Lawrence Erlbaum
+   525→490 Associates.
+   526→491 Fernández-Abascal, E. G., Cabello, R., Fernández-Berrocal, P., & Baron-Cohen, S. (2013). Test-
+   527→492 retest reliability of the “Reading the Mind in the Eyes” test: A one-year follow-up study.
+   528→493 Molecular Autism, 4, 33.
+   529→19
+   530→
+   531→494 Fonagy, P., & Luyten, P. (2009). A developmental, mentalization-based approach to the
+   532→495 understanding and treatment of borderline personality disorder. Development and
+   533→496 Psychopathology, 21(4), 1355–1381. https://doi.org/10.1017/S0954579409990198
+   534→497 Frith, C. D., & Frith, U. (2006). The neural basis of mentalizing. Neuron, 50(4), 531–534.
+   535→498 https://doi.org/10.1016/j.neuron.2006.05.001
+   536→499 Günther, F., Rinaldi, L., & Marelli, M. (2019). Vector-space models of semantic representation from
+   537→500 a cognitive perspective: A discussion of common misconceptions. Perspectives on
+   538→501 Psychological Science, 14(6), 1006–1033. https://doi.org/10.1177/1745691619861372
+   539→502 Jarvis, A. L., Keage, H. A., Wong, S., Weightman, M., & Stephens, R. G. (2024). Evidence for a
+   540→503 multidimensional account of cognitive and affective theory of mind: A state-trace analysis.
+   541→504 Memory & Cognition, 52(3), 525-535.
+   542→505 Kriegeskorte, N., Mur, M., & Bandettini, P. A. (2008). Representational similarity analysis:
+   543→506 Connecting the branches of systems neuroscience. Frontiers in Systems Neuroscience, 2,
+   544→507 Article 4. https://doi.org/10.3389/neuro.06.004.2008
+   545→508 Lord, F. M., & Novick, M. R. (1968). Statistical theories of mental test scores. Addison-Wesley.
+   546→509 Manning, C. D., Raghavan, P., & Schütze, H. (2008). Introduction to information retrieval.
+   547→510 Cambridge University Press.
+   548→511 Nili, H., Wingfield, C., Walther, A., Su, L., Marslen-Wilson, W., & Kriegeskorte, N. (2014). A
+   549→512 toolbox for representational similarity analysis. PLOS Computational Biology, 10(4),
+   550→513 e1003553. https://doi.org/10.1371/journal.pcbi.1003553
+   551→514 Nunnally, J. C., & Bernstein, I. H. (1994). Psychometric theory (3rd ed.). McGraw-Hill.
+   552→515 Osterhaus, C., & Bosacki, S. L. (2022). Looking for the lighthouse: A systematic review of advanced
+   553→516 theory-of-mind tests beyond preschool. Developmental Review, 64, 101021.
+   554→517 https://doi.org/10.1016/j.dr.2022.101021
+   555→518 Quesque, F., & Rossetti, Y. (2020). What do theory-of-mind tasks actually measure? Theory and
+   556→519 practice. Perspectives on Psychological Science, 15(2), 384–396.
+   557→520 https://doi.org/10.1177/1745691619896607
+   558→521 Pennebaker, J. W., Mehl, M. R., & Niederhoffer, K. G. (2003). Psychological aspects of natural
+   559→522 language use: Our words, our selves. Annual Review of Psychology, 54, 547–577.
+   560→523 https://doi.org/10.1146/annurev.psych.54.101601.145041
+   561→20
+   562→
+   563→524 Pérez-Albéniz, A., de Paúl, J., Etxeberría, J., Montes, M. P., & Torres, E. (2003). Adaptación de
+   564→525 Interpersonal Reactivity Index (IRI) al español. Psicothema, 15(2), 267–272.
+   565→526 Popal, H., Wang, Y., & Olson, I. R. (2019). A guide to representational similarity analysis for social
+   566→527 neuroscience. Social Cognitive and Affective Neuroscience, 14(11), 1243–1253.
+   567→528 https://doi.org/10.1093/scan/nsz099
+   568→529 Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? Behavioral and
+   569→530 Brain Sciences, 1(4), 515–526.
+   570→531 Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-
+   571→532 networks. In Proceedings of the 2019 Conference on Empirical Methods in Natural
+   572→533 Language Processing and the 9th International Joint Conference on Natural Language
+   573→534 Processing (pp. 3982–3992). Association for Computational Linguistics.
+   574→535 https://doi.org/10.18653/v1/D19-1410
+   575→536 Quesque, F., & Rossetti, Y. (2020). What do theory-of-mind tasks actually measure? Theory and
+   576→537 practice. Perspectives on psychological science, 15(2), 384-396.
+   577→538 Salton, G., Wong, A., & Yang, C. S. (1975). A vector space model for automatic indexing.
+   578→539 Communications of the ACM, 18(11), 613–620. https://doi.org/10.1145/361219.361220
+   579→540 Schaafsma, S. M., Pfaff, D. W., Spunt, R. P., & Adolphs, R. (2015). Deconstructing and
+   580→541 reconstructing theory of mind. Trends in Cognitive Sciences, 19(2), 65–72.
+   581→542 https://doi.org/10.1016/j.tics.2014.11.007
+   582→543 Stagnitto, S. M., Gatti, D., Ceccato, I., Castelli, F., Chierchia, G., Rinaldi, L., Devine, R. T., Cavallini,
+   583→544 E., & Lecce, S. (2026). TrAIngles: An LLM-based automatic scoring tool for theory of mind
+   584→545 assessments across the life span. PsyArXiv. https://doi.org/10.31234/osf.io/sb9gz
+   585→546 Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and
+   586→547 computerized text analysis methods. Journal of Language and Social Psychology, 29(1),
+   587→548 24–54. https://doi.org/10.1177/0261927X09351676
+   588→549 Warnell, K. R., & Redcay, E. (2019). Minimal coherence among varied theory of mind measures in
+   589→550 childhood and adulthood. Cognition, 191, 103997.
+   590→551 https://doi.org/10.1016/j.cognition.2019.06.009
+   591→552 Wellman, H. M. (2018). Theory of mind across the lifespan?. Zeitschrift für Psychologie, 226 (2018),
+   592→553 pp. 136-13. https://doi.org/10.1027/2151-2604/a000330
+   593→21
+   594→
+   595→554 Yeung, E. K. L., Apperly, I. A., & Devine, R. T. (2024). Measures of individual differences in adult
+   596→555 theory of mind: A systematic review. Neuroscience & Biobehavioral Reviews, 157, 105490.
+   597→556 https://doi.org/10.1016/j.neubiorev.2023.105490
+   598→557
+   599→558
+   600→559
+   601→560
+   602→22

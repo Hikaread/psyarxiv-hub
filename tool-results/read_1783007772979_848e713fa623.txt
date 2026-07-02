@@ -1,0 +1,842 @@
+     1→Ecological momentary intervention fidelity: Qualitative findings from a habit
+     2→degradation trial
+     3→Robert Edgren1, PhD, Anine Hess1, BA, & Jennifer Inauen1, PhD
+     4→1Department of Health Psychology and Behavioral Medicine, University of Bern, Bern,
+     5→Switzerland
+     6→Corresponding author: Robert Edgren; robert.edgren@unibe.ch
+     7→Keywords: treatment fidelity, digital behaviour change intervention, semi-structured
+     8→interview, template analysis, unhealthy snacking, mHealth, eHealth
+     9→Author contributions:
+    10→Robert Edgren: Conceptualization, Methodology, Writing – original draft, Visualization,
+    11→Project administration. Anine Hess: Investigation, Formal analysis, Data curation,
+    12→Visualization, Writing – review and editing. Jennifer Inauen: Conceptualization, Funding
+    13→acquisition, Methodology, Supervision, Writing – review and editing.
+    14→The Ethics Committee of the Faculty of Human Sciences at the University of Bern granted
+    15→ethical approval for the study (Nr. 2021-11-00004).
+    16→Acknowledgements: We wish to thank Kyra Stauder and Daniel Villiger for their
+    17→contributions in data collection.
+    18→Data availability statement: Data can be made partially available by request from the
+    19→authors. Note that all participants did not consent to having their interview transcripts shared.
+    20→Conflict of interest: The authors have no conflicts of interest to declare.
+    21→Funding: This study was funded by the Swiss National Science Foundation (SNSF; grant
+    22→number 10001C_200895).
+    23→1
+    24→
+    25→Abstract
+    26→Objectives. Intervention fidelity is critical for interpreting trial outcomes, yet fidelity in digital
+    27→behaviour change interventions (DBCI) such as ecological momentary interventions (EMIs) is
+    28→poorly understood. This qualitative study explored participant experiences of intervention
+    29→fidelity (delivery, receipt, enactment) of a randomised controlled trial (RCT) testing habit
+    30→degradation strategies including implementation intentions, and the effect of reward on
+    31→degrading unhealthy snacking habits in daily life. This study aimed to deepen the understanding
+    32→of intervention fidelity from participants’ perspectives, while also generating generalisable
+    33→lessons for DBCI.
+    34→Design. Preregistered semi-structured follow-up interviews.
+    35→Methods. Twenty-two former RCT participants were purposively sampled for heterogeneity
+    36→across intervention groups. Interviews were conducted online using personalised graphical
+    37→elicitation materials. Data were analysed using template analysis, with initial coding informed
+    38→by three fidelity domains: delivery, receipt, and enactment.
+    39→Results. Eight themes were identified across three interacting fidelity domains. Delivery
+    40→concerns included technical disruptions and cue selection that shaped reward delivery. Receipt
+    41→challenges included mismatches between if-then plans and assigned strategies. Enactment
+    42→themes revealed that participants generalised behaviour change beyond their if-then plan,
+    43→pragmatically employed multiple strategies, and were influenced by physical, social, and
+    44→internal factors. Reactions to reward features were mixed, self-monitoring through the app
+    45→facilitated behaviour change, and some participants experienced snacking to shift to other
+    46→situations.
+    47→Conclusions. This qualitative fidelity study revealed participant-experienced processes—
+    48→including pragmatic adaptation and self-monitoring reactivity—that typical quantitative fidelity
+    49→metrics do not capture. These processes should be anticipated in EMI study design, and
+    50→qualitative fidelity assessment routinely integrated into such research.
+    51→2
+    52→
+    53→Statement of Contribution
+    54→What is already known on this subject?
+    55→Intervention fidelity is essential for interpreting trial outcomes. Three participant-centred
+    56→fidelity domains are recognized (delivery, receipt, and enactment). Quantitative fidelity checks
+    57→can reveal whether but not how deviations from protocol occur.
+    58→What does this study add?
+    59→• With ecological momentary intervention designs, fidelity domains are interconnected
+    60→• Fidelity deviations in daily life may reflect pragmatic adaptation
+    61→• Participants may perceive daily self-report measurement as a self-monitoring
+    62→intervention
+    63→3
+    64→
+    65→Introduction
+    66→Digital behaviour change interventions (DBCI), including ecological momentary interventions
+    67→(EMIs) (Heron & Smyth, 2010) have flourished alongside technological advances and
+    68→widespread ownership of smartphones (Arigo et al., 2019). Research on DBCI and EMIs has
+    69→devoted considerable attention to conceptualising engagement and its role in intervention
+    70→efficacy (Arigo et al., 2019; Cole-Lewis et al., 2019; Eaton et al., 2024; Perski et al., 2017), yet
+    71→far less is known about fidelity. Intervention fidelity encompasses the methodological strategies
+    72→used to monitor and enhance the reliability and validity of behavioural interventions (Bellg et
+    73→al., 2004). Assessing fidelity is essential for interpreting outcomes, as it determines whether
+    74→observed effects reflect the intervention as designed or deviations in its implementation (Bellg
+    75→et al., 2004; Toomey et al., 2020).
+    76→EMIs include interventions delivered by smartphone apps, embedded within daily life, with
+    77→content tailored to incoming data (Arigo et al., 2019). A defining feature is that EMI success
+    78→depends heavily on how participants understand and translate instructions into action amid daily
+    79→life complexities. This creates a need to understand not only whether participants engage with
+    80→EMIs, but also whether interventions are enacted as intended—a question of intervention
+    81→fidelity.
+    82→Five domains are recommended for a comprehensive assessment of intervention fidelity: study
+    83→design, provider training, and intervention delivery, receipt, and enactment (Bellg et al., 2004).
+    84→Fidelity-related research practices could be improved broadly—including in non-DBCI studies
+    85→(Beck et al., 2023; Begum et al., 2021; Kechter et al., 2019; Lambert et al., 2017), though
+    86→comprehensive examples do exist (e.g. Lowers et al., 2025). The first two concern researcher
+    87→actions before implementation, whereas the latter three concern how participants experience the
+    88→intervention. Specifically, delivery refers to whether content is provided as planned; receipt to
+    89→whether participants understand and can demonstrate the skills taught; and enactment to
+    90→whether they apply those skills in daily life (Bellg et al., 2004; Hankonen, 2021). These
+    91→participant-centred fidelity domains are complex and interrelated, which makes qualitative
+    92→methods well suited to generating a contextualised understanding of them (Palsola et al.,
+    93→2020)—particularly for EMIs, where fidelity remains largely unexplored.
+    94→The present study
+    95→To fill this gap, the present study investigates intervention fidelity from participants’
+    96→perspective, using a qualitative approach, at the example of an ecological momentary unhealthy
+    97→snacking habit degradation intervention. Habits are cognitively represented cue–behaviour
+    98→4
+    99→
+   100→associations acquired through the repeated pairing of a cue and behaviour, and are characterised
+   101→by automaticity (Fleetwood, 2021; Moors & De Houwer, 2006; Wood & Rünger, 2016). In daily
+   102→life, habits can sustain health-risk behaviours such as unhealthy snacking and resist deliberate
+   103→change efforts (Gardner et al., 2021, 2024). Theory-based strategies for habit degradation
+   104→include substitution (replacing the habitual response with an alternative behaviour at cue
+   105→encounters), inhibition (wilfully stopping performance at cue encounters), reduced accessibility
+   106→(limiting the availability of the habitual behaviour), and cue discontinuation (avoiding the cue)
+   107→(Edgren & Inauen, 2026; Gardner et al., 2024).
+   108→A recent intensive longitudinal randomised controlled trial (RCT) investigated the efficacy of
+   109→three habit degradation strategies and reward in degrading unhealthy snacking habits in daily
+   110→life (Edgren et al., 2026). Participants formulated an implementation intention (Gollwitzer,
+   111→1993)—also known as an if-then plan—consistent with their assigned strategy. Habit strength
+   112→declined across all groups, with a significantly faster rate of change during the first week in
+   113→intervention groups compared to control. However, no credible evidence was found for
+   114→differential effects between the strategy or reward conditions (Edgren et al., 2026).
+   115→Quantitative fidelity checks in the trial revealed several concerns that might have contributed
+   116→to the absence of differences between the degradation strategy conditions (Edgren et al., 2026).
+   117→First, 35% of implementation intentions did not match the assigned strategy. Second, a
+   118→substantial proportion of participants reported using additional strategies beyond those
+   119→assigned, indicating blended strategy use. Third, responding to the event-contingent
+   120→questionnaire (completed upon encountering the cue) was infrequent, which limited delivery of
+   121→the reward manipulation, as reward was contingent on these responses. These fidelity findings
+   122→constrain the conclusions that can be drawn from the trial and point to a need for deeper
+   123→understanding of how participants experienced and engaged with the intervention.
+   124→Accordingly, the present study addressed the research question: What were participants'
+   125→experiences relating to intervention delivery, receipt, and enactment in this habit degradation
+   126→EMI? Beyond this intervention, the study offers methodological lessons for intensive
+   127→longitudinal EMI and DBCI research.
+   128→5
+   129→
+   130→Methods
+   131→This preregistered qualitative study (https://osf.io/kepjr/) employed semi-structured follow-up
+   132→interviews with a subsample of participants from the preceding RCT on habit degradation in
+   133→daily life (Edgren et al., 2026). Interviews also covered participants' experiences using the Self-
+   134→Report Behavioural Automaticity Index (Gardner et al., 2012; Verplanken & Orbell, 2003),
+   135→which this manuscript does not address. Study reporting adheres to the Journal Article
+   136→Reporting Standards for Qualitative Research (Levitt et al., 2018). See supplementary file for
+   137→details on use of artificial intelligence.
+   138→Sample
+   139→German speaking adults without diabetes or an eating disorder and a habit of eating unhealthy
+   140→snacks at home were eligible for the RCT (Edgren et al., 2026). Purposive sampling was used
+   141→to recruit a heterogeneous subsample of former RCT participants. Sampling aimed to recruit 20
+   142→participants with representation across all intervention groups (5 participants from each of
+   143→substitution, inhibition, reduced accessibility and control conditions, including 5 from the
+   144→reward condition). Out of 51 email invitations sent, 22 participants provided informed consent
+   145→and were interviewed. The mean age of the interviewed sample was 33.1 years (SD = 10.9;
+   146→range 19-69). Sixteen participants (72 %) identified with female gender. Sample size by
+   147→intervention group was: substitution n = 7, inhibition n = 6, reduced accessibility n = 4, and
+   148→control n = 5; of these, 7 participants had been assigned to the reward condition. Interviews
+   149→took place between December 2024 and February 2025 and occurred from 24 to 159 days (mean
+   150→= 109 days) after the planned end date of participation in the preceding RCT.
+   151→Procedure
+   152→The preceding RCT used a 3 (strategy: substitution, inhibition, reduced accessibility) × 2
+   153→(reward: yes/no) between-person factorial design, plus additional control group (Edgren et al.,
+   154→2026). Over 91 days, 313 participants completed daily end-of-day questionnaires through a
+   155→purpose-built study app. After a 7-day cue identification phase, participants selected a habitual
+   156→snacking-related cue. On Day 7, participants were randomised and those in intervention groups
+   157→instructed to formulate an implementation intention consistent with their assigned strategy and
+   158→cue. From Day 8, they independently initiated event-contingent questionnaire responses upon
+   159→encountering their cue. Additionally, participants in reward conditions received in-app reward
+   160→messages contingent on reporting no snacking following a cue encounter. For full details on the
+   161→trial design and procedures, see Edgren et al. (2026). Table 1 summarises the intended behaviour
+   162→change techniques (Michie et al., 2013) of the RCT. The control group received no BCTs.
+   163→6
+   164→
+   165→Table 1. Behaviour change techniques part of the preceding randomised controlled trial.
+   166→BCT Intervention group Intervention component
+   167→1.4 Action All active strategies If-then plan (implementation
+   168→planning (substitution, inhibition, intention) formulation on Day 7
+   169→reduced accessibility)
+   170→8.2 Behaviour Substitution Substitution strategy content within
+   171→substitution the if-then plan
+   172→15.4 Self-talk Inhibition Inhibition strategy content within the
+   173→if-then plan
+   174→12.1 Restructuring Reduced accessibility Reduced-accessibility strategy
+   175→the physical content within the if-then plan
+   176→environment
+   177→10.4 Social reward Reward condition (within Daily reward message
+   178→each strategy) (congratulatory pop-up with
+   179→animated trophy) contingent on
+   180→recording cue encounters with no
+   181→snacking
+   182→10.3 Non-specific Reward condition (within In-app points and accomplishment
+   183→reward each strategy) tiers (bronze, silver, gold, diamond)
+   184→for cue encounters with no snacking
+   185→Note. BCT: Behaviour change technique; BCT numbers and labels based on Michie et al.
+   186→(2013) taxonomy.
+   187→Interviews were conducted online in German and Swiss German by three psychology student
+   188→research assistants. For training purposes, mock interviews were conducted prior to data
+   189→collection. Interview duration ranged from 18 to 48 minutes. A semi-structured interview guide
+   190→was used (see supplementary material). Elicitation materials used included the participant’s
+   191→self-selected cue and if-then plan, and screenshots of the study app interface. Participants were
+   192→reimbursed CHF 30 for participation in the interview.
+   193→Data processing
+   194→Audio recordings of the interviews were transcribed verbatim using the aTrain software (Haberl
+   195→et al., 2024). All transcripts were manually checked for accuracy and anonymised by AH.
+   196→Participant quotes displayed in the manuscript were translated with the DeepL translator (DeepL
+   197→SE, 2026) and manually checked for accuracy by AH.
+   198→Analysis
+   199→Template analysis (King, 2012; Tabari et al., 2020) of the original language data was conducted
+   200→with MAXQDA 24 (VERBI Software, 2026), marking a deviation from the protocol’s thematic
+   201→analysis. Template analysis is a form of thematic analysis that involves the iterative
+   202→7
+   203→
+   204→development of a coding template, refined as analysis proceeds. Text passages of any length
+   205→sufficient to convey relevant information were considered as units of analysis. AH conducted
+   206→the primary coding in close collaboration with RE and JI. Initial coding began with two
+   207→interviews, after which a feedback and reflexivity meeting was held with RE and JI. Three
+   208→additional interviews were then coded, followed by another research group meeting.
+   209→Subsequent meetings were held after every five interviews. Previously coded material was
+   210→revisited each round to refine the coding template and ensure alignment of themes and quotes.
+   211→The self-defined cues and if-then plans participants created during the RCT also served as
+   212→analytic materials, as these relate centrally to intervention fidelity (and were verbalised during
+   213→the interviews). Participants did not provide feedback on findings.
+   214→Initial coding was informed by the three participant centred domains of intervention fidelity
+   215→(Bellg et al., 2004; Hankonen, 2021). Here, delivery referred to the extent to which the study
+   216→app delivered the intervention as intended by the researchers, receipt referred to the degree to
+   217→which participants understood the intervention instructions and could demonstrate the relevant
+   218→skills, and enactment referred to the application of the acquired skills in participants' daily lives.
+   219→During the development of the coding template, some codes emerged as well-established and
+   220→generalisable across participants, having been mentioned recurrently and lending themselves
+   221→readily to description at a higher level of abstraction. Other codes were closely tied to individual
+   222→participants' accounts and less readily generalisable but nonetheless retained for analysis.
+   223→In the results, each quote is accompanied by the participant ID, which indicates group
+   224→allocation: substitution (SUB), inhibition (INH), reduced accessibility (RAC), or control
+   225→(CON), along with the reward condition: reward (R) or no reward (NR). Line references from
+   226→the interview transcripts are also provided.
+   227→Researcher descriptions and epistemological stance
+   228→The authors RE and JI are actively engaged in intensive longitudinal habit research, and they
+   229→designed and conducted the preceding RCT. This proximity to the trial informed expectations
+   230→regarding potential fidelity challenges—for instance, anticipating emergence of strategy
+   231→blending as theme. AH, who conducted the coding, was not involved in the RCT but did conduct
+   232→some of the interviews, which provided familiarity with participants' accounts while
+   233→maintaining analytic distance from the trial's design and hypotheses. The epistemological
+   234→approach of this study is grounded in descriptive phenomenology (Willig, 2012) whereby
+   235→participants' accounts of their experiences with the intervention were taken at face value as
+   236→descriptions of their lived experience.
+   237→8
+   238→
+   239→Results
+   240→Template analysis resulted in eight themes describing participant experiences relating to
+   241→intervention fidelity. For an overview of the themes, see Table 2. Themes are described in detail
+   242→below.
+   243→Theme 1: Technical disruptions to app use
+   244→A few participants experienced technical issues with the study app. Although each problem was
+   245→quickly resolved, these incidents still affected app use for a short period: “There was an update
+   246→once and then it [the app] stopped working. I reported this afterwards and then it worked again.
+   247→[…] It didn’t work for a day or two, and then it worked again” (P42_INH_R: 255). Most
+   248→participants did not report any technical difficulties that affected their overall experience:
+   249→Overall, I found it [the app] quite intuitive and reliable – it always worked, I never had
+   250→any major problems, it never crashed, and I never felt like I was missing out on anything.
+   251→[…] from that point of view I really have to say, yes, I’ve had a good experience with it
+   252→(P35_CON_NR: 69)
+   253→9
+   254→
+   255→Table 2. Overview of themes.
+   256→Theme name Description
+   257→1. Technical disruptions to A few participants experienced technical issues that caused
+   258→app use difficulties in using the study app. These were resolved quickly, and
+   259→most participants did not report any technical difficulties that
+   260→affected their overall experience.
+   261→2. Cue selection affected Participants were instructed to select cues that they encountered
+   262→frequency and location of regularly and in the home environment, which they fulfilled to
+   263→cue encounters and varying degrees. For some, the selected cue occurred infrequently
+   264→opportunities for engaging or outside the home environment. Infrequent cue encounters led to
+   265→with intervention fewer opportunities for reward delivery. Some participants
+   266→expressed a wish to change their cue after realising their initial
+   267→choice was not well suited.
+   268→3. Mismatch of if-then Participants were randomly assigned to one habit degradation
+   269→plans with assigned strategy and asked to form a corresponding if-then plan. Some
+   270→strategy and selected cue formed if-then plans that did not match their assigned strategy,
+   271→while others incorporated a different cue to their plan than the one
+   272→initially selected.
+   273→4. Plan visibility, self- Participants reported that being able to view their if-then plans
+   274→monitoring, and within the app supported behaviour change. Using the app and
+   275→accountability through the answering its questionnaires increased participants' awareness of
+   276→app facilitated behaviour their behaviour and habits, which in turn helped them change their
+   277→change behaviour, and some reported that the questionnaire functioned as a
+   278→reminder of their goal. Using the app also provided a sense of
+   279→accountability that further supported goal-directed behaviour.
+   280→5. Generalisation to other Participants described changing their behaviour beyond the context
+   281→contexts and strategies stated in their if-then plan. They also described using additional
+   282→beyond if-then plan and strategies beyond what was assigned, as well as preparatory actions
+   283→assigned strategy to help pursue their goals.
+   284→6. Contextual factors Participants described a range of contextual factors that facilitated
+   285→(physical, social, internal) behaviour change for some and hindered it for others. This included
+   286→impacted behaviour physical context factors—such as exposure to unhealthy snacks and
+   287→change the limited availability of healthier alternatives. Social contexts and
+   288→internal states played a similar dual role.
+   289→7. Mixed reactions to Some participants perceived the reward features and the progress
+   290→reward features bar as motivating. Others were indifferent toward them, and others
+   291→forgot about the reward features, which impaired reward delivery as
+   292→participants did not indicate cue occurrence. A few participants
+   293→found the reward features confusing or stressful.
+   294→8. After successful Some participants reported successfully avoiding unhealthy
+   295→avoidance, snacking snacking in response to their cue but found that snacking then
+   296→shifted to other situations shifted to other situations.
+   297→10
+   298→
+   299→Theme 2: Cue selection affected frequency and location of cue encounters and
+   300→opportunities for engaging with intervention
+   301→At the beginning of the intervention, participants were instructed to select cues that they
+   302→encountered regularly and in the home environment, which participants fulfilled to varying
+   303→degrees. For example, one participant who adhered to the cue selection instructions chose the
+   304→cue ‘cravings & [partner’s name]’ and reported: “This is a situation that occurs daily, on the
+   305→sofa, in the evening, after dinner in front of the TV” (P27_RAC_NR: 27). However, for some
+   306→participants, the selected cue did not occur very often or at all during the study, or not
+   307→exclusively in the home environment: “I don’t mainly snack at home, but rather mostly when
+   308→I’m out and about” (P12_CON_NR: 49).
+   309→Infrequent cue encounters led to fewer opportunities for engaging with the reward features of
+   310→the app. A participant who initially chose ‘boredom’ as their cue mentioned: “If I had chosen
+   311→stress as a trigger, I would probably have used it [reward features] more. Then I would have
+   312→gotten more rewards. I think it might have been a bit different there if I had chosen a different
+   313→trigger” (P25_SUB_R: 289). Some participants discovered more suitable cues over the course
+   314→of the study and expressed a wish to change their cue, which the study protocol did not allow;
+   315→the same participant reported: “Over the course of the study, I got the feeling that ‘boredom’
+   316→probably wasn’t quite 100% accurate. Perhaps ‘stress’ would have been a better choice. With
+   317→‘stress’ as an additional cue, the results might have been even more meaningful” (P25_SUB_R:
+   318→225).
+   319→Theme 3: Mismatch of if-then plans with assigned strategy and selected cue
+   320→Participants in the three intervention conditions (n = 17) were randomly assigned one habit
+   321→degradation strategy and asked to form a corresponding if-then plan. Most adhered well: plans
+   322→matched the assigned strategy in 11 of 17 cases and incorporated the selected cue in 14 of 17
+   323→cases. Where plans diverged, two patterns were evident. Some did not match the assigned
+   324→strategy. For instance, a participant with the cue 'Hunger, waiting for dinner' who was assigned
+   325→the inhibition strategy formulated the plan: "When I'm hungry and waiting for dinner, I drink a
+   326→glass of tap water" (P7_INH_NR), which corresponds to substitution rather than inhibition.
+   327→Others did not incorporate their selected cue. For example, a participant with the cue 'coffee
+   328→break in the afternoon' formulated the if-then plan: "When I'm stressed, I won't buy any snacks
+   329→and will give the open packages to my boyfriend" (P10_RAC_R), which references a different
+   330→situational context than the cue originally selected.
+   331→11
+   332→
+   333→Theme 4: Plan visibility, self-monitoring and accountability through the app facilitated
+   334→behaviour change
+   335→Interviewed participants completed the RCT’s end-of-day questionnaire frequently, providing
+   336→on average 71 responses (SD = 11.0; range 38–83), corresponding to a mean compliance rate
+   337→of 78% (range 42–91%). Many described this daily engagement as supportive of behaviour
+   338→change. Being able to view their if-then plans within the app was one such support: "The fact
+   339→that I had it [the if-then plan] written down, that I actually saw it in this app, if that happens,
+   340→what do I have to do, how do I do it. The visual aspect helped me a lot" (P10_RAC_R: 241).
+   341→Similarly, using the app and answering questionnaires within it increased participants’
+   342→awareness of their behaviour and habits, which in turn helped them change their behaviour:
+   343→I would say that the daily confrontation with oneself, which one was forced into through
+   344→the device and the app, certainly also led to a more general and deeper questioning of
+   345→every act of snack consumption. I really noticed that I either snacked less or that I asked
+   346→myself beforehand whether it was about stress relief or enjoyment. (P25_SUB_R: 21)
+   347→In a similar vein, the questionnaire functioned as a reminder of participants’ goals: “I actually
+   348→found it helpful to get a reminder like that [prompt to fill in daily diary] every evening. Partly
+   349→just to remind myself to stop [snacking] or cut down on it” (P21_SUB_NR: 21). Moreover,
+   350→several participants noted that they missed this support after the study ended: “I was sad when
+   351→the three months were up, when the tracking stopped. [...] It would have helped me, if it could
+   352→have been used for a longer period of time” (P27_RAC_NR: 236). Notably, the accountability
+   353→provided by the app was also valued: “I think it [reducing the snacking] was easier with a plan
+   354→and an app, where I always had something to do, where I had a supervisory body. It was easier
+   355→with a plan, with a set time frame” (P_ 25_SUB_R: 169).
+   356→Theme 5: Generalisation to other contexts and strategies beyond if-then plan and
+   357→assigned strategy
+   358→This theme captures two aspects in which participants moved beyond their original if-then plan:
+   359→by extending their efforts to new contexts, and by adopting habit degradation strategies they
+   360→had not been assigned. Regarding the former aspect, some participants applied their strategies
+   361→outside the home environment: “And even at work, instead of my boyfriend, I’d ask someone
+   362→else, like, ‘Hey, if something [snack] is opened, could you maybe not put it right in front of
+   363→me?’” (P10_RAC_R: 61). Others discovered additional cues for their snacking as the study
+   364→progressed:
+   365→12
+   366→
+   367→I have other cues that I’m only just discovering. Before, when I started the study, I only
+   368→noticed the evenings because that’s what annoyed me the most. [...] When I started
+   369→working on it, I noticed other things as well. […] it was nice to see that I have several
+   370→cues and I’m only just noticing them now. (P34_SUB_NR: 193)
+   371→Participants also employed additional strategies aside from their initial if-then plan, aiming to
+   372→address snacking more broadly in everyday life:
+   373→On the days I was in the office, I could simply distract myself with other tasks. If there
+   374→was something [snack] on my desk, I’d end up having to answer a phone call or reply
+   375→to an email. And then, I didn’t do it [snacking]. (P23_SUB_NR: 137)
+   376→Regarding the latter aspect of this theme, 21 of 22 participants reported in the post-intervention
+   377→questionnaire having used unassigned habit degradation strategies. Interviews corroborate this,
+   378→as participants described using strategies that differed from their assigned strategy, and control
+   379→group participants reported using strategies despite not having been instructed to do so (see
+   380→Table 3). Nearly all participants reported using the inhibition strategy at some point, and some
+   381→described using preparatory actions. The following subsections highlight this usage of
+   382→unassigned strategies.
+   383→Table 3. Overview of additional strategies used by participants across intervention groups.
+   384→Additional
+   385→Intervention
+   386→strategies Examples from interview transcripts
+   387→group
+   388→reported
+   389→Substitution Inhibition, Using inhibition: “Every time I was being tempted, I
+   390→Reduced thought about whether you really need it [the snack] or
+   391→accessibility not” (P21_SUB_NR: 129)
+   392→Reduced Substitution, Using substitution: “Then I just drank some more tea and
+   393→accessibility Inhibition then I let it [snacking] be” (P32_RAC_R: 105)
+   394→Inhibition Substitution, Using reduced accessibility: “Of course later on, I also
+   395→Reduced changed my shopping habits, so I didn’t necessarily
+   396→accessibility, always buy little snacks, but consciously chose not to buy
+   397→Discontinuation them” (P7_INH_NR: 37)
+   398→Control Substitution, Using substitution: “[I] Just have some yoghurt or skyr so
+   399→Inhibition, that I feel like I’ve eaten something, which satisfies my
+   400→Reduced cravings a little, but isn’t full of calories” (P26_CON_NR:
+   401→accessibility 147)
+   402→Note. Quote identifiers indicate group allocation. SUB: substitution; RAC: reduced
+   403→accessibility; INH: inhibition; CON: control; R: reward; NR: no reward.
+   404→13
+   405→
+   406→Inhibition
+   407→Participants who were not assigned this strategy reported that they discovered that actively
+   408→saying ‘no’ to snacks helped them change their habitual behaviour. This strategy was applied
+   409→externally by verbalising it to others and internally through self-directed statements: “I can still
+   410→remember it well, it was Thursday, I had the day off and was able to consciously think to myself,
+   411→ah, I don’t want to eat any snacks right now” (P10_RAC_R: 169). Participants also reported
+   412→that questioning the value of snacking helped:
+   413→Because whenever I had a snack in front of me, I would always think, is this a healthy
+   414→snack, or is it a less healthy snack? How should I deal with it now? Does it really add
+   415→any value for me? (P25_SUB_R: 117)
+   416→Some participants implemented this strategy by reminding themselves that they had already
+   417→eaten: “Or I remind myself, hey, you’ve eaten, and then in the evening we’ll cook together. That
+   418→helped me a lot” (P10_RAC_R: 69). One participant mentioned setting a personal limit: “That’s
+   419→Take Two. At some point, this just clicks in your head. If I’m snacking on something unhealthy,
+   420→I just take two and that’s enough. That has also helped me quite a bit” (P25_SUB_R: 65).
+   421→Reduced accessibility
+   422→Participants not assigned to this strategy engaged in deliberate shopping behaviours, such as
+   423→refraining from purchasing snacks to reduce availability:
+   424→When I have it [snack] at home, um, as soon as I open the packet, I eat it. I can’t control
+   425→myself at all. And, um, if I don’t buy it and don’t have it at home, I can’t go out and buy
+   426→it in the evening, so that’s actually the solution for me. (P26_CON_NR: 93)
+   427→Substitution
+   428→Some participants self-selected the unassigned substitution strategy, e.g. they ate a healthy
+   429→snack or drank a beverage instead of snacking: “Then I just drank some more tea and then I let
+   430→it [snacking] be” (P32_RAC_R: 105). Others mentioned going outside: “That I no longer reach
+   431→for unhealthy snacks. So, that I might then drink a glass of water or perhaps go outside quickly”
+   432→(P10_RAC_R: 69).
+   433→Discontinuation
+   434→Although discontinuation was not a habit degradation strategy included in this trial, some
+   435→participants nonetheless employed this approach by their own initiative. For example, to avoid
+   436→14
+   437→
+   438→the onset of the cue ‘craving for sweets’, one participant mentioned eating sufficiently at main
+   439→meals:
+   440→What was very important to me was having enough food at main meals. Not just a small
+   441→portion or a salad, but something substantial that keeps you feeling full for a long time.
+   442→That way, you don’t get those cravings. I started doing that relatively early on, and it
+   443→helped me. (P48_INH_R: 261)
+   444→Another participant with the cue ‘stress’ reported doing relaxation exercises in the morning to
+   445→prevent stress during the day:
+   446→I do a lot more relaxation exercises in my daily life, or perhaps do some yoga exercises
+   447→in the morning before work, which really do help me relax a bit. [...] So that you don’t
+   448→start the day with a high stress level, which makes things more difficult. (P36_INH_R:
+   449→37–41)
+   450→Preparatory actions
+   451→Some participants found preparatory actions helpful, such as preparing substitutes beforehand.
+   452→For instance, one participant prepared a glass of water in the morning in preparation for
+   453→encountering the cue ‘seeing snacks when coming home’: “I’d already prepared a glass that
+   454→morning – for the glass of water I could drink” (P5_SUB_NR: 137). Other preparatory actions
+   455→did not directly relate to the focal cue–behaviour pairing.
+   456→Theme 6: Contextual factors (physical, social, internal) impacted behaviour change
+   457→Participants described a range of contextual factors that facilitated enactment of the habit
+   458→degradation strategies and behaviour change for some and hindered it for others, as
+   459→subsequently described.
+   460→Physical context
+   461→The ease of changing behaviour differed based on location. For instance, being at work was
+   462→perceived positively by some: “I didn’t have that many snacks there [at work] because we don’t
+   463→have a break room. […] there wasn’t anything else lying around or anything like that”
+   464→(P32_RAC_R: 53). Others expressed being at home as an obstacle: “When you have bad habits
+   465→and you’re at home, you’re more likely to indulge in them than when I am out and about”
+   466→(P26_CON_NR: 301). For some, location determined what they were primarily occupied with:
+   467→When you’re out and about, or at certain special occasions, or even if you’ve got
+   468→something planned at home or something like that, your focus is just completely
+   469→15
+   470→
+   471→elsewhere. In those situations, you can’t – or don’t want to – focus on snacking anymore,
+   472→because other things are simply more important. (P5_SUB_NR: 209)
+   473→The availability and visibility of snacks in the physical surroundings was also noted to have an
+   474→influence: “if there happens to be a piece of cake or tart lying around, it gets eaten very quickly.
+   475→I think it’s also the accessibility of the whole thing. If it’s tucked away in a drawer, it’s less
+   476→tempting” (P7_INH_NR: 53). Relatedly, seasonal availability was noted: “what really adds to
+   477→that is simply the greater availability of unhealthy snacks in the run-up to Christmas”
+   478→(P35_CON_NR: 61). In a similar vein, the absence of healthy alternatives could hinder
+   479→behaviour change: “I had a few days when I had finished all the vegetables. Then I hadn’t
+   480→cooked anything. I didn’t have anything healthy here. And then I ate one of the unhealthy snacks
+   481→I had in the cupboard” (P34_SUB_NR: 185).
+   482→Social context
+   483→Social factors impacted behaviour change in multiple ways. Some reported that others’
+   484→behaviour made changing their habit more difficult: “And then I know that I want to join in. If
+   485→she [daughter] eats something, I eat with her” (P36_INH_R: 81). Conversely, some reported
+   486→benefiting from social support: “I also told the people around me that I was doing this. So, at
+   487→work, to my partner and my family. They were, of course, supportive whenever I craved
+   488→something sweet” (P48_INH_R: 261). Social support was also expressed in terms of benefiting
+   489→from a collaborative effort:
+   490→It helped that I told my roommate I was taking part in the study, and she showed a lot
+   491→of interest, because she wanted to lose a bit of weight as well. And then we could always
+   492→cook something together and support each other. It was really good to have her support
+   493→as well. (P34_SUB_NR: 47)
+   494→Interestingly, a sense of belonging to a collective with other study participants was also
+   495→reported: “when you suddenly find yourself in a group like that, when you don’t actually see
+   496→the people, but you know you’re part of something” (P26_CON_NR: 49).
+   497→Internal states
+   498→Lastly, internal states were noted as impactful contextual factors. For instance, being ill was
+   499→perceived as helpful by one participant: “On top of that, I had a cough, a fever, and a runny
+   500→nose. And then you don’t have any cravings” (P32_RAC_R: 189). Similarly, insufficient sleep
+   501→was a reported barrier: “When I get very little sleep it [snacking habit] is the worst”
+   502→(P46_SUB_NR: 58), as were hormonal influences: “Before my period […] I could eat
+   503→16
+   504→
+   505→absolutely anything, from sweet to savory and back again, all the time” (P32_RAC_R: 219).
+   506→Other relevant internal states mentioned were declining motivation and stress: “I’ve noticed
+   507→that it’s definitely the stress that causes my snacking behaviour to increase” (P35_CON_NR:
+   508→61); low energy: “That’s what I thought during the study, that if I’d had a little more energy, I
+   509→would have been able to change my behaviour more consistently” (P30_INH_NR: 43); and
+   510→boredom: “It [resisting snacking] was particularly difficult when I was very bored and I watched
+   511→a series” (P10_RAC_R: 81).
+   512→Theme 7: Mixed reactions to reward features
+   513→Reward was delivered contingent on event-contingent responses, which participants logged
+   514→infrequently: on average 11 cue encounters were logged among the interviewed participants
+   515→(SD = 13; range 1–57). The reward features themselves elicited mixed reactions. Some
+   516→participants perceived the reward features and progress bar as motivating:
+   517→Of course, it was great to see the bar go up once you’d made it. And then, well, a
+   518→medal—or I think I got a trophy or something once. In a way that’s also extra motivation
+   519→to stick with it, and it makes you happy, too. I’m ambitious, and I’m happy when I get
+   520→bronze and then look at it next time and see that I’ve got silver. I thought that was really
+   521→great. (P32_RAC_R: 285)
+   522→However, some participants forgot about the reward features: “This function [the level with the
+   523→medals], I have to be honest, I forgot about it a bit from time to time” (P10_RAC_R: 289),
+   524→while others were indifferent toward these features:
+   525→I don’t think it had a huge impact on me. Yes. To be honest, I didn’t really realise that
+   526→you could move up the levels. […] I probably always stayed at the same level, I don’t
+   527→really know. Yes, but I didn’t necessarily feel that was necessary or anything.
+   528→(P48_INH_R: 357)
+   529→A few participants even found the reward features stressful:
+   530→But for me, that [the points, levels and trophy feature] was rather stressful. It meant that
+   531→I was constantly thinking about the fact that I hadn’t eaten anything. That stresses me
+   532→much more than just managing it myself and checking in the evening. There might be
+   533→people who really like doing that, but for me it was more like — I don’t want to keep
+   534→focusing even more on the fact that I haven’t eaten anything. (P36_INH_R: 237)
+   535→17
+   536→
+   537→Furthermore, two participants initially reported uncertainty about the app’s operation in this
+   538→regard:
+   539→The first three times, I didn’t know if I was using it [the app] correctly because it wasn’t
+   540→entirely straightforward. And afterwards, I realized that I still had to fill that [the cue
+   541→encounter] in additionally. That wasn’t entirely clear to me at the beginning.
+   542→(P42_INH_R: 177)
+   543→Theme 8: After successful avoidance, snacking shifted to other situations
+   544→Some participants reported an unanticipated side effect of successfully using a habit degradation
+   545→strategy. Namely, after successful avoidance of unhealthy snacking in response to their cue,
+   546→snacking shifted to other situations not covered by the if-then plan:
+   547→It was that I focused very much on the coffee break, so that I really wouldn’t take
+   548→anything then. But still, I noticed that the urge shifted. I think it maybe moved to the
+   549→evening or right after lunch. That was something I realized after the study, that I have to
+   550→pay attention, that I simply say the trigger is the afternoon coffee break, and then I allow
+   551→myself maybe to snack in the evening or after lunch. I found it very difficult not to shift
+   552→it, just because I want to avoid the trigger. (P10_RAC_R: 201)
+   553→Discussion
+   554→This study explored participant experiences of intervention fidelity in a habit degradation EMI
+   555→(Edgren et al., 2026). Template analysis of semi-structured interviews with 22 former trial
+   556→participants yielded eight themes spanning the three participant-centred fidelity domains
+   557→delivery, receipt, and enactment (Bellg et al., 2004; Hankonen, 2021). Technical disruptions to
+   558→app use (Theme 1) concerned delivery; cue selection (Theme 2) and the mismatch between if-
+   559→then plans and assigned strategies or cues (Theme 3) primarily concerned receipt; and Themes
+   560→4–8 primarily concerned enactment.
+   561→As Figure 1 illustrates, the themes did not operate in isolation but interacted, producing
+   562→cascading effects across the three domains. For example, suboptimal cue selection arose
+   563→principally from misunderstanding how cues should be chosen (receipt) yet also constrained
+   564→how reward could later be delivered (Theme 2); and even a well-chosen cue enabled reward
+   565→only once cue-contingent responses were actualised in the app (Theme 7; enactment). Some
+   566→themes also didn't fit neatly into a single domain: mixed reactions to rewards (Theme 7)
+   567→additionally reflected receipt, through uncertainty about the reward feature. These
+   568→18
+   569→
+   570→interconnections reveal the nuance underlying the fidelity of the preceding trial, as discussed
+   571→next.
+   572→Figure 1. Diagram of theme distribution and interaction across intervention fidelity domains.
+   573→Triangulating present findings with the trial’s quantitative fidelity indicators helps to understand
+   574→several observed deviations. First, in the trial 35% of implementation intentions did not match
+   575→the assigned strategy (Edgren et al., 2026); the interviews suggest a receipt-level difficulty in
+   576→translating brief written instructions into a correctly formulated plan, as some participants
+   577→produced plans that drew on a different strategy or omitted their selected cue (Theme 3). Action
+   578→planning has similarly been reported as difficult in diabetes prevention fidelity research (Miles
+   579→et al., 2022). Delivering instructions in multiple formats (MacDonald et al., 2016)—such as
+   580→podcast-style videos (e.g., Champion et al., 2025) or cartoons (e.g., O’Dean et al., 2024)—could
+   581→improve receipt. Second, the trial’s finding that participants frequently blended strategies
+   582→(Edgren et al., 2026) is consistent with pragmatic adaptation to everyday demands (Theme 5).
+   583→Third, the trial recorded a low frequency of event-contingent responses, which limited reward
+   584→delivery (Edgren et al., 2026). The interviews point to two processes: some participants
+   585→remained uncertain about how the app and event-contingent responding worked (Theme 7), a
+   586→receipt-level issue, while others forgot or preferred not to record cue encounters. Crucially,
+   587→because reward was contingent on recording cue-behaviour repetitions, participants who had
+   588→selected infrequently occurring cues had few opportunities to log encounters and therefore to
+   589→receive reward (Theme 2).
+   590→19
+   591→
+   592→Finally, the trial observed habit-strength reductions across all groups, including the control
+   593→group, which was tentatively attributed to the self-monitoring inherent in daily diary protocols
+   594→(Edgren et al., 2026). The present findings strengthen this: participants across groups described
+   595→the end-of-day questionnaire and the visibility of their implementation intentions in the app as
+   596→heightening awareness and accountability and reminding them daily of their plan, with this
+   597→support being missed once the study had ended (Theme 4). Comparable benefits of self-
+   598→monitoring have been reported in qualitative studies of apps for diabetes (Adu et al., 2020) and
+   599→cancer self-management (Crafoord et al., 2020). The questionnaire thus functioned as an
+   600→unplanned active ingredient, helping to explain how even control participants may have
+   601→experienced an intervention effect (Edgren et al., 2026).
+   602→Considerations for habit research embedded in daily life
+   603→Several findings bear on how habit and its degradation might be understood when interventions
+   604→are embedded in daily life. When participants extended their efforts beyond the single cue
+   605→named in their if-then plan (Theme 5), they may have intuitively targeted higher-order habits
+   606→(Phillips et al., 2019)—habitual snacking that can be enacted in several ways. A second
+   607→phenomenon was displacement: some participants who avoided snacking at their chosen cue
+   608→found that it shifted to other situations (Theme 8). This may reflect behavioural inertia, whereby
+   609→an activated but unactualised habit impulse (Leeho et al., 2026) continues to shape behaviour
+   610→after the cue encounter has passed; whether such delayed responses are best understood as
+   611→habitual or as urges or cravings warrants further conceptual and empirical work. Alternatively,
+   612→successfully avoiding a habitual snack may license a compensatory health belief that permits
+   613→other unhealthy snacking (Amrein et al., 2017).
+   614→These observations, together with how participants engaged with the intervention, provide
+   615→implications for study design. Participants did not confine themselves to their assigned strategy
+   616→but drew flexibly on inhibition, substitution, reduced accessibility, and discontinuation (Theme
+   617→5), echoing the broader fidelity literature on the gap between intended and enacted interventions
+   618→(Hankonen, 2021; Palsola et al., 2020; Toomey et al., 2020). Rather than prescribing a single
+   619→strategy, interventions could present and encourage the flexible use of several complementary
+   620→strategies. To address higher-order habits, participants could log cue-behaviour pairings as they
+   621→occur. Clusters could then be identified—potentially via AI-assisted pattern recognition—to
+   622→align the intervention target with daily experience. Given the potential for displacement, single-
+   623→cue interventions should be monitored for it. Cue selection warrants guided, iterative support,
+   624→including the option to modify cues mid-intervention, as some participants recognised their
+   625→20
+   626→
+   627→initial cue as suboptimal only once underway (Theme 2). Because reward here is contingent on
+   628→cue-behaviour repetition, selecting suitable, frequently encountered cues is essential. Finally,
+   629→reward features should accommodate personal preferences, as reactions ranged from motivating
+   630→to stressful (Theme 7).
+   631→Considerations for EMI and DBCI research
+   632→Because self-monitoring can itself act as an active ingredient (Theme 4), EMI studies require
+   633→carefully designed control conditions. Where a study sits on the explanatory-pragmatic
+   634→spectrum (Ford & Norrie, 2016; Loudon et al., 2015; Schwartz & Lellouch, 1967), and how
+   635→feasible explanatory inferences remain once embedded in daily life, both merit consideration.
+   636→A related tension is that between experimental control and ecological validity (Edgren et al.,
+   637→2026): in everyday settings, participants may proactively adopt self-enactable behaviour change
+   638→techniques (Knittle et al., 2020; Michie et al., 2013) beyond those assigned, compromising
+   639→experimental conditions, so studies should include measures to capture such contamination.
+   640→Further, fidelity domains can interact such that cascading adverse effects arise—a vulnerability
+   641→to which EMIs may be especially prone (e.g. delivery being contingent on participants'
+   642→enactment of an earlier intervention component). Researchers and interventionists should
+   643→therefore prioritise high fidelity to components on which later components depend. More
+   644→broadly, incorporating qualitative fidelity assessment alongside quantitative metrics, as
+   645→demonstrated here, can reveal participant-side processes that quantitative indicators alone miss.
+   646→Practical recommendations include clear and accessible instructions for app-based procedures
+   647→to minimise confusion, and displaying participant plans, as this was perceived as beneficial
+   648→(Theme 4). Collectively, insights from the participant-centred fidelity domains should feed back
+   649→into study design—one of the five domains outlined by Bellg et al., (2004)—so that future
+   650→interventions reflect the realities of participant experience.
+   651→Strengths and limitations
+   652→This study has several strengths: the qualitative investigation was preregistered, purposive
+   653→sampling ensured heterogeneity across intervention groups, and interviews drew on
+   654→personalised elicitation materials. However, limitations should be noted. Interviews were
+   655→conducted 24–159 days post-study, creating a risk of retrospective recall bias. The sample
+   656→comprised participants who completed the study and agreed to be interviewed, potentially
+   657→excluding those with more negative experiences or lower engagement. The subsample of 22
+   658→from the 313 trial participants limits how far findings can explain trial-level results, so insights
+   659→should be regarded as exploratory and hypothesis-generating. Lastly, while several participants
+   660→21
+   661→
+   662→contributed to each theme, idiosyncratic findings were also present, making it unlikely that
+   663→theoretical saturation was reached.
+   664→In conclusion, this study makes a dual contribution: participant-centred insights into the fidelity
+   665→challenges of the preceding habit degradation RCT, and more generalisable lessons for
+   666→implementing and evaluating digital and momentary behaviour change interventions in daily
+   667→life. The findings show that delivery, receipt, and enactment interact in EMIs, and that
+   668→participant-side processes—such as pragmatic adaptation and self-monitoring reactivity—
+   669→shape fidelity in ways that quantitative metrics may miss. Qualitative fidelity assessment should
+   670→be more routinely integrated into DBCI research to complement quantitative approaches and
+   671→support interpretation of intervention outcomes.
+   672→22
+   673→
+   674→References
+   675→Adu, M. D., Malabu, U. H., Malau-Aduli, A. E., Drovandi, A., & Malau-Aduli, B. S. (2020).
+   676→User Retention and Engagement With a Mobile App Intervention to Support Self-
+   677→Management in Australians With Type 1 or Type 2 Diabetes (My Care Hub): Mixed
+   678→Methods Study. JMIR mHealth and uHealth, 8(6), e17802.
+   679→https://doi.org/10.2196/17802
+   680→Amrein, M. A., Rackow, P., Inauen, J., Radtke, T., & Scholz, U. (2017). The role of
+   681→Compensatory Health Beliefs in eating behavior change: A mixed method study.
+   682→Appetite, 116, 1–10. https://doi.org/10.1016/j.appet.2017.04.016
+   683→Arigo, D., Jake-Schoffman, D. E., Wolin, K., Beckjord, E., Hekler, E. B., & Pagoto, S. L.
+   684→(2019). The history and future of digital health in the field of behavioral medicine.
+   685→Journal of Behavioral Medicine, 42(1), 67–83. https://doi.org/10.1007/s10865-018-
+   686→9966-z
+   687→Beck, A. K., Baker, A. L., Britton, B., Lum, A., Pohlman, S., Forbes, E., Moore, L., Barnoth,
+   688→D., Perkes, S. J., Oldmeadow, C., & Carter, G. (2023). Adapted motivational
+   689→interviewing for brief healthcare consultations: A systematic review and meta‐analysis
+   690→of treatment fidelity in real‐world evaluations of behaviour change counselling. British
+   691→Journal of Health Psychology, 28(4), 972–999. https://doi.org/10.1111/bjhp.12664
+   692→Begum, S., Yada, A., Lorencatto, F., & DiGiacomo, M. (2021). How Has Intervention Fidelity
+   693→Been Assessed in Smoking Cessation Interventions? A Systematic Review. Journal of
+   694→Smoking Cessation, 2021, e23. https://doi.org/10.1155/2021/6641208
+   695→Bellg, A. J., Borrelli, B., Resnick, B., Hecht, J., Minicucci, D. S., Ory, M., Ogedegbe, G.,
+   696→Orwig, D., Ernst, D., Czajkowski, S., & Treatment Fidelity Workgroup of the NIH
+   697→Behavior Change Consortium. (2004). Enhancing Treatment Fidelity in Health
+   698→Behavior Change Studies: Best Practices and Recommendations From the NIH
+   699→Behavior Change Consortium. Health Psychology, 23(5), 443–451.
+   700→https://doi.org/10.1037/0278-6133.23.5.443
+   701→Champion, K. E., Davidson, L., Hunter, E., Thornton, L., Spring, B., Osman, B., Sunderland,
+   702→M., Chapman, C., Burrows, T., Slade, T., Partridge, S. R., Gardner, L., Parmenter, B.,
+   703→Baur, L. A., Teesson, M., Mihalopoulos, C., Haidinger, A., Finn, T., Egan, L., …
+   704→Lubans, D. R. (2025). Optimising a digital intervention to support parents
+   705→experiencing socio-economic disadvantage to improve adolescent health behaviours:
+   706→Protocol for the Health4Life Parents & Teens factorial trial. Contemporary Clinical
+   707→Trials, 154, 107958. https://doi.org/10.1016/j.cct.2025.107958
+   708→23
+   709→
+   710→Cole-Lewis, H., Ezeanochie, N., & Turgiss, J. (2019). Understanding Health Behavior
+   711→Technology Engagement: Pathway to Measuring Digital Behavior Change
+   712→Interventions. JMIR Formative Research, 3(4), e14052. https://doi.org/10.2196/14052
+   713→Crafoord, M.-T., Fjell, M., Sundberg, K., Nilsson, M., & Langius-Eklöf, A. (2020).
+   714→Engagement in an Interactive App for Symptom Self-Management during Treatment
+   715→in Patients With Breast or Prostate Cancer: Mixed Methods Study. Journal of Medical
+   716→Internet Research, 22(8), e17058. https://doi.org/10.2196/17058
+   717→DeepL SE. (2026). [Computer software]. https://www.deepl.com
+   718→Eaton, C., Vallejo, N., McDonald, X., Wu, J., Rodríguez, R., Muthusamy, N., Mathioudakis,
+   719→N., & Riekert, K. A. (2024). User Engagement With mHealth Interventions to Promote
+   720→Treatment Adherence and Self-Management in People With Chronic Health
+   721→Conditions: Systematic Review. Journal of Medical Internet Research, 26, e50508.
+   722→https://doi.org/10.2196/50508
+   723→Edgren, R., Baretta, D., & Inauen, J. (2026). Habit degradation strategies promote faster early
+   724→reductions in unhealthy snacking habit strength in intensive longitudinal randomised
+   725→controlled trial. Communications Psychology. https://doi.org/10.1038/s44271-026-
+   726→00432-9
+   727→Edgren, R., & Inauen, J. (2026). Determinants and strategies of self-reported habit
+   728→degradation: An intensive longitudinal study. Psychology & Health, 1–29.
+   729→https://doi.org/10.1080/08870446.2026.2626493
+   730→Fleetwood, S. (2021). A definition of habit for socio-economics. Review of Social Economy,
+   731→79(2), 131–165. https://doi.org/10.1080/00346764.2019.1630668
+   732→Ford, I., & Norrie, J. (2016). Pragmatic Trials. New England Journal of Medicine, 375(5),
+   733→454–463. https://doi.org/10.1056/NEJMra1510059
+   734→Gardner, B., Abraham, C., Lally, P., & De Bruijn, G.-J. (2012). Towards parsimony in habit
+   735→measurement: Testing the convergent and predictive validity of an automaticity
+   736→subscale of the Self-Report Habit Index. International Journal of Behavioral Nutrition
+   737→and Physical Activity, 9(1), 102. https://doi.org/10.1186/1479-5868-9-102
+   738→Gardner, B., Rebar, A. L., De Wit, S., & Lally, P. (2024). What is habit and how can it be used
+   739→to change real‐world behaviour? Narrowing the theory‐reality gap. Social and
+   740→Personality Psychology Compass, 18(6), e12975. https://doi.org/10.1111/spc3.12975
+   741→Gardner, B., Richards, R., Lally, P., Rebar, A., Thwaite, T., & Beeken, R. J. (2021). Breaking
+   742→habits or breaking habitual behaviours? Old habits as a neglected factor in weight loss
+   743→maintenance. Appetite, 162, 105183. https://doi.org/10.1016/j.appet.2021.105183
+   744→24
+   745→
+   746→Gollwitzer, P. M. (1993). Goal Achievement: The Role of Intentions. European Review of
+   747→Social Psychology, 4(1), 141–185. https://doi.org/10.1080/14792779343000059
+   748→Haberl, A., Fleiß, J., Kowald, D., & Thalmann, S. (2024). Take the aTrain. Introducing an
+   749→interface for the Accessible Transcription of Interviews. Journal of Behavioral and
+   750→Experimental Finance, 41, 100891. https://doi.org/10.1016/j.jbef.2024.100891
+   751→Hankonen, N. (2021). Participants’ enactment of behavior change techniques: A call for
+   752→increased focus on what people do to manage their motivation and behavior. Health
+   753→Psychology Review, 15(2), 185–194. https://doi.org/10.1080/17437199.2020.1814836
+   754→Heron, K. E., & Smyth, J. M. (2010). Ecological momentary interventions: Incorporating
+   755→mobile technology into psychosocial and health behaviour treatments. British Journal
+   756→of Health Psychology, 15(1), 1–39. https://doi.org/10.1348/135910709X466063
+   757→Kechter, A., Amaro, H., & Black, D. S. (2019). Reporting of Treatment Fidelity in
+   758→Mindfulness-Based Intervention Trials: A Review and New Tool Using NIH Behavior
+   759→Change Consortium Guidelines. Mindfulness, 10(2), 215–233.
+   760→https://doi.org/10.1007/s12671-018-0974-4
+   761→King, N. (2012). Doing Template Analysis. In G. Symon, C. Cassell, & N. King (Eds),
+   762→Qualitative Organizational Research: Core Methods and Current Challenges (pp.
+   763→426–450). SAGE Publications, Inc. https://doi.org/10.4135/9781526435620
+   764→Knittle, K., Heino, M., Marques, M. M., Stenius, M., Beattie, M., Ehbrecht, F., Hagger, M. S.,
+   765→Hardeman, W., & Hankonen, N. (2020). The compendium of self-enactable techniques
+   766→to change and self-manage motivation and behaviour v.1.0. Nature Human Behaviour,
+   767→4(2), 215–223. https://doi.org/10.1038/s41562-019-0798-9
+   768→Lambert, J. D., Greaves, C. J., Farrand, P., Cross, R., Haase, A. M., & Taylor, A. H. (2017).
+   769→Assessment of fidelity in individual level behaviour change interventions promoting
+   770→physical activity among adults: A systematic review. BMC Public Health, 17(1), 765.
+   771→https://doi.org/10.1186/s12889-017-4778-6
+   772→Leeho, H., Gardner, B., Miller, M. W., Raab, M., & Rebar, A. L. (2026). The habit impulse:
+   773→Can a cue-triggered preparatory process be detected? Cogent Psychology, 13(1),
+   774→2673224. https://doi.org/10.1080/23311908.2026.2673224
+   775→Levitt, H. M., Bamberg, M., Creswell, J. W., Frost, D. M., Josselson, R., & Suárez-Orozco, C.
+   776→(2018). Journal article reporting standards for qualitative primary, qualitative meta-
+   777→analytic, and mixed methods research in psychology: The APA Publications and
+   778→Communications Board task force report. American Psychologist, 73(1), 26–46.
+   779→https://doi.org/10.1037/amp0000151
+   780→25
+   781→
+   782→Loudon, K., Treweek, S., Sullivan, F., Donnan, P., Thorpe, K. E., & Zwarenstein, M. (2015).
+   783→The PRECIS-2 tool: Designing trials that are fit for purpose. BMJ, 350(may08 1),
+   784→h2147–h2147. https://doi.org/10.1136/bmj.h2147
+   785→Lowers, V., Young, B., & Harris, R. V. (2025). Developing intervention fidelity strategies for a
+   786→behaviour change intervention delivered in primary care dental practices: The
+   787→RETURN fidelity strategy. BMC Primary Care, 26(1), 43.
+   788→https://doi.org/10.1186/s12875-025-02732-1
+   789→Michie, S., Richardson, M., Johnston, M., Abraham, C., Francis, J., Hardeman, W., Eccles, M.
+   790→P., Cane, J., & Wood, C. E. (2013). The Behavior Change Technique Taxonomy (v1)
+   791→of 93 Hierarchically Clustered Techniques: Building an International Consensus for
+   792→the Reporting of Behavior Change Interventions. Annals of Behavioral Medicine,
+   793→46(1), 81–95. https://doi.org/10.1007/s12160-013-9486-6
+   794→Miles, L. M., Hawkes, R. E., & French, D. P. (2022). How is the Behavior Change Technique
+   795→Content of the NHS Diabetes Prevention Program Understood by Participants? A
+   796→Qualitative Study of Fidelity, With a Focus on Receipt. Annals of Behavioral
+   797→Medicine, 56(7), 749–759. https://doi.org/10.1093/abm/kaab093
+   798→Moors, A., & De Houwer, J. (2006). Automaticity: A Theoretical and Conceptual Analysis.
+   799→Psychological Bulletin, 132(2), 297–326. https://doi.org/10.1037/0033-2909.132.2.297
+   800→O’Dean, S., Sunderland, M., Newton, N., Gardner, L., Teesson, M., Chapman, C., Thornton,
+   801→L., Slade, T., Hides, L., McBride, N., Kay‐Lambkin, F. J., Allsop, S. J., Lubans, D.,
+   802→Parmenter, B., Mills, K., Spring, B., Osman, B., Ellem, R., Smout, S., … Champion,
+   803→K. (2024). The HEALTH4LIFE e‐health intervention for modifying lifestyle risk
+   804→behaviours of adolescents: Secondary outcomes of a cluster randomised controlled
+   805→trial. Medical Journal of Australia, 220(8), 417–424.
+   806→https://doi.org/10.5694/mja2.52279
+   807→Palsola, M., Renko, E., Kostamo, K., Lorencatto, F., & Hankonen, N. (2020). Thematic
+   808→analysis of acceptability and fidelity of engagement for behaviour change
+   809→interventions: The Let’s Move It intervention interview study. British Journal of
+   810→Health Psychology, 25(3), 772–789. https://doi.org/10.1111/bjhp.12433
+   811→Perski, O., Blandford, A., West, R., & Michie, S. (2017). Conceptualising engagement with
+   812→digital behaviour change interventions: A systematic review using principles from
+   813→critical interpretive synthesis. Translational Behavioral Medicine, 7(2), 254–267.
+   814→https://doi.org/10.1007/s13142-016-0453-1
+   815→26
+   816→
+   817→Phillips, L. A., Johnson, M., & More, K. R. (2019). Experimental test of a planning
+   818→intervention for forming a ‘higher order’ health-habit. Psychology & Health, 34(11),
+   819→1328–1346. https://doi.org/10.1080/08870446.2019.1604956
+   820→Schwartz, D., & Lellouch, J. (1967). Explanatory and pragmatic attitudes in therapeutical
+   821→trials. Journal of Chronic Diseases, 20(8), 637–648. https://doi.org/10.1016/0021-
+   822→9681(67)90041-0
+   823→Tabari, S., King, N., & Egan, D. (2020). Potential application of template analysis in
+   824→qualitative hospitality management research1. Hospitality & Society, 10(2), 197–216.
+   825→https://doi.org/10.1386/hosp_00020_1
+   826→Toomey, E., Hardeman, W., Hankonen, N., Byrne, M., McSharry, J., Matvienko-Sikar, K., &
+   827→Lorencatto, F. (2020). Focusing on fidelity: Narrative review and recommendations for
+   828→improving intervention fidelity within trials of health behaviour change interventions.
+   829→Health Psychology and Behavioral Medicine, 8(1), 132–151.
+   830→https://doi.org/10.1080/21642850.2020.1738935
+   831→VERBI Software. (2026). MAXQDA [Computer software].
+   832→Verplanken, B., & Orbell, S. (2003). Reflections on Past Behavior: A Self‐Report Index of
+   833→Habit Strength 1. Journal of Applied Social Psychology, 33(6), 1313–1330.
+   834→https://doi.org/10.1111/j.1559-1816.2003.tb01951.x
+   835→Willig, C. (2012). Perspectives on the epistemological bases for qualitative research. In H.
+   836→Cooper, P. M. Camic, D. L. Long, A. T. Panter, D. Rindskopf, & K. J. Sher (Eds), APA
+   837→handbook of research methods in psychology, Vol 1: Foundations, planning, measures,
+   838→and psychometrics. (pp. 5–21). American Psychological Association.
+   839→https://doi.org/10.1037/13619-002
+   840→Wood, W., & Rünger, D. (2016). Psychology of Habit. Annual Review of Psychology, 67(1),
+   841→289–314. https://doi.org/10.1146/annurev-psych-122414-033417
+   842→27

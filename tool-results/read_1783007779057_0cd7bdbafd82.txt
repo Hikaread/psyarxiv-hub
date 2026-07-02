@@ -1,0 +1,681 @@
+     1→     1→1
+     2→     2→2
+     3→     3→Forensic Outpatient Cognitive Understanding Study (FOCUS): A
+     4→     4→3
+     5→     5→study protocol
+     6→     6→4
+     7→     7→5
+     8→     8→6 Juliette C. Hutten1,2*, Hilde M. Geurts2, Tim B. Ziermans2, Joan E. van Horn1
+     9→     9→7
+    10→    10→8 1 De Waag Outpatient Forensic Mental Health Clinic, Forensic Care Specialists, Utrecht,
+    11→    11→9 The Netherlands
+    12→    12→10 2 Brain & Cognition, Department of Psychology, Faculty of Social and Behavioral
+    13→    13→11 Sciences, University of Amsterdam, The Netherlands
+    14→    14→12
+    15→    15→13 * corresponding author
+    16→    16→14 E-mail: jhutten@dewaagnederland.nl
+    17→    17→15
+    18→    18→16
+    19→    19→17
+    20→    20→1
+    21→    21→
+    22→    22→18 Abstract
+    23→    23→19 Background: There is growing evidence that cognitive dysfunction plays a role in the
+    24→    24→20 emergence and persistence of antisocial behavior, and it is increasingly implicated as relevant for
+    25→    25→21 risk assessment and treatment within the Risk-Need-Responsivity (RNR) framework. However,
+    26→    26→22 this evidence comes predominantly from prison and inpatient populations. Whether similar
+    27→    27→23 patterns hold in forensic outpatient settings remains largely unknown. Moreover, existing studies
+    28→    28→24 often rely on normative groups that are not matched for age, sex, and education, and tend to
+    29→    29→25 focus on single cognitive domains rather than administering comprehensive test batteries.
+    30→    30→26 Methods: This protocol paper describes the design and methods of the FOCUS study,
+    31→    31→27 which aims to map cognitive functioning in forensic outpatients and examine its associations
+    32→    32→28 with aggression and treatment outcomes. The study compares forensic outpatients (n = 100) to a
+    33→    33→29 normative group (n = 100, matched on sex, age, and educational level). All participants complete
+    34→    34→30 a comprehensive computerized neuropsychological test battery covering seven cognitive
+    35→    35→31 domains: intelligence, attention, language, executive functioning, social cognition, memory, and
+    36→    36→32 decision making. Aggression is assessed using both a self-report questionnaire (Reactive
+    37→    37→33 Proactive Questionnaire; RPQ) and a behavioral task (Competitive Reaction Time Task; CRTT).
+    38→    38→34 We have four research aims: (1) to compare the cognitive profile of forensic outpatients to a
+    39→    39→35 matched normative group; (2) to examine the correspondence between self-reported and task-
+    40→    40→36 based aggression; (3) to examine associations between neuropsychological test scores and
+    41→    41→37 aggression; and (4) to examine associations between neuropsychological test scores and
+    42→    42→38 treatment outcomes, including recidivism risk, treatment non-attendance, dropout, and actual
+    43→    43→39 recidivism.
+    44→    44→2
+    45→    45→
+    46→    46→40 Discussion: The FOCUS study is the first to administer a comprehensive
+    47→    47→41 neuropsychological test battery in a forensic outpatient sample with a matched normative
+    48→    48→42 comparison group. Findings are expected to advance understanding of cognitive functioning
+    49→    49→43 within the RNR framework and to inform more individualized forensic treatment planning.
+    50→    50→44 Introduction
+    51→    51→45 Studies from various disciplines such as neuropsychology, developmental psychology,
+    52→    52→46 and neuropsychiatry have demonstrated that cognitive functioning plays a role in the emergence
+    53→    53→47 and persistence of antisocial and offending behavior (1–5). The term 'offending' refers to
+    54→    54→48 behaviors that violate laws, regulations, or societal standards, which may result in legal
+    55→    55→49 consequences. In this study, we focus on individuals receiving forensic outpatient treatment,
+    56→    56→50 including those who have engaged in offending behavior as well as those considered at risk of
+    57→    57→51 doing so. Individuals in offender populations are more likely than the general population to
+    58→    58→52 experience cognitive difficulties, including impairments in attention, executive functions,
+    59→    59→53 memory, language, and social cognition (2,6–10). These difficulties are also reflected in the
+    60→    60→54 overrepresentation of conditions such as acquired brain injury, intellectual disability, ADHD, and
+    61→    61→55 externalizing disorders in offender populations (11–15).
+    62→    62→56 Within forensic mental health care, there is a growing awareness of the potential
+    63→    63→57 relevance of cognitive functioning within the Risk-Need-Responsivity framework (RNR) (16).
+    64→    64→58 The RNR-model remains the dominant framework shaping forensic treatment. This model
+    65→    65→59 describes three key principles of effective offender rehabilitation. First, the Risk principle
+    66→    66→60 emphasizes aligning treatment intensity and duration with the individual’s risk of recidivism.
+    67→    67→61 Second, the Need principle targets dynamic risk factors that contribute to offending behavior.
+    68→    68→3
+    69→    69→
+    70→    70→62 The third principle, Responsivity, focuses on tailoring interventions to individual characteristics
+    71→    71→63 that affect the success of treatment, such as learning style, motivation, or cognitive abilities.
+    72→    72→64 Regarding the risk principle, there is preliminary evidence that incorporating
+    73→    73→65 neurocognitive measures may improve the predictive value of risk assessment (17,18). Although
+    74→    74→66 current risk assessment tools incorporate diverse psychological and social criminogenic factors,
+    75→    75→67 their predictive accuracy remains modest, with area-under-the-curve values typically around 0.70
+    76→    76→68 (19). Cognitive functioning is thought to underlie several of the Central Eight criminogenic
+    77→    77→69 needs, the eight most consistent predictors of recidivism (20), by influencing the behavioral
+    78→    78→70 patterns and self-regulatory processes that these needs reflect. The Central Eight include history
+    79→    79→71 of antisocial behavior, antisocial personality patterns, antisocial attitudes, antisocial associates,
+    80→    80→72 and difficulties in the domains of family, work, leisure, and substance use. For example,
+    81→    81→73 executive functioning difficulties - including poor inhibition, working memory, and cognitive
+    82→    82→74 flexibility - are associated with the self-regulation problems, impulsivity, and difficulty learning
+    83→    83→75 from feedback that underlie antisocial behavior and substance abuse (20–22). Language and
+    84→    84→76 learning difficulties may also affect the ability to process feedback, understand the consequences
+    85→    85→77 of one's actions, and engage in pro-social communication (14,23). However, domains such as
+    86→    86→78 social cognition are not explicitly captured within the Central Eight framework, suggesting that
+    87→    87→79 current risk assessment practice may insufficiently account for the full range of cognitive
+    88→    88→80 difficulties relevant to offending behavior. Regarding the Responsivity principle, difficulties in
+    89→    89→81 cognitive functions like attention, memory, and language processing may hinder patients’
+    90→    90→82 treatment responsiveness by limiting their ability to follow structured interventions or engage
+    91→    91→83 meaningfully in treatment (24), potentially resulting in higher rates of no-show or dropout. In
+    92→    92→84 short, while the RNR-model and the Central Eight provide a robust framework for forensic
+    93→    93→4
+    94→    94→
+    95→    95→85 treatment, it remains unclear whether a more explicit integration of cognitive functioning would
+    96→    96→86 improve the accuracy of risk assessment or the effectiveness of treatment. The current study aims
+    97→    97→87 to address this question.
+    98→    98→88 Before examining how cognitive functioning relates to risk assessment and treatment
+    99→    99→89 outcomes, a basic empirical understanding of cognitive functioning in forensic outpatient
+   100→   100→90 populations is needed. The few studies conducted in forensic outpatients suggest cognitive
+   101→   101→91 difficulties may be less prominent than in prison and inpatient samples (25), though the
+   102→   102→92 outpatient population remains understudied (6). In addition, many studies use non-offending
+   103→   103→93 normative groups that are not matched for age, gender and education, while it is well known that
+   104→   104→94 these variables are related to test performance (26). Furthermore, few studies have administered
+   105→   105→95 comprehensive test batteries covering multiple cognitive domains. As a result, there is currently
+   106→   106→96 no clear picture of how cognitive functioning is distributed across forensic outpatients.
+   107→   107→97 Cognitive functioning is also thought to be relevant for understanding aggression, with
+   108→   108→98 difficulties in social cognition and executive functioning linked to hostile attributions and poor
+   109→   109→99 behavioral regulation (27–31). However, measuring aggression in forensic populations presents
+   110→   110→100 its own challenges. Most studies rely exclusively on self-report measures of aggression, which
+   111→   111→101 may underestimate true levels due to social desirability bias and limited self-insight (32,33).
+   112→   112→102 Behavioral tasks offer a complementary approach; however, correlations between self-reported
+   113→   113→103 and behaviorally measured aggression tend to be modest in general populations (r = .16-.42)
+   114→   114→104 (34–36), suggesting that these measures tap partially distinct aspects of aggression. Using both
+   115→   115→105 measures is therefore informative: it allows us to examine not only levels of aggression but also
+   116→   116→106 the degree to which self-report and behavioral assessment correlate.
+   117→   117→5
+   118→   118→
+   119→   119→107 The current study addresses these gaps by systematically assessing cognitive functioning
+   120→   120→108 in a sample of adult forensic outpatients and comparing their performance to an age, gender and
+   121→   121→109 education matched normative group without a criminal history. In addition, associations between
+   122→   122→110 cognitive test performance and aggression will be examined, as well as the potential of cognitive
+   123→   123→111 functioning to inform treatment-related outcomes including recidivism risk, changes in
+   124→   124→112 recidivism risk over the course of treatment, actual recidivism, no-shows, and dropout. By
+   125→   125→113 linking cognitive profiles to these outcomes, the study aims to enhance understanding of the role
+   126→   126→114 of cognitive functioning within the Risk-Need-Responsivity framework in forensic mental health
+   127→   127→115 care.
+   128→   128→116 More specifically, this study aims to answer four research questions:
+   129→   129→117 1. How does the cognitive functioning profile of forensic outpatients compare to a
+   130→   130→118 normative group without a criminal history?
+   131→   131→119 2. What is the correspondence between self-reported aggression and aggression measured
+   132→   132→120 using a behavioral task?
+   133→   133→121 3. Are neuropsychological test scores associated with levels of aggression?
+   134→   134→122 4. Are neuropsychological test scores associated with treatment related outcomes (i.e., risk
+   135→   135→123 of recidivism, changes in recidivism-risk over time, actual recidivism, dropout, and no-
+   136→   136→124 show)?
+   137→   137→125 Regarding RQ1, we hypothesize that forensic outpatients will more frequently show a
+   138→   138→126 deviant cognitive profile as determined using Multivariate Normative Comparisons (MNC), a
+   139→   139→127 method that evaluates whether an individual's pattern of test scores deviates significantly from a
+   140→   140→128 normative reference group. Based on prior literature, particular deviations are expected in
+   141→   141→129 executive functioning and social cognition. Regarding RQ2, we expect to find small to medium
+   142→   142→6
+   143→   143→
+   144→   144→130 (r = 0.20-0.40) correlations between self-reported aggression (Reactive Proactive Questionnaire;
+   145→   145→131 RPQ) (37) and task-based aggression (Competitive Reaction Time Task; CRTT) (38), indicating
+   146→   146→132 partial but not total overlap between the two measures. Regarding RQ3, we hypothesize that
+   147→   147→133 lower neuropsychological test performance will be associated with higher levels of aggression.
+   148→   148→134 Regarding RQ4, given the limited statistical power of these analyses, the following hypotheses
+   149→   149→135 are considered exploratory: lower cognitive test performance is expected to be associated with
+   150→   150→136 higher levels of dropout and no-show, higher recidivism risk, smaller reductions in recidivism
+   151→   151→137 risk during treatment, and higher levels of actual recidivism.
+   152→   152→138 Materials and Methods
+   153→   153→139 The FOCUS project was preregistered in four separate preregistrations to ensure clear
+   154→   154→140 specification of each research aim, with corresponding hypotheses and analysis plans
+   155→   155→141 (AsPredicted RQ1: #258783, RQ2: #258784, RQ3: #258785, RQ4: #258788).
+   156→   156→142 Study population
+   157→   157→143 The study consists of two participant groups. The first group is recruited at a Dutch
+   158→   158→144 outpatient forensic treatment center (N = 100). At this clinic, outpatients are treated who have
+   159→   159→145 displayed criminal behavior or are at risk to do so. General exclusion criteria for treatment at the
+   160→   160→146 treatment center are: 1) sensitivity to crisis, liability to act out dangerously towards oneself or
+   161→   161→147 others, requiring immediate intervention, e.g. suicidality, serious self-harm, psychosis, 2)
+   162→   162→148 substance abuse of a severity that requires clinical treatment or which therapists deem to need
+   163→   163→149 treatment before any other interventions take place, and 3) offenders who commit crimes from a
+   164→   164→150 psychosis are referred to a psychiatry center or clinic.
+   165→   165→151 The second group is a normative group without a criminal history (N = 100). The
+   166→   166→152 normative sample is recruited using frequency matching to ensure that the distribution of sex,
+   167→   167→7
+   168→   168→
+   169→   169→153 age (18-24, 25-34, 35-44, 45-54, 55-64, ≥65), and educational level (low, medium, high) is
+   170→   170→154 comparable between groups. If perfect cell-level matching cannot be achieved, overall group-
+   171→   171→155 level equivalence on these variables will be verified, and all analyses will statistically control for
+   172→   172→156 age, sex, and educational level to account for any differences. The normative group is recruited
+   173→   173→157 through social media, the networks of researchers and research assistants, and the snowballing
+   174→   174→158 approach.
+   175→   175→159 Inclusion and exclusion criteria
+   176→   176→160 All participants must have sufficient command of the Dutch language and must be 18
+   177→   177→161 years of age or older. Exclusion criteria for the FOCUS study are: intellectual disability, severe
+   178→   178→162 substance use disorder (defined as inability to abstain from alcohol or illicit drugs for 24 hours
+   179→   179→163 prior to assessment), and visual or auditory impairments that preclude participation. Eligibility is
+   180→   180→164 determined in consultation with the therapist. Participants are asked to refrain from alcohol and
+   181→   181→165 drugs in the 24 hours before assessment; self-reported compliance is verified in the general
+   182→   182→166 questionnaire.
+   183→   183→167 Procedures
+   184→   184→168 A neuropsychological test battery is administered using the testing platform Mindsware
+   185→   185→169 (39,40), a computerized assessment platform designed for standardized neuropsychological
+   186→   186→170 testing. The test battery was constructed based on a systematic selection procedure. Cognitive
+   187→   187→171 domains were included if they were rated as at least moderately important by a forensic
+   188→   188→172 neuropsychological expert panel and demonstrated a meta-analytic effect size of ≥ 0.25 in
+   189→   189→173 offender populations [masked for blind review; masked for blind review]. Tests were selected
+   190→   190→174 based on meta-analytic effect sizes, expert ratings, suitability for digital administration, and
+   191→   191→175 psychometric properties. The final battery was reviewed by panels of forensic
+   192→   192→8
+   193→   193→
+   194→   194→176 neuropsychologists and clinical neuropsychological researchers. To minimize effect of fatigue
+   195→   195→177 and declined motivation, participants are assigned to one of three task orders (see Supplementary
+   196→   196→178 Table S1). The test administration is done by the principal researcher and/or a research assistant.
+   197→   197→179 Total administration time is 120-180 minutes. As neuropsychological testing may be experienced
+   198→   198→180 as demanding, participants are permitted to take breaks as needed or to complete the assessment
+   199→   199→181 across multiple sessions. During the test administration, the researcher stays present to answer
+   200→   200→182 questions. To ensure standardized administration, the researcher does not provide additional task
+   201→   201→183 instructions or explanations beyond repeating the on-screen instructions. The test administrator
+   202→   202→184 writes down observations or any technical difficulties that might occur.
+   203→   203→185 Materials
+   204→   204→186 Neuropsychological test battery
+   205→   205→187 The battery consists of the following tests and questionnaires, divided into seven
+   206→   206→188 cognitive domains (numbered 1-7), see Table 1. A more detailed description of each test can be
+   207→   207→189 found in the supplementary materials.
+   208→   208→190
+   209→   209→191 Table 1. FOCUS test battery
+   210→   210→Test Key outcome Construct
+   211→   211→General information
+   212→   212→General questionnaire Age, gender, education,
+   213→   213→diagnosis, substance and
+   214→   214→medication use, computer use
+   215→   215→1. Intelligence
+   216→   216→International Cognitive Total sum score (1-16) Intelligence
+   217→   217→Ability Resource-16 (41) estimate/reasoning
+   218→   218→2. Attention
+   219→   219→Continuous Performance Test Total number false negatives Sustained attention
+   220→   220→(CPT) (42) (omission errors)
+   221→   221→9
+   222→   222→
+   223→   223→Symbol Digits Modalities Number of correct characters Processing speed
+   224→   224→Test (SDMT) (43) processed in 90 sec
+   225→   225→3. Language
+   226→   226→Semantic Association Test Number of correct items (0- Language comprehension
+   227→   227→(SAT) (44) 30)
+   228→   228→Fluency task Sum score animals + Verbal fluency
+   229→   229→professions, sum score
+   230→   230→letters D+A+T
+   231→   231→4. Executive functioning
+   232→   232→Digit Span (45) Backward (longest correct Working memory
+   233→   233→span; 0-9)
+   234→   234→Parametric Go-No/Go task Efficiency ratio, a Executive functioning
+   235→   235→(PGNG) (46) combination measure of
+   236→   236→accuracy and speed
+   237→   237→Stop Signal Test (SST) (47) Stop Signal Response Time Inhibition
+   238→   238→(SSRT)
+   239→   239→Trail Making Test (TMT) (48) Total time part B Divided attention and
+   240→   240→(connecting both numbers processing speed
+   241→   241→and letters) divided by part
+   242→   242→A (connecting numbers)
+   243→   243→5. Social cognition
+   244→   244→The Awareness of Social Total score (0-36) Theory of Mind
+   245→   245→Inference Test, version A, part
+   246→   246→2 Social Interference –
+   247→   247→Minimal (49,50)
+   248→   248→Penn Emotion Recognition Number of correct items (0- Emotion recognition
+   249→   249→Task (ER-40) (51) 40)
+   250→   250→Interpersonal Reactivity Index Total sum score (0-140) Empathy
+   251→   251→(IRI) (52,53), Dutch version
+   252→   252→(54)
+   253→   253→6. Memory
+   254→   254→Word Learning Test (WLT) Retrieval: sum score delayed Verbal Memory
+   255→   255→(55), Dutch version: 15- recall (0-15)
+   256→   256→Woordentest (56)
+   257→   257→7. Decision making
+   258→   258→Monetary Choice Number of times the Delay discounting
+   259→   259→Questionnaire (MCQ) (57) participant chose the delayed
+   260→   260→reward (0-27)
+   261→   261→Aggression
+   262→   262→10
+   263→   263→
+   264→   264→Reactive Proactive Total score reactive (0-22) Self-reported aggression
+   265→   265→Questionnaire (RPQ) (37), and proactive aggression (0-
+   266→   266→Dutch translation (58) 24)
+   267→   267→Competitive Reaction Time Volume x Duration for Task-based aggression
+   268→   268→Task (CRTT) (38) unprovoked (rounds 1-7) and
+   269→   269→provoked (rounds 8-30)
+   270→   270→rounds
+   271→   271→192
+   272→   272→193 Other measures
+   273→   273→194 To measure risk of recidivism, the Forensic Outpatient Risk Evaluation (FORE) (59) is scored by
+   274→   274→195 the therapist at the start of the treatment and every subsequent six months. The FORE consists of
+   275→   275→196 17 items that are scored on a 5-point scale (0-4) and results in a total score between 0 and 68
+   276→   276→197 points, with higher scores indicating higher risk of recidivism.
+   277→   277→198 Actual recidivism will be retrieved from the WODC (Wetenschappelijk Onderzoek- en
+   278→   278→199 Documentatiecentrum), the research and documentation center of the Dutch Ministry of Justice,
+   279→   279→200 which maintains national records of criminal convictions and offenses. This will be retrieved 2.5
+   280→   280→201 years after completion of the data collection, to ensure sufficient follow up time. Researchers
+   281→   281→202 extracting WODC and patient file data will have access to identifying information (e.g., name,
+   282→   282→203 date of birth) necessary to match records to participants; this information will be removed and
+   283→   283→204 replaced with the participant's study code immediately after matching, consistent with the
+   284→   284→205 pseudonymization procedures described in the Data Management section.
+   285→   285→206 Treatment adherence will be measured by two indicators. First, the percentage no-shows
+   286→   286→207 will be calculated by dividing the number of no-shows by the number of planned sessions after
+   287→   287→208 the cognitive assessment. A session is categorized as a no-show if the patient cancels less than 24
+   288→   288→209 hours in advance or does not attend without notice or permission. Because participants are
+   289→   289→210 recruited at different stages of treatment, the number of post-assessment sessions will vary
+   290→   290→211 between participants; this variability is acknowledged as a limitation of the study design. Second,
+   291→   291→11
+   292→   292→
+   293→   293→212 outpatients will be categorized as either dropout (outpatients who terminated their treatment
+   294→   294→213 prematurely) or completers (outpatients who completed their treatment as planned).
+   295→   295→214 In addition, the following variables will be extracted from the electronic patient files:
+   296→   296→215 type of offences, type of treatment program, DSM-5 diagnosis, start date of treatment, and (if
+   297→   297→216 applicable) end date of treatment. This data will be extracted after recruitment is completed.
+   298→   298→217 Data management
+   299→   299→218 A Data Protection Impact Assessment (DPIA) was conducted prior to data collection.
+   300→   300→219 Data are stored on a secured file server located in the Netherlands, managed by the participating
+   301→   301→220 treatment center, which holds NEN 7510 certification for information security in healthcare.
+   302→   302→221 Data are pseudonymized; only researchers at the treatment center can link participant codes to
+   303→   303→222 personal identifiers. Access is restricted to project team members via role-based permissions and
+   304→   304→223 two-factor authentication.
+   305→   305→224 Statistical analysis
+   306→   306→225 The analyses will be conducted in R (60). Full analysis details, including data
+   307→   307→226 preprocessing, outlier handling, and assumption checks, are specified in the preregistrations
+   308→   308→227 (AsPredicted #258783, #258784, #258785, #258788). Assumptions for the intended analyses
+   309→   309→228 will be checked. In case of multiple comparisons, Bonferroni-Holm correction (RQ1) or False
+   310→   310→229 Discovery Rate (FDR) correction (RQ2, 3 and 4) will be applied.
+   311→   311→230 RQ1: Multivariate Normative Comparisons
+   312→   312→231 To compare the cognitive functioning of both groups, Multivariate Normative
+   313→   313→232 Comparisons (MNC) will be conducted. Our approach is based on previously described methods,
+   314→   314→233 applying MNC to identify deviant cognitive profiles at the individual level (61,62). The
+   315→   315→234 percentage of deviant profiles in the forensic and normative group will be compared using a chi-
+   316→   316→12
+   317→   317→
+   318→   318→235 square test or Fisher’s exact test. Multiple Case Series Analysis (MCSA) (63) will be conducted
+   319→   319→236 to test the hypothesis that forensic outpatients will more frequently show deviant performance on
+   320→   320→237 individual neuropsychological tests than individuals without a criminal history.
+   321→   321→238 RQ2: Correspondence aggression measures
+   322→   322→239 Pearson correlations will be analyzed between RPQ (total, reactive, proactive) and CRTT (total,
+   323→   323→240 reactive, proactive) scores.
+   324→   324→241 RQ3: Regression analyses – aggression
+   325→   325→242 Multivariate multiple regression will be conducted with the four aggression outcomes
+   326→   326→243 (RPQ-reactive, RPQ-proactive, CRTT-reactive, CRTT-proactive) as dependent variables.
+   327→   327→244 Cognitive domain composites will be entered as primary predictors, followed by age, sex, and
+   328→   328→245 education as covariates.
+   329→   329→246 RQ4: Regression analyses – treatment outcomes
+   330→   330→247 Separate regression analyses will be conducted for each treatment outcome, with
+   331→   331→248 cognitive domain composites as predictors (step 1) and age, sex, and education as covariates
+   332→   332→249 (step 2). Four treatment outcomes will be analyzed. First, baseline recidivism risk will be
+   333→   333→250 examined using linear regression with the FORE risk score as the dependent variable. Second,
+   334→   334→251 change in recidivism risk over the course of treatment will be examined using a linear mixed-
+   335→   335→252 effects model, with time (baseline vs. follow-up) as a within-subjects factor, a random intercept
+   336→   336→253 for participant, and time × cognitive composite interaction terms to test whether lower cognitive
+   337→   337→254 performance is related to smaller risk reduction. Third, treatment no-show will be examined
+   338→   338→255 using linear regression with percentage of missed appointments (after cognitive testing) as the
+   339→   339→256 outcome. Fourth, treatment dropout will be examined using logistic regression. Finally, actual
+   340→   340→257 recidivism will be examined at a later stage using survival analysis (Cox proportional hazards
+   341→   341→13
+   342→   342→
+   343→   343→258 regression), with time to recidivism since the start of treatment as the dependent variable, once
+   344→   344→259 sufficient follow-up time (2.5 years) has passed.
+   345→   345→260 Ethics approval and consent to participate
+   346→   346→261 The Medical Ethics Review Committee of Amsterdam University Medical Centers
+   347→   347→262 confirmed that the Medical Research Involving Human Subjects Act (WMO) does not apply to
+   348→   348→263 the FOCUS study (ref. no 2025.0517). The FOCUS project complies with the guidelines
+   349→   349→264 formulated by the Ethics Review Board (FMG-UvA), University of Amsterdam, The
+   350→   350→265 Netherlands, and has been approved by the aforementioned Ethics Review Board (ref. no FMG-
+   351→   351→266 10138).
+   352→   352→267 Outpatients who meet the inclusion and exclusion criteria, as assessed in consultation
+   353→   353→268 with their therapist, receive an information flyer/letter about the study. In the normative group,
+   354→   354→269 potential participants receive the flyer/letter either through a research assistant or they can
+   355→   355→270 download it online. If they express interest, a researcher or research assistant subsequently
+   356→   356→271 contacts them to provide further information and answer questions. Participants are given at least
+   357→   357→272 one week to consider their decision. Prior to participation, participants have the opportunity to
+   358→   358→273 review the information letter and ask questions, and subsequently, sign the digital informed
+   359→   359→274 consent form. For the outpatient group, it is made clear that their decision to participate does not
+   360→   360→275 influence their treatment. Participation in this study is entirely voluntary. Participants may
+   361→   361→276 withdraw at any time and without providing a reason, and withdrawal has no consequences for
+   362→   362→277 their treatment or legal situation.
+   363→   363→278 Power and Sample Size
+   364→   364→279 For multivariate normative comparisons a large sample size (i.e. ≥ 100) is preferred (61).
+   365→   365→280 Therefore, we aim to recruit 100 forensic outpatients and 100 participants in the normative
+   366→   366→14
+   367→   367→
+   368→   368→281 group. For the regression analyses (RQ3 and RQ4), no comparable regression-based effect size
+   369→   369→282 estimate is available in the literature; we therefore assume f² = 0.10 as a small-to-medium
+   370→   370→283 benchmark (64). Post-hoc power analysis (65) indicated adequate power for RQ3 (N = 200;
+   371→   371→284 power = .87) but limited power for RQ4 (N = 100; power = 0.50). RQ4 analyses should therefore
+   372→   372→285 be interpreted as exploratory and hypothesis-generating rather than confirmatory. Where
+   373→   373→286 necessary, domain composites may be merged to reduce the number of predictors and improve
+   374→   374→287 power, consistent with the preregistrations.
+   375→   375→288 Data collection started in May 2025 (normative group) and September 2025 (forensic
+   376→   376→289 group) and is planned to continue until the end of 2026, or until 100 participants are included in
+   377→   377→290 both groups. The first publication on study outcomes is expected in 2027.
+   378→   378→291 Missing Data
+   379→   379→292 All questions and tests in Mindsware are mandatory to ensure complete data collection
+   380→   380→293 and valid multivariate analysis. If variables are missing, they will be imputed using full
+   381→   381→294 information maximum likelihood (FIML) estimation in a multilevel framework, as recommended
+   382→   382→295 previously (66). FIML can be applied as long as sufficient information from other variables is
+   383→   383→296 available and the missingness is assumed to be at random. If FIML is not feasible for certain
+   384→   384→297 analyses, multiple imputation may be considered as a backup approach. Participants with fewer
+   385→   385→298 than 50% of cognitive test scores available will be excluded from analysis. Where appropriate,
+   386→   386→299 test scores will be adjusted for age, sex, and education level before computing MNC
+   387→   387→300 classification, consistent with normative correction procedures described previously (62).
+   388→   388→15
+   389→   389→
+   390→   390→301 Discussion
+   391→   391→302 The FOCUS-study is the first to administer a comprehensive digital neuropsychological
+   392→   392→303 test battery in an outpatient forensic population and matched normative group. In addition, as the
+   393→   393→304 tests are all computerized, we can standardize instructions and test administration.
+   394→   394→305 The results of RQ1, which examines the cognitive functioning profile of forensic
+   395→   395→306 outpatients compared to a matched normative group, will give insight into the extent and nature
+   396→   396→307 of cognitive difficulties in the forensic outpatient population. Findings may reveal three broad
+   397→   397→308 patterns. First, cognitive difficulties may be widespread across multiple domains, which would
+   398→   398→309 argue for more comprehensive assessment as a routine part of forensic treatment planning.
+   399→   399→310 Second, difficulties may be concentrated in specific domains such as executive functioning or
+   400→   400→311 social cognition, which would support more targeted assessment protocols and help identify
+   401→   401→312 which cognitive functions are most relevant for treatment adherence and recidivism risk within
+   402→   402→313 the RNR framework. Third, cognitive functioning may be generally intact, which would
+   403→   403→314 challenge the idea that cognitive difficulties are common in this population. Such a finding could
+   404→   404→315 also suggest that previous studies have overestimated the magnitude of cognitive differences
+   405→   405→316 between offenders and non-offenders, as many previous studies compare groups that are not
+   406→   406→317 matched on age, sex, and education (6) and rarely control for other potential confounders such as
+   407→   407→318 intellectual disabilities, acquired brain injury, socioeconomic status or psychiatric diagnosis. The
+   408→   408→319 FOCUS study addresses several of these limitations by excluding individuals with intellectual
+   409→   409→320 disability, using a matched normative group, and measuring psychiatric diagnosis as a covariate.
+   410→   410→321 However, potential confounding from factors such as socioeconomic status cannot be fully
+   411→   411→322 excluded.
+   412→   412→16
+   413→   413→
+   414→   414→323 By linking cognitive test scores to aggression, no-show, dropout, and recidivism (risk)
+   415→   415→324 (RQ3 and RQ4), the FOCUS study contributes to application of the Risk-Need-Responsivity
+   416→   416→325 model. Despite incorporating diverse psychological and social criminogenic factors, current risk
+   417→   417→326 assessment tools show modest predictive accuracy (19,67). If cognitive functioning is found to
+   418→   418→327 predict risk of recidivism, these findings could support the inclusion of neuropsychological
+   419→   419→328 outcomes in forensic risk assessment instruments. If cognitive difficulties are associated with
+   420→   420→329 treatment no-show or dropout, they could serve as an early indicator of individuals at risk of
+   421→   421→330 disengaging from treatment. Conversely, if cognitive functioning does not predict recidivism risk
+   422→   422→331 or treatment dropout, this does not preclude its relevance for treatment planning. Even in the
+   423→   423→332 absence of predictive value, cognitive difficulties may still function as a responsivity factor,
+   424→   424→333 informing how treatment is delivered.
+   425→   425→334 The comparison between self-reported and behaviorally measured aggression (RQ2) will
+   426→   426→335 provide methodological guidance for future research. Rather than assuming either measure is
+   427→   427→336 superior, examining the convergence between self-reported and task-based aggression scores will
+   428→   428→337 clarify whether these measures capture overlapping or distinct aspects of aggression in forensic
+   429→   429→338 outpatients, informing which approach is most appropriate for future use.
+   430→   430→339 Taken together, the FOCUS-project will contribute to a more comprehensive
+   431→   431→340 understanding of cognitive functioning in forensic outpatients and its relevance for aggression
+   432→   432→341 and treatment-related outcomes. The findings have the potential to inform both clinical practice
+   433→   433→342 and research, ultimately contributing to more individualized and effective treatment of
+   434→   434→343 aggression and other antisocial behavior.
+   435→   435→17
+   436→   436→
+   437→   437→344 Acknowledgements
+   438→   438→345 Author contributions
+   439→   439→346 Conceptualization: JH, JvH, TZ, HG
+   440→   440→347 Data curation: JH
+   441→   441→348 Formal analysis: JH
+   442→   442→349 Funding acquisition: JH, JvH, TZ, HG
+   443→   443→350 Methodology: JH, JvH, TZ, HG
+   444→   444→351 Project administration: JH
+   445→   445→352 Supervision: JvH, TZ, HG
+   446→   446→353 Writing – original draft: JH
+   447→   447→354 Writing – review & editing: JvH, TZ, HG
+   448→   448→355 Funding
+   449→   449→356 The study described in the protocol is supported by Stichting Koningsheide (P2024-571).
+   450→   450→357 Competing interests
+   451→   451→358 The authors have declared that no competing interests exist.
+   452→   452→359 Data availability
+   453→   453→360 The data collected in this study include sensitive clinical and forensic information from a
+   454→   454→361 vulnerable population. Due to privacy and confidentiality constraints, and in accordance with
+   455→   455→362 Dutch data protection law, individual-level participant data cannot be made publicly available.
+   456→   456→363 Analysis code will be made available on the Open Science Framework (OSF) upon publication.
+   457→   457→364
+   458→   458→18
+   459→   459→
+   460→   460→365 References
+   461→   461→366 1. Brower MC, Price BH. Neuropsychiatry of frontal lobe dysfunction in violent and criminal
+   462→   462→367 behaviour: a critical review. Journal of Neurology, Neurosurgery & Psychiatry. 2001 Dec
+   463→   463→368 1;71(6):720–6. doi:10.1136/jnnp.71.6.720
+   464→   464→369 2. Jansen JM, Franse ME. Executive functioning in antisocial behavior: A multi-level
+   465→   465→370 systematic meta-analysis. Clinical Psychology Review. 2024 Apr;109:102408.
+   466→   466→371 doi:10.1016/j.cpr.2024.102408
+   467→   467→372 3. Nauta-Jansen LMC. The neurobiology of antisocial behavior in adolescence; current
+   468→   468→373 knowledge and relevance for youth forensic clinical practice. Current Opinion in
+   469→   469→374 Psychology. 2022 Oct;47:101356. doi:10.1016/j.copsyc.2022.101356
+   470→   470→375 4. Raine A, Moffitt TE, Caspi A, Loeber R, Stouthamer-Loeber M, Lynam D. Neurocognitive
+   471→   471→376 Impairments in Boys on the Life-Course Persistent Antisocial Path. Journal of Abnormal
+   472→   472→377 Psychology. 2005 Feb;114(1):38–49. doi:10.1037/0021-843X.114.1.38
+   473→   473→378 5. Seguin JR, Sylvers P, Lilienfeld SO. The Neuropsychology of Violence. In: The Cambridge
+   474→   474→379 handbook of violent behavior and aggression. 2007. p. 28.
+   475→   475→380 6. Hutten JC, Ziermans TB, Geurts HM, Stams GJJM, Van Horn JE. Cognitive functioning in
+   476→   476→381 criminal offenders: A multi-level meta-analysis. Aggression and Violent Behavior. 2026
+   477→   477→382 May;102159. doi:10.1016/j.avb.2026.102159
+   478→   478→383 7. Karoğlu N, Ferguson HJ, Ó Ciardha C. Theory of Mind in Offending: A Systematic Review.
+   479→   479→384 Trauma, Violence, & Abuse. 2022 Dec;23(5):1610–28. doi:10.1177/15248380211013143
+   480→   480→385 8. Marsh AA, Blair RJR. Deficits in facial affect recognition among antisocial populations: a
+   481→   481→386 meta-analysis. Neurosci Biobehav Rev. 2008;32(3):454–65.
+   482→   482→387 doi:10.1016/j.neubiorev.2007.08.003 PubMed PMID: 17915324; PubMed Central PMCID:
+   483→   483→388 PMC2255599.
+   484→   484→389 9. Molleman PW, Smeekens MV, Sappelli F, Kessels RPC, Brazil IA, Bulten BH. Charting
+   485→   485→390 cognitive characteristics in forensic psychiatric outpatients. Psychology & Neuroscience.
+   486→   486→391 2024 May 23. doi:10.1037/pne0000337
+   487→   487→392 10. Shumlich EJ, Reid GJ, Hancock M, Hoaken P. Executive Dysfunction in Criminal
+   488→   488→393 Populations: Comparing Forensic Psychiatric Patients and Correctional Offenders.
+   489→   489→394 International Journal of Forensic Mental Health. 2019 Jul 3;18(3):243–59.
+   490→   490→395 doi:10.1080/14999013.2018.1495279
+   491→   491→396 11. De Brito SA, Viding E, Kumari V, Blackwood N, Hodgins S. Cool and Hot Executive
+   492→   492→397 Function Impairments in Violent Offenders with Antisocial Personality Disorder with and
+   493→   493→398 without Psychopathy. Soriano-Mas C, editor. PLoS ONE. 2013 Jun 20;8(6):e65566.
+   494→   494→399 doi:10.1371/journal.pone.0065566
+   495→   495→19
+   496→   496→
+   497→   497→400 12. Farrer TJ, Hedges DW. Prevalence of traumatic brain injury in incarcerated groups compared
+   498→   498→401 to the general population: A meta-analysis. Progress in Neuro-Psychopharmacology and
+   499→   499→402 Biological Psychiatry. 2011 Mar;35(2):390–4. doi:10.1016/j.pnpbp.2011.01.007
+   500→   500→403 13. Ginsberg Y, Hirvikoski T, Lindefors N. Attention Deficit Hyperactivity Disorder (ADHD)
+   501→   501→404 among longer-term prison inmates is a prevalent, persistent and disabling disorder. BMC
+   502→   502→405 Psychiatry. 2010 Dec;10(1):112. doi:10.1186/1471-244X-10-112
+   503→   503→406 14. Hellenbach M, Karatzias T, Brown M. Intellectual Disabilities Among Prisoners: Prevalence
+   504→   504→407 and Mental and Physical Health Comorbidities. J Appl Res Intellect Disabil. 2017
+   505→   505→408 Mar;30(2):230–41. doi:10.1111/jar.12234
+   506→   506→409 15. Lukito S, Norman L, Carlisi C, Radua J, Hart H, Simonoff E, et al. Comparative meta-
+   507→   507→410 analyses of brain structural and functional abnormalities during cognitive control in
+   508→   508→411 attention-deficit/hyperactivity disorder and autism spectrum disorder. Psychol Med. 2020
+   509→   509→412 Apr;50(6):894–919. doi:10.1017/S0033291720000574
+   510→   510→413 16. Bonta J, Andrews DA. The psychology of criminal conduct. 6th edition. London and New
+   511→   511→414 York: Routledge, Taylor & Francis Group; 2017. 449 p.
+   512→   512→415 17. Aharoni E, Vincent GM, Harenski CL, Calhoun VD, Sinnott-Armstrong W, Gazzaniga MS,
+   513→   513→416 et al. Neuroprediction of future rearrest. Proceedings of the National Academy of Sciences.
+   514→   514→417 2013 Apr 9;110(15):6223–8. doi:10.1073/pnas.1219302110
+   515→   515→418 18. Haarsma G, Davenport S, White DC, Ormachea PA, Sheena E, Eagleman DM. Assessing
+   516→   516→419 Risk Among Correctional Community Probation Populations: Predicting Reoffense With
+   517→   517→420 Mobile Neurocognitive Assessment Software. Front Psychol. 2020 Jan 24;10:2926.
+   518→   518→421 doi:10.3389/fpsyg.2019.02926
+   519→   519→422 19. Ogonah MGT, Seyedsalehi A, Whiting D, Fazel S. Violence risk assessment instruments in
+   520→   520→423 forensic psychiatric populations: a systematic review and meta-analysis. The Lancet
+   521→   521→424 Psychiatry. 2023 Oct;10(10):780–9. doi:10.1016/S2215-0366(23)00256-0
+   522→   522→425 20. Cheng J, O’Connell ME, Wormith JS. Bridging Neuropsychology and Forensic Psychology:
+   523→   523→426 Executive Function Overlaps With the Central Eight Risk and Need Factors. Int J Offender
+   524→   524→427 Ther Comp Criminol. 2019 Mar;63(4):558–73. doi:10.1177/0306624X18803818
+   525→   525→428 21. Cortés Pascual A, Moyano Muñoz N, Quílez Robres A. The Relationship Between Executive
+   526→   526→429 Functions and Academic Performance in Primary Education: Review and Meta-Analysis.
+   527→   527→430 Front Psychol. 2019 Jul 11;10:1582. doi:10.3389/fpsyg.2019.01582
+   528→   528→431 22. Verdejo-Garcia A, Albein-Urios N. Impulsivity traits and neurocognitive mechanisms
+   529→   529→432 conferring vulnerability to substance use disorders. Neuropharmacology. 2021
+   530→   530→433 Feb;183:108402. doi:10.1016/j.neuropharm.2020.108402
+   531→   531→434 23. Anderson SAS, Hawes DJ, Snow PC. Language impairments among youth offenders: A
+   532→   532→435 systematic review. Children and Youth Services Review. 2016 Jun;65:195–203.
+   533→   533→436 doi:10.1016/j.childyouth.2016.04.004
+   534→   534→20
+   535→   535→
+   536→   536→437 24. Norman EM, Polaschek DLL, Starkey NJ. Executive function in individuals who are
+   537→   537→438 compliant and non-compliant with the conditions of a community-based sentence.
+   538→   538→439 Psychiatry, Psychology and Law. 2023 Mar 4;30(2):161–76.
+   539→   539→440 doi:10.1080/13218719.2021.2003268
+   540→   540→441 25. Hutten JC, De Man G, van Horn JE, Kuipers F. Executive Functioning, Aggression Severity,
+   541→   541→442 and Treatment Adherence in Cognitively Screened Forensic Outpatients. International
+   542→   542→443 Journal of Forensic Mental Health. in review.
+   543→   543→444 26. Scheffels JF, Ballasch I, Scheichel N, Voracek M, Kalbe E, Kessler J. The Influence of Age,
+   544→   544→445 Gender and Education on Neuropsychological Test Scores: Updated Clinical Norms for Five
+   545→   545→446 Widely Used Cognitive Assessments. JCM. 2023 Aug 8;12(16):5170.
+   546→   546→447 doi:10.3390/jcm12165170
+   547→   547→448 27. Blair RJ, Habel U, Votinov M, Wagels L, Denson TF. A cognitive neuroscience approach to
+   548→   548→449 understanding aggression and its treatment. Neuroscience & Biobehavioral Reviews. 2025
+   549→   549→450 Dec;179:106386. doi:10.1016/j.neubiorev.2025.106386
+   550→   550→451 28. Blair RJames. Neuro-cognitive systems that, when dysfunctional, increase aggression risk
+   551→   551→452 and the potential for translation into clinical tools. Aggression and Violent Behavior. 2024
+   552→   552→453 Nov;79:102007. doi:10.1016/j.avb.2024.102007
+   553→   553→454 29. Choy O, Tan G, Van Dongen JDM. Executive functions and aggression in “hot” and “cold”
+   554→   554→455 contexts: Two meta-analyses. Aggression and Violent Behavior. 2025;80:102024.
+   555→   555→456 doi:10.1016/j.avb.2024.102024
+   556→   556→457 30. Cruz AR, de Castro-Rodrigues A, Barbosa F. Executive dysfunction, violence and
+   557→   557→458 aggression. Aggression and Violent Behavior. 2020 Mar;51:101380.
+   558→   558→459 doi:10.1016/j.avb.2020.101380
+   559→   559→460 31. Griffith RL, Nowalis S, Monroe-Gulick A. Executive Functioning and Offending Behavior:
+   560→   560→461 An Updated Meta-Analysis. Criminal Justice and Behavior. 2024 Feb
+   561→   561→462 9;00938548231225260. doi:10.1177/00938548231225260
+   562→   562→463 32. Lobbestael J. Challenges in Aggression Assessment: The Gap between Self-report and
+   563→   563→464 Behavior, and a Call for New Valid Behavioral Paradigms. J Socialomics. 2015;05(01).
+   564→   564→465 doi:10.4172/2167-0358.1000141
+   565→   565→466 33. McCarthy RJ, Elson M. A Conceptual Review of Lab-Based Aggression Paradigms. Vazire
+   566→   566→467 S, Tullett A, editors. Collabra: Psychology. 2018 Jan 1;4(1):4. doi:10.1525/collabra.104
+   567→   567→468 34. Giancola PR, Parrott DJ. Further evidence for the validity of the Taylor Aggression
+   568→   568→469 Paradigm. Aggressive Behavior. 2008 Mar;34(2):214–29. doi:10.1002/ab.20235
+   569→   569→470 35. Lobbestael J, Baumeister RF, Fiebig T, Eckel LA. The role of grandiose and vulnerable
+   570→   570→471 narcissism in self-reported and laboratory aggression and testosterone reactivity. Personality
+   571→   571→472 and Individual Differences. 2014 Oct;69:22–7. doi:10.1016/j.paid.2014.05.007
+   572→   572→21
+   573→   573→
+   574→   574→473 36. Timmins MA, Berman ME, Coccaro EF. Comparing behavioral measures of aggression in
+   575→   575→474 the laboratory: Taylor Aggression Paradigm versus Point‐Subtraction Aggression Paradigm.
+   576→   576→475 Aggressive Behavior. 2024 Jun;50(4):e22167. doi:10.1002/ab.22167
+   577→   577→476 37. Raine A, Dodge K, Loeber R, Gatzke‐Kopp L, Lynam D, Reynolds C, et al. The reactive–
+   578→   578→477 proactive aggression questionnaire: differential correlates of reactive and proactive
+   579→   579→478 aggression in adolescent boys. Aggressive Behavior. 2006 Apr;32(2):159–71.
+   580→   580→479 doi:10.1002/ab.20115
+   581→   581→480 38. Lobbestael J, Emmerling F, Brugman S, Broers N, Sack AT, Schuhmann T, et al. Toward a
+   582→   582→481 More Valid Assessment of Behavioral Aggression: An Open Source Platform and an
+   583→   583→482 Empirically Derived Scoring Method for Using the Competitive Reaction Time Task
+   584→   584→483 (CRTT). Assessment. 2021 Jun;28(4):1065–79. doi:10.1177/1073191120959757
+   585→   585→484 39. Brand N, Houx PJ. MINDS: Toward a computerized Test Battery for Health Psychological
+   586→   586→485 and Neuropsychological Assessment. Behavioral Research Methods, Instrumentation and
+   587→   587→486 Computers. 1992;24:385–9.
+   588→   588→487 40. Brand N, Von Borries K, Bulten E. Progress with MINDS, a testmanager for psychological
+   589→   589→488 assessment, research and education: applications in the forensic psychiatric domain. In: A.J.
+   590→   590→489 Spink, F. Grieco, O.E. Krips, L.W.S. Loyens, P.J.J. Noldus & P.H. Zimmerman (Eds), 2010
+   591→   591→490 (Eindhoven, the Netherlands), pp. 396-398.[:en]. In: Proceedings of Measuring Behavior.
+   592→   592→491 Eindhoven, The Netherlands; 2010. p. 396–8.
+   593→   593→492 41. ICAR. ICAR International Cognitive Ability Resource [Internet]. [cited 2024 Jul 30].
+   594→   594→493 Available from: https://icar-project.com/
+   595→   595→494 42. Rosvold HE, Mirsky AF, Sarason I, Bransome ED, Beck LH. A continuous performance test
+   596→   596→495 of brain damage. Journal of Consulting Psychology. 1956 Oct;20(5):343–50.
+   597→   597→496 doi:10.1037/h0043220
+   598→   598→497 43. Smith A. The symbol-digit modalities test: a neuropsychologic test of learning and other
+   599→   599→498 cerebral disorders. In: Learning disorders. Seattle: Special Child Publications; 1968. p. 83–
+   600→   600→499 91.
+   601→   601→500 44. Visch-Brink E, Stronks DL, Denes G. De Semantische Associatie Test: handleiding.
+   602→   602→501 Amsterdam: Pearson Assessment and Information B.V.; 2005.
+   603→   603→502 45. Wechsler D. Wechsler Adult Intelligence Scale--Fourth Edition. London, UK: Pearson; 2012
+   604→   604→503 Nov. doi:10.1037/t15169-000
+   605→   605→504 46. Langenecker SA, Zubieta JK, Young EA, Akil H, Nielson KA. A task to manipulate
+   606→   606→505 attentional load, set-shifting, and inhibitory control: Convergent validity and test–retest
+   607→   607→506 reliability of the Parametric Go/No-Go Test. Journal of Clinical and Experimental
+   608→   608→507 Neuropsychology. 2007 Nov 14;29(8):842–53. doi:10.1080/13803390601147611
+   609→   609→508 47. Overtoom CCE, Kenemans JL, Verbaten MN, Kemner C, Van Der Molen MW, Van
+   610→   610→509 Engeland H, et al. Inhibition in children with attention-deficit/hyperactivity disorder: a
+   611→   611→22
+   612→   612→
+   613→   613→510 psychophysiological study of the stop task. Biological Psychiatry. 2002 Apr;51(8):668–76.
+   614→   614→511 doi:10.1016/S0006-3223(01)01290-2
+   615→   615→512 48. Reitan R. Trail Making test: Manual for administration, scoring, and interpretation.
+   616→   616→513 Bloomington: Indiana University.; 1956.
+   617→   617→514 49. McDonald S, Honan C, Flanagan S. The Awareness of Social Inference Test-short. Sydney:
+   618→   618→515 ASSBI Resources; 2017.
+   619→   619→516 50. Westerhof-Evers HJ, Visser-Keizer AC, McDonald S, Spikman JM. Performance of healthy
+   620→   620→517 subjects on an ecologically valid test for social cognition: The short, Dutch Version of The
+   621→   621→518 Awareness of Social Inference Test (TASIT). Journal of Clinical and Experimental
+   622→   622→519 Neuropsychology. 2014 Nov 26;36(10):1031–41. doi:10.1080/13803395.2014.966661
+   623→   623→520 51. Kohler CG, Turner TH, Bilker WB, Brensinger CM, Siegel SJ, Kanes SJ, et al. Facial
+   624→   624→521 Emotion Recognition in Schizophrenia: Intensity Effects and Error Pattern. AJP. 2003
+   625→   625→522 Oct;160(10):1768–74. doi:10.1176/appi.ajp.160.10.1768
+   626→   626→523 52. Davis MH. A multidimensional approach to individual differences in empathy. JSAS
+   627→   627→524 Catalog of Selected Documents in Psychology [Internet]. 1980;10(85). Available from:
+   628→   628→525 https://fetzer.org/sites/default/files/images/stories/pdf/selfmeasures/EMPATHY-
+   629→   629→526 InterpersonalReactivityIndex.pdf
+   630→   630→527 53. Davis MH. Measuring individual differences in empathy: Evidence for a multidimensional
+   631→   631→528 approach. Journal of Personality and Social Psychology. 1983 Jan;44(1):113–26.
+   632→   632→529 doi:10.1037/0022-3514.44.1.113
+   633→   633→530 54. De Corte K, Buysse A, Verhofstadt LL, Roeyers H, Ponnet K, Davis MH. Interpersonal
+   634→   634→531 Reactivity Index--Dutch Version [Internet]. 2016 [cited 2024 Jun 28]. Available from:
+   635→   635→532 https://doi.apa.org/doi/10.1037/t51181-000 doi:10.1037/t51181-000
+   636→   636→533 55. Rey A. L’examen clinique en psychologie (The Clinical Psychological Examination). Presse
+   637→   637→534 Universitaires de France; 1964.
+   638→   638→535 56. Van den Burg W, Saan RJ, Deelman BG. 15-woordentest - Provisional Manual. Groningen:
+   639→   639→536 University Hospital, Department of Neuropsychology; 1985.
+   640→   640→537 57. Kirby KN, Petry NM, Bickel WK. Heroin addicts have higher discount rates for delayed
+   641→   641→538 rewards than non-drug-using controls. J Exp Psychol Gen. 1999 Mar;128(1):78–87.
+   642→   642→539 doi:10.1037//0096-3445.128.1.78 PubMed PMID: 10100392.
+   643→   643→540 58. Cima M, Raine A, Meesters C, Popma A. Validation of the Dutch Reactive Proactive
+   644→   644→541 Questionnaire (RPQ): Differential correlates of reactive and proactive aggression from
+   645→   645→542 childhood to adulthood. Aggressive Behavior. 2013 Mar;39(2):99–113.
+   646→   646→543 doi:10.1002/ab.21458
+   647→   647→23
+   648→   648→
+   649→   649→544 59. Van Horn JE, Eisenberg MJ, Bouman YHA, Van den Hanenberg FJAC, Van der Put CE,
+   650→   650→545 Bogaerts S. Handleiding Forensisch Ambulante Risico Evaluatie - FARE Volwassen cliënten
+   651→   651→546 vanaf 18 jaar, versie 1.0. Utrecht: Kwaliteit Forensische Zorg; 2016.
+   652→   652→547 60. R Core Team. R: A Language and Environment for Statistical Computing. [Internet].
+   653→   653→548 Vienna, Austria: R Foundation for Statistical Computing; 2023. Available from:
+   654→   654→549 https://www.R-project.org/
+   655→   655→550 61. Huizenga HM, Smeding H, Grasman RPPP, Schmand B. Multivariate normative
+   656→   656→551 comparisons. Neuropsychologia. 2007 Jan;45(11):2534–42.
+   657→   657→552 doi:10.1016/j.neuropsychologia.2007.03.011
+   658→   658→553 62. Torenvliet C, Groenman AP, Radhoe TA, Agelink Van Rentergem JA, Geurts HM. One size
+   659→   659→554 does not fit all: An individualized approach to understand heterogeneous cognitive
+   660→   660→555 performance in autistic adults. Autism Research. 2023 Apr;16(4):734–44.
+   661→   661→556 doi:10.1002/aur.2878
+   662→   662→557 63. Huizenga HM, Agelink Van Rentergem JA, Grasman RPPP, Muslimovic D, Schmand B.
+   663→   663→558 Normative comparisons for large neuropsychological test batteries: User-friendly and
+   664→   664→559 sensitive solutions to minimize familywise false positives. Journal of Clinical and
+   665→   665→560 Experimental Neuropsychology. 2016 Jul 2;38(6):611–29.
+   666→   666→561 doi:10.1080/13803395.2015.1132299
+   667→   667→562 64. Cohen J. Statistical power analysis for the behavioral sciences. 2nd ed. New York:
+   668→   668→563 Psychology Press; 2009.
+   669→   669→564 65. Buchner A, Erdfelder E, Faul F, Lang AG. G*Power [Internet]. 2020. Available from:
+   670→   670→565 https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-
+   671→   671→566 arbeitspsychologie/gpower
+   672→   672→567 66. Agelink Van Rentergem JA, De Vent NR, Schmand BA, Murre JMJ, Huizenga HM.
+   673→   673→568 Multivariate normative comparisons for neuropsychological assessment by a multilevel
+   674→   674→569 factor structure or multiple imputation approach. Psychological Assessment. 2018
+   675→   675→570 Apr;30(4):436–49. doi:10.1037/pas0000489
+   676→   676→571 67. Marhe R, Van Dongen J. How to Know Where the Risk Is and Can the Brain Help Us? In:
+   677→   677→572 Bošković I, editor. Legal and Forensic Psychology [Internet]. Cham: Springer Nature
+   678→   678→573 Switzerland; 2024 [cited 2025 Feb 19]. p. 111–27. Available from:
+   679→   679→574 https://link.springer.com/10.1007/978-3-031-75875-1_8 doi:10.1007/978-3-031-75875-1_8
+   680→   680→575
+   681→   681→24
