@@ -1,0 +1,831 @@
+     1→     1→Prediction and prediction error in autism: A meta-analysis of functional magnetic
+     2→     2→resonance imaging results
+     3→     3→Hjalmar Nobel Norrman1, Yating Huang1, Annelies van’t Westeinde2, 3, Tessa M. van
+     4→     4→Leeuwen4, 5, Peter Fransson6, Sven Bölte1, 7, 8, and Janina Neufeld1, 9
+     5→     5→1Center of Neurodevelopmental Disorders at Karolinska Institutet (KIND), Centre for
+     6→     6→Psychiatry Research, Department of Women’s and Children’s Health, Karolinska Institutet,
+     7→     7→Stockholm Health Care Services, Region Stockholm, 113 30 Stockholm, Sweden
+     8→     8→2Department of Women's and Children's Health, Karolinska Institutet, Pediatric
+     9→     9→Endocrinology Unit, Karolinska University Hospital, 171 76 Stockholm, Sweden
+    10→    10→3Department of Clinical Sciences, Sahlgrenska Academy, University of Gothenburg, Pediatric
+    11→    11→Endocrinology Unit, Sahlgrenska University Hospital, SE-416 50 Gothenburg, Sweden
+    12→    12→4Tilburg School of Humanities and Digital Sciences, Department of Communication and
+    13→    13→Cognition, Tilburg University, 5037 AB Tilburg, Netherlands
+    14→    14→5Donders Institute for Brain, Cognition and Behaviour, Radboud University, 6525 XZ
+    15→    15→Nijmegen, Netherlands
+    16→    16→6Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden
+    17→    17→7Curtin Autism Research Group, Curtin School of Allied Health, Curtin University, WA 66102
+    18→    18→Perth, Western Australia
+    19→    19→8Child and Adolescent Psychiatry, Stockholm Health Care Services, Region Stockholm, 113 64
+    20→    20→Stockholm, Sweden
+    21→    21→9Swedish Collegium for Advanced Study (SCAS), 752 38 Uppsala, Sweden
+    22→    22→Corresponding author: Hjalmar Nobel Norrman [hjalmar.nobel@ki.se]
+    23→    23→Short title: Predictions in autism: An fMRI meta-analysis
+    24→    24→Keywords: autism, predictive processes, fMRI, review, meta-analysis, ALE
+    25→    25→ABSTRACT
+    26→    26→BACKGROUND: In autism spectrum condition (ASC), altered predictions (priors) or prediction
+    27→    27→errors have been hypothesized to increase the influence of bottom-up sensory input,
+    28→    28→relative to top-down prior knowledge. Such alterations could account for several autistic
+    29→    29→features, but their empirical basis is unclear. In neurotypical individuals (NT), multiple
+    30→    30→neuroimaging meta-analyses have aimed to outline domain-general ‘prediction networks’ of
+    31→    31→the brain. However, there has not been a similar meta-analysis in autism.
+    32→    32→METHODS: We searched the literature for functional magnetic resonance imaging and
+    33→    33→magnetoencephalography studies with autistic participants. The contrasts that explicitly or
+    34→    34→implicitly involved the processing of priors/predictions and prediction errors were selected.
+    35→    35→Contrasts were divided into those that reported stronger activation in ASC compared to NT
+    36→    36→(ASC > NT; 8 contrasts; 139 ASC and 150 NT participants), and vice versa (NT > ASC; 13
+    37→    37→contrasts; 261 ASC and 289 NT participants). The convergence of differences between the
+    38→    38→groups was then tested using activation likelihood estimation meta-analysis. We additionally
+    39→    39→identified 37 contrasts without significant group differences.
+    40→    40→RESULTS: ASC > NT did not result in significant convergence. NT > ASC converged in a cluster
+    41→    41→in the medial frontal gyrus/cingulate gyrus.
+    42→    42→1
+    43→    43→
+    44→    44→CONCLUSION: We found converging NT > ASC activation differences in an area associated
+    45→    45→with error monitoring and uncertainty estimation. Our results are generally consistent with
+    46→    46→notions of altered priors/predictions or prediction errors in autism, pointing to differences
+    47→    47→at high levels of the information-processing hierarchy. However, we recommend a cautious
+    48→    48→interpretation, given the limited number of available contrasts and the high proportion of
+    49→    49→null results.
+    50→    50→BACKGROUND
+    51→    51→Autism spectrum condition (ASC) is defined by a diverse set of behavioural features in both
+    52→    52→social and non-social domains, including insistence on sameness and sensory
+    53→    53→hypersensitivity (1). Bayesian and predictive coding accounts of autism propose that altered
+    54→    54→priors/predictions or prediction errors increase the influence of bottom-up sensory inputs,
+    55→    55→relative to top-down prior beliefs (2). This ‘imbalance hypothesis’ (2) could, if correct,
+    56→    56→potentially account for several autistic features in both social and non-social domains (3) (4).
+    57→    57→One hypothesis of autistic perception is that of broader Bayesian priors in autism (5),
+    58→    58→which could be interpreted as an increase in prior variance (6)). In Bayesian perception
+    59→    59→models, the cause of noisy sensory input is inferred by multiplying the ‘likelihood’ of the
+    60→    60→sensory input given each potential cause, with the ‘prior’ probability of potential causes. The
+    61→    61→resulting ‘posterior’ distribution of probabilities of causes, given the sensory input, could
+    62→    62→then inform perceptual decision (7) (8) (9). In autism, broader priors would shift posterior
+    63→    63→distributions closer to the mean of sensory inputs (6), resulting in a (metaphorically) more
+    64→    64→‘literal’ perception. Besides broader priors, it has been pointed out that instead supposing a
+    65→    65→decreased variance of likelihoods – that is, less noisy sensory inputs – would have the same
+    66→    66→effect (6).
+    67→    67→Related accounts of autism are based on predictive coding (3) (4) (10), according to
+    68→    68→which perception is generated by a hierarchical model distributed along the cerebral cortex.
+    69→    69→Information generated from sensory inputs flow forward in the hierarchy, and model
+    70→    70→predictions flow backward. The interpretation of sensory inputs is constrained by
+    71→    71→predictions (priors), while the sensory input not explained by predictions, the prediction
+    72→    72→error, is used to update them (11). The influence of prediction errors in revising predictions
+    73→    73→depends on their estimated reliability (their inverse variance, or ‘precision’) (12). One
+    74→    74→hypothesis is that autism is characterized by a uniformly high precision assigned to
+    75→    75→prediction errors. Precise errors would increase the updating of predictions, causing them to
+    76→    76→be overfitted to the sensory input (4).
+    77→    77→Through different mechanisms, these examples of hypotheses of autism suppose an
+    78→    78→increased influence of bottom-up sensory input, relative to top-down processing (2).
+    79→    79→However, the empirical basis for such an imbalance is unclear. A recent review on autism
+    80→    80→and autistic traits, covering behavioral, neuroimaging, and eye tracking evidence, found in
+    81→    81→autism a tendency toward impairment in the development of new priors. It was also
+    82→    82→observed, however, that overall, less than half of the reviewed findings supported an
+    83→    83→imbalance (2). Another review framed in terms of a related proposal (13), that also included
+    84→    84→a mix of (partly overlapping, partly different) studies, found that the evidence overall
+    85→    85→suggested differences in prediction-related learning and low-level prediction errors (14).
+    86→    86→Both studies decided against a meta-analysis, citing as one of the reasons the variety of the
+    87→    87→kinds of reviewed evidence (2) (14). The lack of empirical clarity underlines a need to further
+    88→    88→2
+    89→    89→
+    90→    90→investigate proposals of altered priors/predictions (from hereon, ‘predictions’) and
+    91→    91→prediction errors in autism, including the neural processes supposed to underlie them.
+    92→    92→Meanwhile, predictive processes in general have been studied in neurotypically
+    93→    93→developing individuals (NT). Several meta-analyses have aggregated primarily functional
+    94→    94→magnetic resonance imaging (fMRI) results in an aim to outline domain-general1 ‘prediction
+    95→    95→networks’ of the brain (15) (16) (17). Part of these analyses was to combine experiments2
+    96→    96→reflecting two separate processes. First, the formation, encoding, or reinforcement of
+    97→    97→predictions, and second, the violation of predictions3. Results from the combined analyses
+    98→    98→differed between meta-analyses, but converged in approximately similar areas in the right
+    99→    99→superior frontal gyrus (16) (17), the left (15) (16) (17)/right (15) (17) inferior frontal gyrus,
+   100→   100→the left (15) (16) (17) /right (15) (17) (anterior) insula, the left superior temporal
+   101→   101→sulcus/gyrus (15) (17), and the left precuneus (16) (17). Note that because (17) included all
+   102→   102→experiments in (15) (16), results between them are partially dependent.
+   103→   103→Results identifying ‘prediction networks’ in NTs could inform the investigation of
+   104→   104→autism, as differences in associated regions could lend indirect support to the imbalance
+   105→   105→hypothesis. However, there has not been a comparable meta-analysis in autism. To this aim,
+   106→   106→we used a wide-ranging literature search to identify fMRI and magnetoencephalography
+   107→   107→(MEG) studies with autistic participants. From these studies, we selected experiments that
+   108→   108→explicitly or implicitly involve the processing of predictions/prediction errors. Then, we
+   109→   109→tested the convergence of between-group activation differences (ASC > NT; NT > ASC) in two
+   110→   110→activation likelihood estimation (ALE) meta-analyses.
+   111→   111→METHODS AND MATERIALS
+   112→   112→This study was registered in PROSPERO (18) in February 2024 [CRD42024503295]. We
+   113→   113→followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)
+   114→   114→recommendations (19), and separate recommendations for neuroimaging meta-analyses
+   115→   115→(20).
+   116→   116→Literature Search
+   117→   117→The two previous reviews of the empirical evidence relating to predictions in autism (2) (14)
+   118→   118→each included fewer than ten studies using fMRI or MEG. Meanwhile, the authors observed
+   119→   119→that they did not necessarily capture all relevant studies, since similar paradigms can be
+   120→   120→framed in different terms (2) (14). We instead used a terminology-neutral search, with the
+   121→   121→aim to capture all published fMRI and MEG studies with conceptually relevant paradigms,
+   122→   122→irrespective of framing.
+   123→   123→We used variations on [autism] and [fMRI or MEG] and searched in Medline,
+   124→   124→Embase, Web of Science, and PsycInfo for studies published between 1990 and December
+   125→   125→2023 (Tables S1-S4). After deduplication, the literature search resulted in k = 6357 studies
+   126→   126→(Figure 1). One study (21) outside the main search, but referenced in (14), was added. A
+   127→   127→renewed search in July 2025 for more recent publications lead to the addition of one study
+   128→   128→(22). Screening of titles in the reference lists of included studies did not lead to any
+   129→   129→additions.
+   130→   130→1(15) included paradigms from three separate domains (action perception, music, and language), while (16) and (17) used a
+   131→   131→broader selection. 2A note on terminology used in this study: ‘Study’ refers to an individual paper, ‘paradigm’ to a
+   132→   132→task/stimuli used in a study, and ‘experiment’ to a contrast of brain activation between conditions in a paradigm. 3In (15)
+   133→   133→defined as prediction ’formation’ and ’violation’, in (16) as prediction ‘encoding’ and ‘violation’, and in (17) as prediction
+   134→   134→‘congruency’ and ‘incongruency’.
+   135→   135→3
+   136→   136→
+   137→   137→Selection
+   138→   138→Each study was assessed according to the following criteria.
+   139→   139→(a) English language, peer-reviewed, original study.
+   140→   140→(b) ASC group and NT group: Of any age, and with any type of autism diagnosis, though not
+   141→   141→associated with a specific genetic syndrome.
+   142→   142→(c) fMRI or MEG.
+   143→   143→(d) Paradigm that explicitly or implicitly involve the formation or violation of predictions:
+   144→   144→Irrespective of whether these were already established or acquired within the paradigm,
+   145→   145→irrespective of sensory modality, or whether there was an active task or not.
+   146→   146→(e) Whole-brain, between-group experiment of two active conditions, or a parametric
+   147→   147→modulator, providing sufficient contrast for either prediction formation or violation (Figure
+   148→   148→2).
+   149→   149→(f) Coordinates of peak activation in Montreal Neurological Institute (MNI) or Talairach
+   150→   150→space.
+   151→   151→Criteria (a)-(d) was assessed by two authors during blind, independent title/abstract
+   152→   152→screening. Decisions were intermittently unblinded to assess agreement. Criteria (e)-(f) was
+   153→   153→assessed by one author during full-text screening. Decisions on the in- or exclusion of
+   154→   154→paradigms and experiments were regularly discussed in a wider author group to establish
+   155→   155→consensus.
+   156→   156→Object recognition and conceptually similar paradigms were included, if the control
+   157→   157→condition consisted of similar image elements as the object condition, and was sufficiently
+   158→   158→scrambled or non-figurative (apart from single word-nonword paradigms, which were not
+   159→   159→included). Cue-outcome type paradigms were included, if the cue was predictive of the
+   160→   160→outcome above chance levels. Congruency-incongruency type paradigms were included, if
+   161→   161→the number of congruent trials was equal or larger than incongruent trials – except for
+   162→   162→paradigms in which incongruent responses could be explained by communicative intent (for
+   163→   163→example irony), which were excluded.
+   164→   164→Mismatch negativity effects – first observed with EEG, in oddball paradigms (23) –
+   165→   165→have been interpreted in terms of both neuronal adaptation (24) and predictive coding (23).
+   166→   166→We included controlled auditory and visual oddball experiments, since their structure
+   167→   167→(‘deviant > standard’ or ‘infrequent > frequent’) – under a predictive coding interpretation –
+   168→   168→provided sufficient contrast for prediction violation (criterion (e); Figure 2). Meanwhile, we
+   169→   169→excluded repetition suppression experiments with the structure ‘early > late’ or ‘non-
+   170→   170→repeating > repeating’, since they provided an insufficient corresponding contrast for
+   171→   171→prediction formation under criterion (e), regardless of interpretation.
+   172→   172→Extraction
+   173→   173→Paradigm specifics, between-group experiments, coordinates of peak activation, statistical
+   174→   174→threshold, number of participants per group, gender, mean age, and NT within-group
+   175→   175→experiments were extracted by one author. Group differences on behavioral tasks and
+   176→   176→4
+   177→   177→
+   178→   178→quality metrics were also extracted for studies reporting experiments with significant
+   179→   179→between-group differences. For this set of studies, coordinates, group sizes, and quality
+   180→   180→metrics were checked by a second author.
+   181→   181→Guided by previous reports of mixed evidence (2), we, besides the positive evidence,
+   182→   182→also extracted between-group experiments without significant differences (‘null results’). A
+   183→   183→null result was defined as an absence of differences at the most conservative between-
+   184→   184→group threshold used within that study. This definition included for example [group x
+   185→   185→condition] ANOVAs without significant interaction effects, and ANOVAs where follow-up
+   186→   186→tests did not indicate group differences in the relevant between-condition direction.
+   187→   187→Where available, we also extracted the significant NT within-group experiments.
+   188→   188→Previous ALEs in NTs used differing selection criteria (15) (16) (17), and our criteria differed
+   189→   189→individually from theirs. For example, we included oddball paradigms (in contrast to (15)),
+   190→   190→excluded repetition suppression paradigms (in contrast to (16)), and excluded experiments
+   191→   191→of the type ‘standard > deviant sound’ (in contrast to (17)). By comparing our NT results with
+   192→   192→previous ALEs, we could assess to what extent we captured the same neural processes, thus
+   193→   193→informing the interpretation of between-group results.
+   194→   194→Where applicable, we inquired with the authors of the studies for information on
+   195→   195→sample sizes/dependencies, and for whole-brain (between-group) results if these were not
+   196→   196→reported. If a specific between-group experiment reflecting prediction formation/violation
+   197→   197→was hypothetically permitted by the paradigm, but was not reported, we also inquired
+   198→   198→about that. As a result, experiments from one study (22) were added.
+   199→   199→Analysis
+   200→   200→ALE analysis tests the spatial convergence across a set of peak activation coordinates (foci)
+   201→   201→against a null distribution, with the associated number of individuals (observations)
+   202→   202→determining the spatial uncertainty of each focus (25) (26) (27). Foci from dependent
+   203→   203→experiments – that is, experiments from the same participant group – were merged if
+   204→   204→contributing to the same analysis (27) (20).
+   205→   205→We performed the ALE analysis in [GingerALE] v. 3.02, using the smaller
+   206→   206→(conservative) gray matter mask and the recommended thresholding (20): voxel-level p <
+   207→   207→.001, cluster-level p < .05 (28), family-wise error (FWE) corrected, using 1 000 permutations.
+   208→   208→Talairach coordinates were converted to MNI152 in GingerALE with the icbm2tal and
+   209→   209→mni2tal transforms. Results were visualized in [MRIcroGL] on the mni152 standard
+   210→   210→template.
+   211→   211→As null results cannot be represented in an ALE (29), we report them descriptively.
+   212→   212→To complement this description, we assessed the robustness of the ALE results by an
+   213→   213→adapted Fail-Safe N (FSN) analysis. Here, null results are represented by experiments with a
+   214→   214→random foci distribution. The proportion of ‘null experiments’ that can be added before
+   215→   215→clusters of significant convergence turn non-significant is tested. If this proportion is lower
+   216→   216→than the estimated real proportion of null results, it could indicate a risk for a non-robust
+   217→   217→ALE result (29).
+   218→   218→RESULTS
+   219→   219→We identified 35 fMRI studies with relevant between-group experiments. There were no
+   220→   220→eligible studies using MEG, primarily due to a lack of reported coordinates of peak
+   221→   221→activation. Nineteen studies reported at least one between-group experiment with
+   222→   222→significant differences (Table 1; Table S5 for sample demographics and quality metrics).
+   223→   223→5
+   224→   224→
+   225→   225→ALE: ASC > NT experiments
+   226→   226→Eight experiments reported ASC > NT activation differences (37 foci; 139 ASC; 150 NT). The
+   227→   227→ALE analysis did not reveal any statistically significant clusters of convergence.
+   228→   228→ALE: NT > ASC experiments
+   229→   229→Eighteen experiments reported NT > ASC activation differences (142 foci; 261 ASC; 289 NT).
+   230→   230→Merging dependent experiments reduced this number to 13. Activation differences
+   231→   231→converged in a single, two-peak 744 mm3 cluster in the medial frontal gyrus (MeFG), in
+   232→   232→Brodmann Area (BA) 9, and the cingulate gyrus (CG; BA 32) (Figure 3; Table 2). The cluster
+   233→   233→intersected BAs 24 and 32, overlapping the dorsal parts of anterior cingulate cortex (dACC)
+   234→   234→(30). Other subregions of both MeFG and CG have been identified as parts of a general
+   235→   235→‘prediction network’ in one previous ALE (17), though not in others (15) (16). Three
+   236→   236→experiments reflecting prediction violation (21) (31) (32) contributed foci to this cluster.
+   237→   237→Group differences on behavioral measures
+   238→   238→Of the 19 studies with between-group activation differences, 12 included one or more
+   239→   239→relevant behavioral measures (Table S6). Seven studies, including two that contributed foci
+   240→   240→to the significant NT > ASC cluster, reported significant group differences on at least one
+   241→   241→measure. Generally, these results showed a pattern of higher accuracy rates in NT. Accuracy
+   242→   242→was higher in reporting whether an outcome was expected/unexpected (21), a reward/non-
+   243→   243→reward was likely (33), an action was unusual (34), whether an infrequent target shape was
+   244→   244→presented (35), and in reporting the direction of incongruent, relative to congruent, targets
+   245→   245→(32).
+   246→   246→Null results and FSN analysis
+   247→   247→Across the 35 included studies, there were 37 null experiments (Table S7), equal to a total
+   248→   248→proportion of 58.73%. The share of prediction formation/violation was similar between
+   249→   249→significant (34.61%/65.38%) and non-significant (35.13%/64.86%) experiments. Discounting
+   250→   250→studies with dependent samples, mean group sizes were also relatively similar in those with
+   251→   251→(19.50 ASC; 21.27 NT) and without (36) (37) (38) (39) (40) (41) (42) (43) (44) (45) (46) (47)
+   252→   252→(48) (49) (50) (51) (22) (21.68 ASC; 22.06 NT) differences. However, there appeared to be
+   253→   253→differences between the two sets of studies in which statistical threshold was used. In 18
+   254→   254→studies with significant group differences, five studies used a threshold other (and likely
+   255→   255→more lenient) than corrected for multiple comparisons at the cluster level p < 0.05 or lower.
+   256→   256→The corresponding number in 16 studies without significant group differences was zero.
+   257→   257→In the FSN analysis, random NT > ASC experiments proportionate to 50% were added
+   258→   258→to the ALE. The MeFG/CG cluster did not remain significant, which is indicative of low
+   259→   259→robustness.
+   260→   260→ALE: NT within-group experiments
+   261→   261→We found 26 NT within-group experiments (17 after merging; 277 foci; 395 NT) (Table S8).
+   262→   262→There were two resulting clusters (Table S9 and Figure S1) – one cluster with peaks in the
+   263→   263→left supramarginal gyrus and the inferior parietal lobule (approximately similar to (17)), and
+   264→   264→one cluster in the left claustrum (approximately similar to (15) (16) (17)), indicating at least
+   265→   265→partial overlap with previously captured processes.
+   266→   266→6
+   267→   267→
+   268→   268→DISCUSSION
+   269→   269→In this study, we aggregated fMRI results in autism that explicitly or implicitly relate to the
+   270→   270→processing of predictions/prediction errors. NT > ASC group activation differences
+   271→   271→converged in a cluster in the medial frontal gyrus/cingulate gyrus, overlapping the dorsal
+   272→   272→anterior cingulate cortex. The spatial location of differences is interesting from a theoretical
+   273→   273→perspective, as dACC has been proposed to have a domain-general role in tracking goal-
+   274→   274→related information such as error, conflict, and surprise (52). This information is then
+   275→   275→integrated to determine the expected value of control, for example in the
+   276→   276→deployment/regulation of attentional resources. This monitoring and control function
+   277→   277→explains why dACC is active during a wide range of paradigms, and particularly under new
+   278→   278→and complex conditions which require non-automatic control (52).
+   279→   279→There are some parallels to this functional description of dACC in predictive coding
+   280→   280→perspectives on the role of attention (53). Herein, attentional gain has been interpreted as a
+   281→   281→situational increase in the weighting of task-relevant prediction errors (54). The influence of
+   282→   282→prediction errors should increase further when unexpected information sufficiently
+   283→   283→motivates an update of task-relevant predictions. Whether an outcome is considered
+   284→   284→unexpected or not – that is, whether it represents changing contingencies – depends in turn
+   285→   285→on the current higher-order estimates of expected uncertainty. In predictive coding
+   286→   286→accounts of autism, altered volatility/uncertainty modeling has been a key process of
+   287→   287→interest, in which ACC specifically is theorized to be involved (3) (4) (55).
+   288→   288→What did the convergence of NT > ASC activation differences in our study mean
+   289→   289→more specifically? There were too few experiments to analyze prediction formation and
+   290→   290→violation separately (16) (17). Nonetheless, the structure of experiments and distribution of
+   291→   291→foci implies that in NTs, there was a comparatively stronger dACC response to outcomes
+   292→   292→that conflict with expectation, previous cues, or learning history. Or stated differently – that
+   293→   293→under these conditions, dACC activity in autism differentiated less between unexpected and
+   294→   294→expected events. This pattern conforms empirically to some previous results in autism from
+   295→   295→probabilistic learning. There, behavioral and pupillometric measures indicated a reduced
+   296→   296→distinction between expected/unexpected outcomes, coupled with increased estimates of
+   297→   297→higher-order volatility (55).
+   298→   298→Against this background, converging differences in (d)ACC could be considered
+   299→   299→generally consistent with proposals of altered predictions/prediction errors in autism.
+   300→   300→However, we note that activation differences alone have limited power to identify an
+   301→   301→underlying mechanism. To illustrate, the NT > ASC result could be interpreted to reflect
+   302→   302→uniformly precise prediction errors in autism, regardless of whether outcomes could be
+   303→   303→considered expected or not. But the same observed difference could also be interpreted to
+   304→   304→support broader Bayesian priors, to the extent that violations of weaker priors would
+   305→   305→generate comparatively weaker prediction errors. These interpretations rest on opposite
+   306→   306→assumptions of the strength of baseline error signaling, while activation differences itself
+   307→   307→could be consistent with either.
+   308→   308→It should also be noted that while our results show converging differences at high
+   309→   309→levels of the information-processing hierarchy, they do not necessarily provide strong
+   310→   310→evidence against differences in other areas, such as the sensory cortices. The reason is that
+   311→   311→the domain-independent scope of our meta-analysis inherently should bias convergence to
+   312→   312→7
+   313→   313→
+   314→   314→areas specifically with integrative functions (corresponding to high levels (11) of the
+   315→   315→generative model in the predictive coding framework).
+   316→   316→Given that dACC has such a general function, why then has it (or ACC generally) not
+   317→   317→consistently been identified as part of a ‘prediction network’ in previous ALEs in NTs (15)
+   318→   318→(16)? One explanation could be that ACC is likely generally more sensitive to many
+   319→   319→prediction violation, as compared to formation, experiments. Depending on selection
+   320→   320→criteria, ACC convergence could potentially have been suppressed in some combined
+   321→   321→analyses. This reasoning is supported by ACC consistently being identified in other meta-
+   322→   322→analyses focused only on prediction error (56) (57) (58) (59). Note however, that in (15) and
+   323→   323→(16), contrast/separate analysis of prediction violation specifically did not identify ACC
+   324→   324→either. These differences underline the need for sub-analyses, where in our study we were
+   325→   325→restricted by the low numbers of available experiments.
+   326→   326→There was no significant convergence of ASC > NT differences, possibly reflecting a
+   327→   327→lack of power. Is there a systematic reason for the fewer significant ASC > NT experiments,
+   328→   328→compared to NT > ASC? Given the specific sampling of prediction-related paradigms, one
+   329→   329→possible interpretation is that autistic individuals were overall less sensitive to the contrasts
+   330→   330→between conditions. While, again, the underlying mechanism cannot be inferred, such a
+   331→   331→pattern would also be generally consistent with a reduced differentiation between
+   332→   332→expected/unexpected outcomes that these and others’ results point to. Another, less
+   333→   333→specific contributing factor could be a previously observed increase in variability in brain
+   334→   334→activity (60)/connectivity (61) between autistic individuals. Such a pattern could also
+   335→   335→indirectly decrease the probability of significant effects in ASC over NTs.
+   336→   336→Guided by prior reports of mixed evidence for a predictive imbalance in autism (2),
+   337→   337→we also described the counterevidence to group differences in brain activation. The share of
+   338→   338→null results, approximately three-fifths, seems to at a minimum complement the overall
+   339→   339→observation by (2) – though a precise comparison of figures is made difficult by differences
+   340→   340→in the definition of relevant data. From this selection of studies, it appears that the fMRI
+   341→   341→evidence for generally altered predictions/prediction errors in autism is, at least,
+   342→   342→inconsistent. While sample sizes were relatively similar between studies with and without
+   343→   343→significant findings, we cannot rule out that differences in statistical thresholding can have
+   344→   344→played a systematic role in separating them. In addition to the general implications,
+   345→   345→robustness analysis showed that the observed proportion of null findings warrants a careful
+   346→   346→interpretation of our ALE results. Overall, this picture could be indicative of a previously
+   347→   347→stated need to develop more specific hypotheses (2) (14).
+   348→   348→A subset of included studies used behavioral measures that could, for our purposes,
+   349→   349→strengthen confidence in the theoretical relevance of activation results. Many of the studies
+   350→   350→leveraged in our analysis, however, were not designed to investigate predictions/prediction
+   351→   351→errors specifically. To allow for additional validation and inference on mechanisms,
+   352→   352→activation results would optimally be supplemented by a combination of behavioral
+   353→   353→measures and (like previously emphasized (2)) appropriate computational modeling. To take
+   354→   354→one example, (62) modelled the influence of a hierarchy of priors and prediction errors on
+   355→   355→task behavior and then correlated it with brain activation results.
+   356→   356→We agree with the authors of previous reviews in hoping that the field will continue
+   357→   357→to develop (2) (14), so that sufficient numbers of similarly specialized studies will allow for a
+   358→   358→more refined meta-analysis in the future. Relative to many of the rather indirect measures
+   359→   359→of predictions/prediction errors leveraged here, such studies could potentially have more
+   360→   360→8
+   361→   361→
+   362→   362→power to detect relevant differences. If so, it is possible that they also could yield fewer null
+   363→   363→results.
+   364→   364→Limitations
+   365→   365→The main limitation of this meta-analysis is the small number of included experiments. First,
+   366→   366→few experiments restrict power to detect differences and to do sub-analyses. Second, it
+   367→   367→incurs a risk that a single or a few influential experiments drive results. Simulation work on
+   368→   368→ALE analysis using FWE correction indicates that at least 17-20 experiments should be
+   369→   369→included per analysis to mitigate this risk (28). After merging dependent experiments, the
+   370→   370→maximum number we reached in any between-group analysis was 13. The limited amount
+   371→   371→of positive evidence restricts our ability to draw strong conclusions from the results, which
+   372→   372→should be replicated with a larger sample size.
+   373→   373→A second important limitation is the heterogeneity of participant age groups in the
+   374→   374→included studies. Restricting the study sample to only children, adolescents, or adults would
+   375→   375→have limited it even further – but on the other hand, including all groups could negatively
+   376→   376→affect power in different ways. For example, in autism, there are age-dependent patterns of
+   377→   377→resting state connectivity differences (63), which conceivably could affect task-related brain
+   378→   378→activation (64) (65). It is therefore possible that diverging differences between age cohorts
+   379→   379→could have indirectly censored age-dependent ASC > NT and NT > ASC effects.
+   380→   380→Conclusions
+   381→   381→We have presented an ALE meta-analysis of fMRI results that explicitly or implicitly relate to
+   382→   382→the processing of predictions/prediction errors in autism. Our results show converging NT >
+   383→   383→ASC activation differences in ACC, a region associated with error monitoring and uncertainty
+   384→   384→estimation. The structure of contributing experiments indicates that this effect could have
+   385→   385→been driven by a reduced differentiation between expected and unexpected outcomes in
+   386→   386→autism, at least under some conditions. Such a reduction would be consistent with
+   387→   387→hypotheses of altered prediction/prediction errors generally (see for example (55)),
+   388→   388→although we cannot infer by what mechanism.
+   389→   389→Meanwhile, concerns over generalizability are raised by the small number of
+   390→   390→available experiments – increasing the risk of chance convergence – and, like previously
+   391→   391→observed (2), a high proportion of null results. For a conclusive and detailed assessment,
+   392→   392→additional neuroimaging studies specifically targeting predictions/prediction errors in
+   393→   393→autism are needed. Optimally, these studies should include behavioral measures and
+   394→   394→computational modelling to inform the interpretation of brain activation results.
+   395→   395→ACKNOWLEDGMENTS AND DISCLOSURES
+   396→   396→This study was funded by a Karolinska Institutet internal block grant for PhD students (KID)
+   397→   397→(2022-01018)/a grant from the Swedish Research Council (2022-02736). A prior version of
+   398→   398→this analysis was presented as a poster at the [European Conference on Visual Perception] in
+   399→   399→August 2025. We thank Ingrid Andersson and Narcisa Hannerz from Karolinska Institutet
+   400→   400→University Library for help in designing and implementing the literature search strategy. We
+   401→   401→declare no competing or financial interests. S.B. discloses that he has in the last three years
+   402→   402→acted as a consultant or lecturer for Medice, Takeda, Neuraxpharm, Merk Sharp & Dohme,
+   403→   403→and LinusBio. He receives royalties for textbooks and diagnostic tools from Hogrefe, UTB,
+   404→   404→Ernst Reinhardt, Kohlhammer, and Liber. S.B. is CEO of NeuroSupportSolutions International
+   405→   405→AB.
+   406→   406→9
+   407→   407→
+   408→   408→REFERENCES
+   409→   409→1. American Psychiatric A. Diagnostic and statistical manual of mental disorders : DSM-
+   410→   410→5. Fifth edition. ed. Arlington, VA: American Psychiatric Association; 2013.
+   411→   411→2. Angeletos Chrysaitis N, Series P. 10 years of Bayesian theories of autism: A
+   412→   412→comprehensive review. Neurosci Biobehav Rev. 2023;145:105022. Epub 20221226. doi:
+   413→   413→10.1016/j.neubiorev.2022.105022. PubMed PMID: 36581168.
+   414→   414→3. Lawson RP, Rees G, Friston KJ. An aberrant precision account of autism. Front Hum
+   415→   415→Neurosci. 2014;8:302. Epub 20140514. doi: 10.3389/fnhum.2014.00302. PubMed PMID:
+   416→   416→24860482; PubMed Central PMCID: PMC4030191.
+   417→   417→4. Van de Cruys S, Evers K, Van der Hallen R, Van Eylen L, Boets B, de-Wit L, et al.
+   418→   418→Precise minds in uncertain worlds: predictive coding in autism. Psychol Rev.
+   419→   419→2014;121(4):649-75. doi: 10.1037/a0037665. PubMed PMID: 25347312.
+   420→   420→5. Pellicano E, Burr D. When the world becomes 'too real': a Bayesian explanation of
+   421→   421→autistic perception. Trends Cogn Sci. 2012;16(10):504-10. Epub 20120907. doi:
+   422→   422→10.1016/j.tics.2012.08.009. PubMed PMID: 22959875.
+   423→   423→6. Brock J. Alternative Bayesian accounts of autistic perception: comment on Pellicano
+   424→   424→and Burr. Trends Cogn Sci. 2012;16(12):573-4; author reply 4-5. Epub 20121102. doi:
+   425→   425→10.1016/j.tics.2012.10.005. PubMed PMID: 23123383.
+   426→   426→7. Vincent BT. A tutorial on Bayesian models of perception. Journal of Mathematical
+   427→   427→Psychology. 2015;66:103-14. doi: 10.1016/j.jmp.2015.02.001.
+   428→   428→8. Knill DC, Pouget A. The Bayesian brain: the role of uncertainty in neural coding and
+   429→   429→computation. Trends Neurosci. 2004;27(12):712-9. doi: 10.1016/j.tins.2004.10.007. PubMed
+   430→   430→PMID: 15541511.
+   431→   431→9. Colombo M, Seriès P. Bayes in the Brain—On Bayesian Modelling in Neuroscience.
+   432→   432→The British Journal for the Philosophy of Science. 2012;63(3):697-723. doi:
+   433→   433→10.1093/bjps/axr043.
+   434→   434→10. van Boxtel JJ, Lu H. A predictive coding perspective on autism spectrum disorders.
+   435→   435→Front Psychol. 2013;4:19. Epub 20130128. doi: 10.3389/fpsyg.2013.00019. PubMed PMID:
+   436→   436→23372559; PubMed Central PMCID: PMC3556598.
+   437→   437→11. Summerfield C, de Lange FP. Expectation in perceptual decision making: neural and
+   438→   438→computational mechanisms. Nat Rev Neurosci. 2014;15(11):745-56. Epub 20141015. doi:
+   439→   439→10.1038/nrn3838. PubMed PMID: 25315388.
+   440→   440→12. den Ouden HE, Kok P, de Lange FP. How prediction errors shape perception,
+   441→   441→attention, and motivation. Front Psychol. 2012;3:548. Epub 20121211. doi:
+   442→   442→10.3389/fpsyg.2012.00548. PubMed PMID: 23248610; PubMed Central PMCID:
+   443→   443→PMC3518876.
+   444→   444→13. Sinha P, Kjelgaard MM, Gandhi TK, Tsourides K, Cardinaux AL, Pantazis D, et al.
+   445→   445→Autism as a disorder of prediction. Proc Natl Acad Sci U S A. 2014;111(42):15220-5. Epub
+   446→   446→20141006. doi: 10.1073/pnas.1416797111. PubMed PMID: 25288765; PubMed Central
+   447→   447→PMCID: PMC4210351.
+   448→   448→14. Cannon J, O'Brien AM, Bungert L, Sinha P. Prediction in Autism Spectrum Disorder:
+   449→   449→A Systematic Review of Empirical Evidence. Autism Res. 2021;14(4):604-30. Epub
+   450→   450→20210211. doi: 10.1002/aur.2482. PubMed PMID: 33570249; PubMed Central PMCID:
+   451→   451→PMC8043993.
+   452→   452→15. Siman-Tov T, Granot RY, Shany O, Singer N, Hendler T, Gordon CR. Is there a
+   453→   453→prediction network? Meta-analytic evidence for a cortical-subcortical network likely
+   454→   454→subserving prediction. Neurosci Biobehav Rev. 2019;105:262-75. Epub 20190819. doi:
+   455→   455→10.1016/j.neubiorev.2019.08.012. PubMed PMID: 31437478.
+   456→   456→10
+   457→   457→
+   458→   458→16. Ficco L, Mancuso L, Manuello J, Teneggi A, Liloia D, Duca S, et al. Disentangling
+   459→   459→predictive processing in the brain: a meta-analytic study in favour of a predictive network.
+   460→   460→Sci Rep. 2021;11(1):16258. Epub 20210810. doi: 10.1038/s41598-021-95603-5. PubMed
+   461→   461→PMID: 34376727; PubMed Central PMCID: PMC8355157.
+   462→   462→17. Costa C, Pezzetta R, Masina F, Lago S, Gastaldon S, Frangi C, et al. Comprehensive
+   463→   463→investigation of predictive processing: A cross- and within-cognitive domains fMRI meta-
+   464→   464→analytic approach. Hum Brain Mapp. 2024;45(12):e26817. doi: 10.1002/hbm.26817. PubMed
+   465→   465→PMID: 39169641; PubMed Central PMCID: PMC11339134.
+   466→   466→18. Schiavo JH. PROSPERO: An International Register of Systematic Review Protocols.
+   467→   467→Med Ref Serv Q. 2019;38(2):171-80. doi: 10.1080/02763869.2019.1588072. PubMed PMID:
+   468→   468→31173570.
+   469→   469→19. Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et al.
+   470→   470→The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ.
+   471→   471→2021;372:n71. Epub 20210329. doi: 10.1136/bmj.n71. PubMed PMID: 33782057; PubMed
+   472→   472→Central PMCID: PMC8005924.
+   473→   473→20. Muller VI, Cieslik EC, Laird AR, Fox PT, Radua J, Mataix-Cols D, et al. Ten simple
+   474→   474→rules for neuroimaging meta-analysis. Neurosci Biobehav Rev. 2018;84:151-61. Epub
+   475→   475→20171124. doi: 10.1016/j.neubiorev.2017.11.012. PubMed PMID: 29180258; PubMed
+   476→   476→Central PMCID: PMC5918306.
+   477→   477→21. Balsters JH, Apps MA, Bolis D, Lehner R, Gallagher L, Wenderoth N. Disrupted
+   478→   478→prediction errors index social deficits in autism spectrum disorder. Brain. 2017;140(1):235-
+   479→   479→46. doi: 10.1093/brain/aww287. PubMed PMID: 28031223; PubMed Central PMCID:
+   480→   480→PMC5379861.
+   481→   481→22. Valles-Capetillo E, Kurtz MR, Kana RK. The Role of the Brain's Pragmatic Language
+   482→   482→Network in Reading Comprehension in Autistic Children. Autism Res. 2025;18(8):1550-62.
+   483→   483→Epub 20250623. doi: 10.1002/aur.70076. PubMed PMID: 40546092; PubMed Central
+   484→   484→PMCID: PMC12268268.
+   485→   485→23. Wacongne C, Changeux JP, Dehaene S. A neuronal model of predictive coding
+   486→   486→accounting for the mismatch negativity. J Neurosci. 2012;32(11):3665-78. doi:
+   487→   487→10.1523/JNEUROSCI.5003-11.2012. PubMed PMID: 22423089; PubMed Central PMCID:
+   488→   488→PMC6703454.
+   489→   489→24. May PJ, Tiitinen H. Mismatch negativity (MMN), the deviance-elicited auditory
+   490→   490→deflection, explained. Psychophysiology. 2010;47(1):66-122. Epub 20090721. doi:
+   491→   491→10.1111/j.1469-8986.2009.00856.x. PubMed PMID: 19686538.
+   492→   492→25. Eickhoff SB, Laird AR, Grefkes C, Wang LE, Zilles K, Fox PT. Coordinate-based
+   493→   493→activation likelihood estimation meta-analysis of neuroimaging data: a random-effects
+   494→   494→approach based on empirical estimates of spatial uncertainty. Hum Brain Mapp.
+   495→   495→2009;30(9):2907-26. doi: 10.1002/hbm.20718. PubMed PMID: 19172646; PubMed Central
+   496→   496→PMCID: PMC2872071.
+   497→   497→26. Eickhoff SB, Bzdok D, Laird AR, Kurth F, Fox PT. Activation likelihood estimation
+   498→   498→meta-analysis revisited. Neuroimage. 2012;59(3):2349-61. Epub 20110922. doi:
+   499→   499→10.1016/j.neuroimage.2011.09.017. PubMed PMID: 21963913; PubMed Central PMCID:
+   500→   500→PMC3254820.
+   501→   501→27. Turkeltaub PE, Eickhoff SB, Laird AR, Fox M, Wiener M, Fox P. Minimizing within-
+   502→   502→experiment and within-group effects in Activation Likelihood Estimation meta-analyses.
+   503→   503→Hum Brain Mapp. 2012;33(1):1-13. Epub 20110208. doi: 10.1002/hbm.21186. PubMed
+   504→   504→PMID: 21305667; PubMed Central PMCID: PMC4791073.
+   505→   505→28. Eickhoff SB, Nichols TE, Laird AR, Hoffstaedter F, Amunts K, Fox PT, et al.
+   506→   506→Behavior, sensitivity, and power of activation likelihood estimation characterized by massive
+   507→   507→empirical simulation. Neuroimage. 2016;137:70-85. Epub 20160511. doi:
+   508→   508→11
+   509→   509→
+   510→   510→10.1016/j.neuroimage.2016.04.072. PubMed PMID: 27179606; PubMed Central PMCID:
+   511→   511→PMC4981641.
+   512→   512→29. Acar F, Seurinck R, Eickhoff SB, Moerkerke B. Assessing robustness against
+   513→   513→potential publication bias in Activation Likelihood Estimation (ALE) meta-analyses for
+   514→   514→fMRI. PLoS One. 2018;13(11):e0208177. Epub 20181130. doi:
+   515→   515→10.1371/journal.pone.0208177. PubMed PMID: 30500854; PubMed Central PMCID:
+   516→   516→PMC6267999.
+   517→   517→30. Heilbronner SR, Hayden BY. Dorsal Anterior Cingulate Cortex: A Bottom-Up View.
+   518→   518→Annu Rev Neurosci. 2016;39:149-70. Epub 20160418. doi: 10.1146/annurev-neuro-070815-
+   519→   519→013952. PubMed PMID: 27090954; PubMed Central PMCID: PMC5512175.
+   520→   520→31. D'Cruz AM, Mosconi MW, Ragozzino ME, Cook EH, Sweeney JA. Alterations in the
+   521→   521→functional neural circuitry supporting flexible choice behavior in autism spectrum disorders.
+   522→   522→Transl Psychiatry. 2016;6(10):e916. Epub 20161011. doi: 10.1038/tp.2016.161. PubMed
+   523→   523→PMID: 27727243; PubMed Central PMCID: PMC5315543.
+   524→   524→32. Fan J, Bernardi S, Van Dam NT, Anagnostou E, Gu X, Martin L, et al. Functional
+   525→   525→deficits of the attentional networks in autism. Brain Behav. 2012;2(5):647-60. Epub
+   526→   526→20120827. doi: 10.1002/brb3.90. PubMed PMID: 23139910; PubMed Central PMCID:
+   527→   527→PMC3489817.
+   528→   528→33. Kinard JL, Mosner MG, Greene RK, Addicott M, Bizzell J, Petty C, et al. Neural
+   529→   529→Mechanisms of Social and Nonsocial Reward Prediction Errors in Adolescents with Autism
+   530→   530→Spectrum Disorder. Autism Res. 2020;13(5):715-28. Epub 20200211. doi: 10.1002/aur.2273.
+   531→   531→PubMed PMID: 32043748; PubMed Central PMCID: PMC8112190.
+   532→   532→34. Libero LE, Maximo JO, Deshpande HD, Klinger LG, Klinger MR, Kana RK. The
+   533→   533→role of mirroring and mentalizing networks in mediating action intentions in autism. Mol
+   534→   534→Autism. 2014;5(1):50. Epub 20141014. doi: 10.1186/2040-2392-5-50. PubMed PMID:
+   535→   535→25352976; PubMed Central PMCID: PMC4210608.
+   536→   536→35. Shafritz KM, Dichter GS, Baranek GT, Belger A. The neural circuitry mediating
+   537→   537→shifts in behavioral response and cognitive set in autism. Biol Psychiatry. 2008;63(10):974-
+   538→   538→80. Epub 20071004. doi: 10.1016/j.biopsych.2007.06.028. PubMed PMID: 17916328;
+   539→   539→PubMed Central PMCID: PMC2599927.
+   540→   540→36. Alaerts K, Swinnen SP, Wenderoth N. Neural processing of biological motion in
+   541→   541→autism: An investigation of brain activity and effective connectivity. Sci Rep.
+   542→   542→2017;7(1):5612. Epub 20170717. doi: 10.1038/s41598-017-05786-z. PubMed PMID:
+   543→   543→28717158; PubMed Central PMCID: PMC5514051.
+   544→   544→37. Bathelt J, Koolschijn PCM, Geurts HM. Atypically slow processing of faces and non-
+   545→   545→faces in older autistic adults. Autism. 2022;26(7):1737-51. Epub 20211228. doi:
+   546→   546→10.1177/13623613211065297. PubMed PMID: 34961340; PubMed Central PMCID:
+   547→   547→PMC9483195.
+   548→   548→38. Catarino A, Luke L, Waldman S, Andrade A, Fletcher PC, Ring H. An fMRI
+   549→   549→investigation of detection of semantic incongruities in autistic spectrum conditions. Eur J
+   550→   550→Neurosci. 2011;33(3):558-67. Epub 20101229. doi: 10.1111/j.1460-9568.2010.07503.x.
+   551→   551→PubMed PMID: 21198976.
+   552→   552→39. Charpentier J, Latinus M, Andersson F, Saby A, Cottier JP, Bonnet-Brilhault F, et al.
+   553→   553→Brain correlates of emotional prosodic change detection in autism spectrum disorder.
+   554→   554→Neuroimage Clin. 2020;28:102512. Epub 20201127. doi: 10.1016/j.nicl.2020.102512.
+   555→   555→PubMed PMID: 33395999; PubMed Central PMCID: PMC8481911.
+   556→   556→40. Dunham K, Zoltowski A, Feldman JI, Davis S, Rogers B, Failla MD, et al. Neural
+   557→   557→Correlates of Audiovisual Speech Processing in Autistic and Non-Autistic Youth. Multisens
+   558→   558→Res. 2023;36(3):263-88. Epub 20230119. doi: 10.1163/22134808-bja10093. PubMed PMID:
+   559→   559→36731524; PubMed Central PMCID: PMC10121891.
+   560→   560→12
+   561→   561→
+   562→   562→41. Herrington JD, Baron-Cohen S, Wheelwright SJ, Singh KD, Bullmore ET, Brammer
+   563→   563→M, et al. The role of MT+/V5 during biological motion perception in Asperger Syndrome: An
+   564→   564→fMRI study. Research in Autism Spectrum Disorders. 2007;1(1):14-27. doi:
+   565→   565→10.1016/j.rasd.2006.07.002.
+   566→   566→42. Jack A, Sullivan CAW, Aylward E, Bookheimer SY, Dapretto M, Gaab N, et al. A
+   567→   567→neurogenetic analysis of female autism. Brain. 2021;144(6):1911-26. doi:
+   568→   568→10.1093/brain/awab064. PubMed PMID: 33860292; PubMed Central PMCID: PMC8320285.
+   569→   569→43. Marsh LE, Hamilton AF. Dissociation of mirroring and mentalising systems in
+   570→   570→autism. Neuroimage. 2011;56(3):1511-9. Epub 20110217. doi:
+   571→   571→10.1016/j.neuroimage.2011.02.003. PubMed PMID: 21310248.
+   572→   572→44. Mosner MG, McLaurin RE, Kinard JL, Hakimi S, Parelman J, Shah JS, et al. Neural
+   573→   573→Mechanisms of Reward Prediction Error in Autism Spectrum Disorder. Autism Res Treat.
+   574→   574→2019;2019:5469191. Epub 20190701. doi: 10.1155/2019/5469191. PubMed PMID:
+   575→   575→31354993; PubMed Central PMCID: PMC6634058.
+   576→   576→45. Randeniya R, Vilares I, Mattingley JB, Garrido MI. Increased functional activity,
+   577→   577→bottom-up and intrinsic effective connectivity in autism. Neuroimage Clin. 2023;37:103293.
+   578→   578→Epub 20221213. doi: 10.1016/j.nicl.2022.103293. PubMed PMID: 36527995; PubMed
+   579→   579→Central PMCID: PMC9791168.
+   580→   580→46. Rosenblau G, Korn CW, Dutton A, Lee D, Pelphrey KA. Neurocognitive Mechanisms
+   581→   581→of Social Inferences in Typical and Autistic Adolescents. Biol Psychiatry Cogn Neurosci
+   582→   582→Neuroimaging. 2021;6(8):782-91. Epub 20200715. doi: 10.1016/j.bpsc.2020.07.002. PubMed
+   583→   583→PMID: 32952091.
+   584→   584→47. Stickel S, Weismann P, Kellermann T, Regenbogen C, Habel U, Freiherr J, et al.
+   585→   585→Audio-visual and olfactory-visual integration in healthy participants and subjects with autism
+   586→   586→spectrum disorder. Hum Brain Mapp. 2019;40(15):4470-86. Epub 20190713. doi:
+   587→   587→10.1002/hbm.24715. PubMed PMID: 31301203; PubMed Central PMCID: PMC6865810.
+   588→   588→48. Tesink CM, Buitelaar JK, Petersson KM, van der Gaag RJ, Kan CC, Tendolkar I, et
+   589→   589→al. Neural correlates of pragmatic language comprehension in autism spectrum disorders.
+   590→   590→Brain. 2009;132(Pt 7):1941-52. Epub 20090507. doi: 10.1093/brain/awp103. PubMed PMID:
+   591→   591→19423680.
+   592→   592→49. Tietze FA, Hundertmark L, Roy M, Zerr M, Sinke C, Wiswede D, et al. Auditory
+   593→   593→Deficits in Audiovisual Speech Perception in Adult Asperger's Syndrome: fMRI Study. Front
+   594→   594→Psychol. 2019;10:2286. Epub 20191010. doi: 10.3389/fpsyg.2019.02286. PubMed PMID:
+   595→   595→31649597; PubMed Central PMCID: PMC6795762.
+   596→   596→50. Utzerath C, Schmits IC, Buitelaar J, de Lange FP. Adolescents with autism show
+   597→   597→typical fMRI repetition suppression, but atypical surprise response. Cortex. 2018;109:25-34.
+   598→   598→Epub 20180908. doi: 10.1016/j.cortex.2018.08.019. PubMed PMID: 30286304.
+   599→   599→51. Utzerath C, Schmits IC, Kok P, Buitelaar J, de Lange FP. No evidence for altered up-
+   600→   600→and downregulation of brain activity in visual cortex during illusory shape perception in
+   601→   601→autism. Cortex. 2019;117:247-56. Epub 20190326. doi: 10.1016/j.cortex.2019.03.011.
+   602→   602→PubMed PMID: 31005025.
+   603→   603→52. Shenhav A, Cohen JD, Botvinick MM. Dorsal anterior cingulate cortex and the value
+   604→   604→of control. Nat Neurosci. 2016;19(10):1286-91. doi: 10.1038/nn.4384. PubMed PMID:
+   605→   605→27669989.
+   606→   606→53. Feldman H, Friston KJ. Attention, uncertainty, and free-energy. Front Hum Neurosci.
+   607→   607→2010;4:215. Epub 20101202. doi: 10.3389/fnhum.2010.00215. PubMed PMID: 21160551;
+   608→   608→PubMed Central PMCID: PMC3001758.
+   609→   609→54. Smout CA, Tang MF, Garrido MI, Mattingley JB. Attention promotes the neural
+   610→   610→encoding of prediction errors. PLoS Biol. 2019;17(2):e2006812. Epub 20190227. doi:
+   611→   611→13
+   612→   612→
+   613→   613→10.1371/journal.pbio.2006812. PubMed PMID: 30811381; PubMed Central PMCID:
+   614→   614→PMC6411367.
+   615→   615→55. Lawson RP, Mathys C, Rees G. Adults with autism overestimate the volatility of the
+   616→   616→sensory environment. Nat Neurosci. 2017;20(9):1293-9. Epub 20170731. doi:
+   617→   617→10.1038/nn.4615. PubMed PMID: 28758996; PubMed Central PMCID: PMC5578436.
+   618→   618→56. Garrison J, Erdeniz B, Done J. Prediction error in reinforcement learning: a meta-
+   619→   619→analysis of neuroimaging studies. Neurosci Biobehav Rev. 2013;37(7):1297-310. Epub
+   620→   620→20130406. doi: 10.1016/j.neubiorev.2013.03.023. PubMed PMID: 23567522.
+   621→   621→57. D'Astolfo L, Rief W. Learning about Expectation Violation from Prediction Error
+   622→   622→Paradigms - A Meta-Analysis on Brain Processes Following a Prediction Error. Front
+   623→   623→Psychol. 2017;8:1253. Epub 20170728. doi: 10.3389/fpsyg.2017.01253. PubMed PMID:
+   624→   624→28804467; PubMed Central PMCID: PMC5532445.
+   625→   625→58. Fouragnan E, Retzler C, Philiastides MG. Separate neural representations of
+   626→   626→prediction error valence and surprise: Evidence from an fMRI meta-analysis. Hum Brain
+   627→   627→Mapp. 2018;39(7):2887-906. Epub 20180325. doi: 10.1002/hbm.24047. PubMed PMID:
+   628→   628→29575249; PubMed Central PMCID: PMC6866507.
+   629→   629→59. Corlett PR, Mollick JA, Kober H. Meta-analysis of human prediction error for
+   630→   630→incentives, perception, cognition, and action. Neuropsychopharmacology. 2022;47(7):1339-
+   631→   631→49. Epub 20220111. doi: 10.1038/s41386-021-01264-3. PubMed PMID: 35017672; PubMed
+   632→   632→Central PMCID: PMC9117315.
+   633→   633→60. Muller RA, Kleinhans N, Kemmotsu N, Pierce K, Courchesne E. Abnormal
+   634→   634→variability and distribution of functional maps in autism: an FMRI study of visuomotor
+   635→   635→learning. Am J Psychiatry. 2003;160(10):1847-62. doi: 10.1176/appi.ajp.160.10.1847.
+   636→   636→PubMed PMID: 14514501.
+   637→   637→61. Hahamy A, Behrmann M, Malach R. The idiosyncratic brain: distortion of
+   638→   638→spontaneous connectivity patterns in autism spectrum disorder. Nat Neurosci.
+   639→   639→2015;18(2):302-9. Epub 20150119. doi: 10.1038/nn.3919. PubMed PMID: 25599222.
+   640→   640→62. Sapey-Triomphe LA, Pattyn L, Weilnhammer V, Sterzer P, Wagemans J. Neural
+   641→   641→correlates of hierarchical predictive processes in autistic adults. Nat Commun.
+   642→   642→2023;14(1):3640. Epub 20230619. doi: 10.1038/s41467-023-38580-9. PubMed PMID:
+   643→   643→37336874; PubMed Central PMCID: PMC10279690.
+   644→   644→63. Haghighat H, Mirzarezaee M, Araabi BN, Khadem A. Functional Networks
+   645→   645→Abnormalities in Autism Spectrum Disorder: Age-Related Hypo and Hyper Connectivity.
+   646→   646→Brain Topogr. 2021;34(3):306-22. Epub 20210427. doi: 10.1007/s10548-021-00831-7.
+   647→   647→PubMed PMID: 33905003.
+   648→   648→64. Tavor I, Parker Jones O, Mars RB, Smith SM, Behrens TE, Jbabdi S. Task-free MRI
+   649→   649→predicts individual differences in brain activity during task performance. Science.
+   650→   650→2016;352(6282):216-20. Epub 20160407. doi: 10.1126/science.aad8127. PubMed PMID:
+   651→   651→27124457; PubMed Central PMCID: PMC6309730.
+   652→   652→65. Cole MW, Ito T, Bassett DS, Schultz DH. Activity flow over resting-state networks
+   653→   653→shapes cognitive task activations. Nat Neurosci. 2016;19(12):1718-26. Epub 20161010. doi:
+   654→   654→10.1038/nn.4406. PubMed PMID: 27723746; PubMed Central PMCID: PMC5127712.
+   655→   655→66. Bolling DZ, Pitskel NB, Deen B, Crowley MJ, McPartland JC, Kaiser MD, et al.
+   656→   656→Enhanced neural responses to rule violation in children with autism: a comparison to social
+   657→   657→exclusion. Dev Cogn Neurosci. 2011;1(3):280-94. doi: 10.1016/j.dcn.2011.02.002. PubMed
+   658→   658→PMID: 21743819; PubMed Central PMCID: PMC3129780.
+   659→   659→67. Gomot M, Belmonte MK, Bullmore ET, Bernard FA, Baron-Cohen S. Brain hyper-
+   660→   660→reactivity to auditory novel targets in children with high-functioning autism. Brain.
+   661→   661→2008;131(Pt 9):2479-88. Epub 20080731. doi: 10.1093/brain/awn172. PubMed PMID:
+   662→   662→18669482.
+   663→   663→14
+   664→   664→
+   665→   665→68. Groen WB, Tesink C, Petersson KM, van Berkum J, van der Gaag RJ, Hagoort P, et
+   666→   666→al. Semantic, factual, and social language comprehension in adolescents with autism: an
+   667→   667→FMRI study. Cereb Cortex. 2010;20(8):1937-45. Epub 20091216. doi:
+   668→   668→10.1093/cercor/bhp264. PubMed PMID: 20016003.
+   669→   669→69. Hames EC, Rajmohan R, Fang D, Anderson R, Baker M, Richman DM, et al.
+   670→   670→Attentional Networks in Adolescents with High-functioning Autism: An fMRI Investigation.
+   671→   671→Open Neuroimag J. 2016;10:102-10. Epub 20160930. doi: 10.2174/1874440001610010102.
+   672→   672→PubMed PMID: 27843514; PubMed Central PMCID: PMC5074002.
+   673→   673→70. Sapey-Triomphe LA, Boets B, Van Eylen L, Noens I, Sunaert S, Steyaert J, et al.
+   674→   674→Ventral stream hierarchy underlying perceptual organization in adolescents with autism.
+   675→   675→Neuroimage Clin. 2020;25:102197. Epub 20200125. doi: 10.1016/j.nicl.2020.102197.
+   676→   676→PubMed PMID: 32014827; PubMed Central PMCID: PMC6997624.
+   677→   677→71. Bjornsdotter M, Wang N, Pelphrey K, Kaiser MD. Evaluation of Quantified Social
+   678→   678→Perception Circuit Activity as a Neurobiological Marker of Autism Spectrum Disorder.
+   679→   679→JAMA Psychiatry. 2016;73(6):614-21. doi: 10.1001/jamapsychiatry.2016.0219. PubMed
+   680→   680→PMID: 27096285; PubMed Central PMCID: PMC6475601.
+   681→   681→72. Caria A, Venuti P, de Falco S. Functional and dysfunctional brain circuits underlying
+   682→   682→emotional processing of music in autism spectrum disorders. Cereb Cortex.
+   683→   683→2011;21(12):2838-49. Epub 20110428. doi: 10.1093/cercor/bhr084. PubMed PMID:
+   684→   684→21527791.
+   685→   685→73. Freitag CM, Konrad C, Haberlen M, Kleser C, von Gontard A, Reith W, et al.
+   686→   686→Perception of biological motion in autism spectrum disorders. Neuropsychologia.
+   687→   687→2008;46(5):1480-94. Epub 20080105. doi: 10.1016/j.neuropsychologia.2007.12.025. PubMed
+   688→   688→PMID: 18262208.
+   689→   689→74. Gomot M, Bernard FA, Davis MH, Belmonte MK, Ashwin C, Bullmore ET, et al.
+   690→   690→Change detection in children with autism: an auditory event-related fMRI study. Neuroimage.
+   691→   691→2006;29(2):475-84. Epub 20050822. doi: 10.1016/j.neuroimage.2005.07.027. PubMed
+   692→   692→PMID: 16115783.
+   693→   693→75. Sharer E, Crocetti D, Muschelli J, Barber AD, Nebel MB, Caffo BS, et al. Neural
+   694→   694→Correlates of Visuomotor Learning in Autism. J Child Neurol. 2015;30(14):1877-86. Epub
+   695→   695→20150908. doi: 10.1177/0883073815600869. PubMed PMID: 26350725; PubMed Central
+   696→   696→PMCID: PMC4941625.
+   697→   697→76. Yang YJ, Sukhodolsky DG, Lei J, Dayan E, Pelphrey KA, Ventola P. Distinct neural
+   698→   698→bases of disruptive behavior and autism symptom severity in boys with autism spectrum
+   699→   699→disorder. J Neurodev Disord. 2017;9:1. Epub 20170117. doi: 10.1186/s11689-017-9183-z.
+   700→   700→PubMed PMID: 28115995; PubMed Central PMCID: PMC5240249.
+   701→   701→15
+   702→   702→
+   703→   703→TABLES
+   704→   704→Table 1. Between-Group Experiments Included in the Meta-Analysis
+   705→   705→Author Group sizea Paradigm Experiment Prediction
+   706→   706→ASC > NT
+   707→   707→Bolling et al. 21 ASC; 19 NT Co-players follow or break the rules of a game rule violation > fair play violation
+   708→   708→(66) [Cybershape]
+   709→   709→Gomot et al. 12 ASC; 12 NT Repetitions of standard, novel, and deviant sounds novel > standard violation
+   710→   710→(67) (task version)
+   711→   711→Groen et al. (68) 16 ASC; 26 NT Normal spoken sentences, or speech-like noise normal sentence > speech-like formation
+   712→   712→fragments noise
+   713→   713→Hames et al. 6 ASC; 6 NT Flankers congruent or incongruent with target incongruent > congruent violation
+   714→   714→(69)
+   715→   715→Kinard et al. (33) 22 ASC; 20 NT Cues probabilistically signal upcoming reward or thresholded unsigned prediction violation
+   716→   716→non-reward error [Social condition]
+   717→   717→Libero et al. (34) 21 ASC; 22 NT Agent uses an object in an ordinary or unusual way unusual > ordinary violation
+   718→   718→Sapey-Triomphe 16 ASC; 19 NT Elements move to form recognizable or non- meaningful > meaningless formation
+   719→   719→et al. (70) recognizable objects [Contour and texture]
+   720→   720→Sapey-Triomphe 25 ASC; 26 NT Alternating tones signals upcoming (ambiguous or precision-weighted prediction violation
+   721→   721→et al. (62) unambiguous) rotation direction error [Second-level]
+   722→   722→16
+   723→   723→
+   724→   724→NT > ASC
+   725→   725→Balsters et al. 16 ASC; 20 NT Cues signal upcoming reward or non-reward, for prediction error > predicted violation
+   726→   726→(21) various agents outcome [All agents]
+   727→   727→Björnsdotter et 37 ASC; 37 NTb Elements represent human motion, or scrambled coherent > scrambled motion formation
+   728→   728→al. (71) motion [Replication cohort]
+   729→   729→Bolling et al. 21 ASC; 19 NT Co-players follow or break the rules of a game rule violation > fair play violation
+   730→   730→(66) [Cybershape]
+   731→   731→Caria et al. (72) 8 ASC; 14 NT Music or random sequence of tones [Happy] music > control formation
+   732→   732→[Standard and favorite]
+   733→   733→[Sad] music > control formation
+   734→   734→[Standard and favorite]
+   735→   735→D'Cruz et al. (31) 17 ASC; 23 NT Set-shifting task first reversal > first and following violation
+   736→   736→expected [Four-choice task]
+   737→   737→Fan et al. (32) 12 ASC; 12 NT Cue signal location of an upcoming target invalid > valid cue violation
+   738→   738→Flankers congruent or incongruent with target incongruent > congruent violation
+   739→   739→Freitag et al. 14 ASC; 14 NT Elements represent human motion, or scrambled biological > scrambled motion formation
+   740→   740→(73) motion
+   741→   741→17
+   742→   742→
+   743→   743→Gomot et al. 12 ASC; 12 NT Repetitions of standard, novel, and deviant sounds deviant > standard violation
+   744→   744→(74) (non-task version)
+   745→   745→novel > standard violation
+   746→   746→Gomot et al. [same sample Repetitions of standard, novel, and deviant sounds novel > standard violation
+   747→   747→(67) as (74)] (task version)
+   748→   748→Groen et al. (68) 16 ASC; 26 NT Last word of a statement does or does not violate anomaly > no anomaly violation
+   749→   749→real-world knowledge [World-knowledge]
+   750→   750→Jack et al. (42) 45 ASC; 45 NT Elements represent human motion, or scrambled biological > scrambled motion formation
+   751→   751→motion [Matched female sample]
+   752→   752→Shafritz et al. 15 ASC; 14 NT Repetitions of standard, novel, and target shapes target > [five last] standard violation
+   753→   753→(35)
+   754→   754→novel > [five last] standard violation
+   755→   755→Sharer et al. (75) 17 ASC; 36 NT Target locations follow a set or a random sequence sequence > random formation
+   756→   756→[Run 1]
+   757→   757→Yang et al. (76) 31 ASC; 17 NT Elements represent human motion, or scrambled biological > scrambled formation
+   758→   758→motion [Full sample]
+   759→   759→aParticipants after exclusions and/or within the relevant subset, to the extent specified. bInformation here assumes a typo in the
+   760→   760→referenced study on from which group one participant was excluded to achieve equal sample sizes. ASC, autism spectrum condition; NT,
+   761→   761→neurotypically developing.
+   762→   762→18
+   763→   763→
+   764→   764→Table 2. NT > ASC Results
+   765→   765→MNI
+   766→   766→Area Volume (mm3) ALE Z p x y z
+   767→   767→Medial frontal gyrus 744 0.012 3.76 < .0005 -2 36 28
+   768→   768→Cingulate gyrus 0.011 3.49 < .0005 0 36 22
+   769→   769→ASC, autism spectrum condition; NT, neurotypically developing; MNI, Montreal
+   770→   770→Neurological Institute; ALE, activation likelihood estimation.
+   771→   771→FIGURES
+   772→   772→Figure 1. Overview of the literature search, study selection, and experiment extraction.
+   773→   773→19
+   774→   774→hcraeS
+   775→   775→[autism] and [fMRI or MEG]
+   776→   776→stluseR
+   777→   777→• Medline 3424
+   778→   778→• Embase 4087
+   779→   779→• Web of Science 4149
+   780→   780→• PsycInfo 2763
+   781→   781→Reason
+   782→   782→total 14423 Excluded 8066 • Duplicates
+   783→   783→Reason (primary)
+   784→   784→• No autism group
+   785→   785→gnineercS
+   786→   786→Title/abstract screened 6357 Excluded 5702 • No fMRI/MEG
+   787→   787→• No relevant paradigm
+   788→   788→Reason (primary)
+   789→   789→• No relevant paradigm
+   790→   790→Full text screened 655 Excluded 622 • No relevant experiment
+   791→   791→• No peak coordinates
+   792→   792→dedulcnI
+   793→   793→Studies included 33 Source
+   794→   794→Added 2 • From review by Cannon et al.
+   795→   795→total (all fMRI) 35 • From search in July 2025
+   796→   796→Experiments (before merging)
+   797→   797→• ASC > NT 8
+   798→   798→• NT > ASC 18
+   799→   799→• No group difference 37
+   800→   800→• NT within-group 26
+   801→   801→Experiments (after merging)
+   802→   802→• ASC > NT 8
+   803→   803→• NT > ASC 13
+   804→   804→• No group difference 37
+   805→   805→• NT within-group 17
+   806→   806→
+   807→   807→Adapted from the Preferred Reporting Items for Systematic Reviews and Meta-Analyses
+   808→   808→(PRISMA) 2020 flow diagram [template] (19). ASC, autism spectrum condition; NT,
+   809→   809→neurotypically developing; fMRI, functional magnetic resonance imaging; MEG,
+   810→   810→magnetoencephalography.
+   811→   811→Prediction formation Prediction violation
+   812→   812→Figure 2. Examples of categorization of experiments that provide sufficient (included) and
+   813→   813→insufficient (not included) contrast for prediction formation and violation.
+   814→   814→Figure 3. Converging NT > ASC activation differences in medial frontal gyrus/cingulate gyrus.
+   815→   815→Slice displayed, x = 0.93, y = 34.51, z = 30.00. Legend: ALE values. ASC, autism spectrum
+   816→   816→condition; NT, neurotypically developing; ALE, activation likelihood estimation.
+   817→   817→20
+   818→   818→dedulcnI
+   819→   819→biological > scrambled motion rule violation > fair play
+   820→   820→… since ‘biological’ (compared to ... since a ‘rule violation’ goes
+   821→   821→‘scrambled’) motion result in a counter to an expected state, given
+   822→   822→coherent, predictable percept. specifically the preceding ‘fair play’.
+   823→   823→dedulcni
+   824→   824→toN
+   825→   825→fair play > rule violation scrambled > biological motion
+   826→   826→… since ‘fair play’ is defined by rules ... since ‘scrambled’ (compared to
+   827→   827→selected from an unbounded set of ‘biological’) motion is primarily non-
+   828→   828→alternatives, of which the specific coherent, rather than counter to
+   829→   829→‘rule violation’ is only one instance. specific expectation.
+   830→   830→
+   831→   831→

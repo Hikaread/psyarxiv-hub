@@ -1,0 +1,1047 @@
+     1→     1→NEED CRAFTING INTERVENTION STUDY
+     2→     2→Securing Adolescent Mental Health by Training Need Crafting:
+     3→     3→A Randomized Controlled Trial with School, Leisure, and Social Media
+     4→     4→Outcomes
+     5→     5→Van de Casteele, Marlies,
+     6→     6→Soenens, Bart,
+     7→     7→Van den Bogaard, Daphne,
+     8→     8→Vansteenkiste, Maarten
+     9→     9→Ghent University, Research group Developmental and Motivational Psychology, Department
+    10→    10→of Social, Personality, and Developmental Psychology
+    11→    11→Corresponding author: marlies.vandecasteele@ugent.be, Henri Dunantlaan 2, 9000 Ghent
+    12→    12→Preprint
+    13→    13→This manuscript has been submitted for publication and is currently under peer review. It has
+    14→    14→not yet undergone peer review and should not be considered the final published version.
+    15→    15→If accepted for publication, the final version of record may differ from this preprint.
+    16→    16→Citation:
+    17→    17→Van de Casteele, M., Soenens, B., Van den Bogaard, D., & Vansteenkiste, M. (2026). Securing
+    18→    18→adolescent mental health by training need crafting: A randomized controlled trial with school,
+    19→    19→leisure, and social media outcomes [Preprint].
+    20→    20→1
+    21→    21→
+    22→    22→NEED CRAFTING INTERVENTION STUDY
+    23→    23→Abstract
+    24→    24→Need crafting denotes the active pursuit of experiences that satisfy the basic psychological needs for
+    25→    25→autonomy, competence, and relatedness. This RCT evaluated an online need crafting intervention among
+    26→    26→299 adolescents (M =16.34; 55% girls), examining general and domain-specific (school, leisure, social
+    27→    27→age
+    28→    28→media) effectiveness. The intervention directly improved need crafting and need satisfaction,
+    29→    29→particularly among engaged participants. Serial mediation analyses confirmed that intervention-induced
+    30→    30→increases in need crafting were associated with higher need satisfaction and lower need frustration, in
+    31→    31→turn relating to improved well-being and reduced ill-being. These effects were replicated in the school
+    32→    32→and leisure domains, but not for social media. The findings provide initial evidence for need crafting
+    33→    33→interventions in adolescence. This study was pre-registered on AsPredicted (bv8pj7; November 27,
+    34→    34→2024).
+    35→    35→Keywords: Adolescents, Mental Health, Self-Determination Theory; Basic Psychological Needs,
+    36→    36→Intervention, Social Media
+    37→    37→2
+    38→    38→
+    39→    39→NEED CRAFTING INTERVENTION STUDY
+    40→    40→Adolescence is a developmental period marked by increasing independence, agency, and responsibility,
+    41→    41→particularly in how time is allocated across daily life domains. For example, study time is often
+    42→    42→monitored less closely by parents, and adolescents gain greater decision-making autonomy in how and
+    43→    43→with whom they choose to spend their time (Lionetti et al., 2019). Against this background, the
+    44→    44→substantial increase in adolescents’ engagement with social media (e.g., Faverio & Sidoti, 2025; Nagata
+    45→    45→et al., 2025) has been widely cited as a potential contributor to secular trends of declining adolescent
+    46→    46→mental health (e.g., Faverio & Sidoti, 2025; Nagata et al., 2025). Based on the assumption that time
+    47→    47→spent on social media displaces engagement in other, more enriching activities (Hall & Liu, 2022), recent
+    48→    48→national policy initiatives, recommendations to parents, and interventions aimed at improving
+    49→    49→adolescents’ mental health have largely focused on limiting adolescents’ social media use. However,
+    50→    50→such approaches show small or inconsistent mental health effects (Ferguson et al., 2025; Ferguson, 2025;
+    51→    51→Orben et al., 2026) and do not automatically translate into greater engagement in more enriching
+    52→    52→activities (Hall et al., 2019; Hall & Liu, 2022; Röhlke, 2025). Although social media use has become a
+    53→    53→highly visible focal point in contemporary debates on adolescent mental health, an exclusive focus on
+    54→    54→this single context risks obscuring more fundamental psychological processes that operate across
+    55→    55→multiple life domains.
+    56→    56→Rather than being determined solely by the amount of time spent on particular activities or in
+    57→    57→specific (digital) contexts, Self-Determination Theory (SDT; Ryan & Deci, 2017; Ryan, 2023)
+    58→    58→emphasizes that adolescents’ mental health depends largely on whether their daily activities and social
+    59→    59→interactions are accompanied by satisfaction or frustration of the basic psychological needs for
+    60→    60→autonomy, competence, and relatedness (Vansteenkiste et al., 2020; 2023). Across various contexts such
+    61→    61→as school, leisure, and sport, need satisfaction is consistently associated with better adjustment and well-
+    62→    62→being (e.g., Evans, 2023; Meng et al., 2026), a pattern that extends to social media, where need-based
+    63→    63→experiences were found to matter more for mental health than mere time spent (Van de Casteele et al.,
+    64→    64→2023). Building on this observation, interventions may benefit from shifting their focus from restricting
+    65→    65→specific activities (e.g., social media) toward strengthening adolescents’ ability to proactively seek need-
+    66→    66→fulfilling experiences across different life domains, a skill that may foster resilience when coping with
+    67→    67→rapidly changing developmental contexts (e.g., new technologies). This approach aligns with the
+    68→    68→3
+    69→    69→
+    70→    70→NEED CRAFTING INTERVENTION STUDY
+    71→    71→emphasis in positive psychology on the cultivation of strengths and resources rather than the mere
+    72→    72→reduction of risk behaviors (Csikszentmihalyi & Seligman, 2000).
+    73→    73→The capacity to recognize need-satisfying activities and persons in one’s life and to proactively
+    74→    74→select and give priority to these activities and relationships has been conceptualized as need crafting
+    75→    75→(Laporte et al., 2021). Given its proactive and malleable nature and its robust association with
+    76→    76→adolescents' mental health, need crafting has been highlighted as a particularly relevant target for
+    77→    77→intervention (Laporte et al., 2021, Laporte et al., 2022). Although intervention studies with university
+    78→    78→students and adults suggest that need crafting can be trained (Laporte et al., 2024; van den Bogaard,
+    79→    79→2024, 2025), the effectiveness for adolescents and their generalizability across multiple life domains
+    80→    80→remain largely unexplored (van den Bogaard et al., 2026). Therefore, the current study evaluates a brief
+    81→    81→online intervention designed to strengthen adolescents’ general capacity for need crafting, thereby
+    82→    82→examining not only effects on general need satisfaction and mental health but also on need satisfaction
+    83→    83→and well-being in the specific life domains of school, leisure, and social media.
+    84→    84→Basic Psychological Needs Underlying Adolescent Mental Health Across Contexts
+    85→    85→To move beyond narrow explanations of adolescent mental health (e.g., Ferguson et al., 2025;
+    86→    86→Odgers, 2024), a theoretical framework is needed that captures the underlying psychological processes
+    87→    87→shaping adolescents’ well-being across life domains. Basic Psychological Needs Theory (BPNT;
+    88→    88→Vansteenkiste et al., 2020; 2023), a critical mini-theory within the larger SDT (Ryan, 2023), offers such
+    89→    89→a framework by focusing on fundamental psychological needs that are assumed to be universal across
+    90→    90→contexts and fluctuating circumstances. Within BPNT, individual differences in mental health, both
+    91→    91→within and across contexts, are largely explained by variations in the satisfaction and frustration of the
+    92→    92→basic psychological needs for autonomy, competence, and relatedness (Vansteenkiste et al., 2020; 2023).
+    93→    93→Autonomy refers to experiencing a sense of volition and psychological freedom in one’s actions,
+    94→    94→thoughts, and feelings. Competence reflects experiences of effectiveness and mastery in everyday tasks
+    95→    95→and in the pursuit of meaningful goals. Relatedness involves experiencing a sense of belonging and
+    96→    96→feeling cared for in close and reciprocal relationships.
+    97→    97→These needs are considered essential psychological nutrients: whereas their satisfaction
+    98→    98→promotes well-being and optimal functioning (“bright pathway”), their active frustration undermines
+    99→    99→4
+   100→   100→
+   101→   101→NEED CRAFTING INTERVENTION STUDY
+   102→   102→psychological adjustment and increases vulnerability for mental health problems (“dark pathway”)
+   103→   103→(Vansteenkiste et al., 2023). Research demonstrates the relevance of this dual-process across the lifespan
+   104→   104→(Soenens & Vansteenkiste, 2023) and specifically during adolescence, a developmental period in which
+   105→   105→higher levels of need satisfaction have consistently been associated with better psychosocial adjustment
+   106→   106→and higher well-being, whereas need frustration relates to a range of maladaptive outcomes, including
+   107→   107→emotional dysregulation, difficulties in identity development, and internalizing symptoms (Campbell,
+   108→   108→Boone, et al., 2018; Emery et al., 2016; Luyckx et al., 2009; Lorenz et al., 2026). Importantly, these
+   109→   109→effects manifest across life domains that are central during adolescence, including school (Meng et al.,
+   110→   110→2026), leisure activities (e.g., Evans, 2023; Leversen et al., 2012), and more recently social media use
+   111→   111→(Van de Casteele et al., 2023, 2024). These findings underscore that adolescents’ well-being is not
+   112→   112→shaped within a single domain, but emerges across multiple, interrelated life contexts. In addition, need-
+   113→   113→based experiences in one domain may amplify, compensate for, or undermine experiences in another
+   114→   114→domain (Milyavskaya et al., 2013; Vansteenkiste et al., 2020). For example, adolescents who experience
+   115→   115→a more balanced pattern of need satisfaction across important life domains have been found to report
+   116→   116→higher well-being and better school adjustment, above and beyond the level of need satisfaction within
+   117→   117→each domain separately (Milyavskaya et al., 2009). At the same time, not all life domains may contribute
+   118→   118→equally to well-being. To illustrate, while both offline and online (social media-based) need experiences
+   119→   119→relate to adolescents’ mental health, offline need satisfaction was found to play a more pronounced role
+   120→   120→for mental health outcomes than need satisfaction during social media use (Van de Casteele et al., 2023).
+   121→   121→This points to the importance not only of need-supportive environments, but also of adolescents' own
+   122→   122→active role in seeking out such experiences.
+   123→   123→Need Crafting as an Agentic Pathway to Psychological Need Fulfillment
+   124→   124→Need crafting refers to the capacity to proactively reflect on, select, and shape activities,
+   125→   125→relationships, and contexts that support one’s basic psychological needs for autonomy, competence, and
+   126→   126→relatedness (Laporte et al., 2021). Need crafting comprises two closely intertwined components:
+   127→   127→awareness and action. Awareness concerns insight into which activities, interactions, and contexts
+   128→   128→support one’s psychological needs. Although research consistently shows associations between need
+   129→   129→satisfaction and better mental health, the specific sources and pathways through which these needs are
+   130→   130→5
+   131→   131→
+   132→   132→NEED CRAFTING INTERVENTION STUDY
+   133→   133→fulfilled vary substantially between individuals (Vansteenkiste et al., 2023). To illustrate, some
+   134→   134→adolescents derive need satisfaction from soccer practice, while others find greater fulfillment in
+   135→   135→activities such as music or creative hobbies. Developing awareness of one’s own sources of need
+   136→   136→satisfaction is thus a crucial prerequisite for effective need crafting. Knowing what is personally need-
+   137→   137→satisfying, however, is not sufficient on its own; adolescents are more likely to experience need
+   138→   138→satisfaction when they are both willing and able to act on this awareness. The action component involves
+   139→   139→taking concrete steps to increase the likelihood of encountering need-satisfying experiences. This may
+   140→   140→involve initiating particular activities, modifying how one engages in them, or seeking out specific social
+   141→   141→partners (Laporte et al., 2021). Importantly, this skill requires a degree of experimentation and
+   142→   142→exploration, as individuals need to try out different possibilities to discover what personally fosters a
+   143→   143→sense of autonomy, competence, and relatedness.
+   144→   144→Given adolescents’ increasing cognitive capacities and the central role of exploration during this
+   145→   145→developmental period, adolescence is a particularly salient and perhaps critical phase for the
+   146→   146→development of need crafting skills (Laporte et al., 2021), which may help protect and sustain mental
+   147→   147→health (van den Bogaard et al., 2025). Whereas younger children largely depend on parents, teachers,
+   148→   148→and other socialization figures to have their psychological needs met, adolescents gradually gain greater
+   149→   149→agency in selecting need-conducive activities, relationships, and contexts (Soenens & Vansteenkiste,
+   150→   150→2023). Research has begun to demonstrate the dynamic role of need crafting in mental health during
+   151→   151→adolescence. Longitudinal and diary studies showed that adolescents’ need crafting fluctuates
+   152→   152→substantially within adolescents across time, with daily within-person increases in need crafting being
+   153→   153→systematically associated with more need satisfaction and well-being (Laporte et al., 2022; van den
+   154→   154→Bogaard et al., 2025). This protective and dynamic role of need crafting is promising in the light of
+   155→   155→recent calls for interventions among adolescents that foster strengths and resilience in this age group
+   156→   156→rather than merely reducing vulnerabilities (e.g., Vrijen & Soenens, 2026).
+   157→   157→Building on this rationale, LifeCraft was developed – an online, structured, and individual
+   158→   158→intervention comprising a mixture of psychoeducation, brainstorms, and action plans to engage in need
+   159→   159→crafting. An initial study during the COVID-19 pandemic showed that adults who completed the training
+   160→   160→showed improvements in need crafting, need satisfaction, and well-being compared to a passive control
+   161→   161→6
+   162→   162→
+   163→   163→NEED CRAFTING INTERVENTION STUDY
+   164→   164→group, with effects persisting for up to one month after the intervention (Laporte et al., 2024). These
+   165→   165→effects occurred mainly among participants displaying high engagement during the online program.
+   166→   166→Subsequent studies have replicated and extended these findings to university students (van den Bogaard
+   167→   167→et al., 2024, 2025). To date, however, research on need crafting interventions in adolescent samples
+   168→   168→remains scarce (van den Bogaard et al., 2026). Consequently, it is important to examine whether
+   169→   169→LifeCraft is also effective for adolescents, who may benefit strongly from preventive attempts to
+   170→   170→strengthen their mental health.
+   171→   171→Moreover, the effectiveness of need crafting interventions has to date only been examined at the
+   172→   172→level of general need satisfaction, leaving open the question of whether training need crafting yields
+   173→   173→domain-specific effects across life domains that are central to adolescents (e.g., school, leisure, social
+   174→   174→media). This is a theoretically relevant question, given that within SDT, need-based experiences are
+   175→   175→understood to operate at multiple levels, including the general, domain, and experience level, each of
+   176→   176→which independently and jointly contributes to well-being (Milyavskaya et al., 2012; Vallerand, 1997).
+   177→   177→Although prior correlational research points to the potential beneficial role of need crafting in specific
+   178→   178→domains such as education (Huang et al., 2024; Reeve & Tseng, 2011), physical activity (Sheldon et al.,
+   179→   179→2020), and social media use (Van de Casteele et al., 2025), differential effects of need crafting across
+   180→   180→contexts have not yet been experimentally tested. The LifeCraft intervention program is domain-
+   181→   181→unspecified, leaving participants free to reflect on and choose in which domain they want to pursue
+   182→   182→need-based experiences. Consequently, finding variety across domains would provide indirect evidence
+   183→   183→that adolescents spontaneously invest their newly developed need crafting skills more in contexts that
+   184→   184→are deeply conducive to need fulfillment, consistent with SDT's organismic dialectical perspective (Ryan
+   185→   185→& Vansteenkiste, 2023) and with findings suggesting that, for example, offline need-based experiences
+   186→   186→contribute more strongly to mental health than those arising from social media use (Van de Casteele et
+   187→   187→al., 2024). Alternatively, similar effectiveness across domains would highlight need crafting as a trans-
+   188→   188→contextual skill, suggesting that strength and resilience interventions may be as effective as, or even
+   189→   189→preferable to, context-specific approaches.
+   190→   190→Hypotheses
+   191→   191→7
+   192→   192→
+   193→   193→NEED CRAFTING INTERVENTION STUDY
+   194→   194→The present study examines the effectiveness of an adolescent-adapted version of LifeCraft
+   195→   195→(Laporte et al., 2024; van den Bogaard et al., 2024, 2025), using a Randomized Controlled Trial (RCT)
+   196→   196→including an intervention and passive control group. Program effects were first examined at the general
+   197→   197→level, capturing adolescents’ general need crafting, need-based experiences (i.e., need satisfaction,
+   198→   198→frustration), and mental health (i.e., well-being, ill-being). Second, effects were tested at the domain-
+   199→   199→level, by evaluating the effects of the intervention on domain-specific need crafting, need satisfaction,
+   200→   200→and well-being. Three domains were selected based on prior work (e.g., Van de Casteele et al., 2023),
+   201→   201→that is school, leisure, and social media. Three overarching hypotheses guided the evaluation of the
+   202→   202→program’s effectiveness.
+   203→   203→First, the study examined whether participation in LifeCraft compared to the control condition
+   204→   204→predicted direct changes in adolescents’ need crafting (i.e., hypothesized mechanism of change), need-
+   205→   205→based experiences (i.e., primary outcomes), and mental health (i.e., secondary outcomes). We expected
+   206→   206→significant program effects (Hypothesis 1), as reflected in stronger increases in need crafting, need
+   207→   207→satisfaction, and well-being, and stronger decreases in need frustration and ill-being from pre- to post-
+   208→   208→measurement among participants in the experimental condition. Given the short duration of the
+   209→   209→intervention, we expected that these effects might attenuate at follow-up but would remain detectable.
+   210→   210→As for the domain-specific tests, given the paucity of prior research, no explicit hypotheses were
+   211→   211→formulated regarding the domains in which the effects would be most pronounced.
+   212→   212→Second, the study examined whether the effectiveness of the program would depend on
+   213→   213→participants’ engagement within the intervention (i.e., homework assignments). Building on prior
+   214→   214→interventions (Laporte et al., 2024; van den Bogaard et al., 2024, 2025), we expected that adolescents
+   215→   215→with higher engagement will experience more positive changes in need crafting, need-based
+   216→   216→experiences, and mental health, whereas weaker or no effects would emerge among participants with
+   217→   217→low engagement relative to the control group (Hypothesis 2). Again, this hypothesis was first tested at
+   218→   218→the general level and consequently at the domain-specific level.
+   219→   219→Third, the study examined whether need crafting functioned as a mechanism explaining
+   220→   220→potential program effects. We expected indirect effects on mental health (i.e., secondary outcomes)
+   221→   221→through changes in need crafting (i.e., the mechanism of change) and subsequent changes in need-based
+   222→   222→8
+   223→   223→
+   224→   224→NEED CRAFTING INTERVENTION STUDY
+   225→   225→experiences (i.e., primary outcomes) from pre- to post- measurement (Hypothesis 3). The domain-level
+   226→   226→tests are restricted to the “bright pathway” from intervention-induced need crafting to well-being via
+   227→   227→need satisfaction separately for the domains of school, leisure, and social media.
+   228→   228→Method
+   229→   229→Participants and Procedure
+   230→   230→The sample, which was collected in two waves (October 2023 and October 2024), consisted of
+   231→   231→299 adolescents (M = 16.34; SD = .77; range 15-18), with 55% identifying as female, 66% following
+   232→   232→age
+   233→   233→an academic track and 97.9% having a Belgian nationality. Participants were randomly assigned to the
+   234→   234→control (46.5%) or intervention (53.5%) condition. All participants filled out a baseline questionnaire.
+   235→   235→Drop-out across the study can be consulted in Figure S1 (supplementary material).
+   236→   236→Participant recruitment and follow-up were embedded in a Developmental Psychology course,
+   237→   237→in which each undergraduate student recruited one adolescent participant (aged 15 to 18 years),
+   238→   238→excluding close relationships (e.g., family members or individuals from their youth associations). To
+   239→   239→ensure an equal gender distribution, students were assigned to recruit either a male or female participant.
+   240→   240→Prior to recruitment, the undergraduate students were extensively trained in a series of skill sessions.
+   241→   241→First, they were familiarized with the theoretical framework underlying the study and the overall
+   242→   242→research design. Second, they received practical training on how to approach, inform, and follow up
+   243→   243→with participants, including guidance on handling various scenarios they might encounter. Ethical
+   244→   244→aspects of participant recruitment and data collection were addressed explicitly. To ensure procedural
+   245→   245→standardization, students also received a detailed step-by-step manual outlining all required research
+   246→   246→procedures, including standardized information to be communicated to participants, and a standardized
+   247→   247→SMS schedule to remind participants of upcoming intervention sessions. All students signed a
+   248→   248→confidentiality agreement prior to contacting potential participants, committing to not disclose any
+   249→   249→information obtained from participants.
+   250→   250→During a home visit, the undergraduate student explained the study practicalities and was available
+   251→   251→for questions while participants completed a baseline questionnaire. All other questionnaires and
+   252→   252→intervention links, including a reminder if no reply was given, were sent by the first author through
+   253→   253→Qualtrics. The intervention phase started on Monday. Participants in the intervention group received an
+   254→   254→9
+   255→   255→
+   256→   256→NEED CRAFTING INTERVENTION STUDY
+   257→   257→online session and participants in the control condition a brief questionnaire on Monday, Wednesday
+   258→   258→and Friday, for two consecutive weeks. On the Sunday following the sixth session, participants
+   259→   259→completed a post-measurement questionnaire. A final follow-up questionnaire was sent two weeks after
+   260→   260→the post-measurement. Approval for this study procedure was given by the faculty's Ethical Committee
+   261→   261→(2022-114). Informed consent was obtained from all participating adolescents, and at least one caregiver
+   262→   262→provided active written consent. This study was pre-registered on AsPredicted
+   263→   263→(https://aspredicted.org/bv8pj7.pdf); at the time of pre-registration, part of the data had already been
+   264→   264→collected (wave 1).
+   265→   265→Program
+   266→   266→To ensure age-appropriateness, focus groups with adolescents were conducted prior to
+   267→   267→implementation, in which participants evaluated existing intervention materials (Laporte et al., 2024;
+   268→   268→van den Bogaard et al., 2024, 2025) on three dimensions: (1) clarity (e.g., vocabulary), (2) format (e.g.,
+   269→   269→session length, spacing), and (3) appeal (e.g., types of videos). Feedback was subsequently used to
+   270→   270→develop new intervention material (e.g., examples, video material) to the specific needs and preferences
+   271→   271→of an adolescent population.
+   272→   272→The intervention consisted of six online sessions spread across two weeks (Monday,
+   273→   273→Wednesday, Friday). In session one, participants were introduced to the targeted concepts (i.e., basic
+   274→   274→psychological needs and need crafting) through an adolescent-friendly animated video. Each of the six
+   275→   275→sessions focused on one basic psychological need (i.e., autonomy, competence or relatedness) and
+   276→   276→included: (a) a challenge to seek a need satisfying experience, which was introduced via a short video
+   277→   277→message, (b) an exercise to brainstorm potential activities, (c) peer testimonials presented in video
+   278→   278→format, and (d) completion of an action plan in which participants specified what activity they would
+   279→   279→undertake, when, where, and with whom, as well as potential obstacles and strategies to address them
+   280→   280→(Seo et al., 2017). A seventh optional session consisted of a set of consolidation exercises. Table S1
+   281→   281→(Supplementary Material) provides an overview of the intervention content in more detail.
+   282→   282→Measures
+   283→   283→An identical survey was administered at the pre-, post- and follow-up measurement. Internal
+   284→   284→consistencies were generally good to excellent for the general-level study variables (α = .81-.90) and
+   285→   285→10
+   286→   286→
+   287→   287→NEED CRAFTING INTERVENTION STUDY
+   288→   288→domain-level well-being and need satisfaction scales (α = .77-.90). Reliability was somewhat lower for
+   289→   289→domain-specific need crafting scales, particularly for social media need crafting at T1 and T2 (α = .51
+   290→   290→and .46, respectively), which should be taken into account when interpreting findings involving these
+   291→   291→scales. More details are presented in Table S2 in the Supplementary Material.
+   292→   292→Need Crafting. A 12-item version of the Need Crafting Scale (NCS; Laporte et al., 2021, see
+   293→   293→for example van den Bogaard et al., 2025) was used to measure need crafting at the general-level. For
+   294→   294→each psychological need, four items were retained: two assessing awareness (e.g., “last week it was
+   295→   295→clear to me which people love me, and which people I love”) and two assessing action (e.g., “last week
+   296→   296→I tried to do things as much as possible that I really wanted to do rather than things that had to be
+   297→   297→done”). In addition, three domain-specific action items were used per domain to assess need crafting
+   298→   298→within school, leisure and social media (e.g., “[domain specific stem + I tried as much as possible
+   299→   299→to]…to do things I am good at (competence crafting).” All items were rated on a 7-point Likert scale
+   300→   300→ranging from 1 (“completely not true”) to 7 (“completely true”).
+   301→   301→Need Satisfaction and -Frustration. Need satisfaction and frustration were assessed using a
+   302→   302→12-item version of the Basic Psychological Need Satisfaction and Frustration Scale (BPNSNF; Chen et
+   303→   303→al., 2015; see for example Van de Casteele et al., 2023) within each of the three domains (i.e., school,
+   304→   304→leisure, social media). Need satisfaction (e.g., “[domain specific stem]…I felt confident that I could do
+   305→   305→things well”) and need frustration (e.g., “[domain specific stem]…most things I did felt like ‘I had to’”)
+   306→   306→were each time assessed using six items. All items were rated on a 5-point Likert scale ranging from 1
+   307→   307→(“completely not true”) to 5 (“completely true”). As no general-level measure of need satisfaction and
+   308→   308→frustration was included in the questionnaire, composite scores were computed by averaging the
+   309→   309→domain-specific scores across the three domains, serving as proxies for general need satisfaction and
+   310→   310→frustration, respectively. In the domain-level analyses, domain-specific scores were used.
+   311→   311→Well-being. General well-being was assessed using a composite score combining indicators of
+   312→   312→subjective vitality and life satisfaction. Subjective vitality was measured with the six items of the vitality
+   313→   313→measure (Ryan & Frederick, 2023; e.g., “Last week I felt a sense of liveliness and spark.”). Life
+   314→   314→satisfaction was assessed with one item from the Satisfaction with Life Scale (SWLS; Diener et al.,
+   315→   315→1985; “Last week I was satisfied with my life”). In addition, domain-specific well-being was assessed
+   316→   316→11
+   317→   317→
+   318→   318→NEED CRAFTING INTERVENTION STUDY
+   319→   319→with three vitality items per domain (e.g., “[domain specific stem]… I felt energetic.”). All items were
+   320→   320→measured on a 5-point Likert scale ranging from 1 (“completely disagree”) to 5 (“completely agree”).
+   321→   321→Ill-Being. Ill-being was assessed using a composite score consisting of 12 items capturing
+   322→   322→symptoms of anxiety and depression. Anxiety was measured with six items from the short form of the
+   323→   323→State-Trait Anxiety Inventory (STAI; Marteau & Bekker, 1992; e.g., “Last week I felt tense.”
+   324→   324→Depressive affect was assessed with six items from the Center for Epidemiologic Studies Depression
+   325→   325→Scale (CES-D; Radloff, 1977; e.g., “Last week I felt depressed.”. All items were rated on a 4-point
+   326→   326→Likert scale ranging from 1 (“almost never”) to 4 (“almost always”).
+   327→   327→Program Engagement
+   328→   328→In the beginning of the online sessions, adolescents in the experimental condition indicated the
+   329→   329→extent to which they had executed their action plan prior to the introduction of the next challenge. This
+   330→   330→item was rated on a 5-point Likert scale ranging from 1 (“not executed at all”) to 5 (“fully executed”).
+   331→   331→Responses of 4 (“almost completely executed”) and 5 (“completely executed”) were interpreted as
+   332→   332→indicating sufficient engagement and were therefore recoded as 1. Responses ranging from 1 to 3 were
+   333→   333→recoded as 0, reflecting low engagement. These dichotomous scores were summed across modules to
+   334→   334→obtain a total engagement score ranging from 0 to 6. Participants were classified as highly engaged
+   335→   335→(coded as 1) if they obtained a total score of 4 or higher, and as lowly engaged (coded as 0) if they scored
+   336→   336→3 or lower. This operationalization is consistent with previous LifeCraft studies (Laporte et al., 2024;
+   337→   337→van den Bogaard et al., 2024).
+   338→   338→Analytic Strategy
+   339→   339→The analytic strategy followed prior intervention studies (Laporte et al., 2024; van den Bogaard
+   340→   340→et al., 2024). All data processing, R-codes and Mplus files can be consulted via OSF
+   341→   341→(https://osf.io/4bv7y). The main hypotheses were examined using latent change models (LCMs) in
+   342→   342→Mplus X (Muthén & Muthén, 2017). LCMs estimates change over time by modelling latent variables
+   343→   343→for both intercepts (initial levels) and slopes (change) (Beyers & Goossens, 2008). Model fit was
+   344→   344→evaluated using RMSEA, SRMR, and CFI, with values of RMSEA and SRMR < .08 and CFI ≥ .90
+   345→   345→indicating acceptable fit. Missing data were handled using full information maximum likelihood.
+   346→   346→12
+   347→   347→
+   348→   348→NEED CRAFTING INTERVENTION STUDY
+   349→   349→Unconditional Latent Change Models. First, unconditional models were specified including
+   350→   350→a latent intercept and two latent change factors (T1-T2 and T2-T3). These models captured mean-level
+   351→   351→change and individual differences in initial levels and change. Interpretation of condition effects on
+   352→   352→slopes depends on the direction of mean-level change. For constructs that were multidimensional, an
+   353→   353→internal-consistency approach was applied (Kishton & Widaman, 1994), using the corresponding
+   354→   354→subscales as indicators of the latent variables. Need crafting was indicated by the autonomy,
+   355→   355→competence, and relatedness subscales. For need satisfaction and frustration, domain-specific autonomy,
+   356→   356→competence, and relatedness subscales were used, with general scores computed by averaging across
+   357→   357→domains. Well-being was indicated by life satisfaction and vitality, and ill-being by depressive
+   358→   358→symptoms and fatigue. In the domain-specific models, need crafting and well-being were modeled at
+   359→   359→the item level, whereas need satisfaction was specified using domain-specific subscales.
+   360→   360→Hypothesis Testing. All hypotheses were examined using a two-step approach: first, general-
+   361→   361→level models testing overall effects; second, domain-specific models examining generalization across
+   362→   362→school, leisure, and social media. All primary analyses statistically controlled for age, gender, education
+   363→   363→type, and the timing of the baseline questionnaire. To test hypothesis 1, a first series of LCMs included
+   364→   364→condition as a predictor (dummy coded: 0 = control condition; 1 = experimental condition). To address
+   365→   365→Hypothesis 2, a second series of LCMs examined the role of program engagement. Two dummy
+   366→   366→variables were created, contrasting the control group with the high- (dummy 1) and low-engagement
+   367→   367→(dummy 2) groups. To test hypothesis 3, serial mediation LCMs were estimated to examine whether
+   368→   368→intervention-induced need crafting predicted mental health through changes in need-based experiences.
+   369→   369→Indirect effects were evaluated using the Model Indirect command in Mplus.
+   370→   370→Results
+   371→   371→Preliminary Analysis
+   372→   372→Descriptives and Background Characteristics
+   373→   373→Descriptive statistics for the study variables are presented in Table S2. Correlations among the
+   374→   374→general study variables are presented in Table 1. To examine whether baseline study variables differed
+   375→   375→as a function of background characteristics, we conducted four MANCOVAs with gender, age,
+   376→   376→education type, and the timing of the baseline survey (i.e., whether the baseline questionnaire was
+   377→   377→13
+   378→   378→
+   379→   379→NEED CRAFTING INTERVENTION STUDY
+   380→   380→completed during the autumn vacation) as predictors of the study variables at baseline (one for the
+   381→   381→general-level outcomes and three for the domain-specific outcomes). Gender showed a multivariate
+   382→   382→effect in the general model (Wilks’ Λ = .84, F(5, 290) = 11.04, p < .001) and in the social media domain
+   383→   383→model (Wilks’ Λ = .89, F(4, 291) = 11.04, p < .001), but not in the school or leisure domain models.
+   384→   384→Univariate tests and adjusted means are reported in Table S3 (supplementary materials). Specifically,
+   385→   385→participants identifying as female reported lower general need crafting, need satisfaction, and well-
+   386→   386→being, and higher general need frustration and ill-being compared to those identifying as male. In the
+   387→   387→social media domain model, univariate analyses revealed a significant effect only for need satisfaction,
+   388→   388→with participants identifying as female reporting lower need satisfaction during social media use
+   389→   389→compared to those identifying as male. No other significant multivariate effects were observed.
+   390→   390→Baseline Differences Between the Conditions
+   391→   391→To examine whether the experimental and control conditions differed in background
+   392→   392→characteristics and baseline scores on the study variables, independent-samples t-tests were conducted
+   393→   393→for continuous variables (age and all study variables) and chi-square tests for categorical variables
+   394→   394→(gender, nationality, education type, and timing of the baseline questionnaire). The results of these
+   395→   395→analyses are presented in Table S4 (supplementary materials). No significant differences between
+   396→   396→conditions were found for either background characteristics or baseline study variables, indicating that
+   397→   397→the groups were comparable prior to the intervention.
+   398→   398→Drop-Out Analyses
+   399→   399→First, drop-out during the program (experimental group) or during the diary assessments (control
+   400→   400→group) was operationalized as a count variable reflecting the total number of days participated (range =
+   401→   401→0-6). Poisson regression analyses indicated that participation was not significantly predicted by
+   402→   402→condition, baseline study variables, or background characteristics. Second, drop-out at post-test and
+   403→   403→follow-up measurements was coded as a binary variable (1 = missing, 0 = observed). Logistic regression
+   404→   404→analyses showed that attrition at post-test and follow-up was not predicted by condition, baseline study
+   405→   405→variables, or background characteristics, with the exception of gender, which was significantly
+   406→   406→associated with attrition at follow-up. Specifically, participants identifying as female had approximately
+   407→   407→50% lower odds of attrition at follow-up (p < .05).
+   408→   408→14
+   409→   409→
+   410→   410→NEED CRAFTING INTERVENTION STUDY
+   411→   411→Primary Analysis
+   412→   412→Unconditional Models
+   413→   413→We first estimated five unconditional LCMs for the general study variables to investigate mean-
+   414→   414→level change and variability in change in general need crafting, need satisfaction, need frustration, well-
+   415→   415→being, and ill-being (see Table S5 in the supplementary materials). Results indicated a significant mean-
+   416→   416→level decrease in need crafting and well-being, and a mean-level increase in need frustration and ill-
+   417→   417→being from pre- to post-measurement (T1 to T2). No mean-level change was found for need satisfaction
+   418→   418→during this interval. In addition, a significant mean-level decrease in need crafting and need satisfaction,
+   419→   419→and an increase in need frustration, was found from post- to follow-up measurement (T2 to T3). No
+   420→   420→mean-level change was observed for well-being and ill-being between post- and follow-up
+   421→   421→measurement.
+   422→   422→Next, similar unconditional LCMs were tested for the domain-specific variables (see Table S5
+   423→   423→in the supplementary materials), showing that these trends were especially noticeable in the school and
+   424→   424→leisure domains, but not in the social media domain. Specifically, mean-level decreases in school need
+   425→   425→satisfaction, leisure need crafting, and leisure need satisfaction were observed from pre- to post-
+   426→   426→measurement. From post- to follow-up, a further significant decrease in school need crafting was
+   427→   427→observed. No other mean-level changes were significant during this interval. Taken together, this pattern
+   428→   428→suggests a general deterioration in adolescents’ need-related experiences and mental health, especially
+   429→   429→within the school and leisure domains, across the study period, which partly overlapped with the period
+   430→   430→leading up to adolescents’ exams.
+   431→   431→Hypothesis 1: Effects of Condition
+   432→   432→Effects of the general LCMs examining the effect of condition on general need crafting, need
+   433→   433→satisfaction, need frustration, well-being, and ill-being were estimated in separate models which are
+   434→   434→presented in Table 2. All models showed acceptable to excellent fit (CFI: .889-1.000, RMSEA: .000-
+   435→   435→.061, SRMR: .022-.096). Across outcomes, condition effects were observed for need crafting (i.e.,
+   436→   436→mechanism of change) and need satisfaction (i.e., primary outcome) for the change from pre- to post-
+   437→   437→measurement, while no direct effects were found on need frustration (i.e., primary outcome) and the
+   438→   438→secondary outcomes (i.e., well-being and ill-being). Specifically, a significant positive effect of
+   439→   439→15
+   440→   440→
+   441→   441→NEED CRAFTING INTERVENTION STUDY
+   442→   442→condition on latent change from pre- to post-measurement emerged for both variables. Consistent with
+   443→   443→the declining mean-level trajectories observed in the unconditional models for need crafting, this effect
+   444→   444→indicates that decreases in need crafting were less pronounced among adolescents in the experimental
+   445→   445→condition compared to those in the control condition. For need satisfaction, for which no overall mean-
+   446→   446→level change was observed, this effect indicates that adolescents in the experimental condition showed
+   447→   447→a more positive change than those in the control condition. No significant condition effects were
+   448→   448→observed for subsequent change from post- to follow-up after accounting for the initial change,
+   449→   449→indicating that the intervention-related improvements in need crafting and need satisfaction were largely
+   450→   450→maintained over the follow-up period. In other words, although no additional gains were observed after
+   451→   451→the intervention, the initial improvements did not diminish over time.
+   452→   452→Domain-specific LCMs testing the effects of condition on domain-specific need crafting, need
+   453→   453→satisfaction, and well-being indicated that the condition effects on need crafting and need satisfaction
+   454→   454→were internally replicated in the school and leisure domains, but not in the social media domain (see
+   455→   455→Table 2). Specifically, significant positive effects of condition were found for change from pre- to post-
+   456→   456→measurement in need crafting and need satisfaction in the school domain, and need satisfaction in the
+   457→   457→leisure domain, indicating more positive changes in these variables for adolescents in the experimental
+   458→   458→condition compared to those in the control condition. In contrast, a significant negative effect of
+   459→   459→condition emerged for change in leisure need crafting from pre- to post-measurement, indicating a more
+   460→   460→negative change in leisure need crafting among adolescents in the experimental condition two weeks
+   461→   461→after following the program. This latter finding stands in contrast to the other observed condition effects.
+   462→   462→No other significant condition effects were observed in the domain-specific models.
+   463→   463→Hypothesis 2: Effect of program engagement
+   464→   464→To test the effects of program engagement, two dummies were created, contrasting (1) high
+   465→   465→engagement in the experimental condition (58%) versus the control group, and (2) low engagement
+   466→   466→(43%) versus the control group. Effects of program engagement are reported in Table 2. All models
+   467→   467→showed good to excellent fit (CFI: .904-1.000, RMSEA: .011-.055, SRMR: .022-.089). Consistent with
+   468→   468→the findings for Hypothesis 1, significant effects from pre- to post-measurement were observed only for
+   469→   469→need crafting and need satisfaction, but not for need frustration, well-being and ill-being. However, these
+   470→   470→16
+   471→   471→
+   472→   472→NEED CRAFTING INTERVENTION STUDY
+   473→   473→effects occurred exclusively for the high engagement contrast. No significant effects were observed for
+   474→   474→the low engagement contrast or for the other outcomes.
+   475→   475→Domain-specific LCMs showed a similar pattern. Specifically, the previously observed effects
+   476→   476→from T1 to T2 in the school and leisure domains emerged only for participants who were highly engaged
+   477→   477→in the program, but not for participants with low engagement, relative to the control group. In addition
+   478→   478→to the findings of Hypothesis 1, a significant positive effect of condition on changes in leisure need
+   479→   479→crafting emerged from pre- to post, but again only for the high engagement contrast. Importantly, from
+   480→   480→post- to follow-up measurement, a negative effect for low engagement contrast emerged for school need
+   481→   481→satisfaction, indicating that participants with low engagement in the program showed stronger decreases
+   482→   482→in school need satisfaction compared to the control group, whereas no such effects emerge for the high
+   483→   483→engagement contrast. Consistent with this pattern, the previously observed decrease in leisure need
+   484→   484→crafting from T2 to T3 was not significant for the high engagement group and is likely only present for
+   485→   485→low engaged participants given that the low engagement contrast was marginally significant.
+   486→   486→Hypothesis 3: Serial Indirect Effects Models
+   487→   487→The third aim was to test whether need crafting functions as an intervening variable explaining
+   488→   488→the effects of the program on need-based experiences and mental health. A serial indirect effects LCM
+   489→   489→for the general study variables from pre- to post-measurement was tested as depicted in Figure 1. The
+   490→   490→results showed that the program effect on need crafting was significant and positive for the high-
+   491→   491→engagement group (i.e., mechanism of change). In turn, increases (or less pronounced decreases) in need
+   492→   492→crafting were positively associated with increases in need satisfaction and decreases in need frustration
+   493→   493→(i.e., primary outcomes), which were in turn related to higher well-being and lower ill-being (i.e.,
+   494→   494→secondary outcomes), respectively. Moreover, both indirect paths were significant for the high
+   495→   495→engagement contrast, but not for the low engagement contrast. Specifically, the overall indirect effect
+   496→   496→from the high engagement contrast to well-being via increases in need crafting and subsequent need
+   497→   497→satisfaction was significant (β = .22, SE = .06, p < .001). Similarly, the overall indirect effect from the
+   498→   498→high-engagement group contrast to ill-being through increases in need crafting and subsequent decreases
+   499→   499→in need frustration was significant (β = -.08, SE = .03, p = .003). In contrast, the low engagement contrast
+   500→   500→17
+   501→   501→
+   502→   502→NEED CRAFTING INTERVENTION STUDY
+   503→   503→yielded no significant indirect effects, neither for well-being (β = .08, SE = .05, p = .125) nor for ill-
+   504→   504→being (β = -.03, SE = .02, p = .109).
+   505→   505→Finally, domain-specific serial indirect effects LCMs1 yielded a similar pattern in the school and
+   506→   506→leisure domain. In the school domain (see Figure 2), the indirect effect for the high-engagement group
+   507→   507→relative to the control group was significant (β = .19, SE = .07, p = .009). A smaller but still significant
+   508→   508→indirect effect was also observed for the low engagement contrast (β = .15, SE = .07, p = .042). In the
+   509→   509→leisure domain, the indirect effect was significant for the high engagement contrast (β = .19, SE = .08,
+   510→   510→p = .015), whereas no indirect effect was observed for the low engagement contrast (β = -.03, SE = .10,
+   511→   511→p = .791).
+   512→   512→Discussion
+   513→   513→Grounded in SDT (Ryan, 2023) and aligned with a positive psychology perspective
+   514→   514→(Csikszentmihalyi & Seligman, 2000), the present study evaluated the effectiveness of an intervention
+   515→   515→designed to train adolescents in need crafting – the skill to proactively recognize and seek out
+   516→   516→experiences that satisfy one's basic psychological needs for autonomy, competence, and relatedness. To
+   517→   517→this end, 299 adolescents were randomly assigned to either a six-session online intervention or a passive
+   518→   518→control condition, with assessments at baseline, post-intervention, and a two-week follow-up. Given the
+   519→   519→promising associations between need crafting and mental health outcomes (Laporte et al., 2021; 2022;
+   520→   520→van den Bogaard et al., 2025), need crafting represents a particularly relevant intervention target,
+   521→   521→positioning adolescents as proactive agents who actively shape their day-to-day activities and
+   522→   522→relationships rather than merely responding to their environment. By examining intervention effects
+   523→   523→across multiple life domains, namely school, leisure, and social media, the present study also speaks to
+   524→   524→the potential of need crafting as a trans-contextual skill that may foster resilience across changing
+   525→   525→developmental conditions (e.g., emergence of new technologies, shifting peer norms, changes in
+   526→   526→academic demands).
+   527→   527→Effectiveness of the Intervention on General Mental Health Outcome
+   528→   528→1 Given the lack of significant effect (Hypothesis 1, 2) no serial mediation model is presented for the social media domain.
+   529→   529→18
+   530→   530→
+   531→   531→NEED CRAFTING INTERVENTION STUDY
+   532→   532→The findings are largely consistent with the reported effects of similar interventions among
+   533→   533→adults (Laporte et al., 2024) and higher education students (van den Bogaard et al., 2024, 2025) and
+   534→   534→extend these findings to an adolescent-tailored version of the program. Three overarching findings
+   535→   535→replicated prior work: (1) the intervention successfully increased need crafting (i.e., hypothesized
+   536→   536→mechanism of change) and need satisfaction (i.e., primary outcome), (2) program engagement played a
+   537→   537→crucial role in intervention effectiveness, and (3) the hypothesized sequential process was confirmed
+   538→   538→through the serial indirect effects model.
+   539→   539→Specifically, having gone through the intervention, adolescents showed more favorable changes
+   540→   540→in general need crafting and need satisfaction from pre- to post-measurement compared to those in the
+   541→   541→control condition. However, only participants who engaged more actively with the program (i.e., who
+   542→   542→completed more than four of the daily modules) differed significantly from the control group, whereas
+   543→   543→those with lower engagement did not. These effects were maintained for at least two weeks after the
+   544→   544→intervention as the gains observed during the intervention phase did not decrease by the time of the
+   545→   545→follow-up assessment. This pattern is consistent with findings from positive psychology interventions,
+   546→   546→which show that intervention-induced gains are typically maintained rather than further amplified at
+   547→   547→follow-up (Martínez-Martínez et al., 2025). In addition, the findings should be interpreted against the
+   548→   548→backdrop of the average developmental trends in the outcomes. More precisely, mean-level changes
+   549→   549→from pre- to post-intervention, as well as from post-intervention to follow-up, showed that adaptive
+   550→   550→variables (need crafting, need satisfaction, well-being) decreased or remained stable, whereas
+   551→   551→maladaptive variables increased or stayed stable. Rather than acting as a facilitator of continued growth,
+   552→   552→LifeCraft therefore functioned primarily as a buffer, protecting participants against an average trend of
+   553→   553→worsening development observed in the control group. This interpretation is further supported by the
+   554→   554→timing of the measurements: the post- and follow-up assessments partly overlapped with the weeks
+   555→   555→leading up to adolescents' exams, a period known to challenge psychological need satisfaction and well-
+   556→   556→being (Campbell, Soenens, et al., 2018).
+   557→   557→Finally, analyses indicated indirect effects of the program on the mental health outcomes via a
+   558→   558→chain of intervening mechanisms: intervention-induced increases (or less pronounced decreases) in need
+   559→   559→crafting were associated with higher need satisfaction and lower need frustration, which in turn related
+   560→   560→19
+   561→   561→
+   562→   562→NEED CRAFTING INTERVENTION STUDY
+   563→   563→to higher well-being and lower ill-being, respectively. Together, these findings support the role of need
+   564→   564→crafting as the key mechanism through which the intervention influenced adolescents’ psychological
+   565→   565→functioning. Extending prior work among adults (Laporte et al., 2024) and higher education students
+   566→   566→(van den Bogaard et al., 2024, 2025), these results provide the first evidence that need crafting is a
+   567→   567→trainable skill among adolescents, with positive repercussions for their mental health.
+   568→   568→Not all findings, however, were consistent with prior work. First, whereas prior studies among
+   569→   569→adults – albeit only among highly engaged participants (Laporte et al., 2024) – and university students
+   570→   570→observed program-induced decreases in need frustration, no such effects emerged in the present study,
+   571→   571→neither for the overall program effect nor for the program engagement contrasts. Second, the present
+   572→   572→LifeCraft intervention among adolescents did not yield direct effects on the secondary outcomes, that
+   573→   573→is, on well-being and ill-being. Although well-being and ill-being represent more distal outcomes, which
+   574→   574→typically require more time to change than the more proximal outcomes targeted by the intervention
+   575→   575→(Klasnja et al., 2015), this finding contrasts with results among adults (Laporte et al., 2024) and one of
+   576→   576→two trials among university students (van den Bogaard et al., 2024).
+   577→   577→This variability across studies may partly reflect differences in study context: two of the previous
+   578→   578→LifeCraft interventions (with adults and university students) were conducted during the COVID-19
+   579→   579→pandemic, a period of heightened psychological distress that may have left greater room for intervention-
+   580→   580→induced improvements in well-being. This observation aligns with a broader pattern in the positive
+   581→   581→psychology literature, where interventions tend to yield stronger effects among individuals who are at
+   582→   582→greater risk for mental health problems (Bolier et al., 2013). The context of the present study is more
+   583→   583→similar to van den Bogaard et al. (2024), who also examined the effectiveness of LifeCraft in the period
+   584→   584→leading up to exams (albeit among university students). These weeks before the exams are also a period
+   585→   585→of heightened stress. Yet, unlike university students, who typically have a dedicated exam preparation
+   586→   586→period without regular classes, students in secondary education must prepare for exams while continuing
+   587→   587→to attend classes, leaving fewer opportunities for self-directed or preferred activities. Moreover, although
+   588→   588→adolescents have greater decision-making autonomy than younger children (Lionetti et al., 2018), they
+   589→   589→remain subject to substantially more parental monitoring than emerging adults (Hill & Blokland, 2023),
+   590→   590→and arguably even more during exams, further limiting their freedom to craft their needs. As such, rather
+   591→   591→20
+   592→   592→
+   593→   593→NEED CRAFTING INTERVENTION STUDY
+   594→   594→than creating space for need crafting, the exam period may have introduced an additional source of
+   595→   595→pressure for some adolescents, potentially offsetting some of the intervention's benefits. Consistent with
+   596→   596→this reasoning, up to 35.2% of participants in the experimental group raised homework or studying for
+   597→   597→exams as a hinderance for completing the homework assignments. Lastly, although the core components
+   598→   598→of the LifeCraft interventions are similar across studies, other study characteristics, including differences
+   599→   599→in sample size, recruitment strategies, and intervention timing (see Table S6, supplementary materials,
+   600→   600→for an overview), may also have contributed to the observed variability in findings. Together, these
+   601→   601→factors offer a tentative account of why the present study only partially replicated the effects observed
+   602→   602→in prior need crafting interventions.
+   603→   603→Domain-Specific Effects in Leisure, School and Social Media
+   604→   604→In the domain-specific analyses, we focused exclusively on the “bright pathway” of the model,
+   605→   605→examining changes in need crafting, need satisfaction, and well-being in the school, leisure and social
+   606→   606→media domain. Examining intervention effects across three life domains served three purposes. First, it
+   607→   607→allowed for an internal replication of the intervention effects across different contexts. Second, it
+   608→   608→provided insight into the domains in which adolescents spontaneously applied the recommended
+   609→   609→intervention strategies. Third, it allowed examining whether need crafting interventions can strengthen
+   610→   610→adolescents’ psychological functioning across multiple life domains, which is theoretically important
+   611→   611→from a preventive perspective given that adolescents continuously navigate changing contexts and life
+   612→   612→circumstances.
+   613→   613→School and Leisure Domain
+   614→   614→Consistent with the findings from the general-level models, the domain-specific analyses
+   615→   615→indicated that direct intervention effects emerged for need crafting and need satisfaction in the school
+   616→   616→and leisure domains, where the serial pattern of indirect effects was replicated as well. These effects
+   617→   617→were again driven primarily by adolescents who actively engaged with the intervention challenges. No
+   618→   618→effects were found for the social media domain. Taken together, the effects observed across the school
+   619→   619→and leisure domains suggest that the benefits of need crafting training are not limited to a single life
+   620→   620→context but extend to domain-specific well-being outcomes across multiple life domains, thereby
+   621→   621→21
+   622→   622→
+   623→   623→NEED CRAFTING INTERVENTION STUDY
+   624→   624→broadening this growing line of work on need crafting (van den Bogaard et al., 2026) and highlighting
+   625→   625→need crafting as a trans-contextual skill.
+   626→   626→At the same time, some findings warrant further consideration. Notably, in the intervention
+   627→   627→group, leisure-specific need crafting and school-specific need satisfaction decreased from post-
+   628→   628→intervention to follow-up, suggesting a potential counterproductive effect. Importantly, however, this
+   629→   629→pattern was not observed among highly engaged participants, suggesting that it may be specific to those
+   630→   630→with lower program engagement. A possible interpretation is that low-engaged participants, who were
+   631→   631→exposed to some components of the intervention (i.e., psychoeducation, reflection, and initial action
+   632→   632→planning) but did not consistently commit to entire program, may have developed greater awareness of
+   633→   633→the importance of need crafting without consistently translating this awareness into action. This may
+   634→   634→have increased the perceived discrepancy between their current experiences and their desired level of
+   635→   635→need satisfaction, which could help explain why low-engaged participants sometimes reported less
+   636→   636→favorable outcomes than those in the control group. Alternatively, these effects might partly reflect pre-
+   637→   637→existing differences between engagement groups at baseline. Indeed, less engaged participants reported
+   638→   638→significantly lower need crafting and need satisfaction compared to the high engaged participants. These
+   639→   639→baseline differences suggest that lower-engaged adolescents may have represented a more vulnerable
+   640→   640→subgroup who may require more intensive or personalized support during the intervention.
+   641→   641→Social Media Domain
+   642→   642→A notable finding of the present study was that the intervention effects observed in the other
+   643→   643→domains were not replicated in the social media domain. This absence of effects suggests that training
+   644→   644→adolescents in general need crafting may not automatically transfer to how they navigate online contexts
+   645→   645→such as social media. This may indicate that some adolescents do not perceive social media platforms
+   646→   646→as equally important sources of need satisfaction as other life domains or feel less affinity with them
+   647→   647→more generally (see also Van de Casteele et al., 2023). From an SDT perspective, this finding may be
+   648→   648→in line with the organismic dialectical growth tendency, the inherent human propensity to direct energy
+   649→   649→toward contexts that are most conducive to growth and need satisfaction (Ryan & Vansteenkiste, 2023).
+   650→   650→In other words, adolescents may have intuitively prioritized domains where need crafting felt most
+   651→   651→meaningful and attainable, which in itself represents an adaptive motivational process.
+   652→   652→22
+   653→   653→
+   654→   654→NEED CRAFTING INTERVENTION STUDY
+   655→   655→This interpretation should be nuanced, however, as the effects reported here reflect group-level
+   656→   656→statistics that inevitably mask individual differences. Consistent with prior research showing
+   657→   657→considerable heterogeneity in adolescents' experiences of the opportunities and risks associated with
+   658→   658→social media use (e.g., Beyens et al., 2021), social media may represent an equally or even more
+   659→   659→important source of need satisfaction for some adolescents, for whom crafting needs in this domain may
+   660→   660→be both relevant and beneficial. A complementary explanation relates to the nature of the domains
+   661→   661→themselves. School and leisure contexts represent more universal domains of adolescents’ daily lives,
+   662→   662→which may make them more suitable targets for preventive interventions. Supporting this reasoning, the
+   663→   663→unconditional models indicated mean-level changes in the school and leisure domains, whereas no
+   664→   664→comparable mean-level changes were observed in the social media domain; variability in change over
+   665→   665→time was more limited in the social media domain. This might suggest that there was less room for
+   666→   666→within-person change during the study period, and thus fewer opportunities to detect intervention-related
+   667→   667→effects (see Table S5).
+   668→   668→Alternatively, these findings might suggest that a more targeted social media need crafting
+   669→   669→intervention may be warranted. Three directions might be worth exploring. A first option would be to
+   670→   670→adapt the current intervention to include more explicit attention to social media as a need crafting
+   671→   671→domain, for instance by incorporating concrete examples and challenges such as consciously curating
+   672→   672→one's feed, actively engaging with content aligned with personal interests, or initiating more meaningful
+   673→   673→interactions with peers. A second direction concerns need frustration rather than need satisfaction. Need
+   674→   674→crafting as currently conceptualized focuses primarily on maximizing need satisfaction, yet the central
+   675→   675→challenge in the social media context might be more about avoiding or coping with need frustration, for
+   676→   676→example by unfollowing certain profiles or developing coping skills when confronted with potentially
+   677→   677→harmful content (e.g., exposure to idealized or extreme content). A third direction draws on research
+   678→   678→regarding the balance between online and offline need-based experiences (Van de Casteele et al., 2025).
+   679→   679→Person-centered profile analyses among higher education students suggest that combining online and
+   680→   680→offline need crafting is associated with broader mental health benefits, whereas online crafting alone
+   681→   681→primarily predicts online well-being outcomes. Notably, only a small minority of participants (12%)
+   682→   682→engaged in such combined crafting, suggesting that future interventions might explicitly target the
+   683→   683→23
+   684→   684→
+   685→   685→NEED CRAFTING INTERVENTION STUDY
+   686→   686→interplay between online and offline need crafting, for instance by helping adolescents recognize how
+   687→   687→strengthening need satisfaction in offline domains may indirectly reduce problematic social media
+   688→   688→engagement or limit interference with offline goals such as schoolwork, sport, or face-to-face
+   689→   689→interactions. Whether such targeted approaches can be effectively integrated into brief online
+   690→   690→interventions remains an important avenue for further research.
+   691→   691→Limitations and Future Directions
+   692→   692→The present findings add to the growing literature on need crafting and positive psychology
+   693→   693→interventions more broadly, providing the first evidence that need crafting can be trained among
+   694→   694→adolescents, a finding that is particularly meaningful given that adolescence represents a formative
+   695→   695→window for cultivating need crafting as a lifelong skill (Laporte et al., 2021; Soenens & Vansteenkiste,
+   696→   696→2023). Several limitations should be acknowledged, however. First, the timing of the intervention and
+   697→   697→follow-up may have influenced the observed effects. As discussed earlier, the post- and follow-up
+   698→   698→assessments overlapped with the period leading up to adolescents' exams, potentially constraining
+   699→   699→opportunities for need crafting and limiting the detection of well-being effects. Future research would
+   700→   700→benefit from implementing need crafting interventions at neutral points in the academic calendar to
+   701→   701→disentangle intervention effects from contextual stressors. Moreover, the follow-up period was relatively
+   702→   702→short compared to prior need crafting interventions (Laporte et al., 2024; van den Bogaard et al., 2024,
+   703→   703→2025); longer follow-up assessments would allow for a more robust evaluation of whether intervention
+   704→   704→gains are maintained or erode over time, and whether effects on more distal outcomes such as well-being
+   705→   705→and ill-being emerge at later time points. Second, the present study was implemented as a self-guided
+   706→   706→online intervention, with undergraduate students assisting with participant recruitment and follow-up.
+   707→   707→Although a standardized manual was provided to these students, variability in how they encouraged
+   708→   708→participation and monitored progress may have introduced engagement-related variability unrelated to
+   709→   709→the intervention content itself. Future studies could address this by using more standardized recruitment
+   710→   710→procedures or by embedding the intervention within existing school structures or counselling practices
+   711→   711→(i.e., hybrid version of the intervention), which may also facilitate reach among lower-engaged
+   712→   712→adolescents. A further limitation concerns the measurement and modeling of need-based experiences.
+   713→   713→In the general-level analyses, need satisfaction was operationalized as a composite score derived by
+   714→   714→24
+   715→   715→
+   716→   716→NEED CRAFTING INTERVENTION STUDY
+   717→   717→aggregating the need satisfaction scales across the three domains. As such, this measure does not reflect
+   718→   718→a purely domain-general construct. In contrast, domain-specific measures that were used were also brief,
+   719→   719→with need crafting assessed using only three action items and well-being using three vitality items per
+   720→   720→domain. While these decisions were well-considered to reduce participant burden, future research would
+   721→   721→benefit from more comprehensive and psychometrically robust domain-specific measures, as well as a
+   722→   722→distinct domain-general need crafting assessment. Addressing these measurement limitations in future
+   723→   723→work would allow for a more precise understanding of the mechanisms through which need crafting
+   724→   724→interventions exert their effects. A final limitation concerns the demographic composition of the sample.
+   725→   725→Although nationality was assessed, race and ethnicity were not measured, which limits the
+   726→   726→generalizability of the findings to more diverse adolescent populations and precludes examination of
+   727→   727→potential differential effects across racial and ethnic groups.
+   728→   728→Conclusions
+   729→   729→The present study shows that need crafting can be trained in adolescence and may serve as a promising
+   730→   730→pathway to support mental health. In line with the principles of positive psychology, this program has
+   731→   731→the potential to foster positive development rather than merely reducing symptoms. Domain-specific
+   732→   732→effects were found in the school and leisure domains, but not in the social media domain, suggesting
+   733→   733→that adolescents are less spontaneously inclined to apply need crafting to the social media domain than
+   734→   734→to offline domains. Together, these results underscore the potential of need crafting as a preventive,
+   735→   735→trans-contextual skill that may equip adolescents to navigate diverse and evolving life domains – though
+   736→   736→the extent to which this potential generalizes across all contexts, including social media, warrants further
+   737→   737→investigation.
+   738→   738→References
+   739→   739→Beyens, I., Pouwels, J. L., Van Driel, I. I., Keijsers, L., & Valkenburg, P. M. (2021). The effect of social
+   740→   740→media on well-being differs from adolescent to adolescent. Scientific Reports, 10(1), 10763.
+   741→   741→https://doi.org/10.1038/s41598-020-67727-7
+   742→   742→Beyers, W., & Goossens, L. (2007). Dynamics of perceived parenting and identity formation in late
+   743→   743→adolescence. Journal of Adolescence, 31(2), 165–184.
+   744→   744→https://doi.org/10.1016/j.adolescence.2007.04.003
+   745→   745→25
+   746→   746→
+   747→   747→NEED CRAFTING INTERVENTION STUDY
+   748→   748→Bolier, L., Haverman, M., Westerhof, G. J., Riper, H., Smit, F., & Bohlmeijer, E. (2013). Positive
+   749→   749→psychology interventions: a meta-analysis of randomized controlled studies. BMC Public
+   750→   750→Health, 13(1), 119. https://doi.org/10.1186/1471-2458-13-119
+   751→   751→Campbell, R., Boone, L., Vansteenkiste, M., & Soenens, B. (2018). Psychological need frustration as a
+   752→   752→transdiagnostic process in associations of self‐critical perfectionism with depressive symptoms
+   753→   753→and eating pathology. Journal of Clinical Psychology, 74(10), 1775–1790.
+   754→   754→https://doi.org/10.1002/jclp.22628
+   755→   755→Campbell, R., Soenens, B., Beyers, W., & Vansteenkiste, M. (2018). University students’ sleep during
+   756→   756→an exam period: The role of basic psychological needs and stress. Motivation and Emotion,
+   757→   757→42(5), 671-681. https://doi.org/10.1007/s11031-018-9699-x
+   758→   758→Csikszentmihalyi, M., & Seligman, M. (2000). Positive psychology. American Psychologist, 55(1),5-
+   759→   759→14.
+   760→   760→Chen, B., Vansteenkiste, M., Beyers, W., Boone, L., Deci, E. L., Van Der Kaap-Deeder, J., Duriez, B.,
+   761→   761→Lens, W., Matos, L., Mouratidis, A., Ryan, R. M., Sheldon, K. M., Soenens, B., Van Petegem,
+   762→   762→S., & Verstuyf, J. (2014). Basic psychological need satisfaction, need frustration, and need
+   763→   763→strength across four cultures. Motivation and Emotion, 39(2), 216–236.
+   764→   764→https://doi.org/10.1007/s11031-014-9450-1
+   765→   765→Diener, E., Emmons, R. A., Larsen, R. J., & Griffin, S. (1985). The satisfaction with life scale. Journal
+   766→   766→of Personality Assessment, 49(1), 71–75. https://doi.org/10.1207/s15327752jpa4901_13
+   767→   767→Emery, A. A., Heath, N. L., & Mills, D. J. (2015). Basic Psychological need satisfaction, emotion
+   768→   768→Dysregulation, and Non-suicidal Self-Injury Engagement in Young Adults: An Application of
+   769→   769→Self-Determination Theory. Journal of Youth and Adolescence, 45(3), 612–623.
+   770→   770→https://doi.org/10.1007/s10964-015-0405-y
+   771→   771→Evans, P. (2023). Motivation and self-regulation in music, musicians, and music education. In R. M.
+   772→   772→Ryan (Ed.), The Oxford handbook of self-determination theory (pp. 638–664). Oxford University
+   773→   773→Press. https://psycnet.apa.org/doi/10.1093/oxfordhb/9780197600047.013.32
+   774→   774→26
+   775→   775→
+   776→   776→NEED CRAFTING INTERVENTION STUDY
+   777→   777→Faverio, M., & Sidoti, O. (2025, December 9). Teens, Social Media and Technology 2024. Pew Research
+   778→   778→Center. https://www.pewresearch.org/internet/2024/12/12/teens-social-media-and-technology-
+   779→   779→2024/
+   780→   780→Ferguson, C. J. (2025). Smartphone bans in schools remain unproven. World Journal of Pediatrics,
+   781→   781→21(8), 769–774. https://doi.org/10.1007/s12519-025-00951-1
+   782→   782→Ferguson, C. J., Kaye, L. K., Branley-Bell, D., & Markey, P. (2024). There is no evidence that time
+   783→   783→spent on social media is correlated with adolescent mental health problems: Findings from a
+   784→   784→meta-analysis. Professional Psychology Research and Practice, 56(1), 73–83.
+   785→   785→https://doi.org/10.1037/pro0000589
+   786→   786→Frederick, C. & Ryan, R. M., (2023). The Energy behind Human Flourishing: Theory and Research on
+   787→   787→Subjective Vitality. In R. M. Ryan (ed.), The Oxford Handbook of Self Determination Theory
+   788→   788→(pp 221). Oxford University Press.
+   789→   789→Hall, J. A., Johnson, R. M., & Ross, E. M. (2019). Where does the time go? An experimental test of
+   790→   790→what social media displaces and displaced activities’ associations with affective well-being and
+   791→   791→quality of day. New Media & Society, 21(3), 674–692.
+   792→   792→https://doi.org/10.1177/1461444818804775
+   793→   793→Hall, J. A., & Liu, D. (2022). Social media use, social displacement, and well-being. Current Opinion
+   794→   794→in Psychology, 46, 101339. https://doi.org/10.1016/j.copsyc.2022.101339
+   795→   795→Huang, H., Tang, X., & Salmela-Aro, K. (2024). Facilitating youth’s curiosity in learning: Needs-based
+   796→   796→ecological examinations. Journal of Youth and Adolescence, 53, 595–
+   797→   797→608. https://doi.org/10.1007/s10964-023-01936-x
+   798→   798→Kishton, J. M., & Widaman, K. F. (1994). Unidimensional versus domain Representative Parceling of
+   799→   799→questionnaire items: An Empirical example. Educational and Psychological Measurement,
+   800→   800→54(3), 757–765. https://doi.org/10.1177/0013164494054003022
+   801→   801→Klasnja, P., Hekler, E. B., Shiffman, S., Boruvka, A., Almirall, D., Tewari, A., & Murphy, S. A. (2015).
+   802→   802→Microrandomized trials: An experimental design for developing just-in-time adaptive
+   803→   803→interventions. Health Psychology, 34(Suppl), 1220–1228. https://doi.org/10.1037/hea0000305
+   804→   804→27
+   805→   805→
+   806→   806→NEED CRAFTING INTERVENTION STUDY
+   807→   807→Laporte, N., Soenens, B., Brenning, K., & Vansteenkiste, M. (2021). Adolescents as active managers of
+   808→   808→their own psychological needs: The role of psychological need crafting in adolescents’ mental
+   809→   809→health. Journal of Adolescence, 88(1), 67–83.
+   810→   810→https://doi.org/10.1016/j.adolescence.2021.02.004
+   811→   811→Laporte, N., Soenens, B., Flamant, N., Vansteenkiste, M., Mabbe, E., & Brenning, K. (2022). The role
+   812→   812→of daily need crafting in daily fluctuations in adolescents’ need-based and affective experiences.
+   813→   813→Motivation and Emotion, 46(2), 137–149. https://doi.org/10.1007/s11031-021-09921-2
+   814→   814→Laporte, N., van den Bogaard, D., Brenning, K., Soenens, B., & Vansteenkiste, M. (2024). Testing an
+   815→   815→online program to foster need crafting during the COVID-19 pandemic. Current Psychology,
+   816→   816→43(9), 8557–8574. https://doi.org/10.1007/s12144-022-03012-2
+   817→   817→Lionetti, F., Palladino, B. E., Passini, C. M., Casonato, M., Hamzallari, O., Ranta, M., Dellagiulia, A.,
+   818→   818→& Keijsers, L. (2018). The development of parental monitoring during adolescence: A meta-
+   819→   819→analysis. European Journal of Developmental Psychology, 16(5), 552–580.
+   820→   820→https://doi.org/10.1080/17405629.2018.1476233
+   821→   821→Lorenz, T., Michels, N., Neubauer, A. B., Soenens, B., & Giletta, M. (2026). From basic psychological
+   822→   822→need frustration to stress responses: Examining how bullying victimization sensitizes daily-life
+   823→   823→experiences in adolescence. Journal of Youth and Adolescence. Advance online
+   824→   824→publication. https://doi.org/10.1007/s10964-026-02325-w
+   825→   825→Luyckx, K., Vansteenkiste, M., Goossens, L., & Duriez, B. (2009). Basic need satisfaction and identity
+   826→   826→formation: Bridging self-determination theory and process-oriented identity research. Journal
+   827→   827→of Counseling Psychology, 56(2), 276–288. https://doi.org/10.1037/a0015349
+   828→   828→Marteau, T. M., & Bekker, H. (1992). The development of a six-item short-form of the state scale
+   829→   829→of the Spielberger State-Trait Anxiety Inventory (STAI). British Journal of Clinical Psychology,
+   830→   830→31, 301-306. https://doi.org/10.1111/j.2044-8260.1992.tb00997.x
+   831→   831→Martínez-Martínez, K., Cruz-Ortiz, V., Llorens, S., Salanova, M., & Leiva-Bianchi, M. (2025).
+   832→   832→Systematic Review and Meta-Analysis of Positive Psychology Interventions in Workplace
+   833→   833→Settings. Social Sciences, 14(8), 481. https://doi.org/10.3390/socsci14080481
+   834→   834→28
+   835→   835→
+   836→   836→NEED CRAFTING INTERVENTION STUDY
+   837→   837→Meng, X., Liu, H., Rudasill, K. M., Chen, Y., Buzzai, C., & Chen, J. (2026). The relationship between
+   838→   838→basic psychological needs and academic achievement in adolescents: A three-level meta-
+   839→   839→analysis. Journal of Youth and Adolescence. Advance online
+   840→   840→publication. https://doi.org/10.1007/s10964-026-02341-w
+   841→   841→Milyavskaya, M., Gingras, I., Mageau, G. A., Koestner, R., Gagnon, H., Fang, J., & Boiché, J. (2009).
+   842→   842→Balance across contexts: Importance of balanced need satisfaction across various life domains.
+   843→   843→Personality and Social Psychology Bulletin, 35(8), 1031–1045.
+   844→   844→https://doi.org/10.1177/0146167209337036
+   845→   845→Milyavskaya, M., Philippe, F. L., & Koestner, R. (2013). Psychological need satisfaction across levels
+   846→   846→of experience: Their organization and contribution to general well-being. Journal of Research
+   847→   847→in Personality, 47(1), 41–51. https://doi.org/10.1016/j.jrp.2012.10.013
+   848→   848→Muthén, L. K., & Muthén, B. O. (2017). Mplus: Statistical Analysis with Latent Variables:
+   849→   849→User’s Guide (Version 8). Los Angeles, CA: Authors.
+   850→   850→Nagata, J. M., Memon, Z., Talebloo, J., Li, K., Low, P., Shao, I. Y., Ganson, K. T., Testa, A., He, J.,
+   851→   851→Brindis, C. D., & Baker, F. C. (2025). Prevalence and patterns of social media use in early
+   852→   852→adolescents. Academic Pediatrics, 25(4), 102784. https://doi.org/10.1016/j.acap.2025.102784
+   853→   853→Odgers, C. L. (2024). The great rewiring: is social media really behind an epidemic of teenage mental
+   854→   854→illness? Nature, 628(8006), 29–30. https://doi.org/10.1038/d41586-024-00902-2
+   855→   855→Orben, A., Fokas, I., Turner, G., Davidson, B., &amp; Adjallah, J. (2026). Social Media Bans:
+   856→   856→Overview of Key Studies. Digital Mental Health Group. https://doi.org/10.17863/CAM.128704
+   857→   857→Radloff, L. S. (1977). The CES-D scale: A self-report depression scale for research in the general
+   858→   858→population. Applied Psychological Measurement, 1(3), 385–401.
+   859→   859→Reeve, J., & Tseng, C. (2011). Agency as a fourth aspect of students’ engagement during learning
+   860→   860→activities. Contemporary Educational Psychology, 36(4), 257–267.
+   861→   861→https://doi.org/10.1016/j.cedpsych.2011.05.002
+   862→   862→Röhlke, L. (2025). Does mobile phone use in early adolescence displace enrichment, physical activity,
+   863→   863→and sleep? A longitudinal examination of the time-displacement hypothesis. Social Science
+   864→   864→Research, 131, 103226. https://doi.org/10.1016/j.ssresearch.2025.103226
+   865→   865→29
+   866→   866→
+   867→   867→NEED CRAFTING INTERVENTION STUDY
+   868→   868→Ryan, R., & Deci, E. L. (2017). Self-Determination Theory: Basic Psychological Needs in Motivation,
+   869→   869→Development, and Wellness. Guilford Publications.
+   870→   870→Ryan, R. M. (2023). The Oxford Handbook of Self-Determination Theory. Oxford University Press.
+   871→   871→Ryan, R. M., & Frederick, C. (1997). On energy, personality, and health: Subjective vitality as a dynamic
+   872→   872→reflection of well-being. Journal of Personality, 65(3), 529–565.
+   873→   873→Seo, E., Patall, E. A., Henderson, M. D., & Steingut, R. R. (2017). The effects of goal origin and
+   874→   874→implementation intentions on goal commitment, effort, and performance. The Journal of
+   875→   875→Experimental Education, 86(3), 386–401. https://doi.org/10.1080/00220973.2016.1277334
+   876→   876→Sheldon, K. M., Corcoran, M., & Titova, L. (2020). Supporting one’s own autonomy may be more
+   877→   877→important than feeling supported by others. Motivation Science, 7(2), 176–186.
+   878→   878→https://doi.org/10.1037/mot0000215
+   879→   879→Soenens, B., & Vansteenkiste, M. (2023). A lifespan perspective on the importance of the basic
+   880→   880→psychological needs for psychosocial development. In R. M. Ryan (Ed.), The Oxford handbook
+   881→   881→of self-determination theory (pp. 457–490). University Press.
+   882→   882→Van de Casteele, M., Flamant, N., Morbée, S., van den Bogaard, D., & Vansteenkiste, M. (2025). Online
+   883→   883→and offline need fulfillment seeking: The relation between need crafting profiles, well-being,
+   884→   884→and social media use. Computers in Human Behavior, 175, 108843.
+   885→   885→https://doi.org/10.1016/j.chb.2025.108843
+   886→   886→Van de Casteele, M., Flamant, N., Ponnet, K., Soenens, B., Van Hees, V., & Vansteenkiste, M. (2023).
+   887→   887→Adolescents’ mental health in the social‐media era: The role of offline and online need‐based
+   888→   888→experiences. Journal of Adolescence, 96(3), 612–631. https://doi.org/10.1002/jad.12286
+   889→   889→Van de Casteele, M., Soenens, B., Ponnet, K., Perneel, S., Flamant, N., & Vansteenkiste, M. (2024).
+   890→   890→Unraveling the role of social media on adolescents’ daily goals and affect: the interplay between
+   891→   891→basic psychological needs and screen time. Interacting With Computers.
+   892→   892→https://doi.org/10.1093/iwc/iwad055
+   893→   893→van den Bogaard, D., Soenens, B., Brenning, K., Flamant, N., & Vansteenkiste, M. (2024). Can students
+   894→   894→learn to optimize their Need-Based experiences and mental health during a stressful period?
+   895→   895→30
+   896→   896→
+   897→   897→NEED CRAFTING INTERVENTION STUDY
+   898→   898→Testing a Need-Crafting Intervention in Higher Education. Journal of Happiness Studies, 25(5).
+   899→   899→https://doi.org/10.1007/s10902-024-00761-8
+   900→   900→van den Bogaard, D., Soenens, B., Brenning, K., Van Hees, V., Vrijders, B., Bradt, L., Luyten, P., &
+   901→   901→Vansteenkiste, M. (2025). How to support college students’ pro-active search for psychological
+   902→   902→need satisfaction? Testing an online intervention that fosters need crafting. Motivation and
+   903→   903→Emotion, 50(1), 121–142. https://doi.org/10.1007/s11031-025-10149-7
+   904→   904→van den Bogaard, D., Vansteenkiste, M., Van de Casteele, M., & Soenens, B. (2026). Hoe Kunnen
+   905→   905→Jongeren de Regie over Hun Welbevinden in Eigen Handen Nemen? Jeugd in Ontwikkeling.
+   906→   906→https://doi.org/10.54447/jio.23482
+   907→   907→Vansteenkiste, M., Ryan, R. M., & Soenens, B. (2020). Basic psychological need theory:
+   908→   908→Advancements, critical themes, and future directions. Motivation and Emotion, 44(1), 1–31.
+   909→   909→https://doi.org/10.1007/s11031-019-09818-1
+   910→   910→Vansteenkiste, M., Soenens, B., & Ryan, R. M. (2023). Basic psychological needs theory : a conceptual
+   911→   911→and empirical review of key criteria. In R. M. Ryan (Ed.), The Oxford handbook of self-
+   912→   912→determination theory (pp. 84–123). Oxford University Press.
+   913→   913→Vrijen, C., & Soenens, B. (2026). Redactioneel Themanummer ‘Positieve Ontwikkeling en veerkracht
+   914→   914→bij Kinderen en Jongeren’: Van het Verminderen van Kwetsbaarheid naar het Bevorderen van
+   915→   915→Positieve Ontwikkeling in Kinderen en Jongeren. Jeugd in
+   916→   916→Ontwikkeling , 2. https://doi.org/10.54447/JiO.26273
+   917→   917→31
+   918→   918→
+   919→   919→NEED CRAFTING INTERVENTION ADOLESCENTS
+   920→   920→Tables and Figures
+   921→   921→Table 1
+   922→   922→Correlations between the Assessed study variables at Different Time Points
+   923→   923→1a. 2a. 3a. 4a. 5a. 1b. 2b. 3b. 4b. 5b. 1c. 2c. 3c. 4c.
+   924→   924→T1: Baseline
+   925→   925→1a. Need Crafting
+   926→   926→2a. Need Satisfaction .53***
+   927→   927→3a. Need Frustration -.35*** -.50***
+   928→   928→4a. Well-being .51*** .55*** -.55***
+   929→   929→5a. Ill-being -.38*** -.48*** .59*** -.71***
+   930→   930→T2: Post-intervention
+   931→   931→1b. Need Crafting .57*** .46*** -.31*** .31*** -.30***
+   932→   932→2b. Need Satisfaction .41*** .63*** -.42*** .47*** -.44*** .61***
+   933→   933→3b. Need Frustration -.24*** -.36*** .59*** -.41*** .53*** -.45*** -.62***
+   934→   934→4b. Well-being .38*** .45*** -.40*** .60*** -.54*** .48*** .62*** -.59***
+   935→   935→5b. Ill-being -.30*** -.39*** .51*** -.62*** .75*** -.35*** -.49*** .60*** -.75***
+   936→   936→T3: Follow-up
+   937→   937→1c. Need Crafting .42*** .37*** .12 .44*** -.35*** .54*** .45*** -.36*** .44*** -.37***
+   938→   938→2c. Need Satisfaction .39*** .58*** -.32*** .38*** -.43*** .58*** .71*** -.49*** .56*** -.47*** .64***
+   939→   939→3c. Need Frustration -.18** -.31*** .41*** -.30*** .44*** -.43*** -.52*** .68*** -.46*** .45*** -.42*** -.63***
+   940→   940→4c. Well-being .27*** .37*** -.27*** .51*** -.52*** .36*** .43*** -.44*** .63*** -.59*** .59*** .60*** -.49***
+   941→   941→5c. Ill-being -.26*** -.44*** .49*** -.55*** .74*** -.33*** -.46*** .54*** .61*** .80*** -.47*** -.55*** .52*** -.68***
+   942→   942→32
+   943→   943→
+   944→   944→NEED CRAFTING INTERVENTION ADOLESCENTS
+   945→   945→Note. *** p < .001,** p < .01,* p < .05
+   946→   946→Table 2
+   947→   947→Latent Chance Analyses: Effects of Condition (Hypothesis 1) and Program Engagement (Hypothesis 2) on Change in the Study Variables
+   948→   948→Change T1-to-T2 Change T2-to-T3
+   949→   949→Hypothesis 1: Hypothesis 2: engagement Hypothesis 1: condition Hypothesis 2: engagement
+   950→   950→condition
+   951→   951→Level Conditio Level High Low Level Cha T1-T2 Conditio Level Cha T1-T2 High Low
+   952→   952→n n
+   953→   953→β(SE) β(SE) β(SE) β(SE) β(SE) β(SE) β(SE) β(SE) β(SE) β(SE) β(SE) β(SE)
+   954→   954→General
+   955→   955→Need crafting -.16(.11) .38(.07)** -.23(.10)* .50(.07)** .14(.09) -.18(.09)* -.27(.12)* .07(.09) -.17(.10) -.22(.15) .06(.11) .04(.09)
+   956→   956→* *
+   957→   957→Need - .16(.06)** -.44(.10)*** .18(.07)** .10(.06) -.10(.12) -.28(.12)* -.05(.08) -.10(.12) -.29(.12)* - -.08(.09)
+   958→   958→satisfaction .43(.10)*** .03(.09)
+   959→   959→Need - -.07(.07) -.39(.10)*** -.10(.08) .00(.07) -.33(.15)* -.05(.16) -.03(.10) -.30(.16) .01(.19) - .04(.11)
+   960→   960→frustration .38(.10)*** .06(.10)
+   961→   961→Well-being -.20(.10)* -.07(.08) -.21(.10)* .12(.09) -.03(.08) - - .06(.09) -.40(.10)*** - - -.12(.10)
+   962→   962→.38(.11)*** .43(.12)*** .43(.12)*** .03(.09)
+   963→   963→Ill-being -.31(.11)** -.01(.07) -.31(.11)** -.06(.08) .08(.08) -.17(.14) -.42(.14)** -.03(.10) -.17(.14) -.40(.14)** .02(.11) -.12(.11)
+   964→   964→School Domain
+   965→   965→33
+   966→   966→
+   967→   967→NEED CRAFTING INTERVENTION ADOLESCENTS
+   968→   968→Need crafting - .17(.07)* -.46(.09)*** .19(.08)* .12(.08) -.34(.11)** - -.03(.08) -.36(.11)** - .03(.08) -.12(.10)
+   969→   969→.46(.10)*** .52(.11)*** .53(.11)***
+   970→   970→Need - .19(.07)** -.39(.09)*** .20(.08)** .13(.07) - - -.09(.07) -.43(.08)*** - - -
+   971→   971→satisfaction .38(.09)*** .42(.09)*** .35(.10)*** .36(.10)*** .02(.08) .20(.07)*
+   972→   972→*
+   973→   973→Well-being - .04(.06) -.46(.06)*** .06(.07) -.02 (.06) - - -.01(.07) -.33(.08)*** - .02(.07) -.05(.10)
+   974→   974→.45(.06)*** .32(.08)*** .39(.10)*** .40(.10)***
+   975→   975→Leisure
+   976→   976→Domain
+   977→   977→Need crafting - .04(.07) -.54(.09)*** .14(.06)* -.11(.07) -.12(.14) -.38(.12)** -.18(.09)* -.12(.15) -.39(.13)** - -.23(.12)+
+   978→   978→.53(.09)*** .13(.09)
+   979→   979→Need - .14(.06)* -.58(.08)*** .17(.07)* .06(.06) -.05(.14) -.40(.15)** -.16(.09) -.05(.14) -.40(.15)** - -.15(.09)
+   980→   980→satisfaction .57(.08)*** .13(.09)
+   981→   981→Well-being - .02(.06) -.50(.06)*** .04(.06) .00(.06) .15(.10) - -.05(.07) -.16(.10) - .01(.07) -.12(.09)
+   982→   982→.50(.05)*** .62(.07)*** .62(.07)***
+   983→   983→Social media Domain
+   984→   984→Need crafting -.54(.16)** .08(.10) -.55(.16)** .17(.11) -.02(.12) -.08(.22) - .13(.09) -.09(.22) -.35(.28) .14(.10) .09(.10)
+   985→   985→.32(.28)***
+   986→   986→Need - .04(.07) -.44(.09)*** .08(.07) -.01(.08) -.22(.10)* - .12(.07) -.22(.10)* - .11(.08) .11(.08)
+   987→   987→satisfaction .43(.09)*** .61(.13)*** .61(.13)***
+   988→   988→Well-being - .03(.06)* -.50(.06)*** .02(.07) .04(.06) -.23(.09)** -.49(.15)** .12(.07) -.22(.09)* -.48(.15)** .08(.07) .16(.10)
+   989→   989→.50(.06)***
+   990→   990→Note. *** p < .001,** p < .01,* p < .05
+   991→   991→Figure 1
+   992→   992→34
+   993→   993→
+   994→   994→NEED CRAFTING INTERVENTION ADOLESCENTS
+   995→   995→Structural Serial Mediation Model for General Study Variables
+   996→   996→Level
+   997→   997→Ill-being
+   998→   998→LevelNeed
+   999→   999→Frustration
+  1000→  1000→Change Change
+  1001→  1001→.55(.12)***
+  1002→  1002→NeedFrustration Ill-being
+  1003→  1003→High engagement
+  1004→  1004→(vs control)
+  1005→  1005→.42(.07)*** -.60(.11)***
+  1006→  1006→Change
+  1007→  1007→Need Crafting
+  1008→  1008→.13(.08)
+  1009→  1009→Lowengagement .64(.09)***
+  1010→  1010→(vs control)
+  1011→  1011→Change Change
+  1012→  1012→.78(.11)***
+  1013→  1013→Need Satisfaction Well-being
+  1014→  1014→Level
+  1015→  1015→NeedCrafting
+  1016→  1016→Level
+  1017→  1017→NeedSatisfaction
+  1018→  1018→Level
+  1019→  1019→Well-being
+  1020→  1020→Note. All parameter estimates are standardized. Standard Errors are presented between brackets. p values are two-tailed. *** p < .001 ** p < .01 * p < .05. Model
+  1021→  1021→fit: CFI = .925, RMSEA = .052, SRMR = .089.
+  1022→  1022→35
+  1023→  1023→
+  1024→  1024→NEED CRAFTING INTERVENTION ADOLESCENTS
+  1025→  1025→Figure 2
+  1026→  1026→Structural Serial Mediation Model School and Leisure Variables
+  1027→  1027→Level
+  1028→  1028→NeedCrafting
+  1029→  1029→High Engagement
+  1030→  1030→(vs control) .20(.07)**/
+  1031→  1031→.16(.06)*
+  1032→  1032→Change .97(.09)***/ Change .60(.07)***/ Change
+  1033→  1033→NeedCrafting .94(.10)*** NeedSatisfaction .75(.06)*** Well-being
+  1034→  1034→.14(.07)*/
+  1035→  1035→LowEngagement
+  1036→  1036→-.02(.07)
+  1037→  1037→(vs control)
+  1038→  1038→Level
+  1039→  1039→Need Satisfaction
+  1040→  1040→Level
+  1041→  1041→Well-being
+  1042→  1042→Note. School variables are presented before the slash; leisure variables are presented after the slash. All parameter estimates are standardized. Standard Errors
+  1043→  1043→are presented between brackets. p values are two-tailed. *** p < .001,** p < .01,* p < .05; School domain model fit: CFI = .890, RMSEA = .062, SRMR = .078.
+  1044→  1044→Leisure domain model fit: CFI = .920, RMSEA = .048, SRMR = .069.
+  1045→  1045→36
+  1046→  1046→
+  1047→  1047→

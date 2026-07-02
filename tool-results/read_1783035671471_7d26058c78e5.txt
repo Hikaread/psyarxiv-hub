@@ -1,0 +1,1496 @@
+     1→Psychotic-like experiences and neurobehavioral reward processing in adolescents who use
+     2→cannabis
+     3→Shelley A. Gresko PhDa, Elizabeth C. Thompson PhDa,b, Meghan A. Gonsalves PhDc, Gillian LeBlanc
+     4→MSd, Elizabeth Lorenc PhDc, Jane Metrik PhDe,f, Michael Frank PhDb, Sarah Ryan BAg, Emily Olenik
+     5→BSg, Leslie Brick PhDh, Anthony Spirito PhDa, Jodi Gilman PhDi,j, Sarah A. Thomas PhDa,d,g*
+     6→aAlpert Medical School of Brown University Department of Psychiatry and Human Behavior, Providence,
+     7→RI
+     8→bBrown University Department of Cognitive and Psychological Sciences, Providence, RI
+     9→cBrown University Department of Neuroscience, Providence, RI
+    10→dCarney Institute for Brain Science, Brown University, Box 1901, 164 Angell St., 4th Floor, Providence,
+    11→RI 02912, United States
+    12→eCenter for Alcohol and Addiction Studies, Brown University School of Public Health, Providence, RI
+    13→fProvidence VA Medical Center, Providence, RI, 02908
+    14→gBradley Hasbro Children’s Research Center, 25 Hoppin St., Box #36, Providence, RI 02903
+    15→hCenter on Alcohol, Substance Use, and Addiction, University of New Mexico, Albuquerque, NM
+    16→iMassachusetts General Hospital (MGH) Department of Psychiatry, Boston, MA, USA
+    17→jHarvard Medical School, Boston, MA, USA
+    18→*Corresponding author; sarah_thomas1@brown.edu
+    19→Version: 6/24/26
+    20→
+    21→Abstract
+    22→Importance: Cannabis use (CU) in adolescence is linked to increased risk of developing
+    23→psychotic-like experiences (PLEs) that can lead to lifelong impairment. A candidate mechanism
+    24→may be disruptions in reward processing supported by dopamine but this association has not yet
+    25→been tested in adolescents with CU and PLEs.
+    26→Objective: Assess the interrelation between CU, PLEs, and neurobehavioral markers of reward
+    27→processing, specifically behavioral reward motivation and tissue iron signal (1/nT2*; an indicator
+    28→of dopamine-related neurophysiology).
+    29→Design: Observational case-control cross-sectional study conducted from 2022-2025.
+    30→Setting: Research site at an academic medical center.
+    31→Participants: Adolescents (aged 14 - 17) within the greater Providence, RI area were recruited
+    32→via electronic medical record review, social media, schools, and contact with the community.
+    33→Exclusion criteria included current impairing symptoms of psychotic disorder or lifetime history
+    34→of any substance other than nicotine or cannabis. Participants were characterized as either
+    35→adolescents who use cannabis (>11 lifetime cannabis episodes) or controls (<5 lifetime cannabis
+    36→episodes).
+    37→Exposure(s) (for observational studies): CU quantity was assessed with the Daily Sessions,
+    38→Frequency, Age of Onset, and Quantity of Cannabis Use Inventory. PLEs were assessed with the
+    39→Achenbach Youth Self-Report Thought Problems Scale.
+    40→Main Outcome(s) and Measure(s): Reward motivation (proportion of hard choices) was
+    41→assessed using a behavioral task. 1/nT2* was derived from functional magnetic resonance
+    42→imaging. Hypotheses, formulated during data collection as recognition grew of the risk factors of
+    43→developing PLEs with CU, were: PLEs will magnify negative associations between CU and
+    44→reward motivation; the positive association between greater CU and PLEs will depend on
+    45→subcortical 1/nT2*.
+    46→Results: 81 participants included 47 control and 34 cannabis group participants: mean [SD] age,
+    47→15.53 [1.12]; 52 female (64%). There was a significant interaction between CU and PLEs on
+    48→reward motivation (OR, 2.41; 95% CI, 1.10, 5.27, p=0.028), depending on reward amount and
+    49→effort required. At high PLEs, the cannabis group, compared to controls, were less motivated to
+    50→work for a reward when effort required was low and medium. Associations between CU quantity
+    51→and PLEs depended on 1/nT2* (at high 1/nT2*, CU positively predicted PLEs). Daily
+    52→concentrate hits interacted with 1/nT2* in the left putamen (β=51.58, 95% CI, 12.07, 91.09,
+    53→p=0.01) and right thalamus (β=70.93, 95% CI, 12.32, 129.54, p =0.02), daily cannabis grams in
+    54→the left putamen (β=73.34, 95% CI, 12.32, 129.54, p=0.02), right putamen (β=101.69, 95% CI,
+    55→41.72, 161.67, p=0.001), and right thalamus (β=102.38, 95% CI, 28.00, 176.77, p=0.01).
+    56→
+    57→Conclusions and Relevance: Adolescent CU was associated with alterations in dopamine-
+    58→relevant neural and behavioral indices as a function of PLEs. Behaviorally, this manifested as
+    59→less reward motivation and strategic action. Consistent with prior research on psychosis-
+    60→spectrum vulnerability and dopamine-related neurophysiology, elevated 1/nT2* was observed to
+    61→moderate the link between CU and PLEs in key subcortical brain regions. Longitudinal studies
+    62→are needed to understand the timing and mechanism of neurobehavioral reward processing
+    63→alterations.
+    64→
+    65→In 2025, 17% of United States 12th graders reported past month cannabis use (CU) and
+    66→over one third reported lifetime CU1. Adolescence is a critical period of brain development2–7
+    67→characterized by increased vulnerability to external influences like drugs. Relatedly, adolescent
+    68→CU is associated with greater risk for adverse cognitive8,9, behavioral8, and psychological10–13
+    69→outcomes, including psychotic-like experiences14 (PLEs, subclinical psychosis spectrum
+    70→experiences15).
+    71→Associations between CU and PLEs14,16–20 are elevated with high potency products21,22
+    72→which are increasingly preferred by adolescents23–25. Although PLEs are at the mildest end of the
+    73→psychosis spectrum and often benign or transient, they are distressing and impairing for many
+    74→adolescents. PLEs are also important transdiagnostic indicators of psychiatric vulnerability26,27,
+    75→such that they predict later psychosis symptoms and other psychiatric concerns, particularly
+    76→among youth with more, distressing, and persistent PLEs28,29, and among those with co-occurring
+    77→CU13,30,31.
+    78→The co-occurrence of CU and PLEs or psychotic symptoms may be driven by alterations
+    79→in the dopaminergic system, which is implicated in reward processing32, goal-directed action33,
+    80→and drug use34. Altered dopamine activity in the caudate, putamen, thalamus, and substantia
+    81→nigra/ventral tegmental area (SN/VTA) in adults35–43, along with disrupted reward-based
+    82→responsiveness and decision-making in adolescents and adults44–50, are associated with psychotic
+    83→disorders, prodromal psychosis symptoms, psychosis risk and PLEs. In these conditions,
+    84→abnormally elevated dopamine may lead to the misattribution of significance to irrelevant stimuli
+    85→(aberrant salience51,52,53) manifesting in delusions, hallucinations, and altered reward
+    86→responsiveness. Chronic CU also influences the dopaminergic system54,55: in adults, chronic CU
+    87→is associated with both reduced striatal dopamine synthesis activity56,57 and release58–60.
+    88→
+    89→Adolescent research has not directly tested dopaminergic processes but behavioral indices of
+    90→dopaminergic processes indicates that adolescents with regular CU exhibit alterations in reward
+    91→sensitivity61,62. Neurobehavioral indicators of reward motivation63–66,32,67,68 (i.e., how much effort
+    92→one is willing to exert for rewards69–71), anticipation, and learning are attenuated in adolescents
+    93→who use cannabis compared to controls72–74. Notably, chronic CU in individuals prone to
+    94→psychosis may be characterized by patterns of elevated, rather than attenuated, dopamine-related
+    95→neurophysiology. For example, adults with CU disorder (CUD) had elevated levels of
+    96→neuromelanin (characteristic of hyperdopaminergic disorders like schizophrenia) in regions
+    97→implicated in psychosis (i.e., SN/VTA) compared to adults without CUD37.
+    98→Whether similar interactions are evident earlier in development (i.e., adolescence) and
+    99→during early precursors of psychotic disorders (which may manifest as PLEs) is unknown, but
+   100→understanding these interactions is crucial given the ongoing maturation of dopaminergic
+   101→processes during adolescence54,75–77. Existing methods for measuring dopaminergic processes
+   102→directly (i.e., via PET) is typically restricted among adolescent populations. Moreover,
+   103→dopamine-related neurophysiology is complex and can be assessed through several direct (i.e.,
+   104→storage, synthesis) and indirect approaches (i.e., neuromelanin and tissue iron). Tissue iron is a
+   105→necessary component of catecholamine synthesis (including dopamine)78 which can be measured
+   106→non-invasively via MRI. Elevated tissue iron is associated with psychiatric and cognitive factors
+   107→thought to be influenced by hyperdopaminergia, including cocaine use disorder79–82 and
+   108→schizophrenia83,84. Another noninvasive approach is to assess behavior supported by
+   109→dopaminergic processes via tasks balancing reward and effort32,85–88. Using these noninvasive
+   110→approaches can help clarify how CU and PLEs together are associated with neurobehavioral
+   111→indicators supporting dopaminergic processes in adolescence.
+   112→
+   113→The objective of this cross-sectional study is to evaluate the interrelation between
+   114→adolescent CU, PLEs, and neurobehavioral processes related to dopamine, which were
+   115→characterized by two indicators: performance on a reward motivation task, and subcortical tissue
+   116→iron. First, we hypothesize that performance on a reward motivation task will depend on group
+   117→(cannabis versus control), PLEs, and other task factors, such that the combination of CU and
+   118→PLEs will lead to amplified negative associations between CU and reward motivation. Second,
+   119→we hypothesize that the link between CU quantity and PLEs will depend on brain tissue iron
+   120→(measured as a proxy, 1/nT2*), such that higher 1/nT2* will be moderate the positive
+   121→associations between CU and PLEs .
+   122→Methods
+   123→Participants
+   124→Participants were recruited via free and paid community advertising (schools, flyers,
+   125→social media) and electronic medical record review at the affiliated hospital. Eligibility criteria,
+   126→chosen to maximize group differences and limit the influence of other neural confounds,
+   127→included: aged 14-17; endorsed < 5 (control group) or > 11 (cannabis group) lifetime cannabis
+   128→episodes and would abstain from cannabis ≥ 15 hours without withdrawal symptoms; no MRI
+   129→contraindications (head injury with loss of consciousness > ten minutes, migraines, or seizures
+   130→per caregiver report); no current impairing psychotic disorder symptoms (i.e., were not
+   131→experiencing active hallucinations or delusions and were not receiving inpatient or intensive
+   132→services to treat psychosis symptoms). Exclusion criteria included: within the past three months,
+   133→scoring “high dependence” on the Electronic Cigarette Dependence Index89 or using non-vape
+   134→nicotine products at least three times per week, or endorsing weekly alcohol use with average > 4
+   135→drinks per episode or multiple > 4 drink episodes90; lifetime use of any other substance. The
+   136→
+   137→study protocol was approved by the E.P. Bradley Hospital’s Institutional Review Board.
+   138→Adolescents provided assent and caregivers provided consent. Five control participants
+   139→completed the study protocol with pilot study procedures (included in this study). For 1/nT2*
+   140→analyses, two participants were excluded for poor quality MRI data, for a total N = 81 (n
+   141→control
+   142→= 47; n = 34). In the reward motivation task analyses, two participants did not
+   143→group cannabis group
+   144→complete the task, for a total N = 79 (n = 46; n = 33). See Table 1 for
+   145→control group cannabis group
+   146→participant characteristics.
+   147→Table 1
+   148→Participant characteristics
+   149→Control Cannabis
+   150→Variable n = 47 n = 34
+   151→Mean (SD) t p-value
+   152→Age 15.34 (1.01) 15.79 (1.23) -1.77 0.082
+   153→n (%) ꭓ2 p-value
+   154→Biological Sex < 0.01 > 0.99
+   155→Female 30 (64%) 22 (65%)
+   156→Male 17 (36%) 12 (35%)
+   157→Race 8.02 0.155
+   158→Asian 1 (2.1%) 1 (2.9%)
+   159→Biracial 2 (4.3%) 5 (15%)
+   160→Black 3 (6.4%) 5 (15%)
+   161→Other 1 (2.1%) 3 (8.8%)
+   162→Unknown 1 (2.1%) 0 (0%)
+   163→
+   164→White 39 (83%) 20 (59%)
+   165→Hispanic 11.75 0.002
+   166→No 39 (85%) 18 (53%)
+   167→Yes 6 (13%) 16 (47%)
+   168→Do not know 1 (2.2%) 0 (0%)
+   169→Missing 1 (2.2%) 0 (0%)
+   170→Medications
+   171→Anti-psychotic 1 (2.1%) 2 (5.9%) -0.813 0.400
+   172→Antidepressant 6 (13%) 11 (32%) -2.06 0.044
+   173→Stimulant 1 (2.1%) 1 (2.9%) -0.224 0.800
+   174→Sleep 2 (4.3%) 3 (8.8%) -0.792 0.400
+   175→Non-stimulant 1 (2.1%) 0 (0%) 1.00 0.300
+   176→1/nT2* Mean (SD) T p-value
+   177→SN/VTA 0.98 (0.05) 0.94 (0.04) 3.74 <0.001
+   178→Left Caudate 0.89 (0.03) 0.87 (0.03) 2.71 0.008
+   179→Right Caudate 0.90 (0.03) 0.88 (0.03) 2.92 0.005
+   180→Left Putamen 0.92 (0.03) 0.90 (0.03) 3.32 0.001
+   181→Right Putamen 0.94 (0.03) 0.93 (0.03) 1.56 0.123
+   182→Left Thalamus 0.92 (0.03) 0.89 (0.02) 4.38 <0.001
+   183→Right Thalamus 0.93 (0.03) 0.90 (0.02) 4.13 <0.001
+   184→Cannabis Quantity
+   185→
+   186→Daily cannabis grams 0.01 (0.07) 0.87 (1.27) -3.93 <0.001
+   187→Daily cannabis concentrate hits 0.00 (0.00) 10.97 (8.94) -6.94 <0.001
+   188→Mean (SD) T p-value
+   189→YSR Thought Problems T Score 56.95 (6.98) 62.59 (8.63) -3.10 0.003
+   190→(N = 78)
+   191→Note.
+   192→“SN/VTA”: Substantia Nigra/Ventral Tegmental Area; “YSR”: Youth Self Report
+   193→Measures
+   194→Cannabis Use Quantity
+   195→At the initial visit, Daily Sessions, Frequency, Age of Onset, and Quantity of Cannabis
+   196→Use Inventory (DFAQ-CU)91 assessed patterns of past 3-month CU quantity by administration
+   197→method (concentrate hits versus flower grams). Responses were log-transformed for skewness.
+   198→Supplemental analyses examined CU frequency and CUD severity; see Supplemental Methods
+   199→for details.
+   200→Reward Motivation
+   201→The modified EEFRT task, completed at the initial visit, requires adolescents to choose to
+   202→pump up one of two balloons: easy or hard, across 72 trials. For every trial, the easy option had a
+   203→fixed reward amount of 1 point and required of 20 key presses (“effort”). The hard option varied
+   204→by trial but always had a higher reward amount (3, 5, or 7 points) and higher effort required (100,
+   205→120, or 150 presses) compared to the easy option. Before deciding between the two options,
+   206→adolescents were shown the reward amount offered (points) and effort required (number of key
+   207→presses) for the easy vs. hard option, and the probability of actually earning points after trial
+   208→completion (“reward probability”; 50% or 100% depending on the trial). Participants were told
+   209→they would be paid a percentage of their win trials (for fairness all were paid $5 at study end).
+   210→Choice on each trial was coded as 0 or 1, representing the easy or hard option, respectively.
+   211→
+   212→Because reward motivation is influenced by trial-level factors of reward amount offered, effort
+   213→required for the hard option, and reward probability, reward motivation was the dependent
+   214→variable—operationalized as proportion of trials that participants chose to complete the hard
+   215→option—and the trial-level factors were predictors. Trials were excluded if reaction time (RT)
+   216→occurred less than .2 seconds after choice presentation or greater than 3 standard deviations
+   217→(SDs) above the average RT (4.56 seconds). Participants whose median RT was less than .3
+   218→seconds were removed entirely (n=1).
+   219→Psychotic-Like Experiences (PLEs)
+   220→PLEs were measured by the Achenbach Youth Self-Report (YSR) Thought Problems
+   221→Scale92 at the initial visit. This scale assesses behavioral and emotional symptoms including
+   222→visual and auditory hallucinations and strange ideas akin to PLEs (e.g., “I hear sounds or voices
+   223→that other people think aren’t there”)92. Participants reported their experiences on a Likert scale
+   224→as: “not true” (0); “sometimes true” (1); “very/often true” (2). T-scores between 65-69 are
+   225→considered borderline and above 70 are considered clinically significant. This scale accurately
+   226→predicts psychosis-spectrum conditions (i.e., clinical high risk for psychosis or full psychosis
+   227→threshold) 93,94. T-scores were z-scored for reward motivation analyses.
+   228→MRI
+   229→Acquisition. A Siemens 3T PRISMA scanner with a 64-channel head coil was used to
+   230→acquire data. Structural MPRAGE T1 scans had the following parameters: TR/TE/TI = 1900
+   231→ms/3.02 ms/ 900 ms, flip angle = 9°, FOV = 256 mm, 160 slices, Voxel size = 1mm3.Resting
+   232→state T2*-weighted, single-shot, gradient-echo, echo-planar imaging (EPI) sequences were
+   233→collected over nine minutes with participants’ eyes open. For pilot participants, the following
+   234→parameters were used: TR = 2000 ms, TE = 30 ms; flip angle = 90°; FOV = 192 mm; 60 slices;
+   235→
+   236→256 measurements; voxel size 2mm3; multiband acceleration factor 3, GRAPPA in-plane
+   237→acceleration factor 2. For all other participants, parameters were TR = 1600 ms, TE=30 ms; flip
+   238→angle = 62°; FOV = 200 mm; 72 slices; 333 measurements; voxel size 2mm3; multiband
+   239→acceleration factor 3, GRAPPA in-plane acceleration factor 2. Siemens AutoAlign tilted the slice
+   240→prescription 30 degrees relative to the AP-PC line to improve orbital signal (applied in all but the
+   241→five initial pilot subjects)95. Protocols differed due to sequence optimization post-piloting (e.g.,
+   242→tilt). Scans were completed on a separate day from the reward motivation task.
+   243→EPI preprocessing. The CONN Toolbox (version 22a) running with MATLAB (version
+   244→R2023a; Natick, MA, The MathWorks, Inc.) and SPM 12 were used to preprocess functional
+   245→resting state and anatomical data according to a standard pipeline (without smoothing; described
+   246→in supplement). Participant data was retained if at least 170 volumes96 remained after 0.5mm
+   247→movement volumes were excluded83; as a result, two subjects were excluded.
+   248→Tissue Iron. Tissue iron is an indirect measure of dopamine-relevant neurophysiology, as
+   249→well as other processes75,83,97,98. Tissue iron co-localizes with dopamine vesicles, is essential for
+   250→dopamine synthesis, and is positively associated with presynaptic vesicular storage of
+   251→dopamine75,99,100. It is also associated with dopamine-related psychiatric and cognitive factors 101
+   252→96,102 83,84 79–82. Additionally, the developmental trajectory of tissue iron distribution across the
+   253→brain aligns with the dopaminergic system adolescence through adulthood75,76,101,103–106. In this
+   254→study, whole-brain tissue iron estimates were derived from preprocessed resting state single-echo
+   255→EPI scans using AFNI. We calculated relative T2* decay per voxel compared to the whole brain
+   256→average, which generated a whole-brain map of 1/nT2* signal83. This process involved: 1)
+   257→normalizing of voxels at each volume (timepoint) to the mean of that volume within MNI-
+   258→template brain mask; 2) computing median of voxel intensity across time; 3) calculating this
+   259→
+   260→value’s inverse. The output is a single-volume map where the value of each voxel represents the
+   261→inverse of the normalized T2* measurement (1/nT2*). Because the T2*-weighted signal is
+   262→inversely associated with tissue iron concentration98, lower 1/nT2* values are consistent with
+   263→lower tissue iron. Regions of interest (ROIs) were selected based on potential roles in reward and
+   264→psychosis35–37,39–42,75,76,82,83,98,103,107–109 and included the substantia nigra/VTA, left and right
+   265→putamen, caudate, and thalamus.
+   266→Statistical Analyses
+   267→Analyses were conducted in R version 4.5.0 (see supplement for R packages).
+   268→Neurobehavioral dopaminergic processes were modeled two ways: reward motivation was
+   269→modeled as its behavioral phenotype that is predicted by CU and PLEs, whereas subcortical
+   270→tissue iron was modeled as an individual-difference factor that may moderate the link between
+   271→CU and PLEs. To examine the associations between CU, PLEs, and reward motivation (i.e.,
+   272→proportion of choosing the hard option accounting for associated reward amount, effort required,
+   273→and reward probability), we implemented a generalized estimating equations (GEE) model,
+   274→which weights combinations of observations to evaluate correlated data and produce accurate
+   275→standard errors110. A binomial distribution with a logit link function with an unstructured
+   276→correlation matrix was used, given the binary nature of the response choice variable. Response
+   277→choice (i.e., choosing the hard versus easy option) was treated as a nested-repeated measures
+   278→dependent variable. Trial was included as a covariate to account for the learning rate. Reward
+   279→amount (3, 5, or 7 points offered for the hard option), effort required (keyboard button presses
+   280→required for the hard option: 100, 120, or 150), and reward probability (50% versus 100%) were
+   281→trial-level independent variable. Group (control versus cannabis) was a between-subjects
+   282→independent variable; PLE score was a continuous independent variable. Sex and frequency of
+   283→
+   284→nicotine use were tested as covariates but were not included in the final model because neither
+   285→was significant.
+   286→A five-way interaction between reward amount offered (for the hard option), effort
+   287→required (for the hard option), reward probability, PLEs, and group was tested to account for task
+   288→factors contributing to each choice. The five-way interaction was not significant but a four-way
+   289→interaction without reward probability was; for parsimony, we focused on the four-way
+   290→interaction as our main model with reward probability as an additional covariate. Significant
+   291→interactions were probed by examining the simple slope of reward amount at levels of effort
+   292→required (100, 120, and 150 keyboard presses, referred to as “low”, “medium”, and “high”) and
+   293→PLEs (-1 SD, average, and +1 SD, referred to as “low”, “average”, and “high”), and cannabis
+   294→versus control group.
+   295→To examine whether the link between CU quantity (daily concentrate hits and daily
+   296→cannabis grams) and PLEs depends on 1/nT2* in each ROI, we conducted separate multivariate
+   297→linear regressions for each ROI, controlling age, sex, nicotine use, and alcohol use. Significant
+   298→interactions were followed up with simple slopes analyses at -1 SD, average, and +1 SD levels of
+   299→1/nT2*. Models examining CU frequency (CU sessions ratio) and problems (CUD severity) are
+   300→in the supplement (Table S4).
+   301→Results
+   302→Odds of hard option choice predicted by reward amount, effort required, PLEs, and group
+   303→See Table 1 for descriptive statistics for predictors and outcomes. A significant four-way
+   304→interaction between reward amount (for the hard option), effort required (for the hard option),
+   305→PLEs, and group (i.e., cannabis vs. control) predicted odds of hard option choice (see Table 2).
+   306→
+   307→Table 2. Multivariate generalized estimating equation examining interaction between reward amount,
+   308→effort required, group, and psychotic-like experiences (PLEs) on odds of hard option choice.
+   309→Predictor OR [95% CI] β [95% CI] p-value
+   310→Reward Amount 1.54 [0.71, 3.31] 0.43 [-0.34, 1.20] 0.271
+   311→Effort Required 1.11 [0.49, 2.52] 0.11 [-0.71, 0.92] 0.797
+   312→PLEs 4.09 [0.63, 26.57] 1.41 [-0.46, 3.28] 0.140
+   313→Group 2.88 [0.25, 32.87] 1.06 [-1.38, 3.49] 0.394
+   314→Trial 0.99 [0.98, 0.99] -0.01 [-0.02, -0.01] <0.001
+   315→Reward Probability 6.13 [4.81, 7.81] 1.81 [1.57, 2.06] <0.001
+   316→2-Way Interactions
+   317→Reward Amount × Effort Required 1.45 [0.77, 2.72] 0.37 [-0.26, 1.00] 0.245
+   318→Reward Amount × PLEs 0.99 [0.46, 2.13] -0.01 [-0.78, 0.76] 0.974
+   319→Effort Required × PLEs 0.70 [0.30, 1.63] -0.36 [-1.21, 0.49] 0.406
+   320→Reward Amount × Group 2.80 [0.83, 9.44] 1.03 [-0.18, 2.25] 0.096
+   321→Effort Required × Group 0.31 [0.10, 0.92] -1.17 [-2.26, -0.08] 0.035
+   322→PLEs × Group 0.30 [0.03, 3.47] -1.19 [-3.62, 1.24] 0.338
+   323→3-Way Interactions
+   324→Reward Amount × Effort Required × PLEs 0.78 [0.40, 1.54] -0.25 [-0.93, 0.43] 0.474
+   325→Reward Amount × Effort Required × Group 0.39 [0.18, 0.85] -0.93 [-1.70, -0.17] 0.017
+   326→Reward Amount × PLEs × Group 0.32 [0.10, 1.05] -1.13 [-2.30, 0.05] 0.060
+   327→Effort Required × PLEs × Group 3.43 [1.18, 9.97] 1.23 [0.17, 2.30] 0.023
+   328→
+   329→4-Way Interaction
+   330→Reward Amount × Effort Required × PLEs 2.41 [1.10, 5.27] 0.88 [0.09, 1.66] 0.028
+   331→× Group
+   332→Note.
+   333→“OR”: odds ratio; “PLEs”: psychotic-like experiences; “Group”: cannabis vs. control.
+   334→Simple Slopes Analysis: Effect of Reward Amount on Hard Option Choice
+   335→At high PLEs, the influence of reward amount on choice depended on group when effort
+   336→required was low (p =0.040) and medium (p =0.027). At low effort required,
+   337→group contrast group contrast
+   338→the positive association between reward amount and log-odds of hard option choice was stronger
+   339→in the control group (β =0.32, 95% CI [0.09, 0.56], p=0.007), compared to the
+   340→reward amount simple slope
+   341→cannabis group (β 0.03, 95% CI [-0.12, 0.18], p=0.704). At medium effort
+   342→reward amount simple slope=
+   343→required, the association between reward amount and log-odds of hard option choice was
+   344→stronger in the control group (β =0.42, 95% CI [0.26, 0.57], p<0.001),
+   345→reward amount simple slope
+   346→compared to the cannabis group (β 0.18, 95% CI [0.031, 0.32], p=0.018). For
+   347→reward amount simple slope=
+   348→more detailed simple slopes analyses results, see Fig 1; Fig S1, and Tables S1-S3)
+   349→
+   350→Figure 1. Simple slopes for log-odds of hard option choice predicted by reward amount, effort required, psychotic-like experiences
+   351→(PLEs), and group
+   352→Note.
+   353→“Low,” “Average,” and “High” PLEs refer to -1 SD, Average, and +1 SD respectively.
+   354→“Low”, “Medium,” and “High” Effort Required refers to 100, 120, and 150 key presses, respectively.
+   355→p-values are contrasts in the simple slope of reward between control and cannabis group across same combination of effort required and PLEs.
+   356→Figure 1 shows the simple slope of reward amount predicting log-odds of hard option choice at low and medium effort required (panels A1 and
+   357→B1, panels A2 and B2 respectively), at low, average, and high PLEs (light, medium, and dark grey lines), for the control and cannabis groups (A1
+   358→and A2 for control group, B1 and B2 for cannabis group). Figure 1 illustrates that the influence of reward amount depends on group at high PLEs
+   359→
+   360→and low (p = 0.04) and medium effort required (p = 0.027), such that the positive associations between reward amount and log-odds of hard
+   361→option choice are greater in the control group, compared to the cannabis group. Thus, on trials requiring low and medium effort, adolescents who
+   362→use cannabis showed blunted reward sensitivity compared to control participants when choosing between the easy and hard options.
+   363→
+   364→The moderating role of 1/nT2* signal in associations between CU and PLEs
+   365→Cannabis Quantity
+   366→Daily Concentrate Hits. The association between daily concentrate hits and PLEs
+   367→depended on left putamen and right thalamus 1/nT2* (Table 3). In the left putamen at average
+   368→and +1 SD 1/nT2*, there was a positive association between daily concentrate hits and PLEs
+   369→(β=2.16, 95% CI [0.57, 3.76], p=0.008; β=3.82, 95% CI [1.70, 5.95], p=0.001, respectively; Fig
+   370→2, panel 1). In the right thalamus at average and +1 SD 1/nT2*, there was a positive association
+   371→between daily concentrate hits and PLEs (β=2.40 95% CI [0.60, 4.21], p=0.010; β=4.59, 95% CI
+   372→[1.50, 7.67], p=0.004, respectively; Fig 2, panel A1-A2).
+   373→Daily Cannabis Grams. The associations between daily cannabis grams and PLEs
+   374→depended on 1/nT2* in the left and right putamen, and right thalamus (Table 3). At average and
+   375→+1 SD left putamen 1/nT2*, daily cannabis grams was positively associated with PLEs (β=3.76,
+   376→95% CI [1.34, 6.18], p=0.003; β=6.12, 95% CI [2.47, 9.77], p=0.001, respectively). At average
+   377→and +1 SD right putamen 1/nT2*, daily cannabis grams was positively associated with PLEs
+   378→(β=3.15, 95% CI [0.98, 5.32], p=0.005; β=6.38, 95% CI [3.32, 9.42], p < 0.001, respectively). At
+   379→average and +1 SD right thalamus 1/nT2*, daily cannabis grams was positively associated with
+   380→PLEs (β=3.33, 95% CI [1.06, 5.59], p=0.005; β=6.47, 95% CI [2.82, 10.13], p < 0.001,
+   381→respectively; Fig 2, panel B1-B3.)
+   382→
+   383→Figure 2. Moderation of the association between cannabis use and PLEs by 1/nT2* signal
+   384→A1. B1.
+   385→B2.
+   386→A2.
+   387→B3.
+   388→
+   389→Table 3. Associations between CU and PLEs moderated by 1/nT2* signal
+   390→Daily Concentrate Hits
+   391→Left Putamen
+   392→Estimate [95% CI] p -value FDR p
+   393→Daily Concentrate Hits -45.00 [-81.02, -8.98] 0.015 0.236
+   394→1/nT2* 64.99 [-2.53, 132.51] 0.059 0.349
+   395→Daily Concentrate Hits × 1/nT2* 51.58 [12.07, 91.09] 0.011 0.236
+   396→Right Thalamus
+   397→Estimate [95% CI] p-value FDR p
+   398→Daily Concentrate Hits -62.70 [-115.68, -9.72] 0.021 0.236
+   399→1/nT2* 41.88 [-66.31, 150.07] 0.443 0.799
+   400→Daily Concentrate Hits × 1/nT2* 70.93 [12.32, 129.54] 0.018 0.236
+   401→Daily Cannabis Grams
+   402→Left Putamen
+   403→Estimate [95% CI] p-value FDR p
+   404→Daily Cannabis Grams -63.30 [-119.96, -6.65] 0.029 0.141
+   405→1/nT2* 131.35 [17.21, 245.49] 0.025 0.141
+   406→Daily Cannabis Grams × 1/nT2* 73.34 [10.51, 136.17] 0.023 0.141
+   407→Right Putamen
+   408→Estimate [95% CI] p-value FDR p
+   409→Daily Cannabis Grams -92.33 [-148.45, -36.21] 0.002 0.034
+   410→1/nT2* 167.03 [64.31, 269.74] 0.002 0.034
+   411→Daily Cannabis Grams × 1/nT2* 101.69 [41.72, 161.67] 0.001 0.034
+   412→
+   413→Right Thalamus
+   414→Estimate [95% CI] p -value FDR p
+   415→Daily Cannabis Grams -90.65 [-158.30, -22.99] 0.009 0.105
+   416→1/nT2* 109.03 [-26.65, 244.71] 0.114 0.306
+   417→Daily Cannabis Grams × 1/nT2* 102.38 [28.00, 176.77] 0.008 0.105
+   418→Note.
+   419→In all models, sex, age, nicotine days ratio, and standard drinks ratio were included as covariates.
+   420→β estimates for covariates are presented in supplemental Table S4.
+   421→“SN/VTA”: substantia nigra/ventral tegmental area.
+   422→*p < 0.05, **p < 0.01, ***p ≤ 0.001
+   423→
+   424→Discussion
+   425→To our knowledge, this is the first study to examine the relationship between adolescent
+   426→CU, PLEs, and dopamine-relevant neurobehavioral indices. We examined how CU and PLEs
+   427→influence behavioral reward motivation (a construct supported by dopaminergic processes32, and
+   428→whether associations between CU and PLEs depended on subcortical tissue iron (an indicator of
+   429→dopamine-related neurophysiology75,78,83,97,99. Consistent with our hypotheses, we found that
+   430→adolescent CU is associated with less reward motivation in the context of above average PLEs,
+   431→and that 1/nT2* signal in brain regions previously implicated in psychosis spectrum disorders
+   432→magnified associations between CU and PLEs.
+   433→Our results advance progress towards understanding the mechanism by which CU and
+   434→psychosis risk-associated phenotypes might be related, across two methods relevant to
+   435→dopaminergic processes. Effortful behavior—supported by dopamine—changes when striatal
+   436→dopaminergic processes are manipulated (e.g., drug administration, neuromodulation32,111), such
+   437→that modifications to increase dopamine have resulted in greater reward sensitivity and effortful
+   438→behavior to achieve a goal, whereas dopamine depletion led to less effort32,111. However,
+   439→individuals with PLEs and psychotic disorders have shown less sensitivity to rewards (e.g.,
+   440→exhibiting less effort than controls with high or guaranteed reward offered)130,131,132 and
+   441→adolescents with CU have exhibited less reward motivation compared to controls (Lane et al.69;
+   442→but see Lawn et al.70). In the present study, adolescents in the cannabis group, compared to
+   443→controls, were less motivated by reward at high PLEs (+1 SD above average; T-score ≥ 68) and
+   444→low and medium effort. These results suggest this group is exhibiting blunted reward motivation
+   445→and sensitivity, highlighting the magnified deficits in reward motivation when CU and PLEs co-
+   446→occur.
+   447→
+   448→Connecting established models of dopaminergic processes in psychosis to motivational
+   449→deficits can be challenging because these deficits contradict expectations that elevated dopamine
+   450→promotes effortful behavior32,33,115. This apparent paradox is addressed by several theories
+   451→explaining dopaminergic dysregulation. The first theory posits that psychotic disorders like
+   452→schizophrenia are characterized by decreased phasic dopamine in reference to salient stimuli
+   453→(e.g., cues for a high reward) and increased tonic striatal dopamine transmission116 and
+   454→spontaneous phasic dopamine, the latter of which may explain why irrelevant stimuli are deemed
+   455→salient117. Second, low motivation in psychotic disorders is theorized to originate from a lifetime
+   456→excess of post-synaptic striatal D2 receptors starting early in development112,118. Further, given
+   457→that CU has not been associated with an excess of striatal D2 receptors58,119 it is unlikely to be
+   458→the primary explanation for the growing incidence of CU and psychotic disorders30,31. Within this
+   459→framework, if PLEs are also characterized by similar dopaminergic dysregulation, less reward
+   460→motivation—even when effort required is low—could reflect impaired cues for salient (goal-
+   461→related) stimuli rather than low tonic dopamine. Our findings that positive associations between
+   462→CU and PLEs depended on higher 1/nT2* signal (in the thalamus and putamen, regions where
+   463→dopaminergic functioning is associated with psychotic disorders35–39,41) further support the
+   464→hypothesis that PLEs and CU together contribute to dysregulation of dopamine-relevant indices.
+   465→In this context, CU and PLEs may jointly exacerbate attenuated reward sensitivity.
+   466→Our findings among adolescents align with a recent study that showed CUD severity in
+   467→adults is associated with elevated neuromelanin signal—a breakdown product of dopamine that
+   468→binds to iron—in psychosis-related ROIs. Our results diverge with that study’s lack of evidence
+   469→for an interaction between CU (including CUD severity, see Supplemental Table S4),
+   470→neuromelanin, and psychosis spectrum experiences37, potentially due to methodological and
+   471→
+   472→developmental differences. In contrast, blunted dopamine-related neurophysiology has been
+   473→associated with chronic CU in adults and animals56,59,66,119–122. Therefore, our finding that
+   474→elevated 1/nT2* moderates associations between adolescent CU and PLEs may suggest
+   475→dopaminergic processes implicated in psychosis-spectrum vulnerability also contribute to
+   476→cannabis-related vulnerability to PLEs.
+   477→Taken together, our study provides the first cross-sectional preliminary evaluation of a
+   478→potential mechanism by which CU and psychosis-related symptoms co-occur using a multi-
+   479→method investigation of neurobehavioral indices known to be linked to dopaminergic processes.
+   480→Our methodology, like that of other studies37,83,84 is indirect. Differences in findings (i.e., Ahrens
+   481→et al.37) then may be due to different methods of capturing processes supported by dopamine,
+   482→developmental periods, and stages of disease. Of note, a recent study found an inverse
+   483→association between tissue iron in the substantia nigra-VTA and elevated dopamine synthesis
+   484→capacity in adults with schizophrenia123,124, countering previous findings that 1/nT2* is positively
+   485→associated with of presynaptic vesicular storage of dopamine75,99,100. However, the applicability
+   486→of these findings to our study population (i.e., adolescents with varying levels of PLEs and CU)
+   487→is less clear, as dopamine system dysfunction in psychosis-spectrum experiences is highly
+   488→heterogenous depending on ROI and is significantly influenced by age, sex, and other factors125.
+   489→It is crucial to identify potential pathways by which adolescent CU and psychotic symptoms are
+   490→related given the increasing incidence with higher potency products21,22,126, and the substantial
+   491→reduction in quality of life incurred.
+   492→Strengths and Limitations
+   493→Strengths of the present study include measuring an indicator of tissue iron (1/nT2*),
+   494→previously established as related to dopamine neurophysiology75,83,99, during its development in
+   495→
+   496→adolescence54,75–77. Neural confounds of other drugs did not influence our results—adolescents
+   497→had no history of other illicit substance use. Additionally, our results reflected conditions of
+   498→typical substance use, since CU frequently co-occurs with nicotine use127 and we included
+   499→participants who used nicotine while accounting for nicotine use as a covariate.
+   500→The present study had several limitations. As a cross-sectional study, the directionality of
+   501→associations remain unclear. Because mesolimbic dopaminergic processes mature during
+   502→adolescence54,75–77, we cannot determine whether elevated dopamine contributes to the
+   503→development of CU and PLEs or if shared vulnerability underlies all three128. Longitudinal
+   504→investigations are needed to determine the temporal role of 1/nT2* in the relationship between
+   505→CU and PLEs. Although excluding adolescents with other illicit substance use prevented those
+   506→neural confounds, this choice may have truncated the upper range of CU frequency and
+   507→problems127. Similar to other studies83,99, our measure of tissue iron (1/nT2*) was indirect
+   508→because it was not acquired using multi-echo MRI; replication is needed in follow-up studies
+   509→using multi-echo methods like quantitative susceptibility mapping129. We did not measure
+   510→positive and negative symptoms separately; future studies should characterize these symptoms to
+   511→evaluate sources of functional impairment. Lastly, although the YSR Thought Problems scale is a
+   512→screening tool that accurately predicts clinical high risk for psychosis and meeting psychosis
+   513→threshold93,94, our study did not include a diagnostic measure of psychosis spectrum
+   514→conditions130.
+   515→Conclusions
+   516→This cross-sectional study provides the first preliminary evidence that associations
+   517→between adolescent CU and dopamine-relevant neural and behavioral indices vary as a function
+   518→of PLEs. Behaviorally, this manifested as less reward motivation and strategic goal-directed
+   519→
+   520→action. Consistent with psychosis research on dopamine-relevant neurophysiology, greater
+   521→1/nT2* was observed with higher CU and PLEs in key subcortical brain regions, including the
+   522→associative striatum and thalamus. Crucial next steps include understanding the temporal
+   523→ordering of these factors—whether dopamine-relevant neurophysiology was altered prior to or
+   524→after CU onset—and clarifying the extent to which alterations in neurobehavioral dopamine-
+   525→related processes alterations reflect broader shifts in the developmental trajectory of reward
+   526→processing in adolescence, due to CU.
+   527→
+   528→Data Availability Statement: Participants did not consent to sharing their data.
+   529→Acknowledgments: We are grateful to the families who participated in this research. Part of this
+   530→research was conducted using computational and visualization resources and services at the
+   531→Center for Computation and Visualization, Brown University.
+   532→Funding: Funding included K23DA050911 (PI: Thomas), BBRF/NARSAD Young Investigator
+   533→Award and Zorich Family Foundation Investigator (PI: Thomas), NIH COBRE Award
+   534→5P30GM149405 (PI: Sanes, supported LeBlanc & Lorenc), and NIGMS Institutional
+   535→Development Award U54GM115677 (PI: Rounds, supported pilot data collection). National
+   536→Institutes of Health (NIH) had no role in the study design, collection, analysis or interpretation of
+   537→the data, writing the manuscript, or the decision to submit the paper for publication. The content
+   538→is solely the responsibility of the authors and does not necessarily represent the official views of
+   539→the NIH.
+   540→
+   541→References
+   542→1. Meich RA, Patrick ME, O’Malley PM, Jager JO, Jang JB. Monitoring the Future Na/onal
+   543→Survey Results on Drug Use, 1975–2025: Overview and Key Findings for Secondary School
+   544→Students. Ins<tute for Social Research, University of Michigan; 2026.
+   545→2. Andersen SL. Trajectories of brain development: point of vulnerability or window of
+   546→opportunity? Neurosci Biobehav Rev. 2003;27(1):3-18. doi:10.1016/S0149-
+   547→7634(03)00005-8
+   548→3. Giedd JN. Structural Magne<c Resonance Imaging of the Adolescent Brain. Ann N Y Acad
+   549→Sci. 2004;1021:77-85. doi:10.1196/annals.1308.009
+   550→4. Giedd JN, Blumenthal J, Jeffries NO, et al. Brain development during childhood and
+   551→adolescence: a longitudinal MRI study. Nat Neurosci. 1999;2(10):861-863.
+   552→doi:10.1038/13158
+   553→5. Schepis TS, Adinoff B, Rao U. Neurobiological Processes in Adolescent Addic<ve
+   554→Disorders. Am J Addict. 2008;17(1):6-23. doi:10.1080/10550490701756146
+   555→6. Tamnes CK, Her<ng MM, Goddings AL, et al. Development of the Cerebral Cortex across
+   556→Adolescence: A Mul<sample Study of Inter-Related Longitudinal Changes in Cor<cal
+   557→Volume, Surface Area, and Thickness. J Neurosci Off J Soc Neurosci. 2017;37(12):3402-
+   558→3412. doi:10.1523/JNEUROSCI.3302-16.2017
+   559→7. Ferland JMN, Ellis RJ, Bees G, et al. Long-term outcomes of adolescent THC exposure on
+   560→transla<onal cogni<ve measures in adulthood in an animal model and computa<onal
+   561→assessment of human data. JAMA Psychiatry. 2023;80(1):66-76.
+   562→doi:10.1001/jamapsychiatry.2022.3915
+   563→
+   564→8. Lorenzeg V, Hoch E, Hall W. Adolescent cannabis use, cogni<on, brain health and
+   565→educa<onal outcomes: A review of the evidence. Eur Neuropsychopharmacol.
+   566→2020;36:169-180. doi:10.1016/j.euroneuro.2020.03.012
+   567→9. Scoe JC, Slomiak ST, Jones JD, Rosen AFG, Moore TM, Gur RC. Associa<on of Cannabis
+   568→With Cogni<ve Func<oning in Adolescents and Young Adults: A Systema<c Review and
+   569→Meta-analysis. JAMA Psychiatry. 2018;75(6):585-595.
+   570→doi:10.1001/jamapsychiatry.2018.0335
+   571→10. Kiburi SK, Molebatsi K, Ntlantsana V, Lynskey MT. Cannabis use in Adolescence and Risk
+   572→of Psychosis: Are there Factors that Moderate this Rela<onship? A Systema<c Review
+   573→and Meta-Analysis. Subst Abuse. 2021;42(4):527-542.
+   574→doi:10.1080/08897077.2021.1876200
+   575→11. Lev-Ran S, Roerecke M, Foll BL, George TP, McKenzie K, Rehm J. The associa<on between
+   576→cannabis use and depression: a systema<c review and meta-analysis of longitudinal
+   577→studies. Psychol Med. 2014;44(4):797-810. doi:10.1017/S0033291713001438
+   578→12. Lowe DJE, Sorkhou M, George TP. Cannabis use in adolescents and anxiety symptoms
+   579→and disorders: a systema<c review and meta-analysis. Am J Drug Alcohol Abuse.
+   580→2024;50(2):150-161. doi:10.1080/00952990.2023.2299922
+   581→13. Di For< M, Sallis H, Allegri F, et al. Daily use, especially of high-potency cannabis, drives
+   582→the earlier onset of psychosis in cannabis users. Schizophr Bull. 2014;40(6):1509-1517.
+   583→doi:10.1093/schbul/sbt181
+   584→
+   585→14. Matheson SL, Laurie M, Laurens KR. Substance use and psycho<c-like experiences in
+   586→young people: a systema<c review and meta-analysis. Psychol Med. 2023;53(2):305-319.
+   587→doi:10.1017/S0033291722003440
+   588→15. Yung AR, Nelson B, Baker K, Buckby JA, Baksheev G, Cosgrave EM. Psycho<c-like
+   589→experiences in a community sample of adolescents: implica<ons for the con<nuum
+   590→model of psychosis and predic<on of schizophrenia. Aust N Z J Psychiatry.
+   591→2009;43(2):118-128. doi:10.1080/00048670802607188
+   592→16. Tang S, Xie Y, Wang X, You S, Fu Y, Wu D. The prevalence and influencing factors of
+   593→psycho<c-like experiences in children and adolescents: a meta-analysis and systema<c
+   594→review. Eur Child Adolesc Psychiatry. Published online November 10, 2025.
+   595→doi:10.1007/s00787-025-02905-4
+   596→17. Hides L, Lubman DI, Buckby J, et al. The associa<on between early cannabis use and
+   597→psycho<c-like experiences in a community adolescent sample. Schizophr Res.
+   598→2009;112(1):130-135. doi:10.1016/j.schres.2009.04.001
+   599→18. Stefanis NC, Delespaul P, Henquet C, Stefanis CN, Van Os J. Early adolescent cannabis
+   600→exposure and posi<ve... : Addic<on. Addic/on. 2004;99(10). Accessed September 24,
+   601→2025. heps://www-ovid-com.colorado.idm.oclc.org/journals/addic/abstract/00008514-
+   602→200410000-00020~early-adolescent-cannabis-exposure-and-posi<ve-and-nega<ve
+   603→19. Polner B, Moustafa AA, Nagy H, Takáts A, Győrfi O, Kéri S. Dopamine improves
+   604→explora<on aser expectancy viola<ons and induces psycho<c-like experiences in
+   605→pa<ents with Parkinson’s disease. Neurosci LeU. 2016;616:132-137.
+   606→doi:10.1016/j.neulet.2016.01.037
+   607→
+   608→20. Myin-Germeys I, Marcelis M, Krabbendam L, Delespaul P, Os J van. Subtle Fluctua<ons in
+   609→Psycho<c Phenomena as Func<onal States of Abnormal Dopamine Reac<vity in
+   610→Individuals at Risk. Biol Psychiatry. 2005;58(2):105-110.
+   611→doi:10.1016/j.biopsych.2005.02.012
+   612→21. Wilson J, Freeman TP, Mackie CJ. Effects of increasing cannabis potency on adolescent
+   613→health. Lancet Child Adolesc Health. 2019;3(2):121-128. doi:10.1016/S2352-
+   614→4642(18)30342-0
+   615→22. Hines LA, Freeman TP, Gage SH, et al. Associa<on of High-Potency Cannabis Use With
+   616→Mental Health and Substance Use in Adolescence. JAMA Psychiatry. 2020;77(10):1044-
+   617→1051. doi:10.1001/jamapsychiatry.2020.1035
+   618→23. Hammond D, Wadsworth E, Reid JL, Burkhalter R. Prevalence and modes of cannabis use
+   619→among youth in Canada, England, and the US, 2017 to 2019. Drug Alcohol Depend.
+   620→2021;219:108505. doi:10.1016/j.drugalcdep.2020.108505
+   621→24. Lim CCW, Sun T, Leung J, et al. Prevalence of Adolescent Cannabis Vaping: A Systema<c
+   622→Review and Meta-analysis of US and Canadian Studies. JAMA Pediatr. 2022;176(1):42-
+   623→51. doi:10.1001/jamapediatrics.2021.4102
+   624→25. Bha<a D, Hinckley J, Mikulich S, Sakai J. Cannabis Legaliza<on and Adolescent Use of
+   625→Electronic Vapor Products, Cannabis, and Cigareees. J Addict Med. 2022;16(1):e16.
+   626→doi:10.1097/ADM.0000000000000831
+   627→26. Misiak B, Wroński M, Samochowiec J. Unravelling early transdiagnos<c dynamics of
+   628→psycho<c-like experiences in young adults: Results from a cross-lagged panel network
+   629→analysis. Compr Psychiatry. 2025;139:152594. doi:10.1016/j.comppsych.2025.152594
+   630→
+   631→27. Giocondo JG, Salum GA, Gadelha A, et al. Psycho<c-like Experiences and Common
+   632→Mental Disorders in Childhood and Adolescence: Bidirec<onal and Transdiagnos<c
+   633→Associa<ons in a Longitudinal Community-based Study. Schizophr Bull Open.
+   634→2021;2(1):sgab028. doi:10.1093/schizbullopen/sgab028
+   635→28. Calkins ME, Moore TM, Saeerthwaite TD, et al. Persistence of psychosis spectrum
+   636→symptoms in the Philadelphia Neurodevelopmental Cohort: a prospec<ve two-year
+   637→follow-up. World Psychiatry. 2017;16(1):62-76. doi:10.1002/wps.20386
+   638→29. Denissoff A, Mustonen A, Mieeunen J, et al. Trajectories of adolescent psycho<c-like
+   639→experiences and early cannabis exposure: Results from a Finnish Birth Cohort Study.
+   640→Schizophr Res. 2022;246:95-102. doi:10.1016/j.schres.2022.06.014
+   641→30. Di For< M, Quaerone D, Freeman TP, et al. The contribu<on of cannabis use to varia<on
+   642→in the incidence of psycho<c disorder across Europe (EU-GEI): a mul<centre case-control
+   643→study. Lancet Psychiatry. 2019;6(5):427-436. doi:10.1016/S2215-0366(19)30048-3
+   644→31. Young-Wolff KC, Cortez CA, Alexeeff SE, et al. Adolescent Cannabis Use and Risk of
+   645→Psycho<c, Bipolar, Depressive, and Anxiety Disorders. JAMA Health Forum.
+   646→2026;7(2):e256839. doi:10.1001/jamahealthforum.2025.6839
+   647→32. Pagnier GJ, Asaad WF, Frank MJ. Double dissocia<on of dopamine and subthalamic
+   648→nucleus s<mula<on on efforvul cost/benefit decision making. Curr Biol. 2024;34(3):655-
+   649→660.e3. doi:10.1016/j.cub.2023.12.045
+   650→33. Palmiter RD. Dopamine signaling in the dorsal striatum is essen<al for mo<vated
+   651→behaviors: lessons from dopamine-deficient mice. Ann N Y Acad Sci. 2008;1129:35-46.
+   652→doi:10.1196/annals.1417.003
+   653→
+   654→34. Volkow ND, Wise RA, Baler R. The dopamine mo<ve system: implica<ons for drug and
+   655→food addic<on. Nat Rev Neurosci. 2017;18(12):741-752. doi:10.1038/nrn.2017.130
+   656→35. Kegeles LS, Abi-Dargham A, Frankle WG, et al. Increased Synap<c Dopamine Func<on in
+   657→Associa<ve Regions of the Striatum in Schizophrenia. Arch Gen Psychiatry.
+   658→2010;67(3):231-239. doi:10.1001/archgenpsychiatry.2010.10
+   659→36. McCutcheon R, Beck K, Jauhar S, Howes OD. Defining the Locus of Dopaminergic
+   660→Dysfunc<on in Schizophrenia: A Meta-analysis and Test of the Mesolimbic Hypothesis.
+   661→Schizophr Bull. 2018;44(6):1301-1311. doi:10.1093/schbul/sbx180
+   662→37. Ahrens J, Ford SD, Schaefer B, et al. Convergence of Cannabis and Psychosis on the
+   663→Dopamine System. JAMA Psychiatry. 2025;82(6):609-617.
+   664→doi:10.1001/jamapsychiatry.2025.0432
+   665→38. Murray RM, Englund A, Abi-Dargham A, et al. Cannabis-associated psychosis: Neural
+   666→substrate and clinical impact. Neuropharmacology. 2017;124:89-104.
+   667→doi:10.1016/j.neuropharm.2017.06.018
+   668→39. Nusslock R, Mieal VA, Alloy LB. Reward Processing in Mood Disorders and Schizophrenia:
+   669→A Neurodevelopmental Framework. Annu Rev Clin Psychol. 2025;21(Volume 21,
+   670→2025):557-584. doi:10.1146/annurev-clinpsy-080822-041621
+   671→40. Eisenberg DP, Blackman RK, Tietcheu MG, et al. Gene<c risk for treatment resistant
+   672→schizophrenia and corresponding varia<on in dopamine synthesis capacity and D2/3
+   673→receptor availability in healthy individuals. Mol Psychiatry. 2025;30(6):2645-2652.
+   674→doi:10.1038/s41380-024-02873-2
+   675→
+   676→41. Plavén-Sigray P, Ikonen Victorsson P, San<llo A, et al. Thalamic dopamine D2-receptor
+   677→availability in schizophrenia: a study on an<psycho<c-naive pa<ents with first-episode
+   678→psychosis and a meta-analysis. Mol Psychiatry. 2022;27(2):1233-1240.
+   679→doi:10.1038/s41380-021-01349-x
+   680→42. Howes OD, Montgomery AJ, Asselin MC, et al. Elevated Striatal Dopamine Func<on
+   681→Linked to Prodromal Signs of Schizophrenia. Arch Gen Psychiatry. 2009;66(1):13-20.
+   682→doi:10.1001/archgenpsychiatry.2008.514
+   683→43. Rössler J, Rössler W, Seifritz E, et al. Dopamine-Induced Dysconnec<vity Between
+   684→Salience Network and Auditory Cortex in Subjects With Psycho<c-like Experiences: A
+   685→Randomized Double-Blind Placebo-Controlled Study. Schizophr Bull. 2020;46(3):732-740.
+   686→doi:10.1093/schbul/sbz110
+   687→44. Blouzard E, Pouchon A, Polosan M, Bas<n J, Dondé C. Effort-Cost Decision-making
+   688→Among Individuals With Schizophrenia: A Systema<c Review and Meta-analysis. JAMA
+   689→Psychiatry. 2023;80(6):548-557. doi:10.1001/jamapsychiatry.2023.0553
+   690→45. Heerey EA, Bell-Warren KR, Gold JM. Decision-Making Impairments in the Context of
+   691→Intact Reward Sensi<vity in Schizophrenia. Biol Psychiatry. 2008;64(1):62-69.
+   692→doi:10.1016/j.biopsych.2008.02.015
+   693→46. Radua J, Schmidt A, Borgwardt S, et al. Ventral Striatal Ac<va<on During Reward
+   694→Processing in Psychosis: A Neurofunc<onal Meta-Analysis. JAMA Psychiatry.
+   695→2015;72(12):1243-1251. doi:10.1001/jamapsychiatry.2015.2196
+   696→
+   697→47. Bora E, Cesim E, Eyuboglu MS, et al. Effort-based decision-making in ultra-high-risk for
+   698→psychosis and bipolar disorder. Psychol Med. 2024;54(11):3188-3196.
+   699→doi:10.1017/S003329172400134X
+   700→48. Strauss GP, Bartolomeo LA, Luther L. Reduced willingness to expend effort for rewards is
+   701→associated with risk for conversion and nega<ve symptom severity in youth at clinical
+   702→high-risk for psychosis. Psychol Med. 2023;53(3):714-721.
+   703→doi:10.1017/S003329172100204X
+   704→49. Ermel JA, Moran EK, Culbreth AJ, Barch DM. Psycho<c like experiences as part of a
+   705→con<nuum of psychosis: Associa<ons with effort-based decision-making and reward
+   706→responsivity. Schizophr Res. 2019;206:307-312. doi:10.1016/j.schres.2018.10.026
+   707→50. Amir CM, Ghahremani DG, Chang SE, Cooper ZD, Bearden CE. Altered Neurobehavioral
+   708→Reward Response Predicts Psycho<c-Like Experiences in Youth Exposed to Cannabis
+   709→Prenatally. Biol Psychiatry. 2026;99(2):165-174. doi:10.1016/j.biopsych.2025.05.019
+   710→51. Kapur S. Psychosis as a state of aberrant salience: a framework linking biology,
+   711→phenomenology, and pharmacology in schizophrenia. Am J Psychiatry. 2003;160(1):13-
+   712→23. doi:10.1176/appi.ajp.160.1.13
+   713→52. Howes OD, Nour MM. Dopamine and the aberrant salience hypothesis of schizophrenia.
+   714→World Psychiatry. 2016;15(1):3-4. doi:10.1002/wps.20276
+   715→53. Meyer MS, Cohn JR, Hayashi K, Cicero DC. Momentary assessment of aberrant salience,
+   716→anomalous self-experiences, and psycho<c-like experiences. Personal Disord.
+   717→2022;13(6):641-653. doi:10.1037/per0000530
+   718→
+   719→54. Ernst M, Luciana M. Neuroimaging of the dopamine/reward system in adolescent drug
+   720→use. CNS Spectr. 2015;20(4):427-441. doi:10.1017/S1092852915000395
+   721→55. Ferland JMN, Hurd YL. Deconstruc<ng the neurobiology of cannabis use disorder. Nat
+   722→Neurosci. 2020;23(5):600-610. doi:10.1038/s41593-020-0611-0
+   723→56. Bloomfield MAP, Morgan CJA, Egerton A, Kapur S, Curran HV, Howes OD. Dopaminergic
+   724→Func<on in Cannabis Users and Its Rela<onship to Cannabis-Induced Psycho<c
+   725→Symptoms. Biol Psychiatry. 2014;75(6):470-478. doi:10.1016/j.biopsych.2013.05.027
+   726→57. Bloomfield MAP, Morgan CJA, Kapur S, Curran HV, Howes OD. The link between
+   727→dopamine func<on and apathy in cannabis users: an [18F]-DOPA PET imaging study.
+   728→Psychopharmacology (Berl). 2014;231(11):2251-2259. doi:10.1007/s00213-014-3523-4
+   729→58. Sami MB, Rabiner EA, Bhaeacharyya S. Does cannabis affect dopaminergic signaling in
+   730→the human brain? A systema<c review of evidence to date. Eur Neuropsychopharmacol.
+   731→2015;25(8):1201-1224. doi:10.1016/j.euroneuro.2015.03.011
+   732→59. van de Giessen E, Weinstein JJ, Cassidy CM, et al. Deficits in striatal dopamine release in
+   733→cannabis dependence. Mol Psychiatry. 2017;22(1):68-75. doi:10.1038/mp.2016.21
+   734→60. Volkow ND, Wang GJ, Telang F, et al. Decreased dopamine brain reac<vity in marijuana
+   735→abusers is associated with nega<ve emo<onality and addic<on severity. Proc Natl Acad
+   736→Sci U S A. 2014;111(30):E3149-E3156. doi:10.1073/pnas.1411228111
+   737→61. Hammond CJ, Krishnan-Sarin S, Mayes LC, Potenza MN, Crowley MJ. Associa<ons of
+   738→Cannabis- and Tobacco-Related Problem Severity with Reward and Punishment
+   739→Sensi<vity and Impulsivity in Adolescent Daily Cigareee Smokers. Int J Ment Health
+   740→Addict. 2021;19(6):1963-1979. doi:10.1007/s11469-020-00292-2
+   741→
+   742→62. Peeters M, Oldehinkel T, Vollebergh W. Behavioral Control and Reward Sensi<vity in
+   743→Adolescents’ Risk Taking Behavior: A Longitudinal TRAILS Study. Front Psychol. 2017;8.
+   744→doi:10.3389/fpsyg.2017.00231
+   745→63. Berridge KC. The debate over dopamine’s role in reward: the case for incen<ve salience.
+   746→Psychopharmacology (Berl). 2007;191(3):391-431. doi:10.1007/s00213-006-0578-x
+   747→64. Volkow ND, Michaelides M, Baler R. The Neuroscience of Drug Reward and Addic<on.
+   748→Physiol Rev. 2019;99(4):2115-2140. doi:10.1152/physrev.00014.2018
+   749→65. Volkow ND, Wang GJ, Fowler JS, Tomasi D, Telang F. Addic<on: Beyond dopamine reward
+   750→circuitry. Proc Natl Acad Sci. 2011;108(37):15037-15042. doi:10.1073/pnas.1010654108
+   751→66. Volkow ND, Wang GJ, Telang F, et al. Decreased dopamine brain reac<vity in marijuana
+   752→abusers is associated with nega<ve emo<onality and addic<on severity. Proc Natl Acad
+   753→Sci. 2014;111(30):E3149-E3156. doi:10.1073/pnas.1411228111
+   754→67. Castrellon JJ, Meade J, Greenwald L, Hurst K, Samanez-Larkin GR. Dopaminergic
+   755→modula<on of reward discoun<ng in healthy rats: a systema<c review and meta-analysis.
+   756→Psychopharmacology (Berl). 2021;238(3):711-723. doi:10.1007/s00213-020-05723-5
+   757→68. Mkrtchian A, Qiu Z, Abir Y, et al. Dopamine and serotonin differen<ally associated with
+   758→reward and punishment processes in humans: A systema<c review and meta-analysis.
+   759→JAMA Psychiatry. 2025;82(8):818-829. doi:10.1001/jamapsychiatry.2025.0839
+   760→69. Lane SD, Cherek DR, Pietras CJ, Steinberg JL. Performance of heavy marijuana-smoking
+   761→adolescents on a laboratory measure of mo<va<on. Addict Behav. 2005;30(4):815-828.
+   762→doi:10.1016/j.addbeh.2004.08.026
+   763→
+   764→70. Lawn W, Freeman TP, Pope RA, et al. Acute and chronic effects of cannabinoids on effort-
+   765→related decision-making and reward learning: an evalua<on of the cannabis
+   766→‘amo<va<onal’ hypotheses. Psychopharmacology (Berl). 2016;233(19):3537-3552.
+   767→doi:10.1007/s00213-016-4383-x
+   768→71. Treadway MT, Buckholtz JW, Schwartzman AN, Lambert WE, Zald DH. Worth the
+   769→“EEfRT”? The effort expenditure for rewards task as an objec<ve measure of mo<va<on
+   770→and anhedonia. - Abstract - Europe PMC. PLOS ONE. 2009;4(8).
+   771→doi:heps://doi.org/10.1371/journal.pone.0006598
+   772→72. Skumlien M, Langley C, Lawn W, et al. The acute and non-acute effects of cannabis on
+   773→reward processing: A systema<c review. Neurosci Biobehav Rev. 2021;130:512-528.
+   774→doi:10.1016/j.neubiorev.2021.09.008
+   775→73. Skumlien M, Mokrysz C, Freeman TP, et al. Neural responses to reward an<cipa<on and
+   776→feedback in adult and adolescent cannabis users and controls.
+   777→Neuropsychopharmacology. 2022;47(11):1976-1983. doi:10.1038/s41386-022-01316-2
+   778→74. Skumlien M, Mokrysz C, Freeman TP, et al. Anhedonia, Apathy, Pleasure, and Effort-
+   779→Based Decision-Making in Adult and Adolescent Cannabis Users and Controls. Int J
+   780→Neuropsychopharmacol. 2023;26(1):9-19. doi:10.1093/ijnp/pyac056
+   781→75. Larsen B, Olafsson V, Calabro F, et al. Matura<on of the human striatal dopamine system
+   782→revealed by PET and quan<ta<ve MRI. Nat Commun. 2020;11(1):846.
+   783→doi:10.1038/s41467-020-14693-3
+   784→76. Larsen B, Luna B. In vivo evidence of neurophysiological matura<on of the human
+   785→adolescent striatum. Dev Cogn Neurosci. 2015;12:74-85. doi:10.1016/j.dcn.2014.12.003
+   786→
+   787→77. Reynolds LM, Flores C. Mesocor<colimbic Dopamine Pathways Across Adolescence:
+   788→Diversity in Development. Front Neural Circuits. 2021;15. doi:10.3389/fncir.2021.735625
+   789→78. Daubner SC, Le T, Wang S. Tyrosine Hydroxylase and Regula<on of Dopamine Synthesis.
+   790→Arch Biochem Biophys. 2011;508(1):1-12. doi:10.1016/j.abb.2010.12.017
+   791→79. Adise<yo V, McGill CE, DeVries WH, Jensen JH, Hanlon CA, Helpern JA. Elevated Brain
+   792→Iron in Cocaine Use Disorder as Indexed by Magne<c Field Correla<on Imaging. Biol
+   793→Psychiatry Cogn Neurosci Neuroimaging. 2019;4(6):579-588.
+   794→doi:10.1016/j.bpsc.2018.11.006
+   795→80. Ersche KD, Acosta-Cabronero J, Jones PS, et al. Disrupted iron regula<on in the brain and
+   796→periphery in cocaine addic<on. Transl Psychiatry. 2017;7(2):e1040.
+   797→doi:10.1038/tp.2016.271
+   798→81. Ritz MC, Lamb RJ, Goldberg SR, Kuhar MJ. Cocaine receptors on dopamine transporters
+   799→are related to self-administra<on of cocaine. Science. 1987;237(4819):1219-1223.
+   800→doi:10.1126/science.2820058
+   801→82. Volkow ND, Michaelides M, Baler R. The Neuroscience of Drug Reward and Addic<on.
+   802→Physiol Rev. 2019;99(4):2115-2140. doi:10.1152/physrev.00014.2018
+   803→83. Sonnenschein SF, Parr AC, Larsen B, et al. Subcor<cal brain iron deposi<on in individuals
+   804→with schizophrenia. J Psychiatr Res. 2022;151:272-278.
+   805→doi:10.1016/j.jpsychires.2022.04.013
+   806→84. Xu M, Guo Y, Cheng J, et al. Brain iron assessment in pa<ents with First-episode
+   807→schizophrenia using quan<ta<ve suscep<bility mapping. NeuroImage Clin.
+   808→2021;31:102736. doi:10.1016/j.nicl.2021.102736
+   809→
+   810→85. Walton ME, Bouret S. What Is the Rela<onship between Dopamine and Effort? Trends
+   811→Neurosci. 2019;42(2):79-91. doi:10.1016/j.<ns.2018.10.001
+   812→86. Salamone JD, Correa M. The neurobiology of ac<va<onal aspects of mo<va<on: Exer<on
+   813→of effort, effort-based decision making, and the role of dopamine. Annu Rev Psychol.
+   814→2024;75:1-32. doi:10.1146/annurev-psych-020223-012208
+   815→87. Pillny M, Renz KE, Hay A, et al. Effort-based decision making in psychopathology: A
+   816→transdiagnos<c mul<level meta-analysis and systema<c review of behavioral paeerns
+   817→and mechanisms underlying amo<va<onal psychopathology. Psychol Bull.
+   818→2026;152(1):33-65. doi:10.1037/bul0000510
+   819→88. Bailey MR, Chun E, Schipani E, Balsam PD, Simpson EH. Dissocia<ng the effects of
+   820→dopamine D2 receptors on effort-based versus value-based decision making using a
+   821→novel behavioral approach. Behav Neurosci. 2020;134(2):101-118.
+   822→doi:10.1037/bne0000361
+   823→89. Foulds J, Veldheer S, Yingst J, et al. Development of a ques<onnaire for assessing
+   824→dependence on electronic cigareees among a large sample of ex-smoking e-cigareee
+   825→users. Nico/ne Tob Res. 2015;17(2):186-192. doi:10.1093/ntr/ntu204
+   826→90. Jessor R, Donovan JE, Costa FM. Health Behavior Ques/onnaire. Ins<tute of Behavioral
+   827→Science; 1989.
+   828→91. Cueler C, Spradlin A. Measuring cannabis consump<on: Psychometric proper<es of the
+   829→Daily Sessions, Frequency, Age of Onset, and Quan<ty of Cannabis Use Inventory (DFAQ-
+   830→CU). PloS One. 2017;12(5):e0178194. doi:10.1371/journal.pone.0178194
+   831→
+   832→92. Achenbach TM. The Achenbach system of empirically based assessment (ASEBA):
+   833→Development, findings, theory, and applica<ons. Published online 2009.
+   834→93. de Jong Y, Boon AE, Gouw D, van der Gaag M, Mulder CL. Improving screening methods
+   835→for psychosis in an adolescent help-seeking popula<on using the Child Behavior Checklist
+   836→(CBCL) and the Youth Self Report (YSR) versus the Prodromal Ques<onnaire -16 items
+   837→version (PQ-16). Child Adolesc Psychiatry Ment Health. 2022;16(1):25.
+   838→doi:10.1186/s13034-022-00459-w
+   839→94. Thompson EC, Visser KF, Schiffman J, Spirito A, Hunt J, Wolff JC. Preliminary evidence
+   840→suppor<ng the prac<ce of psychosis-risk screening within an inpa<ent psychiatric segng
+   841→serving adolescents. Psychiatry Res. 2022;307:114322.
+   842→doi:10.1016/j.psychres.2021.114322
+   843→95. Deichmann R, Go~ried JA, Hueon C, Turner R. Op<mized EPI for fMRI studies of the
+   844→orbitofrontal cortex. NeuroImage. 2003;19(2):430-441. doi:10.1016/S1053-
+   845→8119(03)00073-9
+   846→96. Cascone AD, Calabro F, Foran W, et al. Brain <ssue iron neurophysiology and its
+   847→rela<onship with the cogni<ve effects of dopaminergic modula<on in children with and
+   848→without ADHD. Dev Cogn Neurosci. 2023;63:101274. doi:10.1016/j.dcn.2023.101274
+   849→97. Parr A, Larsen B, Calabro F, Tervo-Clemmens B, Luna B. Neuroimaging Human Dopamine-
+   850→Related Neurophysiology Across Development. In: Fuentealba-Evans JA, Henny P, eds.
+   851→Dopaminergic System Func/on and Dysfunc/on: Experimental Approaches. Springer US;
+   852→2023:299-326. doi:10.1007/978-1-0716-2799-0_13
+   853→
+   854→98. Price RB, Tervo-Clemmens BC, Panny B, Degu<s M, Griffo A, Woody M. Biobehavioral
+   855→correlates of an fMRI index of striatal <ssue iron in depressed pa<ents. Transl Psychiatry.
+   856→2021;11(1):448. doi:10.1038/s41398-021-01553-x
+   857→99. Flannery JS, Parr AC, Lindquist KA, Telzer EH. Developmental changes in dopamine-
+   858→related neurophysiology and associa<ons with adolescent substance use and incen<ve-
+   859→boosted cogni<ve control. Dev Cogn Neurosci. 2025;75:101594.
+   860→doi:10.1016/j.dcn.2025.101594
+   861→100. Ortega R, Cloetens P, Devès G, Carmona A, Bohic S. Iron Storage within Dopamine
+   862→Neurovesicles Revealed by Chemical Nano-Imaging. PLoS ONE. 2007;2(9):e925.
+   863→doi:10.1371/journal.pone.0000925
+   864→101. Parr AC, Calabro F, Tervo-Clemmens B, Larsen B, Foran W, Luna B. Contribu<ons of
+   865→dopamine-related basal ganglia neurophysiology to the developmental effects of
+   866→incen<ves on inhibitory control. Dev Cogn Neurosci. 2022;54:101100.
+   867→doi:10.1016/j.dcn.2022.101100
+   868→102. Morandini HAE, Watson PA, Barbaro P, Rao P. Brain iron concentra<on in childhood
+   869→ADHD: A systema<c review of neuroimaging studies. J Psychiatr Res. 2024;173:200-209.
+   870→doi:10.1016/j.jpsychires.2024.03.035
+   871→103. Larsen B, Bourque J, Moore TM, et al. Longitudinal Development of Brain Iron Is Linked
+   872→to Cogni<on in Youth. J Neurosci. 2020;40(9):1810-1818. doi:10.1523/JNEUROSCI.2434-
+   873→19.2020
+   874→
+   875→104. Hect JL, Daugherty AM, Hermez KM, Thomason ME. Developmental varia<on in regional
+   876→brain iron and its rela<on to cogni<ve func<ons in childhood. Dev Cogn Neurosci.
+   877→2018;34:18-26. doi:10.1016/j.dcn.2018.05.004
+   878→105. Peterson ET, Kwon D, Luna B, et al. Distribu<on of brain iron accrual in adolescence:
+   879→Evidence from cross-sec<onal and longitudinal analysis. Hum Brain Mapp.
+   880→2019;40(5):1480-1495. doi:10.1002/hbm.24461
+   881→106. Wang J, Shaffer ML, Eslinger PJ, et al. Matura<onal and Aging Effects on Human Brain
+   882→Apparent Transverse Relaxa<on. PLoS ONE. 2012;7(2):e31907.
+   883→doi:10.1371/journal.pone.0031907
+   884→107. Koob GF, Volkow ND. Neurocircuitry of Addic<on. Neuropsychopharmacology.
+   885→2010;35(1):217-238. doi:10.1038/npp.2009.110
+   886→108. Morales M, Margolis EB. Ventral tegmental area: cellular heterogeneity, connec<vity and
+   887→behaviour. Nat Rev Neurosci. 2017;18(2):73-85. doi:10.1038/nrn.2016.165
+   888→109. Murray RM, Bhavsar V, Tripoli G, Howes O. 30 Years on: How the Neurodevelopmental
+   889→Hypothesis of Schizophrenia Morphed Into the Developmental Risk Factor Model of
+   890→Psychosis. Schizophr Bull. 2017;43(6):1190-1196. doi:10.1093/schbul/sbx121
+   891→110. Hanley JA, Negassa A, Edwardes MD deB., Forrester JE. Sta<s<cal Analysis of Correlated
+   892→Data Using Generalized Es<ma<ng Equa<ons: An Orienta<on. Am J Epidemiol.
+   893→2003;157(4):364-375. doi:10.1093/aje/kwf215
+   894→111. Michely J, Viswanathan S, Hauser TU, Delker L, Dolan RJ, Gre(cid:129)es C. The role of
+   895→dopamine in dynamic effort-reward integra<on. Neuropsychopharmacology.
+   896→2020;45(9):1448-1453. doi:10.1038/s41386-020-0669-0
+   897→
+   898→112. Barch DM, Treadway MT, Schoen N. Effort, anhedonia, and func<on in schizophrenia:
+   899→Reduced effort alloca<on predicts amo<va<on and func<onal impairment. J Abnorm
+   900→Psychol. 2014;123(2):387-397. doi:10.1037/a0036299
+   901→113. Treadway MT, Peterman JS, Zald DH, Park S. Impaired effort alloca<on in pa<ents with
+   902→schizophrenia. Schizophr Res. 2015;161(2):382-385. doi:10.1016/j.schres.2014.11.024
+   903→114. Gold JM, Strauss GP, Waltz JA, Robinson BM, Brown JK, Frank MJ. Nega<ve Symptoms of
+   904→Schizophrenia Are Associated with Abnormal Effort-Cost Computa<ons. Biol Psychiatry.
+   905→2013;74(2):130-136. doi:10.1016/j.biopsych.2012.12.022
+   906→115. López-Moreno JA, González-Cuevas G, Moreno G, Navarro M. The pharmacology of the
+   907→endocannabinoid system: func<onal and structural interac<ons with other
+   908→neurotransmieer systems and their repercussions in behavioral addic<on. Addict Biol.
+   909→2008;13(2):160-187. doi:10.1111/j.1369-1600.2008.00105.x
+   910→116. Laruelle M, Abi-Dargham A, Gil R, Kegeles L, Innis R. Increased dopamine transmission in
+   911→schizophrenia: rela<onship to illness phases. Biol Psychiatry. 1999;46(1):56-72.
+   912→doi:10.1016/S0006-3223(99)00067-0
+   913→117. Maia TV, Frank MJ. An Integra<ve Perspec<ve on the Role of Dopamine in Schizophrenia.
+   914→Biol Psychiatry. 2017;81(1):52-66. doi:10.1016/j.biopsych.2016.05.021
+   915→118. Simpson EH, Gallo EF, Balsam PD, Javitch JA, Kellendonk C. How changes in dopamine D2
+   916→receptor levels alter striatal circuit func<on and mo<va<on. Mol Psychiatry.
+   917→2022;27(1):436-444. doi:10.1038/s41380-021-01253-4
+   918→
+   919→119. Xu H, Owens MM, Farncombe T, Noseworthy M, MacKillop J. Molecular brain differences
+   920→and cannabis involvement: A systema<c review of positron emission tomography
+   921→studies. J Psychiatr Res. 2023;162:44-56. doi:10.1016/j.jpsychires.2023.03.045
+   922→120. Bloomfield MAP, Morgan CJA, Egerton A, Kapur S, Curran HV, Howes OD. Dopaminergic
+   923→Func<on in Cannabis Users and Its Rela<onship to Cannabis-Induced Psycho<c
+   924→Symptoms. Biol Psychiatry. 2014;75(6):470-478. doi:10.1016/j.biopsych.2013.05.027
+   925→121. Ginovart N, Tournier BB, Moulin-Sallanon M, Steimer T, Ibanez V, Millet P. Chronic Δ9-
+   926→Tetrahydrocannabinol Exposure Induces a Sensi<za<on of Dopamine D2/3 Receptors in
+   927→the Mesoaccumbens and Nigrostriatal Systems. Neuropsychopharmacology.
+   928→2012;37(11):2355-2367. doi:10.1038/npp.2012.91
+   929→122. Bloomfield MAP, Ashok AH, Volkow ND, Howes OD. The effects of Δ9-
+   930→tetrahydrocannabinol on the dopamine system. Nature. 2016;539(7629):369-377.
+   931→doi:10.1038/nature20153
+   932→123. Cassidy C, Wang Y, Abi-Dargham A. Forging a Role for Iron in the Dopamine Dysfunc<on
+   933→of Schizophrenia. Am J Psychiatry. 2025;182(9):804-806. doi:10.1176/appi.ajp.20250639
+   934→124. Vano LJ, McCutcheon RA, Sedlacik J, et al. Reduced Brain Iron and Striatal
+   935→Hyperdopaminergia in Schizophrenia: A Quan<ta<ve Suscep<bility Mapping MRI and
+   936→PET Study. Am J Psychiatry. 2025;182(9):830-839. doi:10.1176/appi.ajp.20240512
+   937→125. Zhao Z, Li X, Xie Y, et al. Resolving the heterogeneity of dopamine subsystems
+   938→dysfunc<on in schizophrenia: a PET meta-analysis. Schizophrenia. 2025;11(1):139.
+   939→doi:10.1038/s41537-025-00684-0
+   940→
+   941→126. Hines LA, Cannings-John R, Hawkins J, et al. Associa<on between cannabis potency and
+   942→mental health in adolescence. Drug Alcohol Depend. 2024;261:111359.
+   943→doi:10.1016/j.drugalcdep.2024.111359
+   944→127. Halladay J, Woock R, El-Khechen H, et al. Paeerns of substance use among adolescents:
+   945→A systema<c review. Drug Alcohol Depend. 2020;216:108222.
+   946→doi:10.1016/j.drugalcdep.2020.108222
+   947→128. Osborne KJ, Barch DM, Jackson JJ, Karcher NR. Psychosis Spectrum Symptoms Before
+   948→and Aser Adolescent Cannabis Use Ini<a<on. JAMA Psychiatry. 2025;82(2):181-190.
+   949→doi:10.1001/jamapsychiatry.2024.3525
+   950→129. Haacke EM, Liu S, Buch S, Zheng W, Wu D, Ye Y. Quan<ta<ve suscep<bility mapping:
+   951→current status and future direc<ons. Magn Reson Imaging. 2015;33(1):1-25.
+   952→doi:10.1016/j.mri.2014.09.004
+   953→130. McGlashan T, Walsh B, Woods S. The Psychosis-Risk Syndrome: Handbook for Diagnosis
+   954→and Follow-Up. Oxford University Press, USA; 2010.
+   955→
+   956→Supplemental Methods
+   957→Cannabis Use Frequency
+   958→Adolescents completed the Timeline Follow-Back Interview (TLFB)1 to assess number of
+   959→daily cannabis sessions, formulation used (flower, concentrate, edible), and hours high.
+   960→Participants also reported on daily nicotine use (yes/no), and daily number of standard alcohol
+   961→drinks. At the initial visit, the TLFB established substance use patterns 90-days prior; at the MRI
+   962→visit, the TLFB characterized substance use during the time between the initial study visit and the
+   963→MRI visit. This resulted in the full spectrum of substance use from 90 days prior to enrollment,
+   964→through the day of the MRI. Proportion of use days and rates of use (i.e., substance use value
+   965→divided by total number of measured days) were calculated for relevant TLFB variables.
+   966→Cannabis sessions ratio represented CU frequency in analyses. Responses were log-transformed
+   967→for skewness.
+   968→Cannabis Use Disorder Criteria
+   969→The Kiddie Schedule for Affective Disorders and Schizophrenia (KSADS)2 was used to
+   970→assess past 12 month cannabis use disorder (CUD) at the initial visit. CUD severity was
+   971→classified as: 0 (not present, ≤ 1 criteria met); 1 (mild, 2-3 criteria met); 2 (moderate, 4-5 criteria
+   972→met); 3 (severe, 6 or more criteria met). KSADS interviews were conducted by a licensed clinical
+   973→psychologist.
+   974→MRI
+   975→EPI preprocessing
+   976→Preprocessing included: realignment with correction of susceptibility distortion
+   977→interactions, slice timing correction, outlier detection, segmentation into gray matter, white
+   978→matter, and CSF (CONN Toolbox “direct segmentation” option), and MNI-space normalization.
+   979→
+   980→The SPM realign & unwarp procedure3 was used to realign functional data. All volumes
+   981→were co-registered to the first scan of the first session (used as reference image) via least squares
+   982→approach and 6-parameter (rigid body) transformation 4. Data were resampled to correct for
+   983→motion and magnetic susceptibility interactions, followed by SPM slice-timing correction5. ART
+   984→6 was used to identify outlier scans (framewise displace threshold = 0.5mm)7,8. A mean reference
+   985→BOLD image was computed using all non-outlier volumes. Anatomical and functional images
+   986→were normalized to MNI-152 space. Images were segmented into: gray matter, white matter, and
+   987→CSF tissues and then resampled to 2mm isotropic voxels via SPM’s unified segmentation and
+   988→normalization algorithm9–11. Denoising was implemented by regressing confounding signals (5
+   989→CompCor components each from white matter and CSF), motion parameters and their
+   990→derivatives (12 total), outliers, session effects and their derivatives, and linear trends (2 each).
+   991→Data were bandpass filtered (0.008–0.09 Hz) and despiked post-regression12.
+   992→1/nT2* Supplemental Regions of Interest
+   993→Supplemental exploratory analyses examined the left and right pallidum and nucleus
+   994→accumbens. Per-participant 1/nT2* levels were mask-derived13: a publicly-available mask was
+   995→used for the SN/VTA14 and for all other regions, estimates were made using the Harvard-Oxford
+   996→atlas in FSL (version 6.0.7.7)15. Mean 1/nT2* for each ROI was calculated with AFNI’s
+   997→3dmaskave.
+   998→Statistical Analyses
+   999→Model Fit Testing
+  1000→Model fit was tested using the Quasi-likelihood Information Criterion (QIC) for
+  1001→evaluating generalized estimating equations (GEEs), where lower values indicate better fit16. A
+  1002→
+  1003→model assuming no correlation between trials within subjects was selected based on having the
+  1004→lowest QIC, which is likely explained by including trial as a covariate in the models.
+  1005→Sensitivity Analyses
+  1006→We conducted additional sensitivity analyses for models examining whether associations
+  1007→between CU and PLEs depended on 1/nT2*. Specifically, we controlled for the influence of self-
+  1008→reported psychotropic medications reported on the day of MRI. Categories of reported
+  1009→medication included sleep medication, stimulant, non-stimulant, and antipsychotic. All
+  1010→significant interactions remained after adjusting for medication.
+  1011→Supplemental Table A. List of R Packages Used
+  1012→afex
+  1013→apaTables
+  1014→broom
+  1015→DataExplorer
+  1016→datawizard
+  1017→dplyr
+  1018→easystats
+  1019→emmeans
+  1020→ez
+  1021→flextable
+  1022→geepack
+  1023→ggeffects
+  1024→ggh4x
+  1025→ggplot2
+  1026→ggpubr
+  1027→ggrepel
+  1028→grateful
+  1029→gtsummary
+  1030→haven
+  1031→interactions
+  1032→janitor
+  1033→jtools
+  1034→kableExtra
+  1035→knitr
+  1036→lme4
+  1037→magrittr
+  1038→modelsummary
+  1039→
+  1040→officer
+  1041→Package
+  1042→ppcor
+  1043→psych
+  1044→qicpack
+  1045→rempsyc
+  1046→renv
+  1047→rlang
+  1048→rmarkdown
+  1049→rstatix
+  1050→scales
+  1051→sjPlot
+  1052→softbib
+  1053→summarytools
+  1054→tidyverse
+  1055→tinytable
+  1056→xtable
+  1057→Supplemental Results
+  1058→Supplemental Table B. Participant cannabis use characteristics
+  1059→Control Cannabis
+  1060→Variable
+  1061→n = 47 n = 34
+  1062→Mean (SD) Mean (SD) t p-value
+  1063→Cannabis Frequency (TLFB)
+  1064→Daily hours high 0.01 (0.03) 1.91 (2.95) -3.76 <0.001
+  1065→Daily cannabis sessions 0.00 (0.01) 1.05 (1.31) -4.64 <0.001
+  1066→% cannabis concentrate days 0.00 (0.00) 0.23 (0.28) -4.81 <0.001
+  1067→% cannabis flower days 0.00 (0.00) 0.21 (0.33) -3.72 <0.001
+  1068→% cannabis edible days 0.00 (0.01) 0.01 (0.01) -1.49 0.140
+  1069→% alcohol days 0.01 (0.02) 0.02 (0.02) -2.53 0.014
+  1070→% nicotine days 0.00 (0.01) 0.24 (0.38) -3.75 <0.001
+  1071→
+  1072→n (%) ꭓ2 p-value
+  1073→CUD Severity 65.86 < 0.001
+  1074→Not present 47 (100%) 4 (12%)
+  1075→Mild 0 (0%) 7 (21%)
+  1076→Moderate 0 (0%) 12 (35%)
+  1077→Severe 0 (0%) 11 (32%)
+  1078→Simple slopes: log-odds of hard option choice predicted by group, reward amount, effort
+  1079→required, and PLEs
+  1080→Effect of Effort Required on Choice
+  1081→At low PLEs, the influence of effort required on choice depended on group at high
+  1082→reward amount (p =0.039). Negative associations between effort required and log-odds
+  1083→group contrast
+  1084→of hard option choice were stronger in the cannabis (β =-0.34, 95% CI [-0.58, -
+  1085→effort required simple slope
+  1086→0.10], p=0.005), compared to control group (β =-0.04, 95% CI [-0.20, 0.12],
+  1087→effort required simple slope
+  1088→p=0.614). Effort required is thus a stronger deterrent of hard option choice in the cannabis,
+  1089→compared to control group at low PLEs and high reward amount (Fig S2).
+  1090→At high PLEs, the influence of effort required on choice also depended on group and high
+  1091→reward amount (p =0.035). Positive associations between effort required and log-odds
+  1092→group contrast
+  1093→of hard option choice were stronger in the cannabis (β =0.06, 95% CI [-0.05,
+  1094→effort required simple slope
+  1095→0.18], p=0.293), compared to control group (β =-0.21, 95% CI [-0.43, 0.15],
+  1096→effort required simple slope
+  1097→p=0.068). Effort required is thus a weaker deterrent of response choice in the cannabis,
+  1098→compared to control group at high PLEs and high reward amount (Fig S2).
+  1099→Effect of PLEs on Choice
+  1100→
+  1101→The influence of PLEs on choice depended on group at high reward amount and low effort
+  1102→required (p =0.008), such that the associations between PLEs and log-odds of hard
+  1103→group contrast
+  1104→option choice were significant and negative in the cannabis group (β =-2.42, 95% CI
+  1105→PLEs simple slope
+  1106→[-4.68, -0.16], p=0.036) and not significant in the control group (β =2.01, 95% CI [-
+  1107→PLEs simple slope
+  1108→0.37, 4.38], p=0.098). PLEs were thus a negative predictor of hard option choice in the cannabis
+  1109→group only, at high reward amount and low effort required (Fig S3).
+  1110→The moderating role of 1/nT2* signal in associations between CU and PLEs
+  1111→Cannabis Quantity
+  1112→Condensed tables were presented in the main text for the models testing 1/nT2* as a
+  1113→moderator of the association between cannabis quantity (daily concentrate hits, daily cannabis
+  1114→grams) and PLEs. The covariates age, sex, nicotine use, and alcohol use were included in the
+  1115→models but not depicted in the tables; therefore, supplemental table S4 below presents the full
+  1116→tables but are not new analyses.
+  1117→Cannabis Frequency
+  1118→The association between CU sessions and PLEs depended on right thalamus 1/nT2*:
+  1119→when 1/nT2* was +1 SD, there was a positive association between CU sessions and PLEs
+  1120→(β=5.86, 95% CI [1.67, 10.05], p=0.007; Table S4; Fig S4)
+  1121→Cannabis Problems
+  1122→The association between CU disorder severity and PLEs depended on right thalamus
+  1123→1/nT2: when 1/nT2* was +1 SD, CU disorder severity was positively associated with PLEs
+  1124→(β=4.53, 95% CI [1.36, 7.70], p=0.006; Table S4; Fig S5).
+  1125→
+  1126→Supplemental Tables
+  1127→Table S1. Differences between simple slopes of reward contrasted across group, at different levels of effort required and psychotic-like experiences
+  1128→(PLEs).
+  1129→Contrast Effort PLEs Estimate [95% CI] p-value
+  1130→Cannabis - Control Low Low -0.25 [-0.54, 0.04] 0.095
+  1131→Average 0.02 [-0.19, 0.24] 0.844
+  1132→High 0.29 [0.01, 0.57] 0.040
+  1133→Medium Low -0.07 [-0.33, 0.19] 0.615
+  1134→Average 0.09 [-0.09, 0.26] 0.339
+  1135→High 0.24 [0.03, 0.45] 0.027
+  1136→High Low 0.12 [-0.19, 0.42] 0.450
+  1137→Average 0.15 [-0.05, 0.35] 0.144
+  1138→High 0.18 [-0.07, 0.44] 0.159
+  1139→Note.
+  1140→“Low,” “Average,” and “High” PLEs refer to -1 SD, Average, and +1 SD respectively.
+  1141→“Low,” “Average,” and “High” Effort Required refers to 100, 120, and 150 key presses, respectively.
+  1142→At high PLEs and low and medium effort, the influence of reward is greater in the control compared to cannabis group.
+  1143→
+  1144→Table S2. Differences between simple slopes of reward contrasted across levels of effort required, at different levels of PLEs and group.
+  1145→PLEs Group Contrast Estimate [95% CI] p-value
+  1146→Low Control Low Effort - Medium Effort -0.16 [-0.25, -0.07] < .001
+  1147→Low Effort - High Effort -0.32 [-0.50, -0.14]
+  1148→Medium Effort - High Effort -0.16 [-0.25, -0.07]
+  1149→Cannabis Low Effort - Medium Effort 0.02 [-0.13, 0.17] 0.928
+  1150→Low Effort - High Effort 0.05 [-0.25, 0.34]
+  1151→Medium Effort - High Effort 0.02 [-0.13, 0.17]
+  1152→Average Control Low Effort - Medium Effort -0.13 [-0.22, -0.03] 0.004
+  1153→Low Effort - High Effort -0.25 [-0.44, -0.07]
+  1154→Medium Effort - High Effort -0.13 [-0.22, -0.03]
+  1155→Cannabis Low Effort - Medium Effort -0.06 [-0.16, 0.04] 0.307
+  1156→Low Effort - High Effort -0.12 [-0.32, 0.07]
+  1157→
+  1158→Medium Effort - High Effort -0.06 [-0.16, 0.04]
+  1159→High Control Low Effort - Medium Effort -0.09 [-0.28, 0.09] 0.459
+  1160→Low Effort - High Effort -0.19 [-0.55, 0.18]
+  1161→Medium Effort - High Effort -0.09 [-0.28, 0.09]
+  1162→Cannabis Low Effort - Medium Effort -0.15 [-0.22, -0.07] < .001
+  1163→Low Effort - High Effort -0.29 [-0.45, -0.14]
+  1164→Medium Effort - High Effort -0.15 [-0.22, -0.07]
+  1165→Note.
+  1166→“Low,” “Average,” and “High” PLEs refer to -1 SD, Average, and +1 SD respectively.
+  1167→“Low,” “Average,” and “High” Effort Required refers to 100, 120, and 150 key presses, respectively.
+  1168→At high PLEs, the influence of reward on odds of hard option choice is dependent on effort required in the cannabis group. At average and low
+  1169→PLEs, influence of reward on odds of hard option choice is dependent on effort required in the control group.
+  1170→
+  1171→Table S3. Differences between simple slopes of reward contrasted across levels of PLEs, at different levels of effort required and group.
+  1172→Effort Group Contrast Estimate [95% CI] p-value
+  1173→Low Control Low PLES - Average PLEs -0.03 [-0.20, 0.13] 0.894
+  1174→Low PLES - High PLEs -0.06 [-0.40, 0.27]
+  1175→Average PLEs - High PLEs -0.03 [-0.20, 0.13]
+  1176→Cannabis Low PLES - Average PLEs 0.24 [0.09, 0.39] < 0.001
+  1177→Low PLES - High PLEs 0.48 [0.17, 0.79]
+  1178→Average PLEs - High PLEs 0.24 [0.09, 0.39]
+  1179→Medium Control Low PLES - Average PLEs 0.00 [-0.12, 0.13] 0.999
+  1180→Low PLES - High PLEs 0.00 [-0.25, 0.25]
+  1181→Average PLEs - High PLEs 0.00 [-0.12, 0.13]
+  1182→Cannabis Low PLES - Average PLEs 0.15 [0.01, 0.30] 0.031
+  1183→Low PLES - High PLEs 0.31 [0.02, 0.60]
+  1184→Average PLEs - High PLEs 0.15 [0.01, 0.30]
+  1185→High Control Low PLES - Average PLEs 0.04 [-0.13, 0.20] 0.873
+  1186→
+  1187→Low PLES - High PLEs 0.07 [-0.26, 0.40]
+  1188→Average PLEs - High PLEs 0.04 [-0.13, 0.20]
+  1189→Cannabis Low PLES - Average PLEs 0.07 [-0.09, 0.23] 0.574
+  1190→Low PLES - High PLEs 0.14 [-0.19, 0.46]
+  1191→Average PLEs - High PLEs 0.07 [-0.09, 0.23]
+  1192→Note.
+  1193→“Low,” “Average,” and “High” PLEs refer to -1 SD, Average, and +1 SD respectively.
+  1194→“Low,” “Average,” and “High” Effort Required refers to 100, 120, and 150 key presses, respectively.
+  1195→In the cannabis group, individuals with lower PLEs are more responsive to reward, when presented with low and medium effort required trials.
+  1196→
+  1197→Table S4. Moderation of the association between Cannabis Use (CU) and PLEs by 1/nT2* signal
+  1198→Quantity
+  1199→Daily Concentrate Hits
+  1200→L Putamen R Putamen
+  1201→p -
+  1202→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1203→value
+  1204→(Intercept) -27.79 [-94.87, 39.29] 0.411 0.774 -14.26 [-81.91, 53.39] 0.675 0.994
+  1205→Nicotine Days Ratio 0.68 [-2.92, 4.28] 0.708 0.994 0.17 [-3.47, 3.81] 0.927 0.994
+  1206→Standard Drinks Ratio -2.88 [-8.06, 2.30] 0.272 0.772 -2.45 [-7.74, 2.84] 0.358 0.772
+  1207→Sex -0.73 [-4.45, 2.99] 0.698 0.994 -0.37 [-4.16, 3.42] 0.845 0.994
+  1208→Age 1.75 [-0.00, 3.50] 0.050 0.349 1.45 [-0.39, 3.29] 0.120 0.516
+  1209→Daily Concentrate Hits -45.00 [-81.02, -8.98] 0.015 0.236 -33.54 [-71.22, 4.14] 0.080 0.374
+  1210→Putamen 1/nT2* 64.99 [-2.53, 132.51] 0.059 0.349 52.57 [-18.11, 123.26] 0.142 0.532
+  1211→Daily Concentrate Hits × Putamen 1/nT2* 51.58 [12.07, 91.09] 0.011 0.236 37.93 [-2.35, 78.21] 0.065 0.349
+  1212→L Caudate R Caudate
+  1213→p -
+  1214→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1215→value
+  1216→(Intercept) 4.51 [-58.01, 67.03] 0.886 0.994 -0.63 [-61.92, 60.65] 0.984 0.994
+  1217→Nicotine Days Ratio 0.02 [-3.70, 3.74] 0.992 0.994 -0.01 [-3.68, 3.66] 0.994 0.994
+  1218→Standard Drinks Ratio -1.42 [-6.84, 4.00] 0.603 0.994 -1.10 [-6.56, 4.35] 0.687 0.994
+  1219→Sex -0.47 [-4.38, 3.44] 0.810 0.994 -0.51 [-4.36, 3.35] 0.794 0.994
+  1220→Age 1.75 [-0.08, 3.59] 0.061 0.349 1.79 [-0.03, 3.61] 0.054 0.349
+  1221→Daily Concentrate Hits -12.67 [-47.86, 22.51] 0.475 0.831 -17.50 [-51.69, 16.69] 0.311 0.772
+  1222→Caudate 1/nT2* 31.21 [-35.74, 98.17] 0.356 0.772 36.57 [-26.09, 99.23] 0.248 0.772
+  1223→Daily Concentrate Hits × Caudate 1/nT2* 16.65 [-23.35, 56.66] 0.409 0.774 21.80 [-16.43, 60.03] 0.259 0.772
+  1224→L Thalamus R Thalamus
+  1225→p -
+  1226→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1227→value
+  1228→(Intercept) 28.15 [-82.45, 138.75] 0.613 0.994 -2.23 [-97.42, 92.95] 0.963 0.994
+  1229→
+  1230→Nicotine Days Ratio -0.38 [-4.13, 3.37] 0.840 0.994 -0.46 [-3.92, 3.00] 0.792 0.994
+  1231→Standard Drinks Ratio -2.19 [-7.53, 3.14] 0.415 0.774 -2.10 [-7.18, 2.97] 0.411 0.774
+  1232→Sex -0.60 [-4.41, 3.21] 0.754 0.994 0.44 [-3.20, 4.09] 0.809 0.994
+  1233→Age 1.72 [-0.13, 3.56] 0.069 0.349 1.35 [-0.44, 3.15] 0.136 0.532
+  1234→Daily Concentrate Hits -31.32 [-91.54, 28.91] 0.303 0.772 -62.70 [-115.68, -9.72] 0.021 0.236
+  1235→Thalamus 1/nT2* 3.08 [-122.06, 128.21] 0.961 0.994 41.88 [-66.31, 150.07] 0.443 0.799
+  1236→Daily Concentrate Hits × Thalamus 1/nT2* 36.69 [-30.78, 104.15] 0.282 0.772 70.93 [12.32, 129.54] 0.018 0.236
+  1237→SN/VTA
+  1238→p -
+  1239→Estimate [95% CI] FDR p
+  1240→value
+  1241→(Intercept) 34.37 [-9.19, 77.93] 0.120 0.480
+  1242→Nicotine Days Ratio -0.25 [-3.93, 3.43] 0.893 0.994
+  1243→Standard Drinks Ratio -1.77 [-7.16, 3.62] 0.513 0.927
+  1244→Sex -0.23 [-4.10, 3.64] 0.907 0.994
+  1245→Age 1.96 [0.05, 3.87] 0.044 0.349
+  1246→Daily Concentrate Hits 1.54 [-17.98, 21.06] 0.875 0.994
+  1247→SN/VTA 1/NT2* -7.08 [-41.85, 27.69] 0.686 0.994
+  1248→Daily Concentrate Hits × SN/VTA 1/NT2* 0.15 [-18.51, 18.81] 0.987 0.994
+  1249→Daily Cannabis Grams
+  1250→L Putamen R Putamen
+  1251→p -
+  1252→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1253→value
+  1254→(Intercept) -84.95 [-191.09, 21.18] 0.115 0.306 -116.63 [-212.02, -21.23] 0.017 0.138
+  1255→Nicotine Days Ratio 1.05 [-2.24, 4.35] 0.525 0.846 1.60 [-1.56, 4.75] 0.317 0.710
+  1256→Standard Drinks Ratio -1.53 [-6.55, 3.49] 0.545 0.846 -1.30 [-6.10, 3.51] 0.592 0.846
+  1257→Sex 0.03 [-3.63, 3.69] 0.985 0.994 0.43 [-3.14, 4.00] 0.810 0.873
+  1258→Age 1.89 [0.16, 3.62] 0.033 0.141 1.54 [-0.16, 3.24] 0.074 0.245
+  1259→Daily Cannabis Grams -63.30 [-119.96, -6.65] 0.029 0.141 -92.33 [-148.45, -36.21] 0.002 0.034
+  1260→Putamen 1/nT2* 131.35 [17.21, 245.49] 0.025 0.141 167.03 [64.31, 269.74] 0.002 0.034
+  1261→Daily Cannabis Grams × Putamen 1/nT2* 73.34 [10.51, 136.17] 0.023 0.141 101.69 [41.72, 161.67] 0.001 0.034
+  1262→
+  1263→L Caudate R Caudate
+  1264→p -
+  1265→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1266→value
+  1267→(Intercept) -6.84 [-140.18, 126.50] 0.919 0.953 -6.84 [-140.18, 126.50] 0.994 0.994
+  1268→Nicotine Days Ratio 0.81 [-2.68, 4.30] 0.646 0.846 0.81 [-2.68, 4.30] 0.694 0.846
+  1269→Standard Drinks Ratio -1.03 [-6.24, 4.18] 0.695 0.846 -1.03 [-6.24, 4.18] 0.717 0.854
+  1270→Sex -0.47 [-4.25, 3.30] 0.803 0.873 -0.47 [-4.25, 3.30] 0.775 0.873
+  1271→Age 1.98 [0.19, 3.78] 0.031 0.141 1.98 [0.19, 3.78] 0.029 0.141
+  1272→Daily Cannabis Grams -19.58 [-91.36, 52.19] 0.588 0.846 -19.58 [-91.36, 52.19] 0.627 0.846
+  1273→Caudate 1/nT2* 45.05 [-104.33, 194.43] 0.549 0.846 45.05 [-104.33, 194.43] 0.570 0.846
+  1274→Daily Cannabis Grams × Caudate 1/nT2* 25.37 [-56.40, 107.14] 0.538 0.846 25.37 [-56.40, 107.14] 0.569 0.846
+  1275→L Thalamus R Thalamus
+  1276→p -
+  1277→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1278→value
+  1279→(Intercept) -72.56 [-256.98, 111.85] 0.435 0.846 -63.35 [-182.80, 56.10] 0.294 0.686
+  1280→Nicotine Days Ratio 0.29 [-2.93, 3.52] 0.857 0.905 0.66 [-2.48, 3.80] 0.677 0.846
+  1281→Standard Drinks Ratio -1.36 [-6.50, 3.78] 0.599 0.846 -1.81 [-6.69, 3.07] 0.462 0.846
+  1282→Sex -0.76 [-4.40, 2.87] 0.677 0.846 0.47 [-3.08, 4.01] 0.793 0.873
+  1283→Age 1.73 [-0.05, 3.51] 0.056 0.224 1.63 [-0.09, 3.34] 0.062 0.232
+  1284→Daily Cannabis Grams -87.34 [-187.76, 13.08] 0.087 0.257 -90.65 [-158.30, -22.99] 0.009 0.105
+  1285→Thalamus 1/nT2* 120.86 [-91.25, 332.96] 0.260 0.632 109.03 [-26.65, 244.71] 0.114 0.306
+  1286→Daily Cannabis Grams × Thalamus 1/nT2* 100.06 [-11.97, 212.08] 0.079 0.246 102.38 [28.00, 176.77] 0.008 0.105
+  1287→SN/VTA
+  1288→p -
+  1289→Estimate [95% CI] FDR p
+  1290→value
+  1291→(Intercept) 28.97 [-35.59, 93.53] 0.374 0.872
+  1292→Nicotine Days Ratio 0.50 [-2.82, 3.82] 0.764 0.890
+  1293→Standard Drinks Ratio -1.05 [-6.21, 4.10] 0.685 0.890
+  1294→Sex -0.48 [-4.24, 3.27] 0.799 0.890
+  1295→Age 2.14 [0.30, 3.97] 0.023 0.141
+  1296→Daily Cannabis Grams -4.66 [-37.79, 28.48] 0.780 0.890
+  1297→SN/VTA 1/NT2* 0.70 [-57.85, 59.26] 0.981 0.994
+  1298→
+  1299→Daily Cannabis Grams × SN/VTA 1/NT2* 6.85 [-24.78, 38.48] 0.667 0.890
+  1300→Frequency
+  1301→L Putamen R Putamen
+  1302→p -
+  1303→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1304→value
+  1305→(Intercept) -46.34 [-157.27, 64.60] 0.408 0.961 -12.22 [-111.34, 86.90] 0.806 0.961
+  1306→Nicotine Days Ratio 0.93 [-3.24, 5.10] 0.657 0.961 0.39 [-3.75, 4.52] 0.852 0.961
+  1307→Std Drinks Ratio -1.46 [-6.84, 3.92] 0.589 0.961 -1.56 [-7.01, 3.88] 0.569 0.961
+  1308→Sex -0.15 [-4.05, 3.74] 0.937 0.961 -0.21 [-4.15, 3.72] 0.914 0.961
+  1309→Age 1.88 [0.06, 3.70] 0.043 0.511 1.70 [-0.20, 3.61] 0.079 0.552
+  1310→CU Sessions Ratio -41.52 [-105.36, 22.33] 0.199 0.743 -20.08 [-81.48, 41.32] 0.516 0.961
+  1311→Putamen 1/nT2* 87.04 [-33.64, 207.73] 0.155 0.743 49.49 [-59.29, 158.27] 0.367 0.961
+  1312→CU Sessions Ratio × Putamen 1/nT2* 48.32 [-21.85, 118.49] 0.174 0.743 23.95 [-41.69, 89.59] 0.469 0.961
+  1313→L Caudate R Caudate
+  1314→p -
+  1315→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1316→value
+  1317→(Intercept) -4.88 [-104.75, 94.99] 0.923 0.961 -16.97 [-104.16, 70.22] 0.699 0.961
+  1318→Nicotine Days Ratio 0.36 [-3.78, 4.50] 0.863 0.961 0.52 [-3.61, 4.66] 0.802 0.961
+  1319→Standard Drinks Ratio -0.96 [-6.54, 4.61] 0.731 0.961 -0.64 [-6.18, 4.89] 0.817 0.961
+  1320→Sex -0.17 [-4.09, 3.74] 0.930 0.961 -0.14 [-4.03, 3.76] 0.944 0.961
+  1321→Age 1.81 [-0.05, 3.68] 0.057 0.528 1.86 [0.04, 3.69] 0.046 0.511
+  1322→CU Sessions Ratio -16.55 [-76.65, 43.55] 0.585 0.961 -29.93 [-83.44, 23.59] 0.268 0.791
+  1323→Caudate 1/nT2* 43.88 [-73.87, 161.63] 0.460 0.961 56.68 [-40.30, 153.66] 0.248 0.778
+  1324→CU Sessions Ratio × Caudate 1/nT2* 21.68 [-47.29, 90.66] 0.533 0.961 36.18 [-23.89, 96.24] 0.234 0.778
+  1325→L Thalamus R Thalamus
+  1326→p -
+  1327→Estimate [95% CI] FDR p Estimate [95% CI] p-value FDR p
+  1328→value
+  1329→(Intercept) -17.44 [-180.20, 145.32] 0.831 0.961 -53.20 [-169.87, 63.48] 0.366 0.961
+  1330→Nicotine Days Ratio 0.33 [-3.74, 4.40] 0.872 0.961 0.33 [-3.53, 4.19] 0.864 0.961
+  1331→
+  1332→Standard Drinks Ratio -1.93 [-7.31, 3.45] 0.477 0.961 -2.00 [-7.13, 3.13] 0.440 0.961
+  1333→Sex -0.85 [-4.71, 3.00] 0.660 0.961 0.39 [-3.28, 4.07] 0.832 0.961
+  1334→Age 1.73 [-0.15, 3.61] 0.071 0.552 1.37 [-0.44, 3.19] 0.136 0.743
+  1335→CU Sessions Ratio -62.87 [-158.16, 32.41] 0.192 0.743 -91.51 [-161.77, -21.26] 0.011 0.213
+  1336→Thalamus 1/nT2* 56.94 [-132.59, 246.47] 0.551 0.961 100.19 [-35.41, 235.79] 0.145 0.743
+  1337→CU Sessions Ratio × Thalamus 1/nT2* 71.86 [-34.26, 177.97] 0.181 0.743 102.65 [25.40, 179.89] 0.010 0.213
+  1338→SN/VTA
+  1339→p -
+  1340→Estimate [95% CI] FDR p
+  1341→value
+  1342→(Intercept) 43.27 [-17.65, 104.18] 0.161 0.696
+  1343→Nicotine Days Ratio 0.45 [-3.68, 4.59] 0.827 0.944
+  1344→Standard Drinks Ratio -1.42 [-6.88, 4.04] 0.607 0.944
+  1345→Sex -0.24 [-4.16, 3.68] 0.903 0.944
+  1346→Age 2.20 [0.28, 4.12] 0.025 0.475
+  1347→CU Sessions Ratio 5.12 [-29.11, 39.35] 0.766 0.944
+  1348→SN/VTA 1/NT2* -16.22 [-74.00, 41.56] 0.577 0.944
+  1349→CU Sessions Ratio × SN/VTA 1/NT2* -3.13 [-35.81, 29.56] 0.849 0.944
+  1350→Problems
+  1351→L Putamen R Putamen
+  1352→p - p-
+  1353→Estimate [95% CI] FDR p Estimate [95% CI] FDR p
+  1354→value value
+  1355→(Intercept) 59.47 [-45.04, 163.99] 0.260 0.911 17.03 [-91.99, 126.04] 0.756 0.964
+  1356→Nicotine Days Ratio 1.10 [-2.66, 4.85] 0.562 0.964 0.94 [-2.83, 4.70] 0.622 0.964
+  1357→Standard Drinks Ratio -0.84 [-6.11, 4.43] 0.751 0.964 -0.83 [-6.14, 4.49] 0.758 0.964
+  1358→Sex -0.23 [-4.13, 3.67] 0.906 0.978 -0.36 [-4.30, 3.58] 0.856 0.978
+  1359→Age 1.82 [-0.02, 3.67] 0.053 0.331 1.81 [-0.13, 3.75] 0.067 0.371
+  1360→CUD Severity -26.93 [-82.39, 28.52] 0.336 0.964 1.30 [-51.68, 54.29] 0.961 0.978
+  1361→Putamen 1/nT2* -33.72 [-142.73, 75.30] 0.539 0.964 12.89 [-94.89, 120.66] 0.812 0.978
+  1362→CUD Severity × Putamen 1/nT2* 31.52 [-29.73, 92.77] 0.308 0.964 0.22 [-56.33, 56.77] 0.994 0.994
+  1363→
+  1364→L Caudate R Caudate
+  1365→p - p-
+  1366→Estimate [95% CI] FDR p Estimate [95% CI] FDR p
+  1367→value value
+  1368→(Intercept) 32.75 [-65.97, 131.47] 0.510 0.964 44.88 [-49.60, 139.35] 0.347 0.964
+  1369→Nicotine Days Ratio 1.00 [-2.78, 4.77] 0.601 0.964 1.16 [-2.66, 4.97] 0.547 0.964
+  1370→Standard Drinks Ratio -0.48 [-5.88, 4.92] 0.859 0.978 -0.39 [-5.76, 4.99] 0.887 0.978
+  1371→Sex -0.23 [-4.14, 3.67] 0.906 0.978 -0.17 [-4.08, 3.74] 0.931 0.978
+  1372→Age 1.84 [-0.03, 3.70] 0.053 0.331 1.88 [0.03, 3.73] 0.047 0.331
+  1373→CUD Severity -8.00 [-57.67, 41.67] 0.749 0.964 -13.52 [-57.87, 30.82] 0.545 0.964
+  1374→Caudate 1/nT2* -4.14 [-109.27, 100.98] 0.938 0.978 -17.81 [-116.07, 80.45] 0.719 0.964
+  1375→CUD Severity × Caudate 1/nT2* 10.97 [-45.78, 67.73] 0.701 0.964 16.94 [-32.79, 66.67] 0.499 0.964
+  1376→L Thalamus R Thalamus
+  1377→p - p-
+  1378→Estimate [95% CI] FDR p Estimate [95% CI] FDR p
+  1379→value value
+  1380→(Intercept) 120.32 [-13.69, 254.34] 0.078 0.371 202.99 [89.53, 316.45] 0.001 0.037
+  1381→Nicotine Days Ratio 0.98 [-2.66, 4.62] 0.594 0.964 0.61 [-2.89, 4.12] 0.727 0.964
+  1382→Standard Drinks Ratio -1.70 [-7.01, 3.62] 0.527 0.964 -1.96 [-6.99, 3.06] 0.439 0.964
+  1383→Sex -0.76 [-4.64, 3.13] 0.698 0.964 0.10 [-3.56, 3.76] 0.957 0.978
+  1384→Age 1.92 [0.05, 3.79] 0.045 0.331 1.45 [-0.35, 3.26] 0.113 0.485
+  1385→CUD Severity -24.90 [-103.32, 53.53] 0.529 0.964 -74.42 [-134.21, -14.62] 0.015 0.173
+  1386→Thalamus 1/nT2* -102.94 [-240.55, 34.67] 0.140 0.561 187.13 [-302.06, -72.20] 0.002 0.050
+  1387→CUD Severity × Thalamus 1/nT2* 28.94 [-58.13, 116.01] 0.510 0.964 83.22 [17.57, 148.87] 0.014 0.173
+  1388→SN/VTA
+  1389→p -
+  1390→Estimate [95% CI] FDR p
+  1391→value
+  1392→(Intercept) 35.79 [-25.98, 97.56] 0.252 0.972
+  1393→Nicotine Days Ratio 0.91 [-2.81, 4.63] 0.628 0.994
+  1394→Standard Drinks Ratio -0.82 [-6.22, 4.58] 0.763 0.994
+  1395→Sex -0.34 [-4.28, 3.60] 0.864 0.994
+  1396→Age 2.11 [0.19, 4.04] 0.032 0.331
+  1397→CUD Severity 1.48 [-28.66, 31.63] 0.922 0.994
+  1398→
+  1399→SN/VTA 1/NT2* -10.25 [-56.79, 36.29] 0.662 0.994
+  1400→CUD Severity × SN/VTA 1/nT2* -0.26 [-29.02, 28.50] 0.986 0.994
+  1401→Note.
+  1402→“L”: left; “R”: right; “CU”: cannabis use; “SN/VTA”: substantia nigra/ventral tegmental area; “CUD”: cannabis use disorder.
+  1403→
+  1404→Supplemental Figures
+  1405→Figure S1.
+  1406→Note.
+  1407→“Low,” “Average,” and “High” PLEs refer to -1 SD, Average, and +1 SD respectively.
+  1408→“Low”, “Medium,” and “High” Effort Required refers to 100, 120, and 150 key presses, respectively.
+  1409→p-values are contrasts in the simple slope of reward between control and cannabis group across same combination of effort required and PLEs.
+  1410→Figure S1 shows the simple slope of reward predicting log-odds of hard option choice at low, medium, and high effort levels, at low, average, and
+  1411→high PLEs (light, medium, and dark grey lines), for the control and cannabis groups (A1, A2, A3 for control group, B1, B2, B3 for cannabis
+  1412→
+  1413→group). Figure S3 demonstrates that the influence of reward depends on group at high PLEs and low (p = 0.040) and medium effort (p = 0.027),
+  1414→such that the positive associations between reward amount and response choice is greater in the control group (β = 0.32; β = 0.42),
+  1415→low effort medium effort
+  1416→compared to the cannabis group (β = 0.03; β = 0.18).
+  1417→low effort medium effort
+  1418→Figure S2.
+  1419→Note.
+  1420→“Low,” “Average,” and “High” PLEs refer to -1 SD, Average, and +1 SD respectively.
+  1421→“Low”, “Medium,” and “High” Reward Amount refers to 3, 5, and 7 points, respectively.
+  1422→
+  1423→p-values are contrasts in the simple slope of effort required between control and cannabis group across same combination of reward amount and
+  1424→PLEs.
+  1425→Figure S2 shows the simple slope of effort predicting log-odds of hard option choice at low, medium, and high reward amount at -low, average,
+  1426→and high PLEs (light, medium, and dark grey lines), for the control and cannabis groups (A1, A2, A3 for control group, B1, B2, B3 for cannabis
+  1427→group). Panel B demonstrates that the influence of effort depends on group at high reward amount and low PLEs (p = 0.039) and high SD PLEs (p
+  1428→= 0.035). At high reward amount and low SD PLEs, the negative associations between effort and log-odds of hard option choice is stronger in the
+  1429→cannabis (β = -0.34), compared to control group (β = -0.04). At high reward amount and high PLEs, the positive association between effort and
+  1430→log-odds of hard option choice is stronger in the cannabis (β = 0.06), compared to control group (β = -0.21). Effort is thus a weaker deterrent of
+  1431→choosing the hard option in the cannabis, compared to control group at high PLEs and reward amount.
+  1432→
+  1433→Figure S3.
+  1434→Note.
+  1435→“Low”, “Medium,” and “High” Reward Amount refers to 3, 5, and 7 points, respectively.
+  1436→“Low,” “Average,” and “High” Effort Required refers to 100, 120, and 150 key presses, respectively.
+  1437→p-values are contrasts in the simple slope of PLEs between control and cannabis group across same combination of reward amount and effort
+  1438→required.
+  1439→
+  1440→Figure S3 shows the simple slope of PLEs predicting log-odds of hard option choice at low, medium, and high reward amount at low, medium, and
+  1441→high effort (light, medium, and dark grey lines), for the control and cannabis groups (C1i, C2i, C3i for control group, C1ii, C2ii, and C3ii for
+  1442→cannabis group). Figure S3 demonstrates that the influence of PLEs depends on group at high reward amount and low effort (p = 0.008), such that
+  1443→the associations between PLEs and log-odds of hard option choice is negative in the cannabis group (β = -2.42) and positive in the control group (β
+  1444→=2.01). PLEs are thus a positive predictor of choosing the hard option in the control group and a negative predictor in the cannabis group, at high
+  1445→reward amount and low effort.
+  1446→Figure S4.
+  1447→
+  1448→Figure S5.
+  1449→
+  1450→References
+  1451→1. Lieen RZ, Allen JP. Measuring Alcohol Consump/on: Psychosocial and Biochemical
+  1452→Methods. Springer Science & Business Media; 2012.
+  1453→2. Kaufman J, Schweder AE. The Schedule for Affec<ve Disorders and Schizophrenia for
+  1454→School-Age Children: Present and Life<me version (K-SADS-PL). In: Comprehensive
+  1455→Handbook of Psychological Assessment, Vol. 2: Personality Assessment. John Wiley &
+  1456→Sons, Inc.; 2004:247-255.
+  1457→3. Andersson JLR, Hueon C, Ashburner J, Turner R, Friston K. Modeling Geometric
+  1458→Deforma<ons in EPI Time Series. NeuroImage. 2001;13(5):903-919.
+  1459→doi:10.1006/nimg.2001.0746
+  1460→4. Friston KJ, Ashburner J, Frith CD, Poline JB, Heather JD, Frackowiak RSJ. Spa<al
+  1461→registra<on and normaliza<on of images. Hum Brain Mapp. 1995;3(3):165-189.
+  1462→doi:10.1002/hbm.460030303
+  1463→5. Sladky R, Friston KJ, Tröstl J, Cunnington R, Moser E, Windischberger C. Slice-<ming
+  1464→effects and their correc<on in func<onal MRI. NeuroImage. 2011;58(2):588-594.
+  1465→doi:10.1016/j.neuroimage.2011.06.078
+  1466→6. Whivield-Gabrieli S, Nieto-Castanon A, Ghosh S. Ar<fact detec<on tools (ART). Published
+  1467→online 2011.
+  1468→7. Nieto-Castanon A. Preparing fMRI Data for Sta/s/cal Analysis. 2022.
+  1469→doi:10.48550/arXiv.2210.13564
+  1470→
+  1471→8. Power JD, Mitra A, Laumann TO, Snyder AZ, Schlaggar BL, Petersen SE. Methods to
+  1472→detect, characterize, and remove mo<on ar<fact in res<ng state fMRI. NeuroImage.
+  1473→2014;84:320-341. doi:10.1016/j.neuroimage.2013.08.048
+  1474→9. Ashburner J. A fast diffeomorphic image registra<on algorithm. NeuroImage.
+  1475→2007;38(1):95-113. doi:10.1016/j.neuroimage.2007.07.007
+  1476→10. Ashburner J, Friston KJ. Unified segmenta<on. NeuroImage. 2005;26(3):839-851.
+  1477→doi:10.1016/j.neuroimage.2005.02.018
+  1478→11. Calhoun VD, Wager TD, Krishnan A, et al. The impact of T1 versus EPI spa<al
+  1479→normaliza<on templates for fMRI data analyses. Hum Brain Mapp. 2017;38(11):5331-
+  1480→5342. doi:10.1002/hbm.23737
+  1481→12. Hallquist MN, Hwang K, Luna B. The nuisance of nuisance regression: Spectral
+  1482→misspecifica<on in a common approach to res<ng-state fMRI preprocessing reintroduces
+  1483→noise and obscures func<onal connec<vity. NeuroImage. 2013;82:208-225.
+  1484→doi:10.1016/j.neuroimage.2013.05.116
+  1485→13. Pan PM, Sato JR, Paillère Mar<not ML, et al. Longitudinal Trajectory of the Link Between
+  1486→Ventral Striatum and Depression in Adolescence. Am J Psychiatry. 2022;179(7):470-481.
+  1487→doi:10.1176/appi.ajp.20081180
+  1488→14. Meliss S. ROI mask Ventral Tegmental Area (VTA) / Substan<a Nigra (SN). NeuroVault.
+  1489→September 28, 2022. heps://iden<fiers.org/neurovault.image:786456
+  1490→15. Jenkinson M, Beckmann CF, Behrens TEJ, Woolrich MW, Smith SM. FSL. NeuroImage.
+  1491→2012;62(2):782-790. doi:10.1016/j.neuroimage.2011.09.015
+  1492→
+  1493→16. Pan W. Akaike’s Informa<on Criterion in Generalized Es<ma<ng Equa<ons. Biometrics.
+  1494→2001;57(1):120-125. doi:10.1111/j.0006-341X.2001.00120.x
+  1495→
+  1496→

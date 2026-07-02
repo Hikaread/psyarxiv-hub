@@ -1,0 +1,720 @@
+     1→     1→Acts and Aftermath: Differential Prediction of Moral Injury, Secondary Traumatic Stress,
+     2→     2→Burnout, and Depression in Animal Care Workers
+     3→     3→Jamie McNally, PhD, LPC, VSW/VMHP
+     4→     4→Jamie McNally https://orcid.org/0009-0001-4689-2062
+     5→     5→Fortifyu Consulting, Livonia, MI
+     6→     6→Data Availability Statement The dataset is not readily available because the data are part of an
+     7→     7→ongoing research program with additional analyses and publications in progress; the present
+     8→     8→analyses do not overlap with the analyses reported in those papers. Requests to access the dataset
+     9→     9→should be directed to info@fortifyucoaching.com and will be considered on a case-by-case basis
+    10→    10→subject to a data sharing agreement.
+    11→    11→Funding Statement This research received no external funding.
+    12→    12→Conflict of Interest Disclosure The author is the founder of Fortifyu Consulting, an independent
+    13→    13→practice that provides research, training, and consulting services related to moral injury in animal
+    14→    14→care work. This research was self-funded. The author has no competing interests to declare.
+    15→    15→Ethical Standards Statement The study protocol was reviewed by Pearl IRB and received an
+    16→    16→exempt research determination on June 11, 2024 (IRB ID 2024-0249).
+    17→    17→Participant Consent Statement All participants provided electronic informed consent prior to
+    18→    18→participation.
+    19→    19→Additional Statements No copyrighted text, figures, tables, or scale items from other sources
+    20→    20→are reproduced in this manuscript. This is an observational, cross-sectional survey study and does
+    21→    21→not constitute a clinical trial. Jamie McNally is the sole author of this manuscript.
+    22→    22→Corresponding author: Correspondence concerning this article should be addressed to Jamie
+    23→    23→McNally, Fortifyu Consulting. Email: info@fortifyucoaching.com
+    24→    24→
+    25→    25→Abstract
+    26→    26→Objective: Although psychological harm among animal care workers is well documented,
+    27→    27→whether specific occupational exposures predict distinct conditions remains untested. This study
+    28→    28→examined whether specific occupational exposures differentially predict moral injury, secondary
+    29→    29→traumatic stress (STS), burnout, and depression, and additionally tested two predictions specific
+    30→    30→to moral injury. Method: A cross-sectional sample of 291 U.S. animal care workers across six
+    31→    31→sectors completed a 12-item author-constructed exposure frequency checklist, the Moral Injury
+    32→    32→Outcome Scale, Professional Quality of Life Scale, and Patient Health Questionnaire-9. Bivariate
+    33→    33→and hierarchical regressions, partial correlations, and caseness-group comparisons tested
+    34→    34→differential prediction. Results: Exposure types activated distinct conditions. Total exposure
+    35→    35→dose predicted STS, burnout, and depression but not moral injury. Euthanasia exposure, assessed
+    36→    36→separately as decision-making and administration, predicted burnout and secondary traumatic
+    37→    37→stress, but not moral injury. Handling deceased animal remains predicted moral injury and trust
+    38→    38→violations after controlling for both euthanasia decision-making and administration, paralleling
+    39→    39→military aftermath-of-war findings. Public threats and moral accusations predicted moral injury
+    40→    40→across both shame and trust violation subvariants and were the only exposure predicting all four
+    41→    41→conditions; verbal aggression most strongly predicted burnout and depression; physical
+    42→    42→aggression most strongly predicted STS. Depression was the least differentiated outcome.
+    43→    43→Clinical moral injury was characterized by elevated interpersonal threat exposure, not by
+    44→    44→elevated animal care task exposure. Conclusions: Different exposure types activate different
+    45→    45→psychological conditions. Findings challenge current euthanasia-centric conceptualizations of
+    46→    46→psychological harm in animal care and support differentiated condition-specific assessment and
+    47→    47→intervention.
+    48→    48→
+    49→    49→Keywords: moral injury, secondary traumatic stress, burnout, animal care workers, occupational
+    50→    50→exposure
+    51→    51→
+    52→    52→Animal care workers, including those in animal sheltering, animal control, veterinary medicine,
+    53→    53→rescue, and volunteer roles, are routinely exposed to occupational stressors that can erode well-
+    54→    54→being. These demands have been linked to a set of related but separable conditions: burnout,
+    55→    55→secondary traumatic stress (STS), compassion fatigue, depression, and moral injury. Despite
+    56→    56→some disparity of terminology, these constructs can be broadly defined. Burnout is a state of
+    57→    57→emotional exhaustion, cynicism, and reduced efficacy arising from chronic workplace demands
+    58→    58→(Maslach & Leiter, 2016); STS is the posttraumatic symptoms that follow indirect exposure to
+    59→    59→others' suffering (Bride, 2004); compassion fatigue is an empathic-distress state widely
+    60→    60→conceptualized as the combination of burnout and STS (Stamm, 2010); depression is marked by
+    61→    61→persistent low mood, anhedonia, and impaired functioning; and, more recently, moral injury is
+    62→    62→defined as a syndrome resulting from exposure to events that violate deeply held moral beliefs,
+    63→    63→commonly assessed through two subvariants, shame (i.e., internalized self-blame) and trust
+    64→    64→violations (i.e., loss of faith in others and institutions; Litz et al., 2009, 2022, 2025; Shay, 2014).
+    65→    65→Each has been documented in animal care populations, where a growing body of evidence points
+    66→    66→to substantial well-being concerns overall (Andrukonis & Protopopova, 2020; Scotney et al.,
+    67→    67→2019; Scotney et al., 2015; Trevathan-Minnis et al., 2025; Volk et al., 2022; Wolf et al., 2024).
+    68→    68→Although frequently co-occurring, these are empirically distinct constructs with different
+    69→    69→etiologies, symptom profiles, and treatment implications for animal care workers (McNally,
+    70→    70→2026a). Despite increased recognition of these issues, critical gaps persist in the literature, and
+    71→    71→more work is needed to understand how these distinct conditions develop in animal care settings,
+    72→    72→including whether different exposure types predict different psychological conditions in this
+    73→    73→population.
+    74→    74→Occupational Exposures in Animal Care Work
+    75→    75→
+    76→    76→In animal care settings, workers are likely to encounter a range of potentially difficult stressors
+    77→    77→such as direct animal care tasks (i.e., treating severe wounds and illness), making euthanasia
+    78→    78→decisions, administering euthanasia, events involving the separation of animals and owners (i.e.,
+    79→    79→receiving surrendered animals, removing animals from neglect or abuse, interacting with
+    80→    80→distressed owners), witnessing or discovering animal abuse, handling deceased animal remains,
+    81→    81→and various forms of public hostility including verbal aggression, physical aggression, and
+    82→    82→threats and moral accusations. These exposure types differ in sensory intensity, moral content,
+    83→    83→relational context, and institutional embeddedness, dimensions that may determine which
+    84→    84→psychological condition develops.
+    85→    85→Given the broad range of possible exposures, the wide variation across animal care settings, and
+    86→    86→the conceptual confusion introduced by years of overlapping and conflated terminology,
+    87→    87→cohesive and systematic study of animal care worker well-being has been challenging. Research
+    88→    88→has nonetheless expanded: broad well-being surveys document overall distress (Scotney et al.,
+    89→    89→2019; Volk et al., 2022; Wolf et al., 2024), euthanasia-related strain has been examined in
+    90→    90→relation to factors such as live release rate and euthanasia practices (Andrukonis & Protopopova,
+    91→    91→2020; Rohlf & Bennett, 2005), and quantitative work has begun to link general job demands
+    92→    92→(Monaghan et al., 2024), as well an animal-care-specific exposures to psychological outcomes
+    93→    93→(Andrukonis et al., 2020; Trevathan-Minnis et al., 2025). This expansion matters, because
+    94→    94→collapsing distinct forms of psychological harm into a single, broad explanation yields
+    95→    95→interventions that inherit the same lack of distinction, leaving workers' condition-specific needs
+    96→    96→unmet and directing organizational resources too narrowly.
+    97→    97→Continued progress therefore depends on furthering this literature to determine whether
+    98→    98→particular exposures leave workers especially susceptible to particular outcomes, mapping which
+    99→    99→
+   100→   100→exposures produce which conditions. Research on euthanasia's impact must also continue,
+   101→   101→informed by broader multidisciplinary frameworks rather than examined in isolation or without
+   102→   102→theoretical grounding. Distinguishing which exposures produce which conditions is, ultimately, a
+   103→   103→precondition for accurate assessment and tailored intervention.
+   104→   104→Two A Priori Predictions for Moral Injury
+   105→   105→Building on this need to identify which exposures drive which conditions, the present study gives
+   106→   106→particular attention to moral injury. While STS, burnout, and compassion fatigue have been
+   107→   107→recognized in animal care for some time, moral distress and moral injury have only more
+   108→   108→recently been acknowledged as relevant to this population, with moral injury increasingly
+   109→   109→identified as an occupational hazard (Baysal et al., 2024; Williamson et al., 2023) and recent
+   110→   110→prevalence estimates indicating that 17.4% of animal care workers may experience clinical moral
+   111→   111→injury and an additional 21.0% of workers may carry subclinical moral distress (McNally,
+   112→   112→2026b). Two a priori predictions specific to moral injury are therefore advanced, each developed
+   113→   113→below before the study's full aims are presented.
+   114→   114→Public Hostility As A Moral Stressor
+   115→   115→A central a priori prediction concerns public hostility, specifically the threats and moral
+   116→   116→accusations animal care workers encounter from the public. Moral injury theory holds that injury
+   117→   117→arises not only from one's own perceived transgressions but from the acts of others and from
+   118→   118→betrayal (Litz et al., 2009; Shay, 2014). Yet accounts of moral injury in animal care have
+   119→   119→centered almost entirely on exposures involving animals, while the morally injurious potential of
+   120→   120→human-sourced, interpersonal exposures has gone largely unexamined. Animal care workers are
+   121→   121→routinely criticized for their decisions and for undesired outcomes; many find themselves on the
+   122→   122→receiving end of unsolicited messages of public scorn, for example being labeled "killers" or
+   123→   123→
+   124→   124→called uncaring. These are accusations that strike at moral identity and often directly contradict
+   125→   125→workers' own understanding of their work as compassionate and animal-centered. This gap
+   126→   126→between external condemnation and internal moral commitment is itself a candidate pathway to
+   127→   127→moral injury as it has the potential to be experienced as a relational, identity-based assault rather
+   128→   128→than a depleting or fear-based stressor. A full theoretical treatment is beyond the scope of this
+   129→   129→article, yet these predictions draw on a moral-identity framework grounded in established
+   130→   130→literature on moral-emotion and social-sanction processes (Aquino & Reed, 2002; Bandura,
+   131→   131→1991; McNally, 2026c; Tangney et al., 2007). The present study therefore predicts that public
+   132→   132→threats and moral accusations — distinct from generalized verbal or physical aggression — will
+   133→   133→predict moral injury across both its shame and trust-violation subvariants.
+   134→   134→The Aftermath Hypothesis: Body Handling as Moral Residue
+   135→   135→A second a priori prediction — derived not from the animal care literature but from military
+   136→   136→trauma research — concerns the handling of deceased animal remains. In military contexts,
+   137→   137→mortuary affairs (i.e., the recovery, processing, and transport of human remains) has been
+   138→   138→associated with elevated PTSD and depression independent of combat exposure (McCarroll et
+   139→   139→al., 1995; Sutker et al., 1994), and Flynn, McCarroll, and Biggs (2015) documented
+   140→   140→psychological stress specific to military mortuary workers and distinct from combat-related
+   141→   141→stress. This literature framed remains handling primarily within a trauma/PTSD paradigm. The
+   142→   142→present study advances a different prediction: that in animal care, the aftermath of death
+   143→   143→constitutes a morally injurious exposure, distinct from the trauma and depletion of the euthanasia
+   144→   144→act itself.
+   145→   145→Across cultures and history, mortuary and memorial practices (e.g., burial, ceremony, the
+   146→   146→marking and honoring of remains) have conferred meaning on death, affirmed the moral worth of
+   147→   147→
+   148→   148→the deceased, and allowed survivors to integrate loss into a coherent moral order (Burrell &
+   149→   149→Selman, 2022; Hidalgo et al., 2021; Neimeyer, 2019). The handling of deceased animal remains
+   150→   150→in many animal care settings involves processes such as placement in plastic bags, freezing, and
+   151→   151→procedural storage that strips death of this ritual scaffolding, confronting workers with the body
+   152→   152→and the system's disposition of it absent any meaning-conferring acknowledgment. This exposure
+   153→   153→is distinct from the resource-driven decision-making that precedes euthanasia and from the active
+   154→   154→witnessing of suffering and death during administration. Where those stages engage the worker
+   155→   155→as decision-maker or witness, the aftermath engages the worker as the one who must reconcile
+   156→   156→what the institution does with the body once life has ended. The manner of handling may itself
+   157→   157→function as an institutional betrayal (Smith & Freyd, 2014) consistent with the prediction that
+   158→   158→body handling is associated specifically with trust violations rather than shame alone. Many
+   159→   159→cultural grief practices are also communal, underscoring the role of social support in integrating
+   160→   160→loss; in animal care, by contrast, workers are often left to absorb repeated deaths alone, without
+   161→   161→institutional recognition or ritual.
+   162→   162→The Present Study
+   163→   163→This study examined whether specific occupational exposure types differentially predict moral
+   164→   164→injury, STS, burnout, and depression. Two a priori predictions specific to moral injury outcomes
+   165→   165→were also examined: that public threats and moral accusations, and the handling of deceased
+   166→   166→animal remains, would each predict moral injury outcomes. The following hypotheses were
+   167→   167→tested:
+   168→   168→Hypothesis 1. Different exposure types will show distinct patterns of association with the four
+   169→   169→outcomes, such that no single exposure predicts all conditions uniformly and outcomes are
+   170→   170→differentiated by exposure type.
+   171→   171→
+   172→   172→Hypothesis 2. Public threats and moral accusations will predict moral injury across both its
+   173→   173→shame and trust-violation subvariants, distinct from generalized verbal or physical aggression.
+   174→   174→Hypothesis 3. Euthanasia exposure (decision-making and administration) will predict STS,
+   175→   175→burnout, and moral injury.
+   176→   176→Hypothesis 4. Handling deceased animal remains will uniquely predict moral injury outcomes
+   177→   177→after controlling for euthanasia decision-making and administration.
+   178→   178→Method
+   179→   179→Participants
+   180→   180→Participants were recruited through professional networks, social media, and animal care
+   181→   181→organizations across the United States. Out of 393 individuals who accessed the survey, a final
+   182→   182→sample of 291 animal care workers resulted consisting of those who provided the required
+   183→   183→electronic informed consent, met inclusion criteria (i.e., 18 years or older and currently working
+   184→   184→or volunteering in animal care), and completed an adequate percentage of the survey for proper
+   185→   185→data analysis. The sample was predominantly female (64.9%, n = 189), White (81.4%, n = 237),
+   186→   186→and ranged in age from 18 to 80 years (M = 36.8, SD = 10.12). Participants represented six
+   187→   187→primary sectors: animal control (18.2%, n = 53), sheltering (22.7%, n = 66), veterinary medicine
+   188→   188→(10.7%, n = 31), rescue (29.9%, n = 87), volunteer/foster (10.3%, n = 30), and other (8.2%, n =
+   189→   189→24). A majority of participants had worked or volunteered in animal care for 3 or more years
+   190→   190→(89.3%, n =259), with substantial weekly engagement: 62.4% n = 181 working or volunteering
+   191→   191→40 or more hours per week and 80.0% n = 232 reporting 30 or more hours per week.
+   192→   192→Measures
+   193→   193→
+   194→   194→Occupational Exposure Frequency Checklist.
+   195→   195→A 12-item author-constructed checklist assessed the frequency of specific occupational
+   196→   196→exposures in animal care work. Items were developed based on clinical experience, existing
+   197→   197→literature, professional experience with animal care professionals, direct experience in animal
+   198→   198→care, and theoretical frameworks that informed hypotheses. Nine items assessed animal-related
+   199→   199→exposures (i.e., receiving surrendered animals, removing animals from abuse/neglect, interacting
+   200→   200→with owners of animals being surrendered/removed, euthanasia decision-making, administering
+   201→   201→euthanasia, tending to severe wounds, treating severe illness, seeing animal abuse, and handling
+   202→   202→deceased animal remains) and three items assessed public hostility exposures (i.e., verbal
+   203→   203→aggression, physical aggression, and receiving threats/accusations from the public). Items were
+   204→   204→rated on a 6-point frequency scale from 1 (neither deal with nor hear about) to 6 (every day). The
+   205→   205→12-item scale demonstrated good internal consistency (α = .89, N = 281).
+   206→   206→Moral Injury Outcome Scale (MIOS).
+   207→   207→The MIOS (Litz et al., 2022) is a 22-item measure assessing moral injury outcomes. Fourteen
+   208→   208→Impact items (rated 0–4) yield a total impact score (range 0–56) and two subscale scores: Shame
+   209→   209→(7 items, range 0–28) and Trust Violations (7 items, range 0–28). Eight Functional Impairment
+   210→   210→items assess interference with daily functioning. Clinical caseness thresholds (Litz et al., 2025)
+   211→   211→classify respondents as no moral injury, moral distress (subclinical), or moral injury (clinical
+   212→   212→syndrome). Internal consistency was excellent (α = .91 for Impact Total, .88 for Shame, and .84
+   213→   213→for Trust Violations).
+   214→   214→Professional Quality of Life Scale (ProQOL-5).
+   215→   215→
+   216→   216→The ProQOL-5 (Stamm, 2010) assesses compassion satisfaction, burnout, and secondary
+   217→   217→traumatic stress in helping professionals. The present findings analyzed the 10-item Burnout (α =
+   218→   218→.73) and 10-item STS (α = .86) subscales, each rated 1–5 and summed (range 10–50).
+   219→   219→Patient Health Questionnaire-9 (PHQ-9).
+   220→   220→The PHQ-9 (Kroenke et al., 2001) is a 9-item measure of depression severity rated 0–3 (range 0–
+   221→   221→27). Internal consistency was good (α = .89).
+   222→   222→Procedure
+   223→   223→This study was reviewed by Pearl IRB and received an exempt research determination according
+   224→   224→to 45 CFR 46.104(d)(2) on June 11, 2024 (IRB ID 2024-0249). Participants provided electronic
+   225→   225→informed consent and completed an anonymous online survey distributed through professional
+   226→   226→animal care networks, social media platforms, and direct outreach to animal care organizations.
+   227→   227→The survey was structured in two parts: Part 1 (N = 291) included the MIOS, ProQOL-5, PHQ-9,
+   228→   228→the 12-item exposure checklist, and demographic items. Part 2 (n = 151) was optional and
+   229→   229→included additional measures not reported here.
+   230→   230→Data Analysis
+   231→   231→Valid sample sizes ranged from 278 to 290 across analyses due to missing data on individual
+   232→   232→measures. Ten participants had incomplete MIOS responses. Analyses proceeded in four stages.
+   233→   233→First, bivariate regressions tested each of the 12 exposure items as an individual predictor of each
+   234→   234→of the six outcomes (i.e., Moral Injury Total, Shame, Trust, depression, STS, burnout), yielding a
+   235→   235→12 × 6 differential prediction matrix. Second, hierarchical regressions tested whether the three
+   236→   236→public hostility items added significant variance beyond the nine animal care items in predicting
+   237→   237→moral injury outcomes. Third, partial correlations tested whether handling deceased animal
+   238→   238→
+   239→   239→remains uniquely predicted moral injury outcomes after controlling for euthanasia decision-
+   240→   240→making and euthanasia administration. Fourth, one-way ANOVAs compared exposure
+   241→   241→frequencies across moral injury caseness levels. A PMIE cross-validation compared exposure
+   242→   242→frequencies between workers who did and did not endorse a morally injurious event on the
+   243→   243→MIOS.
+   244→   244→Results
+   245→   245→Descriptive Statistics
+   246→   246→Means, standard deviations, intercorrelations, and internal consistencies for all study variables
+   247→   247→are presented in Table 1. Moral injury impact scores averaged 21.49 (SD = 10.45, range 0–56),
+   248→   248→with trust violations (M = 11.88, SD = 5.51) exceeding shame (M = 9.62, SD = 6.11). ProQOL
+   249→   249→subscale scores fell within the average range per ProQOL-5 interpretive guidelines (Stamm,
+   250→   250→2010): burnout (M = 27.07, SD = 6.22) and STS (M = 29.35, SD = 7.59). Depression scores (M
+   251→   251→= 10.96, SD = 6.27) fell at the PHQ-9 threshold for moderate depression (≥ 10; Kroenke et al.,
+   252→   252→2001). The 12-item exposure composite averaged 3.45 (SD = 0.96) on the 1–6 frequency scale.
+   253→   253→The four outcome constructs were moderately to strongly intercorrelated (e.g., moral injury with
+   254→   254→burnout, r = .57; with STS, r = .41; with depression, r = .62; all p < .001), consistent with their
+   255→   255→status as related but distinct conditions
+   256→   256→A dissociation between exposure dose and type was evident at the composite level. The 12-item
+   257→   257→exposure composite correlated significantly with STS (r = .220, p < .001), burnout (r = .126, p =
+   258→   258→.032), and depression (r = .138, p = .019), but not with Moral Injury Total (r = .062, p = .304),
+   259→   259→Shame (r = .071, p = .234), or Trust Violations (r = .038, p = .528). The sheer quantity of
+   260→   260→occupational exposure a worker accrued predicted their secondary traumatic stress, burnout, and
+   261→   261→
+   262→   262→depression, but not their moral injury. Moral injury, in contrast to the other three conditions, was
+   263→   263→unrelated to total exposure dose.
+   264→   264→Differential Prediction of Psychological Outcomes
+   265→   265→Table 2 presents the standardized coefficients from bivariate regressions of each exposure item
+   266→   266→on each outcome. Several patterns supported differential prediction.
+   267→   267→Trust violations showed the most selective profile: only three of 12 items reached significance
+   268→   268→— handling deceased animal remains (β = .130, p = .029), verbal aggression (β = .155, p = .010),
+   269→   269→and threats/accusations (β = .140, p = .019). No animal care task predicted trust violations. STS
+   270→   270→showed the broadest profile, with 10 of 12 items reaching significance or trend.
+   271→   271→Three items were non-significant across all six outcomes: receiving surrendered animals,
+   272→   272→interacting with owners of animals being surrendered/removed, and treating severe illness.
+   273→   273→Threats and accusations from the public was the only item that significantly predicted all six
+   274→   274→outcomes. By contrast, handling deceased animal remains showed a selective moral injury
+   275→   275→profile — significant for Moral Injury Total and Trust Violations, trending for Shame and
+   276→   276→burnout, and non-significant for depression.
+   277→   277→The Euthanasia Null Finding
+   278→   278→Euthanasia decision-making did not significantly predict Moral Injury Total (β = -.006, p =
+   279→   279→.924), Shame (β = -.022, p = .718), or Trust Violations (β = .013, p = .826). Administering
+   280→   280→euthanasia showed a similar pattern (Moral Injury Total β = .064, p = .289; Trust β = .002, p =
+   281→   281→.979), with only a trend for Shame (β = .108, p = .072). Neither euthanasia variable predicted
+   282→   282→depression (decision-making β = .049, p = .404; administration β = .112, p = .058). By contrast,
+   283→   283→euthanasia decision-making significantly predicted STS (β = .157, p = .008) and burnout (β =
+   284→   284→
+   285→   285→.142, p = .016), and administering euthanasia predicted STS (β = .144, p = .014). This pattern —
+   286→   286→euthanasia predicting STS and burnout but not moral injury — was consistent across bivariate
+   287→   287→regression, partial correlation, and caseness comparison.
+   288→   288→Differential Prediction of Depression
+   289→   289→In bivariate regressions, depression was predicted by verbal aggression (β = .217, p < .001),
+   290→   290→threats/accusations (β = .171, p = .004), physical aggression (β = .207, p < .001), and seeing
+   291→   291→abuse (β = .199, p < .001) — the same exposures that predicted STS — with no exposure
+   292→   292→uniquely predicting depression beyond this shared set. By contrast, handling deceased animal
+   293→   293→remains did not predict depression (β = .084, p = .154), and this weak association was further
+   294→   294→attenuated in partial correlations. Every significant depression predictor was also a significant
+   295→   295→STS predictor: depression's exposure signature was a subset of STS's broader profile, with no
+   296→   296→distinct etiology of its own.
+   297→   297→Hierarchical Regression: Public Hostility Beyond Animal Care Tasks
+   298→   298→Hierarchical regressions added the three public hostility items (Block 2) to the nine animal care
+   299→   299→items (Block 1) for each moral injury outcome (Table 3). The public hostility cluster added
+   300→   300→significant variance for every moral injury outcome: Moral Injury Total (ΔR² = .039, Fchange(3,
+   301→   301→259) = 3.74, p = .012), Shame (ΔR² = .033, Fchange(3, 259) = 3.25, p = .023), and Trust
+   302→   302→Violations (ΔR² = .039, Fchange(3, 259) = 3.62, p = .014). For Trust Violations, the animal care
+   303→   303→block alone was non-significant (Block 1 R² = .042, p = .243) and became significant only with
+   304→   304→the addition of public hostility.
+   305→   305→In the full (Block 2) models, the unique predictors of moral injury localized to two exposures.
+   306→   306→For Moral Injury Total, only handling deceased remains (β = .188, p = .022) and
+   307→   307→
+   308→   308→threats/accusations (β = .188, p = .015) were significant. For Trust Violations, the same two
+   309→   309→items were significant — handling remains (β = .202, p = .015) and threats (β = .173, p = .028).
+   310→   310→For Shame, only threats reached significance (β = .165, p = .031), with seeing abuse and body
+   311→   311→handling trending. Body handling and public threats converged as the only unique moral injury
+   312→   312→predictors in saturated 12-item models, surviving alongside all competing exposures.
+   313→   313→The hierarchical models also recovered the same condition-specific signatures seen bivariately.
+   314→   314→In the full models, burnout was uniquely predicted by verbal aggression (β = .212, p = .003) and
+   315→   315→threats (β = .151, p = .047); STS by physical aggression (β = .200, p = .014) and seeing abuse (β
+   316→   316→= .182, p = .036); and depression by verbal aggression (β = .183, p = .012).
+   317→   317→Body Handling as Unique Predictor of Moral Injury
+   318→   318→Partial correlations controlling for both euthanasia decision-making and administration revealed
+   319→   319→that handling deceased animal remains remained a significant predictor of Moral Injury Total (r
+   320→   320→= .146, p = .015) and Trust Violations (r = .166, p = .006), but not Shame (r = .100, p = .098),
+   321→   321→STS (r = .057, p = .345), or depression (r = .053, p = .386). By contrast, euthanasia decision-
+   322→   322→making (Moral Injury Total r = -.082, p = .177) and administering euthanasia (Moral Injury Total
+   323→   323→r = -.010, p = .866) were non-significant when controlling for body handling. Body handling was
+   324→   324→the unique predictor; euthanasia was not. Notably, body handling's bivariate associations with
+   325→   325→STS (r = .146) and depression (r = .084) dropped to non-significance once euthanasia was
+   326→   326→controlled, indicating that those associations were shared with euthanasia exposure, whereas the
+   327→   327→moral injury association was independent of it. Body handling thus survived as a unique moral
+   328→   328→injury predictor across three convergent tests — the bivariate regression, this partial correlation,
+   329→   329→
+   330→   330→and the saturated 12-item regression (β = .188 for Moral Injury Total, β = .202 for Trust
+   331→   331→Violations).
+   332→   332→Relational Contact as a Protective Exposure
+   333→   333→One exposure operated in the protective direction. In the full hierarchical models, interacting
+   334→   334→with owners of animals being surrendered/removed was a significant negative predictor of STS
+   335→   335→(β = -.283, p < .001) and depression (β = -.232, p = .004), indicating that workers reporting more
+   336→   336→frequent owner contact reported lower STS and depression.
+   337→   337→Caseness Analysis
+   338→   338→One-way ANOVAs compared exposure frequencies across moral injury caseness levels (no
+   339→   339→moral injury, n = 172–173; moral distress, n = 58–59; clinical moral injury, n = 49). Significant
+   340→   340→differences emerged for seeing abuse, F(2, 277) = 4.879, p = .008; verbal aggression, F(2, 277) =
+   341→   341→5.350, p = .005; threats/accusations, F(2, 277) = 5.646, p = .004; and physical aggression, F(2,
+   342→   342→278) = 3.496, p = .032. For each of these four interpersonal exposures, Tukey HSD contrasts
+   343→   343→confirmed that the clinical moral injury group reported significantly higher exposure than the no-
+   344→   344→moral-injury group (seeing abuse mean difference = 0.68, p = .007; verbal aggression = 0.67, p =
+   345→   345→.004; threats = 0.72, p = .003; physical aggression = 0.51, p = .038), and homogeneous-subset
+   346→   346→tests placed the clinical group in its own band for seeing abuse, verbal aggression, and threats.
+   347→   347→Euthanasia decision-making, F(2, 275) = 1.953, p = .144, and administering euthanasia, F(2,
+   348→   348→276) = 1.624, p = .199, did not differ across caseness levels. The clinical moral injury group was
+   349→   349→distinguished by its elevated interpersonal-threat profile, not by its exposure to animal care tasks
+   350→   350→or euthanasia (Table 4).
+   351→   351→
+   352→   352→Handling deceased remains also differed across caseness groups, F(2, 278) = 3.720, p = .025, but
+   353→   353→in a pattern distinct from the interpersonal exposures: the elevation was carried by the moral
+   354→   354→distress group (M = 3.80) rather than the clinical group (M = 3.67), and the only significant
+   355→   355→Tukey contrast was moral distress > no moral injury (mean difference = 0.56, p = .041); the
+   356→   356→clinical-versus-no-injury contrast was non-significant (p = .182), and the homogeneous-subset
+   357→   357→test did not separate the groups (p = .079). Thus, although body handling discriminates caseness
+   358→   358→groups overall, it does not single out the clinical moral injury group the way the interpersonal
+   359→   359→exposures do.
+   360→   360→PMIE Cross-Validation
+   361→   361→A planned cross-validation compared exposure frequencies between workers who endorsed at
+   362→   362→least one potentially morally injurious event (PMIE) on the MIOS (n ≈ 243) and those who did
+   363→   363→not (n ≈ 47), using independent-samples t-tests across all 12 exposure items. On a two-sided test
+   364→   364→with the appropriate variance correction, no exposure item significantly distinguished PMIE
+   365→   365→endorsers from non-endorsers. The largest difference was for threats and accusations from the
+   366→   366→public, which endorsers reported more frequently at a trend level (Welch t = -1.876, df = 58.89, p
+   367→   367→= .066; under an equal-variances assumption t(287) = -2.129, p = .034, but Levene's test
+   368→   368→indicated unequal variances, F = 5.49, p = .020, favoring the Welch estimate). All effect sizes
+   369→   369→were small (|d| ≤ 0.35), with confidence intervals spanning zero. That exposure frequency largely
+   370→   370→fails to distinguish PMIE endorsers from non-endorsers indicates that PMIE endorsement is not a
+   371→   371→simple function of how much exposure a worker accrues. This converges with the composite-
+   372→   372→level finding that total exposure dose predicted STS, burnout, and depression but not moral
+   373→   373→injury.
+   374→   374→
+   375→   375→Discussion
+   376→   376→This study examined whether specific occupational exposures in animal care work differentially
+   377→   377→predict moral injury, secondary traumatic stress, burnout, and depression. Several principal
+   378→   378→findings emerge.
+   379→   379→Tasks Non-Significant for Measurable Injury
+   380→   380→In bivariate analysis, three exposures were non-significant across all four conditions: receiving
+   381→   381→surrendered animals, interacting with owners of animals being surrendered/removed, and treating
+   382→   382→severe illness. These routine animal care tasks, while potentially stressful, did not produce
+   383→   383→measurable psychological injury on any assessed outcome, suggesting that distress in animal care
+   384→   384→is concentrated in specifically charged exposures rather than distributed evenly across the work.
+   385→   385→It is worth noting, however, that in the full hierarchical model, interacting with owners of
+   386→   386→animals being surrendered/removed was a significant negative predictor of STS and depression
+   387→   387→once other exposures were held constant, despite being unrelated to either outcome at the
+   388→   388→bivariate level. This suppression pattern suggests that direct contact with the people responsible
+   389→   389→for an animal may buffer against traumatic stress and demoralization, perhaps by affording
+   390→   390→workers an agentic role — helping a person access treatment, connect with resources, or make an
+   391→   391→informed decision in the animal's interest — rather than positioning them as passive witnesses to
+   392→   392→suffering. This finding should be interpreted with caution and become an area of future research.
+   393→   393→Dose Versus Type: Moral Injury Is Not a Function of Exposure Amount
+   394→   394→A striking pattern emerged at the composite level: the total amount of occupational exposure a
+   395→   395→worker reported predicted secondary traumatic stress, burnout, and depression, but was entirely
+   396→   396→unrelated to moral injury. STS, burnout, and depression behaved partly as dose-dependent
+   397→   397→conditions — accumulating with the sheer quantity of difficult exposure — whereas moral injury
+   398→   398→
+   399→   399→did not. Moral injury is not produced by how much a worker is exposed to but by what kind of
+   400→   400→exposure they encounter: the relational, moral, and institutional character of specific events, not
+   401→   401→their frequency or volume. This is consistent with the conceptual distinction between trauma-
+   402→   402→load models, in which harm scales with dose, and moral injury, in which harm follows from the
+   403→   403→violation of moral expectation regardless of frequency. It also cautions against exposure-count
+   404→   404→screening as a means of identifying morally injured workers, since the workers most at risk for
+   405→   405→moral injury are not necessarily those reporting the most exposure.
+   406→   406→Public Hostility and Moral Accusation as Moral Injury Drivers
+   407→   407→The three public hostility items were among the strongest predictors across outcomes, and
+   408→   408→threats/accusations was the only item to predict all four conditions. Critically, the public hostility
+   409→   409→items showed distinct signatures: verbal aggression was the strongest predictor of burnout and
+   410→   410→depression (i.e., a dejection pathway), physical aggression was the strongest predictor of STS
+   411→   411→(i.e., a fear/arousal pathway), and threats/accusations was the strongest predictor of moral injury
+   412→   412→across both subvariants (i.e., a moral-identity-threat pathway). The public hostility cluster added
+   413→   413→significant variance for moral injury beyond the nine animal care items.
+   414→   414→This differential pattern within public hostility has implications for measurement and
+   415→   415→intervention. Being verbally berated is depleting and dejecting but does not specifically produce
+   416→   416→moral injury; being morally accused — called an animal killer, murderer, or uncaring — strikes
+   417→   417→at moral identity and activates the shame and trust-violation pathways that define moral injury.
+   418→   418→Collapsing types of public hostility into a single construct obscures these distinct effects.
+   419→   419→Euthanasia Is Not the Primary Driver of Moral Injury
+   420→   420→
+   421→   421→Contrary to Hypothesis 3, neither euthanasia decision-making nor administration predicted moral
+   422→   422→injury, despite the prominence of euthanasia in accounts of distress in animal care work. Both
+   423→   423→predicted STS and burnout, but the moral injury signal was carried solely by handling deceased
+   424→   424→remains. Hypotheses anticipated that remains handling would carry the greatest moral weight,
+   425→   425→but not that deciding and administering would be non-significant for moral injury altogether.
+   426→   426→While Hypotheses 4 was supported, Hypotheses 3 was not. Disaggregating euthanasia revealed
+   427→   427→that three exposures routinely grouped under a single heading — deciding, administering, and
+   428→   428→handling remains afterward — are psychologically distinct: the decision and the act operated
+   429→   429→through depletion and traumatic-stress pathways, while the aftermath operated through moral
+   430→   430→injury. Because prior work has treated euthanasia participation as a unitary construct, any moral
+   431→   431→injury signal localized to remains handling would have been masked.
+   432→   432→This finding carries immediate practical implications. Organizational resources directed toward
+   433→   433→euthanasia-related support — while potentially helpful for STS and burnout — may fail to
+   434→   434→address the exposures that actually produce moral injury. A more targeted approach would
+   435→   435→distinguish euthanasia support (e.g., addressing trauma and depletion) from moral injury
+   436→   436→prevention (e.g., addressing the relational and moral-meaning dimensions of exposure, including
+   437→   437→how remains are handled).
+   438→   438→The Aftermath, Not the Act: Body Handling as Moral Residue
+   439→   439→Handling deceased animal remains uniquely predicted moral injury — specifically Moral Injury
+   440→   440→Total and Trust Violations — after controlling for both euthanasia decision-making and
+   441→   441→administration, and neither euthanasia variable retained significance once body handling was
+   442→   442→controlled. This association appears dimensional rather than categorical when considering that,
+   443→   443→although remains handling predicted moral injury continuously across the sample, it did not
+   444→   444→
+   445→   445→sharply distinguish the clinical moral injury group at the caseness level, where its elevation was
+   446→   446→carried by the moral distress group rather than the clinical one.
+   447→   447→That handling remains would load onto moral injury was an a priori prediction (Hypothesis 4)
+   448→   448→derived from the military aftermath of war findings and mortuary-affairs literature, in which
+   449→   449→remains handling has been associated with psychological distress independent of combat
+   450→   450→exposure (Flynn et al., 2015; McCarroll et al., 1995; Sutker et al., 1994).The present results
+   451→   451→extend that literature in two ways. First, they demonstrate the analogous dissociation in a civilian
+   452→   452→animal care population: the aftermath of death is psychologically distinct from the act that
+   453→   453→precedes it. Second, where the military literature framed remains handling within a trauma/PTSD
+   454→   454→paradigm, the present pattern situates it within a moral paradigm — body handling predicted
+   455→   455→trust violations and moral injury specifically, not merely STS. This pattern is consistent with the
+   456→   456→interpretation that the way deceased animals are handled may itself constitute a morally injurious
+   457→   457→event. The absence of meaningful death rituals may leave workers to absorb the moral residue of
+   458→   458→death without the scaffolding that ordinarily makes it bearable.
+   459→   459→This interpretation also locates the violation in the systemic conditions that structure this
+   460→   460→exposure. The infrastructures of contemporary animal care render certain realities procedurally
+   461→   461→"necessary", including that animals are often euthanized at volume, and their bodies handled and
+   462→   462→stored with the efficiency the system demands. The injury may be activated at either point of the
+   463→   463→violation, or the intersection of the two conditions: confronting the bodily aftermath of death, and
+   464→   464→doing so within a system that both houses those “necessary” realities and then furthermore
+   465→   465→provides no ritual, mourning, or acknowledgment to mark it.
+   466→   466→
+   467→   467→This is consistent with the present finding that body handling predicted trust violations rather
+   468→   468→than shame: the injury registers as a rupture in the moral order maintained by others and by the
+   469→   469→institution — a betrayal-based moral injury in Shay's (2014) sense — rather than as self-
+   470→   470→condemnation. Where the system makes undignified disposal routine and supplies no
+   471→   471→countervailing ritual, the absence of honoring is itself the morally injurious condition.
+   472→   472→Additionally, at the organizational level for locus of repair: the relevant intervention is not only
+   473→   473→clinical treatment of the injured worker but structural reform of how institutions acknowledge
+   474→   474→animal death.
+   475→   475→Because this disaggregated euthanasia pattern is, to the author's knowledge, the first of its kind in
+   476→   476→animal care populations, it requires replication across independent samples and sectors before
+   477→   477→strong conclusions are drawn. The claim is not that deciding or administering euthanasia is
+   478→   478→benign — both predicted STS and burnout — but that their relationship to moral injury
+   479→   479→specifically may be weaker than the field has assumed.
+   480→   480→Depression as the Least Differentiated Outcome
+   481→   481→Depression's exposure signature was the least distinct of the four conditions. It was predicted by
+   482→   482→the dejecting interpersonal exposures it shares with burnout (e.g., verbal aggression and threats)
+   483→   483→rather than by a unique class of exposure. This is consistent with depression's transdiagnostic
+   484→   484→standing: it functions less as a condition with its own exposure etiology and more as a
+   485→   485→downstream consequence of chronic conditions. Where moral injury was predicted specifically
+   486→   486→by interpersonal/moral threat and the institutional aftermath of death, and STS was predicted
+   487→   487→broadly by emotional and sensory exposure to suffering, depression was predicted non-
+   488→   488→specifically, positioning itself as a condition that accrues across the demands of the work rather
+   489→   489→than arising from any particular exposure.
+   490→   490→
+   491→   491→Limitations and Future Directions
+   492→   492→Several limitations warrant consideration. The cross-sectional design precludes causal inference;
+   493→   493→longitudinal research is needed to establish temporal ordering among exposure and outcome. The
+   494→   494→12-item exposure checklist was author-constructed and, while demonstrating acceptable
+   495→   495→reliability (α = .89), has not undergone formal psychometric validation; future research should
+   496→   496→develop and validate a standardized measure of occupational exposures in animal care, ideally
+   497→   497→distinguishing exposure frequency from perceived moral violation. Two items in the public
+   498→   498→hostility cluster — verbal aggression (in person) and threats/accusations (in person or online) —
+   499→   499→are confounded on the online dimension, preventing clean differentiation of whether the moral
+   500→   500→content or the online visibility of hostility drives moral injury. The sample was recruited through
+   501→   501→professional networks and social media, introducing potential self-selection bias.
+   502→   502→Future research should disaggregate euthanasia-related exposure rather than measuring it as a
+   503→   503→single construct. Given the novelty of the disaggregated pattern and the body-handling finding,
+   504→   504→replication across independent samples and sectors is a priority. Future work should also test
+   505→   505→organizational-level interventions (e.g., improved remains-handling protocols, structured
+   506→   506→debriefing after public hostility incidents) and examine whether specific exposure types activate
+   507→   507→different conditions or moral injury subvariants.
+   508→   508→Conclusion
+   509→   509→The psychological cost of animal care work is not a single burden but a set of distinct injuries.
+   510→   510→Different exposure types activate different psychological conditions, where moral injury was
+   511→   511→predicted by the relational and moral-meaning dimensions of exposure, was the most exposure-
+   512→   512→specific of the four conditions, and was the only one unrelated to total exposure dose. STS was
+   513→   513→
+   514→   514→predicted broadly by direct emotional and sensory exposure to animal suffering while burnout
+   515→   515→was most strongly predicted by chronic interpersonal hostility and, bivariately, by the cognitive
+   516→   516→burden of euthanasia decision-making, consistent with a depletion pathway. Depression was the
+   517→   517→least differentiated and shared its predictors with STS. Routine relational contact with owners
+   518→   518→was, if anything, protective. Disaggregating euthanasia into its components revealed that the
+   519→   519→handling of remains, rather than the decision or the act, uniquely predicted moral injury — a
+   520→   520→finding obscured when euthanasia is treated as a single exposure. These findings challenge the
+   521→   521→field's euthanasia-centric understanding of psychological harm in animal care. Protecting animal
+   522→   522→care workers will require moving beyond a single narrative of harm to a more differentiated
+   523→   523→accounting that allows for assessment and intervention matched to the source of each condition.
+   524→   524→
+   525→   525→References
+   526→   526→Andrukonis, A., Hall, N. J., & Protopopova, A. (2020). The Impact of Caring and Killing on
+   527→   527→Physiological and Psychometric Measures of Stress in Animal Shelter Employees: A
+   528→   528→Pilot Study. International Journal of Environmental Research and Public Health, 17(24),
+   529→   529→9196. https://doi.org/10.3390/ijerph17249196
+   530→   530→Andrukonis, A., & Protopopova, A. (2020). Occupational Health of Animal Shelter Employees
+   531→   531→by Live Release Rate, Shelter Type, and Euthanasia-Related Decision. Anthrozoös, 33(1),
+   532→   532→119–131. https://doi.org/10.1080/08927936.2020.1694316
+   533→   533→Aquino, K., & Reed, A. (2002). The self-importance of moral identity. Journal of Personality
+   534→   534→and Social Psychology, 83(6), 1423–1440. https://doi.org/10.1037/0022-3514.83.6.1423
+   535→   535→Bandura, A. (1991). Social cognitive theory of moral thought and action. In W. M. Kurtines & J.
+   536→   536→L. Gewirtz (Eds.), Handbook of moral behavior and development (Vol. 1, pp. 45–103).
+   537→   537→Erlbaum.
+   538→   538→Baysal, Y., Goy, N., Hartnack, S., & Guseva Canu, I. (2024). Moral distress measurement in
+   539→   539→animal care workers: A systematic review. BMJ Open, 14(4), e082235.
+   540→   540→https://doi.org/10.1136/bmjopen-2023-082235
+   541→   541→Bride, B. E. (2004). The Impact of Providing Psychosocial Services to Traumatized Populations.
+   542→   542→Stress, Trauma, and Crisis, 7(1), 29–46. https://doi.org/10.1080/15434610490281101
+   543→   543→Burrell, A., & Selman, L. E. (2022). How do Funeral Practices Impact Bereaved Relatives’
+   544→   544→Mental Health, Grief and Bereavement? A Mixed Methods Review with Implications for
+   545→   545→COVID-19. OMEGA - Journal of Death and Dying, 85(2), 345–383.
+   546→   546→https://doi.org/10.1177/0030222820941296
+   547→   547→Flynn, B. W., McCarroll, J. E., & Biggs, Q. M. (2015). Stress and Resilience in Military
+   548→   548→
+   549→   549→Mortuary Workers: Care of the Dead From Battlefield to Home. Death Studies, 39(2),
+   550→   550→92–98. https://doi.org/10.1080/07481187.2014.893463
+   551→   551→Hidalgo, I., Brooten, D., Youngblut, J. M., Roche, R., Li, J., & Hinds, A. M. (2021). Practices
+   552→   552→following the death of a loved one reported by adults from 14 countries or cultural/ethnic
+   553→   553→group. Nursing Open, 8(1), 453–462. https://doi.org/10.1002/nop2.646
+   554→   554→Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ-9: Validity of a brief
+   555→   555→depression severity measure. Journal of General Internal Medicine, 16(9), 606–613.
+   556→   556→https://doi.org/10.1046/j.1525-1497.2001.016009606.x
+   557→   557→Litz, B. T., Plouffe, R. A., Nazarov, A., Murphy, D., Phelps, A., Coady, A., Houle, S. A., Dell,
+   558→   558→L., Frankfurt, S., Zerach, G., Levi-Belz, Y., & The Moral Injury Outcome Scale
+   559→   559→Consortium. (2022). Defining and Assessing the Syndrome of Moral Injury: Initial
+   560→   560→Findings of the Moral Injury Outcome Scale Consortium. Frontiers in Psychiatry, 13,
+   561→   561→923928. https://doi.org/10.3389/fpsyt.2022.923928
+   562→   562→Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., & Maguen, S. (2009).
+   563→   563→Moral injury and moral repair in war veterans: A preliminary model and intervention
+   564→   564→strategy. Clinical Psychology Review, 29(8), 695–706.
+   565→   565→https://doi.org/10.1016/j.cpr.2009.07.003
+   566→   566→Litz, B. T., Walker, H. E., Pietrzak, R. H., & Rusowicz-Orazem, L. (2025). The prevalence of
+   567→   567→moral distress and moral injury among U.S. veterans. Journal of Psychiatric Research,
+   568→   568→189, 435–444. https://doi.org/10.1016/j.jpsychires.2025.06.031
+   569→   569→Maslach, C., & Leiter, M. P. (2016). Understanding the burnout experience: Recent research and
+   570→   570→its implications for psychiatry. World Psychiatry, 15(2), 103–111.
+   571→   571→https://doi.org/10.1002/wps.20311
+   572→   572→
+   573→   573→McCarroll, J., Ursano, R., & Fullerton, C. (1995). Symptoms of PTSD following recovery of war
+   574→   574→dead: 13-15-month follow-up. American Journal of Psychiatry, 152(6), 939–941.
+   575→   575→https://doi.org/10.1176/ajp.152.6.939
+   576→   576→McNally, J. (2026a). Distinguishing Moral Injury From Burnout, Secondary Traumatic Stress,
+   577→   577→and Depression in Animal Care Workers: A Condition Differentiation Analysis. (In
+   578→   578→Review) Psychological Trauma: Theory, Research, Practice, and Policy.
+   579→   579→McNally, J. (2026b). Moral Injury in Animal Care Workers: Prevalence, Pathways, and
+   580→   580→Phenomenology in a Cross-Sector Sample. Frontiers in Psychiatry, 17.
+   581→   581→https://doi.org/10.3389/fpsyt.2026.1820899
+   582→   582→McNally, J. (2026c). The MIRA Framework for Moral Injury: A Moral, Identity, Relational, and
+   583→   583→Agency Model Applied Across Helping Professions (No. 6525682). SSRN.
+   584→   584→https://doi.org/10.2139/ssrn.6525682
+   585→   585→Monaghan, H., Rohlf, V., Scotney, R., & Bennett, P. (2024). Compassion fatigue in people who
+   586→   586→care for animals: An investigation of risk and protective factors. Traumatology, 30(1),
+   587→   587→77–85. https://doi.org/10.1037/trm0000246
+   588→   588→Neimeyer, R. A. (2019). Meaning reconstruction in bereavement: Development of a research
+   589→   589→program. Death Studies, 43(2), 79–91. https://doi.org/10.1080/07481187.2018.1456620
+   590→   590→Rohlf, V., & Bennett, P. (2005). Perpetration-induced Traumatic Stress in Persons Who
+   591→   591→Euthanize Nonhuman Animals in Surgeries, Animal Shelters, and Laboratories. Society
+   592→   592→& Animals, 13(3), 201–220. https://doi.org/10.1163/1568530054927753
+   593→   593→Scotney, R., McLaughlin, D., & Keates, H. (2015). A systematic review of the effects of
+   594→   594→
+   595→   595→euthanasia and occupational stress in personnel working with animals in animal shelters,
+   596→   596→veterinary clinics, and biomedical research facilities. Journal of the American Veterinary
+   597→   597→Medical Association, 247(10), 1121–1130. https://doi.org/10.2460/javma.247.10.1121
+   598→   598→Scotney, R., McLaughlin, D., & Keates, H. (2019). An investigation of the prevalence of
+   599→   599→compassion fatigue, compassion satisfaction and burnout in those working in animal-
+   600→   600→related occupations. The Veterinary Nurse, 10(5), 276–284.
+   601→   601→Shay, J. (2014). Moral injury. Psychoanalytic Psychology, 31(2), 182–191.
+   602→   602→https://doi.org/10.1037/a0036090
+   603→   603→Smith, C. P., & Freyd, J. J. (2014). Institutional betrayal. American Psychologist, 69(6), 575–
+   604→   604→587. https://doi.org/10.1037/a0037564
+   605→   605→Stamm, B. H. (2010). The concise ProQOL manual (2nd ed.). ProQoL.org.
+   606→   606→https://proqol.org/proqol-manual
+   607→   607→Sutker, P. B., Uddo, M., Brailey, K., Vasterling, J. J., & Errera, P. (1994). Psychopathology in
+   608→   608→war-zone deployed and nondeployed Operation Desert Storm troops assigned graves
+   609→   609→registration duties. Journal of Abnormal Psychology, 103(2), 383–390.
+   610→   610→https://doi.org/10.1037/0021-843X.103.2.383
+   611→   611→Tangney, J. P., Stuewig, J., & Mashek, D. J. (2007). Moral Emotions and Moral Behavior.
+   612→   612→Annual Review of Psychology, 58(1), 345–372.
+   613→   613→https://doi.org/10.1146/annurev.psych.56.091103.070145
+   614→   614→Trevathan-Minnis, M., Morris, N., & Johnson Binder, A. (2025). Evaluating perceived stressors
+   615→   615→and areas of needed support in animal shelter and rescue workers and volunteers. Human-
+   616→   616→Animal Interactions, 0042. https://doi.org/10.1079/hai.2025.0042
+   617→   617→Volk, J. O., Schimmack, U., Strand, E. B., Reinhard, A., Vasconcelos, J., Hahn, J., Stiefelmeyer,
+   618→   618→
+   619→   619→K., & Probyn-Smith, K. (2022). Executive summary of the Merck Animal Health
+   620→   620→Veterinarian Wellbeing Study III and Veterinary Support Staff Study. Journal of the
+   621→   621→American Veterinary Medical Association, 260(12), 1547–1553.
+   622→   622→https://doi.org/10.2460/javma.22.03.0134
+   623→   623→Williamson, V., Murphy, D., & Greenberg, N. (2023). Veterinary professionals’ experiences of
+   624→   624→moral injury: A qualitative study. Veterinary Record, 192(2), e2181.
+   625→   625→https://doi.org/10.1002/vetr.2181
+   626→   626→Wolf, P. J., Gillespie, M., & Segrin, C. (2024). Measures of Well-Being in U.S. Animal Shelter
+   627→   627→Staff During 2023. Journal of Shelter Medicine and Community Animal Health, 3(1).
+   628→   628→https://doi.org/10.56771/jsmcah.v3.81
+   629→   629→Table 1
+   630→   630→Descriptive Statistics, Reliabilities, and Intercorrelations
+   631→   631→Variable M SD α 1 2 3 4 5 6
+   632→   632→1. MIOS Impact 21.49 10.45 .91 __
+   633→   633→Total
+   634→   634→2. MIOS Shame 9.62 6.11 .88 .91*** __
+   635→   635→3. MIOS Trust 11.88 5.51 .84 .89*** .62*** __
+   636→   636→Violations
+   637→   637→4. ProQOL 27.07 6.22 .73 .57*** .52*** .51*** __
+   638→   638→Burnout
+   639→   639→5. ProQOL STS 29.35 7.59 .86 .41*** .41*** .33*** .55*** __
+   640→   640→6. PHQ-9 10.96 6.27 .89 .62*** .65*** .46*** .61*** .55*** __
+   641→   641→Depression
+   642→   642→7. Exposure 3.45 0.96 .89 .06 .07 .04 .13* .22*** .14*
+   643→   643→Checklist (12-
+   644→   644→item)
+   645→   645→
+   646→   646→Note. N = 281–290 depending on measure (MIOS variables n = 281; ProQOL, PHQ-9, and exposure composite n =
+   647→   647→290). *p < .05, **p < .01, ***p < .001. MIOS = Moral Injury Outcome Scale; ProQOL = Professional Quality of
+   648→   648→Life Scale; PHQ-9 = Patient Health Questionnaire-9.
+   649→   649→
+   650→   650→DIFFERENTIAL PREDICTION IN ANIMAL CARE
+   651→   651→Table 2
+   652→   652→Standardized Coefficients (β) From Bivariate Regressions: 12 Exposures × 6 Outcomes
+   653→   653→Exposure Item MI Total Shame Trust Violations STS Burnout Depression
+   654→   654→Receiving animals that are being surrendered -0.046 -.054 -.029 .083 .036 .030
+   655→   655→Removing animals from situations of abuse, -.032 -.018 -.040 .167** -.030 .074
+   656→   656→neglect, hoarding, and similar circumstances
+   657→   657→Interacting w/ owners of animals being -.040 -.058 -.010 -.015 -.005 -.040
+   658→   658→surrendered/removed
+   659→   659→Euthanasia decision-making -.006 -.022 .013 .157** .142* .049
+   660→   660→Administering euthanasia .064 .108† .002 .144* .083 .112†
+   661→   661→Tending to wounds/severe injuries of animals .030 .055 -.004 .139* .032 .086
+   662→   662→Treating or caring for animals with severe -.047 -.044 -.040 .109† -.022 -.013
+   663→   663→illness
+   664→   664→Seeing abuse of animals while it is happening .101† .159** .016 .265*** .104† .199***
+   665→   665→Handling dead bodies of animals .132* .109† .130* .146* .108† .084
+   666→   666→Interacting with members of the public (in .145* .109† .155** .200*** .257*** .217***
+   667→   667→person) that are verbally aggressive
+   668→   668→Interacting with members of the public (in .076 .133* -.004 .266*** .134* .207***
+   669→   669→person) that are physically aggressive
+   670→   670→Receiving threats and accusations from the .169** .163** .140* .192** .213*** .171**
+   671→   671→public (in person or online)
+   672→   672→Note. Values are standardized coefficients (β) from single-predictor regressions. †p < .10, *p < .05, **p < .01, ***p < .001.
+   673→   673→
+   674→   674→DIFFERENTIAL PREDICTION IN ANIMAL CARE
+   675→   675→Table 3
+   676→   676→Hierarchical Regression — Public Hostility Beyond Animal Care Tasks
+   677→   677→Outcome Block 1 R² Block 2 R² ΔR² F change p (ΔR²) Significant Block
+   678→   678→(9 care items) (3, df2) 2 predictors (β)
+   679→   679→MI Total .067 .106 .012 Body handling
+   680→   680→.039 3.74 (259) .188*, Threats
+   681→   681→.188*
+   682→   682→Shame Threats .165*
+   683→   683→.090 .123 .033 3.25 (259) .023 (abuse, body
+   684→   684→handling trend)
+   685→   685→Trust Violations Body handling
+   686→   686→.042 (ns) .081 .039 3.62 (259) .014 .202*, Threats
+   687→   687→.173*
+   688→   688→Burnout Verbal aggression
+   689→   689→.071 .134 .062 6.43 (268) <.001 .212**, Threats
+   690→   690→.151*
+   691→   691→STS .127 .164 .037 3.99 (268) .008 Physical
+   692→   692→aggression .200*,
+   693→   693→Seeing abuse
+   694→   694→.182*, Owner
+   695→   695→interaction
+   696→   696→−.283***
+   697→   697→Depression Verbal aggression
+   698→   698→.183*, Owner
+   699→   699→.072 .123 .051 5.18 (268) .002
+   700→   700→interaction
+   701→   701→−.232**
+   702→   702→Note. Block 1 = 9 animal care items; Block 2 = three public hostility items. *p < .05, **p < .01.
+   703→   703→
+   704→   704→DIFFERENTIAL PREDICTION IN ANIMAL CARE
+   705→   705→Table 4
+   706→   706→Exposure Frequency by Moral Injury Caseness (One-Way ANOVA)
+   707→   707→Exposure No MI (M, SD) Moral distress (M, Clinical MI (M, df F p
+   708→   708→SD) SD)
+   709→   709→Seeing abuse 2.85 (1.41) 2.85 (1.34) 3.53 (1.39) 2, 277 4.879 .008
+   710→   710→Verbal aggression 3.72 (1.27) 3.98 (1.36) 4.39 (1.29) 2, 277 5.350 .005
+   711→   711→Threats/accusations 3.26 (1.29) 3.42 (1.32) 3.98 (1.49) 2, 277 5.646 .004
+   712→   712→Physical aggression 2.78 (1.26) 2.71 (1.27) 3.29 (1.29) 2, 278 3.496 .032
+   713→   713→Handling dead bodies 3.24 (1.51) 3.80 (1.61) 3.67 (1.48) 2, 278 3.720 .025
+   714→   714→Euthanasia decision-making 3.69 (1.44) 3.29 (1.39) 3.76 (1.52) 2, 275 1.953 .144
+   715→   715→Administering euthanasia 3.17 (1.44) 3.24 (1.43) 3.59 (1.41) 2, 276 1.624 .199
+   716→   716→Note. Caseness groups: no moral injury (n = 172–173), moral distress (n = 58–59), clinical moral injury (n = 49); ns vary slightly by
+   717→   717→item due to missing data. For the four interpersonal exposures, Tukey HSD confirmed clinical MI > no MI (seeing abuse p = .007;
+   718→   718→verbal p = .004; threats p = .003; physical p = .038).
+   719→   719→
+   720→   720→

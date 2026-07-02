@@ -1,0 +1,769 @@
+     1→     1→Development of an Abbreviated Form of the Extended Strengths and Weaknesses
+     2→     2→Assessment of Normal Behavior for Disruptive Mood Dysregulation Disorder (E-SWAN
+     3→     3→DMDD)
+     4→     4→Juliette B. H. Brook1,2,3, Isabella C. Stallworthy4, Golia Shafiei1,2,3, Joëlle Bagautdinova1,2,3, S.
+     5→     5→Parker Singleton1,2, Brooke L. Sevchik1,2, Giovanni A. Salum5,6,7, Michael P. Milham5,8,9,
+     6→     6→Theodore D. Satterthwaite1,2,3,10,11†, Tyler M. Moore1,3†
+     7→     7→Affiliations:
+     8→     8→1 Department of Psychiatry, University of Pennsylvania, Philadelphia, PA USA
+     9→     9→2 Penn Lifespan Informatics and Neuroimaging Center (PennLINC), Philadelphia, PA USA
+    10→    10→3 Lifespan Brain Institute, Penn Medicine and Children’s Hospital of Philadelphia, Philadelphia,
+    11→    11→PA USA
+    12→    12→4 Department of Bioengineering, University of Pennsylvania, Philadelphia, PA USA
+    13→    13→5 Child Mind Institute, New York, NY USA
+    14→    14→6 Graduate Program in Psychiatry and Behavioral Sciences, Universidade Federal do Rio Grande
+    15→    15→do Sul (UFRGS), Porto Alegre, Brazil
+    16→    16→7 National Institute of Developmental Psychiatry & National Center for Innovation and Research
+    17→    17→in Mental Health, São Paulo, Brazil
+    18→    18→8 Center for the Developing Brain, Child Mind Institute, New York, New York
+    19→    19→9 Center for Biomedical Imaging and Neuromodulation, Nathan Kline Institute, Orangeburg, NY,
+    20→    20→USA
+    21→    21→10 Center for Biomedical Image Computing and Analytics, University of Pennsylvania,
+    22→    22→Philadelphia, PA, USA
+    23→    23→11 Center for AI and Data Science for Integrated Diagnostics (AI2D), Perelman School of
+    24→    24→Medicine, University of Pennsylvania, Philadelphia, USA
+    25→    25→† Contributed equally as senior authors
+    26→    26→Corresponding author:
+    27→    27→Tyler M. Moore, Ph.D.
+    28→    28→Research Assistant Professor
+    29→    29→University of Pennsylvania Perelman School of Medicine
+    30→    30→3700 Hamilton Walk, Philadelphia, PA 19104
+    31→    31→646-530-4914
+    32→    32→tymoore@upenn.edu
+    33→    33→
+    34→    34→Abstract
+    35→    35→Few measures assess the specific indicators of disruptive mood dysregulation disorder
+    36→    36→(DMDD). While the E-SWAN DMDD questionnaire evaluates DMDD symptoms, its length
+    37→    37→increases response burden, and limits use in resource-constrained settings. Using data from 3,835
+    38→    38→participants in the Healthy Brain Network (HBN; mean age = 10.25 years; 63% male), item
+    39→    39→responses were calibrated using the Graded Response Model and computerized adaptive testing
+    40→    40→(CAT) simulations were conducted to develop an abbreviated questionnaire. The four most
+    41→    41→frequently selected items comprise the short form, which correlated highly with the full form
+    42→    42→(Levy-corrected r = 0.776), and demonstrated moderate associations with related behavioral
+    43→    43→constructs (ρ = 0.120 - 0.424, p < .001). Compared to the full form, the short form demonstrated
+    44→    44→good specificity (a weaker association with the general psychopathology factor) while
+    45→    45→maintaining strong associations with externalizing behavior. Taken together, the short form
+    46→    46→offers a brief assessment with strong validity that decreases response burden.
+    47→    47→Keywords: disruptive mood dysregulation disorder, irritability, externalizing behavior,
+    48→    48→development, item response theory, computerized adaptive testing, youth psychopathology
+    49→    49→
+    50→    50→Introduction
+    51→    51→Studies suggest that 3% of children and adolescents suffer from severe irritability
+    52→    52→(Brotman et al., 2006), and rising irritability is associated with increased suicide risk in youth
+    53→    53→(Benarous et al., 2019; Leibenluft et al., 2024; Orri et al., 2019). Irritability is defined by the
+    54→    54→emotion of anger and behavioral temper outbursts, often involving being easily annoyed
+    55→    55→(Stringaris, 2011). Previous work has characterized chronic irritability in youth under the broad
+    56→    56→phenotype of pediatric bipolar disorder, termed severe mood dysregulation (Leibenluft et al.,
+    57→    57→2003). In contrast to bipolar affective disorder, severe mood dysregulation captured consistent
+    58→    58→acute irritability and temper outbursts, rather than distinct periods of hypomania or mania
+    59→    59→(Leibenluft et al., 2003; McTate & Leffler, 2017). Individuals diagnosed with severe mood
+    60→    60→dysregulation also displayed symptoms of hyperarousal, such as distractibility and agitation
+    61→    61→(Leibenluft et al., 2003). Despite this attempt to isolate irritability as a construct distinct from
+    62→    62→mania, the American Psychiatric Association (APA) still recognized a need to improve the
+    63→    63→classification of nonepisodic irritability and prevent misdiagnosis with pediatric bipolar disorder
+    64→    64→(Roy et al., 2014; Stringaris et al., 2018). Disruptive mood dysregulation disorder (DMDD),
+    65→    65→therefore, emerged in the Diagnostic and Statistical Manual of Mental Disorders (5th ed., text
+    66→    66→rev.; DSM-5) as a new diagnosis assigned to children between the ages of 6 to 18 (APA, 2022).
+    67→    67→Individuals diagnosed with DMDD experience at least three temper outbursts per week, with
+    68→    68→symptoms in at least two of the following settings: at home, at school, and with peers (APA,
+    69→    69→2022). However, despite these clear diagnostic criteria, there is limited research directly focused
+    70→    70→on the assessment of DMDD (McTate & Leffler, 2017; Tapia & John, 2018). The current paper
+    71→    71→describes the development of a short form version of the Extended Strengths and Weaknesses
+    72→    72→Assessment of Normal Behavior (E-SWAN) DMDD scale (Alexander et al., 2020).
+    73→    73→
+    74→    74→Given that irritability is common in children and adolescents, and observed in multiple
+    75→    75→psychiatric disorders (Evans et al., 2023; Stringaris, 2011; Stringaris et al., 2018), distinguishing
+    76→    76→DMDD-specific symptoms from those observed in overlapping conditions is complex (Tapia &
+    77→    77→John, 2018). While comorbidities often occur across disruptive behavior problems, existing
+    78→    78→evidence suggests that youth and caregivers perceive irritability as a top problem, frequently
+    79→    79→precipitating mental health treatment (Evans et al., 2023). Despite this, some argue that the
+    80→    80→current assessment approach for DMDD is insufficient (Roy et al., 2014). Many tools (e.g., self-
+    81→    81→report questionnaires, structured interviews) capture relevant, but nonspecific, indicators of
+    82→    82→DMDD (Tapia & John, 2018). For example, the Affective Reactivity Index (ARI) measures self,
+    83→    83→parent, and teacher reported irritability in youth (Stringaris et al., 2012). However, persistent
+    84→    84→irritable mood is associated with other developmental psychiatric disorders, spanning both
+    85→    85→internalizing (e.g., anxiety disorders; Leibenluft et al., 2024; Shimshoni et al., 2020) and
+    86→    86→externalizing (e.g., oppositional defiant disorder, intermittent explosive disorder; Roy et al.,
+    87→    87→2014) categories. The transdiagnostic relevance of irritability reflects the phenomenon in
+    88→    88→psychopathology in which many disorders share common features (Lahey et al., 2012). This has
+    89→    89→led investigators to develop measures that attempt to disentangle behavioral features most closely
+    90→    90→associated with DMDD from other disorders (Leibenluft et al., 2024; Mürner-Lavanchy et al.,
+    91→    91→2023) as well as the general psychopathology “p” factor (Caspi et al., 2014).
+    92→    92→While honing a DMDD assessment approach, it is also important to mitigate the impact
+    93→    93→of response burden (i.e., response fatigue). Previous work on measures of transdiagnostic
+    94→    94→irritability emphasizes a need for brief screening tools with clinical utility in a youth psychiatric
+    95→    95→population (Stringaris et al., 2012). However, the Kiddie Schedule for Affective Disorders and
+    96→    96→Schizophrenia Present and Lifetime Version (K-SADS-PL; Kaufman et al., 1997) is still the
+    97→    97→
+    98→    98→most frequently employed diagnostic measure in studies of DMDD (Mürner-Lavanchy et al.,
+    99→    99→2023). Although the more recent K-SADS-PL-5 includes a DMDD checklist, a trained assessor
+   100→   100→must still administer all items in the format of a semi-structured diagnostic interview; this can
+   101→   101→take up to 75 minutes in a psychiatric sample but does cover multiple domains of
+   102→   102→psychopathology (Kaufman et al., 1997; Mürner-Lavanchy et al., 2023). In addition to this
+   103→   103→significant time burden, diagnostic interviews are associated with high administration costs seen
+   104→   104→across research and clinical settings (Boyle et al., 2017). Self-report questionnaires decrease this
+   105→   105→professional time involved in administering clinical interviews, which is particularly relevant in
+   106→   106→measuring childhood psychopathology (Boyle et al., 2017; Zimmerman et al., 2006).
+   107→   107→Existing literature indicates that implementing self-report questionnaires or screening
+   108→   108→tools may be strategic in assessing for DMDD. Compared to interview assessments,
+   109→   109→questionnaires are more easily integrated in resource-limited or time-constrained clinical or
+   110→   110→research settings focused on measuring irritability in development (Wilson et al., 2022). The
+   111→   111→Extended Strengths and Weaknesses Assessment of Normal Behavior (E-SWAN) DMDD
+   112→   112→(Alexander et al., 2020) scale is a recently developed 30-item self-report measure designed to
+   113→   113→capture the specific symptoms of DMDD dimensionally. In particular, the E-SWAN DMDD
+   114→   114→scale offers an enhanced alternative to traditional interview assessments of broad pediatric
+   115→   115→irritability. By considering a hierarchy of symptoms (i.e., a continuum of severity), rather than
+   116→   116→binary classifications produced by interview assessments (Alexander et al., 2020; Boyle et al.,
+   117→   117→2017), the scale captures clinical nuance outside of diagnostic categories. The E-SWAN DMDD
+   118→   118→scale assesses symptoms as behaviors at home, at school, and with peers, which also reflects how
+   119→   119→the DSM-5 criteria for DMDD occur across multiple settings. Despite these clear advantages,
+   120→   120→existing literature still suggests that substantial response burden can result from self-report
+   121→   121→
+   122→   122→questionnaires, and may be more pronounced in children (Stone, 2007). Respondents may feel
+   123→   123→especially burdened while completing repetitive measures of symptoms, quality of life, and
+   124→   124→psychosocial functioning in a single self-report battery of questionnaires (Zimmerman et al.,
+   125→   125→2006). As such, one clear gap in the field is the need for a shorter version of the relatively
+   126→   126→lengthy E-SWAN DMDD scale.
+   127→   127→In the current study, we describe the development of a short form E-SWAN DMDD
+   128→   128→scale. To do so, we employed Item Response Theory (IRT) measurement models combined with
+   129→   129→computerized adaptive testing (CAT) simulation, a frequently used technique for developing
+   130→   130→short form questionnaires featured in previous studies (Lawson et al., 2020; Moore et al., 2015;
+   131→   131→Roalf et al., 2016). IRT provides useful parameter estimates for items that could comprise a short
+   132→   132→form, and when combined with CAT, prevents the administration of items that provide little
+   133→   133→information (Roalf et al., 2016; Segall, 2005; Weiss & Kingsbury, 1984). The existing literature
+   134→   134→demonstrates that shorter questionnaires can not only increase data quality, but also reduce
+   135→   135→response burden (Rolstad et al., 2011). Especially in research or clinical contexts where the time
+   136→   136→allotted to respondents for completing assessments is constrained, guidelines maintain that short
+   137→   137→form scales used to measure symptoms of psychopathology (e.g., distress, depression, anxiety)
+   138→   138→performed comparably to their full versions (Lantos et al., 2023). Therefore, a short form of the
+   139→   139→E-SWAN DMDD scale may be particularly useful in both identifying the core symptoms of
+   140→   140→DMDD dimensionally, and decreasing burden for youth respondents faced with chronic
+   141→   141→irritability.
+   142→   142→Methods
+   143→   143→Participants. The current study included 3,835 participants from the Healthy Brain Network
+   144→   144→(HBN) initiative, developed by the Child Mind Institute (Alexander et al., 2017). HBN includes
+   145→   145→
+   146→   146→densely sampled cross-sectional brain, behavioral, and lifestyle data from a diverse community
+   147→   147→sample of youth (ages 5-21 years old) in the New York City metropolitan area. The current study
+   148→   148→utilized responses to behavioral questionnaires obtained from a subset of these HBN participants
+   149→   149→(mean age = 10.25 years old; 63% male) from the April 2024 data release. These data were made
+   150→   150→accessible in the HBN Biobank, obtained through a data use agreement (DUA). The study was
+   151→   151→approved by the Chesapeake Institutional Review Board. Written informed consent was obtained
+   152→   152→from participants ages 18 or older. For participants younger than 18, written consent was
+   153→   153→obtained from a parent or legal guardian, and written assent was obtained from the participant
+   154→   154→(Alexander et al., 2017).
+   155→   155→Behavioral assessments. HBN participants were assigned a battery of online self-administered
+   156→   156→questionnaires designed to evaluate behavioral indicators of developmental psychopathology.
+   157→   157→These questionnaires assessed constructs such as family structure, stress, trauma, and substance
+   158→   158→use. In addition, HBN collected observer-report questionnaires completed by participants’
+   159→   159→parents and teachers. The current study utilized measures from the “Social, Emotional, and
+   160→   160→Behavioral Function” and “Family Structure, Stress, and Trauma” domains of the HBN
+   161→   161→assessment protocol. See Alexander et al. (2017) for more information about the HBN behavioral
+   162→   162→phenotyping protocol.
+   163→   163→Disruptive Mood Dysregulation Disorder
+   164→   164→The Extended Strengths and Weaknesses Assessment of Normal Behavior Disruptive
+   165→   165→Mood Dysregulation Disorder (E-SWAN DMDD; Alexander et al., 2020) is a 30-item self-report
+   166→   166→measure that evaluates setting-specific symptoms of DMDD (e.g., non-episodic irritability,
+   167→   167→frequent severe temper outbursts). The E-SWAN DMDD questionnaire represents the full form
+   168→   168→assessment used in the current study. Respondents indicate the extent of their symptomology
+   169→   169→
+   170→   170→using a 7-point scale (“Far above average” to “Far below average”) within the following three
+   171→   171→domains: at home, at school, and with peers. Scores are calculated by generating the average of
+   172→   172→the individual item values. Negative scores indicate greater strengths, and positive scores
+   173→   173→indicate greater weaknesses (i.e., increased psychopathology). The E-SWAN framework builds
+   174→   174→upon the Strengths and Weaknesses Assessment of ADHD Symptoms and Normal Behavior
+   175→   175→(SWAN; Swanson et al., 2015). Similar to the SWAN, the E-SWAN seeks to measure the
+   176→   176→dimensions of psychiatric symptoms across the full population distribution. Prior work has
+   177→   177→demonstrated that the E-SWAN DMDD shows high internal consistency and reliability across
+   178→   178→the full latent trait range (Alexander et al., 2020).
+   179→   179→Predictors Used in the Validation Sample
+   180→   180→We examined evidence for convergent validity between the E-SWAN DMDD short form,
+   181→   181→full form, and related constructs (e.g., irritability, distress tolerance) in developmental
+   182→   182→psychopathology, as well as known-groups validity using participant demographics (sex).
+   183→   183→Irritability
+   184→   184→The Affective Reactivity Index (ARI; Stringaris et al., 2012) is a 7-item questionnaire
+   185→   185→that evaluates chronic irritability over the past six months. Irritability refers to a mood of easy
+   186→   186→annoyance and touchiness that is often associated with anger and temper outbursts (Stringaris,
+   187→   187→2011). The ARI is specifically intended to assess both parent- and self-reported irritability in
+   188→   188→youth. The ARI includes six items targeting symptoms (i.e., feelings, behaviors) and one item
+   189→   189→measuring impairment due to irritability. Furthermore, these items aim to identify (a) the
+   190→   190→threshold for having an anger reaction, (b) the frequency of angry feelings or behaviors, and (c)
+   191→   191→the duration of such angry feelings or behaviors. Higher scores indicate greater severity of
+   192→   192→irritability symptoms. The current study only included the self-report version of the ARI and
+   193→   193→
+   194→   194→utilized the ARI total score, calculated as the sum of the six symptom items.
+   195→   195→Emotional Distress Tolerance
+   196→   196→The Distress Tolerance Scale (DTS; Simons & Gaher, 2005) is a 15-item self-report
+   197→   197→questionnaire that evaluates four key concepts associated with distress tolerance. Distress
+   198→   198→tolerance refers to the ability to experience and endure negative psychological conditions. The
+   199→   199→DTS considers (a) the perceived ability to tolerate emotional distress, (b) the subjective appraisal
+   200→   200→of distress, (c) the extent of an individual’s attention that is absorbed by negative emotion, and
+   201→   201→(d) the emotion regulation efforts used in attempt to alleviate distress. Higher total scores
+   202→   202→indicate increased distress tolerance across the four subscales: Tolerance, Appraisal, Absorption,
+   203→   203→and Regulation. The current study utilized the DTS total score, calculated as the sum of all items.
+   204→   204→Child Behavior Checklist
+   205→   205→The Child Behavior Checklist (CBCL; Achenbach, 1991) is a 113-item observer-report
+   206→   206→questionnaire for which a parent rates their child’s problem behaviors and competencies. The
+   207→   207→CBCL can also be completed by other individuals (e.g., a primary caregiver) who know the child
+   208→   208→well. Moreover, the CBCL can be used as a measure to assess changes in a child’s behavior over
+   209→   209→time or following a treatment intervention. The current study relied upon a harmonized bifactor
+   210→   210→model of the CBCL described in Shafiei et al. (2025), a publicly available online neuroimaging
+   211→   211→resource which includes HBN. The current study utilized the harmonized Overall
+   212→   212→Psychopathology p-factor and Externalizing scores from Shafiei et al. (2025).
+   213→   213→Teacher Report Form
+   214→   214→The Child Behavior Checklist–Teacher Report Form (TRF; Achenbach, 1991) is a 113-
+   215→   215→item observer-report questionnaire for which a teacher who knows a child well rates the child’s
+   216→   216→problem behaviors and competencies. Teachers indicate how many months they have known the
+   217→   217→
+   218→   218→child, their subjective evaluation of how “well” they know the child (i.e., not well, moderately
+   219→   219→well, very well), and the amount of time that the child spends in their class or service each week.
+   220→   220→Similar to the parent-report CBCL, the TRF can be used as a measure to assess changes in a
+   221→   221→child’s behavior over time or following a treatment intervention. The TRF includes 20 social
+   222→   222→competency items related to the child’s participation in activities (e.g., sports, hobbies, jobs),
+   223→   223→their ability to get along with others, their ability to work and play alone, and their school
+   224→   224→functioning. TRF raw scores are calculated as the sum of the individual item level ratings. The
+   225→   225→current study utilized t-scores corresponding to selected syndrome (e.g., Rule-Breaking
+   226→   226→Behavior, Aggressive Behavior, Externalizing) and DSM-Oriented subscales (e.g., Oppositional
+   227→   227→Defiant Problems).
+   228→   228→Statistical Analyses
+   229→   229→Identifying Items for the E-SWAN DMDD Short Form
+   230→   230→We implemented a published method (Moore et al., 2015) that utilizes Item Response
+   231→   231→Theory (IRT; Embretson & Reise, 2013) and Computerized Adaptive Testing (CAT) to create
+   232→   232→the E-SWAN DMDD short form. IRT is a psychometric method that focuses on the unique
+   233→   233→discrimination and difficulty of each individual item in a questionnaire (Roalf et al., 2016). The
+   234→   234→IRT procedure was performed using the mirt package (Chalmers, 2012) within the RStudio
+   235→   235→statistical environment (V 2025.5.1.513; Posit team, 2025). In the context of the current study,
+   236→   236→we employed IRT and CAT simulation to identify which items from the original E-SWAN
+   237→   237→DMDD are most indicative (i.e., discriminating) of disruptive mood dysregulation while
+   238→   238→simultaneously having threshold parameters (difficulty) in optimal locations across the trait
+   239→   239→continuum. Here we used the Graded Response Model (Samejima, 1969). The GRM works
+   240→   240→similarly to the two-parameter (2PL) IRT model, incorporating additional difficulty parameters
+   241→   241→
+   242→   242→reflecting thresholds. These thresholds indicate where the likelihood of responding in one Likert
+   243→   243→category (e.g., the lowest response option) is overtaken by the likelihood of responding in the
+   244→   244→subsequent category (e.g., the second lowest response option; Moore et al., 2023).
+   245→   245→E-SWAN DMDD items share variance for three reasons: (1) they are all influenced by
+   246→   246→the common overall trait, disruptive mood dysregulation; (2) some ask about the same behavior
+   247→   247→(e.g., controlling the intensity of anger); and (3) some refer to the same situation or location
+   248→   248→(home, school, or with peers). We are interested in #1, while the covariance due to #2 and #3
+   249→   249→could be considered “nuisance” covariance that needs to be controlled for. We therefore needed
+   250→   250→to use a multidimensional IRT model that includes latent factors explaining all three sources of
+   251→   251→variance–i.e., a trifactor model. A trifactor model is a straightforward extension of the more
+   252→   252→commonly known bifactor model (Gibbons et al., 2007; Reise, 2012), in which each item loads
+   253→   253→on both a general factor (comprising all items) and a specific factor (comprising only items that
+   254→   254→share variance for a more specific reason). Here, the “more specific reason” is #2 above (asking
+   255→   255→about the same behavior), and because there is a third source of covariance (#3 above), we
+   256→   256→needed to add a third factor, forming a trifactor model. This was done using the flexible
+   257→   257→mirt.model() argument within the mirt() command in mirt.
+   258→   258→CAT Simulation
+   259→   259→The overarching goal of the CAT approach is to avoid administering items that provide
+   260→   260→minimal information about a respondent (Moore et al., 2015). The trifactor GRM produced item
+   261→   261→parameter estimates that were then used as the item bank in the CAT simulation. These simulated
+   262→   262→sessions were used to identify which items from the original E-SWAN DMDD would be selected
+   263→   263→most often, indicating that they possessed the most optimal combinations of discrimination and
+   264→   264→difficulty (threshold) parameters. These most-selected items were identified for the E-SWAN
+   265→   265→
+   266→   266→DMDD short form. Similar methods have been employed in past studies (Moore et al., 2015;
+   267→   267→Roalf et al., 2016).
+   268→   268→CAT is a method of item administration that updates a respondent’s trait level estimates
+   269→   269→as they respond to a series of items (Wainer et al., 2000). These estimates are used to determine
+   270→   270→which item from a given item bank (i.e., the original E-SWAN DMDD questionnaire) provides
+   271→   271→the most information about the respondent at the current/interim trait level. This most
+   272→   272→informative item is administered, and the respondent is re-scored. This process of administering
+   273→   273→the most informative item, re-scoring, administering the newly most-informative item, etc. is
+   274→   274→repeated until a stopping criterion is reached–e.g., the respondent’s standard error of
+   275→   275→measurement reached an acceptably low level (Wang et al., 2021). For our purposes, when CAT
+   276→   276→is simulated, it reveals which items will be most frequently selected across testing sessions. The
+   277→   277→CAT sessions used in the current study indicated which E-SWAN DMDD items revealed the
+   278→   278→most information about overall E-SWAN DMDD performance. In other words, if the items that
+   279→   279→were not frequently administered (due to being too difficult/easy or not discriminating) were
+   280→   280→removed, the overall information about DMDD would drop only negligibly (Lawson et al.,
+   281→   281→2020). All simulations described in the current study were performed using the real data from
+   282→   282→HBN respondents.
+   283→   283→Instrument Validation
+   284→   284→With the most informative items selected, we then examined evidence for validity of the
+   285→   285→E-SWAN DMDD short form. First, we assessed the Spearman correlations between the short and
+   286→   286→full form versions. Second, we examined correlations between the short form and full form
+   287→   287→versions with the predictors (e.g., theoretically related behavioral questionnaires) previously
+   288→   288→described. These include the ARI (Stringaris et al., 2012), the DTS (Simons & Gaher, 2005), the
+   289→   289→
+   290→   290→CBCL (Achenbach, 1991), and the TRF (Achenbach, 1991). Similar correlations between each
+   291→   291→form with the predictors provided validity evidence for the short form. We then gathered
+   292→   292→additional validity evidence by examining correlations with sex. Differences between the short
+   293→   293→form and full form versions were also tested for statistical significance using bootstrapping
+   294→   294→(Efron, 1979). For each bootstrap iteration, the difference between the forms was recorded,
+   295→   295→resulting in a distribution of 10,000 resamples.
+   296→   296→External Dataset Validation
+   297→   297→To evaluate the external construct validity of the E-SWAN DMDD short form, we sought
+   298→   298→to replicate our analyses in an independent sample of youth and young adults (ages 8-30). The
+   299→   299→current study utilized responses to behavioral questionnaires from a subset of participants (N =
+   300→   300→244; mean age = 16.7 years old; 58% female) who completed prospective studies of brain
+   301→   301→development conducted at the University of Pennsylvania. These studies were approved by the
+   302→   302→University of Pennsylvania Institutional Review Board. Written informed consent was obtained
+   303→   303→from participants ages 18 or older. For participants younger than 18, written consent was
+   304→   304→obtained from a parent or legal guardian, and written assent was obtained from the participant.
+   305→   305→First, we calculated E-SWAN DMDD short form scores in the external sample using response
+   306→   306→scores to the four items selected from the CAT simulation in the primary analyses. We then
+   307→   307→examined evidence for the validity of the E-SWAN DMDD short form with correlations between
+   308→   308→the ARI and sex.
+   309→   309→Results
+   310→   310→Item Response Theory
+   311→   311→Table 1 shows the models estimated using the Item Response Theory (IRT) Graded
+   312→   312→Response Model. Item parameters convey estimates for the individual discrimination and
+   313→   313→
+   314→   314→difficulty level of each E-SWAN DMDD item. The discrimination parameter (α) refers to how
+   315→   315→well each item differentiates between respondents at distinct levels of the latent trait (e.g.,
+   316→   316→externalizing behavior). For example, a high discrimination value indicates that an item
+   317→   317→effectively discriminates between respondents. In the current study, discrimination parameters
+   318→   318→ranged from 2.35 to 5.35 (M = 3.74). The most highly discriminating item was Item 3B (“Avoid
+   319→   319→or control ‘taking anger out on objects or throwing things at people’ with friends”; α = 5.35). The
+   320→   320→least discriminating item was Item 5A (“Return quickly to baseline mood and behavior when
+   321→   321→frustrated at home”; α = 2.35). The difficulty parameter (β ) refers to the severity on the
+   322→   322→3
+   323→   323→spectrum of the latent trait (e.g., externalizing behavior) that is necessary for a respondent to
+   324→   324→endorse the behavior at a particular response level. In the current study, difficulty parameters
+   325→   325→ranged from -1.61 to 0.25 (M = -0.66). The most difficult item was Item 3C (“Avoid or control
+   326→   326→‘taking anger out on objects or throwing things at people’ at school”; β = 0.25). The least
+   327→   327→3
+   328→   328→difficult item was Item 7A (“Handle frustration on a day-to-day basis at home”; β = -1.61).
+   329→   329→3
+   330→   330→Item Item Stem Item Item Percent
+   331→   331→No. Parameters Selection Selected
+   332→   332→Count (%)
+   333→   333→α β
+   334→   334→!
+   335→   335→β
+   336→   336→"
+   337→   337→β
+   338→   338→#
+   339→   339→1A Avoid or control ‘arguing or 2.97 -2.82 -1.94 -1.45 0 0
+   340→   340→yelling’ at home
+   341→   341→1B Avoid or control ‘arguing or 3.75 -2.39 -1.31 -0.59 0 0
+   342→   342→yelling’ with friends
+   343→   343→1C Avoid or control ‘arguing or 3.74 -1.94 -0.98 -0.31 0 0
+   344→   344→yelling’ at school
+   345→   345→2A Avoid or control ‘getting into 2.53 -2.40 -1.52 -0.96 0 0
+   346→   346→fights’ at home
+   347→   347→2B* Avoid or control ‘getting into 4.76 -1.91 -0.92 -0.17 1885 49.15
+   348→   348→fights’ with friends
+   349→   349→2C Avoid or control ‘getting into 4.28 -1.66 -0.72 -0.01 335 8.74
+   350→   350→fights’ at school
+   351→   351→3A Avoid or control ‘taking anger 2.76 -1.85 -0.93 -0.40 0 0
+   352→   352→out on objects or throwing
+   353→   353→things at people’ at home
+   354→   354→3B* Avoid or control ‘taking 5.35 -1.50 -0.48 0.15 3835 100
+   355→   355→anger out on objects or
+   356→   356→throwing things at people’
+   357→   357→with friends
+   358→   358→3C* Avoid or control ‘taking 4.88 -1.40 -0.39 0.25 3161 82.43
+   359→   359→anger out on objects or
+   360→   360→throwing things at people’ at
+   361→   361→school
+   362→   362→4A Control the intensity of anger at 3.30 -2.54 -1.64 -1.12 732 19.09
+   363→   363→home
+   364→   364→
+   365→   365→4B Control the intensity of anger 4.56 -2.01 -0.95 -0.29 618 16.11
+   366→   366→with friends
+   367→   367→4C Control the intensity of anger at 4.25 -1.76 -0.81 -0.19 0 0
+   368→   368→school
+   369→   369→5A Return quickly to baseline 2.35 -2.96 -1.88 -1.21 0 0
+   370→   370→mood and behavior when
+   371→   371→frustrated at home
+   372→   372→5B Return quickly to baseline 3.48 -2.74 -1.59 -0.84 0 0
+   373→   373→mood and behavior when
+   374→   374→frustrated with friends
+   375→   375→5C Return quickly to baseline 3.22 -2.59 -1.47 -0.80 0 0
+   376→   376→mood and behavior when
+   377→   377→frustrated at school
+   378→   378→6A* Handle anger when does not 3.28 -3.00 -2.09 -1.50 1559 40.65
+   379→   379→get what he/she wants at
+   380→   380→home
+   381→   381→6B Handle anger when does not 4.31 -2.75 -1.63 -0.88 607 15.83
+   382→   382→get what he/she wants with
+   383→   383→friends
+   384→   384→6C Handle anger when does not 4.59 -2.44 -1.41 -0.75 1189 31.00
+   385→   385→get what he/she wants at
+   386→   386→school
+   387→   387→7A Handle frustration on a day-to- 3.02 -3.16 -2.24 -1.61 0 0
+   388→   388→day basis at home
+   389→   389→7B Handle frustration on a day-to- 4.13 -2.90 -1.75 -1.00 161 4.20
+   390→   390→day basis with friends
+   391→   391→7C Handle frustration on a day-to- 3.87 -2.59 -1.55 -0.89 0 0
+   392→   392→day basis at school
+   393→   393→8A Avoid or limit temper tantrums 3.25 -2.42 -1.68 -1.22 410 10.69
+   394→   394→at home
+   395→   395→8B Avoid or limit temper tantrums 4.39 -2.07 -1.17 -0.49 430 11.21
+   396→   396→with friends
+   397→   397→8C Avoid or limit temper tantrums 4.43 -1.83 -0.99 -0.39 280 7.30
+   398→   398→at school
+   399→   399→9A Exhibit a good mood 2.45 -2.55 -1.39 -0.58 0 0
+   400→   400→throughout the day, most days
+   401→   401→of the week at home
+   402→   402→9B Exhibit a good mood 4.26 -2.31 -1.01 -0.16 138 3.60
+   403→   403→throughout the day, most days
+   404→   404→of the week with friends
+   405→   405→9C Exhibit a good mood 3.67 -2.30 -1.05 -0.22 0 0
+   406→   406→throughout the day, most days
+   407→   407→of the week at school
+   408→   408→10A Compared to other children of 2.76 -2.69 -1.69 -1.03 0 0
+   409→   409→the same age, over the past
+   410→   410→year, how well has this child
+   411→   411→maintained appropriate mood
+   412→   412→and behavior at home
+   413→   413→10B Compared to other children of 3.83 -2.42 -1.29 -0.51 0 0
+   414→   414→the same age, over the past
+   415→   415→year, how well has this child
+   416→   416→maintained appropriate mood
+   417→   417→and behavior with friends
+   418→   418→10C Compared to other children of 3.64 -2.23 -1.17 -0.48 0 0
+   419→   419→the same age, over the past
+   420→   420→year, how well has this child
+   421→   421→maintained appropriate mood
+   422→   422→and behavior at school
+   423→   423→Table 1. Graded response model IRT estimates. Models estimated using the IRT
+   424→   424→Graded Response Model. Item parameters convey estimates for the individual
+   425→   425→discrimination and difficulty level of each item on the E-SWAN DMDD full form measure.
+   426→   426→The discrimination parameter (ɑ) refers to how well each item differentiates between
+   427→   427→respondents at distinct levels of the latent trait. The difficulty parameters (β , β , β )
+   428→   428→1 2 3
+   429→   429→refer to the severity on the spectrum of the latent trait (e.g., externalizing behavior) that
+   430→   430→is necessary for a respondent to endorse the behavior at a particular response level or
+   431→   431→
+   432→   432→higher (Lawson et al., 2020). Item Selection Count reflects the total number of times that
+   433→   433→each item was administered during the CAT sessions. Percent Selected reflects the
+   434→   434→percentage of respondents who were administered each item during the CAT sessions.
+   435→   435→Items presented with an asterisk (*) and presented in bold were selected by the CAT
+   436→   436→simulation for inclusion in the short form measure.
+   437→   437→CAT Simulation
+   438→   438→Table 1 also shows the item-administration statistics for the E-SWAN DMDD
+   439→   439→computerized adaptive testing (CAT) simulations. The table displays the “Percent Selected” or
+   440→   440→the percentage of respondents who were administered each item during the CAT sessions. The
+   441→   441→table also displays the “Item Selection Count” or the total number of times that each item was
+   442→   442→administered during the CAT sessions. Table 2 displays the short form scale itself. The most
+   443→   443→frequently administered (i.e., most informative) item was Item 3B (“Avoid or control ‘taking
+   444→   444→anger out on objects or throwing things at people’ with friends”), which was administered to
+   445→   445→100% of respondents. Items 3C (“Avoid or control ‘taking anger out on objects or throwing
+   446→   446→things at people’ at school”), 2B (“Avoid or control ‘getting into fights’ with friends”), and 6A
+   447→   447→(“Handle anger when does not get what he/she wants at home”) were the subsequent most
+   448→   448→frequently administered items. These were administered to 82.43%, 49.15%, and 40.65% of
+   449→   449→respondents, respectively. These results indicate that, during the simulations of adaptive item
+   450→   450→administration, the algorithm determined that the “optimal next item” was most often one of
+   451→   451→these four. Frequent choice as the “optimal next item” in multiple administrations across a wide
+   452→   452→range of DMDD severity (as here), is good evidence that, on average, a short-form comprising
+   453→   453→only these four items will yield more precise measurement than any other combination of four
+   454→   454→items.
+   455→   455→
+   456→   456→Extended Strengths and Weaknesses Assessment of Normal Behavior (E-SWAN)
+   457→   457→DMDD
+   458→   458→Short Form
+   459→   459→Directions: Children differ in their abilities to handle emotions and behave appropriately
+   460→   460→in several situations. For each item listed below, rate how well you handle emotions and
+   461→   461→behave compared to other children of the same age.
+   462→   462→-3 = Far above average; -2 = Above average; -1 = Slightly above average; 0 = Average;
+   463→   463→1 = Slightly below average; 2 = Below average; 3 = Far below average
+   464→   464→1. Avoid or control ‘getting into fights’ with friends
+   465→   465→2. Avoid or control ‘taking anger out on objects or throwing things at people’ with
+   466→   466→friends
+   467→   467→3. Avoid or control ‘taking anger out on objects or throwing things at people’ at
+   468→   468→school
+   469→   469→4. Handle anger when does not get what he/she wants at home
+   470→   470→Table 2. E-SWAN DMDD Short Form. E-SWAN DMDD Short Form questionnaire.
+   471→   471→Scores are calculated by generating the average of the four individual item values.
+   472→   472→Negative scores indicate greater strengths, and positive scores indicate greater
+   473→   473→weaknesses (i.e., higher symptoms).
+   474→   474→Instrument Validation
+   475→   475→Correlations between the E-SWAN DMDD Short and Full Forms
+   476→   476→In order to examine validity evidence for the E-SWAN DMDD short form, we first
+   477→   477→measured the Levy-corrected correlation with the original E-SWAN DMDD questionnaire. E-
+   478→   478→SWAN DMDD scores are calculated as the average of the individual item values. E-SWAN
+   479→   479→DMDD short form scores were highly correlated with those of the E-SWAN DMDD full form
+   480→   480→(Levy-corrected r = 0.776), indicating strong correspondence between the forms.
+   481→   481→Relationships with Related Constructs
+   482→   482→We next examined associations between the E-SWAN DMDD short form, full form, and
+   483→   483→related external validators. Figure 1 displays correlations between z-standardized E-SWAN
+   484→   484→DMDD scores and measures of related constructs. Spearman correlations with the selected
+   485→   485→observer- and self-report behavioral questionnaires provided evidence for convergent validity. E-
+   486→   486→SWAN DMDD short form scores were moderately positively associated with the Affective
+   487→   487→Reactivity Index (ARI; ρ = 0.231, p < .001) and the Distress Tolerance Scale (DTS; ρ = 0.120, p
+   488→   488→
+   489→   489→< .001). Similar patterns were observed for the harmonized Externalizing domain of the Child
+   490→   490→Behavior Checklist (CBCL; ρ = 0.378, p < .001) and the Externalizing Behavior (ρ = 0.394, p <
+   491→   491→.001), Aggressive Behavior (ρ = 0.389, p < .001), Rule-Breaking Behavior (ρ = 0.345, p < .001),
+   492→   492→and Oppositional Defiant Disorder (ρ = 0.388, p < .001) domains of the Teacher Report Form
+   493→   493→(TRF).
+   494→   494→In addition, evidence for discriminant validity of the E-SWAN DMDD short form was
+   495→   495→demonstrated by a weaker association with the overall psychopathology p-factor than the full
+   496→   496→form (ρ = 0.424 vs. 0.530, p < .001). A test of the difference between the two dependent
+   497→   497→correlations with the CBCL harmonized p-factor confirmed this difference was statistically
+   498→   498→significant (t = -8.684, p < .001). Finally, the short form showed a stronger negative biserial
+   499→   499→correlation with sex (r = -0.181, p < .001) than the full form (r = -0.157, p < .001). A test of the
+   500→   500→b b
+   501→   501→difference between the two dependent correlations with sex displayed that this difference was
+   502→   502→statistically significant (t = -2.239, p = 0.025), however, the effect size was negligible (Cohen’s q
+   503→   503→= 0.025).
+   504→   504→External Dataset Validation
+   505→   505→After examining for relationships between the E-SWAN DMDD short form, full form,
+   506→   506→and related constructs within the HBN sample, we then tested for construct validity in the
+   507→   507→external sample collected at the University of Pennsylvania. Similar to within the HBN sample,
+   508→   508→E-SWAN DMDD short form scores showed a moderately positive association with the ARI (ρ =
+   509→   509→0.307, p < .001).
+   510→   510→Discussion
+   511→   511→In this study, we developed a concise short form version of the Extended Strengths and
+   512→   512→Weaknesses Assessment of Normal Behavior Disruptive Mood Dysregulation Disorder (E-
+   513→   513→
+   514→   514→SWAN DMDD; Alexander et al., 2020) scale. We employed an established method (Moore et
+   515→   515→al., 2015) that utilizes Item Response Theory (Embretson & Reise, 2013) and computerized
+   516→   516→adaptive testing (CAT) to select the most informative items from the original 30-item E-SWAN
+   517→   517→DMDD full form questionnaire. Using responses from the Healthy Brain Network initiative
+   518→   518→(HBN; Alexander et al., 2017), analyses indicated that the four-item short form is correlated with
+   519→   519→the full form and shows comparable relationships with external criteria, providing evidence of
+   520→   520→validity. Together, the E-SWAN DMDD short form advances the rapid assessment of DMDD in
+   521→   521→youth.
+   522→   522→As described in previous work (Lawson et al., 2020; Moore et al., 2015; Roalf et al.,
+   523→   523→2016), the approach employed in the current study aims to balance the discrimination and
+   524→   524→difficulty parameters of each item to select the most informative items. Notably, the original E-
+   525→   525→SWAN DMDD scale includes items that broadly assess features like baseline mood and emotion
+   526→   526→regulation skills. The four items retained on the E-SWAN DMDD short form provided maximum
+   527→   527→combined information, on average, and address dysregulation across settings (e.g., at home, at
+   528→   528→school, and with peers). These include items 2B, 3B, 3C, and 6A from the full form E-SWAN
+   529→   529→DMDD questionnaire. These items included on the short form are most relevant for examining
+   530→   530→the severity of externalizing behavior (e.g., getting into fights, taking anger out on objects or
+   531→   531→throwing things, handling anger after not getting what he/she wants).
+   532→   532→To assess validity evidence for the abbreviated form, we examined relationships with
+   533→   533→theoretically related constructs in developmental psychopathology. We found that E-SWAN
+   534→   534→DMDD short form scores were moderately positively associated with selected self-report and
+   535→   535→observer-report behavioral questionnaires, including the ARI (Stringaris et al., 2012). Notably,
+   536→   536→we replicated associations with the ARI in an independent sample. These overall results are
+   537→   537→
+   538→   538→consistent with past work on the interscale relationship between the E-SWAN DMDD full form
+   539→   539→and measures of childhood irritability (e.g., the ARI; Alexander et al., 2020). In the HBN dataset,
+   540→   540→both the short and full forms were most highly correlated with the Externalizing domain of the
+   541→   541→Teacher Report Form (TRF; Achenbach, 1991).
+   542→   542→In addition, our analyses demonstrated that the full form was more highly correlated with
+   543→   543→the overall psychopathology p-factor. This finding implies that the short form may serve as a
+   544→   544→more specific measure of DMDD, rather than broad transdiagnostic symptoms of
+   545→   545→psychopathology. Finally, our analyses revealed a significantly stronger negative biserial
+   546→   546→correlation between the short form and sex, although both forms’ correlations with sex were
+   547→   547→small. This finding reflects previous evidence that DMDD symptoms are more prevalent in
+   548→   548→males than females (Mayes et al., 2019), and suggests that both forms may be useful in
+   549→   549→illuminating sex differences in the DMDD phenotype.
+   550→   550→While the E-SWAN DMDD full form questionnaire (Alexander et al., 2020) provides a
+   551→   551→broader assessment of DMDD, a short form measure allows for increased utility in clinical and
+   552→   552→research settings. The majority of youth diagnosed with DMDD have a comorbid psychiatric
+   553→   553→disorder (Bruno et al., 2019), and the assessment tools historically employed to measure DMDD
+   554→   554→(e.g., the Kiddie Schedule for Affective Disorders and Schizophrenia Present and Lifetime
+   555→   555→Version) capture symptoms that exist across diagnostic categories (McTate & Leffler, 2017).
+   556→   556→Therefore, a succinct self-report measure may better reveal the specific symptoms of DMDD,
+   557→   557→and reduce the burden associated with exhaustive self-administered or interview assessments for
+   558→   558→respondents (Boyle et al., 2017; Zimmerman et al., 2006). Especially given that DMDD is
+   559→   559→diagnosed in children and adolescents between the ages of 6 and 18, a short form may mitigate
+   560→   560→the response burden that is associated with self-report assessments in youth (Stone, 2007).
+   561→   561→
+   562→   562→Together, this study highlights the capacity for the proposed short form to reduce
+   563→   563→response burden and decrease administration time, while focusing on specific indicators of
+   564→   564→DMDD. It is nonetheless important to acknowledge several limitations. First, correlations
+   565→   565→between the full and short forms of the E-SWAN DMDD were obtained using a sub-set of items
+   566→   566→administered as part of the full-form–i.e., while the correlations between short and full were
+   567→   567→Levy-corrected for overlapping items, they were still obtained from the same administration
+   568→   568→(“sitting”) of the full scale. A more realistic assessment of the correlation between the full and
+   569→   569→short forms would be to administer them separately with some brief amount of time in between.
+   570→   570→Second, the current study only included youth self-report responses to the original E-SWAN
+   571→   571→DMDD questionnaire. Future studies could benefit from adopting a multi-informant approach.
+   572→   572→Examining parent-report responses to both forms may provide greater evidence for the utility of
+   573→   573→the short form version to determine symptom severity across both the child’s and parent’s
+   574→   574→perspectives. These limitations notwithstanding, we expect that the proposed short form tool will
+   575→   575→allow both research and clinical settings to quickly assess the severity of externalizing behaviors
+   576→   576→associated with DMDD in youth. In addition, by targeting items specific to the DMDD
+   577→   577→phenotype, this measure contributes to efforts to distinguish DMDD from broader
+   578→   578→psychopathology in youth.
+   579→   579→
+   580→   580→References
+   581→   581→Achenbach, T. M. (1991). Manual for the Child Behavior Checklist/4-18 and 1991 profile.
+   582→   582→Burlington, VT: University of Vermont, Department of Psychiatry.
+   583→   583→Alexander, L. M., Escalera, J., Ai, L., Andreotti, C., Febre, K., Mangone, A., Vega-Potler, N.,
+   584→   584→Langer, N., Alexander, A., Kovacs, M., Litke, S., O’Hagan, B., Andersen, J., Bronstein,
+   585→   585→B., Bui, A., Bushey, M., Butler, H., Castagna, V., Camacho, N., … Milham, M. P.
+   586→   586→(2017). An open resource for transdiagnostic research in pediatric mental health and
+   587→   587→learning disorders. Scientific Data, 4(1), 170181. https://doi.org/10.1038/sdata.2017.181.
+   588→   588→Alexander, L. M., Salum, G. A., Swanson, J. M., & Milham, M. P. (2020). Measuring strengths
+   589→   589→and weaknesses in dimensional psychiatry. Journal of Child Psychology and Psychiatry,
+   590→   590→61(1), 40–50. https://doi.org/10.1111/jcpp.13104.
+   591→   591→American Psychiatric Association. (2022). Diagnostic and statistical manual of mental disorders
+   592→   592→(5th ed., text rev.). https://doi.org/10.1176/appi.books.9780890425787.
+   593→   593→Benarous, X., Consoli, A., Cohen, D., Renaud, J., Lahaye, H., & Guilé, J.-M. (2019). Suicidal
+   594→   594→behaviors and irritability in children and adolescents: A systematic review of the nature
+   595→   595→and mechanisms of the association. European Child & Adolescent Psychiatry, 28(5),
+   596→   596→667–683. https://doi.org/10.1007/s00787-018-1234-9.
+   597→   597→Boyle, M. H., Duncan, L., Georgiades, K., Bennett, K., Gonzalez, A., Van Lieshout, R. J.,
+   598→   598→Szatmari, P., MacMillan, H. L., Kata, A., Ferro, M. A., Lipman, E. L., & Janus, M.
+   599→   599→(2017). Classifying child and adolescent psychiatric disorder by problem checklists and
+   600→   600→standardized interviews. International Journal of Methods in Psychiatric Research,
+   601→   601→26(4), e1544. https://doi.org/10.1002/mpr.1544.
+   602→   602→
+   603→   603→Brotman, M. A., Schmajuk, M., Rich, B. A., Dickstein, D. P., Guyer, A. E., Costello, E. J.,
+   604→   604→Egger, H. L., Angold, A., Pine, D. S., & Leibenluft, E. (2006). Prevalence, Clinical
+   605→   605→Correlates, and Longitudinal Course of Severe Mood Dysregulation in Children.
+   606→   606→Biological Psychiatry, 60(9), 991–997. https://doi.org/10.1016/j.biopsych.2006.08.042.
+   607→   607→Bruno, A., Celebre, L., Torre, G., Pandolfo, G., Mento, C., Cedro, C., Zoccali, R. A., &
+   608→   608→Muscatello, M. R. A. (2019). Focus on Disruptive Mood Dysregulation Disorder: A
+   609→   609→review of the literature. Psychiatry Research, 279, 323–330.
+   610→   610→https://doi.org/10.1016/j.psychres.2019.05.043.
+   611→   611→Caspi, A., Houts, R. M., Belsky, D. W., Goldman-Mellor, S. J., Harrington, H., Israel, S., Meier,
+   612→   612→M. H., Ramrakha, S., Shalev, I., Poulton, R., & Moffitt, T. E. (2014). The p Factor: One
+   613→   613→General Psychopathology Factor in the Structure of Psychiatric Disorders? Clinical
+   614→   614→Psychological Science: A Journal of the Association for Psychological Science, 2(2),
+   615→   615→119–137. https://doi.org/10.1177/2167702613497473.
+   616→   616→Chalmers, R. P. (2012). mirt: A Multidimensional Item Response Theory Package for the R
+   617→   617→Environment. Journal of Statistical Software, 48(6).
+   618→   618→https://doi.org/10.18637/jss.v048.i06.
+   619→   619→Efron, B. (1979). Bootstrap Methods: Another Look at the Jackknife. The Annals of Statistics,
+   620→   620→7(1), 1-26.
+   621→   621→Embretson, S. E., & Reise, S. P. (2013). Item response theory for psychologists. Psychology
+   622→   622→Press. https://doi.org/10.4324/9781410605269.
+   623→   623→Evans, S. C., Corteselli, K. A., Edelman, A., Scott, H., & Weisz, J. R. (2023). Is Irritability a Top
+   624→   624→Problem in Youth Mental Health Care? A Multi-informant, Multi-method Investigation.
+   625→   625→
+   626→   626→Child Psychiatry & Human Development, 54(4), 1027–1041.
+   627→   627→https://doi.org/10.1007/s10578-021-01301-8.
+   628→   628→Gibbons, R. D., Bock, R. D., Hedeker, D., Weiss, D. J., Segawa, E., Bhaumik, D. K., Kupfer, D.
+   629→   629→J., Frank, E., Grochocinski, V. J., & Stover, A. (2007). Full-Information Item Bifactor
+   630→   630→Analysis of Graded Response Data. Applied Psychological Measurement, 31(1), 4–19.
+   631→   631→https://doi.org/10.1177/0146621606289485.
+   632→   632→Kaufman, J., Birmaher, B., Brent, D., Rao, U., Flynn, C., Moreci, P., Williamson, D., & Ryan,
+   633→   633→N. (1997). Schedule for Affective Disorders and Schizophrenia for School-Age Children-
+   634→   634→Present and Lifetime Version (K-SADS-PL): Initial Reliability and Validity Data.
+   635→   635→Journal of the American Academy of Child & Adolescent Psychiatry, 36(7), 980–988.
+   636→   636→https://doi.org/10.1097/00004583-199707000-00021.
+   637→   637→Lahey, B. B., Applegate, B., Hakes, J. K., Zald, D. H., Hariri, A. R., & Rathouz, P. J. (2012). Is
+   638→   638→There a General Factor of Prevalent Psychopathology during Adulthood? Journal of
+   639→   639→Abnormal Psychology, 121(4), 971–977. https://doi.org/10.1037/a0028355.
+   640→   640→Lantos, D., Moreno-Agostino, D., Harris, L. T., Ploubidis, G., Haselden, L., & Fitzsimons, E.
+   641→   641→(2023). The performance of long vs. short questionnaire-based measures of depression,
+   642→   642→anxiety, and psychological distress among UK adults: A comparison of the patient health
+   643→   643→questionnaires, generalized anxiety disorder scales, malaise inventory, and Kessler scales.
+   644→   644→Journal of Affective Disorders, 338, 433–439. https://doi.org/10.1016/j.jad.2023.06.033.
+   645→   645→Lawson, G. M., Moore, T. M., Okamura, K. H., Becker-Haimes, E. M., & Beidas, R. S. (2020).
+   646→   646→Knowledge of Evidence-Based Services Questionnaire: Development and Validation of a
+   647→   647→Short Form. Administration and Policy in Mental Health and Mental Health Services
+   648→   648→Research, 47(4), 581–596. https://doi.org/10.1007/s10488-020-01020-7.
+   649→   649→
+   650→   650→Leibenluft, E., Allen, L. E., Althoff, R. R., Brotman, M. A., Burke, J. D., Carlson, G. A.,
+   651→   651→Dickstein, D. P., Dougherty, L. R., Evans, S. C., Kircanski, K., Klein, D. N., Malone, E.
+   652→   652→P., Mazefsky, C. A., Nigg, J., Perlman, S. B., Pine, D. S., Roy, A. K., Salum, G. A.,
+   653→   653→Shakeshaft, A., … Stringaris, A. (2024). Irritability in Youths: A Critical Integrative
+   654→   654→Review. The American Journal of Psychiatry, 181(4), 275–290.
+   655→   655→https://doi.org/10.1176/appi.ajp.20230256.
+   656→   656→Leibenluft, E., Charney, D. S., Towbin, K. E., Bhangoo, R. K., & Pine, D. S. (2003). Defining
+   657→   657→Clinical Phenotypes of Juvenile Mania. American Journal of Psychiatry, 160(3), 430–
+   658→   658→437. https://doi.org/10.1176/appi.ajp.160.3.430.
+   659→   659→Mayes, S. D., Calhoun, S. L., Waxmonsky, J. G., Kokotovich, C., Baweja, R., Lockridge, R., &
+   660→   660→Bixler, E. O. (2019). Demographic Differences in Disruptive Mood Dysregulation
+   661→   661→Disorder Symptoms in ADHD, Autism, and General Population Samples. Journal of
+   662→   662→Attention Disorders, 23(8), 849–858. https://doi.org/10.1177/1087054716664409.
+   663→   663→McTate, E. A., & Leffler, J. M. (2017). Diagnosing disruptive mood dysregulation disorder:
+   664→   664→Integrating semi-structured and unstructured interviews. Clinical Child Psychology and
+   665→   665→Psychiatry, 22(2), 187–203. https://doi.org/10.1177/1359104516658190.
+   666→   666→Moore, T. M., Di Sandro, A., Scott, J. C., Lopez, K. C., Ruparel, K., Njokweni, L. J., Santra, S.,
+   667→   667→Conway, D. S., Port, A. M., D’Errico, L., Rush, S., Wolf, D. H., Calkins, M. E., Gur, R.
+   668→   668→E., & Gur, R. C. (2023). Construction of a computerized adaptive test (CAT-CCNB) for
+   669→   669→efficient neurocognitive and clinical psychopathology assessment. Journal of
+   670→   670→Neuroscience Methods, 386, 109795. https://doi.org/10.1016/j.jneumeth.2023.109795.
+   671→   671→Moore, T. M., Scott, J. C., Reise, S. P., Port, A. M., Jackson, C. T., Ruparel, K., Savitt, A. P.,
+   672→   672→Gur, R. E., & Gur, R. C. (2015). Development of an abbreviated form of the Penn Line
+   673→   673→
+   674→   674→Orientation Test using large samples and computerized adaptive test simulation.
+   675→   675→Psychological Assessment, 27(3), 955–964. https://doi.org/10.1037/pas0000102.
+   676→   676→Mürner-Lavanchy, I., Kaess, M., & Koenig, J. (2023). Diagnostic instruments for the assessment
+   677→   677→of disruptive mood dysregulation disorder: A systematic review of the literature.
+   678→   678→European Child & Adolescent Psychiatry, 32(1), 17–39. https://doi.org/10.1007/s00787-
+   679→   679→021-01840-4.
+   680→   680→Orri, M., Galera, C., Turecki, G., Boivin, M., Tremblay, R. E., Geoffroy, M.-C., & Côté, S. M.
+   681→   681→(2019). Pathways of Association Between Childhood Irritability and Adolescent
+   682→   682→Suicidality. Journal of the American Academy of Child & Adolescent Psychiatry, 58(1),
+   683→   683→99-107.e3. https://doi.org/10.1016/j.jaac.2018.06.034.
+   684→   684→Posit team (2025). RStudio: Integrated Development Environment for R. Posit Software, PBC,
+   685→   685→Boston, MA. URL http://www.posit.co/.
+   686→   686→Reise, S. P. (2012). The Rediscovery of Bifactor Measurement Models. Multivariate Behavioral
+   687→   687→Research, 47(5), 667–696. https://doi.org/10.1080/00273171.2012.715555.
+   688→   688→Roalf, D. R., Moore, T. M., Wolk, D. A., Arnold, S. E., Mechanic-Hamilton, D., Rick, J.,
+   689→   689→Kabadi, S., Ruparel, K., Chen-Plotkin, A. S., Chahine, L. M., Dahodwala, N. A., Duda, J.
+   690→   690→E., Weintraub, D. A., & Moberg, P. J. (2016). Defining and validating a short form
+   691→   691→Montreal Cognitive Assessment (s-MoCA) for use in neurodegenerative disease. Journal
+   692→   692→of Neurology, Neurosurgery & Psychiatry, 87(12), 1303–1310.
+   693→   693→https://doi.org/10.1136/jnnp-2015-312723.
+   694→   694→Rolstad, S., Adler, J., & Rydén, A. (2011). Response Burden and Questionnaire Length: Is
+   695→   695→Shorter Better? A Review and Meta-analysis. Value in Health, 14(8), 1101–1108.
+   696→   696→https://doi.org/10.1016/j.jval.2011.06.003.
+   697→   697→
+   698→   698→Roy, A. K., Lopes, V., & Klein, R. G. (2014). Disruptive Mood Dysregulation Disorder: A New
+   699→   699→Diagnostic Approach to Chronic Irritability in Youth. The American Journal of
+   700→   700→Psychiatry, 171(9), 918-924. https://doi.org/10.1176/appi.ajp.2014.13101301.
+   701→   701→Samejima, F. (1969). Estimation of Latent Ability Using a Response Pattern of Graded Scores.
+   702→   702→Psychometrika 34(S1), 1-97. doi:10.1007/BF03372160.
+   703→   703→Segall, D. O. (2005). Computerized Adaptive Testing. In: Encyclopedia of Social Measurement,
+   704→   704→(Vol. 1, pp. 429-438). https://doi.org/10.1016/B0-12-369398-5/00444-8.
+   705→   705→Shafiei, G., Esper, N., Hoffmann, M., Ai, L., Chen, A., Cluce, J., Covitz, S., Giavasis, S., Lane,
+   706→   706→C., Mehta, K., Moore, T., Salo, T., Tapera, T., Calkins, M., Colcombe, S., Davatzikos,
+   707→   707→C., Gur, R., Gur, R., Pan, P., … Satterthwaite, T. (2025). Reproducible Brain Charts: An
+   708→   708→open data resource for mapping brain development and its associations with mental
+   709→   709→health. Neuron. https://doi.org/10.1101/2025.02.24.639850.
+   710→   710→Shimshoni, Y., Lebowitz, E. R., Brotman, M. A., Pine, D. S., Leibenluft, E., & Silverman, W. K.
+   711→   711→(2020). Anxious-Irritable Children: A Distinct Subtype of Childhood Anxiety? Behavior
+   712→   712→Therapy, 51(2), 211–222. https://doi.org/10.1016/j.beth.2019.06.005.
+   713→   713→Simons, J. S., & Gaher, R. M. (2005). The Distress Tolerance Scale: Development and
+   714→   714→Validation of a Self-Report Measure. Motivation and Emotion, 29(2), 83–102.
+   715→   715→https://doi.org/10.1007/s11031-005-7955-3.
+   716→   716→Stone, A. A. (2007). The Science of Real-Time Data Capture: Self-reports in Health Research.
+   717→   717→Oxford Academic. https://doi.org/10.1093/oso/9780195178715.001.0001.
+   718→   718→Stringaris, A. (2011). Irritability in children and adolescents: A challenge for DSM-5. European
+   719→   719→Child & Adolescent Psychiatry, 20(2), 61–66. https://doi.org/10.1007/s00787-010-0150-
+   720→   720→4.
+   721→   721→
+   722→   722→Stringaris, A., Goodman, R., Ferdinando, S., Razdan, V., Muhrer, E., Leibenluft, E., & Brotman,
+   723→   723→M. A. (2012). The Affective Reactivity Index: A concise irritability scale for clinical and
+   724→   724→research settings. Journal of Child Psychology and Psychiatry, 53(11), 1109–1117.
+   725→   725→https://doi.org/10.1111/j.1469-7610.2012.02561.x.
+   726→   726→Stringaris, A., Vidal‐Ribas, P., Brotman, M. A., & Leibenluft, E. (2018). Practitioner Review:
+   727→   727→Definition, recognition, and treatment challenges of irritability in young people. Journal
+   728→   728→of Child Psychology and Psychiatry, 59(7), 721–739. https://doi.org/10.1111/jcpp.12823.
+   729→   729→Swanson, J. M., Schuck, S., Porter, M. M., Carlson, C., Hartman, C. A., Sergeant, J. A.,
+   730→   730→Clevenger, W., Wasdell, M., McCleary, R., Lakes, K., & Wigal, T. (2015). Categorical
+   731→   731→and Dimensional Definitions and Evaluations of Symptoms of ADHD: History of the
+   732→   732→SNAP and the SWAN Rating Scales.
+   733→   733→Tapia, V., & John, R. M. (2018). Disruptive Mood Dysregulation Disorder. The Journal for
+   734→   734→Nurse Practitioners, 14(8), 573-578.e3. https://doi.org/10.1016/j.nurpra.2018.07.007.
+   735→   735→Wainer, H., Dorans, N. J., Flaugher, R., Green, B. F., & Mislevy, R. J. (2000). Computerized
+   736→   736→Adaptive Testing: A Primer (2nd ed.). Routledge.
+   737→   737→https://doi.org/10.4324/9781410605931.
+   738→   738→Wang, S., Xiao, H., & Cohen, A. (2021). Adaptive Weight Estimation of Latent Ability:
+   739→   739→Application to Computerized Adaptive Testing With Response Revision. Journal of
+   740→   740→Educational and Behavioral Statistics, 46(5), 560–591.
+   741→   741→https://doi.org/10.3102/1076998620972800.
+   742→   742→Weiss, D. J., & Kingsbury, G. G. (1984). Application of Computerized Adaptive Testing to
+   743→   743→Educational Problems. Journal of Educational Measurement, 21(4), 361–375.
+   744→   744→
+   745→   745→Wilson, M. K., Cornacchio, D., Brotman, M. A., & Comer, J. S. (2022). Measuring irritability in
+   746→   746→early childhood: A psychometric evaluation of the Affective Reactivity Index in a clinical
+   747→   747→sample of 3- to 8-year-old children. Assessment, 29(7), 1473–1481.
+   748→   748→https://doi.org/10.1177/10731911211020078.
+   749→   749→Zimmerman, M., Ruggero, C. J., Chelminski, I., Young, D., Posternak, M. A., Friedman, M.,
+   750→   750→Boerescu, D., & Attiullah, N. (2006). Developing Brief Scales for Use in Clinical
+   751→   751→Practice: The Reliability and Validity of Single-Item Self-Report Measures of Depression
+   752→   752→Symptom Severity, Psychosocial Impairment Due to Depression, and Quality of Life. The
+   753→   753→Journal of Clinical Psychiatry, 67(10), 1536–1541.
+   754→   754→https://doi.org/10.4088/JCP.v67n1007.
+   755→   755→
+   756→   756→Figures
+   757→   757→Figure 1. Associations between DMDD score and behavioral validation measures.
+   758→   758→Scatter plots showcase the association between DMDD score (z) and each validation
+   759→   759→measure for the full form (orange, dotted) and short form (green, solid). Self-report
+   760→   760→measures include the Affective Reactivity Index (ARI) and the Distress Tolerance Scale
+   761→   761→(DTS). Observer-report measures include the harmonized psychopathology (p) factor
+   762→   762→(CBCL P Factor) and Externalizing Behavior (CBCL Externalizing) subscales from the
+   763→   763→Child Behavior Checklist (CBCL). In addition, observer-report measures also include the
+   764→   764→Externalizing, Aggressive Behavior, Rule-Breaking Behavior, and Oppositional Defiant
+   765→   765→
+   766→   766→Problems subscales from the Teacher Report Form (TRF). Lines represent linear
+   767→   767→regression fits for each form. Higher DMDD scores reflect greater severity of symptoms.
+   768→   768→
+   769→   769→
