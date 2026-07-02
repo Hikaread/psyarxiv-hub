@@ -5,7 +5,7 @@ authors: Julia Machina, Kimberly Muellers, Xiqiao Chen, E. Samuel Winer
 osf_id: kjerd_v2
 date_posted: 2026-06-30
 source_date: June 2026
-categories: Research Methods
+categories: Other Clinical
 summary: Outlines a fully crossed stratified sampling methodology for recruiting diverse online samples on Prolific, ensuring equal representation across race/ethnicity (Black, Asian, Latine, White), gender (cisgender male, cisgender female), and SES (low, middle, high) for a study on fear of happiness and depression. Target N=1,008 with 42 participants per cell. Details practical procedures for preserving stratification, confidentiality, and analytic rigor in equity-focused psychological research.
 clinical_insight: Clinicians who consume or contribute to research should be aware that the vast majority of psychological findings are based on narrow demographic samples. This paper provides a practical blueprint for how therapy research can achieve representative sampling, which is essential for ensuring that assessment tools, treatment protocols, and clinical guidelines are valid across diverse populations. Therapists working with clients from underrepresented backgrounds can use these methods to critically evaluate the generalisability of research evidence they apply in practice.
 relevant_for: Clinician-researchers, therapists interpreting research for diverse client populations, supervisors training evidence-based practitioners
