@@ -231,3 +231,237 @@
 - jqswu | 1 | Impact of Race and Gender on Tenure in STEM — social/organizational, not clinical
 - 5tshr | 1 | Plasticidad sinaptica durante periodos criticos — pediatric neurodevelopment, excluded
 - 3qjsg | 1 | Metabolic connectivity — neuroscience methodology, not clinical
+
+## 2026-07-02 — Pipeline run
+
+- ~~drtvb~~ What is Evaluative Conditioning Anyway? A Response to De Houwer (2026) — *Score 0 (no clinical keywords)*
+- ~~nzjhu~~ Inference of light-source positions and of transparency in brightness illusion d — *Hard excluded (non-clinical topic)*
+- ~~2jekz~~ Comments on “Animal personality is a class of variation not a set of traits” by  — *Hard excluded (non-clinical topic)*
+- ~~632re~~ Researchers in the behavioural and brain sciences can use e-values to safely opt — *Score 0 (no clinical keywords)*
+- ~~me6z3~~ Empathy shapes multimodal child-directed communication and children’s language c — *Score 0 (no clinical keywords)*
+- ~~fm9vz~~ Model-based evidence for task-dependent representations in psychological similar — *Score 0 (no clinical keywords)*
+- ~~qub93~~ Temporal interval judgments are affected by stimulus order but not spatial dista — *Hard excluded (non-clinical topic)*
+- ~~5j4qt~~ Who wrote the story? AI authorship beliefs alter the brain's semantic prediction — *Score 0 (no clinical keywords)*
+- ~~pk7e3~~ Neural Language Models’ sensitivity to long-distance dependencies and their isla — *Hard excluded (non-clinical topic)*
+- ~~zmgac~~ Developmental changes in attention to faces in naturalistic family scenes — *Score 0 (no clinical keywords)*
+- ~~s47xz~~ The Joint Effects of Measurement Error and Model Misspecification on Statistical — *Score 0 (no clinical keywords)*
+- ~~hkeaq~~ Interictal Epileptiform Discharges and Long-Term Neurodevelopmental Outcomes in  — *Score 0 (no clinical keywords)*
+- ~~8daky~~ Handing over control: A longitudinal study of delegation and disclosure in human — *Score 0 (no clinical keywords)*
+- ~~u6tnx~~ No Escape from Behavior in Evaluating Compositionality — *Score 0 (no clinical keywords)*
+- ~~khfnj~~ Foundations of English as a Foreign Language Literacy: Cognitive and Linguistic  — *Score 0 (no clinical keywords)*
+- ~~dm82w~~ Overall attitudes towards quantum computing are more positive than overall attit — *Score 0 (no clinical keywords)*
+- ~~f6xys~~ A systematic review and meta-analysis of efficacy beliefs in pro-environmental b — *Score 0 (no clinical keywords)*
+- ~~9nf7t~~ Whole-brain anatomical and temporal patterns  hypothesized to be evoked during a — *Score 0 (no clinical keywords)*
+- ~~kd9et~~ Minimum Cost Psychological Defense: Theoretical Construction and Anti-Fraud Appl — *Score 0 (no clinical keywords)*
+- ~~6fxjv~~ Realistic deepfakes are detected better from a single glance than deliberate ins — *Score 0 (no clinical keywords)*
+- ~~9he86~~ Acoustic and social bonding differences between Japanese singing and conversatio — *Score 0 (no clinical keywords)*
+- ~~mdt4u~~ A spatiotemporal hierarchy for social interaction perception in the lateral visu — *Score 0 (no clinical keywords)*
+- ~~yfx6s~~ Insights from Interpretable Machine Learning into the Interplay of Model Misspec — *Score 0 (no clinical keywords)*
+- ~~x3edu~~ Lexical Decision with Real and Deepfake-Generated Voice — *Score 0 (no clinical keywords)*
+- ~~sqbzn~~ Culture in psychology and neuroscience: Concepts, relevance, and empirical evide — *Score 0 (no clinical keywords)*
+- ~~8r6pe~~ Who Gets and Gives the Benefit of the Doubt? Speaker Accent and Listener Backgro — *Score 0 (no clinical keywords)*
+- ~~jqnvg~~ Thought experiments elicit non-emotional intuitions that motivate altruistic beh — *Score 0 (no clinical keywords)*
+- ~~9g3xz~~ Non-conscious knowledge of complex regularities supports instrumental conditioni — *Score 0 (no clinical keywords)*
+- ~~a72vb~~ Adopting a Creative Persona: Effects of Perspective-Priming on Creativity and Qu — *Score 0 (no clinical keywords)*
+- ~~ftqcu~~ Milestones in the Wild: Mapping Early Gross Motor Development With the Pebbles A — *Score 0 (no clinical keywords)*
+- ~~74mcw~~ Goals remap values and not choices — *Score 0 (no clinical keywords)*
+- ~~ekqhr~~ Perspectives et connaissances des mondes professionnels : un cours de carrière d — *Score 0 (no clinical keywords)*
+- ~~bmz3e~~ The social ecology of development: The changing structure of preschoolers’ every — *Score 0 (no clinical keywords)*
+- ~~nwd3j~~ Frequency and perceived plasticity of climate-relevant consumer behaviors as a f — *Score 0 (no clinical keywords)*
+- ~~jebzx~~ When Felt States Become Social Evidence: An Identifiability Framework for Hot-St — *Score 0 (no clinical keywords)*
+- ~~mp27u~~ People have an accurate folk theory of conspiracy believers — *Score 0 (no clinical keywords)*
+- ~~e4y5h~~ Traditional progressive tests with stopping rules from Computerized Adaptive Tes — *Score 0 (no clinical keywords)*
+- ~~tp49n~~ Integrating gaze into models for multi-attribute pricing — *Score 0 (no clinical keywords)*
+- ~~j4mqa~~ Perceived error climate in primary school classrooms: A multidimensional perspec — *Score 0 (no clinical keywords)*
+- ~~h8ztf~~ Appreciating Ambiguity in Art: The effects of semantic distance and insight conf — *Score 0 (no clinical keywords)*
+- ~~jg2nr~~ The Body Problem: Cautionary Notes on the Embodied Self — *Score 0 (no clinical keywords)*
+- ~~ez6fr~~ Assessing the added value of process measures for studying gamified learning — *Score 0 (no clinical keywords)*
+- ~~7yhvp~~ Auditory Time-to-Contact in the Wild. — *Score 0 (no clinical keywords)*
+- ~~b5jzw~~ Visual Perception in Elite, Fast-Paced Ball-Sport Athletes: A Systematic Review  — *Score 0 (no clinical keywords)*
+- ~~rk5vp~~ Lexize-SWE: A quick online test to assess print vocabulary knowledge in Swedish — *Score 0 (no clinical keywords)*
+- ~~jqutn~~ From Design to Classroom: How VRT's EDUboxes Tackle Digital Media Literacy for F — *Score 0 (no clinical keywords)*
+- ~~nzy5a~~ Successful coordination emerges from aligned self-predictions in a dynamic motor — *Score 0 (no clinical keywords)*
+- ~~96mzk~~ Development of the Japanese version of online computerized adaptive tests of you — *Score 0 (no clinical keywords)*
+- ~~74qj3~~ On cross-modal commutativity in magnitude production for loudness and brightness — *Score 0 (no clinical keywords)*
+- ~~vqc8r~~ Let there be information: rethinking cultural evolution — *Score 0 (no clinical keywords)*
+- ~~rwapn~~ Unpacking the Dual-Path Trust Mechanism Driving Students’ Continuance Intention  — *Score 0 (no clinical keywords)*
+- ~~uk3vf~~ Is GenAI Helpful for Writing? A Re-Analysis Using Robust Meta-Analysis (RoBMA) — *Score 0 (no clinical keywords)*
+- ~~kr2vu~~ Using Classification Trees to Identify the Best Method in Monte Carlo Simulation — *Score 0 (no clinical keywords)*
+- ~~9edak~~ Syllables, not words, minutes, or utterances, to accurately characterize verbal  — *Score 0 (no clinical keywords)*
+- ~~fw4mx~~ On Why Meta-d′ May Not Go the Distance: Confidence Distance as a Calibration-Bas — *Score 0 (no clinical keywords)*
+- ~~8krqj~~ Learning progress shapes people's voluntary engagement — *Score 0 (no clinical keywords)*
+- ~~rckpq~~ Coherence Across Tasks In the Development of Counterfactual Reasoning — *Score 0 (no clinical keywords)*
+- ~~xahqf~~ EEG dynamics during prolonged Samatha meditation:  A case study across levels of — *Score 0 (no clinical keywords)*
+- ~~vgu64~~ Voluntary Musical Imagery Use in Musicians’ Mental Practice: Functional Orientat — *Score 0 (no clinical keywords)*
+- ~~9u78c~~ The Morality of Partiality: How Relationship Expectations Shape Moral Evaluation — *Score 0 (no clinical keywords)*
+- ~~ag2kx~~ Sensorimotor Learning and Error Correction in a Double-Step Mirror-Reversal Reac — *Score 0 (no clinical keywords)*
+- ~~np4ta~~ L2 Input Variability Compensates for Individual Differences in Working Memory: E — *Score 0 (no clinical keywords)*
+- ~~jz7uf~~ Controlled real-world object generation for visual memory experimentation and th — *Score 0 (no clinical keywords)*
+- ~~a7nq8~~ Designing, Evaluating, and Using Synthetic Participants in Behavioural Public Po — *Score 0 (no clinical keywords)*
+- ~~fs3k2~~ How Researchers’ Analytical Decisions Impact Brand Price Elasticity Estimates: I — *Score 0 (no clinical keywords)*
+- ~~8hb9u~~ Flexible Multiple Imputation of Missing Data in Time-Structured Longitudinal Des — *Score 0 (no clinical keywords)*
+- ~~3m6tx~~ Did you hear what you said? Inattentional deafness of pitch shifts in self- prod — *Score 0 (no clinical keywords)*
+- ~~hnfqy~~ Social Gaze Elicits Social Learning — *Score 0 (no clinical keywords)*
+- ~~jx2b7~~ Emergent categorical structure from sensorimotor grounding in a full-size human  — *Score 0 (no clinical keywords)*
+- ~~ugpfk~~ Population heterogeneity in economic preferences: Revisiting the Global Preferen — *Score 0 (no clinical keywords)*
+- ~~njgub~~ Do Emotional Faces Modulate Pupillary Pseudoneglect? — *Score 0 (no clinical keywords)*
+- ~~ekvgu~~ Time Regained: Decision Processes in Continuous-Outcome Retrieval from Visual Wo — *Score 0 (no clinical keywords)*
+- ~~jqswu~~ The Impact of Race and Gender on Tenure and Promotion Decisions in STEM Careers — *Score 0 (no clinical keywords)*
+- ~~5tshr~~ Plasticidad sináptica dependiente de la experiencia durante los períodos crítico — *Score 0 (no clinical keywords)*
+- ~~3qjsg~~ Metabolic connectivity — *Score 0 (no clinical keywords)*
+- ~~3q9dk~~ From backlog to blind spots: why neurodevelopmental pathway reform must start wi — *Score 0 (no clinical keywords)*
+- ~~ph2ak~~ Distributional latent-variable modeling of ordinal language data — *Score 0 (no clinical keywords)*
+- ~~yu8vd~~ A single-item signal detection model probes stimulus-specific memorability and i — *Score 0 (no clinical keywords)*
+- ~~mwfah~~ The robustness of implicit evaluation updating: Tests of time course and resista — *Score 0 (no clinical keywords)*
+- ~~n5738~~ Geometric and Topological Predictors of Step-Level Errors in the Corsi Block-Tap — *Score 0 (no clinical keywords)*
+- ~~rgsth~~ What Elicits Disgust Across Societies? Evidence from the Ethnographic Record — *Score 0 (no clinical keywords)*
+- ~~d3utj~~ When Importance Isn’t Important: The Paradox in Individually Weighted Models and — *Score 0 (no clinical keywords)*
+- ~~g6epk~~ Linearity-preserving scores for general measurement errors — *Score 0 (no clinical keywords)*
+- ~~p82yv~~ The paddle effect as a visual-context bias: Evidence from hierarchical Bayesian  — *Hard excluded (non-clinical topic)*
+- ~~tdw9z~~ Bias and accuracy of effect size estimation in sequential Bayes factor designs — *Score 0 (no clinical keywords)*
+- ~~empu7~~ Following the Tune: Divergent Processing Strategies for Auditory Sequence Recogn — *Score 0 (no clinical keywords)*
+- ~~g6hjp~~ Forbidden Causes: Science as a Restrictive Cognitive System — *Score 0 (no clinical keywords)*
+- ~~j8xgf~~ Profiling the Chinese Participants in Psychological Science: Non-WEIRD but Not R — *Score 0 (no clinical keywords)*
+- ~~w9hqc~~ Evidence for the simultaneous sensorimotor representation of observed and imagin — *Score 0 (no clinical keywords)*
+- ~~q9kbd~~ Musical Groove as Stabilization of Coordinated Movement: A Dynamical and Embodie — *Score 0 (no clinical keywords)*
+- ~~7ya53~~ From Debate to Practice: Why Research Needs Principle-Driven Frameworks for Resp — *Score 0 (no clinical keywords)*
+- ~~xpm7e~~ Neural discrimination of objects, faces, and print in dyslexic and typical reade — *Score 0 (no clinical keywords)*
+- ~~gwm3v~~ The ideological differences in institutional trust and conspiratorial mentality  — *Score 0 (no clinical keywords)*
+- ~~fmvyw~~ Format-invariant semantic dimensions structure food similarity judgments — *Score 0 (no clinical keywords)*
+- ~~nheu4~~ The Dynamic Contingency Model: Integrating competing theories of personality pro — *Score 0 (no clinical keywords)*
+- ~~3wdtp~~ Tonic Pupil-Linked Arousal Modulates Global Response Efficiency but Not Spatial  — *Score 0 (no clinical keywords)*
+- ~~en53m~~ Sentence comprehension with syntax–plausibility conflict under articulatory supp — *Score 0 (no clinical keywords)*
+- ~~kn5qb~~ A field guide to causal inference and sensitivity analysis methods for science e — *Score 0 (no clinical keywords)*
+- ~~nwkag~~ The social transmission of linguistic alignment: the role of observational reinf — *Score 0 (no clinical keywords)*
+- ~~b8ge6~~ Voice as a Cognitive Anchor: The VOCES Framework for Identity Preservation in Ea — *Score 0 (no clinical keywords)*
+- ~~25dnj~~ Influence campaigns in a custom social media platform affect beliefs, trust, and — *Score 0 (no clinical keywords)*
+- ~~u4bpe~~ Evolved equity but inequity in the household? Reviewing evolutionary accounts of — *Score 0 (no clinical keywords)*
+- ~~s26aq~~ Putting the brain back in its body: Integrating internal bodily signals in multi — *Score 0 (no clinical keywords)*
+- ~~hw6a3~~ Individual differences in bilingual experience predict response times during lan — *Score 0 (no clinical keywords)*
+- ~~knqwr~~ Trait absorption as predictor of altered states of consciousness across three re — *Score 0 (no clinical keywords)*
+- ~~3xeyb~~ Arousal does not enhance the dominant spatial scope of attention — *Score 0 (no clinical keywords)*
+- ~~zacku~~ When do bad apples spoil the barrel? Multiple Actors Matter More Than Repeated E — *Score 0 (no clinical keywords)*
+- ~~kad5q~~ Detection of Prior Conscious Observation With Subliminal Priming: Exploratory Ev — *Score 0 (no clinical keywords)*
+- ~~4e8un~~ Zero-shot learning of naturalistic concepts via conceptual systems alignment — *Score 0 (no clinical keywords)*
+- ~~qftyn~~ Strategic Morality — *Score 0 (no clinical keywords)*
+- ~~29p3m~~ A Stochastic Block Prior for Clustering in Graphical Models — *Score 0 (no clinical keywords)*
+- ~~2xs9k~~ An intraclass correlation coefficient is a correlation: A tutorial — *Score 0 (no clinical keywords)*
+- ~~78ntk~~ Mastering the Moment: How Target Distance, Target Speed and Additional Load Shap — *Score 0 (no clinical keywords)*
+- ~~b4ezh~~ Relative Taste Contributions in Sweet-Sour-Salty Mixtures Are Influenced by Conc — *Score 0 (no clinical keywords)*
+- ~~p38j2~~ Faith and the Other. Revisiting the Transcendence of the Other in Psychology — *Score 0 (no clinical keywords)*
+- ~~vczgh~~ Nature in Culture: A dimensional perspective on the positive and negative effect — *Score 0 (no clinical keywords)*
+- ~~swbg5~~ Structural priming as a model for testing language change in bilingualism‎ — *Score 0 (no clinical keywords)*
+- ~~hu6bg~~ Feature-Based and Spatial Involuntary Internal Attention Differentially Shape Ac — *Score 0 (no clinical keywords)*
+- ~~dztvp~~ The Topology of Grammar: Hierarchical Inversion, Numerical Magnitude, and a Shar — *Score 0 (no clinical keywords)*
+- ~~efv85~~ The Other-Race Effect in Implicit Memory for Face Combinations — *Score 0 (no clinical keywords)*
+- ~~84d7h~~ People Choose to Read Fact-Checks, But Assume Others Don’t — *Score 0 (no clinical keywords)*
+- ~~wkcgf~~ Evidence that positive outcomes elicit a stronger sense of agency is not robust: — *Score 0 (no clinical keywords)*
+- ~~yfkue~~ From Thought to Senses: Assessing the Relationship Between the Generation Effect — *Score 0 (no clinical keywords)*
+- ~~ukn8w~~ Comparação entre LLMs e avaliadores humanos no julgamento de sotaque em inglês-L — *Score 0 (no clinical keywords)*
+- ~~mqcwj~~ Addressing climate change skepticism and inaction using human-AI dialogues — *Score 0 (no clinical keywords)*
+- ~~ar864~~ Emotional Composition Of Sleep-Related Out-Of-Body Experiences In Relation To Sl — *Score 0 (no clinical keywords)*
+- ~~jpkr5~~ Diagnosing Disagreement in Dehumanization Research — *Score 0 (no clinical keywords)*
+- ~~36xdz~~ Distinguishing imagery and perception in generative models of brain function — *Score 0 (no clinical keywords)*
+- ~~72yj9~~ Task Configuration and Encoding Duration Jointly Shape Human Performance in a Ma — *Score 0 (no clinical keywords)*
+- ~~esyqm~~ Detection of Extraneous Visual Signals is Not Affected by the Syntactic Structur — *Score 0 (no clinical keywords)*
+- ~~tbhgv~~ Introducing LexTurk: A quick lexical test for learners of Turkish — *Score 0 (no clinical keywords)*
+- ~~pvyfm~~ The Role of Interoceptive Awareness and Relationship Satisfaction in Female Orga — *Score 0 (no clinical keywords)*
+- ~~b9er2~~ Still Very Much Dead and Alive: Incoherence in Conspiracism as a Departure from  — *Score 0 (no clinical keywords)*
+- ~~tpnze~~ The Brain of Presence: A Foundational Framework for Social Neuroscience — *Score 0 (no clinical keywords)*
+- ~~hnz7r~~ Feasible Cognition Requires Latent State — *Score 0 (no clinical keywords)*
+- ~~9w7hu~~ Person-Related Selection Bias in Mobile Sensing Research: Robust Findings from T — *Score 0 (no clinical keywords)*
+- ~~5gbm6~~ Understanding behavior through permutation-based predictive modeling — *Score 0 (no clinical keywords)*
+- ~~fxbtp~~ Adolescents in the Age of Generative AI: A Half-Decade Systematic Review — *Score 0 (no clinical keywords)*
+- ~~ebawx~~ The Fearbase: a dynamically growing database and collaborative consortium for ex — *Score 0 (no clinical keywords)*
+- ~~h8epx~~ Item Features Affect How Well People Can Predict Self-Reported Personality Trace — *Score 0 (no clinical keywords)*
+- ~~kdq3j~~ Combined eye tracking and electroencephalography during referential selection in — *Score 0 (no clinical keywords)*
+- ~~dm39g~~ Evidence for a common semantic gateway for words and nonwords across languages — *Score 0 (no clinical keywords)*
+- ~~a26je~~ A resting-state EEG functional connectivity study in informal caregivers of pati — *Score 0 (no clinical keywords)*
+- ~~b3vjh~~ Semantic and episodic contributions of long-term memory to working memory in you — *Score 0 (no clinical keywords)*
+- ~~mueqs~~ Rethinking Age Differences in ERP Word Predictability Effects During Reading: Ev — *Score 0 (no clinical keywords)*
+- ~~47dx2~~ Internal action representations can emerge without motor execution — *Score 0 (no clinical keywords)*
+- ~~4j69r~~ Running ahead of the evidence? Rethinking the exercise-cognition consensus after — *Score 0 (no clinical keywords)*
+- ~~ex2q7~~ What’s Brown and Sticky? Peering Into the Ineluctable Comedic Mystery of Dad Hum — *Score 0 (no clinical keywords)*
+- ~~x5gnq~~ The Expression of Self-Conscious Emotions and Their Motivational and Communicati — *Score 0 (no clinical keywords)*
+- ~~a9wpd~~ Red, blue, and morally alike: Moral reframing of climate change works when we do — *Score 0 (no clinical keywords)*
+- ~~rsmun~~ Psychotic-like experiences and neurobehavioral reward processing in adolescents  — *Score 0 (no clinical keywords)*
+- ~~vmxap~~ The Effect of Visual Contextual Information and Social Interaction on the Decept — *Score 0 (no clinical keywords)*
+- ~~r29tv~~ Memory-Based Learning Disabilities: A Syndrome Without a Pigeonhole. Towards a M — *Score 0 (no clinical keywords)*
+- ~~2gxk4~~ Modeling the temporal dynamics of cognitive control — *Score 0 (no clinical keywords)*
+- ~~6eyjf~~ Against Anonymising Meta-Scientific Data — *Score 0 (no clinical keywords)*
+- ~~dtz5p~~ Detecting facial signals in conversational corpora using OpenFace compared to ma — *Score 0 (no clinical keywords)*
+- ~~j6wur~~ Believing What We Want? Myside Bias and the Role of Open Science Practices in Pu — *Score 0 (no clinical keywords)*
+- ~~xf9ad~~ Individual differences in Speech-in-Noise perception in adults with healthy hear — *Score 0 (no clinical keywords)*
+- ~~sp4k7~~ Believe It, Achieve It? Self-Control Beliefs in Predicting Life Outcomes — *Score 0 (no clinical keywords)*
+- ~~qbsy3~~ Improving Multi-Stakeholder Cooperation, Information Sharing and Decision Making — *Score 0 (no clinical keywords)*
+- ~~ucjz7~~ An illusion of absence in a VR traffic scenario: How A-pillar blind zones can tr — *Score 0 (no clinical keywords)*
+- ~~4jpwn~~ Identifying safety risks and variances in an Integrated Urgent Care telephone tr — *Score 0 (no clinical keywords)*
+- ~~h4z3w~~ Stereotypes of Epistemic Sources and Conspiracy Beliefs: The Primacy of Perceive — *Score 0 (no clinical keywords)*
+- ~~mqj87~~ Populism and the Pandemic: How the Covid-sceptic Movement Mobilised Opposition t — *Score 0 (no clinical keywords)*
+- ~~uyntd~~ Hierarchical-Model Correlations Should Replace Sample Correlations in Experiment — *Score 0 (no clinical keywords)*
+- ~~5rea9~~ Subjective Experience of “Stream of Consciousness Impairment” in Three Patients  — *Score 0 (no clinical keywords)*
+- ~~4qdf8~~ “It’s Just a Dick pic”: (Cyber)Rape Culture and Victim Behavior Predict Percepti — *Score 0 (no clinical keywords)*
+- ~~nm2cz~~ Beliefs versus Reality: People Overestimate the Actual Dishonesty of Others — *Score 0 (no clinical keywords)*
+- ~~v9w37~~ On the misuse of prediction in NeuroAI: A case study of Centaur — *Score 0 (no clinical keywords)*
+- ~~u379a~~ Covert imitation acts as an adaptive reflexive gain control system in non-native — *Score 0 (no clinical keywords)*
+- ~~g7ktm~~ Social Disconnection is Associated with Impaired Social Skills: Evidence from Be — *Score 0 (no clinical keywords)*
+- ~~jn9wt~~ oREV-VN: An extension of the oREV vocabulary test with Rasch-compliant verb comp — *Score 0 (no clinical keywords)*
+- ~~qfsza~~ From Car Affinity to Risk Awareness: Understanding Driver Profiles and Shifts in — *Score 0 (no clinical keywords)*
+- ~~ywvzr~~ Self-Coherence as a Higher-Order Organizational Process:  Toward an Integrative  — *Score 0 (no clinical keywords)*
+- ~~q7exw~~ On Bias in Detecting Bias: A Signal Detection Analysis of Attributions to Gender — *Score 0 (no clinical keywords)*
+- ~~832er~~ Self-Movement and Other-Movement Estimation Involve Distinct Multisensory Proces — *Score 0 (no clinical keywords)*
+- ~~nctgh~~ Predicting Effects of a Computational Empathetic Bot — *Score 0 (no clinical keywords)*
+- ~~aeukr~~ Truth by repetition reliably differs between people over time — *Score 0 (no clinical keywords)*
+- ~~s4hnx~~ Sequential Causal Decomposition for Reducing Social Disparities: A Step-by-Step  — *Score 0 (no clinical keywords)*
+- ~~g7af8~~ Fixed versus Adaptive Word Lists: Effects on Spelling Outcomes in Adolescents — *Score 0 (no clinical keywords)*
+- ~~4fzkc~~ Impossibility and Logical Contradictions Can Enhance the Perceived Value of Fict — *Score 0 (no clinical keywords)*
+- ~~xn9t7~~ Who reciprocates whom? Mutual influence in emoticon use and perceived responsive — *Score 0 (no clinical keywords)*
+- ~~gf38p~~ Investigating the Origins of Partisanship: What Motivates Children to Preferenti — *Score 0 (no clinical keywords)*
+- ~~m3sud~~ Emotional and physical abuse have dissociable impacts on punishment learning and — *PDF extraction failed*
+- ~~2rafb~~ Individual Differences in Reliance on Generative AI in Schoolwork: The Role of E — *PDF extraction failed*
+- ~~4da3g~~ Parent experiences of holistic early intervention for children with motor learni — *PDF extraction failed*
+- ~~5md8z~~ Psychological features of dispute content and public acceptance of AI in legal a — *PDF score 1 (insufficient)*
+- ~~zdm4c~~ Anxiety modulates sensitivity and response bias in the AX CPT task — *PDF extraction failed*
+- ~~965yg~~ Psychometric Comparability of LLM–Based Digital Twins — *PDF extraction failed*
+- ~~zbwsx~~ What do people believe about artificial intelligence chatbots for mental health  — *PDF extraction failed*
+- ~~e87ft~~ Exploring diagnosis of Developmental Coordination Disorder and  Specific Develop — *PDF extraction failed*
+- ~~buhyd~~ The Intellectual Justice Scale: Measuring How Fairly People Engage With Knowledg — *PDF score 1 (insufficient)*
+- ~~m2vw4~~ Regulation Without Regulating? Exploring Misalignment Between Self-Reported Emot — *PDF extraction failed*
+- ~~xpfjz~~ Identification of mental illness in maternity settings and care pathways to ment — *PDF extraction failed*
+- ~~djkcz~~ Self-reports of personality functioning and depression are practically fungible. — *PDF extraction failed*
+- ~~2kbtm~~ Factors Shaping Autistic Adults' Experiences and Perceived Benefits of a Co-Desi — *PDF extraction failed*
+- ~~n9gfq~~ Subjective Effects and Characteristics of Salvia Divinorum Use from a Retrospect — *PDF score 1 (insufficient)*
+- ~~fhvnz~~ Current distress does not moderate the efficacy of cognitive reappraisal — *PDF extraction failed*
+- ~~h3tv6~~ From Seconds to Seasons and Days to Decades: Timescales in Development — *PDF extraction failed*
+- ~~f5kbv~~ Telling Stories of Resistance – Calling to Ancestral Strength: An Exploration of — *PDF score 1 (insufficient)*
+- ~~gxrha~~ Construct validity evidence for a Workplace Well-Being Questionnaire Battery ada — *PDF extraction failed*
+
+### Accepted (27)
+
+- ceu53 Psychosocial Wellbeing Assessment Tools for Children with Cerebral Palsy and The (score 2, via title)
+- 2dp7v Psychometric Validation of the Perceived Cognitive Assistance Scale: Exploratory (score 3, via title)
+- 7x5ev Acts and Aftermath: Differential Prediction of Moral Injury, Secondary Traumatic (score 4, via title)
+- ryvbf Entrepreneurial Resilience, Costly Signals and Innovative Behavior in Crisis: A  (score 2, via title)
+- 6a72c Parenting and children’s ADHD symptoms: A longitudinal twin-difference study (score 2, via title)
+- 3jf8n Development of an Abbreviated Form of the Extended Strengths and Weaknesses Asse (score 2, via title)
+- qsdgp Can fluoxetine’s diminished efficacy in pediatric depression be explained by stu (score 2, via title)
+- xj83h Securing Adolescent Mental Health by Training Need Crafting: A Randomized Contro (score 2, via title)
+- z329b Bringing together health and education with lived experience to co-produce a new (score 2, via title)
+- a79u4 Digitized and AI-Assisted Scoring of Cognitive Assessments in ALS and Neurodegen (score 2, via title)
+- ausr4 Psychometric Evaluation of a 10-Item Korean Adaptation of the Perceived Vulnerab (score 2, via title)
+- 3xus7 PLFest: A Multi-Site Validation of an Open Platform for Visual and Cognitive Ass (score 2, via title)
+- qte5z Autism and ADHD prevalence estimates: balancing concerns about overdiagnosis wit (score 3, via title)
+- 79p5k ‘Good Work’ through Good Relationships? A Longitudinal  Field Intervention Study (score 3, via title)
+- 4mz9g Stress Beliefs Shape Daily Affective Reactivity to Social and Work Stressors: A  (score 2, via title)
+- beh7f Outcomes of Peer Coaching, Peer Tutoring, and Peer Mentoring Among International (score 2, via pdf)
+- 6tj3h Initial indications of generative AI influence in linguistics research abstracts (score 3, via pdf)
+- 8j7n2 Coordinated Psychological Intervention Ensembles Outperform Single-Mechanism Des (score 2, via pdf)
+- u3ygh Revisiting the SciPop Scale: Measurement Alignment, Scoring Rules, and Cross-Con (score 2, via pdf)
+- 5e39x Prediction and prediction error in autism: A meta-analysis of functional magneti (score 4, via pdf)
+- mkzyb A Large-Scale Multi-Site Study of Mediators and Moderators of Visual Perceptual  (score 7, via pdf)
+- jqzus PLFest a portable, cross-platform tool for reproducible perceptual-learning rese (score 4, via pdf)
+- nw9t8 Nature immersion in virtual reality does not reduce naturally occurring muscle p (score 3, via pdf)
+- mwks3 Patients’ and clinicians’ perspectives on a transdiagnostic Experience Sampling  (score 9, via pdf)
+- 2mpqd Mega-analysis of the Interoceptive Accuracy Scale (IAS) Structure and its Dispos (score 7, via pdf)
+- 5kcxa Is it Reactive Aggression? Using Computational Methods to Explain Evolving Aggre (score 6, via pdf)
+- 5zy8t Receptive Vocabulary Performance Varies with Depression (score 4, via pdf)
