@@ -52,26 +52,29 @@ CLINICAL_KEYWORDS = [
     "depress", "anxiety", "trauma", "ptsd", "therap", "treatment", "intervention",
     "disorder", "clinical", "psychopath", "symptom", "mental health",
     # Modalities
-    "cbt", "cognitive behavioral", "psychotherapy", "counseling", "mindfulness",
+    "cbt", "cognitive behavioral", "cognitive reappraisal", "reappraisal",
+    "psychotherapy", "counseling", "mindfulness",
     "acceptance", "commitment", "dialectical behavior", "dbt", "schema therapy",
-    "psychodynamic", "emdr", "exposure therapy",
+    "psychodynamic", "emdr", "exposure therapy", "compassion-focused",
     # Specific conditions
     "suicid", "self-harm", "eating disorder", "anorexia", "bulimia", "binge",
     "addiction", "substance", "alcohol", "drug abuse", "ocd", "obsessive",
     "compulsive", "panic", "phobia", "social anxiety", "psychosis",
     "schizophreni", "bipolar", "personality disorder", "borderline",
-    "narcissist", "psychopath",
+    "narcissist", "psychopath", "amnesia",
     # Neurodivergence
     "autism", "autistic", "adhd", "neurodiverg", "aspberger",
+    "dyslexi", "learning disabil", "coordination disorder", "neurodevelopmental",
     # Somatic & functional
     "somatic", "pain", "chronic", "insomnia", "sleep disorder",
+    "interoceptive", "interoception",
     # Coping & regulation
     "resilience", "coping", "emotion regulation", "rumination", "worry",
     "stress", "burnout", "grief", "bereavement",
     # Assessment & research
     "psychometric", "assessment", "scale", "validation", "comorbidity",
     "prevalence", "risk factor", "randomized", "clinical trial", "rct",
-    "evidence-based",
+    "evidence-based", "diagnosis", "diagnostic", "screening tool",
     # Other clinical
     "couples", "sex therap", "paraphilia", "body image", "dissociat",
     "forensic", "offender", "violence", "aggression", "abuse",
@@ -80,7 +83,20 @@ CLINICAL_KEYWORDS = [
     "health psychology", "behavioral medicine", "crisis",
     # Behavioral/addictive
     "smartphone", "impulsiv", "executive function", "gambling",
-    "hypersexuality",
+    "hypersexuality", "self-control", "self-regulation",
+    # Additional terms found during discard re-scan
+    "fear", "phobic", "caregiver", "carer", "patient", "clinical practice",
+    "hallucinogen", "psychedel", "salvia",
+    "empathetic", "empathy", "chatbot", "ai-assist", "digital twin",
+    "social skill", "social functioning", "social disconn",
+    "eeg", "neuroimag", "functional connectivity",
+    "workplace well", "occupational health",
+    "moral injury", "secondary traum",
+    "psychological flexib", "transdiagnostic",
+    "mechanism", "mainten", "relapse",
+    "impairment", "stream of consciousness", "thought disorder",
+    "orgasm", "sexual satisfaction",
+    "co-design", "lived experience", "service user",
 ]
 
 HARD_EXCLUDE = [
@@ -171,21 +187,70 @@ def is_hard_excluded(text):
 
 
 def extract_pdf_abstract(compact_id, max_pages=3):
-    """Download PDF and extract text from first N pages for screening."""
+    """Download PDF or DOCX and extract text for screening."""
     tmp_file = os.path.join(TMP_DIR, f"{compact_id}_screen.txt")
     try:
+        # First try the dedicated fetch script (PDF only)
         result = subprocess.run(
             [sys.executable, FETCH_SCRIPT, compact_id, tmp_file],
             capture_output=True, text=True, timeout=60
         )
-        if result.returncode != 0:
-            return ""
-        with open(tmp_file) as f:
-            text = f.read()
-        # Use first ~3000 chars (roughly first 3 pages)
-        return text[:3000]
+        if result.returncode == 0:
+            with open(tmp_file) as f:
+                text = f.read()
+            if text.strip():
+                return text[:3000]
+
+        # If PDF failed, try fetching DOCX directly
+        import requests as req
+        for v in range(5, 0, -1):
+            vid = f"{compact_id}_v{v}"
+            r = req.get(f"https://api.osf.io/v2/preprints/{vid}/",
+                        params={"filter[provider]": "psyarxiv"}, timeout=30)
+            if r.status_code != 200 or not r.json().get("data"):
+                continue
+            preprint_id = r.json()["data"]["id"]
+            r2 = req.get(f"https://api.osf.io/v2/preprints/{preprint_id}/files/osfstorage/",
+                         params={"page[size]": 20}, timeout=30)
+            if r2.status_code != 200:
+                continue
+            for f_info in r2.json().get("data", []):
+                name = f_info.get("attributes", {}).get("name", "")
+                dl = f_info.get("links", {}).get("download", "")
+                if not dl:
+                    continue
+                if name.lower().endswith((".docx", ".pdf")):
+                    r3 = req.get(dl, timeout=120)
+                    if r3.status_code != 200:
+                        continue
+                    tmp_doc = os.path.join(TMP_DIR, f"{compact_id}.{name.split('.')[-1]}")
+                    with open(tmp_doc, "wb") as out:
+                        out.write(r3.content)
+                    try:
+                        if name.lower().endswith(".docx"):
+                            from docx import Document
+                            doc = Document(tmp_doc)
+                            text = "\n".join(p.text for p in doc.paragraphs)
+                        else:
+                            import pdfplumber
+                            text = ""
+                            with pdfplumber.open(tmp_doc) as pdf:
+                                for page in pdf.pages:
+                                    t = page.extract_text()
+                                    if t:
+                                        text += t + "\n\n"
+                        if tmp_doc != tmp_file:
+                            os.remove(tmp_doc)
+                        if text.strip():
+                            return text[:3000]
+                    except Exception:
+                        if os.path.exists(tmp_doc) and tmp_doc != tmp_file:
+                            os.remove(tmp_doc)
+                    break
+            break
+        return ""
     except Exception as e:
-        print(f"    PDF extraction failed for {compact_id}: {e}")
+        print(f"    Extraction failed for {compact_id}: {e}")
         return ""
 
 
@@ -201,19 +266,19 @@ def categorize_from_text(text, title):
     """Suggest category based on keywords in text."""
     lower = (title + " " + text).lower()
     category_map = {
-        "Anxiety & OCD": ["anxiety", "ocd", "obsessive", "compulsive", "panic", "phobia", "social anxiety", "worry"],
-        "Couples Therapy & Sexology": ["couples", "sex therap", "paraphilia", "sexual", "intimate relationship", "romantic"],
-        "Neurodivergence": ["autism", "autistic", "adhd", "neurodiverg", "asperger", "neurodevelopmental"],
+        "Anxiety & OCD": ["anxiety", "ocd", "obsessive", "compulsive", "panic", "phobia", "social anxiety", "worry", "fear", "phobic"],
+        "Couples Therapy & Sexology": ["couples", "sex therap", "paraphilia", "sexual", "intimate relationship", "romantic", "orgasm", "sexual satisfaction"],
+        "Neurodivergence": ["autism", "autistic", "adhd", "neurodiverg", "asperger", "neurodevelopmental", "dyslexi", "learning disabil", "coordination disorder"],
         "Mood Disorders": ["depress", "bipolar", "manic", "mood", "dysthym"],
-        "Trauma & Stressor-Related": ["trauma", "ptsd", "posttraumatic", "stressor", "ace", "adverse childhood"],
-        "Personality Disorders": ["personality disorder", "borderline", "narcissist", "antisocial", "cluster b"],
-        "Therapeutic Modalities": ["cbt", "psychotherapy", "mindfulness", "acceptance and commitment", "dbt", "schema therapy", "emdr", "exposure therapy"],
-        "Psychopathology & Assessment": ["psychopath", "assessment", "psychometric", "scale", "validation", "diagnosis"],
+        "Trauma & Stressor-Related": ["trauma", "ptsd", "posttraumatic", "stressor", "ace", "adverse childhood", "moral injury", "abuse", "secondary traum"],
+        "Personality Disorders": ["personality disorder", "borderline", "narcissist", "antisocial", "cluster b", "personality functioning"],
+        "Therapeutic Modalities": ["cbt", "psychotherapy", "mindfulness", "acceptance and commitment", "dbt", "schema therapy", "emdr", "exposure therapy", "cognitive reappraisal", "intervention", "compassion-focused", "chatbot", "empathetic"],
+        "Psychopathology & Assessment": ["psychopath", "assessment", "psychometric", "scale", "validation", "diagnosis", "diagnostic", "screening tool", "digital twin", "amnesia"],
         "Eating Disorders": ["eating disorder", "anorexia", "bulimia", "binge", "body image", "weight"],
-        "Somatic & Functional": ["somatic", "chronic pain", "functional", "conversion", "medically unexplained"],
+        "Somatic & Functional": ["somatic", "chronic pain", "functional", "conversion", "medically unexplained", "interoceptive", "interoception"],
         "Suicidality & Self-Harm": ["suicid", "self-harm", "nonsuicidal", "self-injur"],
-        "Psychosis & Schizophrenia": ["psychosis", "schizophreni", "delusion", "hallucinat", "psychotic"],
-        "Addiction & Substance Use": ["addiction", "substance", "alcohol", "drug", "opiate", "cannabis", "gambling"],
+        "Psychosis & Schizophrenia": ["psychosis", "schizophreni", "delusion", "hallucinat", "psychotic", "psychotic-like", "thought disorder", "stream of consciousness"],
+        "Addiction & Substance Use": ["addiction", "substance", "alcohol", "drug", "opiate", "cannabis", "gambling", "salvia", "hallucinogen", "psychedel"],
         "Obsessive-Compulsive": ["obsessive-compulsive", "hoarding", "body-focused repetitive"],
     }
     best_cat = "Other Clinical"
