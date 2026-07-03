@@ -115,7 +115,7 @@ EXCLUDE_COMPILED = [re.compile(kw, re.IGNORECASE) for kw in HARD_EXCLUDE]
 # ─── Functions ────────────────────────────────────────────────────────────────
 
 def load_existing_ids():
-    """Load known OSF base IDs from papers.json."""
+    """Load known OSF base IDs from papers.json and seen-compact-ids.json."""
     with open(PAPERS_JSON) as f:
         papers = json.load(f)
     ids = set()
@@ -123,6 +123,11 @@ def load_existing_ids():
         oid = p.get("osf_id")
         if oid:
             ids.add(oid.split("_v")[0])
+    # Also load previously seen IDs (including discarded papers)
+    seen_file = os.path.join(PSYARXIV_HUB, "data", "seen-compact-ids.json")
+    if os.path.exists(seen_file):
+        with open(seen_file) as f:
+            ids.update(json.load(f))
     return ids, len(papers)
 
 
@@ -448,13 +453,29 @@ def main():
         for a in all_accepted:
             f.write(f"- {a['compact_id']} {a['title'][:80]} (score {a['final_score']}, via {a.get('source','title')})\n")
 
-    # 8. Cleanup temp files
+    # 8. Update seen-compact-ids.json with all encountered IDs
+    seen_file = os.path.join(PSYARXIV_HUB, "data", "seen-compact-ids.json")
+    existing_seen = set()
+    if os.path.exists(seen_file):
+        with open(seen_file) as f:
+            existing_seen = set(json.load(f))
+    # Add all candidates from this run
+    for a in all_accepted:
+        existing_seen.add(a["compact_id"])
+    for cid, oid, title, reason in all_discarded:
+        existing_seen.add(cid)
+    # Also add unseen IDs that scored 0 (auto-discarded by title)
+    with open(seen_file, "w") as f:
+        json.dump(sorted(existing_seen), f, indent=2)
+
+    # 9. Cleanup temp files
     cleanup_tmp()
 
     print(f"\nOutputs:")
     print(f"  {SCREENED_PAPERS} ({len(all_accepted)} accepted)")
     print(f"  {SCREENING_BRIEF} ({len(brief)} total)")
     print(f"  {DISCARDED_LOG} (appended)")
+    print(f"  {seen_file} ({len(existing_seen)} tracked IDs)")
     print(f"  Temp PDFs cleaned up")
 
 
