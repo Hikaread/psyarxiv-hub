@@ -1,0 +1,586 @@
+     1→Title: Sex Bias in a Gold-Standard Autism Assessment: An Analysis of 19,569 Children and
+     2→Adults
+     3→Word count: 2869
+     4→Authors:
+     5→Austin Wyman, M.A.1, Yvonne Yu, B.SSc.2, Chenhao Li, B.S. 1, Elle Fox, B.S. 1, Johnny Zhang,
+     6→Ph.D.1, Caitlin C. Clements, Ph.D.1
+     7→1Department of Psychology, University of Notre Dame
+     8→2Graduate School of Applied and Professional Psychology, Rutgers, The State University of New
+     9→Jersey
+    10→Corresponding Author:
+    11→Caitlin C. Clements, Ph.D.
+    12→390 Corbett Family Hall
+    13→Notre Dame, IN 46556
+    14→Cclemen2@nd.edu
+    15→574-631-0950
+    16→
+    17→Key Points
+    18→Question: Does a gold-standard autism assessment, the Autism Diagnostic Observation
+    19→Schedule (ADOS), show sex bias in specific autistic traits?
+    20→Findings: In 19,569 individuals across the full developmental and language spectrum, significant
+    21→sex bias was observed primarily for verbally fluent adolescents and adults. Females tended to be
+    22→underscored on social communication and overscored on restricted and repetitive behavior items,
+    23→and the effect was small (<1 point).
+    24→Meaning: Findings suggest that sex bias in the ADOS is minimal at lower ages and language
+    25→levels, but assessments of verbally fluent adults might benefit from adding measures of
+    26→camouflaging or sex-specific norms.
+    27→Abstract
+    28→Importance Autistic females are consistently underidentified relative to males. Whether item-
+    29→level sex bias in the Autism Diagnostic Observation Schedule (ADOS), the gold standard
+    30→observational assessment of autism spectrum disorder, contributes to this disparity across the full
+    31→developmental and language range remains unknown.
+    32→Objectives To examine differential item functioning (DIF) by sex in ADOS algorithm items
+    33→across all modules.
+    34→Design Cross-sectional study.
+    35→Setting Item-level ADOS data were drawn from the NIMH Data Archive, Simons Simplex
+    36→Collection, Simons Foundation Powering Autism Research for Knowledge, and Autism Inpatient
+    37→Collection.
+    38→
+    39→Participants Individuals with item-level ADOS or ADOS-2 data who were administered the
+    40→age-appropriate module.
+    41→Exposure Sex (female vs. male)
+    42→Main Outcome and Measures Sex-based DIF was examined separately within each of 8
+    43→module and language-level combinations, covering 112 algorithm items total. For each
+    44→combination, a graded response item response theory model was fit to the item set, and DIF was
+    45→evaluated using likelihood ratio test approach.
+    46→Results A total of 19,569 individuals (14,807 male [75.7%]; 4,760 female [24.3%]) aged 12
+    47→months to 75 years were included. Of 112 items analyzed, eleven unique items showed
+    48→significant sex DIF after correcting for type I error. No significant DIF was detected in the
+    49→Toddler Module, Module 1 Low Language, or Module 2 after correction. Significant DIF was
+    50→detected in Module 1 High Language (3 items) and Module 3 (1 item), with Module 4 showing
+    51→the greatest number of significant items (7 of 14). Overall, adult females tended to be
+    52→underscored on social communication items and overscored on items concerning restricted and
+    53→repetitive behaviors and interests. All effect sizes were small except one (stereotyped language,
+    54→Module 1 High Language).
+    55→Conclusions and Relevance These findings suggest that the ADOS is largely robust to sex-
+    56→based measurement bias for younger individuals and those with less language, but significant
+    57→bias exists for verbally fluent adolescents and adults. The domain-specific pattern of bias is
+    58→consistent with female camouflaging of social difficulties and sex differences in the presentation
+    59→of restricted, repetitive behaviors and interests. Clinician training and future instrument
+    60→development should account for these differences to improve diagnostic equity across sex.
+    61→
+    62→Introduction
+    63→The prevalence of autism spectrum disorder (“autism”) has risen substantially over the
+    64→past two decades, with recent surveillance data indicating that approximately 1 in 31 children in
+    65→the United States meet criteria for autism1. Across epidemiological studies and geographic
+    66→regions, disparities in autism prevalence by sex represent one of the most consistently replicated
+    67→findings, with males diagnosed at rates three to four times higher than females1,2. While
+    68→biological factors may contribute to this sex imbalance3,4, growing evidence suggests that
+    69→ascertainment and measurement biases also play a critical role5. In particular, diagnostic
+    70→instruments developed and validated using predominantly male samples may be less sensitive to
+    71→female presentations of autism, potentially contributing to the under-identification of autistic
+    72→females6,7. Clarifying whether these instruments measure autistic traits equivalently across sexes
+    73→is an important step toward understanding sex disparities in autism prevalence.
+    74→Sex differences in the behavioral presentation of autism may contribute to this
+    75→measurement challenge. The female presentation of autism differs from the male presentation in
+    76→ways that may be unfamiliar to clinicians given the historical focus on males8,9. Specifically,
+    77→autistic females tend to have milder restricted and repetitive behaviors, and their focused
+    78→interests are often more similar to those of neurotypical same-sex peers in content10. Females
+    79→across the lifespan are also more likely to use camouflaging strategies, which involve hiding
+    80→autistic behaviors or compensating for social difficulties by mimicking others11-13. These
+    81→differences are evident during diagnostic assessments, where autistic females may demonstrate
+    82→greater verbal interest in social topics such as friendships14 and receive higher clinician ratings of
+    83→social and emotional insight relative to males15,16. Together, these presentation differences may
+    84→complicate clinical judgment during diagnostic evaluations.
+    85→
+    86→Given that standardized clinical instruments inform diagnostic decisions, careful
+    87→evaluation of their measurement properties across sexes is essential. The Autism Diagnostic
+    88→Observation Schedule (ADOS) is the most widely used observational diagnostic assessment for
+    89→autism and is often regarded as the “gold standard”17,18. During administration, clinicians engage
+    90→individuals in semi-structured activities designed to elicit autism-related behaviors, which are
+    91→then scored on an ordinal scale. Although the ADOS has demonstrated strong reliability and
+    92→validity across age groups and language levels, its development and validation relied largely on
+    93→male samples17,19, raising concerns about whether items function equivalently in males and
+    94→females5. Additionally, while standardized training is required for ADOS examiners, clinician
+    95→experience and behavior during administration may still introduce bias20,21.
+    96→Emerging evidence suggests that some ADOS items may indeed function differently for
+    97→males and females, though findings have been mixed22. Factor analyses indicate that certain
+    98→items, such as those assessing eye contact or unusual sensory interests, are stronger indicators of
+    99→underlying autistic traits in one sex than the other23,24. Using item response theory (IRT), some
+   100→studies have found no significant differential item functioning (DIF) by sex22,25. However, other
+   101→studies have identified item level bias. Kalb and collegues26 identified DIF in five items across
+   102→modules 1 through 3, with hand mannerisms showing significant DIF across all algorithms
+   103→examined. Females were consistently underscored, meaning that females required higher levels
+   104→of underlying autistic traits than males to receive equivalent scores—greater difficulty
+   105→parameters for females, in IRT parlance). Yu and collegues16 reported the opposite pattern in
+   106→Module 3, finding that females were overscored on two restricted and repetitive behavior items
+   107→(hand mannerisms and specific interests/repetitive behaviors). With regard to social
+   108→communication, three previous studies all consistently reported that females were rated as less
+   109→
+   110→impaired on multiple social communication items relative to males with same latent trait levels.
+   111→Despite these advances, a limitation of this body of work is that most studies have examined only
+   112→a small subset of items or of the population (e.g., only early childhood, or only verbally fluent
+   113→children who received Module 3).
+   114→The current study aimed to address inconsistencies by examining sex DIF in ADOS items
+   115→in over 19,000 individuals drawn from four large research databases. We analyzed algorithm
+   116→items across eight module and language level combinations, spanning the instrument’s full
+   117→developmental range from toddlers through adults. Such comprehensive examination is a critical
+   118→step toward understanding whether measurement bias contributes to sex disparities in autism
+   119→identification. Based on prior findings, we hypothesized that specific items would exhibit DIF,
+   120→with females underscored on items relative to males.
+   121→Methods
+   122→Participants
+   123→The present study compiled data from four sources that possessed item-level ADOS data:
+   124→the Simons Simplex Collection (SSC; n = 2,545), the Simons Powering Autism Research for
+   125→Knowledge (SPARK; n = 2,104), the Autism Inpatient Collection (AIC; n = 1,466), and the
+   126→National Institute of Mental Health Data Archive (NDA; n = 13,454) (Supplemental Methods;
+   127→Table S1). Participants were included in the present study if they had item-level ADOS or
+   128→ADOS-2 data available and were administered the age-appropriate module (N = 19,569; Table
+   129→1). Additional variables of age, race, and diagnosis were extracted and harmonized across data
+   130→sources (Table 1; Tables S2-S6).
+   131→Measures
+   132→
+   133→The ADOS is a gold-standard assessment widely used in autism diagnostic evaluations.
+   134→The ADOS is separated into five distinct modules to evaluate autistic behaviors based on age and
+   135→language level (Toddler Module Low/High Language, Module 1 Low/High Language, Module 2
+   136→Low/High Language, Module 3, and Module 4; Table 1 and Supplemental Methods). Module
+   137→and language combinations yield eight unique item sets that were analyzed separately given that
+   138→items often have different meanings across age and language; for example, the gesture item
+   139→refers to conversational beat and emphatic gestures for verbally fluent adults in Module 4, and to
+   140→waving ‘hi’ for a toddler without spoken language in Module 1.
+   141→Each module includes 28-39 items on which trained examiners rate the participant as 0, 1,
+   142→or 2 (for more details, see supplemental methods). A score of 2 reflects “definite” or “marked”
+   143→atypicality, while a 1 reflects “mild” atypicality and a 0 reflects “no evidence” of atypicality18.
+   144→Scores on a subset of items, called “algorithm items” (Tables S7-S11), are summed to construct a
+   145→total raw score, which has empirically determined cut-offs for the classification of autism, autism
+   146→spectrum, and non-spectrum18. The present analysis leveraged algorithm item scores, as these are
+   147→most commonly reported in databases.
+   148→The ADOS items broadly assess five domains of behavior: A) language and
+   149→communication (e.g., echolalia, gestures), B) reciprocal social interaction (e.g., eye contact,
+   150→facial expressions), C) imagination (e.g., creative play or comments), D) stereotyped behaviors
+   151→and restricted interests (e.g., finger tensing, sensory interests in toys), and E) other behaviors
+   152→(e.g., anxiety, tantrums). Multiple factor structures fit the ADOS items, although the 2-factor
+   153→structure is the most widely supported model22-24, consisting of Social Communication (SC) and
+   154→Restricted and Repetitive Behaviors and Interests (RRBI).
+   155→Analysis
+   156→
+   157→Factor Structure
+   158→Confirmatory factor analysis (CFA) was conducted using the two-factor structure of the
+   159→ADOS, with the two factors allowed to correlate with each other. Although unidimensional and
+   160→three-factor models are occasionally used in the literature, the two-factor model is widely
+   161→supported for DIF analysis. Furthermore, parallel analysis—a standard method for determining
+   162→the number of factors in exploratory factor analysis models27,28—was conducted on the ADOS
+   163→correlation matrices and identified the two-factor solution as most appropriate in 7 out of 8
+   164→module/language combinations. The specific factor loading pattern for each module can be found
+   165→in the supplementary material (Tables S12-S16).
+   166→An IRT Graded Response Model (GRM) was fitted to the algorithm items of each
+   167→module subset individually. The GRM estimates four item parameters: “a1” describes the
+   168→discrimination (i.e., slope) parameter for the SC factor for a given item, “a2” describes
+   169→discrimination for the RRBI factor, “b1” describes the difficulty (i.e., intercept) parameter for the
+   170→first item response threshold (0 to 1), and “b2” describes the difficulty for the second threshold
+   171→(1 to 2).
+   172→Differential Item Functioning
+   173→Sex DIF was evaluated using the IRT likelihood ratio test (LRT) approach. Two two-
+   174→group models—constrained and unconstrained—were fit to all items, then compared. The
+   175→constrained model set all item parameters (a1, a2, d1, d2) to be equal between the two groups
+   176→(males and females), and the unconstrained model estimated all parameters freely in both groups.
+   177→For each item, if the unconstrained model fit significantly better than the constrained model
+   178→according to the LRT, the item was considered as functioning significantly differently between
+   179→groups (i.e., males and females; evidence of DIF). Anchor items for each module subset were
+   180→
+   181→determined through an iterative purification procedure (see Supplementary Methods).
+   182→Furthermore, given the risk of Type I error inflation due to multiple comparisons in the LRT
+   183→approach, a Benjamini–Hochberg false discovery rate correction was applied to the p-values
+   184→concerning DIF items, which maintained a familywise type I error rate of 0.05 in the subset of
+   185→items post-anchor item selection (within each comparison subset). DIF effect sizes were
+   186→computed including the Signed Item Difference in the Sample (SIDS), Unsigned Item Difference
+   187→in the Sample (UIDS), and the Expected Score Standardized Difference (ESSD); see
+   188→Supplementary Methods of explanation and interpretation of effect sizes. All analyses were
+   189→implemented using R and mirt29.
+   190→Results
+   191→Sample Characteristics
+   192→Participants included 14,809 males and 4,760 females, with ages ranging from 12 months
+   193→old to 75 years old. Sample characteristics by ADOS module and language level are presented in
+   194→Table 1.
+   195→Differential Item Functioning
+   196→Across all 8 module-language subsets, 20 of 112 items showed significant DIF before
+   197→correction for multiple comparisons (Tables S17-S21), and 11 showed significant sex DIF after
+   198→correction (Table 2; Figure 1, 2). The Toddler Module, Module 1 Low Language, and Module 2
+   199→Low/High Language contained 0 DIF items after correction. Module 3 showed only 1 DIF item
+   200→(TOPIC). Module 1 High Language showed 3 DIF items (POINT, SHOW, STEREO). Module 4
+   201→contained 4 social communication DIF items and 3 RRBI DIF items between 1,752 males and
+   202→731 females (EGEST, FACEE, CAFF, INSIG, USENS, OMAN, TOPIC). According to effect
+   203→sizes, females tended to be underscored (i.e., negative SIDS/ESSD) on most social
+   204→
+   205→communication items, except for POINT in Module 1 High Language. However, females tended
+   206→to be overscored (i.e., positive SIDS/ESSD) on most RRBI items, except for TOPIC in Module
+   207→3. Notably, females were underscored for TOPIC in Module 3 yet overscored on TOPIC in
+   208→Module 4. According to Cohen’s d guidelines for interpreting ESSD values, all observed DIF
+   209→effect sizes were small except for the DIF effect of STEREO in Module 1 High Language, which
+   210→was medium-sized.
+   211→Discussion
+   212→This study is the first to examine sex bias in autism assessment across all ages and ability
+   213→levels in one of the most widely used autism diagnostic instruments, the ADOS. We pooled four
+   214→national datasets to include over 19,000 individuals from ages 12 months to 75 years, with fluent
+   215→language to no spoken words. Our findings suggest that while the ADOS is very robust to bias
+   216→for individuals who are younger or have less language, significant sex bias exists for verbally
+   217→fluent adults. The pattern differs between the social communication and RRBI traits and is
+   218→consistent with reports of distinct female presentations of autism. These results raise questions
+   219→about diagnostic equity across sexes and provide potential explanations for the female to male
+   220→imbalance.
+   221→Contrary to our hypothesis that all items with significant DIF would reflect underscoring
+   222→of females (i.e., rated as more neurotypical), we observed this pattern primarily for social
+   223→communication items in Module 4, which is administered to individuals over 15-years-old with
+   224→fluent language. Among individuals with younger ages and/or less language, seven analyses (i.e.,
+   225→Module 3, and High and Low Language levels for Modules 1, 2, and Toddler; 98 items analyzed)
+   226→in the largest samples yet with adequate statistical power showed significant DIF for only 2
+   227→social communication items. These two items (i.e., pointing and gesturing in Module 1 High
+   228→
+   229→Language) were not observed in prior studies. A broader, more coherent pattern of female
+   230→underscoring emerged in four Module 4 items assessing facial expression, gestures,
+   231→communication of affect, and social insight. This pattern suggests that identifying social
+   232→communication difficulties in autistic females may become increasingly challenging as
+   233→developmental and verbal abilities increase.
+   234→One potential mechanism underlying the underscoring of females on social
+   235→communication items is the greater tendency for autistic females to engage in camouflaging12,30-
+   236→34. Due to gendered social expectations12,35,36, autistic females may develop compensatory
+   237→strategies, including imitation or masking of autistic traits34, intentional cultivation of empathy
+   238→and sociability skills36, and modification of verbal communicative behaviors37, to meet social
+   239→expectations and avoid rejection. Camouflaging has also been shown to increase during
+   240→adolescence and persist into adulthood38.
+   241→Three recommendations emerge from these results. First, as the ADOS undergoes
+   242→revisions, female-specific norms may be warranted to equate female and male autistic traits.
+   243→Second, since the ADOS informs diagnostic decision-making in conjunction with other
+   244→information, accuracy might be improved by assessing camouflaging after ADOS administration
+   245→to reduce the likelihood of overlooking impairing social communication symptoms in females as
+   246→verbal and social compensatory abilities develop. Finally, providers can reassure families of
+   247→females who are younger or have less language that, despite popular opinion that autism
+   248→assessment is biased against all females, their ADOS results are unlikely to show significant sex
+   249→bias and are likely valid.
+   250→For restricted, repetitive behaviors or interests, little evidence of sex bias was observed in
+   251→earlier modules (Toddler, 1, and 2) across 98 items analyzed, excepting two items. The Module 1
+   252→
+   253→item on stereotyped language showed overscoring in females in this sample but was not
+   254→previously reported in prior Module 1 investigations23,26 and requires replication. In contrast,
+   255→females were significantly underscored in Module 3 for excessive interest in a
+   256→topic/object/repetitive behavior, replicating findings from two prior studies16,39. This item has
+   257→also shown better differentiation between autistic and non-autistic females than between
+   258→males16,24. This robust finding is consistent with reports that female special interests tend to be
+   259→more socially relevant or expressed in more socially appropriate ways10,40-42. Female-specific
+   260→interpretation of this symptom may be warranted in both diagnosis and in ADOS scoring of this
+   261→item (“D4”).
+   262→In Module 4, three of five RRBI items showed DIF in this sample of 2,483 verbally fluent
+   263→adults. No previous study of DIF has examined adults alone. Adult females were overscored (i.e.,
+   264→rated as more autistic) on excessive interest in a topic compared to males with the same level of
+   265→autistic latent trait, but the effect size was negligible. The effect sizes for overscoring females on
+   266→hand mannerisms and sensory interests were small-to-moderate. There are a few plausible
+   267→explanations for these results. First, it is possible that adult females receive higher scores because
+   268→they exhibit more hand mannerisms and sensory interests than males do. This explanation seems
+   269→plausible because these two items are based on the frequency of discrete occurrences and
+   270→notably, among the least subjective scores. This hypothesis could be tested by coding instances
+   271→of each behavior in ADOS videos of males and females.
+   272→A second plausible explanation is that adult females may show equivalent frequencies of
+   273→hand mannerisms and sensory interests to males, but they may be rated as showing more by
+   274→clinicians due to bias. Potential mechanisms underlying this bias are speculated to be that
+   275→clinicians may expect fewer mannerisms and sensory behaviors in females so the occurrences are
+   276→
+   277→particularly salient to clinicians, leading to overscoring; or, clinicians may be aware of research
+   278→(e.g., 43) that mannerisms and sensory behaviors may present in more ‘socially acceptable’ ways
+   279→in females, such as hand-wringing or hair-twirling, and score these gender-stereotype-congruent
+   280→behaviors in females but not males. Both of these speculated mechanisms could be measured
+   281→then evaluated as a potential mediator of the ADOS item DIF using established methods44.
+   282→Limitations
+   283→Several limitations of the current study should be considered. First, DIF analyses identify
+   284→whether items function differently across groups but cannot determine why these differences
+   285→occur. As such, the current findings cannot distinguish whether observed measurement
+   286→differences reflect sex-related differences in autism presentation, biases in clinician recognition
+   287→and interpretation, or both. Second, the ADOS is intended to serve as one component of a
+   288→comprehensive autism evaluation that integrates multiformat interviews, a developmental
+   289→history, and other standardized diagnostic assessments such as questionnaires45. In a minority of
+   290→cases, the clinician’s final autism diagnostic decision contradicts the ADOS classification, as the
+   291→ADOS— like all assessment tools—is not perfectly sensitive and specific18. Thus, sex disparities
+   292→in autism prevalence are unlikely to be fully explained by ADOS DIF alone, nor does the
+   293→absence of DIF in ADOS items guarantee equitable identification. Nevertheless, because the
+   294→ADOS remains one of the most widely used autism assessment tools and is often required for
+   295→access to autism-related services46, understanding and minimizing potential measurement
+   296→differences remain clinically important. Third, this analysis examined ADOS algorithm items
+   297→only, but non-algorithm ADOS items such as echolalia or functional play often contribute to
+   298→diagnostic decision-making.
+   299→
+   300→Conclusions
+   301→Comprehensive examination of sex-related measurement differences across all ADOS
+   302→modules revealed minimal sex DIF in earlier modules, compared with a more prominent and
+   303→coherent pattern among older, verbally fluent individuals in Module 4. Females tended to be
+   304→underscored on social communication items and overscored on RRBI items. While camouflaging
+   305→might explain the former pattern, the latter requires clarification of whether females are rated
+   306→differently or truly exhibit more RRBIs during the ADOS. Future work should explore both how
+   307→camouflaging autistic traits during the ADOS and how sex differences in autism presentation—
+   308→particularly among older and verbally fluent individuals—might be incorporated into autism
+   309→evaluation, such as by incorporating a measure of camouflaging or female-specific norms, to
+   310→improve equitable diagnosis across sex and development.
+   311→Acknowledgements
+   312→AW, YY, CL, EF, ZZ, and CCC report no conflicts of interest. This work was supported
+   313→by internal funds from the University of Notre Dame to CCC and a Graduate Research
+   314→Fellowship from the National Science Foundation to AW. Funders played no role in the conduct
+   315→of these analyses, and the results and interpretations represent the views of the authors alone.
+   316→Preliminary results were presented at the 2026 Meeting of the International Society for Autism
+   317→Research. The BRAIN Lab Community Advisory Board provided feedback on the idea and
+   318→preliminary results. Emma Simard assisted with designing figures. Sophia Waddell provided
+   319→feedback on the final draft of the manuscript.
+   320→
+   321→Data and/or research tools used in the preparation of this manuscript were obtained from
+   322→the National Institute of Mental Health (NIMH) Data Archive (NDA). NDA is a collaborative
+   323→informatics system created by the National Institutes of Health to provide a national resource to
+   324→support and accelerate research in mental health. Dataset identifier(s): 10.15154/4b94-f747. This
+   325→manuscript reflects the views of the authors and may not reflect the opinions or views of the NIH
+   326→or of the Submitters submitting original data to NDA.
+   327→We are grateful to all of the families at the participating Simons Simplex Collection
+   328→(SSC) sites, as well as the principal investigators (A. Beaudet, R. Bernier, J. Constantino, E.
+   329→Cook, E. Fombonne, D. Geschwind, R. Goin-Kochel, E. Hanson, D. Grice, A. Klin, D.
+   330→Ledbetter, C. Lord, C. Martin, D. Martin, R. Maxim, J. Miles, O. Ousley, K. Pelphrey, B.
+   331→Peterson, J. Piggot, C. Saulnier, M. State, W. Stone, J. Sutcliffe, C. Walsh, Z. Warren, E.
+   332→Wijsman). We are grateful to all of the families at the participating Autism Inpatient Collection
+   333→(AIC) sites, as well as the principal investigators (C. Erickson, R. Gabriels, R. Mahajan, C.
+   334→Mazefsky, S. Santangelo, M. Siegel, G. Righi). We are grateful to all of the families in SPARK,
+   335→the SPARK clinical sites, and SPARK staff. We appreciate obtaining access to phenotypic data
+   336→on SFARI Base. Approved researchers can obtain the SSC population dataset described in this
+   337→study (https://www.sfari.org/resource/simons-simplex-collection/), the SPARK population
+   338→dataset described in this study (https://www.sfari.org/resource/spark/spark-phenotypic-data/),
+   339→and the AIC population dataset described in this study (https://www.sfari.org/resource/autism-
+   340→inpatient-collection/) by applying at https://base.sfari.org.
+   341→
+   342→Tables
+   343→Table 1. Sample Demographics
+   344→Mod. TL Mod. TH Mod. 1L Mod. 1H Mod. 2L Mod. 2H Mod. 3 Mod. 4
+   345→Total N 1,175 698 2,272 2,832 2,065 1,334 6,710 2,483
+   346→Age, Mean (SD) 19.22 mo. 25.55 mo. 6.39 yrs. 5.58 yrs. 4.52 yrs. 7.38 yrs. 9.61 yrs. 23.62 yrs.
+   347→(5.22) (2.85) (4.68) (3.80) (2.48) (4.68) (2.75) (7.55)
+   348→Age Range 12 - 30 mo. 21 - 30 mo. 2.6 - 40.6 2.6 - 30.7 1.7 - 32.8 yrs. 2.0 - 45.7 3.1 - 15.8 16.0 - 75.0
+   349→yrs. yrs. yrs. yrs. yrs.
+   350→Female, No. (%) 346 (29.5) 209 (29.9) 479 (21.1) 665 (23.5) 601 (29.1) 316 (23.7) 1,413 (21.1) 731 (29.4)
+   351→Race, No. (%)
+   352→White 744 (63.3) 387 (55.4) 1,150 (50.6) 1,430 (50.5) 1,178 (57.1) 860 (64.5) 4,796 (71.5) 1,890 (76.1)
+   353→Black 231 (19.7) 237 (34.0) 467 (20.6) 460 (16.2) 234 (11.3) 132 (9.9) 487 (7.3) 165 (6.7)
+   354→Asian 80 (6.8) 41 (5.9) 125 (5.5) 156 (5.5) 108 (5.2) 52 (3.9) 183 (2.7) 74 (3.0)
+   355→American
+   356→Indian/Alaskan 0 (.0) 0 (.0) 7 (.3) 11 (.4) 5 (.2) 3 (.2) 24 (.4) 5 (.2)
+   357→Native
+   358→Pacific Islander/
+   359→0 (.0) 0 (.0) 5 (.2) 5 (.2) 2 (.1) 3 (.2) 9 (.1) 10 (.4)
+   360→Native Hawaiian
+   361→Missing 120 (10.2) 33 (4.7) 518 (22.8) 770 (27.2) 538 (26.1) 284 (21.3) 1,211 (18.1) 339 (13.7)
+   362→Diagnosis, No. (%)
+   363→Autism 474 (40.3) 359 (51.4) 1,987 (87.5) 2,292 (80.9) 1,147 (55.5) 1,035 (77.6) 5,334 (79.5) 1,512 (60.9)
+   364→Not Autism 226 (19.2) 81 (11.6) 107 (4.7) 225 (7.9) 539 (26.1) 168 (12.6) 909 (13.6) 661 (26.6)
+   365→Missing 475 (40.4) 258 (37.0) 178 (7.8) 315 (11.1) 379 (18.4) 131 (9.8) 467 (7.0) 310 (12.5)
+   366→Note. Mod. TL = Toddler Module low language, Mod. TH = Toddler Module high language, Mod. 1L = Module 1 low language, Mod. 1H =
+   367→Module 1 high language, Mod. 2L = Module 2 low language, Mod. 2H = Module 2 high language, Mod. 3 = Module 3, Mod. 4 = Module 4.
+   368→Autism diagnosis is reported as missing if the study did not report Autism diagnosis or if the participant received conflicting or unclear diagnoses
+   369→across multiple evaluations.
+   370→
+   371→Table 2. ADOS items with significant differential item functioning (DIF) by sex
+   372→Item (Module) Sex a1 a2 b1 b2 Type SIDS UIDS ESSD
+   373→Social Communication
+   374→POINT Male 1.70 0.00 -0.97 0.66 NU 0.069 0.078 0.159
+   375→(Mod 1 High)
+   376→Female 1.32 0.00 -1.26 0.55 - - -
+   377→GEST Male 1.38 0.00 -0.92 1.08 U -0.076 0.076 -0.200
+   378→(Mod 1 High)
+   379→Female 1.26 0.00 -0.72 1.28 - - -
+   380→EGEST Male 1.27 0.00 -0.50 0.98 NU -0.039 0.081 -0.116
+   381→(Mod 4)
+   382→Female .95 0.00 -0.48 1.56 - - -
+   383→FACEE Male 1.64 0.00 -0.91 1.59 U -0.096 0.096 -0.283
+   384→(Mod 4)
+   385→Female 1.57 0.00 -0.58 1.71 - - -
+   386→CAFF Male 1.45 0.00 -0.43 1.61 NU -0.087 0.092 -0.287
+   387→(Mod 4)
+   388→Female 1.19 0.00 -0.24 2.45 - - -
+   389→INSIG Male 1.70 0.00 -0.79 0.85 NU -0.081 0.100 -0.206
+   390→(Mod 4)
+   391→Female 1.28 0.00 -0.68 1.33 - - -
+   392→Restricted and Repetitive Behaviors and/or Interests
+   393→STEREO Male 0.00 1.09 -0.27 1.25 U 0.218 0.218 0.626
+   394→(Mod 1 High)
+   395→Female 0.00 1.18 -0.76 0.69 - - -
+   396→TOPIC Male 0.00 1.18 -0.47 1.11 U -0.108 0.108 -0.294
+   397→(Mod 3)
+   398→Female 0.00 1.26 -0.24 1.43 - - -
+   399→TOPIC Male 0.00 1.36 0.44 1.71 NU 0.038 0.051 0.123
+   400→(Mod 4)
+   401→Female 0.00 1.74 0.14 1.46 - - -
+   402→USENS Male 0.00 1.20 1.81 2.99 U 0.057 0.057 0.472
+   403→(Mod 4)
+   404→Female 0.00 1.05 1.54 3.03 - - -
+   405→17
+   406→
+   407→OMAN Male 0.00 0.95 2.11 3.27 NU 0.045 0.052 0.309
+   408→(Mod 4)
+   409→Female 0.00 1.36 1.23 2.11 - - -
+   410→Note. SIDS = Signed Item Difference in the Sample; UIDS = Unsigned Item Difference in the
+   411→Sample; ESSD = Expected Score Standardized Difference; U = Uniform Differential Item
+   412→Functioning (DIF); NU = Nonuniform Differential Item Functioning (DIF); POINT = Pointing;
+   413→GEST = Gestures; EGEST = Empathic or Emotional Gestures; FACEE = Facial Expressions
+   414→Directed to Examiner; CAFF = Communication of Own Affect; INSIG = Insight Into Typical
+   415→Social Situations and Relationships; STEREO = Stereotyped/Idiosyncratic Use of Words or
+   416→Phrases; TOPIC = Excessive Interest in Unusual or Highly Specific Topics / Objects or
+   417→Repetitive Behaviors; USENS = Unusual Sensory Interest in Play Material / Person; OMAN =
+   418→Hand and Finger and Other Complex Mannerisms.
+   419→Figures
+   420→Figure 1. ADOS social communication items that show significant Differential Item Functioning
+   421→(DIF) by sex. On Module 4, which is administered to verbally fluent individuals aged 15 years
+   422→18
+   423→
+   424→and over, females (red) tended to be underscored on these items, meaning rated as more
+   425→neurotypical compared to males (blue) with equivalent levels of latent autistic social
+   426→communication traits. ADOS = Autism Diagnostic Observation Schedule; Social Comm. =
+   427→Social Communication; POINT = Pointing; GEST = Gestures; FACEE = Facial Expressions
+   428→Directed to Examiner; CAFF = Communication of Own Affect; INSIG = Insight; EGEST =
+   429→Empathic or Emotional Gestures.
+   430→Figure 2. ADOS restricted or repetitive behaviors and interests (RRBI) items that show
+   431→significant Differential Item Functioning by sex. On Module 4, which is administered to verbally
+   432→fluent individuals aged 15 years and over, females (red) tended to be overscored on these items,
+   433→meaning rated as more neurotypical compared to males (blue) with equivalent levels of latent
+   434→19
+   435→
+   436→autistic RRBI traits. ADOS = Autism Diagnostic Observation Schedule; STEREO = Unusually
+   437→Repetitive Interests or Stereotyped Behaviors; TOPIC = Excessive Interest in Unusual or Highly
+   438→Specific Topics / Objects or Repetitive Behaviors; USENS = Unusual Sensory Interest in Play
+   439→Material / Person; OMAN = Hand and Finger and Other Complex Mannerisms.
+   440→20
+   441→
+   442→References
+   443→1. Shaw KA, Williams S, Patrick ME, et al. Prevalence and Early Identification of Autism
+   444→Spectrum Disorder Among Children Aged 4 and 8 Years - Autism and Developmental
+   445→Disabilities Monitoring Network, 16 Sites, United States, 2022. MMWR Surveill Summ.
+   446→2025;74(2):1-22. doi:10.15585/mmwr.ss7402a1
+   447→2. Loomes R, Hull L, Mandy WPL. What is the male-to-female ratio in autism spectrum
+   448→disorder? A systematic review and meta-analysis. J Am Acad Child Adolesc Psychiatry.
+   449→2017;56(6):466-474. doi:10.1016/j.jaac.2017.03.013
+   450→3. Robinson EB, Lichtenstein P, Anckarsäter H, Happé F, Ronald A. Examining and
+   451→interpreting the female protective effect against autistic behavior. Proc Natl Acad Sci.
+   452→2013;110(13):5258-5262. doi:10.1073/pnas.1211070110
+   453→4. Baron-Cohen S, Lombardo MV, Auyeung B, Ashwin E, Chakrabarti B, Knickmeyer R.
+   454→Why are autism spectrum conditions more prevalent in males? PLoS Biol. 2011;9(6):e1001081.
+   455→doi:10.1371/journal.pbio.1001081
+   456→5. Burrows CA, Elison JT, Piven J. Mitigating sex-related biases to elucidate the autism
+   457→phenotype. Biol Psychiatry. 2025;doi:10.1016/j.biopsych.2025.06.035
+   458→6. Kreiser NL, White SW. ASD in females: Are we overstating the gender difference in
+   459→diagnosis? Clin Child Fam Psychol Rev. 2014;17(1):67-84. doi:10.1007/s10567-013-0148-9
+   460→7. Lai M-C, Lombardo MV, Auyeung B, Chakrabarti B, Baron-Cohen S. Sex/gender
+   461→differences and autism: Setting the scene for future research. J Am Acad Child Adolesc
+   462→Psychiatry. 2015;54(1):11-24. doi:10.1016/j.jaac.2014.10.003
+   463→21
+   464→
+   465→8. Lai M-C, Szatmari P. Sex and gender impacts on the behavioural presentation and
+   466→recognition of autism. Curr Opin Psychiatry. 2020;33(2):117-123.
+   467→doi:10.1097/yco.0000000000000575
+   468→9. Hull L, Petrides K, Mandy W. The female autism phenotype and camouflaging: A
+   469→narrative review. Rev J Autism Dev Disord. 2020;7(4):306-317. doi:10.1007/s40489-020-00197-
+   470→9
+   471→10. Edwards H, Wright S, Sargeant C, Cortese S, Wood-Downie H. Research Review: A
+   472→systematic review and meta-analysis of sex differences in narrow constructs of restricted and
+   473→repetitive behaviours and interests in autistic children, adolescents, and adults. J Child Psychol
+   474→Psychiatry. 2024;65(1):4-17. doi:10.1111/jcpp.13855
+   475→11. Wood-Downie H, Wong B, Kovshoff H, Mandy W, Hull L, Hadwin JA. Sex/gender
+   476→differences in camouflaging in children and adolescents with autism. J Autism Dev Disord.
+   477→2021;51(4):1353-1364. doi:10.1007/s10803-020-04615-z
+   478→12. Hull L, Lai M-C, Baron-Cohen S, et al. Gender differences in self-reported camouflaging
+   479→in autistic and non-autistic adults. Autism. 2019;24(2):352-363. doi:10.1177/1362361319864804
+   480→13. Milner V, Mandy W, Happé F, Colvert E. Sex differences in predictors and outcomes of
+   481→camouflaging: Comparing diagnosed autistic, high autistic trait and low autistic trait young
+   482→adults. Autism. 2023;27(2):402-414. doi:10.1177/13623613221098240
+   483→14. Cola M, Yankowitz LD, Tena K, et al. Friend matters: sex differences in social language
+   484→during autism diagnostic interviews. Mol Autism. 2022;13(1):5. doi:10.1186/s13229-021-00483-
+   485→1
+   486→15. Mattern H, Cola M, Tena KG, et al. Sex differences in social and emotional insight in
+   487→youth with and without autism. Mol Autism. 2023;14(1):10. doi:10.1186/s13229-023-00541-w
+   488→22
+   489→
+   490→16. Yu YY, Wyman A, Faulk CJ, et al. The under-identification of autism in females: A
+   491→review and analysis of sex-based scoring differences observed in Autism Diagnostic Observation
+   492→Schedule (ADOS) Module 3. J Autism Dev Disord. 2026;doi:10.1007/s10803-026-07253-z
+   493→17. Lord C, Risi S, Lambrecht L, et al. The autism diagnostic observation schedule-generic: a
+   494→standard measure of social and communication deficits associated with the spectrum of autism. J
+   495→Autism Dev Disord. 2000;30(3):205-223. doi:10.1023/A:1005592401947
+   496→18. Lord C, Rutter M, DiLavore PC, Risi S, Gotham K, Bishop S. Autism Diagnostic
+   497→Observation Schedule, Second Edition. Western Psychological Services; 2012.
+   498→19. Lord C, Pickles A, McLennan J, et al. Diagnosing autism: analyses of data from the
+   499→Autism Diagnostic Interview. J Autism Dev Disord. 1997;27(5):501-17.
+   500→doi:10.1023/a:1025873925661
+   501→20. Parish-Morris J, Cola M. A way with words: Do clinicians talk differently when
+   502→assessing autism in boys vs girls? J Am Acad Child Adolesc Psychiatry.
+   503→2025;doi:10.1016/j.jaac.2025.09.005
+   504→21. Azu MA, Han GT, Wolf JM, et al. Clinician-caregiver informant discrepancy is
+   505→associated with sex, diagnosis age, and intervention use among autistic children. Autism.
+   506→2025;29(3):614-626. doi:10.1177/13623613241279999
+   507→22. Harrison AJ, Long KA, Tommet DC, Jones RN. Examining the role of race, ethnicity,
+   508→and gender on social and behavioral ratings within the autism diagnostic observation schedule. J
+   509→Autism Dev Disord. 2017;47(9):2770-2782. doi:10.1007/s10803-017-3176-3
+   510→23. Burrows CA, Sung S, Zheng S, et al. Sex-related measurement bias in autism spectrum
+   511→disorder symptoms in the baby siblings research consortium. JAMA Netw Open.
+   512→2025;8(8):e2525887-e2525887. doi:10.1001/jamanetworkopen.2025.25887
+   513→23
+   514→
+   515→24. Tien IS, Kim J, Johnson AR, Wood JJ. Gender differences: Confirmatory factor analysis
+   516→of the ADOS-II. J Autism Dev Disord. 2024;doi:10.1007/s10803-024-06346-x
+   517→25. Ronkin E, Tully EC, Branum-Martin L, et al. Sex differences in social communication
+   518→behaviors in toddlers with suspected autism spectrum disorder as assessed by the ADOS-2
+   519→toddler module. Autism. 2022;26(5):1282-1295. doi:10.1177/13623613211047070
+   520→26. Kalb LG, Singh V, Hong JS, et al. Analysis of race and sex bias in the autism diagnostic
+   521→observation schedule (ADOS-2). JAMA Netw Open. 2022;5(4):e229498-e229498.
+   522→doi:10.1001/jamanetworkopen.2022.9498
+   523→27. Lee H, Cham H. Comparing accuracy of parallel analysis and fit statistics for estimating
+   524→the number of factors with ordered categorical data in exploratory factor analysis. Educ Psychol
+   525→Meas. 2024;84(6):1173-1202. doi:10.1177/00131644241240435
+   526→28. Hayton JC, Allen DG, Scarpello V. Factor retention decisions in exploratory factor
+   527→analysis: A tutorial on parallel analysis. Organ Res Methods. 2004;7(2):191-205.
+   528→doi:10.1177/1094428104263675
+   529→29. Chalmers RP. mirt: A Multidimensional Item Response Theory Package for the R
+   530→Environment. Journal of Statistical Software. 2012;48(6):1 - 29. doi:10.18637/jss.v048.i06
+   531→30. Dean M, Harwood R, Kasari C. The art of camouflage: Gender differences in the social
+   532→behaviors of girls and boys with autism spectrum disorder. Autism. 2017;21(6):678-689.
+   533→doi:10.1177/1362361316671845
+   534→31. Jones S, Sharpe BT, King R, Waldeck D, Tyndall I. Putting on a disguise to fit in: A
+   535→mixed methods study of experiences in autistic camouflaging. Res Neurodivers. 2025;1:100004.
+   536→doi:10.1016/j.rin.2025.100004
+   537→24
+   538→
+   539→32. Lai M-C, Lombardo MV, Ruigrok AN, et al. Quantifying and exploring camouflaging in
+   540→men and women with autism. Autism. 2017;21(6):690-702. doi:10.1177/1362361316671012
+   541→33. McQuaid GA, Lee NR, Wallace GL. Camouflaging in autism spectrum disorder:
+   542→Examining the roles of sex, gender identity, and diagnostic timing. Autism. 2022;26(2):552-559.
+   543→doi:10.1177/13623613211042131
+   544→34. Schuck RK, Flores RE, Fung LK. Brief Report: Sex/Gender Differences in
+   545→Symptomology and Camouflaging in Adults with Autism Spectrum Disorder. J Autism Dev
+   546→Disord. 2019;49(6):2597-2604. doi:10.1007/s10803-019-03998-y
+   547→35. Cage E, Troxell-Whitman Z. Understanding the Reasons, Contexts and Costs of
+   548→Camouflaging for Autistic Adults. J Autism Dev Disord. 2019;49(5):1899-1911.
+   549→doi:10.1007/s10803-018-03878-x
+   550→36. Head AM, McGillivray JA, Stokes MA. Gender differences in emotionality and
+   551→sociability in children with autism spectrum disorders. Mol Autism. 2014;5(1):19.
+   552→doi:10.1186/2040-2392-5-19
+   553→37. Parish-Morris J, Liberman MY, Cieri C, et al. Linguistic camouflage in girls with autism
+   554→spectrum disorder. Mol Autism. 2017;8:48. doi:10.1186/s13229-017-0164-6
+   555→38. Lundin Remnélius K, Bölte S. Camouflaging in Autism: Age Effects and Cross-Cultural
+   556→Validation of the Camouflaging Autistic Traits Questionnaire (CAT-Q). J Autism Dev Disord.
+   557→2024;54(5):1749-1764. doi:10.1007/s10803-023-05909-8
+   558→39. Ratto AB, Kenworthy L, Yerys BE, et al. What about the girls? Sex-based differences in
+   559→autistic traits and adaptive skills. J Autism Dev Disord. 2018;48(5):1698-1711.
+   560→doi:10.1007/s10803-017-3413-9
+   561→25
+   562→
+   563→40. Antezana L, Factor RS, Condy EE, Strege MV, Scarpa A, Richey JA. Gender differences
+   564→in restricted and repetitive behaviors and interests in youth with autism. Autism Res. Feb
+   565→2019;12(2):274-283. doi:10.1002/aur.2049
+   566→41. Szatmari P, Liu XQ, Goldberg J, et al. Sex differences in repetitive stereotyped behaviors
+   567→in autism: implications for genetic liability. Am J Med Genet B Neuropsychiatr Genet.
+   568→2012;159b(1):5-12. doi:10.1002/ajmg.b.31238
+   569→42. McFayden TC, Albright J, Muskett AE, Scarpa A. Brief Report: Sex Differences in ASD
+   570→Diagnosis-A Brief Report on Restricted Interests and Repetitive Behaviors. J Autism Dev Disord.
+   571→2019;49(4):1693-1699. doi:10.1007/s10803-018-3838-9
+   572→43. Lai MC, Amestoy A, Bishop S, et al. Improving autism identification and support for
+   573→individuals assigned female at birth: clinical suggestions and research priorities. Lancet Child
+   574→Adolesc Health. 2023;7(12):897-908. doi:10.1016/s2352-4642(23)00221-3
+   575→44. Cheng Y, Shao C, Lathrop QN. The mediated MIMIC model for understanding the
+   576→underlying mechanism of DIF. Educ Psychol Meas. 2016;76(1):43-63.
+   577→doi:10.1177/0013164415576187
+   578→45. Bishop SL, Lord C. Commentary: Best practices and processes for assessment of autism
+   579→spectrum disorder - the intended role of standardized diagnostic instruments. J Child Psychol
+   580→Psychiatry. 2023;64(5):834-838. doi:10.1111/jcpp.13802
+   581→46. McNally Keehn R, Tomlin A, Ciccarelli MR. COVID-19 pandemic highlights access
+   582→barriers for children with autism spectrum disorder. J Dev Behav Pediatr. 2021;42(7):599-601.
+   583→doi:10.1097/dbp.0000000000000988
+   584→26
+   585→
+   586→
