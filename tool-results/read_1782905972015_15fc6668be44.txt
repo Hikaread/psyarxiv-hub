@@ -1,0 +1,1029 @@
+     1→/* ===== OPENDYSLEXIC FONT (self-hosted via jsdelivr) ===== */
+     2→@font-face {
+     3→  font-family: 'OpenDyslexic';
+     4→  font-style: normal;
+     5→  font-weight: 400;
+     6→  font-display: swap;
+     7→  src: url('https://cdn.jsdelivr.net/npm/@fontsource/opendyslexic@5.0.2/files/opendyslexic-latin-400-normal.woff2') format('woff2');
+     8→}
+     9→@font-face {
+    10→  font-family: 'OpenDyslexic';
+    11→  font-style: normal;
+    12→  font-weight: 700;
+    13→  font-display: swap;
+    14→  src: url('https://cdn.jsdelivr.net/npm/@fontsource/opendyslexic@5.0.2/files/opendyslexic-latin-700-normal.woff2') format('woff2');
+    15→}
+    16→@font-face {
+    17→  font-family: 'OpenDyslexic';
+    18→  font-style: italic;
+    19→  font-weight: 400;
+    20→  font-display: swap;
+    21→  src: url('https://cdn.jsdelivr.net/npm/@fontsource/opendyslexic@5.0.2/files/opendyslexic-latin-400-italic.woff2') format('woff2');
+    22→}
+    23→
+    24→/* ===== LIGHT THEME (default) ===== */
+    25→:root, [data-theme="light"] {
+    26→  --bg-body: #f0e8f7;
+    27→  --bg-card: #ffffff;
+    28→  --bg-sidebar: #faf7fc;
+    29→  --bg-stats: #f8f3fc;
+    30→  --bg-drawer: #ffffff;
+    31→  --bg-modal-bg: rgba(26, 10, 46, 0.55);
+    32→  --text-primary: #1a0a2e;
+    33→  --text-secondary: #4a2d6e;
+    34→  --text-muted: #7b6a94;
+    35→  --text-on-accent: #ffffff;
+    36→  --border: #e0d0ed;
+    37→  --border-card: #d4c2e8;
+    38→  --accent: #5c2d91;
+    39→  --accent-hover: #4a1f7a;
+    40→  --accent-subtle: #f3eaf9;
+    41→  --accent-subtle2: #e8d5f5;
+    42→  --header-bg: linear-gradient(135deg, #2d1654 0%, #5c2d91 50%, #7b3fb8 100%);
+    43→  --shadow-sm: 0 1px 3px rgba(60,20,100,0.07);
+    44→  --shadow-md: 0 4px 12px rgba(60,20,100,0.10);
+    45→  --shadow-lg: 0 8px 24px rgba(60,20,100,0.15);
+    46→}
+    47→
+    48→/* ===== DARK THEME ===== */
+    49→[data-theme="dark"] {
+    50→  --bg-body: #0f0a1a;
+    51→  --bg-card: #1a1228;
+    52→  --bg-sidebar: #16101f;
+    53→  --bg-stats: #130e1c;
+    54→  --bg-drawer: #1a1228;
+    55→  --bg-modal-bg: rgba(0,0,0,0.7);
+    56→  --text-primary: #e0d5f0;
+    57→  --text-secondary: #b8a0d8;
+    58→  --text-muted: #8a78a4;
+    59→  --text-on-accent: #ffffff;
+    60→  --border: #2e2240;
+    61→  --border-card: #3a2d52;
+    62→  --accent: #9c5fd0;
+    63→  --accent-hover: #b88ae0;
+    64→  --accent-subtle: #1e1530;
+    65→  --accent-subtle2: #2a1f40;
+    66→  --header-bg: linear-gradient(135deg, #0f0a1a 0%, #1e1530 50%, #2a1f40 100%);
+    67→  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+    68→  --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+    69→  --shadow-lg: 0 8px 24px rgba(0,0,0,0.5);
+    70→}
+    71→
+    72→/* ===== PURPLE THEME ===== */
+    73→[data-theme="purple"] {
+    74→  --bg-body: #1a0e2e;
+    75→  --bg-card: #241745;
+    76→  --bg-sidebar: #1f1238;
+    77→  --bg-stats: #1c1035;
+    78→  --bg-drawer: #241745;
+    79→  --bg-modal-bg: rgba(10,5,20,0.7);
+    80→  --text-primary: #e8d5f5;
+    81→  --text-secondary: #d4b5ef;
+    82→  --text-muted: #a88cc8;
+    83→  --text-on-accent: #ffffff;
+    84→  --border: #3d2866;
+    85→  --border-card: #4a3578;
+    86→  --accent: #c084fc;
+    87→  --accent-hover: #d8b4fe;
+    88→  --accent-subtle: #2a1a48;
+    89→  --accent-subtle2: #352258;
+    90→  --header-bg: linear-gradient(135deg, #130b22 0%, #2d1654 50%, #3d2066 100%);
+    91→  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+    92→  --shadow-md: 0 4px 12px rgba(0,0,0,0.5);
+    93→  --shadow-lg: 0 8px 24px rgba(0,0,0,0.6);
+    94→}
+    95→
+    96→/* ===== FONT SIZE ===== */
+    97→[data-fontsize="small"] { font-size: 15px; }
+    98→[data-fontsize="medium"] { font-size: 17px; }
+    99→[data-fontsize="large"] { font-size: 20px; }
+   100→[data-fontsize="xlarge"] { font-size: 23px; }
+   101→
+   102→/* ===== DYSLEXIC FONT ===== */
+   103→[data-dyslexic="on"] body,
+   104→[data-dyslexic="on"] input,
+   105→[data-dyslexic="on"] select,
+   106→[data-dyslexic="on"] button,
+   107→[data-dyslexic="on"] textarea {
+   108→  font-family: 'OpenDyslexic', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+   109→  letter-spacing: 0.01em;
+   110→  word-spacing: 0.03em;
+   111→  line-height: 1.55 !important;
+   112→}
+   113→[data-dyslexic="on"][data-fontsize="small"] { font-size: 16px; }
+   114→[data-dyslexic="on"][data-fontsize="medium"] { font-size: 18px; }
+   115→[data-dyslexic="on"][data-fontsize="large"] { font-size: 21px; }
+   116→[data-dyslexic="on"][data-fontsize="xlarge"] { font-size: 24px; }
+   117→
+   118→/* ===== RESET ===== */
+   119→*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+   120→html { -webkit-text-size-adjust: 100%; }
+   121→
+   122→body {
+   123→  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+   124→  line-height: 1.6;
+   125→  color: var(--text-primary);
+   126→  background: var(--bg-body);
+   127→  min-height: 100vh;
+   128→  overflow-x: hidden;
+   129→  transition: background 0.3s, color 0.3s;
+   130→}
+   131→
+   132→a { color: var(--accent); text-decoration: none; }
+   133→a:hover { color: var(--accent-hover); }
+   134→
+   135→/* ===== HEADER (auto-hide) ===== */
+   136→#site-header {
+   137→  background: var(--header-bg);
+   138→  color: var(--text-on-accent);
+   139→  padding: 0 16px;
+   140→  position: sticky;
+   141→  top: 0; left: 0; right: 0;
+   142→  z-index: 100;
+   143→  transform: translateY(0);
+   144→  transition: transform 0.3s ease, background 0.3s;
+   145→  height: 56px;
+   146→}
+   147→
+   148→#site-header.hidden {
+   149→  transform: translateY(-100%);
+   150→}
+   151→
+   152→.header-inner {
+   153→  max-width: 1400px;
+   154→  margin: 0 auto;
+   155→  display: flex;
+   156→  align-items: center;
+   157→  height: 56px;
+   158→  gap: 10px;
+   159→  min-width: 0;
+   160→  width: 100%;
+   161→}
+   162→
+   163→.brand-block {
+   164→  display: flex;
+   165→  align-items: center;
+   166→  gap: 10px;
+   167→  min-width: 0;
+   168→  padding-right: 4px;
+   169→}
+   170→
+   171→#site-header h1 {
+   172→  font-size: 0.98rem;
+   173→  font-weight: 800;
+   174→  white-space: nowrap;
+   175→  letter-spacing: 0.02em;
+   176→  text-transform: uppercase;
+   177→  color: #f9ecff;
+   178→  text-shadow: 0 1px 0 rgba(35, 10, 60, 0.25);
+   179→}
+   180→
+   181→#header-stats {
+   182→  display: inline-flex;
+   183→  align-items: center;
+   184→  min-width: 0;
+   185→  padding: 2px 8px;
+   186→  border-radius: 999px;
+   187→  border: 1px solid rgba(255,255,255,0.18);
+   188→  background: rgba(255,255,255,0.12);
+   189→  color: #f3d7ff;
+   190→  font-size: 0.74rem;
+   191→  font-weight: 700;
+   192→  letter-spacing: 0.04em;
+   193→}
+   194→
+   195→#sidebar-toggle {
+   196→  display: none;
+   197→  background: rgba(255,255,255,0.1);
+   198→  border: 1px solid rgba(255,255,255,0.2);
+   199→  border-radius: 4px;
+   200→  color: var(--text-on-accent);
+   201→  padding: 5px;
+   202→  cursor: pointer;
+   203→  flex-shrink: 0;
+   204→  -webkit-tap-highlight-color: transparent;
+   205→}
+   206→
+   207→#sidebar-toggle:active { background: rgba(255,255,255,0.25); }
+   208→
+   209→.header-right {
+   210→  margin-left: auto;
+   211→  display: flex;
+   212→  align-items: center;
+   213→  gap: 8px;
+   214→}
+   215→
+   216→.search-box {
+   217→  position: relative;
+   218→  display: flex;
+   219→  align-items: center;
+   220→}
+   221→
+   222→#search-input {
+   223→  width: 92px;
+   224→  padding: 6px 10px;
+   225→  padding-right: 28px;
+   226→  border: 1px solid rgba(255,255,255,0.2);
+   227→  border-radius: 4px;
+   228→  background: rgba(255,255,255,0.1);
+   229→  color: var(--text-on-accent);
+   230→  font-size: 0.82rem;
+   231→  outline: none;
+   232→  transition: all 0.2s;
+   233→}
+   234→#search-input::placeholder { color: rgba(255,255,255,0.45); }
+   235→#search-input:focus { border-color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.18); width: 220px; }
+   236→
+   237→#search-clear {
+   238→  position: absolute;
+   239→  right: 4px;
+   240→  top: 50%;
+   241→  transform: translateY(-50%);
+   242→  display: none;
+   243→  width: 20px;
+   244→  height: 20px;
+   245→  border: none;
+   246→  border-radius: 999px;
+   247→  background: rgba(255,255,255,0.18);
+   248→  color: var(--text-on-accent);
+   249→  font-size: 0.9rem;
+   250→  line-height: 1;
+   251→  cursor: pointer;
+   252→}
+   253→#search-clear.visible { display: inline-flex; align-items: center; justify-content: center; }
+   254→
+   255→#sort-select {
+   256→  padding: 4px 6px;
+   257→  border: 1px solid rgba(255,255,255,0.25);
+   258→  border-radius: 4px;
+   259→  background: rgba(255,255,255,0.12);
+   260→  color: var(--text-on-accent);
+   261→  font-size: 0.75rem;
+   262→  cursor: pointer;
+   263→  outline: none;
+   264→  -webkit-tap-highlight-color: transparent;
+   265→  flex-shrink: 0;
+   266→}
+   267→#sort-select:focus { border-color: rgba(255,255,255,0.5); }
+   268→#sort-select option { background: #1a0a2e; color: #fff; }
+   269→
+   270→#category-view-toggle {
+   271→  padding: 4px 8px;
+   272→  border: 1px solid rgba(255,255,255,0.25);
+   273→  border-radius: 999px;
+   274→  background: rgba(255,255,255,0.08);
+   275→  color: var(--text-on-accent);
+   276→  font-size: 0.73rem;
+   277→  font-weight: 700;
+   278→  cursor: pointer;
+   279→  flex-shrink: 0;
+   280→}
+   281→#category-view-toggle.active {
+   282→  background: rgba(255,255,255,0.22);
+   283→  border-color: rgba(255,255,255,0.42);
+   284→}
+   285→
+   286→#settings-toggle {
+   287→  background: rgba(255,255,255,0.1);
+   288→  border: 1px solid rgba(255,255,255,0.2);
+   289→  border-radius: 4px;
+   290→  color: #e9d5ff;
+   291→  padding: 5px;
+   292→  cursor: pointer;
+   293→  flex-shrink: 0;
+   294→  -webkit-tap-highlight-color: transparent;
+   295→}
+   296→#settings-toggle:active { background: rgba(255,255,255,0.25); }
+   297→
+   298→/* ===== CARD ACTION BUTTONS (Read / Star) ===== */
+   299→.paper-actions {
+   300→  display: flex;
+   301→  gap: 4px;
+   302→  margin-left: auto;
+   303→  flex-shrink: 0;
+   304→  padding-top: 1px;
+   305→}
+   306→.paper-action-btn {
+   307→  background: none;
+   308→  border: 1px solid var(--border);
+   309→  border-radius: 4px;
+   310→  color: var(--text-muted);
+   311→  padding: 3px;
+   312→  cursor: pointer;
+   313→  font-size: 0.85rem;
+   314→  line-height: 1;
+   315→  display: flex;
+   316→  align-items: center;
+   317→  justify-content: center;
+   318→  width: 32px;
+   319→  height: 32px;
+   320→  transition: all 0.15s;
+   321→  -webkit-tap-highlight-color: transparent;
+   322→}
+   323→.paper-action-btn svg {
+   324→  width: 18px;
+   325→  height: 18px;
+   326→  display: block;
+   327→}
+   328→.paper-action-btn:hover { border-color: var(--accent); color: var(--accent); }
+   329→.paper-action-btn.active-read {
+   330→  background: var(--accent-subtle2);
+   331→  color: var(--accent);
+   332→  border-color: var(--accent);
+   333→}
+   334→.paper-action-btn.active-star {
+   335→  color: #f59e0b;
+   336→  border-color: #f59e0b;
+   337→  background: rgba(245, 158, 11, 0.08);
+   338→}
+   339→.paper-card.read-dimmed { opacity: 0.55; }
+   340→
+   341→/* ===== PUBLISHED BADGE ===== */
+   342→.badge-published {
+   343→  font-size: 0.62rem;
+   344→  font-weight: 700;
+   345→  padding: 1px 7px;
+   346→  border-radius: 10px;
+   347→  background: #dcfce7;
+   348→  color: #166534;
+   349→  letter-spacing: 0.03em;
+   350→  text-transform: uppercase;
+   351→  flex-shrink: 0;
+   352→}
+   353→[data-theme="dark"] .badge-published { background: #14532d; color: #86efac; }
+   354→[data-theme="purple"] .badge-published { background: #14532d; color: #86efac; }
+   355→
+   356→/* ===== PAPER LINK WRAPPER ===== */
+   357→.paper-link-wrap {
+   358→  margin-top: 6px;
+   359→  padding-left: 36px;
+   360→}
+   361→
+   362→/* ===== MAIN LAYOUT ===== */
+   363→.main-layout {
+   364→  max-width: 1400px;
+   365→  margin: 0 auto;
+   366→  padding: 12px 16px 48px;
+   367→  display: flex;
+   368→  gap: 20px;
+   369→  align-items: flex-start;
+   370→}
+   371→
+   372→/* ===== SIDEBAR ===== */
+   373→#sidebar {
+   374→  width: 230px;
+   375→  flex-shrink: 0;
+   376→  position: sticky;
+   377→  top: 68px;
+   378→  max-height: calc(100vh - 76px);
+   379→  overflow-y: auto;
+   380→  scrollbar-width: thin;
+   381→  scrollbar-color: var(--border-card) transparent;
+   382→}
+   383→#sidebar::-webkit-scrollbar { width: 3px; }
+   384→#sidebar::-webkit-scrollbar-thumb { background: var(--border-card); border-radius: 2px; }
+   385→
+   386→.sidebar-section {
+   387→  background: var(--bg-card);
+   388→  border: 1px solid var(--border);
+   389→  border-radius: 8px;
+   390→  padding: 12px;
+   391→  margin-bottom: 10px;
+   392→  box-shadow: var(--shadow-sm);
+   393→  transition: background 0.3s, border-color 0.3s;
+   394→}
+   395→
+   396→.sidebar-header {
+   397→  display: flex;
+   398→  justify-content: space-between;
+   399→  align-items: center;
+   400→  margin-bottom: 8px;
+   401→  font-size: 0.7rem;
+   402→  font-weight: 700;
+   403→  text-transform: uppercase;
+   404→  letter-spacing: 0.05em;
+   405→  color: var(--text-secondary);
+   406→}
+   407→
+   408→.sidebar-actions { display: flex; gap: 3px; }
+   409→.sidebar-actions button {
+   410→  font-size: 0.65rem;
+   411→  padding: 2px 8px;
+   412→  border: 1px solid var(--border-card);
+   413→  border-radius: 3px;
+   414→  background: var(--accent-subtle);
+   415→  color: var(--accent);
+   416→  cursor: pointer;
+   417→  font-weight: 600;
+   418→  transition: all 0.15s;
+   419→}
+   420→.sidebar-actions button:hover { background: var(--accent-subtle2); }
+   421→
+   422→#category-filters label {
+   423→  display: flex;
+   424→  align-items: center;
+   425→  gap: 6px;
+   426→  padding: 3px 4px;
+   427→  font-size: 0.8rem;
+   428→  color: var(--text-primary);
+   429→  cursor: pointer;
+   430→  border-radius: 4px;
+   431→  transition: background 0.15s;
+   432→}
+   433→#category-filters label:hover { background: var(--accent-subtle); }
+   434→#category-filters input[type="checkbox"] { accent-color: var(--accent); width: 14px; height: 14px; flex-shrink: 0; }
+   435→.cat-count {
+   436→  margin-left: auto;
+   437→  font-size: 0.67rem;
+   438→  color: var(--text-muted);
+   439→  background: var(--accent-subtle);
+   440→  padding: 1px 6px;
+   441→  border-radius: 8px;
+   442→  font-weight: 500;
+   443→  flex-shrink: 0;
+   444→}
+   445→
+   446→
+   447→
+   448→/* ===== CATEGORY JUMP BAR ===== */
+   449→#quick-nav {
+   450→  display: none;
+   451→  position: sticky;
+   452→  top: 60px;
+   453→  z-index: 49;
+   454→  background: var(--bg-body);
+   455→  border-bottom: 1px solid var(--border);
+   456→  border-radius: 10px;
+   457→  padding: 5px 0;
+   458→  margin: 0 0 10px;
+   459→  transition: background 0.3s, border-color 0.3s;
+   460→  max-height: 40px;
+   461→  overflow: hidden;
+   462→  box-shadow: var(--shadow-sm);
+   463→}
+   464→#quick-nav.visible { display: flex; flex-direction: row; align-items: center; }
+   465→.qn-pills {
+   466→  display: flex;
+   467→  width: 100%;
+   468→  gap: 6px;
+   469→  overflow-x: auto;
+   470→  overflow-y: hidden;
+   471→  scrollbar-width: none;
+   472→  -ms-overflow-style: none;
+   473→  padding: 0 2px 2px;
+   474→  scroll-behavior: smooth;
+   475→  overscroll-behavior-x: contain;
+   476→}
+   477→.qn-pills::-webkit-scrollbar { display: none; }
+   478→.qn-btn {
+   479→  display: inline-flex;
+   480→  align-items: center;
+   481→  border: none;
+   482→  background: transparent;
+   483→  padding: 0;
+   484→  cursor: pointer;
+   485→  transition: opacity 0.15s ease, transform 0.15s ease;
+   486→  flex-shrink: 0;
+   487→}
+   488→.qn-btn:focus-visible .qn-label {
+   489→  opacity: 1;
+   490→  border-color: var(--accent);
+   491→  color: var(--accent);
+   492→  outline: 2px solid rgba(192, 132, 252, 0.45);
+   493→  outline-offset: 1px;
+   494→}
+   495→.qn-btn:hover, .qn-btn.active {
+   496→  opacity: 1;
+   497→}
+   498→.qn-dot {
+   499→  display: none;
+   500→}
+   501→.qn-label {
+   502→  font-size: 0.68rem;
+   503→  font-weight: 600;
+   504→  line-height: 1.2;
+   505→  color: var(--text-secondary);
+   506→  background: var(--bg-card);
+   507→  border: 1px solid var(--border-card);
+   508→  border-radius: 999px;
+   509→  padding: 4px 12px;
+   510→  white-space: nowrap;
+   511→  box-shadow: var(--shadow-sm);
+   512→  opacity: 0.85;
+   513→  transition: all 0.15s ease;
+   514→}
+   515→.qn-btn:hover .qn-label {
+   516→  opacity: 1;
+   517→  border-color: var(--accent);
+   518→  color: var(--accent);
+   519→}
+   520→.qn-btn.active .qn-label {
+   521→  opacity: 1;
+   522→  background: var(--accent);
+   523→  color: var(--text-on-accent);
+   524→  border-color: var(--accent);
+   525→}
+   526→
+   527→/* ===== PAPERS LIST ===== */
+   528→#papers-container { flex: 1; min-width: 0; }
+   529→#papers-list { display: flex; flex-direction: column; gap: 10px; }
+   530→
+   531→/* Category section divider */
+   532→.cat-divider {
+   533→  padding: 6px 2px 2px;
+   534→  font-size: 0.68rem;
+   535→  font-weight: 700;
+   536→  text-transform: uppercase;
+   537→  letter-spacing: 0.06em;
+   538→  color: var(--accent);
+   539→  border-bottom: 1px solid var(--border);
+   540→  margin-top: 8px;
+   541→  background: transparent;
+   542→  scroll-margin-top: 64px;
+   543→}
+   544→
+   545→/* ===== PAPER CARD ===== */
+   546→.paper-card {
+   547→  background: var(--bg-card);
+   548→  border: 1px solid var(--border);
+   549→  border-radius: 8px;
+   550→  padding: 14px 16px;
+   551→  box-shadow: var(--shadow-sm);
+   552→  transition: box-shadow 0.2s, border-color 0.2s, background 0.3s;
+   553→}
+   554→.paper-card:hover { box-shadow: var(--shadow-md); border-color: var(--border-card); }
+   555→
+   556→.paper-card-header {
+   557→  display: flex;
+   558→  align-items: flex-start;
+   559→  gap: 8px;
+   560→  margin-bottom: 4px;
+   561→}
+   562→.paper-number {
+   563→  font-size: 0.8rem;
+   564→  font-weight: 700;
+   565→  color: var(--accent);
+   566→  min-width: 28px;
+   567→  padding-top: 2px;
+   568→}
+   569→.paper-title {
+   570→  font-size: 1.05rem;
+   571→  font-weight: 600;
+   572→  line-height: 1.45;
+   573→  color: var(--text-primary);
+   574→}
+   575→.paper-title.has-modal, .paper-title.has-link { cursor: pointer; }
+   576→.paper-title.has-modal:hover { color: var(--accent); }
+   577→.paper-title.has-link:hover { color: var(--accent); text-decoration: underline; }
+   578→.paper-meta {
+   579→  font-size: 0.82rem;
+   580→  color: var(--text-muted);
+   581→  margin-bottom: 5px;
+   582→  padding-left: 36px;
+   583→}
+   584→.paper-meta .author-name { font-weight: 500; color: var(--text-secondary); }
+   585→.paper-meta .date-text { margin-left: 8px; }
+   586→.paper-summary {
+   587→  font-size: 0.92rem;
+   588→  color: var(--text-primary);
+   589→  line-height: 1.55;
+   590→  padding-left: 36px;
+   591→  opacity: 0.88;
+   592→}
+   593→.paper-badges {
+   594→  display: flex;
+   595→  flex-wrap: wrap;
+   596→  gap: 4px;
+   597→  margin-top: 6px;
+   598→  padding-left: 36px;
+   599→}
+   600→.badge {
+   601→  font-size: 0.72rem;
+   602→  font-weight: 600;
+   603→  padding: 3px 9px;
+   604→  border-radius: 10px;
+   605→  background: var(--accent-subtle2);
+   606→  color: var(--accent);
+   607→}
+   608→.badge[data-cat="couples"]         { background: #fce4ec; color: #880e4f; }
+   609→.badge[data-cat="neurodivergence"]  { background: #e8eaf6; color: #283593; }
+   610→.badge[data-cat="mood"]            { background: var(--accent-subtle2); color: var(--accent); }
+   611→.badge[data-cat="trauma"]          { background: #fce4ec; color: #ad1457; }
+   612→.badge[data-cat="personality"]     { background: #f3e5f5; color: #6a1b9a; }
+   613→.badge[data-cat="modalities"]      { background: #e8f5e9; color: #2e7d32; }
+   614→.badge[data-cat="psychopathology"] { background: #e0f2f1; color: #00695c; }
+   615→.badge[data-cat="eating"]          { background: #fff3e0; color: #e65100; }
+   616→.badge[data-cat="somatic"]         { background: #efebe9; color: #4e342e; }
+   617→.badge[data-cat="suicidality"]     { background: #ffebee; color: #c62828; }
+   618→.badge[data-cat="psychosis"]       { background: #ede7f6; color: #4527a0; }
+   619→.badge[data-cat="addiction"]       { background: #e3f2fd; color: #1565c0; }
+   620→.badge[data-cat="ocd"]             { background: #fff8e1; color: #f57f17; }
+   621→.badge[data-cat="anxiety"]         { background: #e8eaf6; color: #283593; }
+   622→.badge[data-cat="other"]           { background: var(--accent-subtle); color: var(--text-muted); }
+   623→
+   624→.paper-osf-link {
+   625→  display: inline-flex;
+   626→  align-items: center;
+   627→  font-size: 0.82rem;
+   628→  color: var(--accent);
+   629→  font-weight: 500;
+   630→  line-height: 1.4;
+   631→  max-width: 100%;
+   632→  word-break: break-word;
+   633→}
+   634→.paper-osf-link:hover { text-decoration: underline; }
+   635→
+   636→.paper-published-text {
+   637→  margin-top: 5px;
+   638→  padding-left: 36px;
+   639→  font-size: 0.82rem;
+   640→  color: #2e7d32;
+   641→  font-weight: 500;
+   642→}
+   643→[data-theme="dark"] .paper-published-text { color: #86efac; }
+   644→[data-theme="purple"] .paper-published-text { color: #86efac; }
+   645→
+   646→/* ===== LOAD MORE ===== */
+   647→#load-more {
+   648→  display: block;
+   649→  margin: 16px auto;
+   650→  padding: 9px 32px;
+   651→  font-size: 0.84rem;
+   652→  font-weight: 600;
+   653→  border: 1px solid var(--accent);
+   654→  border-radius: 6px;
+   655→  background: var(--bg-card);
+   656→  color: var(--accent);
+   657→  cursor: pointer;
+   658→  transition: all 0.2s;
+   659→}
+   660→#load-more:hover { background: var(--accent); color: var(--text-on-accent); }
+   661→
+   662→#no-results {
+   663→  text-align: center;
+   664→  padding: 48px 16px;
+   665→  color: var(--text-muted);
+   666→}
+   667→
+   668→/* ===== OVERLAYS ===== */
+   669→#sidebar-overlay {
+   670→  display: none;
+   671→  position: fixed;
+   672→  inset: 0;
+   673→  background: var(--bg-modal-bg);
+   674→  z-index: 89;
+   675→  backdrop-filter: blur(2px);
+   676→  -webkit-backdrop-filter: blur(2px);
+   677→}
+   678→#sidebar-overlay.open { display: block; }
+   679→
+   680→#settings-overlay {
+   681→  display: none;
+   682→  position: fixed;
+   683→  top: var(--settings-top, 56px);
+   684→  right: 0;
+   685→  bottom: 0;
+   686→  left: 0;
+   687→  background: var(--bg-modal-bg);
+   688→  z-index: 109;
+   689→  backdrop-filter: blur(2px);
+   690→  -webkit-backdrop-filter: blur(2px);
+   691→}
+   692→#settings-overlay.open { display: block; }
+   693→
+   694→/* ===== SETTINGS DRAWER ===== */
+   695→#settings-drawer {
+   696→  position: fixed;
+   697→  top: var(--settings-top, 56px); right: 0; bottom: 0;
+   698→  width: 280px;
+   699→  max-width: 85vw;
+   700→  background: var(--bg-drawer);
+   701→  border-left: 1px solid var(--border);
+   702→  z-index: 110;
+   703→  transform: translateX(100%);
+   704→  transition: transform 0.25s ease;
+   705→  overflow-y: auto;
+   706→  box-shadow: var(--shadow-lg);
+   707→}
+   708→#settings-drawer.open { transform: translateX(0); }
+   709→
+   710→.drawer-header {
+   711→  position: sticky;
+   712→  top: 0;
+   713→  z-index: 1;
+   714→  display: flex;
+   715→  justify-content: space-between;
+   716→  align-items: center;
+   717→  padding: 14px 16px;
+   718→  font-size: 0.85rem;
+   719→  font-weight: 700;
+   720→  color: var(--text-primary);
+   721→  background: var(--bg-drawer);
+   722→  border-bottom: 1px solid var(--border);
+   723→}
+   724→#settings-close {
+   725→  background: none;
+   726→  border: none;
+   727→  font-size: 1.3rem;
+   728→  color: var(--text-muted);
+   729→  cursor: pointer;
+   730→  padding: 2px 4px;
+   731→  line-height: 1;
+   732→}
+   733→#settings-close:hover { color: var(--text-primary); }
+   734→
+   735→.drawer-body { padding: 16px; }
+   736→
+   737→.setting-group { margin-bottom: 20px; }
+   738→.setting-label {
+   739→  display: block;
+   740→  font-size: 0.72rem;
+   741→  font-weight: 700;
+   742→  text-transform: uppercase;
+   743→  letter-spacing: 0.05em;
+   744→  color: var(--text-secondary);
+   745→  margin-bottom: 8px;
+   746→}
+   747→.setting-options { display: flex; gap: 4px; flex-wrap: wrap; }
+   748→.opt-btn {
+   749→  padding: 5px 12px;
+   750→  font-size: 0.78rem;
+   751→  font-weight: 600;
+   752→  border: 1px solid var(--border);
+   753→  border-radius: 4px;
+   754→  background: var(--bg-body);
+   755→  color: var(--text-secondary);
+   756→  cursor: pointer;
+   757→  transition: all 0.15s;
+   758→  -webkit-tap-highlight-color: transparent;
+   759→}
+   760→.opt-btn:hover { border-color: var(--accent); color: var(--accent); }
+   761→.opt-btn.active {
+   762→  background: var(--accent);
+   763→  color: var(--text-on-accent);
+   764→  border-color: var(--accent);
+   765→}
+   766→
+   767→/* ===== FOOTER ===== */
+   768→#site-footer {
+   769→  border-top: 1px solid var(--border);
+   770→  padding: 16px;
+   771→  text-align: center;
+   772→  font-size: 0.72rem;
+   773→  color: var(--text-muted);
+   774→  background: var(--bg-card);
+   775→  transition: background 0.3s, border-color 0.3s;
+   776→}
+   777→
+   778→/* ===== MODAL ===== */
+   779→.modal-overlay {
+   780→  position: fixed;
+   781→  inset: 0;
+   782→  background: var(--bg-modal-bg);
+   783→  z-index: 200;
+   784→  display: flex;
+   785→  align-items: center;
+   786→  justify-content: center;
+   787→  padding: 16px 12px;
+   788→  overflow: hidden;
+   789→  backdrop-filter: blur(3px);
+   790→  -webkit-backdrop-filter: blur(3px);
+   791→}
+   792→.modal-content {
+   793→  background: var(--bg-card);
+   794→  border-radius: 10px;
+   795→  max-width: 660px;
+   796→  max-height: calc(100vh - 32px);
+   797→  max-height: calc(100dvh - 32px);
+   798→  width: 100%;
+   799→  padding: 28px;
+   800→  position: relative;
+   801→  overflow-y: auto;
+   802→  box-shadow: var(--shadow-lg);
+   803→  border: 1px solid var(--border);
+   804→  transition: background 0.3s, border-color 0.3s;
+   805→}
+   806→#modal-close {
+   807→  position: absolute;
+   808→  top: 10px; right: 12px;
+   809→  font-size: 1.3rem;
+   810→  background: var(--accent-subtle);
+   811→  border: 1px solid var(--border);
+   812→  border-radius: 50%;
+   813→  width: 28px; height: 28px;
+   814→  display: flex;
+   815→  align-items: center;
+   816→  justify-content: center;
+   817→  color: var(--text-muted);
+   818→  cursor: pointer;
+   819→  line-height: 1;
+   820→}
+   821→#modal-close:hover { background: var(--accent-subtle2); color: var(--accent); }
+   822→.modal-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 6px; padding-right: 36px; }
+   823→.modal-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 14px; }
+   824→.modal-meta .author-name { color: var(--text-secondary); font-weight: 500; }
+   825→.modal-section { margin-bottom: 12px; }
+   826→.modal-section-label {
+   827→  font-size: 0.7rem;
+   828→  font-weight: 700;
+   829→  text-transform: uppercase;
+   830→  letter-spacing: 0.05em;
+   831→  color: var(--accent);
+   832→  margin-bottom: 4px;
+   833→}
+   834→.modal-section-text { font-size: 0.94rem; line-height: 1.65; }
+   835→.text-link {
+   836→  color: var(--accent);
+   837→  overflow-wrap: anywhere;
+   838→  text-decoration: underline;
+   839→  text-underline-offset: 2px;
+   840→}
+   841→.text-link:hover { color: var(--accent-hover); }
+   842→.modal-link {
+   843→  display: inline-block;
+   844→  margin-top: 16px;
+   845→  font-size: 0.84rem;
+   846→  color: var(--accent);
+   847→  font-weight: 600;
+   848→  padding: 7px 14px;
+   849→  border: 1px solid var(--accent);
+   850→  border-radius: 4px;
+   851→  transition: all 0.2s;
+   852→}
+   853→.modal-link:hover { background: var(--accent); color: var(--text-on-accent); text-decoration: none; }
+   854→
+   855→/* ===== RESOLVER ===== */
+   856→.resolver-shell {
+   857→  min-height: 100vh;
+   858→  display: flex;
+   859→  align-items: center;
+   860→  justify-content: center;
+   861→  padding: 24px;
+   862→}
+   863→
+   864→.resolver-card {
+   865→  width: min(640px, 100%);
+   866→  background: var(--bg-card);
+   867→  border: 1px solid var(--border);
+   868→  border-radius: 16px;
+   869→  box-shadow: var(--shadow-lg);
+   870→  padding: 28px 24px;
+   871→}
+   872→
+   873→.resolver-kicker {
+   874→  color: var(--accent);
+   875→  font-size: 0.72rem;
+   876→  text-transform: uppercase;
+   877→  letter-spacing: 0.12em;
+   878→  font-weight: 800;
+   879→  margin-bottom: 6px;
+   880→}
+   881→
+   882→.resolver-card h1 {
+   883→  font-size: 1.15rem;
+   884→  line-height: 1.3;
+   885→  margin-bottom: 10px;
+   886→}
+   887→
+   888→.resolver-paper {
+   889→  margin-top: 14px;
+   890→  padding: 14px 16px;
+   891→  border-radius: 12px;
+   892→  background: var(--accent-subtle);
+   893→  border: 1px solid var(--border);
+   894→}
+   895→
+   896→.resolver-title {
+   897→  font-weight: 700;
+   898→  color: var(--text-primary);
+   899→}
+   900→
+   901→.resolver-meta {
+   902→  margin-top: 4px;
+   903→  font-size: 0.8rem;
+   904→  color: var(--text-muted);
+   905→}
+   906→
+   907→.resolver-actions {
+   908→  display: flex;
+   909→  flex-wrap: wrap;
+   910→  gap: 10px;
+   911→  margin-top: 18px;
+   912→}
+   913→
+   914→.resolver-link {
+   915→  display: inline-flex;
+   916→  align-items: center;
+   917→  justify-content: center;
+   918→  min-height: 40px;
+   919→  padding: 8px 14px;
+   920→  border-radius: 999px;
+   921→  border: 1px solid var(--accent);
+   922→  background: var(--bg-card);
+   923→  color: var(--accent);
+   924→  font-weight: 700;
+   925→}
+   926→
+   927→.resolver-link:hover {
+   928→  background: var(--accent);
+   929→  color: var(--text-on-accent);
+   930→}
+   931→
+   932→/* ===== RESPONSIVE: TABLET & MOBILE ===== */
+   933→@media (max-width: 900px) {
+   934→  #sidebar-toggle { display: flex; align-items: center; justify-content: center; }
+   935→
+   936→  #sidebar {
+   937→    position: fixed;
+   938→    top: 0; left: 0; bottom: 0;
+   939→    z-index: 90;
+   940→    width: 270px;
+   941→    max-width: 80vw;
+   942→    max-height: 100vh;
+   943→    padding: 70px 12px 16px;
+   944→    background: var(--bg-body);
+   945→    border-right: 1px solid var(--border);
+   946→    transform: translateX(-100%);
+   947→    transition: transform 0.25s ease;
+   948→    overflow-y: auto;
+   949→  }
+   950→  #sidebar.open { transform: translateX(0); }
+   951→  #sidebar-overlay.open { display: block; }
+   952→
+   953→  .main-layout { padding: 12px 12px 40px; }
+   954→  .paper-summary, .paper-badges, .paper-osf-link, .paper-published-text, .paper-meta, .paper-link-wrap { padding-left: 0; }
+   955→}
+   956→
+   957→@media (max-width: 600px) {
+   958→  .header-inner { gap: 4px; overflow: hidden; }
+   959→  #site-header {
+   960→    height: 48px;
+   961→    padding: 0 8px;
+   962→  }
+   963→  .header-inner { height: 48px; }
+   964→  .brand-block {
+   965→    gap: 4px;
+   966→    flex: 0 1 auto;
+   967→    min-width: 0;
+   968→    overflow: hidden;
+   969→  }
+   970→  #site-header h1 {
+   971→    font-size: 0.78rem;
+   972→    white-space: nowrap;
+   973→    overflow: hidden;
+   974→    text-overflow: ellipsis;
+   975→    min-width: 0;
+   976→  }
+   977→  #header-stats {
+   978→    flex-shrink: 0;
+   979→    padding: 1px 5px;
+   980→    font-size: 0.62rem;
+   981→  }
+   982→  .header-right {
+   983→    gap: 4px;
+   984→    flex-shrink: 0;
+   985→    min-width: 0;
+   986→  }
+   987→  #search-input { width: 44px; font-size: 0.72rem; padding: 4px 5px; padding-right: 20px; }
+   988→  #search-input:focus { width: 72px; }
+   989→  #search-clear { width: 16px; height: 16px; font-size: 0.78rem; }
+   990→  #sort-select { font-size: 0.6rem; padding: 3px 2px; }
+   991→  #category-view-toggle { font-size: 0.58rem; padding: 3px 6px; }
+   992→  #settings-toggle { padding: 4px; flex-shrink: 0; }
+   993→  #settings-toggle svg { width: 15px; height: 15px; }
+   994→
+   995→  /* Dyslexic font mobile header fix: hide stats, compact all elements */
+   996→  [data-dyslexic="on"] .brand-block { flex: 0 1 auto; min-width: 0; overflow: hidden; }
+   997→  [data-dyslexic="on"] #site-header h1 { font-size: 0.72rem; }
+   998→  [data-dyslexic="on"] #header-stats { display: none; }
+   999→  [data-dyslexic="on"] .header-right { gap: 3px; overflow: hidden; flex-shrink: 1; min-width: 0; }
+  1000→  [data-dyslexic="on"] #search-input { width: 32px; font-size: 0.68rem; }
+  1001→  [data-dyslexic="on"] #search-input:focus { width: 50px; }
+  1002→  [data-dyslexic="on"] #sort-select { max-width: 36px; font-size: 0.55rem; }
+  1003→  [data-dyslexic="on"] #category-view-toggle { display: none; }
+  1004→  [data-dyslexic="on"] #settings-toggle { padding: 4px; flex-shrink: 0; }
+  1005→  .main-layout { padding-top: 10px; }
+  1006→  .paper-card { padding: 10px 12px; }
+  1007→  .paper-card-header { gap: 5px; }
+  1008→  .paper-number { min-width: 22px; font-size: 0.72rem; }
+  1009→  .paper-title { font-size: 0.95rem; }
+  1010→  .paper-link-wrap { margin-top: 8px; }
+  1011→  .paper-osf-link { font-size: 0.78rem; }
+  1012→  .paper-actions { gap: 3px; }
+  1013→  .paper-action-btn { width: 30px; height: 30px; }
+  1014→  .paper-action-btn svg { width: 17px; height: 17px; }
+  1015→  .modal-content {
+  1016→    max-height: 100vh;
+  1017→    max-height: 100dvh;
+  1018→    padding: 18px 12px;
+  1019→    border-radius: 0;
+  1020→  }
+  1021→  .modal-overlay {
+  1022→    align-items: flex-start;
+  1023→    padding: 0;
+  1024→  }
+  1025→  #quick-nav { top: 52px; padding: 4px 0; max-height: 36px; border-radius: 8px; }
+  1026→  .qn-pills { gap: 5px; }
+  1027→  .qn-label { font-size: 0.62rem; padding: 3px 9px; }
+  1028→}
+  1029→

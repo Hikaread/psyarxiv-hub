@@ -1,0 +1,1228 @@
+     1→Breaking the Cycle: Rewiring Negative Symptoms in Schizophrenia Through Physical
+     2→Exercise
+     3→Bénédicte Thonon1*, & Damien Brevers1
+     4→1 Psychological Sciences Research Institute, UCLouvain, Place Cardinal Mercier 10, 1348
+     5→Louvain-la-Neuve, Belgium
+     6→*Corresponding author
+     7→Faculty of Psychology and Educational Sciences
+     8→Psychological Sciences Research Institute (IPSY)
+     9→E211, Place Cardinal Mercier, 10
+    10→B-1348 Louvain-la-Neuve
+    11→benedicte.thonon@uclouvain.be
+    12→Declaration of Competing Interest
+    13→The authors report no declarations of interest.
+    14→1
+    15→
+    16→ABSTRACT
+    17→Individuals with schizophrenia-spectrum disorders commonly exhibit debilitating negative
+    18→symptoms, including avolition and anhedonia, which represent a significant barrier to
+    19→engagement in goal-directed behaviors, such as physical exercise. Although exercise can
+    20→significantly alleviate these symptoms, a clinical paradox arises as the symptoms themselves
+    21→impede regular physical activity. This narrative review addresses this paradox by proposing
+    22→an integrated neurocognitive framework centered on the proximal exercise experience,
+    23→specifically exercise-related pleasure and perceived exertion. We argue that negative
+    24→symptoms alter the cost-benefit analysis of exercise due to core deficits in anticipatory
+    25→pleasure, effort valuation, and reinforcement learning. We propose that structured exercise
+    26→acts as a corrective learning context capable of updating maladaptive internal models through
+    27→prediction errors, the discrepancies between anticipated and actual experiences of effort and
+    28→pleasure. We also highlight the importance of learning from both positive prediction errors
+    29→(discovering exercise is less effortful or more pleasurable than expected) and carefully
+    30→supported negative prediction errors, which can re-associate physical effort with mastery,
+    31→competence, and control rather than threat. By focusing on these experiential and
+    32→computational mechanisms, this framework provides a theoretical foundation for targeted
+    33→clinical interventions designed to leverage real-time affect and post-session reflection to break
+    34→the self-reinforcing cycle of inactivity and promote sustained symptom improvement.
+    35→Keywords
+    36→Psychosis, physical exercise, motivation, effort, pleasure, hedonic capacities
+    37→2
+    38→
+    39→1. Introduction
+    40→Schizophrenia is a complex and chronic mental disorder characterized by positive, negative,
+    41→disorganized, and cognitive symptoms (Owen et al., 2016). Among these dimensions,
+    42→negative symptoms are particularly disabling because they affect motivation, pleasure,
+    43→emotional expression, social engagement, and goal-directed behavior (Chang et al., 2020;
+    44→Fulford et al., 2018; Giuliani et al., 2021; Glenthøj et al., 2020). Experiential negative
+    45→symptoms, such as avolition, anhedonia, and asociality, are especially relevant for daily
+    46→functioning because they directly impair the capacity to initiate and sustain meaningful
+    47→activities. Despite their clinical importance, negative symptoms remain difficult to treat and
+    48→show limited response to available antipsychotic medications (Correll & Schooler, 2020; Li et
+    49→al., 2016). This has led to growing interest in complementary interventions capable of
+    50→targeting motivational, affective, and functional impairments in schizophrenia-spectrum
+    51→disorders.
+    52→Against this background, physical exercise (i.e., planned, structured, and repetitive
+    53→physical activity intended to improve or maintain physical fitness; Caspersen et al., 1985) has
+    54→received increasing attention as a complementary intervention for schizophrenia-spectrum
+    55→disorders. Reviews and meta-analyses suggest that exercise may improve several clinically
+    56→relevant outcomes in schizophrenia-spectrum disorders, including psychiatric symptoms,
+    57→cognition, physical health, functioning, and quality of life (Dauwan et al., 2016; Gallardo-
+    58→Gómez et al., 2023; Girdler et al., 2019; Kim et al., 2023; Sabe et al., 2020). Of particular
+    59→relevance to the present review, exercise has also been associated with reductions in negative
+    60→symptoms (Sabe et al., 2020). This raises a clinically important paradox: the very symptoms
+    61→that exercise may help alleviate may also make exercise difficult to initiate, sustain, and
+    62→repeat.
+    63→3
+    64→
+    65→This paradox is especially important because individuals with schizophrenia exhibit a
+    66→generally lower level of physical activity (i.e., any bodily movement produced by skeletal
+    67→muscles that results in energy expenditure; Caspersen et al., 1985) than the general population
+    68→(Ohi et al., 2019; Stubbs et al., 2016), and reduced physical activity appears particularly
+    69→pronounced among those with more severe negative symptoms (Gorczynski et al., 2018).
+    70→Negative symptoms may therefore contribute to a self-reinforcing cycle in which reduced
+    71→motivation, diminished reward anticipation, and altered effort valuation decrease exercise
+    72→engagement, thereby limiting opportunities to experience the affective, cognitive, social, and
+    73→physiological benefits of exercise.
+    74→Breaking this cycle requires moving beyond the question of whether exercise works,
+    75→toward the question of how exercise is experienced. Physical exercise is not only a
+    76→physiological stimulus, but also an affective and effortful experience. From the perspective of
+    77→negative symptoms, two subjective dimensions appear especially important: exercise-related
+    78→pleasure and perceived exertion.
+    79→Here, exercise-related pleasure refers specifically to the hedonic valence of the
+    80→exercise experience, that is, the degree to which a given exercise session is anticipated,
+    81→experienced, or recalled as pleasant or unpleasant. This use follows the exercise-affect
+    82→literature, in which pleasure-displeasure is treated as a core affective response and is
+    83→commonly assessed through the Feeling Scale (Ekkekakis, 2003; Ekkekakis et al., 2011,
+    84→2020; Hardy & Rejeski, 1989), rather than as synonymous with broader constructs such as
+    85→enjoyment, intrinsic motivation, or affective attitudes (Kimiecik & Harris, 1996; Rhodes &
+    86→Kates, 2015; Stevens et al., 2020; Teixeira et al., 2022), 1996. Perceived exertion refers to the
+    87→subjective experience of how intense the effort or strain feels during physical activity (Haile
+    88→et al., 2015; Robertson & Noble, 1997); see also Halperin & Emanuel, 2020) for conceptual
+    89→discussion regarding its definition). Crucially, pleasure and effort dimensions are closely
+    90→4
+    91→
+    92→linked in the broader exercise psychology literature, where higher perceived exertion is
+    93→generally associated with less pleasant affective responses, a relationship captured by the
+    94→Dual-Mode Theory of exercise affect (Ekkekakis, 2003).
+    95→The present narrative review develops the “breaking the cycle” argument in four steps.
+    96→First, we establish that physical exercise can reduce negative symptoms in schizophrenia-
+    97→spectrum disorders. Second, we examine evidence that negative symptoms interfere with
+    98→physical activity and exercise engagement. Third, we focus on the proximal exercise
+    99→experience by reviewing studies that have examined subjective pleasure and perceived
+   100→exertion experienced during exercise in schizophrenia-spectrum disorders. Finally, we
+   101→propose a learning-based framework, informed by the reward, effort, and prediction-error
+   102→alterations summarized in Box 1, in which physical exercise may help rewire negative
+   103→symptoms by updating maladaptive internal models related to effort and pleasure experiences.
+   104→According to the proposed framework, individuals with schizophrenia-spectrum
+   105→disorders may anticipate exercise as effortful and hard to control. However, when exercise is
+   106→experienced as more manageable or more rewarding than expected, it may generate
+   107→expectancy violations or prediction errors that support the updating of internal models.
+   108→Concurrently, the physiological adaptations induced by physical exertion drive a potent
+   109→neurometabolic and neuroprotective cascade, that may contribute to restore frontostriatal
+   110→network sensitivity to catalyze this computational re-learning process. Repeated exercise
+   111→experiences that violate negative expectations may gradually change how effort is anticipated,
+   112→experienced, remembered, and valued. The objective of this review is therefore to articulate
+   113→an integrated neurocognitive framework linking negative symptoms, exercise engagement,
+   114→perceived exertion, pleasure, and prediction-error-based learning, with the aim of generating
+   115→testable hypotheses for future research and intervention development.
+   116→2. Effects of physical exercise on negative symptoms
+   117→5
+   118→
+   119→At a broad level, the literature suggests that exercise can produce beneficial effects
+   120→across several clinically relevant domains in individuals with schizophrenia. Studies assessing
+   121→immediate responses to exercise bouts have shown that physical exercise can reduce state
+   122→anxiety and psychological distress while increasing positive well-being in people with
+   123→schizophrenia (Heggelund et al., 2014; Korman et al., 2026; Vancampfort et al., 2011).
+   124→Exercise also shows benefits on cognitive and functional outcomes. Meta-analytic evidence
+   125→suggests that aerobic exercise may improve global cognition, attention, processing speed, and
+   126→functional outcomes in people with schizophrenia-spectrum disorders (Girdler et al., 2019;
+   127→Korman et al., 2023; Lak et al., 2024; Vila-Barrios et al., 2023). These effects are relevant
+   128→because cognitive dysfunction and negative symptoms are closely intertwined in daily
+   129→functioning, particularly for goal-directed behavior, social participation, and occupational
+   130→engagement.
+   131→Regular moderate-to-vigorous aerobic exercise has also been associated with
+   132→reductions in body weight, waist circumference, fasting blood glucose, triglycerides, and
+   133→systolic blood pressure (Bredin et al., 2013; Schmitt et al., 2018; Tumiel et al., 2019;
+   134→Vancampfort et al., 2019). These somatic benefits may also contribute to downregulating the
+   135→chronic low-grade systemic inflammation frequently observed in schizophrenia (Furman et
+   136→al., 2019; Khandaker et al., 2015). This is clinically relevant since inflammatory signaling is
+   137→known to alter frontostriatal circuits, reducing ventral striatal responses to reward and
+   138→lowering dopamine availability, which directly impairs motivation and motor activity (Felger
+   139→& Treadway, 2017; Goldsmith & Rapaport, 2020). Systematic reviews of exercise
+   140→interventions suggest that regular exercise could improve lipid metabolism and lower
+   141→inflammation in this population (Gómez-Rubio & Trapero, 2019), although further studies are
+   142→needed to confirm this pattern. In a recent experimental clinical trial conducted on patients
+   143→6
+   144→
+   145→major depressive disorder (Miller et al., 2025), targeting inflammation led to a reduction in
+   146→motivational deficits, reflected by an increased willingness to select high-effort options during
+   147→effort-based decision-making tasks. This later finding highlights another promising avenue for
+   148→future research in schizophrenia.
+   149→Of particular interest for the present paper is whether physical exercise can specifically
+   150→reduce negative symptoms. Systematic reviews and meta-analyses reveal that exercise
+   151→interventions have been associated with improvements in general psychopathology, with some
+   152→evidence for reductions in positive symptoms, such as hallucinations and delusions, and more
+   153→consistent evidence for reductions in negative symptoms, including motivational and
+   154→expressive dimensions such as avolition, asociality, anhedonia, alogia, and blunted affect
+   155→(Gallardo-Gómez et al., 2023; Girdler et al., 2019; Kim et al., 2023; Korman et al., 2023;
+   156→Mittal et al., 2017; Sabe et al., 2020; Veerman et al., 2017). The magnitude of these effects
+   157→also varies across meta-analyses. Sabe et al. (2020), focusing specifically on randomized
+   158→controlled trials of physical exercise for negative symptoms, reported a small effect (SMD = -
+   159→0.20, 95% CI -0.37 to -0.03), mainly driven by aerobic interventions (SMD = -0.31, 95% CI -
+   160→0.54 to -0.09), whereas non-aerobic interventions showed less consistent benefits. By contrast,
+   161→Kim et al. (2023), which included a broader range of exercise modalities, including aerobic,
+   162→multicomponent, and neuromotor forms of exercise, reported a medium effect on negative
+   163→symptoms (Hedges’ g = -0.51, 95% CI -0.72 to -0.31), as well as a smaller effect on positive
+   164→symptoms. Similarly, Gallardo-Gómez et al. (2023), using a multilevel meta-analytic
+   165→approach across randomized controlled trials, found a medium-to-large effect on negative
+   166→symptoms (g = 0.65, 95% CI 0.53 to 0.78), but no significant effect on positive symptoms (g
+   167→= -0.05). These differences in effect size likely reflect several sources of heterogeneity,
+   168→including the type of exercise intervention, intervention dose and number of sessions, clinical
+   169→7
+   170→
+   171→setting, comparison condition, methodological quality, and whether studies included
+   172→participants with primary or predominant negative symptoms.
+   173→Importantly, Sabe et al. (2020) suggested that improvements in negative symptoms
+   174→may not be fully reducible to improvements in depressive symptoms, as a subgroup analysis
+   175→limited to studies excluding participants with baseline depression still showed a moderate
+   176→reduction in negative symptoms. This point is important but should be interpreted cautiously:
+   177→the authors also emphasized that none of the included trials specifically targeted primary or
+   178→predominant negative symptoms. Thus, the current evidence does not yet establish whether
+   179→exercise acts directly on core negative symptoms, or whether its effects are partly mediated by
+   180→changes in mood, physical health, social engagement, or other secondary mechanisms. Further
+   181→reinforcing the idea that exercise may alter the broader clinical organization of schizophrenia,
+   182→Laurendeau et al. (2026) showed, using a pooled network analysis, that negative symptoms
+   183→were among the most central nodes of psychopathology at baseline, and that a structured
+   184→exercise intervention reorganized the overall symptom network toward a less dense and less
+   185→connected architecture. Together, these findings suggest that exercise may not simply reduce
+   186→isolated symptoms, but may influence broader motivational and experiential processes that are
+   187→central to negative symptoms, including effort valuation, hedonic experience, and behavioral
+   188→initiation.
+   189→3. Negative symptoms and engagement in physical activity
+   190→The evidence reviewed in the previous section suggests that structured physical exercise may
+   191→reduce negative symptoms in schizophrenia-spectrum disorders. However, the clinical
+   192→relevance of this finding depends on a central paradox: the very symptoms that exercise may
+   193→help improve are also likely to reduce the willingness to engage in exercise programs, as well
+   194→8
+   195→
+   196→as everyday physical activity (i.e., everyday movement, such as walking, transportation,
+   197→domestic activities, or leisure activities).
+   198→A first line of evidence comes from cross-sectional research on motivation toward
+   199→physical activity. Vancampfort et al. (2015) showed that, among inpatients with
+   200→schizophrenia, higher levels of negative symptoms were associated with lower autonomous
+   201→motivation to engage in physical activity. In this sense, negative symptoms are not only
+   202→correlated with lower activity levels, but also with a reduced capacity to experience physical
+   203→activity as personally meaningful, rewarding, or self-endorsed.
+   204→Longitudinal evidence points in a broadly similar direction. In a systematic review of
+   205→prospective studies in people with severe mental illness, Hassan et al. (2019) highlighted that
+   206→higher negative symptom scores predicted poorer physical activity-related outcomes,
+   207→including lower cardiorespiratory fitness and lower physical activity levels. This review
+   208→included studies involving people with schizophrenia, schizoaffective disorder, psychosis, and
+   209→broader severe mental illness samples. In particular, Storch Jakobsen et al. (Storch Jakobsen
+   210→et al., 2018) reported that negative symptoms predicted reduced cardiorespiratory fitness in
+   211→people with schizophrenia spectrum disorders, whereas (Nyboe et al. (2016) reported that
+   212→negative symptoms predicted lower physical activity over time in people with first-episode
+   213→schizophrenia. Importantly, Hassan et al. also emphasized the scarcity and methodological
+   214→heterogeneity of prospective studies, meaning that the temporal and potentially bidirectional
+   215→relationship between negative symptoms and physical activity remains insufficiently
+   216→established.
+   217→Evidence focusing on aerobic fitness provides a more nuanced picture. Aerobic fitness
+   218→refers to the physiological capacity to sustain aerobic effort, often indexed by
+   219→cardiorespiratory fitness or estimated maximal oxygen uptake (Caspersen et al., 1985; Ross et
+   220→al., 2016). Maurus et al. (2022), in a large cross-sectional study examining aerobic fitness,
+   221→9
+   222→
+   223→negative symptoms, cognitive deficits, and brain structure in individuals with schizophrenia,
+   224→found that aerobic fitness was related to markers of brain structure, particularly hippocampal
+   225→and parahippocampal volumes, but reported only inconclusive evidence for an association
+   226→with negative symptoms.
+   227→This pattern contrasts with recent digital phenotyping evidence, which provides a more
+   228→direct window into everyday activity and mobility. Yang et al. (2025), using wrist wearables
+   229→and smartphones in 99 recently discharged individuals with schizophrenia spectrum disorders,
+   230→found that negative symptoms were among the clinical dimensions most strongly associated
+   231→with passive digital markers. These markers included physical activity, GPS-derived distance
+   232→travelled, sleep-related measures, phone use, and social behavior. The authors reported a
+   233→negative association between physical activity, measured through step count, and negative
+   234→symptom severity, especially the Brief Negative Symptom Scale’s subdomains of avolition,
+   235→blunted affect, and alogia. They also found that distance travelled, messages sent, and
+   236→touchscreen tapping speed yielded strong signals associated with negative symptoms,
+   237→particularly experiential deficits, notably avolition and anhedonia.
+   238→This latter pattern of findings suggests that digital markers, especially those related to
+   239→physical activity and mobility, are particularly informative for documenting how negative
+   240→symptoms are associated with reduced movement in everyday contexts. Yet these objective
+   241→markers leave open a key experiential question: how is physical activity felt when it is
+   242→actually performed? They indicate whether individuals move, but not whether bodily effort
+   243→feels costly, tolerable, rewarding, or pleasurable. This distinction is particularly relevant in
+   244→schizophrenia, because avolition and anhedonia are thought to involve impairments in reward
+   245→anticipation, effort valuation, and the willingness to mobilize effort for future benefits (see
+   246→Box 1 for a summary of fundamental alterations in reward, pleasure, volition, and effort-based
+   247→decision-making). Applied to physical activity and exercise, these impairments may be
+   248→10
+   249→
+   250→especially important because movement often requires individuals to tolerate bodily effort
+   251→before potential benefits are experienced. Accordingly, the next section focuses on two
+   252→proximal experiential variables that may help explain how negative symptoms interfere with
+   253→physical activity engagement: exercise-related pleasure and perceived effort.
+   254→Box 1. Fundamental alterations in reward, pleasure, effort, and related
+   255→neurobiology in schizophrenia
+   256→Negative symptoms in schizophrenia, especially avolition and anhedonia, are closely linked to
+   257→alterations in how rewards are anticipated, experienced, learned from, and weighed against effort
+   258→costs (Abram et al., 2022; Correll & Schooler, 2020; Strauss & Cohen, 2017). These processes
+   259→provide the psychological and neurocognitive background for understanding why beginning and then
+   260→maintaining a physical exercise routine is so difficult in this population. For each process, behavioral
+   261→and neural findings are presented together, followed by its implication for physical exercise.
+   262→(i) Anticipatory and consummatory pleasure
+   263→At the subjective level, individuals with schizophrenia typically report relatively preserved
+   264→consummatory (in-the-moment) pleasure but reduced anticipatory pleasure, that is, the pleasure
+   265→expected before an event (Cohen et al., 2010; Gard et al., 2007; Kring & Barch, 2014; Moran et al.,
+   266→2022). This subjective picture is complemented, rather than contradicted, by neuroimaging: meta-
+   267→analyses show reduced activation of the striatum and cingulate cortex (regions that are commonly
+   268→triggered by expected reward; (Bartra et al., 2013; Knutson et al., 2001) during reward anticipation,
+   269→whereas activation during reward consumption is more variable across studies (Wang et al., 2023;
+   270→Zeng et al., 2022).
+   271→Implication for physical exercise: an individual with schizophrenia may experience relief,
+   272→calmness, accomplishment, or pleasure after an exercise session, yet still fail to anticipate these
+   273→positive outcomes before the next one. This may help explain why a positive exercise experience
+   274→does not automatically translate into spontaneous future engagement.
+   275→(ii) Effort valuation and the anticipation of effort
+   276→Motivated behavior depends not only on reward value but also on the effort required to obtain it
+   277→(Treadway et al., 2009; Walton et al., 2018). Individuals with schizophrenia are less willing to choose
+   278→high-effort options for larger rewards, particularly when motivational negative symptoms are more
+   279→severe (Barch et al., 2014; Blouzard et al., 2023; Culbreth et al., 2018; Fervaha et al., 2015; Gold et
+   280→al., 2013), and this partly reflects heightened sensitivity to effort cost and an altered perception of
+   281→effort (Culbreth et al., 2025; Décombe et al., 2020). A recent transdiagnostic multilevel meta-analysis
+   282→confirms a moderate effort-based decision-making deficit in schizophrenia-spectrum disorders (g = -
+   283→0.40), with the severity of negative and positive symptoms among its significant moderators (Pillny
+   284→et al., 2026). These behavioral deficits are accompanied by weaker task-related activation (measured
+   285→with functional MRI) of the ventral striatum, anterior cingulate, and dorsolateral prefrontal cortex, a
+   286→core brain network for weighing effort against reward (Bartra et al., 2013; Prévost et al., 2010), when
+   287→individuals perform effort-based decision tasks (Saleh et al., 2021). At the neurochemical level, this
+   288→circuitry depends on a balance between the main excitatory neurotransmitter, glutamate, and the main
+   289→inhibitory one, GABA: a glutamatergic-GABAergic imbalance in the prefrontal cortex disrupts its
+   290→top-down control of subcortical dopamine circuits (dopamine being the neuromodulator that signals
+   291→reward and mobilises effort; Howes et al., 2024; Liu et al., 2021). Causal animal evidence confirms
+   292→this link: reducing cortical and hippocampal GABA is sufficient to produce effort-based decision-
+   293→making deficits and avolition-like behaviour distinct from anhedonia, alongside attenuated effort-
+   294→evoked dopamine release in the anterior cingulate cortex (Kolata et al., 2018).
+   295→Implication for physical exercise: exercise may be rejected not because it lacks potential value,
+   296→but because its anticipated effort cost is too salient relative to its expected reward. Even low- or
+   297→11
+   298→
+   299→moderate-intensity exercise may then be experienced as difficult to initiate when the expected
+   300→benefit is weak, delayed, or uncertain.
+   301→(iii) Reward and reinforcement learning
+   302→Reinforcement learning, the process of adjusting behavior based on the outcomes of past actions (Niv,
+   303→2009; Rangel et al., 2008), is altered in schizophrenia, particularly the ability to acquire and use
+   304→positive reward associations to guide future behavior (Dowd & Barch, 2012; Strauss, Frank, et al.,
+   305→2011; Waltz et al., 2007). Deficits are most apparent when behavior requires integrating past
+   306→outcomes, maintaining value representations (the brain’s internal estimates of how rewarding or
+   307→worthwhile an option is;(Bartra et al., 2013), and using them to guide later decisions (Culbreth et al.,
+   308→2021; Gold et al., 2013). These deficits are closely tied to negative symptoms, particularly avolition
+   309→and anhedonia (Moran et al., 2019; Strauss, Wilbur, et al., 2011; Waltz & Gold, 2015).
+   310→Implication for physical exercise: even when exercise produces a positive affective response, this
+   311→experience may not be automatically encoded as a reason to repeat the behaviour. Interventions
+   312→may therefore need to make positive outcomes explicit, repeated, and memorable, rather than
+   313→assuming that pleasant experiences will spontaneously guide future engagement.
+   314→(iv) Reward prediction errors and expectation updating
+   315→Reward prediction errors, the discrepancies between expected and actual outcomes, signal when
+   316→internal models should be updated. They are coded by dopamine activity in frontostriatal circuits (the
+   317→loops linking the prefrontal cortex and the striatum that support reward valuation and goal-directed
+   318→action; (Haber & Knutson, 2010), including the ventral striatum, midbrain, and orbitofrontal cortex
+   319→(D’Astolfo & Rief, 2017; Papalini et al., 2020; Schultz, 2016; Steinberg et al., 2013). In
+   320→schizophrenia, neural responses in these dopamine target regions during reward anticipation are
+   321→attenuated, and positive prediction errors are used less effectively to guide future behaviour (Arrondo
+   322→et al., 2015; Dowd & Barch, 2012; Leroy et al., 2020; Wang et al., 2023).
+   323→Implication for physical exercise: if an individual expects exercise to be exhausting, unpleasant,
+   324→or unrewarding but the session is experienced as manageable, calming, or rewarding, this
+   325→discrepancy can create a clinically useful prediction error. Because prediction-error processing
+   326→may be altered, such expectancy-violating experiences may need to be explicitly identified,
+   327→discussed, and repeated across sessions.
+   328→(v) Modulating factors: delay discounting and prospection
+   329→Several additional processes modulate this reward-effort balance. Many benefits of exercise are
+   330→delayed (fitness, metabolic and cardiovascular health), yet individuals with schizophrenia show
+   331→steeper delay discounting, that is, they devalue delayed rewards more rapidly than immediate ones, a
+   332→tendency itself associated with negative symptoms (Bartolomeo et al., 2020; Brown et al., 2018;
+   333→Heerey et al., 2011; Horan et al., 2017). Using past experience to imagine future rewards also depends
+   334→on autobiographical memory and future simulation (the capacity to mentally pre-experience an
+   335→event), both of which can be impaired in schizophrenia (D’Argembeau et al., 2008; Raffard et al.,
+   336→2010; Schacter et al., 2007).
+   337→Implication for physical exercise: interventions should not rely primarily on delayed health
+   338→outcomes to motivate engagement. They should instead make immediate or near-term benefits
+   339→salient (calm, a sense of achievement, or connection with others), and may benefit from post-session
+   340→reflection that helps individuals register the gap between what they expected and what actually
+   341→happened.
+   342→4. Experienced pleasure and physical exertion during exercise in schizophrenia
+   343→As acknowledged in Section 2., several studies have shown that single bouts of physical
+   344→exercise can reduce state anxiety and psychological stress while increasing positive well-
+   345→12
+   346→
+   347→being in people with schizophrenia or psychotic disorders (Heggelund et al., 2014;
+   348→Vancampfort et al., 2011). However, these studies assessed psychological states before and
+   349→after exercise, but not during the exercise bout itself. Only a small but relevant body of
+   350→research has examined how people with schizophrenia or schizophrenia-spectrum disorders
+   351→experience exercise at the subjective level. This subset of studies is important as, based on the
+   352→Dual-Mode Theory (Ekkekakis, 2003), affective responses during exercise are shaped by the
+   353→balance between cognitive-affective factors and interoceptive cues of bodily strain. In-
+   354→moment (or retrospective) ratings of pleasure and effort may thus provide fine-grained insight
+   355→into the characterization of the exercise experience, as the activity is often experienced at
+   356→different levels of pleasantness and effortfulness while it is being performed (Brevers et al.,
+   357→2024; Ekkekakis et al., 2011; Hardy & Rejeski, 1989).
+   358→A study by Duncan et al. (2016) assessed core subjective pleasure before, during, and
+   359→after a 10-min bout of moderate-intensity walking (defined as 64–76% of the calculated
+   360→maximum heart rate) in outpatients with schizophrenia, using the Feeling Scale to assess
+   361→pleasure-displeasure and the Felt Arousal Scale (a single-item measure of perceived
+   362→activation, independent of hedonic valence; (Svebak & Murgatroyd, 1985) to assess
+   363→activation. Pleasure increased after exercise and remained elevated 10 min later, but did not
+   364→significantly improve during exercise itself. Perceived exertion, assessed with the Borg RPE
+   365→scale, increased from baseline to the in-task assessment during exercise while remaining
+   366→stable during passive sitting. Duncan et al. thus provide a particularly informative pattern:
+   367→moderate-intensity walking was experienced as more effortful during the task, whereas the
+   368→increase in pleasure emerged mainly after task completion.
+   369→However, several limitations temper Duncan et al. (2016) findings. First, there was no
+   370→healthy control group: the comparison was a passive sitting condition completed by the same
+   371→participants, so the study cannot indicate whether individuals with schizophrenia differ from
+   372→13
+   373→
+   374→healthy controls in their affective response to exercise. Second, pleasure ratings did not
+   375→significantly differ between the exercise and passive sitting conditions, suggesting that the
+   376→post-task increase in pleasure was not clearly specific to exercise. Third, felt arousal did not
+   377→significantly change from baseline and did not differ from sitting, contrary to the authors’
+   378→hypothesis: of the two affective dimensions assessed (pleasure and activation), only pleasure
+   379→shifted, and only over time rather than specifically with exercise, leaving the affective
+   380→response only partially characterized. Finally, most participants were overweight or obese
+   381→(75%), raising the possibility that the observed pattern, namely increased perceived exertion
+   382→during walking and improved pleasure mainly after completion, partly reflects obesity-related
+   383→physical constraints rather than schizophrenia-specific affective dysfunction.
+   384→In this respect, Pitois et al. (2025) is informative, although only indirectly related to
+   385→schizophrenia. This study examined adults with severe obesity, with or without mental
+   386→disorders, during two consecutive 6-min walking exercises. The psychiatric subgroup was
+   387→mainly composed of individuals with mood disorders, with only one participant classified as
+   388→having a psychotic disorder and no specific indication of schizophrenia. Pitois et al. found that
+   389→pleasure declined over time across the walking exercises in both groups, without a significant
+   390→group by time interaction. This suggests that reduced pleasure during repeated walking may
+   391→be linked to obesity-related physical constraints rather than to mental disorder per se.
+   392→Accordingly, the role of BMI and metabolic burden should be considered when interpreting
+   393→affective responses to walking-based exercise in schizophrenia-spectrum disorders. Finally,
+   394→and most importantly for the present framework, the study did not examine the association
+   395→between (changes in) perceived exertion and pleasure. It therefore remains unclear whether
+   396→higher exertion during exercise modulated pleasure across the exercise session.
+   397→Décombe et al. (2020) further extended the line of evidence on physical effort in
+   398→schizophrenia by employing a walking task in which physical demand was manipulated by
+   399→14
+   400→
+   401→increasing the distance to be covered. The authors found that perceived effort and perceived
+   402→difficulty increased with task demand in both groups, indicating that individuals with
+   403→schizophrenia were sensitive to changes in physical demand. However, participants with
+   404→schizophrenia reported higher perceived effort and difficulty overall than healthy controls.
+   405→This suggests that even relatively low-effortful forms of physical exercise may carry a higher
+   406→subjective effort cost in schizophrenia. Notably, perceived effort was positively associated
+   407→with BMI in the schizophrenia group, suggesting that bodily or metabolic factors may
+   408→contribute to the subjective cost of physical effort.
+   409→Korman et al. (2026) recently examined the immediate (acute) psychological
+   410→responses to single bouts of resistance training and aerobic interval training in people with
+   411→psychotic disorders receiving psychiatric rehabilitation, most of whom had schizophrenia or
+   412→schizoaffective disorder. Both exercise modalities produced immediate increases in positive
+   413→well-being and reductions in psychological distress. Importantly, in models adjusted for BMI,
+   414→fatigue followed a modality-specific pattern: it increased after resistance training, whereas it
+   415→decreased after aerobic exercise. This finding suggests that the psychological benefits of
+   416→exercise may coexist with different subjective exertional costs depending on the type of
+   417→activity performed. In schizophrenia-spectrum disorders, where fatigue, reduced energy,
+   418→amotivation, and difficulties with behavioral initiation are major barriers to physical activity,
+   419→such immediate fatigue responses may influence whether an exercise bout is experienced as
+   420→tolerable, aversive, or worth repeating.
+   421→Taken together, this literature suggests that people with schizophrenia-spectrum
+   422→disorders can experience acute psychological benefits from exercise, but it also highlights a
+   423→major gap: few studies have examined how perceived exertion, fatigue, and pleasure interact
+   424→during the exercise bout itself. This gap is important because future physical activity
+   425→engagement may depend not only on post-exercise well-being, but also on the experienced
+   426→15
+   427→
+   428→and remembered balance between effort and pleasure. Understanding this balance may be
+   429→particularly relevant for negative symptoms, where anticipatory pleasure, effort valuation, and
+   430→behavioral initiation are often disrupted. Future studies should therefore assess pleasure,
+   431→perceived exertion, fatigue, BMI, fitness level, and symptom dimensions within the same
+   432→design, in order to clarify when exercise is experienced as rewarding, costly, or difficult to
+   433→repeat.
+   434→Beyond measuring this balance, the central question is how it can be shifted: the next
+   435→section develops a learning-based framework in which physical exercise acts as an
+   436→experiential context where repeated discrepancies between expected and experienced effort
+   437→and pleasure progressively update the maladaptive internal models that sustain negative
+   438→symptoms.
+   439→5. Rewiring negative symptoms through physical exercise
+   440→The previous sections suggest a central clinical paradox. Structured physical exercise may
+   441→reduce negative symptoms in schizophrenia-spectrum disorders, yet negative symptoms
+   442→themselves may undermine the capacity to take up exercise and persist with it over repeated
+   443→sessions. This paradox provides the rationale for a learning-based framework in which
+   444→exercise is not viewed only as a physiological intervention, but also as an experiential context
+   445→in which maladaptive expectations about effort, pleasure, reward, and control can be updated.
+   446→This section builds on the fundamental alterations summarized in Box 1, including
+   447→impairments in reward anticipation, hedonic experience, effort valuation, reinforcement
+   448→learning, and prediction error processing. For each mechanism, Box 1 also highlights potential
+   449→implications for physical exercise, which are developed further in the intervention framework
+   450→below. These alterations may contribute to the maintenance of physical exercise avoidance by
+   451→making exercise appear costly, unrewarding, or not worth initiating. However, they also
+   452→16
+   453→
+   454→identify potential intervention targets. If physical exercise is repeatedly experienced as less
+   455→effortful or more rewarding than expected, it may gradually update internal models of
+   456→exercise and weaken the self-reinforcing cycle between negative symptoms and exercise
+   457→avoidance. As illustrated in Figure 1, this framework conceptualizes physical exercise as a
+   458→corrective learning context in which repeated discrepancies between expected and
+   459→experienced effort and pleasure may progressively recalibrate future exercise expectations and
+   460→support renewed engagement.
+   461→5.1 Physical exercise as a corrective learning experience
+   462→Physical effort is often perceived as costly, and individuals generally tend to minimize
+   463→unnecessary effort (Cheval & Boisgontier, 2021; Inzlicht et al., 2018). From a learning
+   464→perspective, physical exercise may also become associated with aversive bodily states, such as
+   465→fatigue, breathlessness, or discomfort. In classical conditioning terms, exercise-related cues,
+   466→such as the idea of going for a walk, entering a fitness room, wearing sport clothes, or
+   467→anticipating bodily exertion, may function as conditioned stimuli if they have been repeatedly
+   468→paired with aversive unconditioned stimuli such as exhaustion or physical discomfort. Over
+   469→time, these cues may elicit conditioned responses, such as negative affect, anticipatory
+   470→fatigue, or avoidance (Craske et al., 2014; Rescorla & Wagner, 1972). In the absence of
+   471→sufficiently positive or corrective experiences, the association between exercise and aversive
+   472→bodily states may remain unchanged.
+   473→This learning account is particularly relevant for schizophrenia-spectrum disorders. As
+   474→described in Box 1, negative symptoms are associated with reduced reward anticipation,
+   475→altered effort valuation, impairments in reinforcement learning, and difficulties translating
+   476→expected reward into action. As a result, individuals may assign greater weight to the
+   477→immediate costs of exercise than to its delayed or uncertain benefits. The anticipated effort
+   478→may be vivid and concrete, whereas the expected rewards, such as pleasure, accomplishment,
+   479→17
+   480→
+   481→or long-term health benefits, may be weakly represented. This imbalance may bias individuals
+   482→toward avoidance before the activity is even initiated.
+   483→Within the present framework, physical exercise becomes clinically relevant not only
+   484→because it can improve fitness or reduce symptoms, but because it can create opportunities for
+   485→corrective learning. When exercise is experienced as less effortful, less aversive, more
+   486→controllable, or more rewarding than expected, the discrepancy between expectation and
+   487→experience can generate an expectancy violation or prediction error. Such discrepancies are
+   488→central to associative learning because they signal that existing predictions no longer fit the
+   489→experienced outcome and should therefore be updated (D’Astolfo & Rief, 2017; Rescorla &
+   490→Wagner, 1972; Schultz et al., 1997). In anxiety disorders, exposure-based interventions rely
+   491→on a similar principle: feared outcomes are challenged when threat cues are not followed by
+   492→the expected aversive consequence, thereby promoting inhibitory learning and expectation
+   493→change (Craske et al., 2014; Papalini et al., 2020; Rief et al., 2022).
+   494→Here, we propose that a comparable logic may apply to physical exercise in
+   495→schizophrenia-spectrum disorders. If an individual expects a walk, a bike ride, or a strength
+   496→session to feel exhausting and beyond their control, but the activity turns out to be tolerable,
+   497→manageable, or even pleasant, this experience may challenge the prior expectation and
+   498→support the formation of a new internal model of exercise.
+   499→5.2. Prediction errors during physical exercise: from pacing regulation to subjective
+   500→learning
+   501→Physical exercise regulation involves a continuous adjustment between bodily feedback,
+   502→perceived exertion, and expectations about what remains to be done (Smits et al., 2014;
+   503→Tucker, 2009; Ulmer, 1996). During exercise, individuals do not simply respond to current
+   504→bodily sensations; they also estimate whether the ongoing level of effort is sustainable relative
+   505→to the expected duration, distance, or endpoint of the task. Teleo-anticipatory and pacing
+   506→18
+   507→
+   508→models propose that performance is regulated through this dynamic comparison between
+   509→current physiological and perceptual states, anticipated task demands, and the remaining work
+   510→to be completed (Noakes, 2012; St Clair Gibson et al., 2006; Tucker, 2009; Ulmer, 1996).
+   511→Perceived exertion is central to this regulatory process: rather than being a passive readout of
+   512→peripheral fatigue, it functions as an integrative signal that helps individuals decide whether to
+   513→maintain pace, slow down, accelerate, stop, or tolerate discomfort.
+   514→Thus, because exercise regulation depends on the comparison between ongoing bodily
+   515→feedback and expected task demands, discrepancies may emerge between expected and
+   516→experienced bodily states. If the activity feels easier than expected, the person may continue,
+   517→increase intensity, or experience the situation as more manageable than anticipated. This
+   518→within-exercise regulation is therefore already based on discrepancies between expected and
+   519→experienced bodily states. In schizophrenia-spectrum disorders, such discrepancies may be
+   520→clinically important because they do not only guide moment-to-moment pacing. They may
+   521→also shape how exercise is encoded, remembered, and valued.
+   522→A central aim of exercise-based interventions may therefore be to help individuals
+   523→identify and learn from these prediction errors. In the context of physical exercise, prediction
+   524→errors may concern perceived effort, fatigue, pleasure, or post-exercise well-being. For
+   525→example, a person may expect a short walk to be exhausting but find it manageable. Another
+   526→person may expect an exercise session to be unpleasant, but experience relief or
+   527→accomplishment after completion. Conversely, a person may underestimate the difficulty of
+   528→an activity and experience it as more effortful than anticipated. These mismatches matter
+   529→because they provide information about whether exercise is really as costly or unpleasant as
+   530→expected.
+   531→Positive prediction errors, such as experiencing less effort than expected, are
+   532→especially relevant because they may directly enhance the rewarding value of exercise. This
+   533→19
+   534→
+   535→mechanism is consistent with recent studies (Brevers et al., 2024; Öz et al., 2026) showing
+   536→that when exertion during running was lower than expected, participants reported greater
+   537→pleasure. In other words, exercise was not only pleasurable because it was objectively easy,
+   538→but because it was easier than anticipated. Applied to schizophrenia-spectrum disorders, this
+   539→suggests that exercise interventions should not necessarily aim to reduce objective effort per
+   540→se. Rather, they should be shaped around the dynamic relation between expected and
+   541→experienced effort, so that individuals have opportunities to discover that exercise can be less
+   542→costly or more rewarding than predicted.
+   543→5.3. Learning from both positive and negative prediction errors
+   544→Although positive prediction errors, where an exercise is experienced as less effortful than
+   545→anticipated, are associated with increased pleasure, the intervention target should not be
+   546→restricted to positive prediction errors only. First, negative prediction errors, where an
+   547→exercise is experienced as more effortful than anticipated, are an inherent part of physical
+   548→exercise. A session will sometimes feel more difficult, more tiring, or less pleasant than
+   549→anticipated. Such experiences may reduce pleasure and reinforce avoidance if they are only
+   550→interpreted as confirmation that exercise is aversive, uncontrollable, or not worth repeating. In
+   551→this context, a more relevant clinical target is to help individuals become aware of the gap
+   552→between anticipation and experience, and to use this gap as a source of learning.
+   553→This is crucial because expectation violations do not automatically lead to belief
+   554→updating. Individuals may discount, ignore, or reinterpret expectancy-violating experiences in
+   555→ways that preserve prior beliefs, a process sometimes described as cognitive immunization
+   556→(Kube et al., 2017). For example, after completing a walk that was easier than expected, a
+   557→person may conclude that “it was only manageable today because the weather was good” or
+   558→“it does not mean I could do it again.” For this reason, exercise interventions should not only
+   559→generate prediction errors, but also help individuals notice, interpret, and encode them.
+   560→20
+   561→
+   562→One way to support this process is to make predictions explicit. Before an exercise
+   563→bout, individuals can be asked to predict how effortful (or unpleasant, tiring, controllable, or
+   564→rewarding) the activity will be. After the bout, they can compare these predictions with their
+   565→actual experience. Explicit prediction may increase the salience of prediction errors and
+   566→support memory updating (Brod et al., 2022; Rief et al., 2022). This strategy may be
+   567→particularly useful in schizophrenia-spectrum disorders, where prediction error signaling and
+   568→reinforcement learning are often altered (Arrondo et al., 2015; Leroy et al., 2020; Maia &
+   569→Frank, 2017; Wang et al., 2023).
+   570→When appropriately supported, negative prediction errors may become opportunities
+   571→for learning. If an activity is more difficult than expected, the therapeutic focus can shift from
+   572→“this was too hard” to “this was difficult, but I managed it.” In this case, the relevant update is
+   573→not that exercise is easier than expected, but that difficulty can be tolerated, regulated, and
+   574→overcome. This type of learning may contribute to perceived competence, mastery, and self-
+   575→efficacy, which are important determinants of exercise engagement (Bandura, 1997;
+   576→Hutchinson et al., 2008; McAuley et al., 2003).
+   577→This dynamic is central to the present framework. The goal is to help individuals build
+   578→a more flexible internal model of physical exercise: sometimes effort is lower than expected,
+   579→sometimes effort is higher than expected, but in both cases the experience can provide useful
+   580→information. Positive prediction errors may help re-associate exercise with pleasure, relief,
+   581→and accomplishment. Negative prediction errors, when carefully supported, may help re-
+   582→associate effort with mastery, competence, and control rather than threat or failure.
+   583→This learning process may also be central for modifying the meaning of effort itself.
+   584→Effort is typically avoided prospectively because it discounts reward value, but exerted effort
+   585→can retrospectively increase the value of outcomes once they have been obtained (Inzlicht et
+   586→al., 2018; Yi et al., 2020; Zhang & Zheng, 2022). In healthy participants, higher physical
+   587→21
+   588→
+   589→effort has been associated with stronger neural responses to reward outcomes, suggesting that
+   590→effort can enhance reward valuation after completion (Palidis & Gribble, 2020; Umemoto et
+   591→al., 2023). This idea is consistent with learned industriousness theory, which proposes that
+   592→effort can acquire secondary reinforcing properties when it is repeatedly paired with positive
+   593→outcomes (Eisenberger, 1992). Applied to physical exercise, repeated experiences in which
+   594→effort is followed by relief, accomplishment, pleasure, or social reinforcement may gradually
+   595→reduce the aversive meaning of exertion and help re-associate effort with reward. Although
+   596→these mechanisms remain to be tested directly in schizophrenia-spectrum disorders, they
+   597→suggest that exercise interventions should not necessarily reduce effort costs but rather help
+   598→individuals reinterpret effort as a signal of accomplishment, progress, and reward.
+   599→5.4. Designing exercise experiences that consolidate new internal models
+   600→The practical implication of this framework is that exercise interventions should be designed
+   601→to maximize tolerable expectancy violations. The therapeutic target is therefore a calibrated
+   602→mismatch between expected and experienced exercise, in which the person can discover that
+   603→physical exercise is more manageable, rewarding, or controllable than anticipated.
+   604→This corrective learning requires repetition. Specifically, across repeated sessions,
+   605→individuals can gradually build a more adaptive internal model of physical exercise: effort is
+   606→not always overwhelming, discomfort can be tolerated, pleasure can emerge unexpectedly,
+   607→and completion can be rewarding. Active engagement is central to this process. Continuing a
+   608→walk that turns out to be less effortful than expected, completing a session despite initial
+   609→doubt, or repeating the activity on subsequent days may all help consolidate a new
+   610→representation of exercise. This is consistent with evidence showing that behavioral
+   611→adaptation following expectation violations recruits neural circuits involved in prediction
+   612→error, reward processing, and avoidance learning, including the striatum and insula (D’Astolfo
+   613→& Rief, 2017).
+   614→22
+   615→
+   616→For clinical interventions, this means that the exercise experience should be reviewed
+   617→and encoded after completion. Individuals may benefit from explicitly identifying what was
+   618→expected, what was experienced, and what was learned. For example: “I expected this walk to
+   619→be very tiring, but it was manageable”; “I expected not to enjoy it, but I felt calmer
+   620→afterward”; or “I thought I would stop after five minutes, but I completed ten.” Such
+   621→reflections may strengthen autobiographical memory traces of successful exercise experiences
+   622→and make them more available during future decisions to exercise. This is important because
+   623→future exercise engagement may depend not only on the actual affective experience during
+   624→exercise, but also on how that experience is remembered and integrated into later
+   625→expectations.
+   626→This focus on immediate experience is also important because many benefits of
+   627→physical exercise, such as weight loss, improved physical strength, better metabolic health, or
+   628→increased fitness, emerge only after repeated engagement. These delayed outcomes may be
+   629→too abstract or too distant to motivate behavior when the immediate cost of effort is highly
+   630→salient. Early intervention should therefore not rely primarily on long-term health outcomes.
+   631→Instead, each session should be structured to produce near-term reinforcement, such as
+   632→pleasure, relief, or a sense of accomplishment.
+   633→One concrete way to achieve this is to let individuals regulate the intensity of exercise
+   634→according to how it feels, rather than imposing a fixed prescribed intensity: people can either
+   635→self-select their own intensity (self-paced or preferred-intensity exercise) or adjust it to
+   636→maintain a positive value on the pleasure-displeasure dimension introduced earlier (affect-
+   637→regulated exercise, typically guided by the Feeling Scale). Anchored in pleasure rather than in
+   638→external performance targets, such approaches keep the session within a pleasant or at least
+   639→tolerable range and have been associated with better adherence and mental-health outcomes
+   640→(Callaghan et al., 2011; Carter et al., 2012; Parfitt et al., 2012).
+   641→23
+   642→
+   643→Over time, sustained physical exercise may also improve the valuation of delayed
+   644→outcomes, as suggested by evidence from healthy volunteers and animal models showing that
+   645→regular exercise can reduce preference for immediate rewards and improve delay-related
+   646→decision-making (Sofis et al., 2017; Strickland et al., 2016). Given that steeper delay
+   647→discounting has been associated with negative symptoms in schizophrenia-spectrum disorders,
+   648→this may represent another pathway through which exercise could influence motivational
+   649→dysfunction (Bartolomeo et al., 2020; Brown et al., 2018; Heerey et al., 2011; Horan et al., 2017).
+   650→Figure 1. Breaking the cycle of negative symptoms and physical inactivity through exercise-based
+   651→corrective learning. This graphical summary illustrates how physical exercise can update maladaptive internal
+   652→models of effort and pleasure across four distinct chronological stages: Before, During, After, and Across
+   653→repetition. The section Baseline State & Clinical Deficits details how motivational negative symptoms hinder
+   654→engagement through a combination of clinical biases. The section Corrective Experience maps how structured
+   655→exercise drives clinical behavioral shifts and internal model updates. Finally, the section Clinical & Practical
+   656→Levers outlines concrete, stage-specific therapeutic actions designed to make prediction-experience mismatches
+   657→explicit, optimize real-time affect, and consolidate sustainable behavioral change toward habit formation.
+   658→6. Concluding discussion
+   659→The framework proposed here conceptualizes physical exercise as a learning context
+   660→potentially capable of updating maladaptive internal models of effort and pleasure (see Figure
+   661→24
+   662→
+   663→1 for a graphical summary). In schizophrenia-spectrum disorders, this imbalance is
+   664→particularly pronounced: anticipated effort is especially salient and immediate, whereas
+   665→reward is even more uncertain, delayed, or weakly represented than in the general population,
+   666→reflecting the documented alterations in effort valuation and reward anticipation summarized
+   667→in Box 1. Exercise interventions may help reverse this imbalance when they repeatedly
+   668→generate experiences that are easier, or more rewarding than expected: such discrepancies
+   669→between expectation and experience constitute prediction errors that, encoded by
+   670→dopaminergic signaling in frontostriatal reward circuits (see also Box 1), can progressively
+   671→recalibrate maladaptive internal models.
+   672→At the experiential level, when dysfunctional expectations, such as anticipating that
+   673→exercise will be exhausting or unrewarding, are disconfirmed by a lower physical cost than
+   674→anticipated, a salient positive prediction error is generated. Reinforced by other immediate
+   675→rewarding aspects of exercise, such as improved mood, increased energy, or positive social
+   676→interaction, these expectancy violations may gradually weaken the association between
+   677→exercise and aversive experience and support renewed engagement.
+   678→Overall, exercise may contribute to the reduction of negative symptoms through
+   679→several complementary mechanisms. At the level of learning, it can generate positive
+   680→prediction errors while also helping individuals draw useful information from negative ones.
+   681→At the level of valuation, it may increase the reward value of effort, lower perceived exertion,
+   682→and improve how delayed rewards are weighed. And at the experiential level, it may amplify
+   683→immediate positive affect and strengthen a sense of mastery and self-efficacy. These
+   684→mechanisms are intended as a heuristic framework rather than a definitive account, and they
+   685→generate concrete, testable hypotheses: future trials should examine whether positive
+   686→prediction errors of perceived exertion predict exercise-related pleasure, whether pleasure and
+   687→fatigue during exercise predict adherence, whether changes in effort valuation mediate
+   688→25
+   689→
+   690→improvements in negative symptoms, and whether these effects are moderated by BMI,
+   691→baseline fatigue, reward-learning impairments, or the severity of avolition and anhedonia.
+   692→These proposals should be read with two qualifications in mind. First, this review
+   693→deliberately adopts a particular perspective: it approaches negative symptoms and exercise
+   694→through a learning-based, neurocognitive lens centred on the proximal experience of effort
+   695→and pleasure. This focus is complementary to, rather than a substitute for, other frameworks,
+   696→including socio-cognitive accounts (for example, self-efficacy and the social and
+   697→environmental determinants of physical activity), which also shape exercise engagement and
+   698→which we do not develop here. Second, the proposed framework remains largely hypothetical:
+   699→much of the supporting evidence is indirect, drawn from the general population, other clinical
+   700→groups, or animal models, and the in-session dynamics of pleasure and perceived effort have
+   701→rarely been measured directly in schizophrenia-spectrum disorders. These limitations
+   702→underscore the need for the dedicated empirical tests outlined above.
+   703→Ultimately, breaking the cycle between negative symptoms and physical inactivity may
+   704→require more than prescribing exercise; it may require designing exercise experiences that
+   705→reshape how effort is predicted beforehand, felt during the activity, and recalled when the next
+   706→occasion arises.
+   707→Acknowledgement
+   708→This work was supported by an incentive grant Mandat d’Impulsion Scientifique [ID:
+   709→40013542] from UCLouvain Fonds Spéciaux de Recherche (FSR).
+   710→Declaration of generative AI and AI-assisted technologies in the manuscript preparation
+   711→process
+   712→26
+   713→
+   714→During the preparation of this work, the authors used AI-assisted technologies to enhance the
+   715→readability and language of the manuscript. After using this tool, the authors reviewed and
+   716→edited the content as needed and take full responsibility for the content of the published
+   717→article.
+   718→References
+   719→Abram, S. V., Weittenhiller, L. P., Bertrand, C. E., McQuaid, J. R., Mathalon, D. H., Ford, J.
+   720→M., & Fryer, S. L. (2022). Psychological Dimensions Relevant to Motivation and
+   721→Pleasure in Schizophrenia. Frontiers in Behavioral Neuroscience, 16, 827260.
+   722→https://doi.org/10.3389/FNBEH.2022.827260
+   723→Arrondo, G., Segarra, N., Metastasio, A., Ziauddeen, H., Spencer, J., Reinders, N. R., Dudas,
+   724→R. B., Robbins, T. W., Fletcher, P. C., & Murray, G. K. (2015). Reduction in ventral
+   725→striatal activity when anticipating a reward in depression and schizophrenia: a replicated
+   726→cross-diagnostic finding. Frontiers in Psychology, 6(August), 1280.
+   727→https://doi.org/10.3389/fpsyg.2015.01280 [doi]
+   728→Bandura, A. (1997). Self-efficacy: The exercise of control. Worth Publishers.
+   729→Barch, D. M., Treadway, M. T., & Schoen, N. (2014). Effort, Anhedonia, and Function in
+   730→Schizophrenia: Reduced Effort Allocation Predicts Amotivation and Functional
+   731→Impairment. Journal of Abnormal Psychology, 123(2), 387–397.
+   732→https://doi.org/10.1037/a0036299
+   733→27
+   734→
+   735→Bartolomeo, L. A., Chapman, H. C., Raugh, I. M., & Strauss, G. P. (2020). Delay discounting
+   736→in youth at clinical high-risk for psychosis and adults with schizophrenia. Psychological
+   737→Medicine, 1–8. https://doi.org/10.1017/S0033291720000677
+   738→Bartra, O., McGuire, J. T., & Kable, J. W. (2013). The valuation system: A coordinate-based
+   739→meta-analysis of BOLD fMRI experiments examining neural correlates of subjective
+   740→value. NeuroImage, 76, 412–427. https://doi.org/10.1016/j.neuroimage.2013.02.063
+   741→Blouzard, E., Pouchon, A., Polosan, M., Bastin, J., & Dondé, C. (2023). Effort-Cost Decision-
+   742→making Among Individuals With Schizophrenia. JAMA Psychiatry, 80(6), 548.
+   743→https://doi.org/10.1001/jamapsychiatry.2023.0553
+   744→Bredin, S., Warburton, D., & Lang, D. (2013). The Health Benefits and Challenges of
+   745→Exercise Training in Persons Living with Schizophrenia: A Pilot Study. Brain Sciences,
+   746→3(4), 821–848. https://doi.org/10.3390/brainsci3020821
+   747→Brevers, D., Martinent, G., Öz, İ. T., Desmedt, O., & de Geus, B. (2024). Do prediction errors
+   748→of perceived exertion inform the level of running pleasure? Sport, Exercise, and
+   749→Performance Psychology, 13(4), 307–324. https://doi.org/10.1037/spy0000362
+   750→Brod, G., Greve, A., Jolles, D., Theobald, M., & Galeano-Keiner, E. M. (2022). Explicitly
+   751→Predicting Outcomes Enhances Learning of Expectancy-Violating Information.
+   752→Psychonomic Bulletin & Review, 29(6), 2192–2201. https://doi.org/10.3758/s13423-022-
+   753→02124-x
+   754→Brown, H. E., Hart, K. L., Snapper, L. A., Roffman, J. L., & Perlis, R. H. (2018). Impairment
+   755→in delay discounting in schizophrenia and schizoaffective disorder but not primary mood
+   756→disorders. Npj Schizophrenia, 4(1), 9. https://doi.org/10.1038/s41537-018-0050-z
+   757→28
+   758→
+   759→Callaghan, P., Khalil, E., Morres, I., & Carter, T. (2011). Pragmatic randomised controlled
+   760→trial of preferred intensity exercise in women living with depression. BMC Public
+   761→Health, 11(1), 465. https://doi.org/10.1186/1471-2458-11-465
+   762→Carter, T., Callaghan, P., Khalil, E., & Morres, I. (2012). The effectiveness of a preferred
+   763→intensity exercise programme on the mental health outcomes of young people with
+   764→depression: a sequential mixed methods evaluation. BMC Public Health, 12(1), 187.
+   765→https://doi.org/10.1186/1471-2458-12-187
+   766→Caspersen, C. J., Powell, K. E., & Christenson, G. M. (1985). Physical activity, exercise, and
+   767→physical fitness: definitions and distinctions for health-related research. Public Health
+   768→Reports (Washington, D.C. : 1974), 100(2), 126–131.
+   769→Chang, W. C., Wong, C. S. M., Or, P. C. F., Chu, A. O. K., Hui, C. L. M., Chan, S. K. W.,
+   770→Lee, E. M. H., Suen, Y. N., & Chen, E. Y. H. (2020). Inter-relationships among
+   771→psychopathology, premorbid adjustment, cognition and psychosocial functioning in first-
+   772→episode psychosis: a network analysis approach. Psychological Medicine, 50(12), 2019–
+   773→2027. https://doi.org/10.1017/S0033291719002113
+   774→Cheval, B., & Boisgontier, M. (2021). The Theory of Effort Minimization in Physical
+   775→Activity. Exercise and Sport Sciences Reviews, 49(3), 168–178.
+   776→Cohen, A. S., Brown, L. A., & Minor, K. S. (2010). The psychiatric symptomatology of
+   777→deficit schizophrenia: A meta-analysis. Schizophrenia Research, 118(1–3), 122–127.
+   778→https://doi.org/10.1016/j.schres.2009.10.010
+   779→Correll, C. U., & Schooler, N. R. (2020). Negative Symptoms in Schizophrenia: A Review
+   780→and Clinical Guide for Recognition, Assessment, and Treatment. Neuropsychiatric
+   781→Disease and Treatment, Volume 16, 519–534. https://doi.org/10.2147/NDT.S225643
+   782→29
+   783→
+   784→Craske, M. G., Treanor, M., Conway, C. C., Zbozinek, T., & Vervliet, B. (2014). Maximizing
+   785→exposure therapy: An inhibitory learning approach. Behaviour Research and Therapy,
+   786→58, 10–23. https://doi.org/10.1016/j.brat.2014.04.006
+   787→Culbreth, A. J., Chib, V. S., Riaz, S. S., Manohar, S. G., Husain, M., Waltz, J. A., & Gold, J.
+   788→M. (2025). Increased Sensitivity to Effort and Perception of Effort in People with
+   789→Schizophrenia. Schizophrenia Bulletin, 51(3), 696–709.
+   790→https://doi.org/10.1093/schbul/sbae162
+   791→Culbreth, A. J., Moran, E. K., & Barch, D. M. (2018). Effort-based decision-making in
+   792→schizophrenia. Current Opinion in Behavioral Sciences, 22, 1–6.
+   793→https://doi.org/10.1016/j.cobeha.2017.12.003
+   794→Culbreth, A. J., Waltz, J. A., Frank, M. J., & Gold, J. M. (2021). Retention of Value
+   795→Representations Across Time in People With Schizophrenia and Healthy Control
+   796→Subjects. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 6(4), 420–
+   797→428. https://doi.org/10.1016/j.bpsc.2020.05.009
+   798→D’Argembeau, A., Raffard, S., & Van der Linden, M. (2008). Remembering the past and
+   799→imagining the future in schizophrenia. Journal of Abnormal Psychology, 117(1), 247–
+   800→251. https://doi.org/10.1037/0021-843X.117.1.247
+   801→D’Astolfo, L., & Rief, W. (2017). Learning about Expectation Violation from Prediction
+   802→Error Paradigms – A Meta-Analysis on Brain Processes Following a Prediction Error.
+   803→Frontiers in Psychology, 8. https://doi.org/10.3389/fpsyg.2017.01253
+   804→Dauwan, M., Begemann, M. J. H., Heringa, S. M., & Sommer, I. E. (2016). Exercise
+   805→Improves Clinical Symptoms, Quality of Life, Global Functioning, and Depression in
+   806→30
+   807→
+   808→Schizophrenia: A Systematic Review and Meta-analysis. Schizophrenia Bulletin, 42(3),
+   809→588–599. https://doi.org/10.1093/schbul/sbv164
+   810→Décombe, A., Brunel, L., Capdevielle, D., & Raffard, S. (2020). Too much or too little?
+   811→Exploring effort perception in schizophrenia within the framework of motivational
+   812→intensity theory. Cognitive Neuropsychiatry, 25(4), 312–327.
+   813→https://doi.org/10.1080/13546805.2020.1798220
+   814→Dowd, E. C., & Barch, D. M. (2012). Pavlovian reward prediction and receipt in
+   815→schizophrenia: Relationship to anhedonia. PLoS ONE, 7(5), 1–12.
+   816→https://doi.org/10.1371/journal.pone.0035622
+   817→Duncan, M. J., Faulkner, G., Remington, G., & Arbour-Nicitopoulos, K. (2016).
+   818→Characterizing the affective responses to an acute bout of moderate-intensity exercise
+   819→among outpatients with schizophrenia. Psychiatry Research, 237, 264–270.
+   820→https://doi.org/10.1016/J.PSYCHRES.2016.01.030
+   821→Eisenberger, R. (1992). Learned Industriousness. Psychological Review, 99(2), 248–267.
+   822→https://doi.org/10.1037/0033-295x.99.2.248
+   823→Ekkekakis, P. (2003). Pleasure and displeasure from the body: Perspectives from exercise.
+   824→Cognition and Emotion, 17(2), 213–239. https://doi.org/10.1080/02699930302292
+   825→Ekkekakis, P., Hartman, M. E., & Ladwig, M. A. (2020). Affective responses to exercise. In
+   826→Handbook of Sport Psychology: Fourth Edition (Vols. 1–2, pp. 233–253).
+   827→https://www.scopus.com/inward/record.uri?eid=2-s2.0-
+   828→105010289606&partnerID=40&md5=3df7931dd98727aa985715985159c1aa
+   829→31
+   830→
+   831→Ekkekakis, P., Parfitt, G., & Petruzzello, S. J. (2011). The Pleasure and Displeasure People
+   832→Feel When they Exercise at Different Intensities. Sports Medicine, 41(8), 641–671.
+   833→https://doi.org/10.2165/11590680-000000000-00000
+   834→Felger, J. C., & Treadway, M. T. (2017). Inflammation Effects on Motivation and Motor
+   835→Activity: Role of Dopamine. Neuropsychopharmacology, 42(1), 216–241.
+   836→https://doi.org/10.1038/npp.2016.143
+   837→Fervaha, G., Duncan, M., Foussias, G., Agid, O., Faulkner, G. E., & Remington, G. (2015).
+   838→Effort-based decision making as an objective paradigm for the assessment of
+   839→motivational deficits in schizophrenia. Schizophrenia Research, 168(1–2), 483–490.
+   840→https://doi.org/10.1016/j.schres.2015.07.023
+   841→Fulford, D., Piskulic, D., Addington, J., Kane, J. M., Schooler, N. R., & Mueser, K. T. (2018).
+   842→Prospective relationships between motivation and functioning in recovery after a first
+   843→episode of schizophrenia. Schizophrenia Bulletin, 44(2), 369–377.
+   844→https://doi.org/10.1093/schbul/sbx096
+   845→Furman, D., Campisi, J., Verdin, E., Carrera-Bastos, P., Targ, S., Franceschi, C., Ferrucci, L.,
+   846→Gilroy, D. W., Fasano, A., Miller, G. W., Miller, A. H., Mantovani, A., Weyand, C. M.,
+   847→Barzilai, N., Goronzy, J. J., Rando, T. A., Effros, R. B., Lucia, A., Kleinstreuer, N., &
+   848→Slavich, G. M. (2019). Chronic inflammation in the etiology of disease across the life
+   849→span. Nature Medicine, 25(12), 1822–1832. https://doi.org/10.1038/s41591-019-0675-0
+   850→Gallardo-Gómez, D., Noetel, M., Álvarez-Barbosa, F., Alfonso-Rosa, R. M., Ramos-Munell,
+   851→J., del Pozo Cruz, B., & del Pozo-Cruz, J. (2023). Exercise to treat psychopathology and
+   852→other clinical outcomes in schizophrenia: A systematic review and meta-analysis.
+   853→European Psychiatry, 66(1), e40. https://doi.org/10.1192/j.eurpsy.2023.24
+   854→32
+   855→
+   856→Gard, D. E., Kring, A. M., Gard, M. G., Horan, W. P., & Green, M. F. (2007). Anhedonia in
+   857→schizophrenia: Distinctions between anticipatory and consummatory pleasure.
+   858→Schizophrenia Research, 93(1–3), 253–260. https://doi.org/10.1016/j.schres.2007.03.008
+   859→Girdler, S. J., Confino, J. E., & Woesner, M. E. (2019). Exercise as a Treatment for
+   860→Schizophrenia: A Review. Psychopharmacology Bulletin, 49(1), 56–69.
+   861→Giuliani, L., Giordano, G. M., Bucci, P., Pezzella, P., Brando, F., & Galderisi, S. (2021).
+   862→Improving Knowledge on Pathways to Functional Outcome in Schizophrenia: Main
+   863→Results From the Italian Network for Research on Psychoses. Frontiers in Psychiatry,
+   864→12. https://doi.org/10.3389/fpsyt.2021.791117
+   865→Glenthøj, L. B., Kristensen, T. D., Wenneberg, C., Hjorthøj, C., & Nordentoft, M. (2020).
+   866→Experiential negative symptoms are more predictive of real-life functional outcome than
+   867→expressive negative symptoms in clinical high-risk states. Schizophrenia Research, 218,
+   868→151–156. https://doi.org/10.1016/j.schres.2020.01.012
+   869→Gold, J. M., Strauss, G. P., Waltz, J. A., Robinson, B. M., Brown, J. K., & Frank, M. J.
+   870→(2013). Negative symptoms of schizophrenia are associated with abnormal effort-cost
+   871→computations. Biological Psychiatry, 74(2), 130–136.
+   872→https://doi.org/10.1016/j.biopsych.2012.12.022
+   873→Goldsmith, D. R., & Rapaport, M. H. (2020). Inflammation and Negative Symptoms of
+   874→Schizophrenia: Implications for Reward Processing and Motivational Deficits. Frontiers
+   875→in Psychiatry, 11. https://doi.org/10.3389/fpsyt.2020.00046
+   876→Gómez-Rubio, P., & Trapero, I. (2019). The Effects of Exercise on IL-6 Levels and Cognitive
+   877→Performance in Patients with Schizophrenia. Diseases, 7(1), 11.
+   878→https://doi.org/10.3390/diseases7010011
+   879→33
+   880→
+   881→Gorczynski, P., Vancampfort, D., & Patel, H. (2018). Evaluating correlations between
+   882→physical activity, psychological mediators of physical activity, and negative symptoms in
+   883→individuals living with psychosis and diabetes. Psychiatric Rehabilitation Journal, 41(2),
+   884→153–156. https://doi.org/10.1037/prj0000298
+   885→Haber, S. N., & Knutson, B. (2010). The Reward Circuit: Linking Primate Anatomy and
+   886→Human Imaging. Neuropsychopharmacology, 35(1), 4–26.
+   887→https://doi.org/10.1038/npp.2009.129
+   888→Haile, L., Gallagher, M., & J. Robertson, R. (2015). Perceived Exertion Laboratory Manual.
+   889→Springer New York. https://doi.org/10.1007/978-1-4939-1917-8
+   890→Halperin, I., & Emanuel, A. (2020). Rating of Perceived Effort: Methodological Concerns and
+   891→Future Directions. Sports Medicine, 50(4), 679–687. https://doi.org/10.1007/s40279-019-
+   892→01229-z
+   893→Hardy, C. J., & Rejeski, W. J. (1989). Not What, but How One Feels: The Measurement of
+   894→Affect during Exercise. Journal of Sport and Exercise Psychology, 11(3), 304–317.
+   895→https://doi.org/10.1123/jsep.11.3.304
+   896→Hassan, S., Ross, J., Marston, L., Osborn, D., & Walters, K. (2019). Factors prospectively
+   897→associated with physical activity and dietary related outcomes in people with severe
+   898→mental illness: A systematic review of longitudinal studies. Psychiatry Research, 273,
+   899→181–191. https://doi.org/10.1016/j.psychres.2018.12.115
+   900→Heerey, E. A., Matveeva, T. M., & Gold, J. M. (2011). Imagining the future: degraded
+   901→representations of future rewards and events in schizophrenia. Journal of Abnormal
+   902→Psychology, 120(2), 483–489. https://doi.org/10.1037/a0021810
+   903→34
+   904→
+   905→Heggelund, J., Kleppe, K. D., Morken, G., & Vedul-Kjelsås, E. (2014). High aerobic intensity
+   906→training and psychological States in patients with depression or schizophrenia. Frontiers
+   907→in Psychiatry, 5(OCT). https://doi.org/10.3389/FPSYT.2014.00148
+   908→Horan, W. P., Johnson, M. W., & Green, M. F. (2017). Altered Experiential, But Not
+   909→Hypothetical, Delay Discounting in Schizophrenia. Journal of Abnormal Psychology.
+   910→https://doi.org/10.1037/abn0000249
+   911→Howes, O. D., Dawkins, E., Lobo, M. C., Kaar, S. J., & Beck, K. (2024). New Drug
+   912→Treatments for Schizophrenia: A Review of Approaches to Target Circuit Dysfunction.
+   913→Biological Psychiatry, 96(8), 638–650. https://doi.org/10.1016/j.biopsych.2024.05.014
+   914→Hutchinson, J. C., Sherman, T., Martinovic, N., & Tenenbaum, G. (2008). The Effect of
+   915→Manipulated Self-Efficacy on Perceived and Sustained Effort. Journal of Applied Sport
+   916→Psychology, 20(4), 457–472. https://doi.org/10.1080/10413200802351151
+   917→Inzlicht, M., Shenhav, A., & Olivola, C. Y. (2018). The Effort Paradox: Effort Is Both Costly
+   918→and Valued. Trends in Cognitive Sciences, 22(4), 337–349.
+   919→https://doi.org/10.1016/j.tics.2018.01.007
+   920→Khandaker, G. M., Cousins, L., Deakin, J., Lennox, B. R., Yolken, R., & Jones, P. B. (2015).
+   921→Inflammation and immunity in schizophrenia: implications for pathophysiology and
+   922→treatment. The Lancet Psychiatry, 2(3), 258–270. https://doi.org/10.1016/S2215-
+   923→0366(14)00122-9
+   924→Kim, M., Lee, Y., & Kang, H. (2023). Effects of Exercise on Positive Symptoms, Negative
+   925→Symptoms, and Depression in Patients with Schizophrenia: A Systematic Review and
+   926→Meta-Analysis. International Journal of Environmental Research and Public Health,
+   927→20(4), 3719. https://doi.org/10.3390/ijerph20043719
+   928→35
+   929→
+   930→Kimiecik, J. C., & Harris, A. T. (1996). What Is Enjoyment? A Conceptual/Definitional
+   931→Analysis with Implications for Sport and Exercise Psychology. Journal of Sport and
+   932→Exercise Psychology, 18(3), 247–263. https://doi.org/10.1123/jsep.18.3.247
+   933→Knutson, B., Adams, C. M., Fong, G. W., & Hommer, D. (2001). Anticipation of Increasing
+   934→Monetary Reward Selectively Recruits Nucleus Accumbens. The Journal of
+   935→Neuroscience, 21(16), RC159–RC159. https://doi.org/10.1523/JNEUROSCI.21-16-
+   936→j0002.2001
+   937→Kolata, S. M., Nakao, K., Jeevakumar, V., Farmer-Alroth, E. L., Fujita, Y., Bartley, A. F.,
+   938→Jiang, S. Z., Rompala, G. R., Sorge, R. E., Jimenez, D. V, Martinowich, K., Mateo, Y.,
+   939→Hashimoto, K., Dobrunz, L. E., & Nakazawa, K. (2018). Neuropsychiatric Phenotypes
+   940→Produced by GABA Reduction in Mouse Cortex and Hippocampus.
+   941→Neuropsychopharmacology, 43(6), 1445–1456. https://doi.org/10.1038/npp.2017.296
+   942→Korman, N., Chapman, J., Romain, A. J., Arnautovska, U., Stubbs, B., Rosenbaum, S.,
+   943→Siskind, D. J., Stanton, R., & Trott, M. (2026). Immediate Psychological Responses to
+   944→Aerobic and Resistance Exercise in People With Psychotic Disorders: A Randomized
+   945→Controlled Trial in Psychiatric Rehabilitation. Schizophrenia Bulletin, 52(2).
+   946→https://doi.org/10.1093/schbul/sbag012
+   947→Korman, N., Stanton, R., Vecchio, A., Chapman, J., Parker, S., Martland, R., Siskind, D., &
+   948→Firth, J. (2023). The effect of exercise on global, social, daily living and occupational
+   949→functioning in people living with schizophrenia: A systematic review and meta-analysis.
+   950→Schizophrenia Research, 256, 98–111. https://doi.org/10.1016/j.schres.2023.04.012
+   951→Kring, A. M., & Barch, D. M. (2014). The motivation and pleasure dimension of negative
+   952→symptoms: Neural substrates and behavioral outputs. European
+   953→36
+   954→
+   955→Neuropsychopharmacology, 24(5), 725–736.
+   956→https://doi.org/10.1016/j.euroneuro.2013.06.007
+   957→Kube, T., Rief, W., & Glombiewski, J. A. (2017). On the Maintenance of Expectations in
+   958→Major Depression – Investigating a Neglected Phenomenon. Frontiers in Psychology, 8.
+   959→https://doi.org/10.3389/fpsyg.2017.00009
+   960→Lak, M., Jafarpour, A., Shahrbaf, M. A., Lak, M., & Dolatshahi, B. (2024). The effect of
+   961→physical exercise on cognitive function in schizophrenia patients: A GRADE assessed
+   962→systematic review and meta-analysis of controlled clinical trials. Schizophrenia
+   963→Research, 271, 81–90. https://doi.org/10.1016/j.schres.2024.07.020
+   964→Laurendeau, K., Bernard, P., Piché, F., Abdel‐Baki, A., & Romain, A. J. (2026). The Impact
+   965→of Exercise Interventions on the Network Structure of Psychotic Symptoms: Analysis
+   966→From Two Clinical Trials. Early Intervention in Psychiatry, 20(1).
+   967→https://doi.org/10.1111/eip.70124
+   968→Leroy, A., Amad, A., D’Hondt, F., Pins, D., Jaafari, N., Thomas, P., & Jardri, R. (2020).
+   969→Reward anticipation in schizophrenia: A coordinate-based meta-analysis. Schizophrenia
+   970→Research, 218, 2–6. https://doi.org/10.1016/j.schres.2019.12.041
+   971→Li, P., L. Snyder, G., & E. Vanover, K. (2016). Dopamine Targeting Drugs for the Treatment
+   972→of Schizophrenia: Past, Present and Future. Current Topics in Medicinal Chemistry,
+   973→16(29), 3385–3403. https://doi.org/10.2174/1568026616666160608084834
+   974→Liu, Y., Ouyang, P., Zheng, Y., Mi, L., Zhao, J., Ning, Y., & Guo, W. (2021). A Selective
+   975→Review of the Excitatory-Inhibitory Imbalance in Schizophrenia: Underlying Biology,
+   976→Genetics, Microcircuits, and Symptoms. Frontiers in Cell and Developmental Biology, 9.
+   977→https://doi.org/10.3389/fcell.2021.664535
+   978→37
+   979→
+   980→Maia, T. V., & Frank, M. J. (2017). An Integrative Perspective on the Role of Dopamine in
+   981→Schizophrenia. Biological Psychiatry, 81(1), 52–66.
+   982→https://doi.org/10.1016/j.biopsych.2016.05.021
+   983→Maurus, I., Röll, L., Keeser, D., Karali, T., Papazov, B., Hasan, A., Schmitt, A., Papazova, I.,
+   984→Lembeck, M., Hirjak, D., Thieme, C. E., Sykorova, E., Münz, S., Seitz, V., Greska, D.,
+   985→Campana, M., Wagner, E., Löhrs, L., Pömsl, J., … Falkai, P. (2022). Associations
+   986→between aerobic fitness, negative symptoms, cognitive deficits and brain structure in
+   987→schizophrenia—a cross-sectional study. Schizophrenia, 8(1), 63.
+   988→https://doi.org/10.1038/s41537-022-00269-1
+   989→McAuley, E., Jerome, G. J., Elavsky, S., Marquez, D. X., & Ramsey, S. N. (2003). Predicting
+   990→long-term maintenance of physical activity in older adults. Preventive Medicine, 37(2),
+   991→110–118. https://doi.org/10.1016/S0091-7435(03)00089-6
+   992→Miller, A., Bekhbat, M., Cooper, J., Kragel, P., Felger, J. C., Haroon, E., & Treadway, M. T.
+   993→(2025). Targeting Inflammation and Its Effects on the Brain to Reverse Motivational
+   994→Deficits in Major Depressive Disorder. Biological Psychiatry, 97(9), S21.
+   995→https://doi.org/10.1016/j.biopsych.2025.02.064
+   996→Mittal, V. A., Vargas, T., Juston Osborne, K., Dean, D., Gupta, T., Ristanovic, I., Hooker, C.
+   997→I., & Shankman, S. A. (2017). Exercise Treatments for Psychosis: a Review. Current
+   998→Treatment Options in Psychiatry, 4(2), 152–166. https://doi.org/10.1007/s40501-017-
+   999→0112-2
+  1000→Moran, E. K., Culbreth, A. J., & Barch, D. M. (2022). Anhedonia in Schizophrenia (pp. 129–
+  1001→145). https://doi.org/10.1007/7854_2022_321
+  1002→38
+  1003→
+  1004→Moran, E. K., Culbreth, A. J., Kandala, S., & Barch, D. M. (2019). From neuroimaging to
+  1005→daily functioning: A multimethod analysis of reward anticipation in people with
+  1006→schizophrenia. Journal of Abnormal Psychology, 128(7), 723–734.
+  1007→https://doi.org/10.1037/abn0000461
+  1008→Niv, Y. (2009). Reinforcement learning in the brain. Journal of Mathematical Psychology,
+  1009→53(3), 139–154. https://doi.org/10.1016/j.jmp.2008.12.005
+  1010→Noakes, T. D. (2012). Fatigue is a Brain-Derived Emotion that Regulates the Exercise
+  1011→Behavior to Ensure the Protection of Whole Body Homeostasis. Frontiers in Physiology,
+  1012→3. https://doi.org/10.3389/fphys.2012.00082
+  1013→Nyboe, L., Moeller, M. K., Vestergaard, C. H., Lund, H., & Videbech, P. (2016). Physical
+  1014→activity and anomalous bodily experiences in patients with first-episode schizophrenia.
+  1015→Nordic Journal of Psychiatry, 70(7), 514–520.
+  1016→https://doi.org/10.1080/08039488.2016.1176250
+  1017→Ohi, K., Kataoka, Y., Shimada, T., Kuwata, A., Okubo, H., Kimura, K., Yasuyama, T.,
+  1018→Uehara, T., & Kawasaki, Y. (2019). Meta-analysis of physical activity and effects of
+  1019→social function and quality of life on the physical activity in patients with schizophrenia.
+  1020→European Archives of Psychiatry and Clinical Neuroscience, 269(5), 517–527.
+  1021→https://doi.org/10.1007/s00406-018-0903-5
+  1022→Owen, M. J., Sawa, A., & Mortensen, P. B. (2016). Schizophrenia. The Lancet, 388(10039),
+  1023→86–97. https://doi.org/10.1016/S0140-6736(15)01121-6
+  1024→Öz, İ. T., de Geus, B., Thonon, B., & Brevers, D. (2026). Examining the role of route
+  1025→familiarity in modulating the effect of prediction error of perceived exertion on
+  1026→39
+  1027→
+  1028→retrospective running pleasure. Performance Enhancement & Health, 14(2), 100422.
+  1029→https://doi.org/10.1016/j.peh.2026.100422
+  1030→Palidis, D. J., & Gribble, P. L. (2020). EEG correlates of physical effort and reward
+  1031→processing during reinforcement learning. Journal of Neurophysiology, 124(2), 610–622.
+  1032→https://doi.org/10.1152/jn.00370.2020
+  1033→Papalini, S., Beckers, T., & Vervliet, B. (2020). Dopamine: from prediction error to
+  1034→psychotherapy. Translational Psychiatry, 10(1), 164. https://doi.org/10.1038/s41398-
+  1035→020-0814-x
+  1036→Parfitt, G., Alrumh, A., & Rowlands, A. V. (2012). Affect-regulated exercise intensity: Does
+  1037→training at an intensity that feels ‘good’ improve physical health? Journal of Science and
+  1038→Medicine in Sport, 15(6), 548–553. https://doi.org/10.1016/j.jsams.2012.01.005
+  1039→Pillny, M., Renz, K. E., Hay, A., Fulford, D., Lincoln, T. M., Barch, D. M., Gold, J. M., &
+  1040→Kaiser, S. (2026). Effort-based decision making in psychopathology: A transdiagnostic
+  1041→multilevel meta-analysis and systematic review of behavioral patterns and mechanisms
+  1042→underlying amotivational psychopathology. Psychological Bulletin.
+  1043→https://doi.org/10.1037/bul0000510
+  1044→Pitois, L., Baillot, A., Pageaux, B., & Romain, A. J. (2025). Affective responses in adults with
+  1045→severe obesity living or not with a mental disorder during two consecutive 6-min walking
+  1046→exercises. L’Encéphale, 51(6), 623–628. https://doi.org/10.1016/j.encep.2024.12.005
+  1047→Prévost, C., Pessiglione, M., Météreau, É., Cléry-Melin, M.-L., & Dreher, J. (2010). Separate
+  1048→Valuation Subsystems for Delay and Effort Decision Costs. Journal of Neuroscience,
+  1049→30(42), 14080–14090. https://doi.org/10.1523/jneurosci.2752-10.2010
+  1050→40
+  1051→
+  1052→Raffard, S., D’Argembeau, A., Lardi, C., Bayard, S., Boulenger, J.-P., & Linden, M. Van der.
+  1053→(2010). Narrative identity in schizophrenia. Consciousness and Cognition, 19(1), 328–
+  1054→340. https://doi.org/10.1016/j.concog.2009.10.005
+  1055→Rangel, A., Camerer, C., & Montague, P. R. (2008). A framework for studying the
+  1056→neurobiology of value-based decision making. Nature Reviews Neuroscience, 9(7), 545–
+  1057→556. https://doi.org/10.1038/nrn2357
+  1058→Rescorla, R. A., & Wagner, A. R. (1972). A theory of Pavlovian conditioning: variations in
+  1059→the effectiveness of reinforcement and non-reinforcement. In A. H. Prokasy (Ed.),
+  1060→Classical conditioning II: Current research and theory (pp. 64–99). Appleton-Century-
+  1061→Croft.
+  1062→Rhodes, R. E., & Kates, A. (2015). Can the Affective Response to Exercise Predict Future
+  1063→Motives and Physical Activity Behavior? A Systematic Review of Published Evidence.
+  1064→Annals of Behavioral Medicine : A Publication of the Society of Behavioral Medicine,
+  1065→49(5), 715–731. https://doi.org/10.1007/S12160-015-9704-5
+  1066→Rief, W., Sperl, M. F. J., Braun-Koch, K., Khosrowtaj, Z., Kirchner, L., Schäfer, L.,
+  1067→Schwarting, R. K. W., Teige-Mocigemba, S., & Panitz, C. (2022). Using expectation
+  1068→violation models to improve the outcome of psychological treatments. Clinical
+  1069→Psychology Review, 98, 102212. https://doi.org/10.1016/j.cpr.2022.102212
+  1070→Robertson, R. J., & Noble, B. J. (1997). Perception of physical exertion: methods, mediators,
+  1071→and applications. Exercise and Sport Sciences Reviews, 25, 407–452.
+  1072→Ross, R., Blair, S. N., Arena, R., Church, T. S., Després, J.-P., Franklin, B. A., Haskell, W. L.,
+  1073→Kaminsky, L. A., Levine, B. D., Lavie, C. J., Myers, J., Niebauer, J., Sallis, R., Sawada,
+  1074→S. S., Sui, X., & Wisløff, U. (2016). Importance of Assessing Cardiorespiratory Fitness
+  1075→41
+  1076→
+  1077→in Clinical Practice: A Case for Fitness as a Clinical Vital Sign: A Scientific Statement
+  1078→From the American Heart Association. Circulation, 134(24).
+  1079→https://doi.org/10.1161/CIR.0000000000000461
+  1080→Sabe, M., Kaiser, S., & Sentissi, O. (2020). Physical exercise for negative symptoms of
+  1081→schizophrenia: Systematic review of randomized controlled trials and meta-analysis.
+  1082→General Hospital Psychiatry, 62, 13–20.
+  1083→https://doi.org/10.1016/j.genhosppsych.2019.11.002
+  1084→Saleh, Y., Jarratt-Barnham, I., Fernandez-Egea, E., & Husain, M. (2021). Mechanisms
+  1085→Underlying Motivational Dysfunction in Schizophrenia. Frontiers in Behavioral
+  1086→Neuroscience, 15. https://doi.org/10.3389/fnbeh.2021.709753
+  1087→Schacter, D. L., Addis, D. R., & Buckner, R. L. (2007). Remembering the past to imagine the
+  1088→future: The prospective brain. Nature Reviews Neuroscience, 8(9), 657–661.
+  1089→https://doi.org/10.1038/nrn2213
+  1090→Schmitt, A., Maurus, I., Rossner, M. J., Röh, A., Lembeck, M., von Wilmsdorff, M.,
+  1091→Takahashi, S., Rauchmann, B., Keeser, D., Hasan, A., Malchow, B., & Falkai, P. (2018).
+  1092→Effects of Aerobic Exercise on Metabolic Syndrome, Cardiorespiratory Fitness, and
+  1093→Symptoms in Schizophrenia Include Decreased Mortality. Frontiers in Psychiatry, 9.
+  1094→https://doi.org/10.3389/fpsyt.2018.00690
+  1095→Schultz, W. (2016). Dopamine reward prediction error coding. Dialogues in Clinical
+  1096→Neuroscience, 18(1), 23–32. https://doi.org/10.31887/DCNS.2016.18.1/wschultz
+  1097→Schultz, W., Dayan, P., & Montague, P. R. (1997). A Neural Substrate of Prediction and
+  1098→Reward. Science, 275(5306), 1593–1599. https://doi.org/10.1126/science.275.5306.1593
+  1099→42
+  1100→
+  1101→Smits, B. L. M., Pepping, G.-J., & Hettinga, F. J. (2014). Pacing and Decision Making in
+  1102→Sport and Exercise: The Roles of Perception and Action in the Regulation of Exercise
+  1103→Intensity. Sports Medicine, 44(6), 763–775. https://doi.org/10.1007/s40279-014-0163-0
+  1104→Sofis, M. J., Carrillo, A., & Jarmolowicz, D. P. (2017). Maintained Physical Activity Induced
+  1105→Changes in Delay Discounting. Behavior Modification, 41(4), 499–528.
+  1106→https://doi.org/10.1177/0145445516685047
+  1107→St Clair Gibson, A., Lambert, E. V, Rauch, L. H. G., Tucker, R., Baden, D. A., Foster, C., &
+  1108→Noakes, T. D. (2006). The Role of Information Processing Between the Brain and
+  1109→Peripheral Physiological Systems in Pacing and Perception of Effort. Sports Medicine,
+  1110→36(8), 705–722. https://doi.org/10.2165/00007256-200636080-00006
+  1111→Steinberg, E. E., Keiflin, R., Boivin, J. R., Witten, I. B., Deisseroth, K., & Janak, P. H.
+  1112→(2013). A causal link between prediction errors, dopamine neurons and learning. Nature
+  1113→Neuroscience, 16(7), 966–973. https://doi.org/10.1038/nn.3413
+  1114→Stevens, C. J., Baldwin, A. S., Bryan, A. D., Conner, M., Rhodes, R. E., & Williams, D. M.
+  1115→(2020). Affective Determinants of Physical Activity: A Conceptual Framework and
+  1116→Narrative Review. Frontiers in Psychology, 11.
+  1117→https://doi.org/10.3389/fpsyg.2020.568331
+  1118→Storch Jakobsen, A., Speyer, H., Nørgaard, H. C. B., Hjorthøj, C., Krogh, J., Mors, O., &
+  1119→Nordentoft, M. (2018). Associations between clinical and psychosocial factors and
+  1120→metabolic and cardiovascular risk factors in overweight patients with schizophrenia
+  1121→spectrum disorders – Baseline and two-years findings from the CHANGE trial.
+  1122→Schizophrenia Research, 199, 96–102. https://doi.org/10.1016/j.schres.2018.02.047
+  1123→43
+  1124→
+  1125→Strauss, G. P., & Cohen, A. S. (2017). A Transdiagnostic Review of Negative Symptom
+  1126→Phenomenology and Etiology. Schizophrenia Bulletin, 43(4), 712–719.
+  1127→https://doi.org/10.1093/schbul/sbx066
+  1128→Strauss, G. P., Frank, M. J., Waltz, J. A., Kasanova, Z., Herbener, E. S., & Gold, J. M. (2011).
+  1129→Deficits in positive reinforcement learning and uncertainty-driven exploration are
+  1130→associated with distinct aspects of negative symptoms in schizophrenia. Biological
+  1131→Psychiatry, 69(5), 424–431. https://doi.org/10.1016/j.biopsych.2010.10.015
+  1132→Strauss, G. P., Wilbur, R. C., Warren, K. R., August, S. M., & Gold, J. M. (2011).
+  1133→Anticipatory vs. consummatory pleasure: What is the nature of hedonic deficits in
+  1134→schizophrenia? Psychiatry Research. https://doi.org/10.1016/j.psychres.2011.01.012
+  1135→Strickland, J. C., Feinstein, M. A., Lacy, R. T., & Smith, M. A. (2016). The effects of
+  1136→physical activity on impulsive choice: Influence of sensitivity to reinforcement amount
+  1137→and delay. Behavioural Processes, 126, 36–45.
+  1138→https://doi.org/10.1016/j.beproc.2016.03.002
+  1139→Stubbs, B., Firth, J., Berry, A., Schuch, F. B., Rosenbaum, S., Gaughran, F., Veronesse, N.,
+  1140→Williams, J., Craig, T., Yung, A. R., & Vancampfort, D. (2016). How much physical
+  1141→activity do people with schizophrenia engage in? A systematic review, comparative
+  1142→meta-analysis and meta-regression. Schizophrenia Research, 176(2–3), 431–440.
+  1143→https://doi.org/10.1016/j.schres.2016.05.017
+  1144→Svebak, S., & Murgatroyd, S. (1985). Metamotivational dominance: A multimethod
+  1145→validation of reversal theory constructs. Journal of Personality and Social Psychology,
+  1146→48(1), 107–116. https://doi.org/10.1037/0022-3514.48.1.107
+  1147→44
+  1148→
+  1149→Teixeira, D. S., Rodrigues, F., Cid, L., & Monteiro, D. (2022). Enjoyment as a Predictor of
+  1150→Exercise Habit, Intention to Continue Exercising, and Exercise Frequency: The Intensity
+  1151→Traits Discrepancy Moderation Role. Frontiers in Psychology, 13.
+  1152→https://doi.org/10.3389/fpsyg.2022.780059
+  1153→Treadway, M. T., Buckholtz, J. W., Schwartzman, A. N., Lambert, W. E., & Zald, D. H.
+  1154→(2009). Worth the ‘EEfRT’? The Effort Expenditure for Rewards Task as an Objective
+  1155→Measure of Motivation and Anhedonia. PLoS ONE, 4(8), e6598.
+  1156→https://doi.org/10.1371/journal.pone.0006598
+  1157→Tucker, R. (2009). The anticipatory regulation of performance: the physiological basis for
+  1158→pacing strategies and the development of a perception-based model for exercise
+  1159→performance. British Journal of Sports Medicine, 43(6), 392–400.
+  1160→https://doi.org/10.1136/bjsm.2008.050799
+  1161→Tumiel, E., Wichniak, A., Jarema, M., & Lew-Starowicz, M. (2019). Nonpharmacological
+  1162→Interventions for the Treatment of Cardiometabolic Risk Factors in People With
+  1163→Schizophrenia—A Systematic Review. Frontiers in Psychiatry, 10.
+  1164→https://doi.org/10.3389/fpsyt.2019.00566
+  1165→Ulmer, H. V. (1996). Concept of an extracellular regulation of muscular metabolic rate during
+  1166→heavy exercise in humans by psychophysiological feedback. Experientia, 52(5), 416–
+  1167→420. https://doi.org/10.1007/BF01919309
+  1168→Umemoto, A., Lin, H., & Holroyd, C. B. (2023). Electrophysiological measures of conflict
+  1169→and reward processing are associated with decisions to engage in physical effort.
+  1170→Psychophysiology, 60(2). https://doi.org/10.1111/psyp.14176
+  1171→45
+  1172→
+  1173→Vancampfort, D., De Hert, M., Stubbs, B., Ward, P. B., Rosenbaum, S., Soundy, A., &
+  1174→Probst, M. (2015). Negative symptoms are associated with lower autonomous motivation
+  1175→towards physical activity in people with schizophrenia. Comprehensive Psychiatry, 56,
+  1176→128–132. https://doi.org/10.1016/j.comppsych.2014.10.007
+  1177→Vancampfort, D., Firth, J., Correll, C. U., Solmi, M., Siskind, D., De Hert, M., Carney, R.,
+  1178→Koyanagi, A., Carvalho, A. F., Gaughran, F., & Stubbs, B. (2019). The impact of
+  1179→pharmacological and non‐pharmacological interventions to improve physical health
+  1180→outcomes in people with schizophrenia: a meta‐review of meta‐analyses of randomized
+  1181→controlled trials. World Psychiatry, 18(1), 53–66. https://doi.org/10.1002/wps.20614
+  1182→Vancampfort, D., Probst, M., Scheewe, T., Maurissen, K., Sweers, K., Knapen, J., & De Hert,
+  1183→M. (2011). Lack of physical activity during leisure time contributes to an impaired health
+  1184→related quality of life in patients with schizophrenia. Schizophrenia Research, 129(2–3),
+  1185→122–127. https://doi.org/10.1016/j.schres.2011.03.018
+  1186→Veerman, S. R. T., Schulte, P. F. J., & de Haan, L. (2017). Treatment for Negative Symptoms
+  1187→in Schizophrenia: A Comprehensive Review. Drugs, 77(13), 1423–1459.
+  1188→https://doi.org/10.1007/s40265-017-0789-y
+  1189→Vila-Barrios, L., Carballeira, E., Varela-Sanz, A., Iglesias-Soler, E., & Dopico-Calvo, X.
+  1190→(2023). The Impact of Regular Physical Exercise on Psychopathology, Cognition, and
+  1191→Quality of Life in Patients Diagnosed with Schizophrenia: A Scoping Review.
+  1192→Behavioral Sciences, 13(12), 959. https://doi.org/10.3390/bs13120959
+  1193→Walton, E., Hibar, D. P., Van Erp, T. G. M., Potkin, S. G., Roiz-Santiañez, R., Crespo-
+  1194→Facorro, B., Suarez-Pinilla, P., Van Haren, N. E. M., De Zwarte, S. M. C., Kahn, R. S.,
+  1195→Cahn, W., Doan, N. T., Jorgensen, K. N., Gurholt, T. P., Agartz, I., Andreassen, O. A.,
+  1196→Westlye, L. T., Melle, I., Berg, A. O., … Ehrlich, S. (2018). Prefrontal cortical thinning
+  1197→46
+  1198→
+  1199→links to negative symptoms in schizophrenia via the ENIGMA consortium.
+  1200→Psychological Medicine, 48(1), 82–94. https://doi.org/10.1017/S0033291717001283
+  1201→Waltz, J. A., Frank, M. J., Robinson, B. M., & Gold, J. M. (2007). Selective Reinforcement
+  1202→Learning Deficits in Schizophrenia Support Predictions from Computational Models of
+  1203→Striatal-Cortical Dysfunction. Biological Psychiatry, 62(7), 756–764.
+  1204→https://doi.org/10.1016/j.biopsych.2006.09.042
+  1205→Waltz, J. A., & Gold, J. M. (2015). Motivational Deficits in Schizophrenia and the
+  1206→Representation of Expected Value. In Current Topics in Behavioral Neurosciences (pp.
+  1207→375–410). https://doi.org/10.1007/7854_2015_385
+  1208→Wang, X., Zhang, Y., Huang, J., Wang, Y., Niu, Y., Lui, S. S. Y., Hui, L., & Chan, R. C. K.
+  1209→(2023). Revisiting reward impairments in schizophrenia spectrum disorders: a systematic
+  1210→review and meta-analysis for neuroimaging findings. Psychological Medicine, 53(15),
+  1211→7189–7202. https://doi.org/10.1017/S0033291723000703
+  1212→Yang, Z., Heaukulani, C., Sim, A., Buddhika, T., Abdul Rashid, N. A., Wang, X., Zheng, S.,
+  1213→Quek, Y. F., Basu, S., Lee, K. W., Tang, C., Verma, S., Morris, R. J. T., & Lee, J.
+  1214→(2025). Utility of Digital Phenotyping Based on Wrist Wearables and Smartphones in
+  1215→Psychosis: Observational Study. JMIR MHealth and UHealth, 13, e56185.
+  1216→https://doi.org/10.2196/56185
+  1217→Yi, W., Mei, S., Zhang, M., & Zheng, Y. (2020). Decomposing the effort paradox in reward
+  1218→processing: Time matters. Neuropsychologia, 137, 107311.
+  1219→https://doi.org/10.1016/j.neuropsychologia.2019.107311
+  1220→Zeng, J., Yan, J., Cao, H., Su, Y., Song, Y., Luo, Y., & Yang, X. (2022). Neural substrates of
+  1221→reward anticipation and outcome in schizophrenia: a meta-analysis of fMRI findings in
+  1222→47
+  1223→
+  1224→the monetary incentive delay task. Translational Psychiatry, 12(1), 448.
+  1225→https://doi.org/10.1038/s41398-022-02201-8
+  1226→Zhang, M., & Zheng, Y. (2022). Neural dynamics of effort‐modulated reward processing.
+  1227→Psychophysiology, 59(10). https://doi.org/10.1111/psyp.14070
+  1228→48

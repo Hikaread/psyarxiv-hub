@@ -1,0 +1,693 @@
+     1→     1→Daily fluctuations in delay discounting and smartphone-based multimodal measures track
+     2→     2→nighttime drinking in alcohol use disorder: A 28-day monitoring study
+     3→     3→Hyeonmin Lee†1, Manjae Kwon†2,3,4, Jeung-Hyun Lee1, Mina Kwon1, Suyeon Song1, Deokjong
+     4→     4→Lee3,5, Jung-Seok Choi6, Young-Chul Jung*2,3,7, Woo-Young Ahn*1,8,9
+     5→     5→Affiliation:
+     6→     6→1 Department of Psychology, Seoul National University, Seoul, Republic of Korea
+     7→     7→2 Department of Psychiatry, Yonsei University College of Medicine, Seoul, Republic of Korea
+     8→     8→3 Institute of Behavioral Science in Medicine, Yonsei University College of Medicine, Seoul, Republic of Korea
+     9→     9→4 Department of Psychiatry, University of Oxford, Warneford Hospital, Oxford, UK
+    10→    10→5 Department of Psychiatry, Yongin Severance Hospital, Yonsei University College of Medicine, Yongin, Republic
+    11→    11→of Korea
+    12→    12→6 Department of Psychiatry, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul,
+    13→    13→Republic of Korea
+    14→    14→7 Institute for Innovation in Digital Healthcare, Yonsei University, Seoul, Republic of Korea
+    15→    15→8 Department of Brain and Cognitive Sciences, Seoul National University, Seoul, Republic of Korea
+    16→    16→9 AI Institute, Seoul National University, Seoul, Republic of Korea
+    17→    17→†These authors contributed equally
+    18→    18→*Corresponding Authors
+    19→    19→Woo-Young Ahn, PhD
+    20→    20→Department of Psychology
+    21→    21→Seoul National University
+    22→    22→1, Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea
+    23→    23→Tel: +82-2-880-2538
+    24→    24→Email: wahn55@snu.ac.kr
+    25→    25→Young-Chul Jung, MD, PhD
+    26→    26→Department of Psychiatry
+    27→    27→Yonsei University College of Medicine
+    28→    28→50-1 Yonsei-ro, Seodaemun-gu, Seoul 03722, Republic of Korea
+    29→    29→Tel: +82-2-2228-1620
+    30→    30→Email: eugenejung@yuhs.ac
+    31→    31→Running title: Daily discounting and drinking risk
+    32→    32→Word count: 3,969
+    33→    33→Primary funding: Ministry of Health and Welfare, Republic of Korea (HI22C040400 to W.-
+    34→    34→Y.A. and Y.-C.J.).
+    35→    35→Clinical trial registration: Not applicable.
+    36→    36→1
+    37→    37→
+    38→    38→Abstract
+    39→    39→Background and Aims:
+    40→    40→Alcohol use disorder (AUD) involves day-to-day fluctuations in cognitive, psychological, and
+    41→    41→contextual factors that are difficult to fully capture using retrospective or cross-sectional
+    42→    42→assessment alone. Computational markers, such as discounting rate, ambiguity tolerance, and
+    43→    43→risk preference, may provide useful indicators of day-level drinking risk, but have rarely been
+    44→    44→assessed repeatedly in real-world settings or examined together with daily app-based self-reports
+    45→    45→and passive smartphone-derived measures. This study examined whether these multimodal day-
+    46→    46→level measures were associated with same-day nighttime drinking, focusing on whether within-
+    47→    47→person changes in computational markers remained associated with drinking after accounting for
+    48→    48→concurrent self-reported and contextual measures.
+    49→    49→Design:
+    50→    50→A 28-day longitudinal observational study using repeated smartphone-based assessments and
+    51→    51→passive sensing.
+    52→    52→Setting:
+    53→    53→Daily-life smartphone-based monitoring of community-recruited participants in the Republic of
+    54→    54→Korea.
+    55→    55→Participants:
+    56→    56→The final analytic sample included 143 adults meeting DSM-5 criteria for AUD.
+    57→    57→Measurements:
+    58→    58→The primary outcome was same-day nighttime drinking, assessed using daily app-based self-
+    59→    59→reports. Daily predictors covered three domains. App-based self-reports included mood, alcohol
+    60→    60→craving, meal intake, and sleep-related variables. Computational predictors were derived from
+    61→    61→delay discounting and choice under risk and ambiguity tasks. Passive smartphone-derived
+    62→    62→predictors included time spent at home, calls, steps, and foreground app use. Generalized linear
+    63→    63→mixed-effects models examined associations between nighttime drinking and multimodal
+    64→    64→predictors decomposed into within-person and between-person components.
+    65→    65→Findings:
+    66→    66→A multimodal model integrating computational parameters, daily app-based self-reports, and
+    67→    67→passive smartphone-derived measures showed the highest explanatory power for same-day
+    68→    68→nighttime drinking (marginal R² = 0.22). In this final model, higher within-person delay
+    69→    69→discounting [log(k)], alcohol craving, and positive mood, as well as lower meal intake and
+    70→    70→percent time at home, were associated with a higher likelihood of nighttime drinking. At the
+    71→    71→between-person level, only lower average meal intake was associated with a higher likelihood of
+    72→    72→nighttime drinking. Within-person fluctuations in log(k) were largely uncorrelated with other
+    73→    73→day-level predictors and showed no clear next-day association.
+    74→    74→Conclusions:
+    75→    75→Associations with same-day nighttime drinking were observed primarily at the within-person
+    76→    76→level, suggesting that day-level changes may be more informative than stable individual
+    77→    77→2
+    78→    78→
+    79→    79→differences. Within-person increases in delay discounting remained associated with nighttime
+    80→    80→drinking after accounting for other modalities, suggesting that multimodal monitoring may help
+    81→    81→identify periods of elevated drinking risk.
+    82→    82→Keywords: alcohol use disorder; delay discounting; multimodal monitoring; computational
+    83→    83→psychiatry; within-person variability; generalized linear mixed model
+    84→    84→3
+    85→    85→
+    86→    86→INTRODUCTION
+    87→    87→Alcohol use disorder (AUD) is a major contributor to global morbidity and mortality (1).
+    88→    88→AUD is characterized by dynamic fluctuations in drinking behavior that unfold over days and
+    89→    89→weeks (2,3). These fluctuations are shaped by cognitive, psychological, and contextual factors,
+    90→    90→which may vary in both magnitude and timing across individuals and situations (3,4). Capturing
+    91→    91→these dynamic processes is critical for understanding how alcohol use unfolds in daily life. Yet
+    92→    92→fluctuating risk states may be difficult to detect through retrospective or cross-sectional
+    93→    93→assessment alone (3,5,6).
+    94→    94→To address this, ecological momentary assessment (EMA) and daily diary methods have
+    95→    95→been widely used to track within-person fluctuations in psychological states, including mood,
+    96→    96→craving, and sleep, and to examine their associations with substance use in naturalistic settings
+    97→    97→(3,4,6). In addition, passive smartphone-derived measures, which are broadly referred to as
+    98→    98→digital phenotyping, can capture complementary information about behavioral and contextual
+    99→    99→changes in daily life (5,7–9). However, these approaches primarily capture subjective states that
+   100→   100→participants can consciously report or behavioral patterns that are expressed externally, and may
+   101→   101→not directly access latent cognitive processes that also contribute to drinking risk.
+   102→   102→In this context, prior work has focused on latent cognitive processes relevant to substance
+   103→   103→use disorders, as indexed by computational markers derived from decision-making tasks. These
+   104→   104→markers include delay discounting, risk preference, and ambiguity tolerance (10,11). Delay
+   105→   105→discounting, or the tendency to prefer smaller immediate rewards over larger delayed rewards,
+   106→   106→has been consistently associated with greater addiction severity and substance use (12–15).
+   107→   107→Decision-making under uncertainty has also been linked to addiction vulnerability. In particular,
+   108→   108→greater tolerance for ambiguity has been associated with elevated relapse risk in opioid and
+   109→   109→nicotine use disorders (16,17). These findings suggest that computational markers can capture
+   110→   110→latent cognitive mechanisms relevant to substance use vulnerability. However, most prior work
+   111→   111→has been cross-sectional, despite evidence that drinking risk fluctuates dynamically over time (3).
+   112→   112→It remains important to determine whether these computational markers vary meaningfully from
+   113→   113→day to day and track real-world changes in drinking-related states (18,19).
+   114→   114→However, only a small number of studies have used repeated assessments to examine
+   115→   115→within-person changes in computational markers (16,17,20). A key reason such studies have
+   116→   116→been difficult to conduct is that traditional tasks used to estimate computational markers are
+   117→   117→often lengthy and repetitive, reducing participant motivation and lowering data quality,
+   118→   118→especially in clinical populations (21). To minimize participant burden and enable frequent
+   119→   119→assessments, adaptive design optimization (ADO) offers a machine-learning-based approach that
+   120→   120→shortens tasks to as few as 20-30 trials while maintaining reliable parameter estimation (22,23).
+   121→   121→ADO thus makes it feasible to assess computational markers daily in longitudinal designs.
+   122→   122→If computational markers do fluctuate meaningfully from day to day, a further question is
+   123→   123→whether these fluctuations provide information about drinking risk beyond that captured by self-
+   124→   124→report or contextual measures alone. Examining computational markers in combination with
+   125→   125→daily app-based self-reports and passive smartphone-derived measures may help address this
+   126→   126→question while providing a more comprehensive account of how drinking risk unfolds in daily
+   127→   127→life. Although some studies have examined daily fluctuations in cognitive control alongside self-
+   128→   128→4
+   129→   129→
+   130→   130→reported states (24), relatively few longitudinal alcohol studies have integrated these modalities
+   131→   131→within the same design, particularly alongside repeatedly assessed computational parameters.
+   132→   132→To address these challenges, we conducted a 28-day longitudinal monitoring study
+   133→   133→among adults meeting DSM-5 criteria for alcohol use disorder, combining daily decision-making
+   134→   134→tasks, daily app-based self-reports, and passive smartphone sensing. Participants completed two
+   135→   135→well-established decision-making tasks daily, both administered via ADO. These included the
+   136→   136→delay discounting task (25), indexing temporal impulsivity in preference for smaller immediate
+   137→   137→over larger delayed rewards (12,13), and the choice under risk and ambiguity task (26), which
+   138→   138→assesses risk and ambiguity preferences. Participants also completed daily app-based self-reports,
+   139→   139→while passive smartphone sensing data, including GPS location, phone call logs, step counts, and
+   140→   140→app usage were continuously collected throughout the study period (7).
+   141→   141→Rather than treating drinking risk as a static trait, we conceptualized same-day nighttime
+   142→   142→drinking as a dynamic outcome that fluctuates over time and may be associated with time-
+   143→   143→varying changes across cognitive, psychological, and behavioral domains. We aimed to examine
+   144→   144→whether day-level computational parameters, daily app-based self-reports, and passive
+   145→   145→smartphone-derived measures were jointly associated with same-day nighttime drinking among
+   146→   146→adults meeting DSM-5 criteria for alcohol use disorder. More specifically, we expected within-
+   147→   147→person changes in computational markers would be associated with same-day drinking even after
+   148→   148→accounting for concurrent self-reported and contextual measures.
+   149→   149→METHODS
+   150→   150→Participants
+   151→   151→We recruited 213 participants (46.7% male; age M = 33.24, SD = 9.45) through online
+   152→   152→advertisements, all of whom reported experiencing emotional, social, or functional problems
+   153→   153→related to alcohol use. Before enrollment, all participants underwent a clinical interview with a
+   154→   154→board-certified psychiatrist. AUD diagnosis and severity (mild, moderate, or severe) were
+   155→   155→determined based on DSM-5 criteria based on this interview.
+   156→   156→Participants were enrolled into two cohorts based on whether they underwent additional
+   157→   157→laboratory assessments. One cohort participated only in the 28-day mobile app study (app-only
+   158→   158→group; initially n = 143), whereas the other completed the same app protocol as part of a broader
+   159→   159→research protocol that also included neuroimaging and cognitive assessments (comprehensive
+   160→   160→assessment group; n = 70). These additional laboratory data were not used in the present
+   161→   161→analyses. All procedures were approved by the Institutional Review Board of Seoul National
+   162→   162→University (2302/002-002). All participants provided written informed consent. Data were
+   163→   163→collected from July 2023 to September 2024. No formal a priori sample size calculation was
+   164→   164→conducted for the present analysis. Of the 213 recruited participants, 143 were included in the
+   165→   165→final analytic sample after excluding those who dropped out, did not meet DSM-5 diagnostic
+   166→   166→criteria for AUD, or lacked usable data for the multimodal analyses (app-only group, n = 100;
+   167→   167→comprehensive assessment group, n = 43; Figure S1).
+   168→   168→5
+   169→   169→
+   170→   170→Procedure
+   171→   171→All participants completed a baseline questionnaire in person on the day the app was
+   172→   172→installed, before beginning app use. Two mobile apps were installed on participants’
+   173→   173→smartphones for data collection. The Harujjan app delivered nightly psychological surveys on
+   174→   174→daily experiences and drinking behavior and collected passive smartphone sensing data
+   175→   175→throughout the 28-day study period. The Cocomo app delivered two decision-making tasks each
+   176→   176→day. After the 28-day study period, participants returned for a follow-up visit to complete a post-
+   177→   177→study survey (Figure 1).
+   178→   178→Measures
+   179→   179→Baseline psychological questionnaires
+   180→   180→Participants completed baseline psychological questionnaires during their initial visit,
+   181→   181→including the Korean version of the Alcohol Use Disorders Identification Test (AUDIT-K) (27),
+   182→   182→Beck Anxiety Inventory (BAI) (28), Beck Depression Inventory (BDI) (29), and the Barratt
+   183→   183→Impulsiveness Scale 11-revised (BIS-11-R) (30).
+   184→   184→Daily app-based self-report
+   185→   185→Daily self-report data were collected using the Harujjan mobile app. Participants were
+   186→   186→instructed to complete brief self-reports assessing affective states (mood, general interest), daily
+   187→   187→functioning variables (meal amount, sleep duration, sleep satisfaction, sleep disturbance), and
+   188→   188→alcohol-related outcomes (daily alcohol consumption, craving) before going to bed each day.
+   189→   189→Along with drinking, participants also provided contextual information about the episode, such
+   190→   190→as the type and amount of alcohol consumed, the time and duration of the drinking episode,
+   191→   191→drinking companions, location, and drinking motives (Figure 2A). To account for alcohol use
+   192→   192→occurring after the initial nightly report, participants could update the previous day’s entry by the
+   193→   193→following day when necessary. In the primary analyses, self-report records were assigned to the
+   194→   194→calendar day to which they referred, rather than to the submission date.
+   195→   195→Daily app-based self-report measures included in the model were constructed as follows.
+   196→   196→Mood was defined as the mean of the mood and general interest ratings, reflecting overall
+   197→   197→positive emotional state. Alcohol craving was indexed using the daily craving rating. The meal
+   198→   198→index was defined as the sum of meal amounts across breakfast, lunch, and dinner. Sleep
+   199→   199→disturbance was indexed using the daily sleep disturbance rating.
+   200→   200→Computational parameters from daily decision-making tasks
+   201→   201→Participants completed two brief decision-making tasks each day within the Cocomo
+   202→   202→mobile application. The delay discounting task (25) measured temporal discounting tendencies
+   203→   203→(Figure 2B), and the choice under risk and ambiguity task assessed risk preference and ambiguity
+   204→   204→tolerance (Figure 2C) (26). These tasks yielded daily estimates of key computational parameters,
+   205→   205→including the delay discounting rate (𝑘), risk preference (𝛼), and ambiguity tolerance (1−𝛽).
+   206→   206→6
+   207→   207→
+   208→   208→Because the application followed a Coordinated Universal Time (UTC)-based server schedule,
+   209→   209→the daily reset occurred at 09:00 Korea Standard Time (KST) rather than 00:00 KST. To align
+   210→   210→task data with participants’ local calendar day and the intended once-daily assessment schedule,
+   211→   211→task records completed before 09:00 KST were excluded prior to analysis. This affected 5.8% of
+   212→   212→delay discounting records and 5.8% of choice under risk and ambiguity records. Detailed
+   213→   213→modeling and estimation procedures are provided in the Computational modeling section.
+   214→   214→Passive smartphone-derived measures
+   215→   215→Participants’ smartphones provided four types of passive smartphone sensing: GPS
+   216→   216→location, phone call logs, step counts, and app usage. These data were passively recorded through
+   217→   217→the sensing functions enabled by installing the Harujjan application and collected continuously
+   218→   218→throughout the 28-day study period.
+   219→   219→% Time at home. Location data consisted of latitude–longitude coordinates with
+   220→   220→timestamps. From these data, we derived daily indices capturing mobility patterns. Points of
+   221→   221→interest (PoIs) were identified using the DPLocate framework (31), and the most visited PoI was
+   222→   222→classified as each participant’s home location (32). Percentage of time at home was calculated as
+   223→   223→the proportion of timestamped GPS records assigned to the home PoI on a given day.
+   224→   224→Foreground time. Passive smartphone logs recorded which applications were active in the
+   225→   225→foreground and the duration of each foreground app-use episode. Foreground time was
+   226→   226→calculated as the cumulative duration of foreground app activity for each participant-day.
+   227→   227→Steps. Smartphone step logs were used to calculate the total number of steps recorded for
+   228→   228→each participant-day.
+   229→   229→Calls. Phone call logs were used to calculate the total number of incoming and outgoing
+   230→   230→calls for each participant-day.
+   231→   231→Computational modeling
+   232→   232→Adaptive Design Optimization (ADO)
+   233→   233→We estimated computational parameters for both the delay discounting and choice under
+   234→   234→risk and ambiguity tasks using ADO. ADO is a machine learning–based active-learning method
+   235→   235→that selects the most informative stimulus on each trial based on the participant’s previous
+   236→   236→responses. After each choice, the posterior distribution over model parameters was updated using
+   237→   237→grid-based Bayesian inference with uniform priors, and the next trial’s design variables (e.g.,
+   238→   238→receipt delay, reward amount, winning probability, reward amounts, ambiguity level) were
+   239→   239→chosen to maximize expected information gain. All procedures were implemented using the
+   240→   240→Python package ADOpy (33).
+   241→   241→Delay discounting task
+   242→   242→7
+   243→   243→
+   244→   244→Choices in the delay discounting task were modeled using a hyperbolic discounting
+   245→   245→model (34). Subjective values (𝑉) for the larger-later (LL) and smaller-sooner (SS) options were
+   246→   246→computed as a function of reward amount (𝑅) and receipt delay (𝑡). Choice probabilities were
+   247→   247→generated using a softmax rule based on the difference in subjective value between the two
+   248→   248→options.
+   249→   249→1
+   250→   250→𝐷(𝑡) =
+   251→   251→1+𝑘𝑡
+   252→   252→𝑉 = 𝑅 ⋅𝐷(𝑡 ), 𝑉 = 𝑅 ⋅𝐷(𝑡 )
+   253→   253→!! !! !! "" "" ""
+   254→   254→1
+   255→   255→𝑃(LL over SS) =
+   256→   256→1+exp[−τ(𝑉 −𝑉 )]
+   257→   257→!! ""
+   258→   258→The parameter 𝑘 represents the discounting rate, with higher values indicating stronger
+   259→   259→preference for immediate rewards. The parameter τ is an inverse-temperature parameter reflecting
+   260→   260→choice consistency. Each daily session consisted of 20 trials.
+   261→   261→Choice under risk and ambiguity task
+   262→   262→Choices in the choice under risk and ambiguity task were modeled using a power-utility
+   263→   263→function combined with a linear ambiguity-discounting component (26). Subjective values were
+   264→   264→computed for the fixed option (𝑈 ), which offered reward 𝑅 with a known probability of 0.5, and
+   265→   265→# #
+   266→   266→for the variable option (𝑈 ), whose value depended on reward amount (𝑅 ), winning probability
+   267→   267→$ $
+   268→   268→(𝑝 ) on risk trials, and ambiguity level (𝐴 ) on ambiguous trials. Choice probabilities were
+   269→   269→$ $
+   270→   270→generated using a softmax rule.
+   271→   271→𝑈 = 0.5⋅(𝑅 )%
+   272→   272→# #
+   273→   273→𝐴
+   274→   274→𝑈 = C𝑝 −βE $ GH⋅(𝑅 )%
+   275→   275→$ $ 2 $
+   276→   276→1
+   277→   277→𝑃(𝑉 over 𝐹) =
+   278→   278→1+exp[−γ(𝑈 −𝑈 )]
+   279→   279→$ #
+   280→   280→The parameter 𝛼 reflects risk sensitivity, 1−𝛽 reflects ambiguity such that higher values
+   281→   281→indicate greater tolerance for unknown probabilities, and 𝛾 is an inverse-temperature capturing
+   282→   282→choice consistency. Each daily session consisted of 30 trials.
+   283→   283→Analytical approach
+   284→   284→Modeling of same-day nighttime drinking
+   285→   285→To examine associations between day-level factors and same-day nighttime drinking, we
+   286→   286→used a generalized linear mixed-effects model. Nighttime drinking was defined as a binary
+   287→   287→outcome (drinking vs. no drinking) based on participants’ evening self-report of whether they
+   288→   288→had consumed alcohol that day. Because daily observations were nested within participants
+   289→   289→8
+   290→   290→
+   291→   291→across the 28-day period, we included subject-level random intercepts. A logit link was used
+   292→   292→because the outcome was binary.
+   293→   293→To distinguish within-person fluctuations from stable between-person differences, each
+   294→   294→daily predictor was decomposed into within-person and between-person components (35,36).
+   295→   295→The between-person component was defined as each participant’s mean across all available study
+   296→   296→days and was grand-mean centered before standardization. The within-person component was
+   297→   297→defined as the deviation of each daily value from that participant’s mean. To facilitate
+   298→   298→comparison across predictors, both components were standardized by dividing them by the total
+   299→   299→standard deviation of the corresponding raw variable before being entered into the model.
+   300→   300→To examine the temporal specificity of these associations, we additionally fit a lagged
+   301→   301→GLMM predicting next-day nighttime drinking from today's within-person predictor values, with
+   302→   302→same-day nighttime drinking included as a covariate. Only consecutive day-pairs were included
+   303→   303→in this analysis.
+   304→   304→The final model can be expressed as follows:
+   305→   305→𝑙𝑜𝑔𝑖𝑡P𝑃(𝑌 = 1)R = 𝛽 +S𝛽 𝑋 ()) +S𝛽 𝑋 (-) +𝛽 𝐴𝑈𝐷𝐼𝑇 +𝑢
+   306→   306→&' ( )* *&' -* *& . & &
+   307→   307→* *
+   308→   308→())
+   309→   309→where 𝑌 indicates whether participant 𝑖 reported nighttime drinking on day 𝑡, 𝑋 and
+   310→   310→&' *&'
+   311→   311→(-)
+   312→   312→𝑋 denote the within-person and between-person components of predictor 𝑘, respectively,
+   313→   313→*&
+   314→   314→𝑘indexes all predictors included across the three modalities, and 𝑢 is a subject-level random
+   315→   315→&
+   316→   316→intercept corresponding to (1 ∣∣ subject).
+   317→   317→We implemented the model using the glmer function from the lme4 package in R (37).
+   318→   318→Predictor variables were organized into three categories: (1) Daily app-based self-reports, (2)
+   319→   319→Computational parameters derived from decision-making tasks, and (3) Passive smartphone-
+   320→   320→derived measures. Baseline AUDIT-K score was included as a covariate to account for between-
+   321→   321→person differences in alcohol-related problem severity. Because the analyses were conducted at
+   322→   322→the day level, participant-days with missing values on variables required for a given model were
+   323→   323→excluded from that analysis, and missing observations were not imputed. Variable-level data
+   324→   324→availability in the final analytic sample is reported in Supplementary Table S1.
+   325→   325→We compared a series of candidate models representing all possible combinations of the
+   326→   326→three data modalities. Specifically, models were tested for each modality alone, for all pairwise
+   327→   327→combinations, and for the full multimodal combination including all three modalities. To
+   328→   328→evaluate model performance, we used marginal R² (38).
+   329→   329→To assess the robustness of the final model, we conducted three sensitivity analyses. First,
+   330→   330→to examine whether the DSM-5 AUD diagnostic criterion affected the findings, we repeated the
+   331→   331→final multimodal model in the broader sample of 168 participants available before excluding
+   332→   332→those who did not meet DSM-5 diagnostic criteria for AUD. Second, we repeated the final model
+   333→   333→among participants with at least 70% adherence to both daily self-report and decision-making
+   334→   334→9
+   335→   335→
+   336→   336→task assessments. Third, we repeated the final multimodal model after excluding participant-days
+   337→   337→for which the daily self-report record was submitted or updated more than one day after the
+   338→   338→calendar day to which it referred. All models were fitted with the bobyqa optimizer.
+   339→   339→Code availability
+   340→   340→The underlying code for this study is not publicly available but may be made available to
+   341→   341→qualified researchers on reasonable request from the corresponding author.
+   342→   342→Data availability
+   343→   343→The datasets generated and analyzed during the current study are not publicly available
+   344→   344→due to privacy and ethical restrictions, as they include sensitive longitudinal self-report and
+   345→   345→passive smartphone sensing data. The data are available from the corresponding author on
+   346→   346→reasonable request.
+   347→   347→Analysis plan pre-registration
+   348→   348→No formal analysis plan was pre-registered.
+   349→   349→RESULTS
+   350→   350→Participant characteristics
+   351→   351→A total of 143 participants were included in the final analytic sample (43.4% male; age:
+   352→   352→M = 33.35, SD = 8.44; Table 1). In cohort comparisons, the comprehensive assessment group
+   353→   353→was older and had more years of education than the app-only group, whereas there was no clear
+   354→   354→evidence of cohort differences in gender, marital status, AUDIT-K, BIS-11-R, BAI, or BDI
+   355→   355→scores (Table S2). Based on DSM-5 criterion counts, 60 (42.0%) met criteria for mild, 53
+   356→   356→(37.1%) for moderate, and 30 (21.0%) for severe AUD (Figure S1B). Across the 28-day study
+   357→   357→period, participants completed a median of 18 assessment days (interquartile range: 11.5–23),
+   358→   358→yielding 2,441 participant-days included in the final multimodal model. Nighttime drinking was
+   359→   359→reported on 436 of 2,441 participant-days (17.9%).
+   360→   360→Daily-level associations with nighttime drinking
+   361→   361→Among the candidate models, the model integrating daily app-based self-reports,
+   362→   362→computational parameters, and passive smartphone-derived measures showed the highest
+   363→   363→marginal R² of 0.22 (Table S3). In this final integrated model, at the within-person level, higher
+   364→   364→delay discounting (log(k)), higher alcohol craving, more positive mood, lower meal intake, and
+   365→   365→lower percent time at home were associated with a higher likelihood of nighttime drinking. At
+   366→   366→the between-person level, only lower average meal intake was associated with a higher
+   367→   367→likelihood of nighttime drinking. Baseline AUDIT-K score, included as a covariate, was also
+   368→   368→positively associated with nighttime drinking (Figure 3; Table S4). The same pattern of
+   369→   369→significant predictors and effect directions was reproduced across the broader-sample analysis
+   370→   370→10
+   371→   371→
+   372→   372→before DSM-based exclusion, the ≥70% adherence analysis, and the timestamp-based analysis
+   373→   373→excluding delayed self-report records (Figures S2–S4).
+   374→   374→To further illustrate this within-person association, we fitted a separate single-predictor
+   375→   375→generalized linear mixed-effects model including only within-person deviations in log(k) and a
+   376→   376→subject-level random intercept. Higher within-person log(k) was associated with a higher
+   377→   377→likelihood of same-day nighttime drinking (β = 0.34, 95% CI [0.10, 0.58], p = .006; Figure 4A).
+   378→   378→Notably, within-person fluctuations in log(k) showed minimal correlation with other within-
+   379→   379→person predictors, including alcohol craving, mood, and percent time at home, with correlations
+   380→   380→close to zero (Figure S5). This suggests that daily variation in log(k) captured information
+   381→   381→largely distinct from these other day-level predictors.
+   382→   382→To examine the temporal specificity of these associations, we fit lagged generalized
+   383→   383→linear mixed-effects models predicting next-day drinking from today’s predictor values while
+   384→   384→including same-day nighttime drinking as a covariate. There was no clear evidence that today’s
+   385→   385→within-person predictors were associated with next-day nighttime drinking (Figure S6).
+   386→   386→DISCUSSION
+   387→   387→The present study examined whether daily computational parameters, daily app-based
+   388→   388→self-reports, and passive smartphone-derived measures were jointly associated with same-day
+   389→   389→nighttime drinking in adults meeting DSM-5 criteria for AUD. Among the candidate models, the
+   390→   390→multimodal model integrating all three data modalities showed the highest explanatory power
+   391→   391→(marginal R² = 0.22). Associations with same-day nighttime drinking were observed primarily at
+   392→   392→the within-person level, indicating that day-level deviations from an individual’s own average
+   393→   393→were more consistently linked to drinking than stable between-person differences. Within-person
+   394→   394→associations were observed across multiple domains: higher delay discounting [log(k)], higher
+   395→   395→alcohol craving, more positive mood, lower meal intake, and lower percent time at home were
+   396→   396→each associated with a higher likelihood of nighttime drinking. Among these predictors, within-
+   397→   397→person log(k) was associated with same-day drinking even after accounting for concurrent self-
+   398→   398→reported and contextual measures in the full model, suggesting that day-level variation in delay
+   399→   399→discounting may capture information about drinking risk that is not already available from other
+   400→   400→modalities.
+   401→   401→Prior research has consistently shown that individuals with AUD exhibit steeper delay
+   402→   402→discounting compared with controls (12,15), and that the degree of discounting is associated with
+   403→   403→treatment outcomes (13). This literature has predominantly focused on who discounts more
+   404→   404→steeply. The present findings suggest that delay discounting also varies meaningfully within
+   405→   405→individuals from day to day and that these within-person fluctuations are informative about
+   406→   406→same-day drinking behavior. On days when individuals discounted delayed rewards more steeply
+   407→   407→than usual, they were more likely to drink that night. This association is notable in two respects.
+   408→   408→Within-person fluctuations in log(k) showed minimal correlation with other within-person
+   409→   409→predictors, indicating that log(k) captures a dimension of day-level variation that is largely
+   410→   410→independent of self-reported psychological states and contextual indicators. Furthermore, when
+   411→   411→the same model was tested with one-day-lagged predictors, there was no clear evidence of next-
+   412→   412→day associations for log(k) or any other within-person variable, suggesting that the association
+   413→   413→may reflect a same-day state rather than a carryover process.
+   414→   414→11
+   415→   415→
+   416→   416→These findings indicate that the window of elevated risk may be narrow and that repeated
+   417→   417→assessment of delay discounting may offer information about day-level vulnerability that is not
+   418→   418→available from daily app-based self-reports or passive sensing alone.
+   419→   419→The absence of a significant between-person effect of log(k) may seem unexpected given
+   420→   420→the well-established cross-sectional association between delay discounting and addiction
+   421→   421→severity. One possible factor is that the analytic sample was restricted to individuals meeting
+   422→   422→DSM-5 criteria for AUD and did not include a non-AUD comparison group. As a result,
+   423→   423→between-person differences in average discounting may have been less pronounced than in
+   424→   424→studies contrasting clinical and healthy control groups (39). In samples with restricted between-
+   425→   425→person variance, within-person fluctuations may become the primary source of meaningful
+   426→   426→variation.
+   427→   427→Neither risk preference (α) nor ambiguity tolerance (1−β) showed clear evidence of
+   428→   428→association with same-day nighttime drinking. Prior work has linked greater ambiguity tolerance
+   429→   429→to relapse vulnerability in opioid and nicotine use disorders, particularly among patients who
+   430→   430→continue substance use despite uncertainty about negative consequences (16,17). However, those
+   431→   431→studies examined relapse, defined as a categorical transition from abstinence to use, among
+   432→   432→patients who had initiated outpatient treatment, whereas the present study modeled daily drinking
+   433→   433→episodes in community-recruited adults who met DSM-5 criteria for AUD and were not
+   434→   434→necessarily seeking abstinence. It is also possible that delay discounting is more proximally
+   435→   435→relevant to daily drinking decisions, which involve a concrete tradeoff between immediate
+   436→   436→reward and delayed consequences, than are risk or ambiguity preferences, which may be more
+   437→   437→relevant under conditions of explicit uncertainty about outcomes.
+   438→   438→Daily self-reported psychological and behavioral states were also associated with same-
+   439→   439→day nighttime drinking. Higher craving, more positive mood, and lower meal intake showed
+   440→   440→significant within-person associations. These findings are consistent with prior EMA work
+   441→   441→linking day-level fluctuations in craving and affective states to alcohol consumption in
+   442→   442→naturalistic settings (3,6). The within-person association between more positive mood and
+   443→   443→nighttime drinking is consistent with prior EMA and daily-diary evidence linking daily positive
+   444→   444→affect to alcohol use (40). Because mood and drinking were assessed in the same nightly report,
+   445→   445→however, the current design cannot determine whether positive mood preceded drinking or
+   446→   446→reflected the affective context of drinking days, such as socially rewarding settings in which
+   447→   447→positive mood and alcohol use co-occurred. Meal intake was the only predictor that also showed
+   448→   448→a significant between-person effect, suggesting that lower average food consumption may reflect
+   449→   449→a more stable behavioral pattern associated with elevated drinking risk.
+   450→   450→Among the passive smartphone-derived measures, spending less time at home was the
+   451→   451→only variable significantly associated with same-day nighttime drinking in the full model. This
+   452→   452→pattern may reflect greater exposure to contexts in which drinking opportunities are available,
+   453→   453→consistent with prior work integrating geospatial data with EMA and smartphone sensing
+   454→   454→approaches (41). Foreground time, steps, and calls were not significantly associated with
+   455→   455→nighttime drinking after accounting for the other modalities. One possibility is that these passive
+   456→   456→measures capture behavioral patterns that are only indirectly related to drinking risk, such as
+   457→   457→contextual factors associated with social activity or location. At the day level, these signals may
+   458→   458→12
+   459→   459→
+   460→   460→have provided limited incremental information once more proximal self-report and
+   461→   461→computational measures were included in the model.
+   462→   462→Several limitations should be considered. First, because participants were community-
+   463→   463→recruited adults meeting DSM-5 criteria for AUD and were not necessarily seeking treatment, the
+   464→   464→findings may not generalize to treatment-seeking or more clinically severe AUD populations.
+   465→   465→Second, although daily assessments captured short-term variability, the observational design
+   466→   466→precludes causal inference about the temporal ordering of discounting and drinking.
+   467→   467→Furthermore, because the analysis plan was not pre-registered, the findings should be interpreted
+   468→   468→as exploratory and hypothesis-generating rather than confirmatory.
+   469→   469→Despite these limitations, the present findings have implications for understanding
+   470→   470→alcohol use in daily life. The observation that associations with nighttime drinking were
+   471→   471→concentrated at the within-person level, with no clear evidence of lagged associations, suggests
+   472→   472→that the relevant risk window may be narrow and that monitoring approaches may benefit from
+   473→   473→detecting day-level changes rather than assessing stable traits. That within-person log(k) was
+   474→   474→associated with same-day drinking independently of self-reported states and contextual measures
+   475→   475→suggests that brief, repeated computational assessments may add information to multimodal
+   476→   476→monitoring systems. More broadly, integrating computational markers with daily app-based self-
+   477→   477→reports and passive sensing may help identify within-person states of elevated drinking risk and
+   478→   478→inform future efforts to design timely, individualized interventions in real-world settings (42).
+   479→   479→13
+   480→   480→
+   481→   481→REFERENCES
+   482→   482→1. World Health Organization. Global status report on alcohol and health and treatment of
+   483→   483→substance use disorders. World Health Organization; 2024.
+   484→   484→2. Walsh BE, Dvorak RD, Ebbinghaus A, Gius BK, Levine JA, Cortina W, et al.
+   485→   485→Disaggregating within-and between-person effects of affect on drinking behavior in a clinical
+   486→   486→sample with alcohol use disorder. J Psychopathol Clin Sci. 2023;132(8):1051.
+   487→   487→3. Wray TB, Merrill JE, Monti PM. Using ecological momentary assessment (EMA) to assess
+   488→   488→situation-level predictors of alcohol use and alcohol-related consequences. Alcohol Res Curr
+   489→   489→Rev. 2014;36(1):19.
+   490→   490→4. Shiffman S. Ecological momentary assessment (EMA) in studies of substance use. Psychol
+   491→   491→Assess. 2009;21(4):486.
+   492→   492→5. Hsu M, Ahern DK, Suzuki J. Digital phenotyping to enhance substance use treatment during
+   493→   493→the COVID-19 pandemic. JMIR Ment Health. 2020;7(10):e21814.
+   494→   494→6. Serre F, Fatseas M, Swendsen J, Auriacombe M. Ecological momentary assessment in the
+   495→   495→investigation of craving and substance use in daily life: a systematic review. Drug Alcohol
+   496→   496→Depend. 2015;148:1–20.
+   497→   497→7. Bae S, Chung T, Ferreira D, Dey AK, Suffoletto B. Mobile phone sensors and supervised
+   498→   498→machine learning to identify alcohol use events in young adults: Implications for just-in-time
+   499→   499→adaptive interventions. Addict Behav. 2018;83:42–7.
+   500→   500→8. Onnela JP, Rauch SL. Harnessing smartphone-based digital phenotyping to enhance
+   501→   501→behavioral and mental health. Neuropsychopharmacology. 2016;41(7):1691–6.
+   502→   502→9. Insel TR. Digital phenotyping: technology for a new science of behavior. Jama.
+   503→   503→2017;318(13):1215–6.
+   504→   504→10. Ahn WY, Dai J, Vassileva J, Busemeyer JR, Stout JC. Computational modeling for addiction
+   505→   505→medicine: from cognitive models to clinical applications. Prog Brain Res. 2016;224:53–65.
+   506→   506→11. Gueguen MC, Schweitzer EM, Konova AB. Computational theory-driven studies of
+   507→   507→reinforcement learning and decision-making in addiction: What have we learned? Curr Opin
+   508→   508→Behav Sci. 2021;38:40–8.
+   509→   509→12. Amlung M, Vedelago L, Acker J, Balodis I, MacKillop J. Steep delay discounting and
+   510→   510→addictive behavior: a meta-analysis of continuous associations: Delay discounting and
+   511→   511→addiction. Addiction. 2017 Jan;112(1):51–62. doi:10.1111/add.13535
+   512→   512→13. Exum AC, Sutton CA, Bellitti JS, Yi R, Fazzino TL. Delay discounting and substance use
+   513→   513→treatment outcomes: A systematic review focused on treatment outcomes and discounting
+   514→   514→methodology. J Subst Use Addict Treat. 2023;149:209037.
+   515→   515→14
+   516→   516→
+   517→   517→14. Bickel WK, Jarmolowicz DP, Mueller ET, Koffarnus MN, Gatchalian KM. Excessive
+   518→   518→discounting of delayed reinforcers as a trans-disease process contributing to addiction and
+   519→   519→other disease-related vulnerabilities: emerging evidence. Pharmacol Ther. 2012;134(3):287–
+   520→   520→97.
+   521→   521→15. MacKillop J, Amlung MT, Few LR, Ray LA, Sweet LH, Munafò MR. Delayed reward
+   522→   522→discounting and addictive behavior: a meta-analysis. Psychopharmacology (Berl). 2011
+   523→   523→Aug;216(3):305–21. doi:10.1007/s00213-011-2229-0
+   524→   524→16. Konova AB, Lopez-Guzman S, Urmanche A, Ross S, Louie K, Rotrosen J, et al.
+   525→   525→Computational markers of risky decision-making for identification of temporal windows of
+   526→   526→vulnerability to opioid use in a real-world clinical setting. JAMA Psychiatry.
+   527→   527→2020;77(4):368–77.
+   528→   528→17. Lee JH, Lee SH, Yang J, Kim H, Pitt M, Park HJ, et al. Rapid and Reliable Computational
+   529→   529→Markers for Predicting Daily Smoking Behavior and Smoking Cessation Treatment Outcome
+   530→   530→[Internet]. PsyArXiv; 2025 [cited 2026 Mar 18]. Available from:
+   531→   531→https://osf.io/preprints/psyarxiv/bj7fd_v1/ doi:10.31234/osf.io/bj7fd_v1
+   532→   532→18. Odum AL. Delay discounting: trait variable? Behav Processes. 2011;87(1):1–9.
+   533→   533→19. Bickel WK, Athamneh LN, Basso JC, Mellis AM, DeHart WB, Craft WH, et al. Excessive
+   534→   534→discounting of delayed reinforcers as a trans-disease process: Update on the state of the
+   535→   535→science. Curr Opin Psychol. 2019;30:59–64.
+   536→   536→20. Alvarez EE, Hafezi S, Bonagura D, Kleiman EM, Konova AB. A proof-of-concept
+   537→   537→ecological momentary assessment study of day-level dynamics in value-based decision-
+   538→   538→making in opioid addiction. Front Psychiatry. 2022;13:817979.
+   539→   539→21. Kwon M, Lee SH, Ahn WY. Adaptive design optimization as a promising tool for reliable
+   540→   540→and efficient computational fingerprinting. Biol Psychiatry Cogn Neurosci Neuroimaging.
+   541→   541→2023;8(8):798–804.
+   542→   542→22. Ahn WY, Gu H, Shen Y, Haines N, Hahn HA, Teater JE, et al. Rapid, precise, and reliable
+   543→   543→measurement of delay discounting using a Bayesian learning algorithm. Sci Rep.
+   544→   544→2020;10(1):12091.
+   545→   545→23. Myung JI, Cavagnaro DR, Pitt MA. A tutorial on adaptive design optimization. J Math
+   546→   546→Psychol. 2013;57(3–4):53–67.
+   547→   547→24. Jones A, Tiplady B, Houben K, Nederkoorn C, Field M. Do daily fluctuations in inhibitory
+   548→   548→control predict alcohol consumption? An ecological momentary assessment study.
+   549→   549→Psychopharmacology (Berl). 2018 May;235(5):1487–96. doi:10.1007/s00213-018-4860-5
+   550→   550→25. Green L, Myerson J. A discounting framework for choice with delayed and probabilistic
+   551→   551→rewards. Psychol Bull. 2004;130(5):769.
+   552→   552→15
+   553→   553→
+   554→   554→26. Levy I, Snell J, Nelson AJ, Rustichini A, Glimcher PW. Neural Representation of Subjective
+   555→   555→Value Under Risk and Ambiguity. J Neurophysiol. 2010 Feb;103(2):1036–47.
+   556→   556→doi:10.1152/jn.00853.2009
+   557→   557→27. Lee BO. Development of Korean version of alcohol use disorders identification test
+   558→   558→(AUDIT-K): Its reliability and validity. J Korean Acad Addict Psychiatry. 2000;4:83.
+   559→   559→28. Beck AT, Epstein N, Brown G, Steer RA. An inventory for measuring clinical anxiety:
+   560→   560→psychometric properties. J Consult Clin Psychol. 1988;56(6):893.
+   561→   561→29. Beck AT, Steer RA, Brown G. Manual for the Beck Depression Inventory–II [Internet]. San
+   562→   562→Antonio, TX: Psychological Corporation; 1996 [cited 2026 Mar 27]. Available from:
+   563→   563→https://psycnet.apa.org/doiLanding?doi=10.1037/t00742%E2%80%90000
+   564→   564→30. Patton JH, Stanford MS, Barratt ES. Factor structure of the barratt impulsiveness scale. J
+   565→   565→Clin Psychol. 1995 Nov;51(6):768–74. doi:10.1002/1097-4679(199511)51:6<768::AID-
+   566→   566→JCLP2270510607>3.0.CO;2-1
+   567→   567→31. Rahimi-Eichi H, Coombs 3rd G, Onnela JP, Baker JT, Buckner RL. Measures of Behavior
+   568→   568→and Life Dynamics from Commonly Available GPS Data (DPLocate): Algorithm
+   569→   569→Development and Validation. medRxiv. 2022;2022–07.
+   570→   570→32. Webb CA, Ren B, Rahimi-Eichi H, Gillis BW, Chung Y, Baker JT. Personalized prediction
+   571→   571→of negative affect in individuals with serious mental illness followed using long-term
+   572→   572→multimodal mobile phenotyping. Transl Psychiatry. 2025;15(1):174.
+   573→   573→33. Yang J, Pitt MA, Ahn WY, Myung JI. ADOpy: a python package for adaptive design
+   574→   574→optimization. Behav Res Methods. 2021 Apr;53(2):874–97. doi:10.3758/s13428-020-01386-
+   575→   575→4
+   576→   576→34. Mazur JE. An Adjusting Procedure for Studying Delayed Reinforcement. In: The Effect of
+   577→   577→Delay and of Intervening Events on Reinforcement Value. Psychology Press; 1987.
+   578→   578→35. Curran PJ, Bauer DJ. The Disaggregation of Within-Person and Between-Person Effects in
+   579→   579→Longitudinal Models of Change. Annu Rev Psychol. 2011 Jan 10;62(1):583–619.
+   580→   580→doi:10.1146/annurev.psych.093008.100356
+   581→   581→36. Hoffman L, Stawski RS. Persons as Contexts: Evaluating Between-Person and Within-
+   582→   582→Person Effects in Longitudinal Analysis. Res Hum Dev. 2009 Jun 5;6(2–3):97–120.
+   583→   583→doi:10.1080/15427600902911189
+   584→   584→37. Bates D, Mächler M, Bolker B, Walker S. Fitting linear mixed-effects models using lme4. J
+   585→   585→Stat Softw. 2015;67:1–48.
+   586→   586→38. Nakagawa S, Schielzeth H. A general and simple method for obtaining R2 from generalized
+   587→   587→linear mixed‐effects models. O’Hara RB, editor. Methods Ecol Evol. 2013 Feb;4(2):133–42.
+   588→   588→doi:10.1111/j.2041-210x.2012.00261.x
+   589→   589→16
+   590→   590→
+   591→   591→39. Gowin J, Sloan ME, Swan JE, Momenan R, Ramchandani VA. The relationship between
+   592→   592→delay discounting and alcohol dependence in individuals with and without comorbid
+   593→   593→psychopathology. Psychopharmacology (Berl). 2019 Feb;236(2):775–85.
+   594→   594→doi:10.1007/s00213-018-5113-3
+   595→   595→40. Dora J, Piccirillo M, Foster KT, Arbeau K, Armeli S, Auriacombe M, et al. The daily
+   596→   596→association between affect and alcohol use: A meta-analysis of individual participant data.
+   597→   597→Psychol Bull. 2023;149(1–2):1.
+   598→   598→41. Freisthler B, Lipperman-Kreda S, Bersamin M, Gruenewald PJ. Tracking the when, where,
+   599→   599→and with whom of alcohol use: Integrating ecological momentary assessment and geospatial
+   600→   600→data to examine risk for alcohol-related problems. Alcohol Res Curr Rev. 2014;36(1):29.
+   601→   601→42. Nahum-Shani I, Murphy SA. Just-in-Time Adaptive Interventions: Where Are We Now and
+   602→   602→What Is Next? Annu Rev Psychol. 2026 Jan 20;77(1):679–703. doi:10.1146/annurev-psych-
+   603→   603→121024-044244
+   604→   604→17
+   605→   605→
+   606→   606→TABLE
+   607→   607→Table 1. Demographic and clinical characteristics of participants (N = 143)
+   608→   608→Variable Mean ± SD or n (%)
+   609→   609→Age (years) 33.35 ± 8.44
+   610→   610→Education (years) 15.23 ± 2.81
+   611→   611→Gender (Male/Female) 62 (43.4%) / 81 (56.6%)
+   612→   612→Marital Status (Unmarried) 108 (75.5%)
+   613→   613→AUDIT-K 20.20 ± 6.48
+   614→   614→BAI 15.36 ± 15.59
+   615→   615→BDI 26.90 ± 17.98
+   616→   616→BIS-11-R 64.55 ± 10.26
+   617→   617→Note. Values are presented as mean ± SD for continuous variables and n (%) for categorical
+   618→   618→variables. Gender values are presented as male/female. Marital status indicates the number and
+   619→   619→percentage of unmarried participants. AUDIT-K = Korean version of the Alcohol Use Disorders
+   620→   620→Identification Test; BAI = Beck Anxiety Inventory; BDI = Beck Depression Inventory; BIS-11-
+   621→   621→R = Barratt Impulsiveness Scale-11-Revised.
+   622→   622→18
+   623→   623→
+   624→   624→FIGURES
+   625→   625→Figure 1. Overview of the study design and analytic framework. Over the 28-day study period,
+   626→   626→multimodal data were collected from computational parameters, daily app-based self-reports, and
+   627→   627→passive smartphone-derived measures. These features were decomposed into within- and
+   628→   628→between-person components and included in a generalized linear mixed-effects model to predict
+   629→   629→same-day nighttime drinking.
+   630→   630→19
+   631→   631→
+   632→   632→Figure 2. Mobile app interface and decision-making tasks. (A) Exemplar screens from the daily
+   633→   633→self-report module. (B) Delay discounting task. Participants chose between two reward options,
+   634→   634→one offering a larger, later (LL) reward and the other offering a smaller, sooner (SS) reward.
+   635→   635→Dashed boxes indicate the task features treated as design variables and adaptively optimized by
+   636→   636→adaptive design optimization (ADO) on each trial (e.g., receipt delay and reward amount). (C)
+   637→   637→Choice under risk and ambiguity task. Participants chose between options under either risk or
+   638→   638→ambiguity. In ambiguity trials, part of the probability information was occluded by a gray box,
+   639→   639→such that the exact winning probability was not fully known. Red and blue areas indicated the
+   640→   640→probabilities of winning and losing, respectively; the winning reward was shown above the box,
+   641→   641→and the losing outcome (fixed at 0) was shown below the blue area. Dashed boxes indicate the
+   642→   642→task features treated as design variables and adaptively optimized by ADO on each trial (e.g.,
+   643→   643→winning probability, reward amounts, and ambiguity level).
+   644→   644→20
+   645→   645→
+   646→   646→Figure 3. Standardized within-person and between-person coefficient estimates from the final
+   647→   647→integrated model predicting same-day nighttime drinking (N = 143). Points represent coefficient
+   648→   648→estimates, and error bars indicate 95% confidence intervals.
+   649→   649→Figure 4. (A) Predicted probability of same-day nighttime drinking as a function of within-
+   650→   650→person deviations in log(k), estimated from a separate single-predictor generalized linear mixed-
+   651→   651→effects model including within-person log(k) deviation and a subject-level random intercept. (B)
+   652→   652→Daily fluctuations in the delay discounting parameter log(k) across 28 days for one exemplar
+   653→   653→participant. Each point indicates the log(k) value estimated for that day, with red dots denoting
+   654→   654→days on which nighttime alcohol consumption was reported. The dashed blue line represents the
+   655→   655→participant’s mean log(k) across the study period. This panel provides a representative example
+   656→   656→of day-to-day variability in log(k) and its temporal alignment with reported nighttime alcohol
+   657→   657→use.
+   658→   658→21
+   659→   659→
+   660→   660→AUTHOR CONTRIBUTIONS
+   661→   661→Hyeonmin Lee: Data curation; Formal analysis; Investigation; Methodology; Visualization;
+   662→   662→Writing – original draft; Writing – review & editing.
+   663→   663→Manjae Kwon: Data curation; Formal analysis; Methodology; Investigation; Writing – original
+   664→   664→draft; Writing – review & editing.
+   665→   665→Jeung-Hyun Lee: Formal analysis; Methodology; Writing – review & editing.
+   666→   666→Mina Kwon: Investigation; Data curation.
+   667→   667→Suyeon Song: Investigation; Data curation.
+   668→   668→Deokjong Lee: Conceptualization; Methodology; Funding acquisition; Writing – review &
+   669→   669→editing.
+   670→   670→Jung-Seok Choi: Conceptualization; Methodology; Funding acquisition; Writing – review &
+   671→   671→editing.
+   672→   672→Young-Chul Jung: Conceptualization; Funding acquisition; Supervision; Writing – review &
+   673→   673→editing.
+   674→   674→Woo-Young Ahn: Conceptualization; Funding acquisition; Methodology; Supervision; Writing –
+   675→   675→review & editing.
+   676→   676→DECLARATION OF INTERESTS
+   677→   677→Funding sources:
+   678→   678→This study was supported by the Ministry of Health and Welfare, Republic of Korea (grant
+   679→   679→number: HI22C040400 to W.-Y.A. and Y.-C.J.), the National Research Foundation of Korea
+   680→   680→(NRF) (RS-2022-KH125035, RS-2025-00516410, RS-2024-00435727 to W.-Y.A.), the
+   681→   681→Artificial Intelligence Graduate School Program (Seoul National University) (Grant Number RS-
+   682→   682→2021-II211343), and BK21 FOUR Program (Grant No. 5199990314123) to W.-Y.A. The funders
+   683→   683→had no role in study design, data collection, analysis, interpretation, manuscript preparation, or
+   684→   684→the decision to submit the article for publication.
+   685→   685→Constraints on publishing:
+   686→   686→None.
+   687→   687→Competing interests: financial:
+   688→   688→None.
+   689→   689→Competing interests: non-financial:
+   690→   690→None.
+   691→   691→ACKNOWLEDGEMENTS
+   692→   692→The authors thank the participants who took part in this study.
+   693→   693→22

@@ -1,0 +1,740 @@
+     1→     1→(function() {
+     2→     2→  'use strict';
+     3→     3→
+     4→     4→  /* ===== CATEGORIES ===== */
+     5→     5→  var CATEGORIES = [
+     6→     6→    {id:'anxiety',         label:'Anxiety & OCD'},
+     7→     7→    {id:'couples',         label:'Couples Therapy & Sexology'},
+     8→     8→    {id:'neurodivergence', label:'Neurodivergence'},
+     9→     9→    {id:'mood',            label:'Mood Disorders'},
+    10→    10→    {id:'trauma',          label:'Trauma & Stressor-Related'},
+    11→    11→    {id:'personality',     label:'Personality Disorders'},
+    12→    12→    {id:'modalities',      label:'Therapeutic Modalities'},
+    13→    13→    {id:'psychopathology', label:'Psychopathology & Assessment'},
+    14→    14→    {id:'eating',          label:'Eating Disorders'},
+    15→    15→    {id:'somatic',         label:'Somatic & Functional'},
+    16→    16→    {id:'suicidality',     label:'Suicidality & Self-Harm'},
+    17→    17→    {id:'psychosis',       label:'Psychosis & Schizophrenia'},
+    18→    18→    {id:'addiction',       label:'Addiction & Substance Use'},
+    19→    19→    {id:'ocd',             label:'Obsessive-Compulsive'},
+    20→    20→    {id:'other',           label:'Other Clinical'}
+    21→    21→  ];
+    22→    22→  var catMap = {}, labelToId = {};
+    23→    23→  CATEGORIES.forEach(function(c) { catMap[c.id] = c.label; labelToId[c.label] = c.id; });
+    24→    24→
+    25→    25→  /* ===== STATE ===== */
+    26→    26→  var papers = [], filtered = [], shown = 0;
+    27→    27→  var activeCats = {};
+    28→    28→  CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
+    29→    29→  var searchQuery = '', sortMode = 'newest', categoryView = false;
+    30→    30→  var PAGE_SIZE = 25;
+    31→    31→  var ticking = false;
+    32→    32→  var activeQuickNavCategory = '';
+    33→    33→
+    34→    34→  /* ===== LOCAL STORAGE HELPERS ===== */
+    35→    35→  function loadJSON(key, fallback) {
+    36→    36→    try { var v = JSON.parse(localStorage.getItem(key)); return v && typeof v === 'object' ? v : fallback; } catch(e) { return fallback; }
+    37→    37→  }
+    38→    38→  function saveJSON(key, val) {
+    39→    39→    try { localStorage.setItem(key, JSON.stringify(val)); } catch(e) {}
+    40→    40→  }
+    41→    41→
+    42→    42→  /* ===== READ / STAR STATE ===== */
+    43→    43→  var readPapers = loadJSON('psyarxiv-read', {});
+    44→    44→  var starPapers = loadJSON('psyarxiv-star', {});
+    45→    45→
+    46→    46→  function getReadIcon(isReadState) {
+    47→    47→    if (isReadState) {
+    48→    48→      return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12c2.2-3.3 5.4-5 9-5s6.8 1.7 9 5c-2.2 3.3-5.4 5-9 5s-6.8-1.7-9-5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 12c1.2-1.7 2.8-2.5 4.5-2.5s3.3.8 4.5 2.5c-1.2 1.7-2.8 2.5-4.5 2.5s-3.3-.8-4.5-2.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    49→    49→    }
+    50→    50→    return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12s3.8-6 9-6 9 6 9 6-3.8 6-9 6-9-6-9-6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>';
+    51→    51→  }
+    52→    52→
+    53→    53→  function isRead(num) { return !!readPapers[num]; }
+    54→    54→  function isStar(num) { return !!starPapers[num]; }
+    55→    55→
+    56→    56→  function toggleRead(num) {
+    57→    57→    if (readPapers[num]) { delete readPapers[num]; } else { readPapers[num] = true; }
+    58→    58→    saveJSON('psyarxiv-read', readPapers);
+    59→    59→    updateCardState(num);
+    60→    60→  }
+    61→    61→
+    62→    62→  function toggleStar(num) {
+    63→    63→    if (starPapers[num]) { delete starPapers[num]; } else { starPapers[num] = true; }
+    64→    64→    saveJSON('psyarxiv-star', starPapers);
+    65→    65→    updateCardState(num);
+    66→    66→  }
+    67→    67→
+    68→    68→  function updateCardState(num) {
+    69→    69→    var card = document.querySelector('[data-num="' + num + '"]');
+    70→    70→    if (!card) return;
+    71→    71→    var r = isRead(num), s = isStar(num);
+    72→    72→    card.classList.toggle('read-dimmed', r);
+    73→    73→    var readBtn = card.querySelector('.btn-read');
+    74→    74→    var starBtn = card.querySelector('.btn-star');
+    75→    75→    if (readBtn) {
+    76→    76→      readBtn.classList.toggle('active-read', r);
+    77→    77→      readBtn.innerHTML = getReadIcon(r);
+    78→    78→      readBtn.setAttribute('aria-label', r ? 'Mark as unread' : 'Mark as read');
+    79→    79→      readBtn.setAttribute('title', r ? 'Mark as unread' : 'Mark as read');
+    80→    80→    }
+    81→    81→    if (starBtn) {
+    82→    82→      starBtn.classList.toggle('active-star', s);
+    83→    83→      starBtn.textContent = s ? '\u2605' : '\u2606';
+    84→    84→      starBtn.setAttribute('aria-label', s ? 'Remove from favorites' : 'Add to favorites');
+    85→    85→    }
+    86→    86→  }
+    87→    87→
+    88→    88→  /* ===== SETTINGS ===== */
+    89→    89→  var settings = loadSettings();
+    90→    90→  applySettings(settings);
+    91→    91→
+    92→    92→  function loadSettings() {
+    93→    93→    try {
+    94→    94→      var s = JSON.parse(localStorage.getItem('psyarxiv-settings'));
+    95→    95→      if (s) return s;
+    96→    96→    } catch(e) {}
+    97→    97→    return { theme: 'light', fontSize: 'medium', dyslexic: 'off', pageSize: '25' };
+    98→    98→  }
+    99→    99→  function saveSettings() {
+   100→   100→    try { localStorage.setItem('psyarxiv-settings', JSON.stringify(settings)); } catch(e) {}
+   101→   101→  }
+   102→   102→  function applySettings(s) {
+   103→   103→    document.documentElement.setAttribute('data-theme', s.theme);
+   104→   104→    document.documentElement.setAttribute('data-fontsize', s.fontSize);
+   105→   105→    document.documentElement.setAttribute('data-dyslexic', s.dyslexic);
+   106→   106→    PAGE_SIZE = parseInt(s.pageSize, 10) || 25;
+   107→   107→    document.querySelectorAll('.setting-options').forEach(function(group) {
+   108→   108→      var key = group.dataset.setting;
+   109→   109→      group.querySelectorAll('.opt-btn').forEach(function(btn) {
+   110→   110→        btn.classList.toggle('active', btn.dataset.value === s[key]);
+   111→   111→      });
+   112→   112→    });
+   113→   113→  }
+   114→   114→
+   115→   115→  document.querySelectorAll('.setting-options').forEach(function(group) {
+   116→   116→    var key = group.dataset.setting;
+   117→   117→    group.querySelectorAll('.opt-btn').forEach(function(btn) {
+   118→   118→      btn.addEventListener('click', function() {
+   119→   119→        settings[key] = this.dataset.value;
+   120→   120→        applySettings(settings);
+   121→   121→        saveSettings();
+   122→   122→        if (key === 'pageSize') { shown = 0; document.getElementById('papers-list').innerHTML = ''; showMore(); }
+   123→   123→      });
+   124→   124→    });
+   125→   125→  });
+   126→   126→
+   127→   127→  /* ===== SETTINGS DRAWER ===== */
+   128→   128→  var settingsDrawer = document.getElementById('settings-drawer');
+   129→   129→  var settingsOverlay = document.getElementById('settings-overlay');
+   130→   130→
+   131→   131→  function positionSettingsDrawer() {
+   132→   132→    var headerBottom = document.getElementById('site-header').getBoundingClientRect().bottom;
+   133→   133→    document.documentElement.style.setProperty('--settings-top', Math.max(headerBottom, 0) + 'px');
+   134→   134→  }
+   135→   135→
+   136→   136→  function openSettings() {
+   137→   137→    document.getElementById('site-header').classList.remove('hidden');
+   138→   138→    positionSettingsDrawer();
+   139→   139→    settingsDrawer.classList.add('open');
+   140→   140→    settingsOverlay.classList.add('open');
+   141→   141→    document.getElementById('settings-toggle').setAttribute('aria-expanded', 'true');
+   142→   142→    document.body.style.overflow = 'hidden';
+   143→   143→  }
+   144→   144→  function closeSettings() {
+   145→   145→    settingsDrawer.classList.remove('open');
+   146→   146→    settingsOverlay.classList.remove('open');
+   147→   147→    document.getElementById('settings-toggle').setAttribute('aria-expanded', 'false');
+   148→   148→    if (!sidebar.classList.contains('open')) document.body.style.overflow = '';
+   149→   149→  }
+   150→   150→  document.getElementById('settings-toggle').addEventListener('click', function(e) {
+   151→   151→    e.stopPropagation();
+   152→   152→    if (settingsDrawer.classList.contains('open')) closeSettings(); else openSettings();
+   153→   153→  });
+   154→   154→  document.getElementById('settings-close').addEventListener('click', closeSettings);
+   155→   155→  settingsOverlay.addEventListener('click', closeSettings);
+   156→   156→
+   157→   157→  /* ===== MOBILE SIDEBAR ===== */
+   158→   158→  var sidebar = document.getElementById('sidebar');
+   159→   159→  var sidebarOverlay = document.getElementById('sidebar-overlay');
+   160→   160→  var sidebarToggle = document.getElementById('sidebar-toggle');
+   161→   161→
+   162→   162→  function openSidebar() {
+   163→   163→    sidebar.classList.add('open');
+   164→   164→    sidebarOverlay.classList.add('open');
+   165→   165→    document.body.style.overflow = 'hidden';
+   166→   166→  }
+   167→   167→  function closeSidebar() {
+   168→   168→    sidebar.classList.remove('open');
+   169→   169→    sidebarOverlay.classList.remove('open');
+   170→   170→    if (!settingsDrawer.classList.contains('open')) document.body.style.overflow = '';
+   171→   171→  }
+   172→   172→
+   173→   173→  sidebarToggle.addEventListener('click', function(e) {
+   174→   174→    e.stopPropagation();
+   175→   175→    if (sidebar.classList.contains('open')) closeSidebar(); else openSidebar();
+   176→   176→  });
+   177→   177→  sidebarOverlay.addEventListener('click', closeSidebar);
+   178→   178→
+   179→   179→  window.addEventListener('scroll', function() {
+   180→   180→    if (!ticking) {
+   181→   181→      requestAnimationFrame(function() {
+   182→   182→        updateQuickNav();
+   183→   183→        ticking = false;
+   184→   184→      });
+   185→   185→      ticking = true;
+   186→   186→    }
+   187→   187→  }, { passive: true });
+   188→   188→
+   189→   189→  /* ===== INIT ===== */
+   190→   190→  fetch('data/papers.json')
+   191→   191→    .then(function(r) { return r.json(); })
+   192→   192→    .then(function(data) {
+   193→   193→      papers = data;
+   194→   194→      buildCategoryFilters();
+   195→   195→      applyStateFromHash();
+   196→   196→      applyFilters();
+   197→   197→    })
+   198→   198→    .catch(function() {
+   199→   199→      document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">Failed to load paper data.</p>';
+   200→   200→    });
+   201→   201→
+   202→   202→  /* ===== CATEGORY FILTERS ===== */
+   203→   203→  function buildCategoryFilters() {
+   204→   204→    var counts = {};
+   205→   205→    CATEGORIES.forEach(function(c) { counts[c.id] = 0; });
+   206→   206→    papers.forEach(function(p) {
+   207→   207→      (p.categories || []).forEach(function(c) {
+   208→   208→        var id = labelToId[c];
+   209→   209→        if (id && counts[id] !== undefined) counts[id]++;
+   210→   210→      });
+   211→   211→    });
+   212→   212→    var container = document.getElementById('category-filters');
+   213→   213→    container.innerHTML = '';
+   214→   214→    CATEGORIES.forEach(function(c) {
+   215→   215→      var lbl = document.createElement('label');
+   216→   216→      var cb = document.createElement('input');
+   217→   217→      cb.type = 'checkbox';
+   218→   218→      cb.checked = activeCats[c.id];
+   219→   219→      cb.dataset.cat = c.id;
+   220→   220→      cb.addEventListener('change', function() {
+   221→   221→        activeCats[c.id] = this.checked;
+   222→   222→        applyFilters();
+   223→   223→        saveHash();
+   224→   224→      });
+   225→   225→      var span = document.createElement('span');
+   226→   226→      span.textContent = c.label;
+   227→   227→      var cnt = document.createElement('span');
+   228→   228→      cnt.className = 'cat-count';
+   229→   229→      cnt.textContent = counts[c.id];
+   230→   230→      lbl.appendChild(cb);
+   231→   231→      lbl.appendChild(span);
+   232→   232→      lbl.appendChild(cnt);
+   233→   233→      container.appendChild(lbl);
+   234→   234→    });
+   235→   235→  }
+   236→   236→
+   237→   237→  /* ===== FILTERING ===== */
+   238→   238→  function applyFilters() {
+   239→   239→    var q = searchQuery.toLowerCase().trim();
+   240→   240→    filtered = papers.filter(function(p) {
+   241→   241→      var catIds = (p.categories || []).map(function(c) { return labelToId[c] || 'other'; });
+   242→   242→      if (!catIds.some(function(id) { return activeCats[id]; })) return false;
+   243→   243→      if (q) {
+   244→   244→        var haystack = [p.title, p.authors, p.summary, p.clinical_insight, p.relevant_for].join(' ').toLowerCase();
+   245→   245→        if (haystack.indexOf(q) === -1) return false;
+   246→   246→      }
+   247→   247→      return true;
+   248→   248→    });
+   249→   249→    sortPapers();
+   250→   250→    shown = 0;
+   251→   251→    document.getElementById('papers-list').innerHTML = '';
+   252→   252→    lastRenderedCat = '';
+   253→   253→    buildQuickNav();
+   254→   254→    showMore();
+   255→   255→  }
+   256→   256→
+   257→   257→  /* ===== DATE PARSING (dd.mm.yyyy -> sortable number) ===== */
+   258→   258→  function parseDateNum(d) {
+   259→   259→    if (!d) return 0;
+   260→   260→    var p = d.split('.');
+   261→   261→    if (p.length !== 3) return 0;
+   262→   262→    return (parseInt(p[2], 10) || 0) * 10000 + (parseInt(p[1], 10) || 0) * 100 + (parseInt(p[0], 10) || 0);
+   263→   263→  }
+   264→   264→
+   265→   265→  function sortPapers() {
+   266→   266→    filtered.sort(function(a, b) {
+   267→   267→      if (categoryView) {
+   268→   268→        return getCatSort(a) - getCatSort(b) || compareBySortMode(a, b, sortMode);
+   269→   269→      }
+   270→   270→      return compareBySortMode(a, b, sortMode);
+   271→   271→    });
+   272→   272→  }
+   273→   273→
+   274→   274→  function compareBySortMode(a, b, mode) {
+   275→   275→    switch (mode) {
+   276→   276→      case 'oldest':    return a.number - b.number;
+   277→   277→      case 'newest':    return b.number - a.number;
+   278→   278→      case 'favorites':
+   279→   279→        var aS = isStar(a.number) ? 1 : 0, bS = isStar(b.number) ? 1 : 0;
+   280→   280→        if (aS !== bS) return bS - aS;
+   281→   281→        return b.number - a.number;
+   282→   282→      case 'unread':
+   283→   283→        var aR = isRead(a.number) ? 1 : 0, bR = isRead(b.number) ? 1 : 0;
+   284→   284→        if (aR !== bR) return aR - bR;
+   285→   285→        return b.number - a.number;
+   286→   286→      case 'date-desc': return parseDateNum(b.source_date) - parseDateNum(a.source_date);
+   287→   287→      case 'date-asc':  return parseDateNum(a.source_date) - parseDateNum(b.source_date);
+   288→   288→      default:          return b.number - a.number;
+   289→   289→    }
+   290→   290→  }
+   291→   291→
+   292→   292→  function getCatSort(p) {
+   293→   293→    var c = (p.categories || [])[0] || '';
+   294→   294→    var id = labelToId[c] || 'other';
+   295→   295→    return CATEGORIES.findIndex(function(cat) { return cat.id === id; });
+   296→   296→  }
+   297→   297→
+   298→   298→  function getDirectPsyArxivUrl(p) {
+   299→   299→    var explicitId = p && p.osf_id ? String(p.osf_id).trim() : '';
+   300→   300→    var linkValue = p && p.link ? String(p.link).trim() : '';
+   301→   301→    var extractedId = '';
+   302→   302→
+   303→   303→    if (!explicitId && linkValue) {
+   304→   304→      var match = linkValue.match(/osf\.io\/(?:preprints\/psyarxiv\/)?([a-z0-9]{5}(?:_v\d+)*)/i);
+   305→   305→      if (match) extractedId = match[1];
+   306→   306→    }
+   307→   307→
+   308→   308→    var finalId = explicitId || extractedId;
+   309→   309→    if (!finalId) return '';
+   310→   310→    return 'https://osf.io/preprints/psyarxiv/' + finalId;
+   311→   311→  }
+   312→   312→
+   313→   313→  function getPsyArxivLinkInfo(p) {
+   314→   314→    var directUrl = getDirectPsyArxivUrl(p);
+   315→   315→    if (directUrl) {
+   316→   316→      return {
+   317→   317→        href: directUrl,
+   318→   318→        label: 'View on PsyArXiv',
+   319→   319→        modalLabel: 'View on PsyArXiv &rarr;',
+   320→   320→        title: 'Open this paper on PsyArXiv'
+   321→   321→      };
+   322→   322→    }
+   323→   323→    // Fallback: use link field if it's a valid URL
+   324→   324→    var linkValue = p && p.link ? String(p.link).trim() : '';
+   325→   325→    if (linkValue && /^https?:\/\//i.test(linkValue)) {
+   326→   326→      return {
+   327→   327→        href: linkValue,
+   328→   328→        label: 'View paper',
+   329→   329→        modalLabel: 'View paper &rarr;',
+   330→   330→        title: 'Open this paper'
+   331→   331→      };
+   332→   332→    }
+   333→   333→    return null;
+   334→   334→  }
+   335→   335→
+   336→   336→  function linkifyText(value) {
+   337→   337→    var text = String(value || '');
+   338→   338→    var urlPattern = /https?:\/\/[^\s]+/g;
+   339→   339→    var result = '';
+   340→   340→    var lastIndex = 0;
+   341→   341→    var match;
+   342→   342→
+   343→   343→    while ((match = urlPattern.exec(text)) !== null) {
+   344→   344→      var url = match[0];
+   345→   345→      var trailing = '';
+   346→   346→      while (/[.,;:!?)]$/.test(url)) {
+   347→   347→        trailing = url.slice(-1) + trailing;
+   348→   348→        url = url.slice(0, -1);
+   349→   349→      }
+   350→   350→      result += esc(text.slice(lastIndex, match.index));
+   351→   351→      result += '<a class="text-link" href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(url) + '</a>';
+   352→   352→      result += esc(trailing);
+   353→   353→      lastIndex = match.index + match[0].length;
+   354→   354→    }
+   355→   355→
+   356→   356→    return result + esc(text.slice(lastIndex));
+   357→   357→  }
+   358→   358→
+   359→   359→  function getAuthorDisplayValue(value) {
+   360→   360→    if (!value || value === 'Unknown') {
+   361→   361→      return 'Author metadata unavailable';
+   362→   362→    }
+   363→   363→    return value;
+   364→   364→  }
+   365→   365→
+   366→   366→  /* ===== QUICK NAV (category view only) ===== */
+   367→   367→  function buildQuickNav() {
+   368→   368→    var qn = document.getElementById('quick-nav');
+   369→   369→    qn.innerHTML = '';
+   370→   370→    activeQuickNavCategory = '';
+   371→   371→    if (!categoryView) { qn.classList.remove('visible'); return; }
+   372→   372→    var seen = [];
+   373→   373→    filtered.forEach(function(p) {
+   374→   374→      var c = (p.categories || [])[0] || 'Other Clinical';
+   375→   375→      if (seen.indexOf(c) === -1) seen.push(c);
+   376→   376→    });
+   377→   377→    if (seen.length < 3) { qn.classList.remove('visible'); return; }
+   378→   378→    var pills = document.createElement('div');
+   379→   379→    pills.className = 'qn-pills';
+   380→   380→    attachQuickNavScroller(pills);
+   381→   381→    seen.forEach(function(cat) {
+   382→   382→      var btn = document.createElement('button');
+   383→   383→      btn.className = 'qn-btn';
+   384→   384→      btn.type = 'button';
+   385→   385→      btn.setAttribute('aria-label', 'Jump to ' + cat);
+   386→   386→      btn.dataset.cat = cat;
+   387→   387→      btn.innerHTML = '<span class="qn-label">' + esc(cat) + '</span>';
+   388→   388→      btn.addEventListener('click', function() {
+   389→   389→        jumpToCategory(cat);
+   390→   390→      });
+   391→   391→      pills.appendChild(btn);
+   392→   392→    });
+   393→   393→    qn.appendChild(pills);
+   394→   394→    qn.classList.add('visible');
+   395→   395→  }
+   396→   396→
+   397→   397→  function attachQuickNavScroller(element) {
+   398→   398→    if (!element || element.dataset.bound === 'true') return;
+   399→   399→    element.dataset.bound = 'true';
+   400→   400→
+   401→   401→    element.addEventListener('wheel', function(e) {
+   402→   402→      if (element.scrollWidth <= element.clientWidth) return;
+   403→   403→      var delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+   404→   404→      if (!delta) return;
+   405→   405→      e.preventDefault();
+   406→   406→      element.scrollLeft += delta;
+   407→   407→    }, { passive: false });
+   408→   408→  }
+   409→   409→
+   410→   410→  function keepQuickNavButtonVisible(button) {
+   411→   411→    if (!button || typeof button.scrollIntoView !== 'function') return;
+   412→   412→    button.scrollIntoView({
+   413→   413→      behavior: 'smooth',
+   414→   414→      block: 'nearest',
+   415→   415→      inline: 'center'
+   416→   416→    });
+   417→   417→  }
+   418→   418→
+   419→   419→  function updateQuickNav() {
+   420→   420→    if (!categoryView) return;
+   421→   421→    var dividers = document.querySelectorAll('.cat-divider');
+   422→   422→    var qnBtns = document.querySelectorAll('.qn-btn');
+   423→   423→    if (!dividers.length || !qnBtns.length) return;
+   424→   424→    var mid = window.innerHeight / 2;
+   425→   425→    var activeCat = '';
+   426→   426→    dividers.forEach(function(d) { if (d.getBoundingClientRect().top < mid + 40) activeCat = d.id; });
+   427→   427→    qnBtns.forEach(function(b) {
+   428→   428→      var isActive = b.dataset.cat && document.getElementById('cat-' + catToAnchor(b.dataset.cat)) === document.getElementById(activeCat);
+   429→   429→      b.classList.toggle('active', isActive);
+   430→   430→      if (isActive && activeQuickNavCategory !== b.dataset.cat) {
+   431→   431→        activeQuickNavCategory = b.dataset.cat;
+   432→   432→        keepQuickNavButtonVisible(b);
+   433→   433→      }
+   434→   434→    });
+   435→   435→  }
+   436→   436→
+   437→   437→  function catToAnchor(cat) {
+   438→   438→    return cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+   439→   439→  }
+   440→   440→
+   441→   441→  function scrollCategoryIntoView(element) {
+   442→   442→    if (!element) return;
+   443→   443→    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+   444→   444→  }
+   445→   445→
+   446→   446→  function ensureCategoryRendered(categoryName) {
+   447→   447→    var anchorId = 'cat-' + catToAnchor(categoryName);
+   448→   448→    var existing = document.getElementById(anchorId);
+   449→   449→    if (existing) return existing;
+   450→   450→
+   451→   451→    while (shown < filtered.length) {
+   452→   452→      var before = shown;
+   453→   453→      showMore();
+   454→   454→      existing = document.getElementById(anchorId);
+   455→   455→      if (existing || shown === before) break;
+   456→   456→    }
+   457→   457→
+   458→   458→    return existing;
+   459→   459→  }
+   460→   460→
+   461→   461→  function jumpToCategory(categoryName) {
+   462→   462→    var element = ensureCategoryRendered(categoryName);
+   463→   463→    if (element) scrollCategoryIntoView(element);
+   464→   464→  }
+   465→   465→
+   466→   466→  /* ===== RENDERING ===== */
+   467→   467→  var lastRenderedCat = '';
+   468→   468→
+   469→   469→  function showMore() {
+   470→   470→    var list = document.getElementById('papers-list');
+   471→   471→    var end = Math.min(shown + PAGE_SIZE, filtered.length);
+   472→   472→    for (var i = shown; i < end; i++) {
+   473→   473→      if (categoryView) {
+   474→   474→        var cat = (filtered[i].categories || [])[0] || 'Other Clinical';
+   475→   475→        if (cat !== lastRenderedCat) {
+   476→   476→          var div = document.createElement('div');
+   477→   477→          div.className = 'cat-divider';
+   478→   478→          div.id = 'cat-' + catToAnchor(cat);
+   479→   479→          div.textContent = cat;
+   480→   480→          list.appendChild(div);
+   481→   481→          lastRenderedCat = cat;
+   482→   482→        }
+   483→   483→      }
+   484→   484→      list.appendChild(createCard(filtered[i]));
+   485→   485→    }
+   486→   486→    shown = end;
+   487→   487→    document.getElementById('load-more').style.display = shown < filtered.length ? 'block' : 'none';
+   488→   488→    document.getElementById('no-results').style.display = filtered.length === 0 ? 'block' : 'none';
+   489→   489→    updateStats();
+   490→   490→  }
+   491→   491→
+   492→   492→  function createCard(p) {
+   493→   493→    var card = document.createElement('div');
+   494→   494→    card.className = 'paper-card';
+   495→   495→    card.dataset.num = p.number;
+   496→   496→
+   497→   497→    var r = isRead(p.number), s = isStar(p.number);
+   498→   498→    if (r) card.classList.add('read-dimmed');
+   499→   499→
+   500→   500→    var h = '<div class="paper-card-header">';
+   501→   501→    h += '<span class="paper-number">#' + p.number + '</span>';
+   502→   502→    h += '<div class="paper-title has-modal">' + esc(p.title) + '</div>';
+   503→   503→    if (p.published) {
+   504→   504→      h += '<span class="badge-published">PR</span>';
+   505→   505→    }
+   506→   506→    h += '<div class="paper-actions">';
+   507→   507→    h += '<button class="paper-action-btn btn-read' + (r ? ' active-read' : '') + '" data-action="read" aria-label="' + (r ? 'Mark as unread' : 'Mark as read') + '" title="' + (r ? 'Mark as unread' : 'Mark as read') + '">' + getReadIcon(r) + '</button>';
+   508→   508→    h += '<button class="paper-action-btn btn-star' + (s ? ' active-star' : '') + '" data-action="star" aria-label="' + (s ? 'Remove from favorites' : 'Add to favorites') + '" title="' + (s ? 'Remove from favorites' : 'Add to favorites') + '">' + (s ? '\u2605' : '\u2606') + '</button>';
+   509→   509→    h += '</div>';
+   510→   510→    h += '</div>';
+   511→   511→
+   512→   512→    h += '<div class="paper-meta">';
+   513→   513→    h += '<span class="author-name">' + esc(getAuthorDisplayValue(p.authors)) + '</span>';
+   514→   514→    if (p.source_date) h += '<span class="date-text">' + esc(p.source_date) + '</span>';
+   515→   515→    h += '</div>';
+   516→   516→
+   517→   517→    if (p.summary) {
+   518→   518→      h += '<div class="paper-summary">' + esc(truncate(p.summary, 220)) + '</div>';
+   519→   519→    }
+   520→   520→
+   521→   521→    if (p.categories && p.categories.length) {
+   522→   522→      h += '<div class="paper-badges">';
+   523→   523→      p.categories.forEach(function(c) {
+   524→   524→        var dataCat = labelToId[c] || 'other';
+   525→   525→        h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
+   526→   526→      });
+   527→   527→      h += '</div>';
+   528→   528→    }
+   529→   529→
+   530→   530→    var linkInfo = getPsyArxivLinkInfo(p);
+   531→   531→    if (linkInfo) {
+   532→   532→      h += '<div class="paper-link-wrap"><a href="' + esc(linkInfo.href) + '" target="_blank" rel="noopener" class="paper-osf-link" title="' + esc(linkInfo.title) + '">' + linkInfo.label + '</a></div>';
+   533→   533→    }
+   534→   534→
+   535→   535→    if (p.published) {
+   536→   536→      h += '<div class="paper-published-text">\u2714 Peer reviewed: ' + linkifyText(p.published) + '</div>';
+   537→   537→    }
+   538→   538→
+   539→   539→    card.innerHTML = h;
+   540→   540→
+   541→   541→    // Title click -> modal
+   542→   542→    card.querySelector('.paper-title').addEventListener('click', function() { openModal(p); });
+   543→   543→
+   544→   544→    // Read / Star toggle buttons
+   545→   545→    card.querySelector('.btn-read').addEventListener('click', function(e) {
+   546→   546→      e.stopPropagation();
+   547→   547→      toggleRead(p.number);
+   548→   548→    });
+   549→   549→    card.querySelector('.btn-star').addEventListener('click', function(e) {
+   550→   550→      e.stopPropagation();
+   551→   551→      toggleStar(p.number);
+   552→   552→    });
+   553→   553→
+   554→   554→    return card;
+   555→   555→  }
+   556→   556→
+   557→   557→  /* ===== MODAL ===== */
+   558→   558→  function openModal(p) {
+   559→   559→    var modal = document.getElementById('paper-modal');
+   560→   560→    var body = document.getElementById('modal-body');
+   561→   561→    var r = isRead(p.number), s = isStar(p.number);
+   562→   562→
+   563→   563→    var h = '<div class="modal-title">' + esc(p.title) + '</div>';
+   564→   564→    h += '<div class="modal-meta"><span class="author-name">' + esc(getAuthorDisplayValue(p.authors)) + '</span>';
+   565→   565→    if (p.source_date) h += ' &middot; ' + esc(p.source_date);
+   566→   566→    h += '</div>';
+   567→   567→
+   568→   568→    if (p.categories && p.categories.length) {
+   569→   569→      h += '<div class="paper-badges" style="margin-bottom:12px;">';
+   570→   570→      p.categories.forEach(function(c) {
+   571→   571→        var dataCat = labelToId[c] || 'other';
+   572→   572→        h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
+   573→   573→      });
+   574→   574→      if (p.published) h += '<span class="badge-published">PR</span>';
+   575→   575→      h += '</div>';
+   576→   576→    }
+   577→   577→
+   578→   578→    if (p.summary) {
+   579→   579→      h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text">' + esc(p.summary) + '</div></div>';
+   580→   580→    }
+   581→   581→    if (p.clinical_insight) {
+   582→   582→      h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text">' + esc(p.clinical_insight) + '</div></div>';
+   583→   583→    }
+   584→   584→    if (p.relevant_for) {
+   585→   585→      h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text">' + esc(p.relevant_for) + '</div></div>';
+   586→   586→    }
+   587→   587→    if (p.published) {
+   588→   588→      h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + linkifyText(p.published) + '</div></div>';
+   589→   589→    }
+   590→   590→
+   591→   591→    var modalLinkInfo = getPsyArxivLinkInfo(p);
+   592→   592→    if (modalLinkInfo) {
+   593→   593→      h += '<a class="modal-link" href="' + esc(modalLinkInfo.href) + '" target="_blank" rel="noopener" title="' + esc(modalLinkInfo.title) + '">' + modalLinkInfo.modalLabel + '</a>';
+   594→   594→    }
+   595→   595→
+   596→   596→    body.innerHTML = h;
+   597→   597→    modal.style.display = 'flex';
+   598→   598→    document.body.style.overflow = 'hidden';
+   599→   599→  }
+   600→   600→
+   601→   601→  document.getElementById('modal-close').addEventListener('click', closeModal);
+   602→   602→  document.getElementById('paper-modal').addEventListener('click', function(e) { if (e.target === this) closeModal(); });
+   603→   603→  document.addEventListener('keydown', function(e) {
+   604→   604→    if (e.key === 'Escape') { closeModal(); closeSidebar(); closeSettings(); }
+   605→   605→  });
+   606→   606→
+   607→   607→  function closeModal() {
+   608→   608→    document.getElementById('paper-modal').style.display = 'none';
+   609→   609→    if (!settingsDrawer.classList.contains('open') && !sidebar.classList.contains('open')) {
+   610→   610→      document.body.style.overflow = '';
+   611→   611→    }
+   612→   612→  }
+   613→   613→
+   614→   614→  /* ===== STATS ===== */
+   615→   615→  function updateStats() {
+   616→   616→    document.getElementById('stat-total').textContent = papers.length;
+   617→   617→    document.getElementById('stat-shown').textContent = filtered.length;
+   618→   618→  }
+   619→   619→
+   620→   620→  /* ===== SEARCH ===== */
+   621→   621→  var searchTimer;
+   622→   622→  var searchInput = document.getElementById('search-input');
+   623→   623→  var searchClear = document.getElementById('search-clear');
+   624→   624→
+   625→   625→  function syncSearchClearButton() {
+   626→   626→    searchClear.classList.toggle('visible', !!searchInput.value);
+   627→   627→  }
+   628→   628→
+   629→   629→  searchInput.addEventListener('input', function() {
+   630→   630→    clearTimeout(searchTimer);
+   631→   631→    var val = this.value;
+   632→   632→    syncSearchClearButton();
+   633→   633→    searchTimer = setTimeout(function() {
+   634→   634→      searchQuery = val;
+   635→   635→      applyFilters();
+   636→   636→      saveHash();
+   637→   637→    }, 200);
+   638→   638→  });
+   639→   639→
+   640→   640→  searchClear.addEventListener('click', function() {
+   641→   641→    searchInput.value = '';
+   642→   642→    searchQuery = '';
+   643→   643→    syncSearchClearButton();
+   644→   644→    applyFilters();
+   645→   645→    saveHash();
+   646→   646→    searchInput.focus();
+   647→   647→  });
+   648→   648→
+   649→   649→  /* ===== SORT ===== */
+   650→   650→  document.getElementById('sort-select').addEventListener('change', function() {
+   651→   651→    sortMode = this.value;
+   652→   652→    lastRenderedCat = '';
+   653→   653→    applyFilters();
+   654→   654→    saveHash();
+   655→   655→  });
+   656→   656→
+   657→   657→  document.getElementById('category-view-toggle').addEventListener('click', function() {
+   658→   658→    categoryView = !categoryView;
+   659→   659→    this.classList.toggle('active', categoryView);
+   660→   660→    this.setAttribute('aria-pressed', categoryView ? 'true' : 'false');
+   661→   661→    lastRenderedCat = '';
+   662→   662→    applyFilters();
+   663→   663→    saveHash();
+   664→   664→  });
+   665→   665→
+   666→   666→  /* ===== SELECT ALL / NONE ===== */
+   667→   667→  document.getElementById('btn-select-all').addEventListener('click', function() {
+   668→   668→    CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
+   669→   669→    syncCheckboxes();
+   670→   670→    applyFilters();
+   671→   671→    saveHash();
+   672→   672→  });
+   673→   673→  document.getElementById('btn-clear-all').addEventListener('click', function() {
+   674→   674→    CATEGORIES.forEach(function(c) { activeCats[c.id] = false; });
+   675→   675→    syncCheckboxes();
+   676→   676→    applyFilters();
+   677→   677→    saveHash();
+   678→   678→  });
+   679→   679→
+   680→   680→  function syncCheckboxes() {
+   681→   681→    document.querySelectorAll('#category-filters input[type="checkbox"]').forEach(function(cb) {
+   682→   682→      cb.checked = activeCats[cb.dataset.cat];
+   683→   683→    });
+   684→   684→  }
+   685→   685→
+   686→   686→  /* ===== LOAD MORE ===== */
+   687→   687→  document.getElementById('load-more').addEventListener('click', showMore);
+   688→   688→
+   689→   689→  /* ===== HASH STATE ===== */
+   690→   690→  function saveHash() {
+   691→   691→    var state = {};
+   692→   692→    if (searchQuery) state.q = searchQuery;
+   693→   693→    var cats = CATEGORIES.filter(function(c) { return !activeCats[c.id]; }).map(function(c) { return c.id; });
+   694→   694→    if (cats.length) state.off = cats.join(',');
+   695→   695→    if (sortMode !== 'newest') state.sort = sortMode;
+   696→   696→    if (categoryView) state.view = 'category';
+   697→   697→    var hash = '#' + Object.keys(state).map(function(k) { return k + '=' + encodeURIComponent(state[k]); }).join('&');
+   698→   698→    history.replaceState(null, '', hash);
+   699→   699→  }
+   700→   700→
+   701→   701→  function applyStateFromHash() {
+   702→   702→    var hash = location.hash.slice(1);
+   703→   703→    if (!hash) return;
+   704→   704→    var params = {};
+   705→   705→    hash.split('&').forEach(function(pair) {
+   706→   706→      var parts = pair.split('=');
+   707→   707→      if (parts.length === 2) params[decodeURIComponent(parts[0])] = decodeURIComponent(parts[1]);
+   708→   708→    });
+   709→   709→    if (params.q) { searchQuery = params.q; document.getElementById('search-input').value = params.q; }
+   710→   710→    if (params.off) { params.off.split(',').forEach(function(c) { activeCats[c] = false; }); syncCheckboxes(); }
+   711→   711→    if (params.sort === 'category') {
+   712→   712→      categoryView = true;
+   713→   713→    } else if (params.sort) {
+   714→   714→      sortMode = params.sort;
+   715→   715→      document.getElementById('sort-select').value = sortMode;
+   716→   716→    }
+   717→   717→    if (params.view === 'category') {
+   718→   718→      categoryView = true;
+   719→   719→    }
+   720→   720→    if (categoryView) {
+   721→   721→      var toggle = document.getElementById('category-view-toggle');
+   722→   722→      toggle.classList.add('active');
+   723→   723→      toggle.setAttribute('aria-pressed', 'true');
+   724→   724→    }
+   725→   725→    syncSearchClearButton();
+   726→   726→  }
+   727→   727→
+   728→   728→  /* ===== UTILS ===== */
+   729→   729→  function esc(s) {
+   730→   730→    if (!s) return '';
+   731→   731→    var d = document.createElement('div');
+   732→   732→    d.textContent = s;
+   733→   733→    return d.innerHTML;
+   734→   734→  }
+   735→   735→  function truncate(s, n) {
+   736→   736→    if (s.length <= n) return s;
+   737→   737→    return s.substring(0, n).replace(/\s+\S*$/, '') + '...';
+   738→   738→  }
+   739→   739→})();
+   740→   740→

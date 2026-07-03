@@ -1,0 +1,708 @@
+     1→     1→Associations between social cognition measures and alcohol use
+     2→     2→across age and sex: a network approach
+     3→     3→Christophe Romein1*, Emese Kroon1, Karis Colyer-Patel1, René Freichel2, Helle Larsen3, Janna
+     4→     4→Cousijn1
+     5→     5→1 Neuroscience of Addiction (NofA) Lab, Center for Substance use and Addiction Research (CESAR), Department of
+     6→     6→Psychology, Education & Child Studies, Erasmus University Rotterdam, Rotterdam, The Netherlands
+     7→     7→2 Centre for Urban Mental Health, University of Amsterdam, Amsterdam, The Netherlands
+     8→     8→3 Department of Psychology, Addiction Development and Psychopathology Lab, University of Amsterdam, Amsterdam, The
+     9→     9→Netherlands
+    10→    10→*Correspondence: Christophe Romein, romeinchristophe@gmail.com, Burg. Oudlaan 50, Rotterdam, the
+    11→    11→Netherlands
+    12→    12→Declarations of interest: none
+    13→    13→Funding: This project has received funding from the European Research Council (ERC) under the European
+    14→    14→Union’s Horizon 2020 research and innovation programme (ERC-2020-STG 947761 awarded to Dr. Janna
+    15→    15→Cousijn).
+    16→    16→Author contributions: All authors reviewed and approved the final version of the manuscript. Conceptualization:
+    17→    17→CR, JC; Methodology: CR, EK, JC, RF, KCP; Formal Analysis: CR, RF; Data Curation: EK, KCP, JC, CR;
+    18→    18→Writing – Original draft: CR; Writing – Review & editing: CR, HL, EK, JC, KCP, RF; Visualization: CR;
+    19→    19→Supervision: JC, EK, HL; Funding acquisition: JC.
+    20→    20→Word count: 3947
+    21→    21→1
+    22→    22→
+    23→    23→Abstract
+    24→    24→Background
+    25→    25→Despite the importance of social factors in the initiation and escalation of alcohol use,
+    26→    26→social processes related to alcohol use severity are typically studied in isolation. Because real-
+    27→    27→world social processes occur concurrently and may interact with one another as well as with
+    28→    28→age and sex, a network approach may provide a more ecologically valid framework. Hence, we
+    29→    29→used a network approach to examine associations between different social cognition measures
+    30→    30→and alcohol use severity, while also assessing the roles of age and sex.
+    31→    31→Methods
+    32→    32→Alcohol users (N=936; 16-81yrs) completed the social and conformity subscales of the
+    33→    33→Drinking Motives Questionnaire Revised, the Social Reward Questionnaire, the Social
+    34→    34→Attunement Questionnaire, and measures of alcohol use severity. Using network analysis, we
+    35→    35→examined unique associations between social measures and alcohol use severity, the
+    36→    36→moderating role of age, and sex differences.
+    37→    37→Results
+    38→    38→Alcohol use severity was linked to social drinking motives and sociability (i.e., the
+    39→    39→tendency to participate in social gatherings). In the age-moderated network, associations were
+    40→    40→largely stable across age, except for the association between sociability and alcohol use
+    41→    41→severity, which was weaker in older participants. We found no sex differences in the pattern of
+    42→    42→associations.
+    43→    43→Discussion
+    44→    44→Alcohol use severity was primarily associated with general social engagement, while
+    45→    45→more specific social-cognitive measures were only indirectly related. Social drinking contexts
+    46→    46→may therefore be a key pathway to greater severity, especially in younger drinkers. Associations
+    47→    47→did not differ by sex, suggesting previously reported sex differences may reflect differences in
+    48→    48→prevalence, rather than sex moderating social factors.
+    49→    49→Keywords: Alcohol, alcohol use disorder, social cognition, age, sex
+    50→    50→2
+    51→    51→
+    52→    52→Introduction
+    53→    53→The most common context in which alcohol consumption takes place is social, for
+    54→    54→example, with friends or colleagues, especially when individuals are young [1,2]. Although the
+    55→    55→importance of social factors in relation to both initiation and escalation of alcohol use is well-
+    56→    56→recognized [3,4], they are often studied in isolation. Furthermore, despite our knowledge on
+    57→    57→age [5,6] and sex differences in social processing and alcohol use [7–9], these factors are often
+    58→    58→ignored. Network analysis may provide valuable insights by offering a birds-eye view of how
+    59→    59→different social measures may be associated, while modelling their unique associations after
+    60→    60→accounting for intercorrelations. Hence, this study used a network approach to examine the
+    61→    61→cross-sectional pattern of associations between key social predictors of alcohol use severity,
+    62→    62→while considering the roles of age and sex in these associations.
+    63→    63→Among the social factors commonly associated with alcohol use severity, social and
+    64→    64→conformity drinking motives such as drinking to enhance social interactions or to fit into a
+    65→    65→group are the most extensively studied [10]. While endorsement and strength of social motives
+    66→    66→are more commonly associated with binge drinking and frequency of use [11], conformity
+    67→    67→motives are more commonly associated with lower levels of use [10]. Social and conformity
+    68→    68→motives are associated with alcohol use severity during young adulthood (16-36yrs) and
+    69→    69→decline in both endorsement and predictive value later in life [12]. Historically, research has
+    70→    70→suggested that men are more inclined to drink for social and conformity reasons than women
+    71→    71→[13], however, recent research indicates that this gap might be narrowing [14].
+    72→    72→The higher endorsement of social and conformity motives during adolescence and young
+    73→    73→adulthood may reflect heightened social reward sensitivity, which has consistently been linked
+    74→    74→to alcohol use severity across an extensive body of literature [4,15–17]. Social reward can be
+    75→    75→defined as the reward value attributed to social situations, such as: 1) reflecting the value
+    76→    76→attributed to being liked by others (admiration); 2) the enjoyment of antisocial behavior
+    77→    77→3
+    78→    78→
+    79→    79→(negative social potency); 3) the preference for more passive social roles (passivity); 4) an
+    80→    80→overall desire for social interactions (sociability); 5) the enjoyment of reciprocal peer
+    81→    81→relationships (prosocial interactions); 6) the enjoyment of sexual experiences (sexual
+    82→    82→relationships) [18]. Altikulaç et al. showed age-related changes in social reward processing in
+    83→    83→each domain except for sociability and sexual relationships (which was omitted) [19].
+    84→    84→Admiration showed a quadratic effect peaking at approximately the age of 21, prosocial
+    85→    85→interactions showed a linear increase with age, and passivity showed a dip in the quadratic
+    86→    86→effect with a minimum observed at approximately the age of 15. Negative social potency
+    87→    87→decreased with age for women but remained stable for men, and women scored higher on
+    88→    88→prosocial interactions compared to men across all ages, further highlighting the moderating
+    89→    89→roles of age and sex.
+    90→    90→Social learning is thought to play an important role in shaping social drinking behaviours
+    91→    91→[20]. One approach to studying social influences on drinking behaviour is the relatively novel
+    92→    92→concept of social attunement: the tendency to align behavior with the social environment
+    93→    93→[21,22]. Social attunement has been associated with higher alcohol use in younger individuals
+    94→    94→(16-19yrs) with peers who engage in relatively heavy drinking [22]. Furthermore, Kuhns et al.
+    95→    95→showed that adolescents with higher neural responses to social alcohol cues compared to non-
+    96→    96→social alcohol cues, were also more inclined to harmonize their behavior with their social
+    97→    97→environment, while in adults, the opposite was the case [23]. Likewise, social attunement was
+    98→    98→associated with increased alcohol use over time in adolescents but decreased use in adults [23].
+    99→    99→Romein et al. found that associations between social attunement and alcohol use severity may
+   100→   100→vary across age and social settings: in social situations with soda, social attunement was
+   101→   101→positively associated with alcohol use in younger participants, whereas this association became
+   102→   102→negative in older participants [24]. Concurrently, in social settings without drinks, the opposite
+   103→   103→pattern was observed. When exploring the role of gender in relation to social attunement, it was
+   104→   104→4
+   105→   105→
+   106→   106→found that men scored higher on the behavioral subscale of the Social Attunement
+   107→   107→Questionnaire (SAQ; i.e., the degree to which individuals report adjusting their behavior to
+   108→   108→their social environment) compared to women [22], suggesting that men could be more inclined
+   109→   109→to adapt their behavior to their social environment compared to women.
+   110→   110→Overall, drinking motives, social reward, and social attunement, each represent a
+   111→   111→different element in the pathway connecting social processes to alcohol use. Social reward may
+   112→   112→capture the more immediate reinforcing value of drinking in a social context. Social motives
+   113→   113→capture broader social reasons for drinking and may therefore be closely associated with social
+   114→   114→reward. In contrast, conformity motives emphasize drinking to fit in socially, and may thus be
+   115→   115→more closely associated with social attunement, which captures sensitivity to and alignment
+   116→   116→with the social environment. Social processes need to be studied in combination rather than in
+   117→   117→isolation, along with age and sex, to better understand their connections with alcohol use
+   118→   118→severity. Hence, the aims of the present study were threefold and exploratory: 1) to assess how
+   119→   119→social attunement, social reward, and social drinking motives are associated with each other as
+   120→   120→well as alcohol use severity; 2) to assess whether age moderates these associations; 3) to
+   121→   121→examine whether these associations differ by sex.
+   122→   122→Methods
+   123→   123→Sample
+   124→   124→Data from two studies were merged for analysis, including a total of 1050 participants
+   125→   125→(16-81yrs). Study 1 was conducted between 2022 and 2025 and contained 811 participants
+   126→   126→[25]. Study 2 took place between 2023 and 2026 and included 239 participants. Participants for
+   127→   127→both studies were recruited through social media and in-person distribution of flyers, whereas
+   128→   128→for study 1 recruitment also took place via Prolific [26] and the Erasmus University Rotterdam
+   129→   129→participant pool.
+   130→   130→5
+   131→   131→
+   132→   132→For study 1, inclusion criteria were proficiency in either Dutch or English, and age over
+   133→   133→15. For study 2, data collection was part of an MRI-study with stricter inclusion criteria (Table
+   134→   134→S1) covering MRI-contraindications and alcohol and cannabis use criteria. Study 2 consisted
+   135→   135→of three groups containing: heavy alcohol users (n=80), heavy cannabis users (n=79), and
+   136→   136→controls (n=80) which were combined into a single sample. Individuals that did not use alcohol
+   137→   137→(n=140) were removed from the analyses, resulting in a final sample of n=936 participants.
+   138→   138→Informed consent was given prior to participation and full study protocols were approved by
+   139→   139→the Ethics Review Committees of Erasmus University Rotterdam (study 1; ETH2122-0311)
+   140→   140→and the University of Amsterdam (study 2: FMG-1073-2023).
+   141→   141→Procedure
+   142→   142→Study 1 took place online in English or Dutch, depending on preference of the participant.
+   143→   143→Two blocks of questionnaires were separated by a series of experimental tasks. The first block
+   144→   144→of questionnaires focused on demographics, whereas the second block contained
+   145→   145→questionnaires on substance use and mental health. Compensation was provided through a
+   146→   146→lottery where a gift card worth ten euros was provided to every one in five participants. A
+   147→   147→second lottery of four prepaid credit cards worth 50 euros each was raffled across all
+   148→   148→participants.
+   149→   149→Data for Study 2 was partly collected in-person onsite at the University of Amsterdam
+   150→   150→behavioral lab. In preparation for an MRI-session, participants completed a one-hour set of
+   151→   151→questionnaires online which was similar in structure to study 1. Following the MRI-scan,
+   152→   152→participants completed questionnaires focusing on substance use. Monetary compensation
+   153→   153→(€40) was provided after completion of the onsite session.
+   154→   154→6
+   155→   155→
+   156→   156→Questionnaires
+   157→   157→Demographics and substance use: single-item questions were used to assess age, sex
+   158→   158→assigned at birth, highest level of completed education, nationality, alcohol use age of onset,
+   159→   159→and lifetime use of tobacco, cannabis, and other drugs (“yes” / “no”). Alcohol use severity
+   160→   160→assessed using the 10-item Alcohol Use Disorder Identification Test, each item was scored on
+   161→   161→a scale from 0 to 4, except for items 9 and 10 which were scored 0, 2, or 4. The total score (0-
+   162→   162→40) was calculated as a sum of all items, with an AUDIT score ≥ 8 indicative of at-risk use
+   163→   163→[27]. Quantity of alcohol use (standard alcohol units), tobacco use (cigarettes), and cannabis
+   164→   164→use (grams) in the 14 days prior to study participation was measured using the timeline follow-
+   165→   165→back method [28].
+   166→   166→Social measures: social and conformity motives were measured using the Drinking
+   167→   167→Motive Questionnaire Revised [29,30]. Social motives reflect the desire to drink to enhance
+   168→   168→social experiences (e.g., “I drink to have fun with friends”), whereas the conformity subscale
+   169→   169→reflects the desire to follow group norms (e.g., “I drink to fit in with a group I like”). Both
+   170→   170→subscales consisted of 5 items scored from 1 to 5, with sum scores used as total subscale scores.
+   171→   171→Social reward was assessed using the Social Reward Questionnaire [18]. The SRQ
+   172→   172→consists of six subscales of which one was omitted (sexual relationships): 1) admiration (4
+   173→   173→items), reflecting the value of being admired by others; 2) negative social potency (5 items),
+   174→   174→reflecting enjoyment from malicious social behavior; 3) passivity (3 items), assesses tendency
+   175→   175→to prefer more passive social roles; 4) sociability (3 items), captures an overall desire for social
+   176→   176→interaction; 5) pro-social interactions (5 items), reflects a sense of reward derived from helping,
+   177→   177→cooperation, and positive social exchanges. Each item was scored from 1 to 7, subscale scores
+   178→   178→were calculated by averaging across items.
+   179→   179→Social attunement was measured using the 11-item Social Attunement Questionnaire
+   180→   180→[22], consisting of two subscales: 1) cognitions subscale (5 items), relating to the extent to
+   181→   181→7
+   182→   182→
+   183→   183→which someone thinks about their own behavior and how others perceive their behavior; 2)
+   184→   184→behaviors subscale (6 items), the degree to which someone adjusts their behavior to attune to
+   185→   185→the social behavior of others. Each item was scored from 1 to 7, with sum scores used as total
+   186→   186→subscale scores.
+   187→   187→Analyses
+   188→   188→Sample characteristics
+   189→   189→Group comparisons (male-female) on sample characteristics were performed using
+   190→   190→Wilcoxon rank-sum- or independent samples t-tests depending on data normality (continuous)
+   191→   191→and Chi-square (categorical) tests in R (V4.4.1). To accommodate the distributional
+   192→   192→assumptions of our data, we computed a Spearman correlation matrix (Table S9) to assess zero-
+   193→   193→order associations between all variables, including their associations with age in JASP (JASP
+   194→   194→Team, 2026; V0.96).
+   195→   195→Network models
+   196→   196→Network models were estimated in R (V4.4.1) with the bootnet package [32] and
+   197→   197→visualized using the qgraph R [33] package. We estimated LASSO regularized Gaussian
+   198→   198→Graphical Models (GGM) with the extended Bayesian information criterion least absolute
+   199→   199→shrinkage and selection operator (EBICglasso) with gamma set to 0.5, using Spearman
+   200→   200→correlations. Variables were standardized prior to estimation of the network models.
+   201→   201→First, to assess how social measures were related to each other as well as alcohol use
+   202→   202→severity, the SAQ subscales’ scores, SRQ subscales’ scores, social and conformity drinking
+   203→   203→motive scores, and AUDIT scores were included in the first network (Network 1), resulting in
+   204→   204→a total of 10 nodes.
+   205→   205→8
+   206→   206→
+   207→   207→Second, to assess the moderating role of age using the mgm (mixed graphical models)
+   208→   208→package [34], age was added to this model (Network 2). The network was estimated using
+   209→   209→LASSO regularization with EBIC model selection (γ=0.25).
+   210→   210→Third, to assess how associations between social measures and alcohol use severity may
+   211→   211→vary across sexes, separate network models were generated with the bootnet package [35] for
+   212→   212→male (Network 3) and female (Network 4) participants. Subsequently, a network comparison
+   213→   213→test was performed between networks 3 and 4, to assess differences in strength centrality (Table
+   214→   214→S7), structure, and edge weights (Table S8), using 10000 permutations. The network
+   215→   215→comparison test was implemented using the NetworkComparisonTest R package [36].
+   216→   216→We used non-parametric bootstrapping (1000 resamples) to evaluate edge stability
+   217→   217→(Figure S1, S4 S5) [32]. Stability of strength centrality was evaluated via case-dropping
+   218→   218→bootstrap resampling. Correlation-stability (CS-C) coefficients were computed to assess the
+   219→   219→reliability of the associations, with a CS-C > 0.25 indicating minium stability and CS-C > 0.50
+   220→   220→indicating good stability [35].
+   221→   221→As the age moderated network was estimated using a mixed graphical model, CS-
+   222→   222→coefficients and centrality measures were not interpreted, as node connectivity is conditional
+   223→   223→depending on the level of the moderator and therefore not fixed across the network. However,
+   224→   224→edge weights and moderation effects were bootstrapped (Figure S3) to ensure the stability of
+   225→   225→the reported findings.
+   226→   226→Node placement for network 1 was based on the Fruchterman-Reingold algorithm [37],
+   227→   227→ensuring that variables with stronger links appeared closer together. The same network
+   228→   228→structure was maintained for subsequent networks to facilitate comparison across networks,
+   229→   229→however, for networks 2, 3, and 4, the placement of the negative social potency node was
+   230→   230→slightly shifted to the right to avoid obscuring its associations with other nodes. Participants
+   231→   231→9
+   232→   232→
+   233→   233→who did not report male or female sex (n=5) were included in Networks 1 and 2 but excluded
+   234→   234→in the sex specific networks.
+   235→   235→Results
+   236→   236→Sample characteristics
+   237→   237→On average, participants were 32.08 (SD = 13.89) years old, and most participants were
+   238→   238→female (52.6%), educated at (pre-) university level (81.4%), and non-Dutch citizen (51.2%;
+   239→   239→Table 1). Participants scored on average 8.16 (SD = 6.25) on the AUDIT, with 40.5% exceeding
+   240→   240→a score of 7, indicating at-risk alcohol use [27]. Spearman correlations among network
+   241→   241→variables revealed positive bivariate associations between each social measure and alcohol use
+   242→   242→severity, except for SRQ pro-social interactions (Figure 1; full overview in Table S9). Age was
+   243→   243→negatively associated with all social measures, except SAQ cognition and conformity motives,
+   244→   244→and negatively with alcohol use severity.
+   245→   245→INSERT TABLE 1 HERE
+   246→   246→INSERT FIGURE 1 HERE
+   247→   247→Network model of associations between social measures and alcohol use severity
+   248→   248→Figure 2 represents the network of partial associations between social measures and
+   249→   249→alcohol use severity (Table S3). The network was stable (CS = 0.75) and had a mean edge
+   250→   250→weight of 0.15, with 20 non-zero edges out of possible 45 edges (44%). Each set of subscales
+   251→   251→from the same questionnaire clustered together, except for the SRQ passivity, which connected
+   252→   252→closer to the SAQ subscales. Only social drinking motives and SRQ sociability were directly
+   253→   253→connected to alcohol use severity. Both social motives and the SAQ behavior emerged as the
+   254→   254→10
+   255→   255→
+   256→   256→most central nodes on each of the centrality indices, closely followed by the SRQ sociability
+   257→   257→(Figure S2).
+   258→   258→INSERT FIGURE 2 HERE
+   259→   259→Age-moderated network model of associations between social measures and alcohol use
+   260→   260→severity
+   261→   261→Figure 3 represents the age-moderated network of partial associations between social
+   262→   262→measures and alcohol use severity (Table S4). Associations remained stable across age for all
+   263→   263→edges, except for SRQ sociability – AUDIT, where with older age the association became
+   264→   264→weaker (interaction weight = -0.076; Figure S3). Furthermore, age was negatively associated
+   265→   265→with SRQ admiration, SRQ sociability, SAQ behavior, and social motives.
+   266→   266→INSERT FIGURE 3 HERE
+   267→   267→Sex differences in network models of associations between social measures and alcohol
+   268→   268→use severity
+   269→   269→Males were on average older (Table 1), scored higher on the AUDIT, and had a greater
+   270→   270→proportion of at-risk alcohol use compared to females. Similarly, males reported lifetime
+   271→   271→cannabis, tobacco, and illicit drug use more frequently than females. Regarding social
+   272→   272→measures, males scored higher on SRQ negative social potency and conformity motives,
+   273→   273→whereas females scored higher on SAQ cognition, SRQ sociability, and SRQ prosocial
+   274→   274→interactions.
+   275→   275→Network models of associations between social measures and alcohol use severity did
+   276→   276→not differ between males (Figure 4A; Table S5) and females (Figure 4B; Table S6) in global
+   277→   277→strength (S = 0.015, p = 0.972), structure (M = 0.121, p = 0.680), and centrality (lowest p-value
+   278→   278→11
+   279→   279→
+   280→   280→= 0.117; Table S7). Both networks were stable (CS = 0.52; CS = 0.67) and comparable
+   281→   281→males females
+   282→   282→in density (mean edge weight males = 0.17; mean edge weight females = 0.18), with 17 out of
+   283→   283→45 (37%) non-zero edges in males, and 16 out of 45 (35%) non-zero edges in females. Most
+   284→   284→observed associations were similar across sexes, only, for males, alcohol use severity was
+   285→   285→associated with the SRQ negative social potency subscale in addition to social motives and the
+   286→   286→SRQ sociability subscale, whereas in females it was only associated with the latter two. None
+   287→   287→of the observed edges, however, were significantly different between sexes (Table S8).
+   288→   288→Discussion
+   289→   289→We assessed network associations between social measures and alcohol use severity,
+   290→   290→whether age moderates these associations, and whether they differ across sex. In the network
+   291→   291→only including social measures and alcohol use severity (Figure 2), social measures from the
+   292→   292→same scale tended to cluster together, and alcohol use severity was only linked to social
+   293→   293→drinking motives and SRQ sociability. When assessing the role of age, the age-moderated
+   294→   294→network (Figure 3) showed negative direct associations between age and SRQ admiration, SRQ
+   295→   295→sociability, SAQ behavior, and social motives. Furthermore, associations within the network
+   296→   296→remained largely stable across age, except for the SRQ sociability – AUDIT relationship, which
+   297→   297→was moderated by age, such that the association was weaker in older participants. Similarly,
+   298→   298→despite sex differences being observed in scores on almost half of the social measures (Table
+   299→   299→1), associations in the network remained consistent across sex (Figure 4). Taken together, these
+   300→   300→network findings complement more conventional bivariate approaches and suggest that
+   301→   301→observed age and sex differences in the role of drinking motives, social reward, and social
+   302→   302→attunement in alcohol use severity largely reflect differences in the prevalence of specific social
+   303→   303→factors — rather than differences in the underlying mechanisms linking these factors to
+   304→   304→drinking.
+   305→   305→12
+   306→   306→
+   307→   307→The network analyses revealed a relatively dense network in which each social subscale
+   308→   308→was associated with subscales of the same questionnaire and at least subscales of one of the
+   309→   309→other questionnaires. Within the network (Figure 2), only social motives and SRQ sociability
+   310→   310→were directly associated with alcohol use severity. Social motives refer to drinking for social
+   311→   311→reasons, such as enjoying social events or enhancing social interactions [29], whereas
+   312→   312→sociability reflects a general preference for social interaction and participating in social events
+   313→   313→[18]. Hence, in the context of alcohol use, broad social engagement may be a more central
+   314→   314→driver than specific social traits such as prosocial interactions. However, these specific social
+   315→   315→traits remain informative in the context of alcohol use, as many are directly related to social
+   316→   316→motives and sociability, and thereby indirectly associated with severity of use. These findings
+   317→   317→highlight the benefit of the network approach and demonstrate that associations commonly
+   318→   318→found between social measures and alcohol use severity may largely reflect indirect pathways
+   319→   319→rather than unique relationships, as indicated by the broader pattern in bivariate associations
+   320→   320→(Figure 1), many of which did not emerge in the network. Looking beyond pairwise
+   321→   321→associations, the network structure may also offer insight into the underlying social constructs
+   322→   322→captured by each social measure. For example, the SAQ behavior subscale emerged as the most
+   323→   323→central node in the network (Figure S2), suggesting it may be a useful indicator of more general
+   324→   324→social tendencies. Thus, while social motives and SRQ sociability may be most informative in
+   325→   325→the context of alcohol use, the SAQ behavior subscale may better capture social behavior more
+   326→   326→generally.
+   327→   327→In the age-moderated network (Figure 3), all associations remained stable across age,
+   328→   328→except for SRQ sociability-AUDIT which weakened with age. This may be particularly
+   329→   329→relevant in the context of “maturing out of addiction” – the natural reduction of substance use
+   330→   330→as individuals age into adulthood [21,38,39]. To illustrate, the social plasticity hypothesis
+   331→   331→(SPH) [21] proposes that shifts in social environments across age initially render social factors
+   332→   332→13
+   333→   333→
+   334→   334→risk-enhancing in adolescence and young-adulthood, but increasingly protective later in life
+   335→   335→when norms around substance use change, paralleling transitions to more adult-like
+   336→   336→responsibilities (e.g., starting a family, work). The SPH suggests that social attunement drives
+   337→   337→these changes, as individuals adapt to shifting expectations and norms around substance use.
+   338→   338→Our results are broadly consistent with this hypothesis, but with an important difference: the
+   339→   339→SPH emphasizes changes in drinking behavior in relation to changing norms and expectations
+   340→   340→surrounding substance use, our findings suggest that people might instead simply participate
+   341→   341→less in alcohol-centered social gatherings. As an example, as people age, sociability may still
+   342→   342→predict alcohol use, but the association weakens because social contexts may shift, as drinking
+   343→   343→may become more linked to routine and health [40–42], and social events may function less as
+   344→   344→a cue for drinking [23]. This is broadly consistent with our previous results, showing that [12]
+   345→   345→coping and enhancement motives predicted alcohol use severity across most of the lifespan,
+   346→   346→whereas social and conformity motives were only predictors in earlier stages of life. Our
+   347→   347→findings suggest that sociability may be a key factor in this age-related pattern, given its
+   348→   348→association with social motives and the age-related attenuation of its link with alcohol use
+   349→   349→severity. Furthermore, in the correlation matrix (Figure 1), age was negatively associated with
+   350→   350→nearly all social measures and alcohol use severity, suggesting broad age-related decreases.
+   351→   351→However, in the network model, after controlling for interrelations, half of these associations
+   352→   352→remained, highlighting the benefit of the network approach in isolating unique associations,
+   353→   353→with age moderating only a single edge.
+   354→   354→Similar to age, even though males and females differed in average levels of social
+   355→   355→measures and alcohol use severity (Table 1), associations between social measures and alcohol
+   356→   356→use severity remained consistent across sex (Figure 4). Prior research has shown mixed results
+   357→   357→regarding sex differences in the associations between social measures and alcohol use
+   358→   358→[24,43,44], suggesting that these associations may be multidirectional and context dependent.
+   359→   359→14
+   360→   360→
+   361→   361→Our results suggest that previously observed effects of sex may partly reflect shared variance
+   362→   362→across social measures, rather than a direct effect of sex and gender on these associations. In
+   363→   363→essence, mean-level differences across sex may create the impression of sex-specific effects in
+   364→   364→simpler analyses, our network approach corrects for these differences across all measures,
+   365→   365→suggesting that associations remain largely stable across sex. However, the absence of sex
+   366→   366→differences across network structures may also reflect a narrowing gender gap not only in
+   367→   367→alcohol use, but also in social motives for drinking [14,45,46]. Furthermore, while the same
+   368→   368→network may exist across sexes, mean level differences may still influence how the network is
+   369→   369→expressed within each group. For instance, males scored higher on SRQ negative social potency
+   370→   370→and DMQ conformity, and females higher on SAQ cognition, SRQ prosocial interactions, and
+   371→   371→SRQ sociability (Table 1), the latter directly linked to alcohol use severity.
+   372→   372→The present study is the first to assess associations between social measures and alcohol
+   373→   373→use severity combined, rather than in isolation. However, several important limitations need to
+   374→   374→be considered. Age-related changes may reflect cohort effects rather than true developmental
+   375→   375→variation due to the cross-sectional design of the study. Furthermore, the moderation effect
+   376→   376→involving age should be interpreted with caution. Although the effect was retained in 65% of
+   377→   377→bootstrap samples, indicating some robustness, its stability was only moderate and the
+   378→   378→bootstrap interval approached zero. Future studies with larger samples are needed to establish
+   379→   379→the reliability of age-related differences in the network structure. Participants may have been
+   380→   380→intoxicated during participation due to the online nature of the study. The sample included a
+   381→   381→higher proportion of younger, higher educated, and cisgender individuals, limiting the
+   382→   382→generalizability of the results. Moreover, social drinking norms may vary across cultures
+   383→   383→[47,48], therefore, our results may not translate to all contexts. Additionally, the included social
+   384→   384→measures may not capture the full scope of social cognition, future research may include
+   385→   385→additional questionnaires (e.g., [49,50]). Furthermore, the scenarios presented in the
+   386→   386→15
+   387→   387→
+   388→   388→questionnaire may not be representative of social situations commonly encountered by older
+   389→   389→individuals. Lastly, we pooled data from two samples with markedly different designs. Study
+   390→   390→2 used an extreme-groups sampling approach, which can distort cross-sectional associations
+   391→   391→relative to a continuously distributed sample.
+   392→   392→Conclusion
+   393→   393→The network approach allows us to examine unique associations between social measures
+   394→   394→and alcohol use severity, while controlling for all measures. Our results demonstrate the added
+   395→   395→value of the network approach, as many associations observed in bivariate analyses did not
+   396→   396→persist and appear to reflect indirect pathways, with broader social tendencies such as
+   397→   397→sociability emerging as central drivers of alcohol use severity in the network. Furthermore, age
+   398→   398→played a specific role in shaping this association which was weaker in older participants. Future
+   399→   399→research should assess whether the network structure changes across age by tracking
+   400→   400→individuals longitudinally. Further assessing the roles of age and sex for identifying those at
+   401→   401→long-term risk of alcohol use disorder remains crucial.
+   402→   402→16
+   403→   403→
+   404→   404→References
+   405→   405→[1] Creswell KG. Drinking Together and Drinking Alone: A Social-Contextual Framework
+   406→   406→for Examining Risk for Alcohol Use Disorder. Curr Dir Psychol Sci 2021;30:19–25.
+   407→   407→https://doi.org/10.1177/0963721420969406/ASSET/362510A2-78F5-47CC-8CA3-
+   408→   408→B4843564B1F5/ASSETS/IMAGES/LARGE/10.1177_0963721420969406-FIG1.JPG.
+   409→   409→[2] Terry-McElrath YM, Arterberry BJ, Patrick ME. Alcohol use contexts (social settings,
+   410→   410→drinking games/specials, and locations) as predictors of high-intensity drinking on a
+   411→   411→given day among U.S. young adults. Alcohol: Clinical and Experimental Research
+   412→   412→2023;47:273–84. https://doi.org/10.1111/ACER.14985.
+   413→   413→[3] Brooks-Russell A, Simons-Morton B, Haynie D, Farhat T, Wang J. Longitudinal
+   414→   414→Relationship Between Drinking with Peers, Descriptive Norms, and Adolescent
+   415→   415→Alcohol Use. Prev Sci 2014;15:497. https://doi.org/10.1007/S11121-013-0391-9.
+   416→   416→[4] Fairbairn CE, Kang D. Social Drinking and Addiction: A Social-Cognitive Model for
+   417→   417→Understanding Alcohol Use Disorder Risk. Curr Dir Psychol Sci 2025;34:225–31.
+   418→   418→https://doi.org/10.1177/09637214251318272/ASSET/C82B8BF7-FBD4-4B8A-9437-
+   419→   419→6878C36E967F/ASSETS/IMAGES/LARGE/10.1177_09637214251318272-
+   420→   420→FIG3.JPG.
+   421→   421→[5] Grainger SA, Crawford JD, Riches JC, Kochan NA, Chander RJ, Mather KA, et al.
+   422→   422→Aging Is Associated With Multidirectional Changes in Social Cognition: Findings
+   423→   423→From an Adult Life-Span Sample Ranging From 18 to 101 Years. The Journals of
+   424→   424→Gerontology: Series B 2023;78:62–72. https://doi.org/10.1093/GERONB/GBAC110.
+   425→   425→[6] Jarvis AL, Wong S, Weightman M, Simmonds B, Keage HAD, Robinson G. Cross-
+   426→   426→Sectional Trajectories of Social Cognition in Later Life: Exploring Emotion
+   427→   427→Perception, Theory of Mind, and Emotional Empathy. Archives of Clinical
+   428→   428→Neuropsychology 2025;40:1091–100. https://doi.org/10.1093/ARCLIN/ACAF022.
+   429→   429→[7] Meegahapola L, Labhart F, Phan TT, Gatica-Perez D. Examining the Social Context of
+   430→   430→Alcohol Drinking in Young Adults with Smartphone Sensing. Proc ACM Interact Mob
+   431→   431→Wearable Ubiquitous Technol 2021;5.
+   432→   432→https://doi.org/10.1145/3478126/SUPPL_FILE/MEEGAHAPOLA.ZIP.
+   433→   433→[8] Di Tella M, Miti F, Ardito RB, Adenzato M. Social cognition and sex: Are men and
+   434→   434→women really different? Pers Individ Dif 2020;162:110045.
+   435→   435→https://doi.org/10.1016/J.PAID.2020.110045.
+   436→   436→[9] Kret ME, De Gelder B. A review on sex differences in processing emotional signals.
+   437→   437→Neuropsychologia 2012;50:1211–21.
+   438→   438→https://doi.org/10.1016/J.NEUROPSYCHOLOGIA.2011.12.022.
+   439→   439→[10] Bresin K, Mekawi Y. The “Why” of Drinking Matters: A Meta-Analysis of the
+   440→   440→Association Between Drinking Motives and Drinking Outcomes. Alcohol Clin Exp
+   441→   441→Res 2021;45:38–50. https://doi.org/10.1111/ACER.14518.
+   442→   442→[11] Freichel R, Pfirrmann J, Cousjin J, de Jong P, Franken I, Banaschewski T, et al.
+   443→   443→Drinking motives, personality traits and life stressors—identifying pathways to
+   444→   444→harmful alcohol use in adolescence using a panel network approach. Addiction
+   445→   445→2023;118:1908–19. https://doi.org/10.1111/ADD.16231.
+   446→   446→[12] Romein C, Kroon E, Bartnicki O, Cousijn J, Colyer-Patel K. Drinking for a reason:
+   447→   447→how drinking motives shape alcohol use across the lifespan 2026.
+   448→   448→https://doi.org/10.31234/OSF.IO/EKX7Y_V1.
+   449→   449→[13] Kuntsche E, Knibbe R, Gmel G, Engels R. Why do young people drink? A review of
+   450→   450→drinking motives. Clin Psychol Rev 2005;25:841–61.
+   451→   451→https://doi.org/10.1016/J.CPR.2005.06.002.
+   452→   452→17
+   453→   453→
+   454→   454→[14] Keyes KM, Rutherford C, Patrick ME, Platt JM, Kloska DD, Jager J. Reasons for
+   455→   455→alcohol use from 1976 to 2020 in the United States among individuals aged 18 to 30:
+   456→   456→Historical changes and mediation of cohort effects in binge drinking. Alcohol: Clinical
+   457→   457→and Experimental Research 2024;48:1107–21. https://doi.org/10.1111/ACER.15323.
+   458→   458→[15] Fairbairn CE, Sayette MA, Wright AGC, Levine JM, Cohn JF, Creswell KG.
+   459→   459→Extraversion and the rewarding effects of alcohol in a social context. J Abnorm
+   460→   460→Psychol 2015;124. https://doi.org/10.1037/abn0000024.
+   461→   461→[16] Fairbairn CE, Sayette MA, Amole MC, Dimoff JD, Cohn JF, Girard JM. Speech
+   462→   462→volume indexes sex differences in the social-emotional effects of alcohol. Exp Clin
+   463→   463→Psychopharmacol 2015;23. https://doi.org/10.1037/pha0000021.
+   464→   464→[17] Fairbairn CE, Sayette MA, Aalen OO, Frigessi A. Alcohol and Emotional Contagion:
+   465→   465→An Examination of the Spreading of Smiles in Male and Female Drinking Groups.
+   466→   466→Clinical Psychological Science 2015;3. https://doi.org/10.1177/2167702614548892.
+   467→   467→[18] Foulkes L, Viding E, McCrory E, Neumann CS. Social Reward Questionnaire (SRQ):
+   468→   468→Development and validation. Front Psychol 2014;5:81305.
+   469→   469→https://doi.org/10.3389/FPSYG.2014.00201/BIBTEX.
+   470→   470→[19] Altikulaç S, Bos MGN, Foulkes L, Crone EA, van Hoorn J. Age and Gender Effects in
+   471→   471→Sensitivity to Social Rewards in Adolescents and Young Adults. Front Behav Neurosci
+   472→   472→2019;13:456625. https://doi.org/10.3389/FNBEH.2019.00171/BIBTEX.
+   473→   473→[20] Smith MA. Social Learning and Addiction. Behavioural Brain Research
+   474→   474→2021;398:112954. https://doi.org/10.1016/J.BBR.2020.112954.
+   475→   475→[21] Cousijn J, Luijten M, Feldstein Ewing SW. Adolescent resilience to addiction: a social
+   476→   476→plasticity hypothesis. Lancet Child Adolesc Health 2018;2:69–78.
+   477→   477→https://doi.org/10.1016/S2352-4642(17)30148-7.
+   478→   478→[22] Kroon E, Mies G, Wiers RW, Cousijn J. Development and validation of the Dutch
+   479→   479→Social Attunement Questionnaire (SAQ). Social Development 2023;32:546–65.
+   480→   480→https://doi.org/10.1111/SODE.12652.
+   481→   481→[23] Kuhns L, Mies G, Kroon E, Willuhn I, Lesscher H, Cousijn J. Alcohol cue reactivity in
+   482→   482→the brain: Age-related differences in the role of social processes in addiction in male
+   483→   483→drinkers. J Neurosci Res 2023;101:1521–37. https://doi.org/10.1002/JNR.25206.
+   484→   484→[24] Romein C, Colyer-Patel K, Kroon E, Larsen H, Marroun H El, Cousijn J. Social
+   485→   485→attunement and alcohol use: The role of age and gender. Addictive Behaviors
+   486→   486→2026;175:108587. https://doi.org/10.1016/J.ADDBEH.2025.108587.
+   487→   487→[25] Kroon E, Zhang R, Colyer-Patel K, Weidema A, Ünsal D, Larsen H, et al. Implicit
+   488→   488→Social Attunement and Alcohol Use: The Effect of Peer Feedback on Willingness to
+   489→   489→Drink in Social Settings. Int J Ment Health Addict 2024:1–16.
+   490→   490→https://doi.org/10.1007/S11469-024-01371-4/FIGURES/4.
+   491→   491→[26] Prolific. Prolific. Https://WwwProlificCom 2024.
+   492→   492→[27] Saunders JB, Aasland OG, Babor TF, De La Fuente JR, Grant M. Development of the
+   493→   493→Alcohol Use Disorders Identification Test (AUDIT): WHO Collaborative Project on
+   494→   494→Early Detection of Persons with Harmful Alcohol Consumption--II. Addiction
+   495→   495→(Abingdon, England) 1993;88:791–804. https://doi.org/10.1111/J.1360-
+   496→   496→0443.1993.TB02093.X.
+   497→   497→[28] Robinson SM, Sobell LC, Sobell MB, Leo GI. Reliability of the Timeline Followback
+   498→   498→for cocaine, cannabis, and cigarette use. Psychol Addict Behav 2014;28:154–62.
+   499→   499→https://doi.org/10.1037/A0030992.
+   500→   500→[29] Cooper ML. Motivations for alcohol use among adolescents: Development and
+   501→   501→validation of a four-factor model. Psychol Assess 1994. https://doi.org/10.1037/1040-
+   502→   502→3590.6.2.117.
+   503→   503→18
+   504→   504→
+   505→   505→[30] Kroon E, Romein C, Andriese C, Franken I, Marroun H El. Validation and Comparison
+   506→   506→of Three Different Versions of the Drinking Motives Questionnaire: A Network
+   507→   507→Analysis Approach. Eur Addict Res 2025;31:197–208.
+   508→   508→https://doi.org/10.1159/000546920.
+   509→   509→[31] JASP Team. JASP (Version 0.96.0)[Computer software] 2026.
+   510→   510→[32] Epskamp S. bootnet: Bootstrap Methods for Various Network Estimation Routines.
+   511→   511→CRAN: Contributed Packages 2015.
+   512→   512→https://doi.org/10.32614/CRAN.PACKAGE.BOOTNET.
+   513→   513→[33] Epskamp S, Cramer AOJ, Waldorp LJ, Schmittmann VD, Borsboom D. qgraph:
+   514→   514→Network Visualizations of Relationships in Psychometric Data. J Stat Softw
+   515→   515→2012;48:1–18. https://doi.org/10.18637/JSS.V048.I04.
+   516→   516→[34] Haslbeck JMB, Waldorp LJ. mgm: Estimating Time-Varying Mixed Graphical Models
+   517→   517→in High-Dimensional Data. J Stat Softw 2020;93:1–46.
+   518→   518→https://doi.org/10.18637/JSS.V093.I08.
+   519→   519→[35] Epskamp S, Borsboom D, Fried EI. Estimating psychological networks and their
+   520→   520→accuracy: A tutorial paper. Behav Res Methods 2018;50:195–212.
+   521→   521→https://doi.org/10.3758/S13428-017-0862-1/FIGURES/9.
+   522→   522→[36] van Borkulo CD, van Bork R, Boschloo L, Kossakowski JJ, Tio P, Schoevers RA, et
+   523→   523→al. Comparing Network Structures on Three Aspects: A Permutation Test. Psychol
+   524→   524→Methods 2022;28:1273–85. https://doi.org/10.1037/MET0000476.
+   525→   525→[37] Fruchterman TMJ, Reingold EM. Graph drawing by force-directed placement. Softw
+   526→   526→Pract Exp 1991;21:1129–64. https://doi.org/10.1002/SPE.4380211102.
+   527→   527→[38] Littlefield AK, Sher KJ, Wood PK. Do Changes in Drinking Motives Mediate the
+   528→   528→Relation between Personality Change and “Maturing Out” of Problem Drinking? J
+   529→   529→Abnorm Psychol 2010;119:93. https://doi.org/10.1037/A0017512.
+   530→   530→[39] Steinberg L. Cognitive and affective development in adolescence. Trends Cogn Sci
+   531→   531→2005;9:69–74. https://doi.org/10.1016/J.TICS.2004.12.005.
+   532→   532→[40] Immonen S, Valvanne J, Pitkala KH. Prevalence of at-risk drinking among older adults
+   533→   533→and associated sociodemographic and health-related factors. J Nutr Health Aging
+   534→   534→2011;15:789–94. https://doi.org/10.1007/S12603-011-0115-4.
+   535→   535→[41] Ahlström S. Alcohol use and problems among older women and men: A review.
+   536→   536→Nordic Studies on Alcohol and Drugs 2008;25:154–61.
+   537→   537→https://doi.org/10.1177/145507250802500206.
+   538→   538→[42] Kim S, Spilman SL, Liao DH, Sacco P, Moore AA. Social networks and alcohol use
+   539→   539→among older adults: a comparison with middle-aged adults. Aging Ment Health
+   540→   540→2018;22:550–7. https://doi.org/10.1080/13607863.2016.1268095.
+   541→   541→[43] Lemke S, Schutte KK, Brennan PL, Moos RH. Gender Differences in Social
+   542→   542→Influences and Stressors Linked to Increased Drinking. J Stud Alcohol Drugs
+   543→   543→2008;69:695. https://doi.org/10.15288/JSAD.2008.69.695.
+   544→   544→[44] Maxwell A, Rawls E, Zilverstand A. Sex/gender differences in orbitofrontal cortex
+   545→   545→reactivity underlying the associations between stress, social relationships, and
+   546→   546→problematic alcohol use. Psychol Med 2025;55:e326.
+   547→   547→https://doi.org/10.1017/S0033291725102250.
+   548→   548→[45] White AM. Gender Differences in the Epidemiology of Alcohol Use and Related
+   549→   549→Harms in the United States. Alcohol Res 2020;40:01.
+   550→   550→https://doi.org/10.35946/ARCR.V40.2.01.
+   551→   551→[46] Keyes KM. Age, Period, and Cohort Effects in Alcohol Use in the United States in the
+   552→   552→20th and 21st Centuries: Implications for the Coming Decades. Alcohol Res
+   553→   553→2022;42:02. https://doi.org/10.35946/ARCR.V42.1.02.
+   554→   554→19
+   555→   555→
+   556→   556→[47] de la Rosa PA, Jang SJ, Paltzer J, Okafor CN, Bradshaw M, Padgett RN, et al.
+   557→   557→Demographic variation in weekly alcohol use across countries in the Global
+   558→   558→Flourishing Study. Communications Medicine 2026 6:1 2026;6:85-.
+   559→   559→https://doi.org/10.1038/s43856-025-01346-z.
+   560→   560→[48] Room R, Kuntsche S, Dietze P, Munné M, Monteiro M, Greenfield TK. Testing
+   561→   561→Consensus About Situational Norms on Drinking: A Cross-National Comparison. J
+   562→   562→Stud Alcohol Drugs 2019;80:651. https://doi.org/10.15288/JSAD.2019.80.651.
+   563→   563→[49] Combs DR, Penn DL, Wicher M, Waldheter E. The Ambiguous Intentions Hostility
+   564→   564→Questionnaire (AIHQ): A new measure for evaluating hostile social-cognitive biases in
+   565→   565→paranoia. Cogn Neuropsychiatry 2007;12:128–43.
+   566→   566→https://doi.org/10.1080/13546800600787854.
+   567→   567→[50] Leigh E, Clark DM. Development and Preliminary Validation of the Child &
+   568→   568→Adolescent Social Cognitions Questionnaire. Child Psychiatry Hum Dev 2022;53:715–
+   569→   569→24. https://doi.org/10.1007/S10578-021-01163-0/TABLES/5.
+   570→   570→20
+   571→   571→
+   572→   572→Figure 1.
+   573→   573→Spearman correlations between social measures, alcohol use severity, and age
+   574→   574→Note. AUDIT: Alcohol Use Disorder Identification Test; DMQ: Drinking Motives
+   575→   575→Questionnaire – revised; NegSocPotency: negative social potency; ProSocInteractions: pro-
+   576→   576→social interactions; SAQ: Social Attunement Questionnaire; SRQ: Social Reward
+   577→   577→Questionnaire; *: p < 0.05; **: p < 0.01; ***: p < 0.001. Positive associations are highlighted
+   578→   578→in purple, negative associations are highlighted in red.
+   579→   579→21
+   580→   580→
+   581→   581→Figure 2.
+   582→   582→Network model of social measures and alcohol use severity
+   583→   583→NegSocPot
+   584→   584→Admiration
+   585→   585→ProSocInt AAllccoohhooll UUssee
+   586→   586→AAUUDDIITT:: AAUUDDIITT
+   587→   587→SSoocciiaall AAttttuunneemmeenntt
+   588→   588→Passivity
+   589→   589→BBeehhaavviioorr:: SSAAQQ BBeehhaavviioorraall
+   590→   590→CCooggnniittiioonn:: SSAAQQ CCooggnniittiioonn
+   591→   591→Sociability
+   592→   592→SSoocciiaall RReewwaarrdd
+   593→   593→Behavior
+   594→   594→AAddmmiirraattiioonn:: AAddmmiirraattiioonn
+   595→   595→NNeeggSSooccPPoott:: NNeeggaattiivvee SSoocciiaall PPootteennccyy
+   596→   596→PPaassssiivviittyy:: PPaassssiivviittyy
+   597→   597→SSoocciiaabbiilliittyy:: SSoocciiaabbiilliittyy
+   598→   598→PPrrooSSooccIInntt:: PPrroo−−ssoocciiaall IInntteerraaccttiioonnss
+   599→   599→DDrriinnkkiinngg MMoottiivveess
+   600→   600→Cognition SSoocciiaallMMoott:: SSoocciiaall MMoottiivveess
+   601→   601→CCoonnffoorrMMoott:: CCoonnffoorrmmiittyy MMoottiivveess
+   602→   602→AUDIT
+   603→   603→SocialMot
+   604→   604→ConforMot
+   605→   605→Note. Blue lines represent positive associations; red lines represent negative associations. The
+   606→   606→thickness of the lines represents the strength of the association. AUDIT: Alcohol Use Disorders
+   607→   607→Identification Test; SAQ: Social Attunement Questionnaire.
+   608→   608→22
+   609→   609→
+   610→   610→Figure 3.
+   611→   611→Age-moderated network model of social measures, alcohol use severity, and age
+   612→   612→NegSocPot NegSocPot
+   613→   613→Admiration
+   614→   614→Admiration
+   615→   615→ProSocTen AAllccoohhooll UUssee
+   616→   616→ProSocInt AAUUDDIITT:: AAUUDDIITT
+   617→   617→SSoocciiaall AAttttuunneemmeenntt
+   618→   618→Passivity BBeehhaavviioorr:: SSAAQQ BBeehhaavviioorraall
+   619→   619→Passivity
+   620→   620→CCooggnniittiioonn:: SSAAQQ CCooggnniittiioonn
+   621→   621→Sociability
+   622→   622→Sociability
+   623→   623→SSoocciiaall RReewwaarrdd
+   624→   624→Behavior
+   625→   625→Behavior AAddmmiirraattiioonn:: AAddmmiirraattiioonn
+   626→   626→Age NNeeggSSooccPPoott:: NNeeggaattiivvee SSoocciiaall PPootteennccyy
+   627→   627→PPaassssiivviittyy:: PPaassssiivviittyy
+   628→   628→3 SSoocciiaabbiilliittyy:: SSoocciiaabbiilliittyy
+   629→   629→PPrrooSSooccTTeenn:: PPrroo−−ssoocciiaall TTeennddeenncciieess
+   630→   630→DDrriinnkkiinngg MMoottiivveess
+   631→   631→Cognition Cognition SSoocciiaallMMoott:: SSoocciiaall MMoottiivveess
+   632→   632→CCoonnffoorrMMoott:: CCoonnffoorrmmiittyy MMoottiivveess
+   633→   633→AUDIT AUDIT
+   634→   634→SocialMot SocialMot
+   635→   635→ConforMot ConforMot
+   636→   636→Note. Green lines represent positive associations; red lines represent negative associations. The
+   637→   637→thickness of the lines represents the strength of the association. AUDIT: Alcohol Use Disorders
+   638→   638→Identification Test; SAQ: Social Attunement Questionnaire. Triangle labeled with “3”
+   639→   639→represents a three-way interaction: the association between sociability and AUDIT scores is
+   640→   640→moderated by age.
+   641→   641→23
+   642→   642→
+   643→   643→Figure 4.
+   644→   644→Network model of social measures and alcohol use severity in males and females
+   645→   645→A B
+   646→   646→NegSocPot NegSocPot
+   647→   647→Admiration Admiration
+   648→   648→ProSocInt ProSocInt
+   649→   649→AAllccoohhooll UUssee AAllccoohhooll UUssee
+   650→   650→AAUUDDIITT:: AAUUDDIITT AAUUDDIITT:: AAUUDDIITT
+   651→   651→Passivity SSoocciiaall AAttttuunneemmeenntt Passivity SSoocciiaall AAttttuunneemmeenntt
+   652→   652→BBeehhaavviioorr:: SSAAQQ BBeehhaavviioorraall BBeehhaavviioorr:: SSAAQQ BBeehhaavviioorraall
+   653→   653→CCooggnniittiioonn:: SSAAQQ CCooggnniittiioonn CCooggnniittiioonn:: SSAAQQ CCooggnniittiioonn
+   654→   654→Sociability Sociability
+   655→   655→SSoocciiaall RReewwaarrdd SSoocciiaall RReewwaarrdd
+   656→   656→Behavior AAddmmiirraattiioonn:: AAddmmiirraattiioonn Behavior AAddmmiirraattiioonn:: AAddmmiirraattiioonn
+   657→   657→NNeeggSSooccPPoott:: NNeeggaattiivvee SSoocciiaall PPootteennccyy NNeeggSSooccPPoott:: NNeeggaattiivvee SSoocciiaall PPootteennccyy
+   658→   658→PPaassssiivviittyy:: PPaassssiivviittyy PPaassssiivviittyy:: PPaassssiivviittyy
+   659→   659→SSoocciiaabbiilliittyy:: SSoocciiaabbiilliittyy SSoocciiaabbiilliittyy:: SSoocciiaabbiilliittyy
+   660→   660→PPrrooSSooccIInntt:: PPrroo−−ssoocciiaall IInntteerraaccttiioonnss PPrrooSSooccIInntt:: PPrroo−−ssoocciiaall IInntteerraaccttiioonnss
+   661→   661→DDrriinnkkiinngg MMoottiivveess DDrriinnkkiinngg MMoottiivveess
+   662→   662→SSoocciiaallMMoott:: SSoocciiaall MMoottiivveess SSoocciiaallMMoott:: SSoocciiaall MMoottiivveess
+   663→   663→CCoonnffoorrMMoott:: CCoonnffoorrmmiittyy MMoottiivveess CCoonnffoorrMMoott:: CCoonnffoorrmmiittyy MMoottiivveess
+   664→   664→Cognition Cognition
+   665→   665→AUDIT AUDIT
+   666→   666→SocialMot SocialMot
+   667→   667→ConforMot ConforMot
+   668→   668→Note. Panel A: network model only consisting of males; Panel B: network model only
+   669→   669→consisting of females. Blue lines represent positive associations; red lines represent negative
+   670→   670→associations. The thickness of the lines represents the strength of the association. AUDIT:
+   671→   671→Alcohol Use Disorders Identification Test; SAQ: Social Attunement Questionnaire.
+   672→   672→24
+   673→   673→
+   674→   674→Table 1
+   675→   675→Sample characteristics
+   676→   676→Categorical variables Total (N=9361) Male (n=439) Female (n=492) Comparison test
+   677→   677→N % n % n % χ² (df), p
+   678→   678→Nationality (Dutch/other) 457/479 48.8/51.2 213/226 48.5/51.5 242/250 49.2/50.8 χ² (1) = 0.019, p = 0.890
+   679→   679→Education level (less than high school/(pre-) 14/124/762/36 1.5/13.2/81.4/3.8 10/67/349/13 2.3/15.3/79.5/3.0 4/56/409/23 0.8/11.4/83.1/4.7 χ² (3) = 8.091, p = 0.044
+   680→   680→vocational or college/(pre-) university/Other)
+   681→   681→Cannabis lifetime use (yes/no) 655/281 69.9/30.1 330/109 75.2/24.8 323/169 65.7/34.3 χ² (1) = 9.591, p = 0.002
+   682→   682→Tobacco lifetime use (yes/no) 667/269 71.2/28.8 333/106 75.9/24.1 333/159 67.7/32.3 χ² (1) = 7.213, p = 0.007
+   683→   683→Other lifetime drug use2 (yes/no) 475/461 50.7/49.3 241/198 54.9/45.1 232/260 47.2/52.8 χ² (1) =5.260, p = 0.022
+   684→   684→At-risk alcohol use (AUDIT ≥ 8) (yes/no) 379/557 40.5/59.5 195/244 44.4/55.6 181/311 36.8/63.2 χ² (1) = 5.298, p = 0.021
+   685→   685→Continuous variables Mean (SD) Median (IQR) Mean (SD) Median (IQR) Mean (SD) Median (IQR) W, p / t (df), p*
+   686→   686→Age 32.08 (13.89) 27.00 (22-38) 33.18 (14.19) 28.00 (23-40) 31.11 (13.58) 25.00 (21-36) W = 120892, p = 0.002
+   687→   687→Alcohol use and related problems (AUDIT - Total) 8.16 (6.25) 6.00 (4-11) 8.81 (6.62) 7.00 (4-12) 7.57 (5.80) 6.00 (3-11) W = 120578, p = 0.002
+   688→   688→Alcohol use age of onset3 15.16 (2.89) 15.00 (14-16) 15.18 (2.78) 15.00 (14-16) 15.14 (2.96) 15.00 (14-16) W = 105886, p = 0.235
+   689→   689→Last 14-day alcohol use (TLFB – standard drinks)4 18.23 (25.73) 9.20 (2-24) 23.84 (32.11) 12.00 (3-30) 13.32 (16.88) 8.00 (1.1-18.6) W = 125296, p < 0.001
+   690→   690→Last 14-day cannabis use (TLFB – gram) 1.84 (6.82) 0.00 (0-0) 2.07 (5.16) 0.00 (0-0.25) 1.63 (8.04) 0.00 (0-0) W = 112950, p = 0.021
+   691→   691→Last 14-day cigarette use (TLFB – cigarettes) 30.64 (74.71) 0.00 (0-14.79) 36.39 (83.77) 0.00 (0-23) 24.49 (59.28) 0.00 (0-12.5) W = 108987, p = 0.377
+   692→   692→SAQ Total 44.70 (9.37) 45.00 (38.75-51) 44.11 (9.05) 45.00 (38-50) 45.15 (9.62) 46.00 (39-52) t(929) = -1.706, p = 0.088
+   693→   693→SAQ Behavior 26.59 (6.21) 27.00 (23-31) 26.50 (6.00) 27.00 (23-31) 26.63 (6.38) 27.00 (23-31) t(929) = -0.327 p = 0.743
+   694→   694→SAQ Cognition 18.11 (4.83) 18.00 (15-21) 17.61 (4.81) 18.00 (14-21) 18.52 (4.83) 19.00 (16-22) t(929) = -2.888, p = 0.004
+   695→   695→SRQ Admiration 4.92 (1.21) 5.00 (4.25-5.75) 4.92 (1.16) 5.00 (4.25-5.75) 4.90 (1.25) 5.00 (4.25-5.75) t(929) = 0.424, p = 0.672
+   696→   696→SRQ Negative Social Potency 1.94 (0.89) 1.80 (1.2-2.4) 2.10 (0.93) 2.00 (1.4-2.6) 1.78 (0.78) 1.60 (1.2-2.2) W = 131586, p < 0.001
+   697→   697→SRQ Passivity 2.85 (1.25) 2.67 (2-3.67) 2.86 (1.22) 2.67 (2-3.67) 2.93 (1.26) 2.67 (2-3.67) W = 110521, p = 0.536
+   698→   698→SRQ Sociability 4.93 (1.25) 5.00 (4.25-6) 4.78 (1.32) 5.00 (4-6) 5.07 (1.17) 5.33 (4.33-6) W = 95843, p = 0.003
+   699→   699→SRQ Pro-social Interactions 6.15 (0.68) 6.20 (5.8-6.6) 6.02 (0.74) 6.20 (5.6-6.6) 6.28 (0.59) 6.40 (6-6.8) W = 84884, p < 0.001
+   700→   700→DMQ Social 15.35 (5.06) 15.50 (11-19) 15.47 (4.95) 16.00 (12-19) 15.23 (5.13) 15.00 (11-19.25) t(929) = 0.723, p = 0.470
+   701→   701→DMQ Conformity 7.07 (2.96) 6.00 (5-8) 7.31 (3.06) 6.00 (5-9) 6.79 (2.72) 6.00 (5-8) W = 119530, p = 0.003
+   702→   702→Note. AUDIT: Alcohol Use Disorders Identification Test; DMQ: Drinking Motives Questionnaire; IQR: interquartile range; SAQ: social attunement questionnaire; SD: standard deviation; SRQ: social reward
+   703→   703→questionnaire; TLFB: timeline follow-back; χ²: chi-square statistic; 1: five participants reported neither male nor female sex, hence, the total differs from the sum of male and female participants, their sample
+   704→   704→characteristics are reported in Table S2; 2: XTC/MDMA, cocaine, laughing gas, GHB, psychedelic mushrooms, LSD, ketamine, and methamphetamine; 3: missing data for n=29 participants; 4: TLFB missing
+   705→   705→data for n=10 participants. Education levels were reformatted across Dutch and British education systems: Less than high school (NL: basisschool; ENG: less than high-school degree); (pre-) vocational or college
+   706→   706→(NL: VMBO/MAVO, MBO; ENG: BTEC, technical qualifications); (pre-) university (NL: HAVO, VWO, HBO, WO; ENG: A-levels/leaving certificate, institution level 7/8 degree, bachelor’s, master’s,
+   707→   707→doctorate); Other (NL: other; ENG: other).*: Wilcoxon signed-rank test or t-test, depending on data normality.
+   708→   708→25
