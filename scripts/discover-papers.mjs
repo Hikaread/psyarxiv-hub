@@ -7,7 +7,7 @@
 
 const API_BASE = 'https://api.osf.io/v2';
 const PAUSE_MS = 300;
-const LATEST_PROCESSED = '2026-07-01';
+const LATEST_PROCESSED = '2026-07-02';
 const OUTPUT_FILE = '/home/z/my-project/scripts/discovered-papers.json';
 
 function sleep(ms) {
