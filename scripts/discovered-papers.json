@@ -668,6 +668,786 @@
     "link": "https://osf.io/preprints/psyarxiv/e87ft_v3/"
   },
   {
+    "osf_id": "dg75a_v1",
+    "title": "Behavioral biomarker reliability can mislead mechanistic inference in precision psychiatry",
+    "date_created": "2026-07-03T09:14:13.611534",
+    "date_modified": "2026-07-04T19:22:07.588562",
+    "description": "Psychological tasks are increasingly used to develop behavioral biomarkers for precision psychiatry, yet poor test-retest reliability of many task-derived summary measures has raised doubts about their use for stratifying patients, predicting treatment response or indexing clinically relevant mechanisms. In simulations of a fear-conditioning task, we establish two results. First, common summaries can mislead in two ways: they can appear unreliable because they are shaped by experimental context, such as trial order, or reliable because they capture stable but unintended features of responding rather than the target mechanism. Second, computational-model parameters can support stronger reliability claims when they more closely track the intended process, provided the model captures the underlying mechanism and the design makes it recoverable. Together, these findings show that reliability can systematically mislead mechanistic inference unless interpreted with respect to a generative model, the diagnosticity of the task design and assumptions linking the metric to the intended mechanism.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/dg75a_v1/"
+  },
+  {
+    "osf_id": "rtc3j_v1",
+    "title": "Diving into the Stigma Around Consensual Non-Monogamies: Comparing Psychopathology, Well-Being, Attachment, and Other Psychological Characteristics with Monogamous Counterparts",
+    "date_created": "2026-07-03T10:15:56.517665",
+    "date_modified": "2026-07-04T19:21:26.004589",
+    "description": "Objectives: This study aims to empirically challenge pervasive stigma and stereotypes around Consensual Non-Monogamy (CNM) by comprehensively comparing the psychological profiles of CNM practitioners and monogamous individuals, examining both stigmarelated factors and psychological resources, while exploring the interactive role of LGBTQIA+ identity.\nMethod: Using a cross-sectional design, 815 Spanish adults (388 CNM, 427 monogamous) completed validated self report measures for all target constructs, with group comparisons conducted via one-way ANCOVAs controlling for age and LGBTIQA+ status.\nResults: Given the small effect sizes observed, interpretations are made with caution. Analyses revealed no robust overall differences in psychopathology or dark personality traits, directly refuting maladjustment stereotypes. CNM practitioners reported significantly higher scores in sexual sensation seeking, resilience, autonomy, and personal growth, alongside lower personal distress. Importantly, interaction analyses indicated that LGBTIQA+ monogamous individuals exhibited the highest levels of anxious attachment and psychopathology. Relationship style interacted significantly with LGBTQIA+ identity across several outcomes\nConclusions: Overall, the findings do not support deficit-based accounts portraying CNM as inherently associated with greater psychological risk. Instead, the pattern observed in this sample was largely one of psychological similarity, with some small differences favoring CNM participants on selected resource-related variables. These results support the need for nuanced, evidence-based, and stigma-free frameworks in research and clinical practice addressing diverse relational orientations.",
+    "doi": "10.1080/19317611.2026.2691162",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c45",
+          "text": "Psychology, other"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cdd",
+          "text": "Stress"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce2",
+          "text": "Social health"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce5",
+          "text": "Prevention"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/rtc3j_v1/"
+  },
+  {
+    "osf_id": "qd8w4_v3",
+    "title": "Curriculum learning for complex tasks",
+    "date_created": "2026-07-03T11:50:02.284972",
+    "date_modified": "2026-07-04T19:21:40.566258",
+    "description": "Learning to solve a complex task involves discovering new concepts and understanding how to use them. Here, we studied how these two aspects of learning should be sequenced to promote effective task acquisition. We designed video games in which different concepts (tools or ingredients) were used sequentially to complete the task (reach a goal or create a potion). During self-directed learning, participants chose to progress via a curriculum that graduated the complexity of concept discovery (number of concepts involved) rather than of concept implementation (number of steps to goal). However, those who chose to graduate the implementation complexity performed better. Three subsequent experiments that randomised participants into curriculum groups confirmed that adjusting the complexity of concept implementation (not discovery) is the more effective learning strategy. When acquiring complex tasks, learners should not attempt to discover new concepts prematurely, but instead focus on practicing those which they have already mastered.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c9b",
+          "text": "Problem Solving"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cea",
+          "text": "Learning"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/qd8w4_v3/"
+  },
+  {
+    "osf_id": "74ue3_v2",
+    "title": "A Developmental Map of Pathogen-Avoidance Behaviors",
+    "date_created": "2026-07-03T11:52:06.103307",
+    "date_modified": "2026-07-04T19:14:37.458220",
+    "description": "Despite the significant costs of early-life infections, young children show little behavioral avoidance of pathogens. This phenomenon raises as-of-yet unanswered questions about when anti-pathogen psychology develops. The present cross-sectional study examined parent-reported observations of 39 behaviors from infancy through middle childhood, based on reports from 3,050 parents from the UK and US. Across fine-grained monthly age intervals (0–120 months), distinct developmental trajectories were identified and then grouped into four clusters based on temporal patterns. Behaviors that increased pathogen exposure—such as mouthing and contact with dirty objects—were most frequent during infancy and toddlerhood. Hygiene routines and disgust responses emerged later and remained stable across the observed age range. Two age-related transitions, around the second and fourth years, marked shifts from early exploratory and risk-prone behaviors toward increasingly organized pathogen-avoidant ones. Together, these findings provide a developmental overview of anti-pathogen psychology and clarify when children begin to act in ways that reduce pathogen exposure.\n\nKeywords: pathogen avoidance; development; disgust; hygiene; behavioral immune system",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6ca0",
+          "text": "Evolution"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/74ue3_v2/"
+  },
+  {
+    "osf_id": "g9avj_v2",
+    "title": "Diving into the stigma around consensual non-monogamies: Comparing psychopathology, well-being, attachment, and other psychological characteristics with monogamous counterparts",
+    "date_created": "2026-07-03T11:57:19.909533",
+    "date_modified": "2026-07-04T19:20:57.571671",
+    "description": "Objectives\nThis study aims to empirically challenge pervasive stigma and stereotypes around Consensual Non-Monogamy (CNM) by comprehensively comparing the psychological profiles of CNM practitioners and monogamous individuals, examining both stigma-related factors and psychological resources, while exploring the intersectional role of LGBTQIA+ identity. \nMethod\nUsing a cross-sectional design, 815 Spanish adults (388 CNM, 427 monogamous) completed validated self-report measures for all target constructs, with group comparisons conducted via one-way ANCOVAs controlling for age and LGTBIQA+ status. \nResults\nGiven the small effect sizes observed, interpretations are made with caution. Analyses revealed no robust overall differences in psychopathology or dark personality traits, directly refuting maladjustment stereotypes. CNM practitioners reported significantly higher scores in sexual sensation seeking, resilience, autonomy, and personal growth, alongside lower personal distress. Importantly, intersectional analyses indicated that LGTBIQA+ monogamous individuals exhibited the highest levels of anxious attachment and psychopathology, suggesting CNM may buffer these negative outcomes within the LGBTQIA+ community. \nConclusions\nThese findings challenge deficit-based narratives, indicating that CNM is not associated with elevated psychological risk but is linked to psychological strengths. This underscores the necessity for nuanced, evidence-based, and stigma-free frameworks in both research and clinical practice addressing diverse relational orientations.\n\nKeywords: non-monogamy; LGTBIAQ+, polyamory; psychopathology; adult attachment; well-being",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c45",
+          "text": "Psychology, other"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/g9avj_v2/"
+  },
+  {
+    "osf_id": "jf3u2_v1",
+    "title": "Falling on Fertile Ground: National Identity Rhetoric Mobilises Those High in National Narcissism",
+    "date_created": "2026-07-03T11:58:15.760399",
+    "date_modified": "2026-07-04T19:19:29.112337",
+    "description": "Politicians frequently talk about national identity and commitment to national interests. We examined whether such rhetoric mobilises supporters by exploring the role of national narcissism—a belief that one’s nation is exceptional and entitled to special treatment. We tested whether national identity rhetoric boosts the audience’s national narcissism or whether it appeals to those already high in national narcissism. In six experiments, conducted in the US and UK (Ntotal = 3,716), we measured reactions to AI-generated political speeches (Studies 1, 3, 4 and 6) and social media posts (Studies 2 and 5). We found that participants high in national narcissism perceived messages promoting national identity as more persuasive and were more willing to share them on social media, compared to messages rejecting national identity (Studies 1 and 2) or neutral ones (Studies 3 and 4). We also found that national narcissism predicted voting for (Studies 1 and 3), and broadly supporting (Studies 4 and 6), leaders who appealed to national identity in their speeches, compared to those who did not. In Study 5, we corroborated our findings by relying on behavioural indices of engagement with social media posts on a mock platform. Similar effects were observed for messages promoting national identification and national narcissism. Furthermore, in Study 6, national narcissism predicted support for leaders promoting (vs. rejecting) national narcissism regardless of their partisan affiliation (as Republican vs. Democrat). Across the six studies, we found no reliable evidence that national identity messages affected participants’ own national sentiments.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/jf3u2_v1/"
+  },
+  {
+    "osf_id": "6fske_v1",
+    "title": "MEMORY REACTIVATION ALTERS THE FATE OF NEUTRAL EPISODIC MEMORIES FOLLOWING A SUBSEQUENT INDEPENDENT EXPERIENCE",
+    "date_created": "2026-07-03T12:11:05.212606",
+    "date_modified": "2026-07-04T19:17:49.148520",
+    "description": "Memory reactivation may lead to strengthening, weakening, or updating depending on the experience that follows retrieval. Although post-reactivation modification has been shown for emotional, aversive, and naturalistic episodic memories, it remains unclear whether a consolidated neutral memory for an everyday-like event can be distorted when reactivation is followed by a subsequent independent episodic experience. Yet memories that later become relevant for testimony often initially concern neutral everyday events, such as conversations, routine encounters, or the presence of a person in a given context. Here, we examined whether a consolidated complex neutral episodic memory could be modified when reactivation was followed by a subsequent independent episodic experience. Participants encoded a neutral audiovisual story and returned one week later for an incomplete reminder designed to reactivate the original memory. After reactivation, one group encoded a second neutral audiovisual story, whereas another group received the reminder only. Two control groups either encoded the second story without prior reactivation or received no reminder. One week later, memory was assessed using free recall, cued recall, recognition, and temporal order tasks. Reactivation followed by the second episodic experience reduced accurate recall of the original story and increased false recall and intrusions from the subsequent story. In contrast, reminder-only reactivation was associated with better preservation and fewer distortions. These effects were expressed primarily in free recall. Thus, the fate of a consolidated complex neutral episodic memory depended on post-reactivation experience, with reactivation alone associated with relative preservation and reactivation followed by a new independent episode promoting updating/interference.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/6fske_v1/"
+  },
+  {
+    "osf_id": "hda3g_v3",
+    "title": "The case of Michelle: Solutions of best sport psychology practice using four psychological perspectives",
+    "date_created": "2026-07-03T12:12:42.604146",
+    "date_modified": "2026-07-04T19:19:06.250945",
+    "description": "Practitioners in sport psychology have long emphasized the importance of intervention plans informed by diverse philosophical and psychological perspectives. However, few publications present practical models drawn from various schools of thought. This paper addresses that gap by presenting responses developed within an international intervision group of sport psychology practitioners, who meet monthly to exchange best practices. We focus on the case of Michelle, a 16-year-old elite gymnast who sustained a serious injury requiring surgery and a prolonged recovery before returning to training and competition. To support Michelle’s rehabilitation, we outline four distinct intervention approaches: the Integrative Approach, the Mindfulness- and Acceptance-based Approach, the Psychodynamic Approach, and the Existential Approach. Each framework provides structured, theory-consistent methods and assessments tailored to the athlete’s physical and psychological needs during recovery. These approaches highlight distinct pathways to enhance resilience, foster motivation, and support reintegration into sport. We aim to inspire young practitioners to select approaches that align with their academic and clinical training, while also encouraging experienced professionals to expand their repertoires beyond habitual methods. As an intervision group, we further aspire to contribute ongoing best-practice recommendations that simplify daily challenges in a demanding and often isolated profession.\n\nKey words: Sport Psychology, approaches, injury, international intervision group",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c3d",
+          "text": "Sport Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/hda3g_v3/"
+  },
+  {
+    "osf_id": "nw9t8_v3",
+    "title": "Nature immersion in virtual reality does not reduce naturally occurring muscle pain or improve motor outputs during prescribed or self-regulated tasks",
+    "date_created": "2026-07-03T12:17:12.283549",
+    "date_modified": "2026-07-04T19:18:37.617109",
+    "description": "Virtual reality (VR) can reduce experimental and clinical pain, yet it remains unclear whether these effects translate to naturally occurring muscle pain (NOMP) experienced during physical tasks. This study examined whether nature immersion presented through immersive VR attenuates NOMP and enhances motor performance during prescribed and self-regulated exercise. Two within-participant crossover studies were conducted. In Study 1, twelve healthy participants completed a stepped incremental cycling task to exhaustion under three conditions: immersive VR (nature scene), a two-dimensional sham display, and a no-intervention control. Pain onset, NOMP intensity, perceived effort, and time to exhaustion were measured. In Study 2, twenty-four participants performed intermittent isometric handgrip contractions at fixed light (13/100) or strong (50/100) perceived effort under the same conditions, with self-regulated force output and NOMP intensity measured. Immersive VR did not significantly delay pain onset, prolong time to exhaustion, reduce NOMP intensity, or lower perceived effort compared with sham or control conditions. A small reduction in NOMP intensity occurred early in the cycling task, but effects were trivial and not sustained. In Study 2, NOMP intensity, force production, and fatigue-related declines were similar across conditions. Exploratory analyses showed no moderating effects of sex, environmental presence, or fatigue. Overall, these findings demonstrate that nature-based VR immersion has limited effects on NOMP or motor performance. This likely reflects a mismatch between central mechanisms targeted by VR and strong peripheral drivers of NOMP. Consequently, VR hypoalgesia appears pain-type dependent and potentially pain-intensity dependent, with effects limited to lower pain intensities.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c3d",
+          "text": "Sport Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfc",
+          "text": "Health-related Behavior"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/nw9t8_v3/"
+  },
+  {
+    "osf_id": "2av67_v1",
+    "title": "Communicative Milestones: Modeling Age of Attainment in the First two Years",
+    "date_created": "2026-07-03T12:21:22.951891",
+    "date_modified": "2026-07-04T19:11:04.252239",
+    "description": "Early communicative milestones, such as first words and gestures, emerge within the broader context of overall child development. However, because studies typically focus on individual milestones and assess them cross-sectionally, they capture whether or not a milestone has already been achieved, but not when it first emerges — the Age of Attainment (AoA). To address this gap, we analyzed longitudinal data from 4,359 children collected through the Pebbles App, a smartphone-based developmental diary, in which respondents report whether and when a milestone was first observed. This approach provides fine-grained data and allows us to study the underlying dimensionality of the AoA of 14 early communicative milestones within the first two years of life. Exploratory factor analysis revealed a three-factor structure: (1) babbling (e.g., reduplicated babbling), (2) early nonverbal communication (e.g., pointing), and (3) linguistic productivity and gestures (e.g., producing first words). These factors were interrelated, which suggests that very early milestones (e.g., babbling) serve as markers that predict later communicative development within the first two years. The factor structure was invariant across different contextual groups (e.g., sex, caregiver education, or preterm status). Our results provide an important framework for understanding early communicative trajectories through AoA.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c37",
+          "text": "Infancy"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c52",
+          "text": "Early Childhood"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c87",
+          "text": "Language Aquisition"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/2av67_v1/"
+  },
+  {
+    "osf_id": "yb5fc_v1",
+    "title": "Prefrontal development during late childhood shapes adolescents’ emotional responses to everyday social rejection",
+    "date_created": "2026-07-03T12:29:52.737134",
+    "date_modified": "2026-07-04T19:17:31.915184",
+    "description": "Social rejection is a critical risk factor for adolescents’ mental health, yet adolescents differ markedly in how emotionally they respond to everyday rejection. This preregistered study examined adolescents’ emotional responses to everyday social rejection, and whether these responses are moderated by neurodevelopmental changes across childhood and cognitive emotion regulation (CER). Dutch adolescents (N=195, aged 15–17) completed a 17-day Experience Sampling Method (ESM) protocol with six assessments per day, reporting perceived social rejection and momentary affect (loneliness, irritation, cheerfulness) across offline and online social contexts. Longitudinal changes in dorsolateral prefrontal cortex (DLPFC) activation across childhood and CER were assessed as moderators of within-person rejection–affect associations. Daily social rejection was prevalent but typically low in intensity. When adolescents experienced more rejection than usual, they reported increased loneliness and irritation and decreased cheerfulness. These associations were stronger for offline than online rejection and were amplified when rejection occurred across both contexts. Importantly, maladaptive CER strengthened rejection-related loneliness, whereas stronger developmental increases in DLPFC activation across childhood attenuated adolescents’ loneliness responses to rejection. Our findings show that the emotional impact of everyday social rejection reflects individual differences in neurodevelopmental maturation and highlight emotion regulation as a potential mechanism underlying adolescents’ social sensitivity.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1d",
+          "text": "Developmental Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c31",
+          "text": "Middle & Late Childhood"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c32",
+          "text": "Social Development"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cca",
+          "text": "Adolescence"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/yb5fc_v1/"
+  },
+  {
+    "osf_id": "4j3hf_v2",
+    "title": "Unlocking the potential of simulation studies in network psychometrics: A tutorial",
+    "date_created": "2026-07-03T12:58:04.397091",
+    "date_modified": "2026-07-04T19:16:41.243765",
+    "description": "Simulation studies are a powerful tool within the field of network psychometrics, providing insight into sample size determination and best practices for achieving accurate results. However, the advantages simulation studies provide have thus far been predominately harnessed by psychological researchers with a statistical or methodological background. While user-friendly methods for simulating psychological networks have been developed, there remains a lack of comprehensive guidelines for their effective utilization. In response, this tutorial paper serves as a guide on how to set up simulation studies for three widely used network modeling techniques: the Ising model, the Gaussian Graphical Model (GGM), and the Graphical Vector Autoregressive (GVAR) model. We explain the rationale behind simulation studies and present a step-by-step roadmap to initiate one's own simulation studies. This roadmap covers all essential aspects using a practical example to guide the reader. In addition, we provide an overview of open-source software packages available for simulating network models in the statistical programming environment R, and demonstrate their practical application. In doing so, we aim to enable more researchers to explore and resolve statistical questions within network psychometrics.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c92",
+          "text": "Statistical Methods"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/4j3hf_v2/"
+  },
+  {
+    "osf_id": "mdt4u_v5",
+    "title": "A spatiotemporal hierarchy for social interaction perception in the lateral visual stream",
+    "date_created": "2026-07-03T13:28:37.446713",
+    "date_modified": "2026-07-04T19:14:25.874086",
+    "description": "The lateral visual stream has been recently proposed as a third visual stream, in addition to the ventral and dorsal streams, specialized for processing dynamic social content. While prior work has suggested that the regions of this pathway form a hierarchy representing increasingly abstract information, the computations along this pathway are still largely unknown. High spatiotemporal resolution data are particularly informative for characterizing the information flow and thus neural computations across different brain regions. Using a novel regression approach, we combine data from EEG, fMRI, and behavior in response to the same videos to leverage the high temporal resolution of EEG and whole-brain spatial resolution of fMRI. We find that low-level visual features are represented in early visual cortex with a short temporal latency and are not represented in higher-level regions of the lateral stream. Further, we find that mid-level features are represented in mid-level lateral regions with a shorter latency than high-level features in more anterior regions of the lateral pathway. However, both mid- and high-level features were decodable in anterior regions of the lateral pathway with a similar latency. Together, these results provide evidence that features of social actions are processed rapidly in the lateral visual stream in a manner that is consistent with hierarchical processing, but the lateral stream does not exhibit a strict temporal sequence of representational transformations along the posterior-to-anterior axis.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c86",
+          "text": "Action"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/mdt4u_v5/"
+  },
+  {
+    "osf_id": "h9gxz_v1",
+    "title": "Do Control Input Metrics Capture Game Feel and Skill-Challenge Balance?",
+    "date_created": "2026-07-03T13:37:27.259109",
+    "date_modified": "2026-07-04T19:16:19.649483",
+    "description": "Game feel - virtual sensation during the real-time control of virtual objects - is considered a central element of game design. A growing body of research investigates its impact on player experience. However, questions remain regarding how to study and analyse game feel, complicating evaluation and impeding our understanding of this phenomenon. Drawing from ecological psychology, we report on an experimental study to understand whether measures used in the study of skilled movement have potential in characterising game feel.\nWe find that metrics derived from player control input distinguish between player skill levels and different kinds of game-feel in the same game. Among these, multifractality - a measure of complex nesting in player control movements - shows sensitivity to skill-challenge balance. We discuss the relationship of these measures to player experience and game feel experience. Collectively, our findings point to more fine-grained approaches to capturing game feel related to real-time control.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c1a",
+          "text": "Engineering Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c45",
+          "text": "Psychology, other"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce6",
+          "text": "Embodied Cognition"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/h9gxz_v1/"
+  },
+  {
+    "osf_id": "m24sc_v1",
+    "title": "Acoustic Startle Reactivity and Pre-Pulse Inhibition in ADHD and Autism: Evidence for a Developmental Emergence of Group Differences",
+    "date_created": "2026-07-03T14:20:17.331933",
+    "date_modified": "2026-07-04T19:10:20.079076",
+    "description": "The acoustic startle response (ASR) and its modulation by pre-pulse inhibition (PPI) provide objective indices of sensory reactivity and sensorimotor gating that are altered in several neurodevelopmental conditions. While Autism Spectrum Disorder (ASD) is often associated with acoustic hyper-reactivity and Attention-Deficit/Hyperactivity Disorder (ADHD) with attention-dependent gating deficits, direct transdiagnostic comparisons across development are rare. This study examined startle amplitude and PPI in 154 children and adults with ADHD (n = 47), ASD (n = 43), and typically developing controls (TD; n = 64). Startle amplitude (across 65–105 dB stimuli) and percent PPI (at 60ms and 120ms SOAs) were analyzed using linear mixed-effects models with diagnostic group, age group, sex, and their interactions as predictors. In children, no significant group differences emerged in either startle amplitude or PPI (all ps ≥ .21). In adults, however, a significant Group × Age interaction was observed for both measures (ps ≤ .037): ADHD adults showed markedly lower startle amplitude and PPI than both ASD and TD adults, with ADHD showing a significant ~59% reduction in startle amplitude from childhood to adulthood. ASD adults showed elevated startle amplitude relative to TD adults, but intact PPI comparable to TD. Group differences in the startle intensity-response function were most pronounced at higher stimulus intensities (95–105 dB). Sensitivity analyses confirmed that ADHD-related effects were robust to an age imbalance in the ASD adult subsample, though the ASD-TD startle amplitude difference was attenuated to a trend when continuous age was covaried. These findings indicate that sensory reactivity and gating abnormalities in ADHD and ASD are absent in childhood but diverge substantially by adulthood, pointing to distinct neurodevelopmental profiles that may reflect differential maturation of underlying regulatory circuits.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1d",
+          "text": "Developmental Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/m24sc_v1/"
+  },
+  {
+    "osf_id": "hgk97_v1",
+    "title": "Reactivity, Habituation, and Initial Value Dependence of the Acoustic Startle Response in a Transdiagnostic Developmental Sample of ADHD and ASD",
+    "date_created": "2026-07-03T14:44:08.735484",
+    "date_modified": "2026-07-04T19:08:52.254120",
+    "description": "The acoustic startle response (ASR) serves as a reliable, non-invasive index of central nervous system function, providing an objective tool to assess sensorimotor integration and behavioral plasticity. A key feature of this reflex is its modulation across repeated stimulation, specifically through habituation, which refers to the decline in response magnitude when a startling stimulus is presented multiple times. Initial Value Dependence (IVD) which is the tendency for larger initial responses to predict steeper habituation slopes has recently been proposed as a meaningful marker of physiological flexibility yet has rarely been examined in developmental or clinical populations. This study examined eyeblink electromyographic startle habituation and IVD in 165 individuals (93 children, 72 adults) across three diagnostic groups: typically developing (TD; n = 63), Autism Spectrum Disorder (ASD; n = 50), and Attention-Deficit/Hyperactivity Disorder (ADHD; n = 52). A three-level hierarchical linear model (trials nested within blocks within participants; 318 valid blocks) was used to model habituation slopes, IVD, and their moderation by diagnosis and age group. IVD was robustly present across the full sample (B = −16.10, p &lt; .001), replicating and extending prior findings to a developmentally and diagnostically diverse clinical sample. While overall habituation slopes did not differ by diagnosis or age, follow-up correlational analyses revealed distinct developmental trajectories of IVD: TD individuals showed strong IVD in childhood that was absent in adulthood, ASD individuals showed stable IVD across both age groups, and ADHD individuals showed an absent IVD relationship at all ages. Additionally, a significant diagnosis × age interaction emerged for baseline startle magnitude, driven by ADHD adults showing markedly lower baseline reactivity than ADHD children which was not observed in TD or ASD. These results suggest that IVD captures distinct, diagnosis-specific p",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1d",
+          "text": "Developmental Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/hgk97_v1/"
+  },
+  {
+    "osf_id": "6my43_v1",
+    "title": "Tendencies that help you bend but not break. A prospective co-twin control study of personality factors predicting resilience outcomes.",
+    "date_created": "2026-07-03T14:49:44.772828",
+    "date_modified": "2026-07-04T19:08:36.283237",
+    "description": "Personality traits may affect the likelihood of demonstrating better mental health than expected given the stressor load (i.e., resilience). However, both personality and resilience are partly heritable, and the relationship may be influenced by confounding genetics and varying definitions of resilience. We examine prospective associations between the five factor personality traits, including their facets, and two different types of outcome-based resilience, while controlling for confounding from genetic and shared environmental factors. We applied linear mixed models and a co-twin control design using a Norwegian Twin Registry subsample born between 1945-60 (N = 1,516 in 2010; N = 1,987 in 2016). Personality was measured in 2010 via the NEO-PI-R, and resilience-outcomes in 2016 as the standardised regression residual of anxiety and depressive symptoms (type 1) and life satisfaction (type 2), respectively, after lifetime cumulative adversity had been regressed out. Neuroticism and most of its facets showed significant prospective associations with both resilience types after the co-twin control. Additionally, the extraversion facet “positive emotion” was significantly related to resilience type 1, and conscientiousness and its facet “achievement striving” were significantly related to resilience type 2. We discuss the utility of genetically sensitive designs and personality traits for future efforts to promote resilience.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c53",
+          "text": "Individual Differences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb2",
+          "text": "Well-being"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd1",
+          "text": "Genetic factors"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/6my43_v1/"
+  },
+  {
+    "osf_id": "x9ktv_v1",
+    "title": "The recipe for intelligence in natural and artificial systems",
+    "date_created": "2026-07-03T15:00:45.827083",
+    "date_modified": "2026-07-04T19:08:17.427137",
+    "description": "Ten years ago, two landmark papers discussed open problems in AI research from the standpoint of neuroscience and cognitive science. Today, many of these problems have been solved, mostly without direct inspiration from the study of the human brain. In this paper, we consider what is still shared between the twin endeavours of understanding natural brains and building artificial ones. We argue that as well as understanding the “ingredients” of intelligence (its component parts) both fields are now coming to grasp the “recipe” for intelligence (how they fit together). Surprisingly, this recipe has many parallels in biological and artificial systems. Despite rapid progress in AI research, there are many computational problems that remain unsolved. We discuss how these problems may be addressed in natural intelligence.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/x9ktv_v1/"
+  },
+  {
+    "osf_id": "qakr8_v1",
+    "title": "Predicting Early Non-Response to Buprenorphine Treatment for Opioid Use Disorder: A Machine Learning Approach",
+    "date_created": "2026-07-03T15:57:35.976978",
+    "date_modified": "2026-07-04T19:02:26.972742",
+    "description": "Objective: Early non-response to buprenorphine treatment for opioid use disorder (OUD), including elevated craving and illicit opioid use in the first weeks of treatment, robustly predicts later recovery outcomes. Yet, little is known about who is at risk of early non-response, and identifying predictors could help classify at-risk individuals even earlier in care. We trained and tested risk prediction models for early non-response to buprenorphine treatment.  \nMethod: Data were from two harmonized clinical trials of buprenorphine treatment for OUD (N=562). We used elastic net and random forest models to predict two previously-validated definitions of early non-response: 1) 2+ days of opioid use in the first three weeks, and 2) a score of 2+ on a 0-10 craving visual analog scale in the first week. Predictors included pre-treatment demographics and clinical variables (e.g., polysubstance use, co-occurring disorders). \nResults: Models demonstrated weak predictive performance for both outcomes, with areas under the receiver operating characteristic curve (AUCs; 0.590–0.656) below the benchmark for acceptable performance (AUC&gt;0.7). The strongest predictors differed by the two outcome definitions; opioid use severity indicators (e.g., heroin use frequency) were strong predictors of non-response based on opioid use, while craving, withdrawal, and psychosocial functioning were strong predictors of non-response based on craving. \nConclusions: Pre-treatment characteristics showed limited predictive value for early non-response to buprenorphine, aligning with prior work using machine learning models to predict later outcomes in OUD treatment. There is likely more value in attending to medication response in the first weeks after initiation as a prognostic marker.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c30",
+          "text": "Substance Abuse and Addiction"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/qakr8_v1/"
+  },
+  {
+    "osf_id": "sqjbc_v1",
+    "title": "What Gets Retrieved? Testing Effects in the Absence of Prior Study",
+    "date_created": "2026-07-03T17:35:12.986750",
+    "date_modified": "2026-07-04T19:05:44.771743",
+    "description": "Existing accounts of testing effects assume a dedicated study trial is necessary. Students must encode material before practice can strengthen memory. We tested this assumption by removing the study trial entirely. Across two experiments using prequestions and postquestions formats, in addition to clear effects of adding practice to a passage, a Practice with Feedback Only condition, in which participants answered questions about never studied material and received feedback, matched the accuracy of full instruction conditions that included a study passage. The study trial added time but not learning. These findings challenge the foundational assumption that a study trial is a necessary precondition for practice-based learning. We propose that the functional unit of learning is the generation of a response and its precise resolution through targeted feedback, not retrieval from a prior study event.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/sqjbc_v1/"
+  },
+  {
     "osf_id": "2mb7x_v1",
     "title": "The Face of ChatGPT:  Using Reverse Correlation to Explore Mental Representations of AI",
     "date_created": "2026-07-03T18:52:26.577793",
@@ -1031,8 +1811,8 @@
     "osf_id": "r8nzd_v1",
     "title": "How to Implement Interdisciplinary Care in Persistent Pain: A Process-Based Framework for Clinical Decision-Making",
     "date_created": "2026-07-04T15:27:36.744816",
-    "date_modified": "2026-07-04T18:46:30.773460",
-    "description": "Interdisciplinary care is widely recognised as the gold standard for the management of persistent pain. However, despite strong theoretical support, its implementation remains inconsistent due to the lack of operational frameworks that guide how multidisciplinary information should be integrated into coordinated clinical decision-making. Existing biopsychosocial, process-based, and network-informed models provide valuable conceptual foundations but offer limited guidance on how clinicians should identify, prioritise, and target processes within interdisciplinary practice.\nThis paper builds on the previously proposed Process-Based Interdisciplinary Therapy (PbIT) framework by operationalising its application to interdisciplinary clinical decision-making in persistent pain. PbIT integrates the Pain and Movement Reasoning Model (PMRM), micro-level functional analysis, and the Extended Evolutionary Meta-Model (EEMM) into a recursive clinical decision-making system that supports shared formulation, process prioritisation, intervention selection, and ongoing treatment adaptation. Rather than prescribing discipline-specific interventions, the framework provides a flexible structure for coordinating professional expertise around modifiable biopsychosocial processes identified through interdisciplinary assessment.\nTo facilitate implementation, PbIT is operationalised through a six-step clinical workflow encompassing interdisciplinary assessment, network formulation, functional analysis, target prioritisation, intervention design, continuous monitoring, and readjustment. A hypothetical clinical case is used throughout to illustrate how the framework may support collaborative reasoning and adaptive treatment planning.\nBy making interdisciplinary clinical reasoning explicit, transparent, and reproducible, PbIT offers a practical framework for translating process-based and network-informed theory into coordinated interdisciplinary care. The framework has the potential to improve",
+    "date_modified": "2026-07-04T21:30:59.682594",
+    "description": "Interdisciplinary care is widely recognised as the gold standard for the management of persistent pain. However, despite strong theoretical support, its implementation remains inconsistent due to the lack of operational frameworks that guide how multidisciplinary information should be integrated into coordinated clinical decision-making. Existing biopsychosocial, process-based, and network-informed models provide valuable conceptual foundations but offer limited guidance on how clinicians should identify, prioritise, and target processes within interdisciplinary practice.\n\nThis paper builds on the previously proposed Process-Based Interdisciplinary Therapy (PbIT) framework by operationalising its application to interdisciplinary clinical decision-making in persistent pain. PbIT integrates the Pain and Movement Reasoning Model (PMRM), micro-level functional analysis, and the Extended Evolutionary Meta-Model (EEMM) into a recursive clinical decision-making system that supports shared formulation, process prioritisation, intervention selection, and ongoing treatment adaptation. Rather than prescribing discipline-specific interventions, the framework provides a flexible structure for coordinating professional expertise around modifiable biopsychosocial processes identified through interdisciplinary assessment.\n\nTo facilitate implementation, PbIT is operationalised through a six-step clinical workflow encompassing interdisciplinary assessment, network formulation, functional analysis, target prioritisation, intervention design, continuous monitoring, and readjustment. A hypothetical clinical case is used throughout to illustrate how the framework may support collaborative reasoning and adaptive treatment planning.\n\nBy making interdisciplinary clinical reasoning explicit, transparent, and reproducible, PbIT offers a practical framework for translating process-based and network-informed theory into coordinated interdisciplinary care. The framework has the potential to impr",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
