@@ -1,44 +1,23 @@
 {
-  "discovered": 57,
-  "alreadyExisting": 17,
+  "discovered": 25,
+  "alreadyExisting": 3,
   "hardExcluded": 2,
-  "lowSignal": 5,
-  "candidates": 33,
+  "lowSignal": 2,
+  "candidates": 18,
   "candidates_list": [
     {
-      "osf_id": "kd9et_v6",
-      "title": "Minimum Cost Psychological Defense: Theoretical Construction and Anti-Fraud Application",
-      "date_created": "2026-07-01T02:39:19.948519",
-      "signal_score": 6,
-      "description_preview": "Human decision-making under acute stress reveals a critical paradox in applied social psychology: despite possessing adequate declarative risk knowledge, individuals frequently exhibit a knowing-doing"
+      "osf_id": "dg6at_v2",
+      "title": "“We love our jobs!” Systems Thinking and Participatory Action Research for the future of neurodiversity and skilled empl",
+      "date_created": "2026-07-04T16:26:11.575542",
+      "signal_score": 11,
+      "description_preview": "Although neurodivergent people can achieve high levels of academic and vocational training in the same professions as others, they remain un- and under-employed; this is in part due to the “wickedness"
     },
     {
-      "osf_id": "hkeaq_v1",
-      "title": "Interictal Epileptiform Discharges and Long-Term Neurodevelopmental Outcomes in Children with Early-Onset Epilepsy: A Sy",
-      "date_created": "2026-07-01T09:40:45.837416",
-      "signal_score": 5,
-      "description_preview": "Background: Children with early-onset epilepsy (seizure onset ≤ 5 years) are at elevated risk of adverse neurodevelopmental outcomes, including cognitive impairment, intellectual disability, and autis"
-    },
-    {
-      "osf_id": "m5bne_v1",
-      "title": "Cognitive Functions versus Psychological States in Juggling Performance: A Cross-Sectional Study from the TuJuggling Tri",
-      "date_created": "2026-07-01T15:34:39.790168",
-      "signal_score": 5,
-      "description_preview": "Background: Juggling is a complex sensorimotor skill, yet the cognitive and psychological correlates of performance remain poorly understood. This study examined the relative contribution of cognitive"
-    },
-    {
-      "osf_id": "f6xys_v2",
-      "title": "A systematic review and meta-analysis of efficacy beliefs in pro-environmental behavior change",
-      "date_created": "2026-07-01T06:55:39.980633",
-      "signal_score": 4,
-      "description_preview": "Efficacy beliefs – individuals’ conviction that their actions can make a meaningful difference – are widely regarded as key psychological drivers of pro-environmental behavior and promising targets fo"
-    },
-    {
-      "osf_id": "khfnj_v1",
-      "title": "Foundations of English as a Foreign Language Literacy: Cognitive and Linguistic Contributions to English Reading and Spe",
-      "date_created": "2026-07-01T07:53:21.273656",
-      "signal_score": 4,
-      "description_preview": "Purpose: This longitudinal study investigated the cognitive and linguistic predictors of English as a foreign language (EFL) literacy among elementary school children in Germany, focusing on reading c"
+      "osf_id": "r8nzd_v1",
+      "title": "How to Implement Interdisciplinary Care in Persistent Pain: A Process-Based Framework for Clinical Decision-Making",
+      "date_created": "2026-07-04T15:27:36.744816",
+      "signal_score": 9,
+      "description_preview": "Interdisciplinary care is widely recognised as the gold standard for the management of persistent pain. However, despite strong theoretical support, its implementation remains inconsistent due to the "
     },
     {
       "osf_id": "h9m8e_v1",
@@ -55,11 +34,11 @@
       "description_preview": "The present study examines whether the issues with implied causal inference identified by Haber et al. (2022) in observational health research extend to the field of industrial-organisational (IO) psy"
     },
     {
-      "osf_id": "6fxjv_v1",
-      "title": "Realistic deepfakes are detected better from a single glance than deliberate inspection",
-      "date_created": "2026-07-01T02:16:17.028897",
-      "signal_score": 3,
-      "description_preview": "The rapidly increasing realism of AI-generated faces threatens trust in digital media, as observers often fail to reliably distinguish AI-generated faces from real faces under prolonged viewing. Acros"
+      "osf_id": "7f5c3_v2",
+      "title": "A Cultural-Ecosocial Framework for Brain Health Research",
+      "date_created": "2026-07-04T12:43:14.462519",
+      "signal_score": 4,
+      "description_preview": "There has been enormous investment in neuroscience research to advance our knowledge of\nneurological and psychiatric disorders and to identify the mechanisms that promote healthy\nneurodevelopment and "
     },
     {
       "osf_id": "c7x4s_v1",
@@ -67,62 +46,6 @@
       "date_created": "2026-07-03T07:37:36.392689",
       "signal_score": 3,
       "description_preview": "Habitual behaviors are automatic responses to specific cues, acquired through repetition in stable contexts. While habits can support long-term behavior change, relatively little is known about which "
-    },
-    {
-      "osf_id": "9he86_v1",
-      "title": "Acoustic and social bonding differences between Japanese singing and conversation: A Registered Report replicating Ozaki",
-      "date_created": "2026-07-01T02:14:06.328092",
-      "signal_score": 2,
-      "description_preview": "Understanding cross-cultural differences between singing and speech is a central goal of the Many Voices project (Savage et al. 2025a). As part of this effort, the present study examined Japanese part"
-    },
-    {
-      "osf_id": "9nf7t_v1",
-      "title": "Whole-brain anatomical and temporal patterns  hypothesized to be evoked during a false-belief fMRI task",
-      "date_created": "2026-07-01T04:48:54.898015",
-      "signal_score": 2,
-      "description_preview": "Background: Functional magnetic resonance imaging (fMRI) investigations of theory of \nmind and false-belief processing have been central to cognitive neuroscience for several \ndecades. Drawing on prev"
-    },
-    {
-      "osf_id": "zmgac_v1",
-      "title": "Developmental changes in attention to faces in naturalistic family scenes",
-      "date_created": "2026-07-01T11:51:07.827171",
-      "signal_score": 2,
-      "description_preview": "Many studies have investigated children’s attentional preferences to faces of different ages and genders. However, this research has usually investigated these preferences using pictures of faces in i"
-    },
-    {
-      "osf_id": "qub93_v1",
-      "title": "Temporal interval judgments are affected by stimulus order but not spatial distance",
-      "date_created": "2026-07-01T13:44:22.978708",
-      "signal_score": 2,
-      "description_preview": "Abstract\nJudgments of time are often sensitive to the spatial context of the relevant stimuli as well as their action contingencies. This results in well-known effects of spatial separation on time ju"
-    },
-    {
-      "osf_id": "74ue3_v1",
-      "title": "A Developmental Map of Pathogen-Avoidance Behaviors",
-      "date_created": "2026-07-01T15:18:44.299328",
-      "signal_score": 2,
-      "description_preview": "Despite the significant costs of early-life infections, young children show little behavioral avoidance of pathogens. This phenomenon raises as-of-yet unanswered questions about when anti-pathogen psy"
-    },
-    {
-      "osf_id": "n8c6t_v1",
-      "title": "MRIHeadScan: An Automated Pipeline for Quantifying Structural Brain Asymmetry and Statistical Rarity",
-      "date_created": "2026-07-01T16:13:27.336775",
-      "signal_score": 2,
-      "description_preview": "Structural brain asymmetry is a key indicator of neurodevelopmental and pathological states, yet its quantification in large-scale datasets is often confounded by registration errors, site-induced var"
-    },
-    {
-      "osf_id": "zea9c_v1",
-      "title": "Arts, cultural, and creative engagement in the United States: a cluster analysis of daily time use patterns",
-      "date_created": "2026-07-01T16:20:05.840158",
-      "signal_score": 2,
-      "description_preview": "Given that arts engagement may have benefits for individuals and communities, it is important to understand everyday arts behaviours in the population. While existing research has looked at predictors"
-    },
-    {
-      "osf_id": "kzgpj_v1",
-      "title": "Fine-tuning LLMs for Detecting Negative Self-Referential Language in Smartphone Text among Youth with Depression",
-      "date_created": "2026-07-01T17:46:02.903609",
-      "signal_score": 2,
-      "description_preview": "Adolescent smartphone language provides a lens into negative self-referential thinking, which is central to major depressive disorders (MDD). Prior studies have linked language features, including neg"
     },
     {
       "osf_id": "fm9vz_v3",
@@ -139,67 +62,11 @@
       "description_preview": "Researchers using Bayesian hypothesis testing in binomial generalized linear models (GLMs; for instance, logistic regression for accuracy data) need priors on regression coefficients, but no widely ad"
     },
     {
-      "osf_id": "dm82w_v1",
-      "title": "Overall attitudes towards quantum computing are more positive than overall attitudes towards artificial intelligence con",
-      "date_created": "2026-07-01T07:34:24.465827",
-      "signal_score": 1,
-      "description_preview": "Artificial intelligence (AI) has become a major topic of public and scientific debate, whereas public perceptions of quantum computing (QC) remain less understood. In the present study, we aimed to un"
-    },
-    {
-      "osf_id": "u6tnx_v1",
-      "title": "No Escape from Behavior in Evaluating Compositionality",
-      "date_created": "2026-07-01T08:51:59.327906",
-      "signal_score": 1,
-      "description_preview": "Evaluating whether a natural or artificial system exhibits compositionality is an empirical problem of active interest in both Cognitive Science and Artificial Intelligence. Because any function admit"
-    },
-    {
-      "osf_id": "8daky_v1",
-      "title": "Handing over control: A longitudinal study of delegation and disclosure in human-AI interaction",
-      "date_created": "2026-07-01T09:00:21.883163",
-      "signal_score": 1,
-      "description_preview": "The increasing integration of generative artificial intelligence (GenAI) into everyday tasks raises important questions about how individuals rely on these systems in the long run. While prior researc"
-    },
-    {
-      "osf_id": "2rafb_v1",
-      "title": "Individual Differences in Reliance on Generative AI in Schoolwork: The Role of Executive Functioning Difficulties, Perce",
-      "date_created": "2026-07-01T09:07:43.758256",
-      "signal_score": 1,
-      "description_preview": "Generative artificial intelligence (GenAI) tools are becoming an increasingly common part of adolescents’ everyday and academic life, raising important questions about which individuals may be more li"
-    },
-    {
-      "osf_id": "s47xz_v1",
-      "title": "The Joint Effects of Measurement Error and Model Misspecification on Statistical Interactions",
-      "date_created": "2026-07-01T10:54:35.186965",
-      "signal_score": 1,
-      "description_preview": "Measurement error in predictors and unmodelled interaction effects pose recurring challenges in psychological research, yet their joint consequences for regression analysis have not been analytically "
-    },
-    {
-      "osf_id": "m2vuz_v1",
-      "title": "Free Will to Imagine: Creative Agency as a Metacognitive Feeling",
-      "date_created": "2026-07-01T15:21:20.603470",
-      "signal_score": 1,
-      "description_preview": "People routinely feel creative ownership over mental processes that are demonstrably shaped by forces outside themselves. We introduce creative agency—the sense of authorship and free will one experie"
-    },
-    {
-      "osf_id": "v7qd8_v2",
-      "title": "Predictive models of mental health based on resting-state functional connectivity show limited generalizability across l",
-      "date_created": "2026-07-01T16:20:28.690199",
-      "signal_score": 1,
-      "description_preview": "Late childhood and adolescence are marked by substantial reorganization of the brain’s\nfunctional connectome and the emergence of many mental health problems. Although resting-\nstate functional connec"
-    },
-    {
-      "osf_id": "msqpu_v1",
-      "title": "Fixation durations are more than a correlate of an artificial neural network parameter",
-      "date_created": "2026-07-01T16:35:47.145201",
-      "signal_score": 1,
-      "description_preview": "In a recent study, Sulewski et al. 1 concluded that “[E]ye-movement timing decisions are shaped by memory-encoding demands rather than by perceptual processing limits.” Their evidence for such a concl"
-    },
-    {
-      "osf_id": "tbvq2_v1",
-      "title": "The Role of Human Agency in Human-AI Co-Creativity",
-      "date_created": "2026-07-01T17:44:17.436074",
-      "signal_score": 1,
-      "description_preview": "Large language models (LLMs) are popular tools for creative ideation, but have been shown to homogenize outputs across users. We test if approaching an AI tool with high human (vs. low) human agency c"
+      "osf_id": "awpfn_v1",
+      "title": "Sociocultural Correlates of Infant Visual Attention",
+      "date_created": "2026-07-04T14:23:55.158754",
+      "signal_score": 2,
+      "description_preview": "Infant visual attention—most often operationalized through looking behavior—has long served as a foundational method and explanatory construct in the study of early cognitive, perceptual, and learning"
     },
     {
       "osf_id": "me6z3_v1",
@@ -223,6 +90,20 @@
       "description_preview": "Introductory statistics courses and conventional methods in behavioral and cognitive science are typically restricted to Euclidean space without explicitly stating this, leaving many researchers unawa"
     },
     {
+      "osf_id": "4tpk8_v6",
+      "title": "What is critical metascience and why is it important?",
+      "date_created": "2026-07-02T16:31:19.598508",
+      "signal_score": 1,
+      "description_preview": "Metascience uses a scientific approach to understand and improve science. Critical metascience takes a step back to question metascience’s commonly-accepted assumptions, methods, problems, and solutio"
+    },
+    {
+      "osf_id": "2mb7x_v1",
+      "title": "The Face of ChatGPT:  Using Reverse Correlation to Explore Mental Representations of AI",
+      "date_created": "2026-07-03T18:52:26.577793",
+      "signal_score": 1,
+      "description_preview": "People readily attribute mental states to large language models, but it remains unclear what mental representation users hold of these systems when they personify them. Across two experiments, we used"
+    },
+    {
       "osf_id": "f6u2q_v1",
       "title": "Beyond search: solution-driven representation in human problem solving",
       "date_created": "2026-07-03T20:27:08.380057",
@@ -230,11 +111,25 @@
       "description_preview": "Cognitive science has often characterized problem solving as search or planning within a well-defined representation. Recent accounts extend this view by treating representation construction itself as"
     },
     {
+      "osf_id": "57fzt_v2",
+      "title": "Using a Master Narrative Framework to Examine Conversations about Race and Ethnicity",
+      "date_created": "2026-07-03T21:24:25.636373",
+      "signal_score": 1,
+      "description_preview": "Objective. Systemic racism, reinforced by color-evasive ideology, shapes the ways that emerging adults process and discuss race/ethnicity. In this preregistered and mixed methods study, we used a mast"
+    },
+    {
       "osf_id": "6ye42_v1",
       "title": "From suspicion to violent action: A multi-category framework of fear speech using qualitative content analysis and machi",
       "date_created": "2026-07-04T07:12:01.267844",
       "signal_score": 1,
       "description_preview": "Current online hate speech flagging systems overlook more subtle forms of dangerous content that are not overtly violent, and more akin to what has been described as fear speech. Fear plays a crucial "
+    },
+    {
+      "osf_id": "jbuhy_v1",
+      "title": "The trade-off between cooperation and intention-based fairness",
+      "date_created": "2026-07-04T13:05:36.012325",
+      "signal_score": 1,
+      "description_preview": "Groups frequently ostracise members who are unable, rather than unwilling, to contribute to collective efforts, despite many people viewing such exclusions as fundamentally unfair. Across two experime"
     }
   ]
 }
