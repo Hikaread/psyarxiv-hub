@@ -2326,5 +2326,211 @@
       ]
     ],
     "link": "https://osf.io/preprints/psyarxiv/e87ft_v3/"
+  },
+  {
+    "osf_id": "f6u2q_v1",
+    "title": "Beyond search: solution-driven representation in human problem solving",
+    "date_created": "2026-07-03T20:27:08.380057",
+    "date_modified": "2026-07-04T12:37:55.856163",
+    "description": "Cognitive science has often characterized problem solving as search or planning within a well-defined representation. Recent accounts extend this view by treating representation construction itself as search over possible construals, guided by downstream plan utility or collisions during simulation. Yet when relevant features, actions, and constraints are unbounded, this bilevel search over representations and solutions may be computationally intractable. Drawing on field studies of naturalistic decision-making and design, we propose that people instead adopt solution-driven strategies: familiar candidate solutions are retrieved early and used to determine which problem features must be represented. Across three preregistered experiments spanning spatial navigation, abstract compositional reasoning, and cost-based itinerary planning, increasing representational demands increased reuse of familiar but suboptimal solutions. This reuse was not blind perseveration: participants selectively represented information needed to evaluate candidate solutions. Process tracing further showed that information search was centered on cached routes, yet less ordered along the route itself, consistent with holistic evaluation rather than biased incremental search. These findings suggest that solution-driven cognition is central to problem solving under large-world representational complexity.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c4e",
+          "text": "Mathematical Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c55",
+          "text": "Computational Modeling"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c9b",
+          "text": "Problem Solving"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6ca5",
+          "text": "Memory"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7428c6983001430b6caf",
+          "text": "Quantitative Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd0",
+          "text": "Creativity"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf5",
+          "text": "Biases, Framing, and Heuristics"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfa",
+          "text": "Reasoning"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfb",
+          "text": "Judgment and Decision Making"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/f6u2q_v1/"
+  },
+  {
+    "osf_id": "h9m8e_v1",
+    "title": "Beyond Aggregate Accuracy: A Bayesian Time-Varying Autoregressive Model and Its Multilevel Extension",
+    "date_created": "2026-07-03T20:56:59.039555",
+    "date_modified": "2026-07-04T12:37:10.295127",
+    "description": "Autoregressive (AR) models are widely used to study within-person dynamics in intensive longitudinal data (ILD), but they assume constant parameters, an assumption that may not hold when the dynamics change, as during development, intervention, or recovery. The time-varying autoregressive (TV-AR) model accommodates such change by representing the intercept and AR coefficient as smooth functions of time. As originally proposed, however, it was developed for a single individual and evaluated with time-averaged accuracy metrics. We address these limitations by extending it to a Bayesian multilevel formulation with population-average and individual-specific time-varying parameters, and by emphasizing pointwise evaluation of accuracy rather than aggregate accuracy alone. Two simulation studies examined how well the single-level and multilevel models recover time-varying dynamics. Examining bias at each time point, we found that it was largest near the series boundaries and in regions of steep change or high curvature. The time-varying intercept and AR coefficient showed complementary biases that largely cancelled in the implied mean, which was therefore recovered with smaller bias. In the multilevel model, the best allocation between persons and time points depended on the parameter and inferential level: the AR coefficient favored longer series at both levels, whereas the implied mean favored more persons for population-average recovery but longer series for individual recovery. We discuss implications and recommendations for study design, result interpretation, and model selection.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/h9m8e_v1/"
+  },
+  {
+    "osf_id": "7rg83_v4",
+    "title": "Examining Linking Language and Causal Implications in Observational Psychological Capital Research",
+    "date_created": "2026-07-03T21:13:35.384165",
+    "date_modified": "2026-07-04T12:36:31.185312",
+    "description": "The present study examines whether the issues with implied causal inference identified by Haber et al. (2022) in observational health research extend to the field of industrial-organisational (IO) psychology. Haber et al. found that causal relationships were implied through the language used to link exposures and outcomes and through recommendations for action. This small-scale conceptual replication applies Haber et al.’s approach to psychological capital (PsyCap), an increasingly popular construct in the domain of IO psychology. Specifically, we evaluate the causal strength of the language used to describe the nature of the connection between given variables when reporting findings and when making recommendations for action in 50 PsyCap articles. The majority of action recommendations were found to have strong causal implications (85% in abstracts, 84% in discussion sections), and most linking sentences implied some level of causality (64% in abstracts, 58% in discussion sections). This was despite very few articles explicitly stating an intention to estimate causal effects (10%) and many explicitly warning against drawing causal inferences (42%). No significant relationship was found between the causality implied in the linking sentences and the strength of causal implication of the action recommendations. These findings have important implications for how research is implemented, and very real consequences for those who are the focus of such implementations. Increased transparency about causal interests and reasoning is needed to uphold the credibility of findings and the integrity of applications of observational PsyCap research.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c19",
+          "text": "Meta-science"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c22",
+          "text": "Industrial and Organizational Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/7rg83_v4/"
+  },
+  {
+    "osf_id": "6ye42_v1",
+    "title": "From suspicion to violent action: A multi-category framework of fear speech using qualitative content analysis and machine learning",
+    "date_created": "2026-07-04T07:12:01.267844",
+    "date_modified": "2026-07-04T12:20:29.588253",
+    "description": "Current online hate speech flagging systems overlook more subtle forms of dangerous content that are not overtly violent, and more akin to what has been described as fear speech. Fear plays a crucial role in the process of radicalisation (Doosje et al., 2013), and is an important motivator of violence (Buyse, 2014). Yet, very little work has directly examined types and variations of online fear speech. In Study 1, we qualitatively content analysed a pre-annotated fear speech dataset to propose a novel framework of fear speech classification. This framework highlights a range of varying intensities of fear messages (Suspicion, Non-Violent Fear, Violent Fear, Non-Violent Call to Action, and Violent Call to Action). In Study 2, we generated synthetic data corresponding to our proposed framework, and used it to train a lightweight transformer-based model using contrastive learning, to enable automatic multilabel classification of fear speech. Our model outperformed multiple baselines, showing a decent ability to detect and classify fear speech. The proposed framework extends theorisation on hate speech and can be used to automatically detect less obvious harmful speech online, inform moderation policies and develop more appropriate counter fear-speech designs.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/6ye42_v1/"
   }
 ]
