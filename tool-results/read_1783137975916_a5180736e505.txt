@@ -1,0 +1,759 @@
+     1→A Large-Scale Multi-Site Study of Mediators and Moderators of Visual Perceptual
+     2→Learning
+     3→Jaap Munneke1, Marcello Maniglia2, Boris Penaloza1, C. Shawn Green3, Aaron Seitz1
+     4→1. Institute of Cognitive and Brain Health, Northeastern University, Boston, MA, USA
+     5→2. Department of Psychology, Rochester Institute of Technology, NY, USA
+     6→3. Department of Psychology, University of Wisconsin Madison, WI, USA
+     7→Corresponding Author:
+     8→Jaap Munneke, PhD
+     9→Institute of Cognitive and Brain Health
+    10→Northeastern University, Boston, USA
+    11→Interdisciplinary Science and Engineering Complex - Room 612
+    12→J.Munneke@northeastern.edu
+    13→
+    14→ABSTRACT
+    15→Background: Visual Perceptual Learning (VPL), which relies on cortical plasticity, has shown
+    16→great potential for clinical rehabilitation and basic science. However, translational research is held
+    17→back by small-sample studies (N < 12), replication failures, and methodological heterogeneity
+    18→across various labs. The current multi-site clinical trial aims to create an adequately powered,
+    19→standardized dataset and testing platform for VPL, designed to investigate the mechanisms of
+    20→successful PL and its generalization (i.e. transfer) to other perceptual and cognitive tasks.
+    21→Methods: This is a randomized, double-blind, parallel-group and crossover clinical trial with data
+    22→collection occurring at four sites: Northeastern University (Boston); University of California,
+    23→Riverside; University of Wisconsin–Madison and Mills College at Northeastern (Oakland). A large
+    24→cohort of younger adults (planned N = 1080) are randomized across 44 crossover conditions,
+    25→evaluating 12 distinct contrast-based training interventions (mediators), while an older adult cohort
+    26→(ages 60 and up; planned N = 300) is tested at three sites (all above except Boston). Visual
+    27→training and a visual and cognitive transfer battery are delivered using validated, cross-platform
+    28→UNITY applications. Visual acuity, contrast sensitivity functions, complex visual search tracking,
+    29→and cognitive batteries establish near/far transfer as well as individual-difference moderator
+    30→profiles.
+    31→Discussion: By fully standardizing stimulus delivery, parameters, task structure and outcome
+    32→assessment, using consumer-grade tablets, this trial minimizes the environmental and hardware
+    33→variations that confound cross-study comparisons. Because data collection is ongoing, this
+    34→protocol further outlines the specific methodological and statistical plan to map out perceptual
+    35→learning and visual plasticity, as well as the impact of visual perceptual learning in adult
+    36→populations
+    37→
+    38→1. Introduction
+    39→1.1 Background
+    40→Visual Perceptual Learning (VPL) refers to experience-based changes, typically improvements,
+    41→in the ability to extract information from the environment (Sagi, 2011). PL is fundamental to basic
+    42→perceptual development, the formation of perceptual expertise, and rehabilitation following
+    43→sensory damage (Levi & Li, 2009; Swenor et al., 2019). Several decades of visual psychophysics
+    44→research have demonstrated that a wide range of visual abilities can improve with practice,
+    45→including the processing of stimulus orientation, location and contrast (e.g., Fiorentini & Berardi,
+    46→1980; Hung & Seitz, 2014), resolving fine spatial detail (i.e., acuity; Zhou et al., 2006), and higher-
+    47→level visual functions such as reading (e.g., Calabrèse et al., 2018). Beyond basic science, PL
+    48→findings have yielded a large number of translational interventions aiming to enhance normal
+    49→perceptual performance (e.g., in athletes or medical experts) and to treat clinical visual deficits
+    50→like amblyopia (Levi & Li, 2009), myopia (Camilleri et al., 2014), presbyopia (Sterkin et al., 2018),
+    51→and macular degeneration (Chung, 2011; Maniglia et al., 2016, 2018, 2020), as well as broader
+    52→neurodevelopmental disorders such as Autism Spectrum Disorder (ASD) and dyslexia.
+    53→However, a major obstacle in acquiring an in-depth understanding of the mechanisms
+    54→underlying VPL is that prior work has been driven by "novel" findings often demonstrated via
+    55→small-sample studies. Very few studies have deployed the sample sizes necessary to achieve
+    56→robust, unbiased, and highly replicable results. This structural issue has left the field vulnerable
+    57→to widespread replication challenges (Ioannidis, 2005). As stated by Green and colleagues
+    58→(2019), low statistical power and high methodological heterogeneity across laboratories severely
+    59→increases the probability of false positives and inflated effect sizes. In fact, Seitz and Watanabe
+    60→(2005) have argued that observed improvements that are limited to the specific features or
+    61→locations untrained, might be a byproduct of how a task is designed, how hard it is, or how small
+    62→the study's sample size is, rather than a hard restriction of the human brain. This exposes a
+    63→second major issue with current VPL research, which is the inability to replicate specific results,
+    64→Researchers have largely examined the impact of their own training paradigms via their own in-
+    65→house outcome measures, which typically differ from those employed by other research groups,
+    66→differences which often go unaddressed and unmeasured (Ioannidis, 2005). Discrepancies in
+    67→testing hardware, stimulus type, stimulus presentation, calibration procedures, and experimental
+    68→implementation likely contribute to these replication failures across independent laboratories
+    69→(Green et al., 2019).
+    70→The heterogeneity in methodological approaches severely hinders our ability to isolate the
+    71→critical mechanisms involved in learning and generalization. To systematically understand and
+    72→
+    73→maximally exploit VPL, it is necessary to determine how training with different tasks (mediators)
+    74→and in different individuals (moderators) gives rise to different outcomes (Seitz & Watanabe,
+    75→2005). This can only happen by standardizing all training tasks to ensure that only the proposed
+    76→mechanisms of interest are manipulated and assessing the impact of training on those tasks via
+    77→a shared, comprehensive battery of outcome measures. The current clinical trial explicitly
+    78→overcomes these historical limitations by utilizing PLFest, a newly developed, Unity-based, cross-
+    79→platform application explicitly designed to standardize perceptual learning paradigms and visual
+    80→assessments across portable consumer devices (Jayakumar et al., 2024). By deploying a very
+    81→large, highly powered sample size and matching individual baseline psychophysical
+    82→characteristics, this study provides an unprecedented dataset to resolve long-standing
+    83→controversies in the field and establish the basic science underpinnings required for reliable
+    84→clinical translation.
+    85→1.2. Objectives and Aims
+    86→The primary objective of this clinical trial is to identify the mechanisms related to learning and
+    87→generalization/transfer within the domain of visual perception. The trial has four main aims: Aim
+    88→1: Determine the mediators and moderators of VPL in a large, heterogeneous population. This
+    89→aim systematically assesses how 12 qualitatively different training conditions affect learning
+    90→profiles and evaluates how biological variables (e.g., sex, age) and baseline cognitive functions
+    91→moderate individual outcomes. Aim 2: Determine the consistency of training outcomes,
+    92→moderators, and mediators between younger and older adults. Healthy aging is characterized by
+    93→widespread, cortically driven declines across key visual functions including contrast sensitivity,
+    94→orientation discrimination, and motion perception (Andersen, 2012; DeLoss et al., 2015; Owsley,
+    95→2011). This aim tests whether older adults show reduced, preserved, or structurally different visual
+    96→plasticity when exposed to a selected set of training conditions compared to a young adult
+    97→baseline. Aim 3: Determine the extent to which different training approaches lead to independent
+    98→or redundant learning effects. The trial employs a sequential training crossover design with the
+    99→aim of evaluating whether crossing distinct task characteristics yields additive performance gains
+   100→(indicating independent mechanisms) or redundant performance plateaus (indicating shared
+   101→mechanisms). Aim 4: Build and test a standardized training program called PLFest using a widely
+   102→used video game engine (Unity). Instead of forcing every lab to build its own unique software from
+   103→scratch using different screens and settings, this app is designed to run identically on standard
+   104→tablets and desktop computers anywhere in the world. By making the platform openly available
+   105→and sharing our extensive dataset with the international research community, we enable
+   106→
+   107→researchers to independently verify our findings, precisely replicate our methods, and collaborate
+   108→in advancing our understanding of how the human brain learns to process visual information.
+   109→2. Methods: Trial Design
+   110→2.1. Study Design Overview
+   111→This study is a large-scale, multi-site, randomized, crossover clinical trial. The baseline section of
+   112→the study evaluates training interventions across a parallel-group structure. For younger adult
+   113→cohorts, the trial integrates a crossover design phase where participants complete an initial
+   114→training sequence (Train 1 - sessions 1-10, with a mid-test after session 5), receive a first post-
+   115→test outcome assessment (Post Test 1), and are then assigned to a second training sequence
+   116→(Train 2 - sessions 1-10), followed by a second post-test. The full progression of sessions for all
+   117→young adult participants can be seen in Figure 1. Older adults did not engage with the crossover
+   118→conditions and follow the same structure up to and including the Post-Test 1 Battery. Older adults
+   119→were exposed to a reduced set of experimental conditions (see section 3).
+   120→To ensure that changes across the trial reflect true neural plasticity rather than a shifting
+   121→baseline, all assessment sessions (Pre-, Mid-, and Post-Test) are procedurally and structurally
+   122→identical to one another. Every evaluation interval uses the exact same psychophysical tests
+   123→under strictly matched hardware and display constraints.
+   124→Figure 1. Timeline of test and training sessions
+   125→2.2. Study Settings, Collaborative Sites, and Cohort Architecture
+   126→To execute data collection efficiently across geographically distinct student and regional
+   127→populations the clinical trial relies on the collaboration of four research institutes: 1.) The
+   128→University of California, Riverside (UCR), 2.) The University of Wisconsin–Madison (UWM), 3.)
+   129→Northeastern University (Boston, MA), and 4.) Mills College at Northeastern University (Oakland,
+   130→CA). These institutions were selected to leverage established co-investigator collaborations,
+   131→available visual testing hardware infrastructure, and relatively easy access to the sample
+   132→populations. Participant recruitment was executed in two distinct, age-stratified phases. Initially,
+   133→data collection, hardware calibration, and software validation focused exclusively on younger
+   134→adult cohorts (aged 18–30) across the entire four-site network. Recently, the trial has moved on
+   135→
+   136→to testing the older adult cohort (aged 60–85). Older adult data collection is currently taking place
+   137→at all sites, except for the Boston (Northeastern University) site. Recruitment targets regional
+   138→community outreach, senior center partnerships, and senior living community collaborations. All
+   139→sites deploy identical tablet-based psychophysical applications built in the Unity engine to ensure
+   140→that operational delivery parameters remain uniform across both age cohorts and geographic
+   141→locations.
+   142→2.3. Participant Eligibility Criteria
+   143→To ensure a valid participant sample across the four sites, standard participant eligibility criteria
+   144→are in place, which are tested during the preliminary screening session. Some minor eligibility
+   145→differences between YA and OA exist as a natural consequence of the relative age differences.
+   146→Inclusion criteria: Participants must meet the following criteria to be eligible for enrollment
+   147→in the trial: 1.) Younger Adults: Must be between 18 and 30 years of age at the time of recruitment.
+   148→e Older Adults: Must be between 60 and 85 years of age at the time of recruitment. 2.) Visual
+   149→Acuity: Participants in both groups have to have a corrected visual acuity of 20/40 or better in
+   150→each eye, as measured via an Early Treatment Diabetic Retinopathy Study (ETDRS)
+   151→standardized chart. 3.) Informed Consent: Must demonstrate full cognitive capacity to understand
+   152→the study protocol and provide written informed consent prior to undergoing the baseline
+   153→psychophysical testing session.
+   154→Exclusion Criteria: Candidates presenting with any of the following parameters are
+   155→excluded from study participation: 1.) Ocular Pathology: Any history of self-reported or clinically
+   156→documented active retinal pathology or neurological sensory damage (e.g., macular
+   157→degeneration, diabetic retinopathy, or advanced glaucoma). 2.) Neurological Conditions: Any
+   158→active or historic diagnosis of neurological disease, chronic cognitive impairment, or major
+   159→systemic conditions that would interfere with display comprehension or manual reaction-time
+   160→entry. 3.) Inability to Calibrate Baseline: Failure to successfully complete the introductory practice
+   161→session or an inability to establish initial contrast/acuity thresholds within standard operating
+   162→ranges on the mobile or desktop software platforms.
+   163→3. Methods: Training and Assessments
+   164→3.1. Training Overview and General Stimulus Properties
+   165→The main method of this clinical trial entails a parallel-group evaluation of twelve distinct visual
+   166→training conditions (the mediators), designed to isolate the specific mechanisms underlying
+   167→Perceptual Learning (PL). All twelve training conditions are designed such that all stimulus
+   168→
+   169→parameters are controlled across groups and sites, with variations occurring only in the targeted
+   170→independent variables (i.e. the conditional differences).
+   171→The baseline stimulus used across the majority of conditions consists of the most used
+   172→visual stimulus in psychophysics, a centrally presented Gabor patch (a sinusoidal grating
+   173→windowed by a two-dimensional Gaussian envelope) rendered via the cross-platform Unity engine
+   174→application. Training is conducted across multiple structured sessions. For younger adult cohorts,
+   175→a crossover design is utilized where a subset of these conditions is crossed sequentially (e.g.,
+   176→executing Training Condition A for 10 sessions, followed by Training Condition B for 10 sessions)
+   177→to systematically evaluate whether distinct training tasks tap into independent or redundant
+   178→underlying mechanisms. For tasks using Gabor stimuli (all training conditions except 0 and 8a),
+   179→the stimulus has a sigma of 2 degrees of visual angle and a spatial frequency of 6 cycles per
+   180→degree (cpd), close to the peak of the contrast sensitivity function in foveal vision.
+   181→3.2. The Twelve Training Interventions
+   182→To evaluate competing theories of visual plasticity and training optimization, participants are
+   183→pseudo-randomly allocated to one of the following twelve training tracks. To account for pure
+   184→exposure benefits arising from repeated completion of the assessment battery itself, a passive
+   185→No-Contact Control (NCC) group completes all scheduled testing sessions at identical temporal
+   186→intervals as the trained cohorts without undergoing any intermediate training interventions. See
+   187→Figure 2 for stimulus displays for each training condition:
+   188→● Condition 0 (C0) - No Contact Condition (NCC): This condition serves as a no-training
+   189→baseline, allowing comparisons of each of the below training conditions, against a no-
+   190→training control condition. This allows us to separate test-retest performance changes and
+   191→genuine training effects.
+   192→● Condition 1 (C1) – Standard Perceptual Learning (SPL): This serves as the benchmark
+   193→control condition for the trial. Participants perform a standard fine orientation discrimination
+   194→task using a single Gabor patch. Contrast values are continuously driven by a standard 3-
+   195→down-1-up adaptive staircase procedure, which converges at a fixed performance level of
+   196→approximately 79.4% correct.
+   197→● Condition 2 (C2) – Long Training (LT): To test the hypothesis that over-training leads to
+   198→performance saturation or potentially restricts transfer, the LT condition utilizes identical
+   199→stimulus and task parameters to C1 (SPL) but simply doubles the number of trials
+   200→presented per session (e.g. Hung & Seitz, 2014).
+   201→
+   202→● Condition 3 (C3) – Short Staircases (SS): Some models suggest that a higher ratio of
+   203→easy-to-difficult trials promotes generalization. This condition resets the adaptive staircase
+   204→every 40 trials. By frequently returning the participant to highly visible, suprathreshold
+   205→stimuli, it increases the total volume of "easy" trials and prevents prolonged exposure to
+   206→overwhelming threshold-level difficulty (e.g. Ashley & Pearson, 2012).
+   207→● Condition 4 (C4) – Mixed Difficulty (MD): Utilizes a mixed-difficulty framework to exploit
+   208→the architectural differences in how the brain processes varying task demands. Training
+   209→on easy trials versus difficult, high-precision trials has been shown to engage distinct
+   210→stages of visual processing and independent mechanisms of plasticity (Talluri et al., 2015).
+   211→Incorporating both trial types within a single training module allows us to evaluate whether
+   212→driving both lower-level and higher-level perceptual learning concurrently produces
+   213→broader, more robust overall visual improvements than single-difficulty tracks.
+   214→● Condition 5 (C5) – Noise Training (NT): This condition estimates contrast thresholds
+   215→across five distinct levels of external white noise added directly to the central Gabor
+   216→presentation. The objective is to evaluate whether training in external noise specifically
+   217→optimizes the observer's internal template matching or limits internal additive noise (e.g.
+   218→DeLoss et al., 2015).
+   219→● Condition 6 (C6) – Training With Flankers (TWF): Grounded in lateral interaction
+   220→models, the target Gabor is presented in a present/asbent detection task flanked by two
+   221→high-contrast, collinear Gabor patches positioned at varying distances to facilitate early
+   222→spatial visual processing (e.g. Polat, 2009).
+   223→● Condition 7 (C7) – Parafoveal Training (PT): Serving as a spatial control baseline for
+   224→peripheral learning models, the Gabor target is presented outside the immediate fovea at
+   225→a fixed eccentricity of 5 degrees of visual angle along a designated visual meridian (e.g.
+   226→Beard et al., 1995).
+   227→● Condition 8 (C8) – Stimulus Variety (SV): To deliberately disrupt the hyper-specificity
+   228→often observed in PL, this intervention utilizes a broad stimulus space by continuously and
+   229→pseudo-randomly varying both the spatial frequency of the Gabor and its radial testing
+   230→location throughout the training sessions (e.g. Deveau & Seitz, 2014).
+   231→● Condition 8a (C8a) – Complex Features (CF): Instead of using simple Gabor elements,
+   232→this condition presents band-pass filtered real-world images to determine if training on
+   233→high-level feature complexities scales or alters standard low-level learning rules.
+   234→● Condition 9 (C9) – Exogenous Attention Training (ExAT): This training condition pairs
+   235→orientation discrimination with reflexive attention manipulation. An uninformative, high-
+   236→
+   237→contrast transient dot cue is flashed briefly adjacent to the target location immediately prior
+   238→to the stimulus onset to automatically draw exogenous spatial attention (e.g. Szpiro &
+   239→Carrasco, 2015).
+   240→● Condition 10 (C10) – Endogenous Attention Training (EnAT): To evaluate top-down
+   241→attention mediation, a central voluntary cue (such as a symbolic letter directional indicator)
+   242→is presented at fixation prior to the target, requiring the participant to actively deploy top-
+   243→down, endogenous attention to the expected target location (e.g. Donovan & Carrasco,
+   244→2018).
+   245→● Condition 11 (C11) – Multisensory Facilitation (MF): Investigating cross-modal
+   246→plasticity, visual target presentation is precisely paired with a simultaneous, brief auditory
+   247→stimulus (e.g., a 1000 Hz tone). This evaluates whether synchronized multisensory inputs
+   248→lower visual contrast thresholds and accelerate the overall rate of perceptual learning (e.g.
+   249→Shams & Seitz, 2008).
+   250→Figure 2. Experimental stimuli and configurations across training conditions. Conditions are grouped by design
+   251→manipulation to illustrate variations in stimuli: (C1–C4) Standard Perceptual Learning configuration, also used for Long
+   252→Training, Short Staircases and Mixed Difficulty; (C5) Gabor presented in a noise configuration; (C6) Small gabor flanked
+   253→by two collinear gabor patches over a diagonal axis.; (C7) parafoveal stimulus configuration; (C8/C8a) Manipulation of
+   254→stimulus variety and stimulus location; (C9/C10) Exogenous and Endogenous attention tracking; and (C11)
+   255→Multisensory configurations. Note that for conditions C9, C10, and C11, both the attentional/spatial cue and the target
+   256→are displayed together within the panel for illustrative purposes only; during the actual experiment, these elements are
+   257→presented sequentially with fixed inter-stimulus intervals to isolate top-down and bottom-up cognitive cues from target
+   258→processing. All tasks are delivered via the standardized cross-platform PLFest framework.
+   259→3.3. Randomization and Conditional Allocation
+   260→
+   261→Participant assignment to groups is done via a pseudo-randomization process designed to
+   262→produce an equal number of participants across all experimental tracks. For the young adult
+   263→cohort, participants are pseudo-randomly allocated to one of the 44 unique crossover condition
+   264→configurations (representing the 12 initial training tasks crossed with the designated secondary
+   265→tasks; see Table 1). Allocation remains concealed from the local laboratory environment via
+   266→automated assignment. Participants are given an identical, standardized script regarding the
+   267→study purpose using neutral terms (e.g., "to examine how performance changes with experience")
+   268→and are provided no information regarding expected outcomes or the existence of alternative
+   269→groups, ensuring robust blinding to the study's intent.
+   270→Table 1. Crossover Conditions. Self indicates conditions crossed with itself. NCC is the no contact control condition.
+   271→SPL is fully crossed with training conditions 1-6, PT is fully crossed with conditions 7-11.
+   272→3.4. Blinding Protocol
+   273→To preserve strict objectivity and conform to international double-blind standards, the trial
+   274→enforces administrative separation between testing and training procedures:
+   275→● Participant Blinding: Observers are blinded to the specific theoretical hypotheses,
+   276→names, or expected outcomes of their assigned training conditions. All tracks present an
+   277→identically structured user interface and progression sequence.
+   278→● Experimenter Blinding: Research personnel responsible for running the trial are blinded
+   279→to the participant's randomized training intervention assignment. Automated reporting
+   280→structures ensure that outcome assessment software displays zero intervention metrics
+   281→during active data collection sessions.
+   282→4. Methods: Outcome Measures & Testing Procedures
+   283→4.1. Assessment Battery Setup
+   284→To characterize the learning profiles induced by the various interventions, this clinical trial utilizes
+   285→an extensive battery of outcome measures assessing both near (tasks sharing cortical or
+   286→structural elements with the training task, e.g., visual acuity, contrast sensitivity, peak spatial
+   287→
+   288→frequency) and far transfer (higher level, cognitive tasks, such as visual search or working
+   289→memory) across visual and cognitive domains. A major challenge in longitudinal training
+   290→paradigms is the confounding presence of standard test-retest artifacts, which tend to be
+   291→strongest after an observer's first exposure to a novel psychophysical interface. To systematically
+   292→suppress these artifacts and maximize the validity of transfer assessments, all participants
+   293→complete a dedicated Baseline Practice Session (day 0) with the entire outcome test battery on a
+   294→separate day prior to their formal Pre-Test baseline evaluation. Making the initial experience a
+   295→standalone practice run accounts for early non-plasticity-related procedural learning effects.
+   296→Furthermore, this early practice session serves to establish individual performance thresholds
+   297→used as the initial stimulus parameters in the subsequent Pre-Test session. Launching the formal
+   298→test batteries at an individual's calculated baseline threshold allows the trial to determine whether
+   299→subsequent improvements appear early on, at the start of a session (immediate transfer) or as an
+   300→enhanced capacity to acquire a secondary untrained task (the crossover condition). For each of
+   301→the assessment tasks, a similar trial structure is maintained:
+   302→1. Fixation Interval: Every trial initiates with a central fixation point presented for 500 ms.
+   303→2. Target Display: The target stimulus is shown on screen for only 128 ms. This brief
+   304→presentation window ensures that participants cannot make quick, reflexive eye
+   305→movements toward the targets, meaning their responses must rely entirely on visual
+   306→processing from the targeted display locations.
+   307→3. Response Window: Following target offset, observers are required to make a speeded
+   308→response to one of the primary properties of the stimulus layout (e.g., whether a Gabor is
+   309→presented tilted to the left or right, or which side of a Landolt-C stimulus contains a small
+   310→opening).
+   311→4.2. Near Transfer Assessments
+   312→These tasks evaluate transfer effects to low level visual processes and utilize the core stimulus
+   313→structures common to early vision psychophysics but systematically alter the features, locations,
+   314→or sizes relative to the training.
+   315→4.2.1. Contrast Sensitivity Function (CSF) and Orientation Specificity
+   316→Similar to most training conditions, the contrast sensitivity assessment uses centrally presented
+   317→Gabors. The test maps the participant's overall visual function by measuring contrast sensitivity
+   318→at five spatial frequencies (0.75, 1.5, 3, 6, and 12 cycles per degrees, cpd), progressing step-by-
+   319→step from coarse to fine details.
+   320→
+   321→Within each spatial frequency testing block, orientation specificity and contrast sensitivity
+   322→limits are mapped via a specialized blockwise adaptive staircase procedure. Each standalone
+   323→spatial frequency block comprises exactly 60 total trials, structurally subdivided into 15 distinct
+   324→"miniblocks" of 4 trials each. Every individual miniblock presents one trial for each of four
+   325→independent, pre-defined target orientations (22.5°, 67.5°, 112.5°, and 157.5°). These orientations
+   326→are displayed within the miniblock in a completely pseudo-randomized sequence.
+   327→The used staircases step down (reducing stimulus contrast) when an observer makes 1
+   328→or fewer errors within a 4-trial miniblock. The contrast properties remain unchanged if the observer
+   329→commits exactly 2 errors, and the staircase steps up (increasing stimulus contrast) if 3 or more
+   330→errors occur within the miniblock. This dynamic staircase keeps overall task accuracy in a range
+   331→of 66% to 83% correct when averaged across the tested orientations. Because all four target
+   332→orientations share the same physical contrast within a block, performance differences between
+   333→trained and untrained orientations directly reflect the precision of orientation transfer without
+   334→confounding variables.
+   335→4.2.2. Visual Acuity
+   336→Visual acuity is tracked longitudinally using a tablet-based Landolt C task administered via the
+   337→PLFest application. In each trial, a Landolt C is presented in one of four cardinal orientations (gap
+   338→up, down, left, or right), and the participant responds by pressing a corresponding directional
+   339→button on the screen. The application evaluates precise spatial resolution limits using an adaptive
+   340→3-down/1-up staircase algorithm: the stimulus size decreases after three consecutive correct
+   341→answers and increases after a single incorrect answer. Visual thresholds are calculated by
+   342→averaging performance at these difficulty reversal points. This digital assessment is completed at
+   343→Pre-Test, Mid-Test, and Post-Test 1 and Post-Test 2 to monitor training-induced acuity gains. To
+   344→eliminate any directional testing artifacts or physical presentation biases, the staircase allocates
+   345→exactly 16 trials to each of the four cardinal gap orientations. Thresholds are continuously
+   346→estimated in degrees of visual angle to track fine modifications in absolute spatial resolution.
+   347→4.2.3. Peripheral vision and attention
+   348→To determine the spatial limits of learning and evaluate how attention affects transfer, a dedicated
+   349→peripheral attention task is utilized. The task measures contrast sensitivity thresholds using a 6
+   350→cpd Gabor target oriented at either 45° or 135°. Rather than appearing at central fixation, the
+   351→target appears at a fixed eccentricity of 5° peripheral visual angle inside one of four permanent
+   352→circular placeholders. These placeholders are located along the diagonal axes from the display
+   353→center at polar angles of 45°, 135°, 225°, and 315°. To accurately track localized changes in
+   354→
+   355→contrast sensitivity, an adaptive contrast staircase is maintained concurrently for each of the four
+   356→locations.
+   357→To investigate the role of spatial attention in the generalization of perceptual learning, each
+   358→trial contains a non-informative attentional cue prior to target presentation. Each circle is
+   359→permanently surrounded by four small black dots at cardinal angles. On each trial, the dots
+   360→surrounding one of the four circles briefly turn white for 48 ms. Because this cue is non-
+   361→informative, it does not predict the target location, meaning there is an equal (25%) probability of
+   362→the target appearing at any of the four spots. This manipulation yields two trial conditions within
+   363→the location staircases:
+   364→● Cued (Valid) Condition: The target randomly appears inside the circular placeholder that
+   365→was highlighted by the white dots.
+   366→● Uncued (Invalid) Condition: The target appears inside one of the three placeholders that
+   367→remained unhighlighted.
+   368→Following the offset of the visual cue, a fixed, blank temporal gap of 48 ms is shown before the
+   369→target appears. To evaluate whether perceptual learning is linked to the exact timing experienced
+   370→during the training phase, the stimulus-onset delay is varied. While the primary training protocol
+   371→utilizes a single timing parameter of 512 ms, this attention task presents the target at one of three
+   372→onset intervals relative to the initial fixation presentation: 256 ms (short delay), 512 ms (trained
+   373→delay), or 1024 ms (long delay).
+   374→These timing and cueing variations are embedded directly within the four location
+   375→staircases. Each independent staircase runs until a precise contrast threshold is determined. By
+   376→analyzing performance shifts across the cued versus uncued conditions and different timing
+   377→delays, we can separate purely sensory, location-specific learning from broader improvements in
+   378→peripheral attention or timing expectations.
+   379→4.3. Far Transfer Assessments
+   380→To evaluate whether training-related changes in visual plasticity generalize more to cognitive
+   381→functions and multi-sensory tasks, the test battery incorporates three distinct far transfer
+   382→assessments. These assessments measure visual attention, functional reading metrics, and
+   383→cross-modal auditory processing.
+   384→4.3.1. Peripheral Visual Search
+   385→
+   386→The visual search task assesses the participant's capacity to rapidly deploy spatial attention and
+   387→process cluttered visual stimulus arrays under increasing temporal demands. Participants are
+   388→instructed to identify the color (black or white) of the only upright letter "T" presented within a
+   389→circular display intermixed with black and white upright and upside-down letter "L" shapes.
+   390→Participants conduct a two-alternative forced-choice (2-AFC) button press to report the
+   391→target color as quickly and accurately as possible while ignoring the distracting elements. To
+   392→measure attention efficiency without the influence of eye movements, the search stimulus is
+   393→shown for a very brief window before being covered by a mask. The dependent measure is the
+   394→minimum exposure time (in milliseconds) a participant needs to identify the target. This is tracked
+   395→using a two-phase adaptive staircase: an initial 2-down/1-up phase quickly narrows in on the
+   396→participant's performance limit, followed by a stricter 3-down/1-up staircase that runs for 60 trials
+   397→to pin down the exact threshold.
+   398→4.3.2. Reading Performance (MNRead Task)
+   399→To measure real-world visual performance, participants complete a computerized MNRead task
+   400→(Mansfield & Legge, 2006). This test assesses reading speed and acuity using full sentences. On
+   401→each trial, a short sentence appears across three lines of text in a high-contrast font. Across
+   402→consecutive sentences, the text size decreases in steps of 0.1 logMAR units, moving from large,
+   403→easy-to-read print down to the participant's reading limit. Participants are instructed to read each
+   404→sentence aloud as quickly and accurately as possible. Errors are scored by an experimenter.
+   405→Following while three primary metrics are tracked
+   406→● Reading Acuity: The smallest print size the participant can successfully read.
+   407→● Maximum Reading Speed: The participant's fastest reading rate (in words per minute)
+   408→when text size is not a limiting factor.
+   409→● Critical Print Size: The specific text size where reading speed first begins to slow down
+   410→as the print gets smaller.
+   411→4.3.3. Auditory Spatial Release from Masking
+   412→To determine if training effects transfer cross-modally to higher-level top-down executive
+   413→mechanisms, an auditory spatial attention task is incorporated in the assessment battery. To
+   414→assess auditory function, participants complete a ‘spatial release from masking’ task that uses
+   415→standard headphones to simulate a realistic, 3D audio environment (Bolia et al., 2000; Gallun et
+   416→al., 2013; Lelo de Larrea-Mancera et al., 2023). During the task, participants are presented with
+   417→a simultaneous mixture of multiple acoustic signals consisting of a single target speech stream
+   418→
+   419→voiced by a primary speaker paired with overlapping speech streams voiced by competing
+   420→distractor speakers. All streams utilize equivalent linguistic structures (e.g., standard military call-
+   421→sign instructions). Participants are tasked with selectively attending to the primary speaker to
+   422→report specific target keywords while ignoring the distraction from the masking voices. The spatial
+   423→orientation of the target and masking speakers is manipulated across two distinct blocks:
+   424→● Co-located Presentation: The target voice and the masking streams are virtually
+   425→positioned at the exact same spatial coordinate directly in front of the observer.
+   426→● Spatially Separated Presentation: The masking streams are virtually separated from the
+   427→target voice by moving them to peripheral coordinates.
+   428→The task tracks performance limits by adaptively adjusting the signal-to-noise ratio (SNR)—
+   429→lowering the volume of the target voice relative to the maskers—following a 3-down/1-up staircase
+   430→rule. Comparing thresholds between the collocated and separated states yields a pure metric of
+   431→"spatial release" from masking, isolating how effectively the brain applies top-down selective
+   432→attention to filter complex information streams.
+   433→4.4. Individual Differences Battery (Moderators)
+   434→To understand how individual differences affect training success, participants also complete a
+   435→separate battery of cognitive, personality, and psychometric tests. This battery is designed to
+   436→establish baseline cognitive profiles and map underlying traits that could potentially moderate a
+   437→participant’s capacity for learning generalization. All cognitive and task-based assessments are
+   438→delivered via a second tablet-based companion Recollect Assessment Battery (RAB) app.
+   439→4.4.1. Visuospatial Working Memory (Simple and Complex Corsi Block-Tapping Task)
+   440→To evaluate visuospatial working memory and executive functioning, participants complete two
+   441→tablet-based variations of a gamified, space-themed Corsi task administered via the RAB
+   442→application. Both tasks replace traditional abstract blocks with a visual grid of permanent portals
+   443→arranged across irregular coordinates on the screen.
+   444→● Simple Corsi Task: In this variant, alien characters appear sequentially out of different
+   445→portals. Once the sequence ends, the participant must tap the portals in that exact forward
+   446→order to replicate the path. This task explicitly measures short-term visuospatial storage
+   447→capacity—the passive ability to hold a sequence of spatial locations in mind over a brief
+   448→period.
+   449→
+   450→● Complex Corsi Task: This variant builds on the sequence memory requirement by adding
+   451→an executive processing challenge. After the sequence of aliens is shown, but before the
+   452→participant is allowed to replicate it, a target character appears on screen. The participant
+   453→must complete a quick, single-stimulus categorization task by deciding whether the
+   454→character belongs on Earth or an alien planet. After resolving this distraction, they retrace
+   455→the original portal sequence. This task specifically measures executive working memory
+   456→control—the ability to actively maintain spatial information in mind while simultaneously
+   457→processing competing visual information.
+   458→Both tasks utilize an adaptive sequence length that automatically adds more steps to the alien
+   459→path as the participant succeeds, and shortens it after an error, terminating once their maximum
+   460→memory span threshold is established.
+   461→4.4.3. Fluid Intelligence and Abstract Problem-Solving (UCMRT)
+   462→Non-verbal abstract reasoning and fluid intelligence are measured with the University of California
+   463→Matrix Reasoning Task (UCMRT; Pahor et al., 2019). Built specifically for automated delivery the
+   464→assessment utilizes 23 abstract matrix problems modeled after traditional Raven’s Advanced
+   465→Progressive Matrices. Each problem presents a 3×3 grid geometric matrix with the bottom-right
+   466→element missing. Participants must analyze the underlying relational rules along rows and
+   467→columns to select the correct missing piece from 8 distinct, non-overlapping answer alternatives
+   468→displayed on the screen. The test lasts up to 10 minutes, during which participants receive no
+   469→feedback but can skip questions and change previously given answers. The primary outcome
+   470→measure is the total number of accurately solved matrix problems within the 10-minute time limit.
+   471→4.4.4. Inhibitory Control (Countermanding Task)
+   472→Inhibitory control and the ability to behaviorally suppress prepotent responses are tracked using
+   473→the Countermanding paradigm. Participants are shown two l response buttons (left and right side
+   474→of the screen) and react to predefined images (a dog or a monkey) appearing on either side of
+   475→the screen. The task requires mapping specific motor rules based on the type of stimulus:
+   476→● Congruent Trials (Processing Speed Index): in these trials a congruent image (e.g., a
+   477→dog) is shown and requires the observer to execute a rapid button press on the same side
+   478→of the screen as the stimulus.
+   479→● Incongruent Trials (Inhibitory Control Index): in these trials an incongruent image (e.g.,
+   480→a monkey) is shown and requires the observer to actively inhibit the prepotent impulse to
+   481→
+   482→respond on the same stimulus-side, forcing them to instead press the button on the
+   483→opposite side of the display.
+   484→The task is organized into three distinct blocks: a purely congruent block (12 trials), a purely
+   485→incongruent block (12 trials), and a randomized mixed block (48 trials) where congruent and
+   486→incongruent trials are randomly mixed. The mixed block has a 50% switch-rate probability to
+   487→ensure high cognitive control demands. The primary outcome metrics are the mean reaction times
+   488→for correct responses calculated separately for congruent and incongruent trial types within the
+   489→mixed testing block.
+   490→4.4.5. Selective Attention (UCancellation Task)
+   491→Visual selective attention, sustained task performance and scanning efficiency are measured via
+   492→the gamified UCancellation task, based on the clinical D2 Test of Attention. The task displays
+   493→consecutive horizontal rows of images, each row having exactly 8 items that contain a mixture of
+   494→targets and distractors.
+   495→Participants are instructed to scan left-to-right to select all valid targets while ignoring
+   496→distractor elements. Targets consist of images with a specific identity and orientations, such as
+   497→an upright dog with the tail positioned on the left or upside-down monkeys with their tail positioned
+   498→on the right, presented across isolated and mixed-target blocks.
+   499→The main assessment consists of a randomized mixed block made up of a minimum of 30
+   500→rows of stimuli, containing 120 target items. The task is limited to a time limit of 3 minutes and 30
+   501→seconds. The primary outcome metric is the standardized Concentration Performance (CP) score,
+   502→computed programmatically as the total number of hits minus the total number of false alarms.
+   503→4.4.6. Surveys
+   504→Before starting the training, participants fill out background surveys covering demographics, age,
+   505→sex, socioeconomic status, and video game habits (Green & Bavelier, 2012). This includes
+   506→standard self-reported demographic information (e.g., age, sex, socioeconomic status, and
+   507→history of video game habits). Traits related to factors like persistence, inhibition, and engagement
+   508→are measured via validated psychometric scales, including the Big Five Personality Inventory, the
+   509→Grit Scale, and the Behavioral Inhibition System/Behavioral Approach System (BIS/BAS) scale.
+   510→Furthermore, to control for day-to-day state fluctuations over the training sessions, brief
+   511→automated daily logs record continuous self-reported metrics regarding subjective motivation,
+   512→
+   513→reported alertness and self-reported sleep quality immediately prior to the start of every active
+   514→session. This will take the form of brief questionnaires interleaved within the training sessions.
+   515→5. Statistical Analysis Plan and Data Management
+   516→5.1. Sample Size and Power Calculations
+   517→To ensure that this clinical trial is sufficiently powered to yield robust and replicable findings, target
+   518→recruitment is aimed at achieving a large-scale cohort. Based on traditional effect sizes extracted
+   519→from targeted pilot data and published PL interventions, group sizes are optimized as follows:
+   520→● Younger Adult Cohort: We aim to enroll approximately 90 active participants per initial
+   521→training group configuration. These participants will be recruited at our four designated
+   522→data collection sites. Looking at the combined data across all four sites, this large baseline
+   523→sample size provides strong statistical power to reliably catch even small-to-medium
+   524→changes in performance.
+   525→● Older Adult Cohort: We aim to enroll 60 active participants per designated training track.
+   526→across our three primary sites.
+   527→Power analyses conducted using G*Power indicate that a sample size of N = 90 per parallel cell
+   528→achieves greater than 90% power (beta = 0.10) to detect a medium experimental effect size
+   529→(Cohen's f = 0.25 or d = 0.40) at a standard two-tailed alpha level of alpha = 0.05 when using
+   530→baseline parameters as covariates. To safeguard the trial against expected attrition of
+   531→participants, all baseline recruitment targets proactively factor in a 10% dropout and data-
+   532→exclusion rate based on previous lab performance observations.
+   533→5.2. Confirmatory Statistical Frameworks
+   534→The main goal of our analysis is to see how different training tasks affect a participant's ability to
+   535→transfer their learning to new, untrained tasks. To do this, we use standard Analysis of Covariance
+   536→(ANCOVA) and Multivariate ANCOVA (MANCOVA) models for each type of testing domain. In
+   537→these models, we look at performance after training (such as final reading speeds or contrast
+   538→scores) as our main outcome. To make sure our results are accurate and not skewed by a
+   539→participant's initial skill level, we use their starting pre-test scores as a baseline control (covariate)
+   540→in the model.
+   541→When comparing the training groups directly (for example, comparing Standard
+   542→Perceptual Learning against the Short Staircase groups), we group participants by their assigned
+   543→training path. We then use planned, targeted statistical tests to compare specific conditions
+   544→against each other without inflating our chances of finding a false positive. Finally, for tasks where
+   545→
+   546→we test visual performance at different locations on the screen, we include screen position as an
+   547→extra variable to see if the training benefits stay limited to one specific area or spread across the
+   548→whole screen.
+   549→5.3. Sequential Crossover Analysis (Aim 3)
+   550→To answer our questions about learning mechanisms and specifically whether different training
+   551→methods change independent or overlapping pathways in the brain, we analyze the young adult
+   552→data using a crossover design framework. We measure performance at four distinct times across
+   553→the study: Pre-Test, Mid-Test (after 5 training sessions), Post-Test 1 (after 10 training sessions),
+   554→and Post-Test 2 (after 20 training sessions).
+   555→We use linear mixed-effects models to track how quickly performance changes as
+   556→participants progress through the training blocks. If switching to the new task after 10 sessions of
+   557→training causes a second learning trend during the final block that matches the speed of the first
+   558→task, the model shows that the two tasks use independent neural mechanisms or different groups
+   559→of brain cells. On the other hand, if transitioning to the second task leads to an immediate flatline
+   560→or plateau by the time they reach Post-Test 2, it proves that both tasks rely on the same
+   561→overlapping, already-saturated neural pathway.
+   562→5.4. Exploratory High-Dimensional Modeling
+   563→Because we are collecting a large amount of data across many different surveys and transfer
+   564→tasks, we use specific exploratory analysis pipelines designed to look for complex patterns without
+   565→creating false positives:
+   566→● Performance Clustering (EM Clustering): We use an automated clustering algorithm to
+   567→group participants based on their natural performance patterns. This algorithm looks at all
+   568→cognitive and transfer scores simultaneously and helps find naturally occurring sub-groups
+   569→of observers who share similar strengths or weaknesses and shows us how different
+   570→training methods impact them.
+   571→● Testing How Personal Traits Affect Success (Moderation and Mediation): We use
+   572→regression models to test if a participant’s baseline personality or cognitive traits change
+   573→how well they respond to specific training types. For example, we test whether having high
+   574→"Grit" or low anxiety helps a person succeed more in difficult environments (like Noise
+   575→Training) compared to a standard training track.
+   576→● Splitting the Data to Prevent False Findings (Cross-Validation): To make sure we do
+   577→not over-interpret accidental patterns in the data, we use a strict "half-split" rule. We will
+   578→
+   579→split the entire multi-site dataset into two equal halves: a 50% "Discovery Sample" and a
+   580→50% "Validation Sample." We look for clusters and trait interactions only within the
+   581→Discovery Sample. Once those rules are found, we test them on the completely
+   582→independent Validation Sample. We only report findings that successfully replicate across
+   583→both halves.
+   584→5.5. Data Infrastructure, Governance, and Open Science
+   585→To ensure all data is safe and shared properly, we use an automated pipeline that standardizes
+   586→information across all sites and prepares it for open science access. When a participant finishes
+   587→a session (on an iPad), the Unity software automatically packages their visual and cognitive
+   588→scores into secure, encrypted data files. These files are instantly sent through a safe internet
+   589→protocol to a central cloud database hosted on Amazon Web Services (AWS). This means no
+   590→data is stored permanently on local lab computers, protecting participant privacy and preventing
+   591→data loss. Furthermore, once the study is concluded, we will deidentify the dataset and upload it
+   592→to an Open Science Framework (OSF) repository. This public database will include all
+   593→performance tracking scores, training progress files, and survey answers. By sharing this data
+   594→openly, we provide the global research community with a massive, high-quality resource for future
+   595→computer modeling, data mining, and replication studies.
+   596→6. Study Governance and Ethics
+   597→6.1. Ethical Approvals and Institutional Review Boards
+   598→This study follows the ethical principles of the Declaration of Helsinki and adheres strictly to Good
+   599→Clinical Practice (GCP) guidelines. The multi-site protocol, participant recruitment materials, and
+   600→informed consent forms have been reviewed and approved by the Institutional Review Boards
+   601→(IRBs) at all participating universities:
+   602→● University of Wisconsin–Madison IRB (Lead Site)
+   603→● Northeastern University IRB (Covering both the Boston, MA and Oakland, CA
+   604→campuses)
+   605→● University of California, Riverside IRB
+   606→Any changes made to the training programs, testing parameters, or target group sizes are
+   607→submitted for approval by these boards before being used in the study.
+   608→6.2. Informed Consent and Data Privacy
+   609→
+   610→Before starting any baseline testing or practice sessions, all participants read and sign an IRB-
+   611→approved informed consent form. This document clearly details the study timeline, data handling
+   612→protocols, and payment terms ($10 per hour).
+   613→To protect participant privacy, all data is automatically de-identified at the moment of
+   614→collection. Each person is assigned a randomized ID number when they enroll. No names,
+   615→birthdays, or other personally identifiable information are ever saved on the testing devices or
+   616→uploaded to the cloud database. The master file linking names to ID numbers is stored on
+   617→separate, secure servers behind institutional firewalls at the main research labs and can only be
+   618→accessed by the lead investigators.
+   619→6.3. Trial Registration and Monitoring
+   620→To ensure scientific transparency, this study is officially registered on ClinicalTrials.gov
+   621→(Registration ID: NCT05894967. An independent Data Safety Monitoring Board (DSMB), made
+   622→up of external vision science and statistics experts, continuously reviews the project's progress.
+   623→The board meets twice a year to check recruitment speeds, software security, and dropout rates
+   624→to guarantee that participant data remains entirely safe throughout the trial.
+   625→7. Discussion and Operational Limitations
+   626→7.1. Staged Cohort Limitations
+   627→While this study provides a large sample size designed to resolve long-standing replication
+   628→debates in the field, certain operational limits should be noted. First, the trial uses a stepped
+   629→timeline; the initial baseline data, software validations, and crossover testing tasks were
+   630→established entirely within healthy younger adult university samples.
+   631→The subsequent expansion into older adult cohorts (ages 60–85) is restricted to the UCR,
+   632→UWM, and Mills College at Oakland hubs. While this approach keeps administrative control high
+   633→and ensures identical testing conditions across those environments, the younger sample is mostly
+   634→university-based. This could limit how perfectly our findings apply to broader socio-demographic
+   635→or clinical groups in the general public.
+   636→7.2. Environmental Variability in Distributed Testing
+   637→Second, although our testing setup is strictly standardized using identical tablet hardware, fixed
+   638→50 cm viewing stands, forehead and chin rests, and low-ambient lighting, running a study across
+   639→four independent geographic sites introduces minor, unpreventable variations (such as unique
+   640→room shapes or background noise).
+   641→
+   642→However, as shown during our 260-subject feasibility phase, the platform’s automated
+   643→adaptive programs handle these variations easily, giving stable threshold measurements that
+   644→match traditional clinical standards. Any differences in cross-site performance that do show up
+   645→will be analyzed to see if local environmental or population differences truly change learning
+   646→speeds—providing a transparent and valuable contribution to open vision science.
+   647→8. Conclusion
+   648→This multi-site study protocol represents a significant step forward in establishing the reliability,
+   649→breadth, and underlying mechanisms of visual perceptual learning. By moving away from small
+   650→laboratory cohorts and adopting a standardized, accessible, tablet-based testing platform across
+   651→multiple geographic locations, this trial addresses crucial issues of replication and scientific rigor
+   652→that have historically constrained the field. Ultimately, the resulting datasets, including
+   653→comprehensive profiles of individual differences, staircase trajectory parameters, and clear
+   654→measures of immediate versus crossover task generalization, will be fully de-identified and shared
+   655→with the global research community. This open-science framework will not only advance our basic
+   656→understanding of adult neuroplasticity but will also provide a robust, empirical foundation for
+   657→translating perceptual learning into effective real-world clinical and behavioral therapies.
+   658→References
+   659→Andersen, G. J. (2012). Aging and vision: Changes in function and performance from optics to
+   660→perception. WIREs Cognitive Science, 3(3), 403–410. https://doi.org/10.1002/wcs.1167
+   661→Ashley, S., & Pearson, J. (2012). When more equals less: Overtraining inhibits perceptual learning
+   662→owing to lack of wakeful consolidation. Proceedings. Biological Sciences, 279(1745),
+   663→4143–4147. https://doi.org/10.1098/rspb.2012.1423
+   664→Beard, B. L., Levi, D. M., & Reich, L. N. (1995). Perceptual learning in parafoveal vision. Vision
+   665→Research, 35(12), 1679–1690. https://doi.org/10.1016/0042-6989(94)00267-P
+   666→Bolia, R. S., Nelson, W. T., Ericson, M. A., & Simpson, B. D. (2000). A speech corpus for
+   667→multitalker communications research. The Journal of the Acoustical Society of America,
+   668→107(2), 1065–1066. https://doi.org/10.1121/1.428288
+   669→Calabrèse, A., To, L., He, Y., Berkholtz, E., Rafian, P., & Legge, G. E. (2018). Comparing
+   670→performance on the MNREAD iPad application with the MNREAD acuity chart. Journal of
+   671→Vision, 18(1), 8. https://doi.org/10.1167/18.1.8
+   672→Camilleri, R., Pavan, A., Ghin, F., & Campana, G. (2014). Improving myopia via perceptual
+   673→
+   674→learning: Is training with lateral masking the only (or the most) efficacious technique?
+   675→Attention, Perception, & Psychophysics, 76(8), 2485–2494.
+   676→https://doi.org/10.3758/s13414-014-0738-8
+   677→Chung, S. T. L. (2011). Improving Reading Speed for People with Central Vision Loss through
+   678→Perceptual Learning. Investigative Ophthalmology & Visual Science, 52(2), 1164–1170.
+   679→https://doi.org/10.1167/iovs.10-6034
+   680→DeLoss, D. J., Watanabe, T., & Andersen, G. J. (2015). Improving Vision Among Older Adults:
+   681→Behavioral Training to Improve Sight. Psychological Science, 26(4), 456–466.
+   682→https://doi.org/10.1177/0956797614567510
+   683→Deveau, J., & Seitz, A. R. (2014). Applying perceptual learning to achieve practical changes in
+   684→vision. Frontiers in Psychology, 5. https://doi.org/10.3389/fpsyg.2014.01166
+   685→Donovan, I., & Carrasco, M. (2018). Endogenous spatial attention during perceptual learning
+   686→facilitates location transfer. Journal of Vision, 18(11), 7. https://doi.org/10.1167/18.11.7
+   687→Fiorentini, A., & Berardi, N. (1980). Perceptual learning specific for orientation and spatial
+   688→frequency. Nature, 287(5777), 43–44. https://doi.org/10.1038/287043a0
+   689→Gallun, F. J., Diedesch, A. C., Kampel, S. D., & Jakien, K. M. (2013). Independent impacts of age
+   690→and hearing loss on spatial release in a complex auditory environment. Frontiers in
+   691→Neuroscience, 7. https://doi.org/10.3389/fnins.2013.00252
+   692→Green, C. S., & Bavelier, D. (2012). Learning, Attentional Control, and Action Video Games.
+   693→Current Biology, 22(6), R197–R206. https://doi.org/10.1016/j.cub.2012.02.012
+   694→Hung, S.-C., & Seitz, A. R. (2014). Prolonged Training at Threshold Promotes Robust Retinotopic
+   695→Specificity in Perceptual Learning. Journal of Neuroscience, 34(25), 8423–8431.
+   696→https://doi.org/10.1523/JNEUROSCI.0745-14.2014
+   697→Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. PLOS Medicine,
+   698→2(8), e124. https://doi.org/10.1371/journal.pmed.0020124
+   699→Jayakumar, S., Maniglia, M., Guan, Z., Green, C. S., & Seitz, A. R. (2024). PLFest: A New
+   700→Platform for Accessible, Reproducible, and Open Perceptual Learning Research. Journal
+   701→of Cognitive Enhancement, 8(4), 334–345. https://doi.org/10.1007/s41465-024-00299-w
+   702→Lelo de Larrea-Mancera, E. S., Solís-Vivanco, R., Sánchez-Jimenez, Y., Coco, L., Gallun, F. J.,
+   703→& Seitz, A. R. (2023). Development and validation of a Spanish-language spatial release
+   704→from masking task in a Mexican population. The Journal of the Acoustical Society of
+   705→America, 153(1), 316–327. https://doi.org/10.1121/10.0016850
+   706→Levi, D. M., & Li, R. W. (2009). Perceptual learning as a potential treatment for amblyopia: A mini-
+   707→
+   708→review. Vision Research, Perceptual Learning, 49(21), 2535–2549.
+   709→https://doi.org/10.1016/j.visres.2009.02.010
+   710→Maniglia, M., Cottereau, B. R., Soler, V., & Trotter, Y. (2016). Rehabilitation Approaches in
+   711→Macular Degeneration Patients. Frontiers in Systems Neuroscience, 10.
+   712→https://doi.org/10.3389/fnsys.2016.00107
+   713→Maniglia, M., Soler, V., Cottereau, B., & Trotter, Y. (2018). Spontaneous and training-induced
+   714→cortical plasticity in MD patients: Hints from lateral masking. Scientific Reports, 8(1), 90.
+   715→https://doi.org/10.1038/s41598-017-18261-6
+   716→Maniglia, M., Soler, V., & Trotter, Y. (2020). Combining fixation and lateral masking training
+   717→enhances perceptual learning effects in patients with macular degeneration. Journal of
+   718→Vision, 20(10), 19. https://doi.org/10.1167/jov.20.10.19
+   719→Mansfield, J. S., & Legge, G. E. (2006). The MNREAD acuity chart. In Psychophysics of Reading
+   720→in Normal and Low Vision (pp. 167–191). Taylor and Francis.
+   721→https://www.scopus.com/pages/publications/85077176913
+   722→Owsley, C. (2011). Aging and vision. Vision Research, Vision Research 50th Anniversary Issue:
+   723→Part 2, 51(13), 1610–1622. https://doi.org/10.1016/j.visres.2010.10.020
+   724→Pahor, A., Stavropoulos, T., Jaeggi, S. M., & Seitz, A. R. (2019). Validation of a matrix reasoning
+   725→task for mobile devices. Behavior Research Methods, 51(5), 2256–2267.
+   726→https://doi.org/10.3758/s13428-018-1152-2
+   727→Polat, U. (2009). Making perceptual learning practical to improve visual functions. Vision
+   728→Research, Perceptual Learning, 49(21), 2566–2573.
+   729→https://doi.org/10.1016/j.visres.2009.06.005
+   730→Sagi, D. (2011). Perceptual learning in Vision Research. Vision Research, Vision Research 50th
+   731→Anniversary Issue: Part 2, 51(13), 1552–1566.
+   732→https://doi.org/10.1016/j.visres.2010.10.019
+   733→Seitz, A., & Watanabe, T. (2005). A unified model for perceptual learning. Trends in Cognitive
+   734→Sciences, 9(7), 329–334. https://doi.org/10.1016/j.tics.2005.05.010
+   735→Shams, L., & Seitz, A. R. (2008). Benefits of multisensory learning. Trends in Cognitive Sciences,
+   736→12(11), 411–417. https://doi.org/10.1016/j.tics.2008.07.006
+   737→Shawn Green, C., Bavelier, D., Kramer, A. F., Vinogradov, S., Ansorge, U., Ball, K. K., Bingel, U.,
+   738→Chein, J. M., Colzato, L. S., Edwards, J. D., Facoetti, A., Gazzaley, A., Gathercole, S. E.,
+   739→Ghisletta, P., Gori, S., Granic, I., Hillman, C. H., Hommel, B., Jaeggi, S. M., … Witt, C. M.
+   740→(2019). Improving Methodological Standards in Behavioral Interventions for Cognitive
+   741→
+   742→Enhancement. Journal of Cognitive Enhancement, 3(1), 2–29.
+   743→https://doi.org/10.1007/s41465-018-0115-y
+   744→Sterkin, A., Levy, Y., Pokroy, R., Lev, M., Levian, L., Doron, R., Yehezkel, O., Fried, M., Frenkel-
+   745→Nir, Y., Gordon, B., & Polat, U. (2018). Vision improvement in pilots with presbyopia
+   746→following perceptual learning. Vision Research, Perceptual Learning: Mechanisms and
+   747→Interactions with Cognitive and Motor Functions, 152, 61–73.
+   748→https://doi.org/10.1016/j.visres.2017.09.003
+   749→Swenor, B. K., Wang, J., Varadaraj, V., Rosano, C., Yaffe, K., Albert, M., & Simonsick, E. M.
+   750→(2019). Vision Impairment and Cognitive Outcomes in Older Adults: The Health ABC
+   751→Study. The Journals of Gerontology: Series A, 74(9), 1454–1460.
+   752→https://doi.org/10.1093/gerona/gly244
+   753→Szpiro, S. F. A., & Carrasco, M. (2015). Exogenous Attention Enables Perceptual Learning.
+   754→Psychological Science, 26(12), 1854–1862. https://doi.org/10.1177/0956797615598976
+   755→Talluri, B. C., Hung, S.-C., Seitz, A. R., & Seriès, P. (2015). Confidence-based integrated
+   756→reweighting model of task-difficulty explains location-based specificity in perceptual
+   757→learning. Journal of Vision, 15(10), 17. https://doi.org/10.1167/15.10.17
+   758→
+   759→

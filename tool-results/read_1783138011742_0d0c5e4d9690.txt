@@ -1,0 +1,496 @@
+     1→     1→PLFest a portable, cross-platform tool for reproducible perceptual-learning
+     2→     2→research: validation across attentional cueing conditions
+     3→     3→Boris Penaloza1*, Marcello Maniglia2, Jaap Munneke1, C. Shawn Green3, Aaron Seitz1
+     4→     4→1Department of Psychology, Northeastern University, Boston, MA, USA
+     5→     5→2Department of Psychology, Rochester Institute of Technology, NY, USA
+     6→     6→3Department of Psychology, University of Wisconsin Madison, Madison, WI, USA
+     7→     7→*Corresponding author
+     8→     8→Email: b.penalozarojas@northeastern.edu
+     9→     9→Purpose: Visual perceptual learning (VPL) holds translational promise, yet progress is
+    10→    10→constrained by limited reproducibility and accessibility. Having previously introduced PLFest, a
+    11→    11→cross-platform, calibrated psychophysical platform, and validated its basic visual-function
+    12→    12→measurements, we test here whether PLFest recovers canonical perceptual-learning signatures
+    13→    13→and reproduces established effects of attentional cueing on learning across multiple training
+    14→    14→paradigms.
+    15→    15→Methods: Seventy-seven observers across four sites completed ten daily sessions of a contrast
+    16→    16→discrimination task under one of four conditions using different attentional cueing: parafoveal
+    17→    17→training without a cue (PT), exogenous cueing (ExAT), endogenous cueing (EnAT), or
+    18→    18→multisensory auditory cueing (MF). Targets appeared at the fovea and at 5° eccentricity; contrast
+    19→    19→thresholds were measured at each location by independent staircases, and learning was quantified
+    20→    20→from exponential fits to log-thresholds. Transfer was assessed with a five-task battery (acuity,
+    21→    21→contrast sensitivity, CSF cutoff, spatial-frequency cutoff, visual search) administered before and
+    22→    22→after training.
+    23→    23→Results: Every condition produced reliable learning at both eccentricities, showing the canonical
+    24→    24→learning curve, with peripheral improvements of approximately 43% (PT), 50% (EnAT), 58%
+    25→    25→(MF), and 78% (ExAT). Learning magnitude significantly differed across conditions, a
+    26→    26→difference driven by ExAT, which roughly doubled the learning of the other three. Two
+    27→    27→observations emerged descriptively: exogenous cueing specifically collapsed the peripheral–
+    28→    28→foveal threshold gap, an effect absent under the equally valid endogenous cue, and observers
+    29→    29→with the largest trained learning tended to show broader change across the assessment battery,
+    30→    30→although this transfer reached significance only for peripheral spatial-frequency cutoff.
+    31→    31→Conclusions: Across four attentional paradigms, PLFest collected reliable, robust, and
+    32→    32→theoretically interpretable learning data, reproducing established attention effects. These findings
+    33→    33→position PLFest as a platform for large-scale, accessible VPL research and the development of
+    34→    34→translational training paradigms.
+    35→    35→
+    36→    36→1. Introduction
+    37→    37→Visual Perceptual learning (VPL), the lasting improvement in visual performance that follows
+    38→    38→training, is one of the most extensively studied forms of adult plasticity, and one of that holds the
+    39→    39→promise for effective translational intervention (Sagi, 2011). Over the last two decades, VPL-
+    40→    40→inspired training paradigms have been used to ameliorate deficits in myopia (Tan & Fong, 2008),
+    41→    41→amblyopia (Levi & Li, 2009), presbyopia (Polat et al., 2012), and central vision loss due to
+    42→    42→macular degeneration (Chung, 2011; Maniglia et al., 2016; Maniglia et al., 2020). VPL may
+    43→    43→unlock effective training interventions and help better understand mechanisms of plasticity in the
+    44→    44→visual brain, yet progress in the field has been constrained by two persistent problems:
+    45→    45→reproducibility and accessibility. Concerning the first, while the field has been driven by novel
+    46→    46→results of learning enhancement of generalization following specific paradigms, the VPL
+    47→    47→literature exhibits inconsistent ability to replicate key studies showing transfer of learning effects
+    48→    48→(Aberg & Herzog, 2010; Hung & Seitz, 2014; Liang et al., 2015; Xiao et al., 2008; Zhang &
+    49→    49→Yang, 2014; Zhang & Yu, 2016). A likely reason for these discrepancies can be traced to
+    50→    50→methodological and environmental variability across laboratories, including differences in
+    51→    51→display hardware, timing, calibration, paradigms, and measurement procedures, which often lack
+    52→    52→standardization. Concerning issues with accessibility, the field of VPL has been historically
+    53→    53→reliant on rigorous psychophysics measurements requiring specialized equipment and controlled
+    54→    54→laboratory settings. A typical consequence of these constraints is low statistical power and high
+    55→    55→methodological heterogeneity across laboratories, which severely increase the probability of
+    56→    56→false positives and inflated effect sizes (Green et al., 2019).
+    57→    57→To address both issues, we developed PLFest, a cross-platform, calibrated, adaptive
+    58→    58→psychophysical training and assessment platform with consistent stimulus presentation,
+    59→    59→automated data handling, and a common procedure that can be deployed identically across sites
+    60→    60→and devices (Jayakumar et al., 2024). By moving rigorous PL paradigms onto portable, self-
+    61→    61→contained hardware, the platform makes large-scale, multi-site, standardized data collection
+    62→    62→feasible while preserving the measurement quality on which PL research depends. A first step
+    63→    63→towards using PLFest as a tool for larger, theory-driven studies, is to establish that the platform
+    64→    64→can recover the standard signatures of perceptual learning and that it can do so across different
+    65→    65→training paradigms.
+    66→    66→In an earlier publication, we demonstrated that PLFest can reliably assess basic visual functions,
+    67→    67→namely, visual acuity and contrast sensitivity, with high validity and reliability when compared
+    68→    68→with standard psychophysical methods (Jayakumar et al., 2024).To further validate PLFest as a
+    69→    69→platform for large-scale data collection across a broad range of training protocols, we present
+    70→    70→data showing that PLFest can reliably reproduce well-established effects of attentional
+    71→    71→modulation previously reported in the visual science literature.
+    72→    72→Attention plays a key role in visual perception and learning, and it has long been proposed as a
+    73→    73→gate on plasticity: only stimuli that are attended, and thus sufficiently processed, are thought to
+    74→    74→drive learning (Ahissar & Hochstein, 2004; Roelfsema et al., 2010; Seitz & Watanabe, 2005;
+    75→    75→Seitz, 2017). Attention is a complex construct whose study can be traced back to the nineteenth
+    76→    76→century, with early discussions by William James. In the context of visual perception, several
+    77→    77→distinct forms of attention have been identified. Here, we focus on covert attention—the
+    78→    78→
+    79→    79→allocation of attention to a specific spatial location in the visual field without accompanying eye
+    80→    80→movements—and, in particular, on its two principal components: exogenous attention, which is
+    81→    81→reflexive, stimulus-driven, and transient (typically peaking around 100 ms), and endogenous
+    82→    82→attention, which is voluntary, goal-directed, and sustained (typically deploying over
+    83→    83→approximately 300 ms) (Carrasco, 2011; Carrasco & Barbot, 2014; Peñaloza & Ogmen, 2022).
+    84→    84→Both types of convert attention transiently enhance stimulus detection (Carrasco, 2011; Yeshurun
+    85→    85→& Carrasco, 1999), and their long-term effects in the mechanisms of perceptual learning is
+    86→    86→currently under investigation (Donovan & Carrasco, 2018; Donovan et al., 2015; Dosher et al.,
+    87→    87→2010; Szpiro & Carrasco, 2015).
+    88→    88→Indeed, a growing body of work demonstrates that different forms of attention can facilitate
+    89→    89→perceptual learning. For example, Szpiro and Carrasco (2015)showed that training with
+    90→    90→exogenous spatial cues produced learning that was absent under neutral training conditions.
+    91→    91→Critically, this benefit persisted when observers were subsequently tested without cues,
+    92→    92→indicating a lasting change in perceptual processing rather than a transient attentional
+    93→    93→enhancement. Exogenous attention has also been shown to facilitate the transfer of learning to
+    94→    94→untrained retinal locations (Donovan et al., 2015). Similar transfer effects have been observed
+    95→    95→with valid endogenous cues (Donovan & Carrasco, 2018), suggesting that both reflexive and
+    96→    96→voluntary forms of spatial attention can promote the generalization of perceptual learning.
+    97→    97→Beyond spatial attention, cross-modal attentional manipulations can also enhance learning: for
+    98→    98→example, task-congruent auditory cues have been shown to accelerate visual perceptual learning,
+    99→    99→likely by improving stimulus encoding and processing efficiency (Seitz et al., 2006). Together
+   100→   100→these studies provide a set of concrete, directional predictions against which we can compare the
+   101→   101→reliability of our new testing platform.
+   102→   102→Here, we used PLFest to train observers on a peripheral contrast discrimination task under four
+   103→   103→attentional manipulation. All tasks share an identical task structure and differ only in the cue
+   104→   104→element (Figure 1). A Parafoveal Training condition (PT) provided baseline without attentional
+   105→   105→manipulations. Three attentional conditions included a 100%-valid cue manipulation: Exogenous
+   106→   106→Attention Training (ExAT), with a brief peripheral cue at the target location; Endogenous
+   107→   107→Attention Training (EnAT), with a symbolic central cue indicating the target location; and
+   108→   108→Multisensory Facilitation (MF), in which a spatially localized auditory cue was used instead of
+   109→   109→the visual cue. In each task, stimuli were presented both at a central (foveal) location and at two
+   110→   110→parafoveal locations at 5° eccentricity, allowing learning to be characterized separately at each
+   111→   111→eccentricity. Generalization of learning was assessed by a battery of five pre- and post-training
+   112→   112→assessments, namely visual acuity, contrast sensitivity and its high-frequency cutoff, spatial-
+   113→   113→frequency cutoff, and visual search reaction time.
+   114→   114→Our aim in this report is to demonstrate that PLFest can collect reliable and robust learning data
+   115→   115→across four distinct attentional paradigms—that it recovers the standard perceptual learning curve
+   116→   116→in every condition, distinguishes conditions in a manner consistent with the prior attention
+   117→   117→literature, resolves individual differences in learning, and supports a principled analysis of
+   118→   118→transfer to untrained visual tasks. While the goal of this study is methodological rather than
+   119→   119→theoretical, two observations emerged from the available data that we report descriptively and
+   120→   120→consider in this paper: an exogenous-specific collapse of the peripheral–foveal threshold gap,
+   121→   121→
+   122→   122→and a consistent, directional relationship between the magnitude of trained learning and the
+   123→   123→breadth of change across the assessment battery.
+   124→   124→2. Methods
+   125→   125→2.1 Participants
+   126→   126→Data was collected in 77 participants (mean age = 22 years [SD = 3 years]) across 4 research
+   127→   127→sites: Northeastern University, University of California at Riverside, University of Wisconsin
+   128→   128→Madison, and Mills College at Northeastern University. Observers were assigned to one of four
+   129→   129→ten-session training conditions that shared a common task structure and differed only in the
+   130→   130→attentional manipulation (Figure 1).
+   131→   131→2.2 Stimuli and training conditions
+   132→   132→The Parafoveal Training condition (PT) served as the baseline against which the cued conditions
+   133→   133→were compared. In PT, targets appeared at a central (foveal) location and at one of two peripheral
+   134→   134→locations (5° eccentricity) trial-wise randomization of target location discouraged anticipatory
+   135→   135→eye movements. The three remaining conditions preserved this structure and added a 100%-valid
+   136→   136→cue. In Exogenous Attention Training (ExAT), small black dots (48 ms duration, 96 ms stimulus-
+   137→   137→onset asynchrony) appeared above the target location on each trial. In Endogenous Attention
+   138→   138→Training (EnAT), a symbolic central cue (the letters LL, CT, UR, indicating the lower-left,
+   139→   139→central target or upper-right diagonal; 150 ms duration, 500 ms stimulus-onset asynchrony)
+   140→   140→appeared at fixation. In Multisensory Facilitation (MF), the task structure of ExAT was kept but
+   141→   141→the visual cue was replaced with a spatially localized auditory cue (50 ms, 1000 Hz tone,
+   142→   142→spatialized by convolution with a generic head-related transfer function). After applying the
+   143→   143→inclusion criteria described below, the conditions comprised 18 (PT), 19 (ExAT), 20 (EnAT),
+   144→   144→and 20 (MF) observers contributing to the peripheral learning analyses.
+   145→   145→2.3 Exclusion criteria
+   146→   146→Thresholds exceeding 0.1 in normalized contrast units in the training session were treated as non-
+   147→   147→converged estimates—reflecting attentional lapses or failures to understand the task rather than
+   148→   148→genuine perceptual thresholds. This criterion was applied to all four conditions. Exclusion
+   149→   149→preceded the log transformation. So that each learning trajectory was estimated from enough
+   150→   150→points, observers having fewer than five valid training sessions were excluded from all learning
+   151→   151→analyses.
+   152→   152→
+   153→   153→Figure 1. Schematic of the training task and the cueing manipulation in each condition. On every trial a
+   154→   154→Gabor target (6 cpd) was presented for 200 ms at one of three locations––the central (foveal) location or one of
+   155→   155→two peripheral locations at 5° eccentricity (polar angles 135° and 270°)––following a 500 ms fixation period.
+   156→   156→Different attentional cues precede the target at each condition: no peripheral cue in Parafoveal Training (PT); a
+   157→   157→100%-valid exogenous cue (small black dots above the target location; 48 ms, 96 ms SOA) in Exogenous
+   158→   158→Attention Training (ExAT); a 100%-valid endogenous symbolic cue at fixation (the letters LL or UR, indicating
+   159→   159→the lower-left or upper-right diagonal; 150 ms, 500 ms SOA) in Endogenous Attention Training (EnAT); and a
+   160→   160→100%-valid auditory cue (50 ms, 1000 Hz tone) replacing the visual cue in Multisensory Facilitation (MF).
+   161→   161→2.4 Apparatus and procedure
+   162→   162→Training was administered through the PLFest application (Jayakumar et al., 2024) on Apple
+   163→   163→iPad Pro (2021) tablets (2048 × 2732 px, 120 Hz), mounted on stands at a 50 cm viewing
+   164→   164→distance with head and chin rests to stabilize fixation. Testing was conducted under low ambient
+   165→   165→illumination (0.9 cd/m²) with a background luminance of 75 cd/m², and responses were recorded
+   166→   166→with a numeric keypad.
+   167→   167→On each trial, a fixation period of 500 ms preceded the presentation of a Gabor target (6 cycles
+   168→   168→per degree) presented for 200 ms, after which observers reported the target's orientation. Targets
+   169→   169→
+   170→   170→appeared at the central location or at one of the two peripheral locations, and target contrast was
+   171→   171→controlled by an independent 3-down/1-up staircase at each location. On the first block of the
+   172→   172→first session the staircase was initialized at 30% contrast; on every subsequent session the
+   173→   173→staircase resumed from the last contrast value reached in the preceding session, so that session-
+   174→   174→to-session changes in threshold reflected consolidated performance rather than repeated re-
+   175→   175→initialization. Observers completed ten training sessions of approximately one hour on
+   176→   176→consecutive days. Each session comprised five blocks of 50 trial runs per target location (750
+   177→   177→trials per session in total), preceded by a brief practice phase, with two-minute breaks interleaved
+   178→   178→between blocks.
+   179→   179→2.5 Threshold estimation and learning quantification
+   180→   180→Contrast thresholds were estimated from staircase reversals at each location. To assess learning,
+   181→   181→we used the first block of each session and computed thresholds as the average of the last four
+   182→   182→staircase reversals at each location. Performance at the start of a session reflects learning retained
+   183→   183→from previous sessions while minimizing contamination from within-session fatigue, which can
+   184→   184→accumulate over the course of training. For each observer and session, peripheral performance
+   185→   185→was then summarized as a single estimate by averaging the thresholds from the two peripheral
+   186→   186→locations (left and right). Foveal performance was given by the central location. The exclusion
+   187→   187→criterion above was applied to these per-session periphery and fovea estimates. Because
+   188→   188→threshold and contrast-sensitivity measures are ratio-scaled, all subsequent analyses were
+   189→   189→performed on log transformed thresholds.
+   190→   190→10
+   191→   191→For each observer we represented learning as the magnitude of improvement across the ten
+   192→   192→sessions, derived from an exponential model fit to that observer's log thresholds: 𝑦(𝑡) = 𝑎+
+   193→   193→10
+   194→   194→𝑑 ∙𝑒−𝑡/𝜏, where t indexes session, a is the asymptote, d the amplitude, and τ the time constant.
+   195→   195→We summarized each observer's learning with the estimated fitted improvement—the difference
+   196→   196→between the fitted curve at the first and last observed sessions, expressed in log units. This
+   197→   197→10
+   198→   198→value captures the total improvement supported by the data within the observed training window
+   199→   199→and provides a single index of learning that is stable across observers regardless of differences in
+   200→   200→the underlying decay rate or asymptote. For descriptive reporting, log-unit improvements were
+   201→   201→also expressed as a bounded percentage, (1−10−Δ)×100, where Δ is the realized
+   202→   202→improvement in log units.
+   203→   203→10
+   204→   204→2.6 Visual assessments
+   205→   205→Transfer of training was evaluated with a battery of five visual assessments administered before
+   206→   206→and after training, all delivered through the PLFest App: visual acuity (Sloan Landolt-C
+   207→   207→expressed in logMAR), contrast sensitivity (CSF) and its high-spatial-frequency cutoff (CSF
+   208→   208→cutoff), spatial-frequency cutoff (SF cutoff, in cycles per degree), and visual-search reaction time
+   209→   209→(target “T” among inverted “L” distractors). Contrast measures are reported as percent contrast.
+   210→   210→Except where noted, tasks used 3-down-1-up staircases and orientation-discrimination responses
+   211→   211→to Gabor stimuli. Details about the assessments task and stimulus properties can be find in (cite
+   212→   212→our recent assessment paper)
+   213→   213→2.7 Statistical analysis
+   214→   214→
+   215→   215→To test learning within each task manipulation we used a one-sample t-tests against zero (Holm-
+   216→   216→Bonferonni corrected); differences in peripheral learning magnitude across conditions were
+   217→   217→tested with Welch's ANOVA followed by Games–Howell post-hoc comparisons; and within-
+   218→   218→condition eccentricity effects (peripheral vs. fovea) were tested with paired t-tests.
+   219→   219→Observers were classified as learners or non-learners by a median split on the learning metric.
+   220→   220→This procedure was performed using with-condition or pooled data across the four trained
+   221→   221→conditions. For each of the five assessments, the pre-to-post change of learners and non-learners
+   222→   222→was compared as a learner × session interaction using Welch's t-test on per-observer change
+   223→   223→scores. The robustness of each interaction was evaluated by sliding the learner/non-learner
+   224→   224→classification threshold across a range of percentiles and by re-testing after regressing each
+   225→   225→measure on its baseline level.
+   226→   226→3. Results
+   227→   227→3.1.1 Reliable learning at both trained eccentricities in every condition
+   228→   228→Across every condition, contrast thresholds fell steeply over the first session and then declined
+   229→   229→more gradually toward an asymptote, the canonical form of a perceptual-learning curve (Lu &
+   230→   230→Dosher, 2022) (Figure 2). Peripheral improvement was reliably greater than zero in all four
+   231→   231→conditions (one-sample t-tests against zero, Holm-Bonferroni corrected): PT (mean improvement
+   232→   232→≈43%; t(15) = 6.30, p < 0.001), ExAT (≈78%; t(16) = 6.85, p < 0.001), EnAT (≈50%; t(17) =
+   233→   233→5.64, p < 0.001), and MF (≈58%; t(19) = 4.96, p < 0.001). Foveal thresholds likewise improved
+   234→   234→reliably in every condition.
+   235→   235→
+   236→   236→Figure 2. Learning profiles across conditions. Mean contrast threshold across the ten training sessions for the
+   237→   237→periphery (red) and fovea (dark blue) in each condition: PT, ExAT, EnAT, and MF. Thresholds were estimated
+   238→   238→from the first block of each session (average of the last four reversals per location), with peripheral estimates
+   239→   239→averaged across the two peripheral locations. Shaded regions denote ±1 SEM. Note the convergence of the
+   240→   240→peripheral and foveal curves in ExAT, absent in the other three conditions.
+   241→   241→Learning occurred across all eccentricities: pooled across conditions, both trained locations
+   242→   242→improved highly reliably (peripheral t(69) = 10.5, p < 0.001; foveal t(69) = 9.8, p < 0.001), and
+   243→   243→the two eccentricities did not differ in overall learning magnitude (peripheral ≈59% versus foveal
+   244→   244→≈58%; paired t(69) = 0.23, p = 0.82). Within individual conditions, the only reliable peripheral-
+   245→   245→over-foveal advantage was in ExAT (paired t(16) = 2.37, p = 0.031), the eccentricity dissociation
+   246→   246→considered below; the remaining conditions improved comparably across eccentricity. The task
+   247→   247→thus produced robust perceptual learning at both the fovea and the periphery.
+   248→   248→Although learning was present at both eccentricities, we focus the remaining analyses solely on
+   249→   249→the peripheral measure. Three considerations motivate this focus. First, peripheral thresholds
+   250→   250→were substantially higher at baseline than foveal thresholds (session-1 medians of approximately
+   251→   251→5.9% and 1.7% contrast, respectively), leaving more room for measurable improvement. Second,
+   252→   252→the periphery is where the conditions differed: as shown below, the inter-condition differences in
+   253→   253→learning were carried entirely by the peripheral measure, whereas foveal learning was
+   254→   254→comparable across conditions. Third, the peripheral estimate provides a single, well-defined
+   255→   255→
+   256→   256→index of the trained parafoveal locations that serves as the common learning metric across all
+   257→   257→parts of this report.
+   258→   258→3.1.2 Learning magnitude differed across conditions, driven by exogenous cueing
+   259→   259→The conditions differed in the magnitude of peripheral learning (Welch's ANOVA, F(3, 35.9) =
+   260→   260→4.98, p = 0.006). The difference was driven entirely by the exogenous-attention condition. Mean
+   261→   261→peripheral improvement was 0.66 log units (≈78%) in ExAT, roughly double that of the other
+   262→   262→10
+   263→   263→three conditions, which were closely comparable to one another: 0.25 log units (≈43%) in PT,
+   264→   264→10
+   265→   265→0.31 (≈50%) in EnAT, and 0.37 (≈58%) in MF. A contrasts test confirmed that ExAT exceeded
+   266→   266→PT (Δ = 0.41 log units, ≈59%; p = 0.004) and EnAT (Δ = 0.35, ≈55%; p = 0.019); the ExAT–
+   267→   267→10
+   268→   268→MF contrast was in the same direction but did not reach significance (Δ = 0.28, ≈44%; p = 0.12).
+   269→   269→Additionally, the three non-exogenous conditions did not differ from one another (all p > 0.43).
+   270→   270→3.1.3 The exogenous advantage is specific to the periphery and collapses the
+   271→   271→eccentricity gap
+   272→   272→A distinctive feature of the exogenous attention condition is evident in the learning curves
+   273→   273→themselves (Figure 2). In PT, EnAT, and MF, peripheral thresholds remained substantially
+   274→   274→elevated relative to foveal thresholds throughout training, preserving the eccentricity gap
+   275→   275→expected from the lower resolution of peripheral vision. In ExAT, by contrast, the peripheral and
+   276→   276→foveal curves converged: peripheral thresholds fell toward foveal levels, so that by the end of
+   277→   277→training the two were closely comparable. Consistent with this, peripheral improvement in ExAT
+   278→   278→(≈78%) substantially exceeded its foveal improvement (≈55%), the only condition with a reliable
+   279→   279→peripheral-over-foveal advantage (paired t(16) = 2.37, p = 0.031), whereas the remaining
+   280→   280→conditions improved more symmetrically across eccentricity. The EnAT, which employed an
+   281→   281→equally valid but symbolic central cue, preserved the full eccentricity gap—indicating that the
+   282→   282→collapse is specific to exogenous cueing rather than a general consequence of valid spatial
+   283→   283→cueing. Importantly, the observed ExAT effect is independent of eye movement as demonstrated
+   284→   284→by a control experiment using eye tracker conducted on a single session on PT and ExAT
+   285→   285→(supplementary material). We return to the interpretation of this dissociation, and to whether the
+   286→   286→peripheral enhancement reflects consolidated learning or an online attentional benefit, in the
+   287→   287→discussion; the present analyses establish the effect descriptively without adjudicating its
+   288→   288→mechanism.
+   289→   289→3.1.4 Heterogeneity of learning profiles across conditions
+   290→   290→Within each condition, observers spanned a wide range of learning outcomes, from steep
+   291→   291→threshold reductions to little or no measurable change (Figure 3). A within-condition median
+   292→   292→split on the peripheral learning metric separated this range into two readily distinguishable
+   293→   293→profiles in all four conditions. Learners showed the characteristic perceptual learning
+   294→   294→trajectory—a steep decline in peripheral threshold over the first inter-session interval followed
+   295→   295→by continued, more gradual improvement—whereas non-learners showed comparatively flat
+   296→   296→trajectories with little net change across training. Averaged across conditions, learners improved
+   297→   297→their peripheral thresholds by approximately 56–89% and non-learners by approximately 23–
+   298→   298→46%, with the two profiles clearly separated in every condition. The separation was present in
+   299→   299→
+   300→   300→the baseline condition (PT) as well as in the cued conditions, indicating that individual variation
+   301→   301→in learning is a general feature of the training rather than a property introduced by any particular
+   302→   302→attentional manipulation.
+   303→   303→Figure 3. Peripheral learning profiles for learners (blue) and non-learners (red) in each
+   304→   304→condition: PT, ExAT, EnAT, and MF. Faint traces show individual observers and thick traces show
+   305→   305→the group-mean trajectory for each subgroup. Observers were classified by a within-condition median
+   306→   306→split on the peripheral learning metric. Group sizes were PT (8 learners, 8 non-learners), ExAT (9, 8),
+   307→   307→EnAT (9, 9), and MF (10, 10). Thresholds are shown in percent contrast.
+   308→   308→The ExAT again stood out: its learners reached the lowest thresholds of any group, descending to
+   309→   309→near-foveal levels by the end of training, consistent with the eccentricity convergence reported in
+   310→   310→section 3.1.1.
+   311→   311→We note one feature of the classification relevant to its interpretation. In some conditions—most
+   312→   312→visibly ExAT and PT—observers classified as learners tended to begin training with higher
+   313→   313→peripheral thresholds than those classified as non-learners, whereas in EnAT and MF the two
+   314→   314→groups began at more similar baselines and diverged over training. Because the learning metric
+   315→   315→reflects the magnitude of threshold reduction, observers with higher starting thresholds have
+   316→   316→greater room to improve and are therefore more likely to be classified as learners, while
+   317→   317→observers already near floor at the outset can show little measurable change. The learner/non-
+   318→   318→
+   319→   319→learner distinction should accordingly be read as a descriptive summary of the observed range of
+   320→   320→learning trajectories, partly conditioned on baseline performance, rather than as a baseline-
+   321→   321→independent trait. This is one reason the continuous learning metric, rather than the median split,
+   322→   322→is used for the inferential analyses in Part 3.
+   323→   323→3.1.5 Pooled across conditions, learners show more transfer than non-learners across
+   324→   324→assessments––a consistent but not-yet-reliable pattern
+   325→   325→Next, we asked how transfer looks across learners versus non-learners. Engaging attention might
+   326→   326→promote generalization of learning, as previously shown in terms of retinal transfet (Carrasco
+   327→   327→Szpiro Donovan). To address this, we pooled observers across all four training conditions to
+   328→   328→maximize power and, using the peripheral learning metric defined above (the fitted exponential
+   329→   329→reduction in threshold across training), classified each observer as a learner or non-learner by a
+   330→   330→median split on that metric. For each of the five visual assessments we then compared the pre-to-
+   331→   331→post change of learners and non-learners (a learner × session interaction).
+   332→   332→The pattern was encouraging and directionally consistent: on every assessment, learners changed
+   333→   333→in the improving direction relative to non-learners, while non-learners tended to show little
+   334→   334→change or slight worsening over the same interval. The clearest difference was on peripheral
+   335→   335→spatial-frequency cutoff, where learners improved (24.6 → 26.8 cpd) while non-learners declined
+   336→   336→(23.0 → 20.0 cpd); this interaction was reliable (p = 0.005) and remained stable across a range of
+   337→   337→learner/non-learner cutoff thresholds rather than depending on the median split. A nominal
+   338→   338→interaction was also present for CSF cutoff (p = 0.035), with smaller, same-direction trends for
+   339→   339→acuity, CSF, and visual-search reaction time (all p > 0.28).
+   340→   340→We interpret this convergence cautiously. Because the analysis pools observers trained under
+   341→   341→different attentional manipulations into a single learner/non-learner contrast, and because the
+   342→   342→resulting per-group samples are modest, the cross-assessment pattern is best read as a consistent
+   343→   343→direction of effect rather than as established transfer: apart from peripheral SF cutoff, the
+   344→   344→individual interactions did not reach significance. The uniformity of the direction is nonetheless
+   345→   345→suggestive that observers who benefit most from peripheral training also tend to show broader
+   346→   346→visual change, and motivates collecting additional, condition-specific data to test whether this
+   347→   347→transfer is reliable and whether it differs by training manipulation.
+   348→   348→
+   349→   349→Figure 4. Pre- to -post-training change on the five visual assessments for learners and non-learners, pooled
+   350→   350→across the four training conditions. Each panel shows mean performance before (Pre, light blue) and after
+   351→   351→(Post, dark blue) training for learners and non-learners, classified by a median split on the peripheral learning
+   352→   352→metric. (A) Visual acuity (logMAR; lower is better). (B) Contrast sensitivity (C) CSF cutoff, contrast sensitivity
+   353→   353→at the spatial-frequency cutoff. (D) Spatial-frequency cutoff (cpd; higher is better). (E) Visual-search reaction
+   354→   354→time (ms; lower is better). On every assessment, learners changed in the improving direction relative to non-
+   355→   355→learners, who showed little change or slight worsening over the same interval. Error bars denote ±1 SEM.
+   356→   356→4. Discussion
+   357→   357→In this study we extended the validation of a novel, cross-platform application, PLFest, designed
+   358→   358→to promote large scale, accessible visual science research and training. Specifically, following a
+   359→   359→foundational validation study where we showed validity and reliability of basic visual function
+   360→   360→measurements (Jayakumar 2024), we here present training data with attentional manipulation
+   361→   361→paradigms applied to a standard contrast discrimination task. We specifically tested 4 attentional
+   362→   362→manipulations, including exogenous cueing, endogenous cueing, multisensory cueing, and
+   363→   363→control (no cue). Results showed that every condition produced reliable learning at both trained
+   364→   364→eccentricities (fovea and near periphery): contrast thresholds fell steeply over the first inter-
+   365→   365→session intervals and then asymptoted, tracing the standard perceptual-learning curve, with
+   366→   366→peripheral improvements ranging from ~43% (PT) to ~78% (ExAT). Second, the conditions
+   367→   367→differed in learning magnitude, in particular the exogenous attention condition roughly doubled
+   368→   368→the learning of the three other condition —a pattern consistent with prior reports that exogenous
+   369→   369→cueing potentiates learning (Szpiro & Carrasco, 2015). Third, ExAT alone nullified the
+   370→   370→peripheral–foveal performance gap, bringing peripheral performance to near-foveal levels, unlike
+   371→   371→the other conditions, in which foveal performance was systematically better than peripheral.
+   372→   372→Fourth, the platform provided a wide range of individual learning profiles within every condition
+   373→   373→and supported a transfer analysis that linked the magnitude of trained learning to the breadth of
+   374→   374→
+   375→   375→change across the assessment battery. Taken together, these results establish that PLFest collects
+   376→   376→reliable, robust, and theoretically interpretable learning data across paradigms.
+   377→   377→The most striking observation was the exogenous-specific collapse of the eccentricity gap.
+   378→   378→Several features of the data bear on its interpretation. The peripheral–foveal convergence in
+   379→   379→ExAT was present essentially from the first session rather than emerging gradually over training,
+   380→   380→which suggests that at least part of the effect reflects an online attentional enhancement of
+   381→   381→peripheral signals rather than a slow, consolidated change in perceptual sensitivity. This is
+   382→   382→mechanistically plausible: exogenous attention is known to boost the effective contrast and
+   383→   383→spatial resolution of stimuli at the cued location, and these benefits are largest in the periphery,
+   384→   384→where baseline resolution is lowest and there is the most headroom for enhancement (Carrasco,
+   385→   385→2011; Yeshurun & Carrasco, 1999). On this account, the valid peripheral cue in ExAT may have
+   386→   386→repeatedly elevated peripheral signal strength during training, narrowing the eccentricity gap as
+   387→   387→an attentional gain rather than as learning per se. At the same time, an enabling role for attention
+   388→   388→in learning cannot be excluded—exogenous attention has been proposed to push sensory
+   389→   389→stimulation past the threshold required for plasticity (Donovan et al., 2015; Szpiro & Carrasco,
+   390→   390→2015), so the elevated peripheral signal may also have facilitated genuine learning. The
+   391→   391→dissociation from EnAT is informative here because the endogenous cue was equally valid yet
+   392→   392→did not collapse the gap, the effect appears specific to the transient, stimulus-driven dynamics of
+   393→   393→exogenous attention rather than to spatial cue validity in general. Adjudicating the online-
+   394→   394→enhancement versus consolidated-learning accounts will require a within-task neutral-cue
+   395→   395→posttest, in which trained observers are re-tested without the cue (Szpiro & Carrasco, 2015); we
+   396→   396→identify this as the key next step.
+   397→   397→Several limitations constrain the conclusions that can be drawn from the present study. Because
+   398→   398→the requirements of an ongoing clinical trial limited the sample size available for condition-
+   399→   399→specific transfer analyses, our learner/non-learner transfer analysis was pooled across conditions.
+   400→   400→Although the observed effects were generally consistent in direction, they reached statistical
+   401→   401→significance only for peripheral spatial-frequency cutoff. Accordingly, the pattern of cross-
+   402→   402→assessment results should be interpreted as suggestive evidence of transfer rather than definitive
+   403→   403→proof of generalized learning. Furthermore, learner classification was partly influenced by
+   404→   404→baseline performance, as observers with higher initial thresholds had greater opportunity for
+   405→   405→improvement. Consequently, this classification should be viewed as a descriptive summary of the
+   406→   406→range of learning trajectories observed in our sample rather than as a baseline-independent
+   407→   407→characteristic of individual learners.
+   408→   408→These limitations are appropriate for a feasibility study and do not diminish the central
+   409→   409→conclusion of this work. Across four training paradigms, PLFest generated reliable, well-behaved
+   410→   410→learning data and successfully reproduced established effects from the perceptual learning
+   411→   411→literature. In particular, the platform reliably captured the distinct influences of exogenous,
+   412→   412→endogenous, and cross-modal attentional cueing on perceptual learning. These findings extend
+   413→   413→our previous validation of PLFest as a tool for measuring visual acuity and contrast sensitivity by
+   414→   414→demonstrating its ability to detect higher-level cognitive influences on learning and to support
+   415→   415→multisensory experimental manipulations. Together, these results position PLFest as a promising
+   416→   416→platform for large-scale, accessible investigations of perceptual learning mechanisms, as well as
+   417→   417→for the development and evaluation of translational training paradigms.
+   418→   418→
+   419→   419→References
+   420→   420→Aberg, K. C., & Herzog, M. H. (2010). Does perceptual learning suffer from retrograde
+   421→   421→interference? PLoS ONE, 5(12), e14161. https://doi.org/10.1371/journal.pone.0014161
+   422→   422→Ahissar, M., & Hochstein, S. (2004). The reverse hierarchy theory of visual perceptual learning.
+   423→   423→Trends Cogn Sci, 8(10), 457-464. https://doi.org/10.1016/j.tics.2004.08.011
+   424→   424→Carrasco, M. (2011). Visual attention: The past 25 years. In Vision Research (Vol. 51, pp. 1484-
+   425→   425→1525): Pergamon.
+   426→   426→Carrasco, M., & Barbot, A. (2014). How Attention Affects Spatial Resolution. Cold Spring Harb
+   427→   427→Symp Quant Biol, 79, 149-160. https://doi.org/10.1101/sqb.2014.79.024687
+   428→   428→Chung, S. T. L. (2011). Improving Reading Speed for People with Central Vision Loss through
+   429→   429→Perceptual Learning. Investigative Ophthalmology & Visual Science, 52(2), 1164-1170.
+   430→   430→https://doi.org/10.1167/iovs.10-6034
+   431→   431→Donovan, I., & Carrasco, M. (2018). Endogenous spatial attention during perceptual learning
+   432→   432→facilitates location transfer. J Vis, 18(11), 7. https://doi.org/10.1167/18.11.7
+   433→   433→Donovan, I., Szpiro, S., & Carrasco, M. (2015). Exogenous attention facilitates location transfer
+   434→   434→of perceptual learning. J Vis, 15(10), 11. https://doi.org/10.1167/15.10.11
+   435→   435→Dosher, B. A., Han, S., & Lu, Z. L. (2010). Perceptual learning and attention: Reduction of
+   436→   436→object attention limitations with practice. Vision Res, 50(4), 402-415.
+   437→   437→https://doi.org/10.1016/j.visres.2009.09.010
+   438→   438→Hung, S.-C., & Seitz, A. R. (2014). Prolonged Training at Threshold Promotes Robust
+   439→   439→Retinotopic Specificity in Perceptual Learning. The Journal of Neuroscience, 34(25),
+   440→   440→8423. https://doi.org/10.1523/JNEUROSCI.0745-14.2014
+   441→   441→Jayakumar, S., Maniglia, M., Guan, Z., Green, C. S., & Seitz, A. R. (2024). PLFest: A New
+   442→   442→Platform for Accessible, Reproducible, and Open Perceptual Learning Research. Journal
+   443→   443→of Cognitive Enhancement, 8(4), 334-345. https://doi.org/10.1007/s41465-024-00299-w
+   444→   444→Levi, D. M., & Li, R. W. (2009). Perceptual learning as a potential treatment for amblyopia: A
+   445→   445→mini-review. Vision Research, 49(21), 2535-2549.
+   446→   446→https://doi.org/https://doi.org/10.1016/j.visres.2009.02.010
+   447→   447→Liang, J., Zhou, Y., Fahle, M., & Liu, Z. (2015). Limited transfer of long-term motion perceptual
+   448→   448→learning with double training. J Vis, 15(10), 1. https://doi.org/10.1167/15.10.1
+   449→   449→Lu, Z. L., & Dosher, B. A. (2022). Current directions in visual perceptual learning. Nat Rev
+   450→   450→Psychol, 1(11), 654-668. https://doi.org/10.1038/s44159-022-00107-2
+   451→   451→Maniglia, M., Pavan, A., Sato, G., Contemori, G., Montemurro, S., Battaglini, L., & Casco, C.
+   452→   452→(2016). Perceptual learning leads to long lasting visual improvement in patients with
+   453→   453→central vision loss. Restorative Neurology and Neuroscience, 34(5), 697-720.
+   454→   454→https://doi.org/10.3233/RNN-150575
+   455→   455→Maniglia, M., Soler, V., & Trotter, Y. (2020). Combining fixation and lateral masking training
+   456→   456→enhances perceptual learning effects in patients with macular degeneration. Journal of
+   457→   457→Vision, 20(10), 19-19. https://doi.org/10.1167/jov.20.10.19
+   458→   458→Peñaloza, B., & Ogmen, H. (2022). Effects of spatial attention on spatial and temporal acuity: A
+   459→   459→computational account. Attention, Perception, and Psychophysics, 84(6), 1886-1900.
+   460→   460→https://doi.org/10.3758/s13414-022-02527-x
+   461→   461→Polat, U., Schor, C., Tong, J.-L., Zomet, A., Lev, M., Yehezkel, O., Sterkin, A., & Levi, D. M.
+   462→   462→(2012). Training the brain to overcome the effect of aging on the human eye. Scientific
+   463→   463→Reports, 2(1), 278. https://doi.org/10.1038/srep00278
+   464→   464→
+   465→   465→Roelfsema, P. R., van Ooyen, A., & Watanabe, T. (2010). Perceptual learning rules based on
+   466→   466→reinforcers and attention. Trends Cogn Sci, 14(2), 64-71.
+   467→   467→https://doi.org/10.1016/j.tics.2009.11.005
+   468→   468→Sagi, D. (2011). Perceptual learning in Vision Research. Vision Research, 51(13), 1552-1566.
+   469→   469→https://doi.org/https://doi.org/10.1016/j.visres.2010.10.019
+   470→   470→Seitz, A., & Watanabe, T. (2005). A unified model for perceptual learning. Trends Cogn Sci, 9(7),
+   471→   471→329-334. https://doi.org/10.1016/j.tics.2005.05.010
+   472→   472→Seitz, A. R. (2017). Perceptual learning. Current Biology, 27(13), R631-R636.
+   473→   473→https://doi.org/10.1016/j.cub.2017.05.053
+   474→   474→Seitz, A. R., Kim, R., & Shams, L. (2006). Sound Facilitates Visual Learning. Current Biology,
+   475→   475→16(14), 1422-1427. https://doi.org/10.1016/j.cub.2006.05.048
+   476→   476→Szpiro, S. F., & Carrasco, M. (2015). Exogenous Attention Enables Perceptual Learning. Psychol
+   477→   477→Sci, 26(12), 1854-1862. https://doi.org/10.1177/0956797615598976
+   478→   478→Tan, D. T. H., & Fong, A. (2008). Efficacy of neural vision therapy to enhance contrast
+   479→   479→sensitivity function and visual acuity in low myopia. Journal of Cataract & Refractive
+   480→   480→Surgery, 34(4).
+   481→   481→https://journals.lww.com/jcrs/fulltext/2008/04000/efficacy_of_neural_vision_therapy_to_
+   482→   482→enhance.23.aspx
+   483→   483→Xiao, L. Q., Zhang, J. Y., Wang, R., Klein, S. A., Levi, D. M., & Yu, C. (2008). Complete transfer
+   484→   484→of perceptual learning across retinal locations enabled by double training. Curr Biol,
+   485→   485→18(24), 1922-1926. https://doi.org/10.1016/j.cub.2008.10.030
+   486→   486→Yeshurun, Y., & Carrasco, M. (1999). Spatial attention improves performance in spatial
+   487→   487→resolution tasks. Vision Research, 39(2), 293-306. https://doi.org/10.1016/S0042-
+   488→   488→6989(98)00114-X
+   489→   489→Zhang, J.-Y., & Yang, Y.-X. (2014). Perceptual learning of motion direction discrimination
+   490→   490→transfers to an opposite direction with TPE training. Vision Research, 99, 93-98.
+   491→   491→https://doi.org/https://doi.org/10.1016/j.visres.2013.10.011
+   492→   492→Zhang, J. Y., & Yu, C. (2016). The transfer of motion direction learning to an opposite direction
+   493→   493→enabled by double training: A reply to Liang et al. (2015). J Vis, 16(3), 29.
+   494→   494→https://doi.org/10.1167/16.3.29
+   495→   495→
+   496→   496→

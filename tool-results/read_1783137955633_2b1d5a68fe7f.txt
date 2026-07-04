@@ -1,0 +1,1181 @@
+     1→1
+     2→Detecting facial signals in conversational corpora using OpenFace compared to manual
+     3→annotation: Challenges and recommendations
+     4→Naomi Nota1,2,3*, James P. Trujillo1,2,4*, Judith Holler1,2
+     5→* authors contributed equally to this work
+     6→1 Donders Institute for Brain, Cognition, and Behaviour, Nijmegen, The Netherlands
+     7→2 Max Planck Institute for Psycholinguistics, Nijmegen, The Netherlands
+     8→3 Edinburgh University, Edinburgh, United Kingdom
+     9→4 University of Amsterdam, Amsterdam, The Netherlands
+    10→Author note: Correspondence concerning this article should be addressed to James P. Trujillo
+    11→(j.p.trujillo@uva.nl). Naomi Nota and James P. Trujillo contributed equally to this work and
+    12→share first authorship. Supplementary Materials are available on the Open Science Framework
+    13→project page (https://osf.io/x2udw/). A validated facial signal annotation manual is available at
+    14→https://osf.io/t8wbv/?view_only=471c61f7dfc94d0a923484d485582d5d. This work was
+    15→supported by an ERC Consolidator grant (#773079, awarded to Judith Holler).
+    16→
+    17→2
+    18→Abstract
+    19→There has been an increased interest in studying language in a more ecologically valid context
+    20→over the last years. This includes an increase in investigations of language in its natural home,
+    21→namely, in multimodal face-to-face social interaction, where visual behaviour, such as facial
+    22→signals, contribute to the meaning of an utterance. An approach that is often used to investigate
+    23→the contribution of visual signals in language is to manually annotate visual behaviour.
+    24→However, this process is extremely laborious, therefore requiring considerable resources for
+    25→the creation and analysis of a large multimodal corpus. One way to overcome this problem is
+    26→to use software for the automatic detection of visual behaviour. For instance, OpenFace is a
+    27→popular tool for extracting facial signals from video recordings. However, many studies using
+    28→OpenFace do not perform any form of quality checking, and surprisingly few peer-reviewed
+    29→publications are based on validated algorithms when applying automatic facial signal analysis
+    30→using OpenFace. In this paper, we point towards potential challenges and provide
+    31→recommendations for using OpenFace for automatically detecting facial signals in
+    32→conversational corpora, based on a direct comparison with an annotation manual for facial
+    33→signals applied by trained annotators. We give potential suggestions for making use of
+    34→OpenFace data while minimizing the negative impact of detection noise. This paper therefore
+    35→offers additional tools for improving reliability of multimodal annotations when using
+    36→OpenFace, as well as an annotation manual for coding facial signals by hand, which often still
+    37→is the most reliable method in many research contexts.
+    38→Keywords: facial signals, motion tracking, conversation, feature extraction, manual annotation
+    39→
+    40→3
+    41→1. Introduction
+    42→Over the last years, there has been a growing focus on studying language in a more natural
+    43→context. While the majority of studies have focused on investigating language use in the written
+    44→or spoken modality, there has been a rising trend in studying it in its natural home, namely
+    45→multimodal face-to-face social interaction. In this multimodal setting, visual behaviour, such
+    46→as facial signals, contribute to the semantic and pragmatic meaning of utterances (Bavelas &
+    47→Chovil, 2000; Clark, 1996; Holler & Kuhlen, 2026; Holler & Levinson, 2019; Kendon, 2004;
+    48→Levinson & Holler, 2014; McNeill, 1992, 2000; Perniss, 2018). However, studying naturalistic
+    49→visual communication presents several methodological challenges.
+    50→An approach that is often used to investigate the contribution of visual signals in
+    51→language is to manually annotate visual behaviour frame-by-frame from 2D video recordings.
+    52→This is often performed using detailed coding schemes by several (expert) raters to compute
+    53→interrater reliability, which allows for some objectivity. However, the process is extremely
+    54→laborious, therefore requiring considerable resources for the creation and analysis of sizeable
+    55→multimodal corpora.
+    56→One way to overcome this problem is to apply software for the automatic detection of
+    57→visual behaviour. The face provides important signals in social interaction, and efforts to
+    58→automatize facial movement detection have used facial Action Units (AUs) as main building
+    59→blocks to extract movement. AUs represent specific muscle activations following the Facial
+    60→Action Coding System (FACS; Ekman et al., 2002), which is the most commonly known and
+    61→comprehensive coding scheme in facial movement-judgments.
+    62→
+    63→4
+    64→By now, many algorithms have been developed to automatically extract facial AUs from
+    65→video data (e.g., Bartlett et al., 2006; Li & Deng, 2022; Martinez et al., 2019; Zeng et al., 2009).
+    66→However, these algorithms are often difficult to translate to a practical implementation in the
+    67→lab outside the computer vision community, as one needs the knowledge and resources to
+    68→recreate the method. Other platforms provide software packages that are ready to use, but
+    69→typically require a subscription, and thus may not be accessible for many researchers. Open-
+    70→source software provides a solution by being relatively simple to apply by non-experts. Several
+    71→open-source automatic methods have been developed for the recognition of gestures and body
+    72→kinematics (e.g., OpenPose: Cao et al., 2021), and facial signals (e.g., OpenGaze: Zhang et al.,
+    73→2019, IntraFace: de la Torre et al. 2015; OpenFace: Baltrusaitis et al., 2016, 2018). One
+    74→computer software that recognizes changes in facial movements automatically using facial AUs
+    75→is OpenFace (Baltrusaitis et al., 2016, 2018).
+    76→However, like manual annotation, applying such automatized tools to naturalistic social
+    77→interaction or relatively unconstrained recording set-ups does not come without challenges and
+    78→limitations. For example, environmental factors such as lighting conditions, the recording
+    79→angle, image quality, or background clutter can impact the algorithm’s ability to accurately
+    80→detect facial movements. Naturalistic social interaction typically consists of many intertwined
+    81→behaviours and can be very noisy. Participants may shift their posture or move their body in a
+    82→way that makes tracking their facial movements quite difficult (e.g., slouching, moving the face
+    83→out of full sight by turning or tilting it). Image obstructions such as facial hair, hands covering
+    84→parts of the face, or head and body orientation can lead the algorithm to misinterpret (partial)
+    85→facial information. It may also detect speech-related movements that resemble facial action
+    86→units (AUs) associated with the mouth muscles.
+    87→
+    88→5
+    89→The temporal dynamics of facial behaviour consisting of rapid onset and offset times
+    90→can also present challenges for the automatic detection of facial movements, since the algorithm
+    91→may miss some of the subtle, but socially very relevant facial signals. The performance of facial
+    92→movement detection algorithms heavily relies on the diversity as well as quality of the training
+    93→data. Limited training data may lead the algorithm to struggle to generalize effectively.
+    94→Moreover, researchers aiming to annotate conversational corpora for facial movements are
+    95→typically interested in not just any movement but in facial signals — that is, meaningful
+    96→movements, produced as part of the message a speaker intends to communicate (Clark, 1996).
+    97→Manual annotators may thus distinguish between facial movements related to the pragmatic or
+    98→semantic meaning of the utterance (i.e., facial signals) and non-communicative facial
+    99→movements (e.g., signs of fatigue or physical discomfort such as an eye twitch, or habitual
+   100→gestures like hair twirling, adjusting glasses, relieving an itch). Moreover, researchers would
+   101→often be interested in facial signals including smiles or other mouth gestures, but excluding
+   102→mouth and jaw movements caused by speaking (or vice versa). Therefore, it remains an open
+   103→question whether OpenFace can be reliably used on naturalistic social interaction data and thus
+   104→be used to inform or replace manual annotation.
+   105→In this paper, we aim to provide an overview of OpenFace performance in the context
+   106→of identifying communicative facial signals in a corpus of face-to-face conversational video
+   107→recordings. In the next sections, we first give a short summary of the functionalities of
+   108→OpenFace, and provide some examples of recent studies using OpenFace to address potential
+   109→challenges one may face when using the software. Second, we compare OpenFace annotations,
+   110→extracted under a variety of threshold conditions, to a set of 34,413 manual annotations made
+   111→by visual annotators trained on a detailed facial signal coding scheme applied to a large
+   112→naturalistic and entirely unscripted Dutch face-to-face conversation corpus. The manual
+   113→
+   114→6
+   115→annotations, which were meant to capture only communicatively relevant signals, are taken as
+   116→a baseline for comparison with OpenFace. Next, we discuss performance of OpenFace both in
+   117→terms of signal-specific and general (i.e., across all facial signals) detection accuracy, as well
+   118→as accuracy in terms of signal onset timing, and we accompany this with words of caution
+   119→regarding the use of OpenFace in the absence of manual annotation checks. Then, we discuss
+   120→the pros and cons of utilizing OpenFace in various research contexts, and provide some
+   121→suggestions for effectively leveraging computer vision applications, including OpenFace, in
+   122→multimodal communication research. While there is not likely to be a one-size-fits-all solution,
+   123→we provide recommendations for improving OpenFace’s automatic detection of facial signals
+   124→in conversational corpora by presenting a simple step-by-step tutorial with accompanying
+   125→Python code to implement custom thresholding for improved detection performance.
+   126→1.1 Automatic detection of facial movements using OpenFace
+   127→OpenFace describes 18 different facial AUs, which are measured in terms of detected presence
+   128→(0 for not detected or 1 for detected) and intensity (0-5 continuous scale, with 0 for not detected,
+   129→and 1-5 reflecting increasing levels of intensity). The specific AUs captured by OpenFace are
+   130→AU01 (inner eyebrow raiser), AU02 (outer eyebrow raiser), AU04 (eyebrow lowerer), AU05
+   131→(upper lid raiser), AU06 (cheek raiser), AU07 (lid tightener), AU09 (nose wrinkler), AU10
+   132→(upper lip raiser), AU12 (lip corner puller), AU14 (dimpler), AU15 (lip corner depressor),
+   133→AU17 (chin raiser), AU20 (lip stretcher), AU23 (lip tightener), AU25 (lips part), AU26 (jaw
+   134→drop), AU28 (lip suck), AU45 (blink). These AUs are determined using static (single image
+   135→used for estimation) and dynamic (person normalisation in video) prediction models. The
+   136→default prediction model for videos is the dynamic model. OpenFace measures a range of
+   137→
+   138→7
+   139→additional features, such as facial landmark locations using 66 key points (e.g., inner, outer and
+   140→middle eyebrow points, points along lip contours; see Figure 1), as well as tracker confidence,
+   141→success (0, 1), location of 2D facial landmarks in pixels, and location of 3D facial landmarks
+   142→in millimetres.
+   143→Figure 1. OpenFace output and scene view for one dyad of the CoAct corpus. Panels A and B
+   144→show the frontal view of the two speakers in the dyad, with OpenFace head orientation tracking
+   145→(blue boxes) and facial landmark tracking (red circles). Panel C shows the scene view,
+   146→providing a visual overview of the recording set-up.
+   147→
+   148→8
+   149→Moreover, head pose information is provided along vertical (yaw, looking to the side),
+   150→horizontal (pitch, looking up and down), and depth (roll, tilting head to the side) dimensions.
+   151→Eye gaze location and direction are also provided using 56 key points (Baltrusaitis et al., 2016,
+   152→2018). In this article, however, we focus on the detection of facial movements through facial
+   153→AUs.
+   154→Many studies use OpenFace out-of-the-box, using the default pre-trained models, to
+   155→extract facial movements for analysing facial behaviour in corpora (e.g., Chizhikova &
+   156→Kimmelman, 2022; Hasan et al., 2019; Heron et al., 2018; Hmamouche, Ochs, Prevot, et al.,
+   157→2020; Hmamouche, Ochs, Prévot, et al., 2020; Shiota & Shimada, 2020; Thierry, 2020; Ueno
+   158→et al., 2020; Yang et al., 2022) or running experimental studies (e.g., Cañigueral et al., 2021;
+   159→Dobre et al., 2021; Hessels et al., 2019; Mauersberger et al., 2022). The aforementioned
+   160→examples frequently use the AU detection feature of OpenFace, for instance to quantify the
+   161→number or intensity of facial movements being produced. This demonstrates the growing
+   162→popularity of using these methods. Indeed, there are good reasons for using these models, and
+   163→in many cases they may capture the facial activity to be measured well. Yet, many studies did
+   164→not report any form of quality checking (i.e., checking for false positives and false negatives
+   165→with regard to the movements that were actually produced), meaning we do not know how well
+   166→the pre-trained models performed on those studies. In addition, surprisingly few peer-reviewed
+   167→publications are based on validated algorithms when applying automatic facial movement
+   168→analysis using OpenFace. At least, these studies do not provide any written indication for how
+   169→the algorithms performed or were checked. This can make verifying and streamlining such
+   170→methodology difficult, and could be seen as suggesting that such checks are not necessary,
+   171→which would be misleading for researchers looking to adopt these methods.
+   172→
+   173→9
+   174→We call for a note of caution when using OpenFace without quality checking, especially
+   175→since a number of authors who have explicitly checked tracking quality have noted its
+   176→performance limitations (Esselink et al., 2023; Fydanaki & Geradts, 2018; Namba et al., 2021;
+   177→Rauzy & Goujon, 2018; Stüber et al., 2022). For instance, Rauzy and Goujon (2018) performed
+   178→a validation on a French conversation dataset including spontaneous facial movements. In these
+   179→naturalistic settings, the authors noted missing measurements at landmark position levels and
+   180→found problems with occlusions. Importantly, both Rauzy and Goujon (2018) and Goujon
+   181→(2019) showed a low detection precision of OpenFace for eyebrow movements, and proposed
+   182→this was due to OpenFace interpreting eyebrow movements with a high intensity as head nods
+   183→because of OpenFace’s Constrained Local Model (CLM-Z) algorithm. They suggested CLM-
+   184→Z may give less precise annotations compared to the Supervised Descent Method (SDM)
+   185→algorithm used in other facial detection software like IntraFace (de la Torre et al., 2015).
+   186→Namba, Sato and Yoshikawa (2021) assessed the correspondence between manual and
+   187→automatic AU detection across different viewing angles, using OpenFace, FaceReader, and Py-
+   188→Feat. The authors found that, as the view moved further from a portrait view, automatic AU
+   189→detection became significantly worse. Similarly, Esselink, Oomen and Roelofsen (2023) found
+   190→substantial variability in facial expression tracking by TrueDepth cameras according to viewing
+   191→angle. Lastly, Stüber et al. (2022) found that OpenFace did not measure gaze equally well in
+   192→all directions, even after improved recording conditions and calibration, with gaze vectors
+   193→tending to underestimate more extreme horizontal and vertical eye movements. This was
+   194→argued to be caused by inherent challenges of using webcam data.
+   195→It could be that the low performance of OpenFace for spontaneous conversations is due
+   196→to the fact that the software was only trained and tested on limited datasets (Bosphorus, BP4D
+   197→and SEMAINE from FERA2015, DISFA, FERA2011, UNBC, CK+). These datasets often
+   198→
+   199→10
+   200→consist of posed or prototypical expressions (such as from emotion-related tasks) rather than
+   201→spontaneous facial behaviour displayed in unscripted conversations (see also review of facial
+   202→movement datasets by Krumhuber, 2017). This is problematic, since spontaneous facial
+   203→behaviour is different from posed facial behaviour. For example, spontaneous smiles are often
+   204→smaller in amplitude, have a longer duration, and are slower in onset and offset time compared
+   205→to posed smiles1 (Cohn & Schmidt, 2004). Additionally, spontaneous eyebrow actions (AU01,
+   206→AU02, and AU04 from the FACS system; Ekman et al., 2002) were shown to have a different
+   207→intensity, duration and occurrence order compared to posed eyebrow actions (Valstar et al.,
+   208→2006). Therefore, software trained on posed facial movements may fail to generalise to the rich
+   209→variety of facial movements produced in everyday conversation (Zeng et al., 2009). Moreover,
+   210→the predictions of the detection and intensity models were trained separately and on different
+   211→datasets, which might mean that their predictions are not always consistent (e.g., when the
+   212→detection model indicates AU not being present, the intensity model may predict its value to be
+   213→above 1).
+   214→There have been some attempts to improve OpenFace (e.g., HMAD team
+   215→https://github.com/srauzy/HMAD; Santoso & Kusuma, 2018). For example, the HMAD team
+   216→developed annotation tools such as EBMAD for eyebrow raises and frowns, BMAD for blinks,
+   217→and SMAD for smile intensities using OpenFace (Rauzy & Amoyal, 2023; Rauzy & Goujon,
+   218→2018). EBMAD can be pipelined with OpenFace outputs, and calculates eyebrow movements
+   219→using their local maxima in the two-dimensional wavelet space. Based on signal processing,
+   220→the local maxima are weighted with respect to the signal-to-noise ratio, and the higher the value
+   221→of this signal-to-noise, the higher the probability is that it corresponds to a true action (Mallat,
+   222→1 Genuine and posed smiles (i.e., so-called Duchenne and non-Duchenne smiles) have also been reported to
+   223→differ in AU activation (Ekman, 1989; Ekman et al., 1990), but recent evidence suggests that these differences
+   224→may be much less consistent than previously believed (Girard et al., 2021).
+   225→
+   226→11
+   227→1999; Rauzy & Goujon, 2018). When comparing OpenFace outputs to the manually annotated
+   228→corpus consisting of 573 eyebrow movements on 2h50mn of video extracts, Rauzy and Gujon
+   229→(2018) found that the reliability of OpenFace improved when using their tool. While tools like
+   230→the ones created by the HMAD team are certainly useful, a general overview of OpenFace
+   231→performance is still needed, as well as general recommendations for using OpenFace to study
+   232→specific facial signals on one’s own dataset. Furthermore, an evaluation of OpenFace
+   233→performance on a large naturalistic and unscripted conversation corpus including a wider range
+   234→of facial signals is still missing.
+   235→2. Comparison of OpenFace performance with manual corpus annotation
+   236→2.1 Conversational face-to-face corpus details
+   237→To assess whether OpenFace can be used as-is for reliably capturing facial signals in
+   238→conversational corpora, we compare annotations retrieved through OpenFace with manual
+   239→annotations of communicative facial movements from a large naturalistic and entirely
+   240→unscripted Dutch face-to-face conversation corpus (CoAct corpus; see Nota et al., 2021, 2023b;
+   241→ter Bekke et al., 2024; Trujillo & Holler, 2021).
+   242→The corpus consists of videos from 34 dyads (mean age = 23.10 ± 8 years; 51 female,
+   243→17 male) of Dutch native speakers (all dyad partners were friends or acquaintances), without
+   244→motoric or language problems, and with normal or corrected-to-normal vision. Dyad partners
+   245→were seated opposite one another at a comfortable conversational distance and asked to engage
+   246→in casual conversation for one hour while they were recorded. Conversations were recorded
+   247→
+   248→12
+   249→using two video cameras (Canon XE405) for frontal views of the face/head close-ups of each
+   250→participant, two cameras (Canon XF205 Camcorder) mounted at a 45-degree angle towards the
+   251→participants’ bodies, two cameras (Canon XF205 Camcorder) were mounted on tripods to
+   252→provide a birds-eye view of the participants, and one camera (Canon Legria HF G10) recorded
+   253→the scene view (both participants from the side). For the present study, only the frontal view
+   254→recordings were used (see Figure 1, panels A and B). The resulting time resolution was 25 fps
+   255→(approx. 40 ms).
+   256→The recording session was split into three 20-minute sessions. The first session
+   257→consisted of free, unguided conversation. In the second session, participants were asked to
+   258→discuss one of three themes: data privacy, social media use, or language of instruction in
+   259→university teaching. In the third session, participants were asked to discuss their ideal joint
+   260→holiday, affordable on their own budget. Written informed consent was obtained before and
+   261→after filming2. The original study was approved by the Ethics Committee of the Social Sciences
+   262→department of the Radboud University Nijmegen (ethics approval code: ECSW 2018-124).
+   263→2.2 OpenFace parameters and implementation
+   264→All videos from the CoAct corpus were processed using OpenFace (2.2.03; Baltrusaitis et al.,
+   265→2018), using the standard input and output parameters. Camera parameters were not provided.
+   266→2 Note that all CoAct corpus participants who are depicted in the figures of this manuscript provided informed
+   267→written consent for the publication of their images in an online open-access publication.
+   268→3 Note that there was a recent release of OpenFace 3.0 (Hu et al., 2025), which reports improved AU detection
+   269→performance compared to version 2.2 (F1 score of ~0.60 vs 0.50 for version 2.2). For consistency with prior
+   270→research, we used version 2.0 in our analyses. The objective of this study is to highlight general challenges
+   271→associated with using automatic detection software on relatively unconstrained recordings. Given that even the
+   272→
+   273→13
+   274→By default, OpenFace provides AU detection on a frame-by-frame basis, based on two models.
+   275→One model provides an indication of detected presence (0 or 1) for each AU in each frame of
+   276→the video, and the other provides an intensity score (0 to 5) for each AU in each frame. The two
+   277→models were trained on different datasets, and do not influence one another in the OpenFace
+   278→implementation (see Baltrusaitis et al., 2018 for more details). Figure 1 (panels A/B) shows an
+   279→example of the OpenFace tracking visualization output for one dyad of the CoAct corpus.
+   280→We used ExploFace (https://github.com/emrecdem/exploface) to extract the AUs from
+   281→the OpenFace output. ExploFace provides an easy interface, and open-source code, for AU
+   282→extraction under different thresholding (see below) parameters. Note that we do not use
+   283→ExploFace for any modifications or further calculations on the OpenFace data, beyond
+   284→extracting ELAN-compatible annotation files.
+   285→We used custom Python (3.7) scripts (see Supplementary Material on the Open Science
+   286→Framework project website https://osf.io/x2udw/) to modify the thresholds for AU detection,
+   287→as well as to utilize a junction of the two OpenFace AU detection models (i.e., model c,
+   288→providing a binary detected vs. not detected output, and model r, providing a numeric intensity
+   289→score (range: 0-5). ExploFace then provides complete annotations, based on the frame-by-
+   290→frame values, using a set of customizable parameters. Users can adjust the intensity threshold,
+   291→which indicates the minimum intensity value that is considered a true AU (when using the
+   292→intensity model r). Users can also provide timing thresholds that determine the minimum
+   293→duration of an AU for an annotation to be considered a true AU, and smoothing threshold that
+   294→indicates the amount of time between two AUs whereby the two are merged (e.g., if two
+   295→newer OpenFace release does not approach perfect precision, the overall conclusions that we draw from our
+   296→results remain valid.
+   297→
+   298→14
+   299→eyebrow raises are separated by only 100 ms of no detected eyebrow movement, and the
+   300→smoothing threshold is set to >100 ms, the two annotations are merged to form one).
+   301→Given that many facial signals can occur on a very fast time-scale (i.e., duration; 40 –
+   302→120 ms; Nota et al., 2021), we performed our comparisons using both a minimum signal
+   303→duration (i.e., timing threshold) of 100 ms (the ExploFace default value), as well as a minimum
+   304→duration of 40 ms (i.e., duration of one frame in 25 frames-per-second recording; the same
+   305→minimum duration used by the manual annotators), in separate sets of tests. Our smoothing
+   306→threshold was set to the default of 100 ms. Given that the exact intensity threshold one uses to
+   307→extract AUs will substantially impact the number (see Figure 2) and (presumably) reliability of
+   308→signals that are used for further analysis, we tested a range of intensity thresholds and provide
+   309→comparison (against manual annotation) statistics for each. Specifically, we extracted Detection
+   310→Only (i.e., model c), and Intensity Only (i.e., model r) at seven different intensity thresholds
+   311→(thresholds = 0.1, 0.3, 0.6, 0.9, 2.0, 3.0, 4.0). These intensity thresholds were chosen to cover
+   312→the full range of possible intensity values (0-5). By default, ExploFace only allows users to
+   313→extract AUs based on the Detection Only model, or Intensity Only models. We therefore
+   314→customized the ExploFace script (see Supplementary Material on the Open Science Framework
+   315→project website https://osf.io/x2udw/) in order to extract AUs using a combined Dual Model,
+   316→that provides AU annotations based on frames where a given AU is detected by both the
+   317→Detection model and the Intensity model. We used the same seven intensity thresholds for the
+   318→intensity part of the Dual model as were used in the Intensity Only models. In total, we therefore
+   319→extracted annotations using 15 intensity thresholding settings for OpenFace’s AU detection.
+   320→Incorporating a diverse set of intensity thresholds and model combinations allowed us to
+   321→extensively investigate different outputs of OpenFace. This approach ensured that our
+   322→
+   323→15
+   324→comparisons encompassed the full spectrum of information offered by OpenFace, enabling a
+   325→comprehensive evaluation of its capabilities without the need for extra training.
+   326→Figure 2. An example of how higher-threshold models can lead to more distinct annotations,
+   327→despite being stricter in their inclusion. Panel A shows two annotations coming from a 0.9
+   328→intensity threshold, and panel B shows that the same time fragment (marked in blue) with an
+   329→intensity threshold of 0.6 has one longer annotation. The discrepancy arises due to the dip in
+   330→the frame-by-frame intensity estimates for the movement (in this case AU04), which can be
+   331→seen in the green time-series trace in the upper portion of the two panels.
+   332→2.3 Manual annotation methods
+   333→As the larger project in which this study is embedded focused on question and response pairs,
+   334→manual annotation, too, focused on this sequential environment. Questions and responses were
+   335→
+   336→16
+   337→identified and annotated in ELAN (5.5; Wittenburg et al., 2006), based on an annotation scheme
+   338→adapted from Stivers and Enfield (2010), as well as a holistic approach that took into
+   339→consideration visual signals, conversational context, phrasing, prosody, and addressee
+   340→behaviour, with onsets and offsets annotated in Praat (5.1; Boersma & Weenink, 2007) and
+   341→imported into ELAN (see Nota et al., 2021 for further details). This resulted in 6778 questions
+   342→(duration Mdn = 1114 ms, min = 99ms, max = 13,145 ms, interquartile ratio = 1138 ms), and
+   343→4553 responses (duration Mdn = 1045 ms, min = 91 ms, max = 18,615 ms, interquartile ratio
+   344→= 1596 ms).
+   345→Facial signal annotation was performed in ELAN (5.5) based on the frontal view
+   346→cameras (see Figure 1), focusing on a window of 2000 ms before to 2000 ms after each question
+   347→or response annotation. These timing windows resulted from a careful qualitative analysis of
+   348→the data. Our goal was to find a balanced approach, acknowledging that visual signals may
+   349→slightly precede or follow the associated speech. Manual spots checks of the data revealed that
+   350→this extended time window was a good solution for mitigating the risk of both omitting relevant
+   351→data and including irrelevant data). Facial signals were annotated when they overlapped with
+   352→this window with minimally one frame, even if they started or ended outside of the window.
+   353→Annotations were created on a frame-by-frame basis by five trained annotators, all native
+   354→speakers of Dutch.
+   355→Critically, facial signals were annotated when they were judged to be communicative
+   356→in nature contributing to the semantic and pragmatic content of a message, based on a holistic
+   357→view of the utterance. We also coded all blinks, because their communicative value has been
+   358→demonstrated for addressee behaviour (Hömke et al., 2018). However, some of these blinks
+   359→(especially shorter ones) may have functioned primarily for wetting the eye. We additionally
+   360→coded all gaze shifts, which included cases where speakers may have shifted their gaze for
+   361→
+   362→17
+   363→speech planning purposes or other reasons. Movements such as those associated with
+   364→swallowing, inhaling, or laughter without or with inaudible speech, as well as mouth and jaw
+   365→movements arising simply due to speech articulation, were not annotated. The following facial
+   366→signals were annotated:
+   367→1. Eyebrow movements (frowns, raises, frown raises, unilateral raises, lowering)
+   368→2. Eye widenings (upper and possibly lower eyelid opening wider than neutral)
+   369→3. Squints (narrowing of the eyes due to contraction of lower and possibly upper eyelid)
+   370→4. Blinks (closure of the eye)
+   371→5. Gaze shifts (gaze away from the addressee, judged by position of the pupil)
+   372→6. Nose wrinkles (skin over the nose contracting)
+   373→7. Non-articulatory mouth movements (pressed lips, corners down, corners back, smiles)
+   374→Signal annotations started at the first evidence of movement until the respective articulator
+   375→had moved back to its neutral position. We did not annotate frames of the video that had
+   376→speech not related to the question or response, or that was combined with laughter when the
+   377→laughter rendered the speech inaudible. We additionally excluded two frames before or after
+   378→such unrelated speech events. This was to ensure that any facial signals were more likely to
+   379→be related to the question or response. This resulted in the exclusion of 795 (2.3% of the
+   380→34,413 annotated signals) signal annotations. The detailed facial signal annotation manual can
+   381→be found on the Open Science Framework website
+   382→(https://osf.io/t8wbv/?view_only=471c61f7dfc94d0a923484d485582d5d).
+   383→
+   384→18
+   385→Interrater reliability for facial signal annotations was calculated using Krippendorff’s
+   386→alpha (Krippendorff, 2019) and Jaccard similarity (1901). To calculate these two measures we
+   387→determined whether, for each coding window, a given signal was annotated. This was done for
+   388→each annotator, creating an agreement matrix with columns for each annotator (binary, signal
+   389→annotated or not), and a row for each possible combination of coding window and facial signal.
+   390→This approach focuses more on whether a particular signal was detected within a given
+   391→utterance or not, while avoiding known sources of disagreement such as segmentation (e.g.,
+   392→was it one long signal, or two consecutive signals with a short dip in intensity between them)
+   393→and offset timing. In order to provide a chance-corrected measure of agreement that can be
+   394→interpreted on its own, we calculated Krippendorff’s alpha across all manual annotators.
+   395→Krippendorff’s alpha was chosen because it is designed to handle multiple annotators, and is
+   396→more robust against skewed data with many nulls, which applies to facial signal coding given
+   397→that most utterances are unlikely to have all, or even many, of the facial signals. We report
+   398→alpha, raw agreement, and prevalence for the minimum, maximum, and average observed
+   399→agreement. Prevalence is also included as it can often explain the discrepance between raw
+   400→agreement and alpha.
+   401→Jaccard similarity, calculated as J(A,B) = ∣A∩B∣ / ∣A∪B∣, is commonly employed to
+   402→assess the similarity between two datasets by taking the intersection of the two sets divided by
+   403→the union of the two sets. This metric is thus better suited than alternatives (such as Fleiss or
+   404→Cohen’s kappa) as it does not have an assumption about multiple coding categories. As Jaccard
+   405→similarity is designed for agreement between two annotators, we calculated the average
+   406→similarity across all pairs of annotators. It should be noted that Jaccard similarity does not have
+   407→standard cut-off bands for interpretation (i.e., for poor vs moderate vs good vs excellent).
+   408→Instead, it is typically used as a comparison between methods. In the case of the present
+   409→
+   410→19
+   411→research, we provide Jaccard similarity as a straightforward metric to contrast between human-
+   412→human and human-machine reliability. While Jaccard similarity provides a measure of the
+   413→proportion of annotations in a given signal category, we also calculated raw agreement, which
+   414→considers both positive agreement (i.e., annotators have overlapping annotations with the same
+   415→label) and negative agreement (number of annotations, from both/all annotators that are not the
+   416→target signal). This calculation of raw agreement, while standard in the version of ELAN that
+   417→we used for these analyses when assessing reliability for multiple tiers, can lead to inflated
+   418→agreement values. Jaccard similarity therefore provides a useful alternative, and may be closer
+   419→to the form of agreement that researchers are typically interested in. However, for completeness
+   420→we also include raw agreement calculations.
+   421→As the timing of signal onsets was also of interest, we additionally calculated
+   422→convergent reliability using mean absolute difference (Mabs, in ms) of the onsets between
+   423→manual annotators. We also computed the standard error of measurement (SeM) as a more
+   424→precise, data-specific indicator of agreement (see Nota et al., 2021). However, because SeM
+   425→relies on Cohen’s kappa (SeM = S × √(1 − r)) and we instead use Jaccard similarity, we focus
+   426→on the raw measure of difference provided by Mabs. These calculations were done by randomly
+   427→selecting one question and one response in one of the three recording parts for each participant
+   428→in all dyads (n = 136, roughly equivalent to 1% of the question and response data in the entire
+   429→corpus) resulting in the additional annotation of 223 facial signals for reliability, and allowing
+   430→a pairwise comparison between annotators.
+   431→We excluded eyebrow lowering and mouth corners pulled back from all further
+   432→analyses, since these facial signals did not frequently appear in the corpus resulting in too few
+   433→annotations to perform the paired comparisons between annotators. For all other facial signals,
+   434→the paired comparisons showed an average alpha of 0.61, with minimum alpha = 0.24 (pressed-
+   435→
+   436→20
+   437→lips; prevalence = 3%) and maximum alpha = 0.90 (gaze; prevalence = 56%), and average
+   438→Jaccard similarity of 53% (minimum observed similarity = 16% for pressed-lips, maximum
+   439→observed similarity = 91% for gaze). See Table 1 for a more detailed overview of the results
+   440→per facial signal. The average alpha only nearly reaches a moderate level of agreement
+   441→(Krippendorff, 2019). However, this seems to be primarily due to several low-alpha signals
+   442→pulling the average down, as moderate agreement (alpha > 0.67) is achieved for six of the facial
+   443→signals. While a higher alpha would be desirable, it is important to note that the skew of the
+   444→data (i.e., most utterances do not contain most of the possible facial signals) creates an
+   445→artificially lower alpha. This can be seen in the prevalence data, where the signals (n = 6) for
+   446→which moderate agreement was achieved (alpha scores: 0.69, 0.83, 0.73, 0.89, 0.77; Jaccard
+   447→similarity: 58%, 77%, 61%, 86%, 91%, 74%), have an average prevalence of 35%, but those
+   448→with lower alpha scores (n = 6) have an average prevalence of 4%. Similarly, the three signals
+   449→with the lowest alpha (nose wrinkles, pressed lips, mouth corners down) together account for
+   450→only 754 of the 34,413 total annotations (Nota et al., 2021), or only 2% of the total annotations.
+   451→If we take the bottom six signals, which accounted for the less-than-moderate agreement, they
+   452→only account for only 8% (2,831 annotations) of the data. Thus, taken together, we consider the
+   453→results from the raw agreement and Krippendorff’s alpha, including the prevalence evaluation,
+   454→as indicative of good reliability between annotators, but we have to remain cautious regarding
+   455→the signals that did not occur frequently in our corpus (we will return to this point in the
+   456→Discussion).
+   457→Table 1. Overview of interrater reliability statistics.
+   458→Signal Alpha Jaccard Raw Prevalence
+   459→Similarity Agreement
+   460→Eyebrow frowns 0.69 58% 0.94 0.10
+   461→
+   462→21
+   463→Eyebrow raises 0.83 77% 0.93 0.26
+   464→Frown raises 0.52 39% 0.98 0.02
+   465→Unilateral eyebrow 61% 0.97 0.05
+   466→0.73
+   467→raises
+   468→Eye widenings 0.61 47% 0.95 0.07
+   469→Squints 0.62 49% 0.62 0.09
+   470→Blinks 0.68 86% 0.89 0.77
+   471→Gaze shifts 0.89 91% 0.95 0.56
+   472→Nose wrinkles 0.43 27% 0.98 0.01
+   473→Pressed lips 0.24 16% 0.95 0.03
+   474→mouth corners down 0.32 18% 0.97 0.02
+   475→Smiles 0.77 74% 0.89 0.34
+   476→Mean Mabs was 151.84 (min = 40, max = 480.67). One video frame was equivalent to
+   477→40 ms. Thus, we considered the variance based on the reliability of the signals shown by Mabs
+   478→as very low (and therefore very precise) when < 40, low when < 80, moderate when < 160, and
+   479→high when > 160 (least precise), since one video frame was equivalent to 40 ms. Therefore, the
+   480→reliability results indicate that overall, Mabs showed a moderate amount of variability.
+   481→Data Availability: An overview of these results, as well as scripts used for processing
+   482→and analyszing the data, can be found in the Supplementary Materials (Open Science
+   483→Framework project website https://osf.io/x2udw/).
+   484→2.4 Comparing OpenFace with manual annotations
+   485→
+   486→22
+   487→We compared our manual annotations with the OpenFace annotations using the same
+   488→criteria listed above for the interrater reliability between manual annotators, except that we
+   489→pooled all annotators together to be able to compare manual and OpenFace annotsations for the
+   490→coding windows in the entire corpus, of which the five manual annotators annotated different
+   491→parts. This was in order to have just one pairwise comparison, between “manual annotation”
+   492→and “automatic annotation”. We addressed reliability at the level of annotation overlap (i.e., did
+   493→the two methods detect the same signal at the same time) based on Jaccard similarity, precision,
+   494→𝑇𝑟𝑢𝑒 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠
+   495→recall, and F1 score. Precision ( ) determines how many (in our case)
+   496→𝑇𝑟𝑢𝑒 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠+𝐹𝑎𝑙𝑠𝑒 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠
+   497→of OpenFace’s detections correspond to human detections. Recall
+   498→𝑇𝑟𝑢𝑒 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠
+   499→( ) determines how many of the human detections OpenFace also
+   500→𝑇𝑟𝑢𝑒 𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑠+𝐹𝑎𝑙𝑠𝑒 𝑁𝑒𝑔𝑎𝑡𝑖𝑣𝑒𝑠
+   501→𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛∗𝑅𝑒𝑐𝑎𝑙𝑙
+   502→detected. F1 provides the harmonic mean of both (𝐹1 = 2∗ ). These measures
+   503→𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛+𝑅𝑒𝑐𝑎𝑙𝑙
+   504→therefore provide an overview of the overall correspondence between human and OpenFace
+   505→annotations, and also where disagreements are coming from.
+   506→Important to note is that while F1 does not have standard interpretation bands related
+   507→to poor, moderate, good, or excellent agreement, a score of 0.7 or above is typically considered
+   508→similar to what trained annotators can achieve for AU annotation (Kramer, 2025; Lewinsky,
+   509→den Uyl & Butler, 2014), while scores above 0.5 can be considered moderate/acceptable for
+   510→AU detection on challenging datasets (Deng, Liu, Meng, Jiang, Dong & Liu, 2023). We
+   511→addressed reliability at the level of signal onset timing using mean absolute difference (Mabs),
+   512→as described above.
+   513→Annotation overlaps and onset timing comparisons were done for each of the fifteen
+   514→threshold parameters for OpenFace’s detection models. Each of these fifteen models was
+   515→compared against the same manual annotation data. In order to ensure the manual and
+   516→
+   517→23
+   518→OpenFace annotations were as similar as possible, we only extracted OpenFace AUs that had
+   519→any overlap (i.e., at least one frame of overlap) with the question or response coding windows
+   520→described above for the manual annotations. Also keeping with the manual annotation
+   521→procedure, we excluded data related to laugher or unrelated speech. This exactly mirrored the
+   522→manual annotation procedure.
+   523→As the manual annotations did not directly look at AUs per se, but rather at facial
+   524→signals, we created facial signal annotations from the OpenFace AUs that mapped directly on
+   525→the annotation categories used by the human annotators before performing any analyses (Cohn,
+   526→Ambadar, and Ekman, 2007). Specifically, AUs 01 (inner brow raiser) and 02 (outer brow
+   527→raiser) were both converted to eyebrow raise, AU 04 (brow lowerer) was converted to eyebrow
+   528→frown, AU 09 (nose wrinkler) was converted to nose wrinkle, AUs 12 (lip corner puller) and
+   529→14 (dimpler) were converted to smile, AU 15 (lip corner depressor) was converted to mouth
+   530→corners down, AU 07 (lid tightener) was converted to squint, AU 23 (lip tightener) was
+   531→converted to pressed lips, and AU 45 (blink) was converted to blink. This conversion was done
+   532→to ensure that the two coding methods were as comparable as possible, and that separate AUs
+   533→(e.g., 01 and 02) that would be given the same annotation in the manual annotation, were
+   534→compared appropriately. Correspondences between the two schemes were based on overlaps
+   535→between the manual annotation and the underlying muscle movements, such as inner and outer
+   536→brow raisers (AU 01 and 02) corresponding to brow raise.
+   537→In our results section, we specifically highlight which models performed best (in terms
+   538→of Jaccard similarity, precision, recall, and F1), both overall and for each signal. We
+   539→additionally report the timing precision by presenting Mabs results for each model. However,
+   540→all measures are available in the Supplementary Materials (Open Science Framework project
+   541→website https://osf.io/x2udw/).
+   542→
+   543→24
+   544→2.5 Results of comparing OpenFace performance and manual coding
+   545→When comparing the out-of-the-box (i.e., using the default, pre-trained models) OpenFace
+   546→annotations to the manual annotations, it appears that OpenFace struggles with detecting facial
+   547→signals when it is applied on a naturalistic conversation corpus. In Figures 3-6, we show a few
+   548→examples of the differences we encountered between OpenFace annotations and manual
+   549→annotations when detecting signal presence (false positive or negative) and timing (for
+   550→examples of all facial signals, see Supplementary Material on the Open Science Framework
+   551→project website https://osf.io/x2udw/).
+   552→Figure 3. OpenFace annotation of AU04 vs. manually annotated eyebrow frowns. In this
+   553→example, the OpenFace annotation of AU04 (upper annotation tier) detects movement prior to
+   554→the first frame of movement, as well as movement after the last frame of movement detected
+   555→
+   556→25
+   557→by the human eye (lower annotation tier). The red vertical bar in the timeline viewer indicates
+   558→the timepoint corresponding to the still depicted in the video viewer above.
+   559→Figure 4. OpenFace annotations of AU01 and AU02 vs. manually annotated eyebrow raises.
+   560→In this example, the OpenFace annotation of AU01 (upper annotation tier) detects movement
+   561→later than the first frame of movement identified by the human eye (almost at the peak of
+   562→movement), and stops detecting movement before the last frame of movement detected by the
+   563→human eye (lower annotation tier). AU02 (second annotation tier) detects movement prior to
+   564→the first frame of movement detected by the human eye, and stops detecting movement before
+   565→the last frame of movement detected by the human eye. The red vertical bar in the timeline
+   566→viewer indicates the timepoint corresponding to the still depicted in the video viewer above.
+   567→
+   568→26
+   569→Figure 5. OpenFace annotation of AU45 vs. manually annotated blinks. In this example, the
+   570→OpenFace annotation of AU45 (upper annotation tier) detects movement prior to the first frame
+   571→of movement and after the last frame of movement identified by the human eye (lower
+   572→annotation tier), and spans a time period where the participant has open eyes (the left panel and
+   573→middle panel show gaze shifts). The red vertical bar in the timeline viewer indicates the
+   574→timepoint corresponding to the still depicted in the video viewer above.
+   575→
+   576→27
+   577→Figure 6. OpenFace annotation of AU15 vs. manually annotated mouth corners pulled down.
+   578→In this example, the OpenFace annotation of AU15 (upper annotation tier) detects movement
+   579→prior to the first frame of movement identified by the human eye (lower annotation tier), and
+   580→stops detecting movement before the last frame of movement identified by the human eye. The
+   581→red vertical bar in the timeline viewer indicates the timepoint corresponding to the still depicted
+   582→in the video viewer above.
+   583→2.5.1 Overall model performance
+   584→When using a timing threshold of 100 ms, the highest mean F1 score for the dual-model
+   585→approach was 0.126, and 0.117 for the intensity-only approach, suggesting that the dual-model
+   586→provides marginally more reliable output than the intensity-only model (see Table 2). For both
+   587→models, highest performance was achieved with an intensity threshold of 0.9.
+   588→Table 2. Overview of mean reliability scores for each threshold and model (dual or intensity)
+   589→calculating overlap between OpenFace and manual annotations based on Jaccard similarity,
+   590→Precision, Recall and F1. A minimum signal duration of 100 ms, as well as a smoothing
+   591→threshold of 100 ms was used.
+   592→Intensity-Only Intensity-Only
+   593→Model Model
+   594→Thresh.
+   595→(100 ms)
+   596→Jaccard Jaccard Recall
+   597→F1 Precision F1
+   598→Similarity Precision Recall Similarity
+   599→
+   600→28
+   601→0.1 10.9% 0.435 0.077 0.109 5.1 0.394 0.063 0.088
+   602→0.3 11.3% 0.421 0.080 0.113 5.7% 0.419 0.069 0.098
+   603→0.6 12% 0.393 0.085 0.120 6.1% 0.414 0.078 0.109
+   604→0.9 12.6% 0.359 0.091 0.126* 6.4% 0.381 0.084 0.117
+   605→2.0 10.6% 0.173 0.095 0.106 5.6% 0.175 0.092 0.104
+   606→3.0 4.1% 0.037 0.065 0.041 2.1% 0.038 0.065 0.041
+   607→4.0 0.3% 0.002 0.026 0.003 0.2% 0.002 0.002 0.003
+   608→Note. * indicates the best performing model in this set.
+   609→When using a timing threshold of 40 ms, the highest mean F1 for the dual-model approach was
+   610→0.107, and 0.096 for the intensity-only model, suggesting that the dual-model again provides
+   611→marginally more reliable output than the intensity-only model (see Table 3). For both models,
+   612→highest performance was achieved with an intensity threshold of 0.9.
+   613→Table 3. Overview of mean reliability scores for each threshold and model (dual or intensity)
+   614→calculating overlap between OpenFace and manual annotations based on Jaccard similarity,
+   615→Precision, Recall and F1. A minimum signal duration of 40 ms, as well as a smoothing threshold
+   616→of 100 ms was used.
+   617→Dual-model (presence, intensity) Intensity-Only Model
+   618→Threshold
+   619→
+   620→29
+   621→(40 ms) Jaccard Jaccard Recall
+   622→F1 Precision F1
+   623→Similarity Precision Recall Similarity
+   624→0.1 5.7% 0.435 0.071 0.102 4.5% 0.394 0.054 0.078
+   625→0.3 5.7% 0.421 0.072 0.103 4.9% 0.419 0.059 0.085
+   626→0.6 5.8% 0.393 0.073 0.105 5.1% 0.414 0.063 0.092
+   627→0.9 5.8% 0.359 0.073 0.107* 5.2% 0.381 0.065 0.096
+   628→2.0 4.8% 0.173 0.068 0.089 4.6% 0.175 0.065 0.086
+   629→3.0 1.9% 0.037 0.046 0.036 1.9% 0.038 0.046 0.036
+   630→4.0 0.2% 0.002 0.019 0.003 0.2% 0.002 0.019 0.003
+   631→Note. * indicates the best performing model in this set.
+   632→2.5.2 Individual signal performance
+   633→Although the dual-model with intensity threshold of 0.9 provided reasonable reliability overall,
+   634→its performance varied widely across the specific signals, with F1 values ranging from 0.059 –
+   635→0.411 (see full tables in the Supplementary Materials). We therefore also report the best
+   636→performing and worst performing model for each individual signal, so researchers can choose
+   637→to extract each (or specific) features using the best fitting model, as well as to show how
+   638→selecting the wrong model can lead to very poor performance.
+   639→When considering individual facial signals under the 100 ms timing threshold, the
+   640→highest and lowest observed reliability values were as follows: pressed lips, Jaccard = 0.02,
+   641→
+   642→30
+   643→F1 = 0.045, Mabs = 231.2 (dual-model 0.03); Jaccard = 0.000, F1 = 0.001, Mabs = NA (not
+   644→calculable) (dual-model 4.0), smile, Jaccard = 0.14, F1 = 0.238, Mabs = 1290.9 (intensity
+   645→model 2.0); Jaccard = 0.001, F1 = 0.000, Mabs = 1558.0 (dual-model 4.0), squint, Jaccard =
+   646→0.03, F1 = 0.059, Mabs = 843.8 (dual-model 2.0); Jaccard = 0.004, F1 = 0.008, Mabs =
+   647→367.5(dual-model 4.0), blink, Jaccard = 0.26, F1 = 0.411, Mabs = 438.1 (intensity model 0.1);
+   648→Jaccard = 0.000, F1 = 0.001, Mabs = 213.9 (dual-model 4.0), eyebrow frown, Jaccard = 0.11,
+   649→F1 = 0.196, Mabs = 662.5 (dual model 2.0); Jaccard = 0.007, F1 = 0.014, Mabs = 595.9 (dual-
+   650→model 4.0), nose wrinkle, Jaccard = 0.07, F1 = 0.129, Mabs = 256.8 (dual model 0.9); Jaccard
+   651→= 0.000, F1 = 0.000, Mabs = 530.0 (dual-model 3.0), eyebrow raise, Jaccard = 0.12,F1 = 0.215,
+   652→Mabs = 649.5 (dual-model 0.6); Jaccard = 0.002, F1 = 0.004, Mabs = 546.3 (dual-model 4.0),
+   653→mouth corners down, Jaccard = 0.04, F1 = 0.085, Mabs = 209.1 (dual model 2.0); Jaccard =
+   654→0.000, F1 = 0.000, Mabs = 333.3 (dual-model 4.0). See the Supplementary Materials for a
+   655→complete overview of statistics for all signals (https://osf.io/x2udw/).
+   656→When considering individual facial signals under the 40 ms timing threshold, the
+   657→highest and lowest observed reliability values were as follows: pressed lips, Jaccard = 0.018,
+   658→F1 = 0.035, Mabs = 231.6 (dual model 0.03) ; Jaccard = 0.000, F1 = 0.000, Mabs = 160.0 (dual-
+   659→model 3.0), smile, Jaccard = 0.115, F1 = 0.206, Mabs = 1325.4 (intensity model 2.0) ; Jaccard
+   660→= 0.002, F1 = 0.001, Mabs = 1546.0 (dual-model 4.0), squint, Jaccard = 0.025, F1 = 0.048,
+   661→Mabs = 856.9 (dual model 2.0); Jaccard = 0.004, F1 = 0.007, Mabs = 812.9 (dual-model 4.0),
+   662→blink, Jaccard = 0.236, F1 = 0.382, Mabs = 304.1 (dual-model 0.1) ; Jaccard = 0.000, F1 =
+   663→0.005, Mabs = 202.9 (dual-model 4.0), eyebrow frown, Jaccard = 0.087, F1 = 0.161, Mabs =
+   664→715.2 (dual model 2.0); Jaccard = 0.007, F1 = 0.014, Mabs = 632.4 (dual and intensity models
+   665→4.0), nose wrinkle, Jaccard = 0.055, F1 = 0.104, Mabs = 423.4 (dual model 0.9); Jaccard =
+   666→0.000, F1 = 0.000, Mabs = 646.7 (dual-model 3.0), eyebrow raise, Jaccard = 0.102, F1 = 0.186,
+   667→Mabs = 684.5 (dual model 0.6); Jaccard = 0.002, F1 = 0.004, Mabs = 590.4 (dual-model 4.0),
+   668→
+   669→31
+   670→mouth corners down, Jaccard = 0.034, F1 = 0.065, Mabs = 239.2 (dual model 2.0); Jaccard =
+   671→0.000, F1 = 0.000, Mabs = 380.0 (dual-model 4.0). See the Supplementary Material for a
+   672→complete overview of statistics for all signals.
+   673→In sum, the dual-model typically showed the most reliable annotation of the individual
+   674→signals, although different signals are best detected with different intensity-thresholds in the
+   675→dual-model.
+   676→Note, also, that higher-intensity-threshold models may lead to more distinct annotations
+   677→by considering one long visual signal as different shorter ones, despite being stricter in their
+   678→inclusion (see Figure 2, for an example).
+   679→3. Discussion
+   680→The present study investigated the accuracy of a facial signal detection program used “out-of-
+   681→the-box”, OpenFace, for identifying facial signals in naturalistic conversation when compared
+   682→to trained manual annotators. We found that, across several thresholds and methods of
+   683→extracting OpenFace features, the highest mean reliability values between OpenFace and
+   684→manual annotation did not exceed what would be considered weak levels of agreements. When
+   685→looking at overall model performance across both the 100 ms and 40 ms timing thresholds, the
+   686→dual-model approach, that utilized the intersection between the detection (*_c) model and the
+   687→intensity (*_r) model, generally outperformed the intensity-only model, providing slightly
+   688→higher F1 scores under optimal levels of intensity.
+   689→When considering individual signal performance, the highest observed Jaccard
+   690→similarity and F1 were generally quite low, though some facial signals were found to have at
+   691→least moderate agreement under certain extraction parameters. For instance, blink detection
+   692→
+   693→32
+   694→performed best (Jaccard = 0.26, F1 = 0.411, Mabs = 438.10 ms, 100 ms dual-model). Signals
+   695→such as pressed lips (Jaccard = 0.02, F1 = 0.045, Mabs = 231.20 ms) and mouth corners down
+   696→(Jaccard = 0.04, F1 = 0.085, Mabs = 209.10 ms) were particularly poorly detected.
+   697→Interestingly, the 100 ms minimum duration threshold typically outperformed the 40 ms
+   698→threshold across signals. However, manual annotations were made with a minimum duration
+   699→threshold of 40 (i.e., duration of one frame in 25 frames-per-second recording), rather than 100
+   700→ms. This seems to indicate a lower bound on the extent to which finer temporal resolution
+   701→increases the precision of detecting short signals in OpenFace, even with high quality video
+   702→data.
+   703→Timing precision, measured using Mabs, also varied widely across facial signals. Even
+   704→for relatively well-detected signals like blinks, onset differences of 438 ms may be meaningful
+   705→in studies examining fine-grained temporal coordination with speech and facial signals. Less
+   706→reliably detected signals, such as smiles (Jaccard = 0.135; F1 = 0.238; Mabs = 1,290.90 ms),
+   707→demonstrate that both detection and timing can also deviate considerably from manual
+   708→annotation for specific facial signals.
+   709→Overall, this discrepancy between manual and automatic annotation seems to be heavily
+   710→driven by the large number of false positives produced by OpenFace when using too lenient of
+   711→an intensity-model (i.e., precision < 0.45 in all models). However, raising the intensity
+   712→threshold too much leads to OpenFace missing a substantial number of true positives, as can
+   713→be seen in the fall-of of recall scores after an optimal threshold has been reached. The agreement
+   714→between OpenFace and manual annotation is further compromised by the different impact that
+   715→particular thresholds have on the detection accuracy of different facial signals, meaning that no
+   716→single model or parameter setting will provide a strong detection of all signals. Specifically,
+   717→agreement between a human annotator and OpenFace does not plateau after the intensity
+   718→
+   719→33
+   720→threshold with the highest agreement. In other words, when dual-model 0.6 is best for detecting
+   721→eyebrow raises (Jaccard = 0.120; F1 = 0.215; Mabs = 649.5 ms), for example, increasing the
+   722→threshold to 0.9 or 2.0 does not lead to the same high level of agreement on F1. Instead,
+   723→agreement again falls off if the threshold becomes stricter. In fact, reliability fell close to zero
+   724→for many signals after a certain intensity threshold was applied.
+   725→While tools such as OpenFace allow researchers to more easily process large amounts
+   726→of video data to study facial signals, we must continue to be critical towards the data that is
+   727→going into our analyses. In this case, using OpenFace without quality control introduces noise
+   728→into any analyses being conducted. While more data can be advantageous for dealing with
+   729→variability, in the case of noisy data, increasing the amount means that not only the signal of
+   730→interest but also the noise is amplified. This issue of “noise accumulation” has been described
+   731→as one of the top three challenges for big data (Fan et al., 2014; Liu et al., 2016; Mohan &
+   732→Singh, 2022). The issue does not, of course, only pertain to researchers utilizing exceedingly
+   733→large corpora that would be traditionally considered “big data”, but anyone using automated
+   734→tools to extract visual behaviour features from their videos. Without quality control, much of
+   735→the data going into subsequent analysis may be noisy. In this case, noise can refer to false
+   736→positives, false negatives (i.e., missing relevant signals and thus underestimating their presence,
+   737→or skewing their association with other features under investigation), as well as inaccurate
+   738→timing. We therefore strongly recommend that researchers using automated tools for facial
+   739→signal extraction or detection take precautions and additional steps in order to verify, and when
+   740→needed also correct, the output of these tools prior to analysing their data. As a starting point,
+   741→we have provided several recommendations for effective use of automated tools in section 4.
+   742→Overall, our results underscore the challenges associated with utilizing OpenFace for
+   743→accurate facial signal detection in naturalistic multimodal datasets. It is imperative for
+   744→
+   745→34
+   746→researchers to meticulously examine their data and assess the impact of varying thresholds on
+   747→their results. Section 4 provides recommendations for calibrating extraction parameters,
+   748→offering insight into the importance of this process. Our results therefore also provide some
+   749→indications for dealing with OpenFace output at the level of individual signals. Specifically,
+   750→researchers should be aware of the inherent variation in detection accuracy across different
+   751→signals, and check the quality of their automated detections at a signal-by-signal basis. Overall,
+   752→the obtained reliability values, even when examining best-case models for each signal,
+   753→demonstrate that caution is warranted when using automated methods to detect
+   754→communicatively relevant facial signals.
+   755→The present study utilized a large corpus of naturalistic, face-to-face conversation (Nota
+   756→et al., 2021, 2023b; Trujillo & Holler, 2021). This provided a critical test of OpenFace that is
+   757→particularly relevant for researchers interested in facial signalling in naturalistic, casual
+   758→conversation. The study therefore particularly highlights detection performance in videos that
+   759→contain (even relatively) unconstrained movement, even when the head is continuously in view.
+   760→Our results are therefore particularly relevant to the growing interest in studying the pragmatic
+   761→functions of conversational facial signals (Amoyal & Priego-Valverde, 2019; Bavelas et al.,
+   762→2014; Cañigueral et al., 2021; Domaneschi et al., 2017; Nota et al., 2021, 2023a). Future work
+   763→aimed at assessing automated facial signal detection algorithms should also consider settings
+   764→that may provide alternative viewpoints. For example, the rise in video-mediated conversation
+   765→will likely lead to an increase in video data in which speakers are engaging with a webcam,
+   766→which may provide a different viewing angle of the speaker. Along the same lines, there is an
+   767→increased interest in running online experiments where participants are recorded, or even
+   768→interact with one another, via their webcam (Arias Sarah et al., 2023; Yang & Kita, 2023).
+   769→Similarly, corpora utilizing head-mounted eye-tracking devices provide a more face-forward
+   770→
+   771→35
+   772→view, albeit at the cost of a potential obstruction of facial signals due to spectacle frames or
+   773→camera holding devices positioned under the eyes, or a (likely) decreased video quality.
+   774→Moreover, task-focused conversational interactions may involve frequent looks towards task
+   775→materials placed on table tops, thus increasing downward orientation of the face or eyes, which
+   776→too may influence automated tracking possibilities, as do more unconstrained interactions
+   777→where participants move around rather than sitting on chairs facing forwards. Assessing how
+   778→OpenFace or other automated software perform in such scenarios will be much needed.
+   779→A possible limitation of the analyses described here is that even between-human
+   780→interrater reliability is not always strong. However, even if we focus only on the facial signals
+   781→where interrater reliability was minimally considered moderate, we see that average human-
+   782→human Jaccard similarity was 74% , but only 16% in the human-OpenFace comparison. We
+   783→can then be cautiously confident that this pattern will extend to other signals, even if there may
+   784→not be sufficient occurrence in this corpus to robustly assess this. It should also be noted that
+   785→our results may be influenced by the way our comparisons were set up. Namely, we assessed
+   786→the ability of OpenFace to accurately capture the same annotations as were found through
+   787→manual annotation of communicative visual signals. Of course, there is the possibility that what
+   788→our analyses considered false positives (i.e., OpenFace annotations that did not correspond to
+   789→a manual annotation) were actually true positives in the sense that OpenFace identified a facial
+   790→signal that was communicatively relevant, albeit subtle enough to be missed in manual
+   791→annotation. Such effects would be difficult to tease out of our analyses. However, if visual
+   792→signals were detected by OpenFace but not visible to the human eye, even at close up and
+   793→repeated frame by frame inspection of the video material, it is unlikely that any such
+   794→movements would have been perceptible to the interactants themselves and thus most likely
+   795→not communicatively relevant. We therefore consider the comparison as we applied it here to
+   796→
+   797→36
+   798→be highly informative for research aiming to use OpenFace for automated analyses of
+   799→communicative facial movements.
+   800→Finally, it should be noted that our comparisons focused on the AU annotations
+   801→generated by OpenFace, but did not address the facial landmark tracking (i.e., the continuous
+   802→coordinate tracking of each landmark, without regard for detecting separate “actions”). It would
+   803→be quite useful for future methodological work to also assess the accuracy of this “rawer”
+   804→tracking data, and whether this could also be utilized for automatic detection, potentially by
+   805→again fusing this with the AU detection models. Landmark tracking may also be of sufficient
+   806→accuracy to be used for kinematic analysis of facial signals, based on quality-checked
+   807→annotations.
+   808→4. Recommendations for effective use of OpenFace for the annotation of facial signals in dyadic
+   809→face-to-face conversational corpora
+   810→1. Follow the steps as noted by the authors of OpenFace to improve base reliability (e.g.,
+   811→perform additional model training, or set camera calibration parameters by providing
+   812→the focal length and the optical centre; see also
+   813→https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibrati
+   814→on.html; Baltrusaitis et al., 2016, 2018).
+   815→2. If using Action Unit (AU) detection, always check AU annotations in the video itself,
+   816→using a program such as ELAN (Wittenburg et al., 2006) for making manual annotations
+   817→and calculating reliability. Given that “big data” can lead to bigger noise, researchers
+   818→should check random subsets of their data to ensure that the AU annotations are
+   819→sensible, even when working with big data, or when not all data can be checked
+   820→
+   821→37
+   822→manually. For example, ensuring that a trained manual annotator can annotate a
+   823→representative portion of one’s data and perform interrater reliability analyses on this
+   824→subset could already provide a good indication of whether the automated method is
+   825→capturing what the researchers are intending (either on an AU basis, or AUs matched to
+   826→signals which may require combining some of the AUs). To do so, researchers may
+   827→want to use the facial signal annotation manual we applied, which can be found on the
+   828→Open Science Framework website (https://osf.io/x2udw/ ).
+   829→3. If interested in the timing of visual signals (e.g., in relation to onset of other signals,
+   830→synchrony with linguistic units, using measures such as Mabs), researchers should use
+   831→the AU annotations only as a starting point, but refine manually. In other words, it is
+   832→advisable to always manually check the AU annotations and adjust the starting and (if
+   833→wanted) the end times. Although this requires more manual labour, simply adjusting
+   834→annotations should still be a significant reduction in time when compared to looking for
+   835→and identifying every signal manually.
+   836→4. Use and calibrate intensity thresholds as a way to filter the data. These will need to be
+   837→adjusted and calibrated by visually inspecting the annotations that are extracted at a
+   838→range of thresholds. The modified ExploFace scripts that we used (Supplementary
+   839→Materials on the Open Science Framework project website https://osf.io/x2udw/)
+   840→provide an easy way to extract AUs at several threshold intervals. Concretely,
+   841→calibration can be performed by taking the best-performing model parameters for one’s
+   842→facial signal of interest based on the results of this study as a starting point, and by
+   843→manually annotating a representative portion of the data to be used. The next step would
+   844→involve testing interrater reliability (for example, as performed in the present study)
+   845→between the manual annotation and 1) the best performing model as described in the
+   846→
+   847→38
+   848→present paper, as well as 2) one intensity threshold above and below the best performing
+   849→threshold. If reliability is better with the stricter or more conservative threshold, the
+   850→next step would be again taking one intensity threshold further in the same direction
+   851→(e.g., if comparing 0.3, 0.6, 0.9, and 0.9 shows highest reliability, adding a comparison
+   852→with 1.2). This process should be continued until further adjusting the intensity
+   853→threshold no longer improves reliability.
+   854→5. In general, if one intends to use the output of OpenFace for big data analyses with
+   855→minimal manual annotation, we suggest using a dual thresholding procedure, such as
+   856→the dual-model we created with a threshold of 0.9 described in this paper, at least for
+   857→data and recordings similar to the ones analysed here. We also highly recommend still
+   858→visually checking instances of the data after applying the dual-model and thresholds by
+   859→going through some files as mentioned in our point above, to maximise the quality of
+   860→annotations being utilized in the analyses (and minimise the frequency of false positives
+   861→or negatives).
+   862→6. Overall, if using data from only one of the two (*_r, or *_c) models, our results suggest
+   863→that the dual-model provides the most reliable detections. However, a threshold should
+   864→still be applied as low intensity detections greatly increase noise in the data.
+   865→7. Finally, the overall low reliability scores shown for all signals across all models warns
+   866→against using automated methods (or at least OpenFace 2.2.0) for detecting
+   867→communicatively relevant facial signals in spontaneous, conversational data. Although
+   868→less straightforward (at the time of writing this), training the AU detection models on
+   869→spontaneous conversational data, where multiple viewing angles of the face are present,
+   870→will likely be required in order to produce reliable results.
+   871→
+   872→39
+   873→5. Conclusion
+   874→Our analyses demonstrate that, in high-quality recordings of naturalistic conversation,
+   875→OpenFace is unable to provide accurate detection of many facial signals when utilized “out-of-
+   876→the-box”, particularly due to a high number of false positives. This conclusion holds even when
+   877→limiting the comparison to frequent signals for which human-human interrater reliability is
+   878→strongest, i.e., the most easily detected visual signals. We provide some suggestions for making
+   879→use of OpenFace data in a more reliable way while minimizing the negative impact of detection
+   880→noise. However, we primarily note that the low reliability obtained across thresholding
+   881→procedures suggests caution when using current facial signal detection software. Even with
+   882→calibrations in place, it is paramount that researchers verify the quality of the automatic
+   883→annotations with manual data annotation checks such as with the annotation manual provided.
+   884→Particularly when using AU detection, additional steps for quality control should be taken,
+   885→including filtering, and (when needed) fine-tuning of outputs. Although such additional
+   886→filtering and fine-tuning provide some increase in reliability, we caution against using
+   887→automated methods when dealing with spontaneous, conversational data without manual
+   888→validation.
+   889→6. Acknowledgements
+   890→This work was supported by an ERC Consolidator grant (#773079, awarded to Judith Holler).
+   891→We thank Anne-Fleur van Drunen, Guido Rennhack, Hanne van Uden, Josje de Valk, Leah van
+   892→
+   893→40
+   894→Oorschot, Maarten van den Heuvel, Mareike Geiger, Marlijn ter Bekke, Pim Klaassen, Rob
+   895→Evertse, Veerle Kruitbosch and Wieke Harmsen for contributing to the collection and
+   896→annotation of the corpus data.
+   897→7. Declarations
+   898→Funding
+   899→This work was supported by an ERC Consolidator Grant (#773079, awarded to J. Holler).
+   900→Conflicts of Interest
+   901→The authors declare no conflicts of interest.
+   902→Ethics Approval
+   903→The original study used for our analyses was approved by the Ethics Committee of the Social
+   904→Sciences Department at Radboud University Nijmegen (Ethics Approval Code: ECSW 2018-
+   905→124).
+   906→Consent to Participate
+   907→Written informed consent was obtained from all participants before and after filming.
+   908→Consent for Publication
+   909→Written informed consent was obtained from the individuals for the publication of any
+   910→potentially identifiable images or data included in this article.
+   911→Availability of Data and Materials
+   912→
+   913→41
+   914→Processed data are available on the Open Science Framework project page
+   915→(https://osf.io/x2udw/). A validated facial signal annotation manual is available at
+   916→https://osf.io/t8wbv/?view_only=471c61f7dfc94d0a923484d485582d5d.
+   917→Code Availability
+   918→Code used for processing and analysis is available on the OSF project page
+   919→(https://osf.io/x2udw/).
+   920→Open Practices Statement
+   921→The intermediate data and processing scripts reported here are openly available
+   922→(https://osf.io/x2udw/). This study was not preregistered.
+   923→8. References
+   924→Amoyal, M., & Priego-Valverde, B. (2019). Smiling for negotiating topic transitions in
+   925→French conversation. Proceedings of the 6th Gesture and Speech in Interaction
+   926→Conference. https://doi.org/10.17619/UNIPB/1-801
+   927→Arias Sarah, P., Denis, G., Hall, L., Aucouturier, J. J., Schyns, P., Jack, R. E., & Johansson, P.
+   928→(2023). DuckSoup: A videoconference experimental platform to transform
+   929→participants’ voice and face in real-time during social interactions. Proceedings of
+   930→the 2023 Conference on Cognitive Computational Neuroscience. Oxford, UK.
+   931→https://doi.org/10.32470/CCN.2023.1493-0
+   932→Baltrusaitis, T., Zadeh, A., Lim, Y. C., & Morency, L. P. (2018). OpenFace 2.0: Facial
+   933→Behavior Analysis Toolkit. 2018 13th IEEE International Conference on Automatic
+   934→Face & Gesture Recognition (FG 2018), 59–66.
+   935→https://doi.org/10.1109/FG.2018.00019
+   936→
+   937→42
+   938→Baltrusaitis, T., Robinson, P., & Morency, L. P. (2016). OpenFace: An open source facial
+   939→behavior analysis toolkit. In 2016 IEEE winter conference on applications of computer vision
+   940→(WACV) (pp. 1-10). IEEE. https://doi.org/10.1109/WACV.2016.7477553
+   941→Bartlett, M. S., Littlewort, G. C., Frank, M. G., Lainscsek, C., Fasel, I. R., & Movellan, J. R.
+   942→(2006). Automatic Recognition of Facial Actions in Spontaneous Expressions.
+   943→Journal of Multimedia, 1(6), 22–35. https://doi.org/10.4304/jmm.1.6.22-35
+   944→Bavelas, J. B., & Chovil, N. (2000). Visible Acts of Meaning: An Integrated Message Model
+   945→of Language in Face-to-Face Dialogue. Journal of Language and Social Psychology,
+   946→19(2), 163–194. https://doi.org/10.1177/0261927X00019002001
+   947→Bavelas, J. B., Gerwing, J., & Healing, S. (2014). Including facial gestures in gesture-speech
+   948→ensembles. In From gesture in conversation to visible action as utterance: Essays in
+   949→honour of Adam Kendon (pp. 15–34).
+   950→Boersma, P., & Weenink, D. (2007). Praat (Version 4.5. 25) [Computer software].
+   951→Cañigueral, R., Ward, J. A., & Hamilton, A. F. de C. (2021). Effects of being watched on eye
+   952→gaze and facial displays of typical and autistic individuals during conversation.
+   953→Autism, 25(1), 210–226. https://doi.org/10.1177/1362361320951691
+   954→Cao, Z., Hidalgo, G., Simon, T., Wei, S.-E., & Sheikh, Y. (2021). OpenPose: Realtime Multi-
+   955→Person 2D Pose Estimation Using Part Affinity Fields. IEEE Transactions on
+   956→Pattern Analysis and Machine Intelligence, 43(1), 172–186.
+   957→https://doi.org/10.1109/TPAMI.2019.2929257
+   958→Chizhikova, A., & Kimmelman, V. (2022). Phonetics of Negative Headshake in Russian Sign
+   959→Language: A Small-Scale Corpus Study. Proceedings of the LREC2022 10th
+   960→
+   961→43
+   962→Workshop on the Representation and Processing of Sign Languages: Multilingual
+   963→Sign Language Resources, 29–36.
+   964→Clark, H. H. (1996). Using Language. Cambridge University Press.
+   965→Cohen, J. (1960). A Coefficient of Agreement for Nominal Scales. Educational and
+   966→Psychological Measurement, 20(1), 37–46.
+   967→https://doi.org/10.1177/001316446002000104
+   968→Cohn, J. F., Ambadar, Z., & Ekman, P. (2007). Observer-based measurement of facial
+   969→expression with the Facial Action Coding System. The handbook of emotion
+   970→elicitation and assessment, 1(3), 203-221.
+   971→Cohn, J. F., & Schmidt, K. L. (2004). The timing of facial motion in posed and spontaneous
+   972→smiles. International Journal of Wavelets, Multiresolution and Information
+   973→Processing, 2(2), 121 –132.
+   974→De la Torre, F., Chu, W.-S., Xiong, X., Vicente, F., Ding, X., & Cohn, J. (2015). IntraFace.
+   975→IEEE International Conference on Automatic Face & Gesture Recognition and
+   976→Workshops, 1. https://doi.org/10.1109/FG.2015.7163082
+   977→Deng, Y., Liu, X., Meng, L., Jiang, W., Dong, Y., & Liu, C. (2023). Multi-modal information
+   978→fusion for action unit detection in the wild. In Proceedings of the IEEE/CVF
+   979→Conference on Computer Vision and Pattern Recognition (pp. 5855-5862).
+   980→Dobre, G. C., Gillies, M., Falk, P., Ward, J. A., Hamilton, A. F. de C., & Pan, X. (2021).
+   981→Direct Gaze Triggers Higher Frequency of Gaze Change: An Automatic Analysis of
+   982→Dyads in Unstructured Conversation. Proceedings of the 2021 International
+   983→Conference on Multimodal Interaction, 735–739.
+   984→https://doi.org/10.1145/3462244.3479962
+   985→
+   986→44
+   987→Domaneschi, F., Passarelli, M., & Chiorri, C. (2017). Facial expressions and speech acts:
+   988→Experimental evidences on the role of the upper face as an illocutionary force
+   989→indicating device in language comprehension. Cognitive Processing, 18(3), 285–306.
+   990→https://doi.org/10.1007/s10339-017-0809-6
+   991→Ekman, P. (1989). The argument and evidence about universals in facial expressions of
+   992→emotion. In Handbook of social psychophysiology (pp. 143–164). John Wiley &
+   993→Sons.
+   994→Ekman, P., Davidson, R. J., & Friesen, W. V. (1990). The Duchenne smile: Emotional
+   995→expression and brain physiology: II. Journal of Personality and Social Psychology,
+   996→58(2), 342. https://doi.org/10.1037/0022-3514.58.2.342
+   997→Ekman, P., Friesen, W. V., & Hager, J. C. (2002). Facial action coding system. Salt Lake City:
+   998→Research Nexus.
+   999→Esselink, L., Oomen, M., & Roelofsen, F. (2023, June). Truedepth measurements of facial
+  1000→expressions: Sensitivity to the angle between camera and face. In 2023 IEEE
+  1001→International Conference on Acoustics, Speech, and Signal Processing Workshops
+  1002→(ICASSPW) (pp. 1-5). IEEE.
+  1003→Fan, J., Han, F., & Liu, H. (2014). Challenges of Big Data analysis. National Science Review,
+  1004→1(2), 293–314. https://doi.org/10.1093/nsr/nwt032
+  1005→Fydanaki, A., & Geradts, Z. (2018). Evaluating OpenFace: An open-source automatic facial
+  1006→comparison algorithm for forensics. Forensic sciences research, 3(3), 202–209.
+  1007→Girard, J. M., Cohn, J. F., Yin, L., & Morency, L.P. (2021). Reconsidering the Duchenne
+  1008→Smile: Formalizing and Testing Hypotheses About Eye Constriction and Positive
+  1009→
+  1010→45
+  1011→Emotion. Affective Science, 2(1), 32–47. https://doi.org/10.1007/s42761-020-00030-
+  1012→w
+  1013→Goujon, A. (2019). Indices d’incompréhension et séquences de réparation dans l’interaction
+  1014→en face‑à‑face: Une analyse multimodale (Doctoral thesis, Aix‑Marseille
+  1015→University).
+  1016→Hasan, M. K., Rahman, W., Zadeh, A., Zhong, J., Tanveer, M. I., Morency, L. P, Mohammed,
+  1017→& Hoque, M. (2019). UR-FUNNY: A Multimodal Language Dataset for
+  1018→Understanding Humor. Proceedings of the 2019 Conference on Empirical Methods
+  1019→in Natural Language Processing and the 9th International Joint Conference on
+  1020→Natural Language Processing (EMNLP-IJCNLP) (pp. 2046–2056).
+  1021→https://doi.org/10.18653/v1/D19-1211
+  1022→Heron, L., Kim, J., Lee, M., El Haddad, K., Dupont, S., Dutoit, T., & Truong, K. (2018). A
+  1023→Dyadic Conversation Dataset on Moral Emotions. 2018 13th IEEE International
+  1024→Conference on Automatic Face & Gesture Recognition (FG 2018), 687–691.
+  1025→https://doi.org/10.1109/FG.2018.00108
+  1026→Hessels, R. S., Holleman, G. A., Kingstone, A., Hooge, I. T. C., & Kemner, C. (2019). Gaze
+  1027→allocation in face-to-face communication is affected primarily by task structure and
+  1028→social context, not stimulus-driven factors. Cognition, 184, 28–43.
+  1029→https://doi.org/10.1016/j.cognition.2018.12.005
+  1030→Hmamouche, Y., Ochs, M., Prévot, L., & Chaminade, T. (2020). Neuroscience to Investigate
+  1031→Social Mechanisms Involved in Human-Robot Interactions. Companion Publication
+  1032→of the 2020 International Conference on Multimodal Interaction, 52–56.
+  1033→https://doi.org/10.1145/3395035.3425263
+  1034→
+  1035→46
+  1036→Hmamouche, Y., Ochs, M., Prevot, L., & Thierry, C. (2020). Exploring the Dependencies
+  1037→between Behavioral and Neuro-physiological Time-series Extracted from
+  1038→Conversations between Humans and Artificial Agents. 9th International Conference
+  1039→on Pattern Recognition Applications and Methods, 353–360.
+  1040→https://doi.org/10.5220/0008989503530360
+  1041→Holle, H., & Rein, R. (2015). EasyDIAg: A tool for easy determination of interrater
+  1042→agreement. Behavior Research Methods, 47(3), 837–847.
+  1043→https://doi.org/10.3758/s13428-014-0506-7
+  1044→Holler, J., & Kuhlen, A. K. (2026). Psycholinguistic perspectives on face-to-face
+  1045→conversation. Nature Reviews Psychology, 1-16. https://doi.org/10.1038/s44159-026-
+  1046→00538-1
+  1047→Holler, J., & Levinson, S. C. (2019). Multimodal Language Processing in Human
+  1048→Communication. Trends in Cognitive Sciences, 23(8), 639–652.
+  1049→https://doi.org/10.1016/j.tics.2019.05.006
+  1050→Hömke, P., Holler, J., & Levinson, S. C. (2018). Eye blinks are perceived as communicative
+  1051→signals in human face-to-face interaction. PLOS ONE, 13(12), e0208030.
+  1052→https://doi.org/10.1371/journal.pone.0208030
+  1053→Hu, J., Mathur, L., Liang, P. P., & Morency, L.-P. (2025). OpenFace 3.0: A Lightweight
+  1054→Multitask System for Comprehensive Facial Behavior Analysis. 2025 IEEE 19th
+  1055→International Conference on Automatic Face and Gesture Recognition (FG), 1–11.
+  1056→https://doi.org/10.1109/FG61629.2025.11099277
+  1057→Jaccard, P. (1901). Étude comparative de la distribution florale dans une portion des Alpes et
+  1058→des Jura. Bulletin de la Société Vaudoise des Sciences Naturelles, 37, 547–579.
+  1059→
+  1060→47
+  1061→Kendon, A. (2004). Gesture: Visible Action as Utterance. Cambridge University
+  1062→Press.Kramer, R. S. (2025). Identifying basic emotions and action units from facial
+  1063→photographs with ChatGPT. Journal of Nonverbal Behavior, 49(2), 289-306.
+  1064→Krippendorff, K. (2019). Content analysis. SAGE Publications, Inc.,
+  1065→https://doi.org/10.4135/9781071878781
+  1066→Krumhuber, E. G., Skora, L., Küster, D., & Fou, L. (2017). A review of dynamic datasets for
+  1067→facial expression research. Emotion Review, 9(3), 280-292.
+  1068→Landis, J. R., & Koch, G. G. (1977). The Measurement of Observer Agreement for
+  1069→Categorical Data. Biometrics, 33(1), 159–174. JSTOR.
+  1070→https://doi.org/10.2307/2529310
+  1071→Levinson, S. C., & Holler, J. (2014). The origin of human multi-modal communication.
+  1072→Philosophical Transactions of the Royal Society B: Biological Sciences, 369(1651),
+  1073→20130302. https://doi.org/10.1098/rstb.2013.0302
+  1074→Lewinski, P., Den Uyl, T. M., & Butler, C. (2014). Automated facial coding: validation of
+  1075→basic emotions and FACS AUs in FaceReader. Journal of neuroscience, psychology,
+  1076→and economics, 7(4), 227.
+  1077→Li, S., & Deng, W. (2022). Deep Facial Expression Recognition: A Survey. IEEE
+  1078→Transactions on Affective Computing, 13(3), 1195–1215.
+  1079→https://doi.org/10.1109/TAFFC.2020.2981446
+  1080→Liu, J., Li, J., Li, W., & Wu, J. (2016). Rethinking big data: A review on the data quality and
+  1081→usage issues. ISPRS Journal of Photogrammetry and Remote Sensing, 115, 134–142.
+  1082→https://doi.org/10.1016/j.isprsjprs.2015.11.006
+  1083→
+  1084→48
+  1085→Mallat, S. (1999). A Wavelet Tour of Signal Processing. Elsevier.
+  1086→Martinez, B., Valstar, M. F., Jiang, B., & Pantic, M. (2019). Automatic Analysis of Facial
+  1087→Actions: A Survey. IEEE Transactions on Affective Computing, 10(3), 325–347.
+  1088→https://doi.org/10.1109/TAFFC.2017.2731763
+  1089→Mauersberger, H., Kastendieck, T., Hetmann, A., Schöll, A., & Hess, U. (2022). The different
+  1090→shades of laughter: When do we laugh and when do we mimic other’s laughter?
+  1091→Philosophical Transactions of the Royal Society B: Biological Sciences, 377(1863),
+  1092→20210188. https://doi.org/10.1098/rstb.2021.0188
+  1093→McNeill, D. (1992). Hand and Mind: What Gestures Reveal about Thought. University of
+  1094→Chicago Press.
+  1095→McNeill, D. (2000). Language and Gesture. Cambridge University Press.
+  1096→https://doi.org/10.1017/CBO9780511620850
+  1097→Mohan, Y., & Singh, A. P. (2022). Challenges and opportunities in Big data: A review. 10,
+  1098→36–46.
+  1099→Namba, S., Sato, W., & Yoshikawa, S. (2021). Viewpoint Robustness of Automated Facial
+  1100→Action Unit Detection Systems. Applied Sciences, 11(23), 11171.
+  1101→https://doi.org/10.3390/app112311171
+  1102→Nota, N., Trujillo, J. P., & Holler, J. (2021). Facial Signals and Social Actions in Multimodal
+  1103→Face-to-Face Interaction. Brain Sciences, 11(8), Article 8.
+  1104→https://doi.org/10.3390/brainsci11081017
+  1105→
+  1106→49
+  1107→Nota, N., Trujillo, J. P., & Holler, J. (2023a). Conversational Eyebrow Frowns Facilitate
+  1108→Question Identification: An Online Study Using Virtual Avatars. Cognitive Science,
+  1109→47(12), e13392. https://doi.org/10.1111/cogs.13392
+  1110→Nota, N., Trujillo, J. P., & Holler, J. (2023b). Specific facial signals associate with categories
+  1111→of social actions conveyed through questions. PLoS ONE, 18(7), e0288104.
+  1112→https://doi.org/10.31234/osf.io/qrhdf
+  1113→Perniss, P. (2018). Why We Should Study Multimodal Language. Frontiers in Psychology, 9.
+  1114→https://doi.org/10.3389/fpsyg.2018.01109
+  1115→Rauzy, S., & Amoyal, M. (2022). Automatic tool to annotate smile intensities in
+  1116→conversational face-to-face interactions. Gesture, 21(2-3), 320-364.
+  1117→Rauzy, S., & Goujon, A. (2018). Automatic annotation of facial actions from a video record:
+  1118→The case of eyebrows raising and frowning. In Workshop on Affects, Compagnons
+  1119→Artificiels et Interactions (WACAI) (pp. 1–7).
+  1120→Santoso, K., & Kusuma, G. P. (2018). Face recognition using modified OpenFace. Procedia
+  1121→Computer Science, 135, 510–517.
+  1122→Shiota, T., & Shimada, K. (2020). The Discussion Corpus toward Argumentation Quality
+  1123→Assessment in Multi-Party Conversation. 2020 9th International Congress on
+  1124→Advanced Applied Informatics (IIAI-AAI), 280–283. https://doi.org/10.1109/IIAI-
+  1125→AAI50415.2020.00062
+  1126→Stivers, T., & Enfield, N. J. (2010). A coding scheme for question–response sequences in
+  1127→conversation. Journal of Pragmatics, 42(10), 2620–2626.
+  1128→https://doi.org/10.1016/j.pragma.2010.04.002
+  1129→
+  1130→50
+  1131→Stivers, T., Enfield, N. J., Brown, P., Englert, C., Hayashi, M., Heinemann, T., Hoymann, G.,
+  1132→Rossano, F., Ruiter, J. P. de, Yoon, K.-E., & Levinson, S. C. (2009). Universals and
+  1133→cultural variation in turn-taking in conversation. Proceedings of the National
+  1134→Academy of Sciences, 106(26), 10587–10592.
+  1135→https://doi.org/10.1073/pnas.0903616106
+  1136→Stüber, J., Junctorius, L., & Hohenberger, A. (2022). Investigating Non-Visual Eye
+  1137→Movements Non-Intrusively: Comparing Manual and Automatic Annotation Styles.
+  1138→Journal of Eye Movement Research, 15(2), 1–14.
+  1139→https://doi.org/10.16910/jemr.15.2.1
+  1140→ter Bekke, M., Drijvers, L., & Holler, J. (2020). The predictive potential of hand gestures
+  1141→during conversation: An investigation of the timing of gestures in relation to speech.
+  1142→PsyArXiv. https://doi.org/10.31234/osf.io/b5zq7
+  1143→ter Bekke, M., Drijvers, L., & Holler, J. (2024). Hand Gestures Have Predictive Potential
+  1144→During Conversation: An Investigation of the Timing of Gestures in Relation to
+  1145→Speech. Cognitive Science, 48(1), e13407. https://doi.org/10.1111/cogs.13407
+  1146→Thierry, C. (2020). A multimodal corpus of Human-Human and Human-Robot conversations
+  1147→including synchronized behavioral and neurophysiological recordings. Late-
+  1148→Breaking Track at the SIGDIAL Special Session on Physically Situated Dialogue
+  1149→(RoboDIAL-20). https://hal.archives-ouvertes.fr/hal-02916070
+  1150→Trujillo, J. P., & Holler, J. (2021). The Kinematics of Social Action: Visual Signals Provide
+  1151→Cues for What Interlocutors Do in Conversation. Brain Sciences, 11(8), Article 8.
+  1152→https://doi.org/10.3390/brainsci11080996
+  1153→
+  1154→51
+  1155→Ueno, R., Nakano, Y. I., Zeng, J., & Nihei, F. (2020). Estimating the Intensity of Facial
+  1156→Expressions Accompanying Feedback Responses in Multiparty Video-Mediated
+  1157→Communication. Proceedings of the 2020 International Conference on Multimodal
+  1158→Interaction, 144–152. https://doi.org/10.1145/3382507.3418878
+  1159→Valstar, M. F., Pantic, M., Ambadar, Z., & Cohn, J. F. (2006). Spontaneous vs. posed facial
+  1160→behavior: Automatic analysis of brow actions. Proceedings of the 8th International
+  1161→Conference on Multimodal Interfaces (ICMI ’06). (pp. 162–170).
+  1162→https://doi.org/10.1145/1180995.1181031
+  1163→Wittenburg, P., Brugman, H., Russel, A., Klassmann, A., & Sloetjes, H. (2006). ELAN : a
+  1164→professional framework for multimodality research. Proceedings of the 5th
+  1165→International Conference on Language Resources and Evaluation, 1556–1559.
+  1166→Yang, J., & Kita, S. (2023). AME: The Autonomous Multimodal Experiment System. Gesture
+  1167→and Speech in Interaction (GeSpIn).
+  1168→Yang, Z., Nayan, K., Fan, Z., & Cao, H. (2022). Multimodal Emotion Recognition with
+  1169→Surgical and Fabric Masks. ICASSP 2022 - 2022 IEEE International Conference on
+  1170→Acoustics, Speech and Signal Processing (ICASSP), 4678–4682.
+  1171→https://doi.org/10.1109/ICASSP43922.2022.9746414
+  1172→Zeng, Z., Pantic, M., Roisman, G. I., & Huang, T. S. (2009). A Survey of Affect Recognition
+  1173→Methods: Audio, Visual, and Spontaneous Expressions. IEEE Transactions on
+  1174→Pattern Analysis and Machine Intelligence, 31(1), 39–58.
+  1175→https://doi.org/10.1109/TPAMI.2008.52
+  1176→Zhang, X., Sugano, Y., & Bulling, A. (2019). OpenGaze: Open source toolkit for camera-
+  1177→based gaze estimation and interaction. arXiv. https://arxiv.org/abs/1901.10906
+  1178→
+  1179→52
+  1180→
+  1181→
