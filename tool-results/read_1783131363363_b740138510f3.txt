@@ -1,0 +1,2002 @@
+     1→Revisiting the SciPop Scale: Measurement Alignment, Scoring Rules, and Cross-
+     2→Context Comparability
+     3→(This manuscript is a preprint version that has undergone peer review and is currently
+     4→under minor revision at Political Psychology, but has not yet been formally accepted
+     5→or published.)
+     6→Xue-Fei Yan, Zhihao Ma
+     7→Computational Communication Collaboratory, School of Journalism and
+     8→Communication, Nanjing University
+     9→Corresponding author:
+    10→Zhihao Ma
+    11→Computational Communication Collaboratory
+    12→School of Journalism and Communication
+    13→Nanjing University
+    14→Room 345, Zijin Building, Nanjing University (Xianlin Campus), 163 Xianlin Road,
+    15→Qixia District, Jiangsu Nanjing, 210023 China
+    16→Email: redclass@163.com
+    17→
+    18→1
+    19→Revisiting the SciPop Scale: Measurement Alignment, Scoring Rules, and Cross-
+    20→Context Comparability
+    21→Abstract
+    22→Science-related populism—populist attitudes toward scientific authority—has attracted
+    23→growing scholarly attention. Although the SciPop Scale measures this construct, its cross-
+    24→national psychometric properties remain underexamined. Using data from the Trust in Science
+    25→and Science-Related Populism project (N = 69,341; 68 countries/regions) and the Swiss
+    26→Science Barometer (N = 1,124), we evaluate factor structure and reliability, test multigroup
+    27→invariance, apply alignment for approximate invariance, and compare scoring philosophies
+    28→(Bollen vs. Goertz approach) on criterion validity. We further employ multidimensional item
+    29→response theory models to provide complementary item-level diagnostics, including
+    30→discrimination, threshold, item information, and differential item functioning. Results show
+    31→that reliability is high and a four-factor model fits most broadly. Full measurement invariance
+    32→holds across sex, age, education, residence, political orientation, and religiosity; partial
+    33→invariance appears across regions, economic development, cultural values, and regime types.
+    34→Cross-national comparability is limited but improves via measurement alignment. Different
+    35→scoring methods identify different weakest dimensions. For criterion validity, Bollen-based
+    36→aligned scores consistently outperform Goertz approach, yielding higher explanatory power in
+    37→cross-national and cross-group analyses. Finally, we provide guidelines for researchers using
+    38→the SciPop Scale and future directions for measuring science-related populism.
+    39→Keywords: Science-related populism; the SciPop Scale; Measurement invariance;
+    40→
+    41→2
+    42→Measurement alignment; Philosophy of measurement
+    43→Transparency Statement：During manuscript preparation, we used Microsoft Bing AI to
+    44→refine language and readability. All content was reviewed and edited by the authors, who take
+    45→full responsibility for the final text. This article reports two studies (Study 1 and Study 2);
+    46→neither study was preregistered. All additional results for both studies are provided in the
+    47→Online Supplementary Materials; the analysis code is accessible via OSF at
+    48→https://osf.io/zegrf/overview?view_only=a3ff36cf0e8e44a484f60f0adc958af3. For Study 1,
+    49→the TISP dataset, documentation, and codebook are publicly available at https://osf.io/5c3qd/.
+    50→For Study 2, the 2019 Wissenschaftsbarometer Schweiz data and documentation are available
+    51→via FORSbase at https://doi.org/10.48573/wpf5-hf36 (registration required); the 2020 data was
+    52→provided directly by Mede via personal communication; and the 2019–2020 panel data are
+    53→publicly accessible through Mede and Schäfer (2022) at https://osf.io/3hgpe/.
+    54→
+    55→3
+    56→Introduction
+    57→Global science populism
+    58→Populist movements have been rising worldwide (Mede & Schäfer, 2020; Smith, 2019).
+    59→Populists claim to represent the “virtuous people” in opposition to political elites and
+    60→institutional authorities (Rooduijn, 2014). This anti-elite sentiment extends beyond politics to
+    61→other institutions, including academic elites (Forchtner et al., 2018; Mede & Schäfer, 2020).
+    62→This has given rise to science-related populism, which positions scientists and experts as a
+    63→morally corrupt or detached group standing in opposition to the “virtuous people” (Mede &
+    64→Schäfer, 2020). More broadly, science-related populism reflects how individuals evaluate
+    65→expertise, institutional authority, and the legitimacy of elites, issues that have been important
+    66→concerns in political psychology (Staerklé et al., 2022; Widmann, 2022).
+    67→Science-related populism represents a domain-specific manifestation of populist attitudes
+    68→while remaining empirically distinct from political populism (Eberl et al., 2023). Although the
+    69→two are closely related, they differ in their substantive correlates, with political populism more
+    70→strongly associated with trust in government and science-related populism more closely linked
+    71→to trust in science (Eberl et al., 2023; Piterová & Loziak, 2025) (see Appendix A1 for a detailed
+    72→comparison of the two constructs). Given its direct challenge to scientific authority (Mede &
+    73→Schäfer, 2020), science-related populism is relevant for understanding public distrust in science
+    74→(Elchardus & Spruyt, 2016; Merkley, 2020) anti-intellectualism (Hofstadter, 1963; Merkley,
+    75→2020), and responses to global crises such as the COVID-19 pandemic and climate change
+    76→(Bertin et al., 2020; Eberl et al., 2021; Klinger et al., 2022; Richardson et al., 2023).
+    77→
+    78→4
+    79→The SciPop scale and its cross-national applicability
+    80→Despite increasing attention to anti-scientific attitudes, research on science-related
+    81→populism remains limited due to the early stage of measurement development. Mede et al.
+    82→(2021) introduced the SciPop Scale, a survey instrument designed to systematically capture
+    83→science-related populist attitudes and provide a foundation for further empirical work. The
+    84→SciPop Scale comprises four dimensions (Mede et al., 2021): (1) conceptions of ordinary
+    85→people (PPL)—the belief that they rely on common sense, share values and interests, and are
+    86→virtuous; (2) conceptions of the academic elite (ELI)—the belief that scientists and experts are
+    87→immoral, produce useless knowledge, and conspire with other elites; (3) demands for decision
+    88→(DEC)-making sovereignty—the claim that the people should influence scientists’ work; and
+    89→(4) demands for truth-speaking sovereignty (TRU)—the claim that common-sense knowledge
+    90→is superior to scientific knowledge. Building on this scale, Mede and colleagues (2025)
+    91→conducted a series of studies, including the “Trust in Science and Science-Related Populism”
+    92→(TISP) survey across 68 countries/regions and comparative research on global trust in scientists
+    93→(Cologna et al., 2025), highlighting the need for further cross-cultural validation of the SciPop
+    94→Scale.
+    95→Importantly, cross-national variation concerns not only populism but also the societal role
+    96→and epistemic status of science, both shaped by cultural and institutional contexts. Studies show
+    97→substantial differences across countries in how science and scientists are understood (Younger-
+    98→Khan, 2026) and in levels of scientific knowledge (Allum et al., 2008; Bauer et al., 2012). For
+    99→example, Japan reports lower scientific knowledge and trust than the UK and the US (Miura et
+   100→al., 2024). Large-scale surveys also show substantial variation in trust in science, with higher
+   101→
+   102→5
+   103→levels in Australia, New Zealand, Northern Europe, and Central Asia, and lower levels in parts
+   104→of Africa and South America (Gallup, 2019), although Cologna et al. (2025) find more nuanced
+   105→regional patterns. Moreover, institutional arrangements shape scientific autonomy,
+   106→transparency, and politicization, which influence how science is produced, communicated, and
+   107→perceived (Efimov et al., 2024; Gittelman, 2006; Iordanou et al., 2026; Younger-Khan, 2026).
+   108→For instance, politicization of science can foster public skepticism, contributing to cross-
+   109→national variation in attitudes toward science (Rutjens et al., 2022). Taken together, these
+   110→findings underscore the complexity of cross-national variation and the need for measurement
+   111→equivalence before substantive interpretation. As Yang and Ma (2026) show, even with
+   112→identical instruments, substantive conclusions may change after measurement alignment.
+   113→Therefore, rigorous cross-national validation is necessary to ensure comparability of science-
+   114→related populist attitudes across contexts. These issues have received increasing attention in
+   115→political psychology, as they determine whether observed cross-national differences in attitudes
+   116→toward science, expertise, and authority reflect substantive variation or measurement artifacts
+   117→(Kusano et al., 2025; Sterner & Goretzko, 2026).
+   118→Research gaps
+   119→As a recently developed instrument, the SciPop Scale has undergone initial validation, yet
+   120→several issues remain unresolved (Mede et al., 2021). In particular, its cross-national reliability
+   121→and validity have not been comprehensively assessed, leaving important research gaps. First,
+   122→the optimal factor structure of the SciPop Scale has not been firmly established. Existing studies
+   123→have tested one-factor (Piterová, 2024), four-factor (Hawkins & Chinn, 2024; Mede et al.,
+   124→2021), and second-order factor models (Mede et al., 2025), but have not systematically
+   125→
+   126→6
+   127→compared these structures across subgroups (e.g., sex, age) or national contexts. Thus, whether
+   128→a stable cross-cultural factor structure exists remains unclear.
+   129→Second, evidence for measurement invariance across subgroups and countries/regions
+   130→remains limited. While Piterová (2024) found good invariance across age, education, and sex
+   131→groups in Slovakia, Mede et al. (2025) reported failures in metric and scalar invariance at the
+   132→cross-national level without identifying specific regional patterns. This suggests that beyond
+   133→demographic characteristics, broader cross-national and cross-cultural sources of variation
+   134→remain underexplored. Insights from populism research indicate that populist attitudes vary
+   135→systematically across geographic, economic, cultural, and political contexts. Regional
+   136→comparisons show distinct patterns of populism across Europe, Latin America, Asia, and Africa
+   137→(Hadiz & Chryssogelos, 2017), while economic and social development constitutes a key driver
+   138→of populist attitudes (Guiso et al., 2017; Mansbach & Ferguson, 2021). For example, Guiso et
+   139→al. (2017) found that economic anxieties such as declining income and unemployment strongly
+   140→predict populist attitudes. Additionally, populism is also a result of cultural and value-based
+   141→conflicts, as it often emerges in the context of cultural transformation conflicts, particularly in
+   142→Protestant Europe and English-speaking countries/regions where self-expression values
+   143→dominate (Norris & Inglehart, 2019). Finally, regime type also matters. Based on the Economist
+   144→Intelligence Unit (EIU) Democracy Index, Pinto et al. (2017) found that populism is highest in
+   145→hybrid regimes among EU member states, followed by flawed democracies, with authoritarian
+   146→regimes occupying an intermediate position. Taken together, these findings highlight the need
+   147→to further examine measurement invariance of science-related populism across these diverse
+   148→contexts. Moreover, whether measurement alignment methods can provide a viable solution
+   149→
+   150→7
+   151→for enabling valid cross-national comparisons remains an open question.
+   152→Third, criterion validity of the SciPop Scale has not been systematically examined in
+   153→cross-cultural settings. Prior studies show that science-related populism is negatively
+   154→associated with perceived trustworthiness of science-related media coverage, perceived
+   155→trustworthiness of scientists, beliefs in the promise of science, and vaccination likelihood
+   156→(Kohler & Koinig, 2023; Mede et al., 2021), and positively associated with reservations toward
+   157→science and conspiracy beliefs (Eberl et al., 2023; Mede et al., 2021), while showing no
+   158→consistent link with technocratic preferences (Eberl et al., 2023). However, findings on trust in
+   159→science remain mixed across studies. While some research reports significant negative
+   160→associations (Cologna et al., 2025; Eberl et al., 2023; Mede et al., 2021; Piterová & Loziak,
+   161→2025), others find no significant relationship (Mede et al., 2022; Zillich et al., 2024),
+   162→underscoring the need for more rigorous cross-cultural validation.
+   163→Another important but often overlooked research gap concerns the methodological
+   164→foundations of SciPop scoring. Research on populist attitudes typically employs three scoring
+   165→methods: Bollen, Goertz, and Sartori approach, each reflecting a different measurement
+   166→philosophy (Wuttke et al., 2020). The Bollen approach, grounded in traditional psychometrics,
+   167→treats multidimensional constructs as “compensatory”, meaning that a low score on one
+   168→dimension can be offset by high scores on other dimensions (Bollen & Lennox, 1991). In
+   169→contrast, the Goertz approach conceptualizes multidimensional constructs as “non-
+   170→compensatory”, in which all dimensions must be simultaneously present and a deficiency in
+   171→one dimension cannot be compensated by high scores in others; thus, overall strength is
+   172→determined by the weakest dimension (Goertz, 2020). The Sartori approach also follows a non-
+   173→
+   174→8
+   175→compensatory logic but treats the construct in binary terms by requiring all dimensions to meet
+   176→a predefined threshold (Sartori, 1984). Empirically, although Bollen-based scoring is widely
+   177→used (Wuttke et al., 2020), the Goertz approach is argued to better reflect populism as an
+   178→attitudinal syndrome (Akkerman et al., 2014; Elchardus & Spruyt, 2016; Spruyt et al., 2016;
+   179→Wuttke et al., 2020). By contrast, the Sartori approach is rarely employed in the populist
+   180→attitudes literature because it treats populism as a binary concept and requires an explicit
+   181→threshold to distinguish “populists” from “non-populists,” which may introduce arbitrariness
+   182→when no clear cut-off exists (Wuttke, 2019; Wuttke et al., 2020). Accordingly, the present study
+   183→only compares Bollen- and Goertz-based scoring approaches as alternative operationalizations
+   184→of the SciPop construct.
+   185→Inspired by political populism research, Mede et al. (2021) recommend the Goertz
+   186→approach, i.e., taking lowest score among the four dimensions as an indicator of overall support
+   187→for science-related populism. However, although this recommendation is grounded in a non-
+   188→compensatory conceptualization, it has not been empirically evaluated using models that
+   189→explicitly reflect this assumption, such as non-compensatory multidimensional item response
+   190→theory (MIRT) models. As a result, the measurement implications of the non-compensatory
+   191→structure remain insufficiently examined. In the absence of such validation, studies have
+   192→adopted heterogeneous scoring practices. Some apply alternative implementations of the
+   193→Bollen approach, such as computing simple mean scores (Hawkins & Chinn, 2024; Kohler &
+   194→Koinig, 2023; Piterová & Loziak, 2025; Zillich et al., 2024), while others use confirmatory
+   195→factor analysis (CFA) factor scores (Eberl et al., 2023; Mede & Schäfer, 2022). However,
+   196→systematic comparisons of these scoring methods remain limited, and it is unclear how they
+   197→
+   198→9
+   199→contribute to heterogeneous findings. Key questions therefore remain, including which
+   200→approach is most appropriate and robust, and how scores differ before and after applying cross-
+   201→national alignment methods.
+   202→To address this issue, the present study computes SciPop dimension scores using three
+   203→methods—mean scores, CFA factor scores, and alignment-based factor scores—and aggregates
+   204→them using both the Goertz and Bollen approaches, resulting in six scoring variants (see Table
+   205→1). A further issue is that the lowest-dimension score in the Goertz approach may differ
+   206→depending on the scoring method used, potentially altering its substantive interpretation.
+   207→Therefore, we also examine the consistency of the lowest-dimension across scoring approaches.
+   208→Such comparisons are crucial for establishing measures of science-related populist attitudes
+   209→that are comparable across cultural contexts. Finally, we address the limitation that the original
+   210→scale development did not empirically test whether its non-compensatory theoretical
+   211→assumptions align with item response theory (IRT)-based models. We report supplementary
+   212→MIRT analyses in the online appendix, focusing on item-level properties, including
+   213→discrimination, thresholds, item information, and differential item functioning (DIF) (see
+   214→Appendix C).
+   215→[insert Table 1 about here]
+   216→Research questions
+   217→To address these research gaps, the study consists of two parts. Study 1, the central
+   218→component of this paper, draws on TISP global survey data covering 68 countries/regions
+   219→(Cologna et al., 2025; Mede et al., 2025). We assess the reliability, factor structure and
+   220→measurement invariance across sex, age, education, place of residence, political orientation,
+   221→
+   222→10
+   223→degree of religiosity, as well as at the national level. For cross-national analyses, we further
+   224→categorize countries/regions by geography, economic development, political regime, and
+   225→cultural values to test subgroup invariance. In addition, we employ measurement alignment to
+   226→assess approximate invariance and compare aligned scores with several alternative scoring
+   227→approaches. Finally, we examine criterion validity by testing associations with a range of
+   228→related constructs, including perceived benefits of science, trust in scientific methods,
+   229→confidence in scientists, and social dominance orientation.
+   230→Study 2 uses nationally representative data from the Science Barometer Switzerland
+   231→surveys conducted in 2019 and 2020 (Metag et al., 2022) to further test the factor structure and
+   232→measurement invariance over time. This allows us to assess the robustness and provide a more
+   233→stringent validation within the specific context of Switzerland. By doing so, we not only test
+   234→the temporal and sample stability of the SciPop Scale, but also respond to the initial conceptual
+   235→and empirical work of Mede et al. (2021), thereby extending its evidence base for criterion
+   236→validity and applicability. Building on these two studies, we address the following research
+   237→questions:
+   238→RQ1: What is the optimal factor structure of the SciPop Scale across sex, age, education,
+   239→residence, political orientation, religiosity, and countries/regions?
+   240→RQ2: Does the SciPop Scale exhibit measurement invariance across these subgroups and
+   241→across countries/regions?
+   242→RQ3: How does the SciPop Scale correlate with other validated measures to assess its
+   243→criterion validity?
+   244→RQ4: Which scoring approach (See Table 1) provides the most valid basis for cross-
+   245→
+   246→11
+   247→national comparison of SciPop Scale, particularly when using aligned factor scores?
+   248→Together, these research questions are designed not only to evaluate the psychometric
+   249→properties of the SciPop Scale, but also to derive evidence-based recommendations for its use
+   250→in subgroup and cross-national research, and to inform future refinement of measures of
+   251→science-related populist attitudes.
+   252→Study 1
+   253→Study 1 aims to systematically examine the reliability, factor structure, and measurement
+   254→invariance of the SciPop Scale across diverse subgroups and countries/regions using the TISP
+   255→global dataset. This study enables a global comparative perspective, allowing us to assess cross-
+   256→national patterns and test the applicability of different scoring methods (mean scores, CFA
+   257→factor scores, and alignment-based factor scores) under both the Goertz and Bollen approaches.
+   258→In addition, we evaluate the criterion validity of the scale by testing its associations with related
+   259→constructs. No preregistration was conducted for the study. All supplemental materials related
+   260→to Study 1 are provided in Appendix A.
+   261→Methods
+   262→Data and sample
+   263→Data for Study 1 were collected between November 2022 and August 2023 as part of the
+   264→TISP Many Labs project (“Trust in Science and Science-Related Populism”). This preregistered,
+   265→global cross-sectional online survey included 71,922 participants from 68 countries and regions
+   266→(Mede et al., 2025). For our analyses, we used a cleaned dataset comprising 69,534 participants
+   267→across 68 countries and regions.
+   268→To ensure data quality and align with the study’s objectives, we conducted additional
+   269→
+   270→12
+   271→rigorous data processing (see Figure A2). First, as science-related populism is our primary
+   272→variable of interest, we excluded 193 participants with missing responses on the SciPop Scale.
+   273→Second, we verified that there were no missing values for sex, age, education, or place of
+   274→residence. Third, drawing on developmental psychology literature (Mehta et al., 2020; Reifman
+   275→& Niehuis, 2023) we redefined age groups as follows: 18–29 years (emerging adulthood)
+   276→(Arnett, 2000), 30–45 years (established adulthood) (Mehta et al., 2020), 46–65 years (middle
+   277→adulthood) (Reifman & Niehuis, 2023) , and ≥66 years (late adulthood) (Vernon & Gage,
+   278→2016). Fourth, following the coding practices adopted by major social surveys such as the
+   279→European Social Survey (ESS; Kroh, 2007), American National Election Studies (ANES;
+   280→Erikson et al., 2002; Kathleen, 1990), Comparative Research on Scientific Issues (CRSi; Belak
+   281→& Goh, 2024), and Pew Research Center (Pew; The Pew Center, 2014, 2018), we recoded
+   282→political orientation and religiosity into three-category variables based on the midpoints of their
+   283→respective Likert scales. For political orientation, both the liberal–conservative and left–right
+   284→self-placement scales were collapsed into three groups: scores of 1–2 were coded as Liberal or
+   285→Left-leaning, a score of 3 as Moderate, and scores of 4–5 as Conservative or Right-leaning.
+   286→Similarly, for religiosity, we classified respondents as lowly religious (scores of 1–2),
+   287→moderately religious (score of 3), and highly religious (scores of 4–5).
+   288→Finally, no countries/regions were excluded from the analysis because of insufficient
+   289→sample size lower than the 227 cutoff (see Appendix Table A1). This cutoff was determined
+   290→through a priori power analysis conducted for all tested models (one-factor, four-factor, second-
+   291→order, and bifactor) using RMSEA-based criteria; the detailed procedures and assumptions are
+   292→reported in Appendix A2. Since the smallest country/region sample in our dataset was 308
+   293→
+   294→13
+   295→participants, all 68 countries/regions were retained for analysis. A post-hoc sensitivity analysis
+   296→further confirmed the adequacy of the retained sample sizes, as reported in Appendix A2.
+   297→After these steps, the final dataset consists of 69,341 participants from 68 countries and
+   298→regions. To further account for heterogeneity in geography, economy, culture, and political
+   299→regimes, we further categorized countries/regions into four subgroups, as measurement
+   300→instruments may function more comparably across countries that are relatively similar along
+   301→these dimensions (Zhou & Ma, 2025). These included six geographical clusters based on the
+   302→United Nations’ geographic regions (United Nations, 1999), two economic groups based on the
+   303→UNCTAD classification of Economic and Social Development (United Nations, 2022), seven
+   304→cultural clusters based on the Inglehart–Welzel cultural map of the world (Inglehart & Welzel,
+   305→2005), and four political regime types based on the EIU Democracy Index (Economist
+   306→Intelligence Unit, 2023) (see Appendix Table A2).
+   307→Measures
+   308→Science-related populism. Science-related populist attitudes were assessed with the
+   309→SciPop Scale (Mede et al., 2021). The scale consists of eight items rated on a 5-point Likert
+   310→scale (strongly disagree – strongly agree). These items capture four conceptual dimensions of
+   311→science-related populism (see Table 2). In terms of scoring, the present study computes
+   312→dimension scores using three different methods: (1) mean scores, calculated as the unweighted
+   313→arithmetic average of responses to the two items within each dimension; (2) CFA factor scores,
+   314→estimated from a four-factor CFA model; and (3) alignment-based factor scores, obtained from
+   315→the measurement alignment procedure to adjust for cross-national non-invariance when full
+   316→measurement invariance cannot be established. For the latter, individual scores are computed
+   317→
+   318→14
+   319→using country-specific aligned item parameters, such that item responses are first adjusted for
+   320→intercept differences and then combined according to their corresponding factor loadings.
+   321→Subsequently, the four-dimension scores were aggregated into an overall SciPop score using
+   322→two distinct approaches: the Goertz approach, which takes the minimum value among the four
+   323→dimensions, and the Bollen approach, which averages the four-dimension scores. This yields a
+   324→total of six scoring variants for comparison (see Table 1).
+   325→[insert Table 2 about here]
+   326→Criterion variables. Criterion validity was assessed using four theoretically relevant
+   327→variables: perceived benefits of science (Mede et al., 2025), trust in scientific methods
+   328→(Achterberg et al., 2017; Mede et al., 2025), confidence in scientists (2019; Mede et al., 2025),
+   329→and social dominance orientation (SDO) (Mede et al., 2025; Pratto et al., 2013). The first three
+   330→variables are science-related single-item measures, while SDO provides a broader ideological
+   331→criterion that is theoretically related to political ideology and science-related attitudes (Kerr &
+   332→Wilson, 2021; Mayer et al., 2020). Details on item wording, response scales, coding, and
+   333→limitations of these criterion variables are reported in Appendix A3.
+   334→Statistical analysis
+   335→The statistical analyses were conducted in six stages, as illustrated in Figure 1. First, we
+   336→summarized the overall sample and subgroups and assessed scale reliability using Cronbach’s
+   337→α and McDonald’s ω (DeVellis, 2012). Second, we evaluated the latent structure of the SciPop
+   338→Scale using CFA, comparing one-factor (Piterová, 2024), four-factor (Mede et al., 2021),
+   339→second-order four-factor (Cologna et al., 2025; Piterová, 2024), and bifactor models (see Figure
+   340→2). Model fit was assessed using RMSEA, CFI, SRMR, and TLI, following established fit
+   341→
+   342→15
+   343→criteria and the principle of parsimony (Falk & Muthukrishna, 2023) (see Appendix A4 for
+   344→model specifications and selection criteria).
+   345→[insert Figure 1 and 2 about here]
+   346→Third, we tested measurement invariance using the four-factor model, which was selected
+   347→as the most generalizable latent structure. Invariance was assessed across sex, age, education,
+   348→place of residence, political orientation, religiosity, and countries/regions. To further examine
+   349→cross-national heterogeneity, countries/regions were grouped by geography, economic
+   350→development, cultural values, and political regime type. Measurement invariance was
+   351→evaluated sequentially at the configural, metric, scalar, and strict levels using changes in CFI,
+   352→RMSEA, TLI, and SRMR; when full invariance was not supported, partial invariance was
+   353→examined (see Appendix A4 for grouping criteria, thresholds, and partial invariance
+   354→procedures).
+   355→Fourth, because partial measurement invariance could not be established at the full
+   356→country/region level, we applied measurement alignment to assess approximate invariance and
+   357→improve the comparability of SciPop scores across countries/regions under partial non-
+   358→invariance (Asparouhov & Muthén, 2014; Fischer & Karl, 2019; Robitzsch, 2025). Alignment
+   359→was conducted separately for the four SciPop dimensions, and aligned factor scores were
+   360→extracted as one scoring alternative for subsequent analyses (see Appendix A4 for
+   361→implementation details).
+   362→Fifth, we examined the consistency of the Goertz logic across scoring methods by
+   363→comparing whether unaligned mean scores, unaligned CFA factor scores, and alignment-
+   364→adjusted factor scores identified the same lowest dimension. Sixth, we generated six SciPop
+   365→
+   366→16
+   367→score variants by combining the three dimension-score types with both Goertz and Bollen
+   368→aggregation approaches (see Table 1). We then assessed criterion validity using OLS
+   369→regressions predicting perceived benefits of science, trust in scientific methods, confidence in
+   370→scientists, and social dominance orientation. Differences between scoring approaches were
+   371→evaluated using Fisher permutation tests with 1,000 bootstrap resamples and, as a robustness
+   372→check, seemingly unrelated regression (SUR) models (Zellner, 1962) with Wald chi-square
+   373→tests. As an additional robustness check, we calculated robustness values to assess the
+   374→sensitivity of the observed associations to potential unobserved confounding. The rationale and
+   375→technical details of coefficient comparisons and robustness-value analyses are reported in
+   376→Appendix A4.
+   377→Results
+   378→Descriptive analysis and reliability
+   379→An overview of the overall sample and individual country/region samples is presented in
+   380→Appendix Table A3. As for scale reliability, the SciPop Scale presents strong internal
+   381→consistency, with Cronbach’s α = 0.79 and McDonald’s ω = 0.83. These values indicate a high
+   382→level of reliability.
+   383→Confirmatory factor analysis
+   384→As shown in Appendix Table A4, the four-factor model achieves good fit in the overall
+   385→sample as well as in most subgroups. In contrast, the one-factor model fails to reach acceptable
+   386→fit in the overall sample and across all subgroups. In the total sample, both the four-factor and
+   387→second-order factor models show acceptable fit, but the four-factor model is identified as the
+   388→optimal choice. For the sex group, the four-factor model is good fit for both men and women,
+   389→
+   390→17
+   391→whereas the second-order factor model reaches only acceptable fit. Therefore, the four-factor
+   392→model is identified as the optimal model for both male and female subgroups. Across groups
+   393→defined by age, education, residence, political orientation (left–right), political orientation
+   394→(liberal–conservative), and religiosity, the four-factor model consistently emerges as the
+   395→optimal model. While the second-order factor model reaches acceptable fit in some subgroups,
+   396→the four-factor model achieves good fit across the board. The bifactor model generally fails to
+   397→achieve acceptable fit, with the exception of the left-leaning political subgroup, where it
+   398→reaches acceptable fit.
+   399→At the country and region level (see Appendix Table A5), no acceptable model is found
+   400→for 12 countries/regions, including Botswana, Costa Rica, Côte d'Ivoire, Greece, Hong Kong,
+   401→Hungary, Malaysia, Nicaragua, Serbia, Taiwan, Uganda, and Portugal. In Albania, Austria,
+   402→Chile, Germany, and Italy, both the four-factor and second-order factor models are identified
+   403→as the optimal model. In Bulgaria, Cyprus, Georgia, India, Israel, Mexico, Morocco, and
+   404→Norway, the four-factor, second-order factor, and bifactor models all qualify as optimal models.
+   405→For the remaining countries and regions, the four-factor model consistently emerges as the
+   406→optimal model. Overall, the findings show that the four-factor model is the most robust and
+   407→optimal model for the SciPop Scale across most subgroups.
+   408→Measurement invariance
+   409→We summarize the results of the measurement invariance testing for the four-factor model
+   410→of the SciPop Scale across sex, age, education, residence, political orientation (both left–right
+   411→and liberal–conservative), religiosity, and countries/regions at the configural, metric, scalar,
+   412→and strict invariance levels (see Table 3 and Appendix Table A6). To begin with, full
+   413→
+   414→18
+   415→measurement invariance across sex, age, education, residence, political orientation, and
+   416→religiosity are supported, indicating that the SciPop Scale is comparable across these groups.
+   417→At the country level, we excluded 12 countries and regions where CFA model fit is not
+   418→achieved in the previous step and conducted measurement invariance testing with the
+   419→remaining 56 countries and regions. The full country group does not achieve measurement
+   420→invariance. While configural and metric invariance and partial metric invariance are supported,
+   421→partial scalar and strict invariance cannot be established.
+   422→[insert Table 3 about here]
+   423→For the geographic region defined subgroups, full measurement invariance is supported
+   424→in Australia/Oceania and North America. In Africa subgroup, configural and metric invariance
+   425→are supported; partial scalar invariance is achieved after freely estimating three intercept
+   426→parameters, while strict invariance cannot be established even after freeing one residual
+   427→variance parameter. In Asia subgroup, configural and metric invariance are supported; however,
+   428→even after freely estimating four intercept parameters, neither scalar nor strict invariance is
+   429→achieved. In Europe subgroup, configural and metric invariance are supported; after freeing
+   430→two intercept parameters, partial scalar invariance is achieved, yet strict invariance remains
+   431→failed. In Latin America subgroup, configural and metric invariance are supported; after freely
+   432→estimating two intercept parameters, partial scalar invariance is achieved, but strict invariance
+   433→still fails after freely estimating two residual variances parameters. In summary, within the
+   434→geographically defined subgroups, the SciPop Scale shows a certain degree of comparability
+   435→across the countries/regions in Australia/Oceania, North America, Africa, Europe, Latin
+   436→America. It should be noted that strict invariance is generally difficult to achieve; therefore, in
+   437→
+   438→19
+   439→line with common practice, we considered the attainment of scalar invariance sufficient to
+   440→establish comparability of latent means across groups.
+   441→For economic development defined subgroups, in the Global South, configural and metric
+   442→invariance are supported; after freely estimating four intercept parameters, partial scalar
+   443→invariance is achieved, but strict invariance remains unsupported. In the Global North,
+   444→configural and metric invariance are supported; after freely estimating four intercept
+   445→parameters, partial scalar invariance is achieved, but strict invariance again fails. Therefore,
+   446→the SciPop Scale is comparable across all economic development defined subgroups to some
+   447→extent, including both the Global South and the Global North countries/regions.
+   448→For the subgroups defined by cultural value, only the English-speaking subgroup achieves
+   449→full measurement invariance. In the Confucian subgroup, configural and metric invariance are
+   450→supported; after freely estimating three intercept parameters, partial scalar invariance is
+   451→achieved. However, after additionally freeing one residual variance parameter, partial strict
+   452→invariance still fails. In the Protestant Europe subgroup, configural and metric invariance are
+   453→supported; after freely estimating two intercept parameters, partial scalar and strict invariance
+   454→are achieved. In the Catholic Europe subgroup, configural and metric invariance are supported;
+   455→after freely estimating two intercept parameters, partial scalar invariance is achieved. Further
+   456→freeing two residual variances parameters yields partial strict invariance. In the West South
+   457→Asia subgroup, configural and metric invariance are supported; after freely estimating two
+   458→intercept parameters, partial scalar invariance is achieved. However, after additionally freeing
+   459→two residual variances parameters, partial strict invariance still fails. In the Latin America
+   460→subgroup, configural and metric invariance are supported; after freely estimating two intercept
+   461→
+   462→20
+   463→parameters, partial scalar invariance is achieved. Yet, after additionally freeing two residual
+   464→variances parameters, partial strict invariance still fails. In the Orthodox Europe subgroup,
+   465→configural and metric invariance are supported; after freely estimating three intercept
+   466→parameters, partial scalar invariance is achieved. However, after additionally freeing one
+   467→residual variance parameter, partial strict invariance still fails. In the African Islamic subgroup,
+   468→configural and metric invariance are supported; after freely estimating three intercept
+   469→parameters, partial scalar invariance is achieved. Yet, after further freeing one residual variance
+   470→parameter, partial strict invariance still fails. Taken together, the SciPop Scale shows a
+   471→satisfactory level of comparability across all culture-based subgroups to some extent, including
+   472→the Confucian, Protestant Europe, Catholic Europe, English-speaking, West South Asia, Latin
+   473→America, Orthodox Europe, and African Islamic countries/regions.
+   474→For the subgroups defined by political regime, none of the subgroups achieves full
+   475→measurement invariance. In the Full Democracy subgroup, configural and metric invariance
+   476→are supported; after freely estimating two intercept parameters, partial scalar invariance is
+   477→achieved, and after additionally freeing two residual variances parameters, partial strict
+   478→invariance is also achieved. In the Flawed Democracy subgroup, configural and metric
+   479→invariance are supported; after freely estimating three intercept parameters, partial scalar
+   480→invariance is achieved. However, after additionally freeing one residual variance parameter,
+   481→partial strict invariance still fails. In the Hybrid Regime subgroup, configural and metric
+   482→invariance are supported; after freely estimating three intercept parameters, partial scalar
+   483→invariance is achieved. Yet, after freeing one residual variance parameters, partial strict
+   484→invariance still fails. In the Authoritarian subgroup, configural and metric invariance are
+   485→
+   486→21
+   487→supported; after freely estimating three intercept parameters, partial scalar invariance is
+   488→achieved. However, after additionally freeing one residual variance parameter, partial strict
+   489→invariance still fails. Overall, the SciPop Scale shows comparability across all political regime
+   490→defined subgroups, including the Full Democracy, Flawed Democracy, Hybrid Regime, and
+   491→Authoritarian countries/regions.
+   492→Measurement alignment
+   493→Since the SciPop Scale does not achieve full measurement invariance at the country level,
+   494→we applied measurement alignment based on the four-factor model to assess approximate
+   495→invariance across countries/regions. The alignment results provide strong support for
+   496→approximate invariance (Table 4): across the four dimensions, the R² values for loadings exceed
+   497→98% and for intercepts exceed 99% across the four dimensions (PPL, ELI, DEC, and TRU),
+   498→surpassing the 75% threshold suggested by Muthén and Asparouhov (2014) for successful
+   499→alignment. Moreover, no loading parameters and fewer than 11% of intercept parameters are
+   500→identified as non-invariant, remaining well below the 25% cutoff (Asparouhov & Muthén,
+   501→2014). Importantly, alignment provides more robust estimates of latent means under conditions
+   502→of partial measurement non-invariance, thereby improving the cross-group comparability of
+   503→SciPop scores. Accordingly, the aligned factor scores are used as one scoring alternative in the
+   504→subsequent criterion validity analyses.
+   505→[insert Table 4 about here]
+   506→Comparison of different scoring methods
+   507→Following Goertz (2020) approach, populism is conceptualized as being determined by
+   508→the lowest score across its dimensions. To assess the robustness of this approach, we compared
+   509→
+   510→22
+   511→three scoring strategies: unaligned mean scores, unaligned four-factor scores, and alignment-
+   512→adjusted four-factor scores. Specifically, we examine the consistency in identifying the lowest
+   513→dimension and the proportion of cases in which each dimension is identified as the lowest. As
+   514→shown in Figure 3 (Panel A) and Appendix Table A7, unaligned mean scores and unaligned
+   515→four-factor scores show the highest consistency (83.27%) in identifying the lowest dimension
+   516→(i.e., the sum of the central three-way overlap (67.58%) and an additional region where the
+   517→mean-score and four-factor-score approaches agree but differ from the alignment-adjusted
+   518→classification (15.69%), as depicted in the Venn diagram). For the unaligned mean scores, ELI
+   519→(38.12%) is most frequently identified as the lowest dimension, whereas for both the unaligned
+   520→(31.56%) and alignment-adjusted four-factor scores (44.57%), PPL is most frequently
+   521→identified as the lowest dimension.
+   522→[insert Figure 3 about here]
+   523→Criterion validity
+   524→To examine criterion validity, we conducted OLS regressions with three science-related
+   525→variables (i.e., perceived science benefit, trust in scientific methods, and confidence in
+   526→scientists) and one political-psychological variable (i.e., social dominance orientation) as
+   527→dependent variables. As independent variables, we used SciPop scores computed under the
+   528→Goertz approach — unaligned mean scores (SciPop_Goertz_Mean), unaligned four-factor
+   529→scores (SciPop_Goertz_Factor), and alignment-adjusted four-factor scores
+   530→(SciPop_Goertz_Aligned) — as well as scores computed under the Bollen approach —
+   531→unaligned mean scores (SciPop_Bollen_Mean), unaligned four-factor scores
+   532→(SciPop_Bollen_Factor), and alignment-adjusted four-factor scores (SciPop_Bollen_Aligned).
+   533→
+   534→23
+   535→We then compared the coefficients and R² values across these different scoring strategies.
+   536→[insert Figure 4 about here]
+   537→As shown in Figure 4, across all criterion variables, SciPop scores show consistent and
+   538→statistically significant associations in the theoretically expected directions: negative
+   539→associations with perceived science benefit, trust in scientific methods, and trust in scientists,
+   540→and positive associations with social dominance orientation. This pattern holds across all six
+   541→scoring approaches. However, the magnitude of these associations varies across scoring
+   542→methods. For the unaligned mean- and factor-based scores, the absolute coefficients generally
+   543→range from |β| = 0.113–0.368, suggesting modest associations by conventional methodological
+   544→benchmarks (Cohen, 2013; Funder & Ozer, 2019; Gignac & Szodorai, 2016), By contrast,
+   545→alignment-adjusted scores yield weaker associations, with coefficients ranging from |β| =
+   546→0.008–0.141, thereby producing more conservative estimates of association strength.
+   547→Nevertheless, because conventional effect-size benchmarks often refer to correlations rather
+   548→than regression coefficients, these values should be interpreted as contextual indicators rather
+   549→than as direct evaluative thresholds.
+   550→More specifically, the differences across scoring strategies follow a clear pattern. Among
+   551→the unaligned scores, mean-based scoring approaches generally show the strongest associations
+   552→and the largest increases in explanatory power, with SciPop_Goertz_Mean often yielding the
+   553→largest coefficients and highest incremental R² values depending on the outcome. Among the
+   554→alignment-adjusted scores, SciPop_Bollen_Aligned generally produces stronger associations
+   555→and larger increases in R² than its Goertz-based counterpart across multiple outcomes. Because
+   556→all models use the same criterion variables and model specifications, differences in incremental
+   557→
+   558→24
+   559→R² provide a relative indicator of the additional explanatory contribution of each scoring
+   560→approach. Finally, robustness checks using SUR models yield results consistent with the OLS-
+   561→based Fisher permutation tests, confirming the stability of the observed patterns (see Appendix
+   562→Tables A9–A19). In addition, robustness value analyses (Cinelli & Hazlett, 2020) provide
+   563→further evidence that, among the unaligned scores, SciPop_Goertz_Mean generally shows the
+   564→highest robustness, whereas among the alignment-adjusted scores, SciPop_Bollen_Aligned is
+   565→the most robust (Appendix Table A21). Taken together, the criterion-validity results suggest
+   566→that mean-based unaligned scores, especially SciPop_Goertz_Mean, perform strongly in terms
+   567→of association strength, explanatory power, and robustness, whereas Bollen-based aligned
+   568→scores appear more advantageous when cross-national comparability is required.
+   569→Discussion
+   570→Study 1 provides a comprehensive psychometric evaluation of the SciPop Scale across 68
+   571→countries and regions. We focused on its reliability, factor structure, and measurement
+   572→invariance across sex, age, education, residence, political orientation, religiosity, and at the
+   573→national level, including alignment testing across countries. Additionally, we examined the
+   574→consistency of different scoring methods and their relationships with a range of related
+   575→constructs to assess criterion validity. Through this work, we aim to evaluate the suitability of
+   576→the SciPop Scale for cross-national research and to offer practical implications for its
+   577→application.
+   578→First, the SciPop Scale demonstrates high reliability, with the four-factor structure being
+   579→the most widely applicable optimal model. Specifically, reliability analysis shows that the
+   580→SciPop Scale exhibits high internal consistency. CFA results indicate that the four-factor model
+   581→
+   582→25
+   583→outperforms other CFA models in the overall sample as well as in most subgroups. At the
+   584→country/region level, however, 12 countries/regions do not reach acceptable model fit, and in
+   585→13 others the best-fitting structures varied, including four-factor, second-order factor, and
+   586→bifactor models. Overall, the four-factor structure remains the optimal model for the SciPop
+   587→Scale on a theoretical level, while in some concrete scenarios (e.g., Georgia) adjustments may
+   588→be necessary. Complementary item-level diagnostics based on MIRT further support the
+   589→psychometric performance of the SciPop Scale (see Appendix C1). The items demonstrate
+   590→moderate to high discrimination and provide complementary information across different
+   591→ranges of the latent traits, suggesting good measurement precision across the four dimensions.
+   592→These findings extend previous research. Earlier studies tested one-factor (Mede et al., 2025;
+   593→Piterová, 2024), second-order factor (Mede et al., 2025; Piterová, 2024), or four-factor models
+   594→(Hawkins & Chinn, 2024; Mede et al., 2021) separately, but rarely examined the optimal
+   595→structure systematically across different subgroups. Moreover, most existing evidence has
+   596→come from single-country samples, limiting opportunities for cross-national comparison. In
+   597→contrast, this study not only evaluates the robustness and generalizability of the four-factor
+   598→structure across different subgroups, but also provides broader empirical support for its cross-
+   599→national applicability.
+   600→Second, the SciPop Scale shows strong comparability across different sociodemographic
+   601→subgroups, but its cross-national comparability is more limited. Specifically, full measurement
+   602→invariance is established across sex, age, education, residence, political orientation, and
+   603→religiosity. This result aligns with Piterová’s (2024) findings in the Slovak sample, while
+   604→extending the evidence by demonstrating measurement invariance for the first time across
+   605→
+   606→26
+   607→residence, political orientation, and religiosity. At the cross-national level, the measurement
+   608→invariance tests offer important insights into the applicability of the SciPop Scale. In the full
+   609→country sample, only configural and metric invariance are supported, while scalar and strict
+   610→invariance do not hold. Consistent with prior cross-national research (Mede et al., 2025), this
+   611→result suggests that the SciPop Scale faces certain limitations for direct country comparisons,
+   612→likely due to differences in geography, economics, politics, and culture. Brief country-level
+   613→diagnostics suggest that the observed non-invariance is unlikely to be primarily an artifact of
+   614→response styles (see Appendix E2). Notably, complementary IRT-based DIF analyses revealed
+   615→generally poor cross-group fit, suggesting that exact measurement invariance may be overly
+   616→restrictive for large-scale cross-national ordinal data (see Appendix C2). To address these
+   617→limitations, we further applied measurement alignment, which indicates that approximate
+   618→invariance can be achieved across countries.
+   619→In addition, we examined measurement invariance across groups defined by geographic,
+   620→economic, cultural, and political contexts to explore whether stronger evidence of measurement
+   621→invariance could be found within more homogeneous clusters. By geographic region, the
+   622→SciPop Scale achieves full measurement invariance in Australia/Oceania and North America,
+   623→and partial scalar invariance in Africa, Europe, and Latin America, suggesting a reasonable
+   624→degree of comparability in those regions. By economic development, the SciPop Scale shows
+   625→satisfactory comparability in both the Global South and the Global North. By cultural values,
+   626→the scale demonstrates good cross-cultural comparability in Confucian, Protestant European,
+   627→Catholic European, English-speaking, West South Asian, Latin American, Orthodox European,
+   628→and African Islamic groups. Finally, by political regime type, the scale performs well across
+   629→
+   630→27
+   631→Full Democracies, Flawed Democracies, Hybrid Regimes, and Authoritarian states. Taken
+   632→together, these findings suggest that participants who share similar economic, political, or
+   633→cultural contexts are more likely to interpret science-related populism in comparable ways.
+   634→Third, the SciPop scores derived from different scoring methods are not consistent in
+   635→identifying the weakest dimension. The findings show that mean scores tend to classify ELI as
+   636→the lowest dimension, whereas factor scores and alignment-adjusted factor scores more often
+   637→identify PPL as the lowest. The degree of consistency across methods also varies, with the
+   638→highest agreement observed between mean scores and factor scores. These results indicate that
+   639→the choice of scoring strategy substantially affects the identification of the weakest dimension,
+   640→influencing not only the overall score distribution but also conclusions about which dimension
+   641→is most fragile. Complementary multidimensional non-compensatory IRT analyses further
+   642→revealed substantial instability in weakest-dimension identification across scoring approaches,
+   643→suggesting important methodological challenges in operationalizing weakest-link logic (see
+   644→Appendix C3).
+   645→Fourth, SciPop scores derived from different scoring methods are all significantly
+   646→associated with criterion variables (i.e., perceived science benefit, trust in scientific methods,
+   647→confidence in scientists, and social dominance orientation), providing strong evidence of
+   648→criterion validity. However, their explanatory power varies considerably. Overall, the simple
+   649→mean-based scores perform best: SciPop_Bollen_Mean shows the largest coefficients for
+   650→perceived scientific benefits and confidence in scientists, while SciPop_Goertz_Mean is most
+   651→effective in explaining trust in the scientific methods, and yields the largest increase in R² across
+   652→the four criterion variables. By contrast, factor scores and alignment-adjusted factor scores are
+   653→
+   654→28
+   655→generally weaker. Notably, in the cross-national alignment context, SciPop_Bollen_Aligned
+   656→shows significantly higher regression coefficients and greater R² increases than
+   657→SciPop_Goertz_Aligned. These results suggest that for cross-national research, Bollen
+   658→approach offers stronger explanatory power in terms of criterion validity.
+   659→Study 2
+   660→Study 2 aims to validate and extend the findings of Study 1. Using nationally
+   661→representative Swiss data collected in 2019 and 2020, it examines whether the SciPop Scale
+   662→remains structurally comparable within a single multilingual national context and across two
+   663→measurement occasions. The Swiss data are useful for this purpose because they combine
+   664→institutional stability with internal linguistic diversity (German-, French-, and Italian-speaking
+   665→areas) and include two waves collected before and during the COVID-19 pandemic. In addition
+   666→to providing a country-specific robustness check of the findings from Study 1, Study 2 focuses
+   667→on three issues that Study 1 cannot directly address: within-country subgroup comparability,
+   668→temporal measurement invariance, and whether the criterion validity of SciPop scores extends
+   669→to broader political-psychological orientations beyond science-specific attitudes. Taken
+   670→together, Study 2 complements Study 1 by evaluating the robustness of the SciPop Scale across
+   671→different empirical structures—cross-national versus within-country, and cross-sectional
+   672→versus longitudinal—thereby strengthening the overall conclusions of the study. Full methods
+   673→and detailed results for Study 2 are reported in Appendix B.
+   674→Methods
+   675→Data and sample
+   676→Data for Study 2 came from Wissenschaftsbarometer Schweiz (Science Barometer
+   677→
+   678→29
+   679→Switzerland)1, a nationally representative survey conducted by DemoSCOPE in Switzerland’s
+   680→three main language regions (German-, French-, and Italian-speaking). The 2019 wave
+   681→included 1,050 respondents and the 2020 follow-up included 167 respondents. After applying
+   682→the same data cleaning rules used in Study 1, the analytic samples consisted of 983 respondents
+   683→in 2019 and 141 respondents in 2020.
+   684→For analyses requiring repeated observations, we used the matched two-wave panel
+   685→dataset provided by Mede and Schäfer (2022). After excluding respondents with inconsistent
+   686→sex responses, implausible age differences across waves, or missing SciPop data, the panel
+   687→sample consisted of 252 observations from 126 respondents. The larger 2019 sample was used
+   688→for the main within-country subgroup analyses; the panel data were used specifically to test
+   689→longitudinal measurement invariance; and the 2020 data were used mainly to examine criterion
+   690→validity with additional political variables.
+   691→Measures
+   692→Science-related populist attitudes were measured with the eight-item SciPop Scale (Mede
+   693→et al., 2021). The Swiss surveys also included science-related criterion variables, including
+   694→trust in science, trust in university scientists, perceived trustworthiness of science-related
+   695→media coverage, beliefs in the promise of science, and reservations toward science (Metag et
+   696→1 Data for the 2019 survey come from Wissenschaftsbarometer Schweiz 2019, provided by the Swiss Centre of
+   697→Expertise in the Social Sciences (FORS) and available via the FORSbase open data platform (https://doi.org/10.48573/wpf5-
+   698→hf36; registration required to download). In this dataset, the SciPop Scale included 9 items; however, items F2106 (“Die
+   699→einfachen Leute teilen gemeinsame Werte und Interessen”) and F2109 (“Einfache Leute verbindet ein guter und ehrlicher
+   700→Charakter”) are backup items and not part of the final scale. Item F1706 (“Leute wie ich sollten mitentscheiden, zu welchen
+   701→Themen Wissenschaftler forschen.”) corresponds to dec2 in the SciPop Scale. In addition, the 2020 panel data come from a
+   702→separate, non-public dataset.
+   703→
+   704→30
+   705→al., 2022). The 2020 wave additionally included broader political criterion variables: trust in
+   706→politicians, trust in representatives of cantonal authorities and federal offices, and COVID-19
+   707→conspiracy beliefs. These variables allowed us to assess whether SciPop primarily captures
+   708→science-specific attitudes or a more general political orientation.
+   709→Statistical analysis
+   710→The statistical analyses for Study 2 followed a similar procedure as in Study 1, and the
+   711→overall analytical workflow is illustrated in Figure 1.
+   712→Results
+   713→Since many analyses in Study 2 parallel those reported in Study 1, the full descriptive
+   714→statistics, CFA results, measurement invariance, measurement alignment, scoring consistency
+   715→results, and criterion validity are reported in Appendix B2 and B3. In the main text, we focus
+   716→on findings that are specific to the Swiss data and that extend Study 1: within-country subgroup
+   717→comparability, temporal measurement invariance, scoring consistency across waves, and the
+   718→distinction between science-specific and broader political criterion validity.
+   719→Factor structure and within-country comparability
+   720→The Swiss data provides further support for the four-factor structure of the SciPop Scale.
+   721→Notably, the second-order four-factor model also achieves good fit in the overall Swiss sample
+   722→and in most subgroups. We then focus on within-country subgroup comparability.
+   723→Measurement invariance analyses show that the four-factor model is largely comparable across
+   724→most subgroups, except that education and language region require partial invariance
+   725→adjustments (Appendix Table B3). Therefore, we apply measurement alignment to assess
+   726→approximate comparability. Results show that the joint education × language-region alignment
+   727→
+   728→31
+   729→does not support approximate invariance, mainly because the PPL dimension shows substantial
+   730→loading non-invariance (Appendix Table B4). However, when education and language region
+   731→are aligned separately, approximate invariance is supported across all four dimensions, with
+   732→high R² values and no non-invariant loadings or intercepts. We therefore retain the separately
+   733→aligned scores for criterion-validity analyses where appropriate.
+   734→Temporal measurement invariance
+   735→We further tested temporal comparability using the matched two-wave panel. The four-
+   736→factor model shows full longitudinal invariance across 2019 and 2020, indicating that the
+   737→SciPop Scale measures the same latent dimensions across the two waves. This provides
+   738→evidence that the scale can support comparisons over time within the same national context
+   739→(Appendix Table B3).
+   740→Scoring consistency across waves
+   741→In the Swiss panel dataset, the consistency in identifying the “lowest” SciPop dimension
+   742→across the 2019 and 2020 waves is relatively low: 47.62% for mean scores and 42.86% for
+   743→four-factor scores, both below 50% (Figure 3, Panels C–E; Appendix Table B5). Although the
+   744→most frequently identified lowest dimension remains the same within each scoring approach—
+   745→ELI for mean scores and DEC for four-factor scores—individual-level consistency across
+   746→waves is limited.
+   747→Criterion validity
+   748→In the 2019 Swiss data, SciPop scores are consistently associated with science-related
+   749→attitudes. Across scoring strategies, Bollen-based scores generally show stronger associations
+   750→and larger improvements in explained variance than Goertz-based scores. Among the
+   751→
+   752→32
+   753→alignment-adjusted scores, the region-aligned Bollen scores also tend to perform better than
+   754→their Goertz counterparts, whereas education-aligned scores are weaker and less consistently
+   755→significant (Figure 5; Appendix B3).
+   756→[insert Figure 5 and 6 about here]
+   757→The 2020 data extends this validity test by adding broader political criterion variables.
+   758→SciPop scores show weaker associations with political variables. In particular, none of the
+   759→scoring methods is significantly associated with trust in politicians. Taken together, these
+   760→findings suggest that science-related populism may be more strongly and consistently linked
+   761→to science-specific attitudes than to general political orientations. (Figure 6; Appendix B3).
+   762→Discussion
+   763→Study 2 assesses the psychometric properties of the SciPop Scale in Switzerland, including
+   764→its factor structure, measurement invariance, scoring consistency, and criterion validity across
+   765→a range of related constructs. Through this work, we aim to provide a more rigorous test of the
+   766→SciPop Scale’s robustness within the Swiss context, while building on the initial conceptual
+   767→and empirical work of Mede et al. (2021).
+   768→First, both the four-factor and second-order factor structures of SciPop Scale emerge as
+   769→the most widely applicable optimal models in the overall sample and most subgroups. In some
+   770→subgroups, the optimal model is more varied. For example, in the female subgroup, the
+   771→emerging and established adulthood subgroups, the German and French language subgroups,
+   772→and the low- and high-religiosity subgroups, a bifactor model also fits well. In other subgroups,
+   773→such as the late adulthood subgroup, no acceptable model is identified. In the Switzerland 2020
+   774→overall sample and the Swiss panel data, only the four-factor model is selected as optimal.
+   775→
+   776→33
+   777→These findings indicate that, within the specific Swiss context, the optimal factor structure of
+   778→the SciPop Scale is more diverse.
+   779→Second, the SciPop Scale demonstrates strong structural stability and comparability across
+   780→sociodemographic subgroups and over time. Specifically, the four-factor model exhibits full
+   781→measurement invariance across sex, age, education, language region, political orientation, and
+   782→religiosity subgroups. Partial strict invariance is achieved for the education and region
+   783→subgroups, and measurement alignment for these subgroups indicate that approximate
+   784→invariance can be attained. The second-order factor model also shows good comparability
+   785→across all subgroups, except for the language region subgroup, where measurement invariance
+   786→cannot be established. Finally, the four-factor model shows full measurement invariance over
+   787→time. To further explore potential sources of non-invariance at a more granular level, we
+   788→conducted item-level differential item functioning (DIF) analyses based on multidimensional
+   789→IRT models. The results indicate that several items—most notably ppl1, tru1, and tru2—exhibit
+   790→evidence of measurement non-invariance across multiple subgroups. These findings suggest
+   791→that, despite the overall robustness of the scale at the latent construct level, certain items may
+   792→function differently across groups and therefore warrant further examination (see Appendix C2,
+   793→for details).
+   794→Third, the identification of the weakest dimension lacks stability across datasets and
+   795→scoring methods. In Switzerland 2019 dataset, mean scores and region-aligned factor scores
+   796→show high consistency (over 80%) and both identify ELI as the primary weakest dimension.
+   797→However, other scoring methods in the same dataset highlight different dimensions, such as
+   798→DEC or truth TRU, indicating that different approaches may emphasize different weaknesses.
+   799→
+   800→34
+   801→In Switzerland 2020 dataset, consistency drops to around 70%, and the identified weakest
+   802→dimension shifts from ELI to PPL. In the panel data, consistency falls below 50%, with
+   803→different methods producing contradictory weakest dimensions across the two waves. This
+   804→pattern may partly reflect the impact of the COVID-19 pandemic, as the first wave (2019) was
+   805→collected before the pandemic and the second wave (2020) during a period when science was
+   806→highly salient in public discourse (Mede & Schäfer, 2022). Comparisons of lowest-scoring
+   807→dimensions across waves suggest that the pandemic may have altered the relative salience of
+   808→certain dimensions, increasing consistency for PPL and ELI while decreasing it for TRU (see
+   809→Table B5 in Appendix B2). At the same time, given the relatively smaller size of the panel
+   810→sample compared to the baseline cross-sectional data, these results should be interpreted
+   811→cautiously. Overall, the findings provide suggestive evidence that the identification of the
+   812→weakest dimension may depend on the scoring method, but strong conclusions about its
+   813→temporal stability cannot yet be drawn. Further research with larger longitudinal samples is
+   814→needed to assess its temporal consistency more conclusively.
+   815→Fourth, most SciPop scoring methods show significant associations with a range of
+   816→science attitude variables, providing support for the scale’s criterion validity. However, the
+   817→choice of scoring strategy meaningfully affects the strength of these relationships. In general,
+   818→aggregation approach based on Bollen method tends to show stronger associations with science
+   819→attitudes than those based on the Goertz approach, suggesting that compensatory aggregation
+   820→better captures overall variation in science-related attitudes. In addition, the comparison of
+   821→alignment-adjusted scores highlights the importance of accounting for cross-group
+   822→measurement differences. Region-aligned scores based on the Bollen approach tend to show
+   823→
+   824→35
+   825→stronger relationships with science attitudes than their Goertz counterparts, suggesting that this
+   826→strategy may better accommodate heterogeneity across linguistic contexts. By contrast,
+   827→alignment based on education produces substantially weaker associations with criterion
+   828→variables, possibly because it reduces the variation in SciPop scores associated with educational
+   829→differences. Turning to political variables, associations between science-related populism and
+   830→political attitudes are substantially weaker across all scoring methods, with no consistent
+   831→evidence of a relationship with political trust. This divergence indicates that science-related
+   832→populism may be more appropriately understood as a science-related attitudinal construct rather
+   833→than a general political disposition.
+   834→General Discussion
+   835→The current study aims to examine the psychometric properties of the SciPop Scale using
+   836→the TISP dataset across 68 countries and regions, as well as the Swiss Science Barometer
+   837→dataset. Our research not only assesses the cross-national applicability of the SciPop Scale but
+   838→also addresses broader issue regarding the measurement of populist attitudes.
+   839→On one hand, we examine the applicability of the SciPop Scale’s psychometric properties.
+   840→First, we find that the four-factor structure performs well overall across countries and various
+   841→subgroups. However, when focusing on one specific national context (i.e., Switzerland), the
+   842→optimal factor structure is more diverse, encompassing both the four-factor and second-order
+   843→factor models. This suggests that contextual differences should be carefully considered when
+   844→evaluating and applying the SciPop Scale. Second, the four-factor model demonstrates strong
+   845→comparability across different sociodemographic subgroups, both in cross-national datasets
+   846→and within Switzerland context, but full comparability across countries is limited. While
+   847→
+   848→36
+   849→approximate invariance can be achieved through measurement alignment, some dimensions
+   850→appear to contribute more to cross-group instability than others (see Appendix D). In particular,
+   851→the PPL (i.e., conceptions of the ordinary people) dimension shows relatively weaker
+   852→performance, both in terms of factor loadings and alignment results, suggesting potential
+   853→concerns regarding its content validity. Conceptually, PPL appears to capture a more general
+   854→form of people-centrism rather than attitudes directly related to science or scientific authority,
+   855→which may reduce its consistency across contexts. This may partly explain why full cross-
+   856→national comparability is difficult to achieve for the overall scale.
+   857→On the other hand, our study also engages with broader questions concerning the
+   858→philosophy of measuring populist attitudes. Conceptually, science-related populism is typically
+   859→regarded as a non-compensatory construct (Mede et al., 2021), which assumes that all
+   860→dimensions are necessary components of a construct, such that a low score on one dimension
+   861→cannot be offset by high scores on other dimensions (Goertz, 2020; Wuttke et al., 2020). At the
+   862→operational level, this logic is commonly implemented through the Goertz approach, in which
+   863→the overall score is determined by the weakest dimension (Goertz, 2020; Wuttke et al., 2020).
+   864→In practice, however, we find low consistency in identifying the weakest dimension across
+   865→different scoring methods. This instability is best understood as an aggregation artefact specific
+   866→to the Goertz approach. Because the Goertz score is defined by the lowest-scoring dimension,
+   867→any change in the way dimension scores is estimated—whether by raw means, CFA factor
+   868→scores, or alignment-adjusted factor scores—can change which dimension becomes the
+   869→“weakest link.” Thus, the observed instability does not necessarily imply that the underlying
+   870→construct itself is unstable; rather, it reflects the sensitivity of weakest-link scoring to the
+   871→
+   872→37
+   873→preceding scoring procedure. This means that, under a non-compensatory framework,
+   874→researchers should report not only the overall Goertz score but also which dimension
+   875→determines that score and whether this identification is robust across scoring methods.
+   876→Moreover, our findings show that, for alignment-adjusted scores, the Bollen approach (Bollen
+   877→& Lennox, 1991) consistently outperforms the Goertz approach in predicting criterion variables.
+   878→Since aligned scores are designed to enhance comparability across countries, this finding
+   879→suggests that the compensatory approach may be more suitable for cross-national comparisons.
+   880→These findings highlight two important issues. First, theoretical concepts and
+   881→measurement strategies are not naturally aligned: the non-compensatory logic of populism may
+   882→not be fully borne out in empirical data. This logic is inherited from the broader literature on
+   883→populist attitudes, in which populism is understood as an attitudinal syndrome composed of
+   884→jointly necessary dimensions (Wuttke et al., 2020), and is extended to science-related populism
+   885→by Mede et al. (2021). Thus, the non-compensatory nature of science-related populism should
+   886→be understood as a theoretically grounded measurement assumption rather than as an
+   887→empirically established property. Second, the choice of scoring method is not merely a
+   888→statistical technicality but a philosophical decision; researchers must weigh preserving
+   889→theoretical logic against maximizing criterion validity. In other words, measuring science-
+   890→related populism requires both acknowledging its theoretical non-compensatory nature and
+   891→recognizing that real-world data may exhibit compensatory features. This tension offers
+   892→methodological insights for future scale development and cross-cultural comparative research.
+   893→Contributions and implications
+   894→The present study makes several contributions and implications. First, we systematically
+   895→
+   896→38
+   897→explored the optimal factor structure model across different groups and countries/regions using
+   898→large-scale cross-national data and further examined cross-national validity through
+   899→measurement invariance and alignment techniques. We not only extend existing evidence on
+   900→the limited cross-national validity of the SciPop Scale (Mede et al., 2025) but also provide an
+   901→empirical example for political psychology more broadly (Wuttke et al., 2020), highlighting
+   902→the potential of alignment methods in cross-cultural measurement research. Second, we
+   903→validated the criterion validity of the SciPop Scale in multiple contexts and demonstrated how
+   904→different scoring strategies shape the interpretation of science-related populism. This finding
+   905→offers a possible explanation for the mixed conclusions in previous research on science-related
+   906→populism and underscores the need for greater caution in selecting and reporting scoring
+   907→methods. Third, this is the first study to systematically compare the Goertz and Bollen scoring
+   908→logics, along with their variants, in a large cross-national sample. Our findings reveal a key
+   909→tension between the theoretical construct of science-related populism and its empirical
+   910→performance. This tension warrants further consideration of whether the observed mismatch is
+   911→specific to the SciPop Scale or reflects a broader feature of multidimensional constructs in
+   912→political psychology.
+   913→Beyond these methodological contributions, our findings also carry important theoretical
+   914→implications. First, this study deepens our understanding of the internal structure and cross-
+   915→national representation of science-related populism. Internally, the dimensions of science-
+   916→related populism do not always constitute the construct in an equally stable or consistently
+   917→aligned manner. Anti-elitism appears to play a more central role, whereas people-centrism
+   918→shows weaker and less consistent associations with the other dimensions. Cross-nationally, the
+   919→
+   920→39
+   921→failure to achieve full scalar invariance, together with poor model fit in some countries/regions,
+   922→suggests that science-related populism is not understood or expressed in exactly the same way
+   923→across contexts. Differences in scientific institutions, expert authority, political trust may shape
+   924→the meaning and relative importance of its dimensions. Thus, science-related populism should
+   925→not be treated as a fixed attitudinal structure that can be mechanically applied across all
+   926→countries, but rather as a multidimensional political-psychological construct whose meaning is
+   927→context-dependent.
+   928→Second, because the non-compensatory conceptualization of science-related populism
+   929→draws on the broader tradition of general populism research (Wuttke et al., 2020), our findings
+   930→also contribute to the conceptualization of populist attitudes and other multidimensional
+   931→political-psychological constructs. Populist attitudes are often understood as a non-
+   932→compensatory attitudinal syndrome, in which core components must be simultaneously present
+   933→(Wuttke et al., 2020). However, our findings suggest that this logic is sensitive to how
+   934→dimensions are defined, measured, and empirically related. Changes in any dimension may
+   935→affect the overall score, the identification of the weakest dimension, and the resulting
+   936→theoretical interpretation. Therefore, non-compensatory logic should be treated as a theoretical
+   937→assumption requiring empirical scrutiny rather than as a default premise of populism. This point
+   938→is especially important given the lack of consensus on the dimensional structure of populism
+   939→(Jami & Kemmelmeier, 2025; Pellegrini, 2023) and the varying empirical stability of its
+   940→dimensions (Schimpf et al., 2024). More broadly, the same implication applies to other
+   941→multidimensional constructs in political psychology and political behavior that adopt a non-
+   942→compensatory logic, such as political extremism (Jungkunz et al., 2024), solid democratic
+   943→
+   944→40
+   945→support (Moncagatta et al., 2023), and democratic knowledge (Wegscheider & Stark, 2020):
+   946→when a construct is defined as consisting of multiple jointly necessary components, researchers
+   947→should examine whether these components are equally necessary both theoretically and
+   948→empirically.
+   949→Guidelines for using the SciPop Scale
+   950→We provide the following guidelines for researchers using the SciPop Scale:
+   951→First, regarding model specification, the four-factor structure demonstrates relatively
+   952→strong robustness across different contexts. We therefore recommend adopting it as the default
+   953→model specification in cross-national research. In single-country studies, however, alternative
+   954→specifications (e.g., a second-order factor model) may be considered depending on empirical
+   955→performance. It should be noted that the SciPop Scale is not universally applicable across all
+   956→contexts; for example, no acceptable CFA model was identified in Botswana, suggesting that
+   957→the scale may not function adequately in certain settings.
+   958→Second, measurement invariance testing is essential prior to cross-national comparisons.
+   959→If scalar invariance cannot be established, comparisons of observed means across countries
+   960→should be avoided, as such differences may reflect measurement bias rather than substantive
+   961→variation. Meaningful comparisons of country-level means are only warranted when
+   962→measurement invariance is satisfied (or approximately satisfied). When scalar invariance is not
+   963→achieved, we recommend prioritizing measurement alignment methods to obtain comparable
+   964→latent scores across countries. However, recent research indicates that not all factors can be
+   965→successfully aligned in every context (e.g., Yang & Ma, 2026). In such cases, we suggest
+   966→restricting comparisons to the factors that achieve acceptable alignment and clearly
+   967→
+   968→41
+   969→acknowledging this limitation in the interpretation of results.
+   970→Third, regarding scoring methods, we strongly recommend that researchers report both
+   971→Goertz-based (non-compensatory) and Bollen-based (compensatory) scores to enhance the
+   972→robustness and transparency of their findings. Although the SciPop Scale is theoretically
+   973→grounded in a non-compensatory logic, our findings suggest that its empirical behavior may, in
+   974→some contexts, be better captured by compensatory aggregation approaches. We additionally
+   975→explored non-compensatory MIRT models and the multiplicative unified scale proposed by
+   976→Silva et al. (2018), but these approaches showed lower stability and weaker associations with
+   977→criteria variables (see Appendix C and Table A20). Overall, while we do not reject non-
+   978→compensatory approaches such as the Goertz method, we advise caution in their application
+   979→and recommend benchmarking them against compensatory alternatives, particularly in cross-
+   980→national analyses.
+   981→Fourth, when measurement invariance or alignment cannot be fully achieved, we
+   982→recommend prioritizing the TRU and ELI dimensions as the core components for cross-group
+   983→inference, as they demonstrate greater stability and more consistent associations with criterion
+   984→variables across contexts (see Appendix D). In contrast, the PPL and DEC dimensions should
+   985→be interpreted with caution due to their inconsistent relationships with other dimensions and
+   986→with criterion variables. Although science-related populism is theoretically conceptualized as
+   987→a multidimensional construct, the empirical contribution of each dimension is neither equally
+   988→stable nor consistent. Therefore, focusing on a subset of empirically robust dimensions can
+   989→serve as a useful complementary strategy in comparative research. For recommendations
+   990→regarding future SciPop Scale development, please see the Appendix F.
+   991→
+   992→42
+   993→Limitations and future directions
+   994→This study is subject to several limitations that open up opportunities for future research.
+   995→First, our validation of criterion validity relied mainly on single-item indicators, partly because
+   996→we did not test measurement invariance for all multi-item scale indicators and thus could not
+   997→ensure their cross-cultural comparability. Future research should incorporate multi-item
+   998→measures that have undergone invariance testing to capture criterion variables related to
+   999→scientific populism more comprehensively. Second, in the data analyses, political orientation
+  1000→and religiosity are recoded from 5-point scales into three categories. This practice follows
+  1001→conventions in major social surveys (e.g., ESS, ANES, CRSi, Pew; Belak & Goh, 2024;
+  1002→Kathleen, 1990; The Pew Center, 2014, 2018), enhancing comparability and simplifying model
+  1003→estimation. However, this approach may lead to information loss by masking subtle distinctions
+  1004→in continuous variables. Besides, cultural heterogeneity in how individuals interpret “middle”
+  1005→or “extreme” categories may also affect cross-cultural comparability. Future work could adopt
+  1006→more flexible strategies that combine categorical and continuous treatments. Third, although
+  1007→we have conducted preliminary tests of the temporal stability of the SciPop Scale using panel
+  1008→data, the relatively small sample size in Study 2 limits statistical power and the robustness of
+  1009→conclusions, particularly regarding temporal stability. Therefore, future research should rely on
+  1010→larger-scale longitudinal data to more rigorously examine cross-time invariance. Fourth,
+  1011→although Study 1 used a large-scale cross-national dataset, differences in sampling procedures
+  1012→and survey implementation across countries may have affected sample representativeness,
+  1013→which could limit the generalizability and comparability of results across national contexts.
+  1014→Future research should replicate these analyses using more strictly representative samples. Fifth,
+  1015→
+  1016→43
+  1017→each SciPop dimension is measured by only two items, which may constrain diagnostic
+  1018→assessments of residual structure and local dependence. Although robustness checks suggest
+  1019→that our substantive conclusions are not disproportionately affected by any single two-item
+  1020→factor (see Appendix E1), this limitation should be considered when interpreting the findings
+  1021→and refining the scale. Finally, our findings indicate notable discrepancies between the Swiss-
+  1022→specific results and those derived from cross-national data. Future research should extend
+  1023→validation efforts to a broader range of national and regional contexts to better capture and
+  1024→compare the manifestations of science-related populism across diverse sociocultural settings.
+  1025→Conclusion
+  1026→This study systematically examines the structural validity, measurement invariance, and
+  1027→criterion validity of the SciPop Scale in both cross-national and specific national contexts,
+  1028→while comparing the performance of different scoring strategies. The results indicate that,
+  1029→although strict invariance is difficult to achieve, alignment methods can partially enhance the
+  1030→feasibility of cross-national comparisons. Besides, different scoring methods substantially
+  1031→influence empirical results and theoretical interpretations. In particular, when comparing the
+  1032→Goertz and Bollen approach, the former adheres more closely to the non-compensatory
+  1033→conceptual logic (Goertz, 2020; Wuttke et al., 2020) of science-related populism, whereas the
+  1034→latter demonstrates greater robustness and explanatory power at the empirical level. Overall,
+  1035→science-related populism presents both a challenge for empirical measurement and an
+  1036→opportunity for theoretical reflection. Issues such as cross-national comparison, scoring method
+  1037→selection, and the application of alignment techniques all involve ensuring conceptual
+  1038→consistency across diverse sociocultural contexts. Thus, the implications of this study extend
+  1039→
+  1040→44
+  1041→beyond the SciPop Scale itself. By using science-related populism as an empirical case, we
+  1042→show that credible cross-context comparison in political psychology and science
+  1043→communication requires not only broad samples and appropriate models, but also evidence that
+  1044→the measured construct remains conceptually comparable across social, cultural, and political
+  1045→settings (Yang & Ma, 2026). These insights offer broader implications for the development and
+  1046→validation of cross-cultural measures for other complex political-psychological constructs.
+  1047→Acknowledgments
+  1048→We sincerely thank Niels G. Mede, the primary developer of the SciPop Scale, and his
+  1049→team for their support and openness. Specifically, we corresponded via email to confirm item
+  1050→coding and construct definitions for the 2019 Switzerland survey, and they generously provided
+  1051→access to the non-public 2020 Switzerland dataset. Their guidance and provision of data were
+  1052→invaluable to this study.
+  1053→References
+  1054→Achterberg, P., de Koster, W., & van der Waal, J. (2017). A science confidence gap: Education,
+  1055→trust in sci6/27/2026 9:02:00 PMentific methods, and trust in scientific institutions in the
+  1056→United States, 2014. Public Understanding of Science, 26(6), 704–720.
+  1057→https://doi.org/10.1177/0963662515617367
+  1058→Akkerman, A., Mudde, C., & Zaslove, A. (2014). How Populist Are the People? Measuring
+  1059→Populist Attitudes in Voters. Comparative Political Studies, 47(9), 1324–1353.
+  1060→https://doi.org/10.1177/0010414013512600
+  1061→Allum, N., Sturgis, P., Tabourazi, D., & Brunton-Smith, I. (2008). Science knowledge and
+  1062→attitudes across cultures: A meta-analysis. Public Understanding of Science, 17(1), 35–54.
+  1063→https://doi.org/10.1177/0963662506070159
+  1064→Arnett, J. J. (2000). Emerging adulthood: A theory of development from the late teens through
+  1065→the twenties. American Psychologist, 55(5), 469–480. https://doi.org/10.1037/0003-
+  1066→066X.55.5.469
+  1067→Asparouhov, T., & Muthén, B. (2014). Multiple-Group Factor Analysis Alignment. Structural
+  1068→Equation Modeling: A Multidisciplinary Journal, 21(4), 495–508.
+  1069→https://doi.org/10.1080/10705511.2014.919210
+  1070→Bauer, M. W., Shukla, R., & Allum, N. (Eds.). (2012). The Culture of Science: How the Public
+  1071→Relates to Science Across the Globe. Routledge. https://doi.org/10.4324/9780203813621
+  1072→
+  1073→45
+  1074→Belak, R. M., & Goh, K. H. (2024). Death anxiety and religiosity in a multicultural sample: A
+  1075→pilot study examining curvilinearity, age and gender in Singapore. Frontiers in
+  1076→Psychology, 15. https://doi.org/10.3389/fpsyg.2024.1398620
+  1077→Bertin, P., Nera, K., & Delouvée, S. (2020). Conspiracy Beliefs, Rejection of Vaccination, and
+  1078→Support for hydroxychloroquine: A Conceptual Replication-Extension in the COVID-19
+  1079→Pandemic Context. Frontiers in Psychology, 11.
+  1080→https://doi.org/10.3389/fpsyg.2020.565128
+  1081→Bollen, K., & Lennox, R. (1991). Conventional wisdom on measurement: A structural equation
+  1082→perspective. Psychological Bulletin, 110(2), 305–314. https://doi.org/10.1037/0033-
+  1083→2909.110.2.305
+  1084→Cary Funk, Meg Hefferon, Brian Kennedy and Courtney. (2019, August 2). Trust and Mistrust
+  1085→in Americans’ Views of Scientific Experts. Pew Research Center.
+  1086→https://www.pewresearch.org/science/2019/08/02/trust-and-mistrust-in-americans-
+  1087→views-of-scientific-experts/
+  1088→Cinelli, C., & Hazlett, C. (2020). Making Sense of Sensitivity: Extending Omitted Variable
+  1089→Bias. Journal of the Royal Statistical Society Series B: Statistical Methodology, 82(1), 39–
+  1090→67. https://doi.org/10.1111/rssb.12348
+  1091→Cohen, J. (2013). Statistical Power Analysis for the Behavioral Sciences. Routledge.
+  1092→Cologna, V., Mede, N. G., Berger, S., Besley, J., Brick, C., Joubert, M., Maibach, E. W., Mihelj,
+  1093→S., Oreskes, N., Schäfer, M. S., van der Linden, S., Abdul Aziz, N. I., Abdulsalam, S.,
+  1094→Shamsi, N. A., Aczel, B., Adinugroho, I., Alabrese, E., Aldoh, A., Alfano, M., … Zwaan,
+  1095→R. A. (2025). Trust in scientists and their role in society across 68 countries. Nature
+  1096→Human Behaviour, 9(4), 713–730. https://doi.org/10.1038/s41562-024-02090-5
+  1097→DeVellis, R. F. (2012). Scale Development: Theory and Applications. SAGE Publications.
+  1098→Eberl, J.-M., Huber, R. A., & Greussing, E. (2021). From populism to the “plandemic”: Why
+  1099→populists believe in COVID-19 conspiracies. Journal of Elections, Public Opinion and
+  1100→Parties, 31(sup1), 272–284. https://doi.org/10.1080/17457289.2021.1924730
+  1101→Eberl, J.-M., Huber, R. A., Mede, N. G., & Greussing, E. (2023). Populist attitudes towards
+  1102→politics and science: How do they differ? Political Research Exchange. (world).
+  1103→https://www.tandfonline.com/doi/abs/10.1080/2474736X.2022.2159847
+  1104→Economist Intelligence Unit. (2023). Democracy Index 2023: The Global State of Democracy.
+  1105→Economist Intelligence Unit. https://www.eiu.com/n/campaigns/democracy-index-2023/
+  1106→Efimov, I. R., Flier, J. S., George, R. P., Krylov, A. I., Maroja, L. S., Schaletzky, J., Tanzman,
+  1107→J., & Thompson, A. (2024). Politicizing science funding undermines public trust in science,
+  1108→academic freedom, and the unbiased generation of knowledge. Frontiers in Research
+  1109→Metrics and Analytics, 9, 1418065. https://doi.org/10.3389/frma.2024.1418065
+  1110→Elchardus, M., & Spruyt, B. (2016). Populism, Persistent Republicanism and Declinism: An
+  1111→Empirical Analysis of Populism as a Thin Ideology. Government and Opposition, 51(1),
+  1112→111–133. https://doi.org/10.1017/gov.2014.27
+  1113→Erikson, R. S., MacKuen, M., & Stimson, J. A. (2002). The Macro Polity. Cambridge
+  1114→University Press.
+  1115→Erisen, C., Guidi, M., Martini, S., Toprakkiran, S., Isernia, P., & Littvay, L. (2021).
+  1116→Psychological Correlates of Populist Attitudes. Political Psychology, 42(S1), 149–171.
+  1117→https://doi.org/10.1111/pops.12768
+  1118→
+  1119→46
+  1120→Falk, C. F., & Muthukrishna, M. (2023). Parsimony in model selection: Tools for assessing fit
+  1121→propensity. Psychological Methods, 28(1), 123–136. https://doi.org/10.1037/met0000422
+  1122→Fischer, R., & Karl, J. A. (2019). A Primer to (Cross-Cultural) Multi-Group Invariance Testing
+  1123→Possibilities in R. Frontiers in Psychology, 10. https://doi.org/10.3389/fpsyg.2019.01507
+  1124→Forchtner, B., Kroneder, A., & Wetzel, D. (2018). Being Skeptical? Exploring Far-Right
+  1125→Climate-Change Communication in Germany. Environmental Communication, 12(5),
+  1126→589–604. https://doi.org/10.1080/17524032.2018.1470546
+  1127→Funder, D. C., & Ozer, D. J. (2019). Evaluating Effect Size in Psychological Research: Sense
+  1128→and Nonsense. Advances in Methods and Practices in Psychological Science, 2(2), 156–
+  1129→168. https://doi.org/10.1177/2515245919847202
+  1130→Gallup. (2019). Wellcome Global Monitor: How Does the World Feel about Science and Health?
+  1131→Wellcome. https://wellcome.org/insights/reports/wellcome-global-monitor/2018
+  1132→Gignac, G. E., & Szodorai, E. T. (2016). Effect size guidelines for individual differences
+  1133→researchers. Personality and Individual Differences, 102, 74–78.
+  1134→https://doi.org/10.1016/j.paid.2016.06.069
+  1135→Gittelman, M. (2006). National institutions, public–private knowledge flows, and innovation
+  1136→performance: A comparative study of the biotechnology industry in the US and France.
+  1137→Research Policy, 35(7), 1052–1068. https://doi.org/10.1016/j.respol.2006.05.005
+  1138→Goertz, G. (2020). Social Science Concepts and Measurement: New and Completely Revised
+  1139→Edition. Princeton University Press.
+  1140→Guiso, L., Herrera, H., Morelli, M., & Sonno, T. (2017). Populism: Demand and Supply (SSRN
+  1141→Scholarly Paper No. 2924731). Social Science Research Network.
+  1142→https://papers.ssrn.com/abstract=2924731
+  1143→Hadiz, V. R., & Chryssogelos, A. (2017). Populism in world politics: A comparative cross-
+  1144→regional perspective. International Political Science Review. (Sage UK: London,
+  1145→England). https://doi.org/10.1177/0192512117693908
+  1146→Hawkins, I., & Chinn, S. (2024). Populist views of science: How social media, political
+  1147→affiliation, and Alt-Right support affect scientific attitudes in the United States.
+  1148→Information, Communication & Society. (world).
+  1149→https://www.tandfonline.com/doi/abs/10.1080/1369118X.2023.2219724
+  1150→Hofstadter, R. (1963). Anti-Intellectualism in American Life. (Vol. 28). Alfred A. Knopf.
+  1151→http://www.jstor.org/stable/2090321?origin=crossref
+  1152→Inglehart, R., & Welzel, C. (2005). Modernization, Cultural Change, and Democracy: The
+  1153→Human Development Sequence. Cambridge University Press.
+  1154→https://doi.org/10.1017/CBO9780511790881
+  1155→Iordanou, K., Antoniou, A., & De Vos, M. (2026). Public Trust in Science: A Systematic
+  1156→Literature Review. Journal of Academic Ethics, 24(1), 56. https://doi.org/10.1007/s10805-
+  1157→026-09732-5
+  1158→Jami, W., & Kemmelmeier, M. (2025). Through Thick and Thin: Concept and Scale
+  1159→Development of Left-Wing and Right-Wing Populist Attitudes. Collabra: Psychology.
+  1160→https://online.ucpress.edu/collabra/article/11/1/136360/209863/Through-Thick-and-
+  1161→Thin-Concept-and-Scale
+  1162→Jungkunz, S., Helbling, M., & Osenbrügge, N. (2024). Measuring political radicalism and
+  1163→extremism in surveys: Three new scales. PLOS ONE, 19(5), e0300661.
+  1164→
+  1165→47
+  1166→https://doi.org/10.1371/journal.pone.0300661
+  1167→Kathleen, K. (1990). Comparisons of Liberal-Conservative Items in the ANES 1989 Pilot Study
+  1168→(Report to the Pilot Study Committee and Board of Overseers). http://electionstudies.
+  1169→org/Library/papers/documents/nes002279. pdf.
+  1170→Kerr, J. R., & Wilson, M. S. (2021). Right-wing authoritarianism and social dominance
+  1171→orientation predict rejection of science and scientists. Group Processes & Intergroup
+  1172→Relations, 24(4), 550–567. https://doi.org/10.1177/1368430221992126
+  1173→Klinger, K., Metag, J., & Schäfer, M. S. (2022). Global Warming’s Five Germanys – Revisited
+  1174→and Framed in an International Context. Environmental Communication. (world).
+  1175→https://www.tandfonline.com/doi/abs/10.1080/17524032.2022.2153897
+  1176→Kohler, S., & Koinig, I. (2023). The Effect of Science-Related Populism on Vaccination
+  1177→Attitudes and Decisions. Journal of Behavioral Medicine, 46(1), 229–238.
+  1178→https://doi.org/10.1007/s10865-022-00333-2
+  1179→Kroh, M. (2007). Measuring Left–Right Political Orientation: The Choice of Response Format.
+  1180→Public Opinion Quarterly, 71(2), 204–220. https://dx.doi.org/10.1093/poq/nfm009
+  1181→Kusano, K., Napier, J. L., & Jost, J. T. (2025). The Mismeasure of Culture: Why Measurement
+  1182→Invariance Is Rarely Appropriate for Comparative Research in Psychology. Personality
+  1183→and Social Psychology Bulletin, 01461672251341402.
+  1184→https://doi.org/10.1177/01461672251341402
+  1185→Mansbach, R. W., & Ferguson, Y. H. (2021). Nationalist-Populism in the Global South and
+  1186→Middle East. In R. W. Mansbach & Y. H. Ferguson (Eds.), Populism and Globalization:
+  1187→The Return of Nationalism and the Global Liberal Order (pp. 277–312). Springer
+  1188→International Publishing. https://doi.org/10.1007/978-3-030-72033-9_7
+  1189→Mayer, S. J., Berning, C. C., & Johann, D. (2020). The Two Dimensions of Narcissistic
+  1190→Personality and Support for the Radical Right: The Role of Right–Wing Authoritarianism,
+  1191→Social Dominance Orientation and Anti–Immigrant Sentiment. European Journal of
+  1192→Personality, 34(1), 60–76. https://doi.org/10.1002/per.2228
+  1193→Mede, N. G., Cologna, V., Berger, S., Besley, J., Brick, C., Joubert, M., Maibach, E. W., Mihelj,
+  1194→S., Oreskes, N., Schäfer, M. S., van der Linden, S., Abdul Aziz, N. I., Abdulsalam, S.,
+  1195→Shamsi, N. A., Aczel, B., Adinugroho, I., Alabrese, E., Aldoh, A., Alfano, M., … Zwaan,
+  1196→R. A. (2025). Perceptions of science, science communication, and climate change attitudes
+  1197→in 68 countries – the TISP dataset. Scientific Data, 12(1), 114.
+  1198→https://doi.org/10.1038/s41597-024-04100-7
+  1199→Mede, N. G., & Schäfer, M. S. (2020). Science-related populism: Conceptualizing populist
+  1200→demands toward science. Public Understanding of Science, 29(5), 473–491.
+  1201→https://doi.org/10.1177/0963662520924259
+  1202→Mede, N. G., & Schäfer, M. S. (2022). Science-related populism declining during the COVID-
+  1203→19 pandemic: A panel survey of the Swiss population before and after the Coronavirus
+  1204→outbreak. Public Understanding of Science, 31(2), 211–222.
+  1205→https://doi.org/10.1177/09636625211056871
+  1206→Mede, N. G., Schäfer, M. S., & Füchslin, T. (2021). The SciPop Scale for Measuring Science-
+  1207→Related Populist Attitudes in Surveys: Development, Test, and Validation. International
+  1208→Journal of Public Opinion Research, 33(2), 273–293.
+  1209→https://doi.org/10.1093/ijpor/edaa026
+  1210→
+  1211→48
+  1212→Mede, N. G., Schäfer, M. S., Metag, J., & Klinger, K. (2022). Who supports science-related
+  1213→populism? A nationally representative survey on the prevalence and explanatory factors
+  1214→of populist attitudes toward science in Switzerland. PLOS ONE, 17(8), e0271204.
+  1215→https://doi.org/10.1371/journal.pone.0271204
+  1216→Mehta, C. M., Arnett, J. J., Palmer, C. G., & Nelson, L. J. (2020). Established adulthood: A new
+  1217→conception of ages 30 to 45. American Psychologist, 75(4), 431–444.
+  1218→https://doi.org/10.1037/amp0000600
+  1219→Merkley, E. (2020). Anti-Intellectualism, Populism, and Motivated Resistance to Expert
+  1220→Consensus. Public Opinion Quarterly, 84(1), 24–48. https://doi.org/10.1093/poq/nfz053
+  1221→Metag, J., Schäfer, M. S., Mede, N. G., Füchslin, T., & Klinger, K. (2022).
+  1222→Wissenschaftsbarometer Schweiz 2019[Dataset] [Dataset]. Vertrieben durch
+  1223→SWISSUbase. https://doi.org/10.48573/wpf5-hf36
+  1224→Miura, A., Yamagata, M., Higashijima, J., Kobayashi, T., & Nakamura, M. (2024). Who trusts
+  1225→in scientific research? Cross-national surveys of Japan, the United Kingdom, and the
+  1226→United States. Journal of Science Communication, 23(8), A03.
+  1227→https://doi.org/10.22323/2.23080203
+  1228→Moncagatta, P., Saris, W. E., & Fierro, M. (2023). Same same…but different? Support for the
+  1229→ideal of democracy vs. solid democratic support. Revista Latinoamericana de Opinión
+  1230→Pública, 12(1), 7–40. https://doi.org/10.14201/rlop.31204
+  1231→Norris, P., & Inglehart, R. (2019). Cultural Backlash: Trump, Brexit, and Authoritarian
+  1232→Populism. Cambridge University Press.
+  1233→Pellegrini, V. (2023). Populist ideology, ideological attitudes, and anti-immigration attitudes as
+  1234→an integrated system of beliefs. PLOS ONE, 18(1), e0280285.
+  1235→https://doi.org/10.1371/journal.pone.0280285
+  1236→Pinto, J. F. (2017). Populism, is it Democracy’s Bastard or Twin? The Case of the European
+  1237→Union. Chinese Political Science Review, 2(3), 328–344. https://doi.org/10.1007/s41111-
+  1238→017-0071-1
+  1239→Piterová, I. (2024). Science-related populism: Psychometric properties of the Slovak version
+  1240→of the SciPop Scale. Československá Psychologie, 68(2), Article 2.
+  1241→https://doi.org/10.51561/cspsych.68.2.156
+  1242→Piterová, I., & Loziak, A. (2025). Populist attitudes related to science and politics: Prevalence
+  1243→and exploratory factors of populist attitudes in Slovakia. Current Psychology, 44(4),
+  1244→2295–2307. https://doi.org/10.1007/s12144-025-07295-z
+  1245→Pratto, F., Çidam, A., Stewart, A. L., Zeineddine, F. B., Aranda, M., Aiello, A., Chryssochoou,
+  1246→X., Cichocka, A., Cohrs, J. C., Durrheim, K., Eicher, V., Foels, R., Górska, P., Lee, I.-C.,
+  1247→Licata, L., Liu, J. H., Li, L., Meyer, I., Morselli, D., … Henkel, K. E. (2013). Social
+  1248→Dominance in Context and in Individuals: Contextual Moderation of Robust Effects of
+  1249→Social Dominance Orientation in 15 Languages and 20 Countries. Social Psychological
+  1250→and Personality Science, 4(5), 587–599. https://doi.org/10.1177/1948550612473663
+  1251→Reifman, A., & Niehuis, S. (2023). Extending the Five Psychological Features of Emerging
+  1252→Adulthood into Established Adulthood. Journal of Adult Development, 30(1), 6–20.
+  1253→https://doi.org/10.1007/s10804-022-09412-9
+  1254→Richardson, L. M., Thaker, J., & Holmes, D. C. (2023). Comparative analysis of Australian
+  1255→climate change and COVID-19 vaccine audience segments shows climate skeptics can be
+  1256→
+  1257→49
+  1258→vaccine enthusiasts. Scientific Reports, 13(1), 1118. https://doi.org/10.1038/s41598-022-
+  1259→26959-5
+  1260→Robitzsch, A. (2025). sirt: Supplementary Item Response Theory Models (Version 4.2-133)
+  1261→[Computer software]. https://cran.r-project.org/web/packages/sirt/index.html
+  1262→Rooduijn, M. (2014). The Nucleus of Populism: In Search of the Lowest Common
+  1263→Denominator. Government and Opposition, 49(4), 573–599.
+  1264→https://doi.org/10.1017/gov.2013.30
+  1265→Rutjens, B. T., Sengupta, N., der Lee, R. van, van Koningsbruggen, G. M., Martens, J. P.,
+  1266→Rabelo, A., & Sutton, R. M. (2022). Science Skepticism Across 24 Countries. Social
+  1267→Psychological and Personality Science, 13(1), 102–117.
+  1268→https://doi.org/10.1177/19485506211001329
+  1269→Sartori, G. (1984). Social Science Concepts: A Systematic Analysis. SAGE Publications.
+  1270→Schimpf, C. H., Wuttke, A., & Schoen, H. (2024). Neither a Trait nor Wildly Fluctuating: On
+  1271→the Stability of Populist Attitudes and its Implications for Empirical Research. British
+  1272→Journal of Political Science, 54(3), 979–992.
+  1273→https://doi.org/10.1017/S0007123423000492
+  1274→Silva, B. C., Andreadis, I., Anduiza, E., Blanuša, N., Corti, Y. M., Delfino, G., Rico, G., Ruth-
+  1275→Lovell, S. P., Spruyt, B., & Steenbergen, M. (2018). Public opinion surveys: A new scale.
+  1276→In The Ideational Approach to Populism: Theory, Method & Analysis. Routledge.
+  1277→Smith, A. (2019). Divided Nations: Democracy in an Age of Populism. The Sociological
+  1278→Quarterly, 60(2), 189–190. https://doi.org/10.1080/00380253.2019.1593895
+  1279→Spruyt, B., Keppens, G., & Van Droogenbroeck, F. (2016). Who Supports Populism and What
+  1280→Attracts People to It? Political Research Quarterly, 69(2), 335–346.
+  1281→https://doi.org/10.1177/1065912916639138
+  1282→Staerklé, C., Cavallaro, M., Cortijos-Bernabeu, A., & Bonny, S. (2022). Common Sense as a
+  1283→Political Weapon: Populism, Science Skepticism, and Global Crisis‐Solving Motivations.
+  1284→Political Psychology, 43(5), 913–929. https://doi.org/10.1111/pops.12823
+  1285→Sterner, P., & Goretzko, D. (2026). The mismeasure of comparability: Non-invariance and
+  1286→nomological validity in cross-cultural psychology—A commentary on Kusano et al. (2025)
+  1287→(Pnu8w_v2). PsyArXiv. https://osf.io/preprints/psyarxiv/pnu8w_v2/
+  1288→The Pew Center. (2014). The Ideological Consistency Scale. The PewCenter.
+  1289→https://www.pewresearch.org/politics/2014/06/12/appendix-a-the-ideological-
+  1290→consistency-scale/
+  1291→The Pew Center. (2018). Religion and society. The Pew Center.
+  1292→https://www.pewresearch.org/religion/2018/05/29/religion-and-
+  1293→society/?utm_source=chatgpt.com
+  1294→United Nations. (1999). Standard country or area codes for statistical use: Current information
+  1295→as at 31 august 1999 (4th ed.). United Nations Pubns.
+  1296→United Nations. (2022). Handbook of Statistics 2022. United Nations.
+  1297→https://unctad.org/system/files/official-document/tdstat47_en.pdf
+  1298→Vernon, A., & Gage, D. D. (2016). Late Adulthood: Emotional and Social Development. In
+  1299→Human Growth and Development Across the Lifespan (pp. 543–572). John Wiley & Sons,
+  1300→Ltd. https://doi.org/10.1002/9781394258925.ch18
+  1301→Wegscheider, C., & Stark, T. (2020). What drives citizens’ evaluation of democratic
+  1302→
+  1303→50
+  1304→performance? The interaction of citizens’ democratic knowledge and institutional level of
+  1305→democracy. Zeitschrift Für Vergleichende Politikwissenschaft, 14(4), 345–374.
+  1306→https://doi.org/10.1007/s12286-020-00467-0
+  1307→Widmann, T. (2022). Fear, Hope, and COVID‐19: Emotional Elite Rhetoric and Its Impact on
+  1308→the Public During the First Wave of the COVID‐19 Pandemic. Political Psychology, 43(5),
+  1309→827–850. https://doi.org/10.1111/pops.12831
+  1310→Wuttke, A. (2019). Why Too Many Political Science Findings Cannot Be Trusted and What We
+  1311→Can Do About It: A Review of Meta-Scientific Research and a Call for Academic Reform.
+  1312→Politische Vierteljahresschrift, 60(1), 1–19. https://doi.org/10.1007/s11615-018-0131-7
+  1313→Wuttke, A., Schimpf, C., & Schoen, H. (2020). When the Whole Is Greater than the Sum of Its
+  1314→Parts: On the Conceptualization and Measurement of Populist Attitudes and Other
+  1315→Multidimensional Constructs. American Political Science Review, 114(2), 356–374.
+  1316→https://doi.org/10.1017/S0003055419000807
+  1317→Yang, Y., & Ma, Z. (2026). The Fragility of Global Comparisons of Perceived Scientist
+  1318→Trustworthiness: Evidence from Measurement Alignment across 68 Countries/Regions
+  1319→(arXiv:2601.18820). arXiv. https://doi.org/10.48550/arXiv.2601.18820
+  1320→Younger-Khan, S. (2026). Mapping patterns of trust in science and scientists. Current Opinion
+  1321→in Psychology, 67, 102203. https://doi.org/10.1016/j.copsyc.2025.102203
+  1322→Zellner, A. (1962). An Efficient Method of Estimating Seemingly Unrelated Regressions and
+  1323→Tests for Aggregation Bias. Journal of the American Statistical Association, 57(298), 348–
+  1324→368. https://doi.org/10.1080/01621459.1962.10480664
+  1325→Zhou, Z., & Ma, Z. (2025). Evaluating the Brief Resilience Scale in 21 Countries: Psychometric
+  1326→Properties and Measurement Invariance Across Sex, Age, and Countries. Assessment.
+  1327→Zillich, A. F., Schlütz, D., Roehse, E.-M., Möhring, W., & Link, E. (2024). Populism, Research
+  1328→Integrity, and Trust. How Science-Related Populist Beliefs Shape the Relationship
+  1329→Between Ethical Conduct and Trust in Scientists. International Journal of Public Opinion
+  1330→Research, 36(3), edae038. https://doi.org/10.1093/ijpor/edae038
+  1331→
+  1332→Step 0: Dara Preparation
+  1333→TISP dataset Swizerland 2019 Swizerland 2020 Swizerland
+  1334→68 countries/regions dataset dataset 2019&2020 panel data
+  1335→N=69,341 N=983 N=141 N=252
+  1336→Step 1: Descriptive Analysis
+  1337→Scale reliability and
+  1338→Overall sample Overall sample Overall sample
+  1339→overall sample
+  1340→description description description
+  1341→description
+  1342→Step 2: Confirmatory Factor Analysis (RQ1)
+  1343→CFA in the overall CFA in the overall
+  1344→CFA analyses by sample and across sample and across CFA in the overall CFA in the overall
+  1345→country/region demographic demographic sample sample
+  1346→subgroups subgroups
+  1347→Support for the four-
+  1348→factor structure Support for the four-
+  1349→Support for the four- Support for the four- Support for the four-
+  1350→(12 countries/ factor and second-
+  1351→factor structure factor structure factor structure
+  1352→regions are excluded order factor structure
+  1353→since poor model fit)
+  1354→Step 3: Measurement Invariance Testing (RQ2)
+  1355→Measurement Temporal
+  1356→Measurement Measurement
+  1357→invariance across measurement
+  1358→invariance across invariance across
+  1359→country/region invariance across
+  1360→demographic groups demographic groups
+  1361→groups 2019 and 2020
+  1362→Partial scalar Partial strict invariance
+  1363→Full measurement
+  1364→invariance isnot is achieved in Full measurement
+  1365→invariance is
+  1366→supported at education and region invariance is achieved
+  1367→achieved
+  1368→country/region level groups
+  1369→Step 4: Measurement Alignment
+  1370→Intersectional group:
+  1371→Countries/regions
+  1372→education × region Education aligment- Region aligment-
+  1373→aligment-adjusted
+  1374→approximate invariance adjusted scores adjusted scores
+  1375→scores
+  1376→is not supported
+  1377→Step 5: Comparison of Different Scoring Methods
+  1378→Switzerland 2019
+  1379→56 Countries/regions N=983 Switzerland Panel data
+  1380→N=61,471 Switzerland 2020 N=252
+  1381→N=141
+  1382→Compare mean, four-
+  1383→Compare mean, four- factor, second-order factor, Compare mean and
+  1384→factor, country- education-alignment- Compare mean and four-factor scores
+  1385→alignment-adjusted adjusted factor, region four-factor scores across two waves
+  1386→factor scores alignment-adjusted factor (2019&2020)
+  1387→scores
+  1388→Step 6: Criterion Validity Analysis (RQ3 and RQ4)
+  1389→56 Countries/regions Switzerland 2020
+  1390→Switzerland 2019
+  1391→N=61,471 N=141
+  1392→N=983
+  1393→Criterion validity of six SciPop Criterion validity of four SciPop scores
+  1394→Criterion validity of ten SciPop
+  1395→scores across four criterion across four science-related criterion
+  1396→scores across six criterion variables
+  1397→variables variables and three political variables
+  1398→Figure 1. Overview of the study design and analytical workflow across four datasets
+  1399→
+  1400→Panel A: One-factor model of SciPop Scale Panel B: Four-factor model of SciPop Scale
+  1401→General
+  1402→factor
+  1403→PPL PPL PPL PPL
+  1404→ppl1 ppl2 eli1 eli2 dec1 dec2 tru1 tru2
+  1405→ppl1 ppl2 eli1 eli2 dec1 dec2 tru1 tru2
+  1406→Panel C: Second-order four-factor model of SciPop Scale Panel D: Bifactor model of SciPop Scale
+  1407→SciPop General
+  1408→factor
+  1409→ppl1 ppl2 eli1 eli2 dec1 dec2 tru1 tru2
+  1410→PPL PPL PPL PPL
+  1411→PPL PPL PPL PPL
+  1412→ppl1 ppl2 eli1 eli2 dec1 dec2 tru1 tru2
+  1413→Figure 2. CFA models of the SciPop Scale
+  1414→
+  1415→19.65 44.57
+  1416→38.12
+  1417→31.56 28.28 30.28
+  1418→25.13 24.25
+  1419→66..0055 66..0055 17.73 19.03 15.91
+  1420→13.68
+  1421→11.47
+  1422→6677..5588
+  1423→10.68 10.01
+  1424→Mean Score Factor Score Aligned Score
+  1425→Mean Score
+  1426→1155..6699 Four−factor Score
+  1427→Alignment−adjusted Factor Score
+  1428→)%(
+  1429→noitroporP
+  1430→36.11
+  1431→34.08 33.16 33.67 31.54 31.23 28.48 28.28 28.5927.16
+  1432→24.01 22.38
+  1433→21.06 19.74 20.96 21.87
+  1434→17.7
+  1435→14.65 14.04 11.29
+  1436→Mean Score Four Factor Score Second−order Education−alignment− Region−alignment−
+  1437→Factor Score adujusted Factor Score adujusted Factor Score
+  1438→Mean Score
+  1439→Four−factor Score
+  1440→Second−order Factor Score
+  1441→Education−alignment−adjusted Factor Score
+  1442→Region−alignment−adjusted Factor Score
+  1443→)%(
+  1444→noitroporP
+  1445→39.01
+  1446→36.17
+  1447→33.33
+  1448→29.08
+  1449→23.4
+  1450→31.91 68.09 31.91 16.31 14.18
+  1451→8.51
+  1452→Mean Score Four Factor Score
+  1453→Mean Score
+  1454→Four−factor Score
+  1455→)%(
+  1456→noitroporP
+  1457→40.48
+  1458→38.1
+  1459→34.92
+  1460→31.75
+  1461→18.25
+  1462→15.08
+  1463→52.38 47.62 52.38 11.9
+  1464→9.52
+  1465→2019 Mean Score 2020 Mean Score
+  1466→2019 Mean Score
+  1467→2020 Mean Score
+  1468→)%(
+  1469→noitroporP
+  1470→32.54 33.33
+  1471→30.16
+  1472→26.98
+  1473→23.02
+  1474→20.63 19.84
+  1475→57.14 42.86 57.14
+  1476→13.49
+  1477→2019 Four−factor Score 2020 Four−factor Score
+  1478→2019 Four−factor Score
+  1479→2020 Four−factor Score
+  1480→)%(
+  1481→noitroporP
+  1482→Panel A: Comparison of three scoring strategies across 68 countries/regions (TISP dataset)
+  1483→Panel B: Comparison of five scoring strategies in Switzerland, 2019
+  1484→61.44
+  1485→0.31 0 2.03 2.03 0.61
+  1486→3.66
+  1487→15.56
+  1488→2.75 4.07 14.55
+  1489→4.17
+  1490→6.51
+  1491→7.83
+  1492→7.93 38.35 7.83
+  1493→10.48
+  1494→SciPop
+  1495→PPL
+  1496→4.58 ELI
+  1497→2.34
+  1498→1.63 DEC
+  1499→Panel C: Comparison of mean and four-factor scores in Switzerland, 2020 TRU
+  1500→Panels D: Mean score comparison across the 2019 and 2020 waves
+  1501→Panels E: Four-factor score comparison across the 2019 and 2020 waves
+  1502→Figure 3. Consistency in identifying the lowest dimension of SciPop across scoring methods and datasets.
+  1503→Note. In Panels A–C, percentages in the left Venn diagrams indicate the consistency in identifying the lowest dimension
+  1504→across scoring methods, whereas percentages in the right bar charts indicate the proportion of cases in which each
+  1505→dimension is identified as the lowest by each scoring method. In Panels D–E, percentages in the left Venn diagrams
+  1506→indicate the consistency in identifying the lowest dimension across waves, whereas percentages in the right bar charts
+  1507→indicate the proportion of cases in which each dimension is identified as the lowest across waves.
+  1508→
+  1509→Panel A: Perceived Benefits of Science
+  1510→0.021
+  1511→0.015
+  1512→0.003
+  1513→0.015
+  1514→0.015
+  1515→0.01
+  1516→0.00 0.01 0.02 0.03 0.04
+  1517→−0.15 −0.10 −0.05 0.00
+  1518→Coefficient Increment in
+  1519→R2
+  1520→Panel B: Trust in Scientific Methods
+  1521→0.017
+  1522→0.009
+  1523→0.001
+  1524→0.008
+  1525→0.009
+  1526→0.004
+  1527→0.00 0.01 0.02 0.03
+  1528→−0.15 −0.10 −0.05 0.00
+  1529→Coefficient Increment in
+  1530→R2
+  1531→SciPop Scores
+  1532→SciPop_Goertz_Mean
+  1533→Panel C: Confidence in Scientists
+  1534→SciPop_Goertz_Factor
+  1535→0.017 SciPop_Goertz_Aligned
+  1536→0.01 SciPop_Bollen_Mean
+  1537→0
+  1538→SciPop_Bollen_Factor
+  1539→0.013
+  1540→0.013 SciPop_Bollen_Aligned
+  1541→0.006
+  1542→0.00 0.01 0.02 0.03
+  1543→−0.15 −0.10 −0.05 0.00
+  1544→Coefficient Increment in
+  1545→R2
+  1546→Panel D: Social dominance Orientation
+  1547→0.032
+  1548→0.021
+  1549→0.009
+  1550→0.014
+  1551→0.015
+  1552→0.011
+  1553→0.00 0.01 0.02 0.03
+  1554→0.0 0.1 0.2 0.3 0.4
+  1555→Coefficient Increment in
+  1556→R2
+  1557→Figure 4. Criterion validity and comparative performance of SciPop scoring methods for criterion variables
+  1558→across 68 countries/regions
+  1559→Note. Panels A–D present associations between six SciPop scoring methods and criterion variables: perceived
+  1560→science benefit (A), trust in scientific methods (B), confidence in scientists (C), and social dominance orientation (D).
+  1561→The figure compares scoring methods in terms of unstandardized regression coefficients (B; left forest plots) and
+  1562→gains in explained variance (ΔR²; right bar charts). ΔR² is calculated relative to baseline models including only
+  1563→control variables, corresponding to Model A1 in Appendix Table A8 (Panel A), Model A2 in Table A11 (Panel B),
+  1564→Model A3 in Table A14 (Panel C), and Model A4 in Table A17 (Panel D).
+  1565→
+  1566→Panel A: Trust in Science
+  1567→0.034
+  1568→0.039
+  1569→0.049
+  1570→0.002
+  1571→0.038
+  1572→0.043
+  1573→0.047
+  1574→0.066
+  1575→0.001
+  1576→0.046
+  1577→−0.3 −0.2 −0.1 0.0 0.00 0.02 0.04 0.06 0.08
+  1578→Coefficient Increment in R2
+  1579→Panel B: Trust in University Scientists
+  1580→0.06
+  1581→0.071
+  1582→0.081
+  1583→0.001
+  1584→0.07
+  1585→0.074
+  1586→0.08
+  1587→0.103
+  1588→0.001
+  1589→0.081
+  1590→−0.4 −0.3 −0.2 −0.1 0.0 0.1 0.00 0.03 0.06 0.09 0.12
+  1591→Coefficient Increment in R2
+  1592→Panel C: Perceived Trustworthiness of Science−related Media Coverage
+  1593→0.026
+  1594→0.02
+  1595→0.019
+  1596→0.002
+  1597→0.025
+  1598→0.017 SciPop Scores
+  1599→0.017
+  1600→0.02 SciPop_Goertz_Mean
+  1601→0.003
+  1602→SciPop_Goertz_Four_Factor
+  1603→0.017
+  1604→−0.2 −0.1 0.0 0.00 0.01 0.02 0.03 0.04 SciPop_Goertz_Second_order_Factor
+  1605→Coefficient Increment in R2 SciPop_Goertz_Education_Aligned
+  1606→SciPop_Goertz_Region_Aligned
+  1607→Panel D: Beliefs in the Promise of Science SciPop_Bollen_Mean
+  1608→SciPop_Bollen_Four_Factor
+  1609→0.045
+  1610→0.048 SciPop_Bollen_Second_order_Factor
+  1611→0.046 SciPop_Bollen_Education_Aligned
+  1612→0.002
+  1613→0.048 SciPop_Bollen_Region_Aligned
+  1614→0.039
+  1615→0.042
+  1616→0.057
+  1617→0.001
+  1618→0.041
+  1619→−0.3 −0.2 −0.1 0.0 0.1 0.00 0.02 0.04 0.06
+  1620→Coefficient Increment in R2
+  1621→Panel E: Reservations Toward Science: Science makes people’s lives change too fast
+  1622→0.046
+  1623→0.049
+  1624→0.054
+  1625→0.001
+  1626→0.044
+  1627→0.064
+  1628→0.06
+  1629→0.057
+  1630→0.002
+  1631→0.063
+  1632→0.0 0.2 0.4 0.6 0.00 0.02 0.04 0.06 0.08
+  1633→Coefficient Increment in R2
+  1634→Panel F: Reservations Toward Science: People rely too much on science
+  1635→0.053
+  1636→0.054
+  1637→0.075
+  1638→0.003
+  1639→0.052
+  1640→0.082
+  1641→0.077
+  1642→0.087
+  1643→0.006
+  1644→0.081
+  1645→−0.2 0.0 0.2 0.4 0.6 0.000 0.025 0.050 0.075 0.100
+  1646→Coefficient Increment in R2
+  1647→Figure5. Criterion validity and comparative performance of SciPop scoring methods for criterion variables in Switzerland, 2019
+  1648→Note. Panels A–F present associations between ten SciPop scoring methods and criterion variables. The figure compares scoring methods in
+  1649→terms of unstandardized regression coefficients (B; left forest plots) and gains in explained variance (ΔR²; right bar charts). ΔR² is calculated
+  1650→relative to baseline models including only control variables, corresponding to Model 4 in Appendix Table S22 (Panel A), Model 5 in Table
+  1651→S24 (Panel B), Model 6 in Table S26 (Panel C), Model 7 in Table S28 (Panel D), Model 8 in Table S30 (Panel E),
+  1652→and Model 9 in Table S32 (Panel F).
+  1653→
+  1654→Panel A: Trust in Science Panel E: Trust in Politicians
+  1655→0.019
+  1656→0.054
+  1657→0.027
+  1658→0.075
+  1659→0.018
+  1660→0.091
+  1661→0.027
+  1662→0.125
+  1663→−0.5 −0.4 −0.3 −0.2 −0.1 0.0 0.00 0.05 0.10 −0.5 −0.4 −0.3 −0.2 −0.1 0.0 0.00 0.01 0.02 0.03 0.04
+  1664→Coefficient Increment in R2 Coefficient Increment in R2
+  1665→Panel B: Trust in University Scientists Panel F: Trust in Representatives of Cantonal Authorities and Federal Offices
+  1666→0.128 0.011
+  1667→0.169 0.024
+  1668→0.218 0.021
+  1669→0.25 0.036
+  1670→−0.6 −0.4 −0.2 0.0 0.00 0.05 0.10 0.15 0.20 0.25 −0.4 −0.2 0.0 0.00 0.01 0.02 0.03 0.04 0.05
+  1671→Coefficient Increment in R2 Coefficient Increment in R2
+  1672→Panel C: Beliefs in the Promise of Science Panel G: COVID−19 Conspiracy Beliefs
+  1673→0.141
+  1674→0.063
+  1675→0.138
+  1676→0.048
+  1677→0.158
+  1678→0.034
+  1679→0.192
+  1680→0.035
+  1681→−0.5 −0.4 −0.3 −0.2 −0.1 0.0 0.00 0.02 0.04 0.06 0.08 0.0 0.2 0.4 0.6 0.00 0.05 0.10 0.15 0.20
+  1682→Coefficient Increment in R2 Coefficient Increment in R2
+  1683→Panel D: Reservations Toward Science: People rely too much on science
+  1684→SciPop Scores
+  1685→0.05
+  1686→SciPop_Goertz_Mean
+  1687→0.086
+  1688→SciPop_Goertz_Factor
+  1689→0.086
+  1690→SciPop_Bollen_Mean
+  1691→0.112
+  1692→SciPop_Bollen_Factor
+  1693→0.0 0.2 0.4 0.6 0.8 0.0000.0250.0500.0750.1000.125
+  1694→Coefficient Increment in R2
+  1695→Figure 6. Criterion validity and comparative performance of SciPop scoring methods for criterion variables in
+  1696→Switzerland 2020
+  1697→Note. Panels A–G present associations between four SciPop scoring methods and criterion variables. The figure
+  1698→compares scoring methods in terms of unstandardized regression coefficients (B; left forest plots) and gains in
+  1699→explained variance (ΔR²; right bar charts). ΔR² is calculated relative to baseline models including only control
+  1700→variables, corresponding to Model B7 in Appendix Table B18 (Panel A), Model B8 in Table B20 (Panel B),
+  1701→Model B9 in Table B22 (Panel C), Model B10 in Table B24 (Panel D). Model B11 in Appendix Table B28 (Panel E),
+  1702→Model B12 in Table B20 (Panel F), Model B13 in Table B30 (Panel G).
+  1703→
+  1704→Table 1. Operationalization of dimension and total scores for the SciPop Scale
+  1705→Dimension Total Score
+  1706→Variable Name Description
+  1707→Score Method Aggregation
+  1708→Compute the average of the four
+  1709→SciPop_Goertz_Mean Mean Goertz dimensions, then take the minimum
+  1710→as the total score.
+  1711→Compute each dimension using
+  1712→CFA factor
+  1713→SciPop_Goertz_Factor Goertz CFA factor scores, then take the
+  1714→scores
+  1715→minimum as total score.
+  1716→Compute each dimension using
+  1717→Alignment- alignment-adjusted factor scores,
+  1718→SciPop_Goertz_Aligned Goertz
+  1719→based scores then take the minimum as total
+  1720→score.
+  1721→Compute the average of the four
+  1722→SciPop_Bollen_Mean Mean Bollen dimensions, then take the mean as
+  1723→total score.
+  1724→Compute each dimension using
+  1725→CFA factor
+  1726→SciPop_Bollen_Factor Bollen CFA factor scores, then take the
+  1727→scores
+  1728→mean as total score
+  1729→Compute each dimension using
+  1730→SciPop_Bollen_ Alignment-
+  1731→Bollen alignment-adjusted factor scores,
+  1732→Aligned based scores
+  1733→then take the mean as total score.
+  1734→
+  1735→Table 2. Items of SciPop Scale
+  1736→Dimension Label Item Levels
+  1737→Conceptions of the ppl1 What unites the ordinary people is
+  1738→1 = strongly disagree,
+  1739→ordinary people (PPL) that they trust their common sense
+  1740→5 = strongly agree
+  1741→in everyday life.
+  1742→ppl2 Ordinary people are of good and 1 = strongly disagree,
+  1743→honest character. 5 = strongly agree
+  1744→Conceptions of the eli1 Scientists are only after their own 1 = strongly disagree,
+  1745→academic elite (ELI) advantage. 5 = strongly agree
+  1746→eli2 Scientists are in cahoots with 1 = strongly disagree,
+  1747→politics and business. 5 = strongly agree
+  1748→Demands for dec1 The people should have influence 1 = strongly disagree,
+  1749→decision-making on the work of scientists. 5 = strongly agree
+  1750→sovereignty (DEC) dec2 People like me should be involved 1 = strongly disagree,
+  1751→in decisions about the topics 5 = strongly agree
+  1752→scientists research.
+  1753→Demands for truth- tru1 In case of doubt, one should rather 1 = strongly disagree,
+  1754→speaking sovereignty trust the life experience of ordinary 5 = strongly agree
+  1755→(TRU) people than the estimations of
+  1756→scientists.
+  1757→tru2 We should rely more on common 1 = strongly disagree,
+  1758→sense and less on scientific studies. 5 = strongly agree
+  1759→Note. All items of the SciPop Scale are taken from Mede (2021), who originally developed
+  1760→the scale.
+  1761→
+  1762→Table 3. Measurement invariance based on the four-factor model for SciPop Scale
+  1763→χ2 df RMSEA CFI TLI SRMR ∆RMSEA ∆CFI ∆TLI ∆SRMR Accept
+  1764→Measurement invariance across sex
+  1765→Configural model 627.605 28 0.030 0.994 0.987 0.013
+  1766→Metric model 659.846 32 0.028 0.994 0.989 0.013 -0.002 0.000 0.001 0.000
+  1767→✓
+  1768→Scalar model 729.954 36 0.027 0.993 0.989 0.014 -0.001 0.000 0.001 0.001
+  1769→✓
+  1770→Strict model 803.631 44 0.026 0.993 0.991 0.014 -0.002 -0.001 0.001 0.000
+  1771→✓
+  1772→Measurement invariance across age
+  1773→Configural model 714.561 56 0.031 0.993 0.987 0.013
+  1774→Metric model 786.827 68 0.029 0.993 0.988 0.015 -0.002 0.000 0.002 0.001
+  1775→✓
+  1776→Scalar model 956.151 80 0.029 0.992 0.988 0.015 0.000 -0.001 0.000 0.001
+  1777→✓
+  1778→Strict model 1931.150 104 0.036 0.983 0.982 0.020 0.008 -0.009 -0.007 0.005
+  1779→✓
+  1780→Measurement invariance across education
+  1781→Configural model 629.993 28 0.030 0.994 0.987 0.013
+  1782→Metric model 663.445 32 0.028 0.994 0.989 0.013 -0.002 0.000 0.001 0.000
+  1783→✓
+  1784→Scalar model 745.969 36 0.028 0.993 0.989 0.014 0.000 -0.001 0.000 0.000
+  1785→✓
+  1786→Strict model 802.315 44 0.026 0.993 0.991 0.014 -0.002 0.000 0.001 0.000
+  1787→✓
+  1788→Measurement invariance across residence
+  1789→Configural model 623.618 28 0.030 0.994 0.988 0.013
+  1790→Metric model 659.162 32 0.028 0.994 0.989 0.013 -0.002 0.000 0.001 0.000
+  1791→✓
+  1792→Scalar model 713.689 36 0.027 0.993 0.990 0.013 -0.001 0.000 0.001 0.000
+  1793→✓
+  1794→Strict model 829.837 44 0.026 0.992 0.990 0.014 -0.001 -0.001 0.001 0.001
+  1795→✓
+  1796→Measurement invariance across political orientation (liberal-conservative)
+  1797→Configural model 511.571 42 0.029 0.994 0.988 0.012
+  1798→Metric model 578.850 50 0.028 0.994 0.989 0.015 -0.001 0.000 0.001 0.002
+  1799→✓
+  1800→Scalar model 624.802 58 0.026 0.993 0.990 0.015 -0.002 0.000 0.001 0.000
+  1801→✓
+  1802→Strict model 1358.614 74 0.035 0.985 0.983 0.020 0.009 -0.008 -0.008 0.005
+  1803→✓
+  1804→
+  1805→Measurement invariance across political orientation (left-right)
+  1806→Configural model 497.043 42 0.029 0.994 0.988 0.012
+  1807→Metric model 564.122 50 0.028 0.994 0.990 0.014 -0.001 0.000 0.001 0.002
+  1808→✓
+  1809→Scalar model 617.983 58 0.026 0.993 0.990 0.015 -0.001 0.000 0.001 0.000
+  1810→✓
+  1811→Strict model 1066.981 74 0.031 0.988 0.987 0.018 0.005 -0.005 -0.004 0.004
+  1812→✓
+  1813→Measurement invariance across religiosity
+  1814→Configural model 697.764 42 0.031 0.993 0.986 0.014
+  1815→Metric model 823.090 50 0.030 0.992 0.987 0.016 -0.001 -0.001 0.001 0.003
+  1816→✓
+  1817→Scalar model 973.606 58 0.030 0.991 0.987 0.017 0.000 -0.001 0.000 0.001
+  1818→✓
+  1819→Strict model 2383.137 74 0.042 0.977 0.974 0.023 0.012 -0.014 -0.013 0.006
+  1820→✓
+  1821→Measurement invariance across countries or regions
+  1822→Configural model 1545.984 784 0.034 0.993 0.985 0.018
+  1823→Metric model 2093.449 1004 0.035 0.990 0.984 0.026 0.002 -0.003 -0.001 0.008
+  1824→✓
+  1825→Scalar model 6742.316 1224 0.071 0.950 0.936 0.043 0.035 -0.040 -0.048 0.017
+  1826→Strict model 16135.476 1664 0.098 0.869 0.876 0.057 0.028 -0.081 -0.060 0.014
+  1827→Partial measurement invariance across countries or regions a
+  1828→Configural model 1545.984 784 0.034 0.993 0.985 0.018
+  1829→Metric model 2093.449 1004 0.035 0.990 0.984 0.026 0.002 -0.003 -0.001 0.008
+  1830→✓
+  1831→Scalar model 6742.316 1224 0.071 0.950 0.936 0.043 0.035 -0.040 -0.048 0.017
+  1832→Strict model 16135.476 1664 0.098 0.869 0.876 0.057 0.028 -0.081 -0.060 0.014
+  1833→Note. a: In the scalar model, the estimation failed to converge, indicating that scalar invariance could not be achieved and no parameters could be freely
+  1834→estimated to test for partial scalar invariance.
+  1835→
+  1836→Table 4. Results of measurement alignment based on the four-factor CFA model of the SciPop Scale
+  1837→N non- Percentage of
+  1838→Factor Item Mean Joint item R2 Noninvariant Groups
+  1839→invariance non-invariance
+  1840→Loadings
+  1841→PPL ppl1 0.557 0.327 0
+  1842→0.983 0.00%
+  1843→ppl2 0.624 0.356 0
+  1844→ELI eli1 0.842 0.596 0
+  1845→0.990 0.00%
+  1846→eli2 0.814 0.590 0
+  1847→DEC dec1 0.915 0.775 0
+  1848→0.995 0.00%
+  1849→dec2 0.815 0.691 0
+  1850→TRU tru1 0.850 0.586 0
+  1851→0.994 0.00%
+  1852→tru2 0.853 0.599 0
+  1853→Intercepts
+  1854→PPL ppl1 3.618 3.822 9 Albania, Belgium, Botswana, China, Colombia,
+  1855→0.999 10.70%
+  1856→ppl2 3.235 3.519 3 Denmark, France, Israel, Japan
+  1857→ELI eli1 2.771 3.095 5 Albania, Belgium, Chile, Costa Rica, Finland,
+  1858→0.998 10.70%
+  1859→eli2 3.057 3.350 7 Germany, Poland, Serbia
+  1860→DEC dec1 3.040 3.029 1
+  1861→0.999 4.50% Albania, China, Colombia, Japan
+  1862→dec2 3.264 3.274 4
+  1863→TRU tru1 2.911 2.897 1
+  1864→0.999 1.80% Denmark, Indonesia
+  1865→tru2 2.828 2.807 1
+  1866→
+  1867→I
+  1868→Supplementary Materials
+  1869→for
+  1870→Revisiting the SciPop Scale: Measurement Alignment, Scoring Rules, and Cross-
+  1871→Context Comparability
+  1872→Content
+  1873→Appendix A. Study 1: Cross-National Analyses Across 68 Countries/Regions ................................................ 1
+  1874→Appendix A1: Distinctions and Relationships between Political and Science-related Populism ....................... 1
+  1875→Appendix A2: Sample Size Justification and Sensitivity Analyses ...................................................................... 2
+  1876→Table A1. Required minimum sample sizes from a priori power analyses ................................................... 2
+  1877→Figure A1. Post-hoc sensitivity analysis across CFA models ....................................................................... 3
+  1878→Figure A2. Data Processing workflow of study 1 ......................................................................................... 4
+  1879→Appendix A3. Measurement of Criterion Variables in Study 1 ........................................................................... 5
+  1880→Appendix A4: Full Statistical Analysis Procedures ............................................................................................ 7
+  1881→Table A2. Classification of Countries .......................................................................................................... 14
+  1882→Appendix A5: Supplementary Measurement Properties Results ....................................................................... 15
+  1883→Table A3. Descriptive statistics of the total sample for 68 countries/regions ............................................. 15
+  1884→Table A4. CFA model fit indices for the total sample of 68 countries/regions ........................................... 18
+  1885→Table A5. CFA model fit indices for each country/region subsample (68 countries/regions) .................... 22
+  1886→Table A6. Measurement invariance of the SciPop Scale based on the four-factor model across
+  1887→country/region subgroups ............................................................................................................................. 34
+  1888→Table A7. Consistency and proportion of dimensions identified as lowest in the SciPop Scale for 68
+  1889→countries/regions ........................................................................................................................................... 44
+  1890→Appendix A6: Full Criterion Validity Regression Results for Study 1 .............................................................. 45
+  1891→Table A8. Criterion validity of SciPop Scores for perceived science benefit ............................................. 51
+  1892→Table A9. Comparisons of regression coefficients and R² across SciPop Scores for perceived benefits of
+  1893→science .......................................................................................................................................................... 53
+  1894→Table A10. Robustness test using SUR: Coefficient comparisons across SciPop Scores for perceived
+  1895→benefits of science ........................................................................................................................................ 54
+  1896→Table A11. Criterion validity of SciPop Scores for trust in scientific methods .......................................... 55
+  1897→Table A12. Comparisons of regression coefficients and R² across SciPop Scores for trust in scientific
+  1898→methods ......................................................................................................................................................... 57
+  1899→Table A13. Robustness test using SUR: Coefficient comparisons across SciPop Scores for trust in
+  1900→scientific methods ......................................................................................................................................... 58
+  1901→Table A14. Criterion validity of SciPop Scores for confidence in scientists .............................................. 59
+  1902→
+  1903→II
+  1904→Table A15. Comparisons of regression coefficients and R² across SciPop Scores for confidence in
+  1905→scientists ....................................................................................................................................................... 61
+  1906→Table A16. Robustness test using SUR: Coefficient comparisons across SciPop Scores for confidence in
+  1907→scientists ....................................................................................................................................................... 62
+  1908→Table A17. Criterion validity of SciPop Scores for social dominance orientation ...................................... 63
+  1909→Table A18. Comparisons of regression coefficients and R² across SciPop Scores for social dominance
+  1910→orientation ..................................................................................................................................................... 65
+  1911→Table A19. Robustness test using SUR: Coefficient comparisons across SciPop Scores for social
+  1912→dominance orientation .................................................................................................................................. 66
+  1913→Table A20. Criterion validity of SciPop Scores using multiplicative unified scale .................................... 67
+  1914→Table A21. Robustness-value sensitivity analysis for unobserved confounding in criterion-validity models
+  1915→...................................................................................................................................................................... 69
+  1916→Appendix B. Study 2: Country-Specific Analyses in Switzerland ................................................................... 70
+  1917→Appendix B1. Full Methods for Study 2 ............................................................................................................ 70
+  1918→Table B1. Descriptive statistics of the total sample for Switzerland in 2019 and 2020 .............................. 76
+  1919→Appendix B2. Full Measurement Properties Results for Study 2 ...................................................................... 77
+  1920→Table B2. CFA model fit indices for the total sample of Switzerland 2019 and 2020 ................................ 83
+  1921→Table B3. Measurement invariance of the SciPop Scale based on the four-factor model and second-order
+  1922→four-factor model for Switzerland 2019 ....................................................................................................... 87
+  1923→Table B4. Results of measurement alignment of the four-factor CFA model of the SciPop Scale for
+  1924→Switzerland 2019 .......................................................................................................................................... 91
+  1925→Table B5. Consistency and proportion of dimensions identified as lowest in the SciPop Scale for
+  1926→Switzerland 2019 and 2020 .......................................................................................................................... 94
+  1927→Appendix B3: Full Criterion Validity Regression Results for Study 2 .............................................................. 96
+  1928→Table B6. Criterion validity of SciPop Scores for trust in science (Swiss data, 2019) ............................. 104
+  1929→Table B7. Comparisons of regression coefficients and R² across SciPop Scores for trust in science (Swiss
+  1930→data, 2019) .................................................................................................................................................. 106
+  1931→Table B8. Criterion validity of SciPop Scores for trust in university scientists (Swiss data, 2019) ......... 109
+  1932→Table B9. Comparisons of regression coefficients and R² across SciPop Scores for trust in university
+  1933→scientists (Swiss data, 2019) ....................................................................................................................... 111
+  1934→Table B10. Criterion validity of SciPop Scores for perceived trustworthiness of science-related media
+  1935→coverage (Swiss data, 2019) ....................................................................................................................... 114
+  1936→Table B11. Comparisons of regression coefficients and R² across SciPop Scores for perceived
+  1937→trustworthiness of science-related media coverage (Swiss data, 2019) ..................................................... 116
+  1938→Table B12. Criterion validity of SciPop Scores for beliefs in the promise of science (Swiss data, 2019) 119
+  1939→Table B13. Comparisons of regression coefficients and R² across SciPop Scores for beliefs in the promise
+  1940→of science (Swiss data, 2019) ..................................................................................................................... 121
+  1941→Table B14. Criterion validity of SciPop Scores for reservations toward science that science makes
+  1942→people’s lives change too fast (Swiss data, 2019) ...................................................................................... 124
+  1943→Table B15. Comparisons of regression coefficients and R² across SciPop Scores for reservations toward
+  1944→science that science makes people’s lives change too fast (Swiss data, 2019) .......................................... 126
+  1945→
+  1946→III
+  1947→Table B16. Criterion validity of SciPop Scores for reservations toward science that people rely too much
+  1948→on science (Swiss data, 2019) ..................................................................................................................... 129
+  1949→Table B17. Comparisons of regression coefficients and R² across SciPop Scores for reservations toward
+  1950→science that people rely too much on science (Swiss data, 2019) .............................................................. 131
+  1951→Table B18. Criterion validity of SciPop Scores for trust in science (Swiss data, 2020) ........................... 134
+  1952→Table B19. Comparisons of regression coefficients and R² across SciPop Scores for trust in science
+  1953→(Swiss data, 2020) ...................................................................................................................................... 135
+  1954→Table B20. Criterion validity of SciPop Scores for trust in university scientists (Swiss data, 2020) ....... 136
+  1955→Table B21. Comparisons of regression coefficients and R² across SciPop Scores for trust in university
+  1956→scientists (Swiss data, 2020) ....................................................................................................................... 137
+  1957→Table B22. Criterion validity of SciPop Scores for beliefs in the promise of science (Swiss data, 2020) 138
+  1958→Table B23. Comparisons of regression coefficients and R² across SciPop Scores for beliefs in the promise
+  1959→of science (Swiss data, 2020) ..................................................................................................................... 139
+  1960→Table B24. Criterion validity of SciPop Scores for reservations toward science that people rely too much
+  1961→on science (Swiss data, 2020) ..................................................................................................................... 140
+  1962→Table B25. Comparisons of regression coefficients and R² across SciPop Scores for reservations toward
+  1963→science that people rely too much on science (Swiss data, 2020) .............................................................. 141
+  1964→Table B26. Criterion validity of SciPop Scores for trust in politicians (Swiss data, 2020) ...................... 142
+  1965→Table B27. Comparisons of regression coefficients and R² across SciPop Scores for trust in politicians
+  1966→(Swiss data, 2020) ...................................................................................................................................... 143
+  1967→Table B28. Criterion validity of SciPop Scores for trust in representatives of cantonal authorities and
+  1968→federal offices (Swiss data, 2020) .............................................................................................................. 144
+  1969→Table B29. Comparisons of regression coefficients and R² across SciPop Scores for trust in
+  1970→representatives of cantonal authorities and federal offices (Swiss data, 2020) .......................................... 145
+  1971→Table B30. Criterion validity of SciPop Scores for COVID-19 conspiracy beliefs (Swiss data, 2020) ... 146
+  1972→Table B31. Comparisons of regression coefficients and R² across SciPop Scores for COVID-19
+  1973→conspiracy beliefs (Swiss data, 2020) ........................................................................................................ 147
+  1974→Appendix C. Item Response Theory Analysis ................................................................................................. 148
+  1975→Figure C1. Workflow of the MIRT analyses ............................................................................................. 149
+  1976→Appendix C1: Multidimensional Compensatory IRT Analysis ........................................................................ 149
+  1977→Table C1. Item discrimination (a) and threshold parameters (d) from a multidimensional compensatory
+  1978→IRT model ................................................................................................................................................... 151
+  1979→Figure C2. Item information curves of the eight items of the SciPop Scale ............................................. 152
+  1980→Appendix C2: Differential Item Functioning (DIF) Analysis .......................................................................... 152
+  1981→Table C2. Measurement invariance testing using multiple-group graded response model (68
+  1982→countries/regions) ....................................................................................................................................... 155
+  1983→Table C3. Differential item functioning results (Switzerland 2019) ......................................................... 158
+  1984→Appendix C3: Multidimensional Non-compensatory IRT Analysis ................................................................. 158
+  1985→Figure C3. Consistency in identifying the lowest dimension of SciPop: comparison of IRT-based scores
+  1986→with alternative scoring methods ................................................................................................................ 162
+  1987→
+  1988→IV
+  1989→Appendix D. Identifying Core Dimensions for Stable Cross-Group Inference: Dimensional Contributions
+  1990→to Measurement Stability .................................................................................................................................. 163
+  1991→Figure D1. Correlations among SciPop dimensions across different scoring approaches ........................ 165
+  1992→Figure D2. Correlations between SciPop dimensions and criterion variables across scoring approaches 166
+  1993→Figure D3. Criterion validity of SciPop dimensions across scoring approaches ....................................... 167
+  1994→Appendix E. Robustness Checks ....................................................................................................................... 168
+  1995→Appendix E1: Robustness Checks: Leave-One-Dimension Analyses of the SciPop Scale .............................. 168
+  1996→Table E1. Robustness checks: CFA model fit indices for reduced three-factor models (leave-one-
+  1997→dimension) across sociodemographic subgroups ....................................................................................... 169
+  1998→Table E2. Robustness checks: CFA model fit indices for reduced three-factor models (leave-one-
+  1999→dimension) across country/region subsamples ........................................................................................... 173
+  2000→Appendix E2: Diagnostics of Cross-National Response Styles ....................................................................... 185
+
+[showing lines 1-2000 of 7495; use offset=2001 with limit to continue reading]

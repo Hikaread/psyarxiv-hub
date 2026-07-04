@@ -1,0 +1,956 @@
+     1→     1→Receptive Vocabulary Performance Varies with Depression
+     2→     2→Michael J. Espero
+     3→     3→Claremont Graduate University
+     4→     4→Author Note:
+     5→     5→Correspondence concerning this should be addressed to Michael J. Espero,
+     6→     6→michael.espero@cgu.edu
+     7→     7→
+     8→     8→Blinded Manuscript
+     9→     9→1
+    10→    10→2
+    11→    11→3
+    12→    12→4
+    13→    13→Receptive Vocabulary Performance
+    14→    14→5
+    15→    15→6
+    16→    16→7 Varies with Depression
+    17→    17→8
+    18→    18→9
+    19→    19→10
+    20→    20→11 Abstract
+    21→    21→12
+    22→    22→Assessment of health and lifestyle factors in relation with receptive vocabulary across language groups is
+    23→    23→13
+    24→    24→conducted as parameters are fixed and freed for estimation. Structural equation modeling (SEM) and
+    25→    25→14
+    26→    26→multi-group structural equation modeling (MGSEM) is used to test the suitability of the model for
+    27→    27→15
+    28→    28→reproducing the data sample covariance matrix, the relationships of hypothesized constructs, and the
+    29→    29→16
+    30→    30→tenability of equivalence across two participant samples. Most demonstrated acceptable global fit indices,
+    31→    31→17
+    32→    32→however, following group isolated model fitting and re-fitting of MGSEMs (item-factor loadings,
+    33→    33→18
+    34→    34→19 covariances, regression paths, and intercepts fixed and freed for estimation) - a parsimonious model
+    35→    35→20 predicting the strength of the influence of depression and alcohol experience equally between groups
+    36→    36→21 (fixed regression parameters) on receptive vocabulary was chosen, reflecting structural invariance. The
+    37→    37→22 model suggests tenability of the observation of similarly negative impact of depression on receptive
+    38→    38→23 vocabulary performance regardless of participant group among included samples.
+    39→    39→24
+    40→    40→25 What is already known on this topic
+    41→    41→26
+    42→    42→27
+    43→    43→While depression is widely recognized to impair facets of cognitive ability, its specific
+    44→    44→28
+    45→    45→impact on widely used language comprehension and receptive vocabulary remains
+    46→    46→29
+    47→    47→30 under-characterized.
+    48→    48→31
+    49→    49→32 What this study adds
+    50→    50→33
+    51→    51→34 Depressive symptoms negatively influence receptive vocabulary performance and this
+    52→    52→35 negative influence persists across both English and non-English language groups.
+    53→    53→36
+    54→    54→37
+    55→    55→How this study might affect research, practice or policy
+    56→    56→38
+    57→    57→39
+    58→    58→Cognitive assessments that leverage vocabulary proficiency as a baseline must
+    59→    59→40
+    60→    60→consider psychosocial influences such as depression to avoid misclassifying cognitive
+    61→    61→41
+    62→    62→42 decline or verbal deficits.
+    63→    63→43
+    64→    64→44
+    65→    65→45 Introduction
+    66→    66→46
+    67→    67→47
+    68→    68→The notion that important cognitive abilities can vary given our emotional and
+    69→    69→48
+    70→    70→49 physical needs should not be ignored (Diamond, 2013). Meta-analyses by Pilcher and
+    71→    71→50 Huffcutt (1996) found a very large, negative effect across cognitive task performance
+    72→    72→51 and mood, attributable to sleep-deprivation, d = -1.55 and -3.16, respectively. A
+    73→    73→Cohen’s
+    74→    74→52
+    75→    75→person’s mood, alone, may influence problem solving ability. Isen, Daubman, and
+    76→    76→53
+    77→    77→Nowicki (1987) demonstrated effects of positive mood induction relative to those in a
+    78→    78→54
+    79→    79→55 negative mood induction group (film viewing), neutral, and others. Participants
+    80→    80→56 presented with a positive film prior to problem-solving trials correctly solved 58% of trials
+    81→    81→57
+    82→    82→while those shown neutral films solved 11%. Other adverse lifestyle influences, such as
+    83→    83→58
+    84→    84→alcohol experience, may also play a role in both behavioral and neural markers of
+    85→    85→59
+    86→    86→60 cognitive functioning. Topiwala et al. (2017) found increased odds of hippocampal
+    87→    87→61
+    88→    88→62
+    89→    89→63
+    90→    90→64
+    91→    91→65
+    92→    92→
+    93→    93→1
+    94→    94→2
+    95→    95→3
+    96→    96→4 atrophy in drinkers relative to non-drinkers in a 30-year followup study as well as
+    97→    97→5
+    98→    98→relatively impaired lexical fluency (word retrieval), OR = 5.8 [1.8-18.6], 𝑥2 = 14.4, p =
+    99→    99→6
+   100→   100→.006, respectively. This work continues investigation specifically into the variability of
+   101→   101→7
+   102→   102→8 auditory recognition & visual matching in a receptive vocabulary task - as influenced by
+   103→   103→9 emotional and physiological factors, including depression, mood, sleep quality, and
+   104→   104→10
+   105→   105→alcohol experience. The influence of these factors have been studied extensively across
+   106→   106→11
+   107→   107→various psychological and epidemiological frameworks. Their combined influence on
+   108→   108→12
+   109→   109→13 receptive vocabulary - a cognitive task inclusive of receptive (typically English) verbal
+   110→   110→14 (aloud) word recognition, target maintenance, and visual matching - remains
+   111→   111→15 underexplored.
+   112→   112→16
+   113→   113→17 Research on mood and cognitive processes consistently demonstrate that mood
+   114→   114→18
+   115→   115→affects the speed and accuracy of lexical recognition tasks, with depressive symptoms
+   116→   116→19
+   117→   117→often impairing performance (Gotlib & Joormann, 2010). Similarly, sleep disruptions,
+   118→   118→20
+   119→   119→21 frequently comorbid with mood disorders, are thought to compromise cognitive function,
+   120→   120→22 including lexical recognition (Altena et al., 2008). Alcohol experience, encompassing
+   121→   121→23
+   122→   122→both acute intoxication and chronic use, has also been linked to cognitive impairments,
+   123→   123→24
+   124→   124→including delayed reaction times and reduced accuracy in verbal and visual tasks (Dry
+   125→   125→25
+   126→   126→26 et al., 2012). Mood states may indeed have a significant impact on performance in
+   127→   127→27 cognitive tasks. Studies indicate that negative mood, often associated with depression,
+   128→   128→28 slows lexical decision times (Gotlib & Joormann, 2010). For example, Gotlib and
+   129→   129→29
+   130→   130→Joormann (2010) reported that participants with depressive symptoms had significantly
+   131→   131→30
+   132→   132→longer reaction times in lexical recognition tasks (𝛽 = .45, 𝑆𝐸 = .03, 𝑝 < .001),
+   133→   133→31
+   134→   134→32 suggesting that mood disorders interfere with speed to response.
+   135→   135→33
+   136→   136→34 Sleep plays a critical role in maintaining cognitive function, including notions of
+   137→   137→35 memory and attention, which are relevant to lexical recognition - arguably even more so
+   138→   138→36
+   139→   139→for tasks involving recognition, target maintenance, and selection from arrays presented
+   140→   140→37
+   141→   141→during consecutive trials. Consider that in these receptive vocabulary tests, participants
+   142→   142→38
+   143→   143→39 must keep a cache of the target word after recognizing it aloud and ultimately attend to
+   144→   144→40 the target-matching-image presented while disregarding the non-target images in a
+   145→   145→41 trial’s array. Altena et al. (2008) found that participants experiencing sleep deprivation
+   146→   146→42
+   147→   147→exhibited reduced lexical recognition accuracy (𝐹(1,78) = 15.67, 𝑝 < .001, 𝜂2 = .17).
+   148→   148→43
+   149→   149→Such impairments may be particularly pronounced in tasks requiring sustained attention
+   150→   150→44
+   151→   151→45 (often keeping several elements activated) and decision-making (Lim & Dinges, 2010).
+   152→   152→46
+   153→   153→47 Both acute and chronic alcohol consumption have been associated with diminished
+   154→   154→48 cognitive performance. Dry et al. (2012) demonstrated (a large negative effect) that
+   155→   155→49
+   156→   156→moderate alcohol intoxication delayed reaction times in lexical tasks (𝑑 = .62, 𝑝 < .01).
+   157→   157→50
+   158→   158→Additionally, chronic alcohol use has been linked to long-term impairments in executive
+   159→   159→51
+   160→   160→52 function and working memory, potentially also influencing cognitive processes relevant
+   161→   161→53 to receptive vocabulary (Oscar-Berman & Marinkovic, 2007).
+   162→   162→54
+   163→   163→55 Measurement Invariance Across Language Groups
+   164→   164→56
+   165→   165→57
+   166→   166→Cross-cultural studies emphasize the necessity of measurement invariance to ensure
+   167→   167→58
+   168→   168→valid comparisons across language groups (Van de Vijver & Poortinga, 1997). Chen
+   169→   169→59
+   170→   170→60 (2007) highlights that failure to establish invariance can lead to erroneous conclusions,
+   171→   171→61
+   172→   172→62
+   173→   173→63
+   174→   174→64
+   175→   175→65
+   176→   176→
+   177→   177→1
+   178→   178→2
+   179→   179→3
+   180→   180→4 particularly in models involving psychological constructs. Invariance testing typically
+   181→   181→5
+   182→   182→involves comparing nested models, with changes in fit indices (e.g., ΔCFI and ΔRMSEA)
+   183→   183→6
+   184→   184→indicating whether various combinations of equality constraints are tenable. Language
+   185→   185→7
+   186→   186→8 (familiarity) differences could introduce biases in model parameters, obscuring the
+   187→   187→9 relationships between constructs. Lexical recognition speed and accuracy can vary by
+   188→   188→10
+   189→   189→linguistic structure and cultural norms, necessitating rigorous modeling to avoid
+   190→   190→11
+   191→   191→confounding results (Van de Vijver & Poortinga, 1997). Given these complexities, a
+   192→   192→12
+   193→   193→13 robust framework is needed to disentangle the roles of health & lifestyle factors in
+   194→   194→14 receptive vocabulary scoring across participant groups. There may not be consensus
+   195→   195→15 that visual vocabulary tests like the one used in these analyses is culture-fair.
+   196→   196→16
+   197→   197→Generalization and whether such assessment measures may be valid across language
+   198→   198→17
+   199→   199→groups, here used as a proxy for cultural group, would strengthen arguments for their
+   200→   200→18
+   201→   201→19 widespread use. In these tasks, each trial typically consists of a verbally spoken (aloud
+   202→   202→20 in English) word offered as the target for a participant to match with 1 of 4 images in
+   203→   203→21
+   204→   204→visually presented arrays.
+   205→   205→22
+   206→   206→23
+   207→   207→Statistical Approach
+   208→   208→24
+   209→   209→25
+   210→   210→26 This study employs multi-group structural equation modeling (MGSEM) to test for
+   211→   211→27 tenability of equality constraints/additional parameters estimated across language
+   212→   212→28 groups in an National Longitudinal Study of Adolescent to Adult Health (ADD) Health
+   213→   213→29
+   214→   214→sample. Configural invariance examines whether the factor structure is consistent
+   215→   215→30
+   216→   216→across groups, while metric invariance imposes equality of factor loadings, and scalar
+   217→   217→31
+   218→   218→32 invariance evaluates relative tenability of holding intercepts equal (Meredith, 1993). To
+   219→   219→33 evaluate the structural relationships, we will test whether paths between constructs
+   220→   220→34
+   221→   221→estimated reliably and receptive vocabulary are equivalent across groups (or better
+   222→   222→35
+   223→   223→estimated freely), using robust maximum likelihood estimation (MLR) to ease
+   224→   224→36
+   225→   225→multivariate normality assumptions. We consider the guidelines outlined by Chen
+   226→   226→37
+   227→   227→38 (2007), wherein statistical thresholds for model retention may include ΔCFI < .01 and
+   228→   228→39 ΔRMSEA < .015, as metric and other equality constraints are evaluated. By establishing
+   229→   229→40
+   230→   230→invariance concerning certain parameters, this research aims for the parsimonious
+   231→   231→41
+   232→   232→modeling of unmeasured health & lifestyle constructs to receptive vocabulary
+   233→   233→42
+   234→   234→43 performance. Generally, when the constraint of additional parameters resulted in little to
+   235→   235→44 no degradation in model fit (or improvement), the simpler model with fewer parameters
+   236→   236→45
+   237→   237→is preferred.
+   238→   238→46
+   239→   239→47
+   240→   240→The language groups available from the ADD Health study and used in the procedures
+   241→   241→48
+   242→   242→of analyses include English, Spanish, and Other (any language other than English and
+   243→   243→49
+   244→   244→Spanish); this refers to the participant’s primary language spoken at home. Given
+   245→   245→50
+   246→   246→51 assessment of acceptable preliminary fit of separate (single-group) SEM models by
+   247→   247→52 language group, only participants assigned to the ‘Engligh’ or ‘Other’ group are included
+   248→   248→53
+   249→   249→for subsequent multigroup (2) MGSEM.
+   250→   250→54
+   251→   251→55
+   252→   252→Latent Variable Assessment
+   253→   253→56
+   254→   254→57
+   255→   255→Several latent variables were postulated given the intended meaning of a battery of
+   256→   256→58
+   257→   257→59 items administered. Confirmatory factor analysis was performed to test the
+   258→   258→60 hypothesized relationships between the reliable factors (retained) and receptive
+   259→   259→61
+   260→   260→62
+   261→   261→63
+   262→   262→64
+   263→   263→65
+   264→   264→
+   265→   265→1
+   266→   266→2
+   267→   267→3
+   268→   268→4 vocabulary across language groups. Note: Constructs estimated with low reliability
+   269→   269→5
+   270→   270→factor scores were dropped. In addition to MLR estimates, Markov chain Monte Carlo
+   271→   271→6
+   272→   272→(Bayes MCMC) parameter estimate sampling distributions are provided for the retained
+   273→   273→7
+   274→   274→8 SEM model (Merkel & Rosseel, 2018).
+   275→   275→9
+   276→   276→10 Research Questions
+   277→   277→11
+   278→   278→12 1. Do we exhibit reliable health/lifestyle factors in the context of the SEM models?
+   279→   279→13 2. Do we exhibit configural, metric, scalar, and structural invariance across
+   280→   280→14
+   281→   281→language groups?
+   282→   282→15
+   283→   283→16 3. Given the most tenable equality constraints and parsimonious model, should we
+   284→   284→17 express some of the same parameter estimates across participant groups?
+   285→   285→18
+   286→   286→19
+   287→   287→20 Methods
+   288→   288→21
+   289→   289→22
+   290→   290→Participants
+   291→   291→23
+   292→   292→24
+   293→   293→25 The analysis sample includes 2,787 participants from the first wave of the National
+   294→   294→26 Longitudinal Study of Adolescent to Adult Health (ADD Health Study). Omissions were
+   295→   295→27
+   296→   296→made to eliminate scale issues presented by numbered item responses that indicated
+   297→   297→28
+   298→   298→item skips, refusals, etc. Among the included sample, 2,731 people spoke English at
+   299→   299→29
+   300→   300→30 home and another 56 spoke a language other than English or Spanish at home (Other).
+   301→   301→31 Fifty-one (51%) percent of participants were women (49% men). The ADD Health Team
+   302→   302→32
+   303→   303→emphasizes strict confidentiality procedures and ensures identifying information is not
+   304→   304→33
+   305→   305→disclosed. Moreover, parental permission and informed consent (Strutz et al., 2015;
+   306→   306→34
+   307→   307→35 Harris et al., 2019) were integral parts of the study, drawing a wide range of
+   308→   308→36 participants. Of the 2,787 participants in the sample, 115 (4.1%) did not have a
+   309→   309→37 vocabulary score; the remaining 2,672 participants made up the analysis sample (see
+   310→   310→38
+   311→   311→Table 1).
+   312→   312→39
+   313→   313→40
+   314→   314→Assessment
+   315→   315→41
+   316→   316→42
+   317→   317→43 Visual Vocabulary Task Assessment
+   318→   318→44
+   319→   319→45 The ADD Health study incorporates a picture vocabulary test (PVT) to assess
+   320→   320→46 participants’ receptive vocabulary skills. Administered during Wave I, the PVT evaluates
+   321→   321→47
+   322→   322→an individual’s ability to recognize words spoken aloud in English, next selecting the
+   323→   323→48
+   324→   324→picture that best represents the target word from a set of four images. This measure
+   325→   325→49
+   326→   326→50 provides multi-modal insight into verbal ability and cognitive function performance,
+   327→   327→51 serving as a proxy for limited scope intellectual aptitude within the study’s diverse
+   328→   328→52
+   329→   329→cohort. The interviewer sees the English stimulus word on the laptop (kept out of the
+   330→   330→53
+   331→   331→respondent’s view), says it aloud, and the respondent chooses 1 of 4 pictures on the
+   332→   332→54
+   333→   333→55 easel/screen that best matches the audible word’s meaning.
+   334→   334→56
+   335→   335→57 Similarly, the Peabody Picture Vocabulary Test (PPVT) is a widely used instrument
+   336→   336→58 that measures receptive vocabulary for Standard American English. The PPVT presents
+   337→   337→59 participants with a series of pictures and prompts them to identify the image
+   338→   338→60
+   339→   339→61
+   340→   340→62
+   341→   341→63
+   342→   342→64
+   343→   343→65
+   344→   344→
+   345→   345→1
+   346→   346→2
+   347→   347→3
+   348→   348→4 corresponding to a spoken word. This assessment is considered quick to administer,
+   349→   349→5
+   350→   350→typically taking 20 to 30 minutes, and is applicable across a broad age range, from 2
+   351→   351→6
+   352→   352→years and 6 months to over 90 years (Dunn & Dunn, 2007). The PPVT has been utilized
+   353→   353→7
+   354→   354→8 in various settings to estimate facets of verbal ability and predict academic success.
+   355→   355→9
+   356→   356→10 Both the ADD Health PVT and the PPVT are considered valuable tools for evaluating
+   357→   357→11 receptive vocabulary, offering a glimpse into some of the variance of participants’
+   358→   358→12
+   359→   359→language development and cognitive abilities. These assessments are particularly
+   360→   360→13
+   361→   361→useful in large-scale studies for examining the relationship between language skills and
+   362→   362→14
+   363→   363→15 other psychological or behavioral factors. The standardized PVT score is treated as a
+   364→   364→16 single indicator latent variable, fixing error variance based on external reliability of 0.82,
+   365→   365→17 given relevant work from Lim & Dinges (2008). Furthermore, in review of the sensitivity
+   366→   366→18
+   367→   367→of the non-zero main effects estimated in the focal model, external reliability was varied
+   368→   368→19
+   369→   369→as sourced from Basner et al. (2011) at 0.80 and tested below it at the threshold of 0.7.
+   370→   370→20
+   371→   371→21 The structural estimates (as shown in the results section) remain unchanged.
+   372→   372→22
+   373→   373→23 Wave I Interview & Survey
+   374→   374→24
+   375→   375→25 During Wave I of the ADD Health study, participants were interviewed to collect a
+   376→   376→26
+   377→   377→broad range of demographic, behavioral, and psychological data. The interviews
+   378→   378→27
+   379→   379→employed a mixed-mode approach, combining in-home interviews with computer-
+   380→   380→28
+   381→   381→29 assisted personal interviewing (CAPI) technology to ensure data quality and privacy.
+   382→   382→30 Adolescents answered questions about their social networks, health behaviors, family
+   383→   383→31 dynamics, and academic performance, while sensitive topics, such as substance use
+   384→   384→32
+   385→   385→and sexual behavior, were self-administered using computer-assisted self-interviewing
+   386→   386→33
+   387→   387→(CASI) to minimize response bias.
+   388→   388→34
+   389→   389→35
+   390→   390→This rigorous methodology enabled the collection of comprehensive and high-quality
+   391→   391→36
+   392→   392→37 data, forming the foundation for subsequent waves of the study. The inclusion of self-
+   393→   393→38 reported data through CASI is particularly relevant for exploring relationships between
+   394→   394→39
+   395→   395→personal behaviors and outcomes such as receptive vocabulary performance.
+   396→   396→40
+   397→   397→41
+   398→   398→42 Results
+   399→   399→43
+   400→   400→44
+   401→   401→45 Descriptives
+   402→   402→46
+   403→   403→47
+   404→   404→48
+   405→   405→49
+   406→   406→50
+   407→   407→51
+   408→   408→52
+   409→   409→53
+   410→   410→Factor Reliability
+   411→   411→54
+   412→   412→55
+   413→   413→Following assessment of SEM factor reliabilities, the factors depression and alcohol
+   414→   414→56
+   415→   415→57 (experience) were retained for further modeling, 0.70 and 0.84, respectively. The
+   416→   416→58 hypothesized mood and insomnia/sleep constructs were dropped because of SEM
+   417→   417→59
+   418→   418→factor reliabilities < 0.7.
+   419→   419→60
+   420→   420→61
+   421→   421→62
+   422→   422→63
+   423→   423→64
+   424→   424→65
+   425→   425→
+   426→   426→1
+   427→   427→2
+   428→   428→3
+   429→   429→4 Language Invariance Properties in Receptive Vocabulary
+   430→   430→5
+   431→   431→6
+   432→   432→7
+   433→   433→8
+   434→   434→9
+   435→   435→10
+   436→   436→11
+   437→   437→12
+   438→   438→13
+   439→   439→14
+   440→   440→15
+   441→   441→16
+   442→   442→17
+   443→   443→Model fit and invariance selection
+   444→   444→18
+   445→   445→19
+   446→   446→20 Multigroup SEMs were estimated by language. The configural model fit well.
+   447→   447→21 Constraining factor loadings to equality (metric invariance) improved global fit (TLI,
+   448→   448→22
+   449→   449→RMSEA, etc.). Our final model imposes equal loadings, equal intercepts, and equal
+   450→   450→23
+   451→   451→regression weight estimates (structural invariance); this fit best among the theoretically
+   452→   452→24
+   453→   453→25 defensible options (model 4), improving on all of the preliminary models’ fit indices,
+   454→   454→26 suggesting a parsimonious model with equal estimates (between language groups) is
+   455→   455→27 tenable for the sample of participants. Accordingly, all inference (following the
+   456→   456→28
+   457→   457→measurement model shown below) is based on the multigroup model specified with
+   458→   458→29
+   459→   459→equal factor loadings, equal intercepts, and equal regression estimates (Table 2,
+   460→   460→30
+   461→   461→31 above).
+   462→   462→32
+   463→   463→33 Measurement model
+   464→   464→34
+   465→   465→35 For depression and alcohol experience (latent factors), all freely-weighted item-factor
+   466→   466→36
+   467→   467→loadings were estimated as statistically significant (see Table 3). Because metric
+   468→   468→37
+   469→   469→invariance (equal loadings) did not degrade global fit relative to the baseline configural
+   470→   470→38
+   471→   471→39 model, these loadings were constrained equal across language groups as other
+   472→   472→40 parameters were constrained, leading to the most parsimonious model.
+   473→   473→41
+   474→   474→42
+   475→   475→43
+   476→   476→44
+   477→   477→45
+   478→   478→46
+   479→   479→47
+   480→   480→48
+   481→   481→49
+   482→   482→50
+   483→   483→51
+   484→   484→52
+   485→   485→53
+   486→   486→54
+   487→   487→55
+   488→   488→56
+   489→   489→57
+   490→   490→58
+   491→   491→59
+   492→   492→60
+   493→   493→61
+   494→   494→62
+   495→   495→63
+   496→   496→64
+   497→   497→65
+   498→   498→
+   499→   499→1
+   500→   500→2
+   501→   501→3
+   502→   502→4 Structural Model Estimates
+   503→   503→5
+   504→   504→6 Frequentist
+   505→   505→7
+   506→   506→8
+   507→   507→9
+   508→   508→10
+   509→   509→11
+   510→   510→12
+   511→   511→13
+   512→   512→14
+   513→   513→15
+   514→   514→16
+   515→   515→17
+   516→   516→18
+   517→   517→19
+   518→   518→20
+   519→   519→21
+   520→   520→22
+   521→   521→23
+   522→   522→24 After treating the vocabulary assessment as a single-indicator latent outcome
+   523→   523→25
+   524→   524→(L_PVT), MLR estimates (Table 4, above) for the effect of depression showed a
+   525→   525→26
+   526→   526→statistically significant, negative association with receptive vocabulary performance, (𝛽 =
+   527→   527→27
+   528→   528→28 -0.200, SE = 0.021, 95% CI = [-0.241, -0.159], p < .001).
+   529→   529→29
+   530→   530→30 Alcohol use/experience was not associated with vocabulary performance for analyzed
+   531→   531→31 participants, (𝛽 = -0.015, SE = 0.020, 95% CI = [-0.054, 0.024], p = .453). Estimates for
+   532→   532→32
+   533→   533→the effects of sex were no different from zero, (𝛽 = 0.034, SE = 0.037, 95% CI = [-0.004,
+   534→   534→33
+   535→   535→0.142], p = .063). Similarly, the continuous age covariate was estimated as no different
+   536→   536→34
+   537→   537→35 from zero, (𝛽 = -0.016, SE = 0.012, 95% CI = [-0.035, 0.014], p = .395).
+   538→   538→36
+   539→   539→37
+   540→   540→38
+   541→   541→39 Bayesian
+   542→   542→40
+   543→   543→41 The posterior distribution estimates aligned with the frequentist MLR results (Figure
+   544→   544→42 1, below). The depression with receptive vocabulary association (fixed to equality for
+   545→   545→43
+   546→   546→both language groups) was credibly negative, (𝛽 = -0.255, B = -0.199, 95% CrI [-0.246, -
+   547→   547→44
+   548→   548→0.154]). These estimates replicate the frequentist result that, on average, participants
+   549→   549→45
+   550→   550→46 whose language spoken at home is English or not - may be (tenably) equally sensitive
+   551→   551→47 to depression with regard to their performance on the English-normed visual vocabulary
+   552→   552→48 assessment. The alcohol with receptive vocabulary association was statistically no
+   553→   553→49
+   554→   554→different from zero. The alcohol with depression association was also estimated and
+   555→   555→50
+   556→   556→credibly positive, meaning that increased depression, here, is expected to coincide with
+   557→   557→51
+   558→   558→52 increased alcohol (drinking in the past 12-months) experience, 𝛽 = 0.122, B = 0.197,
+   559→   559→53 95% CrI [0.146, 0.248].
+   560→   560→54
+   561→   561→55
+   562→   562→56
+   563→   563→57
+   564→   564→58
+   565→   565→59
+   566→   566→60
+   567→   567→61
+   568→   568→62
+   569→   569→63
+   570→   570→64
+   571→   571→65
+   572→   572→
+   573→   573→1
+   574→   574→2
+   575→   575→3
+   576→   576→4
+   577→   577→5
+   578→   578→6
+   579→   579→7
+   580→   580→8
+   581→   581→9
+   582→   582→10
+   583→   583→11
+   584→   584→12
+   585→   585→13
+   586→   586→14
+   587→   587→15
+   588→   588→16
+   589→   589→17
+   590→   590→18
+   591→   591→19
+   592→   592→20
+   593→   593→21
+   594→   594→22
+   595→   595→23 Interpretation
+   596→   596→24
+   597→   597→25
+   598→   598→The data support a structural invariance model in which the negative impact of
+   599→   599→26
+   600→   600→depression on receptive vocabulary performance is estimated to be pronounced
+   601→   601→27
+   602→   602→28 similarly for Non-English (language spoken at home despite apparent English fluency)
+   603→   603→29 and English participants.
+   604→   604→30
+   605→   605→31
+   606→   606→32 Discussion
+   607→   607→33
+   608→   608→34
+   609→   609→The notion that people experiencing depression may perform more poorly than those
+   610→   610→35
+   611→   611→36 not experiencing depression is not suprising in itself. Regarding the general notion of
+   612→   612→37 the depressive impact on relevant cognitive abilities, Henry & Crawford (2005)
+   613→   613→38
+   614→   614→corroborate, concluding their meta-analysis with the argument that both phonemic and
+   615→   615→39
+   616→   616→semantic fluency are sensitive to the influence of depression not due to degradation of
+   617→   617→40
+   618→   618→41 executive function or the semantic store, but rather because of a more generalized
+   619→   619→42 cognitive slowing. Intra/inter-assessment-level data would be required to make intra-
+   620→   620→43 ability/inter-ability distinctions here, however, the empirical findings are in agreement
+   621→   621→44
+   622→   622→with the performance expectations of other neurocognitive research. While the influence
+   623→   623→45
+   624→   624→of other factors were not left in the model (or statistically non-zero influences) for the
+   625→   625→46
+   626→   626→47 sample at hand, sleep (insomnia), mood, and alcohol were previously shown in other
+   627→   627→48 work to notably impact cognitive abilities relevant to the receptive vocabulary task used
+   628→   628→49
+   629→   629→here as the outcome. Moreover, it should not be understated that the typical
+   630→   630→50
+   631→   631→administration of receptive vocabulary tasks is with each trial, first an audible
+   632→   632→51
+   633→   633→52 presentation of a target word in English - followed by visual depictions of the word (to
+   634→   634→53 match) in 4-picture array presentations. Bialystok & Luk (2011) also used receptive
+   635→   635→54 vocabulary as an outcome for study across language groups of participants
+   636→   636→55
+   637→   637→(monolinguals and bilinguals), finding significant differences between the monolingual
+   638→   638→56
+   639→   639→and bilingual groups, F(1, 1603) = 138.4, p < .0001. Participants in the ADD Health
+   640→   640→57
+   641→   641→58 Study were deemed proficient with regard to English and such determinations appear to
+   642→   642→59 suggest tenability of the suggestion for equal sensitivity to the effects of depression in
+   643→   643→60
+   644→   644→61
+   645→   645→62
+   646→   646→63
+   647→   647→64
+   648→   648→65
+   649→   649→
+   650→   650→1
+   651→   651→2
+   652→   652→3
+   653→   653→4 the analysis sample of participants. Still, it may be unwise to consider the typically
+   654→   654→5
+   655→   655→audible recognition of the English target word (during Peabody-like Vocabulary tasks)
+   656→   656→6
+   657→   657→as universal presentations regardless of the illustrated nature of the rest of the task in a
+   658→   658→7
+   659→   659→8 given trial. The leverage of first-language adaptive receptive vocabulary tasks may
+   660→   660→9 (even) better remove the potential biases, aligning participants with the initial language
+   661→   661→10
+   662→   662→in which the target of each trial of the task is administered. Further research with such a
+   663→   663→11
+   664→   664→modification may provide suitable models inclusive of other lifestyle/health factors for
+   665→   665→12
+   666→   666→research across cultures. The view is taken that the processes underlying facets
+   667→   667→13
+   668→   668→14 involved in recognition-maintenance-matching trials and comparable everyday demands
+   669→   669→15 may be compromised by the influence of depression.
+   670→   670→16
+   671→   671→17
+   672→   672→18 References
+   673→   673→19
+   674→   674→20
+   675→   675→21
+   676→   676→22 - Altena, E., Van Der Werf, Y. D., Strijers, R. L. M., & Van Someren, E. J. W. (2008).
+   677→   677→23 Sleep loss affects vigilance: effects of chronic insomnia and sleep therapy. Journal of
+   678→   678→24
+   679→   679→Sleep Research, 17(3), 335–343. https://doi.org/10.1111/j.1365-2869.2008.00671.x
+   680→   680→25
+   681→   681→26
+   682→   682→27
+   683→   683→- Basner, M., Mollicone, D., & Dinges, D. F. (2011). Validity and sensitivity of a brief
+   684→   684→28
+   685→   685→29 psychomotor vigilance test (PVT-B) to total and partial sleep deprivation. Acta
+   686→   686→30 Astronautica, 69(11-12), 949–959. https://doi.org/10.1016/j.actaastro.2011.07.015
+   687→   687→31
+   688→   688→32
+   689→   689→33
+   690→   690→- Bialystok, E., & Luk, G. (2011). Receptive vocabulary differences in monolingual and
+   691→   691→34
+   692→   692→bilingual adults. Bilingualism: Language and Cognition, 15(2), 397–401.
+   693→   693→35
+   694→   694→36 https://doi.org/10.1017/s136672891100040x
+   695→   695→37
+   696→   696→38
+   697→   697→39 - Brookman, R., Kalashnikova, M., Levickis, P., Conti, J., Xu Rattanasone, N., Grant, K.-
+   698→   698→40 A., Demuth, K., & Burnham, D. (2023). Effects of maternal depression on maternal
+   699→   699→41
+   700→   700→responsiveness and infants’ expressive language abilities. PLOS ONE, 18(1),
+   701→   701→42
+   702→   702→e0277762. https://doi.org/10.1371/journal.pone.0277762
+   703→   703→43
+   704→   704→44
+   705→   705→45
+   706→   706→46 - Chen, F. F. (2007). Sensitivity of Goodness of Fit Indexes to Lack of Measurement
+   707→   707→47 Invariance. Structural Equation Modeling: A Multidisciplinary Journal, 14(3), 464–504.
+   708→   708→48
+   709→   709→https://doi.org/10.1080/10705510701301834
+   710→   710→49
+   711→   711→50
+   712→   712→51
+   713→   713→- Dunn, L.M. & Dunn, D.M. (2007). Peabody Picture Vocabulary Test – IV. Circle Pines,
+   714→   714→52
+   715→   715→53 MN: American Guidance Service.
+   716→   716→54
+   717→   717→55
+   718→   718→56 - Dry, M. J., Burns, N. R., Nettelbeck, T., Farquharson, A. L., & White, J. M. (2012).
+   719→   719→57 Dose-Related Effects of Alcohol on Cognitive Functioning. PLoS ONE, 7(11), e50977.
+   720→   720→58
+   721→   721→https://doi.org/10.1371/journal.pone.0050977
+   722→   722→59
+   723→   723→60
+   724→   724→61
+   725→   725→62
+   726→   726→63
+   727→   727→64
+   728→   728→65
+   729→   729→
+   730→   730→1
+   731→   731→2
+   732→   732→3
+   733→   733→4
+   734→   734→5
+   735→   735→- Friedman, N. P., Miyake, A., Corley, R. P., Young, S. E., DeFries, J. C., & Hewitt, J. K.
+   736→   736→6
+   737→   737→(2006). Not All Executive Functions Are Related to Intelligence. Psychological Science,
+   738→   738→7
+   739→   739→8 17(2), 172–179. https://doi.org/10.1111/j.1467-9280.2006.01681.x
+   740→   740→9
+   741→   741→10
+   742→   742→11 - Gotlib, I. H., & Joormann, J. (2010). Cognition and Depression: Current Status and
+   743→   743→12
+   744→   744→Future Directions. Annual Review of Clinical Psychology, 6(1), 285–312.
+   745→   745→13
+   746→   746→https://doi.org/10.1146/annurev.clinpsy.121208.131305
+   747→   747→14
+   748→   748→15
+   749→   749→16
+   750→   750→17 - Henry, J. D., & Crawford, J. R. (2005). A Meta-Analytic Review of Verbal Fluency
+   751→   751→18 Deficits in Depression. Journal of Clinical and Experimental Neuropsychology, 27(1),
+   752→   752→19 78–101. https://doi.org/10.1080/138033990513654
+   753→   753→20
+   754→   754→21
+   755→   755→22
+   756→   756→- Isen, A. M., Daubman, K. A., & Nowicki, G. P. (1987). Positive affect facilitates creative
+   757→   757→23
+   758→   758→problem solving. Journal of Personality and Social Psychology, 52(6), 1122–1131.
+   759→   759→24
+   760→   760→25 https://doi.org/10.1037/0022-3514.52.6.1122
+   761→   761→26
+   762→   762→27
+   763→   763→28 - Harris, K. M., Halpern, C. T., Whitsel, E. A., Hussey, J. M., Killeya-Jones, L. A., Tabor,
+   764→   764→29
+   765→   765→J., & Dean, S. C. (2019). Cohort Profile: The National Longitudinal Study of Adolescent
+   766→   766→30
+   767→   767→to Adult Health (Add Health). International Journal of Epidemiology, 48(5), 1415–1415k.
+   768→   768→31
+   769→   769→32 https://doi.org/10.1093/ije/dyz115
+   770→   770→33
+   771→   771→34
+   772→   772→35 - Johnson, J. L., Bottorff, J. L., Browne, A. J., Grewal, S., Hilton, B. A., & Clarke, H.
+   773→   773→36 (2004). Othering and Being Othered in the Context of Health Care Services. Health
+   774→   774→37
+   775→   775→Communication, 16(2), 255–271. https://doi.org/10.1207/s15327027hc1602_7
+   776→   776→38
+   777→   777→39
+   778→   778→40
+   779→   779→- Lim, J., & Dinges, D. F. (2008). Sleep Deprivation and Vigilant Attention. Annals of the
+   780→   780→41
+   781→   781→42 New York Academy of Sciences, 1129(1), 305–322.
+   782→   782→43 https://doi.org/10.1196/annals.1417.002
+   783→   783→44
+   784→   784→45
+   785→   785→46
+   786→   786→- Merkle, E. C., & Rosseel, Y. (2018). blavaan: Bayesian Structural Equation Models via
+   787→   787→47
+   788→   788→Parameter Expansion. Journal of Statistical Software, 85(4).
+   789→   789→48
+   790→   790→49 https://doi.org/10.18637/jss.v085.i04
+   791→   791→50
+   792→   792→51
+   793→   793→52 - Oscar-Berman, M., & Marinković, K. (2007). Alcohol: Effects on Neurobehavioral
+   794→   794→53 Functions and the Brain. Neuropsychology Review, 17(3), 239–257.
+   795→   795→54
+   796→   796→https://doi.org/10.1007/s11065-007-9038-6
+   797→   797→55
+   798→   798→56
+   799→   799→57
+   800→   800→- Meredith, W. (1993). Measurement invariance, factor analysis and factorial invariance.
+   801→   801→58
+   802→   802→59 Psychometrika, 58(4), 525–543. https://doi.org/10.1007/bf02294825
+   803→   803→60
+   804→   804→61
+   805→   805→62
+   806→   806→63
+   807→   807→64
+   808→   808→65
+   809→   809→
+   810→   810→1
+   811→   811→2
+   812→   812→3
+   813→   813→4
+   814→   814→5
+   815→   815→- Palfreyman, D. (2005). Othering in an English Language Program. TESOL Quarterly,
+   816→   816→6
+   817→   817→39(2), 211. https://doi.org/10.2307/3588309
+   818→   818→7
+   819→   819→8
+   820→   820→9
+   821→   821→10 - Pilcher, J. J., & Huffcutt, A. I. (1996). Effects of Sleep Deprivation on Performance: A
+   822→   822→11 Meta-Analysis. Sleep, 19(4), 318–326. https://doi.org/10.1093/sleep/19.4.318
+   823→   823→12
+   824→   824→13
+   825→   825→14
+   826→   826→- Rude, S. S., Hertel, P. T., Jarrold, W., Covich, J., & Hedlund, S. (1999). Depression-
+   827→   827→15
+   828→   828→related Impairments in Prospective Memory. Cognition & Emotion, 13(3), 267–276.
+   829→   829→16
+   830→   830→17 https://doi.org/10.1080/026999399379276
+   831→   831→18
+   832→   832→19
+   833→   833→20 - Strutz, K. L., Herring, A. H., & Halpern, C. T. (2015). Health Disparities Among Young
+   834→   834→21 Adult Sexual Minorities in the U.S. American Journal of Preventive Medicine, 48(1), 76–
+   835→   835→22
+   836→   836→88. https://doi.org/10.1016/j.amepre.2014.07.038
+   837→   837→23
+   838→   838→24
+   839→   839→25
+   840→   840→- Tamis-LeMonda, C. S., Kuchirko, Y., & Song, L. (2014). Why Is Infant Language
+   841→   841→26
+   842→   842→27 Learning Facilitated by Parental Responsiveness? Current Directions in Psychological
+   843→   843→28 Science, 23(2), 121–126. https://doi.org/10.1177/0963721414522813
+   844→   844→29
+   845→   845→30
+   846→   846→31
+   847→   847→- Topiwala, A., Allan, C. L., Valkanova, V., Zsoldos, E., Filippini, N., Sexton, C.,
+   848→   848→32
+   849→   849→Mahmood, A., Fooks, P., Singh-Manoux, A., Mackay, C. E., Kivimäki, M., & Ebmeier, K.
+   850→   850→33
+   851→   851→34 P. (2017). Moderate alcohol consumption as risk factor for adverse brain outcomes and
+   852→   852→35 cognitive decline: longitudinal cohort study. BMJ, 357(8109), j2353.
+   853→   853→36 https://doi.org/10.1136/bmj.j2353
+   854→   854→37
+   855→   855→38
+   856→   856→39
+   857→   857→- van de Vijver, F. J. R., & Poortinga, Y. H. (1997). Towards an Integrated Analysis of
+   858→   858→40
+   859→   859→Bias in Cross-Cultural Assessment. European Journal of Psychological Assessment,
+   860→   860→41
+   861→   861→42 13(1), 29–37. https://doi.org/10.1027/1015-5759.13.1.29
+   862→   862→43
+   863→   863→44
+   864→   864→45 - Xu Rattanasone, N., Brookman, R., Kalashnikova, M., Grant, K.-A., Burnham, D., &
+   865→   865→46
+   866→   866→Demuth, K. (2024). Maternal input, not transient elevated depression and anxiety
+   867→   867→47
+   868→   868→symptoms, predicts 2-year-olds’ vocabulary development. Journal of Child Language,
+   869→   869→48
+   870→   870→49 1–12. https://doi.org/10.1017/s0305000924000308
+   871→   871→50
+   872→   872→51
+   873→   873→52
+   874→   874→53
+   875→   875→54
+   876→   876→55
+   877→   877→56
+   878→   878→57
+   879→   879→58
+   880→   880→59
+   881→   881→60
+   882→   882→61
+   883→   883→62
+   884→   884→63
+   885→   885→64
+   886→   886→65
+   887→   887→
+   888→   888→1
+   889→   889→2
+   890→   890→3
+   891→   891→4
+   892→   892→Appendix
+   893→   893→5
+   894→   894→6
+   895→   895→7
+   896→   896→8
+   897→   897→9
+   898→   898→10
+   899→   899→11
+   900→   900→12
+   901→   901→13
+   902→   902→14
+   903→   903→15
+   904→   904→16
+   905→   905→17
+   906→   906→18
+   907→   907→19
+   908→   908→20
+   909→   909→21
+   910→   910→22
+   911→   911→23
+   912→   912→24
+   913→   913→25
+   914→   914→26
+   915→   915→27
+   916→   916→28
+   917→   917→29
+   918→   918→30
+   919→   919→31
+   920→   920→32
+   921→   921→33
+   922→   922→34
+   923→   923→35
+   924→   924→Figure 2. Path Diagram (Multigroup)
+   925→   925→36
+   926→   926→37
+   927→   927→38
+   928→   928→39
+   929→   929→40
+   930→   930→41
+   931→   931→42
+   932→   932→43
+   933→   933→44
+   934→   934→45
+   935→   935→46
+   936→   936→47
+   937→   937→48
+   938→   938→49
+   939→   939→50
+   940→   940→51
+   941→   941→52
+   942→   942→53
+   943→   943→54
+   944→   944→55
+   945→   945→56
+   946→   946→57
+   947→   947→58
+   948→   948→59
+   949→   949→60
+   950→   950→61
+   951→   951→62
+   952→   952→63
+   953→   953→64
+   954→   954→65
+   955→   955→
+   956→   956→

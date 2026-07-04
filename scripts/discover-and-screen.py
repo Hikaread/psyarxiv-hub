@@ -303,30 +303,47 @@ def assign_number():
     return max(p["number"] for p in papers) + 1 if papers else 1
 
 
+MIN_UNSEEN_TARGET = 5
+LOOKBACK_SCHEDULE = [3, 5, 7, 10, 14, 21, 30, 45, 60]
+
 # ─── Main Pipeline ────────────────────────────────────────────────────────────
 
 def main():
     os.makedirs(TMP_DIR, exist_ok=True)
-    days_back = int(sys.argv[1]) if len(sys.argv) > 1 else 3
+    initial_days = int(sys.argv[1]) if len(sys.argv) > 1 else 3
 
     print(f"=== PsyArXiv Discovery & Screening Pipeline ===")
-    print(f"Looking back {days_back} days")
 
     # 1. Load existing
     known_ids, total_existing = load_existing_ids()
     print(f"Existing papers: {total_existing}, known OSF IDs: {len(known_ids)}")
 
-    # 2. Discover
-    print(f"\n--- Discovering ---")
-    candidates = discover_papers(days_back)
-    print(f"Discovered: {len(candidates)} (deduped)")
-
-    # 3. Filter unseen
+    # 2-3. Discover with auto-expanding lookback
+    print(f"\n--- Discovering (target: {MIN_UNSEEN_TARGET} unseen) ---")
     unseen = []
-    for c in candidates:
-        base = c["id"].split("_v")[0]
-        if base not in known_ids:
-            unseen.append(c)
+    days_back = initial_days
+    for days_back in LOOKBACK_SCHEDULE:
+        if days_back < initial_days:
+            continue
+        print(f"  Trying {days_back} days back...")
+        candidates = discover_papers(days_back)
+        print(f"  Discovered: {len(candidates)} (deduped)")
+        unseen = []
+        for c in candidates:
+            base = c["id"].split("_v")[0]
+            if base not in known_ids:
+                unseen.append(c)
+        print(f"  Unseen: {len(unseen)}")
+        if len(unseen) >= MIN_UNSEEN_TARGET:
+            print(f"  Found {len(unseen)} unseen — proceeding with {days_back}-day window")
+            break
+        # Stop expanding if we've reached the max and found nothing new
+        if len(candidates) == 0:
+            print(f"  No papers returned at {days_back} days — stopping expansion")
+            break
+    else:
+        print(f"  Reached max lookback ({LOOKBACK_SCHEDULE[-1]} days) with {len(unseen)} unseen — proceeding anyway")
+
     print(f"Already known: {len(candidates) - len(unseen)}")
     print(f"Unseen: {len(unseen)}")
 
@@ -356,65 +373,73 @@ def main():
             "stage1_hits": hits[:5],
         }
 
+        if is_hard_excluded(title):
+            auto_discard.append((compact_id, c["id"], title, "Hard excluded (non-clinical topic)"))
+            continue
+
         if score >= 2:
             entry["source"] = "title"
             entry["final_score"] = score
             auto_accept.append(entry)
         elif score == 0:
-            auto_discard.append((compact_id, c["id"], title, f"Score 0 (no clinical keywords)"))
+            # Don't auto-discard — pass to LLM for liberal evaluation
+            entry["stage1_score"] = 0
+            entry["stage1_hits"] = []
+            borderline.append(entry)
         else:
             borderline.append(entry)
 
     print(f"Auto-accept (score >= 2): {len(auto_accept)}")
-    print(f"Borderline (score = 1):  {len(borderline)}")
-    print(f"Auto-discard (score = 0): {len(auto_discard)}")
+    print(f"Borderline (score 0-1, for LLM eval):  {len(borderline)}")
+    print(f"Hard-excluded: {len(auto_discard)}")
 
-    # 5. Stage 2: PDF-based screening for borderline
-    print(f"\n--- Stage 2: PDF screening for {len(borderline)} borderline papers ---")
-    pdf_accepted = []
-    pdf_discarded = []
+    # 5. Stage 2: Quick PDF enrichment for score-1 borderline papers only.
+    #    Score-0 papers go straight to LLM with title only (saves time).
+    #    ALL borderline papers are passed to LLM regardless — PDF is just enrichment.
+    score1_borderline = [e for e in borderline if e.get("stage1_score", 0) == 1]
+    score0_borderline = [e for e in borderline if e.get("stage1_score", 0) == 0]
 
-    for i, entry in enumerate(borderline):
+    print(f"\n--- Stage 2: PDF enrichment for {len(score1_borderline)} score-1 papers ---")
+    print(f"  (Skipping PDF for {len(score0_borderline)} score-0 papers — title-only for LLM)")
+    for i, entry in enumerate(score1_borderline):
         cid = entry["compact_id"]
-        print(f"  [{i+1}/{len(borderline)}] Fetching PDF for {cid}...", end=" ", flush=True)
+        print(f"  [{i+1}/{len(score1_borderline)}] Enriching {cid}...", end=" ", flush=True)
         text = extract_pdf_abstract(cid)
         if text:
             full_text = entry["title"] + " " + text
             score, hits = score_text(full_text)
             entry["stage2_score"] = score
             entry["stage2_hits"] = hits[:5]
-            entry["source"] = "pdf"
-            entry["final_score"] = score
-            if score >= 2:
-                pdf_accepted.append(entry)
-                print(f"ACCEPT (score {score}: {hits[:3]})")
-            else:
-                pdf_discarded.append((cid, entry["osf_id"], entry["title"], f"PDF score {score} (insufficient)"))
-                print(f"discard (score {score})")
+            entry["pdf_preview"] = text[:200].replace("\n", " ")
+            print(f"PDF score {score} ({hits[:3] if hits else 'no hits'})")
         else:
-            pdf_discarded.append((cid, entry["osf_id"], entry["title"], "PDF extraction failed"))
-            print("FAILED (no text)")
-        time.sleep(0.5)  # Be polite
+            entry["stage2_score"] = None
+            entry["pdf_preview"] = ""
+            print("no PDF")
+        time.sleep(0.3)
+    for entry in score0_borderline:
+        entry["stage2_score"] = None
+        entry["pdf_preview"] = ""
 
     # 6. Combine results
-    all_accepted = auto_accept + pdf_accepted
-    all_discarded = auto_discard + pdf_discarded
+    all_accepted = auto_accept
+    all_discarded = auto_discard  # Only hard-excluded papers
 
     print(f"\n=== RESULTS ===")
-    print(f"Accepted: {len(all_accepted)}")
-    print(f"  From title screening: {len(auto_accept)}")
-    print(f"  From PDF screening:   {len(pdf_accepted)}")
-    print(f"Discarded: {len(all_discarded)}")
+    print(f"Auto-accepted (score >= 2): {len(all_accepted)}")
+    print(f"Borderline (for LLM eval):  {len(borderline)}")
+    print(f"Hard-excluded:              {len(all_discarded)}")
 
     for a in all_accepted:
         print(f"  ✓ {a['compact_id']:8s} [{a['final_score']}] {a['title'][:65]}")
 
     # 7. Save outputs
-    # Save accepted to screened-papers.json
+    # Save auto-accepted to screened-papers.json
     with open(SCREENED_PAPERS, "w") as f:
         json.dump(all_accepted, f, indent=2, ensure_ascii=False)
 
-    # Save all candidates with scores to screening-brief.json
+    # Save ALL candidates with scores to screening-brief.json
+    # Borderline papers get status "borderline" — the LLM will decide
     brief = []
     for a in all_accepted:
         brief.append({
@@ -427,6 +452,22 @@ def main():
             "status": "accepted",
             "score": a["final_score"],
             "source": a.get("source", "title"),
+        })
+    for entry in borderline:
+        preview = entry.get("pdf_preview", "")
+        desc = entry["title"]
+        if preview:
+            desc += f" — {preview}"
+        brief.append({
+            "compact_id": entry["compact_id"],
+            "osf_id": entry["osf_id"],
+            "title": entry["title"],
+            "description": desc[:300],
+            "date_created": entry.get("date_created", ""),
+            "link": entry.get("link", ""),
+            "status": "borderline",
+            "score": entry.get("stage2_score", entry.get("stage1_score", 0)),
+            "source": entry.get("source", "title"),
         })
     for cid, oid, title, reason in all_discarded:
         brief.append({
@@ -443,28 +484,36 @@ def main():
     with open(SCREENING_BRIEF, "w") as f:
         json.dump(brief, f, indent=2, ensure_ascii=False)
 
-    # Append to discard log
+    # Append to discard log (only hard-excluded)
     today_str = datetime.date.today().isoformat()
     with open(DISCARDED_LOG, "a") as f:
-        f.write(f"\n## {today_str} — Pipeline run\n\n")
-        for cid, oid, title, reason in all_discarded:
-            f.write(f"- ~~{cid}~~ {title[:80]} — *{reason}*\n")
-        f.write(f"\n### Accepted ({len(all_accepted)})\n\n")
-        for a in all_accepted:
-            f.write(f"- {a['compact_id']} {a['title'][:80]} (score {a['final_score']}, via {a.get('source','title')})\n")
+        f.write(f"\n## {today_str} — Pipeline run ({days_back}-day window)\n\n")
+        if all_discarded:
+            for cid, oid, title, reason in all_discarded:
+                f.write(f"- ~~{cid}~~ {title[:80]} — *{reason}*\n")
+        if borderline:
+            f.write(f"\n### Borderline (passed to LLM, {len(borderline)})\n\n")
+            for entry in borderline:
+                s2 = entry.get('stage2_score')
+                s2_str = f", PDF score {s2}" if s2 is not None else ""
+                f.write(f"- {entry['compact_id']} [{entry.get('stage1_score', 0)}{s2_str}] {entry['title'][:80]}\n")
+        if all_accepted:
+            f.write(f"\n### Auto-accepted ({len(all_accepted)})\n\n")
+            for a in all_accepted:
+                f.write(f"- {a['compact_id']} {a['title'][:80]} (score {a['final_score']})\n")
 
-    # 8. Update seen-compact-ids.json with all encountered IDs
+    # 8. Update seen-compact-ids.json — ONLY track hard-excluded and auto-accepted.
+    #    Borderline papers are NOT tracked here; the LLM pipeline step will handle them
+    #    (accepted ones get tracked via papers.json after import, discarded ones get tracked then).
     seen_file = os.path.join(PSYARXIV_HUB, "data", "seen-compact-ids.json")
     existing_seen = set()
     if os.path.exists(seen_file):
         with open(seen_file) as f:
             existing_seen = set(json.load(f))
-    # Add all candidates from this run
     for a in all_accepted:
         existing_seen.add(a["compact_id"])
     for cid, oid, title, reason in all_discarded:
         existing_seen.add(cid)
-    # Also add unseen IDs that scored 0 (auto-discarded by title)
     with open(seen_file, "w") as f:
         json.dump(sorted(existing_seen), f, indent=2)
 

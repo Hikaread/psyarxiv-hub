@@ -1,0 +1,1078 @@
+     1→1
+     2→Stress Beliefs Shape Daily Affective Reactivity to Social and Work Stressors: A 7-Day
+     3→Ecological Momentary Assessment Study
+     4→Johannes A. C. Laferton, PhD
+     5→Institute for Mental Health and Behavioral Medicine & Department of Medicine, HMU
+     6→Health and Medical University, Potsdam, Germany
+     7→Daniela Conrad, PhD
+     8→Institute for Mental Health and Behavioral Medicine & Department of Medicine, HMU
+     9→Health and Medical University, Potsdam, Germany
+    10→Frank Zimmermann-Viehoff, MD
+    11→Institute for Mental Health and Behavioral Medicine & Department of Medicine, HMU
+    12→Health and Medical University, Potsdam, Germany &
+    13→Department of Psychosomatic Medicine and Psychotherapy, Ernst von Bergmann Klinikum
+    14→Potsdam, Germany
+    15→Stefanie Kunas, PhD
+    16→Institute for Mental Health and Behavioral Medicine & Department of Medicine, HMU
+    17→Health and Medical University, Potsdam, Germany &
+    18→Campus Charité Mitte, Department of Psychiatry and Psychotherapy, Charité-
+    19→Universitätsmedizin Berlin, Berlin, Germany
+    20→Frank Euteneuer, PhD
+    21→Faculty of Human Sciences, Division of Biological Psychology and Neuroscience, Vinzenz
+    22→Pallotti University, Vallendar, Germany.
+    23→Susanne Fischer, PhD
+    24→University of St. Gallen Switzerland
+    25→&
+    26→Stefan Salzmann, PhD
+    27→Clinical Psychology and Psychotherapy, Vinzenz Pallotti University, Vallendar, Germany
+    28→
+    29→2
+    30→Medical Psychology, Health and Medical University, Erfurt, Germany
+    31→Clinical Psychology and Psychotherapy, Philipps University Marburg, Marburg, Germany
+    32→Corresponding author: Johannes Laferton, HMU Health and Medical University,
+    33→Olympischer Weg 1, 14471 Potsdam, Germany; telephone: +49-331-745113-203; e-mail
+    34→address: Johannes.laferton@hmu-potsdam.de
+    35→© 2026, American Psychological Association. This is an Accepted Manuscript that has been peer-
+    36→reviewed and approved for publication in Emotion (https://www.apa.org/pubs/journals/emo/), but
+    37→has yet to undergo copy editing and proof correction. This manuscript may not exactly replicate the
+    38→final version published by the American Psychological Association. It is not the copy of record.
+    39→The final article is available, upon publication, at: 10.1037/emo0001705
+    40→Conflict of interest: All authors declare no conflict of interest.
+    41→Data availability statement: The data and analysis code used in this manuscript is publicly
+    42→available at the Open Science Framework: https://osf.io/2knvf/ (DOI
+    43→10.17605/OSF.IO/2KNVF)
+    44→CRediT statement:
+    45→Johannes A. C. Laferton, PhD: Conceptualization; Methodology; Investigation; Data
+    46→Curation; Formal Analysis; Visualization; Project Administration; Supervision; Writing –
+    47→Original Draft; Writing – Review & Editing
+    48→Daniela Conrad, PhD: Data Curation; Formal Analysis; Project Administration; Visualization;
+    49→Writing – Original Draft; Writing – Review & Editing
+    50→Frank Zimmermann-Viehoff, MD: Conceptualization; Methodology; Writing – Review &
+    51→Editing
+    52→Stefanie Kunas, PhD: Investigation; Project Administration; Writing – Review & Editing
+    53→
+    54→3
+    55→Frank Euteneuer, PhD: Resources; Supervision; Writing – Review & Editing
+    56→Susanne Fischer, PhD: Conceptualization; Writing – Review & Editing
+    57→Stefan Salzmann, PhD: Resources; Investigation; Project Administration; Supervision;
+    58→Writing – Review & Editing
+    59→
+    60→4
+    61→Abstract
+    62→Stress beliefs—general expectations about the nature and consequences of stress—have been
+    63→linked to health and performance, yet their role in shaping responses to everyday stress
+    64→remains less understood. This study examined whether stress beliefs moderate affective
+    65→reactivity and stress regulation strategies in response to naturally occurring stressors in daily
+    66→life. In a 7-day ecological momentary assessment (EMA) study, 104 university students
+    67→completed thrice-daily reports (1,939 observations) on social and work-related stressors,
+    68→positive and negative affect, and two stress regulation strategies—situation selection and
+    69→response modification—as proposed in the Stress Optimization Model (Crum, Jamieson, &
+    70→Akinola, 2020). At baseline, stress beliefs were assessed alongside variables to characterize
+    71→the sample. Negative stress beliefs moderated the association between daily stressors and
+    72→positive affect: individuals with high negative stress beliefs showed reduced positive affect
+    73→during social stress and no increase in positive affect under higher workload. In contrast,
+    74→those with low or moderate negative stress beliefs maintained positive affect during social
+    75→stress and showed increased positive affect under higher workload—consistent with a
+    76→challenge-like appraisal. Additionally, controllability beliefs buffered increases in negative
+    77→affect in response to daily social stress, with lower beliefs linked to stronger affective
+    78→reactivity. In contrast, stress beliefs did not moderate associations between daily stressors and
+    79→the investigated stress regulation strategies. These findings suggest that stress beliefs tune
+    80→affective reactivity to everyday social and work stressors, identifying them as a potential
+    81→intervention target given the established links between affect and long-term health. The
+    82→generalizability of these findings should be confirmed across broader populations.
+    83→Keywords: stress beliefs; stress mindset; affective reactivity; stress regulation; ecological
+    84→momentary assessment
+    85→
+    86→5
+    87→Stress Beliefs Shape Daily Affective Reactivity to Social and Work Stressors: A 7-
+    88→Day Ecological Momentary Assessment Study
+    89→The stress response is vital tool of adaption, enabling individuals to meet the
+    90→multifaceted demands imposed by the environment. When individuals experience or
+    91→anticipate demands in goal-related contexts—such as danger, conflict, or pressure (i.e.,
+    92→stressors)—the body responds with relatively nonspecific emotional, behavioral, and
+    93→physiological changes (i.e., the stress response(Crum et al., 2020)). This stress response can
+    94→help individuals survive and thrive by mobilizing resources needed to meet current demands.
+    95→At the same time, it is well established that stress can also be harmful to mental and physical
+    96→health (McEwen, 1998; O’Connor et al., 2021). The health impact of stress is contingent upon
+    97→numerous factors, including characteristics of the stressor itself—such as its content (e.g.,
+    98→social vs. workload-related demands), intensity, and chronicity—which have been shown to
+    99→influence the magnitude and quality of stress responses and their longer-term health
+   100→consequences (Almeida, 2005; Dickerson & Kemeny, 2004; McEwen, 1998). In addition,
+   101→stress outcomes depend on person-related factors, including how stressors are appraised and
+   102→how individuals attempt to influence or modify their stress responses (i.e., stress regulation;
+   103→(Crum et al., 2020; Lazarus & Folkman, 1984; McEwen, 1998).
+   104→Stress Beliefs: Conceptualization and Impact on Health and Performance
+   105→A new perspective in explaining health and performance under stress that has
+   106→recently garnered attention is the concept of stress beliefs. Stress beliefs encapsulate an
+   107→individual’s expectations and beliefs regarding the nature and consequences of stress
+   108→(Jamieson, Crum, et al., 2018; Kilby et al., 2020; Laferton et al., 2018). For instance,
+   109→individuals harboring negative stress beliefs, perceive stress as deleterious to performance and
+   110→health, while others who hold positive stress beliefs, tend to view stress as a catalyst for
+   111→reaching one’s full potential. Such beliefs or expectations have been studied at a situation-
+   112→
+   113→6
+   114→specific level, often termed stress reappraisal—that is, appraising the acute stress response in
+   115→a given situation as a helpful resource rather than an added demand (Jamieson et al., 2013;
+   116→Jamieson, Crum, et al., 2018). They have also been examined at a more generalized level,
+   117→termed stress beliefs or stress mindset—the belief that stress is generally helpful or harmful
+   118→for health and performance (Crum et al., 2013; Fischer et al., 2016; Jamieson, Crum, et al.,
+   119→2018; Laferton et al., 2018). Stress beliefs have most frequently been assessed using the Stress
+   120→Mindset Measure (SMM; (Crum et al., 2013) or the Beliefs About Stress Scale (BASS;
+   121→(Laferton et al., 2018). The SMM conceptualizes stress beliefs as a largely unidimensional
+   122→construct, capturing the extent to which individuals view stress as generally enhancing versus
+   123→debilitating for health and performance. In contrast, the BASS differentiates stress beliefs into
+   124→three interrelated facets: negative stress beliefs, positive stress beliefs, and beliefs about the
+   125→controllability of stress (Laferton et al., 2018). Notably, several psychometric evaluations of
+   126→cultural adaptations of the SMM have identified two strongly correlated but distinguishable
+   127→factors reflecting positive and negative aspects of stress beliefs (Florean et al., 2025; Iwamoto
+   128→et al., 2020; Karampas et al., 2020; Park, 2022; Tedadi et al., 2022), suggesting that these
+   129→belief components may not always be fully captured by a single latent dimension across
+   130→contexts. This structural differentiation conceptually aligns with the separation of positive and
+   131→negative stress beliefs assessed by the BASS. Beyond valence-related beliefs, the BASS
+   132→additionally incorporates beliefs about the controllability of stress, a dimension that is
+   133→supported by broader theoretical and empirical work highlighting the role of perceived control
+   134→and coping efficacy in shaping stress responses and outcomes (Kilby et al., 2020) and by the
+   135→development of newer multidimensional stress belief measures that explicitly include control-
+   136→related components (e.g., STRESS; (Kilby et al., 2022). Empirically supporting this
+   137→conceptual distinction, initial evidence from a sample of 110 university students indicated
+   138→strong convergent validity of the SMM with both the negative (BASS-N; r =.76) and positive
+   139→stress belief subscales (BASS-P; r =.72) of the BASS, whereas only a moderate correlation
+   140→
+   141→7
+   142→emerged with the controllability subscale (BASS-C; r = .47; (Laferton & Fischer, 2021).
+   143→Consequently, this pattern underscores that while BASS-P and BASS-N closely align with the
+   144→core dimensions of general stress mindsets, BASS-C captures a related but distinct theoretical
+   145→facet. Crucially, a recent large-scale validation in a representative sample of the German
+   146→general population (N = 2515; (Schmalbach et al., 2025) confirmed a bifactor structure of the
+   147→BASS. This indicates that the BASS captures a strong general stress mindset factor—
+   148→conceptually equivalent to the unidimensional SMM—alongside more specific belief
+   149→dimensions, such as controllability, that capture additional, theoretically meaningful variance.
+   150→Recent research has uncovered persuasive evidence that stress beliefs can influence
+   151→health, well-being and performance in a diverse set of populations: In two large general
+   152→population samples, beliefs that stress is harmful was associated with increased mortality over
+   153→the course of several years (Keller et al., 2012; Nabi et al., 2013). Related work, primarily
+   154→using the Stress Mindset Measure, has shown that holding a stress-is-debilitating mindset is
+   155→associated with higher levels of depressiveness, anxiety, somatic symptoms, and distress
+   156→among adolescents (Park et al., 2018), as well as college students, employees (Casper et al.,
+   157→2017; Crum et al., 2013), police officers (Keech et al., 2020), and chronic pain patients
+   158→(Grünenwald et al., 2023). Moreover, viewing stress as debilitating has been linked to
+   159→decreased academic and social-evaluative performance, poorer academic outcomes in
+   160→undergraduate students (Keech et al., 2018), and to lower vigor and task performance in
+   161→employees (Casper et al., 2017; Crum et al., 2013). Importantly, conceptually comparable
+   162→associations have also been observed using the Beliefs About Stress Scale. Specifically,
+   163→negative stress beliefs were associated with greater somatic symptom burden and higher
+   164→negative affect in university students (Fischer et al., 2016; Laferton et al., 2020), as well as
+   165→with poorer mental health among healthcare workers during the COVID-19 pandemic
+   166→(Laferton et al., 2024; Wekenborg et al., 2024). In contrast, positive stress beliefs have been
+   167→linked to better mental health in healthcare workers (Bai et al., 2024), better mental health in
+   168→
+   169→8
+   170→the general population (Schmalbach et al., 2025), and higher vitality in employees (Digutsch
+   171→et al., 2022). Beyond valence-related beliefs, beliefs about the controllability of stress have
+   172→also been associated with better mental health outcomes in healthcare workers (Bai et al.,
+   173→2024, 2025; Wekenborg et al., 2024) and in population-based samples (Schmalbach et al.,
+   174→2025).
+   175→Taken together, accumulating evidence indicates that different components of stress
+   176→beliefs—including negative, positive, and controllability-related beliefs—are systematically
+   177→associated with health, well-being, and performance outcomes across populations. This raises
+   178→a mechanistic question as to how stress beliefs shape individuals’ experiences and actions in
+   179→stressful situations in ways that may give rise to documented differences in mortality, mental
+   180→and physical symptom burden, and performance. Prior work suggests that alterations in
+   181→affective stress responses and in stress regulation strategies represent two candidate pathways
+   182→through which stress beliefs may exert these effects (Crum et al., 2020; Jamieson, Crum, et
+   183→al., 2018; Jamieson, Hangen, et al., 2018; Yeager et al., 2022).
+   184→Stress beliefs and altered affective stress responses
+   185→Regarding the affective stress response several experimental studies provided
+   186→evidence that inducing positive stress beliefs can enhance positive and reduce negative affect
+   187→in response to a laboratory stressor (Beltzer et al., 2014; Brooks, 2014; Crum et al., 2017).
+   188→Initial experience sampling studies suggest that individuals’ (unmanipulated) stress beliefs
+   189→influence the affective stress response to real world stressors. In a 10-day daily diary study,
+   190→university students’ stress beliefs prospectively moderated the affective stress response to
+   191→daily stressors (Laferton et al., 2020). Individuals with high negative stress beliefs responded
+   192→with a stronger increase in negative affect in response to daily social stressors than students
+   193→with low negative stress beliefs. Similarly, negative stress beliefs predicted poorer affect in
+   194→response to work stressors throughout a five-day daily diary assessment (Daniels et al., 2006).
+   195→
+   196→9
+   197→Furthermore, affect itself was associated with altered information processing, physiological
+   198→functioning, coping and health behavior (Aldao et al., 2010; DeSteno et al., 2013; Diener et
+   199→al., 2017; Gross et al., 2019; Pressman et al., 2018; Salovey et al., 2000; Sin, 2016). To
+   200→summarize, stress beliefs may alter health and performance outcomes by shaping affective
+   201→stress reactions that operate through the above-mentioned pathways.
+   202→At the same time, it is important to note that the extent to which stress beliefs shape
+   203→affective responses may depend on the nature of the stressor itself. Research indicates that
+   204→stressor content might influences affective and physiological stress responses (Almeida,
+   205→2005). For example, experimental work has demonstrated that social-evaluative stressors
+   206→elicit stronger affective and neuroendocrine responses than non-social stressors(Dickerson &
+   207→Kemeny, 2004). In studies of daily stress, the most frequently reported stressors are
+   208→interpersonal (social) stressors and work- or education-related stressors (Almeida et al., 2002).
+   209→Consistent with experimental research, these stressor classes seem to differ in their
+   210→psychological impact. Several diary and experience sampling studies suggest that
+   211→interpersonal stressors tend to be associated with stronger emotional reactivity than workload-
+   212→related stressors, including larger increases in negative affect or distress (Bolger et al., 1989;
+   213→Bolger & Schilling, 1991; Kerber et al., 2026), and show more consistent associations with
+   214→internalizing symptoms in daily life (Zimmermann et al., 2019). Similar differential patterns
+   215→have been observed in ambulatory assessment studies comparing interpersonal and non-
+   216→interpersonal stressors with respect to affective states and physical symptoms (Almeida, 2005;
+   217→Leger et al., 2021).
+   218→Importantly, there are also indications that the association between stressor exposure
+   219→and affective responses differs in the extent to which it is shaped by more time-stable
+   220→individual characteristics. Prior work suggests that dispositional factors such as neuroticism
+   221→(Bolger & Schilling, 1991) and depressive symptomatology (Sheets & Armey, 2020) more
+   222→strongly moderate affective responses to interpersonal stressors than to workload-related
+   223→
+   224→10
+   225→demands. Moreover, initial intervention-based ambulatory evidence indicates that changes in
+   226→stressor–affect associations following stress-related interventions may differ between
+   227→interpersonal and workload stressors (Leger et al., 2021). Taken together, these findings
+   228→suggest that stressor type may be particularly relevant when examining how relatively stable
+   229→belief systems—such as stress beliefs—interact with daily stressor exposure to shape affective
+   230→responses.
+   231→Consistent with this distinction, existing daily stress studies examining stress beliefs
+   232→and affective stress responses have focused on different stressor domains. Evidence for belief-
+   233→related differences in affective reactivity has been reported in the context of work-related
+   234→stressors (Daniels et al., 2006; Casper et al., 2017) as well as for social stressors (Laferton et
+   235→al., 2020). Notably, the only experience sampling study to examine both stressor types
+   236→simultaneously found that stress beliefs moderated affective responses to social stressors,
+   237→whereas the corresponding moderation effect for workload-related stressors did not remain
+   238→statistically robust after correction for multiple testing (Laferton et al., 2020).
+   239→Stress beliefs and altered stress regulation strategies
+   240→Further, it is assumed that stress beliefs also shape stress regulation strategies; within
+   241→the stress optimization model (Crum et al., 2020), two key proposed facets are situation
+   242→selection and response modification. Situation selection: individuals with more negative stress
+   243→beliefs may be more likely to avoid stressful situations (e.g., declining challenging tasks),
+   244→which over time can lead to missed opportunities and frustration; in contrast, those with more
+   245→positive stress beliefs may be more inclined to approach stressful situations (e.g., seeking
+   246→challenging assignments), thereby increasing opportunities for skill development and goal
+   247→attainment. Response modification: once in a stressful situation, stress beliefs are
+   248→hypothesized to guide how individuals regulate their physiological stress response; those who
+   249→view stress as harmful may attempt to dampen arousal, whereas those endorsing more positive
+   250→
+   251→11
+   252→stress beliefs may try to harness their stress response to facilitate goal pursuit. However, direct
+   253→empirical tests of these stress regulation strategies remain relatively sparse, and much of the
+   254→existing work has been conducted in laboratory settings. In support of situation selection,
+   255→university students with more positive stress beliefs showed a greater desire for feedback
+   256→before a social-evaluative laboratory stressor (Crum et al., 2013). Outside the laboratory,
+   257→however, only a small number of studies have examined associations between stress beliefs
+   258→and stress regulation strategies in daily life, and these studies have relied on relatively broad
+   259→operationalizations of approach- versus avoidance-oriented stress regulation strategies that do
+   260→not allow for a specific examination of situation selection and response modification. For
+   261→example, in a five-day daily diary study, Casper et al. (2017) found that a stress is enhancing
+   262→mindset was associated with higher approach-oriented coping among employees anticipating
+   263→high workload. Similarly, cross-sectional studies have reported associations between stress
+   264→beliefs and general approach–avoidance stress regulation tendencies (Keech et al., 2018,
+   265→2020; Zhang et al., 2022). Taken together, existing findings provide initial evidence that stress
+   266→beliefs might be related to stress regulation tendencies in general. However, beyond the
+   267→laboratory evidence reported by Crum et al. (2013), there is little empirical work that
+   268→explicitly examines specific stress regulation strategies as conceptualized in the stress
+   269→optimization model—namely situation selection and response modification. Moreover, no
+   270→study so far has assessed situation selection and response modification in close temporal
+   271→proximity to naturally occurring daily stressors, leaving it largely unclear whether and how
+   272→stress beliefs shape these stress regulation processes as stress unfolds in everyday life.
+   273→In conclusion, emerging evidence supports several psychological mechanisms
+   274→linking stress beliefs to health and performance outcomes. However, the majority of those
+   275→studies relied on experimentally manipulated stress beliefs and laboratory stressors, thereby
+   276→limiting their ecological validity. Whether these processes similarly influence health and
+   277→performance when stress beliefs are naturally acquired and in the occurrence of everyday-life
+   278→
+   279→12
+   280→stressors, remains unclear. Therefore, this study aimed to investigate how different
+   281→components of stress beliefs—negative beliefs, positive beliefs, and beliefs about the
+   282→controllability of stress—are associated with affective stress responses and stress regulation
+   283→strategies (situation selection and response modification) in response to daily stressors using
+   284→an ecological momentary assessment (EMA) design. Based on prior evidence linking
+   285→negative, positive and controllability stress beliefs to mental health and affective well-being
+   286→across populations (Bai et al., 2024; Fischer et al., 2016; Laferton et al., 2024; Schmalbach et
+   287→al., 2025), as well as initial experience sampling studies demonstrating that stress beliefs
+   288→moderate affective reactivity to daily stressors (Daniels et al., 2006; Laferton et al., 2020), we
+   289→expected stress beliefs to be systematically associated with affective responses to daily stress.
+   290→Specifically, higher levels of negative stress beliefs were expected to be associated with
+   291→stronger increases in negative affect and attenuated positive affect in response to daily social
+   292→and workload stressors. In contrast, higher levels of positive stress beliefs and stronger beliefs
+   293→about the controllability of stress were expected to be associated with lower increases in
+   294→negative affect and higher levels of positive affect when individuals encountered daily
+   295→stressors.
+   296→Furthermore, drawing on the stress optimization model (Crum et al., 2020) and initial
+   297→empirical evidence (Crum et al., 2013; Casper et al., 2017), this study examines whether stress
+   298→beliefs are associated with stress regulation strategies in response to daily stressors.
+   299→Specifically, higher levels of negative stress beliefs were expected to be associated with
+   300→greater avoidance-based situation selection and lower attempts to utilize the stress response
+   301→when individuals encountered daily stress. In contrast, higher levels of positive stress beliefs
+   302→and stronger beliefs about the controllability of stress were expected to be associated with
+   303→lower avoidance of stressful situations and greater attempts to utilize the stress response.
+   304→Method
+   305→
+   306→13
+   307→Procedure
+   308→University students of three German universities were invited to participate in a 7-
+   309→day EMA study about stress perception via e-mail lists or research participation platforms
+   310→between June 2022 and July 2023. Inclusion criteria were enrollment as a university student,
+   311→age ≥18 years, absence of chronic disease, and provision of written informed consent.
+   312→Participation was voluntary and as compensation for their efforts, participants had the chance
+   313→to win gift certificates. Participants were invited to a baseline assessment in the lab including
+   314→the baseline questionnaire and a recording of resting heart rate variability. On the following
+   315→day, participants underwent a 7-day EMA period. EMA was conducted via the smartphone
+   316→application m-path (www.m-path.io ).
+   317→Participants were excluded from the analysis if they did not complete the baseline
+   318→assessment and missed all of the daily assessments. The study was approved by the local
+   319→institutional review boards of the participating universities. All procedures performed were in
+   320→accordance with the ethical standards of the institutional research committees and with the
+   321→1946 Helsinki declaration and its later amendments.
+   322→Measures
+   323→Baseline
+   324→Stress beliefs were assessed using the Beliefs About Stress Scale (Laferton et al.,
+   325→2018). On three scales this self-report questionnaire measures negative stress beliefs (BASS-
+   326→N; eight items) and positive stress beliefs (BASS-P; four items) as well as perceived control
+   327→(BASS-C; three items). Example items are as follows: ‘Being stressed affects my health in the
+   328→short term’ (BASS-N), ‘Being stressed enables me to work in a more focused manner’
+   329→(BASS-P), or ‘Being stressed is something I am able to influence through my actions’
+   330→(BASS-C). Items are rated on a 4-point scale from ‘completely disagree‘ (1) to ‘definitely
+   331→agree‘ (4). The BASS has been psychometrically validated in student samples and in a
+   332→
+   333→14
+   334→representative sample of the German general population, and normative data for the general
+   335→population are available (Schmalbach et al., 2025).
+   336→At baseline, to describe the situational context of their university studies, participants
+   337→were asked to report their study subject, the sum of weekly hours of courses they had signed
+   338→up for, whether they had a part-time job, and to provide demographic variables (age, gender).
+   339→To screen for symptoms of depression and anxiety, participants completed the depression
+   340→(PHQ-9) and the anxiety (GAD-7) module of the Patient Health Questionnaire (Kroenke et
+   341→al., 2010).
+   342→Ecological Momentary Assessment (EMA)
+   343→During the 7-day EMA, an interval-contingent sampling design utilizing a
+   344→"coverage" approach EMA was employed (Shiffman et al., 2008; Stone et al., 2023; Vaessen
+   345→et al., 2023). Participants were asked to report on stressors, affect and stress regulation
+   346→strategies three times a day at fixed intervals (noon, 4 pm and 8 pm) with each assessment
+   347→referring to the prior 4 hours.
+   348→Social Stressors & Workload Stressors. Participants’ stressors were assessed using
+   349→items from the situational experience module of the Personality Dynamics Diary
+   350→(Zimmermann et al., 2019) PDD). Three PDD items were used to assess social stress (PDD-
+   351→SS; ‘I was ignored or rejected by others’; ‘I was blamed, criticized, or devalued by someone’;
+   352→‘I was left in the lurch by a close person’), and two items to assess workload (PDD-W; ‘I had
+   353→to deal with too many, or too difficult tasks’; ‘I was under high pressure to succeed while
+   354→getting done with my tasks’). Participants endorsed whether each item applied to them during
+   355→the 4 hours preceding the EMA on a 4-point scale from 0 = very false to 3 = very true. PDD-
+   356→SS and PDD-W scales were calculated using the mean of the respective items of each scale.
+   357→Affective Reactivity. Daily positive and negative affect was assessed using the 10-
+   358→item short form of the Positive and Negative Affect Schedule (Thompson, 2007; Watson et
+   359→
+   360→15
+   361→al., 1988). The PANAS is one of the most widely used self-report questionnaires assessing
+   362→positive (PANAS-P) and negative affect (PANAS-N). Positive affect (e.g. excited, proud) and
+   363→negative affect (e.g. upset, afraid) are assessed on two independent five-item scales, with
+   364→responses ranging from 1 = ‘very slightly or not at all’ to 5 = ‘extremely’. Among other time
+   365→frames, the PANAS has been validated to assess daily affect (Rush & Hofer, 2014).
+   366→Stress Regulation. Stress regulation strategies were assessed based on the stress
+   367→optimization model (Crum et al., 2020). Within this model, situation selection and response
+   368→modulation are conceptualized as regulatory strategies that can be flexibly deployed in
+   369→different directions (e.g., avoiding vs. seeking stressful situations; minimizing vs. utilizing
+   370→stress responses), depending on individuals’ regulatory goals. To reduce participant burden
+   371→and ensure feasibility within the EMA design, we assessed only one option within each
+   372→regulatory domain. Specifically, situation selection was operationalized via avoidance of
+   373→stressful situations (‘How hard have you tried to avoid the stressful situation?’), and response
+   374→modulation was operationalized via attempts to utilize the stress response (‘How hard have
+   375→you tried to utilize your feeling of being stressed?’). Participants rated to what extent they
+   376→engaged in situation avoidance and utilization of the stress response regarding stressors during
+   377→the preceding 4h of each EMA assessment on a 5-point scale from 0 = not at all, 1= a little, 2
+   378→= somewhat, 3 = considerably, 4 = extremely.
+   379→Participants
+   380→106 individuals provided written informed consent after receiving oral and written
+   381→study information from a trained investigator. Two participants had to be excluded due to
+   382→smartphone or app malfunction. N = 104 provided data on baseline assessment and at least
+   383→one EMA assessment and were therefore included in the final analysis. The mean number of
+   384→completed questionnaires (1 baseline questionnaire + 3x7 EMA questionnaires) per
+   385→participant was 19.21 (SD=3.59; Min=2; Max=22).
+   386→
+   387→16
+   388→Sample characteristics are shown in table 1. Participants predominantly identified as
+   389→female, German and were university students from a broad range of academic disciplines. The
+   390→mean course load per week was slightly above the average for German university students
+   391→(German Ministry of Education and Research, 2017) and the majority had a part-time job.
+   392→Neither the number of weekly course hours nor the specific academic discipline (STEM and
+   393→medicine vs. other fields) was associated with baseline stress beliefs, reports of daily
+   394→stressors, affect, or stress regulation strategies (see Supplement 2). Female participants
+   395→reported a higher number of weekly university course hours. Apart from this difference, no
+   396→gender differences were observed in the study variables. The amount of participants with
+   397→elevated symptoms of depression and anxiety (see Table 1), is within the range of prevalence
+   398→found in other university student samples (Ibrahim et al., 2013). Moreover, the mean values of
+   399→negative, positive and controllability stress beliefs match those found in previous university
+   400→student samples (Fischer et al., 2016; Laferton et al., 2020). The mean level of workload was
+   401→comparable to the validation student sample of the PDD (Zimmermann et al., 2019), while the
+   402→mean level of social stress was somewhat lower in the current sample.
+   403→Data analysis
+   404→Addressing the nested structure of the data, hierarchical linear models were estimated
+   405→with repeated data entries at level 1 nested in participants at level 2. First, the fixed effects of
+   406→stress beliefs (level 2: BASS) on each of the EMA variables (level 1: stressors, affect, stress
+   407→regulation strategy) were analyzed using random intercept models. To reduce
+   408→multicollinearity, separate random intercept models were estimated for each BASS subscale
+   409→(BASS-N, BASS-C, BASS-P) on each dependent variable (PDD-SS, PDD-W, PANAS-N,
+   410→PANAS-P, situation selection, response modification). Second, the main hypotheses –
+   411→whether stress beliefs would influence I) affect and II) stress regulation strategies in response
+   412→to stressors – was tested by adding work stress or social stress as a further variable, including
+   413→cross-level interactions with stress beliefs. This resulted in additional random intercept
+   414→
+   415→17
+   416→models with focal cross-level interaction terms of each stress belief’s subscale and work stress
+   417→(BASS-N* PDD-W or BASS-C* PDD-W or BASS-P* PDD-W) or social stress, respectively
+   418→(BASS-N* PDD-SS or BASS-C* PDD-SS or BASS-P* PDD-SS). Predictors were grand-
+   419→mean centered, while dependent variables were not. To ensure that the cross-level interactions
+   420→were due to within- rather than between-person variance in stressors, the within- and between-
+   421→person variance in PDD-W and PDD-SS were included as separate predictors. Significant
+   422→interactions were probed with simple slopes analyses (i.e., conditional effects at M and ±1 SD
+   423→of the moderator).
+   424→Finally, to further elucidate the temporal dynamics and variability of the data, four
+   425→sets of exploratory, non-preregistered analyses were conducted. First, to test whether stress
+   426→beliefs alter the general intra-individual variability of affective responses, standard random
+   427→intercept models with equal residual variances were compared to models with continuous
+   428→variance structures. These alternative models allowed the residual variance to vary as a
+   429→continuous function of stress belief scores. Differences in model fit were evaluated using
+   430→likelihood-ratio tests (LRT). Second, to examine prospective associations of regulatory
+   431→strategies within a given day, lagged hierarchical linear models were estimated. In these
+   432→models, situation selection and response modification at the preceding time point (T-1)
+   433→predicted affect and stressors at the subsequent time point (T) within the same day. To yield
+   434→robust estimates, these models controlled for time of day as well as the autoregressive effect
+   435→(the respective outcome variable at T-1). Furthermore, the within- and between-person
+   436→variance in lagged predictors were included as separate predictors. Third, to investigate cross-
+   437→day spillover effects, day-lagged hierarchical linear models were estimated using day-level
+   438→aggregated variables. In these models, daily stress and affect from the previous day (Day T−1)
+   439→predicted the choice of stress regulation strategies (i.e., avoidance and utilization) on the
+   440→current day (Day T). To account for potential systematic changes across the study period,
+   441→these models included a linear time trend. Analogous to the within-day analyses, models
+   442→
+   443→18
+   444→additionally controlled for the autoregressive effect (the respective regulation strategy on Day
+   445→T−1), thereby modeling change in the outcome variable. Again, the day-lagged predictors
+   446→were disaggregated into within- and between-person variance components. Fourth, to examine
+   447→whether study variables showed systematic change across the study period, exploratory
+   448→multilevel growth curve models were estimated using day-level aggregated variables. For
+   449→daily workload, social stress, affect, and stress regulation strategies, both linear and quadratic
+   450→trends across study days were tested. To account for potential scheduling-related variation,
+   451→selected models were additionally adjusted for weekday.
+   452→Prior to data collection, target sample size was determined pragmatically. Because
+   453→closed-form power solutions for multilevel models—particularly for cross-level
+   454→interactions—are limited and simulation-based approaches require credible variance-
+   455→component estimates that were unavailable a priori, a conventional two-sided t-test for a
+   456→medium effect (r = 0.50, α = .05, 1–β = .80) was used as a planning benchmark. Assuming 20
+   457→percent drop-out it was aimed to include 96 participants into the study.
+   458→The level of significance was set at p <.05 per hypothesis. To account for alpha error
+   459→inflation the level of significance was divided by the number of tests per preregistered
+   460→hypothesis (Bonferroni adjustment) in accordance with disjunction hypothesis testing (Rubin,
+   461→2021); see Supplement 1 for constituent p-levels for each hypothesis). p-values for the
+   462→hierarchical linear models were estimated using Satterthwaite correction. 99%-confidence
+   463→intervals were estimated drawing 5000 bootstrap samples. All analyses were performed using
+   464→R 4.3.1 (R Core Team, 2023).
+   465→Transparency and Openness
+   466→Study design and hypotheses of this study have been preregistered at the open
+   467→science framework under https://osf.io/37gxv. We report how we determined our sample size,
+   468→all data exclusions (if any), all manipulations, and all measures in the study. The employed
+   469→
+   470→19
+   471→data and analysis code, are available online at https://osf.io/2knvf/ (DOI
+   472→10.17605/OSF.IO/2KNVF).
+   473→Results
+   474→Do beliefs about stress predict daily overall levels of stressors, affect and stress
+   475→regulation strategies?
+   476→Stress beliefs were not prospectively associated with overall occurrence of social
+   477→stress or workload, levels of positive and negative affect or levels of situation selection and
+   478→response modification (see table 2; for a detailed description of the hierarchical linear models,
+   479→see Supplement 2).
+   480→Do beliefs about stress moderate the daily affective stress response?
+   481→Negative beliefs about stress significantly moderated the within-person association of
+   482→daily social stress and positive affect (table 3; for a detailed description of the hierarchical
+   483→linear models see Supplement 2): When experiencing social stress, participants who held high
+   484→negative beliefs about stress had lower daily positive affect (BASS-N +1SD: simple slope = -
+   485→0.82; SE=0.29; t = 2.83, p < .005), whereas for participants who held medium or low negative
+   486→beliefs about stress, there was no association between daily social stress and daily positive
+   487→affect (BASS-N M: simple slope = -0.22; SE=0.22; t = 0.99; p =.319; BASS-N -1SD: simple
+   488→slope = 0.38; SE=0.31; t = 1.19; p =232; see Figure 1A). Moreover, negative beliefs about
+   489→stress significantly moderated the within-person association of daily workload and positive
+   490→affect (table 3; for a detailed description of the hierarchical linear models see Supplement 2):
+   491→When experiencing higher workload, participants who held low or medium negative beliefs
+   492→about stress had higher daily positive affect (BASS-N -1SD: simple slope = 0.60; SE=0.17; t =
+   493→3.64 p < .003; BASS-N M: simple slope = 0.30; SE=0.11; t = 2.71 p < .007), whereas for
+   494→participants with high negative beliefs about stress, there was no association between daily
+   495→workload and daily positive affect (BASS-N +1: simple slope = -0.00; SE=0.16; t = 0.03; p
+   496→
+   497→20
+   498→=.979; see Figure 1B). Further, controllability beliefs (BASS-C) significantly moderated the
+   499→within-person association of daily social stress and negative affect (table 3; for a detailed
+   500→description of the hierarchical linear models see Supplement 2). When experiencing social
+   501→stress, participants with low controllability beliefs had stronger increases in daily negative
+   502→affect (BASS-C -1SD: simple slope = 2.73; SE=0.18; t = 14.93 p < .001) than participants
+   503→with medium controllability beliefs (BASS-C M: simple slope = 2.17; SE=0.12; t = 18.52 p <
+   504→.001) and with high controllability beliefs (BASS-C +1: simple slope = 1.61; SE=0.17; t =
+   505→9.41; p < .001; see Figure 1C). All other cross-level interactions between the BASS scales and
+   506→the associations of perceived stressors and affective responses were not significant.
+   507→Do beliefs about stress moderate daily stress regulation strategies?
+   508→None of the stress belief dimensions significantly moderated the within-person
+   509→associations between daily stressors and stress regulation strategies (Table 3; for a detailed
+   510→description of the hierarchical linear models see Supplement 2). Specifically, all cross-level
+   511→interactions between negative stress beliefs (BASS-N), positive stress beliefs (BASS-P), and
+   512→beliefs about the controllability of stress (BASS-C) and daily social or workload stressors
+   513→predicting avoidance-based situation selection or attempts to utilize the stress response were
+   514→non-significant. Thus, stress beliefs were not associated with systematic differences in daily
+   515→stress regulation strategies in response to social or workload stressors.
+   516→Exploratory analyses on the temporal dynamics and variability of the data
+   517→In addition to mean daily affective stress responses, it was explored whether stress
+   518→beliefs systematically alter the day-to-day fluctuations of affective responses. Comparing
+   519→standard models with equal residual variances to models with continuous variance structures
+   520→(allowing residual variance to vary as a continuous function of stress belief scores) revealed
+   521→that negative stress beliefs did not significantly alter the intra-individual residual variability of
+   522→affect (see Supplement 2). However, individuals holding stronger positive stress beliefs
+   523→(BASS-P) demonstrated significantly less intra-individual variability in daily positive affect
+   524→
+   525→21
+   526→(LRT = 15.81; p < .001, δ = -0.22). Similarly, higher perceived stress controllability (BASS-
+   527→C) significantly predicted less intra-individual variability in daily negative affect (LRT =
+   528→17.60; p < .001, δ = -0.43). Thus, while negative stress beliefs did not affect the general day-
+   529→to-day variability of affect, positive and controllability stress beliefs were systematically
+   530→associated with greater emotional stability across days.
+   531→Furthermore, exploratory lagged multilevel models were estimated to investigate the
+   532→temporal dynamics of stressors, affect, and regulatory strategies within a given day (see
+   533→Supplement 2). Across all models, strong autoregressive effects were observed, indicating that
+   534→stressors, affective states, and regulatory strategies were highly stable within a day (all ps <
+   535→.001). Regarding within-day prospective associations of regulatory strategies, only avoidance-
+   536→based situation selection at the within-person level predicted a prospective increase in
+   537→negative affect (Estimate = 0.14, p = .035). All other within-day lagged within-person effects
+   538→of regulatory strategies on subsequent affect, workload, or social stress were non-significant.
+   539→To investigate cross-day spillover effects, day-lagged hierarchical linear models were
+   540→estimated predicting current-day stress regulation strategies from prior-day stressors and
+   541→affect (see Supplement 2). Across all models, significant autoregressive effects were
+   542→observed, indicating moderate stability of regulatory strategies across days (all ps < .001).
+   543→Regarding avoidance-based situation selection, no significant within-person prospective
+   544→effects of prior-day workload, social stress, positive affect, or negative affect were observed.
+   545→In contrast, regarding attempts to utilize the stress response, higher within-person workload
+   546→on the previous day significantly predicted a decrease in stress utilization on the subsequent
+   547→day (Estimate = -0.26, p < .001). Similarly, higher prior-day positive affect predicted lower
+   548→current-day utilization (Estimate = -0.03, p = .037), whereas prior-day social stress and
+   549→negative affect showed no significant cross-day effects.
+   550→Finally, exploratory multilevel growth curve models were estimated to examine
+   551→systematic change across the study period using day-level aggregated variables (see
+   552→
+   553→22
+   554→Supplement 2). A significant positive linear trend was observed for workload across study
+   555→days. Utilization also showed an initial positive linear trend, but this effect was no longer
+   556→significant after controlling for workload. No consistent linear or quadratic time trends were
+   557→found for the remaining variables.
+   558→Discussion
+   559→Findings from this EMA study indicate that beliefs about stress shape affective
+   560→reactivity to daily stressors rather than global levels of stressor exposure or mean affect.
+   561→Students endorsing more negative beliefs about stress showed reduced positive affect when
+   562→encountering social stress and no increase in positive affect with higher workload. In contrast,
+   563→those with low to moderate negative beliefs exhibited no drop in positive affect during social
+   564→stress and demonstrated an increased positive affect under higher workload—consistent with a
+   565→more challenge-like appraisal of task demands. In addition, lower controllability beliefs were
+   566→associated with stronger increases in negative affect in response to social stress compared
+   567→with medium and high controllability beliefs.
+   568→Beyond acute affective reactivity, exploratory analyses further suggest that stress
+   569→beliefs may shape the temporal dynamics of affective experiences. Specifically, positive stress
+   570→beliefs were associated with reduced intra-individual variability in positive affect, while
+   571→controllability beliefs were linked to reduced variability in negative affect. Importantly, these
+   572→effects emerged independently of mean affect levels, suggesting that adaptive stress beliefs
+   573→may contribute to emotional stability rather than shifting overall affective tone. One possible
+   574→interpretation is that such beliefs attenuate affective fluctuations by reducing reactivity to
+   575→stressors (as seen with controllability beliefs) and/or facilitating more efficient recovery
+   576→processes.
+   577→These results converge with diary and EMA evidence linking stress beliefs to
+   578→subsequent affective reactions in university students (Laferton et al., 2020; Ma et al., 2025), in
+   579→workers (Daniels et al., 2006; Harris & Daniels, 2005, 2007) and individuals under COVID-
+   580→
+   581→23
+   582→19 confinement (Zeng et al., 2024), as well as laboratory studies showing causal effects of
+   583→belief manipulation on affective stress responses (Beltzer et al., 2014; Brooks, 2014; Crum et
+   584→al., 2017). Notably, prior diary research has shown that these effects persist even when
+   585→controlling for neuroticism (Laferton et al., 2020). Mechanistically, such belief-driven
+   586→modulation of affect may help explain links between stress beliefs and long-term health
+   587→outcomes, including mortality (Keller et al., 2012; Nabi et al., 2013), given that higher
+   588→negative affect and lower positive affect are prospectively associated with poorer health
+   589→(Pressman et al., 2018; Ramirez et al., 2025; Salovey et al., 2000; Sin, 2016).
+   590→Interestingly, interaction effects between stress beliefs and stressor exposure were
+   591→somewhat more pronounced for social stressors than for workload-related demands. This
+   592→observation aligns with prior experience-sampling evidence showing that belief-related
+   593→moderation effects were more robust for social than for workload stressors when both were
+   594→examined concurrently (Laferton et al., 2020). Consistent with this, diary and ambulatory
+   595→research indicates that interpersonal stressors tend to elicit stronger affective responses and
+   596→are more strongly shaped by relatively stable individual characteristics. Importantly, this does
+   597→not imply that workload stressors are unaffected by stress beliefs. Previous experience-
+   598→sampling studies have demonstrated belief-related moderation effects in response to work-
+   599→related stress (Casper et al., 2017; Daniels et al., 2006), and experimental and applied research
+   600→has documented belief-dependent effects under academic and occupational stressors
+   601→(e.g.,(Crum et al., 2013; Jamieson et al., 2010; Laferton et al., 2024). Taken together, the
+   602→present findings suggest that the relative magnitude and consistency of belief-related
+   603→moderation effects may vary as a function of stressor type, with particularly robust effects
+   604→observed for social stressors in everyday life. By contrast, no concurrent associations were
+   605→observed between stress beliefs and two stress regulation strategies specified by the stress
+   606→optimization model (Crum et al., 2020)—situation selection (avoiding a stressful situation)
+   607→and response modification (utilize the stress response). There were nominal trends suggesting
+   608→
+   609→24
+   610→that higher positive stress beliefs may be linked to slightly stronger utilization of the stress
+   611→response in general and under stressor exposure; however, these trends did not withstand
+   612→multiple-comparison control and are therefore reported for transparency only. Targeted
+   613→hypothesis tests in adequately powered EMA designs are warranted. To our knowledge, no
+   614→prior study investigating stress responses to real life stressors has assessed these two
+   615→components separately as formulated in the stress optimization model. However, there is
+   616→evidence for an association of stress beliefs with approach-oriented coping assessed via
+   617→composite scales, which in aggregate are more comparable to situation selection than to
+   618→response utilization. In their EMA study, Casper et al. (2017) found that positive stress beliefs
+   619→prospectively predicted higher approach coping on days with anticipated high workload.
+   620→Other cross-sectional studies report similar links between stress beliefs and proactive coping
+   621→(Keech et al., 2020; Zhang et al., 2022). Moreover, students with more positive stress beliefs
+   622→sought more feedback ahead of an anticipated social-evaluative stressor (Crum et al., 2013). A
+   623→possible explanation is that situation selection is predominantly an anticipatory process;
+   624→consequently, our concurrent (reactive) sampling likely undercaptured it relative to the
+   625→anticipatory assessments used by Casper et al. (2017) and Crum et al. (2013). By contrast,
+   626→response modification processes are more immediately tied to stressor occurrence. In the
+   627→current study, the fixed schedule of three assessments per day may have lacked sensitivity to
+   628→detect such in-the-moment changes, as prompts could occur up to four hours after a stressor.
+   629→Future studies should employ event-related assessments to more precisely investigate the
+   630→relationship between stress beliefs and response modification. In addition, exploratory
+   631→analyses suggested that avoidance-based situation selection was associated with higher
+   632→negative affect at the following within-day assessment, underlining its maladaptive nature
+   633→within the Stress Optimization Model (Crum et al., 2020). Expanding on these temporal
+   634→dynamics, cross-day exploratory analyses further indicated that high daily workload and high
+   635→positive affect predicted a reduction in stress utilization on the subsequent day, suggesting a
+   636→
+   637→25
+   638→potential reduction in regulatory engagement following high workload and high positive
+   639→affect days. Moreover, exploratory growth curve models suggested that workload increased
+   640→across study days, whereas the initial increase in utilization appeared to be largely attributable
+   641→to this concurrent increase in workload.
+   642→Some limitations and constraints on generality need to be considered when
+   643→interpreting the results of the present study. First, although recruitment via university e-mail
+   644→lists and research participation platforms may have introduced self-selection, several
+   645→observations speak against substantial bias: mean stress-belief scores closely matched those
+   646→reported in prior student samples; course hours, perceived workload, and social stress fell
+   647→within typical student ranges; and the proportion with elevated psychological symptoms
+   648→approximated rates observed in student population studies. Nevertheless, as typically seen in
+   649→studies using online recruitment, participants predominantly identified as female, thus limiting
+   650→the ecological validity for individuals of male gender. Future studies should replicate these
+   651→findings in other populations and, ideally, in population-representative samples to more
+   652→clearly establish generalizability. Although the EMA design resulted in 1939 data points
+   653→among 104 participants, considering the conservative approach to multiple testing, the power
+   654→of this study for detecting small effects is limited. Larger studies are needed to investigate
+   655→smaller potential effects between stress beliefs and daily stress regulation strategies. The main
+   656→strengths of the current study lie in the assessment of naturalistic stress processes on a daily
+   657→basis. This design enabled the study of stress beliefs outside of the lab, while at the same time
+   658→reducing recall bias compared to studies assessing self-report of stress variables
+   659→retrospectively over several days. Specifically, the current study applied an interval contingent
+   660→coverage EMA approach, prompting participants to report on stressors, affect and stress
+   661→regulation strategies for the preceding 4 hours 3 times a day. This approach was chosen to
+   662→minimize the likelihood of missing stressors, which occur less frequently (a common
+   663→limitation of random sampling), while also avoiding the moment selection bias inherent to
+   664→
+   665→26
+   666→event-contingent sampling—namely, the high likelihood of participants being unable or
+   667→unwilling to self-initiate a survey during acute stress (Stone et al., 2023; Vaessen et al., 2023).
+   668→Furthermore, in contrast to purely event-contingent designs, this interval-based approach
+   669→enables the assessment of base rates for the variables of interest during non-stressor periods,
+   670→which is essential for distinguishing stress-related changes from normal daily variations
+   671→(Shiffman et al., 2008). However, this coverage approach introduces potential recall bias, as it
+   672→captures short-term retrospective reporting of a 4-hour window rather than strictly momentary
+   673→states (Shiffman et al., 2008). Although coverage EMA approaches are frequently used, it
+   674→currently remains unclear how participants cognitively aggregate their experiences over such
+   675→extended timeframes, meaning some degree of retrospective distortion cannot be completely
+   676→ruled out (Stone et al., 2023). To address these methodological trade-offs, future research
+   677→could benefit from combining event-contingent sampling with an interval-based coverage
+   678→approach. Such a hybrid design would allow for the immediate assessment of acute stress
+   679→reactions whenever feasible, while utilizing the coverage intervals as a fallback to capture
+   680→missed events and maintain essential base rate assessments. Finally, to minimize participant
+   681→burden during the high-frequency sampling protocol, two constraints regarding stressor
+   682→measurement should be noted. First, the PDD assessed the extent of stressor occurrence rather
+   683→than direct stressor intensity. Although prior research using the PDD indicates that these
+   684→occurrence ratings are strongly associated with subjective stress intensity (Laferton et al.,
+   685→2020), a direct momentary measure might have provided further insights. Second, as open-
+   686→ended qualitative data were not collected, the specific nature of the events that participants
+   687→classified as social or workload stressors remains unclear. Future research could incorporate
+   688→brief qualitative assessments to disentangle how specific subtypes of stressors might
+   689→differentially interact with stress beliefs. Third, as an additional constraint to minimize
+   690→participant burden, only one end of the regulatory spectrum was assessed for each stress
+   691→regulation strategy. Specifically, situation selection was measured solely via avoidance
+   692→
+   693→27
+   694→(omitting approach-oriented behavior), and response modification was measured solely via
+   695→utilization (omitting attempts to minimize the stress response). Future studies should
+   696→incorporate the full spectrum of these domains, including approach and minimization
+   697→strategies, to capture a more comprehensive picture of stress regulation. A further limitation is
+   698→the exclusive reliance on self-reported data. Although the EMA design minimizes
+   699→retrospective recall biases, subjective reports of stress regulation and stressor occurrence
+   700→remain susceptible to individual reporting biases. Future studies should therefore aim to
+   701→incorporate objective behavioral markers, such as digital phenotyping or physiological
+   702→correlates, to corroborate these findings.
+   703→In conclusion, this seven-day EMA study shows that stress beliefs moderate affective
+   704→responses to real-life work and social stressors. Together with prior evidence, these findings
+   705→provide compelling convergent support that stress beliefs shape affect under stress —
+   706→identifying them as a promising intervention target, particularly given established links
+   707→between affect and long-term health. By contrast, we did not observe concurrent associations
+   708→with stress regulation strategies; nevertheless, the present results warrant focused,
+   709→preregistered tests using EMA designs that separate anticipatory and reactive phases and
+   710→incorporate event-related sampling to more sensitively detect potential stress beliefs–stress
+   711→regulation pathways.
+   712→Acknowledgements
+   713→The authors would like to thank Rachel Betteridge, Alena Kuhlee, Jörn Petersen,
+   714→Louisa Schömann, Luna Wille and Marie Funke for their valuable support during the data
+   715→collection process. Stefanie Kunas und Stefan Salzmann were supported by the peer
+   716→mentoring program of the German Society for Behavioral Medicine (DGVM).
+   717→Compliance with ethical standards
+   718→
+   719→28
+   720→The study was approved by the institutional review board of HMU Health and
+   721→Medical University Potsdam. All procedures performed were in accordance with the ethical
+   722→standards of the institutional research committee and with the 1946 Helsinki declaration and
+   723→its later amendments. All participants provided written informed consent.
+   724→References
+   725→Aldao, A., Nolen-Hoeksema, S., & Schweizer, S. (2010). Emotion-regulation strategies across
+   726→psychopathology: A meta-analytic review. Clinical Psychology Review, 30(2), 217–
+   727→237. https://doi.org/10.1016/j.cpr.2009.11.004
+   728→Almeida, D. M. (2005). Resilience and Vulnerability to Daily Stressors Assessed via Diary
+   729→Methods. Current Directions in Psychological Science, 14(2), 64–68.
+   730→Almeida, D. M., Wethington, E., & Kessler, R. C. (2002). The Daily Inventory of Stressful
+   731→Events: An interview-based approach for measuring daily stressors. Assessment, 9(1),
+   732→41–55. https://doi.org/10.1177/1073191102091006
+   733→Bai, C., Bai, B., Zhang, H., & Zheng, J. (2025). How Do Control Beliefs About Stress Relate
+   734→to Depressive Symptoms in Chinese Healthcare Workers: The Mediating Role of
+   735→Optimism and Cognitive Reappraisal. International Journal of Mental Health and
+   736→Addiction, 23(4), 3283–3298. https://doi.org/10.1007/s11469-024-01292-2
+   737→Bai, C., Ma, J., & Bai, B. (2024). How does strength use relate to burnout among Chinese
+   738→healthcare professionals? Exploring the mediating roles of beliefs about stress and
+   739→basic psychological needs satisfaction. BMC Nursing, 23, 222.
+   740→https://doi.org/https://doi.org/10.1186/s12912-024-01860-w
+   741→Beltzer, M. L., Nock, M. K., Peters, B. J., & Jamieson, J. P. (2014). Rethinking butterflies:
+   742→The affective, physiological, and performance effects of reappraising arousal during
+   743→social evaluation. Emotion, 14, 761–768. https://doi.org/10.1037/a0036326
+   744→
+   745→29
+   746→Bolger, N., DeLongis, A., Kessler, R. C., & Schilling, E. a. (1989). Effects of daily stress on
+   747→negative mood. Journal of personality and social psychology, 57(5), 808–818.
+   748→Bolger, N., & Schilling, E. A. (1991). Personality and the Problems of Everyday Life: The
+   749→Role of Neuroticism in Exposure and Reactivity to Daily Stressors. Journal of
+   750→Personality, 59(3), 355–386.
+   751→Brooks, A. W. (2014). Get excited: Reappraising pre-performance anxiety as excitement.
+   752→Journal of Experimental Psychology: General, 143(3), 1144–1158.
+   753→https://doi.org/10.1037/a0035325
+   754→Casper, A., Sonnentag, S., & Tremmel, S. (2017). Mindset matters: The role of employees’
+   755→stress mindset for day-specific reactions to workload anticipation. European Journal
+   756→of Work and Organizational Psychology, 26(6), 798–810.
+   757→https://doi.org/10.1080/1359432X.2017.1374947
+   758→Cohen, S., Kamarck, T., & Mermelstein, R. (1983). A Global Measure of Perceived Stress.
+   759→Journal of Health and Social Behavior, 24(4), 385. https://doi.org/10.2307/2136404
+   760→Crum, A. J., Akinola, M., Martin, A., & Fath, S. (2017). The role of stress mindset in shaping
+   761→cognitive, emotional, and physiological responses to challenging and threatening
+   762→stress. Anxiety, Stress and Coping, 30(4), 379–395.
+   763→https://doi.org/10.1080/10615806.2016.1275585
+   764→Crum, A. J., Jamieson, J. P., & Akinola, M. (2020). Optimizing stress: An integrated
+   765→intervention for regulating stress responses. Emotion, 20(1), 120–125.
+   766→https://doi.org/10.1037/emo0000670
+   767→Crum, A. J., Salovey, P., & Achor, S. (2013). Rethinking stress: The role of mindsets in
+   768→determining the stress response. Journal of personality and social psychology, 104(4),
+   769→716–733. https://doi.org/10.1037/a0031201
+   770→
+   771→30
+   772→Daniels, K., Hartley, R., & Travers, C. J. (2006). Beliefs about stressors alter stressors’
+   773→impact: Evidence from two experience-sampling studies. Human Relations, 59(9),
+   774→1261–1285. https://doi.org/10.1177/0018726706069768
+   775→DeSteno, D., Gross, J. J., & Kubzansky, L. (2013). Affective Science and Health: The
+   776→Importance of Emotion and Emotion Regulation. Health Psychology, 32(5), 474–486.
+   777→https://doi.org/http://dx.doi.org/10.1037/a0030259
+   778→Dickerson, S. S., & Kemeny, M. E. (2004). Acute Stressors and Cortisol Responses: A
+   779→Theoretical Integration and Synthesis of Laboratory Research. 130(3), 355–391.
+   780→https://doi.org/10.1037/0033-2909.130.3.355
+   781→Diener, E., Pressman, S. D., Hunter, J., & Delgadillo-Chase, D. (2017). If, Why, and When
+   782→Subjective Well-Being Influences Health, and Future Needed Research. Applied
+   783→Psychology: Health and Well-Being, 9(2), 133–167.
+   784→https://doi.org/10.1111/aphw.12090
+   785→Digutsch, J., Koch, T. J. S., & Diestel, S. (2022). Affective Shifts During Off-Job Time and
+   786→Next-Day Subjective Vitality: The Moderating Role of Positive Stress Beliefs.
+   787→PsyArXiv. https://doi.org/https://doi.org/10.31234/osf.io/hp45b
+   788→Fischer, S., Nater, U. M., & Laferton, J. A. C. (2016). Negative Stress Beliefs Predict Somatic
+   789→Symptoms in Students Under Academic Stress. International Journal of Behavioral
+   790→Medicine, 23, 746–751. https://doi.org/10.1007/s12529-016-9562-y
+   791→Florean, I., Marcatto, F., & Trentin, S. (2025). Validation of the Stress Mindset Measure (
+   792→SMM ) in an Italian sample: Practical utility of a short version. Journal of Health and
+   793→Social Sciences, 10(2), 185–201. https://doi.org/10.19204/2025/VLDT5
+   794→German Ministry of Education and Research. (2017). Studiensituation und studentische
+   795→Orientierung—Zusammenfassung zum 13. Studierendensurvey an Universitäten und
+   796→Fachhochschulen [13th Student Survey at Universities and Universities of Applied
+   797→Sciences].
+   798→
+   799→31
+   800→Gross, J. J., Uusberg, H., & Uusberg, A. (2019). Mental illness and well-being: An affect
+   801→regulation perspective. World Psychiatry, 18(2), 130–139.
+   802→https://doi.org/10.1002/wps.20618
+   803→Grünenwald, I., Kaluza, A. J., Schultze, M., & van Dick, R. (2023). Stress Mindset and Social
+   804→Identification in Chronic Pain Patients and Their Relationship to Coping, Well-Being
+   805→& Depression. Journal of Clinical Psychology in Medical Settings, 30(1), 153–168.
+   806→https://doi.org/10.1007/s10880-022-09883-8
+   807→Harris, C., & Daniels, K. (2005). Daily affect and daily beliefs. Journal of Occupational
+   808→Health Psychology, 10(4), 415–428. https://doi.org/10.1037/1076-8998.10.4.415
+   809→Harris, C., & Daniels, K. (2007). The role of appraisal-related beliefs in psychological well-
+   810→being and physical symptom reporting. European Journal of Work and Organizational
+   811→Psychology, 16(4), 407–431. https://doi.org/10.1080/13594320701506054
+   812→Ibrahim, A. K., Kelly, S. J., Adams, C. E., & Glazebrook, C. (2013). A systematic review of
+   813→studies of depression prevalence in university students. Journal of Psychiatric
+   814→Research, 47(3), 391–400. https://doi.org/10.1016/j.jpsychires.2012.11.015
+   815→Iwamoto, K., Takehashi, H., & Taka, F. (2020). Reliability and validity of a Japanese
+   816→translation of the Stress Mindset Measure (SMM-J). The Japanese Journal of
+   817→Psychology, 9(6), 592–602. https://doi.org/https://doi.org/10.4992/jjpsy.90.18229
+   818→Jamieson, J. P., Crum, A. J., Goyer, J. P., Marotta, M. E., & Akinola, M. (2018). Optimizing
+   819→stress responses with reappraisal and mindset interventions: An integrated model.
+   820→Anxiety, Stress and Coping, 31(3), 245–261.
+   821→https://doi.org/10.1080/10615806.2018.1442615
+   822→Jamieson, J. P., Hangen, E. J., Lee, H. Y., & Yeager, D. S. (2018). Capitalizing on Appraisal
+   823→Processes to Improve Affective Responses to Social Stress. Emotion Review, 10, 30–
+   824→39. https://doi.org/10.1177/1754073917693085
+   825→
+   826→32
+   827→Jamieson, J. P., Mendes, W. B., Blackstock, E., & Schmader, T. (2010). Turning the knots in
+   828→your stomach into bows: Reappraising arousal improves performance on the GRE.
+   829→Journal of Experimental Social Psychology, 46(1), 208–212.
+   830→https://doi.org/10.1016/j.jesp.2009.08.015
+   831→Jamieson, J. P., Mendes, W., & Nock, M. K. (2013). Improving Acute Stress Responses: The
+   832→Power of Reappraisal. Current Directions in Psychological Science, 22(1), 51–56.
+   833→https://doi.org/10.1177/0963721412461500
+   834→Karampas, K., Pezirkianidis, C., & Stalikas, A. (2020). Psychometric Properties of the Stress
+   835→Mindset Measure (SMM) in a Greek Sample. Psychology, 11(08), 1185–1199.
+   836→https://doi.org/10.4236/psych.2020.118079
+   837→Keech, J. J., Cole, K. L., Hagger, M. S., & Hamilton, K. (2020). The association between
+   838→stress mindset and physical and psychological wellbeing: Testing a stress beliefs
+   839→model in police officers. Psychology & Health, 35(11), 1306–1325.
+   840→https://doi.org/10.1080/08870446.2020.1743841
+   841→Keech, J. J., Hagger, M. S., O’Callaghan, F. V., & Hamilton, K. (2018). The Influence of
+   842→University Students’ Stress Mindsets on Health and Performance Outcomes. Annals of
+   843→Behavioral Medicine, 52, 1046–1059. https://doi.org/10.1093/abm/kay008
+   844→Keller, A., Litzelman, K., Wisk, L. E., Maddox, T., Cheng, E. R., Creswell, P. D., & Witt, W.
+   845→P. (2012). Does the perception that stress affects health matter? The association with
+   846→health and mortality. Health psychology, 31(5), 677–684.
+   847→https://doi.org/10.1037/a0026743
+   848→Kerber, A., Zimmermann, J., Ehrenthal, J. C., Brose, A., Nolte, T., Burchert, S., Heinzmann,
+   849→S., Beintner, I., & Knaevelsrud, C. (2026). The interplay of personality functioning
+   850→and affect–event dynamics in predicting future impairment and depression: A large
+   851→mobile mental health ambulatory assessment study. Journal of Psychopathology and
+   852→Clinical Science, 135(1), 136–157. https://doi.org/10.1037/abn0001050
+   853→
+   854→33
+   855→Kilby, C. J., Sherman, K. A., & Wuthrich, V. M. (2020). A Scoping Review of Stress Beliefs:
+   856→Literature Integration, Measurement Issues, and Theoretical Concerns. Annals of
+   857→Behavioral Medicine, 54(8), 595–610. https://doi.org/10.1093/abm/kaaa006
+   858→Kilby, C. J., Sherman, K. A., & Wuthrich, V. M. (2022). Believing is seeing: Development
+   859→and validation of the STRESS (Subjective Thoughts REgarding Stress Scale) for
+   860→measuring stress beliefs. Personality and Individual Differences, 190, 111535.
+   861→https://doi.org/10.1016/j.paid.2022.111535
+   862→Kroenke, K., Spitzer, R. L., Williams, J. B. W., & Löwe, B. (2010). The Patient Health
+   863→Questionnaire Somatic, Anxiety, and Depressive Symptom Scales: A systematic
+   864→review. General Hospital Psychiatry, 32(4), 345–359.
+   865→https://doi.org/10.1016/j.genhosppsych.2010.03.006
+   866→Laferton, J. A. C., & Fischer, S. (2021). Changing Beliefs About Stress (C-BAS): A Pilot
+   867→Randomized Wait-List-Controlled Trial Optimizing Stress Beliefs in University
+   868→Students. International Journal of Behavioral Medicine, 28(SUPPL 1), S96.
+   869→Laferton, J. A. C., Fischer, S., Ebert, D. D., Stenzel, N. M., & Zimmermann, J. (2020). The
+   870→effects of stress beliefs on daily affective stress responses. Annals of Behavioral
+   871→Medicine, 54(4), 258–267. https://doi.org/10.1093/abm/kaz046
+   872→Laferton, J. A. C., Schiller, S., Conrad, D., Fischer, D., & Zimmermann-Viehoff, F. (2024).
+   873→Stress beliefs moderate the impact of COVID-19 related work stress on depressive,
+   874→anxiety and distress symptoms in health care workers. Stress and Health, 40(4),
+   875→e3410. https://doi.org/10.1002/smi.3410
+   876→Laferton, J. A. C., Stenzel, N. M., & Fischer, S. (2018). The Beliefs About Stress Scale
+   877→(BASS): Development, Reliability, and Validity. International Journal of Stress
+   878→Management, 25, 72–83.
+   879→Lazarus, R. S., & Folkman, S. (1984). Stress, appraisal and coping. Springer.
+   880→
+   881→34
+   882→Leger, K. A., Lee, S., Chandler, K. D., Almeida, D. M., Leger, K. A., Lee, S., Chandler, K.
+   883→D., & Almeida, D. M. (2021). Effects of a Workplace Intervention on Daily Stressor
+   884→Reactivity Effects of a Workplace Intervention on Daily Stressor Reactivity.
+   885→Ma, J., Luo, X., & Hu, Y. (2025). Positive Stress Mindset Is Vulnerable: Unpacking the
+   886→Internal System and External Loop of Dynamic Stress Mindset. Stress and Health,
+   887→41(4). https://doi.org/10.1002/smi.70089
+   888→McEwen, B. S. (1998). Protective and Damaging Effects of Stress Mediators. New England
+   889→Journal of Medicine, 338, 171–179.
+   890→Nabi, H., Kivimäki, M., Batty, G. D., Shipley, M. J., Britton, A., Brunner, E. J., Vahtera, J.,
+   891→Lemogne, C., Elbaz, A., & Singh-Manoux, A. (2013). Increased risk of coronary heart
+   892→disease among individuals reporting adverse impact of stress on their health: The
+   893→Whitehall II prospective cohort study. European heart journal, 34(34), 2697–2705.
+   894→https://doi.org/10.1093/eurheartj/eht216
+   895→O’Connor, D. B., Thayer, J. F., & Vedhara, K. (2021). Stress and Health: A Review of
+   896→Psychobiological Processes. Annual Review of Psychology, 72, 663–688.
+   897→https://doi.org/10.1146/annurev-psych-062520-122331
+   898→Park, D. (2022). Method Effects and Measurement Invariance Testing for Korean Stress
+   899→Mindset Scale. Korean Jounal of Industrial Organizational Psychology, 35(2), 89–
+   900→111.
+   901→Park, D., Yu, A., Metz, S. E., Tsukayama, E., Crum, A. J., & Duckworth, A. L. (2018).
+   902→Beliefs About Stress Attenuate the Relation Among Adverse Life Events, Perceived
+   903→Distress, and Self-Control. Child Development, 89(6), 2059–2069.
+   904→https://doi.org/10.1111/cdev.12946
+   905→Pressman, S. D., Jenkins, B. N., & Moskowitz, J. T. (2018). Positive Affect and Health: What
+   906→Do We Know and Where Next Should We Go? Annual Review of Psychology, 70(1),
+   907→627–650. https://doi.org/10.1146/annurev-psych-010418-102955
+   908→
+   909→35
+   910→R Core Team. (2023). R: A Language and Environment for Statistical Computing. R
+   911→Foundation for Statistical Computing. https://www.r-project.org/
+   912→Ramirez, V., Delgadillo, D. R., Martin, L. T., & Pressman, S. D. (2025). Physiological
+   913→Pathways Connecting Positive Affect and Health. In The Palgrave Handbook of
+   914→Positive Psychology and Health (S. 35–72). Springer Nature Switzerland.
+   915→https://doi.org/10.1007/978-3-031-89095-6_3
+   916→Rubin, M. (2021). When to adjust alpha during multiple testing: A consideration of
+   917→disjunction, conjunction, and individual testing. Synthese, 199(3–4), 10969–11000.
+   918→https://doi.org/10.1007/s11229-021-03276-4
+   919→Rush, J., & Hofer, S. M. (2014). Differences in within- and between-person factor structure of
+   920→positive and negative affect: Analysis of two intensive measurement studies using
+   921→multilevel structural equation modeling. Psychological Assessment, 26(2), 462–473.
+   922→https://doi.org/10.1037/a0035666
+   923→Salovey, P., Rothman, A. J., Detweiler, J. B., & Steward, W. T. (2000). Emotional states and
+   924→physical health. American Psychologist, 55(1), 110–121. https://doi.org/10.1037/0003-
+   925→066X.55.1.110
+   926→Schmalbach, B., Schmalbach, I., Laferton, J. A. C., Strauß, B., Fegert, J. M., Brähler, E., &
+   927→Petrowski, K. (2025). Psychometric Evaluation of the Beliefs About Stress Scale in
+   928→the German General Population. International Journal of Methods in Psychiatric
+   929→Research, 34(2), 1–11. https://doi.org/10.1002/mpr.70026
+   930→Sheets, E. S., & Armey, M. F. (2020). Daily Interpersonal and Noninterpersonal Stress
+   931→Reactivity in Current and Remitted Depression. Cognitive Therapy and Research,
+   932→44(4), 774–787. https://doi.org/10.1007/s10608-020-10096-2
+   933→Shiffman, S., Stone, A. A., & Hufford, M. R. (2008). Ecological momentary assessment.
+   934→Annual Review of Clinical Psychology, 4, 1–32.
+   935→https://doi.org/10.1146/annurev.clinpsy.3.022806.091415
+   936→
+   937→36
+   938→Sin, N. L. (2016). The Protective Role of Positive Well-Being in Cardiovascular Disease:
+   939→Review of Current Evidence, Mechanisms, and Clinical Implications. Current
+   940→Cardiology Reports, 18(11), 106. https://doi.org/10.1007/s11886-016-0792-z
+   941→Stone, A. A., Schneider, S., & Smyth, J. M. (2023). Evaluation of Pressing Issues in
+   942→Ecological Momentary Assessment. Annual Review of Clinical Psychology, 19, 107–
+   943→131. https://doi.org/10.1146/annurev-clinpsy-080921-083128
+   944→Tedadi, Y., Daryani, Y., & Karsazi, H. (2022). Psychometric properties and factorial
+   945→invariance of the Farsi version of the Stress Mindset Measure. Frontiers in
+   946→Psychology, 13, 945673. https://doi.org/10.3389/fpsyg.2022.945673
+   947→Thompson, E. R. (2007). Development and validation of an internationally reliable short-form
+   948→of the Positive and Negative Affect Schedule (PANAS). Journal of Cross-Cultural
+   949→Psychology, 38(2), 227–242. https://doi.org/10.1177/0022022106297301
+   950→Vaessen, T., Reininghaus, U., & Myin-Germeys, I. (2023). Stress Assessment in Daily Life
+   951→Using the Experience Sampling Method. In The Palgrave Handbook of Occupational
+   952→Stress (S. 117–136). Springer International Publishing. https://doi.org/10.1007/978-3-
+   953→031-27349-0_7
+   954→Watson, D., Clark, L. a, & Tellegen, A. (1988). Development and validation of brief measures
+   955→of positive and negative affect: The PANAS scales. Journal of personality and social
+   956→psychology, 54(6), 1063–1070.
+   957→Wekenborg, M. K., von Dawans, B., Gienger, N. T., Wierick, A., Weitz, J., & Dobroschke, J.
+   958→C. (2024). Beliefs about stress moderate the association between COVID‐19‐related
+   959→work demands and burnout symptoms in physicians. Stress and Health, 40(1).
+   960→https://doi.org/10.1002/smi.3278
+   961→Yeager, D. S., Bryan, C. J., Gross, J. J., Murray, J. S., Krettek Cobb, D., H. F. Santos, P.,
+   962→Gravelding, H., Johnson, M., & Jamieson, J. P. (2022). A synergistic mindsets
+   963→
+   964→37
+   965→intervention protects adolescents from stress. Nature, 607(7919), 512–520.
+   966→https://doi.org/10.1038/s41586-022-04907-7
+   967→Zeng, W., Ma, S., Xu, Y., & Wang, R. (2024). The roles of stress mindset and personality in
+   968→the impact of life stress on emotional well-being in the context of Covid-19
+   969→confinement: A diary study. Applied Psychology: Health and Well-Being, (July 2023),
+   970→1–19. https://doi.org/10.1111/aphw.12521
+   971→Zhang, N., Bai, B., & Zhu, J. (2022). Stress Mindset, Proactive Coping Behavior, and
+   972→Posttraumatic Growth Among Health Care Professionals During the COVID-19
+   973→Pandemic. Psychological Trauma: Theory, Research, Practice, and Policy, 15(3),
+   974→515–523. https://doi.org/10.1037/tra0001377
+   975→Zimmermann, J., Woods, W., Ritter, S., Happel, M., Masuhr, O., Jaeger, U., Spitzer, C., &
+   976→Wright, A. (2019). Integrating structure and dynamics in personality assessment: First
+   977→steps toward the development and validation of a Personality Dynamics Diary.
+   978→Psychological Assessment, 31, 516–531. https://doi.org/10.1037/pas0000625
+   979→
+   980→38
+   981→Tables
+   982→Table 1
+   983→Sample Characteristics
+   984→Baseline Characteristics
+   985→Age M (SD) 22.16 (3.13)
+   986→Gender, female f (%) a 71 (68.3)
+   987→Nationality German f (%) 100 (96.2)
+   988→Subject of study f (%)
+   989→Arts and Social Sciences 23 (22.1)
+   990→Law, Economics, Sociology 5 (4.8)
+   991→Medicine, Health Sciences 34 (32.7)
+   992→STEM, Engineering 25 (24.0)
+   993→Other 17 (16.3)
+   994→h courses per week M (SD) 22.43 (12.48)
+   995→Part-time job f (%) 66 (36.5)
+   996→PHQ-9 M (SD) 6.83 (3.95)
+   997→>=10 f (%) 22 (21.1%)
+   998→GAD-7 M (SD) 5.67 (3.8)
+   999→>=10 f (%) 14 (13.5%)
+  1000→Stress Beliefs (BASS) M (SD)
+  1001→Negative Stress Beliefs (BASS-N) 23.40 (3.88)
+  1002→Positive Stress Beliefs (BASS-P) 10.80 (2.97)
+  1003→Controllability Beliefs (BASS-C) 9.75 (1.56)
+  1004→EMA Stress Variables
+  1005→Workload M (SD) 0.75 (0.86)
+  1006→Social Stress M (SD) 0.18 (0.41)
+  1007→Negative affect M (SD) 6.77 (2.53)
+  1008→Positive affect M (SD) 14.59 (4.13)
+  1009→Response modification (utilize) M (SD) 1.93 (1.16)
+  1010→Situation selection (avoidance)M (SD) 1.76 (1.10)
+  1011→Notes. a 0 participants identified as ‘other’, 33 as male.
+  1012→
+  1013→39
+  1014→Table 2
+  1015→Hierarchical linear model of stress beliefs (Level 2) predicting variables of the daily stress process (Level 1).
+  1016→Estimate SE df t p 99%-CI Estimate SE df t p 99%-CI
+  1017→Workload (PDD-W) Social Stress (PDD-SS)
+  1018→BASS-N 0.00 0.01 106.12 0.04 .969 -0.03 0.03 0.01 0.01 104.42 1.45 .151 -0.01 0.02
+  1019→BASS-C -0.02 0.03 100.18 0.62 .535 -0.09 0.06 0.00 0.01 98.44 0.05 .960 -0.03 0.03
+  1020→BASS-P 0.01 0.02 101.86 0.83 .411 -0.03 0.05 -0.01 0.01 100.45 1.26 .210 -0.03 0.01
+  1021→Situation selection (avoidance) Response modification (utilize)
+  1022→BASS-N 0.01 0.02 105.96 0.96 .339 -0.02 0.06 -0.03 0.02 105.56 -1.62 .107 -0.07 0.02
+  1023→BASS-C -0.05 0.04 99.76 -1.44 .153 -0.15 0.04 -0.00 0.04 99.49 -0.03 .980 -0.11 0.11
+  1024→BASS-P 0.01 0.02 101.35 0.27 .790 -0.04 0.06 0.04 0.02 101.18 2.12 .037 -0.01 0.10
+  1025→Negative Affect (PANAS-N) Positive Affect (PANAS-P)
+  1026→BASS-N 0.06 0.04 104.16 1.32 .189 -0.05 0.17 -0.10 0.06 103.80 1.60 .113 -0.26 0.06
+  1027→BASS-C -0.09 0.10 98.88 0.88 .382 -0.34 0.18 0.31 0.15 97.53 2.08 .040 -0.08 0.69
+  1028→BASS-P -0.04 0.05 100.53 0.77 .445 -0.17 0.09 0.14 0.08 99.73 1.74 .084 -0.07 0.34
+  1029→Notes. Correcting for multiple testing only p < .0027 is considered statistically significant (see Supplement 1). Complete details on the hierarchical linear models can be seen in
+  1030→Supplement 2.
+  1031→
+  1032→40
+  1033→Table 3
+  1034→Hierarchical linear model of stress beliefs (Level 2) moderating associations of within- and between-person stress with daily affect and (Level 1).
+  1035→Estimate SE df t p 99%-CI Estimate SE df t p 99%-CI
+  1036→Negative Affect (PANAS-N) Positive Affect (PANAS-P)
+  1037→BASS-N* between person Workload 0.14 0.08 102.94 1.80 .075 -0.06 0.33 0.09 0.13 103.51 0.75 .454 -0.21 0.40
+  1038→BASS-N* within person Workload 0.01 0.02 1837.06 0.64 .524 -0.04 0.06 -0.08 0.03 1837.81 2.51 .012 -0.18 0.00
+  1039→BASS-C* between person Workload -0.51 0.17 98.44 2.92 .004 -0.98 -0.06 0.15 0.29 97.16 0.51 .614 -0.61 0.88
+  1040→BASS-C* within person Workload 0.04 0.04 1838.03 1.00 .316 -0.07 0.14 0.11 0.07 1836.96 1.58 .115 -0.07 0.27
+  1041→BASS-P* between person Workload -0.03 0.12 100.66 0.27 .789 -0.37 0.28 0.06 0.20 99.69 0.33 .744 -0.43 0.55
+  1042→BASS-P* within person Workload 0.02 0.02 1838.16 0.92 .358 -0.04 0.08 0.02 0.04 1837.46 0.42 .672 -0.09 0.12
+  1043→BASS-N* between person Social Stress 0.24 0.17 118.43 1.44 .154 -0.20 0.69 0.23 0.33 116.64 0.71 .482 -0.64 1.10
+  1044→BASS-N* within person Social Stress -0.02 0.03 1839.16 0.64 .521 -0.10 0.06 - 0.17 0.06 1837.98 -2.89 .004 -0.31 -0.01
+  1045→BASS-C* between person Social Stress -0.13 0.41 102.08 0.32 .749 -1.15 0.96 -0.17 0.79 100.04 0.21 .835 -2.22 1.87
+  1046→BASS-C* within person Social Stress -0.35 0.08 1839.20 4.26 <0.001 -0.56 -0.14 0.17 0.15 1837.20 1.09 .274 -0.23 0.55
+  1047→BASS-P* between person Social Stress -0.46 0.20 102.66 2.28 .025 -0.95 0.06 -0.16 0.40 101.02 0.39 .696 -1.21 0.90
+  1048→BASS-P* within person Social Stress 0.06 0.04 1839.35 1.66 .098 -0.03 0.17 0.11 0.07 1837.78 1.57 .117 -0.07 0.29
+  1049→Situation selection (avoidance) Response modification (utilize)
+  1050→BASS-N* between person Workload -0.04 0.03 105.19 -1.19 0.237 -0.11 0.04 -0.01 0.03 104.82 -0.40 0.689 -0.08 0.06
+  1051→BASS-N* within person Workload 0.01 0.01 1840.01 1.34 0.181 -0.01 0.04 0.00 0.01 1839.77 0.18 0.860 -0.02 0.02
+  1052→BASS-C* between person Workload 0.07 0.07 99.19 1.10 0.275 -0.10 0.25 0.07 0.06 99.13 1.09 0.277 -0.10 0.24
+  1053→BASS-C* within person Workload 0.03 0.02 1839.59 1.36 0.173 -0.02 0.08 0.02 0.02 1839.57 0.20 0.230 -0.03 0.07
+  1054→BASS-P* between person Workload 0.07 0.05 101.61 1.46 0.147 -0.05 0.18 0.00 0.04 101.35 0.09 0.931 -0.11 0.12
+  1055→BASS-P* within person Workload -0.02 0.01 1839.83 -2.15 0.031 -0.05 0.01 0.02 0.01 1839.65 2.13 0.034 0.00 0.05
+  1056→BASS-N* between person Social Stress -0.00 0.08 119.49 -0.02 0.984 -0.20 0.19 0.02 0.09 118.53 0.20 0.843 -0.19 0.24
+  1057→BASS-N* within person Social Stress -0.00 0.02 1839.85 -0.35 0.724 -0.05 0.04 -0.01 0.02 1839.21 -0.41 0.683 -0.05 0.04
+  1058→BASS-C* between person Social Stress -0.15 0.19 103.00 -0.78 0.440 -0.64 0.34 -0.20 0.21 102.37 -0.92 0.362 -0.75 0.36
+  1059→BASS-C* within person Social Stress -0.08 0.04 1839.98 -1.94 0.053 -0.19 0.03 0.05 0.04 1839.47 1.04 0.297 -0.07 0.16
+  1060→BASS-P* between person Social Stress 0.08 0.10 103.19 0.81 0.419 -0.17 0.33 0.02 0.10 102.73 0.23 0.816 -0.24 0.30
+  1061→BASS-P* within person Social Stress 0.03 0.02 1839.82 1.48 0.138 -0.02 0.08 0.00 0.02 1839.42 0.14 0.892 -0.05 0.06
+  1062→Notes. Bold faced effects are statistically significant after correcting for multiple testing per prespecified hypothesis (see Supplement 1 for details). Complete details on the hierarchical linear models can be seen in Supplement 2.
+  1063→
+  1064→41
+  1065→Figures
+  1066→
+  1067→42
+  1068→Figure 1. Negative stress beliefs moderate positive affect in response to social stress (A)
+  1069→and workload (B), and controllability beliefs moderate negative affect in response to social
+  1070→stress (C); lines depict model predictions, shaded bands indicate 95% confidence intervals.
+  1071→
+  1072→43
+  1073→Figure captions
+  1074→Figure 1. Negative stress beliefs moderate positive affect in response to social stress (A) and
+  1075→workload (B), and controllability beliefs moderate negative affect in response to social stress
+  1076→(C); lines depict model predictions, shaded bands indicate 95% confidence intervals.
+  1077→
+  1078→

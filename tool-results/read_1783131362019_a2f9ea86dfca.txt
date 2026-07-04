@@ -1,0 +1,632 @@
+     1→Digitized and AI-Assisted Scoring of Cognitive Assessments
+     2→in ALS and Neurodegenerative Diseases: A Scoping Review
+     3→of Consistency, Reliability, and Cross-Site Applicability
+     4→Indu Navar Bingham¹*, Anusha Rao², Natalia Luchkina², Sharon
+     5→Abrahams⁴, Ammar Al-Chalabi¹
+     6→1. King's College London, London, United Kingdom
+     7→2. EverythingALS, Los Altos, United States
+     8→2. University of Edinburgh, Edinburgh, United Kingdom
+     9→*Corresponding author: Indu Navar Bingham, k24077224@kcl.ac.uk
+    10→Abstract
+    11→Background. Standardized cognitive assessment across clinical sites remains a major
+    12→challenge in amyotrophic lateral sclerosis (ALS) and related neurodegenerative diseases. The
+    13→Edinburgh Cognitive and Behavioral ALS Screen (ECAS) is the most validated and widely-used
+    14→ALS-specific cognitive assessment tool, yet paper-and-pencil manual scoring introduces
+    15→inter-rater variability that can significantly limit reliability and reproducibility in multi-site clinical
+    16→trials. Digitized administration and artificial intelligence-assisted scoring may improve
+    17→consistency and scalability, but the current landscape across ALS and related diseases has not
+    18→been systematically mapped.
+    19→Objective. To map existing evidence on digitized and AI-assisted scoring of cognitive
+    20→assessments in ALS and other neurodegenerative and neuroinflammatory diseases, with
+    21→emphasis on inter-rater reliability and cross-site consistency.
+    22→Methods. We conducted a comprehensive scoping review following Preferred Reporting Items
+    23→for Systematic Reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR)
+    24→guidelines. Eligible studies evaluated neuropsychological or cognitive assessment tools using
+    25→automated, computerized, digital, or AI-assisted scoring in ALS and related conditions, including
+    26→Alzheimer's disease, Parkinson's disease, multiple sclerosis, dementia, and neuroinflammatory
+    27→disease. An initial broad PubMed search was refined to focus on records explicitly addressing
+    28→automated or AI-assisted scoring in titles and abstracts. Records were loaded into Rayyan for
+    29→independent blinded review by three reviewers, with discrepancies resolved through discussion
+    30→until consensus was reached. Data were extracted using standardized templates.
+    31→Results. The initial search identified 1,503 records and was refined to 168 records. After
+    32→duplicate removal, 166 records underwent title, abstract, and full-text screening against
+    33→predefined inclusion and exclusion criteria. Seven primary studies met inclusion criteria: two in
+    34→multiple sclerosis, two in the Alzheimer's disease continuum, and three in dementia or mild
+    35→cognitive impairment. AI and digital approaches included tablet-based digitization with
+    36→automated scoring, convolutional neural networks, and large language models. All seven studies
+    37→reported high agreement with human or paper-based reference standards. No primary study
+    38→
+    39→evaluating AI-assisted scoring of the ECAS or ALS-specific cognitive screens was identified.
+    40→Conclusions. This review maps AI-assisted and digitized cognitive assessment scoring in
+    41→neurodegenerative and neuroinflammatory diseases. Findings reveal a critical gap in
+    42→ALS-specific cognitive tools and ECAS scoring. Methodological approaches from related
+    43→diseases, especially automated scoring of verbal and written responses, may inform future
+    44→development of standardized AI-assisted ECAS protocols. Such tools could improve
+    45→consistency, reliability, and scalability across multi-site ALS clinical trials.
+    46→Keywords: amyotrophic lateral sclerosis; ALS; cognitive assessment; ECAS; Edinburgh
+    47→Cognitive and Behavioral ALS Screen; artificial intelligence; large language model; automated
+    48→scoring; digitized assessment; inter-rater reliability; scoping review; neurodegenerative disease;
+    49→neuroinflammatory disease; natural language processing.
+    50→Introduction
+    51→Amyotrophic lateral sclerosis (ALS) can present with either bulbar or limb symptoms, and in
+    52→some cases both types of symptoms may be present. In addition, up to 50% of people with ALS
+    53→develop cognitive and/or behavioral impairment, with ~15% meeting criteria for frontotemporal
+    54→dementia spectrum involvement (Strong et al., 2017). The Edinburgh Cognitive and Behavioural
+    55→ALS Screen (ECAS) designed for ALS cognitive tool widely used in clinical and research settings
+    56→(Abrahams et al., 2014; Abrahams, 2023). However, cognitive assessment in ALS currently
+    57→conducted on paper either in person or via teleconferencing/phone, and relies on manual scoring
+    58→that may introduce significant inter-rater and intra-rater variability across multi-site studies.
+    59→Subjectivity in what is measured and how scores are recorded may lead to inconsistencies
+    60→across clinical sites and studies. This lack of scoring consistency and standardization is a central
+    61→and unaddressed challenge in ALS cognitive assessment.
+    62→At the same time, digital health technologies have matured to the point where high-frequency,
+    63→high-quality measures of speech, breathing, and motor function can be collected remotely in
+    64→people living with ALS at the comfort of their homes. These digital biomarkers can detect
+    65→changes earlier than in-clinic assessments (Neumann et al., 2024; Navar et al., 2025; Peller et
+    66→al., 2025), enable identification of disease subtypes and more granular phenotypic
+    67→characterization than standard clinical assessments (Acien et al., 2024; Neumann et al., 2024,
+    68→Navar et al., 2025), maintain continuity of measurement between visits with interchangeable use
+    69→to in-clinic measures (Meyer et al., 2022), and train high-accuracy predictive deep learning
+    70→models (Merler et al., 2025). Frequent remote monitoring is particularly valuable for
+    71→characterizing temporal disease patterns such as distinguishing fast from slow progressors
+    72→(Johnson et al., 2023; Navar et al., 2025), providing objective measures that overcome
+    73→limitations of subjective quarterly clinic assessments (Bakker et al., 2017), and substantially
+    74→reducing clinical trial sample size requirements while demonstrating changes earlier than
+    75→standard visits without sacrificing quality standards (Rutkove et al., 2020; Geronimo & Simmons,
+    76→2024; Peller et al., 2025). At the same time, several disease aspects perceived as important by
+    77→patients, particularly fatigue and cognition, have received limited attention from digital health
+    78→technologies (van Unnik et al., 2025).
+    79→Digitized administration of cognitive assessments can improve access and scalability, while
+    80→AI-assisted scoring offers the potential to improve scoring consistency across raters and
+    81→
+    82→multi-sites. In recent years, the broader cognitive assessment field has moved rapidly toward
+    83→computerized, tablet-based, and AI-augmented tools. The current state of AI-augmented
+    84→neurocognitive screening tests has been recently reviewed by Sirilertmekasakul et al. (2023),
+    85→highlighting advantages and limitations of machine learning/deep learning applications,
+    86→computer vision (e.g., facial emotions), and automatic speech recognition (ASR). This progress
+    87→targets preclinical AD and prognostic approaches for identifying people at risk for developing AD,
+    88→other dementing disorders, and MCI, with technology-based assessments potentially enhancing
+    89→early detection capabilities and facilitating timely intervention through increased precision and
+    90→scale (Öhman et al., 2021; Henkel et al., 2025; Libon et al., 2025). In multiple sclerosis (MS),
+    91→Gromisch et al., 2025 identified 32 mobile-based cognitive screening tools (including 16
+    92→commercially available), demonstrating field advances. However, these cognitive screening tools
+    93→primarily focus on information processing speed, with only half assessing ≥2 cognitive domains,
+    94→most frequently nonverbal (67%) and verbal memory (50%) (Gromisch et al., 2025). These
+    95→approaches span a continuum from straightforward digitization (paper instruments rendered on
+    96→tablets with automated tallying) to advanced machine learning architectures, including
+    97→convolutional neural networks (CNNs) for image-based tasks and large language models (LLMs)
+    98→for handwritten or transcribed verbal responses.
+    99→Despite this momentum, the application of these methods designed for ALS cognitive
+   100→assessment has not been systematically characterized. Applying digitized and AI assisted
+   101→scoring to ALS and related diseases may improve consistency, accessibility, and scalability of
+   102→cognitive assessments in both clinical care and research settings, while also supporting more
+   103→standardized outcome measurement in clinical trials.
+   104→The goal of this scoping review is to map the existing use of digitized and AI-assisted scoring of
+   105→cognitive assessments in the neurodegenerative and neuroinflammatory disease space.
+   106→Aims and hypothesis
+   107→We conducted a scoping review following the Preferred Reporting Items for Systematic Reviews
+   108→and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) (Tricco et al., 2018; Page et
+   109→al., 2021). This scoping review aims to map existing evidence on digitized and AI-assisted
+   110→scoring of cognitive assessments in ALS and other neurodegenerative and neuroinflammatory
+   111→diseases, with a focus on inter-rater reliability, cross-site consistency, and cross-disease
+   112→applicability. We hypothesized that there would be a significant gap in the application of
+   113→digitizing and AI-assisted scoring for ALS cognitive and behavioral screening tools such as
+   114→Edinburgh Cognitive and Behavioral ALS Screen (ECAS).
+   115→Methods
+   116→Search strategy and selection criteria
+   117→A two-stage unbiased PubMed search was conducted using the advanced search feature. The
+   118→first stage was a broad scoping search, run on 20th April 2026, designed to characterize the
+   119→wider landscape of work on cognitive or neuropsychological assessment in ALS and related
+   120→neurodegenerative or neuroinflammatory diseases involving broad automation, and digital
+   121→approaches. Three concept blocks were combined using Boolean AND: (i) disease (ALS, motor
+   122→neuron disease, frontotemporal dementia, and other neurodegenerative diseases), (ii) cognitive
+   123→
+   124→or neuropsychological assessment, and (iii) artificial intelligence, machine learning, mobile apps
+   125→or digital health approaches. Each block included both Medical Subject Headings (MeSH) and
+   126→title/abstract free-text terms. No date restriction was applied to the search in order to maximize
+   127→recall and capture the full historical scope of digitized and AI-assisted cognitive assessment
+   128→scoring. This broad search returned 1,503 records, with the earliest retrieved record published
+   129→in 1999. This was used to define the conceptual boundaries of the review, the search boolean
+   130→strings is as shown below.
+   131→The advanced search was then refined and run on 27 April 2026, to increase specificity and
+   132→focus retrieval on records explicitly addressing automated, digitization, or AI-assisted scoring
+   133→within title or abstract. Three concept blocks were retained and combined using Boolean AND:
+   134→(i) assessment type (neuropsychological or cognitive), (ii) scoring or automation concept
+   135→(automated, computerized, computerised, digital, or AI-assisted scoring or assessment), and (iii)
+   136→disease group (amyotrophic lateral sclerosis and related neurodegenerative diseases, including
+   137→Alzheimer's disease, Parkinson's disease, multiple sclerosis, dementia, and neuroinflammatory
+   138→conditions). All terms in the refined search were applied as title/abstract [Tiab] filters. This
+   139→refined search returned 168 records, which formed the basis for title, abstract, and full-text
+   140→screening. The full Boolean strings for both searches are shown below.
+   141→Search 1. Technology in general with broader search for cognitive research
+   142→( "Amyotrophic Lateral Sclerosis"[Mesh] OR "Motor Neuron Disease"[Mesh] OR "Neurodegenerative
+   143→Diseases"[Mesh] OR "Frontotemporal Dementia"[Mesh] OR "amyotrophic lateral sclerosis"[tiab] OR "ALS"[tiab] OR
+   144→"motor neuron
+   145→disease"[tiab] OR "motor neurone disease"[tiab] OR "MND"[tiab] OR "Lou Gehrig"[tiab] OR "neurodegenerative
+   146→disease"[tiab] OR "neurodegenerative diseases"[tiab] OR "neurodegenerative disorder"[tiab] OR "neurodegenerative
+   147→disorders"[tiab] OR "frontotemporal dementia"[tiab] OR "FTD"[tiab] OR "ALS-FTD"[tiab] ) AND ( "Neuropsychological
+   148→Tests"[Mesh] OR "Cognition"[Mesh] OR "Mental Status and Dementia Tests"[Mesh] OR "cognitive assessment"[tiab]
+   149→OR "cognitive assessments"[tiab] OR "cognitive screening"[tiab] OR "cognitive test"[tiab] OR "cognitive tests"[tiab] OR
+   150→"cognitive testing"[tiab] OR "cognitive evaluation"[tiab] OR "neuropsychological assessment"[tiab] OR
+   151→"neuropsychological assessments"[tiab] OR "neuropsychological test"[tiab] OR "neuropsychological tests"[tiab] OR
+   152→"neuropsychological testing"[tiab] OR "neurocognitive assessment"[tiab] OR "neurocognitive testing"[tiab] OR
+   153→"ECAS"[tiab] OR "Edinburgh Cognitive and Behavioural ALS Screen"[tiab] OR "Edinburgh Cognitive"[tiab] OR
+   154→"MoCA"[tiab] OR "Montreal Cognitive Assessment"[tiab] OR "MMSE"[tiab] OR "Mini-Mental State"[tiab] OR
+   155→"ACE-III"[tiab] OR "Addenbrooke"[tiab] ) AND ( "Artificial Intelligence"[Mesh] OR "Machine Learning"[Mesh] OR "Deep
+   156→Learning"[Mesh] OR "Neural Networks, Computer"[Mesh] OR "Natural Language Processing"[Mesh] OR "Diagnosis,
+   157→Computer-Assisted"[Mesh] OR "Mobile Applications"[Mesh] OR "Telemedicine"[Mesh] OR "artificial intelligence"[tiab]
+   158→OR "machine learning"[tiab] OR "deep learning"[tiab] OR "neural network"[tiab] OR "neural networks"[tiab] OR
+   159→"natural language processing"[tiab] OR "NLP"[tiab] OR "automated scoring"[tiab] OR "automatic scoring"[tiab] OR
+   160→"computer-assisted scoring"[tiab] OR "computerized scoring"[tiab] OR "computerised scoring"[tiab] OR "digital
+   161→scoring"[tiab] OR "digitized scoring"[tiab] OR "digitised scoring"[tiab] OR "computerized assessment"[tiab] OR
+   162→"computerised assessment"[tiab] OR "computerized testing"[tiab] OR "computerised testing"[tiab] OR "digital
+   163→assessment"[tiab] OR "digital cognitive"[tiab] OR "digital health"[tiab] OR "mHealth"[tiab] OR "eHealth"[tiab] OR
+   164→"tablet-based"[tiab] OR "app-based"[tiab] OR "smartphone"[tiab] )
+   165→Search 2. Narrowed the search for digitized cognitive assessments for automated scoring
+   166→("neuropsychologic"[Tiab] OR "neuropsychological"[Tiab] OR "neuropsychologically"[Tiab] OR ("cognition"[MeSH
+   167→Terms] OR "cognition"[Tiab] OR "cognitions"[Tiab] OR "cognitive"[Tiab] OR "cognitively"[Tiab] OR "cognitives"[Tiab]))
+   168→AND ("automated scoring"[Tiab] OR "computerized scoring"[Tiab] OR "digital scoring"[Tiab] OR "AI assisted"[Tiab] OR
+   169→"computerized assessment"[Tiab] OR "digital cognitive assessment"[Tiab]) AND ("amyotrophic lateral sclerosis"[Tiab]
+   170→OR "Motor Neuron Disease"[Tiab] OR ("als"[Tiab]) OR "alzheimer*"[Tiab] OR "parkinson*"[Tiab] OR "multiple
+   171→sclerosis"[Tiab] OR "dementia"[Tiab] OR ("neurodegenerative"[Tiab] OR "neurodegeneratives"[Tiab]) OR
+   172→"neuroinflammatory"[Tiab])
+   173→
+   174→Eligibility criteria
+   175→Records were screened against the predefined inclusion and exclusion criteria summarized in
+   176→Table 1.
+   177→Table 1. Inclusion and exclusion criteria for the PubMed literature search.
+   178→Criterion type Specification
+   179→Inclusion • Studies reporting neuropsychological or cognitive
+   180→assessments. • Studies involving automated, computerized,
+   181→digital, or AI-assisted scoring or administration.
+   182→• Studies focused on ALS or related neurodegenerative
+   183→diseases (motor neuron disease, Alzheimer's disease,
+   184→Parkinson's disease, multiple sclerosis, dementia,
+   185→neurodegenerative disease, neuroinflammatory conditions).
+   186→Criterion type Specification
+   187→• Studies with sufficient methodological detail to evaluate
+   188→the assessment approach.
+   189→• Peer-reviewed articles published in English.
+   190→Exclusion • Studies not involving cognitive or neuropsychological
+   191→assessment. • Studies without automated, computerized, digital,
+   192→or AI-assisted scoring or administration.
+   193→• Studies focused on machine learning for diagnosis or
+   194→prediction, biomarker analysis, imaging, or omics without a
+   195→relevant cognitive assessment scoring component.
+   196→• Studies reporting automated scoring when the scoring
+   197→methodology was insufficiently described or not directly evaluated.
+   198→• Non-English publications, editorials, commentaries,
+   199→dissertations, abstracts only, and non-peer-reviewed articles.
+   200→Selection process
+   201→All the 168 records were uploaded onto Rayyan, a web-based literature screening tool (Ouzzani
+   202→et al., 2016). Three independent reviewers blindly screened titles, abstracts, and full texts
+   203→against the predefined criteria. Discrepancies were resolved by discussion after unblinding until
+   204→consensus was reached. Duplicates were algorithmically identified, then manually checked and
+   205→excluded, as were records in languages other than English. The remaining titles and abstracts
+   206→were screened and ambiguously relevant reports were flagged and reviewed by all the three
+   207→authors. For each paper that was excluded, primary reasons for exclusion were recorded.
+   208→Peer-reviewed research articles and planned study reports as well as preprints were included if
+   209→they used self-administered and remote assessments. We included only active cognitive tests
+   210→(e.g., memory recall, verbal fluency, drawing tasks) and excluded studies using passive
+   211→
+   212→biomarkers or sensor data as proxies for cognitive impairment (e.g., virtual balance tests,
+   213→in-home monitoring), even when active cognitive tests were used for validation. Studies including
+   214→other healthy volunteers or other diseases (e.g., cancers, cardiovascular or other diseases,
+   215→psychiatric conditions) were excluded, as were studies using the cognitive assessment tool as
+   216→an intervention. Data extraction Author(s), year of publication, sample size and group allocation
+   217→(if applicable), name of cohort or ongoing study, names and types of cognitive tasks available,
+   218→scoring method, adherence and usability metrics, compliance metrics, and reliability metrics
+   219→were extracted from each of the selected papers. If certain feasibility or psychometric information
+   220→about the tools was not reported in the included articles, this was gathered from other papers
+   221→using the same tools, sometimes in separate samples, found using Google Scholar.
+   222→Associations with in-person neuropsychiatric assessments and measures of other biomarkers
+   223→were also charted. This manuscript was prepared according to the Preferred Reporting Items for
+   224→Systematic reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR)
+   225→Checklist, which can be found in the Information above.
+   226→Data extraction and synthesis
+   227→Data were extracted using a standardized template covering study design, disease population,
+   228→sample size, assessment tool, AI or digital scoring method, reference comparator, and
+   229→reliability/validity outcomes. Findings are synthesized by disease, assessment tool, and AI
+   230→method employed.
+   231→
+   232→Fig. 1 PRISMA diagram for record selection process.
+   233→Table and Figure below shows the distribution of 166 identified publications on AI-assisted,
+   234→digital, computerized, and automated scoring approaches in cognitive assessments across
+   235→neurodegenerative and neuroinflammatory diseases.
+   236→Table 2. Time Period of the 166 identified publications, increased in the last 2 years
+   237→Period Publications per Number of Period (years)
+   238→year publications (per
+   239→period)
+   240→
+   241→1989-2000 0.4 5 12
+   242→2001-2010 1.2 12 10
+   243→2011-2020 2.8 28 10
+   244→2021-2023 8.3 25 3
+   245→2024-2026 41.7 96 2.3
+   246→Fig. 2. Distribution of 166 identified publications volume (publications per year by
+   247→period) increased notably in the last 2 years, indicating heightened research interest
+   248→alongside rapid advances in digital and AI-enabled technologies.
+   249→Results
+   250→Study selection
+   251→From the 168 records identified by the refined PubMed search, seven primary studies met all
+   252→inclusion criteria and were retained for synthesis. Records excluded at full-text review primarily
+   253→fell into three categories: (i) machine learning studies focused on diagnosis or biomarker
+   254→prediction without a cognitive scoring component; (ii) digital cognitive batteries reporting only
+   255→diagnostic discrimination without evaluating the digital scoring procedure itself; and (iii) review
+   256→and commentary articles.
+   257→
+   258→Characteristics of included studies
+   259→The seven included studies (Table 2) were distributed across three disease groupings: multiple
+   260→sclerosis (MS; n=2 studies), the Alzheimer's disease (AD) continuum (cognitively healthy / mild
+   261→cognitive impairment / dementia; n=2 studies), and dementia or MCI populations (n=3 studies).
+   262→Sample sizes ranged from 15 nursing-home residents (Devos et al., 2019) to 6,680 subjects with
+   263→20,040 scanned images (Park et al., 2023). The cognitive instruments evaluated spanned global
+   264→screens (MMSE, MMSE-J), MS-specific batteries (BICAMS), drawing-based visuospatial tasks
+   265→(Rey Complex Figure Test, Clock Drawing Test), associative memory tasks (FACEmemory /
+   266→FNAME-12), and a custom older-driver cognitive screen (MOGI).
+   267→No primary study evaluating an AI-assisted or fully automated digital scoring system specifically
+   268→for the ECAS or any other ALS cognitive screen was identified among the 166 records
+   269→screened.
+   270→Table 3. Characteristics of the seven included studies.
+   271→# Study Disease / Sample Cognitive AI / Digital Reference Reliability /
+   272→(Year) Population tool method comparator validity
+   273→outcomes
+   274→1 Costabile Multiple n=139 BICAMS iPad digitization Paper ICC: SDMT
+   275→et al. sclerosis patients (SDMT, (iBICAMS): BICAMS 0.92; CVLT-II
+   276→(2023) CVLT-II, pre-recorded (test–retest) 0.83; BVMT-R
+   277→BVMT-R) CVLT word lists, 0.82. High
+   278→timed agreement
+   279→BVMT-R stimuli, with paper
+   280→stylus drawing, version.
+   281→automated
+   282→timing and
+   283→digital capture
+   284→in SDMT
+   285→2 Jaworski Multiple n=35 BICAMS Large language Two human Pre-release
+   286→et al. sclerosis BICAMS model raters with ICC: CVLT-II
+   287→(2025) protocols (ChatGPT-4.5) blinded 0.992; SDMT
+   288→scoring of third-rater 1.000;
+   289→scanned adjudication BVMT-R
+   290→protocols via 0.82–0.85.
+   291→prompt Performance
+   292→engineering dropped after
+   293→public model
+   294→release (e.g.,
+   295→BVMT-R Trial 3
+   296→ICC =
+   297→−0.046). Mean
+   298→scoring time ~9
+   299→min/protocol.
+   300→3 Raksasat Dementia / n=3,108 Clock Attentive VGG16 , F1 = 0.79 (API-Net
+   301→et al. early images Drawing Pairwise ResNet with
+   302→(2023) visuospa Test Interaction -152, ResNet-152
+   303→tial (Shulman Network Dense backbone) vs
+   304→deficits scoring) (API-Net): Net-12 0.76 (ResNet-152
+   305→fine-grained 1 baseline).
+   306→CNN trained Improved
+   307→with discrimination of
+   308→contrastive visually similar
+   309→image pairs Shulman scores 4
+   310→vs 5.
+   311→
+   312→# Study Disease / Sample Cognitive AI / Digital Refere Reliability / validity
+   313→(Year) Population tool method nce outcomes
+   314→compa
+   315→rator
+   316→baselin
+   317→es
+   318→4 Park et al. Alzheime n=6,680 Rey DenseNet 5 5-fold CV: MAE = 0.95
+   319→(2023) r's subjects Complex (CNN) deep expert points, R² = 0.986.
+   320→disease (20,040 Figure Test learning with psychol External 150-image test:
+   321→continuum images) (RCFT) iterative ogists MAE = 0.64, R² = 0.994
+   322→(CN, MCI, training-data (conse vs expert
+   323→dementia) correction nsus average. AI ≈
+   324→averag inter-rater human
+   325→e) agreement.
+   326→5 Alegret et AD n=276 FACEme Tablet Paper Auto vs manual scoring
+   327→al. (2020) continuum (154 CH, mo ry self-administrati S-FNA r = 0.98. Cutoff 31.5 →
+   328→(CH, 61 naMCI, (comput on with voice ME; sensitivity 80.5%,
+   329→naMCI, 61 aMCI) eriz ed recognition + CSF specificity 80.3% (CH vs
+   330→aMCI) FNAME-12) touchscreen + AD aMCI). Total score
+   331→automatic scoring biomar correlated with CSF
+   332→kers Aβ42 (r = 0.62) and
+   333→(Aβ42, Aβ42/p-tau (r = 0.68) in
+   334→p-tau, aMCI.
+   335→ratio)
+   336→6 Asano et MCI / n=42 MOGI Tablet with MMSE Auto vs manual scoring
+   337→al. (2025) mild-to-m (cued handwritten J ICC = 0.97 (95% CI
+   338→od erate recall + character 0.94–0.98). Spearman ρ
+   339→dementia time recognition and = 0.64 with MMSE-J
+   340→(older orientatio automated scoring (p<0.001).
+   341→drivers) n; Differentiated MMSE-J
+   342→Japanese groups (≥28, 24–27, ≤23).
+   343→driver
+   344→renewal
+   345→test
+   346→simulatio
+   347→n)
+   348→7 Devos et Mild n=15 MMSE Android app with Paper Bland–Altman: mean
+   349→al. (2019) cognitive speech MMSE difference 0.1 points
+   350→deficit / recognition (SD 2.1; range −4 to
+   351→dementia (Google Speech +4).
+   352→(nursing API) and Pearson r = 0.90
+   353→home) automatic scoring (p<0.01). 74%
+   354→per-question
+   355→score-weighted agreement.
+   356→Synthesis by disease group
+   357→Multiple sclerosis
+   358→Two studies addressed MS, both targeting the Brief International Cognitive Assessment for
+   359→Multiple Sclerosis (BICAMS), which combines the Symbol Digit Modalities Test (SDMT), the
+   360→California Verbal Learning Test–II (CVLT-II), and the Brief Visuospatial Memory Test–Revised
+   361→(BVMT-R).
+   362→
+   363→An iPad implementation (iBICAMS) was validated against the paper version in 139 patients. The
+   364→digital implementation introduced standardization elements not present in paper administration:
+   365→pre-recorded CVLT word lists with controlled prosody and pacing, automatic 10-second timing
+   366→for BVMT-R stimulus exposure, and on-tablet stylus drawing. For the SDMT, the tablet version
+   367→also enabled automated timing and digital score capture, reducing manual scoring burden for
+   368→administrators. Intraclass correlation coefficients (ICCs) between paper and tablet versions were
+   369→0.92 (SDMT), 0.83 (CVLT-II), and 0.82 (BVMT-R), indicating high agreement at the total-score
+   370→level. The authors observed an order-of-administration effect for CVLT-II and BVMT-R, attributed
+   371→to learning effects and possibly to differences in human prosody during paper administration
+   372→(Costabile et al., 2023).
+   373→In a separate study, a general-purpose large language model (ChatGPT-4.5) was tested to
+   374→replicate human BICAMS scoring on 35 scanned protocols, using two human raters with a
+   375→blinded third rater for adjudication. In the pre-public-release phase, ICCs between the LLM and
+   376→human raters were very high (CVLT-II 0.992, SDMT 1.000, BVMT-R 0.82–0.85), and the LLM
+   377→identified scoring errors that two trained human raters had overlooked. Mean scoring time per
+   378→BICAMS protocol was approximately nine minutes. Following the model's broader public
+   379→release, the authors observed a decline in scoring accuracy and increased variance (e.g.,
+   380→BVMT-R Trial 3 ICC dropped to −0.046), which they attributed to either compute resource
+   381→constraints or undisclosed inference-pipeline changes (Jaworski et al., 2025).
+   382→Alzheimer's disease continuum
+   383→Two studies addressed populations spanning cognitively healthy individuals, MCI, and dementia
+   384→within the AD continuum, but used very different cognitive instruments and AI strategies.
+   385→An automated scoring system for the Rey Complex Figure Test (RCFT) was developed using a
+   386→DenseNet CNN trained on 20,040 scanned images from 6,680 participants in the GARD cohort.
+   387→A distinctive methodological feature was an iterative quality-improvement loop: an initial model
+   388→was trained, errors were categorized (image quality, scoring, digitalization, model bias), and the
+   389→model was retrained on a corrected dataset. Five-fold cross-validation produced a mean
+   390→absolute error (MAE) of 0.95 points and an R² of 0.986 against the consensus of 32 trained
+   391→psychologists. On an external 150-image test set scored independently by five experienced
+   392→psychologists, the AI achieved MAE = 0.64 and R² = 0.994 against the average of the five
+   393→experts—within the range observed between expert raters themselves. Predicted scores
+   394→significantly differentiated cognitively normal, MCI, and dementia groups (Park et al. 2023).
+   395→A tablet self-administered computerized version of the FNAME-12 face–name associative
+   396→memory task was developed and named FACEmemory. The tool used voice recognition and
+   397→touchscreen input with automatic scoring, and was validated in 276 participants (154 cognitively
+   398→healthy, 61 non-amnestic MCI, 61 amnestic MCI). Automatic and manual scoring of the same
+   399→protocols correlated at r = 0.98. A cutoff of 31.5 yielded 80.5% sensitivity and 80.3% specificity
+   400→for distinguishing cognitively healthy individuals from amnestic MCI. In the subset undergoing
+   401→lumbar puncture, FACEmemory total scores correlated with cerebrospinal fluid (CSF) Aβ42 (r =
+   402→0.62) and the Aβ42/p-tau ratio (r = 0.68) in the amnestic MCI group, providing
+   403→biomarker-anchored validity (Alegret et al., 2020).
+   404→Dementia and MCI (mixed populations)
+   405→
+   406→Three studies addressed dementia or MCI populations using diverse cognitive instruments.
+   407→An Attentive Pairwise Interaction Network (API-Net), a CNN architecture trained with contrastive
+   408→image pairs rather than single images, was used to automate Shulman scoring of the Clock
+   409→Drawing Test (CDT). Trained on 3,108 clock drawings, the model incorporated aResNet-152
+   410→backbone and achieved an F1-score of 0.79, compared with 0.76 for a standard ResNet-152
+   411→baseline. The performance gain was concentrated in the discrimination of visually similar
+   412→clock-score pairs (e.g., Shulman 4 vs. 5), the boundary most relevant for early-stage cognitive
+   413→change. Score-CAM visualizations indicated that the contrastively trained model attended more
+   414→selectively to the actual locus of drawing irregularity than the standard CNN (Raksasat et al.,
+   415→2023).
+   416→MOGI is a tablet-based self-assessment tool that simulates Japan's official digital cognitive test
+   417→for older drivers (the MENKYO system). The MOGI battery comprises a cued recall task and a
+   418→time-orientation task, with handwritten responses on tablet converted to text by a Japanese
+   419→character recognition engine and scored automatically against the National Police Agency rubric.
+   420→In 42 community and clinic participants (mean age 76.4 years), automated and manual scoring
+   421→of the same protocols agreed at ICC = 0.97 (95% CI 0.94–0.98). MOGI total scores correlated
+   422→with the MMSE-J at Spearman ρ = 0.64 (p < 0.001) and significantly differentiated participants
+   423→stratified by MMSE-J cutoffs (≥28, 24–27, ≤23) (Asano et al., 2025).
+   424→An Android-based version of the MMSE combined touchscreen input with the Google Speech
+   425→API for items requiring spoken responses (registration, recall, sentence repetition). In a
+   426→15-resident pilot conducted in a Flemish nursing home, the Bland–Altman analysis between
+   427→paper and app total scores showed a mean difference of 0.1 points (SD 2.1; range −4 to +4) and
+   428→a Pearson correlation of r = 0.90 (p < 0.01). Per-question score-weighted agreement averaged
+   429→74%; the speech-recognition-dependent items showed marginally lower per-item agreement
+   430→(~70%) than touchscreen items (Devos et al., 2019).
+   431→Synthesis by AI / digital methodology
+   432→Across the seven studies, the methodological approaches clustered into four broad strategies.
+   433→Tablet digitization with controlled stimulus delivery and automated tallying. iBICAMS
+   434→(Costabile et al., 2023) and the digital MMSE (Devos et al., 2019) primarily replace paper with
+   435→tablet, adding standardization features (pre-recorded audio, automatic timing, automated
+   436→arithmetic) but retaining the original test structure. Reported reliability vs. paper was high (ICCs
+   437→0.82–0.92; Bland–Altman mean difference 0.1).
+   438→Tablet self-administration with voice recognition and rule-based automatic scoring.
+   439→FACEmemory (Alegret et al., 2020) and MOGI (Asano et al., 2025) use voice or handwriting
+   440→recognition followed by deterministic rule-based scoring. Auto-vs-manual agreement was very
+   441→high (r = 0.98 and ICC = 0.97 respectively), demonstrating that voice recognition and scoring
+   442→pipelines can produce scores essentially indistinguishable from human scoring at the total-score
+   443→level.
+   444→End-to-end deep learning on scanned images. RCFT scoring (Park et al., 2023) and CDT
+   445→Shulman scoring (Raksasat et al., 2023) use CNN architectures (DenseNet, ResNet-152 with
+   446→API-Net) trained directly on scanned drawings. Performance approached or matched
+   447→
+   448→inter-expert agreement on independent test sets. Raksasat et al. specifically demonstrated that
+   449→contrastive pairwise training improved fine-grained discrimination at clinically critical score
+   450→boundaries.
+   451→Large language models applied to scanned protocols. Jaworski et al. (2025) used a
+   452→general-purpose LLM (ChatGPT-4.5) with prompt engineering to score scanned BICAMS
+   453→protocols, achieving high agreement with humans pre-release but exhibiting performance
+   454→instability after the model became publicly available, highlighting reproducibility risks specific to
+   455→commercial LLM-based pipelines.
+   456→Reliability outcomes reported
+   457→All seven studies reported some form of agreement statistic against a human or paper-based
+   458→reference standard. Reported metrics included intraclass correlation coefficients (Costabile,
+   459→Asano, Jaworski), Pearson or Spearman correlations (Park, Alegret, Devos, Asano),
+   460→Bland–Altman analyses (Devos), F1-scores and classification accuracy (Park, Raksasat), and
+   461→sensitivity/specificity (Alegret). No included study reported a multi-site cross-rater reliability
+   462→evaluation in the formal sense of multiple independent clinical sites administering and scoring
+   463→the same protocols, although Park et al. used 32 psychologists across one cohort and Jaworski
+   464→et al. used multiple human raters with blinded adjudication.
+   465→Discussion
+   466→Summary of findings
+   467→This scoping review identified seven primary studies evaluating digitized or AI-assisted scoring
+   468→of cognitive assessments in neurodegenerative or neuroinflammatory diseases. The studies
+   469→focused on the assessment of MS, the AD continuum, and mixed dementia/MCI populations,
+   470→with methodological strategies ranging from straightforward tablet digitization to deep learning
+   471→and large language models. Across all seven studies, AI or digital scoring systems demonstrated
+   472→high agreement with human or paper-based reference standards at the total-score level.
+   473→The ALS Cognitive Screen gap
+   474→Within the seven included records, no primary study reported an AI-assisted or automated digital
+   475→scoring system specifically for the ALS cognitive screen. Given that the ECAS is the most
+   476→validated cognitive instrument for ALS and that ALS multi-site clinical trials increasingly require
+   477→harmonized cognitive endpoints, this absence is consistent with the central challenge articulated
+   478→in our background and that scoring inconsistency in ALS cognitive assessment remains
+   479→substantively unaddressed by current technology pipelines.
+   480→Methodological observations across studies
+   481→First, the level of agreement achieved by AI/digital scoring was generally comparable to
+   482→inter-rater agreement among human experts when adequate training and a well-defined
+   483→reference standard were available (Park et al., 2023; Jaworski et al., 2025; Alegret et al., 2020).
+   484→This pattern suggests that the bottleneck for AI-assisted scoring is typically not raw model
+   485→capacity but rather the curation of a high-quality reference dataset and the precision of the
+   486→scoring rubric.
+   487→
+   488→Second, fine-grained discrimination at clinically critical score boundaries (e.g., normal vs. mild
+   489→impairment) appears to benefit from training strategies designed specifically for that purpose,
+   490→rather than from larger generic models. Raksasat et al. (2023) demonstrated that contrastive
+   491→pairwise training improved discrimination at the Shulman 4 vs. 5 boundary, where precisely the
+   492→boundary relevant for early detection relative to a strong CNN baseline. This is methodologically
+   493→relevant for ALS cognitive screening, where distinguishing borderline-normal performance from
+   494→early neuropsychological test detectable change is the main clinical question.
+   495→Third, iterative training-data correction (Park et al., 2023) substantively improved performance
+   496→and surfaced scoring and digitization errors made by human raters that would otherwise have
+   497→been encoded as ground truth. This implies that AI-assisted pipelines can serve a
+   498→quality-assurance function for the human reference dataset itself, not only as a downstream
+   499→scoring tool.
+   500→Fourth, the reproducibility risk associated with commercial general-purpose LLMs (Jaworski et
+   501→al., 2025) is a meaningful concern for clinical applications. The authors documented a clear
+   502→performance change coinciding with broader public availability of the model, with no access to
+   503→the underlying inference pipeline to diagnose the cause.
+   504→For multi-site clinical trial use, this argues for either locally hosted models with frozen weights,
+   505→domain-specific fine-tuned models, or carefully versioned API contracts rather than reliance on
+   506→continuously updated AI models.
+   507→Although no study evaluated automated scoring of the ECAS or any other ALS cognitive screen,
+   508→the studies reviewed highlight several methodological principles directly applicable to future
+   509→ALS-focused work, particularly the importance of high-quality reference data, task-specific
+   510→design, and reproducibility.
+   511→Implications for future ECAS automation
+   512→Three observations from this synthesis are directly relevant to the design of an AI-assisted
+   513→ECAS scoring system.
+   514→
+   515→(i) The ECAS includes a number of tests which rely on verbal (language) responses; naming,
+   516→spelling, fluency, memory and sentence completion. The included studies establish
+   517→methodological precedent for each modality individually: voice recognition with rule-based
+   518→scoring for verbal items (Alegret et al., 2020; Devos et al., 2019) and handwriting recognition for
+   519→written responses (Asano et al., 2025). An ECAS pipeline could in principle compose these
+   520→existing modalities.
+   521→(ii) For multi-site trial deployment, locally hosted or domain-specific models with versioned
+   522→
+   523→weights are likely more appropriate than commercial general-purpose LLM APIs, given the
+   524→reproducibility concerns surfaced by Jaworski et al. (2025).
+   525→Conclusion
+   526→This scoping review provides the first map of AI-assisted and digitized cognitive assessment
+   527→scoring across ALS and related neuro-degenerative and neuro-inflammatory diseases. Seven
+   528→primary studies were identified across MS, the AD continuum, and broader dementia/MCI
+   529→populations. AI/digital scoring systems achieved agreement with human reference standards
+   530→comparable to inter-expert agreement when adequately trained and validated.
+   531→No primary study evaluating AI-assisted scoring of the ECAS or any ALS-specific cognitive
+   532→screen was identified. Methodological templates from related diseases, voice-recognition
+   533→pipelines for verbal subtests, contrastive learning for fine-grained boundary discrimination, and
+   534→iterative training-data correction, may inform future development of standardized AI scoring
+   535→protocols for the ECAS, supporting more consistent multi-site cognitive assessment in future
+   536→ALS clinical trials.
+   537→References
+   538→1. Abrahams S. Neuropsychological impairment in amyotrophic lateral
+   539→sclerosis-frontotemporal spectrum disorder. Nat Rev Neurol. 2023;19(11):655-667.
+   540→doi:10.1038/s41582-023-00878-z
+   541→2. Abrahams S, Newton J, Niven E, Foley J, Bak TH. Screening for cognition and
+   542→behaviour changes in ALS. Amyotroph Lateral Scler Frontotemporal Degener.
+   543→2014;15(1-2):9-14. doi:10.3109/21678421.2013.805784.
+   544→3. Acien A, Calcagno N, Burke KM, et al. A novel digital tool for detection and monitoring of
+   545→amyotrophic lateral sclerosis motor impairment and progression via keystroke dynamics.
+   546→Sci Rep. 2024;14:16851. doi:10.1038/s41598-024-67940-8
+   547→4. Alegret M, Muñoz N, Roberto N, et al. A computerized version of the Short Form of the
+   548→Face-Name Associative Memory Exam (FACEmemory) for the early detection of
+   549→Alzheimer's disease. Alzheimers Res Ther. 2020;12:25.
+   550→doi:10.1186/s13195-020-00594-6.
+   551→5. Asano T, Yasuda A, Kinoshita S, Nakane M, Homma A. Validation of a Cognitive
+   552→Self-Assessment Tool Simulating Japan's Official Digital Test for Older Drivers. Cureus.
+   553→2025;17(9):e93231. doi:10.7759/cureus.93231.
+   554→6. Bakker LA, Schröder CD, van Es MA, et al. Assessment of the factorial validity and
+   555→reliability of the ALSFRS-R: a revision of its measurement model. J Neurol.
+   556→2017;264:1413-1420. doi:10.1007/s00415-017-8538-4
+   557→7. Costabile T, Signoriello E, Lauro F, et al. Validation of an iPad version of the Brief
+   558→International Cognitive Assessment for Multiple Sclerosis (BICAMS). Mult Scler Relat
+   559→Disord. 2023;74:104723. doi:10.1016/j.msard.2023.104723.
+   560→8. Devos P, Debeer J, Ophals J, Petrovic M. Cognitive impairment screening using m-health:
+   561→an android implementation of the mini-mental state examination (MMSE) using speech
+   562→recognition. Eur Geriatr Med. 2019;10:501–509.
+   563→doi:10.1007/s41999-019-00186-0.
+   564→9. Geronimo A, Simmons Z. Remote pulmonary function testing allows for early
+   565→
+   566→identification of need for non-invasive ventilation in a subset of persons with ALS. J
+   567→Neurol Sci. 2024;459:122971. doi:10.1016/j.jns.2024.122971.
+   568→10. Gromisch ES, Imitola J, Agresta T, et al. Mobile-based cognitive screening tools in
+   569→multiple sclerosis: Scoping literature and app store review. Mult Scler Relat Disord.
+   570→2025;104:106782. doi:10.1016/j.msard.2025.106782.
+   571→11. Henkel C, Seibert S, Nichols Widmann C. Current advances in computerized cognitive
+   572→assessment for mild cognitive impairment and dementia in older adults: A systematic
+   573→review. Dement Geriatr Cogn Disord. 2025;54(2):109-119. doi:10.1159/000541627.
+   574→12. Jaworski M III, Balconi J, Santivasci C, Calamia M. Feasibility of AI-powered
+   575→assessment scoring: Can large language models replace human raters? Clin
+   576→Neuropsychol. 2026;40(3):816–829. doi:10.1080/13854046.2025.2552289.
+   577→13. Johnson SA, Karas M, Burke KM, et al. Wearable device and smartphone data quantify
+   578→ALS progression and may provide novel outcome measures. NPJ Digit Med. 2023;6:34.
+   579→doi:10.1038/s41746-023-00778-y.
+   580→14. Libon DJ, Swenson R, Langford DT, et al. Precision neurocognition: An emerging
+   581→diagnostic paradigm leveraging digital cognitive assessment technology. J Alzheimers
+   582→Dis. 2025;108(S1):S159-S169. doi:10.1177/13872877251325725.
+   583→15. Merler M, Agurto C, Peller J, et al. Clinical assessment and interpretation of dysarthria in
+   584→ALS using attention-based deep learning AI models. NPJ Digit Med. 2025;8:260.
+   585→doi:10.1038/s41746-025-01654-7.
+   586→16. Meyer T, Spittel S, Grehl T, et al. Remote digital assessment of amyotrophic lateral
+   587→sclerosis functional rating scale – a multicenter observational study. Amyotroph Lateral
+   588→Scler Frontotemporal Degener. 2023;24(3-4):175-184.
+   589→doi:10.1080/21678421.2022.2104649.
+   590→17. Navar Bingham I, Norel R, Roitberg EG, et al. Listener effort measures clinically
+   591→meaningful change of dysarthria in amyotrophic lateral sclerosis. Brain Commun.
+   592→2025;7(4):fcaf232. doi:10.1093/braincomms/fcaf232.
+   593→18. Neumann M, Kothare H, Ramanarayanan V. Multimodal speech biomarkers for remote
+   594→monitoring of ALS disease progression. Comput Biol Med. 2024;180:108949.
+   595→doi:10.1016/j.compbiomed.2024.108949.
+   596→19. Öhman F, Hassenstab J, Berron D, Schöll M, Papp KV. Current advances in
+   597→digital cognitive assessment for preclinical Alzheimer’s disease. Alzheimers
+   598→Dement. 2021;13:e12217. doi:10.1002/dad2.12217.
+   599→20. Ouzzani M, Hammady H, Fedorowicz Z, and Elmagarmid A. Rayyan — a web and
+   600→mobile app for systematic reviews. Systematic Reviews (2016) 5:210, DOI:
+   601→10.1186/s13643-016-0384-4.
+   602→21. Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated
+   603→guideline for reporting systematic reviews. PLoS Med. 2021;18(3):e1003583.
+   604→doi:10.1371/journal.pmed.1003583.
+   605→22. Park JY, Seo EH, Yoon HJ, Won S, Lee KH. Automating Rey Complex Figure Test
+   606→scoring using a deep learning-based approach: a potential large-scale screening tool for
+   607→cognitive decline. Alzheimers Res Ther. 2023;15:145. doi:10.1186/s13195-023-01283-w.
+   608→23. Peller J, Trevisan MA, Bujia G, et al. Reliable monitoring of respiratory function with
+   609→home spirometry in people living with amyotrophic lateral sclerosis. Front Neurol.
+   610→2025;16:1588992. doi:10.3389/fneur.2025.1588992.
+   611→24. Raksasat R, Teerapittayanon S, Itthipuripat S, et al. Attentive pairwise interaction
+   612→network for AI-assisted clock drawing test assessment of early visuospatial deficits.
+   613→
+   614→Sci Rep. 2023;13:18113. doi:10.1038/s41598-023-44723-1.
+   615→25. Rutkove SB, Narayanaswami P, Berisha V, et al.. Improved ALS clinical trials through
+   616→frequent at-home self-assessment: a proof of concept study. Ann Clin Transl Neurol.
+   617→2020;7(7):1148-1157. doi:10.1002/acn3.51096.
+   618→26. Sirilertmekasakul C, Rattanawong W, Gongvatana A, Srikiatkhachorn A. The current
+   619→state of artificial intelligence-augmented digitized neurocognitive screening test. Front
+   620→Hum Neurosci. 2023;17:1133632. doi:10.3389/fnhum.2023.1133632.
+   621→27. Strong MJ, Abrahams S, Goldstein LH, et al. Amyotrophic lateral sclerosis -
+   622→frontotemporal spectrum disorder (ALS-FTSD): Revised diagnostic criteria. Amyotroph
+   623→Lateral Scler Frontotemporal Degener. 2017;18(3-4):153-174.
+   624→doi:10.1080/21678421.2016.1267768
+   625→28. Tricco AC, Lillie E, Zarin W, et al. PRISMA extension for scoping reviews
+   626→(PRISMA-ScR): checklist and explanation. Ann Intern Med. 2018;169(7):467–473.
+   627→doi:10.7326/M18-0850.
+   628→29. van Unnik JWJ, Ing L, Santos MO, et al. Remote monitoring of amyotrophic lateral
+   629→sclerosis using digital health technologies: Shifting toward digitalized care and research?
+   630→Neurology. 2025;105(1):e213738. doi:10.1212/WNL.0000000000213738
+   631→
+   632→
