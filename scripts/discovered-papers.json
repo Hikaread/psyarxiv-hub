@@ -1,10 +1,46 @@
 [
   {
-    "osf_id": "a5uq2_v1",
-    "title": "Chromatic specifiers and the lexical differentiation of blue and brown in American English: Corpus evidence at the vision–language interface",
-    "date_created": "2026-06-27T21:59:44.107097",
-    "date_modified": "2026-07-04T12:19:10.834956",
-    "description": "While humans perceive color as a nearly continuous spectrum, most languages categorize hues using a small set of basic color terms (BCTs). Several languages (e.g., Russian, Greek, Italian) lexicalize two or more basic ‘blue’ categories, distinguishing light from dark blue, a distinction English is usually said to lack. So far, no basic split for English blue has been found, yet speakers may differentiate blue shades in everyday usage by attaching modifiers such as “light” and “dark” to blue more than to other color terms. Drawing on the Corpus of Contemporary American English (COCA; about 560 million words across five balanced genres), we extracted the 11 English BCTs with their most frequent preceding collocates and quantified chromatic specification, correcting for non-chromatic uses of both the color words and their qualifiers. Although light blue and dark blue are not frequent enough to constitute separate basic categories, blue attracts chromatic specifiers more often, and a far wider variety of unique ones (navy, cobalt, cerulean, and others), than any other BCT — a lead we link to its communicative prominence and chromatic richness. Brown is a close second, a pattern we link to its status as a constitutively dark, lightness-defined color, whose subcategories are largely lightness variants. We argue that color-term basicness is gradient rather than discrete, and that corpus structure offers a naturalistic window onto the vision–language interface.",
+    "osf_id": "kxs2t_v1",
+    "title": "A preregistered measurement audit reveals construct-validity limits of alignment-based translation concentration",
+    "date_created": "2026-06-22T01:21:48.652594",
+    "date_modified": "2026-06-22T10:55:24.994201",
+    "description": "Corpus-derived quantities are increasingly used to measure psychological and cognitive constructs, yet whether such a measure captures its intended construct is seldom validated before it is used for inference. This study treats one such measure as a case study in preregistered construct-validity auditing: translation concentration, a corpus index of how concentrated versus dispersed a word’s translations are in aligned bitext, here used to probe the cross-linguistic grounding of emotion concepts. A preregistered, circularity-avoiding design (English–Japanese) related translation concentration to the bodily grounding of emotion-related words, with grounding indices computed from independent monolingual norms and corpora, and specified a token-level alignment-quality audit as a gate on the predictor, downgrading affected analyses to exploratory if the gate was not met. The audit failed in both arms: alignments were judged correct for only 51.0% (English) and 51.5% (Japanese) of sampled instances and incorrect for 35.3% and 39.0%, and the English emotion-word set was used in non-emotional senses in 70.3% of instances versus 3.0% in Japanese. Critically, misalignment was correlated with the predictor (English low- versus high-concentration words: .427 vs .280; Fisher p = .0110), so low concentration partly reflected poor alignment. The preregistered associations, reported as exploratory, were small and null or inconclusive. A preregistered measurement audit can thus expose a construct-validity failure in a plausible measure before it informs theory: subtitle-alignment-based translation concentration, as operationalized here, did not validly support inference about emotion-word grounding.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/kxs2t_v1/"
+  },
+  {
+    "osf_id": "xyt6f_v1",
+    "title": "How Does the Mind Grow? Cross-Cultural Intuitive Theories of Mental Development",
+    "date_created": "2026-06-22T02:13:19.886008",
+    "date_modified": "2026-06-25T15:00:49.358833",
+    "description": "How does the mind grow? Despite centuries of philosophical and psychological inquiry, little is known about how ordinary people intuitively conceptualize mental development. Across six countries (Aus- tralia, Japan, Mexico, South Africa, the United Kingdom, and the United States), adult participants re- ported their intuitions about mental development by indicating when they think various mental capaci- ties first emerge. Across tasks and cultures, intuitions about mental development were consistently orga- nized along two dimensions: an earlier-developing perceptual and experiential dimension (e.g., seeing, fear, hunger, pain) and a later-developing reflective and evaluative dimension (e.g., reasoning, holding beliefs, self-restraint, pride). Competing models were ruled out, showing that this structure is unique to lay beliefs about mental development. These dimensions also aligned with participants’ intuitions about the origins of mental capacities within a nature–nurture framework. Together, the findings reveal a consistent cross-cultural pattern for reasoning about mental development and illuminate the intuitive architecture of mind perception.",
+    "doi": "10.1177/09567976261453926",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/xyt6f_v1/"
+  },
+  {
+    "osf_id": "fpsey_v1",
+    "title": "Father–child and Mother–child Home Math Activities and Toddlers’ Math Skills: The Role of Children’s Interest in Math",
+    "date_created": "2026-06-22T03:58:47.060047",
+    "date_modified": "2026-06-25T15:09:20.192517",
+    "description": "Research on mathematical development in early childhood, particularly during the toddler years (typically 18–36 months), remains limited. This study explores the associations between the home math environment (HME), parent-reported toddlers’ interest in math-related activities, and their early math skills. The sample included 420 Finnish toddlers whose early math skills were assessed at an average age of 2 years and 9 months. Both parents (N mothers = 318, N fathers = 221) responded to questionnaires covering aspects of the HME (formal and informal activities) and children’s interest in math activities involving numbers and operations. Parents’ education level, child age, and gender were controlled in the structural equation model, which regressed early math skills on HME, child interest, and controls, as well as child interest on HME and controls. The model explained 43% of the variance in early math skills and 49% and 53% of the variance in the interest variables: Fathers’ responses regarding less formal and more informal HME showed a direct association with children’s early math skills. Furthermore, a greater interest in activities involving numbers, older age, and being a girl were associated with better early math skills. More formal activities were positively associated with children’s interest in number activities, and the indirect effect of formal HME on children’s early math skills was significant and positive. These results suggest strong links between the HME, children’s interest in math activities, and their math skills at toddler age.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -14,8 +50,178 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c62",
-          "text": "Linguistics"
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/fpsey_v1/"
+  },
+  {
+    "osf_id": "gdv3t_v1",
+    "title": "Reconceptualizing the Internal/External Frame of Reference Model: Achievement-Level–Contrast and the Architecture of Academic Self-Concept",
+    "date_created": "2026-06-22T03:59:22.209983",
+    "date_modified": "2026-06-22T11:05:42.696539",
+    "description": "For four decades, the internal/external frame-of-reference (I/E) model has explained a paradox in academic self-concept research: mathematics and verbal achievements are strongly correlated, whereas their self-concepts are weakly related. In classic I/E representations, achievement in one domain positively predicts same-domain self-concept but can negatively predict contrasting-domain self-concept. I offer a conceptual-methodological reconceptualization of the I/E model, arguing that the classic representation captures this pattern but leaves the achievement-information architecture implicit in adjusted paths among correlated predictors. This framing advances theory by showing how statistical parameterizations shape conclusions about comparison processes.\nUsing analytic demonstrations and a PISA2000 benchmark reanalysis, I evaluate the classic I/E representation, Difference I/E representation, Achievement-Level–Contrast I/E representation (ALC-I/E), and a Full Level–Contrast extension. Difference I/E foregrounds relative achievement standing, but its manifest-score, outcome-specific operationalization does not provide an integrated decomposition of the achievement space. ALC-I/E provides the central reconceptualization, shifting emphasis from path signs to information structure. Through an orthogonal sum-and-difference transformation, it re-expresses mathematics and verbal achievement as achievement level and achievement contrast, separating academic standing from relative mathematics–verbal standing. This preserves the empirical core of the I/E model while clarifying its informational architecture rather than treating negative cross-domain paths as self-explanatory mechanisms. Achievement level positively predicted both self-concepts, whereas achievement contrast more strongly differentiated them. In the Full Level–Contrast extension, achievement level mapped primarily onto self-concept level, whereas achievement contrast mapped primarily onto self-concept contrast",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/gdv3t_v1/"
+  },
+  {
+    "osf_id": "9n845_v1",
+    "title": "Meditative Development and Psychological Adverse Effects, Challenging, Unpleasant, and Negative Experiences: A Phenomenological Study of Advanced Meditators",
+    "date_created": "2026-06-22T05:09:24.391018",
+    "date_modified": "2026-06-22T11:06:17.221374",
+    "description": "Objective: To investigate meditation-related psychological adverse effects, challenging, unpleasant, and negative experiences (MRPAEs) across meditative development and specifically advanced meditation, an emerging domain in contemplative science that remains understudied despite its potential for radically positively transforming, and in some cases destabilizing, mental health.\nDesign: A qualitative study using semi-structured phenomenological interviews and inductive, content-driven thematic analysis. Theoretical saturation was monitored iteratively, interrater reliability was assessed throughout the coding process, and methodological reporting adhered to the Consolidated Criteria for Reporting Qualitative Research (COREQ).\nParticipants: 28 advanced meditators with extensive long-term practice histories who were proficient in advanced practices.\nSetting: Remote, in-depth interviews conducted with advanced meditators with diverse contemplative backgrounds.\nResults: Across 55 interviews, participants described wide-ranging negative and appraisal-dependent experiences spanning affective, cognitive, relational, clinical, and existential domains. Seven major themes were identified: (1) broadly negative cognitive, attentional, and existential disruptions; (2) negative affect, including mood disturbance, anxiety, and fear; (3) adverse impacts on life trajectory and interpersonal relationships; (4) negative clinical and non-clinical transformative experiences, including clinically significant psychiatric symptoms and trauma activation; (5) foundational instability associated with specific meditative insights; (6) ambiguous experiences of context-dependent valence; and (7) resolution strategies, including meditative techniques, teacher guidance, and interpersonal support.\nConclusions: Advanced meditation can precipitate significant psychological challenges across multiple domains. Although meditative development is also associated with profound positive transformation, the",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf8",
+          "text": "Consciousness"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/9n845_v1/"
+  },
+  {
+    "osf_id": "pdzg9_v1",
+    "title": "Putting the Cart Before the Horse: Trait Disgust Propensity Cannot Mediate Immediate Stimulus Responses",
+    "date_created": "2026-06-22T06:12:34.356732",
+    "date_modified": "2026-06-22T11:07:12.766939",
+    "description": "This work critiques a recent neuroimaging study to demonstrate why disgust propensity and disgust sensitivity cannot function as mediators of immediate stimulus responses. By proposing a conceptually valid framework, it highlights that proper model specification is essential for meaningful mediation analyses in disgust research.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c58",
+          "text": "Emotion"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/pdzg9_v1/"
+  },
+  {
+    "osf_id": "xq2h8_v4",
+    "title": "Facilitation by Irrelevant Distractors Under High Perceptual Load: Suppression or Controlled Distractor Prioritization?",
+    "date_created": "2026-06-22T09:10:01.764114",
+    "date_modified": "2026-06-23T16:40:15.503088",
+    "description": "Perceptual load theory is a key framework in visual attention research, demonstrating that under high-load conditions, fully irrelevant distractors are no longer processed and do not disrupt task performance. In our recent work (Manini et al., 2026), we replicated this effect. However, we also found that under high load, the distractor not only failed to impair performance but actually led to faster reaction times (RTs) in distractor-present trials. In the attentional capture literature, this reversed effect is typically considered to reflect distractor suppression. However, in the perceptual load task, where the distractor is placed outside the relevant search array, suppression should not logically lead to faster responses. Furthermore, the faster responses were accompanied by increased error rates, leading us to hypothesize that this reversed effect may reflect some form of distractor prioritization rather than distractor suppression. To test this hypothesis, we first analyzed the consistency of this effect across all available open-data resources using the Forster and Lavie (2008b) task. We then reanalyzed the same data, incorporating the spatial proximity between target and distractor as an additional variable: distractors appearing near the target strongly drove the reversed RT effect, while distractors presented far from the target led to increased error rates. These findings challenge the idea that high perceptual load prevents the processing of irrelevant stimuli. Moreover, they suggest that faster RTs in distractor-present conditions do not necessarily indicate distractor suppression, as commonly assumed in attentional capture research, offering new insight into the interpretation of behavioral observations in this field.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/xq2h8_v4/"
+  },
+  {
+    "osf_id": "fk48y_v6",
+    "title": "Contralateral thermal pain and naturally occurring muscle pain have different effects on force production during a fixed perceived effort handgrip task",
+    "date_created": "2026-06-22T09:18:43.492131",
+    "date_modified": "2026-06-23T07:32:02.444060",
+    "description": "Background: In the presence of pain, performance during imposed workload motor tasks may be maintained at the cost of a higher perceived effort. This study investigated how experimentally induced contralateral thermal pain and naturally occurring muscle pain influence force production during a fixed perceived effort task. \nMethods: Forty young adults performed intermittent isometric handgrip contractions at light (13/100) or hard (50/100) perceived effort intensities across two visits. Each visit included an experimental condition, featuring contralateral thermal pain in block 1, and a control condition, with non-painful warm stimulation in block 2. Participants completed 10 blocks (five repetitions of block 1, block 2), with force production and electromyography continuously recorded. Participants rated thermal and muscle pain after each block. \nResults: Force production was higher during thermal pain compared to control, with no interaction with perceived effort intensity. Regression analysis showed that each one-unit increase in muscle pain (0–100 scale) corresponded to a reduction in peak force (0.45 N), mean force (0.32 N), and force integral (1.02 N·s). \nConclusions: During a fixed perceived effort task, contralateral thermal pain increases force production. In contrast, muscle pain is associated with reduced force production. This study suggests that the type of pain has a varied effect on force production during voluntary motor tasks. This study questions the well-accepted inhibitory effect of pain on force production and encourages future research to use fixed perceived effort tasks to fully appraise the effects of different pain types on force production.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c3d",
+          "text": "Sport Psychology"
         }
       ],
       [
@@ -34,206 +240,8 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7428c6983001430b6cae",
-          "text": "Cultural Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6d01",
-          "text": "Language"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/a5uq2_v1/"
-  },
-  {
-    "osf_id": "zg7tv_v1",
-    "title": "Visual Pattern Completion of Occluded Objects Promotes Robust Visual Learning",
-    "date_created": "2026-06-23T01:26:32.539105",
-    "date_modified": "2026-06-25T15:04:43.590856",
-    "description": "Recognizing a partially occluded object is effortless and automatic: visual cortex fills in the missing parts to infer a recognizable whole. We tested whether part-to-whole visual pattern completion constitutes not just a retrieval operation, but also a learning mechanism. Participants studied whole objects, after which each object was assigned either to retrieval practice, cued by a circular aperture offering a “peephole” view, or to restudy. At final test, retrieval-practiced (peephole-cued) objects were better remembered than restudied objects – a visual testing effect. The task eliminated the utility of conceptual information, suggesting that this testing effect occurs without semantic mediation, contrary to prominent theories. Critically, when retrieval no longer required pattern completion—retrieval without a peephole cue—the testing effect disappeared. Thus, we report a non-semantically mediated visual testing effect driven by occlusion-induced pattern completion. We suggest that visual pattern completion supports not only occluded object recognition, but also robust visual learning.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/zg7tv_v1/"
-  },
-  {
-    "osf_id": "e8ytr_v2",
-    "title": "Exploring the role of identity fusion and group identification in predicting parochialism amongst Indonesian Islamic groups",
-    "date_created": "2026-06-23T01:36:36.669059",
-    "date_modified": "2026-06-23T13:15:30.403378",
-    "description": "Indonesia is home to more Muslims than any other country in the world, yet the interpretation of the faith differs between groups, communities, and individuals. Here we examine how the diversity of beliefs and practices among Indonesian Muslims relate to group bonding and parochialism. Specifically, we examine the predictive power of two distinct types of group alignment, group identification and identity fusion, among politically unaﬀiliated Indonesian Muslims and individuals associated with two prominent Islamic organizations: the explicitly political and Islamist Prosperity and Justice Party (PKS) and the more moderate Nahdlatul Ulama (NU), the largest religious organization in Indonesia. We found that PKS members were more fused to relevant group identities than NU members or unaﬀiliated Indonesian Muslims. Across all three groups, identity fusion was associated with parochial outcomes, including expressed willingness to carry out extreme pro-group actions, but group identification was the stronger predictor. We discuss how religious beliefs and practices shape parochial attitudes, as well as the implications for theoretical models linking fusion, identification, threat, and extreme behaviour.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c6d",
-          "text": "Social Cognition"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c79",
-          "text": "Prejudice and Discrimination"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c9a",
-          "text": "Self and Social Identity"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb0",
-          "text": "Intergroup Processes"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/e8ytr_v2/"
-  },
-  {
-    "osf_id": "hjwp3_v1",
-    "title": "Undue Influence as Dynamic Constraint of Agency-Space: A Mechanism-Level Theory of Conscious Agency Under Control",
-    "date_created": "2026-06-23T01:56:50.328674",
-    "date_modified": "2026-06-26T17:54:14.477927",
-    "description": "Prior theories of thought reform, coercive persuasion, bounded choice, coercive control, and undue influence have made enduring contributions by identifying tactics, environments, interpersonal patterns, and ideological conditions through which people may be controlled. Their principal strength is descriptive: they name the architecture of control. This article addresses a different theoretical problem: how that architecture becomes psychologically consequential inside the person. I propose Agency-Space Theory, a process-level account of undue influence as dynamic constraint of conscious agency. Agency-space is the structured field within which a person experiences possible thought, meaning, relationship, identity, and action. Undue influence occurs when external conditions narrow this field so that externally preferred outcomes become internally experienced as necessity, loyalty, morality, safety, or survival. The theory makes four contributions. First, it explains how control becomes internal constraint. Second, it distinguishes behavior from agency-space, explaining how voluntary-appearing compliance can coexist with constrained agency. Third, it predicts narrative and experiential entailments of narrowing, including reduced perceived alternatives, externally anchored meaning, altered self-other boundaries, temporal narrowing, compliance-as-necessity, demoralization, and compartmentalized self-models. Fourth, it specifies focused complex-adaptive-systems implications: feedback loops may stabilize constrained configurations; attractor-like patterns may deepen over time; path dependence may make earlier compliance alter later possibilities; and hysteresis may persist after exit. Cognitive dissonance, demoralization, and dissociation are treated as local processes within this broader account rather than as competing global explanations. The result is not another inventory of control tactics, but a theory of how control environments transform conscious agency over ti",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/hjwp3_v1/"
-  },
-  {
-    "osf_id": "gnfd5_v3",
-    "title": "Support for climate and biodiversity policies differs across cultural worldviews in Japan",
-    "date_created": "2026-06-23T03:51:49.353487",
-    "date_modified": "2026-06-25T15:05:41.568263",
-    "description": "Social polarisation poses a major challenge to collective climate action. In this context, biodiversity conservation, when aligned with climate objectives, may face less worldview-driven resistance than direct climate policies. However, the links between values of nature and wider cultural worldviews remain poorly understood. Here we show, using a nationwide survey (N = 1,133) in Japan, how cultural worldviews relate to risk perception and environmental policy support.  Individuals with hierarchical worldviews perceived climate change risks as lower and tended to be less supportive of climate change measures than individuals with more egalitarian worldviews. Yet these negative associations were weaker for perceived biodiversity loss risks and for support for climate change-related biodiversity conservation measures, and no direct association was found for stand-alone biodiversity conservation measures. General scientific knowledge was positively associated with support for biodiversity conservation measures, including those related to climate change. These associations between cultural worldviews and policy support differed across climate and biodiversity policy domains.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/gnfd5_v3/"
-  },
-  {
-    "osf_id": "2m79c_v1",
-    "title": "chatPsych: An Artificial Intelligence Interface for Human-AI Interaction Research",
-    "date_created": "2026-06-23T04:41:27.941345",
-    "date_modified": "2026-06-25T15:06:40.738110",
-    "description": "Human computer interaction research remains largely ungeneralisable and popular methods fail to adequately represent the rapidly evolving systems in society. chatPsych aims to provide the research community with access to a generalisable method that facilitates rich, representative human-AI interaction contexts. chatPsych is a novel research tool for building and deploying studies that focus on interaction with frontier AI models. The system comprises programmable surveys surrounding interactions with a chat/assistant interface that connects participants to a specified model with researcher tailored parameters. The aesthetics and features of the interface resemble prevalent chat/assistant technologies and data from interactions/surveys are scraped and locally downloadable from the researcher dashboard GUI. This GUI also allows programming and randomisation of varying AI agents to participant interactions. These agents can be modified via prompt engineering, model hyperparameters, model selection, moderated responses/prompts/captures/buttons, and more. Although chatPsych may be adapted by technically inclined investigators, it offers extensive features and deployment instructions for non-technical researchers. The system uses standardised API connections to an extensive range of model providers. Its standalone nature provides accessibility/customisability for many study designs at scale online and in lab-based settings. We introduce and validate this tool as an open-source codebase for the research community. chatPsych is available at https://chatpsych.org/.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/2m79c_v1/"
-  },
-  {
-    "osf_id": "xs28g_v2",
-    "title": "Idiographic Memory Modelling in ACT-R Using Alternating Maximum Likelihood Estimation",
-    "date_created": "2026-06-23T06:40:06.606199",
-    "date_modified": "2026-06-23T13:37:58.639346",
-    "description": "Performance on memory tasks varies systematically between individuals and within individuals over time. However, computational models of memory are often fitted at the group level or summarise performance in a single parameter, potentially obscuring the distinct cognitive processes that give rise to this variation. Here we present a likelihood-based procedure for fitting the multi-parameter ACT-R declarative memory model at the level of the individual. Using this method, we jointly estimate five participant-level or idiographic parameters, each capturing a distinct component of memory performance, together with item-level variation in memorability. A parameter recovery study on synthetic data shows that these participant- and item-level parameters are jointly identifiable from realistic amounts of data on a typical spaced repetition memory task, requiring only about 40-90 observations of response accuracy and speed per participant. We demonstrate the method on a dataset of individuals with mild cognitive impairment and age-matched healthy controls, finding that mild cognitive impairment is marked by differences in three parameters signifying accelerated forgetting, less efficient memory retrieval, and general psychomotor slowing. These results show that the method can successfully decompose observed performance on a memory task into separable, individually interpretable components. More broadly, this work contributes to the development of fine-grained idiographic memory models that can capture dynamics in memory performance both between and within individuals, with applications in experimental research and applied settings, such as computational phenotyping for clinical diagnosis.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c4e",
-          "text": "Mathematical Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
+          "id": "5b4e7427c6983001430b6c7d",
+          "text": "Physiology"
         }
       ],
       [
@@ -247,227 +255,17 @@
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/xs28g_v2/"
+    "link": "https://osf.io/preprints/psyarxiv/fk48y_v6/"
   },
   {
-    "osf_id": "h4gw5_v3",
-    "title": "Phenomenological-control framing of suggestion-based interventions: a testable hypothesis for acceptability and implementation in psychiatric care",
-    "date_created": "2026-06-23T07:37:17.734695",
-    "date_modified": "2026-06-26T07:29:58.322951",
-    "description": "This Hypothesis and Theory article draws on a targeted, non-systematic synthesis of relevant literature and does not report new empirical data. Suggestion-based interventions show clinical promise across several medical conditions, yet their uptake in routine care remains limited. Psychiatry may be a particularly informative context in which to examine framing-related barriers because treatment engagement, perceived agency, trust, acceptability, and appropriateness may be especially sensitive to how an intervention is described and understood. In response to these concerns, the article considers whether selected suggestion-based interventions could be presented through a phenomenological-control framing. Phenomenological control refers here to a patient-side capacity for the goal-directed regulation of subjective experience, whereas a phenomenological-control framing uses that capacity as the explanatory rationale for the intervention. The intervention itself remains a clinical procedure involving structured suggestions. The central hypothesis is that, relative to a hypnotic framing, a phenomenological-control framing may influence implementation-relevant responses without implying greater clinical efficacy. Patient-level predictions concern perceived agency, concerns about loss of control, acceptability, appropriateness, and willingness to engage. Provider-level predictions concern scientific credibility, appropriateness, and intentions to recommend, refer, adopt, or seek training. These predictions are conditional and may vary across individuals and contexts.",
+    "osf_id": "zrf5c_v3",
+    "title": "Towards a Behavioural Systems Map of the University System in Relation to Student Physical Activity and Sedentary Behaviour: An Exploratory Study",
+    "date_created": "2026-06-22T09:36:29.764218",
+    "date_modified": "2026-06-22T11:16:37.005466",
+    "description": "University students often exhibit high levels of sedentary behaviour (SB) and low levels of physical activity (PA). Previous efforts to increase students’ movement have focused on leisure-time PA or overlooked the university environment and the education system. Embedding PA into university education offers one potentially fruitful avenue for increasing student movement, yet understanding is needed of how and why the university education system influences students’ movement before effective interventions can be developed. This study used a novel behavioural systems mapping method to explore the perceived behaviours, actors, and influences affecting students’ PA and SB during university education. The aim of this exploratory study was to develop a preliminary behavioural systems map based on a combined dataset of interviews with 20 university students and 38 staff in a variety of roles. Data were qualitatively analysed to construct a map of the perceived actors, behaviours, and influences affecting students’ movement behaviours, as well as perceived causal links between them. Influences were further analysed using the capability, opportunity, and motivation model of behaviour (COM-B). The resulting map would need further data input and corroboration to be considered a comprehensive map, yet the results presented in this study provide a useful starting point in this regard. The final map had over 100 elements and connections in total, with 31 different behaviours performed by various actors identified, demonstrating the system complexity as described by participants. Three clusters of behaviours and influences were identified: student movement in classes, student movement in private study time, and wider system influences and behaviours. Across all clusters, a key behaviour perceived as influential by participants was policy makers prioritising student movement in decision making, suggesting policy-level change is essential for long-term impact. Many identified barrie",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/h4gw5_v3/"
-  },
-  {
-    "osf_id": "8h2n3_v1",
-    "title": "From Clusters to Compositions: Fixed-Frame Archetypal Analysis of the Big Five",
-    "date_created": "2026-06-23T08:29:30.803122",
-    "date_modified": "2026-06-25T14:59:52.022706",
-    "description": "Person-centered psychology has primarily used exploratory discovery algorithms, such as latent\nprofile analysis and cluster analysis, to identify population subgroups (e.g., “Resilient”). These\nmethods face several well-documented limitations: identified profiles vary across datasets\n(sample dependence), the number of profiles relies on ambiguous stopping rules, and forcing\ncontinuous personality configurations into discrete categories can conflate the measurement\ngranularity of Likert lattices with genuine structure. In response, we introduce fixed-frame\narchetypal analysis (FFAA), which represents each individual as a continuous compositional\nmixture relative to fixed theoretical extrema (the absolute corners of the Big Five hypercube)\nusing closed-form multilinear interpolation. The method contributes at two levels. For the\nindividual respondent, FFAA is a lossless reparameterization of trait scores into a fixed, sample-\nindependent coordinate system, providing (1) fixed profile definitions, (2) high-resolution\nmeasurement of configural differences, and (3) computational scalability. Across respondents,\nbecause compositions are nonlinear functions of the traits, averaging them encodes the\ncovariation among traits that marginal averages do not retain. We illustrate the individual-level\nproperties through simulation studies and establish a normative baseline from over 10 million\nrespondents; at the aggregate level, these data characterize the maturity principle across the adult\nlifespan not as discrete stages but as a continuous geometric migration that is broadly similar\nacross regions. We propose that moving from “profile discovery” to “compositional\nmeasurement” offers a mathematically grounded approach to person-centered psychology,\nthough establishing predictive validity and extending FFAA to other personality measures remain\nimportant next steps.",
-    "doi": "10.17605/OSF.IO/FDWBQ",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/8h2n3_v1/"
-  },
-  {
-    "osf_id": "2s7a5_v1",
-    "title": "Voices in the head: A population-level map of inner-speech modes and agency",
-    "date_created": "2026-06-23T08:57:10.488427",
-    "date_modified": "2026-06-25T15:01:26.530621",
-    "description": "Inner-speech research documents striking individual diversity through descriptive phenomenology, self-report questionnaires, and extreme phenotypes, yet prior studies typically sample a few hundred respondents, and no design has mapped how the major modes co-occur or trade off at population scale. We addressed this gap with a video-based online survey (clean N = 5,289): respondents rated seven inner-speech types across three scenarios, alongside agency and sensory-modality self-reports; to our knowledge, it is the largest survey to map this co-occurrence. The study is exploratory: we chart the space's shape rather than test effects, and that shape is continuous and voice-led. The 21-dimensional rating space is a continuous mixture rather than discrete categories, organized into a text family and a voice pair with own voice and visual imagery as standalone axes; reproducible profiles emerge only in the lower-dimensional sensory-modality subspace. The principal opposition is own voice versus visual imagery, not text versus imagery, refining dual-coding theory: only the phonological half of the verbal code opposes imagery, while the orthographic half is near-orthogonal. Own voice also forms an axis independent of the other-voice pair, and the two carry opposite-signed agency associations that are small, as expected for a single item, but consistent in sign. Because the agency and voice items share self/other wording, we treat continuity with sub-clinical voice-hearing as a hypothesis. Unsupervised topic modeling of 1,903 free-text descriptions further corroborates this voice-led organization. These coordinates provide a reference map for idiographic and clinical studies of inner-voice experience.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf0",
-          "text": "Imagery"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf8",
-          "text": "Consciousness"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cfe",
-          "text": "Concepts and Categories"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/2s7a5_v1/"
-  },
-  {
-    "osf_id": "7qbs3_v1",
-    "title": "A Sequence Sensitive Model of Encoding Precision",
-    "date_created": "2026-06-23T09:28:31.113490",
-    "date_modified": "2026-06-25T15:03:13.886376",
-    "description": "Canonical visual encoding models do not incorporate the temporal structure of tasks, despite memory performance in real-life contexts almost invariably operating within sequentially structured activities. To address this gap, we developed a Sequence Sensitive model of visual encoding and compared its ability to explain the structure of fluctuations in encoding precision and recognition speed to two established resource-based models of visual encoding, the Population Coding model and the Variable Precision model. We use Dynamic Structural Equation Modeling to formalize the dynamic relationship between a neural proxy of encoding precision and recognition speed, as predicted by all three models. We compared the three resource-based models by fitting them to data from a large sample of 142 participants who completed 100 trials of a short-term memory task, the Sternberg task, while their neural activity was recorded using an electroencephalogram. Our results show that the Sequence Sensitive model outperforms canonical candidates in the context of understanding performance on sequential trial tasks. However, a visual comparison of the model-implied and observed values shows that the three resource-based models only explain a moderate portion of the observed variance. Thus, we should aim to integrate sequential effects into richer and more comprehensive models that incorporate additional features of working memory, such as the interaction between encoding and retrieval processes.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c59",
-          "text": "Psychometrics"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7428c6983001430b6caf",
-          "text": "Quantitative Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/7qbs3_v1/"
-  },
-  {
-    "osf_id": "jre5s_v1",
-    "title": "Academic dishonesty and questionable research practices in final thesis writing",
-    "date_created": "2026-06-23T09:35:47.446710",
-    "date_modified": "2026-06-23T13:20:30.229037",
-    "description": "Final theses represent a substantial but relatively overlooked form of academic knowledge production. This study provides a descriptive and exploratory insight into academic dishonesty and questionable research practices in thesis writing among N = 1,007 Slovak higher-education graduates who defended a bachelor’s, master’s, rigorous, or doctoral thesis between 2012 and 2024. Participants reported on thesis characteristics, supervision, institutional expectations, psychological and contextual factors, and engagement in dishonest practices such as plagiarism, blind referencing, selective reporting, HARKing, ghostwriting, and data manipulation and fabrication. Although participants generally reported high ethical standards and low intentions to cheat, self-reported engagement in several dishonest practices was not negligible. Academic dishonesty was most consistently associated with neutralizing attitudes, more lenient moral standards, and external pressure, whereas thesis-related characteristics played a comparatively minor role. The findings suggest that academic dishonesty in thesis writing is a complex and multifaceted phenomenon shaped by both individual justifications and contextual pressures. Effective prevention requires a multilevel strategy that simultaneously addresses malleable contextual factors such as supervision, institutional expectations, and peer norms, together with the gradual formation of ethical attitudes and moral identity.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/jre5s_v1/"
-  },
-  {
-    "osf_id": "xzna5_v1",
-    "title": "Do depression stigma and literacy differ between military personnel and the general population? Evidence from a matched comparison of the German Armed Forces (Bundeswehr) and the general population",
-    "date_created": "2026-06-23T11:21:06.516657",
-    "date_modified": "2026-06-25T15:02:29.231308",
-    "description": "Objective: Military personnel (MP) are at increased risk of mental health problems yet help-seeking remains low. Depression stigma and literacy are potential barriers to help-seeking, but comparative data between MP and the general population (GP) are limited. This study compared depression stigma and literacy between Bundeswehr MP and the GP and examined sociodemographic and occupational correlates of stigma and literacy.\nMethods: Baseline data from operational military personnel (OMP) and military university affiliates (MUA, combined n = 1,964) were compared with participants from representative GP surveys (n = 15,535) matched using propensity scores for age, gender, and education. Depression stigma and literacy were assessed using validated scales and analyzed with multiple regression.\nResults:  OMP reported lower personal and perceived stigma than the GP (p ≤ .030), whereas MUA did not differ from the GP in stigma, and neither military group differed from the GP in depression literacy. Mid-aged MP showed lower depression literacy (p &lt; .05). Lower education and lack of contact with depression were associated with higher personal stigma and lower depression literacy in both MP and GP. Personal experience with depression was associated with higher perceived stigma, whereas contact via family/friends/work was associated with higher depression literacy (p ≤ .019). Within the military, lower-ranked and never-deployed personnel reported higher personal stigma (p ≤ .006) and lower literacy (p = .047).\nConclusions: Depression stigma was not higher among MP than in the GP. Interventions should target mid-aged, lower-ranked, and never-deployed personnel, as well as lower-educated individuals without depression contact.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c22",
-          "text": "Industrial and Organizational Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c43",
-          "text": "Occupational Health"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c67",
-          "text": "Depressive Disorders"
-        }
-      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -478,19 +276,19 @@
           "text": "Health Psychology"
         },
         {
-          "id": "5b4e7429c6983001430b6cf6",
-          "text": "Mental Health"
+          "id": "5b4e7429c6983001430b6cfc",
+          "text": "Health-related Behavior"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/xzna5_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/zrf5c_v3/"
   },
   {
-    "osf_id": "yfqng_v1",
-    "title": "Pregnant Preconceptions: Experiences of Social Monitoring during Pregnancy",
-    "date_created": "2026-06-23T11:45:52.737263",
-    "date_modified": "2026-06-25T15:03:42.691595",
-    "description": "Pregnancy is highly visible, and subject to gendered, classed, and racialised expectations. It is also characterised by frequently changing health and wellness recommendations, and cultural narratives regarding 'perfect motherhood'. This paper explores the role of social monitoring—defined as intervention or interruption during daily activities to influence behaviour—on the experience of pregnancy. This article examines who engages in social monitoring; on what topics; how these are valanced (hostile/ benevolent sexism); style of delivery (e.g., advice, help, or constraint) and targets (e.g., race/ethnicity, age, or marital status of the pregnant person); and how pregnant people respond. Participants (n = 205, M age = 37, SD age = 10) were recruited through social media and Prolific, were English-speaking and had experienced at least 12 weeks of pregnancy. Responses were deductively coded using nVivo. We find that socially senior women (mothers, mothers-in-law) are frequently named as intervenors, and that easily observable behaviours (e.g., exercise, food and drink, body or weight) are frequent topics of intervention. While the most common response to monitoring was to persist rather than change their behaviour, some respondents described withdrawing to avoid further intervention. Interventions contain both hostile and benevolent sexism, with Black women reporting a higher ratio of hostility than did other race/ethnic groups. These findings have implications for the social connectedness and mental health of pregnant people and highlight the role of shame and judgment in creating 'no win' situations for mothers-to-be.",
+    "osf_id": "p2hm6_v1",
+    "title": "Perceptions, attitudes, and concerns of underrepresented groups regarding the use of big data in children and young people’s healthcare research – a systematic literature review",
+    "date_created": "2026-06-22T09:41:13.114887",
+    "date_modified": "2026-06-25T15:12:29.624379",
+    "description": "Children and young people (CYP), and those from underserved groups, remain underrepresented in biomedical research. Understanding their perspectives on large-scale, data-driven healthcare research is essential to ensuring that such approaches are acceptable, ethically conducted, and equitable. This review is the first to systematically examine the perceptions, attitudes, and concerns of underrepresented groups regarding the use of big data in CYP healthcare research.  \n\nSeven bibliographic databases, ASSIA, CINAHL, EMBASE, MEDLINE, PsycINFO, Scopus, and Web of Science, were searched alongside grey literature sources. A mixed-methods systematic review design was used. Included studies captured the views of CYP, particularly those from underserved groups, as well as their parents, carers, or guardians, regarding the use of big data in paediatric healthcare research. Study quality was appraised using the Mixed Methods Appraisal Tool (MMAT), and findings were integrated through narrative synthesis. \n\nSeventeen studies were included, capturing perspectives from 6261 CYP, parents, and carers. Underrepresented groups expressed broadly favourable, but conditional, support for the use of big data in paediatric healthcare research. Willingness to share data was shaped by participant characteristics, lived experience, and trust in institutions. Perceived benefits included societal and public health gains, the opportunity to empower others with similar experiences, and the advancement of scientific progress. Concerns centred on privacy, the risk of re-identification, data misuse, commercial exploitation, and limited transparency in data governance. Conditions for acceptable data use included robust anonymisation, independent ethical oversight, and developmentally appropriate consent processes. \n\nUnderrepresented groups hold broadly supportive, but conditional, views on the use of big data in paediatric healthcare research. Embedding inclusive governance practices and engaging t",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -500,10 +298,22 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
+          "id": "5b4e7426c6983001430b6c45",
+          "text": "Psychology, other"
         }
-      ],
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/p2hm6_v1/"
+  },
+  {
+    "osf_id": "ntyg9_v1",
+    "title": "A cross-generational investigation of physical health, mental health, and lifestyle during the COVID-19 pandemic in The Netherlands: results from network analyses",
+    "date_created": "2026-06-22T09:49:02.168589",
+    "date_modified": "2026-06-22T11:14:49.850613",
+    "description": "The coronavirus disease 2019 (COVID 19) pandemic substantially affected daily life and health. This preregistered study used nationally representative data from three Dutch Corona Public Health Monitors to conceptualise health during the pandemic as a system of mutually reinforcing components across four generations (166,252 youth, 69,750 young adults, 185,443 adults, and 171,076 elderly individuals). First, per generation, sample characteristics were compared between low- and high-pandemic-impact groups, using chi-square tests (Aim 1). Second, cross-sectional network analyses (Mixed Graphical Models) were used to examine how physical health, mental health, and lifestyle were interrelated within all age and impact groups (Aim 2). Finally, all networks were compared to distinguish shared and age-/impact-specific constellations of key health factors (Aim 3). Across generations, experiencing financial difficulties was identified as a key factor increasing the likelihood of belonging to the high-impact group (Aim 1). In all networks (Aim 2), perceived general health emerged as one of the most central nodes, with strong connections to mental health and physical activity. In addition, unique key health factors were identified in all networks, highlighting the distinctiveness of each network per generation and pandemic-impact group (Aim 3). Together, these analyses generate actionable insights for national, regional, and local policymakers by providing a nuanced understanding of how pandemic-related stress is embedded in health networks across the life course. This can inform the targeted allocation of resources and the development of age-specific strategies for future public health crises, allowing strategies and interventions to be tailored to the needs of specific generations and those most affected.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -515,92 +325,14 @@
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/yfqng_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/ntyg9_v1/"
   },
   {
-    "osf_id": "hwkap_v1",
-    "title": "Effects of Ultra-short Offline States on Item-level Verbal Memory",
-    "date_created": "2026-06-23T13:03:29.059215",
-    "date_modified": "2026-06-23T13:27:47.945417",
-    "description": "Memory is consolidated during “offline” states of reduced attention to the external stimulus environment, including sleep and resting wakefulness. While consolidation is usually studied on a timescale of hours to days, accumulating evidence suggests that organisms also transiently go offline for very short durations during wakefulness, on a timescale of seconds. Here, we asked how going offline during the intertrial intervals of a verbal memory task affects memory. Participants encoded eight lists of 20 words, during which we continuously recorded high density EEG, pupillometry, RTs, and occasional reports of participants’ subjective focus of attention. Using these multimodal data, we applied our previously published methods to define whether participants were “online” or “offline” just prior to and following the time each individual word was presented. As in prior studies, we found evidence that participants fluctuated between three distinct states during the task, which we term “online” (high EEG delta and theta, larger pupil diameter), “offline1” (high EEG alpha, smaller pupil diameter), and “offline2” (high EEG slow oscillation, smaller pupil diameter). As\nanticipated, encoding was superior when participants were online just prior to word presentation. But contrary to our hypotheses, entering an offline state just after word presentation did not improve memory. These observations are discussed in light of memory consolidation theory, including recent evidence of “micro-offline” consolidation in the motor domain.",
-    "doi": "10.1162/JOCN.a.2589",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca5",
-          "text": "Memory"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd5",
-          "text": "Attention"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cea",
-          "text": "Learning"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf8",
-          "text": "Consciousness"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/hwkap_v1/"
-  },
-  {
-    "osf_id": "njksg_v1",
-    "title": "Shared Human Symbolic Cognition Across Time and Culture",
-    "date_created": "2026-06-23T13:26:52.345129",
-    "date_modified": "2026-06-25T14:55:48.100788",
-    "description": "Humans uniquely externalize ideas through abstract visual symbols. Although symbols are ubiquitous across human cultures and history, the cognitive basis of symbolic meaning remains unclear. We tested whether human symbolic interpretation is supported by shared cognitive tendencies that allow convergence across individuals, cultures, and historical periods without shared conventions. We collected 40,416 open-ended interpretations from 1,637 participants in China and the United States for 242 historical symbols spanning different cultural contexts and over 40,000 years. Participants converged on similar interpretations, with convergence predicting independently established meanings. This effect generalized across cultures and historical periods. In contrast, vision models trained on natural images failed to reproduce human interpretations, indicating that symbolic understanding cannot be reduced to general-purpose visual capacities. Instead, humans appear to rely on stable cognitive principles that map abstract forms onto conceptual representations. These results help explain how symbols emerge, stabilize, and persist across generations.",
+    "osf_id": "9qkt5_v2",
+    "title": "Investigating musical pitch as a cue for resolving prosodic stress ambiguity in artificial speech: Evidence from Dutch and Chinese listeners",
+    "date_created": "2026-06-22T09:57:38.131762",
+    "date_modified": "2026-06-22T11:13:44.922433",
+    "description": "Over the last few decades, comparative research has explored whether language and music rely on shared or distinct cognitive and neural mechanisms. Previous research shows robust correlations between music pitch and linguistic prosody (e.g., Jansen et al., 2023), yet neuroscientific evidence does not confirm neural overlap (Chen et al., 2018; 2023), making conclusions about their underlying organization difficult. Predictive Coding Theory (PCT - Friston, 2003; 2005, 2010; Friston &amp; Kiebel, 2009) has been proposed as an organizing principle of shaping perception in both domains (Fiveash, Tillmann &amp; Sammler, 2024), reflecting the brain’s effort to reduce perceptual uncertainty and impose meaningful structure. To test interactions between linguistic and music pitch, we examined ambiguous contexts where pitch processing operates across domains. Using bisyllabic artificial words with uncertain prosodic stress patterns (e.g., bobo), we tested whether tonal (Chinese) and non-tonal (Dutch) listeners, considering music pitch perception scores, use musical pitch cues aligned with stress patterns (high vs. lower F0) to resolve ambiguity. An online forced-choice task measured syllable preferences and facilitation. Results were mixed. We found potential involvement of L1 prosodic transfer in Dutch (and possibly L2 in Chinese), suggesting listeners may interpret musical pitch through patterns learned in their native (or second) language. At the same time, concurrent musical pitch influenced stress judgments regardless of music perception skills. However, the absence of response time effects and alternative explanations limit interpreting this as evidence for shared linguistic and musical pitch processing under perceptual uncertainty.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -610,20 +342,34 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
+          "id": "5b4e7426c6983001430b6c48",
+          "text": "Music"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd2",
+          "text": "Psycholinguistics and Neurolinguistics"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/njksg_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/9qkt5_v2/"
   },
   {
-    "osf_id": "43xsn_v4",
-    "title": "Longitudinal event‑sampling dataset of football fans across five countries during the 2024 European championship",
-    "date_created": "2026-06-23T13:27:57.026742",
-    "date_modified": "2026-06-23T18:14:43.326427",
-    "description": "This dataset was collected during the UEFA EURO football championship in 2024. It provides match-contingent experience sampling data, including (a) individual-level variables such as life satisfaction, (b) interpersonal variables such as prosocial intent, and (c) broader societal variables such as political trust. The data points are nested in a sample of N = 1,012 individuals from five countries (England, Germany, Italy, the Netherlands, Poland). Using an event-sampling method with four to eight measurement waves (depending on how far the national team progressed in the tournament), we captured time-sensitive fluctuations in a total of m = 30 variables in response to the national team’s objective (i.e., win, draw, loss) and perceived success. In addition, the dataset contains moderating variables including Big-5 personality traits, conspiracy and free-will beliefs, or alcohol consumption and betting behaviors, and detailed match-specific data (e.g., shots on target, yellow cards, attendance). Our data descriptor portrays the methodological approach, data collection procedures, and available variables, and outlines how the data may be used for future research.",
-    "doi": "10.1038/s41597-026-07643-z",
+    "osf_id": "pmzv3_v1",
+    "title": "Eye-head Coordination as a Signature of Bouldering Expertise: an Embodied Cognition Approach",
+    "date_created": "2026-06-22T10:19:00.286298",
+    "date_modified": "2026-06-22T11:14:23.107918",
+    "description": "Climbing demands that the performer see, balance, and move as a single act, making it a compelling case for embodied accounts of cognition. Yet climbing research has largely measured body morphology, gaze, or movement in isolation, and gaze has typically been recorded separately from the head that carries the eyes. We recorded gaze and head movement simultaneously, using a head-mounted eye tracker with an integrated inertial sensor, in 22 climbers spanning the full grade range from novice to competition athlete, on a naturalistic bouldering route. Principal component analysis revealed that gaze and head movement did not separate into distinct channels but co-varied as a single dimension reflecting the magnitude of visual-postural exploration; this dimension, together with the temporal organization of head movement, predicted climbing grade (R^2=0.615). The anthropometric measures most emphasized in climbing:  arm span, BMI, and ape index, did not predict grade independently of sex, although body morphology helped distinguish climber subgroups. These findings indicate that the eyes and head operate as a single exploration system whose coordination, rather than the body’s structure, marks bouldering expertise, and support an embodied account in which skilled perception and action are inseparable.",
+    "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
@@ -632,12 +378,12 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
         },
         {
-          "id": "5b4e7426c6983001430b6c3b",
-          "text": "Affect and Emotion Regulation"
+          "id": "5b4e7427c6983001430b6c86",
+          "text": "Action"
         }
       ],
       [
@@ -646,36 +392,34 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c3d",
-          "text": "Sport Psychology"
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce6",
+          "text": "Embodied Cognition"
         }
-      ],
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/pmzv3_v1/"
+  },
+  {
+    "osf_id": "8q569_v1",
+    "title": "Public acceptance of climate scientists’ engagement is broad, but not without limits",
+    "date_created": "2026-06-22T11:21:57.156327",
+    "date_modified": "2026-06-23T16:46:32.436797",
+    "description": "Climate scientists increasingly engage in actions to draw attention to climate change, yet evidence on how engagement shapes public perceptions remains mixed. A survey of 1,348 Americans shows that public support extends well beyond research and teaching, but declines for more norm-challenging, and especially, disruptive actions. Political polarisation was evident across all forms of engagement, but was strongest for contentious, weaker for disruptive, and smallest for mainstream actions.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c53",
-          "text": "Individual Differences"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c6b",
-          "text": "Prosocial Behavior"
+          "id": "5b4e7426c6983001430b6c56",
+          "text": "Environmental Psychology"
         }
       ],
       [
@@ -702,148 +446,8 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7427c6983001430b6c74",
-          "text": "Achievement and Status"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c79",
-          "text": "Prejudice and Discrimination"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c85",
-          "text": "Sexuality"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c88",
-          "text": "Social Well-being"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c9a",
-          "text": "Self and Social Identity"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6caa",
-          "text": "Interpersonal Relationships"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb0",
-          "text": "Intergroup Processes"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb2",
-          "text": "Well-being"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb7",
-          "text": "Motivational Behavior"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb8",
-          "text": "Intragroup Processes"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cc5",
-          "text": "Community"
+          "id": "5b4e7427c6983001430b6c94",
+          "text": "Social Influence"
         }
       ],
       [
@@ -873,7 +477,101 @@
           "id": "5b4e7428c6983001430b6cd6",
           "text": "Attitudes and Persuasion"
         }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/8q569_v1/"
+  },
+  {
+    "osf_id": "xmvsq_v2",
+    "title": "Does sensorimotor adaptation affects detection of and pupil response to motor perturbations?",
+    "date_created": "2026-06-22T11:32:54.032441",
+    "date_modified": "2026-06-23T16:57:27.091118",
+    "description": "Much recent research on sensorimotor adaptation has focussed on its cognitive side and how adaptation differs when it it cognitively controlled. Here, we investigate more closely what makes different types of perturbations detectable. We used different perturbation schedules to contrast how the magnitude of a motor perturbation and the associated error signal contribute to its detectability. We manipulated perturbation either following an unpredictable de Bruijn sequence, maximising the error signal, or a ramp perturbation, incrementally increasing perturbations and thus minimising error by allowing continuous adaptation. We did this in two different experiments using two perturbed everyday actions, walking with a split-belt speed perturbation (experiment 1) and grasping with a visuo-haptic size mismatch (experiment 2). In each experiment, N=48 participants were asked to judge the relevant dimension, either the relative speed of the treadmill belts, or the relative size of the objects to be grasped, while we measured participants' pupil dilation and investigated if this could serve as a no-report marker of perturbation detection. We found that participants reliably adapted to the incrementally introduced ramp perturbation and concurrently showed slightly reduced perturbation detection relative to de Bruijn sequence perturbations. Tonic pupil-dilation parameters were noisy, but showed differences depending on both perturbation magnitude and the type of perturbation, consistent with an effect of uncertainty. Pupil responses also differed depending on the detection response, but not sufficiently to allow trialwise classification in these data. These patterns occurred both in walking and in grasping, with only minor differences, suggesting that the underlying mechanisms may be similar and potentially generalisable across motor actions.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c86",
+          "text": "Action"
+        }
       ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cc0",
+          "text": "Vision"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7428c6983001430b6ccc",
+          "text": "Touch, Taste, and Smell"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce8",
+          "text": "Multisensory Integration"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cec",
+          "text": "Vestibular Systems and Proprioception"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/xmvsq_v2/"
+  },
+  {
+    "osf_id": "bqtvc_v2",
+    "title": "A cross-cultural analysis of religious fasting and well-being using  15 years of internet search data",
+    "date_created": "2026-06-22T12:55:22.016368",
+    "date_modified": "2026-06-23T17:06:11.813343",
+    "description": "Fasting is historically and cross-culturally widespread and prescribed by many world religions. Yet, its effects on psychological health and well-being remain poorly understood. We analyzed 15 years of internet search data to examine how one religious fast—Ramadan—affects society-level well-being in religiously homogenous countries (i.e., ≥75% Muslim population). We operationalized well-being using composite indices of Google searches indicative of poor psychological well-being and mental health. Our analysis reveals robust evidence that Ramadan predicts improved well-being in Muslim-majority countries. Further, leveraging the year-to-year variation in Ramadan intensity due to seasonal variation in day length, we also found that longer Ramadan fasts—which occur in warmer months and farther from the equator—predict significantly more positive effects. This suggests that benefits of the Ramadan fast may at least partly be attributable to the difficulty of the ritual. We discuss possible mechanisms and implications of these findings for understanding the cultural evolution of ritual practices.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -884,72 +582,10 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7428c6983001430b6cde",
-          "text": "Cultural Differences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/43xsn_v4/"
-  },
-  {
-    "osf_id": "3bkd5_v1",
-    "title": "Art as a Bridge Between Brains? A Study of Artist and Viewer Emotion Communication in Abstract Drawing using fNIRS Hyperscanning",
-    "date_created": "2026-06-23T13:54:35.127197",
-    "date_modified": "2026-06-25T00:29:06.406104",
-    "description": "Art has often been suggested to evoke shared emotional and empathetic connections between artists and their recipients. However, to-date, there is little empirical research on whether emotions are actually transmitted through art, especially between viewers and artists. Even rarer: can art actually \"bridge\" both parties' brains? We introduced a paradigm assessing inter-brain synchrony between artists and viewers via functional Near Infrared Spectroscopy (fNIRS) hyperscanning. A cohort of 19 non-artistically trained participants made four abstract drawings, each expressing one target emotion (happiness, pride, fear, anger). The drawing process was filmed and brain activity recorded over affective and cognitive empathy/theory of mind-related cortical regions. A sub-set of the resulting videos (two by each artist, balanced for positive/negative valence) were then viewed by a new cohort of (N = 28) participants while their own brain activity was measured over the same regions and with the task of identifying the target emotion and rating the quality and expressivity of the drawings and difficulty of the recognition task. Behavioral results suggested that all viewers could recognize intended emotions above chance, although with inter-viewer and inter-artwork/artist differences. At the intra-brain level, we found a significant relation between viewers' successful emotion recognition and lower activity in their rIFG as well as between viewers' subjective ratings of task difficulty and drawing expressiveness and activities in viewers' and artists' mPFC and IPL. At the inter-brain level, we found a notable relation between higher coherence between both brains over bilateral lIPL regions and viewers' ratings of lower subjective difficulty in the task. We also detected a positive relation between the artists' ratings of the expressivity of their artworks and higher inter-brain coherence over the rIFG and ATL areas, providing first evidence for an artwork to indeed lead to shar",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c58",
-          "text": "Emotion"
+          "id": "5b4e7427c6983001430b6c82",
+          "text": "Religion and Spirituality"
         }
       ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c77",
-          "text": "Behavioral Neuroscience"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/3bkd5_v1/"
-  },
-  {
-    "osf_id": "e4w7x_v2",
-    "title": "Political mental health is distinct from mental health and has unique political correlates",
-    "date_created": "2026-06-23T14:37:00.526164",
-    "date_modified": "2026-06-24T23:05:38.536013",
-    "description": "Politics is associated with a range of negative mental and physical health problems. Some work considers how  MH disorders are associated with politics. Others, study to what extent there are mental ill-health symptoms people attribute to politics. We contend directly with why a focus on mental (ill) health attributed to politics is necessary in the study of MH and politics and examine 1) to what extent measures specific to the domain of politics are conceptually distinct from general measures and 2) to what extent domain-specific measures demonstrate a different pattern of association to political correlates. We test and compare the construct and predictive validity of \"political mental health\" (PMH) and MH in two pre-registered samples in the Netherlands. We find PMH is uni-dimensional and conceptually distinct, but related, to MH and that PMH has stronger associations to relevant political correlates -such as conspiracy mentality and news aversion- and explains unique variance above and beyond a MH measure. We end with suggestions for future work on MH and politics that include the use domain-specific PMH and conclude that PMH has both clinical and political implications.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/e4w7x_v2/"
-  },
-  {
-    "osf_id": "yxtcd_v1",
-    "title": "Purpose in life and markers of affective, behavioral, cognitive, and relational engagement measured across moments in daily life",
-    "date_created": "2026-06-23T14:42:56.016960",
-    "date_modified": "2026-06-25T14:56:53.129296",
-    "description": "Engagement is a key factor in models of both purpose in life and cognitive health. These models usually measure engagement as participation in specific activities, whereas models of education and employment operationalize engagement as having specific affective, behavioral, cognitive, and relational components. As a step toward a more comprehensive model of purpose and cognitive health in middle and older adulthood, this research examines the association between dispositional purpose and metrics of these components of engagement reported across moments in daily life using ecological momentary assessment methodology. Participants (N=2577; Mage=63.52; SD=11.24) reported on their momentary engagement three times a day for eight days (&gt;48,000 momentary assessments; 79% compliance). Higher dispositional purpose in life was associated with greater affective (e.g., positive affect; b=11.49 [SE=.61]), behavioral (e.g., persistent; b=10.20 [SE=.48]), cognitive (e.g., attentive; b=8.99 [SE=.46]), and relational (e.g., feeling connected; b=7.98 [SE=.57]) engagement in daily life (ps&lt;.001). These associations were not moderated by sociodemographic factors. Higher purpose was mostly unrelated to variability in these metrics accounting for mean engagement: Participants higher in purpose had less variability because their average engagement was high. Greater engagement may be a mechanism in the pathway between purpose in life and the better health outcomes associated with it.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -965,14 +601,14 @@
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/yxtcd_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/bqtvc_v2/"
   },
   {
-    "osf_id": "rkxgp_v1",
-    "title": "Twin Analyses Without Zygosity Information: The Promise and Pitfalls of the Normal Finite-Mixture-Distribution Twin Model",
-    "date_created": "2026-06-23T15:02:26.995695",
-    "date_modified": "2026-06-25T14:59:35.420834",
-    "description": "Twin designs offer a powerful framework for disentangling genetic and environmental sources of individual differences, but require zygosity information that is often unavailable. When zygosity is unknown, analyses may still be possible using a normal finite-mixture-distribution model. This model assumes that the bivariate twin phenotype is normally distributed within each zygosity group, an assumption that cannot be directly verified because zygosity is unobserved. We conducted a simulation study to determine how well the normal finite-mixture-distribution model recovered parameters if this assumption is violated and if the twin difference distribution could serve as a diagnostic for violations. In univariate and bivariate simulations, we varied sample size, variance structure and the degree and source of kurtosis. We examined whether marginal score transformations reduce bias. We applied univariate and bivariate models to educational gaming data with unknown zygosity. Simulation estimates were most precise at high heritability and remained reasonably stable with samples as small as 200 pairs. Excess kurtosis in twin difference scores substantially biased estimates, and marginal transformations did not meaningfully reduce bias. Kurtosis-related bias was smaller in the bivariate model than in the univariate model. Empirical estimates based on the univariate model seemed highly biased, producing very high heritability estimates (0.91–0.99), except for the measure of division-skills (A = 0.58, C= 0, E= 0.42). Estimates based on the bivariate model seemed less biased, but unstable. Although mixture modelling may be used for twin-analyses without zygosity information, violations of bivariate normality may introduce considerable, difficult-to-detect bias, warranting careful interpretation of results.",
+    "osf_id": "k7ypg_v1",
+    "title": "Across Minds and Masterpieces:  Identifying \"Shared Resonance\" with Visual Art via Multi-Brain Hyperscanning",
+    "date_created": "2026-06-22T13:01:58.890876",
+    "date_modified": "2026-06-26T19:33:22.557525",
+    "description": "A long-standing argument in art studies suggests that certain artistic examples have some manner of universal resonance or lasting appeal that transcends local conditions and connects with many viewers across time, tastes, and context. However, finding ways to actually assess this, not to mention whether this could be detected across artworks and individuals, remains an empirical challenge. In this exploratory study, we introduce a novel approach to this challenge, borrowing an emerging technique from social, multi-participant neuroscience and Network Modelling methods to examine possible relationships between collective appreciation of media and shared inter-brain synchrony, or similar brain activity patterns across an entire viewer cohort. Thirty participants viewed 60 Western and Japanese paintings, previously shown to be relatively more/less popular among the public, individually, for 30 seconds each. Brain activity was recorded using functional near-infrared spectroscopy (fNIRS) over prefrontal, anterior temporal, and right inferior frontal gyrus (rIFG) regions. Especially the rIFG had been recently suggested, in an exploratory paper introducing this method, to suggest potential relations between groupwise synchrony, behavioral ratings, and a data-driven means of identifying \"resonance\" with music and video advertisements. Essentially replicating the past findings, shared synchrony (Network Density) over the rIFG across our viewer cohort did, indeed, significantly correlate to collective appraisal, notably willingness to pay to see the artworks. The result is discussed in terms of functional role, temporal versus static media, and considering the overall potential of this multi-brain hyperscanning method for opening a new avenue into understanding and empirically capturing our collective appeal of art as it manifests across brains.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -980,16 +616,30 @@
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c92",
-          "text": "Statistical Methods"
         }
       ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/k7ypg_v1/"
+  },
+  {
+    "osf_id": "9374s_v2",
+    "title": "From Digital Data to Psychological Insights: Making Sense of Mobile-Sensing Data Through Integrative Preprocessing Pipelines",
+    "date_created": "2026-06-22T13:02:07.005753",
+    "date_modified": "2026-06-23T17:07:55.437188",
+    "description": "Psychological research has long centered around questionnaire assessments, but\nnow digital devices, especially smartphones, enable the collection of real-world\nbehavioral data through mobile sensing. While this data collection method offers\nunique opportunities, it also introduces new methodological challenges, as\nmobile-sensing data are highly complex and high in dimensionality (i.e., time-stamped\nevents with millisecond resolution), requiring advanced preprocessing to derive\npsychologically meaningful variables. This article highlights these challenges by\nreviewing the current state of data preprocessing based on app usage logs from\nsmartphones. Afterwards, it presents three preprocessing cases that vary in complexity\nacross the dimensions of data enrichment—which involves adding context to raw data\nby integrating information from external and internal sources (including Ecological\nMomentary Assessments)—and data aggregation—which entails summarizing data in\ndifferent ways, from basic descriptive statistics to sophisticated machine learning\nmodels. For each case, potential pitfalls are identified, and extensions are discussed to\nrefine our preprocessing pipelines and accommodate different data types and research\nquestions. By outlining these preprocessing strategies, this manuscript demonstrates\nthe rich potential of mobile-sensing data for extracting nuanced behavioral variables\nbeyond simple person-level summaries, and aims to inspire the development of more\nadvanced research questions based on sensing data.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -1003,313 +653,17 @@
           "id": "5b4e7428c6983001430b6caf",
           "text": "Quantitative Psychology"
         }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd1",
-          "text": "Genetic factors"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cea",
-          "text": "Learning"
-        }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/rkxgp_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/9374s_v2/"
   },
   {
-    "osf_id": "pfxq2_v1",
-    "title": "Speech activity confounds respiratory sinus arrhythmia reactivity in psychophysiological research: how to detect and control for the effects of speech in daily life",
-    "date_created": "2026-06-23T15:14:14.335087",
-    "date_modified": "2026-06-24T05:13:22.700995",
-    "description": "Speaking is a recurring activity that interferes with the measurement of the physiological stress response. Unique respiratory demands of speech amplify respiratory sinus arrhythmia (RSA) when cardiac vagal activity may be unchanged or withdrawn. While this confounding may be experimentally controlled in laboratory settings, a speech activity detection model or, alternatively, an RSA metric that controls for the respiratory demands of speech is needed in daily life research. Here, we first validate an accelerometer-based speech detection model and impedance pneumography-based respiration assessment in naturalistic settings, using a throat microphone and respiratory inductance pneumography (RIP) as respective ground truths. Across participants, the accelerometer-based speech detection model showed good concurrent and criterion validity (71.6% sensitivity, 83.9% specificity, 84.4% AUC, .43 Matthews correlation coefficient). Impedance-based respiratory parameters showed good-to-moderate concurrent and criterion validity for breathing period (.59 ≤ r ≤ .71) and tidal volume (.50 ≤ r ≤ .54) but weak validity for inspiration-to-expiration duration (IE)-ratio (.27 ≤ r ≤ .43). Next, using mixed models, we confirmed that speech significantly shortens interbeat interval (by 75.2 ms) while it, counterintuitively, inflates RSA (by 25.3 ms) within individuals. After normalization by tidal volume, RSA showed the expected decrease in response to speech in sitting postures, but it required further control for inspiration-to-expiration duration (IE)-ratio in standing posture. Examination of individual participant slopes revealed IE-ratio controlled tidal volume-normalized RSA successfully eliminated the speech-related inflation of RSA for all participants. We recommend reporting IE-controlled tidal volume-normalized RSA in protocols involving speech, whether based on laboratory or ambulatory data. As speech also impacts a host of autonomic nervous system-related parameters other tha",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c77",
-          "text": "Behavioral Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c7d",
-          "text": "Physiology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c90",
-          "text": "Trauma and Stress"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/pfxq2_v1/"
-  },
-  {
-    "osf_id": "v7e9a_v1",
-    "title": "Cuing the future to reduce delay discounting: EEG correlates of value and vividness",
-    "date_created": "2026-06-23T15:33:25.806918",
-    "date_modified": "2026-06-24T08:38:15.098911",
-    "description": "The tendency to discount future reward can be reduced when individuals are cued to imagine future events. This \"cue effect\" has been studied using fMRI, but the current work is the first to investigate it using EEG. We found that more subjectively vivid imagination of the future encouraged more farsighted decisions, and that subjective vividness was higher when larger delayed rewards were available. Using time-frequency partial least squares analysis, we identified a pattern of enhanced gamma and reduced theta power that correlated with the subjective value of delayed rewards on trials without cues. We also found a pattern of reduced parietal alpha power that was associated with subjective vividness on trials with cues. We contextualize these findings within the broader EEG literature on reward valuation, mental event simulation, and mental imagery.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca5",
-          "text": "Memory"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd5",
-          "text": "Attention"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf0",
-          "text": "Imagery"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf8",
-          "text": "Consciousness"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cfb",
-          "text": "Judgment and Decision Making"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/v7e9a_v1/"
-  },
-  {
-    "osf_id": "n9dzb_v1",
-    "title": "The risks of conflating anhedonia with apathy",
-    "date_created": "2026-06-23T16:29:45.812127",
-    "date_modified": "2026-06-25T00:20:12.228060",
-    "description": "The capacity for pleasure is distinct from the desire for reward, or the effort required to obtain it. Yet a persistent trend in translational research conflates these dissociable processes, by absorbing motivational dysfunctions such as anergia/fatigue, avolition, and clinical apathy—involving a significant reduction in goal-directed behaviour—into the definition of anhedonia. This is not simply a semantic issue. By collapsing separable aspects of motivation into a single hedonic label, the field risks misdirecting therapeutic development; treatments targeting pleasure may be ineffective for patients whose primary deficit is in behavioural activation. In this Perspective, we propose deconstructing the reward-pursuit cycle into three mechanistically distinct stages — liking, wanting, and acting to fulfil goals—and show that much of what is labelled ‘anhedonia’ in translational models instead reflects impaired behavioural activation, a core feature of clinical apathy. Restoring this distinction is essential for precision phenotyping and mechanism-based treatment development.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c68",
-          "text": "Clinical Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c77",
-          "text": "Behavioral Neuroscience"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/n9dzb_v1/"
-  },
-  {
-    "osf_id": "ycedt_v1",
-    "title": "The Effects of a Yoga Intervention on Adults with Intellectual Disabilities (ID). A systematic review.",
-    "date_created": "2026-06-23T18:34:42.167980",
-    "date_modified": "2026-06-26T07:28:32.949202",
-    "description": "Background: Adults with ID are significantly more likely to be overweight or obese, and they are more likely to suffer from mental illness such as anxiety or depression. Currently, there is limited research into non-pharmacological approaches to enhancing wellbeing for adults with ID. Various studies have examined the positive impact of yoga interventions on the general population. However, to date, few studies have looked into psychosocial interventions (such as yoga) for adults with ID.\nMethods: The following databases were searched: Cochrane, SCOPUS, Medline, AMED, CINHAL, SportsDiscus, PsychARTICLES and PsychINFO. The inclusion and exclusion criteria were independently applied by one researcher. A second reviewer then checked the individual papers against these criteria. Data was then extracted from the studies selected for inclusion in the review.\nResults: One study was included in this review. This was the only study deemed eligible for inclusion when the inclusion and exclusion criteria were applied. The paper was rated as having a medium risk of bias.\nConclusion: There is an extremely limited amount of published research available on the effects of yoga on adults with ID. This review concludes that – to support any initial positive findings on the implementation of yoga as an activity for this population group – more extensive, higher quality, and larger scale research is needed.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c21",
-          "text": "Life Sciences"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c93",
-          "text": "Health Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6ce5",
-          "text": "Prevention"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c93",
-          "text": "Health Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf6",
-          "text": "Mental Health"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/ycedt_v1/"
-  },
-  {
-    "osf_id": "6ne95_v3",
-    "title": "Delusions are Related to Aberrant Causal Generalization",
-    "date_created": "2026-06-23T19:19:59.674383",
-    "date_modified": "2026-06-25T15:38:38.499479",
-    "description": "Generalization tendencies might simultaneously explain the emergence and maintenance of delusional beliefs. On the one hand, people with a tendency to under-generalize information might produce “overfit” explanatory models and accordingly fail to recognize when new data bears on them; on the other hand, people with a tendency to over-generalize information might produce “underfit” explanatory models and accordingly update them in inappropriate scenarios. To adjudicate between these hypotheses, we test whether delusions predict performance on a classic stimulus generalization paradigm (the peak shift). The behavioral data indicate that higher delusionality predicts over-generalization of learned causal relationships and under-generalization of learned absence of causality. Computational modeling largely reveals the driving mechanism to be stochasticity (and perhaps prediction error), however, specific aspects of delusionality (distress, contents) relate to different generalization tendencies.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/6ne95_v3/"
-  },
-  {
-    "osf_id": "qmh3s_v1",
-    "title": "Artificial Intelligence Systems Distort Upstream Selection in Human Social Learning",
-    "date_created": "2026-06-23T19:29:17.921145",
-    "date_modified": "2026-06-29T12:44:38.584100",
-    "description": "Humans are social learners who depend on observing others to acquire knowledge, norms, and behaviors, a capacity that underlies cumulative cultural evolution. Social learning unfolds in two stages: upstream selection determines what information becomes visible, and downstream selection determines what learners copy from that visible sample. Downstream selection occurs through biases such as conformity bias (copying what appears common) and prestige bias (copying those who appear highly respected). These downstream biases can be adaptive when upstream selection yields a sample that reflects the population's true distribution, so that what appears common is actually common and those who appear respected are actually competent. We argue that digital technologies disrupt this condition, creating an upstream selection problem. Engagement-based algorithms amplify the tails of the distribution, surfacing rare and extreme content, whereas generative AI collapses it toward the mode, erasing the surrounding diversity. Crucially, in each system the optimization signal shapes both visibility and prestige. For engagement-based algorithms, the signal is engagement: creators who post extreme content become more visible and, through the likes, shares, and followers, appear more prestigious. For generative AI, the signal is statistical typicality: it makes the modal answer dominant and, with no alternatives shown, makes the model that produced it appear more prestigious. These distortions can give rise to emergent group-level phenomena, including pluralistic ignorance and false consensus. Synthesizing evidence across psychology, cultural evolution, and computational social science, we provide a framework for how digital technologies disrupt social learning and outline interventions for restoring functional cultural transmission.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/qmh3s_v1/"
-  },
-  {
-    "osf_id": "z5mxd_v1",
-    "title": "Factors Associated with Students’ Perceived Competence Using Statistical Software",
-    "date_created": "2026-06-23T19:37:19.991640",
-    "date_modified": "2026-06-24T03:16:00.017516",
-    "description": "Statistical software is used in many statistics courses across a wide range of disciplines. However, minimal research examines how students’ attitudes and experience relate to feeling competent using statistical software by the end of a statistics course. In this study, I examined variables relevant from two competing theories (expectancy-value theory; EVT, and technology acceptance model; TAM) to examine which ones were most strongly associated with students’ perceived competence using statistical software by the end of a statistics course. Participants came from two samples; sample 1 included undergraduate students learning a point-click software in the social sciences (n =110); sample 2 included students learning R in a Masters program in analytics (n = 193). In both samples, the TAM-aligned variables had higher correlations with perceived competence than the EVT-aligned statistics attitudes variables. However, the correlations of EVT-aligned variables tended to be stronger in sample 2. Analysis of open-ended data asking about factors impacting software competence resulted in somewhat different findings across the samples. Sample 1 participants were more likely to focus on course-specific resources such as course manuals or instructor impacts, whereas sample 2 participants were more likely to focus on the importance of real-world applications, previous experience, and intrinsic factors.",
-    "doi": "",
+    "osf_id": "4en3j_v2",
+    "title": "Investigating Everyday Music Choice on Smartphones: The Role of Mood States and Personality Traits",
+    "date_created": "2026-06-22T13:29:30.802828",
+    "date_modified": "2026-06-25T07:24:50.949233",
+    "description": "Digitalization has created unprecedented freedom of choice in music consumption, highlighting intra- and interindividual differences in everyday listening behavior. To shed light on the factors involved in natural music choices, the present study collected 1,631 music-listening sessions from 110 participants over 14 consecutive days using smartphones for both passive and active ambulatory assessments. We obtained smartphone-sensed music-listening records and experience-sampled mood states, along with Big Five personality traits from traditional surveys. Using multilevel regressions, we predicted momentary music choice in terms of musical valence and energy from concurrent mood states, enduring personality traits, and their interactions. As preregistered, we expected to replicate past findings on mood-congruent music choice and associations between personality and music choice, as well as theory-based interaction effects. However, our models showed that mood and personality accounted for only a small fraction of variance in music choice, with one significant effect indicating that people in more activated mood states chose more energetic songs. Beyond that, our models showed no effects for chosen musical valence and energy. We discuss design-related factors (e.g., operationalization and ecological validity) and outline future avenues for smartphone-based research, with particular emphasis on the role of situational context in everyday music choice.",
+    "doi": "10.1177/27000710261456849",
     "preprint_doi": "",
     "subjects": [
       [
@@ -1322,72 +676,10 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7427c6983001430b6c74",
-          "text": "Achievement and Status"
+          "id": "5b4e7426c6983001430b6c3b",
+          "text": "Affect and Emotion Regulation"
         }
       ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8b",
-          "text": "Educational Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd6",
-          "text": "Attitudes and Persuasion"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/z5mxd_v1/"
-  },
-  {
-    "osf_id": "zyvaq_v2",
-    "title": "Economic Growth and Emotional Well-Being: Longitudinal Evidence from 33 European Countries",
-    "date_created": "2026-06-23T19:58:59.256549",
-    "date_modified": "2026-06-24T03:20:14.010856",
-    "description": "The relationship between economic growth and emotional well-being remains poorly understood relative to life satisfaction, largely due to methodological limitations. Using psychometrically robust measures we examined how national income relates to emotional well-being. Analyzing 178,948 participants across 33 European countries in four European Social Survey waves (2006, 2012, 2014, 2023), we constructed a reliable emotional well-being measure and compared it with single-item life satisfaction. Both showed strong positive cross-sectional correlations with GDP per capita. Linear mixed-effects models revealed economic growth significantly predicts within-country increases in both emotional well-being and life satisfaction. These findings demonstrate that economic development improves both cognitive and affective dimensions of subjective well-being, contradicting previous research suggesting a weak association with emotional experiences. Economic growth thus remains important for improving citizens' daily emotional experiences, not merely their life evaluations, highlighting the continued relevance of economic development for well-being.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb2",
-          "text": "Well-being"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/zyvaq_v2/"
-  },
-  {
-    "osf_id": "5zxqg_v2",
-    "title": "TuneTwins: An Intrinsically Motivating Game Paradigm for Scalable Music Cognition Research",
-    "date_created": "2026-06-23T20:08:38.468688",
-    "date_modified": "2026-06-24T03:23:32.456427",
-    "description": "Researchers across the behavioral sciences are increasingly using games as a means of data collection. Intrinsically motivating digital games are especially promising for music cognition, where large, diverse, and engaged samples are needed. In this article, we focus on a specific class of game paradigms suited to cross-cultural contexts and applicable across the developmental lifespan: auditory matching-pairs (Memory) games. We present the conception, design, and initial evaluation of TuneTwins, a solitaire auditory matching-pairs paradigm developed to study musical memory and auditory cognition. Building on self-determination theory and prior game-based research, TuneTwins employs an 8-pair (4 × 4) board to balance playability with psychometric sensitivity. Our web-based auditory adaptation introduces clear visual–auditory mappings, a three-click turn structure, and a dual scoring system that distinguishes memorized matches from lucky guesses and memory errors. Large-scale simulations of chance and optimal strategies guided the choice of board size, demonstrating that this configuration yields meaningful separation between performance extremes while avoiding ceiling effects. We further report empirical evidence from three implementations: a proof-of-concept online study, a cross-cultural field study with Mbendjele BaYaka hunter-gatherers, and an online global deployment. Across these settings, TuneTwins captured systematic performance differences between stimulus conditions and elicited high voluntary engagement, including repeated play and the completion of multiple difficulty levels. We argue that matching-pairs games such as TuneTwins provide an engaging, intuitive, and scalable paradigm for collecting behavioral data using primarily auditory stimuli—and that they can be used to probe the mental representation of music across cultures, across development, and potentially across species.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -1404,8 +696,252 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c71",
-          "text": "Perception"
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c53",
+          "text": "Individual Differences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/4en3j_v2/"
+  },
+  {
+    "osf_id": "5msde_v1",
+    "title": "Momentary purpose and cognitive function in everyday life: Evidence from the Purpose and Engagement in Everyday Life study",
+    "date_created": "2026-06-22T14:53:29.782514",
+    "date_modified": "2026-06-25T15:13:21.277132",
+    "description": "Objectives: Purpose in life is associated with better cognition in middle and older adulthood. Less is known about how purpose supports cognitive function in moments throughout the day in daily life.\nMethods: Participants in the Purpose and Engagement in Everyday Life (PEEL) study (N=2577; Meanage=63.51 [SD=11.24], 60% female, 27% Black) completed an ecological momentary assessment protocol in which they rated their momentary purpose, completed three cognitive tasks, and reported on three cognitive lapses three times a day for eight days. Participants also rated their momentary meaning in life, happiness, and sadness. \nResults: Multilevel modeling of nearly 48,000 assessments indicated that in moments participants felt more purposeful than their own average, they performed faster on momentary measures of attention (b=-.06, SE=.01, p&lt;.001) and executive function (b=-.11, SE=.04, p=.011) but not visual memory. Momentary meaning was associated with attention (b=-.06, SE=.02, p&lt;.001) but not executive function or visual memory. Momentary happiness and sadness were largely unrelated to momentary cognitive performance. Momentary purpose was associated with fewer lapses in concentration (OR=.94, 95% CI=.92, .96, p&lt;.001) and unrelated to memory lapses; the same pattern emerged for meaning, happiness, and sadness (reverse direction). The associations between purpose and momentary cognition were generally similar across age, sex, race, ethnicity, and education.\nDiscussion: Higher purpose relative to one’s average supports better cognitive performance in daily life. These cognitive benefits do not extend to hedonic well-being. If supported by experimental evidence, purpose in life may be a target of intervention to improve cognitive function in daily life.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c98",
+          "text": "Aging"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb2",
+          "text": "Well-being"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/5msde_v1/"
+  },
+  {
+    "osf_id": "4a9nw_v2",
+    "title": "Limited Information Model Fit Test of Binary Item Response Theory Model with Missing Responses",
+    "date_created": "2026-06-22T15:04:48.159624",
+    "date_modified": "2026-06-25T15:14:03.209190",
+    "description": "Even though missing data are prevalent in applications of item response theory (IRT), there has been a lack of research on the global model fit of IRT models with missing data. This study proposes two limited information fit statistics under full information maximum likelihood estimation for binary IRT models, related to the M_2 statistics of Maydeu-Olivares and Joe (2005). For a baseline model, we choose a log-linear model up to pairwise interaction effects based on the observations that M_2=0 with df=0 for this model under complete data as the first- and second-order model-implied marginals exactly recover those of sample and that two-parameter logistic IRT models are special cases of the model. We develop a computationally efficient generalized expectation-maximization algorithm (Dempster et al., 1977) to estimate the log-linear model under missing data. The two proposed statistics are motivated by G^2_dif of Fuchs (1982) and D_m of Rubin (1987) in multiple imputation, referred to as G^2_dif and \\tilde{M}_2. Due to exponentially increasing cells (i.e., two to the power of the number of items), we discuss poor man's data augmentation of Wei and Tanner (1990) for \\tilde{M}_2. We show that the two proposed statistics perform well throughout a simulation study and an application to PISA mathematics achievement data, among which \\tilde{M}_2 shows the most promising result. We complete the study by discussing several important topics for the global model fit of IRT models under missing data.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c59",
+          "text": "Psychometrics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/4a9nw_v2/"
+  },
+  {
+    "osf_id": "q5vfy_v1",
+    "title": "Composite Marginal Likelihood Estimation of High-Dimensional Confirmatory Item Response Theory Model",
+    "date_created": "2026-06-22T15:08:04.207603",
+    "date_modified": "2026-06-25T15:14:16.616340",
+    "description": "In item response theory (IRT), the two-tier IRT model can be considered a general confirmatory IRT model, in which multiple correlated primary factors and orthogonal specific factors are loaded onto items. Although full information maximum likelihood estimation combined with the dimension reduction technique has been successful, it becomes computationally infeasible when the number of primary factors increases. In this study, we propose a composite marginal likelihood (CML) estimation via the expectation-maximization algorithm to alleviate this computational demand. We adopt the pairwise fitting approach, where item responses are divided into subsets according to primary factor pairs. Combined with the dimension reduction technique, this approach can, in certain cases, reduce the required numerical integration to as few as three latent variables, regardless of the total number of primary and specific factors in the model. The potential of the CML method for the two-tier IRT model is demonstrated by a simulation study and applications to two empirical datasets.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c59",
+          "text": "Psychometrics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/q5vfy_v1/"
+  },
+  {
+    "osf_id": "rftgx_v1",
+    "title": "Beyond treatment: Parents’ Experiences of Insurance, Legal, and Financial Hardships During Childhood Cancer Survivorship",
+    "date_created": "2026-06-22T15:27:54.601068",
+    "date_modified": "2026-06-25T15:41:57.542782",
+    "description": "Background and aims: Childhood cancer survival rates have improved substantially, leading to a growing population of survivors and increasing attention to long-term survivorship. Beyond the long-term medical and psychosocial impact on affected children, their parents may experience persistent financial, insurance-related, and legal hardships. The dynamic interplay between these challenges has not yet been comprehensively examined. This study aimed to explore parents’ lived experiences with these challenges from a holistic perspective.\nMethods: A qualitative cross-sectional study using focus groups was conducted in Switzerland with adult survivors of childhood and adolescent cancer and with parents of survivors. In total, 11 focus groups with 18 parents and 11 survivors were conducted. Data were collected using a semi-structured interview guide and analyzed using qualitative content analysis with a combined deductive and inductive approach.\nResults: Eight categories of long-term hardships were identified. Parents reported persistent financial strain due to treatment-related costs, ongoing medical expenses, and income loss. Insurance-related challenges included high supplementary premiums, co-payments, and uncertainty regarding coverage responsibilities between health and disability insurance. Legal challenges were less frequently discussed but included uncertainty regarding rights and the need for ongoing advocacy. Overall, the findings highlight the interdependence of financial, insurance-related, and legal hardships.\nConclusion: Childhood cancer survivorship is associated with persistent and interconnected socioeconomic challenges for families. More integrated support systems and improved coordination between services are needed to address long-term hardships.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/rftgx_v1/"
+  },
+  {
+    "osf_id": "8yzfc_v2",
+    "title": "EVALUATING THE BIOLOGICAL RELEVANCE OF THE RELATIVISTIC THEORY OF CONSCIOUSNESS",
+    "date_created": "2026-06-22T16:16:28.795515",
+    "date_modified": "2026-06-25T15:44:17.386397",
+    "description": "According to the Relativistic Theory of Consciousness by Lahav and Neemeh, consciousness is not an absolute feature but a relativistic one that depends on the reference system of the observer. The theory offers a new, thought-provoking view on consciousness, but also raises critical issues. First: What is the fundamental precondition of consciousness which the Relativistic Theory may be based upon? Although this aspect does not question the relativistic principle as such, it still remains open. Therefore, a Comparator Model of consciousness will be discussed in relation to the Relativistic Theory of Consciousness. Second: What is the Relativistic Theory’s biological relevance? This solely depends on the theory’s real-world applicability because this is it what the authors fundamentally envisage by their statement that we just need to move to the appropriate frame of reference in order to measure phenomenal properties. Although the mathematical formulation of changing from a third-person to a first-person frame of reference is possible when based on suitable premises, and may well be internally consistent, this does not per se prove any corresponding biological reality. Thus, the technological requirements for such a transition are a most critical issue. The obstacles in real-life will be addressed.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/8yzfc_v2/"
+  },
+  {
+    "osf_id": "w8zey_v3",
+    "title": "Power output feedback improves cycling performance without affecting the perception of voluntariness in task failure",
+    "date_created": "2026-06-22T16:18:26.755504",
+    "date_modified": "2026-06-25T15:43:58.058487",
+    "description": "The perception of voluntariness in task failure during extreme physical effort is debated in endurance sports. This study tested whether power meter data availability affects perceived voluntariness and performance in cyclists accustomed to power meters. Forty trained cyclists completed two counterbalanced maximal incremental tests: one without feedback and one with real-time power visualization. Confirmatory analyses showed that power visualization increased maximal aerobic power (MAP) without affecting VO2MAX, maximal heart rate, RPE, or perceived voluntariness. Exploratory analyses revealed an order effect: participants who first performed the test with power data perceived their decision to stop as more voluntary in that condition compared to the subsequent no-feedback test. This effect was absent in the reverse order group. No order effects were found for other variables. Cyclists’ performance judgments aligned with actual MAP differences. These findings show that access to power data enhances MAP. Although the main analysis pointed to a null effect on perceived voluntariness of the decision to stop, an exploratory order effect suggested that removing power data after prior exposure reduces perceived control over task failure decisions, warranting further investigation. This study highlights the role of performance feedback in shaping objective and subjective performance in cycling.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c3d",
+          "text": "Sport Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c7d",
+          "text": "Physiology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/w8zey_v3/"
+  },
+  {
+    "osf_id": "z9y46_v1",
+    "title": "Myths About Sexual Violence in Online versus Offline Settings: Unveiling the Impact of the Cyberculture",
+    "date_created": "2026-06-22T16:25:47.841590",
+    "date_modified": "2026-06-25T15:44:28.891751",
+    "description": "Beliefs about sexual violence influence judgments and perpetration of violence against women. While offline sexual and intimate partner violence myths are well-studied, the rise of cyber-sexual violence raises questions about the specificity of related beliefs. Across two studies with Spanish- and English-speaking participants (N = 979), we examined the distinction and overlap among cyber-sexual violence myths, offline sexual violence myths, and offline intimate partner violence myths, and their unique role in predicting online victim blaming. Using confirmatory factor analyses, we compared different models—including unidimensional, correlated-factor, and bifactor-(S-1)—including later victim blaming as a criterion variable. Results indicated that cyber-sexual violence myths, offline sexual violence myths, and offline intimate partner violence myths are empirically distinct yet positively correlated, with moderate shared variance, especially between offline myths, reflecting a common ideological basis rooted in sexism. Crucially, cyber-sexual violence myths most strongly predicted online victim blaming, highlighting the need for interventions.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c92",
+          "text": "Statistical Methods"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/z9y46_v1/"
+  },
+  {
+    "osf_id": "vp2ku_v1",
+    "title": "Correlated motion information improves subsecond visual time perception",
+    "date_created": "2026-06-22T17:24:44.582415",
+    "date_modified": "2026-06-25T15:45:07.808182",
+    "description": "Continuous visual information, like a conductor’s baton, is used to execute temporal behaviors like playing music with others. And yet, research in time perception has yielded the finding that time perception is superior in audition compared to vision. This finding depends on discrete stimuli, particularly visual flashes of light, which do not match how most temporal events unfold in the real world. We hypothesized that sub-second visual time perception would be improved by a moving stimulus relative to discrete flashes. We found that a continuous visual stimulus that resembled a bouncing ball dramatically improved time-interval discrimination performance over flashes. In subsequent experiments, we showed that the continuous visual stimulus improved performance over the discrete flashes because bounces are better events and because it had motion. When the correlation between the motion of the stimulus and the time intervals it depicted was intact, the motion provided extra temporal information that participants used to produce good performance. These results provide evidence that the asymmetry seen in the literature that time perception in audition is superior to vision is not universal. Continuous information from a moving stimulus can be exploited to produce good sub-second visual time perception.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c45",
+          "text": "Psychology, other"
         }
       ],
       [
@@ -1424,12 +960,66 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
         },
         {
-          "id": "5b4e7427c6983001430b6ca1",
-          "text": "Experimental Design and Sample Surveys"
+          "id": "5b4e7428c6983001430b6cdb",
+          "text": "Motion Perception"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vp2ku_v1/"
+  },
+  {
+    "osf_id": "pcrzg_v1",
+    "title": "Sociocultural Cannabis Attitudes in Relation to Personality and Cannabis Use: A Bayesian Network Approach",
+    "date_created": "2026-06-22T17:30:20.312197",
+    "date_modified": "2026-06-25T15:45:23.113901",
+    "description": "Objective: Risky cannabis use is shaped by a myriad of factors, including individual and environmental factors. Individual level factors such as personality traits have well documented links to increased risky cannabis use, but how they interact with cannabis context to influence cannabis use has not yet been examined. This study examined the influences of personality traits, cannabis attitudes, and cultural context on symptoms related to cannabis use disorder. Understanding this link is important because it can help explain why cannabis use patterns vary across people and settings in service of more precise prevention and intervention strategies. \nMethod: Fifty-eight adults from the U.S. and 81 adults from the Netherlands completed the Cannabis Use Disorder Identification Test (CUDIT), NEO Five Factor Inventory (NEO-FFI), and Cannabis Culture Questionnaire (CCQ). Bayesian network analyses were conducted to estimate conditional dependencies and probabilistic relationships among risky cannabis use, personality traits, and cannabis attitudes. \nResults: Personal and perceived peer positive cannabis attitudes formed a tightly interconnected cluster. Personality traits exhibited selective interconnections, with associations primarily occurring among personality domains rather than with cannabis attitudes or use severity. CUDIT scores had a direct negative association with conscientiousness. Legal context was the most highly connected node, linking cannabis use severity, positive cannabis attitudes, and multiple personality traits. \nConclusions: These findings indicate that cannabis use severity is embedded within a broader network of individual factors that include personality and cannabis attitudes that may be shaped by contextual influences and provide support for culturally sensitive prevention and intervention efforts.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c30",
+          "text": "Substance Abuse and Addiction"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c49",
+          "text": "Personality Processes"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd6",
+          "text": "Attitudes and Persuasion"
         }
       ],
       [
@@ -1445,28 +1035,6 @@
           "id": "5b4e7429c6983001430b6cf1",
           "text": "Cross-cultural Psychology"
         }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/5zxqg_v2/"
-  },
-  {
-    "osf_id": "3uqks_v3",
-    "title": "Hard bargains and even splits: Fairness judgments track bargaining power across diverse cultures",
-    "date_created": "2026-06-23T20:28:36.061161",
-    "date_modified": "2026-06-24T03:25:44.339355",
-    "description": "What is the fair way to distribute resources? Past research highlights egalitarian and redistributive intuitions that favor the disadvantaged. Contractualist theories propose moral judgments mirror what rational agents would agree to, favoring parties in advantaged bargaining positions. We reconcile these views, showing people think it fair to favor the advantaged when they have more bargaining power, but to favor the disadvantaged in a non-bargaining context. Specifically, across nine countries, participants (n = 6,304) make third-party judgments about the\nmorally best split of a fixed amount. When the split requires agreement (bilateral negotiation in Study 1; third-party negotiation in Study 2), moral judgments overwhelmingly track bargaining power and can be predicted with striking quantitative precision. When the split is determined by\na unilateral donation and existing inequalities do not alter bargaining positions, moral intuitions\nare reversed, reflecting redistributive or egalitarian concerns.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        }
       ],
       [
         {
@@ -1476,81 +1044,21 @@
         {
           "id": "5b4e7427c6983001430b6c8c",
           "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/3uqks_v3/"
-  },
-  {
-    "osf_id": "nqwy6_v1",
-    "title": "Who gets to be their true selves at work?",
-    "date_created": "2026-06-23T20:31:18.967255",
-    "date_modified": "2026-06-24T03:27:59.842014",
-    "description": "People spend a lot of time at work, and increasingly look to their careers as a place to express their true, authentic selves. We examine two career pathways to the true self at work: moral careers (e.g., those in healthcare, social work), which should foster authenticity because morality is central to identity and the true self, and aesthetic careers (e.g., those in artistic and creative fields), which should foster authenticity through the freedom and autonomy they afford. Across three experiments (N = 1,232) and one archival study using the General Social Survey (GSS; N = 72,390), we compare these pathways from both third- and first-person perspectives. Study 1 shows that job seekers value the freedom and autonomy we theorize aesthetic careers provide. Study 2 shows that third-party observers expect aesthetic careers to afford greater freedom, access to the true self, happiness, and life satisfaction than moral careers. Study 3 uses the GSS and reveals the opposite pattern: people in moral careers report greater happiness and job satisfaction than those in aesthetic or control careers. Study 4 reconciles this discrepancy by directly comparing third- and first-person judgments about the true self. We find that expectations about aesthetic careers largely match reality, but that observers systematically underestimate the psychological benefits of moral careers. Together, these findings suggest that aesthetic careers offer a path to the true self and happiness at work, while the comparable, and sometimes greater, benefits of moral careers go underappreciated.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/nqwy6_v1/"
-  },
-  {
-    "osf_id": "sdxuq_v2",
-    "title": "Shaping New Perceptions: A Preliminary Multi-Method Investigation of Changes in Hostile Attributions following a Psychoeducational Mentalization-Based Treatment Module",
-    "date_created": "2026-06-23T20:41:31.742965",
-    "date_modified": "2026-06-24T03:29:48.311675",
-    "description": "Background and Objectives: Mentalization-Based Treatment (MBT), including brief psychoeducational modules, has shown promising effects in reducing aggression among adolescents and forensic populations. However, little is known about the mechanisms through which MBT exerts its effects. This preliminary pilot study aimed to explore changes in hostile attribution following participation in an MBT psychoeducational module using a multimodal assessment approach.\nMethods: The six sessions (three meetings) of the MBT-Introductory Group were delivered to a total of 58 participants across four groups: inmates, juvenile delinquents, high school students, and young adults. Pre- and post-intervention assessments combined quantitative measures with qualitative analyses to examine changes in different facets of hostile attribution. Tasks included ambiguous facial expression recognition, interpretation of visual scenes, the Ambiguous Intentions and Hostility Questionnaire, and interpretation of self-recalled interpersonal situations.\nResults: Participation in the MBT module was associated with a reduction in hostile attributions among young adults and juvenile offenders; results among high school students were mixed depending on the task type, while among inmates, changes were observed only for specific stimulus formats.\nConclusions: Despite several limitations, this preliminary study suggests that psychoeducational MBT modules may be associated with changes in hostile attribution bias. The findings suggest that mentalization-based frameworks may represent a potentially promising direction for preventive and rehabilitative interventions for at-risk youth, including brief psychoeducational formats.\nKeywords: hostile attributions, mentalization-based treatment, inmates, juvenile delinquents",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/sdxuq_v2/"
-  },
-  {
-    "osf_id": "szk4m_v1",
-    "title": "Does Visual Privacy Leakage Compromise Fairness in Multimodal Automated Feedback? Extending Group Fairness to Privacy Contexts",
-    "date_created": "2026-06-23T21:06:30.137509",
-    "date_modified": "2026-06-25T15:17:58.870886",
-    "description": "Multimodal automated feedback systems are core components of next-generation K--12 mathematics learning interfaces, processing textual responses and handwritten images for large-scale personalized learning. When students upload assignment images in uncontrolled environments, visual privacy information such as faces and hands may be inadvertently captured, potentially correlating with contextual factors including the photo-taking environment, image quality, student effort, assignment type, and device access, thereby raising critical algorithmic fairness concerns in high-stakes educational assessment.\n\nThis study extends group fairness from traditional demographic attributes to privacy contexts by treating privacy leakage status and type as group-defining characteristics. We propose a component-driven multimodal feedback model that simulates teachers' cognitive processes through four components: Mathematical Element Masking (MEM), Cross-Modal Consistency Verification (CMCV), Question--Answer Interaction (QAI), and Scoring Prototype Contrastive Learning (SPCL). The optimal configuration, MatCha with all components, achieves an MSE of 0.0906 and an \\(R^2\\) of 0.1686, representing a 257.2\\% improvement in explanatory power over the baseline. This performance is highly competitive given the inherent subjectivity of open-ended mathematical scoring.\n\nUsing a dual-perspective fairness framework that distinguishes model fairness (opportunity allocation) from error fairness (service quality), we identify a privacy leakage paradox: samples containing privacy leakage exhibit superior predictive accuracy yet systematically lower high-score opportunity rates. The overall disparate impact ratio for privacy leakage is 0.7565, falling below the legal threshold of 0.80, while the ratio for facial leakage is 0.8274, approaching the fairness boundary. No substantial gender bias is detected under facial leakage conditions.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c1a",
-          "text": "Engineering Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c8b",
-          "text": "Educational Psychology"
+          "id": "5b4e7429c6983001430b6cf5",
+          "text": "Biases, Framing, and Heuristics"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/szk4m_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/pcrzg_v1/"
   },
   {
-    "osf_id": "b58tg_v2",
-    "title": "On the Psychophysics of Morality: Moral choices obey Weber’s law",
-    "date_created": "2026-06-23T21:16:59.448348",
-    "date_modified": "2026-06-25T15:18:07.509260",
-    "description": "Moral decisions are often cast as a conflict between utilitarianism (maximizing good) and deontology (following rules). We propose a unitary psychophysical model where moral decisions operate like other perceptual systems and track the subjective (information-theoretic) certainty that outcomes achieve the greater good. Due to psychophysical noise, decisions are governed by Weber’s law, with utilitarian and deontological responses as high- vs. low-uncertainty limit cases. Participants rated the acceptability of sacrificing fewer ‘victims’ to save more ‘beneficiaries.’ Consistent with this model, acceptability tracked the ratio of beneficiaries to victims (beneficiary:victim Weber ratios), but not utility (net survivors) or harm (victims). With decreased uncertainty (using decisions concerning eco- nomic goods that had clearer values than human lives), responses became more ‘utilitarian’; with increased attention to victims (via emotional manipulations), responses became more ‘deontological’, but always tracked the beneficiary:victim Weber ratios. Frontier large language models from three different jurisdictions (though not smaller models) partially reproduced human behavior, but used qualitatively different heuristics from humans and generally prioritized harm or utility over beneficiary:victim ratios. Beyond moral decision making, the same model provides the first mechanistic and parameter-free explanation of loss-aversion. People, but not machines, thus seek the greater good, but do so under perceptual noise.",
+    "osf_id": "5nh2u_v3",
+    "title": "Spectral change or Jensen gap? Log-ratio baseline correction for time-frequency M/EEG is negatively biased",
+    "date_created": "2026-06-22T18:06:56.419832",
+    "date_modified": "2026-06-25T16:09:44.898073",
+    "description": "Background: Time-frequency M/EEG analysis generally involves baseline correction to measure spectral changes following events of interest. The decibel or ``log-ratio'' baseline correction method divides spectral power in a target time window by average baseline power and log-transforms this ratio. This approach has several desirable properties and is ubiquitously available in popular software tools. However, we show that due to the concavity of the logarithm function, it follows from Jensen's inequality that log-ratio baseline correction is negatively biased, falsely indicating a decrease in spectral power when none exists.\nNew Method: We propose an unbiased alternative to log-ratio correction in which mean log-transformed baseline power is subtracted from log-transformed power in a target time window. This ``mean-log-ratio'' approach preserves the advantages of log-ratio correction without bias is easily implemented.\nResults: Using real and simulated data, we find that log-ratio baseline correction can cause true increases in spectral power to be incorrectly measured as decreases. This downward bias is evident across software implementations of this correction method.\nComparison with existing methods: Whereas downward bias was evident for log-ratio baseline correction, simple mean-subtraction correction (in which mean baseline power is subtracted) was not biased. Similarly, our proposed mean-log-ratio method faithfully reflected true increases in spectral power.\nConclusions: We recommend against log-ratio baseline correction due to its negative bias. Even when analyses primarily examine differences between conditions rather than absolute spectral change from baseline, a biased baseline correction method can influence how results are interpreted. For researchers compelled by the advantages of log-ratio correction, we recommend mean-log-ratio correction.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -1560,8 +1068,26 @@
           "text": "Neuroscience"
         },
         {
-          "id": "5b4e7425c6983001430b6c1d",
-          "text": "Developmental Neuroscience"
+          "id": "5b4e7425c6983001430b6c1c",
+          "text": "Computational Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/5nh2u_v3/"
+  },
+  {
+    "osf_id": "57kdm_v1",
+    "title": "Visual preferences across species: a comparative framework",
+    "date_created": "2026-06-22T18:36:11.686305",
+    "date_modified": "2026-06-25T15:51:48.447962",
+    "description": "Human preferences for visual features such as curvature, visual structure, biological motion, and color have rarely been studied from a comparative perspective, and are often interpreted as reflecting distinctively human aesthetic processes. We review evidence from primates, birds, fish, and insects showing that comparable preferences are widespread across animal species. These preferences often emerge early, sometimes without prior exposure, but remain highly flexible: they are shaped by developmental trajectories, experience, behavioral goals, multisensory input, physiological state, and ecological context. Mechanistic evidence suggests that these preferences emerge from interactions between species-specific sensory tuning and higher-order neural systems involved in attention, valuation, and action. These preferences help orient behavior toward ecologically relevant features of the environment, supporting foraging, oviposition, social attachment, and social learning. Together, these findings challenge the view that human visual preferences reflect uniquely human aesthetic processes. Instead, they suggest that such preferences are better understood as flexible outputs of perceptual and motivational systems that are widely distributed across species and have been reshaped by human evolution, development, and culture.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
         }
       ],
       [
@@ -1590,12 +1116,8 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c71",
-          "text": "Perception"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c96",
-          "text": "Perceptual Organization"
+          "id": "5b4e7427c6983001430b6c7e",
+          "text": "Animal Learning and Behavior"
         }
       ],
       [
@@ -1604,12 +1126,22 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
+          "id": "5b4e7427c6983001430b6ca0",
+          "text": "Evolution"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7428c6983001430b6cbc",
-          "text": "Moral Behavior"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf5",
+          "text": "Biases, Framing, and Heuristics"
         }
       ],
       [
@@ -1627,46 +1159,116 @@
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/b58tg_v2/"
+    "link": "https://osf.io/preprints/psyarxiv/57kdm_v1/"
   },
   {
-    "osf_id": "khsd4_v1",
-    "title": "Highly Superior Autobiographical Memory (HSAM) in a 16-Year-Old Male: Investigating Involuntary Autobiographical Memory With Questionnaire and Laboratory Methods",
-    "date_created": "2026-06-23T22:46:40.218872",
-    "date_modified": "2026-06-25T15:31:21.412173",
-    "description": "Highly Superior Autobiographical Memory (HSAM) is characterized by an exceptional ability\nto recall personal past events with remarkable accuracy and detail. While the mechanisms\nunderlying this ability have begun to be elucidated, research so far has largely focused mainly\non voluntary retrieval processes. The present study aimed to investigate autobiographical\nmemory functioning in a single HSAM case (KCL), with a particular focus on involuntary\nautobiographical memories (IAMs). We combined standardized HSAM screening procedures\nwith a multi-method assessment of autobiographical memory. General autobiographical\nfunctioning was assessed using the Autobiographical Recollection Test (ART) and the Survey\nof Autobiographical Memory (SAM). Additional measures captured general memory\nfunctioning, mind-wandering, metacognitive and phenomenological characteristics, cognitive\ncontrol, and affective and personality variables. IAMs were assessed using both self-report\n(Involuntary Autobiographical Memory Inventory; IAMI) and a laboratory vigilance task with\nincidental cue-words and probe-caught thought sampling. KCL met established HSAM criteria\nand exhibited a markedly elevated frequency of IAMs relative to a comparison group, both in\nself-report and laboratory measures. Crucially, this increase did not reflect a general rise in\nspontaneous cognition, as overall task-unrelated thought frequency remained comparable, but\nrather a selective bias toward autobiographical content. At the same time, KCL did not differ\nfrom the general population in overall phenomenological experience of remembering, although\nhe reported elevated autobiographical memory ability alongside increased confidence in\nmemory accuracy. The results highlight the central role of involuntary remembering and point\nto altered cue sensitivity and lowered retrieval thresholds as key mechanisms underlying\nexceptional autobiographical memory.",
+    "osf_id": "gn79q_v1",
+    "title": "Parallel Claustral Networks for Behavioral Control in Health and Disease",
+    "date_created": "2026-06-22T18:51:52.239813",
+    "date_modified": "2026-06-25T20:36:40.483358",
+    "description": "The claustrum is among the most highly interconnected structures in the mammalian brain, with reciprocal projections spanning the cortical mantle and a growing roster of functions that range from sleep regulation to attentional control. \n\nHere we review current understanding of claustral circuit organization and function, synthesizing findings from anatomical, physiological, computational, and behavioral studies. We argue that a unifying logic underlies the apparent diversity of claustral functions: the claustrum operates through projection-defined subnetworks whose input selectivity, output targets, and local circuit interactions collectively determine their functional contribution, and whose impact on cortical targets varies with arousal and ongoing brain state. \n\nCorticoclaustral connectivity is organized into matched input-output modules, local inhibitory circuits confer spatial filtering properties that amplify strong cortical signals while suppressing weaker ones, and claustral output populations differ in their laminar targets, postsynaptic cell-type preferences, and molecular properties, producing diverse and context-dependent effects on cortical dynamics. \n\nThese circuit properties translate into claustral regulation of cortical population dynamics across multiple timescales, from the moment-to-moment coordination of brain states to the consolidation of frontal control strategies. In pain and addiction, specific claustral projection populations are selectively dysregulated, and distinct subnetworks exert opposing influences on nociceptive sensitivity and drug-related behavior according to their cortical targets. \n\nTogether, these findings position the claustrum as a modular subcortical hub for the selective regulation of distributed cortical networks and identify it as a candidate therapeutic target for disorders characterized by dysregulated cortical network activity, including chronic pain, addiction, and impulsivity.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
         {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         },
         {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca5",
-          "text": "Memory"
+          "id": "5b4e7426c6983001430b6c64",
+          "text": "Systems Neuroscience"
         }
       ],
       [
         {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         },
         {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf8",
-          "text": "Consciousness"
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/khsd4_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/gn79q_v1/"
+  },
+  {
+    "osf_id": "5g2xj_v4",
+    "title": "Ingressing Minds: Causal Patterns Beyond Genetics and Environment in Natural, Synthetic, and Hybrid Embodiments",
+    "date_created": "2026-06-22T19:05:44.353282",
+    "date_modified": "2026-06-25T15:40:15.541631",
+    "description": "I argue that the emerging sciences of synthetic morphology and diverse intelligence suggest non-physicalist models of mind and show how they can be empirically investigated. Whence the anatomical, physiological, molecular-biological, and behavioral properties of engineered new beings that have never before existed, and do not have a history of selection? Understanding, predicting, and guiding new forms of life and mind requires characterizing a structured latent space of patterns. Developmental, synthetic, and behavioral biology should take seriously, and exploit, the kinds of non-physicalist ideas that are already a staple of Platonist mathematics. I propose the following hypotheses. (1) Patterns in this space span a highly variable degree of agency, comprising a spectrum ranging from static truths studied by mathematicians to active ones studied by behavioral scientists (i.e., some patterns on the same spectrum as mathematical truths are kinds of minds). (2) The relationship between mind and body is the same as the relationship between causally instructive mathematical facts and physics. (3) Living beings have no monopoly on the “free lunches” provided by the ingression of these patterns into the physical world. While traditional computationalist views of living and cognitive systems are insufficient, my framework erases artificial distinctions between organisms and machines, framing all physical constructs (natural or engineered) as being, to various degrees, in-formed by patterns from the latent space. I sketch a research program, already begun, inspired by these ideas. Such frameworks, while contradicting long-held assumptions of both mechanists and organicists, could have many implications for evolutionary biology, regenerative medicine, AI, and the ethics of synthbiosis with the forthcoming immense diversity of morally important beings.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/5g2xj_v4/"
+  },
+  {
+    "osf_id": "4q9zs_v1",
+    "title": "Serial dependence is unchanged by confirmatory but reversed by error feedback",
+    "date_created": "2026-06-22T19:39:31.959491",
+    "date_modified": "2026-06-25T15:41:08.301782",
+    "description": "Perceptual decisions are shaped not only by current sensory input but also by recent experience. Serial dependence exposes an internal brain process that biases current decisions toward previous ones, even in the absence of feedback about their correctness. When available, feedback on one’s choices is an external factor that also shapes subsequent decisions. However, it remains unknown how these distinct history-dependent effects – of internal and external origin – compare, and how they vary across individuals and modalities. Here, we compared the effects of serial dependence with or without trial-by-trial feedback on perceptual decisions regarding vestibular or visual self-motion stimuli, and examined how they relate to autistic traits. Seventy healthy adults performed a two-alternative forced-choice heading discrimination task with visual or vestibular cues (separately), under two conditions: with feedback indicating whether each choice was correct or incorrect, and without feedback. Without feedback, significant choice repetition was seen in both modalities. Surprisingly, on average correct-choice feedback did not enhance the choice repetition effect; rather it remained similar in magnitude. By contrast, incorrect-choice feedback led to a large, opposite effect – choice switching – which was stronger for vestibular cues. Thus, only error signals, not confirmatory signals, modulated serial dependence. Choice repetition in the no-feedback vestibular condition correlated significantly with autistic traits. This relationship was not observed when feedback was provided. The similarity in choice repetition following correct-choice feedback vs. no feedback was more pronounced in individuals with high autism traits, and suggests that positive serial dependence (without feedback) may reflect an internal assumption that one’s decisions were mostly correct.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1c",
+          "text": "Computational Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/4q9zs_v1/"
+  },
+  {
+    "osf_id": "vdy43_v3",
+    "title": "Spatiotemporal cognitive modes underlying theory of mind: A Human Connectome Project fMRI study",
+    "date_created": "2026-06-22T20:43:01.591154",
+    "date_modified": "2026-06-25T15:41:26.089962",
+    "description": "Theory of mind (ToM), or mentalization, is a core aspect of social cognition that enables individuals to infer the mental states of others. Brain activity underlying ToM has been extensively studied using functional magnetic resonance imaging (fMRI), with a primary focus on the Default Mode (DM). We investigated the interplay of multiple cognitive modes (i.e., cognitive processes eliciting distinct fMRI-derived spatiotemporal patterns) engaged during ToM, extending beyond but still including the DM. We analyzed a large-scale fMRI dataset from the Human Connectome Project Social (HCP) Cognition task, where participants (n=500) evaluated whether movements of animated shapes depicted social or random interactions. Six cognitive modes were retrieved using constrained principal component analysis (CPCA): (1) Multiple Demand (MD), (2) Default Mode B (DM-B), (3) Auditory Attention for Response (AAR), (4) Focus on Visual Features (FVF), (5) Language (LAN), and (6) Re-Evaluation (RE-EV). The functions of these cognitive modes have been characterized based on analyses of their task-induced blood-oxygen-level-dependent (BOLD) changes over many tasks, but in the context of the HCP Social Cognition task, their BOLD changes were interpreted as: (1) mentally projecting into social narratives (DM-B), (2) allocating external attention to task-relevant components (MD), (3) processing non-verbal communication (LAN), (4) focusing on visual features of the social stimuli (FVF), (5) suppressing auditory attention due to increased visual attention (AAR), and (6) re-evaluating for possibly missed social patterns (RE-EV). Thus, our results confirmed the activation of DM during ToM, but also specified the contributions of five additional cognitive modes. An application of this work is that the six sets of mode-aligned functional patterns can serve as separate inputs for machine learning algorithms aimed at subtyping patients with psychiatric conditions to advance toward precision psychiatry.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vdy43_v3/"
   }
 ]
