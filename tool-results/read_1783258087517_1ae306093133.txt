@@ -1,0 +1,881 @@
+     1→(function() {
+     2→  'use strict';
+     3→
+     4→  /* ===== CATEGORIES ===== */
+     5→  var CATEGORIES = [
+     6→    {id:'anxiety',         label:'Anxiety & OCD'},
+     7→    {id:'couples',         label:'Couples Therapy & Sexology'},
+     8→    {id:'neurodivergence', label:'Neurodivergence'},
+     9→    {id:'mood',            label:'Mood Disorders'},
+    10→    {id:'trauma',          label:'Trauma & Stressor-Related'},
+    11→    {id:'personality',     label:'Personality Disorders'},
+    12→    {id:'modalities',      label:'Therapeutic Modalities'},
+    13→    {id:'psychopathology', label:'Psychopathology & Assessment'},
+    14→    {id:'eating',          label:'Eating Disorders'},
+    15→    {id:'somatic',         label:'Somatic & Functional'},
+    16→    {id:'suicidality',     label:'Suicidality & Self-Harm'},
+    17→    {id:'psychosis',       label:'Psychosis & Schizophrenia'},
+    18→    {id:'addiction',       label:'Addiction & Substance Use'},
+    19→    {id:'ocd',             label:'Obsessive-Compulsive'},
+    20→    {id:'other',           label:'Other Clinical'}
+    21→  ];
+    22→  var catMap = {}, labelToId = {};
+    23→  CATEGORIES.forEach(function(c) { catMap[c.id] = c.label; labelToId[c.label] = c.id; });
+    24→
+    25→  /* ===== STATE ===== */
+    26→  var papers = [], filtered = [], shown = 0;
+    27→  var activeCats = {};
+    28→  CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
+    29→  var searchQuery = '', sortMode = 'newest', categoryView = false;
+    30→  var PAGE_SIZE = 25;
+    31→  var ticking = false;
+    32→  var activeQuickNavCategory = '';
+    33→  var suppressHashSync = false;
+    34→
+    35→  /* ===== LOCAL STORAGE HELPERS ===== */
+    36→  function loadJSON(key, fallback) {
+    37→    try { var v = JSON.parse(localStorage.getItem(key)); return v && typeof v === 'object' ? v : fallback; } catch(e) { return fallback; }
+    38→  }
+    39→  function saveJSON(key, val) {
+    40→    try { localStorage.setItem(key, JSON.stringify(val)); } catch(e) {}
+    41→  }
+    42→
+    43→  /* ===== READ / STAR STATE ===== */
+    44→  var readPapers = loadJSON('psyarxiv-read', {});
+    45→  var starPapers = loadJSON('psyarxiv-star', {});
+    46→
+    47→  function getReadIcon(isReadState) {
+    48→    if (isReadState) {
+    49→      return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12c2.2-3.3 5.4-5 9-5s6.8 1.7 9 5c-2.2 3.3-5.4 5-9 5s-6.8-1.7-9-5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 12c1.2-1.7 2.8-2.5 4.5-2.5s3.3.8 4.5 2.5c-1.2 1.7-2.8 2.5-4.5 2.5s-3.3-.8-4.5-2.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    50→    }
+    51→    return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12s3.8-6 9-6 9 6 9 6-3.8 6-9 6-9-6-9-6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>';
+    52→  }
+    53→
+    54→  function isRead(num) { return !!readPapers[num]; }
+    55→  function isStar(num) { return !!starPapers[num]; }
+    56→
+    57→  function toggleRead(num) {
+    58→    if (readPapers[num]) { delete readPapers[num]; } else { readPapers[num] = true; }
+    59→    saveJSON('psyarxiv-read', readPapers);
+    60→    updateCardState(num);
+    61→  }
+    62→
+    63→  function toggleStar(num) {
+    64→    if (starPapers[num]) { delete starPapers[num]; } else { starPapers[num] = true; }
+    65→    saveJSON('psyarxiv-star', starPapers);
+    66→    updateCardState(num);
+    67→  }
+    68→
+    69→  /* ===== SHARE ===== */
+    70→  var pendingSharedPaperNumber = null;
+    71→
+    72→  function getPaperPermalink(num) {
+    73→    return window.location.origin + window.location.pathname + '#paper=' + num;
+    74→  }
+    75→
+    76→  function copyTextToClipboard(value) {
+    77→    if (navigator.clipboard && navigator.clipboard.writeText) {
+    78→      return navigator.clipboard.writeText(value);
+    79→    }
+    80→
+    81→    return new Promise(function(resolve, reject) {
+    82→      var textarea = document.createElement('textarea');
+    83→      textarea.value = value;
+    84→      textarea.setAttribute('readonly', 'readonly');
+    85→      textarea.style.position = 'fixed';
+    86→      textarea.style.opacity = '0';
+    87→      document.body.appendChild(textarea);
+    88→      textarea.select();
+    89→
+    90→      try {
+    91→        if (document.execCommand('copy')) {
+    92→          resolve();
+    93→        } else {
+    94→          reject(new Error('Copy command failed'));
+    95→        }
+    96→      } catch (error) {
+    97→        reject(error);
+    98→      } finally {
+    99→        textarea.remove();
+   100→      }
+   101→    });
+   102→  }
+   103→
+   104→  function sharePaper(p) {
+   105→    var url = getPaperPermalink(p.number);
+   106→    var leadAuthor = (p.authors || '').split(',')[0].trim();
+   107→    var text = leadAuthor ? (p.title + ' — ' + leadAuthor + ' et al.') : p.title;
+   108→    if (navigator.share) {
+   109→      navigator.share({ title: p.title, text: text, url: url }).catch(function() {});
+   110→    } else {
+   111→      copyTextToClipboard(url).then(function() { showToast('Link copied'); }).catch(function() {});
+   112→    }
+   113→  }
+   114→
+   115→  function showToast(msg) {
+   116→    var existing = document.getElementById('share-toast');
+   117→    if (existing) existing.remove();
+   118→    var t = document.createElement('div');
+   119→    t.id = 'share-toast';
+   120→    t.textContent = msg;
+   121→    document.body.appendChild(t);
+   122→    requestAnimationFrame(function() { t.classList.add('visible'); });
+   123→    setTimeout(function() { t.classList.remove('visible'); setTimeout(function() { t.remove(); }, 300); }, 1500);
+   124→  }
+   125→
+   126→  function highlightSharedCard(card) {
+   127→    if (!card) return;
+   128→    card.classList.remove('shared-target');
+   129→    card.offsetWidth;
+   130→    card.classList.add('shared-target');
+   131→    setTimeout(function() {
+   132→      card.classList.remove('shared-target');
+   133→    }, 2200);
+   134→  }
+   135→
+   136→  function ensurePaperRendered(num) {
+   137→    var card = document.querySelector('.paper-card[data-num="' + num + '"]');
+   138→    if (card) return card;
+   139→
+   140→    while (shown < filtered.length) {
+   141→      var before = shown;
+   142→      showMore();
+   143→      card = document.querySelector('.paper-card[data-num="' + num + '"]');
+   144→      if (card || shown === before) break;
+   145→    }
+   146→
+   147→    return card;
+   148→  }
+   149→
+   150→  function revealSharedPaper() {
+   151→    if (!pendingSharedPaperNumber) return;
+   152→    var card = ensurePaperRendered(pendingSharedPaperNumber);
+   153→    if (!card) return;
+   154→    card.scrollIntoView({ behavior: 'auto', block: 'start' });
+   155→    highlightSharedCard(card);
+   156→    var paper = findPaperByNumber(pendingSharedPaperNumber);
+   157→    if (paper) openModal(paper);
+   158→    pendingSharedPaperNumber = null;
+   159→  }
+   160→
+   161→  function findPaperByNumber(num) {
+   162→    for (var i = 0; i < papers.length; i++) {
+   163→      if (papers[i].number === num) return papers[i];
+   164→    }
+   165→    return null;
+   166→  }
+   167→
+   168→  function updateCardState(num) {
+   169→    var card = document.querySelector('[data-num="' + num + '"]');
+   170→    if (!card) return;
+   171→    var r = isRead(num), s = isStar(num);
+   172→    card.classList.toggle('read-dimmed', r);
+   173→    var readBtn = card.querySelector('.btn-read');
+   174→    var starBtn = card.querySelector('.btn-star');
+   175→    if (readBtn) {
+   176→      readBtn.classList.toggle('active-read', r);
+   177→      readBtn.innerHTML = getReadIcon(r);
+   178→      readBtn.setAttribute('aria-label', r ? 'Mark as unread' : 'Mark as read');
+   179→      readBtn.setAttribute('title', r ? 'Mark as unread' : 'Mark as read');
+   180→    }
+   181→    if (starBtn) {
+   182→      starBtn.classList.toggle('active-star', s);
+   183→      starBtn.textContent = s ? '\u2605' : '\u2606';
+   184→      starBtn.setAttribute('aria-label', s ? 'Remove from favorites' : 'Add to favorites');
+   185→    }
+   186→  }
+   187→
+   188→  /* ===== SETTINGS ===== */
+   189→  var settings = loadSettings();
+   190→  applySettings(settings);
+   191→
+   192→  function loadSettings() {
+   193→    try {
+   194→      var s = JSON.parse(localStorage.getItem('psyarxiv-settings'));
+   195→      if (s) return s;
+   196→    } catch(e) {}
+   197→    return { theme: 'light', fontSize: 'medium', dyslexic: 'off', pageSize: '25' };
+   198→  }
+   199→  function saveSettings() {
+   200→    try { localStorage.setItem('psyarxiv-settings', JSON.stringify(settings)); } catch(e) {}
+   201→  }
+   202→  function applySettings(s) {
+   203→    document.documentElement.setAttribute('data-theme', s.theme);
+   204→    document.documentElement.setAttribute('data-fontsize', s.fontSize);
+   205→    document.documentElement.setAttribute('data-dyslexic', s.dyslexic);
+   206→    PAGE_SIZE = parseInt(s.pageSize, 10) || 25;
+   207→    document.querySelectorAll('.setting-options').forEach(function(group) {
+   208→      var key = group.dataset.setting;
+   209→      group.querySelectorAll('.opt-btn').forEach(function(btn) {
+   210→        btn.classList.toggle('active', btn.dataset.value === s[key]);
+   211→      });
+   212→    });
+   213→  }
+   214→
+   215→  document.querySelectorAll('.setting-options').forEach(function(group) {
+   216→    var key = group.dataset.setting;
+   217→    group.querySelectorAll('.opt-btn').forEach(function(btn) {
+   218→      btn.addEventListener('click', function() {
+   219→        settings[key] = this.dataset.value;
+   220→        applySettings(settings);
+   221→        saveSettings();
+   222→        if (key === 'pageSize') { shown = 0; document.getElementById('papers-list').innerHTML = ''; showMore(); }
+   223→      });
+   224→    });
+   225→  });
+   226→
+   227→  /* ===== SETTINGS DRAWER ===== */
+   228→  var settingsDrawer = document.getElementById('settings-drawer');
+   229→  var settingsOverlay = document.getElementById('settings-overlay');
+   230→
+   231→  function positionSettingsDrawer() {
+   232→    var headerBottom = document.getElementById('site-header').getBoundingClientRect().bottom;
+   233→    document.documentElement.style.setProperty('--settings-top', Math.max(headerBottom, 0) + 'px');
+   234→  }
+   235→
+   236→  function openSettings() {
+   237→    document.getElementById('site-header').classList.remove('hidden');
+   238→    positionSettingsDrawer();
+   239→    settingsDrawer.classList.add('open');
+   240→    settingsOverlay.classList.add('open');
+   241→    document.getElementById('settings-toggle').setAttribute('aria-expanded', 'true');
+   242→    document.body.style.overflow = 'hidden';
+   243→  }
+   244→  function closeSettings() {
+   245→    settingsDrawer.classList.remove('open');
+   246→    settingsOverlay.classList.remove('open');
+   247→    document.getElementById('settings-toggle').setAttribute('aria-expanded', 'false');
+   248→    if (!sidebar.classList.contains('open')) document.body.style.overflow = '';
+   249→  }
+   250→  document.getElementById('settings-toggle').addEventListener('click', function(e) {
+   251→    e.stopPropagation();
+   252→    if (settingsDrawer.classList.contains('open')) closeSettings(); else openSettings();
+   253→  });
+   254→  document.getElementById('settings-close').addEventListener('click', closeSettings);
+   255→  settingsOverlay.addEventListener('click', closeSettings);
+   256→
+   257→  /* ===== MOBILE SIDEBAR ===== */
+   258→  var sidebar = document.getElementById('sidebar');
+   259→  var sidebarOverlay = document.getElementById('sidebar-overlay');
+   260→  var sidebarToggle = document.getElementById('sidebar-toggle');
+   261→
+   262→  function openSidebar() {
+   263→    sidebar.classList.add('open');
+   264→    sidebarOverlay.classList.add('open');
+   265→    document.body.style.overflow = 'hidden';
+   266→  }
+   267→  function closeSidebar() {
+   268→    sidebar.classList.remove('open');
+   269→    sidebarOverlay.classList.remove('open');
+   270→    if (!settingsDrawer.classList.contains('open')) document.body.style.overflow = '';
+   271→  }
+   272→
+   273→  sidebarToggle.addEventListener('click', function(e) {
+   274→    e.stopPropagation();
+   275→    if (sidebar.classList.contains('open')) closeSidebar(); else openSidebar();
+   276→  });
+   277→  sidebarOverlay.addEventListener('click', closeSidebar);
+   278→
+   279→  window.addEventListener('scroll', function() {
+   280→    if (!ticking) {
+   281→      requestAnimationFrame(function() {
+   282→        updateQuickNav();
+   283→        ticking = false;
+   284→      });
+   285→      ticking = true;
+   286→    }
+   287→  }, { passive: true });
+   288→
+   289→  /* ===== INIT ===== */
+   290→  fetch('data/papers.json')
+   291→    .then(function(r) { return r.json(); })
+   292→    .then(function(data) {
+   293→      papers = data;
+   294→      buildCategoryFilters();
+   295→      applyStateFromHash();
+   296→      applyFilters();
+   297→    })
+   298→    .catch(function() {
+   299→      document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">Failed to load paper data.</p>';
+   300→    });
+   301→
+   302→  /* ===== CATEGORY FILTERS ===== */
+   303→  function buildCategoryFilters() {
+   304→    var counts = {};
+   305→    CATEGORIES.forEach(function(c) { counts[c.id] = 0; });
+   306→    papers.forEach(function(p) {
+   307→      (p.categories || []).forEach(function(c) {
+   308→        var id = labelToId[c];
+   309→        if (id && counts[id] !== undefined) counts[id]++;
+   310→      });
+   311→    });
+   312→    var container = document.getElementById('category-filters');
+   313→    container.innerHTML = '';
+   314→    CATEGORIES.forEach(function(c) {
+   315→      var lbl = document.createElement('label');
+   316→      var cb = document.createElement('input');
+   317→      cb.type = 'checkbox';
+   318→      cb.checked = activeCats[c.id];
+   319→      cb.dataset.cat = c.id;
+   320→      cb.addEventListener('change', function() {
+   321→        activeCats[c.id] = this.checked;
+   322→        applyFilters();
+   323→        saveHash();
+   324→      });
+   325→      var span = document.createElement('span');
+   326→      span.textContent = c.label;
+   327→      var cnt = document.createElement('span');
+   328→      cnt.className = 'cat-count';
+   329→      cnt.textContent = counts[c.id];
+   330→      lbl.appendChild(cb);
+   331→      lbl.appendChild(span);
+   332→      lbl.appendChild(cnt);
+   333→      container.appendChild(lbl);
+   334→    });
+   335→  }
+   336→
+   337→  /* ===== FILTERING ===== */
+   338→  function applyFilters() {
+   339→    var q = searchQuery.toLowerCase().trim();
+   340→    filtered = papers.filter(function(p) {
+   341→      var catIds = (p.categories || []).map(function(c) { return labelToId[c] || 'other'; });
+   342→      if (!catIds.some(function(id) { return activeCats[id]; })) return false;
+   343→      if (q) {
+   344→        var haystack = [p.title, p.authors, p.summary, p.clinical_insight, p.relevant_for].join(' ').toLowerCase();
+   345→        if (haystack.indexOf(q) === -1) return false;
+   346→      }
+   347→      return true;
+   348→    });
+   349→    sortPapers();
+   350→    shown = 0;
+   351→    document.getElementById('papers-list').innerHTML = '';
+   352→    lastRenderedCat = '';
+   353→    buildQuickNav();
+   354→    showMore();
+   355→    revealSharedPaper();
+   356→  }
+   357→
+   358→  /* ===== DATE PARSING (dd.mm.yyyy -> sortable number) ===== */
+   359→  function parseDateNum(d) {
+   360→    if (!d) return 0;
+   361→    var p = d.split('.');
+   362→    if (p.length !== 3) return 0;
+   363→    return (parseInt(p[2], 10) || 0) * 10000 + (parseInt(p[1], 10) || 0) * 100 + (parseInt(p[0], 10) || 0);
+   364→  }
+   365→
+   366→  function sortPapers() {
+   367→    filtered.sort(function(a, b) {
+   368→      if (categoryView) {
+   369→        return getCatSort(a) - getCatSort(b) || compareBySortMode(a, b, sortMode);
+   370→      }
+   371→      return compareBySortMode(a, b, sortMode);
+   372→    });
+   373→  }
+   374→
+   375→  function compareBySortMode(a, b, mode) {
+   376→    switch (mode) {
+   377→      case 'oldest':    return a.number - b.number;
+   378→      case 'newest':    return b.number - a.number;
+   379→      case 'favorites':
+   380→        var aS = isStar(a.number) ? 1 : 0, bS = isStar(b.number) ? 1 : 0;
+   381→        if (aS !== bS) return bS - aS;
+   382→        return b.number - a.number;
+   383→      case 'unread':
+   384→        var aR = isRead(a.number) ? 1 : 0, bR = isRead(b.number) ? 1 : 0;
+   385→        if (aR !== bR) return aR - bR;
+   386→        return b.number - a.number;
+   387→      case 'date-desc': return parseDateNum(b.source_date) - parseDateNum(a.source_date);
+   388→      case 'date-asc':  return parseDateNum(a.source_date) - parseDateNum(b.source_date);
+   389→      default:          return b.number - a.number;
+   390→    }
+   391→  }
+   392→
+   393→  function getCatSort(p) {
+   394→    var c = (p.categories || [])[0] || '';
+   395→    var id = labelToId[c] || 'other';
+   396→    return CATEGORIES.findIndex(function(cat) { return cat.id === id; });
+   397→  }
+   398→
+   399→  function getDirectPsyArxivUrl(p) {
+   400→    var explicitId = p && p.osf_id ? String(p.osf_id).trim() : '';
+   401→    var linkValue = p && p.link ? String(p.link).trim() : '';
+   402→    var extractedId = '';
+   403→
+   404→    if (!explicitId && linkValue) {
+   405→      var match = linkValue.match(/osf\.io\/(?:preprints\/psyarxiv\/)?([a-z0-9]{5}(?:_v\d+)*)/i);
+   406→      if (match) extractedId = match[1];
+   407→    }
+   408→
+   409→    var finalId = explicitId || extractedId;
+   410→    if (!finalId) return '';
+   411→    return 'https://osf.io/preprints/psyarxiv/' + finalId;
+   412→  }
+   413→
+   414→  function getPsyArxivLinkInfo(p) {
+   415→    var directUrl = getDirectPsyArxivUrl(p);
+   416→    if (directUrl) {
+   417→      return {
+   418→        href: directUrl,
+   419→        label: 'View on PsyArXiv',
+   420→        modalLabel: 'View on PsyArXiv &rarr;',
+   421→        title: 'Open this paper on PsyArXiv'
+   422→      };
+   423→    }
+   424→    // Fallback: use link field if it's a valid URL
+   425→    var linkValue = p && p.link ? String(p.link).trim() : '';
+   426→    if (linkValue && /^https?:\/\//i.test(linkValue)) {
+   427→      return {
+   428→        href: linkValue,
+   429→        label: 'View paper',
+   430→        modalLabel: 'View paper &rarr;',
+   431→        title: 'Open this paper'
+   432→      };
+   433→    }
+   434→    return null;
+   435→  }
+   436→
+   437→  function linkifyText(value) {
+   438→    var text = String(value || '');
+   439→    var urlPattern = /https?:\/\/[^\s]+/g;
+   440→    var result = '';
+   441→    var lastIndex = 0;
+   442→    var match;
+   443→
+   444→    while ((match = urlPattern.exec(text)) !== null) {
+   445→      var url = match[0];
+   446→      var trailing = '';
+   447→      while (/[.,;:!?)]$/.test(url)) {
+   448→        trailing = url.slice(-1) + trailing;
+   449→        url = url.slice(0, -1);
+   450→      }
+   451→      result += esc(text.slice(lastIndex, match.index));
+   452→      result += '<a class="text-link" href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(url) + '</a>';
+   453→      result += esc(trailing);
+   454→      lastIndex = match.index + match[0].length;
+   455→    }
+   456→
+   457→    return result + esc(text.slice(lastIndex));
+   458→  }
+   459→
+   460→  function getAuthorDisplayValue(value) {
+   461→    if (!value || value === 'Unknown') {
+   462→      return 'Author metadata unavailable';
+   463→    }
+   464→    return value;
+   465→  }
+   466→
+   467→  /* ===== QUICK NAV (category view only) ===== */
+   468→  function buildQuickNav() {
+   469→    var qn = document.getElementById('quick-nav');
+   470→    qn.innerHTML = '';
+   471→    activeQuickNavCategory = '';
+   472→    if (!categoryView) { qn.classList.remove('visible'); return; }
+   473→    var seen = [];
+   474→    filtered.forEach(function(p) {
+   475→      var c = (p.categories || [])[0] || 'Other Clinical';
+   476→      if (seen.indexOf(c) === -1) seen.push(c);
+   477→    });
+   478→    if (seen.length < 3) { qn.classList.remove('visible'); return; }
+   479→    var pills = document.createElement('div');
+   480→    pills.className = 'qn-pills';
+   481→    attachQuickNavScroller(pills);
+   482→    seen.forEach(function(cat) {
+   483→      var btn = document.createElement('button');
+   484→      btn.className = 'qn-btn';
+   485→      btn.type = 'button';
+   486→      btn.setAttribute('aria-label', 'Jump to ' + cat);
+   487→      btn.dataset.cat = cat;
+   488→      btn.innerHTML = '<span class="qn-label">' + esc(cat) + '</span>';
+   489→      btn.addEventListener('click', function() {
+   490→        jumpToCategory(cat);
+   491→      });
+   492→      pills.appendChild(btn);
+   493→    });
+   494→    qn.appendChild(pills);
+   495→    qn.classList.add('visible');
+   496→  }
+   497→
+   498→  function attachQuickNavScroller(element) {
+   499→    if (!element || element.dataset.bound === 'true') return;
+   500→    element.dataset.bound = 'true';
+   501→
+   502→    element.addEventListener('wheel', function(e) {
+   503→      if (element.scrollWidth <= element.clientWidth) return;
+   504→      var delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+   505→      if (!delta) return;
+   506→      e.preventDefault();
+   507→      element.scrollLeft += delta;
+   508→    }, { passive: false });
+   509→  }
+   510→
+   511→  function keepQuickNavButtonVisible(button) {
+   512→    if (!button || typeof button.scrollIntoView !== 'function') return;
+   513→    button.scrollIntoView({
+   514→      behavior: 'smooth',
+   515→      block: 'nearest',
+   516→      inline: 'center'
+   517→    });
+   518→  }
+   519→
+   520→  function updateQuickNav() {
+   521→    if (!categoryView) return;
+   522→    var dividers = document.querySelectorAll('.cat-divider');
+   523→    var qnBtns = document.querySelectorAll('.qn-btn');
+   524→    if (!dividers.length || !qnBtns.length) return;
+   525→    var mid = window.innerHeight / 2;
+   526→    var activeCat = '';
+   527→    dividers.forEach(function(d) { if (d.getBoundingClientRect().top < mid + 40) activeCat = d.id; });
+   528→    qnBtns.forEach(function(b) {
+   529→      var isActive = b.dataset.cat && document.getElementById('cat-' + catToAnchor(b.dataset.cat)) === document.getElementById(activeCat);
+   530→      b.classList.toggle('active', isActive);
+   531→      if (isActive && activeQuickNavCategory !== b.dataset.cat) {
+   532→        activeQuickNavCategory = b.dataset.cat;
+   533→        keepQuickNavButtonVisible(b);
+   534→      }
+   535→    });
+   536→  }
+   537→
+   538→  function catToAnchor(cat) {
+   539→    return cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+   540→  }
+   541→
+   542→  function scrollCategoryIntoView(element) {
+   543→    if (!element) return;
+   544→    element.scrollIntoView({ behavior: 'auto', block: 'start' });
+   545→  }
+   546→
+   547→  function ensureCategoryRendered(categoryName) {
+   548→    var anchorId = 'cat-' + catToAnchor(categoryName);
+   549→    var existing = document.getElementById(anchorId);
+   550→    if (existing) return existing;
+   551→
+   552→    while (shown < filtered.length) {
+   553→      var before = shown;
+   554→      showMore();
+   555→      existing = document.getElementById(anchorId);
+   556→      if (existing || shown === before) break;
+   557→    }
+   558→
+   559→    return existing;
+   560→  }
+   561→
+   562→  function jumpToCategory(categoryName) {
+   563→    var element = ensureCategoryRendered(categoryName);
+   564→    if (element) scrollCategoryIntoView(element);
+   565→  }
+   566→
+   567→  /* ===== RENDERING ===== */
+   568→  var lastRenderedCat = '';
+   569→
+   570→  function showMore() {
+   571→    var list = document.getElementById('papers-list');
+   572→    var end = Math.min(shown + PAGE_SIZE, filtered.length);
+   573→    for (var i = shown; i < end; i++) {
+   574→      if (categoryView) {
+   575→        var cat = (filtered[i].categories || [])[0] || 'Other Clinical';
+   576→        if (cat !== lastRenderedCat) {
+   577→          var div = document.createElement('div');
+   578→          div.className = 'cat-divider';
+   579→          div.id = 'cat-' + catToAnchor(cat);
+   580→          div.textContent = cat;
+   581→          list.appendChild(div);
+   582→          lastRenderedCat = cat;
+   583→        }
+   584→      }
+   585→      list.appendChild(createCard(filtered[i]));
+   586→    }
+   587→    shown = end;
+   588→    document.getElementById('load-more').style.display = shown < filtered.length ? 'block' : 'none';
+   589→    document.getElementById('no-results').style.display = filtered.length === 0 ? 'block' : 'none';
+   590→    updateStats();
+   591→  }
+   592→
+   593→  function createCard(p) {
+   594→    var card = document.createElement('div');
+   595→    card.className = 'paper-card';
+   596→    card.dataset.num = p.number;
+   597→    card.id = 'paper-' + p.number;
+   598→
+   599→    var r = isRead(p.number), s = isStar(p.number);
+   600→    if (r) card.classList.add('read-dimmed');
+   601→
+   602→    var h = '<div class="paper-card-header">';
+   603→    h += '<span class="paper-number">#' + p.number + '</span>';
+   604→    h += '<div class="paper-heading">';
+   605→    h += '<div class="paper-title has-modal">' + esc(p.title) + '</div>';
+   606→    if (p.published && p.published !== 'false') {
+   607→      h += '<span class="badge-published">PR</span>';
+   608→    }
+   609→    h += '</div>';
+   610→    h += '<div class="paper-actions">';
+   611→    h += '<button class="paper-action-btn btn-read' + (r ? ' active-read' : '') + '" data-action="read" aria-label="' + (r ? 'Mark as unread' : 'Mark as read') + '" title="' + (r ? 'Mark as unread' : 'Mark as read') + '">' + getReadIcon(r) + '</button>';
+   612→    h += '<button class="paper-action-btn btn-star' + (s ? ' active-star' : '') + '" data-action="star" aria-label="' + (s ? 'Remove from favorites' : 'Add to favorites') + '" title="' + (s ? 'Remove from favorites' : 'Add to favorites') + '">' + (s ? '\u2605' : '\u2606') + '</button>';
+   613→    h += '<button class="paper-action-btn btn-share" data-action="share" aria-label="Share paper" title="Share paper"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="16 6 12 2 8 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="2" x2="12" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>';
+   614→    h += '</div>';
+   615→    h += '</div>';
+   616→
+   617→    h += '<div class="paper-meta">';
+   618→    h += '<span class="author-name">' + esc(getAuthorDisplayValue(p.authors)) + '</span>';
+   619→    if (p.source_date) h += '<span class="date-text">' + esc(p.source_date) + '</span>';
+   620→    h += '</div>';
+   621→
+   622→    if (p.summary) {
+   623→      h += '<div class="paper-summary">' + esc(truncate(p.summary, 220)) + '</div>';
+   624→    }
+   625→
+   626→    if (p.categories && p.categories.length) {
+   627→      h += '<div class="paper-badges">';
+   628→      p.categories.forEach(function(c) {
+   629→        var dataCat = labelToId[c] || 'other';
+   630→        h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
+   631→      });
+   632→      h += '</div>';
+   633→    }
+   634→
+   635→    var linkInfo = getPsyArxivLinkInfo(p);
+   636→    if (linkInfo) {
+   637→      h += '<div class="paper-link-wrap"><a href="' + esc(linkInfo.href) + '" target="_blank" rel="noopener" class="paper-osf-link" title="' + esc(linkInfo.title) + '">' + linkInfo.label + '</a></div>';
+   638→    }
+   639→
+   640→    if (p.published && p.published !== 'false') {
+   641→      h += '<div class="paper-published-text">\u2714 Peer reviewed: ' + linkifyText(p.published) + '</div>';
+   642→    }
+   643→
+   644→    card.innerHTML = h;
+   645→
+   646→    // Title click -> modal
+   647→    card.querySelector('.paper-title').addEventListener('click', function() { openModal(p); });
+   648→
+   649→    // Read / Star toggle buttons
+   650→    card.querySelector('.btn-read').addEventListener('click', function(e) {
+   651→      e.stopPropagation();
+   652→      toggleRead(p.number);
+   653→    });
+   654→    card.querySelector('.btn-star').addEventListener('click', function(e) {
+   655→      e.stopPropagation();
+   656→      toggleStar(p.number);
+   657→    });
+   658→    card.querySelector('.btn-share').addEventListener('click', function(e) {
+   659→      e.stopPropagation();
+   660→      sharePaper(p);
+   661→    });
+   662→
+   663→    return card;
+   664→  }
+   665→
+   666→  /* ===== MODAL ===== */
+   667→  function openModal(p) {
+   668→    var modal = document.getElementById('paper-modal');
+   669→    var body = document.getElementById('modal-body');
+   670→    var r = isRead(p.number), s = isStar(p.number);
+   671→
+   672→    var h = '<div class="modal-title">' + esc(p.title) + '</div>';
+   673→    h += '<div class="modal-meta"><span class="author-name">' + esc(getAuthorDisplayValue(p.authors)) + '</span>';
+   674→    if (p.source_date) h += ' &middot; ' + esc(p.source_date);
+   675→    h += '</div>';
+   676→
+   677→    if (p.categories && p.categories.length) {
+   678→      h += '<div class="paper-badges" style="margin-bottom:12px;">';
+   679→      p.categories.forEach(function(c) {
+   680→        var dataCat = labelToId[c] || 'other';
+   681→        h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
+   682→      });
+   683→      if (p.published && p.published !== 'false') h += '<span class="badge-published">PR</span>';
+   684→      h += '</div>';
+   685→    }
+   686→
+   687→    if (p.summary) {
+   688→      h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text">' + esc(p.summary) + '</div></div>';
+   689→    }
+   690→    if (p.clinical_insight) {
+   691→      h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text">' + esc(p.clinical_insight) + '</div></div>';
+   692→    }
+   693→    if (p.relevant_for) {
+   694→      h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text">' + esc(p.relevant_for) + '</div></div>';
+   695→    }
+   696→    if (p.published && p.published !== 'false') {
+   697→      h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + linkifyText(p.published) + '</div></div>';
+   698→    }
+   699→
+   700→    h += '<div class="modal-actions">';
+   701→    var modalLinkInfo = getPsyArxivLinkInfo(p);
+   702→    if (modalLinkInfo) {
+   703→      h += '<a class="modal-link" href="' + esc(modalLinkInfo.href) + '" target="_blank" rel="noopener" title="' + esc(modalLinkInfo.title) + '">' + modalLinkInfo.modalLabel + '</a>';
+   704→    }
+   705→    h += '<button class="modal-share-btn" id="modal-share-btn" type="button">Share</button>';
+   706→    h += '</div>';
+   707→
+   708→    body.innerHTML = h;
+   709→    document.getElementById('modal-share-btn').addEventListener('click', function() { sharePaper(p); });
+   710→    modal.style.display = 'flex';
+   711→    document.body.style.overflow = 'hidden';
+   712→  }
+   713→
+   714→  document.getElementById('modal-close').addEventListener('click', closeModal);
+   715→  document.getElementById('paper-modal').addEventListener('click', function(e) { if (e.target === this) closeModal(); });
+   716→  document.addEventListener('keydown', function(e) {
+   717→    if (e.key === 'Escape') { closeModal(); closeSidebar(); closeSettings(); }
+   718→  });
+   719→
+   720→  function closeModal() {
+   721→    document.getElementById('paper-modal').style.display = 'none';
+   722→    if (!settingsDrawer.classList.contains('open') && !sidebar.classList.contains('open')) {
+   723→      document.body.style.overflow = '';
+   724→    }
+   725→  }
+   726→
+   727→  /* ===== STATS ===== */
+   728→  function updateStats() {
+   729→    document.getElementById('stat-total').textContent = papers.length;
+   730→    document.getElementById('stat-shown').textContent = filtered.length;
+   731→  }
+   732→
+   733→  /* ===== SEARCH ===== */
+   734→  var searchTimer;
+   735→  var searchInput = document.getElementById('search-input');
+   736→  var searchClear = document.getElementById('search-clear');
+   737→
+   738→  function syncSearchClearButton() {
+   739→    searchClear.classList.toggle('visible', !!searchInput.value);
+   740→  }
+   741→
+   742→  searchInput.addEventListener('input', function() {
+   743→    clearTimeout(searchTimer);
+   744→    var val = this.value;
+   745→    syncSearchClearButton();
+   746→    searchTimer = setTimeout(function() {
+   747→      searchQuery = val;
+   748→      applyFilters();
+   749→      saveHash();
+   750→    }, 200);
+   751→  });
+   752→
+   753→  searchClear.addEventListener('click', function() {
+   754→    searchInput.value = '';
+   755→    searchQuery = '';
+   756→    syncSearchClearButton();
+   757→    applyFilters();
+   758→    saveHash();
+   759→    searchInput.focus();
+   760→  });
+   761→
+   762→  /* ===== SORT ===== */
+   763→  document.getElementById('sort-select').addEventListener('change', function() {
+   764→    sortMode = this.value;
+   765→    lastRenderedCat = '';
+   766→    applyFilters();
+   767→    saveHash();
+   768→  });
+   769→
+   770→  document.getElementById('category-view-toggle').addEventListener('click', function() {
+   771→    categoryView = !categoryView;
+   772→    this.classList.toggle('active', categoryView);
+   773→    this.setAttribute('aria-pressed', categoryView ? 'true' : 'false');
+   774→    lastRenderedCat = '';
+   775→    applyFilters();
+   776→    saveHash();
+   777→  });
+   778→
+   779→  /* ===== SELECT ALL / NONE ===== */
+   780→  document.getElementById('btn-select-all').addEventListener('click', function() {
+   781→    CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
+   782→    syncCheckboxes();
+   783→    applyFilters();
+   784→    saveHash();
+   785→  });
+   786→  document.getElementById('btn-clear-all').addEventListener('click', function() {
+   787→    CATEGORIES.forEach(function(c) { activeCats[c.id] = false; });
+   788→    syncCheckboxes();
+   789→    applyFilters();
+   790→    saveHash();
+   791→  });
+   792→
+   793→  function syncCheckboxes() {
+   794→    document.querySelectorAll('#category-filters input[type="checkbox"]').forEach(function(cb) {
+   795→      cb.checked = activeCats[cb.dataset.cat];
+   796→    });
+   797→  }
+   798→
+   799→  /* ===== LOAD MORE ===== */
+   800→  document.getElementById('load-more').addEventListener('click', showMore);
+   801→
+   802→  /* ===== HASH STATE ===== */
+   803→  function saveHash() {
+   804→    var state = {};
+   805→    if (searchQuery) state.q = searchQuery;
+   806→    var cats = CATEGORIES.filter(function(c) { return !activeCats[c.id]; }).map(function(c) { return c.id; });
+   807→    if (cats.length) state.off = cats.join(',');
+   808→    if (sortMode !== 'newest') state.sort = sortMode;
+   809→    if (categoryView) state.view = 'category';
+   810→    var hash = '#' + Object.keys(state).map(function(k) { return k + '=' + encodeURIComponent(state[k]); }).join('&');
+   811→    suppressHashSync = true;
+   812→    history.replaceState(null, '', hash);
+   813→    setTimeout(function() { suppressHashSync = false; }, 0);
+   814→  }
+   815→
+   816→  function resetStateToDefaults() {
+   817→    searchQuery = '';
+   818→    sortMode = 'newest';
+   819→    categoryView = false;
+   820→    pendingSharedPaperNumber = null;
+   821→    CATEGORIES.forEach(function(c) { activeCats[c.id] = true; });
+   822→    document.getElementById('search-input').value = '';
+   823→    document.getElementById('sort-select').value = 'newest';
+   824→    document.getElementById('category-view-toggle').classList.remove('active');
+   825→    document.getElementById('category-view-toggle').setAttribute('aria-pressed', 'false');
+   826→    syncCheckboxes();
+   827→    syncSearchClearButton();
+   828→  }
+   829→
+   830→  function applyStateFromHash() {
+   831→    resetStateToDefaults();
+   832→    var hash = location.hash.slice(1);
+   833→    if (!hash) return;
+   834→    var params = {};
+   835→    hash.split('&').forEach(function(pair) {
+   836→      var parts = pair.split('=');
+   837→      if (parts.length === 2) params[decodeURIComponent(parts[0])] = decodeURIComponent(parts[1]);
+   838→    });
+   839→    if (params.paper) {
+   840→      var paperNumber = parseInt(params.paper, 10);
+   841→      if (!isNaN(paperNumber)) pendingSharedPaperNumber = paperNumber;
+   842→    }
+   843→    if (params.q) { searchQuery = params.q; document.getElementById('search-input').value = params.q; }
+   844→    if (params.off) { params.off.split(',').forEach(function(c) { activeCats[c] = false; }); syncCheckboxes(); }
+   845→    if (params.sort === 'category') {
+   846→      categoryView = true;
+   847→    } else if (params.sort) {
+   848→      sortMode = params.sort;
+   849→      document.getElementById('sort-select').value = sortMode;
+   850→    }
+   851→    if (params.view === 'category') {
+   852→      categoryView = true;
+   853→    }
+   854→    if (categoryView) {
+   855→      var toggle = document.getElementById('category-view-toggle');
+   856→      toggle.classList.add('active');
+   857→      toggle.setAttribute('aria-pressed', 'true');
+   858→    }
+   859→    syncSearchClearButton();
+   860→  }
+   861→
+   862→  window.addEventListener('hashchange', function() {
+   863→    if (suppressHashSync || !papers.length) return;
+   864→    closeModal();
+   865→    applyStateFromHash();
+   866→    applyFilters();
+   867→  });
+   868→
+   869→  /* ===== UTILS ===== */
+   870→  function esc(s) {
+   871→    if (!s) return '';
+   872→    var d = document.createElement('div');
+   873→    d.textContent = s;
+   874→    return d.innerHTML;
+   875→  }
+   876→  function truncate(s, n) {
+   877→    if (s.length <= n) return s;
+   878→    return s.substring(0, n).replace(/\s+\S*$/, '') + '...';
+   879→  }
+   880→})();
+   881→
