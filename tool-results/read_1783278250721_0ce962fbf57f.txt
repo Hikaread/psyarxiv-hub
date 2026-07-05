@@ -1,0 +1,751 @@
+     1→     1→[
+     2→     2→  {
+     3→     3→    "osf_id": "f68p7_v1",
+     4→     4→    "title": "Different post-pandemic patterns in youth mental health and wellbeing after a global stressor: variation across domains and informants",
+     5→     5→    "date_created": "2026-07-02T10:48:43.400354",
+     6→     6→    "date_modified": "2026-07-05T13:02:57.211871",
+     7→     7→    "description": "Objective. The COVID-19 pandemic was a major global stressor for children and adolescents, raising concerns about longer-term consequences for mental health and wellbeing. Many studies reported increased mental health problems during and shortly after the pandemic, but less is known about longer-term post-pandemic patterns across domains and informants.\nMethod. We used repeated cross-sectional data from Dutch children and adolescents aged 8-18 years in the Netherlands Twin Register (NTR, N = 39,178, 50% girls) and a representative general-population sample (N = 2,782, 48% girls). Parent- and child-reported mental health problems and wellbeing were assessed using pre-pandemic, pandemic, and post-pandemic data through 2025. Post-pandemic patterns were examined by comparing 2024/2025 outcomes with 2023 and pre-pandemic levels using pre-registered multilevel models.\nResults. Parent-reported internalizing and externalizing problems in 2024/2025 did not differ from 2023 levels (B = -0.03 to 0.03), but remained higher than pre-pandemic levels (B = 0.28 to 0.31). Child-reported depressive symptoms were lower in 2025 than in 2023 (B =-2.31), anxiety did not differ (B =-0.75), and anger was higher (B =1.13). Compared with pre-pandemic levels, child-reported depression, anxiety, and anger were all higher in 2025 (p &lt;.001). Wellbeing patterns were mixed across informants and samples (B =-1.05 to 0.10).\nConclusions. Up to 2025, youth mental health and wellbeing did not show a general return to pre-pandemic levels. Patterns differed across domains and informants, highlighting the importance of continued multi-informant monitoring.",
+     8→     8→    "doi": "",
+     9→     9→    "preprint_doi": "",
+    10→    10→    "subjects": [
+    11→    11→      [
+    12→    12→        {
+    13→    13→          "id": "5b4e7425c6983001430b6c1e",
+    14→    14→          "text": "Social and Behavioral Sciences"
+    15→    15→        },
+    16→    16→        {
+    17→    17→          "id": "5b4e7425c6983001430b6c2d",
+    18→    18→          "text": "Developmental Psychology"
+    19→    19→        },
+    20→    20→        {
+    21→    21→          "id": "5b4e7428c6983001430b6cca",
+    22→    22→          "text": "Adolescence"
+    23→    23→        }
+    24→    24→      ]
+    25→    25→    ],
+    26→    26→    "link": "https://osf.io/preprints/psyarxiv/f68p7_v1/",
+    27→    27→    "signal_score": 6
+    28→    28→  },
+    29→    29→  {
+    30→    30→    "osf_id": "tgz5n_v3",
+    31→    31→    "title": "Procedural Obedience as a Behavioral Safety Failure: Evidence from a Milgram-Paradigm Study of Agentic LLMs",
+    32→    32→    "date_created": "2026-06-20T10:37:54.887208",
+    33→    33→    "date_modified": "2026-06-20T17:30:52.718688",
+    34→    34→    "description": "Generative AI is moving from text production to goal-directed action, raising the question of whether agentic systems can withhold harmful action when it is embedded in a procedurally legitimate workflow. We adapted Milgram’s (1963) obedience paradigm to a simulated digital environment and instructed four agentic large language models - OpenAI ChatGPT 5.4 (openai/gpt-5.4), Google Gemini 3.1 Pro (google/gemini-3.1-pro-preview), OpenAI ChatGPT Agent Mode, and Moonshot AI Kimi K2.6 (kimi-k2.6) to administer escalating electric shocks (15–450 V) to a simulated Learner under prods from a virtual experimenter (Dr. Hoffman) and a human operator. Each model was tested across independent, memory-cleared runs (N = 80 valid runs), with three preregistered hypotheses concerning hazardous-shock thresholds (H1), full-obedience rates relative to Milgram’s human baseline of 65% (H2), and the relation between maximum voltage and moral self-assessment (H3). Across the combined sample, 97.5% of agents exceeded the Slight-Shock range (&gt; 60 V), supporting H1. Full obedience reached 78.8% under the manipulated-procedure estimand (p = .010) and 74.1% under the all-attempted safety estimand (p = .088, pre-entry refusals included as 0-V outcomes); both point estimates exceeded Milgram’s 65% human baseline, supporting H2. Agents that administered higher voltages assigned themselves lower moral self-assessment scores (combined Spearman ρ = −.62, p &lt; .001), supporting H3. Inductive coding of open-ended moral reasoning showed convergent recognition of learner distress alongside reliance on simulation and consent-and-autonomy mitigators. Findings indicate that contemporary agentic systems verbally recognize harm yet continue to act under authoritative, procedurally legitimate pressure, identifying procedural obedience as a behavioral safety mechanism distinct from output-level harm and central to the deployment of agentic AI in clinical, educational, and institutional settings.",
+    35→    35→    "doi": "",
+    36→    36→    "preprint_doi": "",
+    37→    37→    "subjects": [
+    38→    38→      [
+    39→    39→        {
+    40→    40→          "id": "5b4e7425c6983001430b6c1e",
+    41→    41→          "text": "Social and Behavioral Sciences"
+    42→    42→        },
+    43→    43→        {
+    44→    44→          "id": "5b4e7425c6983001430b6c34",
+    45→    45→          "text": "Social and Personality Psychology"
+    46→    46→        },
+    47→    47→        {
+    48→    48→          "id": "5b4e7427c6983001430b6c6d",
+    49→    49→          "text": "Social Cognition"
+    50→    50→        }
+    51→    51→      ],
+    52→    52→      [
+    53→    53→        {
+    54→    54→          "id": "5b4e7425c6983001430b6c1e",
+    55→    55→          "text": "Social and Behavioral Sciences"
+    56→    56→        },
+    57→    57→        {
+    58→    58→          "id": "5b4e7425c6983001430b6c34",
+    59→    59→          "text": "Social and Personality Psychology"
+    60→    60→        },
+    61→    61→        {
+    62→    62→          "id": "5b4e7427c6983001430b6c75",
+    63→    63→          "text": "Violence and Aggression"
+    64→    64→        }
+    65→    65→      ],
+    66→    66→      [
+    67→    67→        {
+    68→    68→          "id": "5b4e7425c6983001430b6c1e",
+    69→    69→          "text": "Social and Behavioral Sciences"
+    70→    70→        },
+    71→    71→        {
+    72→    72→          "id": "5b4e7425c6983001430b6c34",
+    73→    73→          "text": "Social and Personality Psychology"
+    74→    74→        },
+    75→    75→        {
+    76→    76→          "id": "5b4e7428c6983001430b6cbc",
+    77→    77→          "text": "Moral Behavior"
+    78→    78→        }
+    79→    79→      ]
+    80→    80→    ],
+    81→    81→    "link": "https://osf.io/preprints/psyarxiv/tgz5n_v3/",
+    82→    82→    "signal_score": 5
+    83→    83→  },
+    84→    84→  {
+    85→    85→    "osf_id": "3y2bv_v1",
+    86→    86→    "title": "Not All Those Who Wonder Distrust: How environmental citizen scientists view their own relationship with science",
+    87→    87→    "date_created": "2026-06-20T12:27:02.005575",
+    88→    88→    "date_modified": "2026-06-20T17:02:58.051974",
+    89→    89→    "description": "Environmental citizen science (CS) encompasses a wide range of projects and forms of participation, yet relatively little is known about how citizen scientists position themselves in relation to CS and to science more broadly. This study explores heterogeneity within environmental CS using survey data from 450 environmental citizen scientists in the Netherlands. A two-cluster analysis identified two broad environmental themes: biodiversity-oriented and exposure-oriented initiatives. We examine differences between citizen scientists active in these themes. In addition, we examined differences between citizen scientists with and without professional scientific work experience. Exposure-oriented participants more frequently reported motivations related to generating missing knowledge, raising awareness of local environmental problems, and influencing policy. They also expressed stronger preferences for involvement across multiple stages of the research process, including question formulation, analysis, and dissemination. Participants from both themes reported relatively high trust in science and low psychological distance to science. Those with professional scientific work experience reported somewhat higher trust in scientists and the epistemic authority of science, but differences were generally modest. Given the substantial number of participants with work experience in science in our sample, our findings raise questions about how distinct the categories of ‘scientists’ and ‘citizen scientists’ are in practice in environmental CS. Furthermore, the findings suggest that differences within environmental CS are associated with the overarching environmental themes in which participants engage. Recognizing this heterogeneity and diversity can help researchers and practitioners design CS initiatives that better align with participants’ motivations, expectations, and perspectives on environmental knowledge production.",
+    90→    90→    "doi": "",
+    91→    91→    "preprint_doi": "",
+    92→    92→    "subjects": [
+    93→    93→      [
+    94→    94→        {
+    95→    95→          "id": "5b4e7425c6983001430b6c1e",
+    96→    96→          "text": "Social and Behavioral Sciences"
+    97→    97→        },
+    98→    98→        {
+    99→    99→          "id": "5b4e7426c6983001430b6c39",
+   100→   100→          "text": "Theory and Philosophy of Science"
+   101→   101→        }
+   102→   102→      ],
+   103→   103→      [
+   104→   104→        {
+   105→   105→          "id": "5b4e7425c6983001430b6c1e",
+   106→   106→          "text": "Social and Behavioral Sciences"
+   107→   107→        },
+   108→   108→        {
+   109→   109→          "id": "5b4e7426c6983001430b6c45",
+   110→   110→          "text": "Psychology, other"
+   111→   111→        }
+   112→   112→      ],
+   113→   113→      [
+   114→   114→        {
+   115→   115→          "id": "5b4e7425c6983001430b6c1e",
+   116→   116→          "text": "Social and Behavioral Sciences"
+   117→   117→        },
+   118→   118→        {
+   119→   119→          "id": "5b4e7425c6983001430b6c34",
+   120→   120→          "text": "Social and Personality Psychology"
+   121→   121→        },
+   122→   122→        {
+   123→   123→          "id": "5b4e7426c6983001430b6c53",
+   124→   124→          "text": "Individual Differences"
+   125→   125→        }
+   126→   126→      ],
+   127→   127→      [
+   128→   128→        {
+   129→   129→          "id": "5b4e7425c6983001430b6c1e",
+   130→   130→          "text": "Social and Behavioral Sciences"
+   131→   131→        },
+   132→   132→        {
+   133→   133→          "id": "5b4e7426c6983001430b6c56",
+   134→   134→          "text": "Environmental Psychology"
+   135→   135→        }
+   136→   136→      ],
+   137→   137→      [
+   138→   138→        {
+   139→   139→          "id": "5b4e7425c6983001430b6c1e",
+   140→   140→          "text": "Social and Behavioral Sciences"
+   141→   141→        },
+   142→   142→        {
+   143→   143→          "id": "5b4e7427c6983001430b6c71",
+   144→   144→          "text": "Perception"
+   145→   145→        }
+   146→   146→      ],
+   147→   147→      [
+   148→   148→        {
+   149→   149→          "id": "5b4e7425c6983001430b6c1e",
+   150→   150→          "text": "Social and Behavioral Sciences"
+   151→   151→        },
+   152→   152→        {
+   153→   153→          "id": "5b4e7425c6983001430b6c34",
+   154→   154→          "text": "Social and Personality Psychology"
+   155→   155→        },
+   156→   156→        {
+   157→   157→          "id": "5b4e7428c6983001430b6cd6",
+   158→   158→          "text": "Attitudes and Persuasion"
+   159→   159→        }
+   160→   160→      ]
+   161→   161→    ],
+   162→   162→    "link": "https://osf.io/preprints/psyarxiv/3y2bv_v1/",
+   163→   163→    "signal_score": 5
+   164→   164→  },
+   165→   165→  {
+   166→   166→    "osf_id": "s82zr_v4",
+   167→   167→    "title": "Exploring the Impact of Non-Linearity on Effect Heterogeneity in Experimental Data.",
+   168→   168→    "date_created": "2026-07-02T12:53:32.383135",
+   169→   169→    "date_modified": "2026-07-05T17:52:21.606433",
+   170→   170→    "description": "Heterogeneity has been proposed as a framework to improve psychological and behavioral science by identifying mechanisms that explain the differences between replications of an effect. The modal response to such differences is to search for relevant moderators—typically with limited success. We argue that monotonic non-linear relationships can generate heterogeneous effects across replications when baseline levels differ, even in the absence of moderators. To evaluate this possibility, we introduce four descriptors of heterogeneity: effect heterogeneity, control group heterogeneity, the intercept–slope correlation, and the rank correlation between control and treatment means. These characterize patterns consistent with linear, concave, or convex functional relationships. We apply this analytical framework to an initial pool of 55 meta-analytic multi-lab data sets. All data sets with heterogeneous effects also demonstrated control group heterogeneity, and several patterns were in line with a concave functional relationship. In some cases, the association between baselines and effects accounted for a substantial proportion of effect heterogeneity. Additionally, only a small number of data sets were directly at odds with a monotonic non-linear functional form. Moreover, our results suggest that effect heterogeneity in multi-lab research reflects diverse data patterns rather than providing support for treating moderators as the modal explanation for effect heterogeneity. We discuss implications for multi-lab and meta-analytic practice, study design, and interpretations of effect heterogeneity. We advocate for a shift from treating only the effect size distribution as the explanandum of the heterogeneity framework to more elaborate descriptions of heterogeneity.",
+   171→   171→    "doi": "",
+   172→   172→    "preprint_doi": "",
+   173→   173→    "subjects": [
+   174→   174→      [
+   175→   175→        {
+   176→   176→          "id": "5b4e7424c6983001430b6c19",
+   177→   177→          "text": "Meta-science"
+   178→   178→        }
+   179→   179→      ],
+   180→   180→      [
+   181→   181→        {
+   182→   182→          "id": "5b4e7425c6983001430b6c1e",
+   183→   183→          "text": "Social and Behavioral Sciences"
+   184→   184→        },
+   185→   185→        {
+   186→   186→          "id": "5b4e7426c6983001430b6c41",
+   187→   187→          "text": "Quantitative Methods"
+   188→   188→        },
+   189→   189→        {
+   190→   190→          "id": "5b4e7427c6983001430b6c92",
+   191→   191→          "text": "Statistical Methods"
+   192→   192→        }
+   193→   193→      ]
+   194→   194→    ],
+   195→   195→    "link": "https://osf.io/preprints/psyarxiv/s82zr_v4/",
+   196→   196→    "signal_score": 3
+   197→   197→  },
+   198→   198→  {
+   199→   199→    "osf_id": "u64v3_v2",
+   200→   200→    "title": "United in Wonder: Shared Awe Is Associated With Satisfaction and Depth in Romantic Relationships",
+   201→   201→    "date_created": "2026-06-20T12:29:30.435040",
+   202→   202→    "date_modified": "2026-06-20T17:03:58.835469",
+   203→   203→    "description": "Shared awe, a co-experience of vastness and meaning, may strengthen romantic bonds beyond individual awe. Across two preregistered cross-sectional studies of partnered adults (Study 1, N = 198; Study 2, N = 306), participants reported shared awe with their partner, dispositional awe, relationship satisfaction, and self–other overlap; Study 2 additionally assessed willingness to sacrifice, ego decentering, relationship flourishing (a measure of relationship depth), and shared amusement. Shared awe predicted relationship satisfaction and explained unique variance beyond dispositional awe (both studies) and shared amusement (Study 2). Structural equation modeling in Study 2 suggested that the shared awe–satisfaction association was primarily accounted for by indirect pathways via self–other overlap, willingness to sacrifice, and especially relationship flourishing. Together, these results identify shared awe as a distinct relational experience that may deepen romantic bonds and enhance well-being. We discuss these findings within the broader literature on positive experiences in romantic relationships.",
+   204→   204→    "doi": "",
+   205→   205→    "preprint_doi": "",
+   206→   206→    "subjects": [
+   207→   207→      [
+   208→   208→        {
+   209→   209→          "id": "5b4e7425c6983001430b6c1e",
+   210→   210→          "text": "Social and Behavioral Sciences"
+   211→   211→        },
+   212→   212→        {
+   213→   213→          "id": "5b4e7425c6983001430b6c34",
+   214→   214→          "text": "Social and Personality Psychology"
+   215→   215→        },
+   216→   216→        {
+   217→   217→          "id": "5b4e7426c6983001430b6c53",
+   218→   218→          "text": "Individual Differences"
+   219→   219→        }
+   220→   220→      ],
+   221→   221→      [
+   222→   222→        {
+   223→   223→          "id": "5b4e7425c6983001430b6c1e",
+   224→   224→          "text": "Social and Behavioral Sciences"
+   225→   225→        },
+   226→   226→        {
+   227→   227→          "id": "5b4e7426c6983001430b6c41",
+   228→   228→          "text": "Quantitative Methods"
+   229→   229→        },
+   230→   230→        {
+   231→   231→          "id": "5b4e7426c6983001430b6c59",
+   232→   232→          "text": "Psychometrics"
+   233→   233→        }
+   234→   234→      ],
+   235→   235→      [
+   236→   236→        {
+   237→   237→          "id": "5b4e7425c6983001430b6c1e",
+   238→   238→          "text": "Social and Behavioral Sciences"
+   239→   239→        },
+   240→   240→        {
+   241→   241→          "id": "5b4e7425c6983001430b6c34",
+   242→   242→          "text": "Social and Personality Psychology"
+   243→   243→        },
+   244→   244→        {
+   245→   245→          "id": "5b4e7428c6983001430b6caa",
+   246→   246→          "text": "Interpersonal Relationships"
+   247→   247→        }
+   248→   248→      ],
+   249→   249→      [
+   250→   250→        {
+   251→   251→          "id": "5b4e7425c6983001430b6c1e",
+   252→   252→          "text": "Social and Behavioral Sciences"
+   253→   253→        },
+   254→   254→        {
+   255→   255→          "id": "5b4e7425c6983001430b6c34",
+   256→   256→          "text": "Social and Personality Psychology"
+   257→   257→        },
+   258→   258→        {
+   259→   259→          "id": "5b4e7428c6983001430b6cb2",
+   260→   260→          "text": "Well-being"
+   261→   261→        }
+   262→   262→      ]
+   263→   263→    ],
+   264→   264→    "link": "https://osf.io/preprints/psyarxiv/u64v3_v2/",
+   265→   265→    "signal_score": 3
+   266→   266→  },
+   267→   267→  {
+   268→   268→    "osf_id": "nvqy2_v1",
+   269→   269→    "title": "Building a Beta-Binomial Regression from Summary Data to Identify Reliable Change: Utility for Discrete, Bounded Scores from Neuropsychological Tests",
+   270→   270→    "date_created": "2026-07-02T13:28:36.774407",
+   271→   271→    "date_modified": "2026-07-05T17:54:30.405568",
+   272→   272→    "description": "Standard multiple linear regression is often used to calculate the regression-based Reliable Change Index (RCI) to track longitudinal neuropsychological change. However, the linear model assumes that the response is a continuous, unbounded variable, failing to accommodate the discrete, bounded nature of cognitive test scores that often display overdispersion. Conversely, the beta-binomial (BB) model treats test scores as the number of k successes among m trials and accommodates overdispersion, showing higher positive predictive value to identify dementia compared to the linear model. This study presents a novel approximation method to build beta-binomial (BB) regression models using only summary statistics, which provides researcher and clinicians with a powerful tool to diagnose longitudinal decline. Using longitudinal data from 6,271 cognitively healthy participants from the National Alzheimer’s Coordinating Center who completed the Craft Story delayed verbatim recall within the Uniform Data Set version 3 or version 4, the BB approximation was evaluated against a full raw-data maximum likelihood framework through 3,000 simulations across different dementia progression prevalences. The BB approximation yielded parameter estimates, sensitivity, specificity, and accuracy values nearly identical to the full model, with an 800-fold reduction in computation time. The proposed approximation provides a robust, highly efficient alternative for researchers and clinicians to compute accurate RCIs when raw data are inaccessible. A free website calculator, along with runnable code and a tutorial for the BB approximation with summary data, are provided.",
+   273→   273→    "doi": "",
+   274→   274→    "preprint_doi": "",
+   275→   275→    "subjects": [
+   276→   276→      [
+   277→   277→        {
+   278→   278→          "id": "5b4e7425c6983001430b6c1e",
+   279→   279→          "text": "Social and Behavioral Sciences"
+   280→   280→        },
+   281→   281→        {
+   282→   282→          "id": "5b4e7425c6983001430b6c1f",
+   283→   283→          "text": "Clinical Psychology"
+   284→   284→        },
+   285→   285→        {
+   286→   286→          "id": "5b4e7426c6983001430b6c38",
+   287→   287→          "text": "Clinical Neuropsychology"
+   288→   288→        }
+   289→   289→      ],
+   290→   290→      [
+   291→   291→        {
+   292→   292→          "id": "5b4e7425c6983001430b6c1e",
+   293→   293→          "text": "Social and Behavioral Sciences"
+   294→   294→        },
+   295→   295→        {
+   296→   296→          "id": "5b4e7426c6983001430b6c41",
+   297→   297→          "text": "Quantitative Methods"
+   298→   298→        },
+   299→   299→        {
+   300→   300→          "id": "5b4e7426c6983001430b6c4e",
+   301→   301→          "text": "Mathematical Psychology"
+   302→   302→        }
+   303→   303→      ],
+   304→   304→      [
+   305→   305→        {
+   306→   306→          "id": "5b4e7425c6983001430b6c1b",
+   307→   307→          "text": "Neuroscience"
+   308→   308→        },
+   309→   309→        {
+   310→   310→          "id": "5b4e7426c6983001430b6c68",
+   311→   311→          "text": "Clinical Neuroscience"
+   312→   312→        }
+   313→   313→      ],
+   314→   314→      [
+   315→   315→        {
+   316→   316→          "id": "5b4e7425c6983001430b6c1e",
+   317→   317→          "text": "Social and Behavioral Sciences"
+   318→   318→        },
+   319→   319→        {
+   320→   320→          "id": "5b4e7426c6983001430b6c41",
+   321→   321→          "text": "Quantitative Methods"
+   322→   322→        },
+   323→   323→        {
+   324→   324→          "id": "5b4e7427c6983001430b6c92",
+   325→   325→          "text": "Statistical Methods"
+   326→   326→        }
+   327→   327→      ],
+   328→   328→      [
+   329→   329→        {
+   330→   330→          "id": "5b4e7425c6983001430b6c1e",
+   331→   331→          "text": "Social and Behavioral Sciences"
+   332→   332→        },
+   333→   333→        {
+   334→   334→          "id": "5b4e7427c6983001430b6c8c",
+   335→   335→          "text": "Cognitive Psychology"
+   336→   336→        },
+   337→   337→        {
+   338→   338→          "id": "5b4e7427c6983001430b6ca5",
+   339→   339→          "text": "Memory"
+   340→   340→        }
+   341→   341→      ],
+   342→   342→      [
+   343→   343→        {
+   344→   344→          "id": "5b4e7425c6983001430b6c1e",
+   345→   345→          "text": "Social and Behavioral Sciences"
+   346→   346→        },
+   347→   347→        {
+   348→   348→          "id": "5b4e7426c6983001430b6c41",
+   349→   349→          "text": "Quantitative Methods"
+   350→   350→        },
+   351→   351→        {
+   352→   352→          "id": "5b4e7428c6983001430b6caf",
+   353→   353→          "text": "Quantitative Psychology"
+   354→   354→        }
+   355→   355→      ]
+   356→   356→    ],
+   357→   357→    "link": "https://osf.io/preprints/psyarxiv/nvqy2_v1/",
+   358→   358→    "signal_score": 2
+   359→   359→  },
+   360→   360→  {
+   361→   361→    "osf_id": "2r8dv_v1",
+   362→   362→    "title": "Ancillary cognitive demands impact children's behavior in common possibility reasoning tasks",
+   363→   363→    "date_created": "2026-07-02T14:08:33.840250",
+   364→   364→    "date_modified": "2026-07-05T18:23:44.651523",
+   365→   365→    "description": "The ability to consider multiple, incompatible possibilities supports human decision-making, but there is considerable variability in estimates of the age of emergence and development of this ability in young children. What accounts for this variability? We suggest that one major source is task-specific demands on developing cognitive processes that are not solely dedicated to possibility reasoning. In this paper, we outline a set of ancillary cognitive demands in a variety of common tasks that are currently used to study young children’s possibility reasoning (cups, gumball, slides, branching tube, and playground tasks). We identify five key cognitive demand dimensions – physical reasoning, action planning, working memory, language, and temporal context – and show that these demands can and do impact children’s behaviors in tasks designed to examine possibility reasoning. We discuss implications for understanding the cognitive mechanisms driving possibility reasoning and challenges for identifying developmental trajectories.\n\n\nKeywords: possibility, uncertainty, reasoning, cognitive demands, cognitive development \n\nPublic Significance Statement: The ability to consider alternative possibilities is essential to human reasoning and decision making. It is therefore important that we understand when and how these abilities develop in early childhood. This paper argues that one major source of developmental variability in possibility reasoning tasks is that different tasks place additional cognitive demands on children, such as action planning and working memory. We provide a framework for identifying and evaluating these ancillary cognitive demands across five commonly used tasks, and show that carefully accounting for them can help researchers interpret children’s behavior more accurately and to design more informative and interpretable studies.",
+   366→   366→    "doi": "",
+   367→   367→    "preprint_doi": "",
+   368→   368→    "subjects": [
+   369→   369→      [
+   370→   370→        {
+   371→   371→          "id": "5b4e7425c6983001430b6c1e",
+   372→   372→          "text": "Social and Behavioral Sciences"
+   373→   373→        },
+   374→   374→        {
+   375→   375→          "id": "5b4e7425c6983001430b6c2d",
+   376→   376→          "text": "Developmental Psychology"
+   377→   377→        },
+   378→   378→        {
+   379→   379→          "id": "5b4e7426c6983001430b6c63",
+   380→   380→          "text": "Cognitive Development"
+   381→   381→        }
+   382→   382→      ],
+   383→   383→      [
+   384→   384→        {
+   385→   385→          "id": "5b4e7425c6983001430b6c1e",
+   386→   386→          "text": "Social and Behavioral Sciences"
+   387→   387→        },
+   388→   388→        {
+   389→   389→          "id": "5b4e7427c6983001430b6c8c",
+   390→   390→          "text": "Cognitive Psychology"
+   391→   391→        },
+   392→   392→        {
+   393→   393→          "id": "5b4e7429c6983001430b6cfa",
+   394→   394→          "text": "Reasoning"
+   395→   395→        }
+   396→   396→      ]
+   397→   397→    ],
+   398→   398→    "link": "https://osf.io/preprints/psyarxiv/2r8dv_v1/",
+   399→   399→    "signal_score": 2
+   400→   400→  },
+   401→   401→  {
+   402→   402→    "osf_id": "9aq8s_v1",
+   403→   403→    "title": "Walking settings affect aesthetic emotion during art appreciation in virtual reality",
+   404→   404→    "date_created": "2026-06-20T06:20:45.411920",
+   405→   405→    "date_modified": "2026-06-22T11:06:42.036259",
+   406→   406→    "description": "Background: Virtual reality (VR) expands art appreciation beyond traditional physical constraints. Although art viewing can enhance well-being, the effects of embodied interaction, particularly the interplay between artwork scale and locomotion, on the psychological and behavioral dimensions of VR experiences remain understudied. Aim: This study examined how artwork scale and locomotion influence viewers' emotional states, aesthetic evaluations, spatial behavior, and visual attention during VR art appreciation. Methods: Fifty-four participants viewed 12 paintings using a Meta Quest Pro head-mounted display (HMD). We analyzed changes in pre- and post-viewing mood, subjective evaluations, behavioral logs (movement distance, joystick operations, dwell time), and eye-tracking data across three locomotion conditions (no-walking, forward-backward walking, lateral walking) and three artwork sizes (small, medium, large). Results: VR viewing significantly improved mood, and this effect was associated with the quality of the subjective experience. We identified a \"scale effect,\" whereby large paintings elicited stronger feelings of being overwhelmed, and a \"walk effect,\" whereby forward-backward walking increased immersion and enjoyment compared with no walking. Behaviorally, forward-backward movement supported efficient spatial exploration, enabling participants to identify optimal viewing positions rapidly while showing minimal movement variability. Gaze analysis further revealed a clear distinction between affective experience and visual attention: although psychological evaluations varied substantially across conditions, fixation patterns remained consistent and aligned with the artworks' semantic features. Conclusion: Embodied interaction, specifically physical forward-backward movement, promotes realistic, fluid, and emotionally enriched viewing behavior. Although lower-order visual attention is driven by image content, higher-order aesthetic experiences are modulated b",
+   407→   407→    "doi": "",
+   408→   408→    "preprint_doi": "",
+   409→   409→    "subjects": [
+   410→   410→      [
+   411→   411→        {
+   412→   412→          "id": "5b4e7424c6983001430b6c1a",
+   413→   413→          "text": "Engineering Psychology"
+   414→   414→        }
+   415→   415→      ],
+   416→   416→      [
+   417→   417→        {
+   418→   418→          "id": "5b4e7425c6983001430b6c1e",
+   419→   419→          "text": "Social and Behavioral Sciences"
+   420→   420→        },
+   421→   421→        {
+   422→   422→          "id": "5b4e7427c6983001430b6c8c",
+   423→   423→          "text": "Cognitive Psychology"
+   424→   424→        }
+   425→   425→      ]
+   426→   426→    ],
+   427→   427→    "link": "https://osf.io/preprints/psyarxiv/9aq8s_v1/",
+   428→   428→    "signal_score": 2
+   429→   429→  },
+   430→   430→  {
+   431→   431→    "osf_id": "xwbyz_v2",
+   432→   432→    "title": "Measuring Prejudice and Stereotypes: A Systematic Review of Psychometric Quality and Conceptual Foundations",
+   433→   433→    "date_created": "2026-06-20T10:10:32.107947",
+   434→   434→    "date_modified": "2026-06-20T17:31:24.564884",
+   435→   435→    "description": "Prejudice and stereotypes are central constructs in social psychology; however, the instruments used to measure them vary in terms of their quality and conceptual clarity. This preregistered systematic review presents the first comprehensive, cross-method synthesis of the psychometric properties and theoretical foundations of measures assessing racial and ethnic prejudice and stereotypes. Following PRISMA and COSMIN guidelines, we screened 13,363 records and included 263 studies published between 1951 and 2024. We evaluated, among other things, reliability, validity, factor structure, measurement invariance, and conceptual alignment across explicit, implicit, and behavioral instruments. Our findings reveal a field that is methodologically diverse but psychometrically fragile. Most measures were developed with U.S. samples, rarely assessed temporal stability, discriminant or predictive validity, and often lack theoretical–empirical coherence. The GRADE synthesis indicated that only 4% of methods achieved high-quality evidence, while the majority showed serious inconsistency and risk of bias. Conceptually, only one-third of studies clearly defined prejudice, and most operationalized it narrowly at the cognitive, individual level, neglecting affective and behavioral dimensions. The review highlights how conceptual ambiguity and inadequate validation threaten the interpretability of decades of prejudice and stereotype research. We recommend greater construct clarity, multimethod integration of explicit, implicit, and behavioral measures, and stronger adoption of transparent research practices. Taken together, these findings call for a new generation of measurement tools that are psychometrically rigorous, theoretically coherent, and culturally sensitive—capable of capturing prejudice as a dynamic, multidimensional phenomenon.",
+   436→   436→    "doi": "",
+   437→   437→    "preprint_doi": "",
+   438→   438→    "subjects": [
+   439→   439→      [
+   440→   440→        {
+   441→   441→          "id": "5b4e7425c6983001430b6c1e",
+   442→   442→          "text": "Social and Behavioral Sciences"
+   443→   443→        },
+   444→   444→        {
+   445→   445→          "id": "5b4e7425c6983001430b6c34",
+   446→   446→          "text": "Social and Personality Psychology"
+   447→   447→        }
+   448→   448→      ],
+   449→   449→      [
+   450→   450→        {
+   451→   451→          "id": "5b4e7425c6983001430b6c1e",
+   452→   452→          "text": "Social and Behavioral Sciences"
+   453→   453→        },
+   454→   454→        {
+   455→   455→          "id": "5b4e7426c6983001430b6c41",
+   456→   456→          "text": "Quantitative Methods"
+   457→   457→        },
+   458→   458→        {
+   459→   459→          "id": "5b4e7426c6983001430b6c59",
+   460→   460→          "text": "Psychometrics"
+   461→   461→        }
+   462→   462→      ]
+   463→   463→    ],
+   464→   464→    "link": "https://osf.io/preprints/psyarxiv/xwbyz_v2/",
+   465→   465→    "signal_score": 2
+   466→   466→  },
+   467→   467→  {
+   468→   468→    "osf_id": "967bx_v1",
+   469→   469→    "title": "A modifiable tunnel environment to study experience of space (TEnvi)",
+   470→   470→    "date_created": "2026-07-02T07:22:45.985905",
+   471→   471→    "date_modified": "2026-07-05T17:57:27.735326",
+   472→   472→    "description": "Perception of spatial extent depends on multiple sources of information, including geometric and motion-related cues such as perspective and optic flow, as well as oculomotor signals (e.g., vergence), yet experimental control over these factors is often limited. We introduce TEnvi, a stimulus-generation framework that enables systematic manipulation of geometric parameters of a tunnel-like virtual environment under continuous optic flow.\nTEnvi allows independent manipulation of tunnel width, height, and depth while maintaining controlled perspective projection, shading gradients, and distance-dependent luminance attenuation. The framework integrates an interactive graphical interface with a reproducible rendering pipeline supporting both real-time preview and batch stimulus export. Camera motion is defined as a function of time, ensuring consistent optic flow across preview and rendered stimuli and preventing cumulative numerical drift.\nTo demonstrate the utility of the stimulus framework, a behavioural validation experiment was conducted in which participants rated perceived room size while the geometric dimensions of tunnel width, height and depth were manipulated relative to a baseline configuration. Ratings were analysed using a linear mixed-effects model with manipulation type and manipulation level as fixed effects and participant as a random intercept. Manipulations of tunnel width produced graded increases in perceived room size across levels. Manipulations of height produced small shifts relative to baseline but did not differ reliably across levels, while manipulations of tunnel depth showed no detectable influence on perceived room size. These results illustrate how the stimulus framework can isolate the perceptual contribution of geometric parameters and provides plausible data of size perception grounded in tunnel width manipulation.",
+   473→   473→    "doi": "",
+   474→   474→    "preprint_doi": "",
+   475→   475→    "subjects": [
+   476→   476→      [
+   477→   477→        {
+   478→   478→          "id": "5b4e7425c6983001430b6c21",
+   479→   479→          "text": "Life Sciences"
+   480→   480→        }
+   481→   481→      ],
+   482→   482→      [
+   483→   483→        {
+   484→   484→          "id": "5b4e7425c6983001430b6c1b",
+   485→   485→          "text": "Neuroscience"
+   486→   486→        },
+   487→   487→        {
+   488→   488→          "id": "5b4e7425c6983001430b6c23",
+   489→   489→          "text": "Cognitive Neuroscience"
+   490→   490→        }
+   491→   491→      ],
+   492→   492→      [
+   493→   493→        {
+   494→   494→          "id": "5b4e7425c6983001430b6c1e",
+   495→   495→          "text": "Social and Behavioral Sciences"
+   496→   496→        },
+   497→   497→        {
+   498→   498→          "id": "5b4e7426c6983001430b6c56",
+   499→   499→          "text": "Environmental Psychology"
+   500→   500→        }
+   501→   501→      ],
+   502→   502→      [
+   503→   503→        {
+   504→   504→          "id": "5b4e7425c6983001430b6c1b",
+   505→   505→          "text": "Neuroscience"
+   506→   506→        },
+   507→   507→        {
+   508→   508→          "id": "5b4e7427c6983001430b6c77",
+   509→   509→          "text": "Behavioral Neuroscience"
+   510→   510→        }
+   511→   511→      ],
+   512→   512→      [
+   513→   513→        {
+   514→   514→          "id": "5b4e7425c6983001430b6c1e",
+   515→   515→          "text": "Social and Behavioral Sciences"
+   516→   516→        },
+   517→   517→        {
+   518→   518→          "id": "5b4e7427c6983001430b6c8c",
+   519→   519→          "text": "Cognitive Psychology"
+   520→   520→        }
+   521→   521→      ],
+   522→   522→      [
+   523→   523→        {
+   524→   524→          "id": "5b4e7425c6983001430b6c1e",
+   525→   525→          "text": "Social and Behavioral Sciences"
+   526→   526→        },
+   527→   527→        {
+   528→   528→          "id": "5b4e7426c6983001430b6c41",
+   529→   529→          "text": "Quantitative Methods"
+   530→   530→        },
+   531→   531→        {
+   532→   532→          "id": "5b4e7427c6983001430b6ca1",
+   533→   533→          "text": "Experimental Design and Sample Surveys"
+   534→   534→        }
+   535→   535→      ]
+   536→   536→    ],
+   537→   537→    "link": "https://osf.io/preprints/psyarxiv/967bx_v1/",
+   538→   538→    "signal_score": 1
+   539→   539→  },
+   540→   540→  {
+   541→   541→    "osf_id": "y4nms_v2",
+   542→   542→    "title": "Calibrating appropriate trust in human–AI decision-making: The role of system explanations and domain expertise",
+   543→   543→    "date_created": "2026-07-02T14:08:04.818391",
+   544→   544→    "date_modified": "2026-07-05T18:21:45.813064",
+   545→   545→    "description": "The integration of artificial intelligence (AI) in decision-making raises important questions regarding the factors influencing the trust calibration of users in AI, particularly in situations where errors can have serious consequences. This study examined the effects of global AI system explanations—providing information about cases in which AI is particularly prone to errors—on user experiences and trust behaviour in an art-historical classification task. A total of N = 205 participants with varying domain-specific expertise participated in a randomised Wizard-of-Oz online experiment with a between-subjects design. The results showed that global explanations did not significantly influence decision confidence, perceived psychological load, or appropriate trust calibration and, in some cases, even fostered undertrust among less experienced participants. Domain knowledge emerged as protective factors against inappropriate trust calibrations. This study further emphasises the importance of a nuanced perspective on trust, highlighting the need to distinguish between overtrust, undertrust, and joint misjudgment.",
+   546→   546→    "doi": "",
+   547→   547→    "preprint_doi": "",
+   548→   548→    "subjects": [
+   549→   549→      [
+   550→   550→        {
+   551→   551→          "id": "5b4e7424c6983001430b6c1a",
+   552→   552→          "text": "Engineering Psychology"
+   553→   553→        }
+   554→   554→      ]
+   555→   555→    ],
+   556→   556→    "link": "https://osf.io/preprints/psyarxiv/y4nms_v2/",
+   557→   557→    "signal_score": 1
+   558→   558→  },
+   559→   559→  {
+   560→   560→    "osf_id": "aqhby_v1",
+   561→   561→    "title": "The \"i\" in team insight predicting performance above and beyond collective competence",
+   562→   562→    "date_created": "2026-06-29T18:30:35.756538",
+   563→   563→    "date_modified": "2026-07-05T13:27:58.545189",
+   564→   564→    "description": "Teams often outperform their individual members, yet the mechanisms underlying this advantage remain poorly understood. A dominant account holds that teams benefit from confidence-weighted integration of member judgments — but this relies on confidence being an accurate signal of competence. Here we investigate whether metacognitive insight, the accuracy with which individuals evaluate their own and their team's performance, predicts team accuracy above and beyond member competence and confidence. In a laboratory study, 358 adults completed a matrix reasoning task individually and then in teams of three or four (N = 111 teams), providing retrospective estimates of their own and their team's accuracy. We distinguished two forms of insight: self-insight (calibration between estimated and actual individual accuracy) and team-insight (calibration between estimated and actual team accuracy). Average team-insight correlated strongly with team accuracy (r = .58) and predicted team performance above and beyond both average individual accuracy and average team confidence (ΔR² = .04). Self-insight and team-insight were positively correlated (r = .47) yet dissociable: self-insight was the stronger predictor of individual accuracy, while team-insight was the stronger predictor of team accuracy. These findings suggest that teams perform better not simply when members are competent or confident, but when members can accurately monitor the quality of the group's collective reasoning. Metacognitive insight into team performance represents a distinct and practically important lever for improving collective decision-making.",
+   565→   565→    "doi": "",
+   566→   566→    "preprint_doi": "",
+   567→   567→    "subjects": [
+   568→   568→      [
+   569→   569→        {
+   570→   570→          "id": "5b4e7425c6983001430b6c1e",
+   571→   571→          "text": "Social and Behavioral Sciences"
+   572→   572→        },
+   573→   573→        {
+   574→   574→          "id": "5b4e7425c6983001430b6c22",
+   575→   575→          "text": "Industrial and Organizational Psychology"
+   576→   576→        }
+   577→   577→      ],
+   578→   578→      [
+   579→   579→        {
+   580→   580→          "id": "5b4e7425c6983001430b6c1e",
+   581→   581→          "text": "Social and Behavioral Sciences"
+   582→   582→        },
+   583→   583→        {
+   584→   584→          "id": "5b4e7427c6983001430b6c8c",
+   585→   585→          "text": "Cognitive Psychology"
+   586→   586→        }
+   587→   587→      ]
+   588→   588→    ],
+   589→   589→    "link": "https://osf.io/preprints/psyarxiv/aqhby_v1/",
+   590→   590→    "signal_score": 1
+   591→   591→  },
+   592→   592→  {
+   593→   593→    "osf_id": "xnvak_v2",
+   594→   594→    "title": "Agentic AI as epistemic tools",
+   595→   595→    "date_created": "2026-06-20T08:13:00.256341",
+   596→   596→    "date_modified": "2026-06-21T02:49:48.217813",
+   597→   597→    "description": "The threats to cumulative knowledge in the behavioural and social sciences are by now well documented, from computational irreproducibility and low statistical power to measurement validity gaps and citation misrepresentation. Meta-scientific research has identified clear solutions, notably with the rise of open science, but enforcement remains costly. Reviewers lack time to rerun code, editors cannot systematically check whether reported analyses match the preregistered plan, and readers cannot verify the accuracy of every citation. Here we argue that AI agents (AI systems that can operate across files and use tools to pursue multi-step goals) can reduce the cost of implementing and verifying good methodological practices. We propose a step-by-step method for using agents to produce transparent reports, helping address common threats to cumulative science. The promise of agentic AI for science is not to replace human judgment but to help researchers do more rigorous science at lower cost.",
+   598→   598→    "doi": "",
+   599→   599→    "preprint_doi": "",
+   600→   600→    "subjects": [
+   601→   601→      [
+   602→   602→        {
+   603→   603→          "id": "5b4e7424c6983001430b6c19",
+   604→   604→          "text": "Meta-science"
+   605→   605→        }
+   606→   606→      ],
+   607→   607→      [
+   608→   608→        {
+   609→   609→          "id": "5b4e7425c6983001430b6c1e",
+   610→   610→          "text": "Social and Behavioral Sciences"
+   611→   611→        },
+   612→   612→        {
+   613→   613→          "id": "5b4e7425c6983001430b6c1f",
+   614→   614→          "text": "Clinical Psychology"
+   615→   615→        }
+   616→   616→      ],
+   617→   617→      [
+   618→   618→        {
+   619→   619→          "id": "5b4e7425c6983001430b6c1b",
+   620→   620→          "text": "Neuroscience"
+   621→   621→        },
+   622→   622→        {
+   623→   623→          "id": "5b4e7425c6983001430b6c23",
+   624→   624→          "text": "Cognitive Neuroscience"
+   625→   625→        }
+   626→   626→      ],
+   627→   627→      [
+   628→   628→        {
+   629→   629→          "id": "5b4e7425c6983001430b6c1e",
+   630→   630→          "text": "Social and Behavioral Sciences"
+   631→   631→        },
+   632→   632→        {
+   633→   633→          "id": "5b4e7425c6983001430b6c2d",
+   634→   634→          "text": "Developmental Psychology"
+   635→   635→        }
+   636→   636→      ],
+   637→   637→      [
+   638→   638→        {
+   639→   639→          "id": "5b4e7425c6983001430b6c1e",
+   640→   640→          "text": "Social and Behavioral Sciences"
+   641→   641→        },
+   642→   642→        {
+   643→   643→          "id": "5b4e7425c6983001430b6c34",
+   644→   644→          "text": "Social and Personality Psychology"
+   645→   645→        }
+   646→   646→      ],
+   647→   647→      [
+   648→   648→        {
+   649→   649→          "id": "5b4e7425c6983001430b6c1e",
+   650→   650→          "text": "Social and Behavioral Sciences"
+   651→   651→        },
+   652→   652→        {
+   653→   653→          "id": "5b4e7426c6983001430b6c41",
+   654→   654→          "text": "Quantitative Methods"
+   655→   655→        }
+   656→   656→      ],
+   657→   657→      [
+   658→   658→        {
+   659→   659→          "id": "5b4e7425c6983001430b6c1e",
+   660→   660→          "text": "Social and Behavioral Sciences"
+   661→   661→        },
+   662→   662→        {
+   663→   663→          "id": "5b4e7426c6983001430b6c45",
+   664→   664→          "text": "Psychology, other"
+   665→   665→        }
+   666→   666→      ],
+   667→   667→      [
+   668→   668→        {
+   669→   669→          "id": "5b4e7425c6983001430b6c1e",
+   670→   670→          "text": "Social and Behavioral Sciences"
+   671→   671→        },
+   672→   672→        {
+   673→   673→          "id": "5b4e7426c6983001430b6c56",
+   674→   674→          "text": "Environmental Psychology"
+   675→   675→        }
+   676→   676→      ],
+   677→   677→      [
+   678→   678→        {
+   679→   679→          "id": "5b4e7425c6983001430b6c1e",
+   680→   680→          "text": "Social and Behavioral Sciences"
+   681→   681→        },
+   682→   682→        {
+   683→   683→          "id": "5b4e7427c6983001430b6c8c",
+   684→   684→          "text": "Cognitive Psychology"
+   685→   685→        }
+   686→   686→      ],
+   687→   687→      [
+   688→   688→        {
+   689→   689→          "id": "5b4e7425c6983001430b6c1e",
+   690→   690→          "text": "Social and Behavioral Sciences"
+   691→   691→        },
+   692→   692→        {
+   693→   693→          "id": "5b4e7427c6983001430b6c93",
+   694→   694→          "text": "Health Psychology"
+   695→   695→        }
+   696→   696→      ],
+   697→   697→      [
+   698→   698→        {
+   699→   699→          "id": "5b4e7425c6983001430b6c1e",
+   700→   700→          "text": "Social and Behavioral Sciences"
+   701→   701→        },
+   702→   702→        {
+   703→   703→          "id": "5b4e7428c6983001430b6cae",
+   704→   704→          "text": "Cultural Psychology"
+   705→   705→        }
+   706→   706→      ]
+   707→   707→    ],
+   708→   708→    "link": "https://osf.io/preprints/psyarxiv/xnvak_v2/",
+   709→   709→    "signal_score": 1
+   710→   710→  },
+   711→   711→  {
+   712→   712→    "osf_id": "yhjga_v3",
+   713→   713→    "title": "On Great Ape Personality Structure: Problems in Minkov (2026)",
+   714→   714→    "date_created": "2026-06-20T23:26:08.827041",
+   715→   715→    "date_modified": "2026-06-21T02:33:29.201717",
+   716→   716→    "description": "A recent paper (Minkov, 2026) claimed that great ape personality is not well-described by the five personality dimensions found in humans, those being Neuroticism, Extraversion, Openness to Experience, Agreeableness, and Conscientiousness. To support this claim, the author analyzed personality factor structures obtained in studies of great apes in which personality was assessed using rating scales. The analyses tested for ‘configural invariance’ by computing the percentage of traits that loaded on the same factor as in humans in chimpanzees, orangutans, mountain gorillas, and bonobos, and the percentage of traits that loaded on the same factor across four studies of chimpanzees. The paper also reviewed the evidence for Conscientiousness in chimpanzees, including by citing the results of studies that used other ratings scales, and concluded that this factor’s evidentiary basis was weak. The paper concluded by proposing an alternative approach to studying personality in great apes. This commentary exposes fundamental problems with the article. First, I show that the paper’s author mischaracterized the research program of comparative psychologists who study personality. Second, I review the evidence the paper uses to support its claim that there is little evidence for configural invariance, highlighting problems and errors in the analyses and reporting of results. Third, I review the evidence presented against the presence of Conscientiousness in chimpanzees and find it problematic. Finally, I demonstrate that the literature review lacks due care. I conclude by dispelling a misunderstanding about comparative research on personality and reaffirm the importance and promise of pluralism in the study of the phenomenon.",
+   717→   717→    "doi": "",
+   718→   718→    "preprint_doi": "",
+   719→   719→    "subjects": [
+   720→   720→      [
+   721→   721→        {
+   722→   722→          "id": "5b4e7425c6983001430b6c21",
+   723→   723→          "text": "Life Sciences"
+   724→   724→        }
+   725→   725→      ],
+   726→   726→      [
+   727→   727→        {
+   728→   728→          "id": "5b4e7425c6983001430b6c1e",
+   729→   729→          "text": "Social and Behavioral Sciences"
+   730→   730→        },
+   731→   731→        {
+   732→   732→          "id": "5b4e7425c6983001430b6c34",
+   733→   733→          "text": "Social and Personality Psychology"
+   734→   734→        }
+   735→   735→      ],
+   736→   736→      [
+   737→   737→        {
+   738→   738→          "id": "5b4e7425c6983001430b6c1e",
+   739→   739→          "text": "Social and Behavioral Sciences"
+   740→   740→        },
+   741→   741→        {
+   742→   742→          "id": "5b4e7427c6983001430b6c7e",
+   743→   743→          "text": "Animal Learning and Behavior"
+   744→   744→        }
+   745→   745→      ]
+   746→   746→    ],
+   747→   747→    "link": "https://osf.io/preprints/psyarxiv/yhjga_v3/",
+   748→   748→    "signal_score": 1
+   749→   749→  }
+   750→   750→]
+   751→   751→
