@@ -1,52 +1,17 @@
 # Discarded Papers Log
 
-Papers screened and discarded during curation review.
-
-- 32nm8_v1 | 9 | Olfactory facilitation: A participatory framework for scent as a designed sensory medium — sensory/perception research, not clinical mental health
-- 364ar_v1 | 7 | Are We Only Telling Half the Story? Measuring Experiences of Disadvantaging and Advantaging Gender Discrimination — social/political psychology, not clinical
-- 9hcxr_v1 | 7 | Out-Of-Body Experiences During Sleep Show Altered-Self Phenomenology Without A Distinct Clinical Profile — basic cognition/neuroscience, not clinical
-- trhgk_v2 | 6 | Parental Deportation and Child Wellbeing: A Dual-Strand Scoping Review of Psychological Evidence and Legal Frameworks — child/adolescent focus, excluded
-- 9gfkh_v1 | 6 | Social Media Use, Well-being, and Gender Across the Transition from Adolescence to Early Adulthood — child/adolescent focus, excluded
-- 5347e_v1 | 3 | Acute effects of competitive exercise context and competitive outcomes on mood responses — not clinical mental health (sports psychology)
-- fuwex_v1 | 3 | Client AI-First Disclosure in Social Work: Readiness Gaps, Ethics, and Organizational Governance — AI/technology methodology, not clinical
-- 74edc_v2 | 3 | Politicians' use of national identity rhetoric on social media is associated with online engagement — social/political psychology, not clinical
-- 5e7qz_v1 | 3 | A Locally-Normed Central-Kurdish (Sorani) Test of Cognitive Ability: Development, Calibration, and Validation — cognitive test development, not clinical mental health
-- j8szh_v2 | 2 | Artificial Intelligence and Individual Differences: A Perspective of the Differential Psychology, Personality Psychology — AI/technology methodology, not clinical
-- 58hdw_v2 | 2 | Gaze semantics: A scoping review of how gaze conveys and constrains meaning in social contexts — basic cognition/neuroscience, not clinical
-- behky_v1 | 2 | Playing under pressure: cardiac and electrodermal responses to reward and frustration in preterm and full-term preschool — child/adolescent focus, excluded
-- vdym6_v1 | 2 | Humanlike Self-Enhancement and Self-Protection in GPT-Based AI Agents: Of Overclaiming and the Self-Serving Bias — AI/technology methodology (GPT behavior), not clinical
-- qda2s_v1 | 2 | Learned Value and Context-Dependent Probability Independently Bias the Priority of Competing Goals in Visual Search — basic cognition/neuroscience (visual search), not clinical
-- v7nue_v2 | 2 | Autistic imagination sub-traits are unrelated to visual temporal integration or inference — basic cognition/neuroscience (temporal integration), not clinical
-- eua92_v1 | 2 | fAIr science — How AI can support a transparent biopsychological research cycle — AI/technology methodology, not clinical
-- edzxf_v3 | 2 | Awareness and Use of Open Research Practices: An International Survey of Researchers Across Disciplines — not clinical mental health (research methodology)
-- 3r62g_v2 | 2 | Human Detection of AI-Generated Faces and Voices is Not Domain-General — AI/technology methodology (AI detection), not clinical
-- a2z74_v1 | 2 | Task-dependent contribution of interoception and body representation to time perception — sensory/perception research (interoception), not clinical
-- 9ugmw_v2 | 2 | Differential weighting of social and empirical statistical evidence in decision-making — basic cognition/neuroscience, not clinical
-- ahm42_v4 | 2 | Science and Different Ways of Knowing — not clinical mental health (philosophy of science)
-- ud83y_v2 | 2 | Two distinct causal beliefs organizing intuitions about mind, action, and body — basic cognition/philosophy, not clinical
-- twj87_v3 | 2 | The Psychological Scaffolding of Number — not clinical mental health (number concepts)
-- 8quzg_v1 | 1 | The format of metaphorical meaning: Neurophysiological evidence for dynamic and flexible image-based representations — basic cognition/neuroscience (metaphor), not clinical
-- hf7z4_v1 | 1 | How Will I Know If You Really Like Me? Assessing the Role of Appearance, Behavior, and Reciprocity for Meta-Liking Accuracy — social psychology, not clinical
-- 7pn2t_v1 | 1 | Revisiting the Interpretation of r and R2: A Comment on Funder & Ozer (2019) — statistics/methodology commentary
-- fd37t_v1 | 1 | When ASMR Becomes Unpleasant: Acoustic Features and Visual Context Shape Emotional Responses to Eating Sounds — sensory/perception research (ASMR), not clinical
-- 4yfpw_v1 | 1 | The four conceptualizations of social connection — social psychology, not clinical
-- 38d6j_v4 | 1 | Autistic traits and temporal integration of auditory and visual stimuli: The role of imagination — basic cognition/neuroscience (temporal integration), not clinical
-- 6vk3h_v1 | 1 | Artificial observers and real individual differences: A roadmap for a computational psychometrics of vision — basic cognition/neuroscience (vision), not clinical
-- q2z36_v2 | 1 | Unraveling the interplay between sensory information and semantic architecture in brain concept representation — basic cognition/neuroscience (semantic representation), not clinical
-- mvap6_v4 | 1 | The Neuroscience of Metaphor as Abstraction — basic cognition/neuroscience (metaphor), not clinical
-- eybtv_v2 | 1 | Genetic and Environmental Contributions to Sensory Processing Sensitivity in Rural and Urban Areas — sensory/perception research (sensory processing), not clinical
-- c6hp3_v2 | 1 | Opening a File Drawer: Surprisingly Consistent Evidence for Semantic Interference from Distractor Pictures in Picture Naming — basic cognition/neuroscience (picture naming), not clinical
-- 2jz64_v2 | 1 | Prediction Under Pressure: Predictive Sentence Processing in Dyslexia and Second-Language Reading — basic cognition/neuroscience, not clinical
-- qjbfy_v1 | 1 | Precision-weighting across domains: A predictive coding framework for language-music integration under uncertainty — basic cognition/neuroscience, not clinical
-- epd3v_v2 | 1 | Motions Speak Louder Than Words: Designing Human-like AV Speed Profiles at Crosswalks with a Bayesian Optimisation–Driven Approach — not clinical mental health (autonomous vehicles)
-- vgjr8_v1 | 1 | Necessary Condition Analysis With Psychological Data: A Psychometric Critique — statistics/methodology commentary (NCA)
-- 2tcdv_v1 | 1 | Understanding Visual Attention in Inmates vs. the General Population: The Role of the K Coefficient in Eye-Tracking Research — basic cognition/neuroscience (visual attention), not clinical
-- mfzg7_v1 | 1 | Let's protect us Europeans from them: Emotional predictors of outgroup solidarity, ingroup defense, and outgroup derogation — social/political psychology, not clinical
-- 7pkqm_v7 | 1 | Evidence for Intergroup Bias in Coalitional but not Selfish Dishonesty — social/political psychology (dishonesty), not clinical
-- v28nf_v2 | 1 | Extracting Prototypes from Lexical Feature Norms for Settlement Concepts — basic cognition, not clinical
-- fs7aw_v1 | 1 | Revisiting Brain Circuits Subserving Self-Consciousness: A Cognitive Computational Perspective — basic cognition/neuroscience, not clinical
-- y2n7w_v1 | 1 | Embracing Complexity: A Multifaceted Taxonomy of Children's Curiosity — child/adolescent focus, excluded
-- b83p6_v1 | 1 | The Memory We Miss: Exploratory Behavior as a Window into Developmental Recognition Processes — basic cognition/neuroscience (developmental), not clinical
-- tje2k_v1 | 1 | Perceptual load influences the effect of a peripheral visual priming stimulus in a go/no-go task — basic cognition/neuroscience (visual attention), not clinical
-- rdu39_v1 | 1 | Moved by the lightest touch of meaning: Even minimal significance matters for motivation from childhood — basic cognition, developmental
-- 7gnj6_v2 | 1 | Computing Cohen's dz from commonly reported statistics: a practical guide for the meta-analysis of paired samples mean differences — statistics/methodology commentary (Cohen's dz)
+- bsc3y_v4 | 8 | The Youth-GEMs project: genetic and environmental interactions underlying trajectories of youth mental health — Excluded: child/adolescent focus per curation criteria
+- s72md_v1 | 5 | Performance and choice measures reveal strong preferences for self-benefitting compared to prosocial effort allocation — Not clinical psychology; basic cognitive effort decision-making
+- w9vej_v1 | 5 | Perceived authenticity in AI conversational agents: Conceptualizations, operationalizations — Not clinical psychology; AI design research
+- bqgk7_v2 | 3 | Hallucination or confabulation? A psychological reinterpretation of erroneous outputs in LLMs — AI terminology critique using clinical concepts as analogy only
+- 4c5hn_v2 | 3 | The Value of Self-Deception: How Conflict in Action Selection May Shape Human Beliefs and Behavior — Theoretical decision-making model, no clinical application
+- ybn42_v1 | 3 | What's Wrong with Motivated Reasoning? — Methodological critique of cognitive bias paradigm, not clinical
+- 6szky_v1 | 2 | From Pathogens to Paintings: Behavioral Immune System's Influence on Visual Aesthetics — Evolutionary psychology, not clinical
+- nt2jq_v3 | 2 | Encoding models in functional magnetic resonance imaging: the Voxelwise Encoding Model framework — Neuroimaging methods tutorial, no clinical implications
+- t3ay4_v1 | 2 | A comparison of different measures of slow wave activity across nocturnal ad libitum home sleep — Sleep physiology methods comparison
+- z3y5d_v3 | 2 | In God We Trust, In AI We Ask: Religiosity and Moral Advice Seeking in the AI Age — Religion/AI intersection, not clinical
+- gcd6k_v1 | 2 | Biased Judge: Recency Effects, Cautious Convictions, and Conservative Updating in GPT-4o's Legal Decisions — Legal AI bias, not clinical psychology
+- 6b4ej_v1 | 2 | Thinking through metaphor in a second language: science learning of L2 students — Education research, not clinical
+- 8uq75_v2 | 1 | Deviations in Distributions Perception through Imprecision and Abstract Representations — Perceptual cognition, not clinical
+- df7be_v2 | 1 | People make history-dependent decisions in Markovian environments — Decision-making research, not clinical
+- 8uk67_v1 | 1 | The Effect of Psychological Distance on Level of Construal: CLIMR Failed Replication — Failed replication of basic social psychology, not clinical
