@@ -2,106 +2,99 @@
   "discovered": 18,
   "alreadyExisting": 0,
   "hardExcluded": 2,
-  "lowSignal": 2,
-  "candidates": 14,
+  "lowSignal": 3,
+  "candidates": 13,
   "candidates_list": [
     {
-      "osf_id": "f68p7_v1",
-      "title": "Different post-pandemic patterns in youth mental health and wellbeing after a global stressor: variation across domains ",
-      "date_created": "2026-07-02T10:48:43.400354",
+      "osf_id": "7j4ey_v2",
+      "title": "Using neural signatures to predict health behavior change: A mindful distancing intervention to reduce alcohol consumpti",
+      "date_created": "2026-07-02T15:00:11.550477",
+      "signal_score": 7,
+      "description_preview": "Developing interventions to change health behaviors—especially those targeting cross-cutting health risk factors like alcohol use—is a public health priority. In this study, we used a translational ne"
+    },
+    {
+      "osf_id": "whpcg_v1",
+      "title": "Virtual Reality Gaming as a Non-Pharmacological Intervention for Pain Management During Medical Procedures: A Systematic",
+      "date_created": "2026-07-02T20:07:06.089897",
+      "signal_score": 7,
+      "description_preview": "Background\nThe virtual reality is an increasingly used technology for pain and anxiety management in patients. This study focuses on the effectiveness and safety of virtual reality games for these pur"
+    },
+    {
+      "osf_id": "2gwps_v1",
+      "title": "Maternal Stress and Mother-Child Interaction Dynamics: The Roles of Child Age and Maternal Emotion Regulation",
+      "date_created": "2026-07-03T17:39:09.760232",
       "signal_score": 6,
-      "description_preview": "Objective. The COVID-19 pandemic was a major global stressor for children and adolescents, raising concerns about longer-term consequences for mental health and wellbeing. Many studies reported increa"
+      "description_preview": "Caregivers often face stressful multi-tasking situations in which household- or work-related tasks compete with engaging with their young child. Caregivers’ experiences of stress can affect how they i"
     },
     {
-      "osf_id": "tgz5n_v3",
-      "title": "Procedural Obedience as a Behavioral Safety Failure: Evidence from a Milgram-Paradigm Study of Agentic LLMs",
-      "date_created": "2026-06-20T10:37:54.887208",
-      "signal_score": 5,
-      "description_preview": "Generative AI is moving from text production to goal-directed action, raising the question of whether agentic systems can withhold harmful action when it is embedded in a procedurally legitimate workf"
+      "osf_id": "bkc8x_v3",
+      "title": "Wearing Wellness: The Influence of Athleisure on Healthy Eating Through Emotional Uplift",
+      "date_created": "2026-07-05T09:17:55.738793",
+      "signal_score": 4,
+      "description_preview": "Athleisurewear, a type of apparel that blends fashion and exercise functionality, has emerged as a major fashion trend. However, to date, there is limited understanding of the psychological and health"
     },
     {
-      "osf_id": "3y2bv_v1",
-      "title": "Not All Those Who Wonder Distrust: How environmental citizen scientists view their own relationship with science",
-      "date_created": "2026-06-20T12:27:02.005575",
-      "signal_score": 5,
-      "description_preview": "Environmental citizen science (CS) encompasses a wide range of projects and forms of participation, yet relatively little is known about how citizen scientists position themselves in relation to CS an"
+      "osf_id": "nh8de_v1",
+      "title": "Perception of Nature: A Cognitive Mechanism Linking Nature Exposure, Pro-Environmental Behaviour, and Well-Being",
+      "date_created": "2026-07-02T06:45:06.403753",
+      "signal_score": 4,
+      "description_preview": "Spending time in nature has been associated with improved psychological well-being and greater pro-environmental behaviour. However, much less is known about whether time spent in nature is associated"
     },
     {
-      "osf_id": "s82zr_v4",
-      "title": "Exploring the Impact of Non-Linearity on Effect Heterogeneity in Experimental Data.",
-      "date_created": "2026-07-02T12:53:32.383135",
+      "osf_id": "fnxu2_v1",
+      "title": "Co-constructed Emotion: A Collective Predictive Coding Theory of Interoception and Social Symbol Sharing",
+      "date_created": "2026-07-05T04:13:00.707101",
       "signal_score": 3,
-      "description_preview": "Heterogeneity has been proposed as a framework to improve psychological and behavioral science by identifying mechanisms that explain the differences between replications of an effect. The modal respo"
+      "description_preview": "Emotion is both a psychological phenomenon rooted in physiological fluctuations and a socially constructed phenomenon shaped by language and culture. However, traditional psychological constructivism "
     },
     {
-      "osf_id": "u64v3_v2",
-      "title": "United in Wonder: Shared Awe Is Associated With Satisfaction and Depth in Romantic Relationships",
-      "date_created": "2026-06-20T12:29:30.435040",
+      "osf_id": "95wya_v1",
+      "title": "Causal Effects of Beliefs About Errors on Primary School Students’ Reactions to Errors and Knowledge Acquisition: Eviden",
+      "date_created": "2026-07-02T18:35:26.689507",
       "signal_score": 3,
-      "description_preview": "Shared awe, a co-experience of vastness and meaning, may strengthen romantic bonds beyond individual awe. Across two preregistered cross-sectional studies of partnered adults (Study 1, N = 198; Study "
+      "description_preview": "Errors occur frequently during educational practice and hold substantial potential for personal improvement. However, learning from errors does not happen automatically; rather, students must react ad"
     },
     {
-      "osf_id": "nvqy2_v1",
-      "title": "Building a Beta-Binomial Regression from Summary Data to Identify Reliable Change: Utility for Discrete, Bounded Scores ",
-      "date_created": "2026-07-02T13:28:36.774407",
+      "osf_id": "6wzeh_v3",
+      "title": "Stereotypes of Social Class and Race in the United States: A Social Sampling Account",
+      "date_created": "2026-07-02T14:07:43.936259",
       "signal_score": 2,
-      "description_preview": "Standard multiple linear regression is often used to calculate the regression-based Reliable Change Index (RCI) to track longitudinal neuropsychological change. However, the linear model assumes that "
+      "description_preview": "Across five studies (N = 7,075) we use the Implicit Association Test (IAT) to document a stereotype linking White Americans to the trait “rich” and Black Americans to the trait “poor” among Americans "
     },
     {
-      "osf_id": "2r8dv_v1",
-      "title": "Ancillary cognitive demands impact children's behavior in common possibility reasoning tasks",
-      "date_created": "2026-07-02T14:08:33.840250",
+      "osf_id": "kxvah_v1",
+      "title": "Multilevel Models: A Tutorial on Applications and Uses in Human Factors Research",
+      "date_created": "2026-07-02T15:16:07.281760",
       "signal_score": 2,
-      "description_preview": "The ability to consider multiple, incompatible possibilities supports human decision-making, but there is considerable variability in estimates of the age of emergence and development of this ability "
+      "description_preview": "Human behaviour is heterogeneous, a feature that is particularly important in Human Factors (HF) research where performance variability can have safety-critical implications. However, HF studies often"
     },
     {
-      "osf_id": "9aq8s_v1",
-      "title": "Walking settings affect aesthetic emotion during art appreciation in virtual reality",
-      "date_created": "2026-06-20T06:20:45.411920",
+      "osf_id": "k57zw_v2",
+      "title": "Routine safety narratives reveal dynamic traces of organisational climate",
+      "date_created": "2026-07-02T18:02:59.120637",
       "signal_score": 2,
-      "description_preview": "Background: Virtual reality (VR) expands art appreciation beyond traditional physical constraints. Although art viewing can enhance well-being, the effects of embodied interaction, particularly the in"
+      "description_preview": "‘Safety climate’ refers to the shared attitudes about safety within an organisation. While traditionally measured via self-report surveys, it can now be measured by analysing the language in written i"
     },
     {
-      "osf_id": "xwbyz_v2",
-      "title": "Measuring Prejudice and Stereotypes: A Systematic Review of Psychometric Quality and Conceptual Foundations",
-      "date_created": "2026-06-20T10:10:32.107947",
-      "signal_score": 2,
-      "description_preview": "Prejudice and stereotypes are central constructs in social psychology; however, the instruments used to measure them vary in terms of their quality and conceptual clarity. This preregistered systemati"
-    },
-    {
-      "osf_id": "967bx_v1",
-      "title": "A modifiable tunnel environment to study experience of space (TEnvi)",
-      "date_created": "2026-07-02T07:22:45.985905",
+      "osf_id": "pqa6y_v1",
+      "title": "Model Identification Made Clear: From Conceptual Foundations to CFA Identification Rules",
+      "date_created": "2026-07-05T08:42:25.867300",
       "signal_score": 1,
-      "description_preview": "Perception of spatial extent depends on multiple sources of information, including geometric and motion-related cues such as perspective and optic flow, as well as oculomotor signals (e.g., vergence),"
+      "description_preview": "In confirmatory factor analysis (CFA), model identification determines whether all model parameters, such as factor loadings, cross-loadings, and correlated errors, can be uniquely estimated from obse"
     },
     {
-      "osf_id": "y4nms_v2",
-      "title": "Calibrating appropriate trust in human–AI decision-making: The role of system explanations and domain expertise",
-      "date_created": "2026-07-02T14:08:04.818391",
+      "osf_id": "ck3js_v2",
+      "title": "A Methodological Metamorphosis: The Rapid Rise of Bayesian Inference and Open Science Practices in Psychology",
+      "date_created": "2026-07-05T15:46:39.752775",
       "signal_score": 1,
-      "description_preview": "The integration of artificial intelligence (AI) in decision-making raises important questions regarding the factors influencing the trust calibration of users in AI, particularly in situations where e"
+      "description_preview": "The field of psychology is in the midst of a methodological revolution. To quantify the changes, we tracked the adoption of Bayesian inference and open science practices across 28,738 articles from si"
     },
     {
-      "osf_id": "aqhby_v1",
-      "title": "The \"i\" in team insight predicting performance above and beyond collective competence",
-      "date_created": "2026-06-29T18:30:35.756538",
+      "osf_id": "asxjv_v2",
+      "title": "Firearm Carrying and Purchase Intentions in Permitless Carry States: State Policy or State Culture?",
+      "date_created": "2026-07-05T20:09:07.960097",
       "signal_score": 1,
-      "description_preview": "Teams often outperform their individual members, yet the mechanisms underlying this advantage remain poorly understood. A dominant account holds that teams benefit from confidence-weighted integration"
-    },
-    {
-      "osf_id": "xnvak_v2",
-      "title": "Agentic AI as epistemic tools",
-      "date_created": "2026-06-20T08:13:00.256341",
-      "signal_score": 1,
-      "description_preview": "The threats to cumulative knowledge in the behavioural and social sciences are by now well documented, from computational irreproducibility and low statistical power to measurement validity gaps and c"
-    },
-    {
-      "osf_id": "yhjga_v3",
-      "title": "On Great Ape Personality Structure: Problems in Minkov (2026)",
-      "date_created": "2026-06-20T23:26:08.827041",
-      "signal_score": 1,
-      "description_preview": "A recent paper (Minkov, 2026) claimed that great ape personality is not well-described by the five personality dimensions found in humans, those being Neuroticism, Extraversion, Openness to Experience"
+      "description_preview": "Background. Over the past decade, 29 US states have adopted permitless carry laws, eliminating the requirement to obtain a permit before carrying a firearm in public. Prior research links these policy"
     }
   ]
 }
