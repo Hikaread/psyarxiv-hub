@@ -1,0 +1,1223 @@
+     1→Momentary Structured Networks (MSN): A Theory-Guided Approach to
+     2→Person-Elicited Causal Formulation
+     3→Nimrod Hertz-Palmor1, Gary Brown2, Omid V. Ebrahimi3, Samuel Hardman1, Lars
+     4→Klintwall4, Amit Lazarov5, Alicja Podgorski1, Jana Porat6, Tim Dalgleish1,7* & Anna Bevan1*
+     5→1 MRC Cognition and Brain Sciences Unit, University of Cambridge, Cambridge, United Kingdom
+     6→2 Department of Psychology, Royal Holloway University of London, London, United Kingdom
+     7→3 Department of Experimental Psychology & Department of Psychiatry, University of Oxford, Oxford, UK
+     8→4 Centre for Psychiatry Research, Department of Clinical Neuroscience, Karolinska Institutet, Sweden &
+     9→Stockholm Health Care Services, Stockholm, Sweden
+    10→5 School of Psychological Sciences, Tel Aviv University, Tel Aviv, Israel
+    11→6 Sheba Medical Centre, Ramat Gan, Israel
+    12→7 Department of Psychology, University of Cambridge, Cambridge, United Kingdom
+    13→*Joint senior authors
+    14→Short title: Momentary Structured Networks
+    15→Corresponding author:
+    16→Nimrod Hertz-Palmor
+    17→MRC Cognition and Brain Sciences Unit, University of Cambridge, UK
+    18→15 Chaucer Road, Cambridge CB2 7EF
+    19→Nimrod.hertz@mrc-cbu.cam.ac.uk
+    20→
+    21→Abstract
+    22→Background. Idiographic approaches to case formulation often combine ecological
+    23→momentary assessment (EMA) with network analysis. Traditional network models require large
+    24→amounts of data and are largely theory-agnostic, whereas approaches based on perceived
+    25→causal relationships are weakly constrained and highly exploratory. Both often generate
+    26→unstable networks that are difficult to compare across individuals. We introduce Momentary
+    27→Structured Networks (MSN), an EMA framework that combines theory-based structure with
+    28→self-reported causal relations to generate individualised network representations.
+    29→Method. Forty-six individuals with posttraumatic stress disorder (PTSD) completed EMA over
+    30→three weeks (2–5 daily assessments). Participants reported perceived causal relations between
+    31→personalised items drawn from the Ehlers and Clark cognitive model of PTSD. Directional edges
+    32→were estimated as conditional probabilities and compared to association-based Ising models.
+    33→Results. MSN networks consistently showed dense and complex structures, even with limited
+    34→data. MSN identified most of the relations identified by Ising models while capturing additional
+    35→ones, resulting in higher network complexity. Complexity was independent of the number of
+    36→individual assessments, and network structure stabilised quickly, with over 90% of edges
+    37→recovered using 60% of the data. A clinical case study showed how MSN can track changes in
+    38→network dynamics during therapy and generate hypotheses about the processes underlying
+    39→clinical improvement.
+    40→Conclusion. MSN provides a practical approach for measuring case formulation and tracking
+    41→change over time by reducing combinatorial complexity while retaining sensitivity to individual
+    42→variation. Although demonstrated in PTSD, it can extend to other conditions and theoretical
+    43→models, offering a new framework for evaluating clinical theory and therapeutic change.
+    44→Keywords: Network analysis; Idiographic science; Case formulation; Psychological
+    45→Mechanisms; Posttraumatic Stress Disorder; PTSD; Change processes; Nonlinear change in
+    46→treatment; Psychological measurement
+    47→
+    48→Introduction
+    49→Clinical psychological science is characterised by a mismatch between how distress is
+    50→conceptualised in practice and how it is studied empirically and instantiated in clinical trials.
+    51→Much of clinical practice is organised around case formulation [1]. Clinicians integrate an
+    52→individual's experiences, beliefs, behaviours, and context into an explanatory account of how
+    53→distress arises and is maintained, using this formulation to guide intervention and evaluate
+    54→change over time. Case formulation is therefore inherently mechanistic (i.e., focused on the
+    55→mechanisms driving psychopathology), individualised, and theory-guided [2–4]. In contrast,
+    56→most clinical trials focus on symptom severity and symptom reduction, often treating
+    57→symptoms and diagnoses as static outcomes rather than interacting components within a
+    58→dynamic system [5,6]. Consequently, many of the processes central to clinical formulation
+    59→remain largely absent from quantitative research. One reason for this gap is methodological:
+    60→dynamic, interacting individual processes are difficult to operationalise and quantify
+    61→systematically [7]. As a result, empirical models often fail to capture the mechanisms clinicians
+    62→seek to understand and modify, limiting their utility for theory testing and inference at the
+    63→individual level.
+    64→Network approaches to psychopathology partially address this gap by conceptualising
+    65→psychiatric disorders as systems of mutually interacting symptoms [8]. By modelling
+    66→dependencies between symptoms, network models enable dynamic reasoning about how
+    67→change may propagate through a system [9]. Idiographic networks aim to estimate such
+    68→dynamics at the individual level, aligning in principle with the goals of case formulation [10–12].
+    69→However, idiographic network approaches are typically exploratory and data-driven with no
+    70→theoretical constraint aside from selecting which nodes participate in the network. This
+    71→restricts their capacity to represent clinical formulations in several ways. First, idiographic
+    72→network models are typically constructed in a largely exploratory manner, treating each
+    73→individual as a blank slate and risk misidentifying key processes. Second, network algorithms
+    74→are ‘data-hungry’, often requiring large numbers of observations for stable estimation [13],
+    75→which limits feasibility in clinical settings and may exclude more burdened populations [14].
+    76→Third, most network models are fundamentally association-based and are therefore insensitive
+    77→to causal processes that do not manifest through covariance or are obscured by ceiling effects.
+    78→Contemporaneous models capture co-occurrence without directional information, whereas
+    79→temporal models impose directionality through lagged associations that rely on strong
+    80→assumptions regarding timescale and process dynamics, many of which may be unrealistic in
+    81→psychopathology, such as stationarity [15,16]. Even when direction is inferred, it reflects
+    82→
+    83→temporal precedence rather than causality [17]. Collectively, these limitations mean that
+    84→current idiographic network approaches largely disregard existing theoretical knowledge
+    85→regarding the components and relationships expected to underlie psychopathology.
+    86→Consequently, the resulting networks are weakly constrained, unstable, difficult to interpret,
+    87→and poorly aligned with clinical reasoning.
+    88→One response to these limitations has been to move away from statistical inference
+    89→altogether and instead ask patients directly how they believe their difficulties are connected.
+    90→Longitudinal Perceived Causal Networks (L-PECAN) follows this logic [18] – rather than
+    91→estimating associations from observed data, participants report which components they
+    92→believe influence others, effectively constructing a quantified case formulation. Importantly,
+    93→this approach reduces data requirements, incorporates patient knowledge, and can be
+    94→implemented within ecological momentary assessment (EMA) designs. However, elicitation
+    95→(i.e., asking patients to report perceived relationships between psychological processes) is
+    96→typically unrestricted: participants can endorse relationships between any pair of components,
+    97→often selected from a broad predefined list. This creates a large and weakly constrained space
+    98→of possible networks with limited guidance regarding which relations are plausible, increasing
+    99→reliance on introspective accuracy and consistency while placing substantial cognitive
+   100→demands on participants. Empirical work suggests modest reliability and limited temporal
+   101→stability [19].
+   102→A different approach to addressing the limitations of idiographic science is the Prior
+   103→Elicitation Module for Idiographic System Estimation (PREMISE) [11]. PREMISE represents an
+   104→important advance by explicitly incorporating prior knowledge into network estimation, allowing
+   105→patients and clinicians to jointly define network elements and estimate the strength of
+   106→relationships, which are subsequently updated using EMA data within a Bayesian framework.
+   107→While principled, this approach places substantial demands on patient insight and cognitive
+   108→capacity early in treatment, when estimating relationship strength may be unreliable or
+   109→infeasible, particularly among individuals experiencing high symptom burden [20–22]. In
+   110→addition, despite its use of priors, PREMISE remains relatively data intensive, potentially limiting
+   111→its feasibility in routine clinical settings [23]. Like L-PECAN, PREMISE also permits a largely
+   112→unrestricted space of possible network structures with limited theoretical guidance, placing
+   113→substantial weight on patients’ reflective capacities.
+   114→To address the limitations of theory-agnostic networks, we recently developed an
+   115→alternative approach that incorporates stronger theoretical structure into idiographic
+   116→
+   117→assessment [24,25]. Although generalisable in principle, we demonstrate this approach in the
+   118→context of post-traumatic stress disorder (PTSD). Initially introduced in a proof-of-concept
+   119→study by Blomfield et al. [25], this framework is grounded in the Ehlers and Clark cognitive
+   120→model of PTSD [26], which proposes that persistent PTSD is maintained by a sense of current
+   121→threat arising from negative appraisals of the trauma and its consequences, and by the nature
+   122→of the trauma memory, which is poorly integrated and easily triggered. This threat is further
+   123→maintained by maladaptive coping strategies such as avoidance and thought suppression.
+   124→Accordingly, Hertz-Palmor et al. [24] measured mechanistic components such as negative
+   125→appraisals, trauma memory characteristics, triggers, sense of current threat, and maladaptive
+   126→coping strategies. Participants completed personalised EMA protocols after they selected
+   127→individual items relevant to their experience, while remaining anchored by the predefined
+   128→constructs of the model. This allowed individualised measurement within a shared theoretical
+   129→framework. This approach improved interpretability and supported the model at the group level,
+   130→while also revealing substantial heterogeneity in individual formulations. However, it remained
+   131→dependent on statistical inference to estimate relationships between components, as
+   132→associations were not theoretically constrained and were instead inferred using traditional
+   133→network algorithms. Parallel computational simulations indicated limited power and precision,
+   134→and many theoretically plausible relations were not detected [24]. Moreover, when compared
+   135→against participants' own perceptions of symptom dynamics in the initial proof-of-concept
+   136→evaluation [25], the inferred relations showed only limited agreement with perceived causal
+   137→pathways. Directionality remained anchored in Granger-causal assumptions, and the approach
+   138→retained the substantial data requirements and participant burden of traditional EMA.
+   139→Here, we introduce Momentary Structured Networks (MSN), a method designed to
+   140→address the abovementioned limitations by synthesising theory-guided structure with direct
+   141→elicitation of perceived causal relations. Rather than treating network estimation as fully
+   142→exploratory, MSN adopts a theory-driven approach in which elicitation is constrained by
+   143→theoretical expectations (for example: in the Ehlers and Clark model – appraisals → threat →
+   144→maladaptive strategies). We demonstrate this approach using the Ehlers and Clark model of
+   145→PTSD as a proof-of-principle, though the framework is generalisable to other models and
+   146→conditions. MSN resembles L-PECAN by embedding causal queries, but extends it by providing
+   147→a structured, theory-driven framework. Participants report perceived causal relations between
+   148→components while guided by theoretical predictions that prioritise plausible pathways while
+   149→also allowing their disconfirmation. Directional relations are quantified as conditional
+   150→
+   151→probabilities (e.g., P(A→B | A)), yielding individualised networks that reflect both perceived
+   152→associations and theoretical constraints.
+   153→We tested MSN in a sample of 46 trauma-exposed individuals with either a PTSD
+   154→diagnosis or high symptom severity indicative of probable PTSD, using EMA over three weeks
+   155→(mean=42.6±36.5 observations per participant). We hypothesised that there would be: 1)
+   156→substantial heterogeneity in individual networks; 2) greater structural complexity1 in MSN
+   157→relative to association-based networks (Ising Models, used to derive networks from binary data
+   158→[27,28]); 3) rapid stabilisation of network estimates, meaning that the final network structure
+   159→would be achieved fast with relatively few observations; and, 4) directional edge preferences
+   160→consistent with theoretical predictions. To illustrate the clinical utility of MSN, we present a
+   161→detailed case study of one of these traumatised individuals who underwent Cognitive Therapy
+   162→for PTSD in line with the Ehlers and Clark recommendations [29].
+   163→Method
+   164→Participants
+   165→Participants were recruited from four sites. PTSD diagnosed participants were recruited through
+   166→the National Health Service (NHS) in the United Kingdom, a stress clinic in Ontario, Canada,
+   167→and Sheba Medical Center in Israel. A separate trauma-exposed cohort with clinical-level
+   168→symptom severity was recruited from Tel Aviv University, Israel. The sample partially overlapped
+   169→with Hertz-Palmor et al. [24]2. Inclusion criteria were endorsement of a traumatic event on the
+   170→Life Events Checklist [LEC], coupled with either a formal diagnosis or meeting the clinical cutoff
+   171→for probable PTSD on the PTSD Checklist for DSM-5 (PCL-5) – a PCL-5 score >33. Ethical
+   172→approval was obtained from the University of Cambridge (PRE.2024.019), Tel Aviv University
+   173→(0007074-2), and Sheba Medical Center (1666-24-SMC).
+   174→Measures
+   175→Five theory-driven constructs were assessed, based on the Ehlers and Clark model, including
+   176→negative appraisals; characteristics of the trauma memory; trauma-related triggers; sense of
+   177→current threat; and maladaptive coping strategies. For each construct, participants selected
+   178→three items from validated questionnaires (see below) that best captured their day-to-day
+   179→experiences. This constraint balanced personal relevance with participant burden. Analyses
+   180→1 Complexity reflects the extent to which a network is both densely connected and differentiated. See
+   181→Statistical Analysis section for a detailed description of the measure.
+   182→2 The data analysed in the present study have not been reported previously.
+   183→
+   184→were conducted on these personalised subsets, aggregated at the construct level, rather than
+   185→the full instruments. Accordingly, reliability estimates for the original questionnaires are not
+   186→reported for the present sample.
+   187→Negative appraisals were drawn from the Posttraumatic Cognitions Inventory (PTCI), a
+   188→33-item measure assessing negative posttraumatic beliefs about the self and the world [30].
+   189→Characteristics of the trauma memory were assessed using direct questions on recent intrusive
+   190→memories and their characteristics, based on the Trauma Memory Quality Questionnaire
+   191→(TMQQ), an 11-item measure capturing sensory and experiential features of traumatic
+   192→recollections [31]. Triggers were elicited directly from participants during the item-selection
+   193→phase, reflecting their highly idiosyncratic nature. Sense of current threat was measured using
+   194→items indexing hypervigilance and physiological arousal from the PTSD Checklist for DSM-5
+   195→(PCL-5; Blevins et al., 2015). Maladaptive coping strategies were selected based on examples
+   196→described in the Ehlers and Clark model [26]. This approach to item personalisation has been
+   197→employed in previous idiographic studies [24,25].
+   198→Momentary Structured Network (MSN) Assessment
+   199→MSN data were collected using questionnaires administered repeatedly via EMA. Based on the
+   200→Ehlers and Clark model (Figure 1A), specific components were categorised as ‘upstream’
+   201→(negative appraisals, trauma memory characteristics, and triggers) or ‘downstream’ (sense of
+   202→current threat and maladaptive coping strategies). This distinction guided the structure and
+   203→prioritisation of causal queries, which were constrained by the directional assumptions
+   204→specified by the model.
+   205→At each assessment, participants first indicated whether they had experienced any of
+   206→the three upstream components (negative appraisals, trauma memory or triggers) since the
+   207→previous assessment. The questions were phrased using their personalised items, with
+   208→endorsement analysed at the component level (rather than specific items). If any of the three
+   209→upstream components had been experienced, participants were asked whether it had led to a
+   210→sense of current threat and whether it has caused any of the other upstream components3
+   211→(Figure 1B). Thus, some relations were queried symmetrically (e.g., triggers ↔ appraisals),
+   212→providing equal opportunity for either direction to be endorsed. In contrast, other relations were
+   213→queried asymmetrically in line with theoretical predictions. For example, trauma memory →
+   214→threat was queried whenever trauma memory was reported, whereas threat → trauma memory
+   215→3 Each specific causal pathway was queried separately.
+   216→
+   217→was queried only when participants did not endorse the theoretically predicted trauma memory
+   218→→ threat pathway. Sense of current threat was queried most frequently to reflect its central role
+   219→in the model [24]. When a downstream component was endorsed—either sense of current
+   220→threat or an upstream component that had itself been endorsed as the outcome of another
+   221→component—participants were asked whether this led to using a maladaptive coping strategy. If
+   222→no upstream component was endorsed, participants were still queried about current threat,
+   223→whether it was caused by an upstream component or led to subsequent downstream effects,
+   224→and whether maladaptive coping strategies were used. Structural constraints prohibited
+   225→implausible relations (e.g., maladaptive coping strategies directly generating negative
+   226→appraisals). See supplementary materials for an example of MSN querying from a single
+   227→participant.
+   228→Consistent with the model's assumption that threat mediates maladaptive responses,
+   229→participants were three times more likely to be asked whether a sense of current threat led to
+   230→maladaptive coping strategies than whether any other component directly caused them.
+   231→Accordingly, maladaptive coping strategies were only permitted to form causal links with other
+   232→components through their amplifying or attenuating effects on the sense of current threat.
+   233→Queries concerning relations among upstream components were presented in a
+   234→randomised order to ensure balanced opportunities for endorsement. Across repeated
+   235→assessments (aggregated within individual), directional relations were quantified as conditional
+   236→probabilities of individual contemporaneous dynamics, yielding individualised directed
+   237→networks indexing the strength and asymmetry of perceived causal relations between
+   238→components (see statistical analysis section).
+   239→
+   240→A) Ehlers & Clark cognitive model of PTSD
+   241→“no one can be trusted”
+   242→“I remember the event as vivid pictures” ”I cannot be trusted”
+   243→Trauma Negative
+   244→“loud noises”
+   245→memory appraisals
+   246→Triggers
+   247→Upstream
+   248→elements
+   249→“feeling jumpy or easily startled”
+   250→Current threat
+   251→Downstream
+   252→elements
+   253→“drinking alcohol”
+   254→Maladaptive Maladaptive strategies
+   255→coping strategies
+   256→B) Momentary Structured Networks (MSN) streamline
+   257→Example 1: Triggers → downstream elements → strategies
+   258→Have you
+   259→recently Did it lead to… To cope with it,
+   260→did you…
+   261→experienced…
+   262→Threat item 1
+   263→Trigger item 1 Threat item 2 Maladaptive strategy 1
+   264→Trigger item 2 Threat item 3 Maladaptive strategy 2
+   265→Trigger item 3 Negative appraisals Maladaptive strategy 3
+   266→Other triggers A → B Trauma memory B → C Other
+   267→None of the above Generic threat item None of the above
+   268→Other
+   269→None of the above
+   270→A B C
+   271→Example 2: Negative appraisals → downstream elements → strategies
+   272→Have you
+   273→recently Did it lead to… To cope with it,
+   274→did you…
+   275→experienced…
+   276→Threat item 1
+   277→Appraisal 1 Threat item 2 Maladaptive strategy 1
+   278→Appraisal 2 Threat item 3 Maladaptive strategy 2
+   279→Appraisal 3 Matching triggers Maladaptive strategy 3
+   280→Other appraisals A → B Trauma memory B → C Other
+   281→None of the above Generic threat item None of the above
+   282→Other
+   283→None of the above
+   284→A B C
+   285→Figure 1. (A) Ehlers and Clark’s cognitive model of PTSD (Ehlers & Clark, 2000). Green arrows indicate components
+   286→that amplify other components; red arrows indicate components that impede change in other components over time
+   287→(not queried directly in MSN as these refer to longitudinal rather than momentary effects). (B) Momentary Structured
+   288→Networks (MSN) questionnaire illustrated with selected examples.
+   289→
+   290→Procedure
+   291→Onboarding session and item personalisation
+   292→Participants completed a one-hour onboarding session with a researcher, conducted online or
+   293→in person, which included informed consent, item selection, and psychoeducation.
+   294→Participants first completed full-length versions of the measures listed above before selecting
+   295→the three items per measure that best reflected their own experience of that underlying
+   296→construct, choosing experiences, thoughts, or behaviours that occurred at least weekly and
+   297→showed some variability. Item selection was supported by the researcher through clarification
+   298→and procedural guidance, but final decisions were made by the participant. Freely elicited
+   299→triggers were reviewed collaboratively to ensure a shared understanding of their definition and
+   300→manifestation in daily life. Participants then received psychoeducation on the Ehlers and Clark
+   301→model, delivered by the researcher or via pre-recorded videos (N=23 each), covering its core
+   302→components and their role in maintaining post-traumatic stress. Following this, participants
+   303→were given the opportunity to retain or modify their selected items. Finally, participants
+   304→installed the m-Path app [33] and received instructions for completing the EMA protocol.
+   305→Ecological Momentary Assessment (EMA)
+   306→EMA commenced the following day and continued for three weeks4. Participants received five
+   307→notifications per day at fixed intervals (3 hours between each assessment) within preselected
+   308→time windows. For most participants, three daily notifications included traditional EMA
+   309→measures (not analysed here), alongside two MSN assessments scheduled around midday and
+   310→18:00. A subset of participants (N=16; 34.8%) recruited later in the study received five daily
+   311→MSN assessments (approximately 09:00, 12:00, 15:00, 18:00, and 21:00), with timing adjusted
+   312→to individual schedules5. Data from participants who discontinued early were retained for
+   313→analysis, consistent with the premise that MSN can yield informative network structures from
+   314→fewer observations, albeit with reduced certainty. Clinical participants received £70 for the 3-
+   315→week study, while students received 150 ILS (~£35) and course credit. Participants who
+   316→withdrew early received partial compensation.
+   317→4 One participant continued beyond the three-week period.
+   318→5 As the protocol developed, later participants completed five daily MSN assessments to increase the
+   319→number of observations and better align MSN with concurrent EMA assessments without substantially
+   320→increasing participant burden.
+   321→
+   322→Table 1. Sociodemographic and clinical properties, and EMA compliance in the sample (N=46; 1,958 observations)
+   323→Variable Statistic Value
+   324→M (SD) 33.24 (13.21)
+   325→Age Md (MAD) 28.00 (10.38)
+   326→Min–Max 19-76
+   327→M (SD) 51.65 (12.73)
+   328→PCL score Md (MAD) 49.00 (14.08)
+   329→Min–Max 26-74
+   330→M (SD) 42.57 (36.50)
+   331→Observations per person Md (MAD) 41.50 (19.27)
+   332→Min–Max 2-205
+   333→M (SD) 21.61 (19.84)
+   334→EMA length (days) Md (MAD) 22.00 (1.48)
+   335→Min–Max 1-142
+   336→M (SD) 0.76 (0.27)
+   337→Response rate Md (MAD) 0.86 (0.21)
+   338→Min–Max 0.09-1.00
+   339→M (SD) 2.17 (0.97)
+   340→Responses per day Md (MAD) 1.95 (0.52)
+   341→Min–Max 1.00-5.09
+   342→Female 22 (47.83%)
+   343→Gender Male 23 (50.00%)
+   344→A-binary 1 (2.17%)
+   345→Israeli (Jewish) 32 (69.56%)
+   346→Israeli (Arab) 3 (6.52%)
+   347→Canadian 3 (6.52%)
+   348→British (White) 4 (8.70%)
+   349→Nationality and ethnicity
+   350→British (Arab) 1 (2.17%)
+   351→British (Turkish) 1 (2.17%)
+   352→British (Caribbean) 1 (2.17%)
+   353→Australian 1 (2.17%)
+   354→PTSD diagnosis 23 (50.00%)
+   355→Diagnostic status
+   356→High symptoms + criterion A 23 (50.00%)
+   357→Occupational (Police) 17 (36.96%)
+   358→Sexual Violence 8 (17.39%)
+   359→Interpersonal / Violence / Complex trauma 6 (13.04%)
+   360→Accident / Medical 5 (10.87%)
+   361→Trauma type
+   362→(categories may overlap) Terrorism 5 (10.87%)
+   363→Loss-related (Bereavement / Suicide) 5 (10.87%)
+   364→Military 4 (8.70%)
+   365→Life Threat 3 (6.52%)
+   366→Direct 37 (80.43%)
+   367→Professional 20 (43.48%)
+   368→Exposure
+   369→(categories may overlap) Family 7 (15.22%)
+   370→Friends 5 (10.87%)
+   371→
+   372→Statistical analysis
+   373→Conditional directional probabilities
+   374→Directional relations in MSN (e.g., appraisals → threat) were quantified as conditional
+   375→probabilities across repeated assessments. For each ordered pair A→B, two complementary
+   376→quantities were estimated, as follows:
+   377→The parent-conditioned probability, P(A→B∣A), was defined as the proportion of
+   378→queried instances of A in which B was reported as a downstream effect:
+   379→𝑃(𝐴 → 𝐵)
+   380→𝑃(𝐴 → 𝐵 ∣ 𝐴) =
+   381→𝑃(𝐴)
+   382→Where P(A→B) is the joint probability that A is endorsed and B is reported as its
+   383→downstream effect, and P(A) is the probability that A is endorsed. For example, 𝑃(Appraisals →
+   384→Threat ∣ Appraisals) represents the probability that, when appraisals are endorsed, they lead to
+   385→a sense of current threat.
+   386→The child-conditioned probability, 𝑃(𝐴 → 𝐵 ∣ 𝐵), was defined as the proportion of
+   387→assessments in which 𝐴 was reported as causing 𝐵, among assessments in which 𝐵 was
+   388→endorsed. For example, 𝑃(Appraisals → Threat ∣ Threat) reflects how often a sense of current
+   389→threat is attributed to negative appraisals when threat is present.
+   390→Whereas 𝑃(𝐴 → 𝐵 ∣ 𝐴) captures how often 𝐴 leads to 𝐵, 𝑃(𝐴 → 𝐵 ∣ 𝐵) captures how
+   391→often 𝐵 is attributed to 𝐴 relative to other possible causes. Both probabilities were estimated
+   392→for all theoretically permitted relations with two or more observations and used as edge weights
+   393→in individualised MSNs. Agreement between the two probabilities was assessed using Pearson
+   394→correlations, and within-person agreement was examined as a function of individual
+   395→observations, to examine whether MSN estimation is constrained by data limitations.
+   396→Directional edge asymmetry
+   397→To assess whether MSN captures perceived directionality, conditional probabilities were
+   398→compared for pairs of edges connecting the same components in opposite directions. For each
+   399→pair, mean conditional probabilities and 95% confidence intervals were estimated across
+   400→participants, and odds ratios (ORs) were computed for A→B relative to B→A. Analyses focused
+   401→on relations between triggers, appraisals, and trauma memory, which were assigned symmetric
+   402→
+   403→a priori likelihoods. Edges involving threat or strategies were excluded due to asymmetric
+   404→querying6.
+   405→Network complexity
+   406→Network complexity was quantified to capture the extent to which a network contained
+   407→differentiated information beyond the mere presence or absence of connections. Complexity
+   408→combined network density (the proportion of non-zero edges) with structural differentiation,
+   409→indexed using normalized degree entropy (𝐻 ), which reflects how unevenly connections are
+   410→norm
+   411→distributed across nodes. Complexity was defined as:
+   412→Complexity = Density×𝐻
+   413→norm
+   414→The resulting metric ranges from 0 to 1, where values closer to 0 indicate networks that
+   415→are either sparse or structurally homogeneous (i.e., connections are distributed relatively
+   416→evenly across components), whereas values closer to 1 indicate networks that are both densely
+   417→connected and differentiated. Conceptually, higher complexity reflects a greater number of
+   418→distinct and non-uniform maintaining mechanisms. Such formulations may offer richer
+   419→opportunities for identifying intervention targets and tracking changes over the course of
+   420→treatment, although the clinical utility of this metric remains to be established empirically.
+   421→Complexity scores were compared across networks using analysis of variance
+   422→(ANOVA). Because MSN networks are directional, complexity was also computed on undirected
+   423→versions by collapsing directional edges using an either-or rule that retained the larger of the
+   424→two directional edges. Associations between complexity and number of individual data were
+   425→examined using Pearson correlations to assess the extent to which complexity depended on
+   426→data volume.
+   427→Comparison with Ising Models
+   428→MSN networks were compared with Ising models estimated from binary co-occurrence data
+   429→[27,28] using the IsingFit package in R [34]. Importantly, Ising models were estimated using the
+   430→same MSN nodes, but not the perceived relations between them. Ising models are the standard
+   431→6 Sense of current threat was three times more likely to be queried as an outcome of upstream
+   432→components, reflecting its central role in the Ehlers and Clark model. Maladaptive coping strategies were
+   433→only permitted to form causal links through their amplifying or attenuating effects on the sense of current
+   434→threat and were not allowed to exert direct effects on other components.
+   435→
+   436→approach for estimating networks from binary data in psychology, modelling undirected
+   437→associations between variables based on pairwise conditional dependencies [28]. Networks
+   438→were regularised using an EBIC hyperparameter of 0.25, a commonly used setting that balances
+   439→sparsity and sensitivity in psychological network estimation. As a sensitivity check, we also
+   440→compared MSN to unregularised Ising models (sensitivity analyses; see supplementary). In Ising
+   441→models, edges reflect co-occurrence patterns rather than directional or causal relations. This
+   442→comparison benchmarks MSN against this standard, testing whether MSN captures additional
+   443→structure beyond undirected co-occurrence. We compared the methods on edge-weight
+   444→correlation, network complexity, and edge detection.
+   445→Edge detection
+   446→MSN and Ising networks were binarised based on the presence of non-zero edges. Sensitivity
+   447→(recall; proportion of reference edges correctly identified), specificity (proportion of reference
+   448→non-edges correctly identified), precision (proportion of identified edges that are present in the
+   449→reference), and accuracy (overall proportion of correctly classified edges and non-edges) were
+   450→computed for each individual, using each method as the reference, in turn. Metrics were
+   451→summarised descriptively across participants.
+   452→Network saturation
+   453→Network saturation was assessed to determine how much data are required for MSN networks
+   454→to stabilise, inspired by the approach taken by Burger et al. [18]. For each participant, networks
+   455→were re-estimated sequentially using increasing proportions of the individual data, starting from
+   456→the first observation and adding one observation at a time until the full sample was reached. At
+   457→each step, uncertainty in edge estimates was quantified using 1,000 bootstrap resamples.
+   458→Partial-data networks were then compared with the final network by evaluating edge-wise
+   459→recovery, defined as whether the partial estimate fell within the 95% confidence interval of the
+   460→final estimate. Saturation was quantified as the proportion of recovered edges at each data
+   461→proportion.
+   462→All analyses were conducted in R [35], version 4.5.1. Statistical tests were two-sided,
+   463→and effect sizes are reported where applicable.
+   464→
+   465→Results
+   466→The sample comprised 46 participants (age M±SD=33.2±13.2 years; 47.8% female, 50.0% male,
+   467→2.2% non-binary; see Table 1 for sociodemographic characteristics). The PCL-5 score was
+   468→51.7±12.7, with the most common trauma source being work-related trauma among police
+   469→personnel (32.7%), followed by sexual violence (17.4%) and interpersonal trauma (13.0%); most
+   470→participants reported direct exposure (80.4%) and/or exposure through a professional role
+   471→(43.5%)7. Participants contributed a total of 1,958 observations (M±SD=42.6±36.5 per person;
+   472→median [Md]±MAD=42.5±19.3) over 21.6±19.8 days, with a mean response rate of 0.76±0.27
+   473→(Md±MAD=0.86±0.21). All participants produced non-empty MSN networks with at least one
+   474→association between network elements.
+   475→Parent- vs child-conditioned networks
+   476→For most edges, parent-conditioned and child-conditioned estimates were highly correlated
+   477→(r=.88, p<.0001; Sup. Figures S1-S2), indicating that the likelihood of a causal relation was
+   478→broadly similar whether conditioning on the antecedent or the effect. Conceptually, the two
+   479→capture complementary perspectives: parent-conditioned probabilities reflect forward
+   480→propagation (what a component leads to), whereas child-conditioned probabilities reflect
+   481→attribution (what explains an outcome). The parent-child correlation was not significantly
+   482→related to the number of individual observations (r=.09, p=.56). Given their high convergence,
+   483→we averaged the two methods to obtain a more stable summary of perceived directional
+   484→relations for the main analyses.
+   485→Directional edge asymmetry
+   486→Clear directional preferences emerged for triggers → memory (W=0.308, 95% CI [0.24, 0.37])
+   487→over memory → triggers (W=0.04, 95% CI [0.02, 0.07]; OR=20.1, 95% CI [8.60, 47.7]). To
+   488→demonstrate how this dominance manifests on the individual level, participant 27 (see Sup.
+   489→Figures S3 for individual MSNs), who experienced an interpersonal trauma, reported sensory
+   490→triggers (specific sounds and smells) and an emotional trigger (feeling watched by others) that
+   491→were much more likely to lead to intrusive traumatic memories (W=0.75) than be followed by
+   492→them (W=0.11).
+   493→7 Categories were not mutually exclusive
+   494→8 Edge weights (W) represent the conditional probability for a causal effect between A→B, averaged across the
+   495→conditional probability given the cause (A) or the outcome (B).
+   496→
+   497→A directional preference was also noted for triggers → appraisals (W=0.15, 95% CI [0.10,
+   498→0.20]) over appraisals → triggers (W=0.03, 95% CI [0.01, 0.04]; OR=4.98, 95% CI [2.34, 11.1]),
+   499→aligning with the theoretical predictions of Ehlers and Clark [26] and our hypotheses. For
+   500→example, participant 43 experienced bereavement-related trauma following child loss, with
+   501→sensory triggers including environmental cues (e.g., sounds, seeing children of a similar age),
+   502→and experiencing positive emotions. These triggers were likely to lead to negative appraisals
+   503→(W=0.42) about the self (“I can’t handle minor upsets”, “I was happy and now I’m miserable”)
+   504→and the world (“I must always stay on guard”). The reverse direction, in which appraisals led to
+   505→being triggered, was less likely (W=0.32), although still moderate.
+   506→In contrast, no clear directional dominance was observed between appraisals and
+   507→trauma memory: appraisals → memory (W=0.34, 95% CI [0.27, 0.41]) did not reliably exceed
+   508→memory → appraisals (W=0.23, 95% CI [0.17, 0.28]; OR=0.55, 95% CI [0.22, 1.35]), also aligning
+   509→with the theoretical proposition that these elements influence each other reciprocally (Figure
+   510→2A). For example, participant 13, with assault-related trauma, showed a bidirectional pattern
+   511→between negative appraisals and trauma memories. Negative appraisals (“The event happened
+   512→because of me”, “Can’t know who will harm you”, “Must always be careful”) were about as
+   513→likely to lead to trauma memories (W=0.39) as trauma memories were to activate these
+   514→appraisals (W=0.42).
+   515→Importantly, as shown in the individual MSN networks (Sup. Figures S3), the absence of
+   516→a group-level directional preference did not reflect similar probabilities in both directions at the
+   517→individual level. Rather, it arose from heterogeneity across participants. Some showed a clear
+   518→preference for appraisals → memory (e.g., P3, P23, P42), whereas others showed the opposite
+   519→pattern, with memory → appraisals (e.g., P14, P20, P24).
+   520→MSN vs Ising Model
+   521→Correlation and complexity. MSN networks differed from Ising networks. Although edge
+   522→weights were significantly correlated, the association was weak (r=.16, p=.0005), indicating
+   523→limited overlap between the two representations. MSN networks exhibited substantially greater
+   524→complexity than Ising networks, with undirected MSN showing the highest values (Ising
+   525→complexity: 0.15±0.18; directed MSN: 0.50±0.19; undirected MSN: 0.72 ± 0.21; F =7.55,
+   526→(2,272)
+   527→p<.0001, η²=.61; Figure 2B). Complexity in Ising networks correlated with complexity in both
+   528→directed MSN (r=.36, p=.015) and undirected MSN (r=.37, p=.012). Ising complexity was
+   529→positively correlated with individual sample size (r=.41, p=.004), whereas MSN complexity was
+   530→not significantly related to sample size (r=.20, ps>.17), reflecting that MSN complexity shows
+   531→
+   532→independence from the amount of data individuals provide. Sensitivity analyses with
+   533→unregularised Ising models confirmed these results (see supplementary). Figure 3 illustrates
+   534→examples of MSN across different complexity levels.
+   535→Edge detection. Using Ising as the reference, MSN showed high sensitivity (M±SE = 0.85±0.06)
+   536→but low specificity (0.29±0.03) and precision (0.19±0.03), indicating that most Ising edges were
+   537→recovered alongside many additional relations. Conversely, using MSN as the reference, Ising
+   538→networks showed high specificity (0.89±0.04) and precision (0.85±0.06), but low sensitivity
+   539→(0.19±0.03). These patterns indicate that MSN identifies more edges than the Ising model,
+   540→reflecting higher sensitivity (Figure 2C). Overall accuracy was moderate (0.40±0.03). Sensitivity
+   541→analyses with unregularised Ising networks showed similar metrics (see supplementary). This
+   542→asymmetric pattern is consistent with the higher complexity of MSN, which captured most Ising
+   543→edges but include additional relations.
+   544→Sup. Figures S3 present individual-level visual comparisons between MSN and Ising
+   545→networks, including density, complexity, and edge-weight correlations.
+   546→Network saturation
+   547→MSN networks converged rapidly toward their final structure (Figure 2D). With 70% of the data,
+   548→networks closely approximated the full structure with high confidence (M±SD=0.99±0.12, 95%
+   549→CI [0.97, 1.00]). Even with fewer observations, partial MSN captured a substantial proportion of
+   550→the final structure: 0.93±0.26 (95% CI [0.88, 0.96]) of the final network structure at 60% of the
+   551→data, 0.83±0.38 (95% CI [0.78, 0.88]) at 40%, and 0.60±0.49 (95% CI [0.53, 0.67]) at 20%.
+   552→Notably, even with only 10% of the data, MSN captured over half of the final structure
+   553→(M±SD=0.51±0.50, 95% CI [0.41, 0.59]). Overall, these results indicate high network stability
+   554→and suggest that core structural features appear early, even with limited data.
+   555→
+   556→A) Directional edge asymmetry – MSN B) Network complexity comparison – MSN vs. Ising
+   557→D) Network saturation – MSN
+   558→C) Edge detection – MSN vs. Ising
+   559→Figure 2. (A) Directional edge asymmetry. Left panels show group-level directional edge estimates with 95% confidence intervals. The right panel shows the log odds ratio (OR) of directional asymmetry
+   560→between paired edges, with 95% confidence intervals. Log OR is presented rather than OR for visualisation, see main text for OR. (B) Network complexity across Ising, directed MSN, and undirected MSN
+   561→networks. (C) Edge detection performance. Classification metrics compare Ising networks as the reference and MSN networks as the comparator (cyan), and MSN as the reference and Ising as the
+   562→comparator (dark blue). (D) Network saturation. The x-axis shows the proportion of each individual’s total data used, and the y-axis shows the proportion of edges recovered relative to that individual’s
+   563→final network estimated from all available observations, with 95% confidence. Error bars indicate 95% confidence intervals.
+   564→
+   565→(A) Low N, High Complexity MSN
+   566→P
+   567→T
+   568→2
+   569→r
+   570→3
+   571→a
+   572→|
+   573→u
+   574→N
+   575→m
+   576→=
+   577→a
+   578→8 | Density = 0.65 | 0C.88omplexity = 0.8
+   579→Negative
+   580→P
+   581→T
+   582→3
+   583→r a
+   584→| N
+   585→u m
+   586→= 5
+   587→a
+   588→| Density = 0.5 | Com1plexity = 0.73
+   589→Negative
+   590→P
+   591→T
+   592→4
+   593→r
+   594→0
+   595→a
+   596→|
+   597→u
+   598→N
+   599→m
+   600→=
+   601→a
+   602→11 | Density = 0.5 | 0C.55omplexity = 0.68
+   603→Negative
+   604→memory appraisals memory appraisals memory appraisals
+   605→00.6.122 0.33 0.36
+   606→0.380.25 0.4 0.4 0.55
+   607→Triggers 0.75 0.62 0.88 Triggers 1 1 Triggers1 0.09 0.64
+   608→0.88 Current 0.4 Current 0.73 Current
+   609→0.75 threat 0.88 1 threat 0.67 0.64 threat 0.27
+   610→0.5
+   611→1 0.6 0.73
+   612→Strategies Strategies Strategies
+   613→(B) Low N, Low Complexity MSN
+   614→P
+   615→T
+   616→2
+   617→r
+   618→2
+   619→a
+   620→|
+   621→u
+   622→N
+   623→m
+   624→=
+   625→a
+   626→3 | Density = 0.1 | Complexity = 0.09
+   627→Negative
+   628→P
+   629→T
+   630→1
+   631→r
+   632→2
+   633→a
+   634→|
+   635→u
+   636→N
+   637→m
+   638→=
+   639→a
+   640→3 | Density = 0.25 | C0.6omplexity = 0.33
+   641→Negative
+   642→P
+   643→T
+   644→1
+   645→r
+   646→5
+   647→a
+   648→|
+   649→u
+   650→N
+   651→m
+   652→=
+   653→a
+   654→13 | Density = 0.15 | Complexity = 0.2
+   655→Negative
+   656→memory appraisals memory appraisals memory appraisals
+   657→1
+   658→0.33 0.07
+   659→1 1 1 0.54
+   660→Triggers Triggers Triggers
+   661→Current 0.21 Current Current
+   662→threat 1 threat threat
+   663→0.4 0.1
+   664→Strategies Strategies Strategies
+   665→(C) High N, High Complexity MSN
+   666→P
+   667→T
+   668→2
+   669→r
+   670→6
+   671→a
+   672→|
+   673→u
+   674→N
+   675→m
+   676→=
+   677→a
+   678→90 | Density = 0.75 0|. 5C4omplexity = 0.86
+   679→Negative
+   680→P
+   681→T
+   682→4
+   683→r
+   684→2
+   685→a
+   686→|
+   687→u
+   688→N
+   689→m
+   690→=
+   691→a
+   692→112 | Density = 0.55 1| Complexity = 0.68
+   693→Negative
+   694→P
+   695→T
+   696→3
+   697→r
+   698→9
+   699→a
+   700→|
+   701→u
+   702→N
+   703→m
+   704→=
+   705→a
+   706→114 | Density = 0.5 |0 .5Complexity = 0.68
+   707→Negative
+   708→memory appraisals memory appraisals memory appraisals
+   709→00.7.032 0.06 0.01
+   710→0.041 0.44 0.76
+   711→Triggers0.91 0.07 0.79 0.76 0.03 Triggers0.82 0.57 0.83 0.06 Triggers0.89 0.04 1
+   712→0.86 Current 0.53 Current 0.84 Current
+   713→0.5 threat 0.57 0.8 threat 0.08 0.89 threat 0.01
+   714→0.05
+   715→0.57 0.73 0.99
+   716→Strategies Strategies Strategies
+   717→(D) High N, Low Complexity MSN
+   718→P25 | N = 42 | Density = 0.2 | Complexity = 0.1 P21 | N = 43 | Density = 0.3 | Complexity = 0.38 P7 | N = 40 | Density = 0.3 | Complexity = 0.39
+   719→Trauma Negative Trauma Negative Trauma Negative
+   720→memory appraisals memory appraisals memory 0.14 appraisals
+   721→0.67
+   722→0.02 0.02 0.05
+   723→0.7 1 1 0.79 0.87 1
+   724→Triggers Triggers Triggers
+   725→Current 0.4 Current 0.23 Current
+   726→threat 0.17 0.5 threat threat
+   727→0.21
+   728→Strategies Strategies Strategies
+   729→Figure 3. Selected directed MSN networks illustrating low and high complexity under conditions of limited data (low N; <15
+   730→observations) and extensive data (high N; >40 observations). All 46 individual MSN networks are presented in Supplementary Figure
+   731→S3. The figure demonstrates that MSN complexity—defined by network density x entropy (i.e., the uneven distribution of edges,
+   732→normalized within individuals)—is largely independent of data quantity. Individuals can exhibit highly complex networks with either
+   733→low (panel a) or high (panel c) data, as well as low-complexity networks under both low (panel b) and high (panel d) data conditions.
+   734→High complexity networks show high density (many network edges) with uneven edge strength distribution, whereas low complexity
+   735→networks show either low density (few edges) or a relatively even edge strength distribution, or both.
+   736→
+   737→Interim discussion 1
+   738→The results demonstrate the utility of MSN in a collated sample of 46 trauma-exposed
+   739→individuals. MSN identified directional relations and complex network structures using
+   740→relatively little data, showed higher sensitivity than Ising models, and converged rapidly to
+   741→stable network estimates. These features make MSN well suited for clinical applications,
+   742→particularly when monitoring change over time without imposing substantial burden on
+   743→patients. Importantly, MSN goes beyond simply counting perceived causal links by estimating
+   744→how likely one process leads to another, depending on whether we start from the cause or the
+   745→outcome [36]. This allows relations to be examined from two complementary perspectives and
+   746→supports testing theoretical predictions, such as whether some processes reinforce each other
+   747→or operate more in one direction.
+   748→Across analyses, MSN networks were stable, exhibited clear directional patterns, and
+   749→identified meaningful differences between individual presentations. This potentially makes
+   750→MSN particularly useful in clinical settings, as it provides a structured yet flexible approach for
+   751→translating established theoretical models into individualised case formulations. Because
+   752→these models are already familiar to clinicians and guide effective interventions, MSN offers an
+   753→intuitive framework while still allowing individuals to diverge from expected patterns when their
+   754→experiences differ, as reflected in the substantial heterogeneity of networks observed despite
+   755→the shared theoretical framework and standardized assessment procedure. Compared with
+   756→traditional Ising models, MSN recovered most of the same relations while identifying additional
+   757→structure, resulting in richer and more informative networks.
+   758→These findings suggest that MSN may provide a useful framework for informing
+   759→treatment planning and evaluating therapeutic processes, even with relatively sparse data. In
+   760→the next section, we illustrate the integration of MSN into routine clinical care through a case
+   761→study of a client undergoing trauma-focused therapy, demonstrating how MSN can be used to
+   762→track network change over time and support clinical decision-making.
+   763→
+   764→Case study: MSN in Cognitive Therapy for PTSD
+   765→To illustrate the clinical utility of MSN, we present a case study of a client diagnosed with PTSD
+   766→who received Cognitive Therapy for PTSD (CT-PTSD) [29] while completing repeated MSN
+   767→assessments before, during, and after treatment (see client’s item selection in the
+   768→supplementary materials).
+   769→The client was a highly educated, high-functioning European male in his late thirties
+   770→who sought treatment for trauma-related difficulties linked to the death of a family member
+   771→during adolescence. His presentation was characterised by negative appraisals involving self-
+   772→blame and guilt, avoidance of memories and reminders, and triggers associated with family
+   773→contexts (e.g., gatherings, observing other families). He also reported heightened vigilance
+   774→around safety and potential harm. As therapy progressed, the clinical formulation became
+   775→more complex, with early family dynamics emerging as relevant contextual factors beyond the
+   776→bereavement itself. The client identified negative schemas, rumination and intrusive memories
+   777→as central components of his trauma experience and primarily relied on suppression and
+   778→avoidance as coping strategies. He completed MSN and EMA assessments for a 2.5-week
+   779→baseline period prior to treatment (five assessments per day: two MSN and three EMA), once
+   780→daily during treatment and for one month following treatment, and an additional three weeks of
+   781→intensive post-treatment assessment (five assessments per day; two MSN), yielding
+   782→approximately two months of follow-up data. Participation included £140 compensation for
+   783→pre- and post-treatment assessments.
+   784→MSN networks were estimated on a weekly basis across pre-, within-, and post-
+   785→treatment periods to examine shifts in causal dynamics between model components over time.
+   786→We computed a network complexity score for each week and tested linear, quadratic and cubic
+   787→trends9 by fitting polynomial regression models of increasing order, to observe their unfolding
+   788→dynamics across time and per phase (baseline, during therapy, and follow-up). We
+   789→hypothesised that as treatment progressed, network complexity would decrease, reflecting
+   790→weaker influence of trauma components on one another. To evaluate temporal weakening or
+   791→strengthening of specific causal relations, we fitted logistic regressions predicting the
+   792→probability of a perceived causal edge conditional on the parent (antecedent) or child
+   793→(outcome) component. Treatment phase, week, and their interaction were included as
+   794→predictors to identify phase-specific week-by-week changes in causal strength. P-values were
+   795→9 Linear, quadratic, and cubic trends test whether change over time follows a straight-line, curved, or
+   796→more complex trajectory, respectively.
+   797→
+   798→adjusted for multiple comparisons within edge with the False Discovery Rate (FDR) correction
+   799→[37].
+   800→Case study: results
+   801→Baseline (pre-treatment) MSN
+   802→The baseline network (Sup. Figure S4) showed high network complexity (0.84), indicating a
+   803→strongly interconnected formulation. The strongest edge was from negative appraisals → sense
+   804→of current threat (W=0.85), followed by triggers → trauma memory (W=0.55), trauma memory →
+   805→sense of current threat (W=0.45), negative appraisals → trauma memory (W=0.40), and trauma
+   806→memory → maladaptive strategies (W=0.34). Clinically, this suggested three treatment targets:
+   807→reducing the influence of negative appraisals on threat, weakening the triggers → memory →
+   808→threat/strategies cascade, and reducing the reciprocal reinforcement between negative
+   809→appraisals and trauma memory.
+   810→Figure 4 shows the MSN structure during the baseline, treatment, and follow-up phases.
+   811→Weekly network depictions are provided in Sup. Figure S5.
+   812→MSN dynamics during treatment
+   813→Network complexity decreased over time (B=-0.02, 95% CI [-0.03, -0.01], p<.0001)10, with
+   814→significant reductions observed during both the therapy phase (B=-0.03, 95% CI [-0.04, -0.01]
+   815→p =.001) and follow-up (B=-0.02, 95% CI [-0.03, -0.01], p<.0001; see Figure 5).
+   816→adj
+   817→The largest and most consistent reductions in perceived causal strength during
+   818→treatment involved pathways from trauma memory to maladaptive strategies and to negative
+   819→appraisals, in alignment with the anticipated effects of the intervention given the baseline
+   820→network. In particular, the influence of trauma memory → maladaptive strategies decreased
+   821→reliably over the course of therapy (OR =0.84, 95% CI [0.76, 0.93], p =.002), indicating
+   822→given parent adj
+   823→that each additional therapy week was associated with an approximately 16% reduction in the
+   824→odds of responding to trauma memories with maladaptive coping strategies. Other dominant
+   825→edges that weakened significantly during treatment included memory → appraisals (OR
+   826→given
+   827→=0.85, 95% CI [0.76, 0.93], p =.005), appraisals → memory (OR =0.90, 95% CI [0.84,
+   828→parent adj given parent
+   829→10 No significant second-order (quadratic) or third-order (cubic) effects were observed beyond the first-
+   830→order (linear) trend, although visual inspection suggested that the observed pattern was better
+   831→characterised as an overall decline than a strictly linear trajectory.
+   832→
+   833→0.96], p =.010), appraisals → strategies (OR =0.93, 95% CI [0.87, 0.98], p =.018),
+   834→adj given parent adj
+   835→memory → threat (OR =0.88, 95% CI [0.79, 0.97], p =.034), and threat → strategies (OR
+   836→given parent adj
+   837→=0.94, 95% CI [0.89, 0.99], p =.041).
+   838→given parent adj
+   839→During the follow-up period, several of these reductions were sustained or decreased
+   840→further. Continued weakening was observed for threat → strategies (OR =0.66, 95% CI
+   841→given parent
+   842→[0.48, 0.80], p =.004), memory → threat (OR =0.67, 95% CI [0.48, 0.81], p =.006),
+   843→adj given child adj
+   844→memory → appraisals (OR =0.52, 95% CI [0.28, 0.76], p =.013), and appraisals →
+   845→given child adj
+   846→strategies (OR =0.53, 95% CI [0.29, 0.77], p =.018), suggesting consolidation of
+   847→given parent adj
+   848→therapeutic change beyond the active treatment phase.
+   849→Importantly, several edges also exhibited significant reductions during the 3-week
+   850→baseline period. As shown in Figure 6, these early decreases were often followed by transient
+   851→increases in perceived causal strength during the initial weeks of treatment, before declining
+   852→again later in therapy. This pattern suggests non-linear change dynamics, potentially reflecting
+   853→early destabilization or increased engagement with trauma-related material prior to sustained
+   854→improvement. Full model estimates for all edges are reported in Sup. Table S1, and weekly
+   855→networks are visualized in Sup. Figure S5.
+   856→
+   857→Baseline (weeks 1−3) | Complexity = 0.84 Treatment (weeks 3−7) | Complexity = 0.84 Treatment (weeks 8−13) | Complexity = 0.77 Treatment (weeks 14−18) | Complexity = 0.65
+   858→0.4 0.77 0.56 0.23
+   859→Trauma Negative Trauma Negative Trauma Negative Trauma Negative
+   860→memory appraisals memory appraisals memory appraisals memory appraisals
+   861→0.29 0.83 0.59 0.11
+   862→0.12 0.08
+   863→0.140.55 0.180.54 0.46 0.49 0.36
+   864→0.45 0.12 0.85 0.83 0.42 0.97 0.63 0.85 0.45 0.64
+   865→0.04 0.03 0.03
+   866→Triggers Triggers Triggers Triggers
+   867→0.24 0.42 0.42 0.31
+   868→Current Current Current Current
+   869→0.34 threat 0.19 0.77 threat 0.7 0.61 threat 0.53 0.24 threat 0.11
+   870→0.12 0.17
+   871→0.25 0.73 0.57 0.31
+   872→Strategies Strategies Strategies Strategies
+   873→Treatment (weeks 19−24) | Complexity = 0.8 Follow−up (weeks 24−27) | Complexity = 0.2 Follow−up (weeks 33−35) | Complexity = 0.41
+   874→0.45
+   875→Trauma Negative Trauma Negative Trauma Negative
+   876→memory appraisals memory appraisals memory 0.28 appraisals
+   877→0.45
+   878→0.250.25 0.27
+   879→0.45 0.94 0.88 0.53 0.83
+   880→Triggers Triggers Triggers
+   881→0.18 0.27 0.52
+   882→Current Current Current
+   883→0.48 threat 0.34 threat threat 0.05
+   884→0.19
+   885→0.39 0.06 0.08
+   886→Strategies Strategies Strategies
+   887→Figure 4. Momentary Structured Networks across baseline, therapy, and follow-up periods from a single client undergoing Trauma-Focused Cognitive Therapy. Weekly MSN are
+   888→shown in Sup. Figure S5. The figure illustrates both overall changes in network complexity over the course of treatment and specific changes in individual edges. Thicker edges
+   889→indicate a higher probability of directional influence.
+   890→
+   891→Figure 5. MSN network complexity across baseline, therapy and follow-up. Network complexity (network density × normalized entropy) decreased gradually during the baseline
+   892→period (teal lines, left of the first dotted line), then increased as treatment commenced (blue lines) and remained elevated for several weeks (purple lines), indicating strong
+   893→interactions between network components. Network complexity declined toward the end of treatment and remained low during follow-up (red lines, right of the final dotted line),
+   894→despite occasional fluctuations, reflecting weaker interactions between components post-treatment. Dotted lines (from left to right) indicate transitions between pre-treatment, first
+   895→week of treatment, treatment period, final week of treatment, and follow-up.
+   896→
+   897→Figure 6. MSN directional edges across baseline, therapy and follow-up, ordered by association strength. The plot shows changes in the strength of specific directional edges over time, reflecting
+   898→shifts in underlying mechanisms. Dotted lines (from left to right) mark transitions between pre-treatment, the first week of treatment, the treatment period, the final week of treatment, and follow-up.
+   899→
+   900→Case study: interim discussion 2
+   901→The case study demonstrates the practical application of MSN within a clinical context. MSN
+   902→was used across three critical treatment phases. First, during pre-treatment assessment, it
+   903→enabled the development of a data-informed clinical formulation and highlighted potential
+   904→treatment targets. Second, MSN was used throughout therapy to track changes in network
+   905→structure and evolving clinical dynamics over time. Finally, post-treatment assessment was
+   906→used to evaluate treatment outcomes and their maintenance. Taken together, MSN provided a
+   907→detailed understanding of clinical processes throughout treatment.
+   908→The MSN revealed substantial changes in the network over time, both in overall network
+   909→complexity and in specific processes. Most notably, we observed reductions in the influence of
+   910→trauma memory and negative appraisals on one another, alongside weaker downstream effects
+   911→on the sense of current threat and maladaptive coping strategies. These changes aligned with
+   912→the therapeutic targets suggested by the baseline formulation networks and support the
+   913→potential utility of MSN for both treatment planning and treatment monitoring.
+   914→One particularly notable finding was that changes in network processes were non-
+   915→linear. During early treatment, overall complexity and several specific associations initially
+   916→strengthened rather than weakened. This pattern aligns with clinical theories of non-linear
+   917→change [38–40], and specifically accounts suggesting that the early stages of treatment may be
+   918→accompanied by temporary increases in distress before improvement occurs [41,42]. Although
+   919→complexity decreased later in treatment, it increased again during mid-treatment, further
+   920→emphasizing the non-linear nature of therapeutic change. Nevertheless, by the end of
+   921→treatment, the network demonstrated lower overall complexity and weaker associations
+   922→between key processes, consistent with clinical improvement.
+   923→This case study illustrates how MSN can be translated from clinical research into
+   924→routine care. One of MSN’s core principles is its ability to generate rich formulation networks
+   925→while minimizing burden. Here, although the client completed MSN assessments twice per day
+   926→(alongside three traditional EMA) during baseline and post-treatment phases, he completed
+   927→assessments only once daily during therapy, which remained sufficient to generate informative
+   928→network structures. This allowed MSN to be implemented across many weeks of treatment,
+   929→providing detailed insight into the therapeutic process. This represents a major advantage
+   930→relative to traditional EMA-based network approaches, suggesting that relatively low-burden
+   931→assessments requiring only a few minutes per day—or any frequency jointly agreed upon by
+   932→clinician and patient/client—may be sufficient to generate clinical formulation networks.
+   933→
+   934→Main discussion
+   935→In this study, we introduce Momentary Structured Networks (MSN), a method for estimating
+   936→perceived causal relations based on personalised data and theory-driven models of
+   937→psychopathology, illustrated here using the psychiatric condition of PTSD and the Ehlers and
+   938→Clark model of the disorder [26]. Using momentary assessments of perceived causal links, MSN
+   939→generates individualised network representations that reflect a person’s case formulation. We
+   940→show that these networks can be estimated with relatively little data, in some cases from only a
+   941→few observations, while remaining rich and interpretable. Across individuals, MSN showed
+   942→substantial complexity and consistent directional patterns that were largely independent of
+   943→sample size, suggesting that meaningful structure can be captured without extensive data
+   944→collection. The approach is also feasible in routine clinical practice, relying on brief repeated
+   945→assessments that can be integrated into routine monitoring. Network saturation analyses
+   946→indicated rapid convergence toward stable network structures, highlighting MSN’s potential
+   947→utility early in treatment, when formulation is most critical. Compared with traditional
+   948→association-based Ising models, MSN recovered most relations identified by those traditional
+   949→methods while also capturing additional structure, resulting in higher overall complexity. A
+   950→clinical case example illustrated how an MSN can be used to track changes over the course of
+   951→treatment and to generate hypotheses about the processes underlying therapeutic gain.
+   952→The advantages and limitations of MSN are best understood in relation to existing
+   953→idiographic approaches, including traditional EMA-based networks and recent developments in
+   954→perceived causal estimation, most notably L-PECAN [18,43] and PREMISE [11]. PREMISE uses
+   955→Bayesian updating to combine prior knowledge with EMA data, but its reliance on patient insight
+   956→while remaining agnostic to theory, alongside its relatively high data demands, may limit clinical
+   957→feasibility. L-PECAN reduces burden by allowing patients to report perceived causal relations
+   958→day to day without explicitly rating association strength [44]. However, its largely agnostic
+   959→structure creates a broad and unconstrained space of possible relations, increasing cognitive
+   960→demands, potentially reducing stability, and limiting personalisation and between-person
+   961→comparison [45–47].
+   962→MSN is designed to address these limitations by combining perceived causal elicitation
+   963→with a theory-constrained, hypothesis-confirming framework. Rather than allowing unrestricted
+   964→enumeration of possible relations, MSN enforces a structured model in which some
+   965→associations are explored bidirectionally when theoretically plausible (e.g., trauma memory ↔
+   966→negative appraisals), while others are queried asymmetrically or only when disconfirmed (e.g.,
+   967→
+   968→triggers → threat). This approach reduces combinatorial complexity while retaining sensitivity to
+   969→individual variation. Anchoring idiographic elicitation in established theory provides an
+   970→important advantage. Models such as Ehlers and Clark are grounded in decades of empirical
+   971→and experimental work and have informed effective treatments, meaning that the relations they
+   972→specify are both likely to be present and clinically relevant for many patients [48,49]. MSN uses
+   973→this structure as a starting point, increasing the probability that reported relations are relevant
+   974→to the specific clinical presentation while still allowing individuals to diverge from model
+   975→predictions by endorsing alternative or disconfirming patterns. Although illustrated here using
+   976→the Ehlers and Clark model, MSN is not tied to a specific theory and can be adapted to other
+   977→frameworks by changing the components and queries.
+   978→The case study illustrates the value of this approach in clinical care and treatment. MSN
+   979→was able to track how specific relations changed over the course of therapy, showing which
+   980→links weakened, which remained stable, and how the overall structure shifted with treatment.
+   981→This makes it possible to move beyond symptom change and instead examine the processes
+   982→driving improvement, generating hypotheses about what mechanisms are being targeted and
+   983→when. Notably, even with one daily assessment, MSN remained interpretable, suggesting it can
+   984→be implemented in routine care without placing excessive burden on patients.
+   985→Limitations
+   986→Several limitations should be considered. First, MSN is theory-grounded, and structuring
+   987→elicitation around a specific model deliberately restricts the range of possible relations and
+   988→privileges theory-consistent pathways over alternative explanations [46]. While this improves
+   989→interpretability and reduces noise, it limits exploratory discovery. That is especially true for
+   990→participants with comorbidity (e.g., PTSD and depression), where multiple interacting
+   991→processes may require combining models across disorders or using transdiagnostic
+   992→frameworks. That said, MSN can be adapted to test competing theories, and, critically, patients
+   993→can always endorse relations that diverge from model predictions.
+   994→Second, MSN captures perceived causal relations rather than causal mechanisms in
+   995→the formal sense. As emphasized in causal inference frameworks [50], causal claims require
+   996→assumptions and interventions beyond observational data. Moreover, estimated relations
+   997→reflect momentary perceived influence rather than time-lagged dynamics. MSN should
+   998→therefore be understood as capturing potential explanatory structures relevant to case
+   999→formulation, rather than providing definitive causal inference. In addition, personalised items
+  1000→
+  1001→were fixed following the initial formulation phase, limiting the introduction of new components,
+  1002→or even new aspects of measured constructs (e.g., new triggers), as therapy progressed.
+  1003→Third, although the shared theoretical structure supports group-level analyses and
+  1004→allows quantifying shared mechanisms (such as the percentage of participants presenting a
+  1005→strong edge or a central component), MSN remains idiographic, and between-person
+  1006→comparisons should be interpreted cautiously.
+  1007→Finally, while we demonstrate MSN’s added value over association-based network
+  1008→methods like Ising models, the comparison itself has limitations. Ising models may partly
+  1009→reflect symptom severity rather than true co-variation [51], which should be considered when
+  1010→interpreting differences between approaches.
+  1011→Future directions
+  1012→Future work should address these limitations by incorporating competing theoretical models or
+  1013→extending the framework to transdiagnostic approaches [52], thereby enabling within- and
+  1014→between-person comparisons of alternative explanatory frameworks and direct tests of theory-
+  1015→driven versus exploratory elicitation strategies. Another possibility is to create a dataset of
+  1016→which causal relations are likely or unlikely between a given set of symptoms or pathological
+  1017→processes a specific patient presents with, across traditional diagnostic categories or disorder
+  1018→models [53]. Beyond PTSD, MSN should be extended to other conditions and theoretical
+  1019→frameworks to evaluate its generalisability and clinical utility. Greater flexibility could be
+  1020→introduced by allowing dynamic updating of items as treatment progresses. Integration with
+  1021→conversational agents based on large language models (LLMs) may further enhance MSN by
+  1022→enabling flexible identification of formulation components and causal pathways from
+  1023→naturalistic dialogue. Rather than relying on fixed EMA items, open-ended prompts could be
+  1024→used and subsequently structured using AI annotation. While current applications of LLM in
+  1025→mental health research have focused primarily on diagnosis and intervention [54,55], their use
+  1026→in supporting case formulation represents a largely unexplored and potentially impactful
+  1027→direction. Most importantly, future work should evaluate whether MSN and similar frameworks
+  1028→improve treatment outcomes, inform clinical decision-making, support more appropriate levels
+  1029→of care, and ultimately increase the efficiency of mental health services.
+  1030→Conclusion
+  1031→Momentary Structured Networks provide a novel framework for probing perceived causal
+  1032→relations in real time. By constraining elicitation to theoretically plausible pathways, MSN
+  1033→
+  1034→reduces data demands and exploratory overload, yielding stable networks with interpretable
+  1035→directional structure even from limited data. At the same time, MSN preserves sensitivity to
+  1036→individual differences, allowing a variety of associations to emerge. Despite remaining
+  1037→limitations, MSN offer a promising approach for Momentary Estimation of Structural Symptom
+  1038→Interactions, assessing therapeutic change, and for formalising case formulation in a data-
+  1039→informed and feasible manner.
+  1040→
+  1041→Contributors
+  1042→All authors contributed to, reviewed, and approved the final manuscript.
+  1043→Conceptualization: NH-P
+  1044→Data curation: NH-P
+  1045→Formal analysis: NH-P
+  1046→Funding acquisition: NH-P, AL, JP, TD
+  1047→Investigation: NH-P, GB, SH, AL, AP, JP
+  1048→Methodology: NH-P
+  1049→Project administration: NH-P
+  1050→Resources: NH-P, GB, AL, TD, AB
+  1051→Software: NH-P
+  1052→Supervision: TD, AB
+  1053→Visualization: NH-P
+  1054→Writing – original draft: NH-P
+  1055→Writing – review & editing: GB, OVE, LK, AL, TD, AB
+  1056→Funding
+  1057→Nimrod Hertz-Palmor is supported by the Gates Cambridge Trust (#OPP1144). Tim Dalgleish
+  1058→and Anna Bevan were supported by the UK MRC (MC_UU_00030/5) and by the National Institute
+  1059→of Health Research (NIHR) UK (PB-PG-0214-33072). Tim Dalgleish was supported by the
+  1060→Wellcome Trust (104908/Z/14/Z, 107496/Z/15/Z). Recruitment at the Sheba Medical Centre was
+  1061→funded by Sheba’s Innovation Authority. The funding sources had no role in the study design,
+  1062→collection, analysis, or interpretation of data, the writing of the article, or decision to submit the
+  1063→article for publication.
+  1064→Availability of data and materials
+  1065→The datasets and analysis codes for the current study are openly available on Open Science
+  1066→Foundation (OSF):
+  1067→https://osf.io/hjuca/overview?view_only=b9d577f8fdc64efa9e823940fe7e2b59
+  1068→Ethics statement
+  1069→Ethical approvals were granted by the University of Cambridge (PRE.2024.019), Tel Aviv
+  1070→University (0007074-2), and Sheba Medical Centre (1666-24-SMC).
+  1071→Conflict of interest
+  1072→The authors have no conflicts of interest to declare
+  1073→
+  1074→Acknowledgments
+  1075→We thank Dr. Sharif El-Leithy, Dr. Maria Mateen, Shany Yaron, Shahar Vernia, Sonia Leshenko,
+  1076→and Shani Lavi for their assistance with participant recruitment and data collection. We also
+  1077→thank Rachel Sarfraz for her contribution to securing research funding. Most importantly, we
+  1078→thank our participants for investing their time and energy in the study and for their contribution
+  1079→to advancing PTSD research.
+  1080→
+  1081→References
+  1082→1 Critchfield KL, Gazzillo F, Kramer U. Case formulation of interpersonal patterns and its
+  1083→impact on the therapeutic process: Introduction to the issue. Journal of clinical psychology.
+  1084→2022;78(3):379–85.
+  1085→2 Kuyken W, Padesky CA, Dudley R. Collaborative case conceptualization: Working
+  1086→effectively with clients in cognitive-behavioral therapy. Guilford Press; 2011.
+  1087→3 Persons JB. The case formulation approach to cognitive-behavior therapy. Guilford Press;
+  1088→2012.
+  1089→4 Betan EJ, Binder JL. Clinical expertise in psychotherapy: How expert therapists use theory in
+  1090→generating case conceptualizations and interventions. Journal of Contemporary
+  1091→Psychotherapy. 2010;40(3):141–52.
+  1092→5 van Os J, Guloksuz S, Vijn TW, Hafkenscheid A, Delespaul P. The evidence-based group-
+  1093→level symptom-reduction model as the organizing principle for mental health care: time for
+  1094→change? World Psychiatry. 2019;18(1):88–96.
+  1095→6 Wilshire CE, Ward T, Clack S. Symptom descriptions in psychopathology: How well are they
+  1096→working for us? Clinical Psychological Science. 2021;9(3):323–39.
+  1097→7 Krause M, Behn A. Case formulation as a bridge between theory, clinical practice, and
+  1098→research: A commentary. Journal of clinical psychology. 2022;78(3):454–61.
+  1099→8 Borsboom D, Haslbeck JM, Robinaugh DJ. Systems-based approaches to mental disorders
+  1100→are the only game in town. World Psychiatry. 2022;21(3):420.
+  1101→9 Roefs A, Fried EI, Kindt M, Martijn C, Elzinga B, Evers AW, et al. A new science of mental
+  1102→disorders: Using personalised, transdiagnostic, dynamical systems to understand, model,
+  1103→diagnose and treat psychopathology. Behaviour Research and Therapy. 2022;153:104096.
+  1104→10 Andreoli G, Rafanelli C, Hofmann SG, Casu G. A Systematic Scoping Review of Fully
+  1105→Idiographic Network Analysis in Mental Health. Cogn Ther Res. 2025 Oct DOI:
+  1106→10.1007/s10608-025-10674-2
+  1107→11 Burger J, Epskamp S, van der Veen DC, Dablander F, Schoevers RA, Fried EI, et al. A clinical
+  1108→PREMISE for personalized models: Toward a formal integration of case formulations and
+  1109→statistical networks. Journal of Psychopathology and Clinical Science. 2022
+  1110→Nov;131(8):906–16.
+  1111→12 Fisher AJ, Reeves JW, Lawyer G, Medaglia JD, Rubel JA. Exploring the idiographic dynamics
+  1112→of mood and anxiety via network analysis. Journal of abnormal psychology.
+  1113→2017;126(8):1044.
+  1114→13 Mansueto AC, Wiers RW, van Weert J, Schouten BC, Epskamp S. Investigating the feasibility
+  1115→of idiographic network models. Psychological methods. 2022
+  1116→14 Tate AD, Fertig AR, de Brito JN, Ellis ÉM, Carr CP, Trofholz A, et al. Momentary factors and
+  1117→study characteristics associated with participant burden and protocol adherence:
+  1118→Ecological momentary assessment. JMIR formative research. 2024;8(1):e49512.
+  1119→
+  1120→15 McNally RJ. Network analysis of psychopathology: controversies and challenges. Annual
+  1121→review of clinical psychology. 2021;17(1):31–53.
+  1122→16 Trull TJ, Lane SP, Koval P, Ebner-Priemer UW. Affective dynamics in psychopathology.
+  1123→Emotion Review. 2015;7(4):355–61.
+  1124→17 Wen Z, Ma P, Meng J, Wang Y. Distinguishing between causality, influence, correlation, and
+  1125→prediction. Acta Psychologica Sinica. 2025;57(6):1108–18.
+  1126→18 Burger J, Andikkhash V, Jäger N, Anderbro T, Blanken TF, Klintwall L. A novel approach for
+  1127→constructing personalized networks from longitudinal perceived causal relations.
+  1128→Behaviour Research and Therapy. 2024;173:104456.
+  1129→19 Klintwall L, Bellander M, Cervin M. Perceived causal problem networks: reliability, central
+  1130→problems, and clinical utility for depression. Assessment. 2023;30(1):73–83.
+  1131→20 Blanchette I, Giroux S-V. Reasoning, Trauma, and PTSD: Insights into emotion–cognition
+  1132→interactions. Psychopathology and Philosophy of Mind. Routledge; 2021; pp 55–74.
+  1133→21 Harik JM, Matteo RA, Hermann BA, Hamblen JL. What people with PTSD symptoms do (and
+  1134→do not) know about PTSD: A national survey. Depression and Anxiety. 2017;34(4):374–82.
+  1135→22 Leech K, Stapleton P, Patching A. A roadmap to understanding interoceptive awareness and
+  1136→post-traumatic stress disorder: a scoping review. Frontiers in Psychiatry. 2024;15:1355442.
+  1137→23 van Genugten CR, Schuurmans J, Lamers F, Riese H, Penninx BW, Schoevers RA, et al.
+  1138→Experienced burden of and adherence to smartphone-based ecological momentary
+  1139→assessment in persons with affective disorders. Journal of clinical medicine. 2020;9(2):322.
+  1140→24 Hertz-Palmor N, Podgorski A, Brown G, Lazarov A, Porat J, Yaron S, et al. Quantifying
+  1141→Clinical Case Formulation: Person-Specific Dynamic Network Modelling of Posttraumatic
+  1142→Stress Disorder (PTSD). 2025 DOI: https://doi.org/10.31234/osf.io/p7asx_v1
+  1143→25 Blomfield E, Hertz N, El Leithy S, Dalgleish T, Bevan A, Brown G. Mapping Post-Traumatic
+  1144→Stress Disorder: A Proof of Concept for Network-Based Case Formulation. 2025Available
+  1145→from: https://osf.io/preprints/psyarxiv/2bevk_v1
+  1146→26 Ehlers A, Clark DM. A cognitive model of posttraumatic stress disorder. Behaviour research
+  1147→and therapy. 2000;38(4):319–45.
+  1148→27 Ising E. Beitrag zur theorie des ferromagnetismus. Zeitschrift für Physik. 1925;31(1):253–8.
+  1149→28 Marsman M, Borsboom D, Kruis J, Epskamp S, van Bork R van, Waldorp LJ, et al. An
+  1150→introduction to network psychometrics: Relating Ising network models to item response
+  1151→theory models. Multivariate behavioral research. 2018;53(1):15–35.
+  1152→29 Ehlers A, Clark DM, Hackmann A, McManus F, Fennell M. Cognitive therapy for post-
+  1153→traumatic stress disorder: development and evaluation. Behaviour research and therapy.
+  1154→2005;43(4):413–31.
+  1155→30 Foa EB, Ehlers A, Clark DM, Tolin DF, Orsillo SM. The posttraumatic cognitions inventory
+  1156→(PTCI): Development and validation. Psychological assessment. 1999;11(3):303.
+  1157→
+  1158→31 Meiser-Stedman R, Smith P, Yule W, Dalgleish T. The trauma memory quality questionnaire:
+  1159→Preliminary development and validation of a measure of trauma memory characteristics for
+  1160→children and adolescents. Memory. 2007 Apr;15(3):271–9.
+  1161→32 Blevins CA, Weathers FW, Davis MT, Witte TK, Domino JL. The Posttraumatic Stress
+  1162→Disorder Checklist for DSM-5 ( PCL-5 ): Development and Initial Psychometric Evaluation.
+  1163→2015;5(December):489–98.
+  1164→33 Mestdagh M, Verdonck S, Piot M, Niemeijer K, Kuppens P, Dejonckheere E. m-Path: An
+  1165→easy-to-use and flexible platform for ecological momentary assessment and intervention in
+  1166→behavioral research and clinical practice. 2022
+  1167→34 van Borkulo C, Epskamp S, van Borkulo MC. Package ‘IsingFit.’ Published online. 2016;1–6.
+  1168→35 R Core Team R. R: A language and environment for statistical computing. 2013
+  1169→36 Lewis D. Counterfactual dependence and time’s arrow. Noûs. 1979;455–76.
+  1170→37 Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful
+  1171→approach to multiple testing. Journal of the Royal statistical society: series B
+  1172→(Methodological). 1995;57(1):289–300.
+  1173→38 Andrews LA, Hayes AM, Abel A, Kuyken W. Sudden gains and patterns of symptom change
+  1174→in cognitive–behavioral therapy for treatment-resistant depression. Journal of Consulting
+  1175→and Clinical Psychology. 2020;88(2):106.
+  1176→39 Hayes AM, Laurenceau J-P, Feldman G, Strauss JL, Cardaciotto L. Change is not always
+  1177→linear: The study of nonlinear and discontinuous patterns of change in psychotherapy.
+  1178→Clinical psychology review. 2007;27(6):715–23.
+  1179→40 Helmich MA, Wichers M, Olthof M, Strunk G, Aas B, Aichhorn W, et al. Sudden gains in day-
+  1180→to-day change: Revealing nonlinear patterns of individual improvement in depression.
+  1181→Journal of Consulting and Clinical Psychology. 2020;88(2):119.
+  1182→41 Flückiger C, Grosse Holtforth M, Znoj HJ, Caspar F, Wampold BE. Is the relation between
+  1183→early post-session reports and treatment outcome an epiphenomenon of intake distress
+  1184→and early response? A multi-predictor analysis in outpatient psychotherapy. Psychotherapy
+  1185→Research. 2013;23(1):1–13.
+  1186→42 Owen J, Adelson J, Budge S, Wampold B, Kopta M, Minami T, et al. Trajectories of change in
+  1187→psychotherapy. Journal of clinical psychology. 2015;71(9):817–27.
+  1188→43 Vogel F, Blanken TF, Burger J, Reichert J, Scholten S, Klintwall L. How perceived causal
+  1189→networks can complement case conceptualization, diagnostic classification, and data-
+  1190→based networks: An introduction to a method for constructing personalized networks.
+  1191→Journal of Psychopathology and Clinical Science. 2025
+  1192→44 Colombo D, Suso-Ribera C, Fernández-Álvarez J, Cipresso P, Garcia-Palacios A, Riva G, et
+  1193→al. Affect recall bias: Being resilient by distorting reality. Cognitive Therapy and Research.
+  1194→2020;44(5):906–18.
+  1195→
+  1196→45 Fritz J, Piccirillo ML, Cohen ZD, Frumkin M, Kirtley O, Moeller J, et al. So you want to do
+  1197→ESM? 10 essential topics for implementing the experience-sampling method. Advances in
+  1198→Methods and Practices in Psychological Science. 2024;7(3):25152459241267912.
+  1199→46 Kinney D, Lombrozo T. Evaluations of causal claims reflect a trade-off between
+  1200→informativeness and compression. 2022.
+  1201→47 Robinson OC. The idiographic/nomothetic dichotomy: Tracing historical origins of
+  1202→contemporary confusions. History & Philosophy of Psychology. 2011;13(2):32–9.
+  1203→48 Blekic W, D’Hondt F, Shalev AY, Schultebraucks K. A systematic review of machine learning
+  1204→findings in PTSD and their relationships with theoretical models. Nat Mental Health. 2025
+  1205→Jan;3(1):139–58.
+  1206→49 Dalgleish T. Cognitive approaches to posttraumatic stress disorder: the evolution of
+  1207→multirepresentational theorizing. Psychological bulletin. 2004;130(2):228.
+  1208→50 Pearl J. Causal inference in statistics: An overview. 2009
+  1209→51 Hoekstra RH, de Ron J, Epskamp S, Robinaugh DJ, Borsboom D. Mapping the dynamics of
+  1210→idiographic network models to the network theory of psychopathology. Behavior Research
+  1211→Methods. 2026;58(5):130.
+  1212→52 Barlow DH, Allen LB, Choate ML. Toward a unified treatment for emotional disorders.
+  1213→Behavior Therapy. 2004;35(2):205–30.
+  1214→53 Bellander M, Toftgård1 A, Wedberg R, Deserno MK, Klintwall L. Integrating Expert
+  1215→Expectations and Patient Perceptions in Case Conceptualizations. Under review
+  1216→54 Na H, Hua Y, Wang Z, Shen T, Yu B, Wang L, et al. A survey of large language models in
+  1217→psychotherapy: Current landscape and future directions. arXiv preprint arXiv:250211095.
+  1218→2025
+  1219→55 Omar M, Soffer S, Charney AW, Landi I, Nadkarni GN, Klang E. Applications of large
+  1220→language models in psychiatry: a systematic review. Frontiers in psychiatry.
+  1221→2024;15:1422807.
+  1222→
+  1223→

@@ -1,0 +1,867 @@
+     1→1
+     2→When Beliefs Resist Change: Belief Updating as a Mechanism in
+     3→Posttraumatic Stress
+     4→Katharina Grün1, Tanja Michael1, Edith Friesen1, Tobias Kube2,3, Sandra
+     5→Dörrenbächer1 & M. Roxanne Sopp1*
+     6→1 Division of Clinical Psychology and Psychotherapy, Saarland University, Saarbrücken,
+     7→Germany
+     8→2 Department of Clinical Psychology and Psychotherapy, RPTU University of
+     9→Kaiserslautern-Landau, Landau, Germany
+    10→³ Department of Clinical Psychology and Experimental Psychopathology, Goethe–
+    11→University of Frankfurt, Frankfurt am Main, Germany
+    12→Correspondence concerning this article should be addressed to
+    13→Dr. M. Roxanne Sopp, Division of Clinical Psychology and Psychotherapy, Department of
+    14→Psychology, Campus A1 3, Saarland University, Saarbrücken, D-66123,
+    15→Email: roxanne.sopp@uni-saarland.de, Phone: +49681 302-71035
+    16→1
+    17→
+    18→2
+    19→Abstract
+    20→Objective: Although the phenomenology of PTSD has been well documented, its underlying
+    21→mechanisms remain only partially understood. Predictive processing accounts propose that
+    22→danger-related beliefs formed during trauma may become resistant to change, thereby
+    23→maintaining a sense of threat and contributing to PTSD symptoms even in objectively safe
+    24→environments. The present experimental study examined the influence of a trauma-analogue
+    25→stressor on updating of danger-related expectations and its association with analogue intrusive
+    26→memories and resilience factors.
+    27→Method: Healthy participants (N = 129) were randomly assigned to watch either a trauma
+    28→film or a neutral control film. Belief updating was assessed using a trauma-adapted Bias
+    29→Against Disconfirmatory Evidence (TR-BADE) task. Analogue PTSD symptoms were
+    30→measured via an intrusion diary. In exploratory analyses, we decomposed the preregistered
+    31→TR-BADE score into Negative Interpretation Bias (NIB) and Inflexible Interpretation
+    32→Updating (IIU).
+    33→Results:
+    34→Contrary to the preregistered hypothesis, the trauma and neutral film groups did not differ in
+    35→TR-BADE scores, NIB, or IIU. Within the trauma-film group, higher TR-BADE scores were
+    36→positively associated with diary intrusions. NIB, but not IIU, predicted diary intrusions and
+    37→was associated with lower Sense of Coherence (SoC). Mediation analyses further showed a
+    38→significant indirect effect of SoC on diary intrusions via NIB.
+    39→Conclusions:
+    40→The results suggest that it is not the belief updating process per se that is involved in the
+    41→formation of intrusive memories, but rather the extent to which negative, danger-related
+    42→expectations form in the first place. Developing such expectations may mediate the link
+    43→between SoC and analogue intrusive memories.
+    44→Keywords: analogue trauma, belief updating, negative interpretation bias, predictive
+    45→processing, posttraumatic stress disorder symptoms
+    46→2
+    47→
+    48→3
+    49→Exposure to potentially traumatic events is common across the globe (Kessler et al.,
+    50→2017). In the World Mental Health Survey, 70.4% of respondents indicated that they had
+    51→experienced at least one traumatic event during their lifetime (e.g. unexpected death of a
+    52→loved one, witnessing death or serious injuries; Benjet et al., 2016). Surveys show that
+    53→although exposure to potentially traumatic events is common, only a minority of individuals
+    54→develop posttraumatic stress disorder (PTSD; Koenen et al., 2017; Santiago et al., 2013).
+    55→According to DSM-5, PTSD is characterized by re-experiencing symptoms such as intrusive
+    56→memories, flashbacks, or nightmares (American Psychiatric Association, 2013). These
+    57→intrusions typically consist of vivid sensory and emotional fragments of the trauma that arise
+    58→spontaneously and can be triggered by internal or external stimuli, often outside of conscious
+    59→control (Brewin, 2015; Krans et al., 2009a). In addition, the disorder is characterized by
+    60→persistent avoidance of trauma-related thoughts, feelings, or reminders. The symptom profile
+    61→further comprises negative alterations in cognition and mood (e.g., distorted beliefs,
+    62→detachment, loss of positive affect) as well as hyperarousal and reactivity (e.g., irritability,
+    63→hypervigilance, sleep disturbances; American Psychiatric Association, 2013; Ehlers & Clark,
+    64→2000; Weston, 2014).
+    65→Although the phenomenology of PTSD has been well documented, its underlying
+    66→mechanisms remain only partially understood. The fact that not all individuals exposed to
+    67→traumatic events develop PTSD symptoms raises the question of interindividual differences in
+    68→vulnerability, suggesting that risk is determined not only by the trauma itself but also by how
+    69→it is cognitively and perceptually processed afterwards (Brewin, 2014; Ehlers & Clark, 2000).
+    70→Building on this perspective, recent theoretical approaches propose that trauma-related beliefs
+    71→play a central role in the development and maintenance of PTSD (Kube et al., 2020;
+    72→Wilkinson et al., 2017). Predictive processing has emerged as a popular theory in
+    73→neuroscience, proposing that the human brain functions as an inference machine that
+    74→continuously generates situation-specific expectations and updates these when confronted
+    75→3
+    76→
+    77→4
+    78→with new information (Clark, 2013; Friston, 2005, 2010). Expectations are formed on the
+    79→basis of internal models - referred to as beliefs - which are in turn shaped by prior
+    80→experiences. The information processing can be described as a hierarchical exchange between
+    81→belief-based predictions and incoming sensory input. While higher levels of the hierarchy
+    82→encode predictions derived from the current belief system, lower levels convey the actual
+    83→sensory information arriving from the environment (Mesulam, 2008). This comparison allows
+    84→the brain to detect mismatches between what was expected and what was perceived. These
+    85→mismatches are referred to as prediction errors (Friston, 2010; Kube et al., 2020). Prediction
+    86→errors play a crucial role in maintaining an accurate and adaptive internal belief system. When
+    87→a prediction error occurs, it serves as feedback, signaling that the current model may need
+    88→adjustment. Through this process, the brain continuously updates its predictions, enabling
+    89→flexible learning and perception. However, not all prediction errors are treated equally: Their
+    90→impact on updating depends on precision, which represents the estimated reliability or
+    91→confidence assigned to either the prediction or the sensory evidence (O’Reilly et al., 2012;
+    92→Paulus et al., 2019). If the precision of the sensory input is high, the internal model is readily
+    93→adjusted in light of new information. Conversely, when prior beliefs are assigned excessive
+    94→precision, incoming evidence is discounted, and the brain continues to rely on outdated or
+    95→inaccurate expectations (Corlett et al., 2020).
+    96→The predictive processing framework has recently been used to explain how PTSD
+    97→symptoms may emerge after a potentially traumatic event (Kube et al., 2020; Wilkinson et al.,
+    98→2017). The central assumption of these accounts is that traumatic events result in the encoding
+    99→of danger-related hypotheses with very high precision. High precision is assumed to result
+   100→since trauma-related beliefs are formed in life-threatening contexts, making them highly
+   101→salient and existentially important and therefore more resistant to change. Consequently, even
+   102→when individuals are later confronted with neutral or safe environments, these experiences are
+   103→not weighted strongly enough to correct preexisting danger-related hypotheses. As a
+   104→4
+   105→
+   106→5
+   107→consequence, prediction errors that could signal safety are effectively ignored, preventing
+   108→successful updating and leading the individual to persistently perceive the environment as
+   109→threatening (Linson & Friston, 2019). This distorted weighting of precision and the
+   110→persistence of trauma-related beliefs may explain the development of PTSD symptoms such
+   111→as hypervigilance, avoidance, and intrusive re-experiencing (Brewin, 2014; Ehlers & Clark,
+   112→2000). Therefore, Kube et al. (2020) conceptualize PTSD as a disorder of disrupted belief
+   113→updating within a predictive processing framework. In this conceptualization, it is not
+   114→regarded as central that people hold negative beliefs after trauma, but that these beliefs are
+   115→unusually rigid and insufficiently updated when new information becomes available. This idea
+   116→raises the question whether individuals who are able to adjust danger-related beliefs in light of
+   117→disconfirmatory, safety-related information are less likely to develop PTSD symptoms than
+   118→those whose beliefs remain stable despite such evidence (Kube et al., 2020).
+   119→Empirical studies examining this question still remain limited. Sachschal et al. (2019)
+   120→investigated how people with PTSD and a non-traumatized control group changed their
+   121→impressions of strangers when they received positive versus negative information. Participants
+   122→with PTSD were more inclined to revise their beliefs downward after negative feedback than
+   123→to adjust them upward after positive feedback, whereas controls updated in a more balanced
+   124→way. In a scenario-based study using the Trauma-related Bias Against Disconfirmatory
+   125→Evidence (TR-BADE) paradigm, Haim-Nachum et al. (2024) asked participants with and
+   126→without previous exposure to potentially traumatic events to imagine ambiguous situations
+   127→that developed either towards a safe or dangerous ending. As the scenarios unfolded,
+   128→participants repeatedly rated how plausible danger-related and neutral interpretations
+   129→appeared. In both disconfirming-danger and disconfirming-safety scenario types, higher
+   130→PTSD symptoms predicted reduced updating, whereas trauma exposure itself did not predict
+   131→updating, even in the larger combined sample. Extending this line of research, Sopp et al.
+   132→(2025) adapted the TR-BADE paradigm with a large sample of high-risk professionals and
+   133→5
+   134→
+   135→6
+   136→demonstrated that cumulative trauma exposure did not relate to interpretation updating, but
+   137→that both negative interpretation bias and inflexible interpretation updating predicted PTSD
+   138→symptom severity. Inflexible interpretation updating further moderated the association
+   139→between trauma exposure and PTSD symptoms. Overall, these cross-sectional studies suggest
+   140→that danger-related interpretations are more closely linked to PTSD symptom expression than
+   141→to trauma exposure itself. The role of less flexible updating may be particularly relevant under
+   142→conditions of repeated exposure. Haim-Nachum et al. (2024) explicitly noted that their cross-
+   143→sectional design precludes causal inferences regarding whether altered belief updating
+   144→contributes to PTSD symptom severity or instead reflects a consequence of symptoms, and
+   145→they therefore called for prospective research. A similar limitation applies to Sopp et al.
+   146→(2025) where the correlational design did not allow conclusions about the temporal ordering
+   147→of updating inflexibility and PTSD symptoms, nor about whether updating can be altered by
+   148→trauma-related stressors. To address these gaps, the present study was designed to extend the
+   149→literature in an experimental analogue-trauma setting. Using the trauma film paradigm, we
+   150→induced short-term trauma analogue reactions in healthy participants and assessed the
+   151→following day how they updated danger-related interpretations in a trauma-adapted (TR-)
+   152→BADE task that closely matched the film content. In a control group, participants viewed a
+   153→matched neutral film compilation depicting comparable settings and thematic contexts but
+   154→without traumatic content.
+   155→Our primary aim was to examine the prospective influence of exposure to a trauma
+   156→analogue stressor on updating danger-related expectations, and its association with analogue
+   157→intrusive memories and PTSD symptoms. Specifically, we hypothesized that (H1) exposure to
+   158→the trauma film (vs. a neutral control film) would reduce updating of danger-related
+   159→expectations, and that (H2) within the trauma-film group, the extent of updating would be
+   160→associated with the intensity of analogue intrusive memories.
+   161→6
+   162→
+   163→7
+   164→Building on the framework that emphasizes not only insufficient updating of danger-
+   165→related beliefs in the face of disconfirmatory evidence but also the tendency to endorse
+   166→negative interpretations in the first place, we further conducted exploratory analyses targeting
+   167→these two components more directly. Specifically, we decomposed the preregistered TR-
+   168→BADE score into two distinct components: Negative Interpretation Bias (NIB), reflecting the
+   169→initial tendency to favor danger-related interpretations, and Inflexible Interpretation Updating
+   170→(IIU), reflecting the failure to update these interpretations in light of disconfirmatory
+   171→information. Building on this rationale, we explored whether these components of danger-
+   172→related interpretation processing related to analogue PTSD-symptoms/intrusive memories.
+   173→Finally, to strengthen the theoretical integration of the predictive processing
+   174→framework with resilience research, we explored whether individual differences in NIB and
+   175→IIU are associated with established resilience factors (trait resilience, Sense of Coherence,
+   176→Locus of Control) and, in turn, with analogue intrusive memories. More specifically, we
+   177→examined whether a bias toward danger-related interpretations and their revision in light of
+   178→disconfirmatory evidence may represent a proximal resilience mechanism that helps explain
+   179→how broader resilience-related resources translate into symptom outcomes. This aligns with
+   180→resilience frameworks (Kalisch et al., 2015) proposing that protective factors exert their
+   181→effects via shared proximal cognitive mechanisms (e.g., appraisal tendencies shaping the
+   182→interpretation of stress-related information). To this end, we examined associations between
+   183→well-established resilience factors with danger-related interpretation bias and inflexible
+   184→interpretation updating and explored whether these processes mediate the link between
+   185→resilience resources and analogue intrusive memories following trauma.
+   186→Methods
+   187→Ethics
+   188→7
+   189→
+   190→8
+   191→The present research was approved by the Saarland University Review Board (# 22-
+   192→01) and was conducted in accordance with ethical standards as laid down in the 1964
+   193→Declaration of Helsinki and its later amendments. All participants gave written informed
+   194→consent and were treated in accordance with the ethical guidelines of the German
+   195→Psychological Society. The study was pre-registered in August 2023 (Pre-registered on
+   196→https://aspredicted.org/5X3_NS5).
+   197→Participants
+   198→Of the 156 individuals initially recruited, 27 were excluded due to dropout, incomplete
+   199→data or implausible response patterns in the TR-BADE task. Prior to computing outcome
+   200→indices, data quality was examined. Participants were excluded if more than 20% of TR-
+   201→BADE data were missing or if they rated the absurd interpretation as most plausible in more
+   202→than 50% of scenarios. The final sample comprised 129 participants: 82 of them (63.6%)
+   203→identified as female, 47 as male (36.4%) and none as diverse. On average, participants were
+   204→22.74 years old (SD = 3.40) ranging from 18 to 33 years. Participants were recruited at a
+   205→university. Eligible participants were between 18 and 35 years old and had sufficient German
+   206→skills. Interested individuals were excluded from participation if they had experienced
+   207→psychotic symptoms within the past 24 months, reported a history of interpersonal trauma or
+   208→self-harming behavior, or suicidal ideation within the past two weeks. Regular consumption
+   209→of extreme film or pornography subgenres (splatter, gore, torture, rape-and-revenge) also
+   210→resulted in study exclusion, because habitual exposure to such material may reduce sensitivity
+   211→to the trauma films. One participant in the trauma group was identified as an extreme outlier
+   212→on intrusion outcomes and was therefore excluded from analyses involving intrusive
+   213→memories only. For the mixed-design ANOVA of state anxiety, one additional participant had
+   214→missing post-film data and was excluded listwise from the analysis.
+   215→Procedure
+   216→Data collection took place between January 2023 and March 2024. Interested individuals first
+   217→8
+   218→
+   219→9
+   220→completed an online screening questionnaire to determine eligibility. The screening assessed
+   221→exclusion criteria including personal exposure to traumatic experiences, psychotic symptoms
+   222→or a diagnosis of psychosis, psychotic or schizoaffective disorder within the past 24 months,
+   223→suicidal ideation within the past two weeks, and previous intentional self-harm. It also
+   224→assessed frequent viewing of highly graphic or extreme media content, including splatter,
+   225→gore, torture porn, and rape-and-revenge material. Eligible participants were informed via
+   226→email, scheduled for a laboratory appointment, and asked to complete an online baseline
+   227→questionnaire beforehand.
+   228→On day 1, participants attended a 30-minute laboratory session in which they viewed a 20-
+   229→minute film corresponding to their randomized group assignment (trauma vs. neutral). State
+   230→anxiety was assessed immediately before and after film exposure. Following the film,
+   231→participants rated the familiarity of the sequences, recognition of film or actors, and perceived
+   232→distress and physiological arousal (4-point scales ranging from “not at all” to “very much”).
+   233→Participants were then provided with an intrusion diary. For the neutral condition, the diary
+   234→covered intrusive memories only immediately after film presentation (Day 1 and 2), whereas
+   235→participants in the trauma condition were instructed to document intrusions over the following
+   236→six days.
+   237→On Day 2, all participants received a link to complete the TR-BADE task online (~20
+   238→minutes). On Day 6, the trauma group returned to the laboratory for the Intrusion Provocation
+   239→Task (IPT; ~10 minutes). All participants received €25 or course credit as compensation.
+   240→Figure 1
+   241→Illustration of the Study Timeline and Assessment Schedule
+   242→9
+   243→
+   244→10
+   245→Note. Day 0 denotes baseline assessment. On Day 1, participants viewed either the trauma or
+   246→the neutral film. In the trauma-film condition, the intrusion diary was completed daily from
+   247→Day 1 to Day 6 and the Intrusion Provocation Task (IPT) was administered on Day 6. In the
+   248→neutral-film condition, the intrusion diary was completed on Day 1 and Day 2 only. On Day 2,
+   249→all participants completed the TR-BADE task online. TR-BADE = Trauma-Related Bias
+   250→Against Disconfirmatory Evidence; IPT = Intrusion Provocation Task.
+   251→Film presentation
+   252→In order to investigate how exposure to trauma influences belief updating, we used the
+   253→Trauma-Film Paradigm (TFP). This procedure involves presenting participants with a
+   254→compilation of highly distressing film scenes, which reliably induces analogue trauma
+   255→responses. Such responses typically include short-term increases in negative affect, stress,
+   256→intrusive memories, anxiety, and avoidance behavior (Holmes & Bourne, 2008; James et al.,
+   257→2016; Krans et al., 2009b). The paradigm enables the examination of trauma-like reactions in
+   258→a controlled and standardized laboratory setting without causing enduring harm. It is therefore
+   259→widely recognized as a valid method to investigate trauma-related processes (Holmes &
+   260→Bourne, 2008; James et al., 2016).
+   261→Individuals were randomly assigned to one of two groups. Both groups watched a ~20-
+   262→minute film consisting of five sequences of approximately four minutes each. In the trauma
+   263→condition the film sequences contained explicit portrayals of interpersonal or accidental
+   264→trauma, adapted from commercial movies. In contrast, the neutral condition comprised five
+   265→10
+   266→
+   267→11
+   268→sequences matched in context but without traumatic content. For instance, the trauma film
+   269→included a nightclub scene depicting a violent altercation with explicit injuries, whereas the
+   270→neutral film showed a girl dancing in a nightclub. To minimize order effects, the five
+   271→sequences were presented in counterbalanced order, resulting in five versions of each film per
+   272→group. Participants were randomly assigned to one of these versions within their respective
+   273→group.
+   274→TR-BADE Task
+   275→Belief updating was assessed using a novel version of the Trauma-related Bias Against
+   276→Disconfirmatory Evidence Task (TR-BADE-Task; Woodward et al., 2006; Everaert et al.,
+   277→2018). For the current study, we designed a version of the task, resembling sequences from
+   278→the previously presented films (e.g., a night club scene). Participants were instructed to
+   279→imagine the scenarios as if they were personally experiencing them. Each scenario consisted
+   280→of three consecutive pieces of information, followed by several possible interpretations of the
+   281→situation. Scenarios initially suggested potential threat to oneself or significant others. In
+   282→disconfirming-danger scenarios, the first two statements suggested a threatening outcome,
+   283→while the final statement pointed towards a neutral outcome (see Figure 2). After each
+   284→statement, participants rated four possible interpretations: one true interpretation, one absurd
+   285→interpretation, and two lure interpretations. The absurd option remained implausible
+   286→throughout the scenario. Lures appeared plausible during the initial stages of the scenarios but
+   287→suddenly became implausible when the final (neutral) information was presented. In contrast,
+   288→the true interpretation was initially rather implausible but became the most plausible
+   289→explanation after the final statement. Plausibility ratings were provided on a visual analogue
+   290→scale ranging from 0 (“poor”) to 100 (“excellent”). The task included five disconfirming-
+   291→danger scenarios, which required updating an initially threatening interpretation in light of
+   292→neutral evidence, and three confirming-danger scenarios, in which the threatening
+   293→interpretation remained plausible throughout the scenario. The latter served as filler trials,
+   294→11
+   295→
+   296→12
+   297→aiming to prevent participants from gaining explicit insights into the predictable structure of
+   298→the scenarios, and were thus not included in the analyses. All scenarios and response options
+   299→were presented in randomized order.
+   300→In the preregistration, the TR-BADE score was registered as the main outcome,
+   301→reflecting the mean reduction in plausibility ratings of interpretations from Statement 2 to
+   302→Statement 3 across all disconfirming-danger scenarios (Woodward et al., 2006). This score is
+   303→intended to reflect flexible belief updating in response to disconfirmatory evidence. However,
+   304→in our previous study (Sopp et al., 2025), we encountered a critical limitation of this
+   305→composite score: It conflates two distinct cognitive processes - a general bias toward negative
+   306→interpretations and a lack of updating flexibility. Specifically, participants with a stronger
+   307→initial negative bias (i.e., higher plausibility ratings of negative interpretations at Statement 2)
+   308→may exhibit greater change scores without reflecting their genuine updating ability. To
+   309→address this issue, we followed Sopp et al. (2025) by applying the principal component
+   310→analysis (PCA) procedure recommended by Everaert et al. (2018) to extract two distinct
+   311→indices for use alongside the preregistered TR-BADE score.
+   312→(1) Negative Interpretation Bias (NIB) was computed as the mean plausibility rating
+   313→of danger-related lure interpretations after Statement 2, capturing a general tendency to favor
+   314→danger-related interpretations.
+   315→(2) Inflexible Interpretation Updating (IIU) was computed as the average reduction in
+   316→the lure ratings from Statement 2 to the neutral Statement 3.
+   317→All analyses involving NIB and IIU were not part of the preregistered plan and are
+   318→thus reported as exploratory.
+   319→Figure 2
+   320→Illustration of a Trial Sequence of the TR-BADE Task (Disconfirming-Danger Scenario)
+   321→12
+   322→
+   323→13
+   324→Note. Interpretations are only shown schematically. TR-BADE = Trauma-Related Bias
+   325→Against Disconfirmatory Evidence.
+   326→Intrusion assessment
+   327→Intrusive memories were assessed using two complementary approaches: a laboratory-
+   328→based Intrusion Provocation Task and an ambulatory intrusion diary.
+   329→Intrusion Provocation Task. Laboratory intrusive memories in the trauma film group
+   330→were assessed at Day 6 using an intrusion provocation task (IPT; adapted from James et al.,
+   331→2015). Participants were presented with blurred still images from the trauma film as visual
+   332→reminders. They were then instructed to close their eyes and let their thoughts flow freely for
+   333→two minutes. Afterwards, participants reported any intrusive memories that had occurred
+   334→during this period and rated duration, associated distress, and vividness on a visual analog
+   335→scale. The primary outcome was an intrusion index, calculated as the sum of z-standardized
+   336→scores for intrusion frequency, duration, distress, and vividness.
+   337→Intrusion Diary. Ambulatory intrusive memories were assessed using an intrusion
+   338→diary. Participants in the trauma-film condition were instructed to record any intrusive
+   339→memories of the film on the day of exposure and for the following five days. Participants in
+   340→13
+   341→
+   342→14
+   343→the neutral-film condition completed the intrusion diary on the day of exposure and on the
+   344→following day only. For each intrusion, they reported its duration, as well as associated
+   345→distress and vividness on a Likert scale ranging from 0 (“not at all”) to 10 (“very much”). In
+   346→addition, participants documented which film clip was related to each intrusion. The primary
+   347→outcome was an intrusion index, calculated as the sum of z-standardized scores for intrusion
+   348→frequency, duration, distress, and vividness.
+   349→Questionnaires administered at baseline
+   350→Resilience. Trait resilience, defined as psychological resistance to stress and adversity,
+   351→was assessed using the German short version of the Resilience Scale (RS-13; Leppert et al.,
+   352→2008; Wagnild & Young, 1993). The RS-13 is a unidimensional instrument derived from the
+   353→original 25-item Resilience Scale (RS-25) and validated in a representative German
+   354→population sample. It comprises 13 items rated on a 7-point Likert scale ranging from 1
+   355→(“strongly disagree”) to 7 (“strongly agree”). The scale shows good psychometric properties,
+   356→including high internal consistency (Cronbach’s α = .90). The total RS-13 score was
+   357→calculated, with higher scores indicating greater resilience.
+   358→Sense of Coherence. Sense of Coherence was measured using the Leipzig Short Scale
+   359→of the Sense of Coherence Scale (SOC-L9; Schumacher et al., 2000; Singer & Brähler, 2007),
+   360→a unidimensional, 9-item self-report questionnaire developed and validated for German-
+   361→speaking populations. The scale captures the extent to which individuals perceive life as
+   362→comprehensible, manageable, and meaningful. Items are presented in bipolar format and rated
+   363→on a 7-point Likert scale. The SOC-L9 has shown good psychometric properties, including
+   364→high internal consistency (Cronbach’s α = .87) and test-retest reliability (r = .86). A total
+   365→tt
+   366→score was computed to represent overall Sense of Coherence.
+   367→Locus of Control. Internal and external Locus of Control was measured using a brief
+   368→four-item questionnaire assessing internal and external control beliefs (IE-4; Kovaleva et al.,
+   369→2014). The scale comprises two subscales, each consisting of two items, rated on a 5-point
+   370→14
+   371→
+   372→15
+   373→Likert scale ranging from 1 (“does not apply at all”) to 5 (“applies completely”).
+   374→Psychometric evaluations have shown acceptable reliability, with test-retest correlations of r
+   375→tt
+   376→= .56 for internal and r = .64 for external Locus of Control.
+   377→tt
+   378→Cognitive Flexibility. Cognitive Flexibility was assessed using the Cognitive
+   379→Flexibility Scale (CFS; Martin & Rubin, 1995). The CFS is a unidimensional self-report
+   380→instrument designed to measure the ability to generate alternatives, adapt to new situations,
+   381→and perceive situations as controllable. It comprises 12 items rated on a 6-point Likert scale
+   382→ranging from 1 (“strongly disagree”) to 6 (“strongly agree”). Previous research has
+   383→demonstrated good psychometric properties, including satisfactory internal consistency
+   384→(Cronbach’s α ≈ .80). A total score was calculated, with higher scores indicating greater
+   385→Cognitive Flexibility.
+   386→Other questionnaires. In addition to the reported measures, the study included a short
+   387→trauma screening (adapted from the Life Events Checklist for DSM-5, Weathers et al., 2013),
+   388→the Primary Care Posttraumatic Stress Disorder screening questionnaire (Schäfer & Schulze,
+   389→2010), the Patient Health Questionnaire - 9 Item version (Kroenke et al., 2001) and the Trait
+   390→Anxiety Inventory (STAI-T; Spielberger et al., 1970). These are not subject of the current
+   391→paper and reported analyses and are therefore not described in further detail.
+   392→Data analysis
+   393→All analyses were conducted using IBM SPSS Statistics 30. The Type I error level was set to
+   394→α = .05 (two-tailed) for all analyses. In addition, assumptions for parametric tests (normality,
+   395→homogeneity of variance, and linearity for regression models) were examined.
+   396→To test Hypothesis #1, namely that exposure to the trauma film (vs. neutral film) would
+   397→reduce updating of danger-related expectations, we compared the trauma and neutral film
+   398→groups on the TR-BADE score using an independent-samples t-test. Effect sizes for group
+   399→differences are reported as Cohen’s d with 95% confidence intervals. To test Hypothesis #2,
+   400→15
+   401→
+   402→16
+   403→which predicted that reduced belief updating in the trauma film group would be associated
+   404→with more intense analogue intrusive memories, analyses were restricted to participants in the
+   405→trauma condition. We ran separate linear regression analyses with the intrusion indices (diary
+   406→intrusion index and IPT intrusion index) as dependent variables and the TR-BADE score as
+   407→predictor. For each model, we report standardized regression coefficients (β), corresponding t-
+   408→values, and adjusted R² as an index of explained variance.
+   409→In exploratory follow-up analyses, we repeated the main tests of Hypotheses 1 and 2
+   410→using IIU and NIB instead of the TR-BADE score in order to differentiate the effects of
+   411→negative interpretation bias and interpretation inflexibility in joint analyses. Furthermore, we
+   412→explored associations between Trait Resilience, Sense of Coherence, and Locus of Control
+   413→and outcomes of the TR-BADE task (IIU, NIB), as well as analogue intrusive memories using
+   414→Pearson product–moment correlations. In addition, we conducted an exploratory mediation
+   415→analysis using PROCESS (Model 4, 5,000 bootstrap samples) to test whether NIB mediates
+   416→the association between Sense of Coherence and diary intrusions.
+   417→Results
+   418→Manipulation Check
+   419→To test whether the trauma film elicited the intended increase in state anxiety, we
+   420→conducted a mixed-design ANOVA with time (pre vs. post trauma film presentation) as a
+   421→within-subject factor and group (trauma vs. neutral) as a between-subject factor. The analysis
+   422→yielded a significant main effect of time, F(1, 126) = 97.92, p < .001, ηp² = .44, indicating that
+   423→state anxiety changed from pre- to post-film across participants. This change differed by
+   424→group, reflected in a significant time × group interaction, F(1, 126) = 115.42, p < .001, ηp² =
+   425→.48. Descriptively, pre-film state anxiety was comparable between the neutral group (M =
+   426→1.73, SD = 0.40, n = 61) and the trauma group (M = 1.67, SD = 0.30, n = 67). Post-film, state
+   427→anxiety remained essentially unchanged in the neutral group (M = 1.70, SD = 0.40, n = 61) but
+   428→16
+   429→
+   430→17
+   431→increased notably in the trauma group (M = 2.50, SD = 0.54, n = 67), supporting the
+   432→effectiveness of the film manipulation (see Figure 3).
+   433→Figure 3
+   434→State Anxiety before and after Film Presentation
+   435→Note. Mean state anxiety ratings are shown before (pre) and after (post) film presentation for
+   436→the neutral and trauma conditions. Error bars represent ±1 standard error of the mean (SE).
+   437→Hypothesis 1: Exposure to the trauma film will reduce updating of danger-related
+   438→expectations
+   439→An independent-samples t-test showed that TR-BADE scores did not differ between
+   440→the trauma film group (M = 49.73, SD = 17.13) and the neutral film group (M = 49.67, SD =
+   441→18.03), t(127) = 0.02, p = .985, d = 0.00, 95% CI [−0.34, 0.35]. Thus, the preregistered
+   442→hypothesis that exposure to the trauma film would reduce updating of danger-related
+   443→expectations was not confirmed.
+   444→Hypothesis 2: Association between belief updating and intrusive memories
+   445→17
+   446→
+   447→18
+   448→In the trauma-film group, TR-BADE scores significantly predicted the diary intrusion
+   449→index, β = .36, t(65) = 3.08, p = .003, adjusted R² = .11. Contrary to our preregistered
+   450→hypothesis, higher belief updating was associated with more, rather than fewer, analogue
+   451→intrusive memories in daily life. By contrast, TR-BADE scores did not predict the IPT
+   452→intrusion index, β = .11, t(65) = 0.92, p = .362, adjusted R² = -.00, indicating that Hypothesis 2
+   453→was not supported for intrusive memories elicited in the IPT.
+   454→Exploratory Analyses: Retesting the preregistered hypotheses using uncorrelated indices
+   455→of negative interpretation bias and inflexible interpretation updating
+   456→Having successfully derived separate indices for NIB and IIU, we repeated the
+   457→analyses to retest Hypotheses 1 and 2. Exploratory t-tests showed no differences between the
+   458→trauma and neutral film groups in either NIB, t(127) = 0.02, p = .986, d = 0.00, 95% CI
+   459→[−0.34, 0.35], or IIU, t(127) = 0.01, p = .993, d = 0.00, 95% CI [−0.34, 0.35] (H1). Next, we
+   460→examined whether NIB and IIU were related to analogue intrusive memories within the
+   461→trauma-film group (H2). Higher NIB scores were significantly associated with a higher diary
+   462→intrusion index, β = .40, t(65) = 3.55, p < .001, adjusted R² = .15. However, NIB was
+   463→unrelated to the IPT intrusion index, β = .04, t(65) = 0.33, p = .745, adjusted R² = -.01. IIU did
+   464→not show significant associations with either diary or IPT intrusion indices. Taken together,
+   465→these findings indicate that the unexpected positive correlation between the TR-BADE score
+   466→and diary intrusions originated as a result of a positive correlation between NIB and diary
+   467→intrusions. The latter finding is in the expected direction, with a stronger negative
+   468→interpretation bias being linked to more intrusive memories.
+   469→Exploratory Analyses: NIB, IIU and resilience factors
+   470→Correlations among NIB, IIU, and resilience factors in the trauma film group are reported in
+   471→Table 1. Higher NIB scores were not only positively associated with the diary intrusion index
+   472→(r = .34, p < .001) but also negatively related to Sense of Coherence (r = -.26, p = .003).
+   473→Moreover, resilience-related variables were intercorrelated in the expected direction (Table 1).
+   474→18
+   475→
+   476→19
+   477→Cognitive flexibility correlated positively with sense of coherence (r = .63, p < .001), internal
+   478→Locus of Control (r = .53, p < .001), and trait Resilience (r = .77, p < .001), and negatively
+   479→with external Locus of Control (r = −.38, p = .001). Sense of Coherence was positively related
+   480→to internal Locus of Control (r = .48, p < .001) and trait Resilience (r = .69, p < .001) and
+   481→negatively related to external Locus of Control (r = −.49, p < .001); internal and external
+   482→Locus of Control were negatively correlated (r = −.48, p < .001). None of the other
+   483→correlations reached significance.
+   484→Table 1
+   485→Pearson Correlations Among Study Variables (Trauma Film Group)
+   486→Variable 1 2 3 4 5 6 7 8 9 10
+   487→1. NIB —
+   488→2. IIU .09 —
+   489→3. TR-BADE .83** -.41** —
+   490→4. CF -.21 -.19 -.12 —
+   491→5. SoC -.34** -.24 -.17 .63** —
+   492→6. Internal LoC -.01 .02 -.04 .53** .48** —
+   493→7. External LoC .08 .16 -.03 -.38** -.49** -.48** —
+   494→8. Resilience -.22 -.15 -.10 .77** .69** .57** -.38** —
+   495→9. IPT .04 -.05 .11 .05 .06 -.07 .02 -.07 —
+   496→10. Intrusion Diary .40** .00 .36** -.18 -.19 .03 .00 -.11 .47** —
+   497→Note. N= 67, (trauma-film group). Values are Pearson product-moment correlations (r). * p <
+   498→.05. ** p < .01.
+   499→NIB = Negative Interpretation Bias; IIU = Inflexible Interpretation Updating, TR-BADE =
+   500→TR-BADE Score, CF = Cognitive Flexibility, SoC = Sense of Coherence, Internal LoC =
+   501→19
+   502→
+   503→20
+   504→Internal Locus of Control, External LoC = External Locus of Control, Resilience = Trait
+   505→Resilience.
+   506→Exploratory Mediation Analysis: Sense of Coherence, NIB, and intrusive memories
+   507→To further explore the associations between SoC, NIB, and analogue intrusive
+   508→memories, we conducted a mediation analysis in the trauma-film group using PROCESS
+   509→(Model 4, 5,000 bootstrap samples), with Sense of Coherence as the predictor (X), NIB as the
+   510→mediator (M), and the Intrusion diary index as the outcome (Y). SoC was negatively
+   511→associated with NIB (a-path), B = -0.34, 95% CI [-0.57, -0.11], indicating that participants
+   512→with a stronger Sense of Coherence showed less Negative Interpretation Bias. In turn, higher
+   513→NIB was positively related to the Intrusion diary index (b-path), B = 0.25, 95% CI [0.09,
+   514→0.41]. The direct effect of SoC on intrusions (c′-path) was small and not significant, B = -0.04,
+   515→95% CI [-0.19, 0.12]. Importantly, the indirect effect of SoC on intrusions via NIB was
+   516→negative and its 95% bootstrap confidence interval did not include zero, B = -0.08, BootSE =
+   517→0.04, 95% bootstrap CI [-0.17, -0.01]. These findings are consistent with an indirect
+   518→association of SoC with fewer intrusive memories via lower NIB, but do not confirm a causal
+   519→mediation pathway.
+   520→Figure 4
+   521→Mediation model linking Sense of Coherence to intrusive memories via Negative
+   522→Interpretation Bias
+   523→20
+   524→
+   525→21
+   526→Note. Sense of Coherence (SoC) was specified as the predictor (X), Negative Interpretation
+   527→Bias (NIB) as the mediator (M), and intrusions (Diary index) as the outcome (Y). Values
+   528→represent unstandardized regression coefficients (B). Bracketed values indicate 95%
+   529→confidence intervals for the direct paths and the 95% bootstrap confidence interval (5,000
+   530→samples) for the indirect effect (dashed line). p < .05. n.s. = not significant.
+   531→Discussion
+   532→This study examined the impact of exposure to an analogue traumatic stressor on
+   533→belief updating and intrusive memories. Specifically, we investigated whether exposure to an
+   534→analogue trauma would reduce belief updating, and whether reduced updating would be
+   535→associated with more intense intrusive memories. In addition, we explored whether belief
+   536→updating may act as a proximal mechanism linking general resilience factors with analogue
+   537→PTSD symptoms.
+   538→Contrary to our preregistered hypotheses, belief updating (as indexed by the TR-
+   539→BADE score) was not impaired by exposure to the trauma film. Accordingly, our results align
+   540→with previous findings (Haim-Nachum et al., 2024; Sopp et al., 2025), suggesting that trauma
+   541→exposure itself may not necessarily elicit systematic impairments in belief updating. Belief
+   542→updating tendencies may rather represent relatively stable cognitive styles that are not easily
+   543→21
+   544→
+   545→22
+   546→shifted by a single analogue stressor in a healthy population. It is also possible that, although
+   547→the trauma film paradigm reliably elicited intrusive memories, it did not capture the intensity,
+   548→personal threat, or repeated exposure that characterize real-life trauma and may be necessary
+   549→to shift danger-related beliefs as proposed by predictive-processing accounts. Taken together,
+   550→these findings highlight the need for longitudinal field research in trauma-exposed individuals
+   551→to test whether changes in belief updating precede, follow, or maintain posttraumatic
+   552→symptoms.
+   553→Our second hypothesis concerned the association between belief updating and
+   554→analogue intrusive memories. We had expected that reduced belief updating would be
+   555→associated with more intrusive memories in the trauma-film group. By contrast, the
+   556→preregistered analyses indicated that higher TR-BADE scores were related to a higher diary
+   557→intrusion index, while TR-BADE scores did not predict intrusive memories in the IPT. At first
+   558→glance, this appears inconsistent with the assumption that flexible updating should act as a
+   559→protective factor against trauma-related symptoms. However, follow-up analyses revealed that
+   560→the positive association between TR-BADE and diary intrusions likely originated from an
+   561→underlying association between NIB and diary intrusions. Examining separate indices, we
+   562→found that a higher NIB was significantly associated with a higher diary intrusion index,
+   563→whereas IIU showed no significant association with either diary or IPT intrusions. Taken
+   564→together, these results suggest that a general tendency to interpret ambiguous situations as
+   565→threatening seems to be more closely linked to analogue intrusive memories than the failure to
+   566→update danger-related hypotheses once disconfirmatory information is available.
+   567→These findings align with the results of previous research using the TR-BADE
+   568→paradigm. In particular, Sopp et al. (2025) reported stronger and more consistent associations
+   569→between NIB and trauma-related symptoms than for IIU, suggesting that a tendency to
+   570→prioritize threatening interpretations of ambiguous information may be more closely tied to
+   571→symptom expression than updating per se.
+   572→22
+   573→
+   574→23
+   575→At the etiology model level, these findings provide limited support for predictive
+   576→processing accounts suggesting that belief updating is a key mechanism in PTSD. Instead,
+   577→they are more consistent with established cognitive models that highlight the role of threat-
+   578→focused appraisals in generating a persistent sense of current threat, thereby maintaining
+   579→posttraumatic stress symptoms (Brewin, 2014; Ehlers & Clark, 2000). In this view, NIB may
+   580→capture a proximal cognitive vulnerability that maps onto appraisal-based mechanisms,
+   581→whereas IIU may play a more limited or context dependent role.
+   582→One possibility is that updating inflexibility may only become clinically relevant once
+   583→danger-related appraisals and trauma-memory networks have been repeatedly activated over
+   584→time. In other words, inflexible interpretation updating may become more detectable after
+   585→repeated activation and consolidation over time, which may explain why a single analogue
+   586→trauma is insufficient to reveal robust updating deficits. Accordingly, such effects may be
+   587→more evident in chronic PTSD, where symptoms are repeatedly triggered and maintained
+   588→across time. In chronic PTSD, persistent re-experiencing and hypervigilance are thought to be
+   589→maintained by a persistent sense of current threat, such that the environment continues to be
+   590→perceived as dangerous even in objectively safe contexts (Leone et al., 2022). Within such a
+   591→threat-focused context, re-experiencing, avoidance, and hypervigilance may repeatedly cue
+   592→danger-confirming interpretations, and thereby strengthen threat-related expectations and
+   593→stabilize them against corrective, safety-consistent evidence. Under these conditions,
+   594→information that signals safety may be given less weight, so inflexible updating may function
+   595→as a maintenance mechanism rather than an immediate impairment following trauma. This
+   596→would imply that IIU may be more detectable in samples marked by sustained or repeated
+   597→trauma exposure. This possibility should be explored further by future research.
+   598→Guided by resilience frameworks positing that broad resilience resources operate
+   599→through cognitive mechanisms (Kalisch et al., 2015), we explored whether NIB and IIU may
+   600→constitute such mechanisms. Specifically, we examined associations of NIB/IIU with
+   601→23
+   602→
+   603→24
+   604→established resilience factors (trait Resilience, Sense of Coherence, Locus of Control) and
+   605→with analogue intrusive memories. In line with previous research demonstrating that NIB is
+   606→associated with PTSD symptoms (Sopp et al., 2025), our findings extend this relationship to
+   607→intrusive memories specifically. We found that NIB was linked to intrusive memories as well
+   608→as SoC. Moreover, our mediation analysis showed that the indirect effect from SoC to
+   609→intrusions via NIB was significant, whereas the direct effect was not. This pattern is consistent
+   610→with the idea that individuals who perceive their environment as comprehensible and
+   611→meaningful are less likely to adopt strongly threat-focused interpretations, which may reduce
+   612→the occurrence of intrusive memories after an analogue traumatic stressor. In other words,
+   613→SoC might protect against intrusions at least partly by buffering NIB. In line with this
+   614→interpretation, studies show that SoC may protect mental health by shaping how people
+   615→interpret stressful experiences. For example, in motor-vehicle accident survivors, SoC
+   616→predicted later PTSD symptom severity indirectly via negative posttraumatic cognitions
+   617→(Kaźmierczak et al., 2016). This suggests that individuals with higher SoC may be less likely
+   618→to develop and maintain strongly threat-focused appraisals and negative meanings about
+   619→themselves over time. This interpretation aligns with resilience frameworks proposing that
+   620→heterogeneous resilience factors converge on shared proximal mechanisms, such as appraisal
+   621→and interpretation processes, that shape how stress-related information is processed (Kalisch
+   622→et al., 2015).
+   623→The present study provides an important methodological extension of previous
+   624→research by using an ecologically valid analogue-trauma paradigm with a direct trauma-
+   625→versus-neutral comparison rather than questionnaire-based approaches, allowing a more
+   626→differentiated distinction between an initial bias toward danger-related interpretations and
+   627→inflexible interpretation updating in response to disconfirmatory evidence.
+   628→Although the present findings are preliminary, they provide some theoretical
+   629→implications. First, they suggest that, in an analogue trauma context, NIB may be more
+   630→24
+   631→
+   632→25
+   633→closely tied to analogue PTSD symptoms than IIU itself. While this finding does not
+   634→contradict predictive-processing models of PTSD, it aligns more closely with established
+   635→cognitive accounts emphasizing danger-related appraisals and interpretation biases, rather
+   636→than a primary updating deficit. Furthermore, our results support the notion that resilience-
+   637→related factors are not only associated with better psychological outcomes in general but may
+   638→exert their effects through negative interpretation bias in the aftermath of adverse events.
+   639→Limitations
+   640→The study has several limitations that should be considered when interpreting the
+   641→findings. First, the study used an analogue trauma paradigm in a healthy, predominantly
+   642→student sample, which limits the generalizability to individuals with clinical PTSD or
+   643→(repeated) real-life trauma exposure. Future studies should therefore aim to recruit more
+   644→heterogeneous samples, including individuals with substantial trauma histories and higher
+   645→symptom severity.
+   646→Second, potential participants were informed in advance that aversive film material
+   647→would be presented, which may have led to self-selection of individuals who felt confident in
+   648→their ability to tolerate such content and may therefore have attenuated any effects of the
+   649→analogue trauma on belief updating. Although the trauma film paradigm is a well-established
+   650→method to induce analogue trauma responses under controlled conditions. At the same time,
+   651→all participants were informed in advance that aversive film material would be presented,
+   652→which may have led to self-selection of individuals who felt confident in their ability to
+   653→tolerate such content and may therefore have attenuated any effects of the analogue trauma on
+   654→belief updating. Although the trauma film paradigm is a well-established method to induce
+   655→analogue trauma responses under controlled conditions.
+   656→Third, the TR-BADE task itself comes with methodological limitations. The scenarios
+   657→were designed to approximate trauma-related themes and to resemble the film sequences, but
+   658→they nevertheless remain hypothetical scenarios. Their effectiveness depends on participants’
+   659→25
+   660→
+   661→26
+   662→ability and willingness to imagine themselves in the described situations and to identify with
+   663→the unfolding scenario. It is therefore uncertain to what degree the observed interpretation
+   664→patterns reflect how people would update beliefs in real life. At the same time, the TR-BADE
+   665→paradigm is a well-established and process-oriented measure that captures interpretation
+   666→dynamics and has been successfully applied in various contexts (Everaert et al., 2018).
+   667→Finally, analyses involving NIB, IIU, and resilience-related variables were exploratory
+   668→and only registered as such. Moreover, effect sizes were mostly in the small-to-moderate
+   669→range. Replication in independent samples, including clinical populations, is thus needed to
+   670→clarify the robustness and scope of our findings.
+   671→Conclusion
+   672→In sum, this study did not provide evidence that analogue traumatic stress directly
+   673→disrupts belief updating. Instead, the results highlight negative interpretation bias as a
+   674→potential pathway linking general resilience factors - specifically Sense of Coherence - and
+   675→analogue PTSD symptoms. Future research should examine whether similar patterns emerge
+   676→in clinical samples and whether interventions that reduce negative interpretation bias can
+   677→support symptom reduction after trauma.
+   678→CRediT authorship contribution statement
+   679→Katharina Grün: Data curation, Formal analysis, Resources, Visualization, Writing –
+   680→original draft, Writing – review & editing. Tanja Michael: Conceptualization, Project
+   681→administration, Supervision, Writing – review & editing. Edith Friesen: Conceptualization,
+   682→Data curation, Investigation, Methodology, Project administration, Resources. Tobias Kube:
+   683→Conceptualization, Methodology, Resources. Sandra Dörrenbächer: Methodology, Writing –
+   684→review & editing. M. Roxanne Sopp: Conceptualization, Data curation, Formal analysis,
+   685→26
+   686→
+   687→27
+   688→Investigation, Methodology, Project administration, Resources, Software, Validation, Writing
+   689→– original draft, Writing – review & editing, Supervision.
+   690→Declaration of competing interest
+   691→The authors declare that they have no known competing financial interests or personal
+   692→relationships that could have appeared to influence the work reported in this paper.
+   693→Data availability
+   694→Data will be made available on request.
+   695→Declaration of generative AI use
+   696→During the preparation of this work, ChatGPT (OpenAI, 2025) and DeepL (DeepL SE,
+   697→2025) were used in order to assist with SPSS syntax and to support wording refinement and
+   698→language editing. After using this tool, the authors critically reviewed and revised the content
+   699→as needed and take full responsibility for the published article.
+   700→Acknowledgements to non-author contributors
+   701→We gratefully acknowledge the contributions of the student assistants involved in this
+   702→project, particularly Nathalie Wahlsdorf, Lucas Kottmeier, Ann-Sophie Kleinekemper, and
+   703→Tabea Binkert who supported the study through their assistance with data collection,
+   704→participant recruitment and data preprocessing.
+   705→27
+   706→
+   707→28
+   708→References
+   709→American Psychiatric Association. (2013). Diagnostic and Statistical Manual of Mental
+   710→Disorders (Fifth Edition). American Psychiatric Association.
+   711→https://doi.org/10.1176/appi.books.9780890425596
+   712→Benjet, C., Bromet, E., Karam, E. G., Kessler, R. C., McLaughlin, K. A., Ruscio, A. M.,
+   713→Shahly, V., Stein, D. J., Petukhova, M., Hill, E., Alonso, J., Atwoli, L., Bunting, B.,
+   714→Bruffaerts, R., Caldas-de-Almeida, J. M., De Girolamo, G., Florescu, S., Gureje, O.,
+   715→Huang, Y., … Koenen, K. C. (2016). The epidemiology of traumatic event exposure
+   716→worldwide: Results from the World Mental Health Survey Consortium. Psychological
+   717→Medicine, 46(2), 327–343. https://doi.org/10.1017/S0033291715001981
+   718→Brewin, C. R. (2014). Episodic memory, perceptual memory, and their interaction:
+   719→Foundations for a theory of posttraumatic stress disorder. Psychological Bulletin,
+   720→140(1), 69–97. https://doi.org/10.1037/a0033722
+   721→Brewin, C. R. (2015). Re-experiencing traumatic events in PTSD: New avenues in research
+   722→on intrusive memories and flashbacks. European Journal of Psychotraumatology,
+   723→6(1), 27180. https://doi.org/10.3402/ejpt.v6.27180
+   724→Clark, A. (2013). Whatever next? Predictive brains, situated agents, and the future of
+   725→cognitive science. Behavioral and Brain Sciences, 36(3), 181–204.
+   726→https://doi.org/10.1017/S0140525X12000477
+   727→Corlett, P. R., Mohanty, A., & MacDonald, A. W. (2020). What we think about when we think
+   728→about predictive processing. Journal of Abnormal Psychology, 129(6), 529–533.
+   729→https://doi.org/10.1037/abn0000632
+   730→DeepL SE. (2025). DeepL Translator [Software]. https://www.deepl.com
+   731→28
+   732→
+   733→29
+   734→Ehlers, A., & Clark, D. M. (2000). A cognitive model of posttraumatic stress disorder.
+   735→Behaviour Research and Therapy, 38(4), 319–345. https://doi.org/10.1016/S0005-
+   736→7967(99)00123-0
+   737→Friston, K. (2005). A theory of cortical responses. Philosophical Transactions of the Royal
+   738→Society B: Biological Sciences, 360(1456), 815–836.
+   739→https://doi.org/10.1098/rstb.2005.1622
+   740→Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews
+   741→Neuroscience, 11(2), 127–138. https://doi.org/10.1038/nrn2787
+   742→Haim-Nachum, S., Kube, T., Rozenkrantz, L., Lazarov, A., Levy-Gigi, E., Michael, T., Neria,
+   743→Y., & Sopp, M. R. (2024). Does disconfirmatory evidence shape safety-and danger-
+   744→related beliefs of trauma-exposed individuals? European Journal of
+   745→Psychotraumatology, 15(1), 2335788.
+   746→https://doi.org/10.1080/20008066.2024.2335788
+   747→Holmes, E. A., & Bourne, C. (2008). Inducing and modulating intrusive emotional memories:
+   748→A review of the trauma film paradigm. Acta Psychologica, 127(3), 553–566.
+   749→https://doi.org/10.1016/j.actpsy.2007.11.002
+   750→James, E. L., Bonsall, M. B., Hoppitt, L., Tunbridge, E. M., Geddes, J. R., Milton, A. L., &
+   751→Holmes, E. A. (2015). Computer Game Play Reduces Intrusive Memories of
+   752→Experimental Trauma via Reconsolidation-Update Mechanisms. Psychological
+   753→Science, 26(8), 1201–1215. https://doi.org/10.1177/0956797615583071
+   754→James, E. L., Lau-Zhu, A., Clark, I. A., Visser, R. M., Hagenaars, M. A., & Holmes, E. A.
+   755→(2016). The trauma film paradigm as an experimental psychopathology model of
+   756→psychological trauma: Intrusive memories and beyond. Clinical Psychology Review,
+   757→47, 106–142. https://doi.org/10.1016/j.cpr.2016.04.010
+   758→29
+   759→
+   760→30
+   761→Kalisch, R., Müller, M. B., & Tüscher, O. (2015). A conceptual framework for the
+   762→neurobiological study of resilience. Behavioral and Brain Sciences, 38, e92.
+   763→https://doi.org/10.1017/S0140525X1400082X
+   764→Kaźmierczak, I., Strelau, J., & Zawadzki, B. (2016). Post-traumatic cognitions as a mediator
+   765→of the relationship between sense of coherence and post-traumatic stress disorder after
+   766→motor vehicle accidents. Transportation Research Part F: Traffic Psychology and
+   767→Behaviour, 41, 38–44. https://doi.org/10.1016/j.trf.2016.06.014
+   768→Kessler, R. C., Aguilar-Gaxiola, S., Alonso, J., Benjet, C., Bromet, E. J., Cardoso, G.,
+   769→Degenhardt, L., De Girolamo, G., Dinolova, R. V., Ferry, F., Florescu, S., Gureje, O.,
+   770→Haro, J. M., Huang, Y., Karam, E. G., Kawakami, N., Lee, S., Lepine, J.-P., Levinson,
+   771→D., … Koenen, K. C. (2017). Trauma and PTSD in the WHO World Mental Health
+   772→Surveys. European Journal of Psychotraumatology, 8(sup5), 1353383.
+   773→https://doi.org/10.1080/20008198.2017.1353383
+   774→Koenen, K. C., Ratanatharathorn, A., Ng, L., McLaughlin, K. A., Bromet, E. J., Stein, D. J.,
+   775→Karam, E. G., Meron Ruscio, A., Benjet, C., Scott, K., Atwoli, L., Petukhova, M.,
+   776→Lim, C. C. W., Aguilar-Gaxiola, S., Al-Hamzawi, A., Alonso, J., Bunting, B., Ciutan,
+   777→M., De Girolamo, G., … Kessler, R. C. (2017). Posttraumatic stress disorder in the
+   778→World Mental Health Surveys. Psychological Medicine, 47(13), 2260–2274.
+   779→https://doi.org/10.1017/S0033291717000708
+   780→Kovaleva, A., Beierlein, C., Kemper, C. J., & Rammstedt, B. (2014). Internale-Externale-
+   781→Kontrollüberzeugung-4 (IE-4). Zusammenstellung sozialwissenschaftlicher Items und
+   782→Skalen (ZIS). https://doi.org/10.6102/ZIS184
+   783→Krans, J., Näring, G., & Becker, E. S. (2009). Count out your intrusions: Effects of verbal
+   784→encoding on intrusive memories. Memory, 17(8), 809–815.
+   785→https://doi.org/10.1080/09658210903130780
+   786→30
+   787→
+   788→31
+   789→Krans, J., Näring, G., Becker, E. S., & Holmes, E. A. (2009). Intrusive trauma memory: A
+   790→review and functional analysis. Applied Cognitive Psychology, 23(8), 1076–1088.
+   791→https://doi.org/10.1002/acp.1611
+   792→Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ-9: Validity of a brief
+   793→depression severity measure. Journal of General Internal Medicine, 16(9), 606–613.
+   794→https://doi.org/10.1046/j.1525-1497.2001.016009606.x
+   795→Kube, T., Berg, M., Kleim, B., & Herzog, P. (2020). Rethinking post-traumatic stress disorder
+   796→– A predictive processing perspective. Neuroscience & Biobehavioral Reviews, 113,
+   797→448–460. https://doi.org/10.1016/j.neubiorev.2020.04.014
+   798→Leone, G., Postel, C., Mary, A., Fraisse, F., Vallée, T., Viader, F., De La Sayette, V.,
+   799→Peschanski, D., Dayan, J., Eustache, F., & Gagnepain, P. (2022). Altered predictive
+   800→control during memory suppression in PTSD. Nature Communications, 13(1), 3300.
+   801→https://doi.org/10.1038/s41467-022-30855-x
+   802→Leppert, K., Koch, B., Brähler, E., & Strauß, B. (2008). Die Resilienzskala (RS) –
+   803→Überprüfung der Langform RS-25 und einer Kurzform RS-13.
+   804→Linson, A., & Friston, K. (2019). Reframing PTSD for computational psychiatry with the
+   805→active inference framework. Cognitive Neuropsychiatry, 24(5), 347–368.
+   806→https://doi.org/10.1080/13546805.2019.1665994
+   807→Martin, M. M., & Rubin, R. B. (1995). A New Measure of Cognitive Flexibility.
+   808→Psychological Reports, 76(2), 623–626. https://doi.org/10.2466/pr0.1995.76.2.623
+   809→Mesulam, M. (2008). Representation, inference, and transcendent encoding in neurocognitive
+   810→networks of the human brain. Annals of Neurology, 64(4), 367–378.
+   811→https://doi.org/10.1002/ana.21534
+   812→OpenAI. (2025). ChatGPT (Version GPT-5.3) [Software]. https://chat.openai.com
+   813→31
+   814→
+   815→32
+   816→O’Reilly, J. X., Jbabdi, S., & Behrens, T. E. J. (2012). How can a Bayesian approach inform
+   817→neuroscience? European Journal of Neuroscience, 35(7), 1169–1179.
+   818→https://doi.org/10.1111/j.1460-9568.2012.08010.x
+   819→Paulus, M. P., Feinstein, J. S., & Khalsa, S. S. (2019). An Active Inference Approach to
+   820→Interoceptive Psychopathology. Annual Review of Clinical Psychology, 15(1), 97–122.
+   821→https://doi.org/10.1146/annurev-clinpsy-050718-095617
+   822→Sachschal, J., Woodward, E., & Ehlers, A. (2019). Appraisal Biases About Strangers in
+   823→Posttraumatic Stress Disorder. Cognitive Therapy and Research, 43(1), 247–258.
+   824→https://doi.org/10.1007/s10608-018-9962-1
+   825→Santiago, P. N., Ursano, R. J., Gray, C. L., Pynoos, R. S., Spiegel, D., Lewis-Fernandez, R.,
+   826→Friedman, M. J., & Fullerton, C. S. (2013). A Systematic Review of PTSD Prevalence
+   827→and Trajectories in DSM-5 Defined Trauma Exposed Populations: Intentional and
+   828→Non-Intentional Traumatic Events. PLoS ONE, 8(4), e59236.
+   829→https://doi.org/10.1371/journal.pone.0059236
+   830→Schäfer, I., & Schulze, C. (2010). Deutsche Version des “Primary Care Posttraumatic Stress
+   831→Disorder screening questionnaire”. Universität Hamburg.
+   832→Schumacher, J., Wilz, G., Gunzelmann, T., & Brähler, E. (2000). Die Sense of Coherence
+   833→Scale von Antonovsky—Teststatistische Überprüfung in einer repräsenta-tiven
+   834→Bevölkerungsstichprobe und Konstruktion einer Kurzskala -. PPmP - Psychotherapie ·
+   835→Psychosomatik · Medizinische Psychologie, 50(12), 472–482.
+   836→https://doi.org/10.1055/s-2000-9207
+   837→Singer, S., & Brähler, E. (2007). Die »Sense of Coherence Scale«: Testhandbuch zur
+   838→deutschen Version. Vandenhoeck & Ruprecht.
+   839→Sopp, M. R., Haim-Nachum, S., Braun, M. N., Lass-Hennemann, J., Schäfer, S. K., &
+   840→Michael, T. (2025). How we see the world: Inflexible interpretation updating as a
+   841→32
+   842→
+   843→33
+   844→predictor and moderator of PTSD symptoms in high-risk occupations. Psychological
+   845→Trauma: Theory, Research, Practice, and Policy. https://doi.org/10.1037/tra0001819
+   846→Spielberger, C. D., Gorsuch, R. L., & Lushene, R. E. (1970). STAI Manual for the State-Trait
+   847→Anxiety Inventory. Consulting Psychologists Press.
+   848→https://cir.nii.ac.jp/crid/1370285712575158016
+   849→Wagnild, G. M., & Young, H. M. (1993). Development and psychometric evaluation of the
+   850→Resilience Scale. Journal of Nursing Measurement, 1(2), 165–178.
+   851→Weathers, F. W., Blake, D. D., Schnurr, P. P., Kaloupek, D. G., Marx, B. P., & Keane, T. M.
+   852→(2013). Life Events Checklist for DSM-5 (LEC-5). National Center for PTSD.
+   853→Weathers, F. W., Blake, D. D., Schnurr, P. P., Kaloupek, D. G., Marx, B. P., & Keane,
+   854→T. M.
+   855→Weston, C. S. E. (2014). Posttraumatic Stress Disorder: A Theoretical Model of the
+   856→Hyperarousal Subtype. Frontiers in Psychiatry, 5.
+   857→https://doi.org/10.3389/fpsyt.2014.00037
+   858→Wilkinson, S., Dodgson, G., & Meares, K. (2017). Predictive Processing and the Varieties of
+   859→Psychological Trauma. Frontiers in Psychology, 8, 1840.
+   860→https://doi.org/10.3389/fpsyg.2017.01840
+   861→Woodward, T. S., Moritz, S., & Chen, E. Y. H. (2006). The contribution of a cognitive bias
+   862→against disconfirmatory evidence (BADE) to delusions: A study in an Asian sample
+   863→with first episode schizophrenia spectrum disorders. Schizophrenia Research, 83(2–3),
+   864→297–298. https://doi.org/10.1016/j.schres.2006.01.015
+   865→33
+   866→
+   867→

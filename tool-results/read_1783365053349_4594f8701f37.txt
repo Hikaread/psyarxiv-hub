@@ -1,0 +1,437 @@
+     1→{
+     2→  "discovered": 66,
+     3→  "alreadyExisting": 0,
+     4→  "hardExcluded": 1,
+     5→  "lowSignal": 4,
+     6→  "candidates": 61,
+     7→  "candidates_list": [
+     8→    {
+     9→      "osf_id": "4qtu5_v2",
+    10→      "title": "Family Genetic Risk Scores for Major Psychiatric and Neurodevelopmental Diagnoses in the Norwegian Population",
+    11→      "date_created": "2026-06-19T07:11:16.321189",
+    12→      "signal_score": 19,
+    13→      "description_preview": "Importance: Family history is a prominent indicator of psychiatric disorder risk and used in clinical assessment. Pearson-Aitken Family-Genetic Risk Scores (PA-FGRSs) aim to quantify genetic risk base"
+    14→    },
+    15→    {
+    16→      "osf_id": "fb84a_v1",
+    17→      "title": "Narcissism Facets and Gelotophobia as Predictors of Early Outcomes in Group Psychotherapy for Personality Difficulties",
+    18→      "date_created": "2026-06-19T11:17:28.438372",
+    19→      "signal_score": 13,
+    20→      "description_preview": "Objective: This study investigated how specific narcissistic traits and gelotophobia (fear of being laughed at) predict changes in depressive symptoms and negative affect during the first three months"
+    21→    },
+    22→    {
+    23→      "osf_id": "24ucm_v1",
+    24→      "title": "Momentary Structured Networks (MSN): A Theory-Guided Approach to Person-Elicited Causal Formulation",
+    25→      "date_created": "2026-06-19T16:11:01.287956",
+    26→      "signal_score": 12,
+    27→      "description_preview": "Background. Idiographic approaches to case formulation often combine ecological momentary assessment (EMA) with network analysis. Traditional network models require large amounts of data and are large"
+    28→    },
+    29→    {
+    30→      "osf_id": "y3j7s_v1",
+    31→      "title": "Evidence-based Measurement of Gambling Disorder: A Review of Instruments for Different Purposes",
+    32→      "date_created": "2026-06-19T11:19:05.650406",
+    33→      "signal_score": 11,
+    34→      "description_preview": "Gambling Disorder is a significant public health and clinical issue requiring precise and reliable measurement instruments for effective screening, assessment, diagnosis, and treatment outcome evaluat"
+    35→    },
+    36→    {
+    37→      "osf_id": "32nm8_v1",
+    38→      "title": "Olfactory facilitation: A participatory framework for scent as a designed sensory medium",
+    39→      "date_created": "2026-06-19T06:55:10.387469",
+    40→      "signal_score": 9,
+    41→      "description_preview": "Scent is increasingly used across design, education, wellness, dementia care, the arts, and events, yet applied scent practice remains fragmented across perfumery, scent marketing, aromatherapy, remin"
+    42→    },
+    43→    {
+    44→      "osf_id": "txpem_v1",
+    45→      "title": "Development of a Consensus Statement to Guide AI Chatbot Responses to Suicide Risk Disclosure",
+    46→      "date_created": "2026-06-19T18:49:45.763672",
+    47→      "signal_score": 8,
+    48→      "description_preview": "Importance: Adults and youth are increasingly confiding in generative artificial intelligence (AI) chatbots for help with suicidal thoughts, but there is no guidance on best practices for chatbot resp"
+    49→    },
+    50→    {
+    51→      "osf_id": "364ar_v1",
+    52→      "title": "Are We Only Telling Half the Story? Measuring Experiences of Disadvantaging and Advantaging Gender Discrimination",
+    53→      "date_created": "2026-06-19T11:46:01.721298",
+    54→      "signal_score": 7,
+    55→      "description_preview": "Gender discrimination remains a societal problem of pressing concern. Measuring individuals’ experiences of it lays the groundwork for robust research on gender discrimination. However, existing measu"
+    56→    },
+    57→    {
+    58→      "osf_id": "d2sjm_v2",
+    59→      "title": "Italian Adaptation and Psychometric Validation of the Cardiac Distress Inventory in Patients With Recent Cardiac Events",
+    60→      "date_created": "2026-06-19T17:11:53.765262",
+    61→      "signal_score": 7,
+    62→      "description_preview": "Background: Acute cardiac events are accompanied by multifaceted psychological responses that affect individuals' coping capacity. The construct of cardiac distress captures these responses. Although "
+    63→    },
+    64→    {
+    65→      "osf_id": "9hcxr_v1",
+    66→      "title": "Out-Of-Body Experiences During Sleep Show Altered-Self Phenomenology Without A Distinct Clinical Profile",
+    67→      "date_created": "2026-06-19T19:42:50.229900",
+    68→      "signal_score": 7,
+    69→      "description_preview": "Out-of-body experiences (OBEs) during sleep involve a transient disruption of bodily self-consciousness, in which the self or center of awareness is experienced as displaced from the physical body. Al"
+    70→    },
+    71→    {
+    72→      "osf_id": "nz7vf_v1",
+    73→      "title": "People Regulate Emotions During Spontaneous Thought Using Detectable Linguistic Signatures",
+    74→      "date_created": "2026-06-19T20:53:57.724553",
+    75→      "signal_score": 7,
+    76→      "description_preview": "Emotion regulation is a central process through which people shape their emotional lives, yet much of what we know comes from studies of deliberate attempts at regulation. In everyday life, regulation"
+    77→    },
+    78→    {
+    79→      "osf_id": "32d5w_v1",
+    80→      "title": "The effects of introducing measurement-based care in outpatient psychotherapy: a naturalistic study",
+    81→      "date_created": "2026-06-19T21:12:27.505640",
+    82→      "signal_score": 7,
+    83→      "description_preview": "Objective. This study investigated the effectiveness of a newly implemented routine outcome\nmonitoring and feedback system, the Greifswald Psychotherapy Navigation System (GPNS).\nMethods. 261 patients"
+    84→    },
+    85→    {
+    86→      "osf_id": "trhgk_v2",
+    87→      "title": "Parental Deportation and Child Wellbeing: A Dual-Strand Scoping Review of Psychological Evidence and Legal Frameworks",
+    88→      "date_created": "2026-07-05T04:54:44.234118",
+    89→      "signal_score": 6,
+    90→      "description_preview": "Millions of children worldwide live with the fear or reality of a parent being detained or deported, yet the psychologists who study the mental health impacts and the legal experts who handle immigrat"
+    91→    },
+    92→    {
+    93→      "osf_id": "2t4cb_v1",
+    94→      "title": "Text or Speech, the Gap Persists: AI-based Depression Screening Is Better Calibrated for Lower-SES Users",
+    95→      "date_created": "2026-06-19T13:41:32.173869",
+    96→      "signal_score": 6,
+    97→      "description_preview": "The interactional design of digital mental health systems shapes what people say, how they say it, and whose distress becomes legible to automated models. We designed M2SurveyBot, a multimodal chatbot"
+    98→    },
+    99→    {
+   100→      "osf_id": "9gfkh_v1",
+   101→      "title": "Social Media Use, Well-being, and Gender Across the Transition from Adolescence to Early Adulthood",
+   102→      "date_created": "2026-06-19T19:46:09.243071",
+   103→      "signal_score": 6,
+   104→      "description_preview": "Introduction\nSocial media use has become a central feature of adolescent life, yet relatively little is known about whether developmental changes in social media engagement across the transition from "
+   105→    },
+   106→    {
+   107→      "osf_id": "8ryb5_v1",
+   108→      "title": "When Beliefs Resist Change: Belief Updating as a Mechanism in Posttraumatic Stress",
+   109→      "date_created": "2026-06-19T18:16:41.657808",
+   110→      "signal_score": 5,
+   111→      "description_preview": "Objective: Although the phenomenology of PTSD has been well documented, its underlying mechanisms remain only partially understood. Predictive processing accounts propose that danger-related beliefs f"
+   112→    },
+   113→    {
+   114→      "osf_id": "2by6c_v1",
+   115→      "title": "Beyond model-based and model-free learning: irrational successor feature learning in addictive behaviour",
+   116→      "date_created": "2026-06-19T05:14:30.507436",
+   117→      "signal_score": 4,
+   118→      "description_preview": "Addiction has been widely viewed as an example of reinforcement learning gone awry, often attributed to impaired model-based (MB) control and a compensatory shift toward model-free (MF) strategies. Ho"
+   119→    },
+   120→    {
+   121→      "osf_id": "7qcw2_v1",
+   122→      "title": "Bridging the Gap: A Systematic Review of Training Needs and Barriers for Link Workers in Social Prescribing for Mental H",
+   123→      "date_created": "2026-06-19T17:25:19.369505",
+   124→      "signal_score": 4,
+   125→      "description_preview": "Background: Social prescribing has gained momentum as a community-based approach to health and wellbeing, with Link Workers (LWs) playing a key role in connecting individuals to non-clinical support. "
+   126→    },
+   127→    {
+   128→      "osf_id": "5347e_v1",
+   129→      "title": "Acute effects of competitive exercise context and competitive outcomes on mood responses",
+   130→      "date_created": "2026-07-06T07:38:04.843548",
+   131→      "signal_score": 3,
+   132→      "description_preview": "Acute mood responses to exercise are recognised as important determinants of exercise\nadherence, yet the influence of competitive team-game context on these responses remains\nunderexplored. This study"
+   133→    },
+   134→    {
+   135→      "osf_id": "fuwex_v1",
+   136→      "title": "Client AI-First Disclosure in Social Work: Readiness Gaps, Ethics, and Organizational Governance",
+   137→      "date_created": "2026-06-19T07:34:26.598588",
+   138→      "signal_score": 3,
+   139→      "description_preview": "Purpose: Clients may now disclose sensitive concerns to artificial intelligence (AI) tools before contacting a social worker, a practice we define as client AI-first disclosure. This exploratory study"
+   140→    },
+   141→    {
+   142→      "osf_id": "74edc_v2",
+   143→      "title": "Politicians’ use of national identity rhetoric on social media is associated with online engagement",
+   144→      "date_created": "2026-06-19T14:05:46.119518",
+   145→      "signal_score": 3,
+   146→      "description_preview": "Politicians invest in social media to amplify identity-based narratives about their nations, but the nature and extent of such strategies remains unclear. We validated GPT-3.5 as a tool to quantify na"
+   147→    },
+   148→    {
+   149→      "osf_id": "5e7qz_v1",
+   150→      "title": "A Locally-Normed Central-Kurdish (Sorani) Test of Cognitive Ability: Development, Calibration, and Validation",
+   151→      "date_created": "2026-06-19T17:44:19.728019",
+   152→      "signal_score": 3,
+   153→      "description_preview": "Background. Central Kurdish (Sorani) — one of the two principal Kurdish varieties, the first language of several million people — has no published, validated, locally-normed test of cognitive ability."
+   154→    },
+   155→    {
+   156→      "osf_id": "j8szh_v2",
+   157→      "title": "Artificial Intelligence and Individual Differences: A Perspective of the Differential Psychology, Personality Psychology",
+   158→      "date_created": "2026-07-06T07:18:55.254918",
+   159→      "signal_score": 2,
+   160→      "description_preview": "In this paper, we examine artificial intelligence (AI) in the context of studying and measuring individual differences across three current topics: AI as a research tool, the design of human-AI intera"
+   161→    },
+   162→    {
+   163→      "osf_id": "58hdw_v2",
+   164→      "title": "Gaze semantics: A scoping review of how gaze conveys and constrains meaning in social contexts",
+   165→      "date_created": "2026-07-06T09:28:52.494127",
+   166→      "signal_score": 2,
+   167→      "description_preview": "Humans rely heavily on gaze to provide and receive information in social settings. Gaze indicates where another person is attending, but its contribution extends beyond spatial orientation. This scopi"
+   168→    },
+   169→    {
+   170→      "osf_id": "behky_v1",
+   171→      "title": "Playing under pressure: cardiac and electrodermal responses to reward and frustration in preterm and full-term preschool",
+   172→      "date_created": "2026-07-03T11:42:56.400447",
+   173→      "signal_score": 2,
+   174→      "description_preview": "Emotion regulation develops rapidly across early childhood and provides a foundation for later social and emotional functioning, yet its physiological basis in children born preterm remains poorly cha"
+   175→    },
+   176→    {
+   177→      "osf_id": "vdym6_v1",
+   178→      "title": "Humanlike Self-Enhancement and Self-Protection in GPT-Based AI Agents: Of Overclaiming and the Self-Serving Bias",
+   179→      "date_created": "2026-07-01T15:37:47.823205",
+   180→      "signal_score": 2,
+   181→      "description_preview": "We investigated whether GPT-based AI agents, despite presumably lacking humanlike sentience, emulate motivated behavior in group settings. We focused on overclaiming (overestimating one’s contribution"
+   182→    },
+   183→    {
+   184→      "osf_id": "qda2s_v1",
+   185→      "title": "Learned Value and Context-Dependent Probability Independently Bias the Priority of  Competing Goals in Visual Search",
+   186→      "date_created": "2026-06-19T06:20:34.923843",
+   187→      "signal_score": 2,
+   188→      "description_preview": "In life we often have multiple concurrent goals which compete to guide attention. It, \nhowever, remains unclear how we select which goal to prioritise, and whether simple \nassociative pairings can und"
+   189→    },
+   190→    {
+   191→      "osf_id": "v7nue_v2",
+   192→      "title": "Autistic imagination sub-traits are unrelated to visual temporal integration or inference",
+   193→      "date_created": "2026-06-19T09:30:38.659728",
+   194→      "signal_score": 2,
+   195→      "description_preview": "Autistic individuals experience atypical temporal integration, and previous studies have suggested that this atypicality is related to difficulties in imagination. Temporal integration in vision was a"
+   196→    },
+   197→    {
+   198→      "osf_id": "eua92_v1",
+   199→      "title": "fAIr science — How AI can support a transparent biopsychological research cycle",
+   200→      "date_created": "2026-06-19T10:11:15.030130",
+   201→      "signal_score": 2,
+   202→      "description_preview": "Biological psychology links mental phenomena and physiological processes, advancing our understanding of the human condition and informing clinical applications. Unlocking this potential demands rigor"
+   203→    },
+   204→    {
+   205→      "osf_id": "edzxf_v3",
+   206→      "title": "Awareness and Use of Open Research Practices: An International Survey of Researchers Across Disciplines",
+   207→      "date_created": "2026-06-19T11:13:03.644429",
+   208→      "signal_score": 2,
+   209→      "description_preview": "Aim: This mixed methods study investigates international researchers’ awareness and use of open research practices and explores variations across regions, disciplines, methodologies, and career stages"
+   210→    },
+   211→    {
+   212→      "osf_id": "3r62g_v2",
+   213→      "title": "Human Detection of AI-Generated Faces and Voices is Not Domain-General",
+   214→      "date_created": "2026-06-19T11:45:59.185250",
+   215→      "signal_score": 2,
+   216→      "description_preview": "Recent technological advances have resulted in synthetic faces and voices being perceptually indistinguishable from real faces and voices in typical populations. Faces and voices possess rich personal"
+   217→    },
+   218→    {
+   219→      "osf_id": "a2z74_v1",
+   220→      "title": "Task-dependent contribution of interoception and body representation to time perception",
+   221→      "date_created": "2026-06-19T15:04:05.676452",
+   222→      "signal_score": 2,
+   223→      "description_preview": "Evidence from behavioral, neurophysiological, and neuroimaging studies shows that time perception is deeply rooted in bodily self-awareness and relies on brain networks supporting interoceptive and se"
+   224→    },
+   225→    {
+   226→      "osf_id": "9ugmw_v2",
+   227→      "title": "Differential weighting of social and empirical statistical evidence in decision-making",
+   228→      "date_created": "2026-06-19T17:27:38.702156",
+   229→      "signal_score": 2,
+   230→      "description_preview": "The decisions people make can have serious and far-reaching consequences for their lives. Understanding the factors that shape decision-making processes is, therefore, critically important. In five pr"
+   231→    },
+   232→    {
+   233→      "osf_id": "ahm42_v4",
+   234→      "title": "Science and Different Ways of Knowing",
+   235→      "date_created": "2026-06-19T18:03:43.098106",
+   236→      "signal_score": 2,
+   237→      "description_preview": "This paper examines the growing prominence of “different ways of knowing” across disciplines including psychology, global health, and environmental science, and clarifies their relationship to scienti"
+   238→    },
+   239→    {
+   240→      "osf_id": "ud83y_v2",
+   241→      "title": "Two distinct causal beliefs organizing intuitions about mind, action, and body",
+   242→      "date_created": "2026-06-19T18:10:57.292729",
+   243→      "signal_score": 2,
+   244→      "description_preview": "Prior research reveals that people tend to hold two conflicting intuitions: On one hand, people think other people have ethereal minds, which are a distinct kind of thing from, and even exist independ"
+   245→    },
+   246→    {
+   247→      "osf_id": "twj87_v3",
+   248→      "title": "The Psychological Scaffolding of Number",
+   249→      "date_created": "2026-06-19T23:58:05.380269",
+   250→      "signal_score": 2,
+   251→      "description_preview": "Theories of numeracy assume that logical concepts which enable formal definitions of numbers (cardinality, one-to-one correspondence, successor function) play key roles in ontogenesis, but empirical s"
+   252→    },
+   253→    {
+   254→      "osf_id": "8quzg_v1",
+   255→      "title": "The format of metaphorical meaning: Neurophysiological evidence for dynamic and flexible image-based representations",
+   256→      "date_created": "2026-07-06T06:07:39.551100",
+   257→      "signal_score": 1,
+   258→      "description_preview": "Theories of metaphor comprehension have long debated the representational format of metaphorical meaning. While classical accounts describe metaphors as abstract propositional representations, other t"
+   259→    },
+   260→    {
+   261→      "osf_id": "hf7z4_v1",
+   262→      "title": "How Will I Know If You Really Like Me? Assessing the Role of Appearance, Behavior, and Reciprocity for Meta-Liking Accur",
+   263→      "date_created": "2026-07-06T06:39:32.572452",
+   264→      "signal_score": 1,
+   265→      "description_preview": "In first social encounters, people regularly try to figure out whether others like them. When accurate, these meta-liking judgments enable individuals to more optimally engage in social interactions. "
+   266→    },
+   267→    {
+   268→      "osf_id": "7pn2t_v1",
+   269→      "title": "Revisiting the Interpretation of r and R2: A Comment on Funder &amp; Ozer (2019)",
+   270→      "date_created": "2026-07-06T07:06:51.677596",
+   271→      "signal_score": 1,
+   272→      "description_preview": "The article by Funder and Ozer (2019) emphasizes the important aspect that small correlations can be relevant, both theoretically and practically. However, we contend on two key points: (1) We contend"
+   273→    },
+   274→    {
+   275→      "osf_id": "fd37t_v1",
+   276→      "title": "When ASMR Becomes Unpleasant: Acoustic Features and Visual Context Shape Emotional Responses to Eating Sounds",
+   277→      "date_created": "2026-07-06T08:23:50.543397",
+   278→      "signal_score": 1,
+   279→      "description_preview": "Autonomous sensory meridian response (ASMR) videos can evoke both pleasant and unpleasant emotional responses. Eating sounds appear to produce especially large individual differences in these experien"
+   280→    },
+   281→    {
+   282→      "osf_id": "9uksg_v1",
+   283→      "title": "Momentary Cognitive and Self-Regulatory Predictors of Daily Alcohol Use: Intent vs. Inhibition",
+   284→      "date_created": "2026-07-06T08:29:15.115118",
+   285→      "signal_score": 1,
+   286→      "description_preview": "Background. Drinking intentions consistently predict alcohol consumption, but findings for behavioral measures such as inhibitory control are mixed, particularly in earlier stages of use.\nMethods. 142"
+   287→    },
+   288→    {
+   289→      "osf_id": "4yfpw_v1",
+   290→      "title": "The four conceptualizations of social connection",
+   291→      "date_created": "2026-06-19T00:01:34.784971",
+   292→      "signal_score": 1,
+   293→      "description_preview": "Research on social connection has proliferated across psychology over the past two decades, with rapid growth in the past 10–15 years. However, this broad interest has led to ‘social connection’ becom"
+   294→    },
+   295→    {
+   296→      "osf_id": "38d6j_v4",
+   297→      "title": "Autistic traits and temporal integration of auditory and visual stimuli: The role of imagination",
+   298→      "date_created": "2026-06-19T02:31:37.268727",
+   299→      "signal_score": 1,
+   300→      "description_preview": "Autistic individuals face temporal integration difficulties in some sensory modalities that may be related to imagination difficulties. In this study, we tested the hypotheses that among Japanese univ"
+   301→    },
+   302→    {
+   303→      "osf_id": "6vk3h_v1",
+   304→      "title": "Artificial observers and real individual differences: A roadmap for a computational psychometrics of vision",
+   305→      "date_created": "2026-06-19T04:50:06.223345",
+   306→      "signal_score": 1,
+   307→      "description_preview": "Deep neural networks are increasingly used as models of vision, yet they are evaluated against the average observer: average human performance, average neural response, average representational geomet"
+   308→    },
+   309→    {
+   310→      "osf_id": "q2z36_v2",
+   311→      "title": "Unraveling the interplay between sensory information and semantic architecture in brain concept representation: the role",
+   312→      "date_created": "2026-06-19T06:12:39.470414",
+   313→      "signal_score": 1,
+   314→      "description_preview": "INTRODUCTION: Understanding how abstract and concrete words are represented in the brain requires disentangling the contribution of sensorimotor information from the organization of semantic knowledge"
+   315→    },
+   316→    {
+   317→      "osf_id": "mvap6_v4",
+   318→      "title": "The Neuroscience of Metaphor as Abstraction",
+   319→      "date_created": "2026-06-19T06:35:01.735805",
+   320→      "signal_score": 1,
+   321→      "description_preview": "Metaphor has been suggested to be one of the pinnacles of human cognition, yet the neural underpinnings of figurative language is hotly debated and findings are often controversial. The goal of the pr"
+   322→    },
+   323→    {
+   324→      "osf_id": "eybtv_v2",
+   325→      "title": "Genetic and Environmental Contributions to Sensory Processing Sensitivity in Rural and Urban Areas",
+   326→      "date_created": "2026-06-19T06:43:38.397277",
+   327→      "signal_score": 1,
+   328→      "description_preview": "Sensory Processing Sensitivity (SPS) describes a personality trait or a style of processing both external and internal inputs, ranging from very deep and reflective to shallow and quick. Variance in t"
+   329→    },
+   330→    {
+   331→      "osf_id": "c6hp3_v2",
+   332→      "title": "Opening a File Drawer: Surprisingly Consistent Evidence for Semantic Interference from Distractor Pictures in Picture Na",
+   333→      "date_created": "2026-06-19T06:49:08.696164",
+   334→      "signal_score": 1,
+   335→      "description_preview": "Semantic-categorically related distractor words slow down picture naming more than semantically unrelated distractor words do (e.g., the words “dog” vs. “car” for a picture of a horse). This semantic "
+   336→    },
+   337→    {
+   338→      "osf_id": "2jz64_v2",
+   339→      "title": "Prediction Under Pressure: Predictive Sentence Processing in Dyslexia and Second-Language Reading",
+   340→      "date_created": "2026-06-19T07:38:31.221406",
+   341→      "signal_score": 1,
+   342→      "description_preview": "Predictive processing plays a central role in fluent reading, yet it remains unclear how it is modulated by reading difficulties and language context (first vs. second language). The present study inv"
+   343→    },
+   344→    {
+   345→      "osf_id": "qjbfy_v1",
+   346→      "title": "Precision-weighting across domains: A predictive coding framework for language-music integration under uncertainty",
+   347→      "date_created": "2026-06-19T08:56:40.602733",
+   348→      "signal_score": 1,
+   349→      "description_preview": "Predictive Coding Theory (PCT) proposes that perception minimizes mismatches between anticipated and actual input. Although PCT has received empirical support in language comprehension, an open questi"
+   350→    },
+   351→    {
+   352→      "osf_id": "epd3v_v2",
+   353→      "title": "Motions Speak Louder Than Words: Designing Human-like AV Speed Profiles at Crosswalks with a Bayesian Optimisation–Drive",
+   354→      "date_created": "2026-06-19T09:08:43.213882",
+   355→      "signal_score": 1,
+   356→      "description_preview": "Autonomous vehicles (AVs) must communicate yielding intent to pedestrians in mixed traffic to ensure safe interaction, and vehicle decelerating motion is a promising implicit communication channel at "
+   357→    },
+   358→    {
+   359→      "osf_id": "vgjr8_v1",
+   360→      "title": "Necessary Condition Analysis With Psychological Data: A Psychometric Critique",
+   361→      "date_created": "2026-06-19T10:14:38.037640",
+   362→      "signal_score": 1,
+   363→      "description_preview": "This study evaluates the interpretability of Necessary Condition Analysis (NCA) when applied to psychological data, where variables typically represent correlated latent constructs measured through im"
+   364→    },
+   365→    {
+   366→      "osf_id": "2tcdv_v1",
+   367→      "title": "Understanding Visual Attention in Inmates vs. the General Population: The Role of the K Coefficient in Eye-Tracking Rese",
+   368→      "date_created": "2026-06-19T10:38:39.740055",
+   369→      "signal_score": 1,
+   370→      "description_preview": "Although attention patterns are crucial in aggression, their dynamics remain understudied. This study investigates how attentional allocation, measured by the K coefficient, changes across different p"
+   371→    },
+   372→    {
+   373→      "osf_id": "mfzg7_v1",
+   374→      "title": "Let’s protect us Europeans from them: Emotional predictors of outgroup solidarity, ingroup defense, and outgroup derogat",
+   375→      "date_created": "2026-06-19T10:47:28.179861",
+   376→      "signal_score": 1,
+   377→      "description_preview": "The Russian invasion of Ukraine has threatened Europe’s safety and economy. Europeans responded with solidarity towards Ukrainians, demonstrated ingroup strength, but also expressed derogatory attitud"
+   378→    },
+   379→    {
+   380→      "osf_id": "7pkqm_v7",
+   381→      "title": "Evidence for Intergroup Bias in Coalitional but not Selfish Dishonesty",
+   382→      "date_created": "2026-06-19T14:07:14.664964",
+   383→      "signal_score": 1,
+   384→      "description_preview": "People often claim that lying is wrong regardless of whom it helps or harms. Yet in everyday life, dishonesty can serve group interests—protecting allies, advancing teams, or harming rivals. This rais"
+   385→    },
+   386→    {
+   387→      "osf_id": "v28nf_v2",
+   388→      "title": "Extracting Prototypes from Lexical Feature Norms for Settlement Concepts",
+   389→      "date_created": "2026-06-19T14:24:08.090292",
+   390→      "signal_score": 1,
+   391→      "description_preview": "The present study explored whether people share a common understanding of different settlement concepts despite individual variation. Participants completed a property listing task where they were ask"
+   392→    },
+   393→    {
+   394→      "osf_id": "fs7aw_v1",
+   395→      "title": "Revisiting Brain Circuits Subserving Self-Consciousness: A Cognitive Computational Perspective",
+   396→      "date_created": "2026-06-19T14:57:03.772845",
+   397→      "signal_score": 1,
+   398→      "description_preview": "The neural basis of self-consciousness has been intensively investigated for decades, with numerous studies characterizing distributed brain areas engaged in self-related processing. Despite systemati"
+   399→    },
+   400→    {
+   401→      "osf_id": "y2n7w_v1",
+   402→      "title": "Embracing Complexity: A Multifaceted Taxonomy of Children’s Curiosity",
+   403→      "date_created": "2026-06-19T15:04:06.578223",
+   404→      "signal_score": 1,
+   405→      "description_preview": "Despite decades of research, little progress has been made when it comes to understanding both how children’s curiosity develops and its role in other areas of development. We argue that this lack of "
+   406→    },
+   407→    {
+   408→      "osf_id": "b83p6_v1",
+   409→      "title": "The Memory We Miss: Exploratory Behavior as a Window into Developmental Recognition Processes",
+   410→      "date_created": "2026-06-19T17:03:05.593033",
+   411→      "signal_score": 1,
+   412→      "description_preview": "Recognition memory tasks are among the most widely used approaches for studying learning and memory across the lifespan, yet the behavioral measures used to assess memory performance, particularly dur"
+   413→    },
+   414→    {
+   415→      "osf_id": "tje2k_v1",
+   416→      "title": "Perceptual load influences the effect of a peripheral visual priming stimulus in a go/no-go task",
+   417→      "date_created": "2026-06-19T19:21:42.613422",
+   418→      "signal_score": 1,
+   419→      "description_preview": "Several studies have shown that a peripheral visual priming stimulus reduces reaction time to a visual target stimulus at the same position and increases reaction time to a visual target stimulus at t"
+   420→    },
+   421→    {
+   422→      "osf_id": "rdu39_v1",
+   423→      "title": "Moved by the lightest touch of meaning: Even minimal significance matters for motivation from childhood",
+   424→      "date_created": "2026-06-19T19:41:16.688657",
+   425→      "signal_score": 1,
+   426→      "description_preview": "How essential is a sense of significance, the feeling that our efforts matter beyond the trivial or momentary, for motivation? Four studies (N = 604 4-9-year-old children and 582 adults) show that no "
+   427→    },
+   428→    {
+   429→      "osf_id": "7gnj6_v2",
+   430→      "title": "Computing Cohen’s dz from commonly reported statistics: a practical guide for the meta-analysis of paired samples mean d",
+   431→      "date_created": "2026-06-19T19:50:07.154141",
+   432→      "signal_score": 1,
+   433→      "description_preview": "The typical approach to computing standardised mean differences (d) from paired-samples (or within-subjects) designs requires knowing the often-unreported repeated-measures correlation, r_\"repeated\" ."
+   434→    }
+   435→  ]
+   436→}
+   437→

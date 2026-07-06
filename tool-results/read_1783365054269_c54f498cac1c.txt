@@ -1,0 +1,530 @@
+     1→Title: The effects of introducing measurement-based care in outpatient psychotherapy: a
+     2→naturalistic study
+     3→Authors:
+     4→Tim Kaiser (1),
+     5→Selin Demir (2)
+     6→Eva-Lotta Brakemeier (3),
+     7→1: Methods and Evaluation / Quality Assurance, Freie Universität Berlin, Germany
+     8→2: Charité – Universitätsmedizin Berlin, Germany
+     9→3: Chair of Clinical Psychology and Psychotherapy, University of Greifswald, Germany
+    10→Corresponding author:
+    11→Tim Kaiser
+    12→Freie Universität Berlin
+    13→Tim.Kaiser@fu-berlin.de
+    14→Abstract
+    15→Objective. This study investigated the effectiveness of a newly implemented routine outcome
+    16→monitoring and feedback system, the Greifswald Psychotherapy Navigation System (GPNS).
+    17→Methods. 261 patients (M_age = 33 years, 79% female) completed individual cognitive-
+    18→behavioral therapy (CBT) from 61 psychotherapists. Using Bayesian instrumental variable
+    19→estimation, we estimated the local average treatment effect (LATE) of using the GPNS on
+    20→post-treatment symptom severity and personality impairment. Sensitivity analyses were
+    21→performed to estimate the robustness of our estimates.
+    22→Results. Using the GPNS significantly reduced post-treatment symptom severity (LATE = -
+    23→0.11, 95% CrI: -0.18; -0.03) and personality impairment (LATE = -2.65, 95% CrI: -3.72; -
+    24→1.58). Sensitivity analyses showed that the effects were robust to plausible residual
+    25→confounding.
+    26→Conclusion. The GPNS shows promise for improving outcomes of CBT. Future prospective
+    27→trials should be conducted to obtain a more generalizable estimate of its effect.
+    28→
+    29→Introduction
+    30→Measurement-based care (MBC) is a practice that uses routine assessments of the
+    31→patient’s perspective on important process and outcome variables, such as symptoms,
+    32→functioning, the therapeutic alliance, engagement, or treatment motivation. These
+    33→assessments have been implemented as comprehensive feedback systems that process the
+    34→collected data and provide an easy interpretation using cut-off values or more sophisticated
+    35→approaches, like expected treatment response curves based on similar patients . Based on the
+    36→feedback, therapists can notice sudden improvements or deteriorations, a general lack of
+    37→response, or approaching remission. They can collaboratively review the data with their
+    38→patients, decide on adaptations of the treatment approach, and, in training settings, use it as a
+    39→source of information during supervision. More advanced approaches utilize Clinical Support
+    40→Tools (CSTs) which include evidence-based decision trees to enable the data-informed
+    41→personalization of treatment. The effects of using feedback have been studied extensively.
+    42→Current meta-analyses suggest that using feedback improves therapeutic outcomes and
+    43→reduces dropout with small, but robust and additive effects ranging between g = 0.14 and g =
+    44→0.15 without and g = 0.36 and g = 0.49 with CSTs compared to control conditions that did not
+    45→use feedback (De Jong et al., 2021; Lambert et al., 2018).
+    46→The Greifswald Psychotherapy Navigation System (GPNS; Demir et al., 2025) is a
+    47→digital feedback system that uses set of brief weekly questionnaires on symptom severity, the
+    48→therapeutic relationship and insight/understanding. Before the beginning of the session,
+    49→patients fill out a transdiagnostic symptom scale, a suicidality screening as well as a set of
+    50→questions about therapy-related processes in between sessions. After the session, patients fill
+    51→out a process scale that measures the therapeutic relationship as well as the extent of insight
+    52→and understanding of their progress. At the beginning of the session, therapists and patients
+    53→can collaboratively review the current symptom severity, as well as the relationship and
+    54→insight/understanding reported after the last session, via a brief feedback screen. Depending
+    55→on the therapist’s clinical judgment, the patient’s experiences and preferences, as well as the
+    56→results of their collaborative review, the data can be used to modify the course of therapy.
+    57→The GPNS was designed with a modular structure to allow empirical testing of newly
+    58→implemented components and to advance understanding of possible working mechanisms.
+    59→Evaluating the effects of implementing a new practice in each clinical context has
+    60→various advantages. On the one hand, it allows the intervention to be examined under the
+    61→same conditions under which it is intended to operate. Effectiveness studies conducted in
+    62→
+    63→naturalistic settings capture the variability and complexity of patients, therapists, and
+    64→organizational factors that characterize routine care, but are typically strongly constrained in
+    65→clinical trials (Barkham & Margison, 2007; Castonguay et al., 2015). On the other hand, the
+    66→stronger collaboration between researchers and practitioners allows for accompanying
+    67→effectiveness studies by qualitative research on how therapists and patients experience the
+    68→change, how they interpret and use the additional information, and whether their clinical
+    69→decision-making changes over time (Låver et al., 2024).
+    70→From a methodological perspective, the gradual rollout succeeded by a hard
+    71→policy change also creates opportunities for quasi-experimental evaluation. As is often the
+    72→case in naturalistic studies, the non-random assignment of patients to use the GPNS was
+    73→guided by therapist self-selection. While this challenges causal identification of treatment
+    74→effects, the policy shift from voluntary to mandatory use that was based on administrative
+    75→policy rather than clinical criteria results in a “natural experiment” that can help separate the
+    76→effects of the GPNS itself from those of selection or therapist enthusiasm. This allows us to
+    77→preserve the ecological validity of practice-based outcome studies while allowing us to
+    78→identify and estimate causal effects under plausible conditions (Shadish et al., 2002). Thus
+    79→far, the effectiveness of the GPNS has not been evaluated.
+    80→In this study, we used an instrumental variable approach to estimate the causal effect
+    81→of using the GPNS in routine cognitive-behavioral therapy (CBT) on symptom severity and
+    82→personality functioning. With these results, future research can disentangle the effects of
+    83→different components of the GPNS, as the effect of GPNS and the effects of potential new
+    84→components (such as newly developed CSTs) can be tested separately.
+    85→Methods
+    86→Participants
+    87→The Center for Psychological Psychotherapy (ZPP) at the University of Greifswald is
+    88→a university outpatient clinic for cognitive behavioral therapy. The sample (N = 261)
+    89→consisted of patients who completed CBT at the clinic. Table 1 summarizes the patient
+    90→characteristics by group. The sample was predominantly female and relatively young, with
+    91→primary diagnoses of depressive, anxiety, and post-traumatic disorders being the most
+    92→frequent. There were no significant imbalances between the groups regarding
+    93→sociodemographic characteristics, diagnoses, or baseline severity levels, except for a
+    94→significant difference in LPFS baseline scores of 1.97 (95% CI: 0.61; 3.33) points.
+    95→
+    96→Table 1. Patient characteristics in the GPNS and non-GPNS groups.
+    97→GPNS (n = 175) TAU (n = 86) Difference
+    98→Variable Mean / SD / Mean / SD /
+    99→Frequency Percentage Frequency Percentage
+   100→Age 32.65 10.69 35.74 12.50 t(259) = -1.84, p =
+   101→.07
+   102→Gender x2(2) = 2.69, p =
+   103→.26
+   104→Male 36 20.5% 14 16.3%
+   105→Female 129 73.7% 57 83.7%
+   106→Diverse 6 3.4% 0 0%
+   107→Did not 4 2.2% 0 0%
+   108→answer
+   109→Education x2(2) = 1.46, p =
+   110→.48
+   111→ISCED 0-2 10 5.7% 10 9.4%
+   112→ISCED 3-4 121 69.1% 69 65.1%
+   113→ISCED 5-8 41 23.4% 24 22.6%
+   114→Still in 2 1.1% 2 1.9%
+   115→school
+   116→Other 1 0.6% 2 1.9%
+   117→Baseline GSI 1.13 0.57 1.03 0.54 t(259) = -1.44, p =
+   118→.15
+   119→Baseline 26.90 5.23 24.90 5.21 t(259) = -2.87, p =
+   120→
+   121→LPFS .004
+   122→Primary X2(20) = 19.14, p
+   123→diagnosis = 0.51
+   124→F33 41 23.4% 21 24.4%
+   125→F43 22 12.6% 17 19.8%
+   126→F40 40 22.9% 8 9.3%
+   127→F32 17 9.7% 10 11.6%
+   128→F50 11 6.3% 7 8.1%
+   129→F41 10 5.7% 8 9.3%
+   130→F90 7 4% 3 3.5%
+   131→F60 7 4% 3 3.5%
+   132→F34 8 4.6% 2 2.3%
+   133→Others 12 6.9% 7 8.1%
+   134→Note. ISCED: International Standard Classification of Education. ISCED 0-2: no or lower
+   135→school-leaving certificate. ISCED 3-4: Intermediate secondary school or higher education
+   136→entrance qualification. ISCED 5-8: University or university of applied sciences degree,
+   137→including doctorate (PhD or equivalent).
+   138→Intervention
+   139→All patients received individual, non-standardized cognitive behavioral therapy. The
+   140→exact therapeutic techniques varied depending on the diagnosis and case conceptualization.
+   141→Cognitive and behavioral therapy for depression, exposure therapy for anxiety and post-
+   142→traumatic disorders, the Unified Protocol for emotional disorders, as well as various third-
+   143→wave approaches such as Acceptance and Commitment Therapy (ACT) or Cognitive-
+   144→Behavioral Analytic System of Psychotherapy (CBASP) are frequently used.
+   145→In the intervention group, patients were treated while their therapists had access to the GPNS.
+   146→After the GPNS became available, an online training course by the authors was provided to
+   147→
+   148→all therapists. The course included guidance for interpretation of the weekly assessments and
+   149→possible strategies for “not on track” cases following basic recommendations for feedback
+   150→systems (Harmon et al., 2004). Courses were accessible throughout the study.
+   151→The sample was divided into two groups: patients who were treated with CBT while
+   152→the GPNS was in use (“GPNS group”, n = 175) and a “treatment as usual” (TAU) group who
+   153→were treated without GPNS (n = 86). Of the GPNS group, 157 patients were treated while
+   154→using the system after it became mandatory, and 18 before that. Of the TAU group, 80 were
+   155→not treated while using the GPNS before it was mandatory, and six after that. Thus, in total,
+   156→24 non-compliers (9.2%) were observed.
+   157→Instrumental Variable Design
+   158→Instrumental variable (IV) designs allow for the estimation of causal effects in the
+   159→presence of non-random treatment assignment or unmeasured confounding, which is a
+   160→common challenge in naturalistic psychotherapy research. IV addresses the problem of
+   161→confounding using an instrument - a variable that is associated with the exposure to
+   162→treatment, not directly associated with the outcome, except through its effect on treatment,
+   163→and not associated with unmeasured confounders of the treatment-outcome relationship
+   164→(Angrist et al., 1996). In this study, we exploited a change of policy that mandated the use of
+   165→the GPNS feedback system for all patients starting their therapies on or after December 1,
+   166→2021. This date was determined for administrative and logistical reasons unrelated to this
+   167→evaluation. This cutoff serves as a natural experiment: while patients initiating treatment
+   168→before this date could still receive GPNS at their therapist's discretion, patients entering after
+   169→this date were required to receive it. We define an indicator variable that distinguishes
+   170→between patients treated before vs. after this mandate and use it as an instrument for actual
+   171→GPNS use.
+   172→The IV approach estimates the Local Average Treatment Effect (LATE), that is, the
+   173→causal effect of using the GPNS for the subgroup of patients whose treatment assignment was
+   174→influenced by the policy change. In IV terminology, these patients are referred to as
+   175→“compliers”. They received the GPNS because it became mandatory and would not have
+   176→received it otherwise. The LATE is different from the average treatment effect (ATE)
+   177→because it only applies to this subgroup. While this limits the generalizability of the estimate,
+   178→it does not require the strong assumptions that all confounders of treatment and outcome are
+   179→controlled.
+   180→
+   181→Assumptions
+   182→Our study satisfies the assumptions for valid IV designs under three conditions. First,
+   183→relevance: the instrument must be strongly associated with treatment assignment. In our case,
+   184→this would mean that the policy change mandating GPNS use significantly increased the
+   185→probability that patients received feedback, which is empirically testable via the first-stage
+   186→model. Second, we must assume monotonicity: no patients (or therapists) exist who
+   187→systematically do the opposite of what the instrument suggests (i.e., no "defiers" who used
+   188→GPNS only when it was not mandated and stopped using it once it became mandatory). This
+   189→assumption is not testable, but plausible in our context because the mandate required GPNS
+   190→use for new patients, and there is no theoretical reason to expect therapists would
+   191→systematically avoid compliance in response to the policy. Third, we assume the exclusion
+   192→restriction holds: the policy variable must not affect outcomes except through its effect on
+   193→GPNS usage. This is plausible because the policy was introduced for administrative reasons
+   194→unrelated to changes in patient characteristics or therapeutic procedures, and the mandate
+   195→itself did not alter any other aspect of treatment delivery beyond enabling access to the
+   196→feedback system.
+   197→Outcomes
+   198→Our primary research question was whether using the GPNS leads to an improvement
+   199→in therapy outcomes as measured by post-treatment symptom severity. For this, we used the
+   200→total score (“Global Severity Index”, GSI) of the German version of the Brief Symptom
+   201→Inventory (Franke, 2000), which is a well-established transdiagnostic self-report instrument
+   202→for a wide variety of problem areas. The internal consistency (Cronbach's alpha) of the BSI in
+   203→this sample was 0.95, the hierarchical McDonald’s omega was 0.66, and the total
+   204→McDonald’s omega was 0.96. As a secondary outcome, the German version of the Level of
+   205→Personality Functioning Scale Brief Form 2.0 (LPFS-BF 2.0; Spitzer et al., 2021), a self-
+   206→report instrument, was included. This scale is a self-report measure of the core aspects of
+   207→personality disorders, as defined in the alternative model of personality disorders (AMPD) of
+   208→the DSM-5 (American Psychiatric Association, 2013). We chose personality functioning as
+   209→an additional outcome as it was found to be predictive of the long-term stability of changes
+   210→achieved in psychotherapy (Huber et al., 2017). The internal consistency of the LPFS-BF 2.0
+   211→was alpha = 0.84, the hierarchical McDonald’s omega was 0.57, and the total omega was
+   212→0.86.
+   213→
+   214→Statistical analysis
+   215→To estimate the causal effect of GPNS feedback on clinical outcomes, we used a
+   216→Bayesian instrumental variable (IV) approach implemented via the {brms} package in R
+   217→(Bürkner, 2017). The model jointly estimates a first-stage treatment equation predicting
+   218→GPNS use and second-stage outcome equations for post-treatment symptom severity (GSI)
+   219→and personality functioning (LPFS) within a single hierarchical Bayesian framework. This
+   220→joint estimation propagates uncertainty from the treatment model to the outcome models. The
+   221→binary treatment variable (1 = GPNS used; 0 = no GPNS used) was modeled as a function of
+   222→the policy-mandated rollout indicator (1 = GPNS use mandatory; 0 = not mandatory), as well
+   223→as baseline GSI and LPFS scores and their interactions with the treatment variable. The
+   224→rollout indicator serves as the instrument, identifying variation in treatment uptake
+   225→attributable to the policy assignment rather than individual patient characteristics. The
+   226→outcome models included GPNS use, the same baseline covariates, and random intercepts for
+   227→therapists to account for clustering. In addition, we allowed subject-level random intercepts to
+   228→be correlated across treatment and outcome equations, capturing shared latent heterogeneity
+   229→after conditioning on observed covariates. This specification permits residual dependence
+   230→between treatment propensity and outcomes while identifying the causal effect through
+   231→variation induced by the instrument. Figure 1 depicts the assumed causal model for this study.
+   232→Figure 1. Directed acyclic graph representing the assumed causal paths between variables in
+   233→the main model.
+   234→
+   235→Note. Solid lines represent causal influences. Grey variables are not observed. Dashed lines
+   236→represent influences by unobserved variables. LPFS: Level of Personality Functioning Scale,
+   237→Brief Form 2.0. GSI: Brief Symptom Inventory total score (Global Severity Index).
+   238→All models were estimated using Markov Chain Monte Carlo (MCMC) with four
+   239→chains, 1000 warmup draws, and 4000 iterations per chain. Because the model includes
+   240→interactions between treatment and baseline severity, the regression coefficient for the
+   241→treatment variable no longer captures a single, directly interpretable quantity. Following
+   242→Rohrer and Arel-Bundock (2026), we derive a clearly defined target quantity rather than
+   243→interpreting coefficients directly. Specifically, we compute the local average treatment effect
+   244→(LATE) by generating counterfactual predictions for each observed unit under treatment and
+   245→control conditions and averaging the differences across the sample. This quantity can be
+   246→interpreted as the average effect of GPNS usage among compliers, i.e., patients whose
+   247→treatment assignment was influenced by the policy change, averaged over the observed
+   248→distribution of baseline severity. Uncertainty was quantified using the posterior distribution of
+   249→the Bayesian model. All marginal effects were computed using the marginaleffects package
+   250→for R (Arel-Bundock et al., 2024).
+   251→
+   252→Basic standardized mean differences (SMDs) were obtained by dividing the effect
+   253→estimates by the standard deviations of the pre-treatment values of the outcome variables. As
+   254→the GPNS usage variable was binary, we modeled it using the Bernoulli distributional family
+   255→with a logit link function. The post-treatment GSI score was skewed due to floor effects, so
+   256→that we modeled it using a skewed normal distribution. Posterior predictive checks were used
+   257→to ascertain the adequacy of the chosen distributional families.
+   258→Despite the use of an instrumental variable design, residual bias remains possible if
+   259→the core IV assumptions are violated. The independence assumption - that the policy cutoff
+   260→date is unrelated to patient outcomes except through GPNS use - is supported by the
+   261→administrative rationale for the December 2021 date, which was determined by logistical
+   262→rather than clinical considerations. Nevertheless, unmeasured time-varying confounders (e.g.,
+   263→seasonal intake patterns, concurrent clinical changes) could hypothetically introduce a
+   264→residual association between the instrument and outcomes. Similarly, the exclusion restriction
+   265→could be violated if the mandate affected outcomes through pathways beyond GPNS use
+   266→itself, such as broader changes in therapist monitoring behavior or accompanying
+   267→implementation activities. To assess the robustness of our estimates to such violations, we
+   268→conducted a sensitivity analysis quantifying how large a residual correlation between the
+   269→instrument and outcomes would need to be to nullify our findings. Specifically, we examined
+   270→how varying degrees of residual latent dependence between the treatment propensity (as
+   271→modeled in the first-stage equation) and the post-treatment outcome scores (GSI and LPFS)
+   272→would affect the posterior distribution of the treatment effect. We introduced a sensitivity
+   273→parameter (ρ) representing the correlation between latent subject-level propensities for
+   274→treatment and outcome after conditioning on observed covariates in both equations. Because
+   275→residual correlations are not directly defined for non-Gaussian outcomes, this correlation is
+   276→defined on the latent (linear predictor) scale. For each value of ρ, we adjusted posterior draws
+   277→of the treatment effect using a linear bias approximation:
+   278→𝑏𝑖𝑎𝑠(𝛽') = 𝜌⋅𝜎 ,
+   279→!"#$%&'
+   280→where σ is the residual standard deviation of the outcome model. This approach
+   281→!"#$%&'
+   282→quantifies how strong residual latent confounding between treatment assignment and
+   283→outcomes would need to be to attenuate or eliminate the estimated effect of GPNS feedback.
+   284→Results
+   285→
+   286→The model showed that, after adjusting for baseline symptom severity, patients who were
+   287→treated while using the GPNS had lower post-treatment symptom severity and personality
+   288→impairment. The LATE was estimated as -0.12 BSI points (95% CrI: -0.20; -0.04),
+   289→corresponding to an SMD of -0.21 (95% CrI: -.36; -.07). For the LPFS, the LATE was
+   290→estimated as -3.74 points (95% CrI: -4.97; -2.51), corresponding to an SMD of -0.71 (95%
+   291→CrI: -0.94; -0.47). The fixed effects of the model explained 11.94% of the variance of the GSI
+   292→(95% CrI: 6.20%; 18.45%), and 45.70% of variance of the LPFS (95% CrI: 38.48%;
+   293→52.22%).
+   294→The interaction of GPNS usage and baseline LPFS Model was credibly different from
+   295→zero, suggesting that patients reporting greater personality impairment profit more strongly
+   296→from feedback-informed therapy. Based on norms for the German population (Spitzer et al.,
+   297→2021), we determined that the LATE for patients with LPFS scores 1.5 standard deviations
+   298→above the general population average was -0.15 (95% CrI: -0.24; -0.06) on the GSI and -4.08
+   299→(95% CrI: -5.39; -2.75) on the LPFS, corresponding to SMDs of -0.26 and -0.77. This
+   300→increased to a LATE of -0.29 (95% CrI: -0.49; 0.08, SMD: -0.52), -5.66 (95% CrI: -7.63; -
+   301→3.65, SMD: -1.07), respectively, for patients 2.5 standard deviations above the average.
+   302→Model coefficients are reported in Table 2.
+   303→The instrument was strongly predictive of GPNS usage, 𝛽 = 4.18,
+   304→()*+)#%,-
+   305→corresponding to an increase of GPNS usage probability from 0.24 to 0.93. From posterior
+   306→draws, we estimated a correlation of 0.43 (95% CrI: 0.33; 0.52) between the residuals of post-
+   307→treatment GSI and LPFS scores, suggesting shared patient-level or process-related influences
+   308→that are not captured by the included predictors. Residuals of the treatment variable and
+   309→outcome scores were not different from zero for both outcome scales (𝑟 = 0.01,
+   310→./01,.13!"#$
+   311→95% CrI: -0.11; 0.13, and 𝑟 = −0.03, 95% CrI: -0.15; 0.09).
+   312→./01,4/51!"#$
+   313→Table 2. Multivariate Bayesian instrumental variable regression predicting post-treatment
+   314→symptom severity from GPNS use and baseline severity.
+   315→Target Parameter Estimate 95% CI Est. error
+   316→GPNS (Intercept) -2.47 –4.92; -0.71 1.08
+   317→𝐺𝑆𝐼 0.15 -0.59; 0.89 0.38
+   318→6,'
+   319→
+   320→𝐿𝑃𝐹𝑆 0.05 -0.04; 0.14 0.04
+   321→6,'
+   322→Mandatory 4.18 3.37; 5.07 0.43
+   323→𝐺𝑆𝐼 (Intercept) -0.31 -0.68; 0.06 0.19
+   324→6%7#
+   325→𝐺𝑆𝐼 0.06 -0.05; 0.17 0.05
+   326→6,'
+   327→𝐿𝑃𝐹𝑆 0.03 0.02; 0.05 0.01
+   328→6,'
+   329→GPNS 0.32 -0.12; 0.75 0.22
+   330→𝐺𝑆𝐼 × GPNS -0.03 -0.15; 0.11 0.07
+   331→6,'
+   332→𝐿𝑃𝐹𝑆 × GPNS -0.02 -0.03; 0.00 0.01
+   333→6,'
+   334→𝐿𝑃𝐹𝑆 (Intercept) 0.46 -2.68; 3.67 1.60
+   335→6%7#
+   336→𝐺𝑆𝐼 -0.13 -1.31; 1.06 0.62
+   337→6,'
+   338→𝐿𝑃𝐹𝑆 0.90 0.76; 1.03 0.62
+   339→6,'
+   340→GPNS -0.15 -2.04; 1.76 0.97
+   341→𝐺𝑆𝐼 × GPNS 0.87 -0.53; 2.25 0.70
+   342→6,'
+   343→𝐿𝑃𝐹𝑆 × GPNS -0.17 -0.28; -0.07 0.05
+   344→6,'
+   345→Random effects
+   346→Therapist level 𝜎 0.36 0.01; 1.00 0.27
+   347→./01
+   348→𝜎 0.03 0.00; 0.08 0.02
+   349→.13!"#$
+   350→𝜎 0.35 0.01; 0.96 0.26
+   351→4/51!"#$
+   352→Patient level 𝜎 0.38 0.01; 1.05 0.28
+   353→./01
+   354→𝜎 0.03 0.00; 0.08 0.02
+   355→.13!"#$
+   356→
+   357→𝜎 0.47 0.02; 1.33 0.35
+   358→4/51!"#$
+   359→Distributional 𝜎 0.39 0.35; 0.43 0.02
+   360→.13!"#$
+   361→parameters
+   362→𝛼 5.29 3.81; 7.00 0.82
+   363→.13!"#$
+   364→𝜎 4.69 4.30; 5.13 0.21
+   365→4/51!"#$
+   366→Note. N = 261. GSI: Brief Symptom Inventory total score (Global Severity Index) measured
+   367→before the beginning of therapy. LPFS: Level of Personality Functioning Scale-Brief Form
+   368→2.0 sum score measured before the beginning (pre) and at the end (post) of therapy.
+   369→Mandatory: binary rollout indicator variable (1: mandatory, 0: not mandatory). GPNS: binary
+   370→treatment variable (1: GPNS was used, 0: GPNS was not used). Distributional parameters
+   371→represent scale parameters for Gaussian variables (𝜎), and skew parameters for skewed
+   372→normal variables (𝛼).
+   373→Sensitivity Analysis
+   374→The sensitivity analysis for instrument invalidity showed that the effect estimates’
+   375→95% CrIs did not include zero if the residual correlation was lower than ρ = -.09 for the BSI-
+   376→GSI and lower than -.54 for the LPFS. Point estimates would be zero for ρ = -.31 (GSI) and ρ
+   377→= -.81 (LPFS).
+   378→Figure 2. Results of residual confounding sensitivity analyses
+   379→
+   380→Note. Results of the sensitivity analysis for robustness of the estimated GPNS effect on post-
+   381→treatment GSI (A) and LPFS (B) scores to residual confounding. The x-axis represents
+   382→hypothetical values of the residual correlation (ρ) between the instrumented treatment
+   383→(model-implied propensity of GPNS use) and the outcome, reflecting unmeasured
+   384→confounding. The y-axis shows the adjusted posterior mean of the GPNS effect, computed by
+   385→subtracting the implied bias for each ρ from the original posterior mean. The shaded area
+   386→indicates a 95% credible interval for the adjusted estimates based on posterior predictive
+   387→simulation. Colored dots with error bars represent the treatment effect estimates from the IV
+   388→model (red) after adjusting posterior draws for linear bias approximation using the estimated
+   389→residual correlations (blue). The vertical grey band indicates the 95% credible interval for the
+   390→respective bias-adjusted effect.
+   391→Discussion
+   392→In routine care settings, it can be challenging to estimate the effects of newly
+   393→introduced procedures. Using a study design that is relatively new to psychotherapy research,
+   394→we could show that adding a psychometric feedback system to usual treatment at the
+   395→outpatient clinic improved treatment outcomes. The Bayesian modeling approach showed to
+   396→
+   397→have some benefits over more traditional implementations like Two-Stage Least-Squares
+   398→(2SLS) regression, as it allowed us to include multiple outcomes and to model residual
+   399→correlations between outcomes and the treatment variable, thus allowing for sensitivity
+   400→analyses. For the BSI-GSI outcome, the estimated effect is robust to small levels of residual
+   401→latent confounding and would require moderately strong confounding to be fully attenuated.
+   402→For LPFS, the posterior mean effect is highly robust, requiring strong latent confounding to
+   403→be reduced to zero, whereas interval estimates are more sensitive, requiring moderate residual
+   404→confounding to include zero.
+   405→For clinical practice, these results imply a benefit of institutional mandates to use
+   406→feedback. However, considering the effect of therapist attitude on the association of feedback
+   407→with improved therapeutic outcomes (Lutz et al., 2021), institutional mandates should be
+   408→accompanied by sufficient background information regarding the benefits of feedback. This
+   409→might counter potential biases and reduce the research-practice gap. The influence of
+   410→therapist expectations on the frequency and effectiveness of feedback usage has been
+   411→proposed as a plausible effect modifier (Herzog et al., 2023), empirical research on this
+   412→hypothesis is still lacking. Other working mechanisms might be plausible as well. Recently,
+   413→using a single-case experimental design, Demir et al. (2025) demonstrated that the therapeutic
+   414→alliance improved after introducing brief, structured discussions of PROM results at the
+   415→beginning of therapy sessions. This further substantiates results from a mediation analysis
+   416→(Brattland et al., 2019). A qualitative study on patient-therapist dyads using the GPNS
+   417→suggested that clinicians might indeed underestimate the benefits and relevance of feedback,
+   418→while on the patient side, themes of increased self-awareness, reflection, and understanding
+   419→emerged. Future research could focus on measures to predict feedback usage and based on
+   420→these results, develop suitable interventions to increase effective feedback usage.
+   421→While the effects on symptom severity are in line with meta-analytic findings, the
+   422→effect on personality functioning exceeds them, with interaction effects indicating an
+   423→increased benefit for patients with more severe personality impairment. Currently, there is
+   424→little empirical evidence for the effect of feedback systems on this construct. Some evidence
+   425→suggests that patients with certain personality disorders benefit less from PROM systems (de
+   426→Jong et al., 2018) while Demir et al. (2025) did not find that personality functioning
+   427→moderates the effects of the GPNS on the therapeutic alliance. One potential explanation
+   428→might be that increases in self-awareness and insight (Demir, Wrase, et al., 2025) specifically
+   429→help patients who show a lack of self-knowledge (Kaiser, 2026).
+   430→
+   431→Some limitations of our study need to be acknowledged. Firstly, our study was not
+   432→preregistered and merely took advantage of a natural experiment for evaluation purposes.
+   433→Second, the LATE only applies to patients whose therapists adhered to the policy change in
+   434→their cases. While compliance was satisfactory and defiance unlikely, caution is advised when
+   435→generalizing to other treatment settings. Third, the limited sample size affects the precision of
+   436→parameter estimates and thus the certainty of our findings. Furthermore, due to the setting, the
+   437→study population consisted mostly of younger and highly educated outpatients, limiting the
+   438→generalizability of these results to older, more diverse and higher impaired populations or
+   439→inpatient settings. In future research, the causal effect of the GPNS should be evaluated in
+   440→other clinics, settings and with other forms of psychotherapy. Randomized controlled trials
+   441→should further substantiate our findings.
+   442→To conclude, GPNS feedback appears to cause an additional symptom reduction and
+   443→improvement in personality functioning in routine CBT when implemented via a clinic-wide
+   444→policy change. Future research should explore working mechanisms especially in patients
+   445→with personality impairment, and validate the findings in prospective, randomized controlled
+   446→trials.
+   447→Acknowledgements
+   448→The authors would like to thank Aline Felk and Lena Spies for their support in preparing the
+   449→data.
+   450→References
+   451→American Psychiatric Association. (2013). Diagnostic and statistical manual of mental
+   452→disorders (DSM-5®). American Psychiatric Publishing.
+   453→Angrist, J. D., Imbens, G. W., & Rubin, D. B. (1996). Identification of Causal Effects Using
+   454→Instrumental Variables. Journal of the American Statistical Association, 91(434),
+   455→444–455.
+   456→Arel-Bundock, V., Greifer, N., & Heiss, A. (2024). How to Interpret Statistical Models Using
+   457→marginaleffects for R and Python. Journal of Statistical Software, 111(9).
+   458→https://doi.org/10.18637/jss.v111.i09
+   459→Barkham, M., & Margison, F. (2007). Practice-based Evidence as a Complement to
+   460→Evidence-based Practice: From Dichotomy to Chiasmus. In C. Freeman & M. Power
+   461→
+   462→(Eds.), Handbook of Evidence-based Psychotherapies (pp. 443–476). John Wiley &
+   463→Sons, Ltd.
+   464→Brattland, H., Koksvik, J. M., Burkeland, O., Klöckner, C. A., Lara-Cabrera, M. L., Miller, S.
+   465→D., Wampold, B., Ryum, T., & Iversen, V. C. (2019). Does the working alliance
+   466→mediate the effect of routine outcome monitoring (ROM) and alliance feedback on
+   467→psychotherapy outcomes? A secondary analysis from a randomized clinical trial.
+   468→Journal of Counseling Psychology, 66(2), 234–246.
+   469→https://doi.org/10.1037/cou0000320
+   470→Bürkner, P.-C. (2017). Advanced Bayesian Multilevel Modeling with the R Package brms. R
+   471→Journal, 10(1), 395–411. https://doi.org/10.32614/RJ-2018-017
+   472→Castonguay, L. G., Youn, S. J., Xiao, H., Muran, J. C., & Barber, J. P. (2015). Building
+   473→clinicians-researchers partnerships: Lessons from diverse natural settings and
+   474→practice-oriented initiatives. Psychotherapy Research, 25(1), 166–184.
+   475→https://doi.org/10.1080/10503307.2014.973923
+   476→De Jong, K., Conijn, J. M., Gallagher, R. A. V., Reshetnikova, A. S., Heij, M., & Lutz, M. C.
+   477→(2021). Using progress feedback to improve outcomes and reduce drop-out, treatment
+   478→duration, and deterioration: A multilevel meta-analysis. Clinical Psychology Review,
+   479→85, 102002. https://doi.org/10.1016/j.cpr.2021.102002
+   480→de Jong, K., Segaar, J., Ingenhoven, T., van Busschbach, J., & Timman, R. (2018). Adverse
+   481→Effects of Outcome Monitoring Feedback in Patients With Personality Disorders: A
+   482→Randomized Controlled Trial in Day Treatment and Inpatient Settings. Journal of
+   483→Personality Disorders, 32(3), 393–413. https://doi.org/10.1521/pedi_2017_31_297
+   484→Demir, S., Bartholdy, S., Tewes, M., Brakemeier, E.-L., & Kaiser, T. (2025). Advances in
+   485→Routine Outcome Monitoring and Feedback Systems: Insights from the Greifswald
+   486→Psychotherapy Navigation System (GPNS). In J. Rubel & W. Lutz (Eds.), Feedback
+   487→Informed Psychological Therapy (pp. 43–67). Springer Nature Switzerland.
+   488→https://doi.org/10.1007/978-3-031-90428-8_4
+   489→Demir, S., Brakemeier, E.-L., & Kaiser, T. (2025). Does structured, psychometrically based
+   490→feedback discussion cause improvements of the therapeutic alliance? A single-case
+   491→experimental study. Cognitive Behaviour Therapy, 0(0), 1–13.
+   492→https://doi.org/10.1080/16506073.2025.2589387
+   493→Demir, S., Wrase, P., Brakemeier, E.-L., & Kaiser, T. (2025). Let’s Talk About Us: Insights
+   494→Into the Impact of Routine Outcome Monitoring on Therapeutic Dyads. Counselling
+   495→and Psychotherapy Research, 25(4), e70068. https://doi.org/10.1002/capr.70068
+   496→
+   497→Franke, G. H. (2000). Brief Symptom Inventory (BSI) von LR Derogatis—Deutsche Version.
+   498→Beltz Test.
+   499→Huber, D., Zimmermann, J., & Klug, G. (2017). Change in personality functioning during
+   500→psychotherapy for depression predicts long-term outcome. Psychoanalytic
+   501→Psychology, 34(4), 434–445. https://doi.org/10.1037/pap0000129
+   502→Kaiser, T. (2026). Toward mechanistic clarity in personality functioning: A behavioral
+   503→account of the self. Journal of Psychopathology and Clinical Science, 135(3), 343–
+   504→344. https://doi.org/10.1037/abn0001105
+   505→Lambert, M. J., Whipple, J. L., & Kleinstäuber, M. (2018). Collecting and delivering progress
+   506→feedback: A meta-analysis of routine outcome monitoring. Psychotherapy, 55(4),
+   507→520–537. https://doi.org/10.1037/pst0000167
+   508→Låver, J., McAleavey, A., Valaker, I., Castonguay, L. G., & Moltu, C. (2024). Therapists’
+   509→and patients’ experiences of using patients’ self-reported data in ongoing
+   510→psychotherapy processes—A systematic review and meta-analysis of qualitative
+   511→studies. Psychotherapy Research, 34(3), 293–310.
+   512→https://doi.org/10.1080/10503307.2023.2222896
+   513→Lutz, W., Deisenhofer, A.-K., Rubel, J., Bennemann, B., Giesemann, J., Poster, K., &
+   514→Schwartz, B. (2021). Prospective evaluation of a clinical decision support system in
+   515→psychological therapy. Journal of Consulting and Clinical Psychology, 90(1), 90–106.
+   516→https://doi.org/10.1037/ccp0000642
+   517→Rohrer, J. M., & Arel-Bundock, V. (2026). Models as Prediction Machines: How to Convert
+   518→Confusing Coefficients Into Clear Quantities. Advances in Methods and Practices in
+   519→Psychological Science, 9(2), 25152459261424825.
+   520→https://doi.org/10.1177/25152459261424825
+   521→Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). Experimental and quasi-
+   522→experimental designs for generalized causal inference (pp. xxi, 623). Houghton,
+   523→Mifflin and Company.
+   524→Spitzer, C., Müller, S., Kerber, A., Hutsebaut, J., Brähler, E., & Zimmermann, J. (2021). Die
+   525→deutsche Version der Level of Personality Functioning Scale-Brief Form 2.0 (LPFS-
+   526→BF): Faktorenstruktur, konvergente Validität und Normwerte in der
+   527→Allgemeinbevölkerung. PPmP - Psychotherapie · Psychosomatik · Medizinische
+   528→Psychologie, 71(07), 284–293. https://doi.org/10.1055/a-1343-2396
+   529→
+   530→

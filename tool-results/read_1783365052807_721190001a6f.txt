@@ -1,0 +1,745 @@
+     1→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+     2→USERS 1
+     3→Text or Speech, the Gap Persists: AI-based Depression Screening Is Better
+     4→Calibrated for Lower-SES Users
+     5→Sunny Rai, Neil K. R. Sehgal, Khanhvy Nguyen, and and Sharath Chandra Guntuku
+     6→University of Pennsylvania
+     7→sunnyrai@seas.upenn.edu
+     8→
+     9→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+    10→USERS 2
+    11→Abstract
+    12→The interactional design of digital mental health systems shapes what people say, how they
+    13→say it, and whose distress becomes legible to automated models. We designed M2SurveyBot,
+    14→a multimodal chatbot developed with clinical psychologists, to examine whether interaction
+    15→modality that is, typing versus speech, affects self-disclosure and depression screening. In a
+    16→study with 455 U.S. participants, typed and spoken modalities yielded statistically
+    17→indistinguishable predictive performance, while acoustic features alone carried near-zero
+    18→signal. Critically, we find a robust SES-related calibration gap replicated across supervised
+    19→models and GPT-4o zero-shot estimation: predictions track depression severity more closely
+    20→for lower-SES participants, suggesting the gap reflects genuine socioeconomic differences in
+    21→linguistic expression of distress. These findings challenge the assumption that multimodal
+    22→collection produces more equitable screening, while establishing spoken interaction as a
+    23→viable, accessible alternative to typed text, potentially lower-barrier for populations for
+    24→whom typing poses challenges.
+    25→Keywords: depression screening, chatbot, self-disclosure, multimodal depression
+    26→detection, interaction mode, socioeconomic status, mental health, fairness, bias
+    27→
+    28→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+    29→USERS 3
+    30→Text or Speech, the Gap Persists: AI-based Depression Screening Is Better
+    31→Calibrated for Lower-SES Users
+    32→Introduction
+    33→Mental health services remain inaccessible to the majority of people who need
+    34→them (American Psychological Association, 2025; Mental Health America, 2025), and
+    35→AI-assisted conversational tools are increasingly used to fill much of the resulting gap (Cho
+    36→et al., 2023). Yet the AI models that underpin these tools were largely trained on social
+    37→media language, and a critical limitation has emerged: they do not predict depression
+    38→equally well across demographic groups (Aguirre et al., 2021; Rai et al., 2024). A structural
+    39→explanation is that public platform expression is shaped by social desirability bias: people
+    40→manage self-presentation for an audience in ways that reflect their social position (De Freitas,
+    41→2024), suppressing or distorting disclosures of stigmatized experience. This raises a
+    42→foundational design question: in a controlled, private setting, does differential model
+    43→performance persist—and can design choices, including interaction modality, improve both
+    44→disclosure and equity?
+    45→These questions are worth testing because theoretical arguments support both
+    46→modalities. Text affords anonymity, reflection time, and the “online disinhibition effect,”
+    47→which can elicit more candid disclosure of stigmatized experience (Schober et al., 2015; Suler,
+    48→2004). Spoken interaction may feel more natural, reducing the cognitive effort of composing
+    49→responses thus lowering barriers to self-disclosure (Lucas et al., 2014; Rai et al., 2026), and
+    50→may be essential for populations for whom typing poses barriers (Sehgal et al., 2025a, 2025b).
+    51→Crucially, while multimodal approaches to mental health detection have been studied (Jiang
+    52→et al., 2024; Khoo et al., 2024), prior work has focused on passive sensing and clinical
+    53→recordings rather than interaction modality choice in conversational screening tools — and
+    54→no prior work has examined whether the modality through which a user engages with a
+    55→mental health chatbot interacts with socioeconomic status to shape both disclosure and
+    56→model calibration.
+    57→
+    58→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+    59→USERS 4
+    60→We developed M2SurveyBot, a multimodal chatbot designed with clinical
+    61→psychologists to conduct semi-structured mental health interviews, and deployed it in a
+    62→controlled study with 455 U.S. adults. We examine:
+    63→• RQ1: Does interaction modality (text vs. audio) affect self-disclosure depth?
+    64→• RQ2: Does modality affect depression prediction, and do paralinguistic features add
+    65→signal beyond text?
+    66→• RQ3: Does socioeconomic status moderate depression prediction across modalities?
+    67→M2SurveyBot: A Multimodal Chatbot for Conducting Mental Health Interviews
+    68→We developed M2SurveyBot, a multimodal conversational survey system designed to
+    69→collect open-ended mental health narratives through text and audio interaction. The chatbot
+    70→was developed in collaboration with clinical psychologists and administered a fixed sequence
+    71→of eight questions covering emotional experiences, daily life, concerns, and future orientation
+    72→(see Appendix A). To maintain conversational flow, GPT-4o generated brief follow-up
+    73→prompts and empathetic affirmations to encourage sharing details, while avoiding clinical
+    74→diagnosis or therapeutic claims.
+    75→Interaction Modes. In text mode, participants read questions on screen and
+    76→typed responses. In audio mode, questions were delivered via ElevenLabs text-to-speech;
+    77→participants responded aloud, and responses were transcribed in real time using OpenAI
+    78→Whisper Automatic Speech Recognition (ASR), with transcripts displayed on-screen for
+    79→participant correction.
+    80→Safety and Quality Controls. A prominent disclaimer provided crisis resources
+    81→(988 Suicide and Crisis Lifeline). Responses were screened for self-harm language using a
+    82→manually validated automated detection module using GPT-3.5 Turbo; flagged sessions were
+    83→immediately terminated with referrals. Text fields disabled copy-paste to discourage
+    84→pre-written material, and a RoBERTa-based relevance checker prompted clarification for
+    85→off-topic responses.
+    86→
+    87→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+    88→USERS 5
+    89→Instruction Video Tutorial. To familiarize participants with the chatbot interface,
+    90→we provided an instructional video tutorial demonstrating each feature and the expected
+    91→interaction flow at the beginning of the survey.
+    92→Sample Characteristics
+    93→We recruited 831 U.S. adults aged 18+ via Prolific and CloudResearch. After quality
+    94→checks (age > 90, word count < 300 (Rai et al., 2024), and PHQ score inconsistency > 5
+    95→across sessions), 455 participants remained (345 text, 313 audio, 203 both; see Table A1).
+    96→Participants completed two sessions. In each session, they first completed depression
+    97→screening questionnaire PHQ-9 (excluding the question on self-harm) and demographic
+    98→questions via Qualtrics, then engaged with M2SurveyBot in the assigned modality.
+    99→Participants were randomly assigned to either audio-based or text-based interaction in their
+   100→first session, then received the alternative modality in a follow-up session after 3 days.
+   101→Interaction modality was counterbalanced across sessions to control for order effects. 14.46%
+   102→of transcripts were flagged as incorrect, 97.09% of them subsequently edited them via the
+   103→provided correction interface (Word error rate: M = 0.613,SD = 1.607; see Table A2 for
+   104→examples). Participants who did not complete both sessions were matched for age and
+   105→gender across conditions. All procedures were IRB-approved (#857296), and participants
+   106→provided consent at the beginning of the session and were compensated at rate of $15/hr.
+   107→Methods
+   108→Measuring Self-Disclosure
+   109→We employed three complementary approaches: (1) LIWC - first-person singular
+   110→pronoun frequency (Boyd et al., 2022; Tausczik & Pennebaker, 2010), (2) pre-trained
+   111→RoBERTa self-disclosure classifier that outputs continuous disclosure scores, computed
+   112→at the message level (Reuel et al., 2022) and (3) GPT-4o rubric scoring on three
+   113→dimensions: information, thought, and feeling (each on a 1–3 scale) (Fang et al., 2025) (see
+   114→Appendix for prompt).
+   115→
+   116→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   117→USERS 6
+   118→Depression Risk Assessment
+   119→Machine Learning with Linguistic Features.
+   120→We built predictive models using four text-based feature representations:
+   121→(1) RoBERTa-base embeddings(Liu et al., 2019); (2) LIWC category frequencies;
+   122→(3) N-grams; and (4) LDA topic distributions (50 topics). For audio-condition
+   123→participants, we additionally extracted 376 acoustic features using OpenSMILE (eGeMAPS
+   124→feature set) (Eyben et al., 2010) and Librosa (McFee et al., 2024), aggregated to the
+   125→participant level via statistics pooling (see appendix). We also constructed a combined
+   126→spoken feature vector by concatenating transcript embeddings with acoustic features (768 +
+   127→376 = 1,144 dimensions).
+   128→We performed Elastic Net regression with default parameters (α = 1, L1-ratio = 0.5)
+   129→with 10-fold cross-validation (stratified by SES status), reporting Pearson r with depression
+   130→severity scores and MAE.
+   131→LLM-Based Depression Severity Inference.
+   132→We applied GPT-4o zero-shot to directly estimate depression severity scores from
+   133→concatenated participant responses, using a structured prompt listing each PHQ-9 item on
+   134→the standard 0–3 scale (see Appendix). This method was applied post-hoc and did not
+   135→influence the live interaction.
+   136→SES Measurement and Moderation Analysis
+   137→We constructed a composite SES index by averaging z-scored education (8 levels) and
+   138→household income (12 levels), split at the sample median (education–income r = 0.35; See
+   139→Table A1).
+   140→We tested SES moderation of prediction calibration using OLS regression with an
+   141→interaction term:
+   142→Reported depression severity = β +β (Predicted)+β (SES )+β (Predicted·SES )+ε
+   143→0 1 2 High 3 High
+   144→A significant β indicates differential calibration across SES groups. Absolute
+   145→3
+   146→
+   147→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   148→USERS 7
+   149→prediction errors were compared across SES groups using Kruskal-Wallis tests. For dual
+   150→completers, pairwise Wilcoxon signed-rank tests compared modality arms, and
+   151→SES × Modality interactions were tested via OLS with clustered standard errors.
+   152→Results
+   153→Self-Disclosure Does Not Differ by Modality (RQ1)
+   154→Participants produced significantly more words in audio (M = 753, SD = 629) than
+   155→text (M = 463, SD = 218) and spoke faster (51.8 vs. 34.3 words per minute). However,
+   156→self-disclosure depth did not differ significantly between modalities on any ML-based or
+   157→LLM-based measure (Table A7). Among dual completers, LIWC detected a small text
+   158→advantage in text (∆M = 0.005, paired t = 3.17, p = .002), but this did not replicate across
+   159→other disclosure measures, suggesting limited practical significance.
+   160→Modality Does Not Improve Depression Prediction (RQ2)
+   161→Text carries the signal; acoustic features do not.
+   162→Typed text model trained on RoBERTa embeddings achieved the strongest
+   163→correlation with reported depression scores (r = 0.496), followed closely by spoken
+   164→transcripts (r = 0.445) (see Table 1). Acoustic features alone showed near-zero predictive
+   165→validity (r = −0.023, p = .691). Combining transcript and acoustic features did not
+   166→significantly improve the performance relative to transcript alone (r = 0.449 vs. r = 0.445).
+   167→Among the 203 dual completers, pairwise Wilcoxon tests found no significant differences
+   168→between any modality pair (See Table A6).
+   169→LLM-based prediction confirms the pattern.
+   170→GPT-4o zero-shot estimation yielded r = 0.583 for typed text and r = 0.522 for
+   171→spoken transcripts (p < .001 for both), with negligible modality differences. The stronger
+   172→performance of GPT-4o over supervised models may reflect its training across text, audio,
+   173→and conversational data, making it more robust to transcript-like language.
+   174→
+   175→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   176→USERS 8
+   177→Content, not channel, drives prediction.
+   178→LIWC analysis revealed 19 features positively associated (p < 0.05) with depression in
+   179→typed text modalities and 13 features in spoken transcript (see Table A10). However,
+   180→modality-specific markers emerged: spoken transcripts surfaced insight and certitude words
+   181→(r ≈ 0.245 with depression in speech but near zero in typing), while typed text uniquely
+   182→captured tentative language (r = 0.202). Despite these qualitative differences, the core
+   183→depressive language signal is shared across modalities, and the overall predictive performance
+   184→does not significantly differ.
+   185→SES Moderates Calibration (RQ3)
+   186→Kruskal-Wallis tests revealed no SES differences in absolute prediction error for any
+   187→modality. However, a significant SES moderation of prediction calibration emerged for typed
+   188→text (Table ??): the interaction between predicted depression severity and SES group was
+   189→significant (β = −0.355, p = .005), indicating a flatter prediction-to-actual slope for High
+   190→3
+   191→SES participants—compressed predictions relative to actual variation (see Fig A1).
+   192→When examined by SES group, Elastic Net on typed text (RoBERTa) achieved
+   193→r = 0.51 for Low SES vs.r = 0.28 for High SES. This gap was narrower for spoken
+   194→transcripts (Low: r = 0.39; High: r = 0.32). GPT-4o showed the same pattern but with
+   195→larger absolute values (typed Low: r = 0.66 vs High: r = 0.36; spoken transcript Low:
+   196→r = 0.55 vs High: r = 0.44). A clustered OLS regression confirmed that SES significantly
+   197→moderated prediction calibration: the interaction between predicted depression severity and
+   198→SES group was significant (β = −0.355, p =.016), indicating a flatter prediction slope for
+   199→adj
+   200→High SES participants regardless of modality. However, the three-way SES x Modality x
+   201→Predicted depression interaction was non-significant (p = .173), indicating that while the
+   202→SES calibration gap appears descriptively narrower for spoken transcripts, this difference is
+   203→not statistically confirmed.
+   204→
+   205→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   206→USERS 9
+   207→Discussion and Design Implications
+   208→Modality does not improve screening. Multimodal approaches have been
+   209→proposed to improve mental health screening robustness (Khoo et al., 2024). Our study
+   210→provides direct empirical evidence against the hypothesis that switching from text to speech
+   211→can improve depression risk assessment across SES in brief chatbot-led conversations. This
+   212→aligns with previous findings (Jiang et al., 2024; Sadeghi et al., 2024). Across multiple
+   213→measures of self-disclosure, multiple approaches to depression prediction, and both overall
+   214→and SES-stratified analyses, we find no statistically significant advantage in this
+   215→configuration for spoken over typed modality.
+   216→More words does not translate to better prediction. A striking finding is the
+   217→dissociation between quantity and quality of disclosure. Participants produced more words in
+   218→audio and spoke at 51% faster rates (51.8 vs. 34.3 words per minute), yet this additional
+   219→volume did not translate into deeper self-disclosure or better depression prediction. This
+   220→suggests that the extra words produced in speech are largely filler—disfluencies, elaborations,
+   221→and conversational padding that add length without adding diagnostic content. For system
+   222→designers, this finding cautions against using word count or interaction duration as proxies
+   223→for engagement quality in mental health chatbots.
+   224→SES shapes model calibration. While models were equally accurate in absolute
+   225→error magnitude across SES groups, they were differentially calibrated — a pattern that
+   226→proved robust across two fundamentally different modeling approaches. The Elastic Net
+   227→supervised model and GPT-4o zero-shot estimation independently converged on the same
+   228→finding: predictions track reported depression severity more closely for lower-SES
+   229→participants than higher-SES participants. The GPT-4o replication is particularly notable
+   230→because it cannot be explained by unequal depression severity distributions in the training
+   231→sample, lending stronger support to the interpretation that the gap reflects genuine
+   232→socioeconomic differences in how depression is linguistically expressed.
+   233→
+   234→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   235→USERS 10
+   236→Implications for Mental Health System Design
+   237→Our findings carry several practical implications for designers of mental health
+   238→technologies:
+   239→• Modality switching is not a solution to equity gaps. The intuitive appeal of
+   240→“just add audio” as a design intervention for more inclusive mental health tools is not
+   241→supported by our data. Equity-oriented designers should look beyond modality to
+   242→address deeper structural factors in how depression is expressed and captured across
+   243→populations.
+   244→• Content analysis should take priority over acoustic analysis. In
+   245→chatbot-mediated mental health assessment, investing in better natural language
+   246→understanding of response content is likely more productive than incorporating
+   247→acoustic or prosodic features for the relatively short, prompted conversational turns
+   248→typical of screening chatbots.
+   249→• Modality shapes which facets of distress become legible to automated
+   250→models, with consequences for population-specific tool design. Spoken
+   251→transcripts uniquely surfaced insight and certitude language, while typed text captured
+   252→tentative language and health-related words — signals that may index different
+   253→phenomenological aspects of depression, or different self-presentation norms across
+   254→modalities. Designers targeting populations where somatic or uncertainty-laden
+   255→expression predominates may find typed modalities better calibrated to those signals,
+   256→while spoken interaction may be better suited to capturing reflective or insight-oriented
+   257→distress. These are not equivalent channels, even when aggregate predictive
+   258→performance is similar.
+   259→These divergences also suggest that future evaluations of mental health chatbots
+   260→should report modality-specific LIWC or linguistic profiles alongside accuracy metrics,
+   261→rather than treating modality as a nuisance variable.
+   262→
+   263→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   264→USERS 11
+   265→• Subjective preferences and objective outcomes diverge. Participants
+   266→completing both modalities slightly preferred audio interaction (M = 4.02 for audio vs
+   267→3.95 for typed on a scale of 1 to 5; p > 0.5) and rated spoken interaction as more
+   268→counselor-like than typed (M = 2.24 vs. 2.51; lower scores indicate greater
+   269→counselor-likeness; p < 0.05), yet these preferences did not correspond to objectively
+   270→better disclosure or prediction. System designers should be cautious about using user
+   271→satisfaction as a proxy for assessment quality.
+   272→• SES-aware model evaluation is essential. Our calibration findings suggest that
+   273→aggregate prediction metrics can mask meaningful disparities in model behavior across
+   274→socioeconomic groups. Evaluating depression prediction models should include
+   275→SES-stratified calibration analysis, not just overall correlation.
+   276→That said, our findings should not be read as evidence against audio interaction in all
+   277→contexts. For populations including non-English speakers, older adults, and children where
+   278→typing poses barriers, voice-based interaction may be essential for accessibility and
+   279→participation.
+   280→Limitations
+   281→Several limitations qualify our findings. First, our audio condition was not a pure
+   282→voice interaction: transcripts were displayed on-screen and participants could correct them,
+   283→potentially attenuating modality differences. Second, acoustic features were extracted from
+   284→consumer-grade remote recordings to mimic real world use. Finally, our SES composite
+   285→(education + income median split) is a common but crude operationalization that does not
+   286→capture wealth, occupation, or neighborhood-level factors. These limitations reinforce that
+   287→our study does not show modality is irrelevant in all settings. Rather, in our semi-structured
+   288→chatbot configuration, adding spoken interaction and acoustic features did not improve
+   289→disclosure depth, prediction accuracy, or equity. As AI-assisted mental health tools are
+   290→deployed at scale as informal support infrastructure, future work must examine SES effects
+   291→
+   292→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   293→USERS 12
+   294→on depression prediction across larger and more diverse samples—and develop SES-aware
+   295→calibration strategies to ensure these tools do not systematically fail the populations who
+   296→rely on them most.
+   297→Acknowledgments
+   298→We used LLMs (ChatGPT, Claude and Gemini) to assist in writing the research
+   299→paper, including rephrasing certain paragraphs and formatting tables and producing
+   300→visualization code. All outputs from these models were reviewed and verified by the authors
+   301→to ensure accuracy and consistency with our intended meaning.
+   302→
+   303→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   304→USERS 13
+   305→References
+   306→Aguirre, C., Harrigian, K., & Dredze, M. (2021). Gender and racial fairness in depression
+   307→research using social media. Proceedings of the 16th Conference of the European
+   308→Chapter of the Association for Computational Linguistics: Main Volume, 2932–2949.
+   309→American Psychological Association. (2025). Stress in America [Accessed: 2026-05-13].
+   310→https://www.apa.org/news/press/releases/stress
+   311→Boyd, R. L., Ashokkumar, A., Seraj, S., & Pennebaker, J. W. (2022). The development and
+   312→psychometric properties of liwc-22. Austin, TX: University of Texas at Austin,
+   313→10(1-47), 6.
+   314→Cho, Y. M., Rai, S., Ungar, L., Sedoc, J., & Guntuku, S. (2023). An integrative survey on
+   315→mental health conversational agents to bridge computer science and medical
+   316→perspectives. Proceedings of the 2023 Conference on Empirical Methods in Natural
+   317→Language Processing, 11346–11369.
+   318→De Freitas, J. (2024). Do “Black individuals” really display no linguistic markers of
+   319→depression? Proceedings of the National Academy of Sciences, 121(29), e2410997121.
+   320→Eyben, F., Wöllmer, M., & Schuller, B. (2010). Opensmile: The munich versatile and fast
+   321→open-source audio feature extractor. Proceedings of the 18th ACM international
+   322→conference on Multimedia, 1459–1462.
+   323→Fang, C. M., Liu, A. R., Danry, V., Lee, E., Chan, S. W., Pataranutaporn, P., Maes, P.,
+   324→Phang, J., Lampe, M., Ahmad, L., & Agarwal, S. (2025). How ai and human
+   325→behaviors shape psychosocial effects of extended chatbot use: A longitudinal
+   326→randomized controlled study. arXiv preprint arXiv:2503.17473.
+   327→Jiang, Z., Seyedi, S., Griner, E., Abbasi, A., Rad, A. B., Kwon, H., Cotes, R. O., &
+   328→Clifford, G. D. (2024). Evaluating and mitigating unfairness in multimodal remote
+   329→mental health assessments. PLOS Digital Health, 3(7), e0000413.
+   330→
+   331→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   332→USERS 14
+   333→Khoo, L. S., Lim, M. K., Chong, C. Y., & McNaney, R. (2024). Machine learning for
+   334→multimodal mental health detection: A systematic review of passive sensing
+   335→approaches. Sensors, 24(2), 348.
+   336→Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M.,
+   337→Zettlemoyer, L., & Stoyanov, V. (2019). Roberta: A robustly optimized bert
+   338→pretraining approach. arXiv preprint arXiv:1907.11692.
+   339→Lucas, G. M., Gratch, J., King, A. O., & Morency, L.-P. (2014). It’s only a computer: Virtual
+   340→humans increase willingness to disclose. Computers in Human Behavior, 37, 94–100.
+   341→McFee, B., et al. (2024). Librosa/librosa. Zenodo. https://doi.org/10.5281/zenodo.591533
+   342→Mental Health America. (2025). The state of mental health in America [Accessed:
+   343→2026-05-13]. https://mhanational.org/the-state-of-mental-health-in-america/
+   344→Rai, S., Stade, E., Zhou, R., Sehgal, N., Schriger, S., Gerke, S., Ungar, L., & Guntuku, S.
+   345→(2026). Culture by design : A sociotechnical framework for culturally grounded ai for
+   346→mental health. Proceedings of the 11th Workshop on Computational Linguistics and
+   347→Clinical Psychology (CLPsych).
+   348→Rai, S., Stade, E. C., Giorgi, S., Francisco, A., Ungar, L. H., Curtis, B., & Guntuku, S. C.
+   349→(2024). Key language markers of depression on social media depend on race.
+   350→Proceedings of the National Academy of Sciences, 121(14), e2319837121.
+   351→Reuel, A.-K., Peralta, S., Sedoc, J., Sherman, G., & Ungar, L. (2022). Measuring the
+   352→language of self-disclosure across corpora. Findings of the Association for
+   353→Computational Linguistics: ACL 2022, 1035–1047.
+   354→Sadeghi, M., Richer, R., Egger, B., Schindler-Gmelch, L., Rupp, L. H., Rahimi, F.,
+   355→Berking, M., & Eskofier, B. M. (2024). Harnessing multimodal approaches for
+   356→depression detection using large language models and facial expressions. npj Mental
+   357→Health Research, 3(1), 66.
+   358→
+   359→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   360→USERS 15
+   361→Schober, M. F., Conrad, F. G., Antoun, C., Ehlen, P., Fail, S., Hupp, A. L., Johnston, M.,
+   362→Vickers, L., Yan, H. Y., & Zhang, C. (2015). Precision and disclosure in text and
+   363→voice interviews on smartphones. PLoS ONE, 10(6), e0128337.
+   364→Sehgal, N. K. R., Kambhamettu, H., Matam, S. P., Ungar, L. H., & Guntuku, S. C. (2025a).
+   365→Designing mental-health chatbots for Indian adolescents: Mixed-methods evidence, a
+   366→boundary-object lens, and a design-tensions framework. arXiv preprint
+   367→arXiv:2511.07729.
+   368→Sehgal, N. K. R., Kambhamettu, H., Matam, S. P., Ungar, L. H., & Guntuku, S. C. (2025b).
+   369→Exploring socio-cultural challenges and opportunities in designing mental health
+   370→chatbots for adolescents in India. Proceedings of the Extended Abstracts of the CHI
+   371→Conference on Human Factors in Computing Systems, 1–7.
+   372→Suler, J. (2004). The online disinhibition effect. CyberPsychology & Behavior, 7(3), 321–326.
+   373→Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC
+   374→and computerized text analysis methods. Journal of Language and Social Psychology,
+   375→29(1), 24–54.
+   376→
+   377→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   378→USERS 16
+   379→Table 1
+   380→Elastic Net prediction performance by feature family and modality condition.
+   381→Feature family Modality N Pearson r p MAE
+   382→Embeddings
+   383→Typed Text 345 0.496 < .001 3.59
+   384→Spoken Transcript 313 0.445 < .001 3.52
+   385→Acoustic only 313 −0.023 .691 4.06
+   386→Spoken Combined 313 0.449 < .001 3.51
+   387→LIWC category frequencies
+   388→Typed Text 345 0.399 < .001 3.78
+   389→Spoken Transcript 313 0.450 < .001 3.57
+   390→N-grams
+   391→Typed Text 345 0.389 < .001 3.80
+   392→Spoken Transcript 313 0.260 < .001 3.84
+   393→LDA topic distributions (50 topics)
+   394→Typed Text 345 0.338 < .001 3.92
+   395→Spoken Transcript 310 0.308 < .001 3.80
+   396→Note. Acoustic-only row omitted from LIWC, N-gram, and LDA panels as acoustic features are not text-
+   397→derived. p-values <.001 reported as <.001. LDA N =310 reflects additional exclusions for that feature set.
+   398→
+   399→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   400→USERS 17
+   401→Appendix
+   402→Chatbot Question Set
+   403→The following open-ended questions were administered by M2SurveyBot in a structured
+   404→sequence:
+   405→1. Tell us about your day.
+   406→2. Tell us how you are feeling.
+   407→3. Describe a recent event that happened to you.
+   408→4. Describe an event you are looking forward to / anticipating in the next week.
+   409→5. Describe past experiences memorable to you.
+   410→6. What’s concerning/troubling to you the most right now?
+   411→7. Tell us about an interaction you have had today.
+   412→8. What is one hope you have for the future?
+   413→
+   414→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   415→USERS 18
+   416→Figure A1
+   417→Socioeconomic status moderates depression prediction calibration in the typed text condition.
+   418→Scatter plot shows out-of-fold Elastic Net predictions (RoBERTa embeddings, x-axis) against
+   419→observed depression scores (y-axis) for high-SES (orange) and low-SES (blue) participants.
+   420→Fitted regression lines reveal a steeper prediction slope for low-SES participants, indicating
+   421→closer tracking of actual depression severity across the score range. For high-SES participants,
+   422→predictions are compressed toward the mean — the model underestimates severity at high
+   423→PHQ scores and overestimates at low scores. The interaction term (β = −0.355, p = .004)
+   424→confirms this differential calibration is statistically significant. The dashed identity line
+   425→represents perfect calibration. HC3 heteroscedasticity-robust standard errors used throughout.
+   426→
+   427→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   428→USERS 19
+   429→Table A1
+   430→Sample characteristics by modality condition (unique participants per modality).
+   431→Typed Text Audio
+   432→(N = 345) (N = 313)
+   433→Continuous variables, mean (SD)
+   434→Age (years) 45.09 (13.71) 44.98 (13.50)
+   435→Depression severity 5.73 (5.15) 5.81 (4.88)
+   436→Education (ordinal 0–7) 5.14 (1.55) 4.97 (1.65)
+   437→Household income (ordinal 0–11) 6.47 (3.33) 6.25 (3.44)
+   438→Gender, n (%)
+   439→Female 172 (49.9%) 177 (56.5%)
+   440→Male 170 (49.3%) 132 (42.2%)
+   441→Other 2 (0.6%) 3 (1.0%)
+   442→Prefer not to say 1 (0.3%) 1 (0.3%)
+   443→Race / ethnicity, n (%)
+   444→White 262 (75.9%) 231 (73.8%)
+   445→Black or African American 36 (10.4%) 28 (9.0%)
+   446→Hispanic 18 (5.2%) 17 (5.4%)
+   447→Other 15 (4.4%) 21 (6.7%)
+   448→White, Hispanic 10 (2.9%) 11 (3.5%)
+   449→White, Black or Afr. American 2 (0.6%) 1 (0.3%)
+   450→Black or Afr. American, Hispanic 2 (0.6%) 2 (0.6%)
+   451→Black or Afr. American, Hispanic, Other — 1 (0.3%)
+   452→White, Other — 1 (0.3%)
+   453→Socioeconomic status, n
+   454→High 178 156
+   455→Low 167 157
+   456→Word Error Rate, mean(SD)
+   457→High - 0.636 (1.848)
+   458→Low - 0.560 (0.971)
+   459→
+   460→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   461→USERS 20
+   462→Table A2
+   463→ASR transcription errors and participant corrections. Errors are predominantly due to
+   464→incomplete recording rather than phonetic misrecognition.
+   465→Error ASR output (erroneous) Participant correction
+   466→Truncation “So I think...” “So I think that my day has
+   467→beenverypositive...myenergy
+   468→has been more upbeat than it
+   469→has been at any point through-
+   470→out this past week.”
+   471→Truncation and substitution “As the ice...” “As I said this was my hus-
+   472→band. It stands out because
+   473→that was the start of my day. I
+   474→felt content. Not really, it was
+   475→boring.”
+   476→Substitution “The best part of my day so “The best part of my day so
+   477→far is my morning, I’m con- far has been my morning cof-
+   478→stantlybeing, Ireallyenjoymy fee. It is a simple pleasure”
+   479→morning trouble coffee...”
+   480→Hallucination “Jeg må ikke ind den i spikt, “my boyfriend is a narcissist
+   481→og jeg har ikke løgte..” and has paranoia behavior... I
+   482→am scared when he’s around.”
+   483→Semantic inversion “I’m of the trouble seeing my “I’m looking forward to see-
+   484→friends... afraid to be trapped ingmyfriendsandshowingoff
+   485→in a few months of regretters” how much I have improved”
+   486→Note. 14.46% of transcripts were flagged as containing errors; 97.09% of flagged participants subsequently
+   487→used the correction interface (Word Error Rate: M =0.613, SD =1.607). Overall, more words were added
+   488→post correction (M =+5.6). 36.2% of corrected transcriptions had fewer words than the machine-generated
+   489→transcription. Edits were similarly balanced across SES (high: 54.5%, low: 45.5%).
+   490→
+   491→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   492→USERS 21
+   493→Table A3
+   494→Acoustic feature descriptions and computation details.
+   495→Feature Description Computation
+   496→rms_mean Mean root-mean- np.mean(librosa.feature.rms(y, frame_length=2048,
+   497→square energy hop_length=512))
+   498→rms_std Std of RMS energy Standard deviation of frame-level RMS values
+   499→voiced_ratio Proportion of Fraction of frames with RMS > 25th percentile of RMS
+   500→voiced frames
+   501→pause_count Numberofdetected Transitions from non-silent to silent regions (silent = RMS
+   502→pauses < 10th percentile)
+   503→pause_mean_dur Mean pause dura- Average length of silent regions, converted from frames to
+   504→tion (s) seconds
+   505→pause_total_dur Total pause dura- Sum of all detected pause durations
+   506→tion (s)
+   507→
+   508→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   509→USERS 22
+   510→Table A4
+   511→Prompt used for depression severity estimation.
+   512→System prompt
+   513→You are a clinical assessment assistant helping with a research task.
+   514→You will receive one participant’s text at a time. Estimate that
+   515→participant’s PHQ-9 score based only on the text provided.
+   516→Return only a JSON array. Each element must be:
+   517→{ "index": <message_index_in_this_batch>,
+   518→"phq9_score": <integer from 0 to 27> }
+   519→Guidance:
+   520→• Use only information explicitly present in the text.
+   521→• If symptoms are mild or ambiguous, choose a lower score.
+   522→• If multiple depressive symptoms are clearly described, choose a
+   523→higher score.
+   524→• Do not diagnose. This is only an estimation task.
+   525→User message format
+   526→Estimate PHQ-9 scores for the following participant texts.
+   527→Message 0:
+   528→<participant text>
+   529→Message 1:
+   530→<participant text>
+   531→...
+   532→Return a JSON array with one object per message. Each object must
+   533→include index and phq9_score.
+   534→
+   535→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   536→USERS 23
+   537→Table A5
+   538→Prompt used for automated self-disclosure classification.
+   539→Automated classifier prompt
+   540→You are given a conversation made up of several messages. For each message, you must assign three
+   541→separate scores: one for Information, one for Thoughts, and one for Feelings. Each score must be 1 (no
+   542→disclosure), 2 (little/some disclosure), or 3 (high disclosure).
+   543→Use the following guidelines:
+   544→1) INFORMATION
+   545→Level 1 (Score 1): No personal reference; only general/routine info. Example: “You need at least one
+   546→month to travel in India.”
+   547→Level2(Score2): Generalinformationaboutthewriter(e.g., age, occupation, familymembers, interests).
+   548→Example: “I’m 25, and I work at a local bakery.”
+   549→Level 3 (Score 3): Personal information that reveals something about the writer’s or close others’
+   550→appearance, personal experiences, or problematic behaviors. Example: “I’ve struggled with insomnia for
+   551→years and tried multiple medications.”
+   552→2) THOUGHTS
+   553→Level 1 (Score 1): No personal thoughts about the writer’s own life; only general ideas. Example: “I
+   554→think feeding wild birds can be harmful.”
+   555→Level 2 (Score 2): Personal thoughts about past events or future plans. Example: “I’d like to attend
+   556→medical school someday.”
+   557→Level 3 (Score 3): Personal or intimate thoughts relating to the writer’s characteristics, health, or deeply
+   558→self-reflective ideas. Example: “I hate myself for lashing out at my friend and regret it deeply.”
+   559→3) FEELINGS
+   560→Level 1 (Score 1): No feelings are expressed. Example: “I bought groceries and cleaned my room today.”
+   561→Level 2 (Score 2): Mild or moderate expressions of confusion, inconvenience, or ordinary frustrations.
+   562→Example: “I was annoyed I couldn’t find a parking spot.”
+   563→Level3(Score3): Expressionsofdeeporintenseemotionssuchashumiliation, agony, anxiety, depression,
+   564→or fear. Example: “I’m terrified of failing my final exam and can’t sleep.”
+   565→Important: If a message seems to qualify for multiple levels within the same category, choose the highest
+   566→relevant level. Provide your scores in the format: Information (1–3), Thoughts (1–3), Feelings (1–3).
+   567→Now, evaluate each message in the given conversation according to these criteria.
+   568→
+   569→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   570→USERS 24
+   571→Table A6
+   572→Elastic Net prediction (alpha=1, L1 ratio = 0.5) performance for dual completers by feature
+   573→family and modality (N = 203).
+   574→Feature family Modality Pearson r p MAE
+   575→RoBERTa embeddings
+   576→Typed Text 0.486 < .001 3.41
+   577→Spoken Transcript 0.421 < .001 3.55
+   578→Spoken Combined 0.428 < .001 3.53
+   579→LIWC category frequencies
+   580→Typed Text 0.416 < .001 3.57
+   581→Spoken Transcript 0.442 < .001 3.58
+   582→Spoken Combined 0.434 < .001 3.59
+   583→N-grams
+   584→Typed Text 0.349 < .001 3.63
+   585→Spoken Transcript 0.224 .001 3.87
+   586→Spoken Combined 0.210 .003 3.89
+   587→LDA topic distributions (50 topics)
+   588→Typed Text 0.317 < .001 3.72
+   589→Spoken Transcript 0.228 .001 3.84
+   590→Spoken Combined 0.230 .001 3.84
+   591→Acoustic features only
+   592→Acoustic only −0.017 .813 4.04
+   593→
+   594→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   595→USERS 25
+   596→[t]
+   597→Table A7
+   598→Self-disclosure measures across text and audio modalities
+   599→Measure M (SD) M (SD) Statistical test
+   600→text audio
+   601→LIWC-’I’ 0.0995 (0.023) 0.0961 (0.022) Welch t = 1.97, p = .049
+   602→RoBERTa 2.115 (0.255) 2.100 (0.278) Welch t = 0.723, p = .470
+   603→GPT-4o rubric
+   604→Information 2.414 (0.499) 2.447 (0.517) Welch t = −0.826, p = .409
+   605→Thoughts 2.510 (0.501) 2.466 (0.506) Welch t = 1.112, p = .267
+   606→Feelings 2.513 (0.501) 2.457 (0.524) Welch t = 1.403, p = .161
+   607→
+   608→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   609→USERS 26
+   610→Table A8
+   611→SES moderation of depression prediction calibration by feature family and modality.
+   612→Interaction term β from OLS: Reported depression severity
+   613→3
+   614→= β +β (Predicted)+β (SES)+β (Predicted×SES)+ε. A significant β indicates
+   615→0 1 2 3 3
+   616→differential calibration: negative values indicate better calibration (steeper slope) for
+   617→lower-SES participants.
+   618→Panel A. Binary SES (high vs. low)
+   619→Feature family Modality β SE p
+   620→3
+   621→Embeddings
+   622→Typed Text −0.355 0.126 .005∗∗
+   623→Spoken Transcript −0.134 0.125 .286
+   624→Acoustic only 0.023 0.104 .826
+   625→Spoken Combined 0.214 0.377 .571
+   626→LIWC category frequencies
+   627→Typed Text −0.119 0.188 .528
+   628→Spoken Transcript 0.137 0.357 .700
+   629→N-grams
+   630→Typed Text −0.175 0.198 .377
+   631→Spoken Transcript −0.174 0.152 .254
+   632→LDA topic distributions (50 topics)
+   633→Typed Text −0.367 0.177 .038∗
+   634→Spoken Transcript −0.357 0.187 .057
+   635→Note. N =345 (Typed Text), N =313 (Audio conditions), except LDA Spoken Transcript (n=310).
+   636→Acoustic only and Spoken Combined rows omitted from LIWC, N-gram, and LDA panels as those feature
+   637→families are text-derived. All p-values FDR-corrected (Benjamini–Hochberg, α=.05). ∗p<.05, ∗∗p<.01,
+   638→∗∗∗p<.001.
+   639→
+   640→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   641→USERS 27
+   642→Table A9
+   643→Panel-B: SES moderation of depression prediction calibration by feature family and modality.
+   644→Interaction term β from OLS: Reported depression severity
+   645→3
+   646→= β +β (Predicted)+β (SES)+β (Predicted×SES)+ε. A significant β indicates
+   647→0 1 2 3 3
+   648→differential calibration: negative values indicate better calibration (steeper slope) for
+   649→lower-SES participants.
+   650→Panel B. Continuous SES (z-scored)
+   651→Feature family Modality β SE p
+   652→3
+   653→Embeddings
+   654→Typed Text −0.222 0.057 < .001∗∗∗
+   655→Spoken Transcript −0.114 0.051 .025∗
+   656→Acoustic only 0.015 0.025 .530
+   657→Spoken Combined −0.010 0.105 .925
+   658→LIWC category frequencies
+   659→Typed Text −0.133 0.081 .101
+   660→Spoken Transcript 0.098 0.180 .587
+   661→N-grams
+   662→Typed Text −0.140 0.070 .044∗
+   663→Spoken Transcript −0.030 0.104 .773
+   664→LDA topic distributions (50 topics)
+   665→Typed Text −0.214 0.079 .007∗∗
+   666→Spoken Transcript −0.053 0.093 .573
+   667→Note. N =345 (Typed Text), N =313 (Audio conditions), except LDA Spoken Transcript (n=310).
+   668→Acoustic only and Spoken Combined rows omitted from LIWC, N-gram, and LDA panels as those feature
+   669→families are text-derived. All p-values FDR-corrected (Benjamini–Hochberg, α=.05). ∗p<.05, ∗∗p<.01,
+   670→∗∗∗p<.001.
+   671→
+   672→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   673→USERS 28
+   674→Table A10
+   675→LIWC features significantly associated with depression severity in typed text and spoken
+   676→transcripts among dual completers (FDR-corrected, Benjamini–Hochberg α = .05), sorted by
+   677→|r| descending within each panel. † = significant in this modality only.
+   678→Typed Text Spoken Transcript
+   679→Category n r p Category n r p
+   680→adj adj
+   681→SWEAR† 16 0.660 .025 TONE_NEG 305 0.379 < .001
+   682→TONE_NEG 339 0.396 < .001 EMO_NEG 295 0.340 < .001
+   683→EMO_NEG 329 0.355 < .001 I 309 0.306 < .001
+   684→CONFLICT† 90 0.298 .021 COGPROC 309 0.287 < .001
+   685→NEGATE 343 0.288 < .001 EMO_ANX 265 0.280 < .001
+   686→COGNITION 345 0.252 < .001 COGNITION 309 0.267 < .001
+   687→I 345 0.231 < .001 NEGATE 304 0.227 < .001
+   688→COGPROC 345 0.231 < .001 INSIGHT† 308 0.227 < .001
+   689→ADVERB 345 0.224 < .001 CERTITUDE† 288 0.225 < .001
+   690→DIFFER 345 0.213 < .001 DIFFER 309 0.177 .010
+   691→TENTAT† 340 0.202 .001 VERB† 310 0.172 .012
+   692→EMO_ANX 275 0.191 .009 DISCREP 306 0.170 .013
+   693→PPRON† 345 0.176 .008 LINGUISTIC 313 0.156 .024
+   694→FUNCTION† 345 0.172 .009
+   695→LINGUISTIC 345 0.165 .012
+   696→PRONOUN† 345 0.160 .016
+   697→DISCREP 342 0.158 .018
+   698→HEALTH† 283 0.155 .036
+   699→PHYSICAL† 345 0.145 .029
+   700→Note. Only FDR-significant categories (p < .05) are reported. n reflects responses with at least one
+   701→adj
+   702→word match in that LIWC category. † indicates the category reached significance in this modality only.
+   703→Shared categories (both modalities significant): TONE_NEG, EMO_NEG, I, EMO_ANX, COGPROC,
+   704→COGNITION, NEGATE, DIFFER, LINGUISTIC, DISCREP. SWEAR (n=16) and CONFLICT (n=90)
+   705→reflect sparse coverage — interpret with caution. INSIGHT and CERTITUDE are speech-specific signals
+   706→(r ≈.23, p<.001) with near-zero values in typed text.
+   707→
+   708→AI-BASED DEPRESSION SCREENING IS BETTER CALIBRATED FOR LOWER-SES
+   709→USERS 29
+   710→Table A11
+   711→LDA topics positively associated with depression severity in typed text and spoken transcripts
+   712→(FDR-corrected, Benjamini–Hochberg α = .05). † = significant in this modality only.
+   713→Typed Text Spoken Transcript
+   714→Topic Top terms r p Topic Top terms r p
+   715→adj adj
+   716→topic_47 something, want, 0.238 < .001 topic_24 concerned,trying,af- 0.317 < .001
+   717→kind, trying, way fecting, try, by
+   718→topic_49 something, want, talk, 0.231 < .001 topic_47 something, want, 0.265 < .001
+   719→makes, stressful kind, trying, way
+   720→topic_5† bit, overall, kind, far, 0.228 < .001 topic_49 something, want, 0.227 < .001
+   721→done talk,makes,stressful
+   722→topic_24 concerned, trying, af- 0.214 < .001 topic_30 though, even, didn’t, 0.205 .003
+   723→fecting, try, by did, wasn’t
+   724→topic_26† health, doctor, only, 0.182 .005 topic_1 she’s, sad, no, my- 0.167 .024
+   725→issues, appointment self, care
+   726→topic_42† nothing, no, anything, 0.173 .007
+   727→there’s, week
+   728→topic_1 she’s, sad, no, myself, 0.169 .008
+   729→care
+   730→topic_30 though, even, didn’t, 0.160 .012
+   731→did, wasn’t
+   732→topic_17† house, live, place, 0.149 .020
+   733→we’re, move
+   734→topic_12† haven’t, any, interac- 0.140 .028
+   735→tions, only, interac-
+   736→tion
+   737→topic_31 um, night, sleep, last, 0.133 .040
+   738→uh
+   739→Note. Only FDR-significant topics (p < .05) are reported. Top terms are the five highest-probability
+   740→adj
+   741→words from the 50-topic LDA model. † = significant in this modality only. Shared depression-linked topics:
+   742→topic_47, topic_49, topic_24, topic_1, topic_30. topic_24 is the strongest depression signal in speech
+   743→(r =.317) vs. typed text (r =.214), suggesting worry language is more salient in spoken disclosure.
+   744→
+   745→
