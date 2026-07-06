@@ -1,0 +1,402 @@
+   400→associated with higher quality (Table 1; see Tables 18S to 22S in the SI for full model outputs). More concretely,
+   401→participants in the lower 25th percentile of response times received an average rating of 3.51 over all
+   402→reappraisals. In the second, third and fourth quantile of response times, average ratings were 3.62, 3.78, and
+   403→3.94, respectively, getting closer to but not exceeding GPT’s average rating of 4.28. Because time spent on
+   404→producing reappraisals may be an indication of increased effort, we were then curious to examine whether
+   405→incentivizing participants to produce better reappraisals would lead to reducing the gap between humans and
+   406→GPT.
+   407→Table 1. Association between reappraisal time and quality in Study 1. We used logged reappraisal time to
+   408→conduct the analysis. Time spent on reappraisal was associated with increased quality on all dimensions. * p <
+   409→.05, ** p < .01, *** p < .001.
+   410→Quality Outcomes Estimates SE t(df)
+   411→Effectiveness 0.13 [0.08 – 0.18] 0.02 5.40 (8226)***
+   412→Empathy 0.16 [0.12 – 0.21] 0.02 6.69 (7639)***
+   413→Novelty 0.22 [0.18 – 0.26] 0.02 10.22 (2950)***
+   414→Specificity 0.19 [0.15 – 0.23] 0.02 10.23 (2077)***
+   415→
+   416→19
+   417→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   418→Study 2: Comparing Reappraisal Quality Between Humans and GPT in Real-Time Interactions
+   419→Study 2 was designed to address the biggest limitation of the Study 1, which is that reappraisals were
+   420→not evaluated by participants in real-time and in response to scenarios that they presented (preregistration:
+   421→https://osf.io/t9rm6).
+   422→Method
+   423→Participants
+   424→We received IRB approval (IRB23-0454) prior to conducting the task. All participants provided
+   425→informed consent and were compensated for their time. Because participants had real-time interactions with
+   426→either humans or GPT, and thus we expected more variance in the observed effects, we decided not to use the
+   427→prior results from our preregistered power analysis. Instead, we reviewed the literature to find cases where
+   428→human emotional support was compared to that of AI in real-time interactions. One such paper is a recent
+   429→paper by Yin and colleagues (Yin et al., 2024), where humans and GPT were instructed to response
+   430→empathically to a human scenario, similar to the current study. The main dependent variable was participants’
+   431→reports of feeling heard, and the effect size for the difference between human and AI was η2 = 0.046 (moderate
+   432→effect size). Because the setup of the current study was very different from the Yin study, and because we
+   433→considered the possibility of even smaller effects, we aimed to achieve a .99 power using the effect size from the
+   434→Yin et al. paper. Our power analysis suggested that a sample of 382 participants would be required to achieve
+   435→this level of power. We decided to collect data from 400 participants, assuming that some would be excluded
+   436→due to failing the attention checks or providing non-sensical responses.
+   437→We recruited 400 from Prolific. We ended up recruiting 397 participants as 3 did not complete the
+   438→survey. Based on our exclusion criteria we removed 5 participants for providing nonsensical responses and 6
+   439→participants who missed our 3 attention checks. Our final sample was therefore 386 (178 women, 207 men, 1
+   440→
+   441→20
+   442→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   443→another gender/none; age: M = 40.58, SD = 12.95; education: 69.95% with at least a bachelor’s degree; income:
+   444→46.38% earning less than 50,000/year; PHQ: 22.53% with moderate to severe depression; SWLS: 26.94% with
+   445→slightly to extremely low life satisfaction; for details see SI Table 26S), with 186 assigned to the human partner
+   446→condition and 200 to the AI partner condition.
+   447→Procedure
+   448→Participants signed in to the study, and received a reappraisal training, similar to that of Study 1.
+   449→Participants were then matched with either another participant (human partner condition) or GPT-4 (AI
+   450→partner condition). Participants were not aware of the identity of their partner. They were then asked to share a
+   451→negative experience they recently had: “Please write about a recent negative social experience. This could be a
+   452→minor or major event, in any area of your life, and could involve family, friends, or others.” Participants both
+   453→shared a negative experience and received one from their counterpart, which was either AI or human.
+   454→Importantly, participants did not know the identity of their partner, and based on results from Study 4 assumed
+   455→they were human. In the human partner condition, participants received the scenario sent by their human
+   456→counterpart. In the AI case, participants received one of the vignettes that were presented in Study 1. After
+   457→reading the scenario and rating it in terms of negativity, positivity and distinct emotions (similar to Study 1),
+   458→participants were asked to provide a reappraisal to the scenario and also received the reappraisal provided by
+   459→their counterpart. To disguise GPT among humans, matching time was standardized to 60 seconds (after which
+   460→participants immediately received their partner’s vignette), and participants always received reappraisals 15
+   461→seconds after sending theirs. Notice that when analyzing the results of this study we only focused on comparing
+   462→human and GPT-4 reappraisals to the human scenarios. The GPT-4 generated scenario was merely designed to
+   463→disguise the fact that participants were interacting with AI.
+   464→Similar to the previous studies, both humans and GPT-4 were instructed to produce reappraisals that
+   465→are two sentences long, to make sure that length did not impact the results. We also controlled for length in our
+   466→
+   467→21
+   468→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   469→analysis as in previous studies. Participants then rated the quality of reappraisal using the same four questions
+   470→as in the previous studies (effectiveness, empathy, novelty, specificity). Finally, participants were asked whether
+   471→they would be interested to continue the conversation with their counterpart.
+   472→Results
+   473→Our preregistered hypothesis (https://osf.io/t9rm6) was the GPT-4 would be evaluated as better than
+   474→humans on 3 of 4 of the reappraisal measures: effectiveness, empathy and novelty but not specificity (similar to
+   475→Study 1). We also had an exploratory hypothesis - that GPT’s higher reappraisal ability would lead participants
+   476→who received a reappraisal from GPT to be more interested to continue the conversation compared to those who
+   477→paired with a person.
+   478→Validating the negativity of the vignettes. Participants were asked to estimate the negativity and
+   479→positivity of the scenarios provided by their counterpart. This was done using two items one estimating the
+   480→degree of negativity (1-not at all negative, 5-extremely negative) and positivity (1-not at all positive, 5-extremely
+   481→positive). As expected, partners’ scenarios were rated on average more negative (M=3.49, SD = 0.98) than
+   482→positive (M=1.43, SD=0.86). Table 31S in the SI provides a detailed account of negativity and positivity ratings
+   483→for both participants’ own and their partners’ scenarios.
+   484→Comparing the quality of reappraisal between humans and GPT. We conducted multiple regression
+   485→to examine whether participants who were assigned to the AI partner condition perceived the received
+   486→reappraisal as higher quality compared to the human partner condition. Similar to previous studies, and to our
+   487→preregistration, we controlled for length of the reappraisal. We found that GPT outperformed human
+   488→reappraisals in terms of effectiveness (b = -.32, t(383) = -2.95, p = .003, 95% CI [-0.54, -0.11], d = .28; see also
+   489→Table 27S in the SI), empathy (although the effect was weaker than before, b = -0.23, t(383) = -2.03, p = .04,
+   490→95% CI [-0.45, -0.01], d = .19; see also Table 28S in the SI), and novelty (b = -0.37, t(383) = -2.39, p = .01,
+   491→95% CI [-0.68, -0.06], d = .22, see also Table 29S in the SI). As we observed in our previous study, we do not
+   492→
+   493→22
+   494→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   495→find any differences between human and GPT reappraisal quality in terms of specificity (b = -0.17, t(383) = -
+   496→1.52, p = .12, 95% CI [-0.39, 0.05], d =.13, see also Table 30S in the SI), which was again backed up by a
+   497→Bayesian analysis (priors: β ~ N(0, 1), gaussian distribution) yielding a Savage-Dickey Bayes factor of 2.95 for
+   498→the difference between humans and GPT (see Table 32S in the SI). See Figure 3 for a summary of the results
+   499→and Table 31S in the SI for the model with a combined quality rating.
+   500→As an exploratory analysis, we examined whether assigned to interact with AI or human led to
+   501→increased desire to interact with participant. A chi-square test of independence did not suggest a significant
+   502→association between condition and the willingness to chat (χ²(1) = 1.07, p = .29), although 51.5% of participants
+   503→who were assigned to the AI partner condition were interested in having a chat and 45.6% were interested in
+   504→having a chat with their human counterpart. The fact that participants were not getting paid for the extra time
+   505→of having a conversation may have impacted the results.
+   506→Combined, we were able to replicate the result of Study 1 (and prospectively Study 3 and 4) in real-time
+   507→human AI interactions, showing that GPT-4 was rated as better in producing reappraisals to real-time individual
+   508→scenarios, by the recipient of the reappraisals themselves, compared to human participants.
+   509→
+   510→23
+   511→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   512→Figure 3. Results from Study 2 comparing reappraisal ratings between humans and GPT. The box plots
+   513→represent 50% of the data and the line represents the median of the distribution. GPT significantly
+   514→outperformed humans on three out of the four measures, with specificity being the exception.
+   515→Study 3: Can Incentivized Humans Beat GPT?
+   516→The goal of Study 3 was to first replicate the reappraisal quality gap we found in Studies 1 and 2.
+   517→Second, we wanted to check whether incentivizing humans to produce better reappraisals would affect the
+   518→observed reappraisal quality gap (preregistration: https://osf.io/4t8qc).
+   519→Participants
+   520→We received IRB approval (IRB23-1383) prior to conducting the study. All participants provided
+   521→informed consent and were compensated for their time. As with our first study, we recruited two sets of
+   522→English-speaking participants from Prolific, one to provide reappraisals and one to rate the quality of the
+   523→reappraisals. Participants resided in the US or UK and must not have participated in our first study.
+   524→
+   525→24
+   526→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   527→Reappraisers. Because the design was similar to Study 1, we aimed to recruit 400 English-speaking
+   528→participants from Prolific from the UK (n = 330) or the US (n = 74) to reappraise six vignettes each across the
+   529→four conditions. Four hundred and nine participants completed the task. We removed three participants from
+   530→analyses for nonsensical responses, and an additional reappraisal for being unrelated to the vignette. We also
+   531→removed two participants for taking extended breaks during the task. Our final sample included 404
+   532→participants (217 female, 185 male, 2 non-binary; age: M = 39.69 years, SD = 13.27; education: 60.39% with at
+   533→least a bachelor’s degree; income: 47.03% earning less than 30,000/year; PHQ: 21.54% with moderate to
+   534→severe depression; SWLS: 39.36% with slightly to extremely low life satisfaction; for details see SI Table 34S).
+   535→Raters. We aimed to obtain 20 ratings per reappraisal as our analysis suggested that it would be
+   536→sufficient to obtain a similar precision as our first study (see SI Section “Rater Sample Size Selection for Study
+   537→3” and Figure 3S). As such, we recruited a new set of raters who completed an identical reappraisal training and
+   538→rating process as the raters in Study 1’s rating task. These raters rated 50 reappraisals each in terms of
+   539→effectiveness, empathy, novelty, and specificity. 1077 raters completed the task. We removed three raters for
+   540→providing bogus ratings, as evidenced by having 0 variance across the 50 trials. Our final sample included 1073
+   541→raters (952 from the UK, 121 from the US; 581 female, 478 male, 14 another gender/none; age: M = 40.61, SD =
+   542→12.94; education: 58.43% with at least a bachelor’s degree; income: 53.87% earning less than 30,000/year;
+   543→PHQ: 26.66% with moderate to severe depression; SWLS: 39.14% with slightly to extremely low life
+   544→satisfaction; for details see SI Table 34S).
+   545→Procedure
+   546→Generating reappraisals and rating. We randomly assigned the human participants to four
+   547→conditions: no incentive, $1.75 (which was 50% of the base payment), $3.5 (100% of base payment), $5.25
+   548→(150% of base payment). In the incentive conditions, participants were told they would receive a bonus should
+   549→their overall reappraisal quality be in the top 25% of all reappraisals in their condition. We used the same six
+   550→
+   551→25
+   552→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   553→vignettes as in Study 1 and likewise checked for equal emotion intensity (anger-anxiety: p=.53, anger-sadness:
+   554→p=0.85, anxiety-sadness: p=0.81) and negativity (anger-anxiety: p=.92, anger-sadness: p=0.81, anxiety-
+   555→sadness: p=0.97) across emotions (see Tables 35S to 38S in SI for details). We generated ratings in the same
+   556→way as we did in Study 1.
+   557→Results
+   558→We had three hypotheses for this study (preregistration: https://osf.io/4t8qc). Hypothesis 1 was that GPT would
+   559→outperform humans, similar to Study 1. Hypothesis 2 was that incentivized participants would improve
+   560→humans’ reappraisal quality and reduce the difference between humans and GPT. We had a third preregistered
+   561→hypothesis: that the difference in reappraisal quality between GPT and humans would be significantly larger in
+   562→vignettes expressing sadness, compared to anxiety or anger. This hypothesis was based on not using the most
+   563→appropriate model in the analysis of Study 1, and therefore after correcting this error we no longer expected to
+   564→see this difference (see Tables 8S to 15S in the SI with non-significant terms for emotions anger, anxiety,
+   565→sadness and their interactions).
+   566→Comparing the quality of reappraisal between humans and GPT. We explored differences in
+   567→reappraisal quality between humans and GPT with a linear mixed effects model. We used the same four linear
+   568→mixed effects models (for each of the quality measures) as in Study 1, which included an interaction between
+   569→emotion of vignette and source of reappraisal and controlled for reappraisal length and order in which the
+   570→reappraisals were displayed to the raters. However, our source of reappraisal variable (human, GPT), had three
+   571→additional levels, including the three additional incentive conditions ($1.75, $3.50, $5.25). We also included the
+   572→same random intercepts for reappraiser, rater, and vignette. We calculated degrees of freedom using the
+   573→Satterthwaite method.
+   574→We first replicated the main effects of our previous study by comparing the no incentive condition and
+   575→GPT for each of the reappraisal quality dimensions (see Figure 4, and Tables 44S to 51S in the SI for detailed
+   576→
+   577→26
+   578→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   579→model outputs). We found that GPT outperforms non-incentivized human reappraisers in reappraisal
+   580→effectiveness (b = -0.50, t(355) = -3.03, p =.003, 95% CI [-0.83, 0.18]; see also Table 44S in the SI), empathy (b
+   581→= -0.45, t(329) = -2.84, p =.005, 95% CI [-0.77, -0.14]; see also Table 46S in the SI), and novelty (b = -0.17,
+   582→t(236) = -2.05, p = .04, 95% CI [-0.33, -0.01]; see also Table 48S in the SI). As we observed in our previous
+   583→study, we do not find any differences between human and GPT reappraisal quality in terms of specificity (b = -
+   584→0.095, t(209) = -1.43, p = .155, 95% CI [-0.23, 0.04]; see also Table 50S in the SI). For the model with a
+   585→combined reappraisal quality rating please refer to Tables S52 and S53 in the SI.
+   586→Figure 4. Results from Study 3 comparing reappraisal ratings between humans in the no incentive condition
+   587→and GPT. The box plots represent 50% of the data and the line represents the median of the distribution. GPT
+   588→significantly outperformed humans on three out of the four measures, with specificity being the exception.
+   589→
+   590→27
+   591→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   592→Reappraisal gap and incentives. After we looked at the results involving the no incentive condition,
+   593→we then looked at the comparisons between GPT and all other incentives conditions. We did not find evidence in
+   594→our sample that the reappraisal quality gap between GPT and humans decreased across the conditions, for any
+   595→of the reappraisal quality outcomes. We therefore cannot conclude that increasing monetary incentives was
+   596→associated with increasing reappraisal quality (see Tables 44S to 51S in the SI for full breakdown).
+   597→We further quantified the observed null effect with a Bayesian approach. We fit four Bayesian
+   598→generalized multivariate linear multilevel models using the brms (Bürkner, 2017) package in R, with weakly
+   599→informative priors (b ~ N(0, 1)) and a gaussian distribution. We limited the data to humans and compared the
+   600→no incentive condition to each one of the incentive conditions. Bayes factors (Savage-Dickey) ranged between 11
+   601→and 15 (effectiveness), 16 and 17 (empathy), 23 and 28 (novelty), and 29 and 37 (specificity), respectively (see
+   602→full model reports in Tables 54S to 57S in the SI). Put differently, we have evidence in our sample that it is 11 to
+   603→37 times more likely that incentives did not contribute to a significant improvement in reappraisal quality
+   604→among humans across the four dimensions. Altogether, these results suggest strong evidence (Andraszewicz et
+   605→al., 2015) for the null effect.
+   606→Having found no difference in reappraisal quality as a function of incentives, we then checked whether
+   607→increasing the incentives led to participants taking longer time in completing their reappraisal, to get some
+   608→indication that incentives impacted participants’ performance. We subset the data to only humans and
+   609→regressed time spent on reappraisal as a function of incentive condition. We also added random intercepts for
+   610→reappraiser and vignette. We did not find a significant difference between the participants in the no incentive
+   611→condition compared to the 50% bonus condition (b = -0.19, t(400) = -.02, p = .98, R2 = .02, 95% CI [-15.12,
+   612→14.74]; see also Table 43S in the SI). We did, however, find that compared to the no incentive condition,
+   613→participants in the 100% condition (b = 24.08, t(400) = 3.19, p = .001, R2 = .02, 95% CI [9.26, 38.90]) spent an
+   614→additional 24 seconds on their reappraisal and participants in the 150% condition (b = 15.08, t(400) = 1.98, p =
+   615→
+   616→28
+   617→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   618→.048, R2 = .02, 95% CI [0.11, 30.05]; see Table 43S in the SI) spent an additional 15 seconds on their reappraisal.
+   619→It seems that although providing people with incentives did increase their time, it did not significantly improve
+   620→their performance. To further examine the association between time and quality of reappraisal, we regressed
+   621→time spent across all qualities on all four dimensions. Similar to our observations from Study 1, we found a
+   622→significant association between time and quality on all dimensions (effectiveness: b = 0.07, t(15470) = 4.17, p <
+   623→0.001, 95% CI [0.04, 0.10]; empathy: b = 0.13, t(14900) = 7.74, p < 0.001, 95% CI [0.10, 0.17]; novelty: b =
+   624→0.14, t(5289) = 9.64, p < 0.001, 95% CI [0.11, 0.17]; specificity: b = 0.13, t(4187) = 0.13, p < 0.001, 95% CI [0.11,
+   625→0.16]; see Tables 39S to 42S in the SI for full models).
+   626→The current set of analyses suggest that across all incentives, participants who took more time
+   627→produced better reappraisals. On the contrary, incentivizing participants to improve their reappraisals did lead
+   628→to impact in time and to an increase of 15-24 seconds but did not lead to an improvement in reappraisal. Just as
+   629→a comparison, the difference in average time between people who were on average rated 0 in effectiveness
+   630→(90.75 seconds) and those who rated 6 in effectiveness (104.41) is lower than 15 seconds. Yet, increasing
+   631→participants time by ~15-24 seconds did not seem to impact quality. One interpretation of these findings is that
+   632→the association between time and quality is one such that higher quality reappraisers take more time, but the
+   633→quality of their reappraisal is not driven by the time they take. Therefore, forcing people who are less good at
+   634→reappraisal to spend more time reappraising should not improve their performance.
+   635→Study 4: Does Knowledge of the Source of the Reappraisal Affect Quality?
+   636→So far, raters in our studies were not aware of the source of the reappraisal. Given recent findings
+   637→(Rubin et al., 2025; Yin et al., 2024), we were interested in examining the impact of labeling on quality, and
+   638→whether such labeling reduced or even reversed the gap between human and GPT-4 reappraisals.
+   639→Methods
+   640→
+   641→29
+   642→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   643→Participants
+   644→We received IRB approval (IRB23-1383) prior to conducting the study. All participants provided
+   645→informed consent and were compensated for their time. We recruited English-speaking participants from
+   646→Prolific to rate the quality of reappraisals. Participants resided in the US or UK and must not have participated
+   647→in the previous studies. To estimate the sample size required for this study, we conducted an a priori power
+   648→analysis on the results from Study 3 that had an average power of .84 when examining the difference in
+   649→reappraisal quality between humans and GPT (across each of the reappraisal outcomes). Given this information,
+   650→we aimed to obtain 20 ratings per reappraisal as we did in Study 3. Each rater would provide 50 ratings, as in
+   651→the previous studies, and hence we decided that 250 raters per condition would be sufficient.
+   652→We recruited a new set of raters who completed the same reappraisal training and rating trials as the
+   653→raters in Studies 1-3. Raters rated the effectiveness, empathy, novelty, and specificity of 50 reappraisals each.
+   654→500 raters completed the task. We removed 4 raters for providing bogus ratings, as evidenced by having 0
+   655→variance across all 50 trials. Our final sample was 496 raters (241 from the UK, 255 from the US; 244 female,
+   656→244 male, 8 another gender/none; age: M = 39.37 years, SD = 13.45; education: 63.71% with at least a
+   657→bachelor’s degree; income: 50.11% earning less than 40,000/year; PHQ: 21.77% with moderate to severe
+   658→depression; SWLS: 34.88% with slightly to extremely low life satisfaction; for details see SI Table 62S).
+   659→Procedure
+   660→Reappraisals. The GPT reappraisals were randomly sampled from the set of GPT reappraisals used in
+   661→Study 3 (we used a smaller sample to maintain the ratio of GPT to human reappraisals that raters experienced
+   662→in both Study 1 and 3).
+   663→Raters. The raters’ task was identical to Studies 1 and 3 with one exception, which is the label assigned
+   664→to the reappraisal. We randomly assigned human raters to either a no-label condition, where participants
+   665→
+   666→30
+   667→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   668→viewed vignette-reappraisal pairs in the same manner as the previous two studies’ raters, or a label condition,
+   669→where participants viewed the same vignette-reappraisal pairs, but with the added label of whether the
+   670→reappraisal came from human participants or GPT. The label was presented in bold right before the reappraisal
+   671→to make sure that participants understood the source of reappraisal. The human reappraisals were taken from
+   672→the full set of reappraisals generated by the participants in the condition without incentives in Study 3.
+   673→Results
+   674→Comparing the quality of reappraisal between humans and GPT. For this study, we did not
+   675→preregister any specific hypotheses. As with Studies 1 to 3, we found that GPT outperformed humans in
+   676→reappraisal effectiveness, empathy, and novelty, but not specificity, when the source of reappraisal was not
+   677→salient (see Tables 63S to 70S in the SI for detailed results).
+   678→Reappraisal source labels and reappraisal quality. After replicating the main results of the previous
+   679→studies, we looked at the effect of the source saliency on reappraisal effectiveness, empathy, novelty, and
+   680→specificity (Figure 5).
+   681→Looking first on raters’ evaluation of effectiveness, we found a significant interaction between the
+   682→source of the reappraisal (human or GPT-4) and the label (no label or label) such that the gap in reappraisal
+   683→effectiveness between GPT and humans decreased when we added labels of the source to the reappraisals
+   684→(although the CI is very close to zero; b = 0.12, t(24254) = 2.03, p = .043, R2 = .04, 95% CI [0.00, 0.24]; see
+   685→also Table 63S in the SI). Further exploring the difference in the effect of labels within each reappraisal source,
+   686→we found that GPT reappraisals without labels were evaluated as more effective compared to GPT reappraisals
+   687→with labels (b = -.18, t(1509) = -2.185, p = .029, R2 = 0.04, 95% CI [-0.35, -0.02]). On the other hand, human
+   688→reappraisal quality was not affected by having a label (b = -0.061, t(501) = -0.95, p = .341, R2 = 0.04, 95% CI [-
+   689→0.19, 0.06]; see also Table 64S in the SI). This lack of difference in the human condition is also an indication that
+   690→participants were assuming that reappraisals were produced by humans. It is important to note, that even with
+   691→
+   692→31
+   693→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   694→the reduced evaluation caused by providing the label for GPT reappraisal, GPT was still rated higher in
+   695→effectiveness compared to both the human reappraisals with label (b = 0.48, t(109) = 2.52, p = .013, R2 = 0.04,
+   696→95% CI [0.10, 0.85]) and the human reappraisals without label (b = 0.42, t(133) = 2.09, p = .038, R2 = 0.04,
+   697→95% CI [0.02, 0.81]; see also Table 64S in the SI). We used the formula for Cohen’s f2 proposed by Groß and
+   698→Möller (Groß & Möller, 2023) as a generalization to linear mixed models to gauge the size for both the fixed
+   699→effects of origin (GPT vs. human; f2 = 0.0003) and the interaction of origin x condition (label vs. no label; f2 =
+   700→0.0002). This variant of f2 quantifies the size of a fixed effect while all other fixed effects and the random effects
+   701→are held constant. According to common thresholds (Cohen, 1988) both effects are not practically meaningful
+   702→and ICC together with conditional and marginal R2 indicate that random effects explain a large part of the
+   703→variance in the model (see SI Table 57S). However, looking at group means of GPT reappraisals with and
+   704→without label (𝑥̅ = 4.59, 𝑥̅ = 4.79) and human labels with and without label (𝑥̅ = 3.97, 𝑥̅ = 4.91), we
+   705→with with with with
+   706→can see that the difference for GPT is roughly three times as high as for humans (disregarding the random
+   707→effects).
+   708→Regarding empathy of reappraisals, we did not find a significant interaction between source and label,
+   709→although results were in the same direction as effectiveness (interaction: b = -0.12, t(24254) = -1.87, p = .062,
+   710→R2 = 0.04, 95% CI [-0.24, 0.01]; label difference GPT: b = -0.138, t(1499) = -1.57, p = .117, 95% CI [-0.31, 0.04];
+   711→label difference human: b = -0.02, t(501) = -0.30, p = .769, R2 = 0.04, 95% CI [-0.15, 0.11]; see also Tables 65S
+   712→and 66S in the SI). We did, however, find a significant interaction in evaluation of novelty (b = -0.13, t(24238) =
+   713→-2.18, p = .029, R2 = 0.03, 95% CI [-0.24, -0.01]; see also Table 67S in the SI) and a significant difference
+   714→between the label and no label condition for GPT (b = -0.25, t(1187) = -2.77, p = .006, R2 = 0.03, 95% CI [0.07,
+   715→0.42]), but not for reappraisals produced by humans (b =-0.12, t(499) = -1.67, p = .095, R2 = 0.03, 95% CI [-
+   716→0.02, 0.26]; see also Table 68S in the SI).
+   717→
+   718→32
+   719→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   720→Finally, looking at evaluation of specificity we did not find a significant interaction between source and
+   721→label as well as simple effects (interaction: b = -0.07, t(24224) = -1.32, p = .186, R2 = 0.03, 95% CI [-0.17,
+   722→0.03], label difference GPT: b = -0.12, t(959) = -1.34, p = .180, R2 = 0.03, 95% CI [-0.29, 0.06], label difference
+   723→human: b = -0.05, t(498) = -0.67, p = .502, R2 = 0.03, 95% CI [-0.20, 0.10]; see also Tables 69S and 70S in the
+   724→SI). Bayesian analysis (priors: (β ~ N(0, 1), gaussian distribution) indicated Savage-Dickey Bayes factors of 11.18
+   725→for the main effect of label, 3.95 for the main effect of GPT vs. humans, and 8.31 for the interaction effect of
+   726→both variables (see Table 71S in the SI).
+   727→Figure 5. Results from Study 4 comparing reappraisal ratings between humans and GPT, with source label
+   728→(darker shade, right) and without source labels (lighter shade, left). The box plots represent 50% of the data
+   729→and the line represents the median of the distribution. GPT was evaluated lower in effectiveness and novelty
+   730→with label. GPT still outperformed humans in effectiveness, novelty, and empathy both with and without labels.
+   731→
+   732→33
+   733→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   734→In summary, providing raters with a label that the reappraisal was produced by GPT decreased their
+   735→evaluation of effectiveness and novelty of the reappraisal, but not empathy or specificity. Providing the label did
+   736→not impact evaluation of human reappraisals across all measures.
+   737→Language Analysis: Comparing Semantic Characteristics of Human and GPT Reappraisals
+   738→With GPT-4 performing better than humans in producing reappraisals, a natural next step is to ask
+   739→which features within GPT-4 reappraisals led to their perceived superiority. Using semantic analysis, we tried to
+   740→answer three crucial questions regarding the essence of GPT-4 and human reappraisals. The first is to what
+   741→extent GPT-4 and humans differ in terms of semantic similarity to the vignettes they were trying to reappraise,
+   742→and is similarity to the vignette associated with reappraisal quality? This investigation was driven from lay
+   743→criticism of GPT-4, which is that despite being eloquent and detailed, its responses may be less tuned in to the
+   744→specific scenarios produced by the vignettes. Our analysis of data from our studies suggested that GPT-4 and
+   745→humans did not differ significantly in their degree of semantic similarity to the vignettes, but that reappraisals
+   746→that were closer to the vignette were generally of higher quality (see SI section “Semantic Distance to Vignette
+   747→and Reappraisal Quality”).
+   748→The second question we were interested in answering is whether one of the reasons GPT-4 reappraisals
+   749→seemed better is because the words produced by GPT-4 were more complex or may be interpreted as produced
+   750→by someone with higher intelligence. We therefore compared the language complexity between humans and
+   751→GPT-4 in our studies. Results validated that GPT-4 used more complex language compared to humans, but that
+   752→language complexity did not predict reappraisal quality, especially since specific reappraisal vocabulary was a
+   753→stronger predictor (see below).
+   754→Finally, to get a more qualitative evaluation of the differences between humans and GPT-4 reappraisals,
+   755→we tried to isolate the words that were uniquely used by either GPT-4 or humans. We were able to isolate words
+   756→that were characteristic for GPT-4 and humans such that we can predict the source of reappraisal using these
+   757→
+   758→34
+   759→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   760→words alone. We also show that when words that are more characteristic of GPT-4 reappraisals are used by
+   761→humans, the reappraisals are considered higher quality. These results, discussed in detail below, provide more
+   762→information on the differences between human and GPT-4 reappraisals.
+   763→Comparing lexical complexity between human and GPT-4-authored reappraisals. One potential
+   764→factor in the improved reappraisal quality for GPT-4 was in the type of language that the model employed,
+   765→compared to humans. We hypothesized that GPT-4 used more complex terminology compared to humans,
+   766→which in turn might have driven reappraisal success. To evaluate this question, we used a human-rated word-
+   767→complexity lexicon (Maddela & Xu, 2018) to estimate the average complexity of words within reappraisals for
+   768→both humans and GPT-4. We computed mean complexity ratings by averaging over all words within single
+   769→reappraisals. While not all words in the reappraisals appear in the lexicon, on average 94.9% of words in
+   770→human reappraisals and 93.6% of words in GPT-4 reappraisals were matched. Across Studies 1, 2, and 3, we
+   771→found that GPT-4 reappraisals show significantly higher lexical complexity than those of humans (Mann-
+   772→Whitney-U: study 1: U = 2080.0, p < .001; study 2: U = 7058.0, p < .001; study 3: U = 48453.0, p < .001;).
+   773→Figure 6 shows the distribution of mean lexical complexity for human and GPT-4 reappraisals in Studies 1, 2
+   774→and 3. Observing a difference in language complexity between humans and GPT-4, we regressed language
+   775→complexity, characteristic reappraisal vocabulary (see below), and reappraisal origin (GPT vs. human) together
+   776→with their interactions on reappraisal quality in a linear mixed effect model with a random intercept for study.
+   777→Language complexity did, however, not predict reappraisal quality for any of the four dependent variables (see
+   778→Tables 73S to 80S in the SI).
+   779→
+   780→35
+   781→EXPLORING HUMAN AND AI EMOTIONAL SUPPORT
+   782→Figure 6. Distribution of mean lexical complexity according to human ratings for human and GPT-4
+   783→reappraisals in Studies 1 (left), 2 (middle) and 3 (right). GPT-4 reappraisals tend to have more complex words
+   784→on average. Human data is displayed in green, GPT in orange. N = 671, N = 386, N = 2663.
+   785→1 2 3
+   786→Identifying characteristic words for human and GPT-4 reappraisals. Taking the semantic analysis
+   787→one step further, we were interested in whether reappraisal success was associated with concrete and distinct
+   788→vocabulary instead of language complexity overall. To this end, we calculated a class-based TFIDF to identify
+   789→characteristic words for two groups: GPT-4 and human reappraisals. Class-based TFIDF (term frequency
+   790→inverse document frequency) concatenates human and GPT-4 reappraisals into two large documents and
+   791→identifies top words for each group by taking into account the frequency of words within each group, as well as
+   792→in the corpus overall. Table 2 shows the top 20 words for reappraisals in both groups. Compared to humans,
+   793→GPT-4 vocabulary seems to be more sophisticated including words that might commonly be found in
+   794→reappraisals (e.g., “opportunity”, “instead”, “consider”). Interestingly, we found some of those words over all
+   795→Studies 1, 2 and 3 despite their differences in the situations that were reappraised.
+   796→Table 2. Top words (n = 20) for human and GPT-4 reappraisals based on a class-based TFIDF separated for
+   797→Studies 1, 2 and 3. Stop words and words indicative of the vignettes (for Studies 1 and 3) were removed before
+   798→the analysis. Compared to humans, GPT-4 appeared to rely on more sophisticated vocabulary.
+   799→Humans GPT
+
+[showing lines 400-799 of 1063; use offset=800 with limit to continue reading]

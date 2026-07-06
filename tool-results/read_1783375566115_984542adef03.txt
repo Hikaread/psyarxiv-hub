@@ -1,0 +1,402 @@
+   400→
+   401→we rescaled the composite past-year ideation scores of both cohorts to create an equivalent
+   402→scale where all participants scored between 0 (absence of suicidal ideation) and 1 (highly
+   403→frequent/intense suicidal ideation; see Supplementary Materials, 2, for further information).
+   404→Past-fortnight suicidal ideation. In Part 2 of analyses, we used a time-sensitive
+   405→indicator of recent suicidal ideation: item 9 of the Patient Health Questionnaire-9 (PHQ-960),
+   406→which assesses suicidal ideation over the past fortnight (from absent [0] to present nearly
+   407→every day [3]).
+   408→Past-year and lifetime suicide attempts. Both studies operationalised lifetime
+   409→suicide attempts via two SITBI questions. The first asks about lifetime suicide attempts,
+   410→yielding a variable ranging from no [0], one [1], two [2], three or four [3], or five or more [4]
+   411→attempts. A follow-up question asking about the recency of the latest suicide attempt, allowed
+   412→us to create a binary index reflecting the presence (1) or absence (0) of past-year suicide
+   413→attempts.
+   414→Psychopathological and psychosocial correlates of STB
+   415→Depressive symptoms. As a correlate of STB and NSSI in autistic and non-autistic
+   416→people,61,62 we measured depressive symptoms in both cohorts using the aforementioned
+   417→PHQ-960. Validated in both autistic and non-autistic people,60,63 the PHQ-9 is scored between
+   418→0-27, with scores >8 indicative of depression.64 Our Part 1 analyses utilised the PHQ-9 total
+   419→score (with excellent internal consistency in autistic and non-autistic participants [α=.90, .91,
+   420→respectively]).
+   421→Perceived burdensomeness and thwarted belongingness. Two cognitive-affective
+   422→states important to suicidal feelings in both autistic and non-autistic people are perceived
+   423→burdensomeness (perceiving oneself as worthless and a liability to others) and thwarted
+   424→belongingness (perceiving oneself as alone, unaccepted and/or estranged from others).55,65
+   425→Having rescaled group scores to reflect operationalisation of these constructs as per the
+   426→19
+   427→
+   428→Interpersonal Needs Questionnaire-10 (INQ-1066) (see Supplementary Materials 2), scores
+   429→ranged from 10 to 100, with higher scores indicative of higher perceived burdensomeness and
+   430→thwarted belongingness at the present time. Internal consistency was good for perceived
+   431→burdensomeness (α=.93 and .95 for autistic and non-autistic participants) and thwarted
+   432→belongingness (α=.81 and .88 for autistic and non-autistic participants).
+   433→Analysis
+   434→The two parts of our analyses were performed using R v4.4.1 (R Core Team, 2021)
+   435→and are summarised as follows. In both, we performed Monte-Carlo simulations, confirming
+   436→adequate power for each group; these, along with methodological details, are in
+   437→Supplementary Materials 3.
+   438→Part 1: Network analysis of NSSI behaviours, STB and related constructs
+   439→Network analysis is a means of representing associations (edges) between variables
+   440→(nodes), controlling for the effects of other, potentially interacting variables in multivariate
+   441→datasets. Associations are thus estimated as regularised partial correlations. In our first
+   442→analyses, we included only participants with a history of NSSI (n=327 autistic, n=260 non-
+   443→autistic); we had previously used participant NSSI-AT responses to exclude participants from
+   444→Studies 1 (N=1) and 2 (N=2) who engaged in self-injury only or principally as a means of
+   445→practising or attempting suicide. We modelled 21 variables: 15 binary variables reflecting the
+   446→presence/absence of specific NSSI behaviours, 3 measures of STB (past-year suicidal
+   447→ideation, lifetime and past-year suicide attempts), and 3 STB-related constructs (depressive
+   448→symptoms, perceived burdensomeness and thwarted belongingness). We also modelled sex
+   449→assigned at birth (1=female, 2=male) and age as covariates, given NSSI-related variance by
+   450→sex67,68 and the significant age differences between autistic and non-autistic participants. Due
+   451→20
+   452→
+   453→to slight missingness (with one autistic and one non-autistic participant not completing the
+   454→PHQ-9), we constructed the regularised network with pairwise deletion.
+   455→We constructed separate networks for each group, using a mixed graphical model via
+   456→the mgm v1.2-14 package69 to model our 21 binary and continuous variables with optimal
+   457→specificity and sensitivity. We applied multidimensional scaling to the resulting network
+   458→matrices, such that distance between nodes reflected the strength of their association to aid
+   459→visual interpretability.70
+   460→To further analyse the networks, we calculated the following measures:
+   461→Modularity. Modules in a network are groups or communities comprised of closely
+   462→inter-connected nodes: behaviours and phenomena which co-occur or correlate strongly with
+   463→each other, and less so with nodes elsewhere in the network. Operationalised in Q
+   464→(modularity) scores between -1 and 1, positive scores indicate the presence of communities of
+   465→densely connected nodes within the network.
+   466→Centrality. Centrality measures different aspects of how a node is positioned in the
+   467→network. Strength centrality reflects how strongly a node is connected to all other nodes;
+   468→closeness centrality reflects how near a node is to all others; and between centrality reflects
+   469→how often a node acts as a bridge, being the shortest path between nodes. Higher centrality
+   470→scores indicate behaviours that frequently co-occur and are related to many other behaviours.
+   471→Accuracy and stability. After constructing the networks, we evaluated the reliability
+   472→and stability of the edges and centrality indices, using the bootnet package v1.671 to estimate
+   473→the sample distribution with 1000 bootstrapped samples.
+   474→Comparing networks of autistic and non-autistic people. We compared the two
+   475→networks using the NetworkComparisonTest v2.2.2 package.72 We performed 1000
+   476→permutations to assess differences in edge weights and overall connectivity strength.
+   477→21
+   478→
+   479→Part 2: Associations between NSSI behaviours (T1) and STB (T2)
+   480→Our second analysis involved autistic repeaters (n=133), with and without experience
+   481→of NSSI, who had T1 and T2 data from Studies 1 and 2. T1 variables included 15 binary
+   482→variables reflecting specific NSSI behaviours; recent perceptions of burdensomeness and
+   483→thwarted belongingness; suicidal ideation over the past fortnight (PHQ-9 item 9), as well as
+   484→our past-year suicidal ideation composite; lifetime and past-year suicide attempts; and age
+   485→and sex as covariates. T2 variables included perceptions of burdensomeness and
+   486→belongingness, suicidal ideation over the past fortnight and the past year; and past-year
+   487→suicide attempts.
+   488→As a preliminary step, we computed zero-order correlations between each NSSI
+   489→behaviour and T1 and T2 suicidality outcomes, adjusting p-values using the Benjamini–
+   490→Hochberg false discovery rate (FDR) setting α=.05. We further aimed to examine whether
+   491→NSSI behaviours predicted suicidality-related outcomes in autistic people beyond T1
+   492→suicidality and demographic covariates. While our power analyses estimated 80% power to
+   493→detect effects (r=.24) of NSSI behaviours on T2 STB, suicidality at T1 would be expected to
+   494→account for much of the outcome variance,73 with NSSI behaviours competing to explain only
+   495→the residual variance. With 133 participants and 18 predictors, many of which would be
+   496→expectedly interrelated, the ratio of sample size to predictors was below the recommended
+   497→threshold for stable estimation in standard regression models.74,75 We therefore
+   498→employed Least Absolute Shrinkage and Selection Operator (LASSO) regression, a
+   499→regularised regression that produces more stable and parsimonious models with improved
+   500→generalisability to unseen data. We used the glmnet v4.1-8 package76 to predict, from T1
+   501→NSSI behaviours, T2 outcomes including past fortnight and past-year suicidal ideation,
+   502→perceived burdensomeness and thwarted belongingness (past-year suicide attempts had
+   503→insufficient variance to be modelled). At the same time, we controlled for sex assigned at
+   504→22
+   505→
+   506→birth, age (T1), and the corresponding T1 STB variable to that T2 outcome. Having
+   507→standardised all variables, we used ten-fold cross-validation to select optimal penalty
+   508→parameters for each model, ensuring clinically important covariates from T1 (such as T1
+   509→suicidality) were preserved. We report both in-sample R² and cross-validated R², the latter
+   510→providing an estimate of out-of-sample predictive accuracy and model generalisability.77
+   511→Finally, we refitted the model using rlassoEffects function from the hdm v0.3.2 package78 to
+   512→obtain corrected p-values and confidence intervals.79
+   513→Results
+   514→Part 1: Interrelationships between NSSI behaviours and their correlates
+   515→Networks for autistic and non-autistic participants are shown in Figure 2A and 2B,
+   516→respectively.
+   517→23
+   518→
+   519→Figure 2
+   520→Networks of NSSI behaviours, STB and related constructs in autistic and non-autistic people
+   521→24
+   522→
+   523→Note. Panels A and B display regularised partial correlation networks for autistic and non-autistic participants, respectively. Nodes represent NSSI behaviours
+   524→(scratching/pinching, cutting, skin-carving, ingesting harmful substances/sharp objects, self-biting, attempts to break bones, skin-tearing, self-burning, self-hitting, hitting
+   525→objects, wound interference [i.e. preventing wounds from healing]), past-year suicidal ideation (SI), suicide attempts (SA), and psychopathological and psychosocial
+   526→correlates (depressive symptoms [‘PHQ-9’], perceived burdensomeness [‘INQ-PB’], thwarted belongingness [‘INQ-TB’]. Edges represent regularised partial correlations
+   527→controlling for all other variables, with edge thickness indicating association strength. Green edges denote positive associations and red edges denote negative associations.
+   528→Modules identified using the Louvain algorithm are highlighted by colour. Yellow represents suicide attempt-related variables and pink represents suicidal ideation-related
+   529→variables. The autistic group (Panel A) exhibits three distinct NSSI clusters (light blue, green, orange), whereas the non-autistic group (Panel B) shows NSSI behaviours
+   530→forming a single unified community (grey-blue). Similar colours across panels reflect broadly comparable domains. Note, however, that overall network structure was not
+   531→significantly different.
+   532→25
+   533→
+   534→Networks in autistic people
+   535→Eleven NSSI behaviours were included in the model for autistic people (see
+   536→Supplementary Materials 4 for excluded variables, full partial correlation matrix, association
+   537→strengths and metrics of network stability). Association strengths in the network ranged from
+   538→a negative association of -.22 between scratching/pinching and past-year suicide attempt, to a
+   539→strong positive association of .78 between past-year and lifetime suicide attempts (average
+   540→association strength:.27 [SD=.19]). A strong modular structure (Q=.54) reflected five modules
+   541→(i.e. groups) of nodes, which often co-occurred or were correlated (see Figure 2A). Suicide
+   542→attempt-related variables were clustered together with attempts to break bones, while
+   543→depression, perceived burdensomeness and thwarted belongingness clustered with suicidal
+   544→ideation. Of three distinct NSSI modules (i.e. node groups), ingesting harmful
+   545→substances/sharp objects, skin-carving, and cutting were statistically proximal or closer to
+   546→suicide attempts, with cutting and ingesting harmful substances/sharps linked to suicide
+   547→ideation via lifetime suicide attempts. Self-burning, wound interference, and skin-
+   548→tearing were linked to this group, primarily through associations between cutting and self-
+   549→burning; they were also linked to depression, in the suicide ideation cluster, via wound
+   550→interference. Severe scratching/pinching, self-biting, self-hitting, and hitting objects formed a
+   551→separate cluster that was more distal from suicide attempts.
+   552→Centrality estimates were unstable and should be interpreted with caution (see
+   553→Supplementary Materials 5), but indicated, as per Figure 2A, that certain NSSI behaviours –
+   554→like self-biting, ingesting dangerous substances/sharps and wound interference – showed
+   555→relatively high centrality, suggesting these behaviours are strongly connected to many other
+   556→NSSI behaviours in the network.
+   557→Overall, the findings suggest that certain kinds of NSSI – those clustered in the blue,
+   558→green and orange groups [Figure 2A] – are more likely to co-occur with one another; some
+   559→26
+   560→
+   561→behaviours, like attempting to break bones, less commonly co-occur. Some behaviours, like
+   562→cutting, are more closely related to suicide attempts, while other behaviours, like wound
+   563→interference, are directly linked to depression and, proximal to this, suicide ideation.
+   564→Networks in non-autistic people
+   565→Seven NSSI behaviours were included in the model for non-autistic people (see
+   566→Supplementary Materials 6 for excluded variables, full partial correlation matrix, association
+   567→strengths and metrics of network stability).
+   568→Regularised association strengths ranged from .12, between self-hitting and
+   569→depressive symptoms, to .59, between past-year and lifetime suicide attempt, with a mean
+   570→correlation of .32 (SD=.16). Again, a strong modular structure (Q=.44) indicated the
+   571→presence of three distinct groups of nodes which co-occurred or correlated (see Figure 2B).
+   572→Suicide attempts were grouped together with cutting, ingesting harmful substances/sharps,
+   573→and perceived burdensomeness. Suicidal ideation was grouped with depression scores and
+   574→thwarted belongingness. The remaining NSSI behaviours formed a third, separate community,
+   575→with wound interference a central node linking all three clusters through its associations with
+   576→suicidal ideation and attempts. Though low central stability necessitates cautious
+   577→interpretation (see Supplementary Materials, 5), these findings overall suggest that certain
+   578→NSSI behaviours (cutting, ingesting harmful substances/sharps) are closely related to suicide
+   579→attempts in non-autistic people, while others, although often co-occurring, are much more
+   580→distantly associated with STB.
+   581→Network Comparison
+   582→There was no significant difference in overall network structure between autistic and
+   583→non-autistic participants (M=0.61, p=.26), suggesting broadly similar organisational patterns.
+   584→27
+   585→
+   586→However, global network strength (i.e. overall connectivity) was significantly greater in non-
+   587→autistic participants (S=2.63, p=.01), suggesting that among autistic people, relationships
+   588→between nodes are generally weaker (see Supplementary Materials, 4 and 6, for average
+   589→association strengths): variables less consistently co-occur with one another, as might result
+   590→from more heterogeneity across participants.
+   591→Part 2: NSSI behaviours in autistic people as predictors of STB at T2
+   592→Zero-order correlations among NSSI behaviours, T1 variables, and T2 outcomes are
+   593→presented in Figure 3. NSSI behaviours showed small-to-moderate intercorrelations (r =.17–
+   594→.45). Several T1 NSSI behaviours – self-biting, breaking bones, self-burning, cutting, self-
+   595→hitting and skin-tearing – were significantly associated with suicidal ideation, suicide
+   596→attempts, and/or STB-related outcomes at T2.
+   597→28
+   598→
+   599→Figure 3
+   600→Correlation heatmap
+   601→29
+   602→
+   603→Note. The heatmap displays zero-order correlations among 15 NSSI behaviours (left panel), T1 variables including suicidality, sex, and age (middle panel), and T2 suicidality
+   604→outcomes (right panel). The colour intensity represents the magnitude of the correlation. Only correlations significant at a false discovery rate (FDR) corrected p < 0.05 are
+   605→shown.
+   606→30
+   607→
+   608→LASSO regression
+   609→LASSO regularisation paths and cross-validated error curves for each suicidality-related
+   610→outcome at T2 are presented in Supplementary Materials 7, while statistics for each model are
+   611→presented in Table 2.
+   612→Table 2
+   613→LASSO regression models for T2 outcomes
+   614→Model for perceived burdensomeness (T2)
+   615→R2 Cross- Optimal T1 Variables retained β (95% CI) p
+   616→validated penalty
+   617→R2 parameter (λ)
+   618→.48 .41 .08 Fighting (NSSI) .15 (.02, .27) .02
+   619→Perceived burdensomeness .66 (.53, .78) 3x10-24
+   620→Sex (Female = 1, Male = 2) -.17, (-.30, -.05) .007
+   621→Age .04, (-.08, .17) .50
+   622→Model for thwarted belongingness (T2)
+   623→R2 Cross- Optimal T1 Variables retained β (95% CI) p
+   624→validated penalty
+   625→R2 parameter (λ)
+   626→.21 .06 .05 Breaking bones (NSSI) .17 (.003, .34) .046
+   627→Attempts to break bones (NSSI) -.10 (-.26, .07) .28
+   628→Scratching/pinching (NSSI) -.13 (-.30, .04) .13
+   629→Fighting (NSSI) .12 (-.04, .29) .15
+   630→Wound interference (NSSI) .05 (-.12, .22) .59
+   631→Skin-tearing (NSSI) .12 (-.05, .29) .18
+   632→Thwarted belongingness .13 (-.04, .30) .12
+   633→Sex (Female = 1, Male = 2) -.26 (-.42, -.10) .002
+   634→Age .25 (.09, .42) .002
+   635→Model for past-fortnight suicide ideation (PHQ-9 item 9, T2)
+   636→R2 Cross- Optimal T1 Variables retained β (95% CI) p
+   637→validated penalty
+   638→R2 parameter (λ)
+   639→.43 .36 .05 Self-biting (NSSI) .27 (.14, .41) .0001
+   640→Fighting (NSSI) .06 (-.07, .20) .36
+   641→Past-fortnight suicide ideation .58 (0.44, 0.72) 5x10-16
+   642→Sex (Female = 1, Male = 2) -.14 (-.28, -.001) .048
+   643→Age .03 (-.11, .18) .65
+   644→Model for past-year suicide ideation (T2)
+   645→R2 Cross- Optimal T1 Variables retained β (95% CI) p
+   646→validated penalty
+   647→R2 parameter (λ)
+   648→.47 .42 .10 Self-biting (NSSI) .13 (.01, .26) .04
+   649→Past-year suicide ideation .67 (.55, .80) 2x10-25
+   650→31
+   651→
+   652→Sex (Female = 1, Male = 2) .03 (-.10, .15) .68
+   653→Age -.02 (-.15, .11) .78
+   654→Note. Non-significant relationships are depicted in italicised, grey font.
+   655→NSSI behaviours with significant positive associations with STB-related constructs at T2
+   656→were fighting (perceived burdensomeness) and self-biting (past-fortnight and past-year
+   657→suicidal ideation). Breaking bones was also significantly associated with T2 thwarted
+   658→belongingness, but low cross-validated performance means this model must be interpreted
+   659→with caution. In fact, the strongest predictors of T2 STB-related outcomes were the T1
+   660→counterparts of these variables, reflecting stability of perceived burdensomeness and past-
+   661→fortnight suicidal ideation, and similar stability for the measure of past-year suicidal ideation,
+   662→over approximately 1-2 years6. Female sex predicted greater perceived burdensomeness and
+   663→thwarted belongingness at T2, and (marginally) greater past-fortnight suicidal ideation.
+   664→Discussion
+   665→As autistic people engage in NSSI in varied ways6 and for different reasons,7,8,17,19,48
+   666→there may be clinical utility in identifying behaviours with particular association to STB.
+   667→Leveraging data from two studies, we explored cross-sectional relationships between NSSI
+   668→behaviours, STB and related psychopathological and psychosocial constructs in autistic and
+   669→non-autistic people (Part 1). Moreover, using data from autistic participants who completed
+   670→both studies, we examined predictive relationships between specific NSSI behaviours
+   671→6 Most repeaters completed Study 2 just over 1 year (1.1 years) after completing Study 1 (range: .9 to 1.7 years).
+   672→Therefore, consistency between T1 and T2 perceived burdensomeness and past-fortnight suicidal ideation
+   673→(PHQ-9 item 9), assessment periods for which were the two weeks prior to participation in both studies, reflects
+   674→consistency across just over a year for most participants. As the past-year suicidal ideation variable involved
+   675→participants reflecting on the year prior to participation at both points when it was collected, it shows
+   676→consistency over a longer period.
+   677→32
+   678→
+   679→measured at T1 and STB-related outcomes approximately one year later (Part 2). Our
+   680→findings suggest that, as hypothesised on the basis qualitative literature,8,19,48 there are
+   681→constellations of NSSI behaviours which often co-occur in autistic people, unidentical to the
+   682→behaviours which co-occur in non-autistic people. Our findings equally support the
+   683→interpretation that certain behaviours, including cutting, may be more closely related to STB.
+   684→NSSI behaviours co-occur differently in autistic and non-autistic people
+   685→Our first analyses revealed differences in network connectivity between non-autistic
+   686→and autistic participants, alongside descriptive differences in their organisation. Global
+   687→strength was significantly lower in autistic participants, which might reflect less consistent or
+   688→weaker relationships among NSSI behaviours and between NSSI and STB-related constructs,
+   689→as perhaps might be expected with greater heterogeneity across participants. Although overall
+   690→network structure did not differ significantly between groups, community detection identified
+   691→different patterns of co-occurring behaviours in autistic and non-autistic groups.
+   692→Among autistic people, three distinct constellations of NSSI behaviour comprised 1)
+   693→self-scratching, self-biting, hitting oneself and objects; 2) self-burning, skin tearing and
+   694→wound interference; and 3) cutting, skin-carving, and ingesting dangerous substances. The
+   695→first group was negatively linked to suicide attempts through self-scratching, and indirectly
+   696→connected to suicidal ideation via its association with behaviours in a second group. Self-
+   697→burning linked the second group to the third via its association with cutting; this third group
+   698→was strongly interconnected and most proximal to suicide attempts. This tripartite structure in
+   699→autistic participants diverged from the single NSSI community observed in non-autistic
+   700→participants, which comprised skin-tearing, self-biting, hitting objects, wound interference (a
+   701→linking node to the community including suicide attempts and that including suicidal
+   702→ideation), and self-hitting (a linking node to depression in the suicidal ideation community).
+   703→33
+   704→
+   705→Cutting and ingesting harmful substances/sharps emerged as NSSI behaviours closely
+   706→related to suicide attempts in autistic and non-autistic people alike. We had hypothesised
+   707→particularly strong associations between cutting and STB on the basis of existing
+   708→literature,3,8,19,26,34,42-45,49,52 and ingesting substances has also been linked to STB in non-
+   709→autistic people.47 Both are behaviours which, allowing habituation, can be straightforwardly
+   710→extended to lethal effect.37,40,42 Interestingly, in autistic people, these behaviours linked the
+   711→third NSSI group to that containing suicide attempts, whereas for non-autistic people, these
+   712→behaviours were included within the group containing suicide attempts. Amongst non-autistic
+   713→people, then, cutting and ingesting harmful substances/sharps are forms of NSSI closely
+   714→linked to suicidal behaviour, while NSSI behaviours in the other cluster, more likely to co-
+   715→occur with one another, are less frequently or strongly linked to STB. In contrast, for autistic
+   716→people, clusters of NSSI behaviours more likely to co-occur are more distinct from STB and
+   717→sometimes related to it through other groups of NSSI behaviour, suggesting more varied
+   718→presentations.
+   719→The findings confirm that NSSI behaviours co-occur in meaningful ways, and with
+   720→differential relevance to STB in autistic vs. non-autistic people, as suggested by qualitative
+   721→work.8,19,48 Therein, autistic people distinguish between meltdown-related NSSI
+   722→behaviours8,19,48 (such as self-hitting, head-banging, or more clearly unintentional
+   723→dysregulated behaviours); NSSI behaviours felt to address sensory needs8,48 (such as wound
+   724→interference, slapping or skin picking); and “considered”19, “intentional”48 or “allistic”8 (i.e.
+   725→non-autistic) NSSI behaviours linked to life stressors, emotional distress, mental illness and
+   726→negative self-image (such as cutting). To some extent, the data may support an apparent
+   727→distinction between NSSI and repetitive, unhidden and apparently unpremeditated ”SIB” in
+   728→people with intellectual disabilities.11 Where some scholars distinguish between the two on
+   729→basis of intent (SIB agnostic to intent, NSSI intended to cause physical harm without trying to
+   730→34
+   731→
+   732→die)80, our data shows that some self-injurious behaviours are, indeed, statistically more distal
+   733→and only indirectly associated with STB or its psychopathological correlates. However, the
+   734→data also indicates relationships between groups of behaviours, suggesting that while certain
+   735→groups of behaviours may have particular psychopathological and clinical correlates, they do
+   736→co-occur, corroborating early findings that NSSI, and perhaps specific NSSI behaviours, may
+   737→fulfil different functional needs over time.7,17
+   738→In broader relationships between STB and psychopathological and psychosocial
+   739→constructs, we also observed points of convergence and divergence across autistic and non-
+   740→autistic networks. Suicidal ideation and behaviour were grouped separately in both,
+   741→corroborating the established independence of factors associated with each outcome.81
+   742→Among autistic people, perceived burdensomeness and thwarted belongingness were
+   743→proximal to depression and to suicidal ideation in a manner consistent with the interpersonal
+   744→theory of suicide,65,82 which conceptualised both as the driving factors for suicidal ideation.65
+   745→Greater closeness of perceived burdensomeness to suicidal ideation, however, is consistent
+   746→with a previous network analysis in autistic people,55 where thwarted belongingness was only
+   747→distally connected with suicidal ideation via its relationship to burdensomeness and low
+   748→mood. In non-autistic people, too, perceived burdensomeness is a consistently stronger
+   749→predictor of suicidal ideation than thwarted belongingness83. Research in clinical non-autistic
+   750→samples has found that, in contravention of the original theory, perceived burdensomeness
+   751→may also predict suicidal behaviour84,85; while ours was a predominantly student sample, the
+   752→grouping of perceived burdensomeness with suicide attempts corroborates this. Both autistic
+   753→and non-autistic networks support the relevance of depression, thwarted belongingness and
+   754→perceived burdensomeness to models of STB, highlighting their relevance to risk assessment
+   755→in both populations.
+   756→35
+   757→
+   758→Prediction over time in autistic people
+   759→Cross-sectional networks cannot establish whether specific NSSI behaviours
+   760→prospectively heighten risk of suicidal thoughts and behaviour. We examined the predictive
+   761→utility of NSSI behaviours over time, in our small sample of autistic “repeaters”, both via
+   762→zero-order correlations and LASSO regression. Zero-order correlations corroborated, as per
+   763→Part 1 analyses, some interrelatedness amongst NSSI behaviours, and differential strength of
+   764→relationships between NSSI behaviours and STB-related constructs. Behaviours associated
+   765→with recent and past-year suicidal ideation were cutting, self-burning, self-hitting, skin-
+   766→tearing, breaking bones, and self-biting – the latter remained significantly associated with
+   767→recent and past-year suicidal ideation in LASSO regression. As per our first analyses, cutting
+   768→and self-hitting were associated with past-year suicide attempts; both were also significantly
+   769→associated with perceived burdensomeness, whereas skin-tearing was associated with
+   770→thwarted belongingness (though none of these three relationships remained significant in
+   771→LASSO regression after controlling for T1 STB).
+   772→The zero-order correlations and regressions of our second analyses afforded closer
+   773→examination of short- and longer-term associations between NSSI, STB and related
+   774→psychosocial constructs. Given the dearth of longitudinal research on STB in autistic people,
+   775→the stability of suicidal thoughts and perceived burdensomeness over approximately 1-2 years
+   776→is notable. These strong relationships are likely to partially or wholly explain why some of
+   777→the associations between specific NSSI behaviours and STB-related constructs in our first
+   778→analyses, such as relationships between cutting, ingesting harmful substances/sharps and
+   779→suicide attempts, were not evident in prediction of STB-related constructs in our second
+   780→analyses.
+   781→Finally, we note associations between fighting to get hurt and perceived
+   782→burdensomeness at T2. This behaviour from the NSSI-AT fails to meet certain prerequisites
+   783→36
+   784→
+   785→for NSSI80: chiefly, the physical injury is indirect and incurred by proxy. Fighting has, in the
+   786→general population, been variably described as a form of NSSI-by-proxy86, or as ‘indirect
+   787→self-injury’87 alongside behaviours which share transdiagnostic affective roots with NSSI,
+   788→such as disordered eating, substance use and risky behaviour.88 The relevance of this
+   789→behaviour to STB corroborates calls for the traditionally siloed autism field to attend to
+   790→transdiagnostic mechanisms, both intrapersonal and interpersonal, which might underpin
+   791→relationships between NSSI, suicidality and their correlates.89
+   792→Limitations, future directions and implications
+   793→There are limitations in our design, measures, and sample. Firstly, although we report
+   794→associations between specific NSSI behaviours and STB-related constructs cross-sectionally
+   795→and across two time-points, longitudinal designs are necessary to assess causal relationships
+   796→between NSSI, STB, and related psychopathological processes and behaviours over time,,
+   797→especially as NSSI may co-occur with suicidal thoughts while still being itself non-suicidal.80
+   798→The two studies from which we pooled our data were not designed for longitudinal
+   799→assessment of repeaters. For instance, operationalisation of NSSI behaviours as binary
+
+[showing lines 400-799 of 1223; use offset=800 with limit to continue reading]
