@@ -860,7 +860,7 @@
     "osf_id": "eua92_v1",
     "title": "fAIr science — How AI can support a transparent biopsychological research cycle",
     "date_created": "2026-06-19T10:11:15.030130",
-    "date_modified": "2026-06-20T02:37:39.186773",
+    "date_modified": "2026-07-06T13:10:32.149508",
     "description": "Biological psychology links mental phenomena and physiological processes, advancing our understanding of the human condition and informing clinical applications. Unlocking this potential demands rigorous and transparent methodology. Artificial Intelligence (AI), encompassing generative (e.g., large language) models and machine-learning classifiers, promises to advance open science in this field through automated literature synthesis, experimental design assistance, and enhanced code documentation. Yet the same tools risk undermining transparency through algorithmic opacity, systematic biases, and non-reproducible outputs. In this paper, we critically examine how AI can support or hinder open science practices throughout the biopsychological research cycle. We discuss current AI applications at each research stage and explore their potential benefits (e.g., accelerated systematic reviews, stimulus generation, metadata formatting) alongside relevant concerns (e.g., premature study exclusion, confabulated citations, amplified publication bias). To provide practical guidance, we offer recommendations on how AI may be used to promote the adoption and implementation of open science practices at each step of the biopsychological research cycle. Alongside potential pitfalls and a future vision, these guidelines equip biopsychological researchers with actionable support for integrating AI-based methods into their work in line with open science principles.",
     "doi": "",
     "preprint_doi": "",
@@ -1315,6 +1315,57 @@
     "signal_score": 2
   },
   {
+    "osf_id": "8quzg_v1",
+    "title": "The format of metaphorical meaning: Neurophysiological evidence for dynamic and flexible image-based representations",
+    "date_created": "2026-07-06T06:07:39.551100",
+    "date_modified": "2026-07-06T10:06:18.255364",
+    "description": "Theories of metaphor comprehension have long debated the representational format of metaphorical meaning. While classical accounts describe metaphors as abstract propositional representations, other theories have, to varying degrees, argued that metaphor evokes mental imagery. Yet neurophysiological evidence that speakers construct mental images reflecting the complete figurative interpretation remains scarce. Here, we investigated whether metaphors give rise to mental images resembling those generated during imagery or whether they rely predominantly on propositional representations. We designed a novel picture-matching paradigm in which identical target pictures were preceded by either matching or mismatching stimuli across four tasks: another picture (Physical task), an adjective prompting imagery (Imagery task), a literal sentence (Literal task), or a metaphorical sentence (Metaphorical task). Across multiple levels of analysis of the EEG signal, the Metaphorical task patterned more closely with imagery than with literal language. Metaphors elicited enhanced P300 and attenuated N200 responses, greater recruitment of occipito-temporal visual regions, and stronger upper-alpha/lower-beta desynchronization than literal descriptions, indicating that participants constructed perceptually richer representations. These effects were further modulated by individual differences in imagery and vocabulary. However, at later stages, metaphors also diverged from imagery, which showed more pronounced brain signatures associated with memory retrieval and representational maintenance. These findings indicate that metaphorical meanings yield image-based representations while remaining constrained by propositional content. Collectively, the results confirm that metaphor “sets things before the eyes”, but it does so through the dynamic and flexible interaction of perceptual simulation with propositional information, in line with multiple representation theories of conceptual knowled",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf0",
+          "text": "Imagery"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf9",
+          "text": "Semantics and Pragmatics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/8quzg_v1/",
+    "signal_score": 1
+  },
+  {
     "osf_id": "hf7z4_v1",
     "title": "How Will I Know If You Really Like Me? Assessing the Role of Appearance, Behavior, and Reciprocity for Meta-Liking Accuracy in Initial Social Encounters",
     "date_created": "2026-07-06T06:39:32.572452",
@@ -1342,10 +1393,43 @@
     "signal_score": 1
   },
   {
+    "osf_id": "7pn2t_v1",
+    "title": "Revisiting the Interpretation of r and R2: A Comment on Funder &amp; Ozer (2019)",
+    "date_created": "2026-07-06T07:06:51.677596",
+    "date_modified": "2026-07-06T10:02:52.918848",
+    "description": "The article by Funder and Ozer (2019) emphasizes the important aspect that small correlations can be relevant, both theoretically and practically. However, we contend on two key points: (1) We contend that, when choosing between r and R2 as measures of effect size, R2 remains the superior measure. (2) Furthermore, we argue that despite the justified criticism of traditional, rigid thresholds for interpreting effects, the newly proposed guidelines by Funder &amp; Ozer (2019) carry a risk of overinterpretation by conflating two distinct dimensions: the magnitude of a correlation and the relevance of a correlation.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c19",
+          "text": "Meta-science"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c92",
+          "text": "Statistical Methods"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/7pn2t_v1/",
+    "signal_score": 1
+  },
+  {
     "osf_id": "fd37t_v1",
     "title": "When ASMR Becomes Unpleasant: Acoustic Features and Visual Context Shape Emotional Responses to Eating Sounds",
     "date_created": "2026-07-06T08:23:50.543397",
-    "date_modified": "2026-07-06T09:48:58.302557",
+    "date_modified": "2026-07-06T10:11:28.319778",
     "description": "Autonomous sensory meridian response (ASMR) videos can evoke both pleasant and unpleasant emotional responses. Eating sounds appear to produce especially large individual differences in these experiences. We examined how acoustic features and visual context shape emotional responses during eating-sound ASMR. Ninety-six participants were randomly assigned to one of four stimulus-presentation conditions: auditory-only (Aud), audiovisual congruent (AV-C), audiovisual incongruent (AV-I), or visual-only (Vis). Participants were presented with eight 30-s ASMR clips (4 min total) and provided continuous ratings of their emotional responses on a 3-point valence scale: unpleasant, neutral, and pleasant. Emotional responses differed across conditions. The Aud condition elicited the most unpleasant ratings. This negative bias was reduced when visual information accompanied the sounds, especially in the AV-C condition. Response-category distributions showed the same pattern. To identify low-level acoustic features associated with moment-to-moment changes in emotional responses, we extracted four acoustic features: amplitude, spectral centroid, spectral bandwidth, and instantaneous roughness. For each feature, we computed across-ear averages and left–right differences. We computed lagged Spearman cross-correlations between acoustic features and emotional responses. In the Aud condition, increases in across-ear average amplitude and roughness were followed by shifts toward more unpleasant responses. Evidence for comparable acoustic–emotion coupling was limited in the AV-C condition. These findings suggest that emotional responses to eating-sound ASMR are shaped by acoustic features and visual context. Congruent visual information may reduce unpleasant responses by clarifying the sound source and changing how eating sounds are interpreted.",
     "doi": "",
     "preprint_doi": "",
