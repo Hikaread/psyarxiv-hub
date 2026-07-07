@@ -603,7 +603,7 @@
     h += '<span class="paper-number">#' + p.number + '</span>';
     h += '<div class="paper-heading">';
     h += '<div class="paper-title has-modal">' + esc(p.title) + '</div>';
-    if (p.published) {
+    if (p.published && p.published !== 'false' && p.published !== false && p.published !== 'None') {
       h += '<span class="badge-published">PR</span>';
     }
     h += '</div>';
@@ -637,7 +637,7 @@
       h += '<div class="paper-link-wrap"><a href="' + esc(linkInfo.href) + '" target="_blank" rel="noopener" class="paper-osf-link" title="' + esc(linkInfo.title) + '">' + linkInfo.label + '</a></div>';
     }
 
-    if (p.published && p.published !== 'false' && p.published !== false) {
+    if (p.published && p.published !== 'false' && p.published !== false && p.published !== 'None') {
       h += '<div class="paper-published-text">\u2714 Peer reviewed: ' + linkifyText(p.published) + '</div>';
     }
 
@@ -681,7 +681,7 @@
         var dataCat = labelToId[c] || 'other';
         h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
       });
-      if (p.published) h += '<span class="badge-published">PR</span>';
+      if (p.published && p.published !== 'false' && p.published !== false && p.published !== 'None') h += '<span class="badge-published">PR</span>';
       h += '</div>';
     }
 
@@ -694,7 +694,7 @@
     if (p.relevant_for) {
       h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text md-content">' + renderMd(p.relevant_for) + '</div></div>';
     }
-    if (p.published && p.published !== 'false' && p.published !== false) {
+    if (p.published && p.published !== 'false' && p.published !== false && p.published !== 'None') {
       h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + linkifyText(p.published) + '</div></div>';
     }
 

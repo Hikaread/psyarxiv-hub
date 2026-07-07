@@ -8190,5 +8190,245 @@
     "relevant_for": "To be completed.",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/x5gnq_v1"
+  },
+  {
+    "number": 516,
+    "title": "Electroconvulsive Therapy (ECT) in Depression: The Role of Anhedonia",
+    "authors": "Sandro Menegola, Sarah Ulrich, Magdalena D. Ridder, Gunnar Deuring, Annette Brühl, Else Schneider",
+    "osf_id": "n6skr_v2",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This retrospective observational study (N = 67 patients with depression, 59.7% female, mean age 50.5 years) evaluated the **antianhedonic effects of ECT** across four time points: pre-ECT, after session 6 (~2 weeks), post-acute treatment (~4-5 weeks), and at 2-3 month follow-up. Anhedonia was assessed with the **Snaith-Hamilton Pleasure Scale (SHAPS)** and depression severity with the **MADRS** and **BDI-II**. Multilevel models revealed **clinically meaningful, rapid improvements in anhedonia** — a *large effect at session 6 (d = -0.73)*, peaking post-treatment (**d = -1.07**, p < .001), and largely sustained at follow-up (**d = -0.84**, p < .001).\n\n**Response rates for anhedonia** (>=50% SHAPS reduction) reached **61.7% post-ECT** and **63.9% at follow-up**, substantially exceeding MADRS response rates (56.6% post-ECT). **Remission rates for anhedonia** (SHAPS <= 3) reached **67.2% post-ECT** and **66.7% at follow-up**. Baseline anhedonia did *not* moderate depression improvement (p = .518). Cross-lagged panel models (CFI = 1.00, RMSEA = .00) suggested **early anhedonia improvements may precede and catalyze broader depressive symptom relief**. Patients received an average of **12.2 acute bifrontal ECT sessions**. Anhedonia was largely distinct from general depression at baseline (R² = .09).",
+    "clinical_insight": "Clinicians should consider ECT earlier in treatment algorithms for patients with **pronounced, treatment-resistant anhedonia**, particularly in severe or urgent cases. This study demonstrates that ECT produces **rapid, large-magnitude anhedonia improvement within six sessions (~2 weeks)** — faster than many patients experience with conventional pharmacotherapy. The finding that **anhedonia response rates (60-70%) substantially exceeded overall depression response rates** suggests ECT may have particular potency for reward-circuit dysfunction. Additionally, early anhedonia improvement may serve as an **early indicator of broader clinical response**, allowing clinicians to gauge treatment trajectory. ECT should be discussed alongside ketamine and rTMS for anhedonia-predominant presentations, with selection informed by clinical urgency, severity, and contraindications.",
+    "relevant_for": "Treatment-resistant depression with prominent anhedonia; severe/urgent depressive episodes; patients with comorbid anhedonia and suicidality; ECT treatment planning in inpatient psychiatric settings",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/n6skr_v2"
+  },
+  {
+    "number": 517,
+    "title": "A network approach to examining alcohol use and AUD risk factors across adolescence and adulthood",
+    "authors": "Karis Colyer-Patel, Emese Kroon, Christophe Romein, Ajay Handa, Janna Cousijn",
+    "osf_id": "4yhev_v1",
+    "date_posted": "2026-07-05",
+    "source_date": "2026-07-05",
+    "categories": [
+      "Addiction & Substance Use"
+    ],
+    "summary": "This cross-sectional study applied **Gaussian Graphical Model (GGM) network analysis** to examine the **item-level structure of the AUDIT** (9 nodes, excluding morning drinking) and the interconnections among **AUD risk factors** (11 nodes including AUDIT-C, AUDIT-P, DSM-5 Cross-Cutting Symptom Measure, ImpSS, executive functioning, age of onset, craving, tobacco use, and coping/enhancement/social drinking motives). The final sample comprised **N = 933** participants (mean age 32.5, SD = 14.1; mean AUDIT = 8.1, indicating hazardous drinking). Adolescents (16-25 years, n = 421) and adults (35-65 years, n = 252) were compared via Network Comparison Tests.\n\nIn the **AUDIT network**, **binge drinking was the most central node** (expected influence = 1.42), bridging consumption items to use-related problems including loss of control. The strongest edge was between drinks per day and binge drinking (r = 0.52). **No significant age-group differences** emerged in global strength (p = .422), network structure (p = .544), or centrality (all p = 1.00). In the **risk factor network**, **AUDIT-C was most central** (strength = 1.42), and **enhancement motives showed the highest expected influence** (1.15). Strong edges included AUDIT-C <-> AUDIT-P (0.54), enhancement <-> social motives (0.53), and DSM-5 symptoms <-> executive functioning (0.47).",
+    "clinical_insight": "These findings suggest that **binge drinking is a critical intervention target** across the lifespan — it occupies a uniquely central position connecting consumption patterns to loss of control and related problems in both adolescents and adults. The **AUDIT risk factor network** reveals that **drinking motives — especially enhancement — are highly interconnected** with both consumption and problems, suggesting that interventions targeting motives for drinking (e.g., behavioral activation alternatives to enhancement drinking) may have cascading effects. The strong **mental health symptoms <-> executive functioning link** (r = 0.47) underscores the need for integrated treatment addressing cognitive deficits alongside psychiatric comorbidity. Although adolescents exhibited higher severity across multiple domains, the **underlying network architecture was identical**, implying that the same intervention principles apply across development.",
+    "relevant_for": "Adolescent and adult substance use treatment; early intervention for hazardous drinking; integrated AUD-psychiatric comorbidity programs; primary care alcohol screening",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/4yhev_v1"
+  },
+  {
+    "number": 518,
+    "title": "EEG Predictors of Transition from Clinical High Risk to Psychotic Disorders: A Systematic Review with Implications for Data Harmonisation",
+    "authors": "Finn Brady, Anja Stanojlovic, Sean Naughton, Mary Clarke, Keith Gaynor, Klaus Kessler",
+    "osf_id": "uc63x_v2",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Psychosis & Schizophrenia"
+    ],
+    "summary": "This **PRISMA-guided systematic review** (PROSPERO: CRD42024540131) identified **34 studies** comparing baseline EEG between CHR individuals who transitioned to psychosis (CHR-T) and those who did not (CHR-NT). **Random-effects meta-analyses** of ERP data yielded: **MMN duration showed the most robust effect (k = 9, g = 0.54, p = .004, 95% CI [0.17, 0.92])**, indicating reduced amplitudes in CHR-T. **P3b was significantly reduced in CHR-T (k = 5, g = -0.52, p = .007)** and **P3a also differentiated groups (k = 4, g = -0.28, p = .004)**. N100 showed a significant but small effect (k = 2, g = 0.26, p = .005). In contrast, **P50 sensory gating showed null effects** (P50 ratio: g = 0.13, p = .619).\n\nResting-state studies (8 studies) yielded mixed findings, with **delta and theta** being the most consistently implicated bands. **Substantial methodological heterogeneity** was identified across CHR diagnostic instruments (CAARMS, SIPS, COPS, BSABS, SPI-A), EEG paradigms, and outcome definitions. The review proposes the **TRIDENT framework** for standardizing future EEG-based prognostic research, advocating for transdiagnostic outcome assessment, multimodal EEG, co-morbidity assessment, and COBIDAS-EEG/BIDS-EEG reporting standards.",
+    "clinical_insight": "For clinicians working in early intervention psychosis services, **reduced MMN duration and P300 (especially P3b) amplitude are the most promising EEG-based prognostic markers** for identifying which CHR patients are most likely to convert to psychosis. However, these markers should *not* yet be used in isolation for clinical decision-making given the substantial heterogeneity. **Sensory gating (P50) and resting-state measures lack prognostic consistency** and are not currently useful for individual-level prediction. The proposed TRIDENT framework emphasizes that CHR may be better understood as a **transdiagnostic risk state** for multiple adverse psychiatric outcomes, not solely psychosis. Until methodology is harmonized, **EEG findings should complement — not replace — clinical assessment** using established CHR criteria.",
+    "relevant_for": "Early intervention psychosis services; clinical high-risk for psychosis programs; prodromal psychosis assessment; research settings developing biomarker-guided treatment stratification",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/uc63x_v2"
+  },
+  {
+    "number": 519,
+    "title": "Internal Structure, Reliability, and Gender-Related Item Functioning of the Borderline Personality Inventory",
+    "authors": "Emilia Soroko, Pawel Kleka, Lidia W. Cierpialkowska, Falk Leichsenring",
+    "osf_id": "fdb2u_v1",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Personality Disorders"
+    ],
+    "summary": "This study provides the first formal psychometric validation of the **Polish version of Leichsenring's Borderline Personality Inventory (BPI)**, a 53-item true/false self-report grounded in **Kernberg's object relations theory** of borderline personality organization (BPO). The sample was a **gender- and age-matched community sample of N = 600** (300 women, 300 men; mean age ~23.8 years). Internal consistency was good for the total scale (**McDonald's omega = .89**, composite reliability = .84). **CFA with DWLS estimation** supported a **four-factor model** — Identity Diffusion, Primitive Defenses, Impaired Reality Testing, and Fear of Fusion — with good fit (CFI, TLI, NFI > .95; RMSEA, SRMR < .06).\n\n**Multidimensional IRT (2PL model)** revealed the BPI provides **greater measurement precision at higher levels of the latent trait**, consistent with its design as a screening tool for more pronounced BPO. **Differential Item Functioning (DIF)** using the Mantel-Haenszel method with Holm correction found **no statistically significant gender-related DIF**, supporting score comparability across women and men. However, the **Impaired Reality Testing subscale** was highly skewed (skewness = 3.38) with 80.8% scoring zero, limiting its utility in non-clinical samples.",
+    "clinical_insight": "The Polish BPI demonstrates adequate psychometric properties for use as a **screening tool and research instrument** for borderline personality organization. Its **greater precision at higher trait levels** means it is best suited for identifying individuals with more pronounced BPO features. The **absence of gender-related DIF** supports the clinical comparability of BPI scores across women and men. However, the **high inter-factor correlations** (up to 0.88) suggest subscale scores should be interpreted cautiously and that the **total score may be the most reliable metric**. The BPI should be used as **one component of a multimethod assessment** alongside clinical interviews (e.g., STIPO-R), given the known limitations of self-report in personality pathology.",
+    "relevant_for": "Personality disorder assessment in outpatient and inpatient settings; psychodynamic psychotherapy screening; research on borderline personality organization; dimensional personality pathology assessment",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/fdb2u_v1"
+  },
+  {
+    "number": 520,
+    "title": "Relational Specificity of Mentalizing and Personality Functioning in Adult Attachment Relationships",
+    "authors": "Karolin Holy, Tobias Nolte, Sebastian Walther, Sarah Kittel-Schneider, Martin Walter, Anna Linda Leutritz",
+    "osf_id": "thqgu_v1",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This preregistered cross-sectional study examined **within-person differences in mentalizing and personality functioning** across romantic partner versus primary parental attachment contexts in **N = 100 German-speaking adults** (75% female, M age = 30.62; 37% with moderate-to-severe depressive symptoms on PHQ-8 >= 10). Context-adapted versions of the **PRFQ** (Interest and Curiosity [IC]; Certainty about Mental States [CM]) and **OPD-SQ** (Self-Regulation, Regulation of Object Relations, Experiencing Affect) were administered for both relational targets.\n\n**Linear mixed-effects models** revealed **significantly higher IC in the partner context (d = 0.53, p < .001)** and **slightly higher CM (d = 0.23, p = .023)**. Participants reported **lower self-regulation difficulties (d = -0.30, p = .004)** and **substantially lower relationship-specific stress (d = -0.67, p < .001)** in the partner context. **Relationship-specific self-efficacy was the strongest predictor** of CM in the parental context (**beta = .73, p < .001**, R² = .55). In the partner context, **attachment insecurity, mentalizing deficits, and relational stress** predicted regulatory difficulties (model R² = .59-.64). In the partner context, **IC correlated strongly with relationship satisfaction (r = .60)** and self-efficacy (r = .58).",
+    "clinical_insight": "This study provides evidence that **mentalizing and personality functioning vary meaningfully across adult attachment relationships**. Clinicians conducting mentalization-based therapy (MBT) or psychodynamic psychotherapy should assess reflective functioning **relationally** rather than assuming global capacity. The finding that **relationship-specific self-efficacy is the strongest predictor of mentalizing in the parental context** suggests that therapeutic work strengthening patients' **confidence in managing difficult parent interactions** may be particularly effective. Conversely, in romantic contexts, **attachment insecurity and situational stress** are more prominent barriers. Clinicians should explicitly map patients' mentalizing profiles across key attachment relationships, as a patient who mentalizes well with a partner may struggle significantly with parental figures.",
+    "relevant_for": "Mentalization-based therapy; psychodynamic psychotherapy; couples therapy; family therapy involving adult children and parents; attachment-focused clinical assessment",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/thqgu_v1"
+  },
+  {
+    "number": 521,
+    "title": "Visuospatial Orienting in Working Memory is Preserved in Adults with ADHD Symptoms",
+    "authors": "Luisa Superbia-Guimaraes, Amy Atkinson, Richard Allen, Valerie Camos",
+    "osf_id": "7xvbd_v1",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Neurodivergence"
+    ],
+    "summary": "This study investigated whether **deficient visuospatial orienting** during encoding and maintenance underlies working memory (WM) deficits in adults with ADHD symptoms. Across **two experiments** with a total of **191 participants** (84 symptomatic, 107 controls in Experiment 1; 37 symptomatic, 48 controls in Experiment 2), the authors employed a **pre- and retro-cueing paradigm** within a probe recognition task. Symptoms were assessed via the **Adult ADHD Self-Report Scale (ASRS)**.\n\nIn both experiments, **strong cueing benefits** were observed (e.g., Experiment 1: BF₁₀ = 3.4 x 10¹⁰ for pre-cue accuracy benefit). **Critically, no group differences emerged** — the best models in every analysis included only cueing condition, not group or the group x cueing interaction. Moderate to strong evidence supported *exclusion* of group effects (BF_excl = 2.94-5.74) and interactions (BF_excl = 7.3-11.56). Experiment 2 addressed a ceiling effect by using irregular, difficult-to-name shapes, yet the pattern of **preserved cueing in the ADHD group persisted**. The authors conclude that **attentional orienting mechanisms in WM are intact in ADHD**, and real-world WM difficulties likely arise from **intentional disengagement deficits** in interference-rich contexts.",
+    "clinical_insight": "Clinicians assessing adults with ADHD should be aware that **basic visuospatial working memory orienting appears preserved** in controlled settings, even when symptom burden is substantial. This means that **standard neuropsychological WM tests may not fully capture real-world difficulties**. The findings suggest ADHD-related WM challenges are more likely driven by **intentional disengagement deficits** — difficulty removing irrelevant information — rather than failures of basic attentional orienting. **Structured environments that minimize competing distractions and provide clear external cues** may be more beneficial than training targeting orienting mechanisms per se. Providing **explicit organizational scaffolds** (e.g., breaking tasks into discrete, self-contained steps) could leverage the preserved orienting ability while reducing disengagement demands.",
+    "relevant_for": "Adults with ADHD symptoms; clinical and educational psychologists conducting neuropsychological assessments; occupational therapists designing workplace accommodations",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/7xvbd_v1"
+  },
+  {
+    "number": 522,
+    "title": "Meta analysis shows video-based monitoring technology (Oxevision) has no statistically significant association with four of five measures of patient safety",
+    "authors": "Hat Porter",
+    "osf_id": "4uacf_v2",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This pre-print provides a **critical reanalysis** of a meta-analysis by Kekic, Rose, and Bayley (2026) evaluating **Oxevision** (now rebranded as 'LIO'), a video-based monitoring technology used in NHS mental health patient bedrooms, seclusion rooms, and police custody. Porter systematically examines five outcome measures — **self-harm, falls, assaults, physical restraint, and rapid tranquilisation** — across data from **six NHS Mental Health Trusts**.\n\nThe reanalysis reveals that **four of five outcomes showed no statistically significant association** with Oxevision installation. Specifically: restraint incidents showed -24.2% change (95% CI: -50.2%, 15.2%, crossing zero); rapid tranquilisation showed -33.6% (95% CI: -60.1%, 10.3%); the initially significant assault finding became non-significant upon recalculation after excluding a Trust with **half of patient IDs missing**; and self-harm — which **increased in 6 of 12 wards** post-installation — showed a non-significant result when an outlier ward (SD = 17,484.28) was excluded. The original study used **fixed-effects meta-analyses** despite large heterogeneity, omitted all **p-values**, and had **no pre-registered protocol**.",
+    "clinical_insight": "This critique has **direct implications for clinical decision-making** regarding surveillance technology in inpatient psychiatric settings. Clinicians and service leaders should be **highly cautious** when evaluating vendor-produced evidence for safety technologies, particularly when: p-values are omitted, data is incomplete, no pre-registration exists, and evaluations are conducted in partnership with the commercial provider. The finding that **self-harm increased in half the wards** following installation warrants serious attention. The paper underscores the importance of **patient privacy rights** — video recording in bedrooms is a significant rights infringement that must be justified by robust, transparent evidence. Mental health professionals should advocate for **independent evaluation** of any monitoring technology before adoption.",
+    "relevant_for": "Inpatient psychiatric settings; NHS Trust leadership; patient safety teams; mental health nurses; forensic psychiatry; seclusion and restraint practices",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/4uacf_v2"
+  },
+  {
+    "number": 523,
+    "title": "EEG reveals that negative memories are associated with increased neural recapitulation during early stages of memory retrieval",
+    "authors": "Allison Cline, Luvada Mayle, Holly Bowen, Elizabeth Kensinger, Eric Fields",
+    "osf_id": "9u8kw_v1",
+    "date_posted": "2026-07-01",
+    "source_date": "2026-07-01",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This study used **EEG to measure the temporal dynamics** of neural recapitulation — the overlap between neural activation patterns at encoding and retrieval — for emotional memories, testing the **NEVER model**. A sample of **34 undergraduate participants** completed an encoding-retrieval task across 4 blocks. During encoding, participants viewed an **abstract line drawing** followed by a **full-color image** (96 each of negative, positive, and neutral valence). At retrieval, line drawings served as cues (288 old + 96 new). Stimuli were rigorously matched for **luminance, edge density, feature congestion, and subband entropy** (all ps > .12), with large valence differences confirmed (d = 4.73-9.39).\n\n**Negative images elicited significantly greater ERS** than neutral images in a cluster spanning **367-805 ms** post-cue. Negative vs. positive differences emerged in four clusters: **430-555 ms at encoding and 357-800 ms at retrieval**. No significant positive vs. neutral differences were found (all ps > .23). **Critically, the increased recapitulation for negative memories began within ~200 ms**, overlapping with early ERP old/new effects — suggesting that valence-driven recapitulation is **rapid and automatic**, potentially *influencing* the success of ongoing retrieval rather than being a *consequence* of it.",
+    "clinical_insight": "These findings have notable implications for understanding **emotional memory in psychopathology**. Many disorders — including PTSD, depression, and anxiety — are characterized by intense, vivid, and intrusive negative memories. This study demonstrates that the neural mechanism producing this vividness operates **within 200 ms of encountering a retrieval cue**, meaning it is likely **automatic and pre-conscious**. Treatment approaches that target these early automatic processes — such as **EMDR, attention modification, or early-stage retrieval interference techniques** — may be particularly important. The finding that this process is *causal* (it precedes and potentially determines retrieval success) suggests that **preventing the initial recapitulation cascade** could reduce the vividness and intrusiveness of negative memories. This work supports the rationale for interventions that aim to **alter the relationship between cues and emotional memory content** before full re-experiencing occurs.",
+    "relevant_for": "PTSD; mood disorders (depression, anxiety); trauma-focused therapy; memory reconsolidation approaches; populations with intrusive negative memories",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/9u8kw_v1"
+  },
+  {
+    "number": 524,
+    "title": "Single-Item Reliability for Intensive Longitudinal Data: A Three-Level Linear Mixed-Effect Autoregressive Modeling Approach",
+    "authors": "Tzu-Yao Lin, Francis Tuerlinckx, Sophie Vanbelle",
+    "osf_id": "3d5nq_v4",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This methodological paper proposes a **general framework for estimating single-item reliability** in intensive longitudinal data (ILD), addressing the critical gap that reliability is often neglected in EMA/ESM studies. The authors introduce a **three-level linear mixed-effects model** (moments within days within persons) incorporating **two distinct AR(1) processes** to capture serial correlation at both moment and day levels while partitioning measurement error from true within-person variability.\n\nThe model yields four key reliability types: **instantaneity** (extremely short lag), **moment-to-moment**, **day-to-day**, and **stability** (long-term trait-like) reliability. Illustrated using the **Exam Results Study** (N = 101 Belgian university students, 87 women, M_age = 18.6) reporting negative affect on a visual analogue scale multiple times per day for 9 consecutive days (90 total assessments, 90.8% compliance). Bayesian estimation revealed that **between-person reliability** ranged from **0.23 (stability, 95% HDI [0.18, 0.29])** to **0.78 (instantaneity, 95% HDI [0.73, 0.83])**, while **within-person reliability** ranged from **0.01 (day-to-day at long lags)** to **0.68 (instantaneity, 95% HDI [0.60, 0.79])**. A single momentary negative affect rating has **only 23% of variance** reflecting stable between-person differences. **Averaging daily scores improved between-person reliability** more substantially than within-person reliability. R code provided on OSF.",
+    "clinical_insight": "This framework is directly relevant to the growing use of **EMA and experience sampling in clinical research and practice**. A single momentary negative affect rating has **only 23% stable between-person reliability** — clinicians cannot assume a single EMA reading accurately reflects a person's trait-level affect. For **within-person monitoring**, moment-to-moment reliability drops to near zero within a single day (~0.01). **Practical recommendations**: (1) When using EMA for clinical monitoring, **average multiple assessments within a day** to achieve acceptable reliability; (2) For tracking within-patient change, reliability is inherently limited and clinicians should expect substantial measurement error in single observations; (3) The **time lag between assessments critically affects reliability** — shorter lags yield higher reliability, which should inform sampling frequency decisions; (4) **Single-item measures can be reliable for between-person differentiation at short lags (R = 0.76)** but this drops dramatically over days.",
+    "relevant_for": "EMA/ESM researchers; clinical psychologists using digital phenotyping; psychometricians; mood monitoring in clinical practice; longitudinal treatment outcome studies",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/3d5nq_v4"
+  },
+  {
+    "number": 525,
+    "title": "Benevolent Childhood Experiences, Adversity, and Emotion Regulation as Pathways to Adolescent Mental Wellbeing: A Longitudinal Test of Promotive and Protective Mechanisms",
+    "authors": "Stephanie Cahill, Neil Humphrey",
+    "osf_id": "k8mr9_v2",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This preregistered three-wave longitudinal study examined how **benevolent childhood experiences (BCEs)** and **cumulative adversity** jointly shape adolescent mental wellbeing through emotion regulation. The sample comprised **N = 18,616 adolescents** nested within **136 secondary schools** from the #BeeWell Greater Manchester programme, with cumulative adversity at Year 8, emotion regulation at Year 9, and wellbeing at Year 10 (controlling for baseline wellbeing).\n\nBCEs were tested as both a **direct promotive asset** and a **moderator** of the adversity-emotion regulation and emotion regulation-wellbeing pathways. The study's large, diverse sample and longitudinal design provide robust evidence for understanding how positive childhood experiences can buffer or promote resilience independent of adversity exposure. The moderated mediation framework allows disentangling whether BCEs primarily act by weakening the adverse impact of adversity on emotion regulation (protective mechanism) or by directly boosting wellbeing regardless of adversity level (promotive mechanism).",
+    "clinical_insight": "For clinicians working with adolescents exposed to adversity, this study underscores the importance of assessing not just adverse experiences but also **benevolent childhood experiences** as independent protective and promotive factors. The finding that BCEs operate through **emotion regulation pathways** suggests that clinical interventions strengthening regulatory capacities may be particularly effective for adolescents with limited positive childhood experiences. The large, school-based sample (N = 18,616) makes these findings highly generalizable. Clinicians should consider **BCE-informed assessments** that identify existing positive experiences and relationships as therapeutic leverage points, rather than focusing exclusively on trauma and deficit narratives.",
+    "relevant_for": "Adolescent mental health; trauma-informed care in school settings; clinicians working with adversity-exposed youth; prevention and early intervention programs",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/k8mr9_v2"
+  },
+  {
+    "number": 526,
+    "title": "Translational Evidence for Habenula's Role in Human Addiction: A Scoping Review",
+    "authors": "Charles Parisien, Norah Ho-El Abidi, Elina Khalaf, Jean-Simon Fortin, Narun Pat, Sebastien Hetu",
+    "osf_id": "snyvc_v1",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Addiction & Substance Use"
+    ],
+    "summary": "This **PRISMA-ScR scoping review** synthesizes human evidence on the **habenula** — a small epithalamic region — in addiction, and assesses convergence with preclinical models. Following systematic searches in November 2025, studies were included if they examined habenular measures (volume, structural connectivity, functional connectivity, or task-based activation) in relation to addiction in humans.\n\nPreclinical evidence implicates the habenula across all three stages of addiction: binge, withdrawal, and preoccupation/consummation, contributing to long-term neuroadaptations in reward, stress, and control systems. This review maps the translational gap between robust preclinical findings and the emerging but fragmented human literature, organizing findings by measurement modality and addiction stage. The review identifies which aspects of habenular functioning show the strongest convergence between human and animal models, and highlights key methodological challenges including the habenula's small size making neuroimaging difficult, and the heterogeneity of addiction phenotypes studied.",
+    "clinical_insight": "While still primarily a research finding rather than a clinical tool, the habenula is emerging as a **potential therapeutic target for addiction**. Preclinical evidence suggests it plays a role in **reward prediction error signaling**, aversive processing, and the transition from casual to compulsive use. For clinicians, understanding the habenula's role helps explain why certain patients experience **persistent anhedonia and negative affect during abstinence** — the habenula may drive the \"anti-reward\" state that fuels relapse. This knowledge can inform psychoeducation about the neurobiology of addiction and may eventually guide **non-invasive brain stimulation targets**. The review also highlights the gap between animal models and human application, cautioning against premature clinical translation.",
+    "relevant_for": "Addiction specialists; neuromodulation researchers; clinicians providing psychoeducation about addiction neurobiology; relapse prevention programs",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/snyvc_v1"
+  },
+  {
+    "number": 527,
+    "title": "Advancing Idiographic Methodology for Data-Driven Treatment Personalization: Comparing ARIMAX, Network, and Tree-Based Approaches",
+    "authors": "William Li, Cristobal Hernandez Contreras, Joseph Ciarrochi, Madeleine I. Fraser, Steven C. Hayes, Clarissa W. Ong, Baljinder K. Sahdra",
+    "osf_id": "7mxn3_v2",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This study compared **six advanced idiographic methods** for identifying individual-level process-outcome relationships in longitudinal clinical data: two ARIMAX-based time series models (bivariate and multivariate i-ARIMAX), two network approaches (GIMME, indSEM), and two tree-based algorithms (Boruta and the novel **Time Series Boruta (tsBoruta)**). Simulations tested these methods across diverse conditions varying in linear/nonlinear effects, autoregressive patterns, trends, interactions, predictor counts, and sample sizes.\n\nThe study evaluates which methods best identify the *correct* process-outcome relationships at the individual level — a critical prerequisite for **data-driven treatment personalization**. The inclusion of both established methods (GIMME, i-ARIMAX) and novel approaches (tsBoruta) provides a comprehensive comparison landscape. The authors include ACT-originators (Hayes, Ciarrochi) among the author team, grounding the methodological work in clinical application context.",
+    "clinical_insight": "As personalized psychotherapy moves from aspiration to reality, clinicians and researchers need guidance on **which statistical methods reliably identify individual-level change mechanisms**. This study provides that comparative evidence. If tsBoruta or GIMME prove superior, they could be integrated into **practice-based evidence systems** that track individual patient processes in real time and identify which interventions work for *this specific patient*. For clinicians using **process-based CBT or ACT**, these methods could eventually enable dynamic treatment adjustment based on emerging within-patient data, moving beyond one-size-fits-all protocols toward genuine personalization.",
+    "relevant_for": "Psychotherapy researchers; clinicians interested in personalized treatment; CBT/ACT practitioners using process measures; digital mental health platform developers",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/7mxn3_v2"
+  },
+  {
+    "number": 528,
+    "title": "Psychometric Validation of the Azerbaijani Version of the Attitudes Towards Mental Health Problems Scale (ATMHPS-AZ) Among University Students: The Role of Cultural Factors",
+    "authors": "Nigar Shahhuseynbayova, Aynur Bunyatova, Mushviq Mustafayev, Yasuhiro Kotera",
+    "osf_id": "ydepn_v1",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This study developed and psychometrically validated an **Azerbaijani version of the 35-item Attitudes Towards Mental Health Problems Scale (ATMHPS)** among **N = 946 undergraduates**. Following WHO guidelines, the scale was translated and culturally adapted. Analyses included internal consistency (Cronbach's alpha, McDonald's omega), inter-subscale correlations, exploratory and confirmatory factor analyses, and convergent validity with the **Self-Compassion Scale**.\n\nThe study addresses the critical gap of culturally validated mental health attitude measures in Azerbaijan and the broader Caucasus/Central Asian region, where **family expectations, social norms, and concerns about disclosure** are significant barriers to help-seeking. The cultural adaptation process and validation methodology provide a template for similar work in other under-researched cultural contexts. The large sample size (N = 946) provides adequate power for psychometric analyses.",
+    "clinical_insight": "For clinicians working in multicultural settings or with diaspora populations from the Caucasus/Central Asia, this validated tool enables **culturally sensitive assessment of attitudes toward mental health problems** — a key predictor of help-seeking behavior. Understanding that **shame and family expectations** are primary barriers in Azerbaijani culture can inform therapeutic engagement strategies, particularly when working with students or young adults who may face significant familial pressure to conceal mental health difficulties. The ATMHPS-A",
+    "relevant_for": "Multicultural clinical practice; university counseling services; cultural competence training; clinicians working with Azerbaijani/Caucasian diaspora populations",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/ydepn_v1"
+  },
+  {
+    "number": 529,
+    "title": "Is everyone looking at me? The perception of direct gaze in social anxiety and its moderation by emotional expression",
+    "authors": "Madeleine Moses-Payne, Georgina Krebs, Raphaelle Delpech, Tosia Przyborowska, Argyris Stringaris",
+    "osf_id": "se5af_v1",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Anxiety & OCD"
+    ],
+    "summary": "This study combines **meta-analysis and well-powered experimental replications** to investigate the **Cone of Gaze (CoG)** — the range of gaze angles perceived as looking at oneself — as a biobehavioural marker for social anxiety disorder. The meta-analyses revealed significantly wider CoG for **socially anxious versus non-anxious individuals** (representing 10 studies and 403 participants), indicating that socially anxious people perceive direct gaze from a wider range of angles.\n\nThe experimental replications tested: (1) individual differences in CoG between those with and without social anxiety; (2) within-subjects differences in CoG in response to faces with angry versus neutral expressions; and (3) the interaction between these factors. The combination of meta-analytic synthesis with new experimental data provides more robust evidence than either approach alone. The investigation of emotional expression as a moderator addresses a key gap — whether the CoG effect is amplified by threat-relevant (angry) faces.",
+    "clinical_insight": "The widened CoG in social anxiety provides a **mechanistically informative biobehavioural marker** that could enhance both assessment and treatment. For clinicians, this finding helps explain the **subjective experience of being watched or judged** that is central to social anxiety — it may reflect a genuine perceptual bias rather than purely cognitive distortion. This has implications for **cognitive restructuring** in CBT for social anxiety: rather than simply challenging the belief that others are watching, clinicians could address the **perceptual level** at which the bias operates. If the CoG normalizes with successful treatment, it could serve as an **objective treatment response marker**. The emotional expression moderation finding may also inform **exposure therapy** — if angry faces specifically amplify the bias, exposure hierarchies could systematically target this dimension.",
+    "relevant_for": "Social anxiety disorder treatment; CBT for social anxiety; clinical assessment of social cognition biases; exposure therapy planning; anxiety disorder research",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/se5af_v1"
+  },
+  {
+    "number": 530,
+    "title": "Comparing the Beta-Binomial and the Linear Models to Analyze Discrete, Bounded Scores for Normative Data from Neuropsychological Tests",
+    "authors": "Javier Oltra-Cucarella, Rafael de Andrade Moral, Ruben Perez-Elvira, Beatriz Bonete-Lopez, Miriam Sanchez-Sansegundo, Esther Sitges-Macia",
+    "osf_id": "72duz_v2",
+    "date_posted": "2026-06-18",
+    "source_date": "2026-06-18",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This methodological study (N = 165 cognitively healthy individuals) compared the **linear model** with the **binomial** and **beta-binomial models** for interpreting performance on a **verbal memory test** — a discrete, bounded neuropsychological outcome. Model adequacy was assessed using half-normal plots with a simulated envelope, and goodness-of-fit via AIC and BIC.\n\nThe results demonstrated that the **beta-binomial model is substantially more adequate** than the linear model for discrete, bounded data: BIC = 463.6 vs. 583.4 (lower is better), and the linear model showed **32.73% of points outside the simulated envelope** compared to only **1.82% for the beta-binomial**. The linear model also predicted scores outside the real range, a critical flaw for clinical interpretation. Four worked examples demonstrate the practical advantages of the beta-binomial approach for generating normative data in neuropsychological assessment.",
+    "clinical_insight": "Neuropsychologists routinely interpret discrete, bounded test scores (e.g., word recall out of 15, trial counts) using linear models and z-scores. This study demonstrates that **the standard approach is fundamentally misspecified** — it predicts impossible scores and provides poorly calibrated norms. The **beta-binomial model** offers a straightforward alternative that respects the bounded nature of test scores. For clinicians, this means that **existing normative data for discrete neuropsychological tests may need re-evaluation**, particularly at the extremes of performance where the linear model is most inaccurate. The practical examples provided make this approach accessible for clinicians who may not be statisticians, and the method can be applied to any test yielding discrete count-based scores.",
+    "relevant_for": "Clinical neuropsychologists; assessment tool developers; researchers generating normative data for cognitive tests; training programs in neuropsychological assessment",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/72duz_v2"
   }
 ]
