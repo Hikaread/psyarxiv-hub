@@ -109,3 +109,20 @@
 - j3th4_v1 | 3 | Individual Differences in Stereomotion Yield Functional Differences in Reaching Dynamics — excluded: pure perception/neuroscience, no clinical relevance
 - bvshm_v1 | 2 | On the Necessity of Conscious Perception to Attention — excluded: pure perception research (CFS and gaze), no clinical application
 - r29ug_v1 | 1 | Have you really seen this illusory face before? — excluded: visual memory and perception, no clinical relevance
+- b8s2y_v1 | 7 | Emerging Stressors and Adolescent Depression and Anxiety: Associations and Cumulative Burden Among Kenyan Adolescents — adolescent/youth focus excluded
+- mdgh7_v1 | 5 | Handling of reputation-damaging information in adolescents and young adults with autism — adolescent focus excluded
+- e54d8_v1 | 5 | Racial-Ethnic and Gender Inequities in School SEND and Youth Justice Responses to Children and Young People's Mental Health — child/youth focus excluded
+- stgkn_v2 | 3 | Understanding variability in newborns' NIRS data: the impact of birth weight and gestational age on infants' speech perception abilities — pediatric/infant focus excluded
+- rmuta_v2 | 3 | Uptake and adherence to prophylactic antibiotics and vaccination during meningitis outbreaks — not clinical psychology
+- f4qv8_v3 | 3 | Willful Ignorance in the Context of Antibiotic Prescribing — not clinical psychology
+- p3y7m_v1 | 3 | Using Generative AI to Foster Student Sense of Belonging in Mathematics — education, not clinical psychology
+- m68gk_v2 | 2 | Kia Timata Pai Video Project: Impact of an oral language intervention on educator-toddler interactions — pediatric/toddler focus excluded
+- ce68p_v1 | 2 | Putting Attentional Control to a Normative Test — basic cognitive psychology, not clinically relevant
+- ex9rk_v1 | 2 | Fast reading and fast listening: Evidence for individual differences in sentence comprehension — basic language cognition
+- hfb2v_v2 | 1 | Too Much of a Good Thing? Investigating Whether a Partial Invariance Model Obscures More Fundamental Measurement Model Problems — pure psychometric methods
+- qzcea_v1 | 1 | Verifying verification strategies of quantifiers using Bayesian cognitive modeling and eye-tracking — basic cognition/linguistics
+- gr67n_v1 | 1 | Are We Measuring the Same Parochialism? Comparing Two Measurement Approaches of Group-Level Social Preferences — social psychology measurement
+- hd6je_v3 | 1 | Inter-individual similarities in internal models predict similarities in the perception and neural processing of scenes — basic perception/neuroscience
+- a4vdb_v1 | 1 | Semantic Interference in Blocked-Cyclic Word Production with Different Stimulus Types, Tasks, and Response Modalities — basic cognitive/linguistics
+- kqpdu_v1 | 1 | Social Learning Undermines Performance and Increases Inequality When Decision Outcomes Depend on Prior Success — decision-making, not clinical
+- kce9d_v2 | 1 | Sensory Discomfort Across the Migraine Cycle — migraine neurology, not clinical psychology
