@@ -1,128 +1,39 @@
 # Discarded Papers Log
 
-- bsc3y_v4 | 8 | The Youth-GEMs project: genetic and environmental interactions underlying trajectories of youth mental health — Excluded: child/adolescent focus per curation criteria
-- s72md_v1 | 5 | Performance and choice measures reveal strong preferences for self-benefitting compared to prosocial effort allocation — Not clinical psychology; basic cognitive effort decision-making
-- w9vej_v1 | 5 | Perceived authenticity in AI conversational agents: Conceptualizations, operationalizations — Not clinical psychology; AI design research
-- bqgk7_v2 | 3 | Hallucination or confabulation? A psychological reinterpretation of erroneous outputs in LLMs — AI terminology critique using clinical concepts as analogy only
-- 4c5hn_v2 | 3 | The Value of Self-Deception: How Conflict in Action Selection May Shape Human Beliefs and Behavior — Theoretical decision-making model, no clinical application
-- ybn42_v1 | 3 | What's Wrong with Motivated Reasoning? — Methodological critique of cognitive bias paradigm, not clinical
-- 6szky_v1 | 2 | From Pathogens to Paintings: Behavioral Immune System's Influence on Visual Aesthetics — Evolutionary psychology, not clinical
-- nt2jq_v3 | 2 | Encoding models in functional magnetic resonance imaging: the Voxelwise Encoding Model framework — Neuroimaging methods tutorial, no clinical implications
-- t3ay4_v1 | 2 | A comparison of different measures of slow wave activity across nocturnal ad libitum home sleep — Sleep physiology methods comparison
-- z3y5d_v3 | 2 | In God We Trust, In AI We Ask: Religiosity and Moral Advice Seeking in the AI Age — Religion/AI intersection, not clinical
-- gcd6k_v1 | 2 | Biased Judge: Recency Effects, Cautious Convictions, and Conservative Updating in GPT-4o's Legal Decisions — Legal AI bias, not clinical psychology
-- 6b4ej_v1 | 2 | Thinking through metaphor in a second language: science learning of L2 students — Education research, not clinical
-- 8uq75_v2 | 1 | Deviations in Distributions Perception through Imprecision and Abstract Representations — Perceptual cognition, not clinical
-- df7be_v2 | 1 | People make history-dependent decisions in Markovian environments — Decision-making research, not clinical
-- 8uk67_v1 | 1 | The Effect of Psychological Distance on Level of Construal: CLIMR Failed Replication — Failed replication of basic social psychology, not clinical
-- kjuae_v1 | 13 | Adolescent intervention (excluded per pipeline rules)
-- k8mr9_v2 | 6 | Adolescent-focused study (excluded per pipeline rules)
-- snyvc_v1 | 6 | Pure neurobiology of addiction (habenula scoping review) - limited direct clinical relevance for therapy practice
-- mqt76_v2 | 5 | Cognitive neuroscience review of aphantasia/cortical blindness - not clinically relevant to therapy
-- urj25_v1 | 4 | Engineering education teamwork assessment - not clinical
-- 9m3xf_v2 | 3 | AI and agency framework - not clinical therapy
-- cfm3g_v2 | 3 | Brain-computer interfaces and consciousness - philosophy of mind, not clinical
-- 8au9j_v9 | 3 | Face recognition and viewpoint - cognitive neuroscience, not clinical
-- vtyjk_v2 | 3 | Mental imagery response times - cognitive psychology, not clinical
-- 8p4jn_v2 | 2 | Human-AI collaboration framework - not clinical
-- tsm64_v1 | 2 | Childbearing motivation from evolutionary perspective - not clinical
-- 8n9vt_v1 | 2 | Memory-driven attentional capture - cognitive psychology, not clinical
-- 3uhne_v2 | 2 | Neural responses to infant face in motherhood - parental neuroscience, not clinical therapy
-- 2ftqc_v2 | 2 | Cognitive security concept - not clinical therapy
-- pjmcs_v4 | 2 | LLM-based abstract screening automation - methodology tool, limited direct clinical relevance
-- r7vpy_v1 | 2 | Music-evoked kinesthetic imagery scale - not clinical
-- 73tr8_v1 | 2 | Environmental identity manipulation - environmental psychology, not clinical
-- axgv2_v4 | 2 | Juror decision making - forensic/legal psychology, not clinical therapy
-- x7645_v2 | 1 | Neural decoding to neural symbols - theoretical neuroscience, not clinical
-- rb8wn_v2 | 1 | AI disclosure and counterspeech - social psychology, not clinical
-- kaqgf_v5 | 1 | English spelling system frequency-dependent selection - linguistics, not clinical
-- 9u8kw_v1 | 1 | EEG and negative memory recall - cognitive neuroscience, not clinical
-- b6n52_v1 | 1 | ESM transparent reporting practices - methodology, limited clinical relevance
-- z3cnm_v1 | 1 | Risk perception in transport contexts - not clinical
-- cjbpm_v1 | 1 | Heritage bilingualism and Turkish morphosyntax - linguistics, not clinical
-- vkpze_v1 | 1 | University student agency - educational psychology, not clinical
-- 9678h_v2 | 1 | Imitation training for children with autism (excluded: child/adolescent population)
-- 6c24e_v3 | 1 | Climate advocacy by scientists - not clinical
-- nsd6w_v3 | 1 | Child language acquisition (excluded: child population)
-- dy6wc_v1 | 1 | Phenomenal space structure - philosophy of consciousness, not clinical
-- 4kgcq_v3 | 1 | Moral concern hierarchy across 41 countries - moral psychology, not clinical therapy
-- edaxh_v3 | 1 | Covert attention and decision making - cognitive psychology, not clinical
-- vnhs7_v4 | 1 | Intergroup contact effects - social psychology, not clinical
-- ug756_v4 | 1 | Intellectual humility scale - personality psychology, not clinical
-- 3d5nq_v4 | 1 | Single-item reliability for intensive longitudinal data - statistical methodology
-- g86qk_v1 | 1 | Four stages of creativity and metacognition - not clinical therapy
-- rsbf3_v1 | 1 | Emotion expression in song and speech - not clinical
-
-## 2026-07-07 Run
-
-- kjuae_v1 | 13 | A Cluster RCT of a Transdiagnostic Preventative Mental Health Intervention for Adolescents — child/adolescent focus, excluded
-- 9thkv_v2 | 12 | Developing the AAA Assessment Battery for Stress-Related Disorders — heavy neuroimaging/RDoC focus, not directly clinical
-- mqt76_v2 | 5 | Double dissociation between cortical blindness and aphantasia — pure cognitive neuroscience, no clinical relevance
-- urj25_v1 | 4 | Validation of TEE-SJT teamwork test for engineering students — not clinical
-- 9m3xf_v2 | 3 | AI and Agency: Understanding long-term aspirations — philosophical, not clinical
-- cfm3g_v2 | 3 | Brain-Computer Interfaces and consciousness — philosophical neuroscience
-- 8au9j_v9 | 3 | View-tolerance of human identity recognition — cognitive/vision science, not clinical
-- vtyjk_v2 | 3 | Mental imagery of paper folding and mental rotation — pure cognitive
-- 8p4jn_v2 | 2 | Exo-Cognition Framework for Human-AI collaboration — not clinical
-- tsm64_v1 | 2 | Childbearing motivation from evolutionary perspective — not clinical
-- 8n9vt_v1 | 2 | Memory-driven attentional capture and task switching — pure cognitive
-- 3uhne_v2 | 2 | Neural responses to own infant's face in early motherhood — developmental, not clinical therapy
-- 2ftqc_v2 | 2 | Cognitive Security: protecting the mind from cognitive threats — policy/tech, not clinical
-- pjmcs_v4 | 2 | Automating abstract screening with LLMs — methodology tool, marginal clinical impact
-- r7vpy_v1 | 2 | Music-Evoked Kinesthetic Imagery Scale — not clinical
-- 73tr8_v1 | 2 | Environmental identity manipulation — not clinical
-- axgv2_v4 | 2 | Perceived realism in juror decision making — forensic, not therapy
-- x7645_v2 | 1 | Neural decoding to Neural Symbols — theoretical neuroscience
-- rb8wn_v2 | 1 | AI disclosure and counterspeech perceptions — not clinical
-- kaqgf_v5 | 1 | Frequency-dependent selection in English spelling — linguistics
-- b6n52_v1 | 1 | Transparent reporting in ESM studies — methods, marginal clinical impact
-- z3cnm_v1 | 1 | Risk perception in transport vs non-transport contexts — not clinical
-- cjbpm_v1 | 1 | Heritage bilingualism and predictive processing — linguistics
-- vkpze_v1 | 1 | University student agency multidimensional analysis — education, not clinical
-- 9678h_v2 | 1 | Imitation training for children with autism — child/adolescent focus
-- 6c24e_v3 | 1 | Climate advocacy by scientists — not clinical
-- nsd6w_v3 | 1 | Child argument structure development — developmental linguistics
-- dy6wc_v1 | 1 | Structure and dynamics of phenomenal space — philosophy of consciousness
-- 4kgcq_v3 | 1 | Hierarchy of moral concern across 41 countries — moral psychology, not clinical
-- edaxh_v3 | 1 | Covert attention shaping decision making — pure cognitive
-- vnhs7_v4 | 1 | Intergroup contact effects on attitudes — social psychology, not clinical
-- ug756_v4 | 1 | Collected Intergroup Intellectual Humility scale — not clinical
-- g86qk_v1 | 1 | Four stages of creativity and metacognition — not clinical
-- rsbf3_v1 | 1 | Emotion expression in song and speech via ML — not clinical
-
-## 2026-07-07 Run
-
-- kjuae_v1 | 13 | Adolescent transdiagnostic prevention RCT — child/adolescent, excluded
-- 9thkv_v2 | 12 | AAA Assessment Battery — RDoC/neuroimaging framework, not directly clinical
-- mqt76_v2 | 5 | Cortical blindness vs aphantasia — pure cognitive neuroscience
-- urj25_v1 | 4 | Engineering teamwork SJT validation — not clinical
-- 9m3xf_v2 | 3 | AI and agency framework — philosophical, not clinical
-- cfm3g_v2 | 3 | BCI and consciousness — philosophical neuroscience
-- 8au9j_v9 | 3 | Face identity recognition across viewpoints — vision science
-- vtyjk_v2 | 3 | Mental imagery of paper folding — pure cognitive
-- 8p4jn_v2 | 2 | Exo-Cognition Framework for Human-AI — not clinical
-- tsm64_v1 | 2 | Childbearing motivation, evolutionary/biopsychological — not clinical
-- 8n9vt_v1 | 2 | Memory-driven attentional capture — pure cognitive
-- 3uhne_v2 | 2 | Neural responses to infant face in motherhood — developmental neuroscience
-- 2ftqc_v2 | 2 | Cognitive security — policy/tech, not clinical
-- pjmcs_v4 | 2 | LLMs for abstract screening — methodology, marginal clinical impact
-- r7vpy_v1 | 2 | Music-evoked kinesthetic imagery — not clinical
-- 73tr8_v1 | 2 | Environmental identity manipulation — not clinical
-- axgv2_v4 | 2 | Perceived realism in juror decisions — forensic, not therapy
-- x7645_v2 | 1 | Neural decoding to neural symbols — theoretical neuroscience
-- rb8wn_v2 | 1 | AI disclosure and counterspeech — not clinical
-- kaqgf_v5 | 1 | English spelling frequency-dependent selection — linguistics
-- b6n52_v1 | 1 | ESM transparent reporting practices — methods, marginal clinical impact
-- z3cnm_v1 | 1 | Risk perception transport vs non-transport — not clinical
-- cjbpm_v1 | 1 | Heritage bilingualism predictive processing — linguistics
-- vkpze_v1 | 1 | University student agency — education, not clinical
-- 9678h_v2 | 1 | Imitation training for children with autism — child focus, excluded
-- 6c24e_v3 | 1 | Climate advocacy by scientists — not clinical
-- nsd6w_v3 | 1 | Child argument structure development — developmental linguistics
-- dy6wc_v1 | 1 | Phenomenal space structure — philosophy of consciousness
-- 4kgcq_v3 | 1 | Moral concern hierarchy across 41 countries — moral psychology
-- edaxh_v3 | 1 | Covert attention and decision making — pure cognitive
-- vnhs7_v4 | 1 | Intergroup contact effects on attitudes — social psychology
-- ug756_v4 | 1 | Intellectual humility scale — not clinical
-- g86qk_v1 | 1 | Four stages of creativity and metacognition — not clinical
-- rsbf3_v1 | 1 | Emotion in song/speech via ML — not clinical
+- 2kv9s_v1 | 10 | Adapting eating disorder focused family therapy for Autistic children and young people with anorexia — excluded: focuses on children/adolescents
+- 6acrb_v2 | 7 | The Cyberbehavioral Reconstruction Model (CRM-CSAM): A Framework for the Behavioral Analysis of CSAM-Related Activity — excluded: forensic CSAM topic, limited clinical therapy relevance
+- wuard_v1 | 6 | Culturally tailored parenting program recruitment: Messaging responses and participation barriers among Chinese immigrant parents — excluded: focuses on parenting programs for children
+- q3ndw_v1 | 6 | Loneliness and Social Isolation Among Older Adults in Slovakia — excluded: epidemiological survey, limited direct clinical relevance for therapy practice
+- nf6mh_v2 | 5 | Novel Word Learning from Social Robots by Autistic and Non-Autistic Children — excluded: focuses on children
+- 5fw8q_v1 | 5 | Joint contributions of genetic risk and pubertal maturation to internalizing symptoms in adolescents — excluded: focuses on adolescents
+- g5whd_v1 | 8 | An objective neural measure of emotional introspection is stable across time and unchanged by body scan meditation training — excluded: primarily psychophysiology methodology, indirect clinical relevance
+- 32h8j_v2 | 4 | Teacher Dashboard Use in Physics Classes — excluded: education technology, not clinical
+- 67eqx_v2 | 4 | How is AI impacting people? — excluded: general AI impact, not clinical
+- ymxup_v1 | 4 | Critical Mass Theory: An Integrative Conceptual Review — excluded: organizational diversity theory, not clinical
+- f8gnv_v1 | 3 | Predicting children's early word learning using egocentric videos — excluded: developmental psychology, children
+- 34pjh_v1 | 3 | More effort, more variability: Distributional modeling of effort-performance coupling — excluded: exercise physiology
+- hxfs4_v1 | 3 | Linking Stress Reactivity to Changes in Health — excluded: methodology paper on stress-health research methods
+- xrz42_v1 | 3 | How Adults in Spain Perceive Love — excluded: cultural psychology, not clinical
+- dzs59_v2 | 3 | The Perils of Partialing Optimism — excluded: psychometrics methodology specific to optimism measurement
+- s2p8w_v2 | 3 | Towards a More Comprehensive Understanding of Parental Mediation in Adolescents' Gaming — excluded: focuses on adolescents
+- mjd96_v2 | 2 | Reading Anxiety in Children and Adolescents — excluded: focuses on children/adolescents
+- 52szn_v1 | 2 | Interval-Dependent Effects of Action and Choice Availability on Temporal Binding — excluded: cognitive neuroscience, not clinical
+- 85quw_v3 | 2 | @Grok Is This True? LLM-Powered Fact-Checking on Social Media — excluded: technology/AI, not clinical
+- mbp4h_v4 | 2 | The role of linguistic knowledge in verbal fluency tests — excluded: neuropsychology assessment methodology, tangential to clinical practice
+- ugp6s_v1 | 2 | Parental Engagement and Disaffection in Education — excluded: education research, not clinical
+- s46wd_v2 | 2 | The Open Science Movement and Clinical Psychology Training — excluded: metascience, important but not a clinical research paper
+- u7j5q_v1 | 2 | The influence of visual landmarks on spatiotopic localization — excluded: cognitive neuroscience, not clinical
+- pgct9_v4 | 2 | Intention and foresight in deliberate actions: An ERP study — excluded: cognitive neuroscience/legal philosophy
+- 98y6k_v1 | 2 | Making Room for Theory in DIF and Measurement Invariance Analysis — excluded: advanced psychometrics methodology
+- qubt8_v1 | 2 | Brazilian L2 English Accentedness Ratings by LLMs — excluded: linguistics/AI, not clinical
+- t6swf_v1 | 1 | What Sticks and What Doesn't: How Do Children Process Irrelevant Information? — excluded: developmental cognitive psychology, children
+- c7u69_v1 | 1 | Mapping nonordinary experiences in a representative German sample — excluded: phenomenology of nonordinary experiences, peripheral to clinical practice
+- 8fj6p_v2 | 1 | Quantifying the impact of careless responding — excluded: psychometrics methodology
+- 4rpxm_v2 | 1 | I would not have done that: Outcome knowledge distorts memory for decisions — excluded: cognitive psychology, not clinical
+- uxkg6_v1 | 1 | Heterogeneous, Adaptive Networks of Beliefs — excluded: social/political belief change, not clinical
+- ef2zr_v1 | 1 | Decision-making in Highly Sensitive Person: A Qualitative Research — excluded: borderline clinical relevance, signal too low
+- cuwvs_v1 | 1 | Cognitive load disrupts different stages of prediction in second-language speakers — excluded: psycholinguistics, not clinical
+- 5qu39_v1 | 1 | Age, Education, and Sex Differences in Smartphone-based Cognitive Assessment — excluded: digital phenotyping methodology
+- s2xdp_v1 | 1 | Investigating Language and Cognition in Virtual Reality — excluded: cognitive science/VR methodology
+- 2wr3c_v2 | 1 | Supporting Self-Regulated Learning through Performance Profile Feedback — excluded: education psychology, not clinical
+- p87rq_v2 | 1 | Aha-Related Surprise Tracks Violated Expectations at Multiple Levels in Perceptual Insight — excluded: cognitive psychology of insight, not clinical
