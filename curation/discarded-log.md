@@ -126,3 +126,15 @@
 - a4vdb_v1 | 1 | Semantic Interference in Blocked-Cyclic Word Production with Different Stimulus Types, Tasks, and Response Modalities — basic cognitive/linguistics
 - kqpdu_v1 | 1 | Social Learning Undermines Performance and Increases Inequality When Decision Outcomes Depend on Prior Success — decision-making, not clinical
 - kce9d_v2 | 1 | Sensory Discomfort Across the Migraine Cycle — migraine neurology, not clinical psychology
+- fd3cr_v4 | 6 | Performance and biases of the LENA® and ACLEW algorithms in analyzing language environments in Down, Fragile X, Angelman — developmental disability/pediatric populations, hard-excluded
+- 23w84_v1 | 4 | Introducing the One-Shot Download Task: Testing the validity of a new measure of online pro-environmental behaviour — environmental psychology, not clinical
+- ntks8_v1 | 3 | Effects of a part-flipped classroom on student satisfaction and academic skills of sport science undergraduates — education/pedagogy, not clinical
+- qdmrf_v2 | 3 | Old Test, New Tricks: Using Large Language Models to Generate New Divergent Thinking Test Items — psychometrics/creativity assessment, not clinical
+- h6rxk_v1 | 3 | Create in Me a Pure Heart: Yearning for Inner Alignment with God — religion/spirituality, not clinical
+- 8f5gu_v1 | 2 | Integrating Social Determinants in Brain Health Research: A Framework and Toolkit — general neuroscience framework, no clinical population
+- a3e8v_v2 | 1 | Why Risk it, When You Can {rix} it: A Tutorial for Computational Reproducibility — methodology tutorial, not clinical
+- 4b8gy_v2 | 1 | Directed Recognizability in AI-Biographical Conversational Agents — AI/technology, not clinical
+- a28kw_v1 | 1 | Seeing the Self in Memory: Visual Perspective and the Remembered Self — basic cognitive science/autobiographical memory
+- sefv5_v2 | 1 | Metacognitive Accuracy of Misinformation Discernment and Its Relation to Political Orientation — cognitive/political science, not clinical
+- z48x7_v3 | 1 | Analog Cognition and Consciousness — theoretical neuroscience/philosophy of mind, not clinical
+- nvjxg_v1 | 1 | Cue-guided attention modulates neural responses to distracting features — basic cognitive neuroscience, not clinical
