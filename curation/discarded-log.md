@@ -37,3 +37,35 @@
 - s2xdp_v1 | 1 | Investigating Language and Cognition in Virtual Reality — excluded: cognitive science/VR methodology
 - 2wr3c_v2 | 1 | Supporting Self-Regulated Learning through Performance Profile Feedback — excluded: education psychology, not clinical
 - p87rq_v2 | 1 | Aha-Related Surprise Tracks Violated Expectations at Multiple Levels in Perceptual Insight — excluded: cognitive psychology of insight, not clinical
+- 65snw_v1 | 5 | A Multidisciplinary Perspective on Research Participation in the Era of Post-Amyloid Disclosure — excluded: Alzheimer's disease research participation, not clinical psychology
+- pgu2a_v1 | 5 | Development and Validation of the Children's Scale for Social-Emotional Learning (CHISSEL) — excluded: child/adolescent focused measure
+- bw5rd_v2 | 5 | Immune system dysregulation in Psychopathology: Insights from the Complete Blood Count — excluded: adolescent ABCD sample, primarily neurobiological focus
+- rc9bn_v3 | 5 | What It Means to Be Heard: Listening and Power in Israeli Communication Contexts — excluded: general social psychology of communication, not clinical
+- ty5zj_v1 | 4 | Distracted and Misled Yet Capable of Transfer: Word Knowledge and Executive Functions — excluded: cognitive psychology, analogical transfer
+- 7yjv5_v3 | 4 | When Empathy Becomes a Risk: Children's Empathy on Parental Burnout — excluded: child-focused population
+- 8uvta_v1 | 3 | Sleep-wake timing is central to adolescent sleep health — excluded: adolescent sample, sleep medicine focus
+- 8uvnj_v1 | 3 | Happier but not more reasonable: Acute physical exercise and rational decision-making — excluded: cognitive/health psychology, no clinical therapy relevance
+- yaqmz_v1 | 3 | Retinotopic mapping of cortical plasticity in age-related macular degeneration — excluded: neuroimaging, ophthalmology
+- mwt5r_v3 | 3 | Faculty Evaluations of DEI Statements for Academic Hiring — excluded: academic hiring, not clinical
+- 62pfj_v1 | 3 | Does Alienation Contaminate the Results of Engineering Student Surveys — excluded: engineering education, not clinical psychology
+- dvx2y_v1 | 3 | Examining the Causal Role of Environmental Self-Identity — excluded: environmental psychology
+- ajpzm_v1 | 2 | Childcare Quality and Developmental Outcomes Under Cumulative Ecological Risk — excluded: child development, not clinical therapy
+- 7rw2z_v4 | 2 | Associative Memory Constraints on Action-Effect Relations — excluded: cognitive/motor psychology
+- e9p47_v2 | 2 | Shared and Diverse Impressions of Portrait Paintings — excluded: art perception, not clinical
+- mfuqh_v1 | 2 | Enhancing Intellectual Humility about Political Topics — excluded: political psychology
+- wpt5b_v2 | 2 | Mapping the neural dynamics of learning others' social preferences — excluded: social neuroscience, not clinical
+- u7ghk_v1 | 2 | The Impact of Acuity Loss on Medical Data Visualisation — excluded: medical data viz, not clinical psychology
+- 3b6ck_v2 | 2 | Sharing the Same Path: Similarity and Shared Reality with Supervisors in PhD Candidates — excluded: occupational/academic psychology
+- 7hrqb_v1 | 2 | Norms of Disgust Expressions Across 10 Countries — excluded: cross-cultural emotion research without clinical focus
+- vjrkc_v1 | 2 | Evolutionary Theory Makes Predictions About Cognition Beyond Rational Optimization — excluded: theoretical cognitive science
+- ywxhp_v1 | 2 | The Influence of Musical Training in L2 Tonal Words Learning — excluded: linguistics/language learning
+- gt37v_v1 | 2 | The influence of placeholders and target stimuli shape on attentional effect — excluded: cognitive psychology of attention
+- mp79t_v1 | 1 | Using Large Language Models to Detect Values in Political Speech — excluded: political methodology
+- d58n4_v2 | 1 | Explaining forgetting at different timescales — excluded: memory/cognitive psychology
+- 9wsxa_v1 | 1 | Diverse Mechanisms of Adaptive Variability in Human Behavior — excluded: cognitive science
+- t6dru_v2 | 1 | Newborns' neural tuning to the native language — excluded: developmental linguistics/infant cognition
+- h5nmz_v1 | 1 | From Blaming to Explaining: Crime as a Core Challenge for Criminal Psychology — excluded: criminology, not clinical therapy
+- w4dt8_v1 | 1 | Behavior Skills Training to Teach Parent Implemented Preference Assessments — excluded: ABA with children, child-focused
+- 5bmf6_v1 | 1 | The Impact of Social Perception on Message Perception — excluded: social cognition, not clinical
+- 32g4x_v1 | 1 | The effects of counterattitudinal information on implicit and explicit evaluations — excluded: social cognition
+- wjqr3_v3 | 1 | Signaling Good Practice: Trust in Political Science in Emerging Contexts — excluded: political science
