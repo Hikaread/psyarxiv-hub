@@ -69,3 +69,36 @@
 - 5bmf6_v1 | 1 | The Impact of Social Perception on Message Perception — excluded: social cognition, not clinical
 - 32g4x_v1 | 1 | The effects of counterattitudinal information on implicit and explicit evaluations — excluded: social cognition
 - wjqr3_v3 | 1 | Signaling Good Practice: Trust in Political Science in Emerging Contexts — excluded: political science
+- 8rdty_v3 | 8 | Assessing children and youth's socio-emotional behavior in rural Cote d'Ivoire — excluded: child/adolescent focused
+- 2re6w_v4 | 6 | Two practices that understate mental health risks of adolescent social media use — excluded: adolescent focused
+- bytde_v1 | 5 | The Effect of Variability in Appearance and Context on Face Learning — excluded: cognitive psychology, face perception
+- q2c8j_v1 | 4 | Disposition for Moral Indignation Scale (DMI-13) — excluded: moral psychology, not clinical therapy
+- 2a4tu_v1 | 4 | Household SES mediates childhood adversity and reward processing — excluded: childhood/adolescent focus
+- 6psar_v4 | 4 | Social experiences and solitude in everyday life (SOLO scale) — excluded: general wellbeing, not clinical
+- 3svep_v1 | 4 | Large language models can predict social science experiments — excluded: methodology, not clinical
+- k5yu4_v1 | 3 | Bilingual language experience and inhibitory control — excluded: cognitive linguistics
+- sd6g3_v1 | 3 | Reading for pleasure and vocabulary learning — excluded: education/reading research
+- b7ucp_v3 | 3 | Validation of Social Attunement Questionnaire with substance use — excluded: substance use in general population, limited clinical therapy focus
+- zr9kx_v5 | 5 | Heritability of children's Secure Base Script Knowledge — excluded: child development, attachment in children
+- z6um9_v1 | 3 | Maternal vs Paternal Adversity and Adolescent Psychopathology — excluded: adolescent focused
+- 4kyxp_v1 | 3 | Heightened adaptability to environmental volatility in adolescence — excluded: adolescent, cognitive science
+- z5a6n_v1 | 3 | The Case for a Neuropsychology of Artificial Agents — excluded: theoretical/AI, not clinical
+- jvs3c_v3 | 3 | False discovery rate correction promotes confounded neuroimaging designs — excluded: neuroimaging methodology hard-exclude
+- 9tcd5_v5 | 3 | Moving on from simple operationalism in psychological models — excluded: theoretical methodology
+- f2b9x_v1 | 2 | Distinct yet coupled hemispheric codes for foveal visual processing — excluded: basic vision science
+- qhkem_v1 | 2 | Harsh parenting with externalizing/internalizing symptoms — excluded: child/parenting focus
+- mnkfv_v1 | 2 | Domain-general and experience-based syntactic processing — excluded: psycholinguistics
+- fa28t_v3 | 2 | Playing, Reading, Learning in Video Game and Text-based Environments — excluded: education/digital learning
+- 8vrt4_v1 | 2 | Piano training for cochlear implant users improves speech perception — excluded: audiology, not clinical psychology
+- nr8d9_v1 | 1 | Spatial proximity differentially modulates action and inhibition — excluded: cognitive/motor neuroscience
+- 5tfng_v1 | 1 | Generative AI in creative teams — excluded: organizational/creativity research
+- f3wj6_v2 | 1 | Structure and diversity in children's line drawings — excluded: child development
+- k5qe8_v1 | 1 | Surprise-Minimizing Contextualizing Control theory — excluded: theoretical cognitive science
+- 5bt6s_v1 | 1 | Standardized open data in psychoneuroendocrinology Delphi study — excluded: data sharing methodology
+- f2cnr_v1 | 1 | Students investing personal resources to avoid genAI costs — excluded: education/genAI
+- vkuqd_v1 | 1 | Emotion socialization, parent-infant synchrony, shyness — excluded: child development
+- mkdsj_v1 | 1 | Facial trustworthiness and social exclusion influence emotion recognition — excluded: social cognition
+- 57zkh_v2 | 1 | Shared music preference enhances social bonding — excluded: social psychology, not clinical
+- yfmgk_v4 | 1 | Learning to carve nature at its joints: hierarchical event structures — excluded: cognitive development/perception
+- jxzca_v2 | 1 | Target and perceiver determinants of trait impression updating — excluded: social cognition
+- 29vfz_v1 | 1 | Bayesian Regularization under Model Misspecification — excluded: statistical methodology
