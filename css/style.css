@@ -601,6 +601,10 @@ a:hover { color: var(--accent-hover); }
   line-height: 1.55;
   padding-left: 36px;
   opacity: 0.88;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .paper-badges {
   display: flex;
@@ -1094,4 +1098,48 @@ a:hover { color: var(--accent-hover); }
 #share-toast.visible {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+}
+
+/* ===== MARKDOWN CONTENT STYLES ===== */
+.md-content b, .md-content strong {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.md-content em, .md-content i {
+  font-style: italic;
+  color: var(--text-secondary);
+}
+.md-content ul {
+  margin: 6px 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+.md-content li {
+  margin-bottom: 3px;
+}
+.md-content li::marker {
+  color: var(--accent);
+}
+.md-content .katex-display {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.md-content .katex-inline {
+  /* KaTeX handles its own display */
+}
+/* KaTeX color override for dark/purple themes */
+.md-content .katex { color: var(--text-primary); }
+/* Modal: slightly more spacious */
+.modal-section-text.md-content {
+  line-height: 1.7;
+}
+.modal-section-text.md-content ul {
+  margin: 8px 0;
+  padding-left: 22px;
+}
+.modal-section-text.md-content li {
+  margin-bottom: 5px;
 }

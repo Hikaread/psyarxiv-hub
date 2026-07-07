@@ -620,7 +620,7 @@
     h += '</div>';
 
     if (p.summary) {
-      h += '<div class="paper-summary">' + esc(truncate(p.summary, 220)) + '</div>';
+      h += '<div class="paper-summary md-content">' + renderMd(p.summary, true) + '</div>';
     }
 
     if (p.categories && p.categories.length) {
@@ -642,6 +642,7 @@
     }
 
     card.innerHTML = h;
+    renderKaTeXInContainer(card);
 
     // Title click -> modal
     card.querySelector('.paper-title').addEventListener('click', function() { openModal(p); });
@@ -685,13 +686,13 @@
     }
 
     if (p.summary) {
-      h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text">' + esc(p.summary) + '</div></div>';
+      h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text md-content">' + renderMd(p.summary) + '</div></div>';
     }
     if (p.clinical_insight) {
-      h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text">' + esc(p.clinical_insight) + '</div></div>';
+      h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text md-content">' + renderMd(p.clinical_insight) + '</div></div>';
     }
     if (p.relevant_for) {
-      h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text">' + esc(p.relevant_for) + '</div></div>';
+      h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text md-content">' + renderMd(p.relevant_for) + '</div></div>';
     }
     if (p.published) {
       h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + linkifyText(p.published) + '</div></div>';
@@ -706,6 +707,7 @@
     h += '</div>';
 
     body.innerHTML = h;
+    renderKaTeXInContainer(body);
     document.getElementById('modal-share-btn').addEventListener('click', function() { sharePaper(p); });
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
@@ -876,5 +878,71 @@
   function truncate(s, n) {
     if (s.length <= n) return s;
     return s.substring(0, n).replace(/\s+\S*$/, '') + '...';
+  }
+
+  /* ===== MARKDOWN + LATEX RENDERER ===== */
+  var MD_ALLOWED = /^([a-z0-9]+(?:\s+[a-z\-]+)*)$/i;
+  function renderMd(text, forCard) {
+    if (!text) return '';
+    // 1. Escape HTML first (XSS safety)
+    var html = esc(text);
+    // 2. Protect display math $$...$$
+    var displayMaths = [];
+    html = html.replace(/\$\$([\s\S]*?)\$\$/g, function(m, inner) {
+      displayMaths.push(inner);
+      return '%%DM' + (displayMaths.length - 1) + '%%';
+    });
+    // 3. Protect inline math $...$
+    var inlineMaths = [];
+    html = html.replace(/\$([\s\S]*?)\$/g, function(m, inner) {
+      inlineMaths.push(inner);
+      return '%%IM' + (inlineMaths.length - 1) + '%%';
+    });
+    // 4. Bold **text**
+    html = html.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+    // 5. Italic *text*
+    html = html.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
+    // 6. Bullet lists: lines starting with - 
+    html = html.replace(/(?:^|<br>)\s*[-*]\s+([^<]*(?:<[^>]*>[^<]*)*)/gm, function(m, item) {
+      return '<li>' + item.trim() + '</li>';
+    });
+    // Wrap consecutive <li> in <ul>
+    html = html.replace(/((?:<li>[\s\S]*?<\/li>\s*)+)/g, '<ul>$1</ul>');
+    // 7. Newlines to <br> (but not inside <ul>)
+    html = html.replace(/\n/g, '<br>');
+    // 8. Restore math placeholders with KaTeX spans
+    for (var i = 0; i < displayMaths.length; i++) {
+      html = html.replace('%%DM' + i + '%%', '<span class="katex-display" data-math="' + esc(displayMaths[i]) + '"></span>');
+    }
+    for (var j = 0; j < inlineMaths.length; j++) {
+      html = html.replace('%%IM' + j + '%%', '<span class="katex-inline" data-math="' + esc(inlineMaths[j]) + '"></span>');
+    }
+    // 9. Sanitize: strip any tags not in whitelist
+    var whitelist = ['b','i','em','strong','br','ul','ol','li','p','span','sub','sup'];
+    html = html.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, function(tag, name) {
+      name = name.toLowerCase();
+      // Allow katex spans
+      if (name === 'span') {
+        var cls = tag.match(/class="([^"]+)"/);
+        if (cls && (cls[1].indexOf('katex') >= 0)) return tag;
+      }
+      if (whitelist.indexOf(name) >= 0) return tag;
+      return '';
+    });
+    return html;
+  }
+  // Render KaTeX in a container after DOM insert
+  function renderKaTeXInContainer(el) {
+    if (typeof katex === 'undefined') return;
+    var inlines = el.querySelectorAll('.katex-inline');
+    for (var i = 0; i < inlines.length; i++) {
+      var math = inlines[i].getAttribute('data-math');
+      try { katex.render(math, inlines[i], { throwOnError: false, displayMode: false }); } catch(e) { inlines[i].textContent = math; }
+    }
+    var displays = el.querySelectorAll('.katex-display');
+    for (var j = 0; j < displays.length; j++) {
+      var dmath = displays[j].getAttribute('data-math');
+      try { katex.render(dmath, displays[j], { throwOnError: false, displayMode: true }); } catch(e) { displays[j].textContent = dmath; }
+    }
   }
 })();
