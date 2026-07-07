@@ -102,3 +102,10 @@
 - yfmgk_v4 | 1 | Learning to carve nature at its joints: hierarchical event structures — excluded: cognitive development/perception
 - jxzca_v2 | 1 | Target and perceiver determinants of trait impression updating — excluded: social cognition
 - 29vfz_v1 | 1 | Bayesian Regularization under Model Misspecification — excluded: statistical methodology
+- q93bm_v1 | 7 | Screen Time and Developmental Outcomes in the First Digitally Native Generation — excluded: focuses on early childhood screen time and child development
+- 647m3_v2 | 5 | Prevalence of epilepsy and young-onset dementia in adults with intellectual disability — excluded: purely epidemiological prevalence study, no clinical therapy relevance
+- dsutg_v1 | 3 | Navigating Safety in Reproductive Health Self-Care Interventions in Ghana — excluded: reproductive health, not clinical psychology
+- 9znft_v1 | 3 | Clarifying the concept of psychological richness — excluded: conceptual/philosophical analysis of well-being dimensions, no clinical therapy relevance
+- j3th4_v1 | 3 | Individual Differences in Stereomotion Yield Functional Differences in Reaching Dynamics — excluded: pure perception/neuroscience, no clinical relevance
+- bvshm_v1 | 2 | On the Necessity of Conscious Perception to Attention — excluded: pure perception research (CFS and gaze), no clinical application
+- r29ug_v1 | 1 | Have you really seen this illusory face before? — excluded: visual memory and perception, no clinical relevance
