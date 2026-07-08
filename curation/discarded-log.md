@@ -138,3 +138,20 @@
 - sefv5_v2 | 1 | Metacognitive Accuracy of Misinformation Discernment and Its Relation to Political Orientation — cognitive/political science, not clinical
 - z48x7_v3 | 1 | Analog Cognition and Consciousness — theoretical neuroscience/philosophy of mind, not clinical
 - nvjxg_v1 | 1 | Cue-guided attention modulates neural responses to distracting features — basic cognitive neuroscience, not clinical
+- 9jwcq_v1 | 6 | When Awareness Becomes the Obstacle: A Yogacara Diagnosis of the Mindfulness Ceiling — duplicate of p8e75_v3 (same title, lower version)
+- mq6xy_v1 | 6 | When Attentional Training May Leave Self-Grasping Intact — duplicate of dnex7_v3 (same title, lower version)
+- 8g32k_v3 | 2 | A Six-Layer Yogacara Model of Emotion Generation — theoretical emotion philosophy, not clinical
+- 9dyb6_v1 | 2 | A Six-Layer Yogacara Model of Emotion Generation — duplicate of 8g32k_v3, also not clinical
+- zchbj_v2 | 2 | Experience Shapes Early Noun Comprehension from 8-18 Months — infant language development, pediatric
+- e2myj_v2 | 2 | Too Distracted to Remember: Photo-Taking Impairment Effect — basic cognitive/memory research
+- jsbgu_v1 | 2 | Can a Brief Informational Intervention Facilitate Culture-Add Hiring — organizational/HR, not clinical
+- zgvrq_v2 | 1 | Critical review of AI for qualitative analysis — methodology, not clinical
+- m6gxn_v1 | 1 | FalseResMem: Neural Network to Predict False Memories — computational neuroscience, not clinical
+- 6395r_v1 | 1 | Gradient Phonetic Structure in Bilingual Speech — linguistics, not clinical
+- aqc9n_v2 | 1 | NeuroGym: An open resource for developing neuroscience tasks — computational neuroscience tool
+- tqf9s_v1 | 3 | Contextually Attuned Understanding of Epistemic Curiosity in Early Childhood — child development, pediatric
+- 5p28m_v2 | 3 | American Knowledge Workers Experience Less Racial Discrimination When Working Remotely — organizational psychology, not clinical
+- 5bzjp_v2 | 2 | Four Solutions to Four Problems in Many-Analysts Studies — methodology/research design, not clinical
+- 35tmz_v1 | 5 | Large language models capture universal relationship knowledge — AI/LLM research, not clinical
+- e9rz8_v1 | 4 | Zola Bongo: Enabling Offline Tablet-Based Cognitive Testing — cognitive testing tool for diverse populations, but primarily a tech/tool paper with limited clinical focus
+- jc2h8_v4 | 6 | Improving autobiographical episodic memory in early dementia — dementia/technology intervention, focus on smartphone app rather than clinical psychology
