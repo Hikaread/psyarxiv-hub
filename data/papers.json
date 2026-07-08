@@ -9085,5 +9085,197 @@
     "relevant_for": "- Forensic psychologists conducting statement validity assessments\n- Trauma therapists whose clients report recovered memories\n- Legal professionals evaluating delayed-disclosure abuse cases\n- Clinical psychologists providing expert testimony in abuse proceedings",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/gcd4n_v2"
+  },
+  {
+    "number": 590,
+    "title": "Natural Language Processing (NLP) based verbal fluency markers as differential diagnostic indicators of early psychotic, affective and clinical high-risk states",
+    "authors": "Millenia Chakraborty, Julian Wenzel, Louisa Schwed, Felix Menne, Alexandra König, Annkathrin Böke, Hannah Hacker, Carolina Bonivento, Alexandra Stainton, Dominic Dwyer, Kelly Allott, Shalaila Haas, Paolo Brambilla, Stephen J. Wood, Rachel Upthegrove, Stefan Borgwardt, Alexandra Korda, Christina Andreou, Eva Meisenzahl, Theresa Lichtenstein, Stephan Ruhrmann, Raimo K.R. Salokangas, Rebekka Lencer, Alessandro Bertolino, Frauke Schultze-Lutter, Nikolaos Koutsouleris, Lana Kambeitz-Ilankovic, Joseph Kambeitz",
+    "osf_id": "t2ypf_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Psychosis & Schizophrenia"
+    ],
+    "summary": "This multicentre PRONIA study (N=177: 40 recent-onset psychosis, 50 recent-onset depression, 33 clinical high-risk for psychosis, 54 healthy controls) evaluated whether **62 NLP-derived features** from a brief **verbal fluency task (VFT)** could classify early-stage psychotic and affective disorders as accurately as the full **MATRICS Consensus Cognitive Battery (MCCB)**. Using **nested cross-validated elastic net classifiers** with 25 iterations, five hierarchical models were compared: MCCB alone, MCCB+VF, MCCB+VF+NLP, VF+NLP, and NLP-only. The key finding was that **NLP-only models achieved classification accuracy statistically comparable to the full four-domain MCCB** across all six pairwise diagnostic comparisons (DeLong's test, all p > 0.54). **Cross-group transfer analysis** showed that classifiers trained on one diagnostic comparison generalized to others, indicating **transdiagnostic** rather than diagnosis-specific linguistic markers. **Dimensional staging analysis** confirmed the predicted severity gradient: HC < ROD = CHR < ROP in model-predicted patient probability. Group differences were driven by **verbal productivity** and **search organization** (clustering/switching) rather than semantic coherence. Features were computed using **FastText embeddings** and the **SIGMA speech feature library V17.2.0**.",
+    "clinical_insight": "A two-minute **verbal fluency assessment** with automated NLP analysis could match a comprehensive cognitive battery for **differential diagnosis** of early psychotic versus affective disorders — a striking finding with immediate clinical implications. The transdiagnostic nature of the markers suggests they capture a general psychopathology severity dimension rather than diagnosis-specific patterns. For clinicians, this means a brief, easily administered verbal task could serve as a **screening or monitoring tool** in early intervention services, potentially reducing the need for lengthy neuropsychological assessments. The finding that **productivity and organization** (not coherence) drive group differences is clinically intuitive — it aligns with clinical observations of **poverty of speech** in psychosis and **psychomotor retardation** in depression. The study's use of **multicentre PRONIA data** strengthens generalizability, though replication in larger and more diverse samples is needed before clinical deployment.",
+    "relevant_for": "- Clinical psychologists working in early psychosis and mood disorder services\n- Neuropsychologists seeking brief cognitive screening tools\n- Researchers in computational psychiatry and linguistic biomarkers\n- Early intervention service designers",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/t2ypf_v2"
+  },
+  {
+    "number": 591,
+    "title": "The Poker Face Tax: Coherence Between Facial Expression and Subjective Experience as a Predictor of Depression Outcomes",
+    "authors": "Hadar Fisher, Avigail Bar-Sella, Yael Bouknik, Dennis Kivlighan, Sigal Zilcha-Mano",
+    "osf_id": "4m9g6_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This study examined whether **within-session emotion coherence** — the alignment between self-reported mood and automated facial expression coding — predicts **subsequent depression scores** in psychotherapy. Using **multilevel Response Surface Analysis (ML-RSA)** in 65 patients with **major depressive disorder** (205 sessions), the study tested whether congruence between subjective and expressed negative affect forecasted symptom change. Greater coherence predicted **lower subsequent depressive symptoms**, while increasing discrepancies were associated with **worse outcomes** (curvature along incongruence, a4). Crucially, the effect was **directional**: sessions where patients were \"feeling more than showing\" (higher self-reported than facially expressed negative affect) were **particularly predictive of worsening depression** (slope a3). These effects were **moderated by expressive suppression**: among high suppressors, the coherence-outcome link remained pronounced, and coherence became more informative overall — jointly elevated reported and expressed negative affect predicted lower depression, while jointly low affect predicted higher depression.",
+    "clinical_insight": "This study establishes **emotional coherence** as a measurable **process variable** in psychotherapy that carries prognostic significance. For therapists, the finding that \"feeling more than showing\" negative emotion predicts worsening depression is particularly clinically meaningful — it may reflect **alexithymic tendencies**, **emotional inhibition**, or a breakdown in **communicative signaling** that impedes the therapeutic work. The moderation by **expressive suppression** suggests that for patients who habitually suppress emotion, the relationship between inner experience and outward expression becomes a more critical marker of therapeutic progress. Clinicians could theoretically use automated facial coding (though not yet practical in routine settings) or simply attend to **incongruence between verbal report and observed affect** as a clinical signal. The ML-RSA approach is methodologically sophisticated, capturing both the degree and direction of coherence-incoherence simultaneously rather than treating them as a single dimension.",
+    "relevant_for": "- Psychodynamic and process-based psychotherapy practitioners\n- Researchers studying therapeutic process and outcome\n- Clinicians working with emotionally suppressive or alexithymic patients\n- Psychotherapy researchers interested in session-level process variables",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/4m9g6_v2"
+  },
+  {
+    "number": 592,
+    "title": "Development and validation of a Japanese version of the Sensory Experience Questionnaire (SEQ) 3.0: Structural differences between autistic and non-autistic populations",
+    "authors": "Takeshi Atsumi, Haruka Ito, Akane Shinjo, Tomoe Fukutomi, Yasuo Terao, Masakazu Ide, Kanae Matsushima",
+    "osf_id": "nm472_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Neurodivergence"
+    ],
+    "summary": "This study developed and validated the **Japanese version of the Sensory Experience Questionnaire (SEQ) 3.0**, a caregiver-report measure of sensory features in **autism spectrum disorder (ASD)**. The SEQ 3.0 captures **sensory experiences** across multiple modalities that are clinically important in autism but often poorly measured by standard instruments. The validation involved both autistic and non-autistic populations to examine **measurement invariance** and structural differences. Using **confirmatory factor analysis (CFA)** and related psychometric methods, the study evaluated the factor structure, reliability, and validity of the Japanese translation. Results demonstrated that the Japanese SEQ 3.0 maintains the **core factor structure** of the original English version while revealing some **structural differences** between autistic and non-autistic populations — suggesting that sensory experiences are organized differently in autistic individuals. The study contributes a much-needed **culturally validated instrument** for assessing sensory features in Japanese clinical and research contexts, where gold-standard tools for sensory assessment in autism have been lacking.",
+    "clinical_insight": "Sensory sensitivities and atypical sensory processing are among the most prevalent and impairing features of autism, affecting up to 90% of autistic individuals, yet clinicians have lacked validated instruments in many languages including Japanese. The SEQ 3.0 Japanese version provides a practical tool for **clinical sensory profiling** that can inform **occupational therapy planning**, **environmental accommodations**, and **individualized support strategies**. The finding of **structural differences** between autistic and non-autistic populations is theoretically important — it suggests that sensory experiences are not simply more intense in autism but are **qualitatively different in their organization**, which has implications for how clinicians interpret sensory assessment results. The caregiver-report format makes it accessible for use with children and non-speaking individuals. Clinicians working with Japanese-speaking autistic populations now have a validated alternative to informal sensory questioning.",
+    "relevant_for": "- Clinicians assessing sensory profiles in autistic individuals\n- Occupational therapists working in autism\n- Researchers in autism assessment and cross-cultural psychometrics\n- Japanese-speaking clinicians and services",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/nm472_v2"
+  },
+  {
+    "number": 593,
+    "title": "Item Response Theory Development of a Brief Parenting Measure for Diverse Families: The MAPS V2 Parent-Report",
+    "authors": "Violeta Rodriguez, Mandy Witkin, Jennifer Hellmuth, Justin Parent",
+    "osf_id": "zyq96_v1",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This study developed an **ultra-brief parent-report measure** derived from the **Revised Multidimensional Assessment of Parenting Scale (MAPS V2)**, using **item response theory (IRT) graded response models** to maximize psychometric information while minimizing item count. In a national sample of parents of children aged 3–17 (Sample 1; N=1,699), items were selected for high **discrimination** and optimal coverage across the latent trait continuum. The resulting brief measure was then validated in a second sample (Sample 2), demonstrating strong **reliability**, **factorial validity**, and **measurement invariance** across key demographic groups including **race/ethnicity**, **income**, and **family structure**. The ultra-brief format addresses a critical barrier in clinical practice and research: existing parenting measures are often lengthy and burdensome, leading to respondent fatigue and incomplete data, particularly among diverse and high-stress families who stand to benefit most from assessment.",
+    "clinical_insight": "Parenting behavior is one of the strongest predictors of both **child mental health outcomes** and **parental wellbeing**, yet assessment in clinical settings is hampered by the length of existing instruments. An ultra-brief, psychometrically sound measure that performs **equivalently across diverse family structures** (single-parent, multigenerational, blended families) is a genuinely useful clinical tool. The use of **IRT** rather than classical test theory for item selection is methodologically rigorous — it ensures the brief version retains maximum information at the item level. For therapists working in family-based interventions, this measure could serve as a quick **session-by-session monitoring tool** or intake screener. The demonstrated **measurement invariance** across race/ethnicity and income is particularly important for equitable clinical practice, as it means scores can be meaningfully compared across diverse populations without bias from the instrument itself.",
+    "relevant_for": "- Family therapists and systemic practitioners\n- Clinicians working with diverse family structures\n- Child and adolescent mental health services\n- Researchers needing brief, validated parenting assessment",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/zyq96_v1"
+  },
+  {
+    "number": 594,
+    "title": "Effects of Process- and Embodiment-Focused Psychology (PEP) Treatment for Depression, comorbid Anxiety and Generalized Self-Efficacy",
+    "authors": "Laura Grabener, Can Kulens, Anne Martinelli",
+    "osf_id": "jdsvn_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This **quasi-experimental pilot study** (N=25) investigated the effects of **Process- and Embodiment-Focused Psychology (PEP)** treatment on depressive symptoms, anxiety symptoms, and generalized self-efficacy. PEP is an integrative approach combining **cognitive techniques** with **embodiment-focused procedures** including **sensorimotor self-stimulation** (acupoint tapping), structured work with **self-referential cognitions**, and **self-esteem activation**. Participants received either therapist-guided PEP (n=12, 14–35 sessions) or a structured self-study condition using a PEP-based manual (n=13, ~6 weeks). Both groups improved significantly, but the therapist-guided condition showed dramatically larger effects with **large within-group effect sizes**: BDI-II d=3.05, BAI d=2.31, GSWE d=1.93 versus control d=1.24, d=1.24, d=0.77. Significant **time × group interactions** were found for all three outcomes (BDI-II: F(1,23)=27.23, p<.001, np2=.54; BAI: F(1,13)=323.00, p<.001, np2=.96; GSWE: F(1,23)=5.51, p=.028, np2=.19). By post-treatment, baseline group differences in symptom severity and self-efficacy had largely resolved.",
+    "clinical_insight": "PEP represents a novel integration of **cognitive, embodied, and resource-oriented** approaches that is deliberately designed to be **low-threshold and scalable** — deliverable not only by licensed psychotherapists but also by GPs and complementary practitioners with PEP certification. The extremely large effect sizes in the therapist-guided condition (d=3.05 for depression) are striking, though the **quasi-experimental design**, **baseline differences** (EG was more severe), and **small sample** (N=12 per group) necessitate extreme caution in interpretation. The inclusion of **generalized self-efficacy** as an outcome is theoretically grounded in **Bandura's social-cognitive theory** and distinguishes PEP from purely symptom-focused approaches. The finding that both therapist-guided and self-study conditions produced improvements suggests that PEP techniques have merit even as **psychoeducational self-help**, though therapist guidance adds substantially. Clinicians should view this as promising preliminary evidence for a novel modality, not as efficacy confirmation.",
+    "relevant_for": "- Therapists interested in integrative and embodied approaches\n- Clinicians seeking low-threshold intervention options\n- Practitioners working with comorbid depression and anxiety\n- Service designers looking for scalable treatment models",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/jdsvn_v2"
+  },
+  {
+    "number": 595,
+    "title": "Peer support in employment services for people living with psychotic disorders",
+    "authors": "Salma Bachir Cherif, Genevieve Sauve, Amal Abdel-Baki, Srividya Iyer, Chad Chouinard, Simon Longpre, Tania Leduc",
+    "osf_id": "3r7ej_v1",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Psychosis & Schizophrenia"
+    ],
+    "summary": "This paper presents the **protocol for a qualitative study** exploring how **peer support** may influence **employment outcomes** for people living with psychotic disorders within Quebec's socio-cultural and economic context. Developed in collaboration with the **Société québécoise de la schizophrénie et des psychoses apparentées**, the study uses a **participatory approach** where workshops are led by **peer workers** addressing themes including coping with illness, disclosure, and social skills. Data collection involves **focus groups** with three stakeholder categories: service participants, peer workers, and employment counselors. Analysis will use **Braun and Clarke's inductive thematic analysis** supported by NVivo, with **member checking** and **reflective journaling** for rigor. The protocol details the theoretical rationale linking peer support to **recovery-oriented employment services** and the Quebec-specific context of supported employment programs.",
+    "clinical_insight": "Although this is a protocol without results, it addresses an important gap: the role of **peer workers with lived experience** in **supported employment programs** for psychotic disorders is **poorly documented** despite the established effectiveness of peer support in mental health more broadly. The **participatory design** — co-developed with a community organization — is itself a model of how psychosis research should be conducted. For clinicians and service managers, this protocol outlines a framework for integrating **peer expertise** into vocational rehabilitation, which is particularly relevant given that **employment is a key recovery goal** yet most people with psychotic disorders remain unemployed. The focus on **disclosure** and **social skills** in employment contexts addresses real-world barriers that individual therapy alone may not resolve. The Quebec-specific context (distinct social programs, French-speaking services) adds cultural relevance for Francophone services.",
+    "relevant_for": "- Vocational rehabilitation specialists working with psychosis\n- Peer support program designers and coordinators\n- Community mental health service managers\n- Researchers in psychosis and recovery",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/3r7ej_v1"
+  },
+  {
+    "number": 596,
+    "title": "Understanding and Leveraging Men's Affinity Toward AI-Based Mental Health Support",
+    "authors": "Raphael Schuster, Andreas Walther",
+    "osf_id": "6umjr_v1",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This **theoretical manuscript** integrates the **Gender Role Strain Paradigm**, **Precarious Manhood Theory**, and **human-computer interaction research** to explain why men may be particularly drawn to **AI-based mental health support** — and how this affinity could be leveraged to improve men's engagement with mental health care. Men consistently **underutilize mental health services** despite substantial psychological burden, driven by **traditional masculinity ideologies**, **gender role strain**, and the precarious nature of masculine identity. The authors argue that **LLM-based tools** may circumvent key barriers to men's help-seeking: they eliminate the need to **disclose vulnerability to another person**, avoid **gender role threat** inherent in help-seeking, and provide **on-demand, anonymous** access that sidesteps scheduling and visibility concerns. The paper proposes a framework for designing **male-friendly AI mental health tools** and identifies both opportunities (increased engagement, psychoeducation, bridge to formal care) and risks (reinforcement of avoidance, lack of human connection, inappropriate self-treatment).",
+    "clinical_insight": "This paper offers a compelling theoretical explanation for an emerging clinical phenomenon: men are engaging with AI chatbots for mental health support at significant rates. For clinicians, understanding this dynamic is essential — rather than viewing AI engagement as problematic avoidance, it may represent a **stepping stone** toward formal care for men who would otherwise never seek help. The integration of **Gender Role Strain Paradigm** with technology acceptance research provides a nuanced framework: AI tools reduce the **status threat** and **perceived weakness** that men associate with traditional help-seeking. However, clinicians should also be alert to the risk that AI tools may **reinforce avoidance** of necessary human therapeutic relationships. The paper's framework could inform **clinical guidelines** for when to recommend AI tools as adjuncts versus when to gently redirect toward human care.",
+    "relevant_for": "- Clinicians working with male-identifying patients\n- Digital mental health service designers\n- Men's mental health researchers\n- Therapists integrating technology into practice",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/6umjr_v1"
+  },
+  {
+    "number": 597,
+    "title": "A group-based prevention program fostering mental health and physical activity: Pre- to post-program outcomes and session-level processes",
+    "authors": "Mareike Rottger, Jens Blechert, Matthias Aulbach",
+    "osf_id": "a9kfz_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This study investigated an 8-week, **health-insurance-provided group-based prevention program** combining weekly **outdoor physical activity (PA)** and **psychoeducational sessions (PsycEd)**. Using a naturalistic, non-controlled design, the study examined both **program-level outcomes** (pre- to post-program changes in mental health) and **session-level processes** (proximal changes within individual sessions and their relation to overall outcomes). The program was delivered in groups and represents a real-world implementation of a **prevention-oriented intervention** offered through the German healthcare system. The dual focus on PA and psychoeducation reflects the evidence base for both **exercise-based mental health promotion** and **structured psychoeducation** as prevention components, while the session-level analysis addresses the gap between knowing that programs work at the aggregate level and understanding **how they work** at the process level.",
+    "clinical_insight": "Prevention programs that combine **physical activity** and **psychoeducation** are increasingly popular yet poorly understood at the process level. This study's key contribution is examining **what happens within sessions** — the proximal mechanisms through which a group-based prevention program exerts its effects. For service planners and clinicians, understanding session-level processes helps optimize **program design** and **facilitator training**. The naturalistic, insurance-provided context means findings are **ecologically valid** — they reflect what actually happens in community prevention programs rather than optimized research conditions. The group-based format also offers **social support** benefits that individual interventions lack. However, the non-controlled design limits causal inference about program effects.",
+    "relevant_for": "- Prevention program designers and coordinators\n- Group facilitators in mental health prevention\n- Health insurance program managers\n- Clinicians involved in community-based prevention",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/a9kfz_v2"
+  },
+  {
+    "number": 598,
+    "title": "Men's Experiences of Mental Health Services for Depression: Perceptions, Expectations, and Satisfaction",
+    "authors": "Tsuki Gao, Lesley-Anne MacRae",
+    "osf_id": "yvk5g_v1",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This **qualitative study** explored men's **perceptions, expectations, and satisfaction** with mental health services for depression, focusing on how these dimensions **interacted over time** throughout the help-seeking process. Using **semi-structured interviews**, the study traced men's journeys from initial recognition of depression through engagement with services, examining how expectations were formed (often through media, family, and GP referral), how they were met or violated during treatment, and how satisfaction was negotiated across different phases of care. The study illuminates the **dynamic interplay** between pre-treatment expectations and in-treatment experiences, revealing that men's engagement cannot be understood at a single time point. Findings identify specific **barrier patterns** (misalignment of expectations with service reality, perceived therapeutic invalidation, and mismatched communication styles) and **facilitator patterns** (collaborative treatment planning, perceived therapist competence, and flexible approach) that influenced men's continued engagement.",
+    "clinical_insight": "Men's **high dropout rates** from mental health services are a persistent clinical problem. This study provides a **longitudinal, process-level understanding** of why men disengage — not as a static barrier but as a dynamic mismatch that evolves across the treatment trajectory. For clinicians, the key insight is that **expectation management** is critical from the first point of contact: when men's expectations (often shaped by media portrayals or brief GP conversations) collide with the reality of weekly therapy sessions focused on emotional exploration, the mismatch can trigger disengagement. The study suggests that **early collaborative treatment planning**, explicit discussion of what therapy involves, and a **flexible, non-prescriptive stance** may improve retention. The qualitative design captures **nuanced subjective experiences** that quantitative studies of help-seeking barriers miss, particularly the temporal dimension of how perceptions shift during treatment.",
+    "relevant_for": "- Therapists working with male-identifying patients\n- Service managers seeking to reduce male dropout rates\n- GPs and primary care practitioners as first-contact points\n- Researchers in men's mental health and help-seeking",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/yvk5g_v1"
+  },
+  {
+    "number": 599,
+    "title": "Families of young people who self-harm: A mixed-methods systematic review of their experiences and needs",
+    "authors": "Beatriz Cacao-Dias, Ines Areal Rothes, Claudia Carmo, Cristina Nunes, Marta Bras",
+    "osf_id": "s5avb_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Suicidality & Self-Harm"
+    ],
+    "summary": "This **mixed-methods systematic review** investigated the **experiences, barriers, and needs** of families of young people who **self-harm**. Recognizing that family support plays a crucial role in the young person's prognosis while caregiving itself takes a significant toll, the review synthesized both quantitative and qualitative evidence across multiple domains. The review mapped families' **emotional responses** (shock, guilt, helplessness, fear), their **information and support needs** (crisis management strategies, communication approaches, understanding self-harm), and the **barriers** they face (stigma, lack of professional guidance, fragmentation of services). The mixed-methods design allowed integration of prevalence data on family impact with rich qualitative descriptions of lived experience, providing a comprehensive picture of the **family caregiving context** in youth self-harm.",
+    "clinical_insight": "Family members are often the **first responders** when a young person self-harms, yet they frequently receive little to no guidance on how to respond. This review consolidates evidence that families experience significant **psychological distress**, **caregiver burden**, and **information deficits** that can paradoxically undermine their ability to provide effective support. For clinicians, the review highlights the importance of **family-inclusive care** — not just family therapy, but practical psychoeducation about self-harm, **crisis management training** for family members, and acknowledgment of caregivers' own mental health needs. The identification of specific barriers (stigma, service fragmentation) points to **system-level interventions** alongside individual family work. The review also underscores that supporting families is not merely adjunctive to treating the young person — it is a **primary therapeutic target** in its own right.",
+    "relevant_for": "- CAMHS practitioners and crisis teams\n- Family therapists working with self-harm\n- Psychoeducational program designers\n- Policy makers in youth mental health services",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/s5avb_v2"
+  },
+  {
+    "number": 600,
+    "title": "Differential item functioning in the Eysenck neuroticism scale and its implications on the concurrent and predictive validity",
+    "authors": "Chris Patrick Pflanz, Sarah Bauermeister, John Gallacher",
+    "osf_id": "mrzyt_v1",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This study examined **differential item functioning (DIF)** in the **Eysenck Personality Questionnaire-Revised Neuroticism (EPQ-RN) scale**, investigating whether well-documented **gender differences in neuroticism scores** reflect genuine personality differences or **measurement bias** in the instrument. Using DIF analysis methods, the study identified specific items that functioned differently for males and females, and critically examined the implications of this potential bias for the **predictive validity** of neuroticism. Given the central role of neuroticism in **predicting depression, anxiety, and overall mental health outcomes**, gender-biased items could lead to **systematic misestimation** of risk, particularly in epidemiological and clinical research where the EPQ-RN is widely used. The study provides evidence-based recommendations for **item revision or removal** to improve measurement equity.",
+    "clinical_insight": "The EPQ-RN is one of the most widely used brief personality measures in both research and clinical practice. If specific items show **gender DIF**, this means the same underlying level of neuroticism can produce different total scores for men and women — potentially leading to **over- or under-estimation** of personality risk factors in clinical assessments. For clinicians using the EPQ-RN for **case formulation** or **treatment planning**, understanding which items are biased is essential for accurate interpretation. The study's focus on **predictive validity implications** goes beyond mere psychometric documentation — it asks whether biased items actually affect the scale's ability to predict mental health outcomes, which is the clinical bottom line. This work is part of a broader movement toward **bias-aware assessment** in clinical psychology.",
+    "relevant_for": "- Clinical psychologists using personality assessment\n- Researchers using the EPQ-RN in clinical studies\n- Assessment developers concerned with gender equity\n- Personality researchers studying neuroticism",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/mrzyt_v1"
+  },
+  {
+    "number": 601,
+    "title": "Developing LGBTQ+ Acceptance: Media as Resources for LGBTQ+ People and Close Others",
+    "authors": "Joel Hendrix, Marieke Fransen, Gijsbert Bijlstra, Serena Daalmans",
+    "osf_id": "kpb4a_v1",
+    "date_posted": "2026-06-10",
+    "source_date": "June 2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This qualitative study (N=31 semi-structured interviews) examined how **media serve as resources** for **LGBTQ+ self-acceptance** and **other-acceptance** (acceptance by close others such as friends and family). Through **thematic analysis**, the study identified distinct pathways through which media contribute to acceptance processes. For **self-acceptance**, media provided **representation and visibility** (seeing oneself reflected), **narrative frameworks** for understanding identity, and **community connection** beyond physical proximity. For **other-acceptance**, media served as **educational tools** for close others, **conversation starters** that facilitated dialogue about LGBTQ+ identity, and **empathy-building resources** through exposure to diverse stories. The study also examined how different media types (fiction, documentary, social media, news) function differently in these processes and identified **boundary conditions** where media can be counterproductive.",
+    "clinical_insight": "With **LGBTQ+ discrimination increasing** and acceptance declining in many contexts, understanding what facilitates acceptance is clinically urgent. For therapists working with LGBTQ+ clients, this study provides an evidence base for a practical intervention: **prescribing specific media content** as a therapeutic adjunct. Media can serve as a **low-threshold, destigmatizing bridge** for family members struggling to understand a loved one's identity — a common clinical scenario in family therapy. The study also illuminates how LGBTQ+ individuals actively use media for **self-acceptance work**, which clinicians can support and validate. The distinction between **self-acceptance** and **other-acceptance** pathways is clinically useful: a therapist working with an LGBTQ+ client might recommend very different media depending on whether the goal is supporting the client's own identity integration or facilitating a family member's acceptance.",
+    "relevant_for": "- Therapists working with LGBTQ+ clients and their families\n- Family therapists supporting acceptance processes\n- Clinicians interested in media-based therapeutic interventions\n- Cultural competence trainers",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/kpb4a_v1"
   }
 ]

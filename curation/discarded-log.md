@@ -216,3 +216,38 @@
 - zjdx5_v4 | 0 | Simplicity is Used to Promote Accuracy in Explanation Evaluation — cognitive science, not clinical
 - jp2ks_v3 | 0 | Does self-projection have a dominant temporal direction — basic social cognition
 - kt3sw_v2 | 2 | Predictability Effects in Natural Reading are Logarithmic — psycholinguistics, not clinical
+
+## Run 3 (2026-07-08)
+
+- t6u9s_v3 | 6 | Childhood Predictors of Educational Attainment Across 22 Countries: A Cross-National Analysis of the Global Flourishing Study — not directly clinically relevant for therapy practice
+- tp7h5_v3 | 5 | Addressing bias-based bullying in schools: Behavior change methods for stigma reduction — not directly clinically relevant for therapy practice
+- ury4s_v1 | 5 | The anatomy of happiness: Dissecting differential effects of education on material life satisfaction and relationship satisfaction in the UK Biobank — not directly clinically relevant for therapy practice
+- evs5j_v1 | 5 | Being on track in early numeracy and literacy: A national study of South African preschoolers — not directly clinically relevant for therapy practice
+- s5avb_v2 | 5 | Families of young people who self-harm: A mixed-methods systematic review of their experiences and needs — not directly clinically relevant for therapy practice
+- tpq7r_v1 | 4 | Psychometric Properties of the Cardiac Distress Inventory: Classical and Modern Test Theory using Dynamic Fit Index Cutoffs — not directly clinically relevant for therapy practice
+- rkepz_v2 | 4 | Declining Ethnic Dominance and Democratic Quality Across Six Decades and 90 Countries — not directly clinically relevant for therapy practice
+- 3mder_v2 | 4 | Misinformation as Strategy: Epistemic Consequences and the Undermining of Shared Truth — not directly clinically relevant for therapy practice
+- a6ykq_v2 | 4 | TikTok Disconnection and its Impact on Use, Task Procrastination, and Psychological Well-being in Emerging Adults — not directly clinically relevant for therapy practice
+- 8skmv_v3 | 3 | From Silence to Whisper: Climate Change in U.S. News Media, 1984–2025 — not directly clinically relevant for therapy practice
+- sykjn_v1 | 3 | Relational Mobility and the Sharing of Positive and Negative Reputation Across Societies — not directly clinically relevant for therapy practice
+- pu3cs_v1 | 3 | Brevity is the soul of wit. Developing Parallel Short Tests for Planetary Health  Knowledge — not directly clinically relevant for therapy practice
+- 8d96p_v1 | 2 | Vicious or Virtuous? Designing Generative AI-Powered Learning Experiences to Foster Rather than Undermine Critical Thinking in K-12 Education — not directly clinically relevant for therapy practice
+- fspmq_v1 | 2 | What Drives Learning During Practice? Contributions of Exposure, Retrieval, and Error Correction — not directly clinically relevant for therapy practice
+- v63yk_v1 | 2 | Development and Psychometric Validation of a French Version of The Organisational Stressor Indicator for Sport Performers: A Multi-Study Investigation — not directly clinically relevant for therapy practice
+- 8pjae_v1 | 2 | Unequal Selection? Assumably Criminogenic Personality Traits Cannot Explain the Gender Gap in Incarceration — not directly clinically relevant for therapy practice
+- j6du2_v2 | 2 | “Now You Know, Don’t Be Indifferent”:  The Emotional Effects of Learning About Historical Violence and Their Relationship with Current Pro-Social Motivation — not directly clinically relevant for therapy practice
+- 9cf6p_v1 | 2 | Baselines Matter: Cardiovascular Baseline Procedures in Affective Psychophysiology — not directly clinically relevant for therapy practice
+- tp6yq_v1 | 2 | Bayesian Efficient Coding as a Theory of Perception: Progress, Controversies and Prospects — not directly clinically relevant for therapy practice
+- 3p9xb_v1 | 2 | Media Education in Residential Child and Youth Welfare –  Assessment of the Individual and Institutional Status Quo — not directly clinically relevant for therapy practice
+- k46ad_v1 | 2 | Mathematical Relationships Between Brains and Consciousness — not directly clinically relevant for therapy practice
+- d6v5t_v7 | 2 | A Beta Way: A Tutorial on Bayesian Beta Regression for Psychological Research — not directly clinically relevant for therapy practice
+- 4tdvg_v1 | 2 | White Adults’ Verbal and Nonverbal Responses to Discussing Racial Bias: The Role of Bias Awareness — not directly clinically relevant for therapy practice
+- ntcuq_v1 | 1 | Why “Not Different” Is Not the Same as “Equivalent”: An Introduction to Equivalence Testing in Psychological Research — not directly clinically relevant for therapy practice
+- 5spjk_v1 | 1 | The Limits of Identifiability in the Self-Exciting Ornstein–Uhlenbeck Model — not directly clinically relevant for therapy practice
+- 5yafr_v2 | 1 | Event boundaries impair immediate and delayed story recall in healthy aging and Mild Cognitive Impairment — not directly clinically relevant for therapy practice
+- nm236_v2 | 1 | The Adaptive Role of Pre-Service Routines in Tennis: An Ecological Dynamics Approach to Self-Regulation in Sports Tasks — not directly clinically relevant for therapy practice
+- ew7nj_v2 | 1 | “You’re playing the game wrong”: Exploring Motivations and Perceptions of Save-scumming in Video Games. — not directly clinically relevant for therapy practice
+- dxf29_v2 | 1 | A Compression-Based Account of Biases Towards Simpler Explanations — not directly clinically relevant for therapy practice
+- 5tw42_v1 | 1 | Domain-specific or executive processing in numerical cognition: The case of decade-unit inversion in Arabic — not directly clinically relevant for therapy practice
+- abps9_v3 | 1 | Does the corollary discharge provide the sensory content of inner speech? A preregistered direct replication and extension of Scott (2013) — not directly clinically relevant for therapy practice
+- bmtxc_v1 | 1 | Collaboration enhances collective intelligence — not directly clinically relevant for therapy practice
