@@ -187,3 +187,32 @@
 - hpbf5_v1 | 1 | Childrens line drawings in picture-sparse environment — child development (pediatric)
 - 5w8pt_v2 | 1 | Children confiding in AI relational agents — child/AI interaction (pediatric)
 - 3kdup_v2 | 1 | Open-Source Embedding Strategies for Recovering Scale Structure — psychometric methodology
+- zc8yr_v2 | 1 | No single downbeat: Rethinking criteria for beat synchronization across species — animal cognition, not clinically relevant
+- cydv4_v3 | 1 | Sensorimotor coupling modulates perceived time and agency across visual perspectives — basic cognitive neuroscience, no clinical application
+- yqgzp_v1 | 2 | Remembering What We Did: Confidence Tracks the Distinctiveness of Action Representations — basic memory research, no clinical relevance
+- 56mc7_v1 | 3 | From Emotions to Achievement: Positioning Language Learning Curiosity — foreign language education, not clinical
+- f5v92_v2 | 2 | Bridging analysis and performance in elite Para swimming — sports psychology, not clinical
+- 36qbz_v1 | 2 | Optimized cardiorespiratory state at tone onset enhances sensory responses — basic psychophysiology
+- cgurt_v1 | 0 | Defining Advanced Meditation: A Conceptual Foundation — screened out (hard excluded or low signal)
+- st6a5_v2 | 1 | People Underestimate the Acceptability of Canceling Plans with Others — social/consumer psychology
+- jg372_v3 | 1 | Prediction in action: toward an empirical science of active inference — theoretical neuroscience framework, not clinical
+- kfcd2_v1 | 0 | At What Sample Size Do Correlations Stabilise — statistical methodology, not clinical
+- jzgtm_v1 | 7 | Linking Individual Multiculturality to Behaviour: Stereotype Activation — social psychology, lacks clinical/therapeutic focus
+- fmjyg_v1 | 1 | How to tell whether AI is behaviourally human-like — AI research, not clinical
+- dxybj_v2 | 2 | Modeling Item Difficulty in Game-Based Cognitive Ability Assessment: Wordle — psychometric game research, not clinical assessment
+- 842um_v2 | 5 | Links between Caregiver-Child Engagement and Later Language in Toddlers with Autistic Siblings — child population excluded
+- s3nkm_v1 | 4 | SeMiLLa: An R Package for LLM-Assisted Psychometric Scale Development — tool announcement, indirect clinical relevance
+- wbfs3_v6 | 1 | Mind Wandering and Task-Unrelated Thoughts during rest — basic memory research
+- z9esy_v2 | 0 | Computational Modeling of Structured Memory Search — cognitive modeling, not clinical
+- bpcg7_v1 | 1 | Trust drives preference for contractualist artificial agents — AI trust research, not clinical
+- pn92s_v1 | 1 | Planning with Others in Mind — basic cognitive science, not clinical
+- c4tsf_v2 | 3 | Statistical assessment of a combinatorial relationship algorithm: Astrology — pseudoscience/astrology
+- tsker_v1 | 2 | Intellectual humility and learning outcomes in online health information-seeking — health behaviour, not clinical practice
+- 5q7u3_v1 | 2 | Individual differences in object localisation and video game experience — basic vision/perception research
+- p4ayc_v2 | 2 | How to Run Round Robin Social Interaction Studies: A Tutorial — general methodology tutorial
+- 4s8tq_v1 | 2 | Robustness of Regularized Regression Methods Under Model Misspecification — statistical methodology
+- q8me9_v3 | 2 | Using non-binding experiments for causal effects with instrumental variables — econometrics tutorial
+- ek3nu_v1 | 1 | Stereotypes of Voluntary Simplifiers — social psychology, not clinical
+- zjdx5_v4 | 0 | Simplicity is Used to Promote Accuracy in Explanation Evaluation — cognitive science, not clinical
+- jp2ks_v3 | 0 | Does self-projection have a dominant temporal direction — basic social cognition
+- kt3sw_v2 | 2 | Predictability Effects in Natural Reading are Logarithmic — psycholinguistics, not clinical
