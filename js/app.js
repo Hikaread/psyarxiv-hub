@@ -192,9 +192,9 @@
   function loadSettings() {
     try {
       var s = JSON.parse(localStorage.getItem('psyarxiv-settings'));
-      if (s) { s.font = s.font || 'saffran'; return s; }
+      if (s) { if (s.font === 'saffran') s.font = 'rubik'; s.font = s.font || 'rubik'; return s; }
     } catch(e) {}
-    return { theme: 'light', fontSize: 'medium', dyslexic: 'off', pageSize: '25', font: 'saffran' };
+    return { theme: 'light', fontSize: 'medium', dyslexic: 'off', pageSize: '25', font: 'rubik' };
   }
   function saveSettings() {
     try { localStorage.setItem('psyarxiv-settings', JSON.stringify(settings)); } catch(e) {}

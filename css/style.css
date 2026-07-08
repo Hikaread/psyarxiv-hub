@@ -120,7 +120,7 @@
 html { -webkit-text-size-adjust: 100%; }
 
 /* ===== FONT FAMILY ===== */
-[data-font="saffran"] body { font-family: 'Saffran', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+[data-font="rubik"] body { font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
 [data-font="inter"] body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
 [data-font="source-serif"] body { font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif; }
 [data-font="lexend"] body { font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
@@ -128,7 +128,7 @@ html { -webkit-text-size-adjust: 100%; }
 [data-font="atkinson"] body { font-family: 'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
 
 body {
-  font-family: 'Saffran', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-primary);
   background: var(--bg-body);
