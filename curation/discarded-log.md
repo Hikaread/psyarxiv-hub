@@ -25,3 +25,31 @@
 - f8guh_v2 | 1 | Social Influence in Donation Behavior: The Effect of Mean, Variance, and Psychopathy — Social psychology/prosocial behavior, minimal clinical relevance
 - hgb9j_v2 | 1 | GenAI as Complete Cognitive Automation for Untrained Users at Population Scale — Human factors/ergonomics, not clinical
 - v3fxd_v1 | 1 | The zebrafish alarm response as embodied semiosis — Comparative/animal behavior, not clinical
+- x4zge_v2 | 7 | From the Inside Out: School Stressors Identified by Autistic and ADHD (AuDHD) Students Experiencing School Non-Attendance — Youth/student sample, excluded per pipeline rules
+- kn7vz_v1 | 4 | Youth Participatory Action Research Across Educational Contexts — Youth/adolescent sample, excluded per pipeline rules
+- gjb9t_v1 | 5 | Age and Lifelong Cognitive Stimulation Shape the Representational Basis of Learning — Basic cognitive science, no clinical relevance
+- n8mby_v1 | 3 | Carpe diem or memento mori: Existential Anxiety and Temporal Discounting — Null results, weak clinical link to therapy practice
+- 3qzy8_v3 | 2 | Compassion as a Mechanism for Intergroup Helping — Social/educational intervention, not clinical therapy
+- 9pequ_v2 | 2 | Towards an Active Inference Personality Framework — Theoretical personality model, not directly clinical
+- ghdva_v1 | 2 | Pro Environmental Attitudes, Emotions, and Donations After Playing an Ecogame — Environmental attitudes, not clinical
+- 6e5du_v1 | 2 | What Do We Know About the Effects of AI in Education? — Education-focused meta-analysis, not clinical
+- 86vqz_v2 | 2 | Best practices and pitfalls in MVPA of ERPs — Neuroimaging methodology without clinical implications
+- cu2vq_v1 | 2 | Do action video gamers search better than non-gamers? — Gaming/cognitive psychology, not clinical
+- 2gy9c_v2 | 2 | The Construct Validity of Automated Written Interview Competency Assessments — Employment assessment, not clinical
+- s4hp8_v1 | 2 | Goals, Predictions, Valence: A Model Comparison of Agency Emergence — Theoretical cognitive science, not clinical
+- rg6jm_v1 | 2 | Trustworthiness Perception in the Absence of Any Persons — Social perception research, not clinical
+- mgfqy_v1 | 2 | Selective Exposure to Environmental Messages — Environmental communication, not clinical
+- gv6k7_v3 | 2 | A Unified Framework for Psychometrics: The Standardized Generalized HFM — Technical psychometrics, not directly clinical
+- dceqs_v1 | 2 | MASEMiner: AI-Assisted Data Extraction for MASEM — Meta-analytic methodology tool, not clinical
+- wkesf_v1 | 1 | From Sound-Colour Association to Sensory-Affective Worlds — Synesthesia case study, limited clinical relevance
+- hb5gs_v1 | 1 | Putting Out Statistical Fires: Assessing Model Fit Using DHARMa — Statistical methodology, not clinical
+- je4ur_v1 | 1 | Thinking clearly about sampling and representation — Survey methodology, not clinical
+- 6rkwh_v2 | 1 | Learning words in diverse narrative contexts — Educational/cognitive psychology, not clinical
+- tqpje_v2 | 1 | The Adoption of Open Science Practices in Communication Research — Open science in communication, not clinical
+- 9mx8r_v3 | 1 | Pluralism within limits: How to make the idea of multiple NCC kinds useful — Consciousness theory, not clinical
+- g97u4_v1 | 1 | What Should Be Spaced? Variability Constrains Spacing Effects — K-12 classroom education, not clinical
+- r8swt_v2 | 1 | The role of consequence in evaluating approximate claims — Cognitive/linguistic research, not clinical
+- jqasm_v1 | 1 | A road map for assessing process independence in behavioral measures — Attitude measurement methodology, not clinical
+- fh4cz_v1 | 3 | State of Social Cognition Research — General cognitive science review, no direct clinical relevance
+- hejvk_v2 | 3 | Kawaii (Cute) Feelings and Gender in Japanese Young Adults — Cultural affect study, not clinical
+- c73ws_v3 | 3 | Modality-Specific Consolidation in Statistical Learning — Basic memory research, no clinical relevance
