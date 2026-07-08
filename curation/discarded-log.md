@@ -155,3 +155,35 @@
 - 35tmz_v1 | 5 | Large language models capture universal relationship knowledge — AI/LLM research, not clinical
 - e9rz8_v1 | 4 | Zola Bongo: Enabling Offline Tablet-Based Cognitive Testing — cognitive testing tool for diverse populations, but primarily a tech/tool paper with limited clinical focus
 - jc2h8_v4 | 6 | Improving autobiographical episodic memory in early dementia — dementia/technology intervention, focus on smartphone app rather than clinical psychology
+- vpxtz_v1 | 6 | AI and Pediatric Mental Health — pediatric/child focus, hard-excluded
+- gzydf_v2 | 6 | Can Aerobic Exercise Improve Decision-Making in Aging — cognitive aging, not clinical
+- nrq97_v2 | 5 | Pervasive COIs in ABA Literature — research ethics debate, not clinical
+- fkd4v_v1 | 4 | Breaking Common Ground through Reciprocal Misalignment — linguistics/pragmatics
+- msqte_v1 | 4 | Large fluid-crystallised discrepancy profiles — cognitive/neuropsychological proxy, not clinical
+- ducr2_v2 | 4 | Technology-Natives and Technology-Adopters in Remote Cognitive Assessment in Alzheimers — dementia/aging technology
+- zrnsj_v3 | 4 | Developmental variation from rational choice — developmental/cognitive science
+- y43n6_v1 | 4 | Hierarchical Bayesian Models in ERP Research — neuroscience methodology
+- yugb9_v1 | 3 | Predicting LITMUS Sentence Repetition using Q-BEx — language assessment in multilingual children (pediatric)
+- r3jhd_v1 | 3 | Arousal-contingent caregiving and infant vocal signals — infant development (pediatric)
+- cgsmj_v3 | 3 | Dark Creativity Deception Battery — personality/creativity research, not clinical
+- njmhe_v1 | 3 | Perception-Expression Cycle Framework for peer processes — adolescent social development
+- 8rpfu_v2 | 3 | Anthropomorphic AI chatbots and reactance among university students — AI/technology, not clinical
+- 6tsdz_v2 | 3 | Speech processing in preschoolers — child language development (pediatric)
+- njrqb_v1 | 2 | Evaluating the Imaginative Capability Scale — personality measurement, not clinical
+- zjgb8_v3 | 2 | Age-related changes in eye movements during pictorial recall in older adults — cognitive aging
+- tzxsk_v2 | 2 | Expectation Development in Analytical Procedures — accounting/auditing methodology
+- wps9d_v2 | 2 | How credible is the evidence on precarious manhood — gender studies methodology
+- sm57k_v1 | 2 | Age of Acquisition in Melodic Recognition — music cognition
+- qy9ge_v1 | 2 | Training the power: Physical size and exponential expressions — mathematical cognition
+- spfyt_v3 | 2 | Extraversion, positive affect, and social attention — personality/social psychology
+- zw5ms_v4 | 2 | Generation Effect and Multisensory Facilitation — cognitive/memory research
+- v2dgf_v2 | 2 | Shared neural representations of barriers — cognitive neuroscience
+- vzd3w_v1 | 1 | How Prompting and Editing Shape Psychological Ownership in AI-Assisted Writing — AI/technology
+- ef9g3_v1 | 1 | Cognitive Enhancement through Interventions — general cognitive enhancement review
+- 5y7r2_v1 | 1 | Parental socialization of child lying — child development (pediatric)
+- dghnf_v3 | 1 | Origin and Control of Persistent Mental Content — basic cognitive science
+- wm5yz_v1 | 1 | Validation of German BMRQ — music psychology measurement
+- a8gc7_v1 | 1 | Collective Effervescence in Live Dance — social/positive psychology
+- hpbf5_v1 | 1 | Childrens line drawings in picture-sparse environment — child development (pediatric)
+- 5w8pt_v2 | 1 | Children confiding in AI relational agents — child/AI interaction (pediatric)
+- 3kdup_v2 | 1 | Open-Source Embedding Strategies for Recovering Scale Structure — psychometric methodology
