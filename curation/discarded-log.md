@@ -1,27 +1,17 @@
-- qcm7n_v1 | 10 | The role of interoceptive body trusting in the link between trauma, resilience, mental health and somatic symptoms in children — Child/adolescent sample — excluded per pipeline rules
-- xfcwj_v1 | 5 | Road Crossing Challenges in Autistic Adolescents: A Caregiver-Reported Survey — Adolescent sample — excluded per pipeline rules
-- xf7tb_v1 | 4 | Styles That Heal or Harm: Rethinking Leadership Through the Lens of Employee Well-Being — General occupational psychology, not clinical therapy practice
-- me752_v1 | 4 | Between the Steeple and the Golden Stool: Navigating Cultural Conflict, Pentecostal Competition, and the Organisational Wellbeing of Pastors — Theology/organizational study, not clinical mental health
-- cb2uk_v1 | 3 | Generative AI for Creative Learning in K-12 Education: Insights from a Systematic Scoping Review — Education technology, not clinical psychology
-- gw386_v3 | 3 | Gendered Motives for Group Formidability Among Children and Adults — Evolutionary psychology, child participants, not clinical
-- 458zb_v2 | 2 | Climate change and conflict: The vicious cycles undermining climate action — Environmental/political science, not clinical psychology
-- tuhd5_v3 | 2 | Prospects for AI-driven interpretation of real-world pupil dynamics — Neuroscience methods paper, no clinical relevance
-- kbr7a_v1 | 2 | More doubt and disorderly: Revisiting the causal relationship between conspiracy beliefs and ambivalence — Political psychology, not clinical
-- mtd4a_v5 | 2 | Cultural models of emotion manifest in descriptions of everyday experience — Linguistic/cultural psychology, not clinical
-- js3np_v1 | 2 | Relationship between personal responsibility to reduce climate change and trust in politics — Environmental/political psychology
-- 4hsc8_v1 | 2 | Audio features impact the semantic content of music-evoked thoughts — Cognitive psychology of music, not clinical
-- j5s6b_v1 | 2 | Limes Master Edition: Using Behavioural Data to Refine Game Mechanics in Research — Educational game design, not clinical
-- 8mtd6_v1 | 2 | A phylogenetically conserved microstructural primitive of goal-directed action in humans and macaques — Comparative neuroscience, not clinical
-- mrey3_v1 | 2 | Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models — AI/LLM evaluation, not clinical psychology
-- za92j_v2 | 2 | Characterizing the frequency and content of speech from other children in daylong recordings of infants input — Infant language development, not clinical
-- yvgkh_v3 | 2 | Is the late positive potential (LPP) related to memory consolidation? — Cognitive neuroscience methods, not clinical
-- 46am8_v2 | 2 | Chunking improves working memory via compression — Basic cognitive psychology, not clinical
-- csp5y_v4 | 1 | The Impact of Partial Automation and Cognitive Load on Drivers Visual Search Strategies — Driving/human factors, not clinical
-- 3ybw7_v1 | 1 | Rubric-Guided Generative AI for Scalable Creativity Assessment in Educational Games — Education technology, not clinical
-- x8eaz_v2 | 1 | Unconscious processing of naturalistic scenes revealed by eye movement dynamics — Cognitive neuroscience, not clinical
-- cs8wg_v1 | 1 | Analyzing Perceptions of Custodial Torture Among Police Officers and the Public in India — Criminology/sociology, not clinical psychology
-- qz3vt_v1 | 1 | Cooperation increases verbal and spatial coordination in human foraging groups in the wild — Evolutionary psychology, not clinical
-- g9pax_v2 | 1 | Can we Automate Social Science Concept Harmonization? — Research methodology/NLP, not clinical
-- f8guh_v2 | 1 | Social Influence in Donation Behavior: The Effect of Mean, Variance, and Psychopathy — Social psychology/prosocial behavior, minimal clinical relevance
-- hgb9j_v2 | 1 | GenAI as Complete Cognitive Automation for Untrained Users at Population Scale — Human factors/ergonomics, not clinical
-- v3fxd_v1 | 1 | The zebrafish alarm response as embodied semiosis — Comparative/animal behavior, not clinical
+# Discarded Papers Log
+
+- bsc3y_v4 | 8 | The Youth-GEMs project: genetic and environmental interactions underlying trajectories of youth mental health — Excluded: child/adolescent focus per curation criteria
+- s72md_v1 | 5 | Performance and choice measures reveal strong preferences for self-benefitting compared to prosocial effort allocation — Not clinical psychology; basic cognitive effort decision-making
+- w9vej_v1 | 5 | Perceived authenticity in AI conversational agents: Conceptualizations, operationalizations — Not clinical psychology; AI design research
+- bqgk7_v2 | 3 | Hallucination or confabulation? A psychological reinterpretation of erroneous outputs in LLMs — AI terminology critique using clinical concepts as analogy only
+- 4c5hn_v2 | 3 | The Value of Self-Deception: How Conflict in Action Selection May Shape Human Beliefs and Behavior — Theoretical decision-making model, no clinical application
+- ybn42_v1 | 3 | What's Wrong with Motivated Reasoning? — Methodological critique of cognitive bias paradigm, not clinical
+- 6szky_v1 | 2 | From Pathogens to Paintings: Behavioral Immune System's Influence on Visual Aesthetics — Evolutionary psychology, not clinical
+- nt2jq_v3 | 2 | Encoding models in functional magnetic resonance imaging: the Voxelwise Encoding Model framework — Neuroimaging methods tutorial, no clinical implications
+- t3ay4_v1 | 2 | A comparison of different measures of slow wave activity across nocturnal ad libitum home sleep — Sleep physiology methods comparison
+- z3y5d_v3 | 2 | In God We Trust, In AI We Ask: Religiosity and Moral Advice Seeking in the AI Age — Religion/AI intersection, not clinical
+- gcd6k_v1 | 2 | Biased Judge: Recency Effects, Cautious Convictions, and Conservative Updating in GPT-4o's Legal Decisions — Legal AI bias, not clinical psychology
+- 6b4ej_v1 | 2 | Thinking through metaphor in a second language: science learning of L2 students — Education research, not clinical
+- 8uq75_v2 | 1 | Deviations in Distributions Perception through Imprecision and Abstract Representations — Perceptual cognition, not clinical
+- df7be_v2 | 1 | People make history-dependent decisions in Markovian environments — Decision-making research, not clinical
+- 8uk67_v1 | 1 | The Effect of Psychological Distance on Level of Construal: CLIMR Failed Replication — Failed replication of basic social psychology, not clinical
