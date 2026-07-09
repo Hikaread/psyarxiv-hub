@@ -192,9 +192,9 @@
   function loadSettings() {
     try {
       var s = JSON.parse(localStorage.getItem('psyarxiv-settings'));
-      if (s) { if (s.font === 'saffran') s.font = 'rubik'; s.font = s.font || 'rubik'; return s; }
+      if (s) return s;
     } catch(e) {}
-    return { theme: 'light', fontSize: 'medium', dyslexic: 'off', pageSize: '25', font: 'rubik' };
+    return { theme: 'light', fontSize: 'medium', dyslexic: 'off', pageSize: '25' };
   }
   function saveSettings() {
     try { localStorage.setItem('psyarxiv-settings', JSON.stringify(settings)); } catch(e) {}
@@ -203,7 +203,6 @@
     document.documentElement.setAttribute('data-theme', s.theme);
     document.documentElement.setAttribute('data-fontsize', s.fontSize);
     document.documentElement.setAttribute('data-dyslexic', s.dyslexic);
-    document.documentElement.setAttribute('data-font', s.font || 'saffran');
     PAGE_SIZE = parseInt(s.pageSize, 10) || 25;
     document.querySelectorAll('.setting-options').forEach(function(group) {
       var key = group.dataset.setting;
@@ -604,7 +603,7 @@
     h += '<span class="paper-number">#' + p.number + '</span>';
     h += '<div class="paper-heading">';
     h += '<div class="paper-title has-modal">' + esc(p.title) + '</div>';
-    if (p.published && p.published !== 'false' && p.published !== false && p.published !== 'None') {
+    if (p.published) {
       h += '<span class="badge-published">PR</span>';
     }
     h += '</div>';
@@ -638,7 +637,7 @@
       h += '<div class="paper-link-wrap"><a href="' + esc(linkInfo.href) + '" target="_blank" rel="noopener" class="paper-osf-link" title="' + esc(linkInfo.title) + '">' + linkInfo.label + '</a></div>';
     }
 
-    if (p.published && p.published !== 'false' && p.published !== false && p.published !== 'None') {
+    if (p.published && p.published !== 'false' && p.published !== false) {
       h += '<div class="paper-published-text">\u2714 Peer reviewed: ' + linkifyText(p.published) + '</div>';
     }
 
@@ -682,7 +681,7 @@
         var dataCat = labelToId[c] || 'other';
         h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
       });
-      if (p.published && p.published !== 'false' && p.published !== false && p.published !== 'None') h += '<span class="badge-published">PR</span>';
+      if (p.published) h += '<span class="badge-published">PR</span>';
       h += '</div>';
     }
 
@@ -698,7 +697,7 @@
     if (p.relevant_for) {
       h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text md-content">' + renderMd(p.relevant_for) + '</div></div>';
     }
-    if (p.published && p.published !== 'false' && p.published !== false && p.published !== 'None') {
+    if (p.published && p.published !== 'false' && p.published !== false) {
       h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + linkifyText(p.published) + '</div></div>';
     }
 
