@@ -64,3 +64,14 @@
 - x7645_v2 | 1 | From Neural Decoding to Neural Symbols — Theoretical neuroscience, no clinical angle
 - rb8wn_v2 | 1 | Strategy Over Source: AI Disclosure and Counterspeech — AI/social media, not clinical psychology
 - kaqgf_v5 | 1 | Frequency-dependent selection in English spelling — Linguistics/orthography history, no clinical relevance
+- dvhm3_v1 | 4 | Eye-Movement Predictors of Reading Comprehension: A Meta-Analysis — Not clinical; reading comprehension and eye movement research
+- rzyqs_v2 | 3 | Conversing with a disagreeing LLM improves people's inaccurate predictions — Not clinical; AI/LLM and prediction accuracy
+- vush6_v1 | 3 | NOVITAS: A stimulus database with new tasks and metrics for assessing novelty detection — Not clinical; cognitive psychology stimulus database
+- r9b3y_v2 | 2 | Comparing Compensatory and Noncompensatory MIRT Models Using Large-Scale Item Response Data — Not clinically relevant; pure psychometric methodology
+- 23p68_v1 | 2 | Through Their Eyes: Neural and Behavioral Evidence for Enhanced Immersion via Point-of-View Editing — Not clinical; film editing and neuroscience
+- bfsgr_v1 | 2 | Neural Racing Accumulator Model Estimation With Lightweight Monotonic Flows — Not clinical; computational modeling of decision-making
+- g8peq_v1 | 2 | Prediction-Based False Memories Are Resistant to Violation Magnitude and Temporal Decay — Not clinical; cognitive memory research
+- bt3wg_v5 | 1 | Supervision, Category Structure, and Selective Attention in Category Learning: A Comparative Approach — Not clinical; comparative cognition (humans vs pigeons)
+- 69rjq_v1 | 1 | Intonation processing in low-quality synthesised speech: effects of sentence type, word order, and music training — Not clinical; speech perception and music training
+- 7szrn_v1 | 1 | Conversational AI shifts beliefs and policy support among skeptics across contested societal issues — Not clinical; AI and political beliefs
+- zxbtc_v3 | 1 | Beyond Individualism: Interdependent Motives Underlying Internal Attributions of Others — Not clinical; social psychology attribution research
