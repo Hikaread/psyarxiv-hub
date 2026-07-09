@@ -194,13 +194,14 @@
       var s = JSON.parse(localStorage.getItem('psyarxiv-settings'));
       if (s) return s;
     } catch(e) {}
-    return { theme: 'light', fontSize: 'medium', dyslexic: 'off', pageSize: '25' };
+    return { theme: 'light', font: 'rubik', fontSize: 'medium', dyslexic: 'off', pageSize: '25' };
   }
   function saveSettings() {
     try { localStorage.setItem('psyarxiv-settings', JSON.stringify(settings)); } catch(e) {}
   }
   function applySettings(s) {
     document.documentElement.setAttribute('data-theme', s.theme);
+    document.documentElement.setAttribute('data-font', s.font);
     document.documentElement.setAttribute('data-fontsize', s.fontSize);
     document.documentElement.setAttribute('data-dyslexic', s.dyslexic);
     PAGE_SIZE = parseInt(s.pageSize, 10) || 25;
