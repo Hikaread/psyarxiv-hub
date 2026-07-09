@@ -110,10 +110,8 @@
   word-spacing: 0.03em;
   line-height: 1.55 !important;
 }
-[data-dyslexic="on"][data-fontsize="small"] { font-size: 13px; }
-[data-dyslexic="on"][data-fontsize="medium"] { font-size: 14px; }
-[data-dyslexic="on"][data-fontsize="large"] { font-size: 16px; }
-[data-dyslexic="on"][data-fontsize="xlarge"] { font-size: 18px; }
+/* Dyslexic uses the same [data-fontsize] values as normal — OpenDyslexic's
+   wider letterforms make it appear proportionally larger at equal px. */
 
 /* ===== RESET ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
