@@ -291,11 +291,15 @@
     .then(function(r) { return r.json(); })
     .then(function(data) {
       papers = data;
+      papers.forEach(function(p) {
+        if (p.categories && !Array.isArray(p.categories)) p.categories = [p.categories];
+      });
       buildCategoryFilters();
       applyStateFromHash();
       applyFilters();
     })
-    .catch(function() {
+    .catch(function(err) {
+      console.error('PsyHub init error:', err);
       document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">Failed to load paper data.</p>';
     });
 
