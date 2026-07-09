@@ -14,4 +14,27 @@
 - 6b4ej_v1 | 2 | Thinking through metaphor in a second language: science learning of L2 students — Education research, not clinical
 - 8uq75_v2 | 1 | Deviations in Distributions Perception through Imprecision and Abstract Representations — Perceptual cognition, not clinical
 - df7be_v2 | 1 | People make history-dependent decisions in Markovian environments — Decision-making research, not clinical
-- 8uk67_v1 | 1 | The Effect of Psychological Distance on Level of Construal: CLIMR Failed Replication — Failed replication of basic social psychology, not clinical
+- 8uk67_v1 | 1 | The Effect of Psychological Distance on Level of Construal: CLIMR Failed Replication — Failed replication of basic social psychology, not clinical- qcm7n_v1 | 10 | The role of interoceptive body trusting in the link between trauma, resilience, mental health and somatic symptoms in children — Excluded: child/adolescent focus per curation criteria
+- mdgh7_v1 | 5 | Handling of reputation-damaging information in adolescents and young adults with autism — Excluded: adolescent/young adult sample per curation criteria
+- b8s2y_v1 | 7 | Emerging Stressors and Adolescent Depression and Anxiety — Excluded: adolescent focus per curation criteria
+- 67jg8_v1 | 4 | Gendered Perceptions of the Homeless — Not clinical psychology; social perception research on homelessness stereotypes
+- 23w84_v1 | 4 | Introducing the One-Shot Download Task: Testing the validity of a new measure of online pro-environmental behaviour — Not clinical; environmental psychology behavioral measure
+- stgkn_v2 | 3 | Understanding variability in newborns' NIRS data — Excluded: infant/neonatal sample; neuroimaging
+- rmuta_v2 | 3 | Uptake and adherence to prophylactic antibiotics during meningitis outbreaks — Not clinical psychology; infectious disease public health
+- f4qv8_v3 | 3 | Willful Ignorance in the Context of Antibiotic Prescribing — Not clinical psychology; medical decision-making
+- p3y7m_v1 | 3 | Using Generative AI to Foster Student Sense of Belonging in Mathematics — Not clinical psychology; educational technology
+- 9pequ_v2 | 2 | Towards an Active Inference Personality Framework — Purely theoretical personality model; no direct clinical application
+- m68gk_v2 | 2 | Kia Timata Pai Video Project: oral language intervention for toddlers — Excluded: toddler/early childhood focus
+- ce68p_v1 | 2 | Putting Attentional Control to a Normative Test — Basic cognitive psychology; no clinical population
+- ex9rk_v1 | 2 | Racial-Ethnic and Gender Inequities in School SEND Responses — Paper marked for withdrawal (error in PDF)
+- e54d8_v1 | 2 | Racial-Ethnic and Gender Inequities in School SEND — Paper marked for withdrawal (error in PDF)
+- 8f5gu_v1 | 2 | Integrating Social Determinants in Brain Health Research — Neuroimaging framework; no clinical therapy/assessment focus
+- csp5y_v4 | 1 | Partial Automation and Cognitive Load on Drivers' Visual Search — Not clinical psychology; driving/automation research
+- hfb2v_v2 | 1 | Partial Invariance Model in MGCFA — Purely methodological; no clinical data or application
+- qzcea_v1 | 1 | Verification strategies of quantifiers using Bayesian cognitive modeling — Basic cognitive science; linguistic quantifiers
+- gr67n_v1 | 1 | Measuring Group-Level Social Preferences — Basic social psychology; parochialism in economic games
+- hd6je_v3 | 1 | Inter-individual similarities in internal models predict scene perception — Basic vision/perception; no clinical relevance
+- a4vdb_v1 | 1 | Semantic Interference in Blocked-Cyclic Word Production — Basic cognitive/psycholinguistic; word production
+- kqpdu_v1 | 1 | Social Learning Undermines Performance — Basic decision-making; not clinical
+- 4b8gy_v2 | 1 | Directed Recognizability in AI-Biographical Conversational Agents — Not clinical; AI/digital afterlife design
+- a28kw_v1 | 1 | Seeing the Self in Memory: Visual Perspective and the Remembered Self — Theoretical/memory research; no clinical application
