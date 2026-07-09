@@ -692,6 +692,9 @@
     if (p.clinical_insight) {
       h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text md-content">' + renderMd(p.clinical_insight) + '</div></div>';
     }
+    if (p.methodology_note) {
+      h += '<div class="modal-section"><div class="modal-section-label">Methodology Note</div><div class="modal-section-text md-content">' + renderMd(p.methodology_note) + '</div></div>';
+    }
     if (p.relevant_for) {
       h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text md-content">' + renderMd(p.relevant_for) + '</div></div>';
     }
@@ -903,14 +906,26 @@
     html = html.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
     // 5. Italic *text*
     html = html.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
+    // 5b. Underline __text__ (Discord-style)
+    html = html.replace(/__(.+?)__/g, '<u>$1</u>');
     // 6. Bullet lists: lines starting with - 
     html = html.replace(/(?:^|<br>)\s*[-*]\s+([^<]*(?:<[^>]*>[^<]*)*)/gm, function(m, item) {
       return '<li>' + item.trim() + '</li>';
     });
     // Wrap consecutive <li> in <ul>
     html = html.replace(/((?:<li>[\s\S]*?<\/li>\s*)+)/g, '<ul>$1</ul>');
-    // 7. Newlines to <br> (but not inside <ul>)
+    // 6b. Protect <ul> blocks from newline-to-br conversion
+    var ulBlocks = [];
+    html = html.replace(/(<ul>[\s\S]*?<\/ul>)/g, function(m) {
+      ulBlocks.push(m);
+      return '%%UL' + (ulBlocks.length - 1) + '%%';
+    });
+    // 7. Newlines to <br> (safe now — <ul> blocks are protected)
     html = html.replace(/\n/g, '<br>');
+    // 7b. Restore <ul> blocks
+    for (var u = 0; u < ulBlocks.length; u++) {
+      html = html.replace('%%UL' + u + '%%', ulBlocks[u]);
+    }
     // 8. Restore math placeholders with KaTeX spans
     for (var i = 0; i < displayMaths.length; i++) {
       html = html.replace('%%DM' + i + '%%', '<span class="katex-display" data-math="' + esc(displayMaths[i]) + '"></span>');
@@ -919,7 +934,7 @@
       html = html.replace('%%IM' + j + '%%', '<span class="katex-inline" data-math="' + esc(inlineMaths[j]) + '"></span>');
     }
     // 9. Sanitize: strip any tags not in whitelist
-    var whitelist = ['b','i','em','strong','br','ul','ol','li','p','span','sub','sup'];
+    var whitelist = ['b','i','em','strong','br','ul','ol','li','p','span','sub','sup','u'];
     html = html.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, function(tag, name) {
       name = name.toLowerCase();
       // Allow katex spans

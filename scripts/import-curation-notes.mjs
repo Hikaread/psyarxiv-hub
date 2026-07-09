@@ -77,6 +77,7 @@ function buildPaperRecord(parsed) {
     categories: normalizeCategories(metadata.categories),
     summary: sections.summary,
     clinical_insight: sections['clinical insight'],
+    methodology_note: sections['methodology note'] || null,
     relevant_for: sections['relevant for'],
     published: (metadata.published && metadata.published !== 'false' && metadata.published !== false) ? metadata.published : null,
     link: `https://osf.io/preprints/psyarxiv/${metadata.osf_id}`

@@ -846,9 +846,19 @@ a:hover { color: var(--accent-hover); }
 .modal-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 6px; padding-right: 36px; }
 .modal-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 14px; }
 .modal-meta .author-name { color: var(--text-secondary); font-weight: 500; }
-.modal-section { margin-bottom: 12px; }
+.modal-section { margin-bottom: 12px; position: relative; }
+.modal-section:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  right: 5%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--accent), transparent);
+  opacity: 0.25;
+}
 .modal-section-label {
-  font-size: 0.7rem;
+  font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1116,6 +1126,12 @@ a:hover { color: var(--accent-hover); }
 .md-content em, .md-content i {
   font-style: italic;
   color: var(--text-secondary);
+}
+.md-content u {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--text-muted);
+  font-weight: 600;
 }
 .md-content ul {
   margin: 6px 0;
