@@ -908,7 +908,7 @@
     // 5b. Underline __text__ (Discord-style)
     html = html.replace(/__(.+?)__/g, '<u>$1</u>');
     // 6. Bullet lists: lines starting with - 
-    html = html.replace(/(?:^|<br>)\s*[-*]\s+([^<]*(?:<[^>]*>[^<]*)*)/gm, function(m, item) {
+    html = html.replace(/(?:^|\n)\s*[-*]\s+([^\n]*(?:<[^>]*>[^\n]*)*)/gm, function(m, item) {
       return '<li>' + item.trim() + '</li>';
     });
     // Wrap consecutive <li> in <ul>
