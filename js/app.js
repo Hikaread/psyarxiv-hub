@@ -688,11 +688,11 @@
     if (p.summary) {
       h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text md-content">' + renderMd(p.summary) + '</div></div>';
     }
-    if (p.clinical_insight) {
-      h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text md-content">' + renderMd(p.clinical_insight) + '</div></div>';
-    }
     if (p.methodology_note) {
       h += '<div class="modal-section"><div class="modal-section-label">Methodology Note</div><div class="modal-section-text md-content">' + renderMd(p.methodology_note) + '</div></div>';
+    }
+    if (p.clinical_insight) {
+      h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text md-content">' + renderMd(p.clinical_insight) + '</div></div>';
     }
     if (p.relevant_for) {
       h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text md-content">' + renderMd(p.relevant_for) + '</div></div>';
