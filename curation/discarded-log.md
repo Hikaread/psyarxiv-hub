@@ -38,3 +38,11 @@
 - kqpdu_v1 | 1 | Social Learning Undermines Performance — Basic decision-making; not clinical
 - 4b8gy_v2 | 1 | Directed Recognizability in AI-Biographical Conversational Agents — Not clinical; AI/digital afterlife design
 - a28kw_v1 | 1 | Seeing the Self in Memory: Visual Perspective and the Remembered Self — Theoretical/memory research; no clinical application
+- fd3cr_v4 | 6 | Performance and biases of the LENA® and ACLEW algorithms in analyzing language environments in Down, Fragile X, Angelman — Excluded: child/pediatric developmental populations per curation criteria
+- k5yu4_v1 | 3 | Exploring the Influence of Bilingual Language Experience on Inhibitory Control — Not clinical; basic cognitive psychology on bilingualism
+- ntks8_v1 | 3 | Effects of a part-flipped classroom on student satisfaction and academic skills — Not clinical; pedagogy research
+- h6rxk_v1 | 3 | Create in Me a Pure Heart: Yearning for Inner Alignment with God — Not clinical psychology; theology/spirituality
+- nr8d9_v1 | 1 | Spatial proximity differentially modulates goal-directed action and inhibition — Not clinical; basic cognitive neuroscience
+- sefv5_v2 | 1 | Metacognitive Accuracy of Misinformation Discernment — Not clinical; cognitive/political psychology
+- z48x7_v3 | 1 | Analog Cognition and Consciousness — Not clinical; theoretical neuroscience/philosophy
+- nvjxg_v1 | 1 | Cue-guided attention modulates neural responses to distracting features — Not clinical; basic cognitive neuroscience
