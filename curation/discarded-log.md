@@ -46,3 +46,21 @@
 - sefv5_v2 | 1 | Metacognitive Accuracy of Misinformation Discernment — Not clinical; cognitive/political psychology
 - z48x7_v3 | 1 | Analog Cognition and Consciousness — Not clinical; theoretical neuroscience/philosophy
 - nvjxg_v1 | 1 | Cue-guided attention modulates neural responses to distracting features — Not clinical; basic cognitive neuroscience
+- 5p28m_v2 | 3 | American Knowledge Workers Experience Less Racial Discrimination and Greater Well-being When Working Remotely Than In Person — organizational/workplace well-being, not clinical
+- x68dq_v3 | 2 | Social Origins of the Self: Mutual Gaze at 12 Months — infant developmental study, not clinical
+- 9b62q_v1 | 2 | (Not) Replicating the effects of iconicity in lexical decision task — psycholinguistics, not clinical
+- 8p4jn_v2 | 2 | The Exo-Cognition Framework: Human-AI Collaboration — AI/framework paper, not clinical
+- auvts_v3 | 1 | Affective Reactivity to Social Media Use in Young Adolescents — adolescent sample excluded
+- x7645_v2 | 1 | From Neural Decoding to Neural Symbols — neurotechnology/BCI, not clinical
+- rb8wn_v2 | 1 | Strategy Over Source: AI Disclosure and Counterspeech — social psychology of AI, not clinical
+- kaqgf_v5 | 1 | Frequency-dependent selection in English spelling — historical linguistics, not clinical
+- 9u8kw_v1 | 1 | EEG negative memories neural recapitulation — pure neuroimaging, no clinical implications
+- e9rz8_v1 | 4 | Zola Bongo: Offline Tablet-Based Cognitive Testing — developmental/cognitive tool, not clinical assessment
+- kfcd2_v3 | 0 | At What Sample Size Do Correlations Stabilise — statistical theory, not clinical
+- x68dq_v3 | 2 | Social Origins of the Self: Mutual Gaze at 12 Months Predicts Self-Recognition — Developmental infant study, not clinically relevant
+- 9b62q_v1 | 2 | (Not) Replicating the effects of iconicity in lexical decision task — Psycholinguistics, no clinical relevance
+- 8p4jn_v2 | 2 | The Exo-Cognition Framework: Human-AI Collaboration — AI/tech framework, not clinical psychology
+- auvts_v3 | 1 | Affective Reactivity to Social Media, Young Adolescents' Depression — Excluded: child/adolescent focus per curation criteria
+- x7645_v2 | 1 | From Neural Decoding to Neural Symbols — Theoretical neuroscience, no clinical angle
+- rb8wn_v2 | 1 | Strategy Over Source: AI Disclosure and Counterspeech — AI/social media, not clinical psychology
+- kaqgf_v5 | 1 | Frequency-dependent selection in English spelling — Linguistics/orthography history, no clinical relevance

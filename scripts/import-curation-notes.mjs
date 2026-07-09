@@ -31,7 +31,7 @@ function parseFrontmatter(content) {
 }
 
 function parseSections(body) {
-  const sectionPattern = /^##\s+(.+)\r?\n([\s\S]*?)(?=^##\s+|\Z)/gm;
+  const sectionPattern = /^##\s+(.+)\r?\n([\s\S]*?)(?=^##\s+|$(?!\n))/gm;
   const sections = {};
   let match;
 
