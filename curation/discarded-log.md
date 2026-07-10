@@ -93,3 +93,11 @@
 - qke8h_v1 | 1 | Frustrative nonreward engages midfrontal theta power and modulates effort expenditure — basic neurocognitive, excluded
 - 74p59_v3 | 1 | Between Law and Conscience: Act Legality Shapes Moral Evaluation — moral psychology, excluded
 - 2ybp8_v1 | 1 | HiLex: A quick test to measure lexical proficiency in Hindi — linguistics, excluded
+- 7cqvx_v1 | 5 | Running in Tight Spaces: A Large-scale Assessment of Physical and Psychological Safety Risks in Freely Moving Virtual Reality — Not clinical psychology; VR safety assessment study
+- 9yftw_v1 | 3 | Applying Psychometric and Bayesian Methods for Cross-cultural Research on Psychological Factors Predicting Health-related Behavior — Too tangential to clinical practice; COVID-19 compliance methodology
+- 4d7c8_v3 | 2 | Confidence-driven information seeking is suboptimal in the context of fake news — Not clinical psychology; perceptual decision-making research
+- 24bev_v1 | 2 | Roman Personality — Not clinical psychology; historical linguistics analysis of personality descriptors
+- qs36u_v1 | 2 | The impact of online hate speech and rage bait on social media fatigue in Greece — Weak clinical relevance; general population media psychology
+- bvfy7_v1 | 1 | Mapping Psychology Students' Conversations with an LLM-Powered Statistics Chatbot — Not clinical psychology; educational technology
+- 8yuz7_v2 | 1 | Researchers' attitudes, intention, and practices towards Open Science: Data from China and Nigeria — Not clinical psychology; research methodology survey
+- np2vd_v2 | 1 | Control Dilemmas Exist on Different Levels of Information Processing — Not clinical psychology; basic cognitive science
