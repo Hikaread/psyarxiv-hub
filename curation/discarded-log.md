@@ -101,3 +101,12 @@
 - bvfy7_v1 | 1 | Mapping Psychology Students' Conversations with an LLM-Powered Statistics Chatbot — Not clinical psychology; educational technology
 - 8yuz7_v2 | 1 | Researchers' attitudes, intention, and practices towards Open Science: Data from China and Nigeria — Not clinical psychology; research methodology survey
 - np2vd_v2 | 1 | Control Dilemmas Exist on Different Levels of Information Processing — Not clinical psychology; basic cognitive science
+- tckb9_v2 | 3 | Measuring Artificial Intelligence Literacy: A Systematic Review of Instrument Development — Not clinical psychology; education/technology measurement
+- kstrm_v1 | 3 | Parent narratives reveal how families adapt amid economic hardship — Developmental/family focus; not clinical therapy
+- ptdkr_v3 | 2 | Coupling between statistical learning and interference suppression — Basic cognitive science; not clinical
+- cb3m2_v3 | 2 | Principles Over Party: Confronting Republicans with contradictions — Political psychology; not clinical
+- vga2d_v2 | 2 | Eye Movement and Orientation Behaviour during Natural Triadic Conversations — Basic communication science; not clinical
+- z6m2k_v1 | 1 | A Neural Network Model of Retrieval Difficulty in Chinese Handwriting — Basic cognitive science; not clinical
+- 8zwx2_v2 | 1 | A Prior-Odds Adjustment for the Probability of Direction in Multiple Testing — Statistical methodology; not directly clinical
+- ghrdt_v3 | 1 | ManyBabies 3: A Multi-Lab Study of Infant Algebraic Rule Learning — Infant/child research; hard excluded
+- kbm4t_v1 | 1 | Is it test-taking effort, will, motivation, engagement or something else? — Theoretical psychometrics; not directly clinical
