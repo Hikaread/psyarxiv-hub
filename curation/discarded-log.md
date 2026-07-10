@@ -75,3 +75,21 @@
 - 69rjq_v1 | 1 | Intonation processing in low-quality synthesised speech: effects of sentence type, word order, and music training — Not clinical; speech perception and music training
 - 7szrn_v1 | 1 | Conversational AI shifts beliefs and policy support among skeptics across contested societal issues — Not clinical; AI and political beliefs
 - zxbtc_v3 | 1 | Beyond Individualism: Interdependent Motives Underlying Internal Attributions of Others — Not clinical; social psychology attribution research
+- wrmne_v1 | 11 | For Whom Do School-Based Mindfulness Programs Work? The Role of Personality in Adolescent Intervention Outcomes — adolescent/school-based, excluded
+- qm9uy_v1 | 8 | Effects of Youth First on Student and Teacher Well-Being and Education Outcomes — school-based youth programme, excluded
+- tnf5d_v1 | 6 | Beyond Universality: Do All Adolescent Minds Benefit from Mindfulness? — adolescent mindfulness, excluded
+- egn8h_v4 | 4 | Self-Promotive Interdependence: Cultural Models of Success in Sub-Saharan Africa and Beyond — social/cultural psychology, no direct clinical relevance
+- 3qdr4_v1 | 4 | Racial-Ethnic and Gender Inequities in School Absences, Exclusions and SEND Responses to Mental Health Need — children/school-based, excluded
+- tby29_v1 | 3 | Youth Irritability in Context: Real-Time Within-Person Associations with Inhibitory Control — youth/children, excluded
+- swb82_v1 | 3 | Beyond Labels: Data-Derived Profiles Better Describe Children and Young People's Needs in Education — children/schools, excluded
+- kz8mt_v3 | 3 | Thermal pain tolerance depends on stimulus duration and thermode type — pain psychophysics, no clear clinical therapy relevance
+- hq8uy_v1 | 3 | Learning evolution at home: E-books promote evolutionary understanding for elementary school students — education/children, excluded
+- jnbfe_v2 | 2 | Defining Developmental Language Disorder and Dyslexia in Schools — schools/children/language disorders, excluded
+- zr59h_v3 | 2 | When Takeovers Require Cognitive Control: Effects of Partial Automation and Cognitive Load on Driver-Initiated Responses — driving research, excluded
+- t6dru_v3 | 1 | Newborns' neural tuning to the native language is revealed by infant-directed speech — infant neuroscience, excluded
+- 9msby_v2 | 1 | The Dual Nature of Syntactic Node Count: Facilitating and Inhibiting Sentence Comprehension — neurolinguistics, excluded
+- tj3aw_v2 | 1 | People Using a Foreign Language Think and Decide Worse, Not Better — cognitive/linguistic, excluded
+- hdjp3_v1 | 1 | Multimodal Dynamics in Learning and Explaining Abstract and Concrete Concepts — cognitive/education, excluded
+- qke8h_v1 | 1 | Frustrative nonreward engages midfrontal theta power and modulates effort expenditure — basic neurocognitive, excluded
+- 74p59_v3 | 1 | Between Law and Conscience: Act Legality Shapes Moral Evaluation — moral psychology, excluded
+- 2ybp8_v1 | 1 | HiLex: A quick test to measure lexical proficiency in Hindi — linguistics, excluded
