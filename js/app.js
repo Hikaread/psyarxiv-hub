@@ -346,7 +346,7 @@
       var catIds = (p.categories || []).map(function(c) { return labelToId[c] || 'other'; });
       if (!catIds.some(function(id) { return activeCats[id]; })) return false;
       if (q) {
-        var haystack = [p.title, p.authors, p.summary, p.clinical_insight, p.relevant_for].join(' ').toLowerCase();
+        var haystack = [p.title, p.authors, p.summary, p.clinical_insight, p.methodology_note, p.relevant_for].join(' ').toLowerCase();
         if (haystack.indexOf(q) === -1) return false;
       }
       return true;
