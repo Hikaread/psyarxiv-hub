@@ -110,3 +110,11 @@
 - 8zwx2_v2 | 1 | A Prior-Odds Adjustment for the Probability of Direction in Multiple Testing — Statistical methodology; not directly clinical
 - ghrdt_v3 | 1 | ManyBabies 3: A Multi-Lab Study of Infant Algebraic Rule Learning — Infant/child research; hard excluded
 - kbm4t_v1 | 1 | Is it test-taking effort, will, motivation, engagement or something else? — Theoretical psychometrics; not directly clinical
+- ae7n2_v1 | 6 | Repurposing Routine Data for the Early Detection of Need: The Electronic Developmental Support Passport — Child/adolescent SEND focus; excluded per curation criteria
+- 2a3y6_v3 | 4 | Etic and Emic Models of Musical Preference in Brazil — Not clinical psychology; music psychology
+- 8xm2u_v2 | 2 | Understanding Polarization via the Relationship between Political Attitudes and Partisan Strength — Political psychology; not clinical
+- zg3ru_v1 | 2 | Affective Responses to Winning and Losing in Adolescent Physical Education — Adolescent/child + not clinical therapy
+- e97vd_v1 | 2 | Development and Validation of Team Functional Degrees of Freedom — Sports performance; not clinical psychology
+- nru4q_v1 | 2 | Reciprocal Relations Between Motivational Factors and Error Reactions — Primary school children; excluded
+- czqjw_v1 | 1 | Spatial-Numerical Associations Survive Spatial Frequency Equalization — Basic cognitive science; not clinical
+- 9rq82_v1 | 1 | Perceived Error Climate in the Classroom as an Important Aspect of Student Support — Educational psychology; not clinical
