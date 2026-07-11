@@ -180,3 +180,69 @@
 - s2xdp_v1 | 1 | Investigating Language and Cognition in Virtual Reality — Cognitive science methodology; VR as research tool
 - 2wr3c_v2 | 1 | Supporting Self-Regulated Learning through Performance Profile Feedback: An Experimental and Survey Study in Online Psyc — Educational psychology; online learning
 - p87rq_v2 | 1 | Aha-Related Surprise Tracks Violated Expectations at Multiple Levels in Perceptual Insight — Cognitive neuroscience; insight problem solving
+
+## 2026-07-11 (Pipeline run)
+
+- **esdfr_v1** — The Neuroscience and Psychology of the Alien Abduction Phenomenon. Hard-excluded: not clinical psychology.
+
+- **65snw_v1** — A Multidisciplinary Perspective on Research Participation in Post-Amyloid Disclosure. Discarded: Alzheimer's disease research participation, not clinical psychology.
+
+- **pgu2a_v1** — Development and Validation of CHISSEL. Discarded: child sample (middle schoolers), education-focused SEL measure, no clinical population.
+
+- **rc9bn_v3** — What It Means to Be Heard: Listening and Power in Israeli Communication Contexts. Discarded: communication studies, not clinical.
+
+- **ty5zj_v1** — Distracted and Misled Yet Capable of Transfer. Discarded: child development (2.5-5.5 year olds), basic cognitive research on analogical transfer.
+
+- **8uvta_v1** — Sleep-wake Timing in Adolescent Sleep Health. Discarded: somatic/medical focus on circadian rhythms, limited direct clinical psychology application.
+
+- **8uvnj_v1** — Happier but Not More Reasonable: Acute Physical Exercise and Decision-Making. Discarded: basic cognitive psychology, exercise and framing effect in financial decisions.
+
+- **yaqmz_v1** — Retinotopic Mapping of Cortical Plasticity in AMD. Discarded: pure neuroscience (visual cortex mapping), no clinical psychology component.
+
+- **mwt5r_v3** — Faculty Evaluations of DEI Statements for Academic Hiring. Discarded: higher education research, not clinical psychology.
+
+- **62pfj_v1** — Does Alienation Contaminate Engineering Student Surveys. Discarded: engineering education, psychometrics methodology paper, not clinical.
+
+- **dvx2y_v1** — Examining the Causal Role of Environmental Self-Identity. Discarded: environmental psychology, mediation analysis methodology.
+
+- **ajpzm_v1** — Childcare Quality and Developmental Outcomes. Discarded: child development, non-clinical, focuses on childcare quality rather than mental health treatment.
+
+- **7rw2z_v4** — Associative Memory Constraints on Action-Effect Relations. Discarded: basic cognitive psychology, motor learning research.
+
+- **e9p47_v2** — Shared and Diverse Impressions of Portrait Paintings. Discarded: aesthetic psychology, portrait perception study.
+
+- **jhe2f_v1** — Listeners' Expressions of Engagement Shape Speakers' Emotions. Discarded: social cognition research on conversation dynamics, not clinical.
+
+- **mfuqh_v1** — Enhancing Intellectual Humility about Political Topics. Discarded: political psychology, not clinical.
+
+- **wpt5b_v2** — Mapping Neural Dynamics of Learning Social Preferences. Discarded: social neuroscience, neural decoding of decision timing.
+
+- **u7ghk_v1** — The Impact of Acuity Loss on Medical Data Visualisation. Discarded: applied perception and medical informatics, not clinical psychology.
+
+- **3b6ck_v2** — Sharing the Same Path: PhD Candidates' Work Engagement. Discarded: academic psychology, doctoral supervision relationships.
+
+- **7hrqb_v1** — Norms of Disgust Expressions Across 10 Countries. Discarded: basic emotion research, cross-cultural disgust norms.
+
+- **vjrkc_v1** — Evolutionary Theory Makes Predictions About Cognition. Discarded: theoretical/evolutionary psychology, no clinical component.
+
+- **ywxhp_v1** — The Influence of Musical Training in L2 Tonal Words Learning. Discarded: psycholinguistics, language acquisition research.
+
+- **uwhgf_v1** — Evaluations of Social Media Use in Daily Life and Well-Being. Discarded: general population social media research, limited clinical specificity.
+
+- **gt37v_v1** — The Influence of Placeholders and Target Stimuli Shape. Discarded: basic attention research, visuospatial attention methodology.
+
+- **mp79t_v1** — Using Large Language Models to Detect Values in Political Speech. Discarded: AI/NLP methodology applied to political science, not clinical.
+
+- **d58n4_v2** — Explaining Forgetting at Different Timescales. Discarded: basic memory research, mathematical modeling of forgetting.
+
+- **9wsxa_v1** — Diverse Mechanisms of Adaptive Variability in Human Behavior. Discarded: basic cognitive psychology, computational modeling of behavioral variability.
+
+- **h5nmz_v1** — From Blaming to Explaining: Crime as a Core Challenge. Discarded: forensic/criminal psychology theory, not clinical practice.
+
+- **w4dt8_v1** — Behavior Skills Training to Teach Parent Implemented Preference Assessments. Discarded: single-case ABA study (n=1), very narrow scope, limited generalizability.
+
+- **5bmf6_v1** — The Impact of Social Perception on Message Perception. Discarded: social cognition, language processing research.
+
+- **32g4x_v1** — The Effects of Counterattitudinal Information on Evaluations. Discarded: basic social psychology, attitude change replication.
+
+- **wjqr3_v3** — Signaling Good Practice: Trust in Political Science. Discarded: political science research communication, not clinical psychology.

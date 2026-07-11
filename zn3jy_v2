@@ -1,0 +1,1061 @@
+DEPRESSOMETER METHOD
+The Depressometer Project: A Multimodal
+Longitudinal Dataset for Studying the
+Intrapersonal and Interpersonal Mechanisms of
+Change in Psychotherapy for Depression
+Method Section
+Dan Sayda1, Omer Goren1, Ido Yehezkel1, Eva Gilboa-Schechtman1, Dana Atzil-Slonim1
+1 Department of Psychology, Bar-Ilan University
+Author Note
+Dan Sayda https://orcid.org/0000-0003-2665-7898
+Dana Atzil-Slonim https://orcid.org/0000-0001-6958-1200
+We have no known conflict of interest to disclose.
+Correspondence concerning this project should be addressed to Dan Sayda, Bar-Ilan
+University, Israel. Email: dansayda97@gmail.com
+1
+
+DEPRESSOMETER METHOD
+Table of contents
+Method ...................................................................................................................................... 3
+Participants ........................................................................................................................... 4
+Procedure .............................................................................................................................. 5
+Treatment Clinical Change Indices ..................................................................................... 6
+Transcriptions ....................................................................................................................... 7
+Measures ............................................................................................................................... 8
+Pre, post and follow-up treatment semi-structured interview and self-report
+questionnaires: .................................................................................................................. 8
+Pre and post session self-report questionnaires: ............................................................ 11
+Coding systems and projects: ............................................................................................. 15
+Multimodal Interpersonal and Intrapersonal Dynamics (MIND; Atzil-Slonim, 2025). .. 15
+LLM interventions versus human therapist interventions. ........................................... 20
+Coding Interactive Behavioral Manual (CIB; Feldman, 1998). .................................... 21
+Codings of client emotional arousal scale-III (CEAS-III; Warwar & Greenberg, 1999)
+and Psychotherapy Interactional Coding system (PIC; McCullough, L., 1988), ........ 22
+Physiological, hormonal and behavioral measures .......................................................... 26
+Hormonal system measure: ............................................................................................. 27
+Behavioral measures ....................................................................................................... 27
+References .............................................................................................................................. 29
+2
+
+DEPRESSOMETER METHOD
+Method
+The data of the "Depressometer" project were collected between October 2018 to
+February 2021 from 58 patients diagnosed with MDD and 13 therapists during a 16-
+session supportive-expressive psychodynamic psychotherapy for depression. The
+present document provides a detailed description of the project’s methodology,
+including participants, treatment, measures, assessment procedures, and available data
+sources.
+The main goal of the project was to investigate the interpersonal and intrapersonal
+mechanisms underlying change in psychotherapy for Major Depressive Disorder
+(MDD), using multimodal, intensive longitudinal psychotherapy dataset. The project
+was designed to examine how clients’ and therapists’ emotional, cognitive, behavioral,
+physiological, and relational processes unfold within and across sessions, and how
+these processes are associated with proximal and distal therapeutic change. The project
+includes repeated assessments from both clients and therapists across multiple temporal
+resolutions ranging from treatment-level, session-level and follow-up self-reports and
+clinician assessments, to fine-grained, within-session linguistic, vocal, facial,
+movement, physiological, and hormonal measures collected during sessions. In
+addition, a subsample of sessions was manually coded for patients’ changing affective,
+behavioral and cognitive experiences, for therapists’ interventions as well as clinicians’
+summaries of the sessions. These human annotations were designed to support LLM-
+based large-scale further analyses of the full dataset, with the goal of examining
+patterns, dynamics and sequences that may facilitate (or hinder) treatment processes
+and outcomes. The project was conducted in the Psychotherapy Research Lab at the
+Department of Psychology, Bar-Ilan University, Israel. The research was approved by
+the Institutional Review Board.
+3
+
+DEPRESSOMETER METHOD
+Participants
+Clients: The sample comprised 64 clients diagnosed with Major Depressive Disorder
+(MDD). Inclusion criteria were: (a) a primary diagnosis of MDD as indicated by the
+Mini-International Neuropsychiatric Interview version 5.0 (MINI; Sheehan et al.,
+1998); (b) either a score of 14 or more on the 17-item clinician-administered semi-
+structured interview version of the Hamilton Rating Scale for Depression (HRSD;
+Hamilton, 1960; Williams, 1988), or a score of 17 or more on the Beck Depression
+Inventory-II (BDI-II; Beck, Steer & Brown, 1996). Clients were over 18 years old and
+excluded if they presented active suicidality, psychosis, addictions, bipolar disorder,
+brain damage, or were currently pregnant and/or have heart problems. Totally, 64
+Subjects were assigned to a therapist, and the dyad began a 16-session course of
+treatment. Throughout the project, six clients withdrew from therapy before the 12th
+session and were considered dropouts and/or declined research use and were removed
+from sample, leaving a final cohort of 58 patients diagnosed with MDD (M=36.66
+years, SD=9.45, age range 21-61 years).
+Of the 58 patients, 53 (91.4%) scored 14 or higher on the HRSD at the intake, 45
+(77.6%) scored 17 or higher on the BDI-II at the intake, while all patients met at least
+one of these criteria. The majority were female (37 women and 21 men), 31 were
+married or in a committed relationship, 23 were single, and 4 divorced. Forty-one had
+at least a bachelor's degree, and 49 were either fully or partially employed. The majority
+were Israeli-born (42 patients); 12 in the Soviet Union, 1 in France, and 3 did not report
+their country of origin. Forty-four were native Hebrew speakers, 8 native Russian
+speakers, and 1 failed to complete this item. Also, given their clinical condition, 3
+clients chose to take psychiatric medication at some point throughout the treatment.
+4
+
+DEPRESSOMETER METHOD
+Treatment and therapists: Thirteen therapists (7 women and 6 men), whose average
+age was 32.2 years (range: 28-41; SD = 3.00), participated in this study and were
+advanced trainees in a university clinic with 3 to 7 years of experience. Eight therapists
+treated 1 to 4 patients each, and five therapists treated 6-9 patients each (Mean caseload
+= 4.46, SD = 2.26). The patients underwent brief (16-session) supportive-expressive
+(SE) psychodynamic psychotherapy (Luborsky & Mark, 1991; Luborsky, 1984)
+adapted to the treatment of depression (Luborsky et al., 1995), using supportive
+techniques such as affirmation and empathic validation, alongside expressive
+techniques such as interpretation and confrontation. SE therapy has been reported
+effective in the treatment of depression (Gibbons et al., 2012; 2016). The therapists
+were trained and supervised by senior clinicians with extensive SE expertise and
+received weekly individual and group supervision.
+Procedure
+Clients were recruited through advertisements published on social network
+platforms, offering short-term psychodynamic therapy for depression-related
+symptoms. Overall, 531 inquiries were made. A clinical assessment team consisting of
+MA level clinical trainees, who received group supervision from senior clinicians,
+assessed applicants for the study. 364 applicants went through brief telephone screening
+and completed the Beck Depression Inventory-II (BDI-II; Beck, Steer & Brown, 1996),
+as a preliminary filtering criterion. 128 subjects were invited to an intake interview, as
+there BDI-II score was 17 or above ("borderline clinical depression" or severe than that)
+and they did not presented any of the excluded criteria. During this intake meeting, the
+MINI and HAM-D clinical interviews were administered. Applicants who met the
+inclusion and exclusion criteria were invited to a second meeting, where they were
+requested to sign an informed consent form and were familiarized with the therapy.
+5
+
+DEPRESSOMETER METHOD
+All clients and therapists signed an informed consent form, indicating that they
+agreed to participate in the study. Clients received the treatment free of charge. All
+sessions were recorded using six high-resolution microphones (which were scattered
+around the two armchairs), and videotaped by three high-resolution cameras (one
+focused on the client, the other on the therapist and the third on both to assess their
+interaction). Both clients and therapists filled out pre- and post-session self-report
+questionnaires (session by session). Besides, at the end of treatment, clients were
+invited to a post-treatment assessment meeting (55 clients showed) and a three-month
+follow-up meeting (49 clients showed), in which the HRSD and MINI interviews were
+administered again. Overall, self-report questionnaires were filled out by the clients at
+the three assessment periods; i.e., pre-treatment, post-treatment, and follow-up.
+Treatment Clinical Change Indices
+Among patients who began treatment above the clinical cutoff, change indices were
+examined separately for each measure. For the HRSD, among the 51 patients who
+began at or above the HRSD clinical cutoff (14), 35 patients (68.6%) ended treatment
+below it. For the BDI, among the 43 patients who began at or above the BDI clinical
+6
+
+DEPRESSOMETER METHOD
+cutoff (17), 22 patients (51.2%) ended treatment below it, and 38 patients (67.4%)
+showed reliable BDI improvement (reliable change index [RCI] = 5.78). For the ORS,
+among the 46 patients who began treatment below the ORS clinical cutoff (24), 19
+(41.3%) crossed above the ORS clinical cutoff by the end of treatment, and 25 (54.3%)
+showed reliable ORS improvement (RCI = 5). For the HSCL, among the 43 patients
+who began above the HSCL clinical cutoff (1.92), 21 (48.8%) ended treatment below
+the cutoff, but only 9 (20.9%) showed reliable HSCL improvement (RCI = 0.79).
+Across the broader sample, 52.7% ended treatment below the HRSD clinical cutoff.
+For the BDI, 62.5% ended treatment below the BDI clinical cutoff, and 67.9% showed
+reliable BDI improvement (RCI). For the ORS, 28 (48.3%) ended treatment above the
+cutoff, and 44.8% showed reliable ORS improvement (RCI). For the HSCL, 60.3%
+ended treatment below the HSCL cutoff, but only 15.5% showed reliable HSCL
+improvement (RCI).
+Transcriptions
+All available videotaped sessions (total of 816 sessions) were transcribed by research
+assistants. The transcription protocol followed general guidelines (Mergenthaler &
+Stinson, 1992). Transcribers completed a one-day training workshop and attended
+monthly supervision meetings throughout the transcription process. Training included
+guidelines for handling confidential information, replacing names with pseudonyms,
+and masking identifying details. The Hebrew transcripts were translated to English
+using Google Cloud's Translation API service, driven by the superior performance of
+LLMs in English, which currently represents a cutting edge in NLP capabilities. An
+average of 14.07 sessions were transcribed per patient (SD = 3.00), yielding a total of
+816 sessions. The corpus included approximately six million words. On average,
+sessions included 7,758 words (SD = 1,756), of which 5,310 were patient utterances
+7
+
+DEPRESSOMETER METHOD
+(68.4%; SD = 1,583; range 1,066-11,078) and 2,448 were therapist utterances (31.6%;
+SD = 961; range 88-6,623).
+Measures
+Pre, post and follow-up treatment semi-structured interview and self-report
+questionnaires:
+The Hamilton Rating Scale for Depression (HRS-D; Hamilton, 1960; Williams,
+1988) is a clinician-administered semi-structured interview that can provide an
+indication of depression and act as a guide for evaluating recovery. It is designed to
+assess depression severity by probing mood, guilt, suicidal ideation, insomnia, agitation
+or retardation, anxiety, weight loss, and somatic symptoms. Clients are rated on 17
+dimensions with a 3- or 5-point scale. In this study, a summed score of 14 or above was
+used as the cutoff score for MDD.
+Beck Depression Inventory-II (BDI-II; Beck et al., 1996) is a 21-item self-report
+measure of depression that asks respondents to rate the severity of their symptoms
+during the previous week using a Likert scale (19 items use a 4-point scale, 2 items use
+a 7-point scale). The BDI-II consists of two underlying factors assessing cognitive‐
+affective and somatic symptoms of depression (Whisman, Perez, & Ramel, 2000).
+Individual item scores are summed to create a total severity score ranging from 0 to 63.
+Depressive severity is categorized using the following ranges: 0 to 10 (minimal), 11 to
+16 (mild), 17-20 (borderline), 21 to 30 (moderate), 31-40 (severe), ≥40 (extreme). High
+internal consistency (.93) and significant (p ≤ .01) inter-correlations were found
+between the BDI-II total scale and the Behavior and Symptom Identification Scale 24-
+item Depression/Functioning (r .79) and Overall (r .82) subscales (Subica et al., 2014).
+Outcome Questionnaire 45 (OQ-45; Lambert et al. 1996) is a 45-item self-report
+measure that captures functioning in three domains, all of which have shown good
+8
+
+DEPRESSOMETER METHOD
+internal consistency: (a) subjective discomfort (e.g., anxiety and depression—“I feel
+blue”, α = 0.91)), (b) interpersonal relationships (e.g., “I feel lonely”, (α = 0.74)), and
+(c) social role functioning (e.g., “I have too many disagreements at work/school”,
+(α = 0.71)). All 45 items can be aggregated to create a total score. Total scores can range
+from 0 to 180, with higher scores reflecting poorer psychological functioning.
+Emotion Regulation Questionnaire (ERQ; Gross & John, 2003) is designed to assess
+individual differences in individuals' use of two emotion regulation strategies: cognitive
+reappraisal and expressive suppression. (1) reappraisal, based on six items (e.g., “I
+control my emotions by changing the way I think about the situation I am in”) and (2)
+suppression, based on four items (e.g., “I control my emotions by not expressing them.
+It consists of 10 items that are rated from 1 (strongly disagree) to 7 (strongly agree).
+Difficulties in Emotion Regulation Scale (DERS; Gratz & Roemer, 2004) is a 36-
+item widely used self-report measure that assesses problems with emotion regulation.
+regulation in terms of non-acceptance of emotional responses, difficulties engaging in
+goal-directed behavior, impulse control difficulties, lack of emotional awareness,
+limited access to emotion regulation strategies and lack of emotional clarity. Each
+measured on a scale of 1–5. Total score range = 36–180, with higher scores indicating
+greater problems with regulating emotions. The DERS has high internal consistency for
+both total score and subscales (0.80–0.93).
+Personality Inventory for DSM-5 Brief Form (PID-5-BF; American Psychiatric
+Association, 2013) is a 25-item self-report questionnaire which was designed to assess
+the five AMPD trait dimensions of Negative Affectivity (NA), Detachment (De),
+Antagonism (An), Disinhibition (Di), and Psychoticism (Ps) in both adults and
+adolescents; each domain scale consisting of 5 items. Each PID-5-BF item is scored on
+only one PID-5-BF trait scale. The PID-5-BF items come from the 220-item self-report
+9
+
+DEPRESSOMETER METHOD
+PID-5. As in the PID-5, each PID-5-BF item is rated on a 4-point scale (i.e., 0 = very
+false or often false; 1 = sometimes or somewhat false; 2 = sometimes or somewhat true;
+3 = very true or often true). Different from other versions of the PID-5, the PID-5-BF
+yields a score for the overall measure (American Psychiatric Association, 2013).
+Inventory of Interpersonal Problems-32 (IIP; Horowitz, Alden, Wiggins, & Pincus,
+2000) is assessing therapists’ and clients’ affiliation and dominance tendencies. The IIP
+consists of 32 items that depict interpersonal problems on eight four-item scales
+arranged in a circumflex structure that can be summarized using the dimensions of
+dominance and affiliation. The IIP comprises two types of items: one half beginning
+with the phrase “it is hard for me to...” and the other half addressing “things that I do
+too much.” Each item is rated on 5-point Likert scale ranging from 0 (not at all) to 4
+(extremely).
+The Satisfaction With Life Scale (SWLS; Diener, Emmons, Larsen, & Griffin, 1985)
+is a five-item measure of global life satisfaction. Items are rated on a Likert-type scale
+from 1 strongly disagree to 7 strongly agree. A higher total score indicates greater life
+satisfaction. This scale has been shown to be positively associated with many measures
+of subjective well-being and positive affect (Diener et al., 1985). Cronbach’s alphas
+were .87 and .91 for the development and validation samples, respectively. Positive
+association between the COMPO total scale and the SWLS was thought to provide
+evidence of criterion validity for the COMPO.
+Sheehan Disability Scale (SDS; Sheehan et al., 1996). The SDS is a disability or
+functional impairment scale that uses a discan metric. This discan metric anchors the
+response options by simultaneously using visual–spatial, numeric and verbal
+descriptive anchors to assess disability or functional impairment across three domains:
+work/school, social life/leisure activities and family life/home responsibilities. Each
+10
+
+DEPRESSOMETER METHOD
+domain is scored from 0 (not at all) to 10 (very severely). The three domains can be
+summarized to evaluate global functional impairment by adding the scores of each of
+the three domains, resulting in global SDS score ranges from 0 (unimpaired) to 30
+(highly impaired; Sheehan et al., 1996; Sheehan and Sheehan, 2008). Functional
+remission was defined as SDS ≤ 6 at endpoint (Sheehan and Sheehan, 2008; Sheehan
+et al., 2011).
+The Rosenberg Self-Esteem Scale (RSE; Rosenberg, 1965). The RSE is a reliable
+and valid self-report scale for measuring the level of self-esteem, which was first
+developed by Rosenberg in 1965. This scale is one of the most widely used tools to
+assess self-esteem and contains 10 statements all of which are scored on a 4-point Likert
+scale. It should be stated that items 1 to 5 are scored positively (Strongly Agree = 3 to
+Strongly Disagree = 0) and items 6 to 10 are scored reversely (Strongly Agree = 0 to
+Strongly Disagree = 3). The overall score of the scale ranges from 0 to 30 so that the
+higher score indicates a higher level of self-esteem (Rosenberg, 1965). In
+psychometrics of this scale, Rosenberg (2015) reported the correlation coefficient
+between the individual and the collective self-esteem to be r = 0.34. He also reported
+Cronbach's alpha and test–retest reliability to be α = 0.93 and r = 0.85, respectively.
+Pre and post session self-report questionnaires:
+Beck Depression Inventory-II (BDI-II; Beck et al., 1996), as mentioned above, was
+administered before each session.
+Outcome Rating Scale (ORS; Miller & Duncan, 2003) is a four-item visual analog
+scale developed as a brief alternative to the Outcome Questionnaire-45 (OQ-45;
+Lambert et al., 1996). It is designed to assess change in three areas of client functioning
+that are widely considered to be valid indicators of progress in treatment: individual (or
+symptomatic) functioning, interpersonal relationships, and social role performance.
+11
+
+DEPRESSOMETER METHOD
+Respondents complete the ORS by rating the items on a visual analog scale anchored
+at one end by the word Low and at the other end by the word High. Each item ranges
+from 0 to 10, with higher scores indicating better functioning. The ORS demonstrates
+strong reliability estimates (.87–.96) and moderate correlations between the ORS items
+and the OQ-45 subscales and total scores (ORS total– OQ-45 total: r =.59).
+To capture proximal session outcome in the dataset, we used the ORS item assessing
+the patient’s current subjective well-being: “How do you feel now?” (Individual: self
+well-being), which was administered immediately before and after each session.
+Consistent with prior work using this measure, session outcome was calculated as the
+difference between the patient’s end-of-session and beginning-of-session ratings on this
+item, indexing immediate within-session change in subjective well-being (ORS_diff;
+Paz et al., 2021; 2024; 2026; Sayda et al., 2026). In addition, at the end of each session,
+therapists completed an adapted therapist-rated version of the ORS items, in which they
+rated their perception of the patient’s individual, interpersonal, social, and overall well-
+being.
+Hopkins Symptom Checklist-short form (HSCL-11; Lutz, Tholen, Schürch &
+Berking, 2006), which was administered before each session. HSCL-11 is a shortened
+version of SCL-90-R (Derogatis, 1992) self-report questionnaire. It includes 11 items
+that assess symptoms. Participants rank each item on a Likert scale between 1 ("not at
+all") and 4 ("extremely") depending on how much distress they feel regarding the item.
+The average items represent the global symptomatic level experienced by the client
+over the past week. The questionnaire was found to have high internal validity (α =
+.92).
+Difficulties in Emotion Regulation Scale (DERS; Gratz & Roemer 2004), as
+mentioned above, was administered before each session.
+12
+
+DEPRESSOMETER METHOD
+Working Alliance Inventory (WAI-SR; Hatcher & Gillaspy, 2006) is a 12-item short
+form of the Working Alliance Inventory (WAI; Horvath & Greenberg, 1989), based on
+Bordin’s (1979) tripartite conceptualization of the client–therapist relationship (degree
+of agreement on goals, concordance on tasks, and strength of the therapeutic bond).
+After each session, clients and therapists used a 7-point Likert scale to rate how
+accurately each item describes their current therapy experience. The WAI-SR has good
+reliability, with alpha coefficients for overall internal reliability ranging from .85 to .95.
+The reliability estimates of the subscales have also demonstrated fairly high alpha
+coefficients: .82 to .88 on the Task subscale, .82 to .87 on the Goal subscale, and .85
+on the Bond subscale.
+Session Evaluation Scale (SES; Hill & Kellems, 2002), which was administered
+after each session. The original version contains four items (e.g., “I did not feel satisfied
+with what I got out of this session). Clients rate each statement on a 5-point scale
+ranging from 1 (strongly disagree) to 5 (strongly agree). Hill & Kellems, 2002 reported
+that SES yielded adequate internal consistency reliability estimates in two different
+samples (α = .89), as well as correlates with post-session measures of skills used in-
+session and the therapeutic relationship. As in Lent, et al. (2006) a single item from the
+SES was added, asking to “rate the overall effectiveness of this session” from 1 (not
+effective) to 5 (highly effective). In our sample, this item correlated with the original
+SES items (rs = [.39, .76]). Finally, in our dataset, SES items showed good internal
+reliability estimates (Cronbach’s α = .84).
+Profile of Mood States (POMS; McNair et al., 1992), which was administered after
+each session. POMS is a widely used instrument that assesses mood variables. For the
+purpose of this project, we used an abbreviated version of the measure, which was
+adapted for intensive repeated measurements (Cranford et al., 2006) and consists of 12
+13
+
+DEPRESSOMETER METHOD
+words that describe current emotional states. The negative affect scale includes
+depressed mood (2 items), anxious mood (2 items), and anger (2 items). The positive
+affect scale includes contentment (2 items), vigor (2 items), and calmness (2 items).
+Examples of feelings on the POMS are “anxious,” “sad,” “angry,” “happy,” “lively,”
+and “calm.” Clients and therapists were asked to evaluate how they felt during the
+session on a 5-point Likert scale ranging from “Not at all” to “Extremely". In addition,
+therapists were asked to evaluate their client feelings during the session. The POMS
+has been tested on college students and was found to be both valid and reliable
+(Guadagnoli & Mor, 1989).
+Multi-theoretical List of Interventions–30 (MULTI-30; Solomonov, McCarthy,
+Gorman, & Barber, 2018), which was administered after each session. MULTI-30 is a
+short form of the MULTI (McCarthy & Barber, 2009), designed to decrease completion
+time and burden. The MULTI-30 is a 5-point Likert scale measure that assesses 30
+therapist techniques divided into eight subscales representing seven therapeutic
+orientations (i.e., psychodynamic therapy, process-experiential psychotherapy,
+interpersonal psychotherapy, person-centered psychotherapy, behavioral
+psychotherapy, cognitive psychotherapy, and dialectical-behavioral therapy) and an
+additional ‘common factors’ subscale. Previous studies have found these eight
+subscales of the MULTI-30 to be reliable and internally consistent (Solomonov et al.,
+2018). Due to the need to further decrease participant burden in the session-by-session
+data collection in our project, we included six out of the eight subscales, after
+consultation with the MULTI-30 developer (Solomonov, personal communication,
+August 2015). Specifically, we excluded the cognitive scale (3 items), as these
+techniques are infrequently used in our therapy and have a strong documented overlap
+with the behavioral scale (e.g., r = 0.93; e.g., McAleavey & Castonguay, 2014;
+14
+
+DEPRESSOMETER METHOD
+McCarthy & Barber, 2009). Additionally, we excluded the person-centered scale (3
+items), given its high documented overlap with the process-experiential scale (e.g., r =
+0.86; e.g., McAleavey & Castonguay, 2014; McCarthy & Barber, 2009).
+Coding systems and projects:
+All coding systems were applied on the "working phase", from 5 sessions out of 16
+(for each therapy). Those were the same sessions which were chosen to be the sessions
+that physiological activity and saliva samples were collected in them. "Working phase"
+is defined based on Auszra et al. (2013) as the 15 minutes before the last 5 minutes of
+the session. This phase is considered to be that part of session in which clients are likely
+to be the most engaged in therapeutic work.
+Multimodal Interpersonal and Intrapersonal Dynamics (MIND; Atzil-Slonim,
+2025).
+This coding project drew on the Multimodal Intrapersonal and Interpersonal
+Dynamics (MIND; Atzil-Slonim, 2025) framework, a shared transtheoretical process
+language that integrates insights from diverse psychotherapy theories and empirical
+findings to identify the intrapersonal and interpersonal dynamics linked to therapeutic
+change. The MIND framework reflects two major shifts in clinical science: from trait-
+like conceptions of psychopathology toward modifiable self-states and intrapersonal
+dynamics, and from manualized treatments toward personalized interpersonal
+dynamics that flexibly respond to patients' evolving verbal and nonverbal cues. This
+framework provides its empirical implementation by breaking down patients'
+experiences into well-accepted core experiential building blocks (Affect, Behavior,
+Cognition, Desire [ABCD]; Greenberg, 2012; Mcnair et al., 1992; Revelle, 2007) and
+therapist interventions (McCullough, 1988). By attuning to patients' shifting self-states,
+therapists can help patients to process and dampen maladaptive ABCD elements while
+15
+
+DEPRESSOMETER METHOD
+amplifying more adaptive ones and dialogue among them, eventually facilitating
+improved well-being (Stiles, 2001). It offers both a common language for representing
+how these elements co-occur and interact moment-by-moment in therapy, and a
+foundation for translating and teaching AI models the fundamental concepts of complex
+psychotherapeutic constructs.
+Session selection and transcription. For each patient we aimed to choose a session
+from the working phase of therapy, defined in previous research as the mid-treatment
+period linked to higher patient emotional productivity and better outcomes (Auszra et
+al., 2013). To maintain consistency, we focused on sessions 8 to 11. The videotaped
+sessions were transcribed by research assistants. These transcriptions were also
+automatically translated to English (using the secure services of Google Translate) in
+order to then use the coded transcriptions in AI models.
+Annotation was done at different levels of temporal granularity (speech-turn level,
+5 min segments, session level), which highlighted evidence in the transcribed text to
+justify choices. At the speech-turn level, annotators coded patients’ states with respect
+to the presence and adaptiveness level of four core elements: (ABCD; Lazarus &
+Rafaeli, 2023). Affect was annotated using both the global valence expressed (i.e.,
+Negative, Positive, Neutral, e.g., Greenberg, 2012) and the specific emotion(s)
+identified (POMS; Mcnair et al. 1992). The remaining three elements (Behavior,
+Cognition, and Desire) were annotated using a modified version of the Core Conflictual
+Relationship Theme (CCRT; Luborsky and Crits-Christoph 1997). The annotators
+defined a "presence" scale (0-4) and an "adaptivity" scale (-2-2) for each self-state
+dimension (Affect, Behavior-Self, Behavior-Other, Cognition-Self, Cognition-Other,
+Desire). The MIND scheme integrates components that are considered central across a
+wide range of psychological theories. Previous studies have shown moderate to high
+16
+
+DEPRESSOMETER METHOD
+inter-rater reliability for each scale (e.g., Slonim et al. 2013; Berk 2013; Mayer et al.
+2024; Mccullough et al. 2003).
+At a predefined 5-minute segment level, clinical judges provided ratings for micro-
+level outcome, therapeutic alliance, and therapeutic rupture. Micro-level outcome was
+rated using a single item adapted from the general well-being dimension of the Outcome
+Rating Scale (ORS), whereas alliance and rupture were rated using single items adapted
+from the Session-level Working Alliance Inventory - Observer version (S-WAI-O;
+Berk, 2013) and the Post-Session Questionnaire (PSQ), respectively. For each
+construct, the item wording and coder instructions were explicitly based on the
+theoretical definitions and rating anchors of the original validated measures, tailored
+for application at the micro-level. All scales within the MIND scheme have been
+applied in previous studies across diverse therapeutic approaches (e.g., Slonim et al.,
+2013; Grenyer & Marceau, 2022), supporting their validity in capturing complex
+therapeutic processes. The segment-level Alliance/Reciprocity, Tension/Rupture, and
+Micro-level Outcome items were scored on 5-point Likert scales that were treated as
+approximately interval.
+Four annotators, three Master’s students in clinical psychology and one doctoral
+student, annotated the selected sessions using the MIND scheme. The annotators
+received comprehensive training from a clinical expert and ongoing supervision. The
+annotators underwent a preliminary training phase, during which they received iterative
+feedback and conducted reconciliation meetings to enhance consistency and interrater
+reliability. Annotators read each full session transcript but coded only the working
+phase.
+Inter-Annotator Agreement (IAA)
+17
+
+DEPRESSOMETER METHOD
+IAA was evaluated on a 14-session (42 segments; 24% of the data) subsample that
+was independently coded by two raters, each pair randomly drawn from the full pool of
+four trained annotators. Rater pairings varied across segments, yielding an unbalanced
+two-of-four design. Agreement was quantified with Gwet's chance-corrected
+coefficients - AC1 for nominal categories, AC2 with quadratic weights for ordinal
+ratings, and the Jaccard index for multi-label sets - alongside Krippendorff's α (nominal
+or quadratic-weighted, matched to the coefficient type). Both families are defined for
+unbalanced multi-rater designs (Gwet, 2014; Krippendorff, 2018); Fleiss' κ, which
+assumes a constant number of ratings per unit, is not reported.
+Because psychotherapy markers typically exhibit low trait prevalence within a
+segment, kappa-family coefficients deflate sharply even when observed agreement is
+high - the "kappa paradox" (Feinstein & Cicchetti, 1990; Wongpakaran et al., 2013).
+Gwet's AC1/AC2 use an expected-disagreement formulation that is approximately
+invariant to prevalence (Gwet, 2014). We treat AC1/AC2 as the primary coefficient and
+report α alongside for transparency, following recent annotation-heavy work in clinical
+(Svantesson et al., 2024) and computational-linguistic (Yu et al., 2024; Bianco et al.,
+2026) settings; divergences between coefficients are interpreted substantively (cf. Vach
+& Gerke, 2023). The Jaccard index is used for multi-label annotations to prevent mutual
+absence of sparse features from inflating agreement.
+ABCD elements’ IAA: Category AC1 across the six dimensions was .51 (Affect), .29
+(Behavior-Self), .60 (Behavior-Other), .74 (Cognition-Self), .77 (Cognition-Other),
+and .72 (Desire); on the whole, agreement was higher for maladaptive (micro-average
+AC1 = .71) than for adaptive elements (micro-average AC1 = .68). For the Presence
+and Adaptivity ratings, computed only over categories that both raters identified
+(matched category instances per dimension ranging from n = 6 to n = 39), AC2 was
+18
+
+DEPRESSOMETER METHOD
+moderate-to-high for Presence (.48–.90 across dimensions) and near-ceiling for
+Adaptivity (.96–1.00).
+Interventions’ IAA: Multi-label type agreement reached Jaccard = .72. Over the
+intervention types that both raters identified, AC2 was .84 for Typicality (α = .46; n =
+52) and percent agreement is .61 for Focus (n = 31); Quality, computed at the segment
+level (n = 39), reaches AC2 = .93 (α = .36). The substantial AC2-α gap for Quality
+reflects a highly concentrated marginal distribution on a narrow band of the rating scale;
+under such skew, α's marginal-based expected-agreement term deflates the coefficient
+while AC2 remains stable. We report both and treat AC2 as the more interpretable
+estimate, while flagging that the rating range itself is restricted.
+Relationship’s IAA: Agreement is AC1 = .81 for Tension (binary, present vs. absent;
+α = .63) and AC2 = .85 for Alliance (α = .50; n = 41 segments). Rupture type was coded
+too rarely (n = 8 segments) for a stable estimate and is not reported here. The AC2-α
+gap for Alliance follows the same pattern as Quality, with ratings concentrated on a
+narrow active band of the 1–5 scale.
+Micro-Level Outcome’s IAA: For Overall Micro-Level Outcome, AC2 = .97 (α =
+.65); for Insight, AC2 = .84 (α = .58). Insight shows substantial convergence between
+the two coefficients, consistent with a more balanced use of the scale, whereas Overall
+Micro-Level Outcome shows the larger AC2–α divergence expected when ratings
+concentrate near one end of the scale. Across our variables, the size of the AC2–α gap
+tracks marginal concentration in the theoretically predicted direction, which we take as
+evidence that the divergence reflects the prevalence structure of the labels rather than
+an artifact of either coefficient.
+19
+
+DEPRESSOMETER METHOD
+LLM interventions versus human therapist interventions.
+Using a sample of 300 therapy session contexts, each containing both human-
+and LLM-generated responses, served as the evaluation dataset. We developed an
+LLM-based framework composed of four specialized LLM agents, each representing a
+different therapeutic dimension, and a Judge-LLM that selects the most appropriate
+intervention. Expert clinical judges assessed interventions for their typicality and
+quality.
+Grounded in intervention types widely regarded as central across diverse
+psychotherapeutic approaches, such as empathy, meaning-making, exploration, and
+directive interventions (e.g., McCullough, 1988; Summers et al., 2024), we developed
+a final framework consisted of four expert LLMs, each prompted to focus on a specific
+dimension of therapy and counseling: (1) Supportive Agent: fosters empathy,
+acceptance, and validation, and recognizes patients’ feelings, growth, and struggles,
+thereby strengthening their self-worth and confidence in their capacity to change; (2)
+Meaning-making Agent: expands the patient’s awareness and self-understanding by
+providing new meaning and interpretation of core conflicts, patterns, and hidden voices;
+(3) Exploratory Agent: encourages patients to explore, expand, and uncover deeper
+layers of their feelings, thoughts, memories, and experiences by inviting expression of
+additional self-voices, wishes, needs, and concerns; (4) Directive Agent: actively
+guides the therapy by providing structured instruction, teaching new skills, setting
+goals, or suggesting tasks and behavioral change.
+The framework operated in two steps. First, for a given dialogue context segment
+between the therapist and patient, each agent was prompted to generate an intervention
+aligned with its expertise. Second, to maintain coherence and effectiveness, a Judge-
+LLM was initialized to evaluate the four responses and select the most appropriate one
+20
+
+DEPRESSOMETER METHOD
+based on contextual relevance, fluency, and alignment with best therapeutic practices.
+Overall, this framework is inherently interpretable since the Judge-LLM provides
+reasoning for each decision. To regulate response length and variability, we set the
+temperature parameter to be 0.7 and enforced a minimum length of five tokens (words).
+This balanced response diversity and coherence while preventing outputs that were
+excessively verbose or too brief.
+Evaluation of the Interventions. A different team of three expert judges evaluated
+the human therapists and LLM intervention outputs. All three judges were clinical
+psychologists in training who were blind to the intervention provider (i.e., LLM/
+Human) throughout the evaluation period. During the training period, the team held
+five meetings, each lasting 1.5 hours. During these meetings, the annotators practiced
+applying the annotation scheme guidelines on intervention examples and annotated a
+separate training sample of six dialogue contexts while discussing incongruencies.
+After this training period, the team began annotating a sample of 300 randomly selected
+conversation dialogues. For each dialogue, two interventions were annotated (Human
+therapist and LLM-generated) in random order. The entire team annotated sixty
+interventions (30 pairs, 10% of the sample) to assess inter-rater reliability. The
+remaining 270 pairs were evaluated independently by each judge (~90 pairs per
+annotator). Weekly coordination meetings were held to review the dialogue contexts
+annotated by the entire team. These contexts were staggered throughout the annotation
+process.
+Coding Interactive Behavioral Manual (CIB; Feldman, 1998).
+The CIB is a well-validated global rating system of dyadic interactions with versions
+for coding social interactions in infancy, childhood, adolescence and adulthood. The
+CIB has good psychometric properties and has shown sensitivity to differences related
+21
+
+DEPRESSOMETER METHOD
+to age, interactive partner, cultural background, and risk conditions (Feldman, 2012;
+Feldman, Bamberger, & Kanat-Maymon, 2013; Lebowitz et al., 2017). The version of
+the CIB adapted to psychotherapy (Feldman, 2016) has 48 scales: 26 are scales for the
+therapist, 22 for the client, and 10 scales for the dyad as a whole and addressing dyadic
+measures. Each scale produces a single value for the entire segment being coded and is
+rated on a Likert scale of 1=low to 5=high. Overall, approximately five pre-selected
+sessions were coded for 54 patients (overall = 249 sessions).
+In the study of Stolowicz-Melman et al. (2026), following previous studies (Pratt et
+al., 2017; Priel, A., Djalovski, A., Zagoory‐Sharon, O., & Feldman, R., 2019;
+Schneiderman, I., Kanat-Maymon, Y., Ebstein, R. P., & Feldman, R., 2014), dyadic
+synchrony and dyadic tension were used by averaging CIB discrete codes (namely
+reciprocity, synchrony and fluency for dyadic synchrony; and constriction and tension
+for dyadic tension). Coding was conducted in 143 sessions for 30 patients, by trained
+master’s degree clinicians who watched the working phase of the five sampled recorded
+sessions. Reliability was conducted in 25 sessions and the ICC for the intra-rater
+reliability was 0.76, indicating good to excellent inter-rater reliability (range = 0.57-
+0.87; Cicchetti, 1994).
+Codings of client emotional arousal scale-III (CEAS-III; Warwar & Greenberg,
+1999) and Psychotherapy Interactional Coding system (PIC; McCullough, L.,
+1988),
+One hundred and fifty-nine sessions’ working phase were annotated (36 clients,
+M = 4.42, SD = 1.16). Specifically, the clients' (using CEAS-
+sessions per client sessions per client
+III) and therapists' (using PIC) speech turn after speech turns were annotated by four
+clinical judges.
+22
+
+DEPRESSOMETER METHOD
+The CEAS-III is a 7-point, anchored ordinal scale that assesses the quality and
+intensity of client emotions on the basis of the evaluation of the client’s degree of
+arousal from voice, body language, facial expressions and the degree of restriction of
+expression. Embedded within the scale are ratings of both verbal and nonverbal
+indicators of both intensity and constriction of emotional expression. In addition, the
+characteristics of arousal of different emotions at the same levels can vary depending
+on the emotion being expressed. Assessment is divided into two parts: first,
+the valence of the main emotion the client experience is identified (positive, negative
+soft or hard); second, the overall level of intensity of the client’s emotion (modal
+intensity), as well as the peak intensity, or intensity of the maximally aroused moment,
+are rated (Warwar & Greenberg, 1999). Upper levels indicate higher arousal intensities
+and lower levels indicate restriction of emotional expression.
+Previous studies have reported interrater reliability scores ranging from .75 to .81,
+and average emotional arousal has been shown to predict outcome (Greenberg et al.,
+2007; Missirlian et al., 2005; Warwar, 2003). Raters received approximately 16 hours
+of training on the coding systems (adapted from the Client Expressed Emotional
+Arousal Scale III-Revised; Warwar & Greenberg, 1999). Following the period of
+training, all raters were given the same 4 therapy sessions to rate independently in order
+to establish reliability. 10% of the sessions were randomly selected and were coded
+simultaneously and independently by two raters, in order to monitor the coding
+reliability. The average ICC for emotional arousal intensity was .74. The average
+percent of agreement for emotional valance was 90%.
+The PIC is designed to examine therapist interventions and the impact of these
+interventions in dynamic orientated therapies. Using videotapes of Short-Term
+Dynamic psychotherapy sessions, the PIC annotates eight standard therapist
+23
+
+DEPRESSOMETER METHOD
+interventions. In this study, a modified, broader version of PIC was used, annotating 10
+therapist interventions: Clarification (statements that repeat, organize or reflect the
+client's words, sometimes in slightly different language, but without interpretation or
+conclusion. The therapist can also reflect an emotion or experience of the client in
+words, and not just verbal content. Clarifications do not present the client with ideas or
+possibilities that are not already in the conscious mind); Support (statements that
+express interest, affection, understanding, praise, indication or approval towards the
+client and his experience). Statements by the therapist expressing support for the client
+in moments of difficulty, as well as an attempt to strengthen the client's sense of value,
+confidence or trust in his abilities and skills.; Directive (statements that guide, direct
+and advise the client to react in a certain way during or after the session. The therapist
+leads actively and directs the client how to think or act. In this intervention, the therapist
+can teach the client new skills, encourage behavioral change, challenge thinking
+distortions, and give the client different tasks); Information (providing information to
+the client in a didactic or educational manner, but does not contain advice); Expansion
+(comments/questions the therapist uses to gather information and learn more discourse
+about the experiences and the content in question. Any extension or invitation by the
+therapist to the client to add information); Self-Disclosure ( therapists deliberately talk
+about –themselves in reference to their own feelings or thoughts during the session or
+disclosure of information about their personal life such as beliefs, values, life
+circumstances and past experiences); Emotion-Focused (therapists direct clients to
+focus on their emotional experience, by investigating the experience in question and by
+directing attention to the present moment. This can involve using questions and
+statements that draw attention to the emotional experience); Filler (speech turns in
+which the therapist uses a single word/or noncommittal murmur to confirm and express
+24
+
+DEPRESSOMETER METHOD
+listening and understanding the client's words); Not Defined (when impossible to
+determine the dominant characteristic of the intervention and distinguish it from other
+interventions); Interpretation (a response from the therapist that allows a new insight
+to emerge in the client. The therapist suggests a new way to explain the unconscious
+meaning of the client’s contents and behaviors and links them to relations to self and/or
+others that characterize the client and repeat themselves maladaptively. The
+interpretation should contribute something beyond what the client states openly.
+Interpretation often deals with the exposure and explanation of clients’ relationship
+pattern towards themselves or towards others. Confrontational responses are also
+included in this category, in which the therapist highlights the conflict from the client's
+words and brings this to the surface).
+To examine inter-rater reliability an analysis of 22 sessions coded by different
+combinations of raters yielded a Cohen's kappa coefficient of .68. Kappa values
+between .40 and .75 are considered to represent fair-to-good agreement above chance
+(Fleiss et al., 1981).
+Relationship Anecdote Paradigm interview (RAP; Luborsky, 1998) and CCRT
+Formulations. RAP was developed as a method of gathering interpersonal episodes,
+from which the CCRT can be extracted. Subjects are asked to 4 specific interpersonal
+interactions, which took place between them and significant people in their lives. The
+CCRT model views interpersonal patterns as consisting of three basic components: (i)
+an individual’s wishes, needs, or intentions during an interpersonal interaction with a
+specific other (W); (ii) the actual or expected responses of the other (RO); and (iii) the
+responses of the self (RS). Each episode is then coded on the wishes and responses of
+other and self, and the components that appear most frequently in the interview form
+the subject's CCRT.
+25
+
+DEPRESSOMETER METHOD
+In this project, patients were asked to tell narratives about their parents, from
+which the parent CCRT were derived. The CCRT method, and the RAP, were tested
+in numerous studies, in which inter judge reliability was high (Luborsky, 1998). In
+addition, the RAP method was administered in Hebrew as well, achieving similar
+reliability and agreement between judges (Atzil-Slonim, Tishby & Shefler, 2015;
+Slonim, Shefler & Tishby, 2013; Tishby & Vered, 2011). In the current project, RAP
+was administered and coded at two time points during treatment: at the beginning (T1)
+and end (T2) of treatment. Of the 51 patients included in the RAP data, 47 patients
+(92.2%) had RAP data at both T1 and T2, 2 patients (3.9%) had T1 data only, and 2
+patients (3.9%) had T2 data only. Judges were MA-level clinical trainees who were
+trained until they reached reliability above .80 on all scales.
+Additionally, based on the interpersonal themes identified through the CCRT,
+including patients’ wishes (W) and responses of self (RS) and other (RO), therapists
+presented each patient with a personalized case formulation midway through treatment,
+typically in session 8 or a subsequent session. A total of 56 formulations were
+documented and available.
+Physiological, hormonal and behavioral measures
+During 5 of the 16 sessions (mostly in sessions 2, 5, 8, 11, and 14), physiological
+activity, i.e., electrocardiography (ECG) and electro-dermal activity (EDA) were
+recorded. Continuous physiological activity measures were recorded from both clients
+and their therapists at a sample rate of 1 kHz with an integrated system and software
+package (Mindware Technology, Gahanna, OH). ECG and EDA were recorded using
+a wireless mobile device connected to each subject with disposable electrodes; overall
+5 for each subject, 3 for the ECG (on the right clavicle and the two lower bones of the
+thorax) and 2 for EDA (on the distal phalange of the index and middle fingers). Using
+26
+
+DEPRESSOMETER METHOD
+Mindware software, ECG artifacts were edited out based on visual inspection as well
+as on the overall R-R distribution using a validated algorithm. In addition EDA signals
+were examined on Mindware software for gross motion artifacts and non-responsive
+subjects.
+Hormonal system measure:
+During 5 of the 16 sessions (mostly in sessions 2, 5, 8, 11, and 14), saliva samples
+were collected from both clients and their therapists, immediately prior and
+immediately after each sampled session. Before such sessions, subjects were requested
+to arrive to therapy at least an hour after eating and to avoid drinking or chewing gum
+at least half an hour prior to sample collection. Immediately prior to the sampled
+session, subjects filled out a questionnaire regarding their medical and physiological
+condition on that day. After collection, the samples were frozen at −20°C. Oxytocin
+(OT) analysis was conducted for all samples in Prof. Ruth Feldman's laboratory, located
+at the Interdisciplinary Center Herzliya. Concentration of OT (in picograms per
+milliliter – pg/ml) in these samples was determined in duplicates. The assay was
+performed according to the manufacturer's kit instructions, by using auto-analyzer
+EVO75 (Tecan Germany). The OT concentration was calculated using Magellan
+software, according to the kits’ calibration curve. Three internal controls in the low,
+mid and high range were added for quality control. In case of a deviation exceeding two
+standard deviations, the samples from that plate were excluded and samples were rerun.
+Behavioral measures
+Body Movement signals of both clients and therapists, quantified with motion
+energy analysis (MEA; Ramseyer, 2020), measuring differences in pixel values
+between consecutive video frames. Following Ramseyer (2020), a 20-pixel threshold
+for minimal movement was used that enables easy distinction between movement and
+27
+
+DEPRESSOMETER METHOD
+no-movement. Values under this threshold, likely caused by minimal light changes or
+video noise, were automatically excluded from the analyses.
+Also, facial expressions, using FaceReader-9 (Höfling et al., 2020), were analyzed.
+The FaceReader-9 was used to extract emotional responses from the video recordings,
+allowing for assessment of emotional responses via video imagery analysis (Höfling et
+al., 2020) based on the Facial Action Coding System (FACS; Ekman & Friesen, 1976).
+The FaceReader provides built-in facial action unit analysis and emotional expression
+scoring. Based on the Circumplex Model of Affect (Russell, 1980), valence was
+measured on a continuous scale from −1 (most negative emotion) to +1 (most positive
+emotion), and was captured at a rate of 25 frames per second. We used the 1-second
+mean valence score to evaluate the emotional responses of the participants moment-by-
+moment during a session.
+28
+
+DEPRESSOMETER METHOD
+References
+American Psychiatric Association. (2013, June 15). Online assessment measures: The
+Personality Inventory for DSM5–Brief Form (PID-5-BF)—Child Age 11–17.
+Retrieved from http://www.psychiatry.org/practice/dsm/dsm5/online-assessment-
+measures
+Atzil-Slonim, D. (2025). Multimodal intrapersonal and interpersonal dynamics
+(MIND): A transtheoretical coding manual.
+Atzil‐Slonim, D., Tishby, O., & Shefler, G. (2015). Internal representations of the
+therapeutic relationship among adolescents in psychodynamic
+psychotherapy. Clinical psychology & psychotherapy, 22(6), 502-512.
+Auszra, L., Greenberg, L. S., & Herrmann, I. (2013). Client emotional productivity—
+Optimal client in-session emotional processing in experiential
+therapy. Psychotherapy Research, 23(6), 732-746.
+Beck, A. T., Steer, R., & Brown, G. (1996). Beck Depression Inventory-II. San
+Antonio. In TX: Harcourt Brace & Company.
+Berk, E. A., Safran, J. D., Muran, J. C., & Eubanks-Carter, C. (2013). Unpublished
+manual for the segmented working alliance inventory observer-based measure
+(S-WAI-O), version 2.
+Bianco, A., Brocca, N., & Garassino, D. (2026). Assessing the potential of LLM-
+assisted annotation for corpus pragmatics: the case of humor.
+Bordin, E. S. (1979). The generalizability of the psychoanalytic concept of the
+working alliance. Psychotherapy: Theory, Research & Practice, 16(3), 252–260.
+https://doi.org/10.1037/h0085885
+Cicchetti, D. V. (1994). Guidelines, criteria, and rules of thumb for evaluating normed
+and standardized assessment instruments in psychology. Psychological
+29
+
+DEPRESSOMETER METHOD
+Assessment, 6(4), 284.
+Cranford, J. A., Shrout, P. E., Iida, M., Rafaeli, E., Yip, T., & Bolger, N. (2006). A
+Procedure for Evaluating Sensitivity to Within-Person Change: Can Mood
+Measures in Diary Studies Detect Change Reliably? Personality and Social
+Psychology Bulletin, 32(7), 917–929.
+http://doi.org/10.1177/0146167206287721
+Derogatis, L. R. (1992). The symptom checklist-90-revised. Minneapolis, MN: NCS.
+Diener, E. D., Emmons, R. A., Larsen, R. J., &amp; Griffin, S. (1985). The
+satisfaction with life scale. Journal of personality assessment, 49(1), 71-75
+Ekman, P., & Friesen, W. V. (1976). Measuring facial movement. Environmental
+Psychology and Nonverbal Behavior, 1(1), 56–75.
+Feinstein, A. R., & Cicchetti, D. V. (1990). High agreement but low kappa: I. The
+problems of two paradoxes. Journal of clinical epidemiology, 43(6), 543-549.
+Feldman, R. (1998). Coding interactive behavior manual. Unpublished manual.
+Feldman, R. (2012). Parenting Behavior as the Environment Where Children Grow.
+In The Cambridge Handbook of Environment in Human Development (pp. 535–
+567). https://doi.org/10.1017/cbo9781139016827.031
+Feldman, R. (2016). Coding interactive behavior in psychotherapy. Unpublished
+manual.
+Feldman, R., Bamberger, E., & Kanat-Maymon, Y. (2013). Parent-specific reciprocity
+from infancy to adolescence shapes children’s social competence and dialogical
+skills. Attachment & Human Development, 15(4), 407–423.
+https://doi.org/10.1080/14616734.2013.782650
+Fleiss, J. L. (1981). The measurement of interrater agreement. Statistical Methods for
+Rates and Proportions, 212–236.
+30
+
+DEPRESSOMETER METHOD
+Gibbons, M. B. C., Thompson, S. M., Scott, K., Schauble, L. A., Mooney, T.,
+Thompson, D., … Crits-Christoph, P. (2012). Supportive-expressive dynamic
+psychotherapy in the community mental health system: A pilot effectiveness trial
+for the treatment of depression. Psychotherapy, 49(3), 303–316.
+https://doi.org/10.1037/a0027694
+Gibbons, M. B. C., Gallop, R., Thompson, D., Luther, D., Crits-Christoph, K., Jacobs,
+J., … Crits-Christoph, P. (2016). Comparative effectiveness of cognitive therapy
+and dynamic psychotherapy for major depressive disorder in a community
+mental health setting: A randomized clinical noninferiority trial. JAMA
+Psychiatry, 73(9), 904–911. https://doi.org/10.1001/jamapsychiatry.2016.1720
+Gratz, K. L., & Roemer, L. (2004). Multidimensional Assessment of Emotion
+Regulation and Dysregulation: Development, Factor Structure, and Initial
+Validation of the Difficulties in Emotion Regulation Scale. Journal of
+Psychopathology and Behavioral Assessment, 26(1), 41–54.
+https://doi.org/10.1023/B:JOBA.0000007455.08539.94
+Greenberg, L. S. (2012). Emotions, the great captains of our lives: Their role in the
+process of change in psychotherapy. American Psychologist, 67(8), 697.
+Greenberg, L. S., Auszra, L., & Herrmann, I. (2007). The relationship among
+emotional productivity, emotional arousal and outcome in experiential therapy of
+depression. Psychotherapy Research, 17(4), 482–493.
+Grenyer, B. F., Marceau, E. M., & Wiseman, H. (2022). The core conflictual
+relationship theme for personality disorders.
+Gross, J. J., & John, O. P. (2003). Individual Differences in Two Emotion Regulation
+Processes: Implications for Affect, Relationships, and Well-Being. Journal of
+Personality and Social Psychology, 85(2), 348–362.
+31
+
+DEPRESSOMETER METHOD
+https://doi.org/10.1037/0022-3514.85.2.348
+Guadagnoli, E., & Mor, V. (1989). Measuring Cancer Patients’ Affect: Revision and
+Psychometric Properties of the Profile of Mood States (POMS). Psychological
+Assessment, 1(2), 150–154.
+http://doi.org/10.1037/1040-3590.1.2.150
+Gwet, K. L. (2014). Handbook of inter-rater reliability: The definitive guide to
+measuring the extent of agreement among raters. Advanced Analytics, LLC.
+Hamilton, M. (1960). A rating scale for depression. Journal of neurology,
+neurosurgery, and psychiatry, 23(1), 56.
+Hatcher, R. L., & Gillaspy, J. A. (2006). Development and validation of a revised
+short version of the working alliance inventory. Psychotherapy Research, 16(1),
+12–25. https://doi.org/10.1080/10503300500352500
+Hill, C. E., & Kellems, I. S. (2002). Development and use of the Helping Skills
+Measure to assess client perceptions of the effects of training and of helping
+skills in session. Journal of Counseling Psychology, 49, 264 –272.
+Höfling, T. T. A., Gerdes, A. B., Föhl, U., & Alpers, G. W. (2020). Read my face:
+Automatic facial coding versus psychophysiological indicators of emotional
+valence and arousal. Frontiers in Psychology, 11, 1388.
+Horowitz, L. M., Alden, L. E., Wiggins, J. S., & Pincus, A. L. (2000). IIP–64/IIP–32
+professional manual. San Antonio, TX: The Psychological Corporation.
+Horvath, A. O., & Greenberg, L. S. (1989). Development and Validation of the
+Working Alliance Inventory. Journal of Counseling Psychology, 36(2), 223–233.
+https://doi.org/10.1037/0022-0167.36.2.223
+Krippendorff, K. (2018). Content analysis: An introduction to its methodology. Sage
+publications.
+32
+
+DEPRESSOMETER METHOD
+Lambert, M. J., Hansen, N. B., Umphress, V., Lunnen, K., Okiishi, J., Burlingame,
+G., & Reisinger, C. W. (1996). Administration and scoring manual for the
+Outcome Questionnaire (OQ-45.2). Wilmington, DE: American Professional
+Credentialing Services, 35.
+Lazarus, G., & Rafaeli, E. (2023). Modes: Cohesive personality states and their
+interrelationships as organizing concepts in psychopathology. Journal of
+Psychopathology and Clinical Science, 132(3), 238.
+Lebowitz, E. R., Silverman, W. K., Martino, A. M., Zagoory-Sharon, O., Feldman, R.,
+& Leckman, J. F. (2017). Oxytocin response to youth-mother interactions in
+clinically anxious youth is associated with separation anxiety and dyadic
+behavior. Depression and Anxiety, 34(2), 127–136.
+https://doi.org/10.1002/da.22585
+Leichsenring, F., Leweke, F., Klein, S., & Steinert, C. (2015). The empirical status of
+psychodynamic psychotherapy - An update: Bambi’s alive and kicking.
+Psychotherapy and Psychosomatics, 84(3), 129–148.
+https://doi.org/10.1159/000376584
+Lent, R. W., Hoffman, M. A., Hill, C. E., Treistman, D., Mount, M., & Singley, D.
+(2006). Client-specific counselor self-efficacy in novice counselors: Relation to
+perceptions of session quality. Journal of Counseling Psychology, 53(4), 453.
+Luborsky, L. (1984). The principles of psychoanalytic psychotherapy. New York,
+NY: Basic Books.
+Luborsky, L. (1998). The Relationship Anecdotes Paradigm (RAP) interview as a
+versatile source of narratives.
+Luborsky, L., & Crits-Christoph, P. (Eds.). (1998). Understanding Transference: The
+Core Conflictual Relationship Theme Method (2nd ed.). Washington DC:
+33
+
+DEPRESSOMETER METHOD
+American Psychological Association.
+Luborsky, L., & Mark, D. (1991). Short-term supportive-expressive psychoanalytic
+psychotherapy.
+Luborsky, L., Mark, D., Hole, A. V., Popp, C., Goldsmith, B., & Cacciola, J. (1995).
+Supportive - expressive dynamic psychotherapy of depression: A time-limited
+version. In J. P. Barber & P. Crits-Christoph (Eds.), Dynamic therapies for
+psychiatric disorders (Axis I) (pp. 13-42). New York, NY, US: Basic Books.
+Lutz, W., Tholen, S., Schürch, E., & Berking, M. (2006). Die entwicklung,
+validierung und reliabilität von kurzformen gängiger psychometrischer
+instrumente zur evaluation des therapeutischen fortschritts in psychotherapie und
+psychiatrie . Diagnostica, 52, 11-25.
+Mayer, T., Warikoo, N., Eliassaf, A., Atzil-Slonim, D., & Gurevych, I. (2024, March).
+Predicting Client Emotions and Therapist Interventions in Psychotherapy
+Dialogues. In Proceedings of the 18th Conference of the European Chapter of
+the Association for Computational Linguistics (Volume 1: Long Papers) (pp.
+1463-1477).
+McAleavey, A. A., & Castonguay, L. G. (2014). Insight as a common and specific
+impact of psychotherapy: Therapist-reported exploratory, directive, and common
+factor interventions. Psychotherapy: Theory, Research, & Practice, 51, 283–294.
+http://dx.doi.org/10.1037/a0032410
+McCarthy, K. S., & Barber, J. P. (2009). The multitheoretical list of therapeutic
+interventions (MULTI): Initial report. Psychotherapy Research, 19, 96-113.
+doi: 10.1080/10503300802524343.
+McCullough, L. (1988). Psychotherapy interaction coding system manual: the PIC
+system. Soc. Behav. Sci. Doc, 18.
+34
+
+DEPRESSOMETER METHOD
+McCullough, L., Kuhn, N., Andrews, S., Valen, J., Hatch, D., & Osimo, F. (2003).
+The reliability of the Achievement of Therapeutic Objectives Scale (ATOS): A
+research and teaching tool for psychotherapy. Journal of Brief Therapy, 2, 75–
+90.
+McNair, D. M., Lorr, M., & Droppleman, L. F. (1992). Revised manual for the Profile
+of Mood States. San Diego, CA: Educational and Industrial Testing Services,
+731, 732–733.
+Mergenthaler, E., & Stinson, C. (1992). Psychotherapy transcription standards.
+Psychotherapy Research, 2(2), 125–142.
+Miller, S. D., & Duncan, B. L. (2003). The Outcome Rating Scale: A Preliminary
+Study of the Reliability, Validity, and Feasibility of a Brief Visual Analog
+Measure View project Difficult Conversations in Therapy (DCT) RCT project
+View project Heart and Soul of Change Project. Retrieved from
+https://www.researchgate.net/publication/242159752
+Missirlian, T. M., Toukmanian, S. G., Warwar, S. H & ,.Greenberg, L. S. (2005).
+Emotional arousal, client perceptual processing, and the working alliance in
+experiential psychotherapy for depression .Journal of consulting and clinical
+psychology861 ,)5(73.
+Paz, Adar, et al. "Intrapersonal and interpersonal vocal affect dynamics during
+psychotherapy." Journal of Consulting and Clinical Psychology 89.3 (2021):
+227.
+Paz, A., Rafaeli, E., Bar-Kalifa, E., Gilboa-Schechtman, E., Gannot, S., Narayanan, S.
+S., & Atzil-Slonim, D. (2024). Multimodal analysis of temporal affective
+variability within treatment for depression. Journal of Consulting and Clinical
+Psychology, 92(9), 569.
+35
+
+DEPRESSOMETER METHOD
+Paz, A., Rafaeli, E., Bar-Kalifa, E., Gilboa-Schechtman, E., Gannot, S., Narayanan,
+S., & Atzil-Slonim, D. (2026). Dampening versus amplification: Intrapersonal
+and interpersonal vocal affect dynamics during psychotherapy for
+depression. Psychotherapy Research, 36(5), 929-942.
+Pratt, M., Apter-Levi, Y., Vakart, A., Kanat-Maymon, Y., Zagoory-Sharon, O., &
+Feldman, R. (2017). Mother-child adrenocortical synchrony; Moderation by
+dyadic relational behavior. Hormones and behavior, 89, 167-175.
+Priel, A., Djalovski, A., Zagoory‐Sharon, O., & Feldman, R. (2019). Maternal
+depression impacts child psychopathology across the first decade of life:
+Oxytocin and synchrony as markers of resilience. Journal of Child Psychology
+and Psychiatry, 60(1), 30-42.
+Ramseyer, F. T. (2020). Motion energy analysis (MEA): A primer on the assessment
+of motion from video. Journal of counseling psychology, 67(4), 536.
+Revelle, W. (2007). Experimental approaches to the study of personality. In B.
+Robins, R. C. Fraley, & R. F. Krueger (Eds.), Handbook of Research Methods in
+Personality Psychology (37–61). Guilford Press.
+Rosenberg, M. (1965). Rosenberg self-esteem scale (RSE). Acceptance and
+commitment therapy. Measures package, 61(52), 18.
+Russell, J. A. (1980). A circumplex model of affect. Journal of personality and social
+psychology, 39(6), 1161.
+Sayda, D., Bar-Kalifa, E., Gordon, I., & Atzil-Slonim, D. (2026). Flexible and
+multimodal synchrony during psychotherapy for depression: Addressing the
+mixed synchrony–outcome findings. Journal of Counseling Psychology.
+Schneiderman, I., Kanat-Maymon, Y., Ebstein, R. P., & Feldman, R. (2014).
+Cumulative risk on the oxytocin receptor gene (OXTR) underpins empathic
+36
+
+DEPRESSOMETER METHOD
+communication difficulties at the first stages of romantic love. Social cognitive
+and affective neuroscience, 9(10), 1524-1529.
+Sheehan, D. V., Harnett-Sheehan, K., & Raj, B. (1996). The measurement of
+disability. International clinical psychopharmacology, 11, 89-95.
+Sheehan, K. H., & Sheehan, D. V. (2008). Assessing treatment effects in clinical trials
+with the discan metric of the Sheehan Disability Scale. International clinical
+psychopharmacology, 23(2), 70-83.
+Sheehan, D. V., Harnett-Sheehan, K., Spann, M. E., Thompson, H. F., & Prakash, A.
+(2011). Assessing remission in major depressive disorder and generalized
+anxiety disorder clinical trials with the discan metric of the Sheehan disability
+scale. International clinical psychopharmacology, 26(2), 75-83.
+Sheehan, D. V. ., Lecrubier, Y. ., Sheehan, K. H. ., Amorim, P. ., Janavs, J. ., &
+Weiller, E. . et al. (1998). The Mini-International Neuropsychiatric Interview
+(M.I.N.I): The development and validation of a structured diagnostic psychiatric
+interview for DSM-IV and ICD-10. - PsycNET. Retrieved September 26, 2020,
+from https://psycnet-apa-org.ezprimo1.idc.ac.il/record/1998-03251-004
+Slonim, D. A., Shefler, G., Slonim, N., & Tishby, O. (2013). Adolescents in
+psychodynamic psychotherapy: Changes in internal representations of
+relationships with parents. Psychotherapy Research, 23(2), 201-217.
+Solomonov, N., McCarthy, K. S., Gorman, B. S., & Barber, J. P. (2018). The
+Multitheoretical List of Therapeutic Interventions–30 items (MULTI-30).
+Psychotherapy Research, 19, 96-113
+doi: 10.1080/10503307.2017.1422216.
+Stiles, W. B. (2001). Assimilation of problematic experiences. Psychotherapy:
+Theory, Research, Practice, Training, 38(4), 462. https://doi.org/10.1037/0033-
+37
+
+DEPRESSOMETER METHOD
+3204.38.4.462
+Stolowicz-Melman, D., Atzil-Slonim, D., Paz, A., Bar-Kalifa, E., Gilboa-Schechtman,
+E., & Feldman, R. (2026). Associations between interpersonal synchrony and
+clients’ perception of session quality are moderated by depression
+severity. Psychotherapy Research, 36(1), 166-176.
+Subica, A. M., Fowler, J. C., Elhai, J. D., Frueh, B. C., Sharp, C., Kelly, E. L., &
+Allen, J. G. (2014). Factor structure and diagnostic validity of the beck
+depression inventory-II with adult Clinical inpatients: Comparison to a gold-
+standard diagnostic interview. Psychological Assessment, 26(4), 1106–1115.
+https://doi.org/10.1037/a0036998
+Summers, B. J., & Wilhelm, S. (2024). Overview of Evidence-Based Treatment:
+Psychotherapy. In Optimizing Evidence-Based Treatment for Body Dysmorphic
+Disorder (pp. 97-114). Cham: Springer Nature Switzerland.
+Svantesson, M., Eklund, A., & Thordstein, M. (2024). Interrater agreement of
+annotations of epileptiform discharges and its impact on deep learning–A pilot
+study. medRxiv, 2024-04.
+Tishby, O., & Vered, M. (2011). Countertransference in the treatment of adolescents
+and its manifestation in the therapist-patient relationship. Psychotherapy
+Research, 21(6), 621-630.
+Vach, W., & Gerke, O. (2023). Gwet's AC1 is not a substitute for Cohen's kappa–A
+comparison of basic properties. MethodsX, 10, 102212.
+Warwar, S., & Greenberg, L. S. (1999). Client emotional arousal scale-III.
+Unpublished manuscript, York Psychotherapy Research Clinic, York University,
+Toronto, Ontario.
+Warwar ,S. H .)2003( .Relating emotional processes to outcome in experiential
+38
+
+DEPRESSOMETER METHOD
+psychotherapy of depression( Unpublished doctoral dissertation .)York
+University ,Toronto, Ontario.
+Whisman, M. A., Perez, J. E., & Ramel, W. (2000). Factor structure of the Beck
+Depression Inventory—Second Edition (BDI-ii) in a student sample. Journal of
+Clinical Psychology, 56(4), 545–551. https://doi.org/10.1002/(SICI)1097-
+4679(200004)56:4<545::AID-JCLP7>3.0.CO;2-U
+Williams, J. B. W. (1988). A Structured Interview Guide for the Hamilton Depression
+Rating Scale. Archives of General Psychiatry, 45(8), 742–747.
+https://doi.org/10.1001/archpsyc.1988.01800320058007
+Wongpakaran, N., Wongpakaran, T., Wedding, D., & Gwet, K. L. (2013). A
+comparison of Cohen’s Kappa and Gwet’s AC1 when calculating inter-rater
+reliability coefficients: a study conducted with personality disorder
+samples. BMC medical research methodology, 13(1), 61.
+Yu, D., Li, L., Su, H., & Fuoli, M. (2024). Assessing the potential of LLM-assisted
+annotation for corpus-based pragmatics and discourse analysis: The case of
+apology. International Journal of Corpus Linguistics, 29(4), 534-561.
+Luborsky, L., & Crits-Christoph, P. (Eds.). (1998). Understanding Transference: The
+Core Conflictual Relationship Theme Method (2nd ed.). Washington DC:
+American Psychological Association.
+McCullough, L., Kuhn, N., Andrews, S., Valen, J., Hatch, D., & Osimo, F. (2003).
+The reliability of the Achievement of Therapeutic Objectives Scale (ATOS): A
+research and teaching tool for psychotherapy. Journal of Brief Therapy, 2, 75-90.
+Grenyer, B. F., Marceau, E. M., & Wiseman, H. (2022). The core conflictual
+39
+
+DEPRESSOMETER METHOD
+relationship theme for personality disorders.
+Cicchetti, D. V. (1994). Guidelines, criteria, and rules of thumb for evaluating normed
+and standardized assessment instruments in psychology. Psychological
+assessment, 6(4), 284.
+Fleiss, J. L. (1981). The measurement of interrater agreement. Statistical methods for
+rates and proportions, 212-236.
+Höfling, T. T. A., Gerdes, A. B., Föhl, U., & Alpers, G. W. (2020). Read my face:
+automatic facial coding versus psychophysiological indicators of emotional
+valence and arousal. Frontiers in psychology, 11, 1388.
+Ekman, P., & Friesen, W. V. (1976). Measuring facial movement. Environmental
+psychology and nonverbal behavior, 1(1), 56-75.
+40
+
