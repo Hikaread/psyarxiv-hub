@@ -864,6 +864,43 @@ a:hover { color: var(--accent-hover); }
   margin-bottom: 4px;
 }
 .modal-section-text { font-size: 0.94rem; line-height: 1.65; }
+
+/* Collapsible Methodology Note */
+.collapsible-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  transition: color 0.2s ease;
+  padding-right: 2px;
+}
+.collapsible-toggle:hover { color: var(--accent-hover); }
+.chevron-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0.6;
+}
+.collapsible-section.open .chevron-icon {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+.collapsible-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+  opacity: 0;
+}
+.collapsible-section.open .collapsible-body {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+.collapsible-body > .modal-section-text {
+  overflow: hidden;
+  min-height: 0;
+}
 .text-link {
   color: var(--accent);
   overflow-wrap: anywhere;

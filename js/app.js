@@ -693,11 +693,11 @@
     if (p.summary) {
       h += '<div class="modal-section"><div class="modal-section-label">Summary</div><div class="modal-section-text md-content">' + renderMd(p.summary) + '</div></div>';
     }
-    if (p.methodology_note) {
-      h += '<div class="modal-section"><div class="modal-section-label">Methodology Note</div><div class="modal-section-text md-content">' + renderMd(p.methodology_note) + '</div></div>';
-    }
     if (p.clinical_insight) {
       h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text md-content">' + renderMd(p.clinical_insight) + '</div></div>';
+    }
+    if (p.methodology_note) {
+      h += '<div class="modal-section collapsible-section"><div class="modal-section-label collapsible-toggle" role="button" tabindex="0" aria-expanded="false"><span>Methodology Note</span><svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div><div class="collapsible-body"><div class="modal-section-text md-content">' + renderMd(p.methodology_note) + '</div></div></div>';
     }
     if (p.relevant_for) {
       h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text md-content">' + renderMd(p.relevant_for) + '</div></div>';
@@ -717,6 +717,17 @@
     body.innerHTML = h;
     renderKaTeXInContainer(body);
     document.getElementById('modal-share-btn').addEventListener('click', function() { sharePaper(p); });
+    var toggle = body.querySelector('.collapsible-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', function() {
+        var section = this.closest('.collapsible-section');
+        var isOpen = section.classList.toggle('open');
+        this.setAttribute('aria-expanded', isOpen);
+      });
+      toggle.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this.click(); }
+      });
+    }
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
   }
