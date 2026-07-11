@@ -194,14 +194,13 @@
       var s = JSON.parse(localStorage.getItem('psyarxiv-settings'));
       if (s) return s;
     } catch(e) {}
-    return { theme: 'light', font: 'rubik', fontSize: 'medium', dyslexic: 'off', pageSize: '25' };
+    return { theme: 'light', fontSize: 'medium', dyslexic: 'off', pageSize: '25' };
   }
   function saveSettings() {
     try { localStorage.setItem('psyarxiv-settings', JSON.stringify(settings)); } catch(e) {}
   }
   function applySettings(s) {
     document.documentElement.setAttribute('data-theme', s.theme);
-    document.documentElement.setAttribute('data-font', s.font);
     document.documentElement.setAttribute('data-fontsize', s.fontSize);
     document.documentElement.setAttribute('data-dyslexic', s.dyslexic);
     PAGE_SIZE = parseInt(s.pageSize, 10) || 25;
@@ -292,15 +291,11 @@
     .then(function(r) { return r.json(); })
     .then(function(data) {
       papers = data;
-      papers.forEach(function(p) {
-        if (p.categories && !Array.isArray(p.categories)) p.categories = [p.categories];
-      });
       buildCategoryFilters();
       applyStateFromHash();
       applyFilters();
     })
-    .catch(function(err) {
-      console.error('PsyHub init error:', err);
+    .catch(function() {
       document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">Failed to load paper data.</p>';
     });
 
@@ -346,7 +341,7 @@
       var catIds = (p.categories || []).map(function(c) { return labelToId[c] || 'other'; });
       if (!catIds.some(function(id) { return activeCats[id]; })) return false;
       if (q) {
-        var haystack = [p.title, p.authors, p.summary, p.clinical_insight, p.methodology_note, p.relevant_for].join(' ').toLowerCase();
+        var haystack = [p.title, p.authors, p.summary, p.clinical_insight, p.relevant_for].join(' ').toLowerCase();
         if (haystack.indexOf(q) === -1) return false;
       }
       return true;
@@ -696,9 +691,6 @@
     if (p.clinical_insight) {
       h += '<div class="modal-section"><div class="modal-section-label">Clinical Insight</div><div class="modal-section-text md-content">' + renderMd(p.clinical_insight) + '</div></div>';
     }
-    if (p.methodology_note) {
-      h += '<div class="modal-section collapsible-section"><div class="modal-section-label collapsible-toggle" role="button" tabindex="0" aria-expanded="false"><span>Methodology Note</span><svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></div><div class="collapsible-body"><div class="modal-section-text md-content">' + renderMd(p.methodology_note) + '</div></div></div>';
-    }
     if (p.relevant_for) {
       h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text md-content">' + renderMd(p.relevant_for) + '</div></div>';
     }
@@ -717,17 +709,6 @@
     body.innerHTML = h;
     renderKaTeXInContainer(body);
     document.getElementById('modal-share-btn').addEventListener('click', function() { sharePaper(p); });
-    var toggle = body.querySelector('.collapsible-toggle');
-    if (toggle) {
-      toggle.addEventListener('click', function() {
-        var section = this.closest('.collapsible-section');
-        var isOpen = section.classList.toggle('open');
-        this.setAttribute('aria-expanded', isOpen);
-      });
-      toggle.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this.click(); }
-      });
-    }
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
   }
@@ -921,26 +902,14 @@
     html = html.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
     // 5. Italic *text*
     html = html.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
-    // 5b. Underline __text__ (Discord-style)
-    html = html.replace(/__(.+?)__/g, '<u>$1</u>');
     // 6. Bullet lists: lines starting with - 
-    html = html.replace(/(?:^|\n)\s*[-*]\s+([^\n]*(?:<[^>]*>[^\n]*)*)/gm, function(m, item) {
+    html = html.replace(/(?:^|<br>)\s*[-*]\s+([^<]*(?:<[^>]*>[^<]*)*)/gm, function(m, item) {
       return '<li>' + item.trim() + '</li>';
     });
     // Wrap consecutive <li> in <ul>
     html = html.replace(/((?:<li>[\s\S]*?<\/li>\s*)+)/g, '<ul>$1</ul>');
-    // 6b. Protect <ul> blocks from newline-to-br conversion
-    var ulBlocks = [];
-    html = html.replace(/(<ul>[\s\S]*?<\/ul>)/g, function(m) {
-      ulBlocks.push(m);
-      return '%%UL' + (ulBlocks.length - 1) + '%%';
-    });
-    // 7. Newlines to <br> (safe now — <ul> blocks are protected)
+    // 7. Newlines to <br> (but not inside <ul>)
     html = html.replace(/\n/g, '<br>');
-    // 7b. Restore <ul> blocks
-    for (var u = 0; u < ulBlocks.length; u++) {
-      html = html.replace('%%UL' + u + '%%', ulBlocks[u]);
-    }
     // 8. Restore math placeholders with KaTeX spans
     for (var i = 0; i < displayMaths.length; i++) {
       html = html.replace('%%DM' + i + '%%', '<span class="katex-display" data-math="' + esc(displayMaths[i]) + '"></span>');
@@ -949,7 +918,7 @@
       html = html.replace('%%IM' + j + '%%', '<span class="katex-inline" data-math="' + esc(inlineMaths[j]) + '"></span>');
     }
     // 9. Sanitize: strip any tags not in whitelist
-    var whitelist = ['b','i','em','strong','br','ul','ol','li','p','span','sub','sup','u'];
+    var whitelist = ['b','i','em','strong','br','ul','ol','li','p','span','sub','sup'];
     html = html.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, function(tag, name) {
       name = name.toLowerCase();
       // Allow katex spans

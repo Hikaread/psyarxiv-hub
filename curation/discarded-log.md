@@ -246,3 +246,14 @@
 - **32g4x_v1** — The Effects of Counterattitudinal Information on Evaluations. Discarded: basic social psychology, attitude change replication.
 
 - **wjqr3_v3** — Signaling Good Practice: Trust in Political Science. Discarded: political science research communication, not clinical psychology.
+- q9csp_v1 | 6 | Religiosity and Prosocial Behavior in Collectivistic Indonesia — social psychology, not clinically focused
+- t37cg_v1 | 3 | Drawing/handwriting dataset of Czech children — data descriptor, excluded (child population)
+- xqnkz_v2 | 3 | Generative AI Reliance and Cognitive Capacity — cognitive/occupational psychology, not clinical
+- x8knb_v2 | 2 | Group Bonds, Leadership Preferences, and Religious Freedom — social/political psychology
+- 65qnk_v2 | 2 | Consciousness, Mind Perceptions, and Emotional Reactions to AI — AI perception study
+- kz9ad_v3 | 2 | Studying the Best Can Mislead: Selection Bias in Expertise Research — methodology of expertise, not clinical
+- cfaep_v3 | 2 | Controllable Progress as an Intrinsic Value Signal in Cognitive Control — cognitive psychology
+- meh8j_v4 | 2 | Epistemic framework for behavioral and brain science lab infrastructure — meta-science infrastructure
+- b7uj5_v2 | 2 | Tone, stress, quantity in Žiri Slovenian — linguistics/phonology
+- rvd9q_v2 | 2 | ADHD Symptoms and Learning Difficulties Grades 1-9 — excluded (child/adolescent population)
+- jeu9y_v1 | 1 | Dynamic theory of multi-agent goal pursuit — mathematical modeling, not clinical
