@@ -118,3 +118,31 @@
 - nru4q_v1 | 2 | Reciprocal Relations Between Motivational Factors and Error Reactions — Primary school children; excluded
 - czqjw_v1 | 1 | Spatial-Numerical Associations Survive Spatial Frequency Equalization — Basic cognitive science; not clinical
 - 9rq82_v1 | 1 | Perceived Error Climate in the Classroom as an Important Aspect of Student Support — Educational psychology; not clinical
+- kjuae_v1 | 13 | A Cluster Randomised Controlled Trial of a Transdiagnostic Preventative Mental Health Intervention for Adolescents — adolescent-focused intervention, excluded per pipeline rules
+- k8mr9_v2 | 6 | Benevolent Childhood Experiences, Adversity, and Emotion Regulation as Pathways to Adolescent Mental Wellbeing — adolescent sample, excluded per pipeline rules
+- mqt76_v2 | 5 | The double dissociation between cortical blindness and aphantasia — cognitive neuroscience case review, no direct clinical relevance
+- urj25_v1 | 4 | Validation of the Teamwork-in-Engineering-Education Situational Judgment Test — engineering education context, not clinical
+- 9m3xf_v2 | 3 | AI and Agency: Benefiting Users by Understanding and Serving Explicit Long-Term Aspirations — AI ethics/technology framework, not clinical
+- cfm3g_v2 | 3 | Could Brain-Computer Interfaces Advance Our Understanding of the Nature of Consciousness — philosophy of consciousness, not clinical
+- 8au9j_v9 | 3 | The view-tolerance of human identity recognition depends on horizontal face information — vision science, not clinical
+- vtyjk_v2 | 3 | Imagining oneself versus the object affects response times but not accuracy — cognitive psychology, mental imagery, not clinical
+- tsm64_v1 | 2 | Childbearing Motivation: An Incentive Motivation from An Evolutionary and Biopsychological Perspective — evolutionary psychology, not clinical
+- 8n9vt_v1 | 2 | Memory-driven attentional capture is not explained by inefficient task switching — basic cognitive psychology, not clinical
+- 3uhne_v2 | 2 | Selective attenuation of neural responses to own infant's face in early motherhood — perinatal neuroimaging, no treatment implications
+- 2ftqc_v2 | 2 | Cognitive Security: The study and practice of protecting the human mind — theoretical framework, not clinical
+- r7vpy_v1 | 2 | The Music-Evoked Kinesthetic Imagery Scale — music psychology measure, not clinical
+- 73tr8_v1 | 2 | Testing Alternative Approaches to Manipulation of Environmental Identity — environmental psychology, not clinical
+- axgv2_v4 | 2 | A Distinct Role for Perceived Realism in Juror Decision Making — forensic/legal psychology, not clinical
+- z3cnm_v1 | 1 | Comparing Risk Perception in Transport and Non-Transport Contexts — applied cognition, not clinical
+- cjbpm_v1 | 1 | Adaptive Prediction in Heritage Bilingualism — linguistics, not clinical
+- vkpze_v1 | 1 | Expanding Understanding of University Students' Agency — educational psychology, not clinical
+- 9678h_v2 | 1 | Efficacy of Imitation Training for Individuals with Autism Spectrum Disorder — child/adolescent autism focus, excluded per pipeline rules
+- 6c24e_v3 | 1 | Climate Advocacy and Activism by Scientists — not clinical
+- nsd6w_v3 | 1 | Basic argument structure is adult-like by 30 months — developmental linguistics, not clinical
+- dy6wc_v1 | 1 | Structure, dynamics and origin of the phenomenal space — philosophy of consciousness, not clinical
+- 4kgcq_v3 | 1 | Exploring cultural and individual differences in the hierarchy of moral concern — moral psychology, not clinical
+- edaxh_v3 | 1 | Covert attention dynamically shapes decision making — basic cognitive psychology, not clinical
+- vnhs7_v4 | 1 | A Comparative Multi-Method Re-Analysis of Longitudinal Evidence for Causal Intergroup Contact Effects — social psychology, not clinical
+- ug756_v4 | 1 | Consolidating the measurement of intellectual humility — personality measurement, not clinical
+- g86qk_v1 | 1 | Revisiting the Four Stages of Creativity — not clinical
+- rsbf3_v1 | 1 | Emotion expression in song and speech — music cognition, not clinical
