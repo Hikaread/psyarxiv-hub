@@ -146,3 +146,37 @@
 - ug756_v4 | 1 | Consolidating the measurement of intellectual humility — personality measurement, not clinical
 - g86qk_v1 | 1 | Revisiting the Four Stages of Creativity — not clinical
 - rsbf3_v1 | 1 | Emotion expression in song and speech — music cognition, not clinical
+- 6acrb_v2 | 7 | The Cyberbehavioral Reconstruction Model (CRM-CSAM): A Framework for the Behavioral Analysis of CSAM-Related Activity — Forensic/criminal justice framework, not directly applicable to clinical therapy practice
+- wuard_v1 | 6 | Culturally tailored parenting program recruitment: Messaging responses and participation barriers among Chinese immigrant parents — Non-clinical population; program recruitment research rather than treatment
+- q3ndw_v1 | 6 | Loneliness and Social Isolation Among Older Adults in Slovakia: Prevalence, Sociodemographic Determinants, and Health-Re — Epidemiological survey; no clinical intervention or mechanism
+- t6sj2_v1 | 6 | Context-Specific Mentalizing in Early Parenthood: An Exploratory Cross-Sectional Study Comparing Parental and Romantic P — Non-clinical population; basic research on mentalizing in early parenthood
+- qnpz3_v3 | 6 | Unpacking Conceptions of Being American in Relation to Identity and Mental Health Among Emerging Adults of Color — Identity politics/sociology; mental health is secondary
+- nf6mh_v2 | 5 | Novel Word Learning from Social Robots by Autistic and Non-Autistic Children — Educational/developmental; child word learning, not clinical treatment
+- 5fw8q_v1 | 5 | Joint contributions of genetic risk and pubertal maturation to internalizing symptoms in adolescents — Adolescent developmental genetics; non-clinical population, focus on puberty
+- 32h8j_v2 | 4 | Teacher Dashboard Use in Physics Classes: Effects of a Brief Informational–Motivational Intervention on Use and Students — Education technology; physics teaching, not clinical
+- 67eqx_v2 | 4 | How is AI impacting people? — General AI impact review; not clinical psychology
+- ymxup_v1 | 4 | Critical Mass Theory: An Integrative Conceptual Review — Organizational behavior/diversity management theory; not clinical
+- f8gnv_v1 | 3 | Predicting children's early word learning using egocentric videos of their learning environments — Developmental psycholinguistics; child language acquisition
+- 34pjh_v1 | 3 | More effort, more variability: Distributional modeling of effort-performance coupling — Exercise physiology; perceived exertion in sports
+- xrz42_v1 | 3 | How Adults in Spain Perceive Love: Individual Differences in Cultural Attunement and Evaluative Style — Social/personality psychology; love perception research
+- dzs59_v2 | 3 | The Perils of Partialing Optimism: Relationships with Personality and Health — Psychometrics methodology; LOT-R statistical properties, not clinical application
+- s2p8w_v2 | 3 | Towards a More Comprehensive Understanding of Parental Mediation in Adolescents' Gaming: A Circumplex Approach — Parenting/adolescent media use; non-clinical
+- mjd96_v2 | 2 | Reading Anxiety in Children and Adolescents and Its Negative Association With Word Reading Performance — Educational/developmental; child reading difficulties
+- 52szn_v1 | 2 | Interval-Dependent Effects of Action and Choice Availability on Temporal Binding — Basic cognitive neuroscience; temporal binding in perception
+- 85quw_v3 | 2 | @Grok Is This True? LLM-Powered Fact-Checking on Social Media — NLP/computational social science; not clinical
+- mbp4h_v4 | 2 | The role of linguistic knowledge in verbal fluency tests: How individual differences in language skills shape the mental — Psycholinguistics; verbal fluency cognitive mechanisms
+- ugp6s_v1 | 2 | Parental Engagement and Disaffection in Education: Development of two Multidimensional Parent-Report Measures — Educational psychology; parent-school engagement
+- u7j5q_v1 | 2 | The influence of visual landmarks on spatiotopic localization and object-location binding — Basic vision science; spatial perception
+- pgct9_v4 | 2 | Intention and foresight in deliberate actions: An ERP study — Cognitive neuroscience/legal philosophy; not clinical
+- 98y6k_v1 | 2 | Making Room for Theory in DIF and Measurement Invariance Analysis with Covariate Effects on Groups of Items — Psychometrics methodology; measurement modeling
+- qubt8_v1 | 2 | Brazilian L2 English Accentedness Ratings by LLMs: Systematic Bias and the Limits of Automated Perception — Linguistics/AI evaluation; not clinical
+- t6swf_v1 | 1 | What Sticks and What Doesn't: How Do Children Process Irrelevant Information? — Developmental cognitive psychology; child executive function
+- c7u69_v1 | 1 | Mapping nonordinary experiences in a representative German sample: Phenomenology, prevalence and links to self-transcend — Nonordinary experiences/spirituality research; not clinical psychology
+- 8fj6p_v2 | 1 | Quantifying the impact of careless responding — Psychometrics methodology; survey response bias
+- 4rpxm_v2 | 1 | "I would not have done that": Outcome knowledge distorts memory for decisions made minutes ago — Basic cognitive psychology; memory distortion
+- uxkg6_v1 | 1 | Heterogeneous, Adaptive Networks of Beliefs — Computational social science; belief network modeling
+- cuwvs_v1 | 1 | Cognitive load disrupts different stages of prediction in second-language speakers during a visual world task — Psycholinguistics; L2 language processing
+- 5qu39_v1 | 1 | Age, Education, and Sex Differences in Smartphone-based Cognitive Assessment in Daily Life — Cognitive aging methodology; not clinical
+- s2xdp_v1 | 1 | Investigating Language and Cognition in Virtual Reality — Cognitive science methodology; VR as research tool
+- 2wr3c_v2 | 1 | Supporting Self-Regulated Learning through Performance Profile Feedback: An Experimental and Survey Study in Online Psyc — Educational psychology; online learning
+- p87rq_v2 | 1 | Aha-Related Surprise Tracks Violated Expectations at Multiple Levels in Perceptual Insight — Cognitive neuroscience; insight problem solving
