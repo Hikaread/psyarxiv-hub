@@ -418,3 +418,4 @@
 | pn92s | Planning with Others in Mind | Cognitive psychology, not clinical |
 | bpcg7 | Trust drives preference for contractualist artificial agents | Human-AI interaction, not clinical psychology |
 | wbfs3 | Mind Wandering and Task-Unrelated Thoughts during rest evoked by preferred music | Basic cognitive psychology, not clinical |
+| rjue3 | Salivary cortisol responses to academic stress in university students following a dog-assisted intervention | No PDF available on PsyArXiv — cannot evaluate |
