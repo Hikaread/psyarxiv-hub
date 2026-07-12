@@ -915,9 +915,10 @@
       inlineMaths.push(inner);
       return '%%IM' + (inlineMaths.length - 1) + '%%';
     });
-    // 4. Bold **text**
+    // 4. Bold **text** and __text__
     html = html.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
-    // 5. Italic *text*
+    html = html.replace(/__(.+?)__/g, '<b>$1</b>');
+    // 5. Italic *text* and _text_
     html = html.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
     // 6. Bullet lists: lines starting with - 
     html = html.replace(/(?:^|<br>)\s*[-*]\s+([^<]*(?:<[^>]*>[^<]*)*)/gm, function(m, item) {
