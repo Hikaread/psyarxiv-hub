@@ -4,12 +4,14 @@
  * Discover new PsyArXiv preprints from the OSF API.
  * Scans day-by-day from today backwards, checking against seen-compact-ids.json.
  * Stops when ≥ MIN_UNSEEN unseen papers are found.
- * NO maximum lookback — can go back months or a year.
+ * Scans until it reaches a day where ALL papers are already seen (the true frontier),
+ *   or hits MAX_LOOKBACK_DAYS as a safety net.
  */
 
 const API_BASE = 'https://api.osf.io/v2';
 const PAUSE_MS = 300;
 const MIN_UNSEEN = 15;           // stop when this many unseen papers collected
+const MAX_LOOKBACK_DAYS = 730;  // safety net: don't scan more than 2 years back
 const SEEN_IDS_FILE = '/home/z/my-project/psyarxiv-hub/data/seen-compact-ids.json';
 const OUTPUT_FILE = '/home/z/my-project/scripts/discovered-papers.json';
 
@@ -131,12 +133,21 @@ async function main() {
       }
     } else {
       daysFullyScanned++;
-      // If we've gone 30+ consecutive days with zero new unseen papers, stop
-      if (daysFullyScanned >= 30 && daysWithNewPapers === 0) {
-        stopReason = `No new papers found in ${daysFullyScanned} consecutive days — nothing new to curate`;
+      // If every paper on this day was already seen, we may have reached the frontier.
+      // Require CONSECUTIVE_FULLY_SEEN days of 100% seen to confirm we've passed the frontier.
+      const CONSECUTIVE_FULLY_SEEN = 3;
+      if (daysFullyScanned >= CONSECUTIVE_FULLY_SEEN && dayPapers.length > 0 && unseenDayPapers.length === 0) {
+        stopReason = `All papers seen for ${daysFullyScanned} consecutive days — reached seen-ID frontier at ${dateStr}`;
         console.error(`  ✓ ${stopReason}`);
         break;
       }
+    }
+
+    // Safety net: don't scan more than MAX_LOOKBACK_DAYS
+    if (dayOffset + 1 >= MAX_LOOKBACK_DAYS) {
+      stopReason = `Reached max lookback of ${MAX_LOOKBACK_DAYS} days`;
+      console.error(`  ✓ ${stopReason}`);
+      break;
     }
 
     dayOffset++;
