@@ -257,3 +257,34 @@
 - b7uj5_v2 | 2 | Tone, stress, quantity in Žiri Slovenian — linguistics/phonology
 - rvd9q_v2 | 2 | ADHD Symptoms and Learning Difficulties Grades 1-9 — excluded (child/adolescent population)
 - jeu9y_v1 | 1 | Dynamic theory of multi-agent goal pursuit — mathematical modeling, not clinical
+- 65snw_v1 | 5 | A Multidisciplinary Perspective on Research Participation in the Era of Post-Amyloid Disclosure and Disease-Modifying Therapies — Alzheimer disease research participation, not clinical psychology
+- pgu2a_v1 | 5 | Development and Validation of the Children's Scale for Social-Emotional Learning (CHISSEL) — children's instrument, excluded per kids therapy keywords
+- ruvp3_v2 | 4 | Disrupting Digital Habits Among Danish Adolescence — adolescent sample, social media habits
+- ty5zj_v1 | 4 | Distracted and Misled Yet Capable of Transfer: Word Knowledge and Executive Functions — basic cognition, analogical transfer in education
+- 7yjv5_v3 | 4 | When Empathy Becomes a Risk: Children's Empathy on Parental Burnout and Children — child sample, parental burnout
+- 8uvta_v1 | 3 | Sleep-wake timing is central to adolescent sleep health — adolescent sleep, not clinical therapy
+- 8uvnj_v1 | 3 | Happier but not more reasonable: Acute physical exercise and rational decision-making — exercise science, basic cognition
+- yaqmz_v1 | 3 | Retinotopic mapping of cortical plasticity in age-related macular degeneration — neuroscience, vision, not clinical
+- mwt5r_v3 | 3 | Faculty Evaluations of DEI Statements for Academic Hiring — academic hiring, not clinical
+- 62pfj_v1 | 3 | Does Alienation Contaminate Engineering Student Surveys — engineering education, methodology
+- dvx2y_v1 | 3 | Examining the Causal Role of Environmental Self-Identity — environmental psychology, methodology
+- ajpzm_v1 | 2 | Childcare Quality and Developmental Outcomes Under Cumulative Ecological Risk — child development
+- 7rw2z_v4 | 2 | Associative Memory Constraints on Storage and Retrieval of Action-Effect Relations — basic cognitive science
+- e9p47_v2 | 2 | Shared and Diverse Impressions of Portrait Paintings — aesthetics, not clinical
+- mfuqh_v1 | 2 | Enhancing Intellectual Humility about Political Topics — political psychology
+- wpt5b_v2 | 2 | Mapping the neural dynamics of learning others' social preferences from decision timing — neuroscience, social cognition
+- u7ghk_v1 | 2 | The Impact of Acuity Loss on Medical Data Visualisation — medical decision-making, not clinical psychology
+- 3b6ck_v2 | 2 | Sharing the Same Path? Similarity and Shared Reality with Supervisors in PhD Candidates' Work Engagement — occupational psychology
+- 7hrqb_v1 | 2 | Norms of Disgust Expressions Across 10 Countries — emotion research, cross-cultural, not clinical
+- vjrkc_v1 | 2 | Evolutionary Theory Makes Predictions About Cognition Beyond Rational Optimization — theoretical, evolutionary psychology
+- ywxhp_v1 | 2 | The Influence of Musical Training in L2 Tonal Words Learning — psycholinguistics
+- gt37v_v1 | 2 | The influence of placeholders and target stimuli shape on the automatic attentional effect — basic attention research
+- 56p4m_v2 | 1 | Preactivation and probabilistic inference coexist during sentence comprehension — psycholinguistics
+- mp79t_v1 | 1 | Using Large Language Models to Detect Values in Political Speech — political science, AI methodology
+- d58n4_v2 | 1 | Explaining forgetting at different timescales requires a time-variant forgetting function — basic memory research
+- 9wsxa_v1 | 1 | Diverse Mechanisms of Adaptive Variability in Human Behavior — basic cognitive science
+- h5nmz_v1 | 1 | From Blaming to Explaining: The Normative Definition of Crime as a Core Challenge for Criminal Psychology — forensic/criminal, not clinical therapy
+- w4dt8_v1 | 1 | Behavior Skills Training to Teach Parent Implemented Preference Assessments in the Home Setting — ABA with children, excluded per kids keywords
+- 5bmf6_v1 | 1 | The Impact of Social Perception on Message Perception — basic social cognition
+- 32g4x_v1 | 1 | The effects of increasing amounts of counterattitudinal information on implicit and explicit evaluations — basic social cognition, attitude change
+- wjqr3_v3 | 1 | Signaling Good Practice: Trust in Political Science in Emerging Contexts — political science
