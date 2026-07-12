@@ -353,3 +353,49 @@
 ---
 2026-07-12 12:00 Warsaw pipeline: 40 discovered, 35 screened, 6 curated, 29 discarded
 ---
+- tzgs3_v1 | ? | Divine Verification - Introducing a CAPTCHA-based Religious Priming Technique — insufficient clinical relevance
+- dnxyk_v1 | ? | Collectively Negotiating Trust and Mistrust in Generative AI - Evidence from Reddit Discussions of ChatGPT and Claude — insufficient clinical relevance
+- hxdv5_v1 | ? | Starting and stopping to volunteer is related to 2-year personality development in a population-based sample of older German adults — insufficient clinical relevance
+- ak6bj_v2 | ? | Sensory Psycholinguistics — insufficient clinical relevance
+- 83nvu_v1 | ? | Form-meaning mapping in the Italian lexicon - iconicity norms for more than 11,000 words — insufficient clinical relevance
+- vmr9w_v1 | ? | Get What You Need - Need Fulfillment as Implicit Emotion Regulation for Conflict Resolution — insufficient clinical relevance
+- h7582_v1 | ? | Real-time interaction and the signalling value of voluntary early cooperation in humans — insufficient clinical relevance
+- y59sn_v2 | ? | What 5000 Babies Can Tell Us About Developing Minds and How to Study Them — insufficient clinical relevance
+- razkb_v1 | ? | Public insensitivity to Paris temperature targets — insufficient clinical relevance
+- njrqb_v1 | ? | Evaluating the Imaginative Capability Scale -  Factor Structure, Refinement, and Measurement Invariance — insufficient clinical relevance
+- zjgb8_v3 | ? | Age-related changes in eye movements during pictorial recall in older adults — insufficient clinical relevance
+- fkd4v_v1 | ? | Breaking Common Ground through Reciprocal Misalignment — insufficient clinical relevance
+- vzd3w_v1 | ? | How Prompting and Editing Shape Psychological Ownership in AI-Assisted Creative Writing — insufficient clinical relevance
+- ef9g3_v1 | ? | Cognitive Enhancement through Interventions -  Evidence and Challenges — insufficient clinical relevance
+- tzxsk_v2 | ? | Expectation Development in Analytical Procedures - A Bayesian State Space Approach — insufficient clinical relevance
+- 5ab3x_v4 | ? | Heterogeneous Variance Models with Gaussian Processes — insufficient clinical relevance
+- 5y7r2_v1 | ? | Parental socialization of child lying - How parental messages about lying, parenting-by-lying, and parenting styles are associated with child lying — insufficient clinical relevance
+- wps9d_v2 | ? | How credible is the experimental evidence on precarious manhood? A z-curve analysis — insufficient clinical relevance
+- msqte_v1 | ? | Large fluid - crystallised discrepancy profiles as a pragmatic cross-sectional proxy for an atypical cognitive trajectory in bipolar disorder - a multi-cohort reproducibility and meta-analytic study from the ICONIC‐BD. — insufficient clinical relevance
+- 6atkp_v3 | ? | Blurring of self-other boundaries is associated with awe and social bonding in an art ritual performance — insufficient clinical relevance
+- sm57k_v1 | ? | Harmonizing in Tune - Age of Acquisition in Melodic Recognition — insufficient clinical relevance
+- gzydf_v2 | ? | Can Aerobic Exercise Really Improve Decision-Making in Aging? What Has Been Measured, What Has Been Assumed, and What Needs to Change. — insufficient clinical relevance
+- yugb9_v1 | ? | Predicting individual differences in LITMUS Sentence Repetition performance using the Q-BEx questionnaire — insufficient clinical relevance
+- qy9ge_v1 | ? | Training the power - Physical size guides the processing of exponential expressions — insufficient clinical relevance
+- spfyt_v3 | ? | Preprint "Extraversion, positive affect, and social attention in small human groups" — insufficient clinical relevance
+- vpxtz_v1 | ? | AI and Pediatric Mental Health - Joint AI Engagement for fostering Safe and Supportive AI Use — insufficient clinical relevance
+- r3jhd_v1 | ? | Cry when you mean it - arousal-contingent caregiving and the functional specialisation of infant vocal signals — insufficient clinical relevance
+- a2wqn_v1 | ? | The Alienated Encounter - Calm but Disconnected Subjects and the Case for Prosthetic Capability — insufficient clinical relevance
+- zrnsj_v3 | ? | Developmental variation from rational choice — insufficient clinical relevance
+- dghnf_v3 | ? | Origin and Control of Persistent Mental Content — insufficient clinical relevance
+- zw5ms_v4 | ? | (Tracked) From Thought to Senses - Assessing the Relationship Between the Generation Effect and Multisensory Facilitation — insufficient clinical relevance
+- wm5yz_v1 | ? | Validation of a German Version of the Barcelona Music  Reward Questionnaire (BMRQ) — insufficient clinical relevance
+- a8gc7_v1 | ? | Collective Effervescence as a Mediator between Emotion and Enjoyment in Live Dance — insufficient clinical relevance
+- txgq2_v2 | ? | Altered States, Enhanced Potential - Psychedelics and Physical Performance — insufficient clinical relevance
+- cgsmj_v3 | ? | Development and Behavioral Validation of the Dark Creativity Deception Battery (DCDB) — insufficient clinical relevance
+- njmhe_v1 | ? | The Perception-Expression Cycle Framework - A Dynamic Model of Peer Processes and Achievement Goals — insufficient clinical relevance
+- hpbf5_v1 | ? | Developmental changes in children’s production of line drawings in a picture-sparse environment - Evidence from Kisumu, Kenya — insufficient clinical relevance
+- nrq97_v2 | ? | Are There Really Pervasive COIs in the ABA Literature? - A Response to Bottema-Beutel et al. (2026) — insufficient clinical relevance
+- 5w8pt_v2 | ? | From homework questions to emotional confessions - the psychological implications of children confiding in AI, "relational drift", and developmental vulnerability — insufficient clinical relevance
+- 3kdup_v2 | ? | Open-Source Embedding Strategies for Recovering Spanish Scale Structure — insufficient clinical relevance
+- v2dgf_v2 | ? | Shared neural representations of barriers to agents’ actions and objects’ motions — insufficient clinical relevance
+- 8rpfu_v2 | ? | Smart and authentic - How anthropomorphic features of AI chatbots drive reactance among Indian university students — insufficient clinical relevance
+- 6tsdz_v2 | ? | Beyond speed and beyond prediction - The multi-faceted nature of speech processing in preschoolers and how it relates to language development — insufficient clinical relevance
+---
+2026-07-13 00:00 Warsaw pipeline: 53 discovered, 47 screened, 10 curated, 37 discarded
+---
