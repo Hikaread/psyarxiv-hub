@@ -399,3 +399,22 @@
 ---
 2026-07-13 00:00 Warsaw pipeline: 53 discovered, 47 screened, 10 curated, 37 discarded
 ---
+
+### 2026-07-13 (manual run, batch from 2026-06-11)
+
+| OSF ID | Title | Reason |
+|--------|-------|--------|
+| sx7z2 | A Novel Cognitive Framework to Enhance the Design and Evaluation of Music-Based Interventions | Theoretical/methodological framework paper, not an empirical clinical study |
+| s3nkm | SeMiLLa: An R Package and Shiny App for LLM-Assisted Construction and Pre-Empirical Semantic Screening of Psychometric Scales | Software tool paper, not clinically relevant findings |
+| c4tsf | Statistical assessment of a combinatorial relationship algorithm (astrology synastry) | Astrology study, not clinical psychology |
+| kt3sw | Predictability Effects in Natural Reading are Logarithmic | Basic cognitive psychology / psycholinguistics, not clinical |
+| q8me9 | Using non-binding experiments to estimate causal effects with instrumental variables regression | Methods tutorial, not clinical |
+| 4s8tq | Robustness of Regularized Regression Methods Under Compound Model Misspecification | Methods/statistics paper, not clinical |
+| p4ayc | How to Run Round Robin Social Interaction Studies: A Tutorial | Methods tutorial, not clinical |
+| h3s7g | Continuous theta burst stimulation over bilateral occipitotemporal cortex does not modulate negative affective appraisal | Basic cognitive neuroscience (TMS), null finding, limited clinical applicability |
+| 5q7u3 | Individual differences in object localisation are associated with video game experience | Basic perception/cognition, not clinical |
+| tsker | Intellectual humility and learning outcomes in online health information-seeking | Marginally relevant but primarily educational/health literacy, not clinical intervention |
+| ek3nu | Stereotypes of Voluntary Simplifiers | Social psychology, not clinical |
+| pn92s | Planning with Others in Mind | Cognitive psychology, not clinical |
+| bpcg7 | Trust drives preference for contractualist artificial agents | Human-AI interaction, not clinical psychology |
+| wbfs3 | Mind Wandering and Task-Unrelated Thoughts during rest evoked by preferred music | Basic cognitive psychology, not clinical |

@@ -8802,5 +8802,57 @@
     "relevant_for": "- Clinical neurophysiology researchers using ERP biomarkers for mental disorders\n- EEG lab methodologists seeking to improve measurement precision\n- Researchers studying biomarkers in depression, schizophrenia, or addiction using ERP",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/y43n6_v1"
+  },
+  {
+    "number": 541,
+    "title": "\"The Verifiability of Recovered Memories of Abuse\"",
+    "authors": "\"Mirjam ter Beek, Henry Otgaar, Linsey Raymaekers, Corine de Ruiter, Paul Riesthuis, Tamara L. F. De Beuf, Anne Hoving, Meike Hogenkamp, Bruno Verschuere\"",
+    "osf_id": "4nt6p_v1",
+    "date_posted": "2026-06-11",
+    "source_date": "2026-06-11",
+    "categories": [
+      "\"Clinical Psychology",
+      "Forensic Psychology\""
+    ],
+    "summary": "Examines whether different ways of remembering delayed sexual abuse — **continuous memories**, **spontaneously recovered memories**, and **recovered memories following an active search** — differ in **statement verifiability**, a feature previously associated with deception detection. Using archival police files from the Dutch National Expert Committee on Complex Sexual Abuse cases (LEBZ; N=140 victim statements), the study coded each statement for **verifiable details** (elements that could in principle be checked, such as identifiable witnesses, locations, or documents). Confirmatory analyses revealed that statements based on **continuous memories** contained significantly more verifiable details than those based on **recovered memories following an active search**. Exploratory analyses found that details reported after an active search were more often **disconfirmed** by subsequent investigation compared to continuous or spontaneously recovered memories. The study is **preregistered** and uses real criminal case files rather than laboratory analogues, providing strong ecological validity.",
+    "clinical_insight": "For clinicians working with delayed disclosure of abuse, this study provides empirically grounded guidance on **memory-type-dependent statement quality**. The key clinical distinction is between memories recovered following an **active search** (e.g., during therapy, journaling, or deliberate self-examination) versus **spontaneous recovery** or **continuous memory**. Active-search recovered memories showed not only fewer verifiable details but also a higher rate of **disconfirmation** by independent evidence. This does not mean all actively-searched memories are false, but it does suggest clinicians should exercise particular caution when therapeutic work involves **guided retrieval** of potential abuse memories. The verifiability framework offers a **structured, evidence-based approach** to assessing statement quality that goes beyond the subjective judgment clinicians often must rely on. This is especially relevant for therapists conducting trauma-focused work where **memory retrieval techniques** are employed, as the study quantifies the elevated risk of inaccurate details in actively-sought recovered memories.",
+    "methodology_note": "__Effect Sizes__: Not reported as traditional effect sizes; the primary outcome is a count of verifiable details (sum score). Confirmatory analysis showed continuous memory statements had more verifiable details than active-search recovered memory statements.\n\n__Statistical Rigor__: Preregistered on OSF (osf.io/btp7y). Used archival police files from LEBZ (2008-2022), starting from N=559 cases, selected based on inclusion/exclusion criteria to N=140. Coding conducted using a structured verifiability assessment framework adapted from deception detection research.\n\n__Measurement Validity__: The verifiability coding scheme is derived from validated deception detection research (Nahari et al., 2014; Verschuere et al., 2021). This is the first application to genuine vs. false memory contexts rather than intentional deception. Inter-rater reliability for coding would be important to verify.\n\n__Open Science__: Preregistered, with coding manuals and supplementary analyses available on OSF (osf.io/mkad9).\n\n__Participant Transparency__: N=140 victim statements from real Dutch criminal case files submitted to LEBZ between 2008-2022.",
+    "relevant_for": "- Forensic psychologists assessing the validity of delayed abuse disclosures\n- Clinical psychologists conducting trauma-focused therapy involving memory retrieval\n- Therapists working with clients who report recovered memories of abuse\n- Professionals involved in legal or child protection evaluations of abuse allegations",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/4nt6p_v1"
+  },
+  {
+    "number": 542,
+    "title": "\"Links between Caregiver-Child Engagement and Later Language in Toddlers with Autistic and Non-Autistic Older Siblings\"",
+    "authors": "\"Drina Agojci, Jennifer E. Magnuson, Kristen Bottema-Beutel, Ruoxi Guo, Caroline Braun, Shannon LaPoint, So Yoon Kim, Grace Pulliam, S. Madison Clark, Bahar Keceli-Kaysili, Jacob I. Feldman, Tiffany Woynaroski\"",
+    "osf_id": "842um_v2",
+    "date_posted": "2026-06-11",
+    "source_date": "2026-06-11",
+    "categories": [
+      "\"Developmental Psychology\""
+    ],
+    "summary": "Investigates how **caregiver-child engagement states** measured at 21-27 months predict **language outcomes** at approximately 36 months in two groups: toddler siblings of autistic children (**Sibs-autism**, n=27) and toddler siblings of non-autistic children (**Sibs-NA**, n=24). The study makes a critical distinction between **lower-order supported joint engagement** (LSJE; caregiver influences play without child reciprocity) and **higher-order supported joint engagement** (HSJE; reciprocal interaction with turn-taking or imitation). Engagement was measured via two 15-minute caregiver-child free play sessions coded for engagement states. Language was assessed at Time 2 using norm-referenced standardized assessments and caregiver report questionnaires. **Regression models** revealed that **HSJE was significantly positively associated with later receptive language**, with a **stronger effect for Sibs-autism** than Sibs-NA. LSJE was not a significant predictor. This suggests that the **reciprocal quality** of caregiver-child interaction, rather than mere caregiver effort, drives language learning benefits — particularly for children at elevated likelihood for autism.",
+    "clinical_insight": "For clinicians working with young children at elevated likelihood for autism, this study identifies a specific, **measurable interaction pattern** — higher-order supported joint engagement (HSJE) — that predicts later receptive language. This has direct implications for **early intervention guidance** and **parent coaching**. Rather than broadly encouraging parents to \"engage more\" with their toddlers, clinicians can specifically target **reciprocal routines** (turn-taking, imitation-based games) that characterize HSJE. The stronger effect in Sibs-autism suggests this approach may be especially beneficial for families with an autistic older child, where toddlers are at 3-4x higher risk for language difficulties. The finding that LSJE (one-sided caregiver effort without child reciprocity) did not predict language outcomes is clinically important — it tells clinicians that **parent-led interaction without child reciprocation is insufficient**, and interventions should focus on building the child's active participation in reciprocal exchanges.",
+    "methodology_note": "__Effect Sizes__: Specific effect sizes not extracted from the available text. The study reports significant positive association between HSJE and receptive language, moderated by sibling group (stronger for Sibs-autism).\n\n__Statistical Rigor__: Regression models evaluated associations between engagement states and later language. Two 15-minute free play sessions at Time 1 (21-27 months); language assessed at Time 2 (~36 months) via standardized assessments and caregiver report.\n\n__Measurement Validity__: Engagement states coded using established frameworks (Adamson et al., 2009; Bottema-Beutel et al., 2014) distinguishing LSJE from HSJE. Language assessed via norm-referenced standardized measures.\n\n__Open Science__: Available as preprint on PsyArXiv.\n\n__Participant Transparency__: N=51 toddlers (27 Sibs-autism, 24 Sibs-NA). Age range 21-27 months at Time 1, ~36 months at Time 2.",
+    "relevant_for": "- Clinicians providing early intervention for toddlers at elevated likelihood for autism\n- Speech-language pathologists working with young children at risk for language delays\n- Parent coaches and family therapists supporting caregiver-child interaction\n- Developmental psychologists studying autism sibling research and early language predictors",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/842um_v2"
+  },
+  {
+    "number": 543,
+    "title": "\"Salivary cortisol responses to academic stress in university students following a dog-assisted intervention\"",
+    "authors": "\"Jose Maria Peinado Herreros, Maria Jesus Lirola, Meriem Khaled Gijon, Emilio Jesus Lizarte Simon, Jose Gijon Puerta\"",
+    "osf_id": "rjue3_v1",
+    "date_posted": "2026-06-11",
+    "source_date": "2026-06-11",
+    "categories": [
+      "\"Health Psychology\""
+    ],
+    "summary": "Investigates whether a **dog-assisted intervention** can modulate **physiological stress responses** (salivary cortisol) in university students during examination periods. Academic stress is a major challenge for students, triggering both psychological and physiological responses including elevated cortisol. The study examines whether structured contact with therapy dogs during a high-stress period can reduce cortisol levels compared to control conditions, using a **pre-post design** with salivary cortisol as the primary physiological outcome measure.",
+    "clinical_insight": "For health psychologists working with student populations, **animal-assisted interventions (AAIs)** represent a growing evidence base for non-pharmacological stress management. University counseling centers are increasingly incorporating therapy dog programs, yet rigorous physiological evidence remains limited. If dog-assisted interventions demonstrably reduce cortisol during examination stress, this would support their integration into **campus mental health services** as a low-cost, accessible preventive intervention. The use of **salivary cortisol** as an outcome (rather than self-report alone) adds objective physiological credibility. Note: evaluation based on abstract only as PDF was not available on PsyArXiv at time of curation.",
+    "methodology_note": "__Effect Sizes__: Not available from abstract.\n\n__Statistical Rigor__: Pre-post design with salivary cortisol measurement. Full methodological details unavailable (PDF not on PsyArXiv).\n\n__Measurement Validity__: Salivary cortisol is a well-validated biomarker of HPA-axis activity and acute stress response.\n\n__Open Science__: Preprint available on PsyArXiv.\n\n__Participant Transparency__: Sample details unavailable from abstract.",
+    "relevant_for": "- Health psychologists working in university or student counseling settings\n- Clinicians interested in animal-assisted interventions as stress reduction tools\n- Campus wellness program coordinators",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/rjue3_v1"
   }
 ]
