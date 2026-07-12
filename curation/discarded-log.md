@@ -288,3 +288,31 @@
 - 5bmf6_v1 | 1 | The Impact of Social Perception on Message Perception — basic social cognition
 - 32g4x_v1 | 1 | The effects of increasing amounts of counterattitudinal information on implicit and explicit evaluations — basic social cognition, attitude change
 - wjqr3_v3 | 1 | Signaling Good Practice: Trust in Political Science in Emerging Contexts — political science
+- 8rdty_v3 | 8 | Assessing children and youth's socio-emotional behavior in rural Côte d'Ivoire — children/youth sample, excluded per kids keywords
+- 2re6w_v4 | 6 | Two practices that understate mental health risks of adolescent social media use — adolescent-focused
+- bytde_v1 | 5 | The Effect of Variability in Appearance and Context on Face Learning — basic face perception research
+- q2c8j_v1 | 4 | Disposition for Moral Indignation Scale (DMI-13) — moral psychology, not clinical
+- 3svep_v1 | 4 | Large language models can predict social science experiments — AI methodology
+- sd6g3_v1 | 3 | Does reading for pleasure support vocabulary learning — education/linguistics
+- zr9kx_v5 | 3 | Heritability of children's Secure Base Script Knowledge — children, attachment
+- z6um9_v1 | 3 | Maternal Versus Paternal Adversity and Adolescent Psychopathology — adolescent sample
+- 4kyxp_v1 | 3 | Heightened adaptability to environmental volatility in adolescence — adolescent
+- z5a6n_v1 | 3 | The Case for a Neuropsychology of Artificial Agents — theoretical/AI
+- jvs3c_v3 | 3 | False discovery rate correction promotes confounded neuroimaging designs — neuroimaging methodology
+- 9tcd5_v5 | 3 | Moving on from simple operationalism — philosophy of science
+- f2b9x_v1 | 2 | Distinct yet coupled hemispheric codes for foveal visual processing — basic vision neuroscience
+- qhkem_v1 | 2 | Associations of harsh parenting with externalizing/internalizing in children — children sample
+- mnkfv_v1 | 2 | Domain-general and experience-based sources of individual differences in syntactic processing — psycholinguistics
+- fa28t_v3 | 2 | Playing, Reading, Learning in Video Game and Text-based Environments — education/digital learning
+- 8vrt4_v1 | 2 | Piano training for cochlear implant users improves speech-on-speech perception — audiology
+- 5tfng_v1 | 1 | The value of generative AI in creative teams — AI/creativity
+- f3wj6_v2 | 1 | Structure and diversity in children's line drawings — children/development
+- k5qe8_v1 | 1 | Surprise-Minimizing Contextualizing Control — basic cognitive science
+- 5bt6s_v1 | 1 | Towards a community driven framework for standardized open data in PNE — data infrastructure
+- f2cnr_v1 | 1 | Students investing resources to avoid environmental costs of genAI — education/AI
+- vkuqd_v1 | 1 | Emotion Socialization in Early Parent-Infant Synchrony — infant/children
+- mkdsj_v1 | 1 | How Facial Trustworthiness and Social Exclusion Influence Emotion Recognition — basic social cognition
+- 57zkh_v2 | 1 | Shared Music Preference Enhances Social Bonding — basic social psychology
+- yfmgk_v4 | 1 | Learning to carve nature at its joints — basic cognition/development
+- jxzca_v2 | 1 | Target and perceiver informational determinants of trait impression updating — basic social cognition
+- 29vfz_v1 | 1 | Bayesian Regularization under Model Misspecification — statistics methodology
