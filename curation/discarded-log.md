@@ -316,3 +316,40 @@
 - yfmgk_v4 | 1 | Learning to carve nature at its joints — basic cognition/development
 - jxzca_v2 | 1 | Target and perceiver informational determinants of trait impression updating — basic social cognition
 - 29vfz_v1 | 1 | Bayesian Regularization under Model Misspecification — statistics methodology
+- e2atn_v2: When does curiosity lead to proactive and attentive information seeking? The moderating roles of auxiliary skills in classroom learning settings in Nepal
+- bvshm_v1: On the Necessity of Conscious Perception to Attention - Revisiting Jiang et al. (2006) with Gaze-Contingent Crowding
+- dsutg_v1: Navigating Safety in Reproductive Health Self-Care Interventions in Ghana - A Qualitative Study
+- vnzx5_v1: How (not) to Correct a “Mistake” - A True Tale from the Journal of Applied Psychology
+- r29ug_v1: Have you really seen this illusory face before? Illusory faces bias recognition memory reports
+- 9znft_v1: Clarifying the concept of psychological richness - Is it a dimension of subjective well-being?
+- mxnhz_v1: Visualização de dados com R
+- pw8g5_v2: Moral Virtues Are Often Relevant in Daily Life, but “Morality” Is Not
+- 647m3_v2: Prevalence of epilepsy and young-onset dementia in adults with intellectual disability -  Contrasting Down syndrome and autism diagnoses
+- q93bm_v1: Screen Time and Developmental Outcomes in the First Digitally Native Generation - Co-viewing Does Not Buffer Harm in a Mixed-Methods Study From Urban Iran
+- j3th4_v1: Individual Differences in Stereomotion Yield Functional Differences in Reaching Dynamics
+- zup69_v1: Framed Listening - Can accompanying contextual cues shape Music-Influenced Mental Content?
+- s342k_v1: Testing Linear and Non-Linear Associations Between Climate Anxiety and Pro-Environmental Behaviour - An Individual Participant Data Meta-Analysis
+- p8e75_v3: When Awareness Becomes the Obstacle - A Yogācāra Diagnosis of the Mindfulness Ceiling in Mindfulness-Based Interventions
+- 8g32k_v3: A Six-Layer Yogācāra Model of Emotion Generation - Implications for Constructionist Emotion Theory
+- dnex7_v3: When Attentional Training May Leave Self-Grasping Intact - A Yogācāra Account of the Manas Layer with Implications for Theorizing Mindfulness-Based Interventions
+- tqf9s_v1: Contextually Attuned Understanding of Epistemic Curiosity in Early Childhood - An Emic Exploration in Nepal
+- 9jwcq_v1: When Awareness Becomes the Obstacle - A Yogācāra Diagnosis of the Mindfulness Ceiling in Mindfulness-Based Interventions
+- 9dyb6_v1: A Six-Layer Yogācāra Model of Emotion Generation - Implications for Constructionist Emotion Theory
+- mq6xy_v1: When Attentional Training May Leave Self-Grasping Intact - A Yogācāra Account of the Manas Layer with Implications for Theorizing Mindfulness-Based Interventions
+- zchbj_v2: Experience Shapes Early Noun Comprehension from 8-18 Months - The Roles of Word Frequency and Referent Familiarity
+- 35tmz_v1: Large language models capture universal relationship knowledge but compress cultural variation
+- e9qn6_v7: When One Measure Hides Multiple Mechanisms - Interpreting Accuracy, Similarity, and Assimilation in Psychological Data
+- bqnyp_v1: Agenda for Culturally Competent Neuropsychological Research and Testing (ACCENT) - A Brief Checklist for the Responsible Conduct and Reporting of Cross-Cultural Neuropsychological Research
+- qgxph_v1: The effects of animals’ touch on soldiers’ stress during war
+- zgvrq_v2: Critical review of Artificial Intelligence for qualitative analysis - not just whether to use it but how and when
+- m6gxn_v1: FalseResMem - A Neural Network to Predict False Memories in Visual Recognition Tasks
+- ukbn9_v1: Dickman’s Impulsivity Inventory - Confirmatory factor analyses of existing models and development of a shortened scale (8-DII)
+- 6395r_v1: Gradient Phonetic Structure in Bilingual Speech - A Multidimensional Analysis of L1 and L2 Production
+- u69mg_v1: Color naming needs a non-uniform perceptual prior - Individual differences in hue scaling and the vision–language interface
+- k4ynw_v2: Educator Distress Post-COVID - Associations with Educator Characteristics, Family Income, Work Intentions, and Job Satisfaction
+- aqc9n_v2: NeuroGym - An open resource for developing and sharing neuroscience tasks
+- e2myj_v2: Too Distracted to Remember - Does Attentional Disengagement Underlie the Photo-Taking Impairment Effect?
+- jsbgu_v1: Can a Brief Informational Intervention Facilitate Culture-Add Hiring? An Experimental Vignette Study
+---
+2026-07-12 12:00 Warsaw pipeline: 40 discovered, 35 screened, 6 curated, 29 discarded
+---
