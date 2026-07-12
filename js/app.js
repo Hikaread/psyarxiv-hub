@@ -341,7 +341,7 @@
       var catIds = (p.categories || []).map(function(c) { return labelToId[c] || 'other'; });
       if (!catIds.some(function(id) { return activeCats[id]; })) return false;
       if (q) {
-        var haystack = [p.title, p.authors, p.summary, p.clinical_insight, p.relevant_for].join(' ').toLowerCase();
+        var haystack = [p.title, p.authors, p.summary, p.clinical_insight, p.relevant_for, p.methodology_note].join(' ').toLowerCase();
         if (haystack.indexOf(q) === -1) return false;
       }
       return true;
@@ -694,6 +694,12 @@
     if (p.relevant_for) {
       h += '<div class="modal-section"><div class="modal-section-label">Relevant For</div><div class="modal-section-text md-content">' + renderMd(p.relevant_for) + '</div></div>';
     }
+    if (p.methodology_note) {
+      h += '<div class="modal-section methodology-section">';
+      h += '<button class="methodology-toggle" type="button"><span class="methodology-toggle-icon">▶</span> Methodology Note</button>';
+      h += '<div class="methodology-content md-content" style="display:none;">' + renderMd(p.methodology_note) + '</div>';
+      h += '</div>';
+    }
     if (p.published && p.published !== 'false' && p.published !== false) {
       h += '<div class="modal-section"><div class="modal-section-label">Published</div><div class="modal-section-text">' + linkifyText(p.published) + '</div></div>';
     }
@@ -709,6 +715,17 @@
     body.innerHTML = h;
     renderKaTeXInContainer(body);
     document.getElementById('modal-share-btn').addEventListener('click', function() { sharePaper(p); });
+    // Methodology toggle
+    var methToggle = body.querySelector('.methodology-toggle');
+    if (methToggle) {
+      methToggle.addEventListener('click', function() {
+        var content = this.nextElementSibling;
+        var icon = this.querySelector('.methodology-toggle-icon');
+        var isOpen = content.style.display !== 'none';
+        content.style.display = isOpen ? 'none' : 'block';
+        icon.textContent = isOpen ? '▶' : '▼';
+      });
+    }
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
   }
