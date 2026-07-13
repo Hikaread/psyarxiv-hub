@@ -441,3 +441,27 @@
 - v5sqj | 1 | Bowed air columns and blown plates: Odd combinations of excitation mechanisms — Music perception, not clinical
 - cydv4 | 1 | Sensorimotor coupling modulates perceived time and agency — Basic cognitive neuroscience, not clinical
 - zc8yr | 1 | No single downbeat: Rethinking criteria for beat synchronization across species — Animal cognition / music perception response, not clinical
+- 4m9g6 | 10 | The Poker Face Tax: Emotion Coherence as Predictor of Depression Outcomes — No PDF available; discarded per no-PDF rule
+- zyq96 | 9 | MAPS V2 Brief Parent-Report (IRT development) — No PDF available; discarded per no-PDF rule
+- 3r7ej | 8 | Peer support in employment services for psychotic disorders — Protocol paper only, no data/results yet
+- gy68a | 7 | One-Day Intracranial Accelerated iTBS for Major Depression — N=1 case study, invasive stimulation, not generalizable
+- yvk5g | 6 | Men's Experiences of Mental Health Services for Depression — PDF returned 403 (no PDF available); discarded per no-PDF rule
+- s5avb | 5 | Families of young people who self-harm: systematic review — Child/adolescent focus, excluded per curation criteria
+- 3mder | 4 | Misinformation as Strategy: Epistemic Consequences — Epistemic cognition research, not clinical psychology
+- 4tdvg | 2 | White Adults' Verbal and Nonverbal Responses to Racial Bias — Social psychology, not clinical
+- d6v5t | 2 | A Beta Way: Bayesian Beta Regression Tutorial — General statistics tutorial, not clinical-specific methodology
+- bmtxc | 1 | Collaboration enhances collective intelligence — Basic cognitive/group performance, not clinical
+- abps9 | 1 | Corollary discharge and inner speech replication — Cognitive neuroscience, not clinical
+- 5tw42 | 1 | Domain-specific processing in numerical cognition (Arabic) — Psycholinguistics, not clinical
+- dxf29 | 1 | Compression-Based Account of Biases Towards Simpler Explanations — Cognitive psychology, not clinical
+- tmf42_v1 | 7 | Tangled within the psychotherapy process: A panel network analysis of clients session reactions — No PDF available
+- hzqy9_v1 | 3 | Functional Connectivity Pathways Providing Neural Support for Fear-Avoidance Processes in Pain Catastrophizing — No PDF available
+- b9srt_v2 | 4 | Predicting career outcomes from a single working memory task — Cognitive/occupational research, not clinical psychology
+- 4fnp3_v2 | 4 | How to measure my sense of volition or obligation toward the environment — Environmental psychology validation, not clinical
+- pkh69_v2 | 3 | How Does Social Media Make Adolescents Lonely — Excluded: adolescent focus per curation criteria
+- asdjr_v1 | 3 | Social Comparison Threat and Coping — Social psychology, not clinical
+- szt5d_v1 | 2 | Customer Behavior in the Presence of Algorithmic Marketing Agents — Marketing/consumer behavior, not clinical
+- q3f8p_v2 | 1 | Supporting oral language and participation with Talk Moves — Education research, not clinical
+- q9jyt_v2 | 1 | Affective Signal in Everyday Digital Language — Methodological, no clinical application
+- p6nqj_v1 | 1 | Misleading Questions Influence Eyewitness Reports — Cognitive/forensic psychology, not clinical
+- bmtxc_v1 | 1 | Collaboration enhances collective intelligence — Cognitive science, not clinical
