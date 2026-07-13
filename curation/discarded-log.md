@@ -432,3 +432,12 @@
 | fmjyg | 1 | How to tell whether AI is behaviourally human-like | Human-AI interaction, not clinical psychology |
 | jg372 | 1 | Prediction in action: toward an empirical science of active inference | Theoretical neuroscience framework (active inference), not clinical |
 | st6a5 | 1 | People Underestimate the Acceptability of Canceling Plans | Social/consumer psychology, not clinical |
+- 9ayqs | 7 | The Association Between 'Vegetarian for Life' Diet Quality and Anxiety Symptoms — No PDF available on PsyArXiv; discarded per no-PDF rule
+- hsbpd | 5 | Does Stress Matter? No Evidence for Age Differences in Inference Generation Under Acute Stress — No PDF available on PsyArXiv; discarded per no-PDF rule
+- 56mc7 | 3 | From Emotions to Achievement: Positioning Language Learning Curiosity — Educational psychology, not clinical
+- 7ws82 | 2 | Children predict physical, social, and psychological traits from perceived age — Developmental psychology, child sample
+- f5v92 | 2 | Bridging analysis and performance in elite Para swimming — Sports science / biomechanics, not clinical
+- yqgzp | 2 | Remembering What We Did: Confidence Tracks the Distinctiveness of Action Representations — Basic cognitive psychology (memory/metacognition), not clinical
+- v5sqj | 1 | Bowed air columns and blown plates: Odd combinations of excitation mechanisms — Music perception, not clinical
+- cydv4 | 1 | Sensorimotor coupling modulates perceived time and agency — Basic cognitive neuroscience, not clinical
+- zc8yr | 1 | No single downbeat: Rethinking criteria for beat synchronization across species — Animal cognition / music perception response, not clinical
