@@ -419,3 +419,16 @@
 | bpcg7 | Trust drives preference for contractualist artificial agents | Human-AI interaction, not clinical psychology |
 | wbfs3 | Mind Wandering and Task-Unrelated Thoughts during rest evoked by preferred music | Basic cognitive psychology, not clinical |
 | rjue3 | Salivary cortisol responses to academic stress in university students following a dog-assisted intervention | No PDF available on PsyArXiv — cannot evaluate |
+
+### 2026-07-13 09:00 pipeline
+
+| OSF ID | Signal | Title | Reason |
+|--------|--------|-------|--------|
+| jzgtm | 7 | Linking Individual Multiculturality to Behaviour | Theoretical model paper in organizational/cross-cultural psychology, no empirical clinical data |
+| rjue3 | 5 | Salivary cortisol responses to academic stress following a dog-assisted intervention | No PDF available on PsyArXiv |
+| dxybj | 2 | Modeling Item Difficulty in Game-Based Cognitive Assessment Using Wordle | No PDF available; cognitive assessment gamification, not clinical |
+| 36qbz | 2 | Optimized cardiorespiratory state at tone onset enhances sensory responses | Basic psychophysiology (eyeblink conditioning + cardiac cycle), not clinical |
+| bu2w8 | 1 | Is Religion Necessary for Morality? | Philosophy/evolutionary psychology, not clinical |
+| fmjyg | 1 | How to tell whether AI is behaviourally human-like | Human-AI interaction, not clinical psychology |
+| jg372 | 1 | Prediction in action: toward an empirical science of active inference | Theoretical neuroscience framework (active inference), not clinical |
+| st6a5 | 1 | People Underestimate the Acceptability of Canceling Plans | Social/consumer psychology, not clinical |
