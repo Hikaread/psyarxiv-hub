@@ -92,3 +92,26 @@ Stage Summary:
 - Discovered: 42, Screened: 36, Accepted: 9, Discarded: 27
 - Papers 602-610 added across categories: Neurodivergence (2), Trauma & Stressor-Related (1), Therapeutic Modalities (1), Couples Therapy & Sexology (1), Psychopathology & Assessment (3), Anxiety & OCD (1)
 - Commit: d728264, pushed to main
+
+---
+Task ID: 1
+Agent: Main agent (cron job 269041)
+Task: Run PsyArXiv curation pipeline (10-step)
+
+Work Log:
+- Step 1: git pull — already up to date
+- Step 2: Discovered 15 unseen papers (scanned 1300 papers, 13 pages)
+- Step 3: Screened → 13 candidates, 2 low-signal excluded
+- Step 4: Two-pass evaluation → accepted 4 (tmf42, gy68a, gr96m, hzqy9)
+- Step 5: Fetched full text — tmf42 and hzqy9 had no PDF (discarded), gy68a and gr96m had PDFs
+- Step 6: Logged 11 discards (2 no-PDF + 9 evaluation) to discarded-log.md
+- Step 7: Created curation files for #550 (gy68a, Mood Disorders) and #551 (gr96m, Psychopathology & Assessment)
+- Step 8: Imported curation notes, cleaned up inbox
+- Step 9: Incremental update of seen-compact-ids.json (1433 → 1448)
+- Step 10: Committed and pushed to GitHub (with git conflict resolution and revert of accidentally pushed parent repo files)
+
+Stage Summary:
+- Discovered: 15, Screened: 13, Accepted: 2, Discarded: 11 (2 no-PDF, 9 evaluation)
+- Papers curated: #550 gy68a_v1 (intracranial iTBS for depression), #551 gr96m_v1 (language-based depression assessment in digital mental health)
+- Total papers in hub: 551
+- Total seen IDs: 1448
