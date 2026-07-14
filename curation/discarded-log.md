@@ -538,4 +538,4 @@
 - bjp9r_v1 | 1 | Children word learning cross-situationally — Developmental/linguistic
 - e8rky_v1 | 1 | Action Perception System — Cognitive neuroscience
 - 5g8s9_v2 | 1 | Scene distance and object scaling — Vision/cognitive
-- x6hc9_v1 | 1 | Neural Dynamics of Action-Effect Predictions — Cognitive neuroscience
+- x6hc9_v1 | 1 | Neural Dynamics of Action-Effect Predictions — RECOVERED: bridges to sense of agency/avolition in psychosis/depression
