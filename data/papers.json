@@ -9143,5 +9143,73 @@
     "relevant_for": "- Speech-language pathologists assessing and treating post-stroke aphasia\n- Neuropsychologists conducting differential diagnosis of aphasia subtypes\n- Clinical researchers developing targeted syntactic treatments for aphasia\n- Rehabilitation teams working with chronic stroke survivors with language deficits\n- Researchers interested in lesion-symptom mapping applied to clinical populations",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/eg3nw_v4"
+  },
+  {
+    "number": 562,
+    "title": "Natural Language Processing (NLP) based verbal fluency markers as differential diagnostic indicators of early psychotic, affective and clinical high-risk states",
+    "authors": "Millenia Chakraborty, Julian Wenzel, Louisa Schwed, Felix Menne, Alexandra König, Annkathrin Böke, Hannah Hacker, Carolina Bonivento, Alexandra Stainton, Dominic Dwyer",
+    "osf_id": "t2ypf_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "10.06.2026",
+    "categories": [
+      "Psychosis & Schizophrenia"
+    ],
+    "summary": "This PRONIA multicentre study (N = 177: 40 recent-onset psychosis, 50 recent-onset depression, 33 clinical high-risk for psychosis, 54 healthy controls) evaluated whether **NLP-derived verbal fluency features** can classify early-stage psychiatric disorders as accurately as a standard cognitive battery. Sixty-two NLP features were extracted from semantic and phonemic verbal fluency tasks using FastText embeddings and the SIGMA speech feature library. Five elastic net classifiers were compared via nested 5-fold cross-5-repeat cross-validation. Across all healthy-control-vs-patient comparisons, the NLP-only model (based on approximately 2 minutes of assessment) achieved **AUCs statistically indistinguishable from the MCCB cognitive battery** (over 60 minutes): CHR detection AUC = 0.720 (vs. MCCB 0.701), ROP detection AUC = 0.768 (vs. MCCB 0.815), and ROD detection AUC = 0.636 (vs. MCCB 0.623; all DeLong p > 0.87). The most discriminative NLP features were **verbal productivity and search-organization measures** — specifically target-word cluster/switch count (d = 1.20 for CHR vs. HC), total word count (d = 1.08 for ROP vs. HC), and correct count (d = 1.13 for ROP vs. HC) — rather than semantic coherence. A transdiagnostic severity gradient was confirmed: HC (P = 0.248) < ROD (P = 0.423) approximately equals CHR (P = 0.457) < ROP (P = 0.661). A speech-cognition dissociation was noted in CHR, where linguistic deficits (d = 0.81 to 1.20) occurred without within-group symptom correlations, suggesting a **trait-like vulnerability marker**.",
+    "clinical_insight": "A 2-minute automated verbal fluency assessment with NLP analysis can match a 60+ minute cognitive battery for distinguishing early psychosis, depression, and clinical high-risk states from healthy individuals — offering a practical first-line screening tool for early intervention services. The transdiagnostic severity gradient supports use for continuous monitoring rather than categorical diagnosis alone, though differential diagnosis between patient groups (e.g., CHR vs. depression) remains at chance level.",
+    "methodology_note": null,
+    "relevant_for": "- Clinical neuropsychologists seeking brief, scalable screening tools for emerging psychotic and affective disorders\n- Early intervention services and primary care triage where full cognitive batteries are impractical\n- Researchers developing digital phenotyping and NLP-based biomarkers for the psychosis clinical staging continuum\n- Transdiagnostic researchers interested in shared vs. disorder-specific language markers",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/t2ypf_v2"
+  },
+  {
+    "number": 563,
+    "title": "Effects of Process- and Embodiment-Focused Psychology (PEP) Treatment for Depression, comorbid Anxiety and Generalized Self-Efficacy",
+    "authors": "Laura Grabener, Can Kulens, Anne Martinelli",
+    "osf_id": "jdsvn_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "10.06.2026",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This quasi-experimental pilot study (N = 25; 12 therapist-guided PEP, 13 self-help control; age 18 to 58, M = 43.48) evaluated **Process- and Embodiment-Focused Psychology (PEP)** for depression and comorbid anxiety. All participants met minimum depressive symptom criteria (BDI-II score of 9 or above), with 56% in the severe range and 15 of 25 presenting comorbid clinically relevant anxiety (BAI score of 26 or above). The experimental group received 14 to 35 therapist-guided PEP sessions; the control group engaged in approximately 6 weeks of structured self-study using a PEP-based self-help manual. Significant time-by-group interactions emerged for all outcomes: **BDI-II, F(1,23) = 27.23, p < .001, eta-squared-partial = .54**; BAI, F(1,13) = 323.00, p < .001, eta-squared-partial = .96; GSWE, F(1,23) = 5.51, p = .028, eta-squared-partial = .19. Within-group effect sizes were large in the therapist-guided group (BDI-II d = 3.05, BAI d = 2.31, GSWE d = 1.93) and moderate-to-large in the self-help control (BDI-II d = 1.24, BAI d = 1.24, GSWE d = 0.77). The therapist-guided group entered with higher symptom severity (BDI-II M = 42.70 vs. control M = 26.00; baseline d = 1.83) and lower self-efficacy (GSWE M = 85.39 vs. control M = 129.67; d = 1.31), with these disparities largely resolved at post-treatment.",
+    "clinical_insight": "PEP shows promise as a low-threshold, resource-oriented intervention that simultaneously targets symptom reduction and self-efficacy strengthening — addressing a key transdiagnostic mechanism in depression and anxiety. Its structured format and potential for delivery by non-specialist providers (with certified training) make it a candidate for primary care integration where access to psychotherapy is limited. However, the single-therapist, non-randomized design means these striking effect sizes must be interpreted as preliminary signals.",
+    "methodology_note": null,
+    "relevant_for": "- Clinicians interested in integrative, low-threshold interventions for comorbid depression and anxiety\n- Practitioners exploring embodiment-based techniques and their mechanisms of action\n- Health systems considering scalable psychological interventions for primary care delivery\n- Researchers investigating generalized self-efficacy as a transdiagnostic treatment mechanism",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/jdsvn_v2"
+  },
+  {
+    "number": 564,
+    "title": "Men's Experiences of Mental Health Services for Depression: Perceptions, Expectations, and Satisfaction",
+    "authors": "Tsuki Gao, Lesley-Anne MacRae",
+    "osf_id": "yvk5g_v1",
+    "date_posted": "2026-06-10",
+    "source_date": "10.06.2026",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This qualitative study explored seven UK men's (aged 21 to 67, M = 37 years) experiences of engaging with mental health services for depression, focusing on the dynamic interplay between perceptions, expectations, and satisfaction over time. All participants had experienced depression within the past three years and had engaged with multiple forms of support (medication and/or counselling through NHS and private services). Using **reflexive thematic analysis** (Braun and Clarke, 2006) on semi-structured interviews ranging from 51 to 86 minutes (M = 70.71), six interconnected themes were generated: (1) The Complexity and Unpredictability of Depression, (2) From Fixing to Facing: Shifting Expectations of Help, (3) Opening the Door to Help-Seeking, (4) Barriers to Help-Seeking, (5) Experiences of Treatment, and (6) Re-imagining Support. A key finding was the identification of two distinct types of **expectation-reality mismatch**: knowledge-based mismatches (which participants adapted to over time) versus relational mismatches involving dismissiveness from practitioners (which led to disengagement and worsened distress). **GPs were identified as influential gatekeepers**, with early encounters disproportionately shaping future engagement. Participants did not express uniform treatment preferences — some preferred directive, tool-based approaches while others preferred exploratory therapy — challenging the assumption that men prefer a single modality. Notably, men did not explicitly frame their experiences in gendered terms, instead reflecting on practical concerns such as relational fit, accessibility, and treatment clarity.",
+    "clinical_insight": "Clinicians — particularly GPs as first points of contact — should recognise that initial encounters carry disproportionate weight in shaping men's future help-seeking trajectories. Providing clear, transparent information about what treatment involves, rather than defaulting to medication as a quick fix, can help establish realistic expectations and prevent disengagement. Therapists should actively tailor their approach to individual preferences, as men entering therapy often lack understanding of the therapeutic process and may not initially articulate their needs.",
+    "methodology_note": null,
+    "relevant_for": "- Clinicians working with male patients presenting with depression, particularly in primary care settings\n- Service designers seeking to reduce dropout rates and improve men's engagement with mental health services\n- GPs acting as gatekeepers who can shape help-seeking trajectories through initial encounters\n- Practitioners interested in therapeutic alliance, relational fit, and personalised treatment approaches",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/yvk5g_v1"
+  },
+  {
+    "number": 565,
+    "title": "Families of young people who self-harm: A mixed-methods systematic review of their experiences and needs",
+    "authors": "Beatriz Cacao-Dias, Ines Areal Rothes, Claudia Carmo, Cristina Nunes, Marta Bras",
+    "osf_id": "s5avb_v2",
+    "date_posted": "2026-06-10",
+    "source_date": "10.06.2026",
+    "categories": [
+      "Suicidality & Self-Harm"
+    ],
+    "summary": "This mixed-methods systematic review synthesised findings from **31 studies** (24 qualitative, 4 quantitative, 3 mixed-methods) examining the experiences and needs of families of young people (aged 10 to 24) who self-harm. Studies were primarily conducted in China (n = 7), the UK (n = 6), and Australia (n = 6), with participants including **869 mothers, 160 fathers, and 76 siblings**. Quantitative findings revealed that approximately **two-thirds of parents were likely to meet criteria for mental ill-health**, with mothers showing elevated rates of major depression, generalised anxiety, and PTSD closer to the time of hospitalisation. Qualitative thematic synthesis (70 primary codes, 928 data extracts) identified four analytical themes: (1) parents' intense emotional and psychological impact including trauma, mood disorders, and physiological symptoms such as sleep disruption and fatigue; (2) impact on parenting including guilt, shame, hypervigilance, and power shifts toward the young person; (3) disruption in wider family dynamics including co-parenting strain, sibling neglect and anxiety, and financial strain from reduced work hours or job loss; and (4) barriers to and pathways for support — specifically **long waiting times, referral difficulties, high intervention thresholds, financial constraints, shortage of specialised professionals, lack of post-discharge follow-up, and perceived judgment from healthcare providers**. Parents who adopted supportive strategies (calm communication, collaborative coping) strengthened bonds, while hypervigilant or controlling responses strained dynamics.",
+    "clinical_insight": "Clinicians working with young people who self-harm should routinely assess and address the mental health needs of the entire family system, not only the identified patient. The finding that two-thirds of parents experience mental ill-health — and that siblings often become the forgotten members — supports integrating family psychoeducation, communication skills training, and caregiver mental health support into treatment plans. Practitioners should adopt a nonjudgmental, collaborative approach and provide structured follow-up after discharge, as abrupt service endings were a recurring source of distress.",
+    "methodology_note": null,
+    "relevant_for": "- Clinicians and therapists working with adolescent self-harm in community and psychiatric settings\n- Family therapists and systemic practitioners treating families affected by youth self-harm\n- CAMHS administrators designing care pathways and discharge protocols\n- Policy makers addressing access barriers, waiting times, and specialist service availability",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/s5avb_v2"
   }
 ]

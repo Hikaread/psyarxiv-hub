@@ -477,3 +477,46 @@
 - tgxvh_v1 | 1 | Experience modulates action representation in gymnasts — Cognitive/motor science
 - ntgz9_v1 | 1 | Peacocks Dont Carry Tote Bags: Performative Male — Cultural studies, not clinical
 - z3prf_v1 | 1 | Idiographic Dynamical Framework for Self-Experience — Theoretical phenomenology, too abstract
+- 4m9g6_v2 | 10 | The Poker Face Tax: emotion coherence and depression — No PDF available
+- zyq96_v1 | 9 | IRT Development of MAPS Parenting Measure — No PDF, parenting/youth measure
+- 3r7ej_v1 | 8 | Peer support in employment for psychotic disorders — Protocol paper, no results
+- 6umjr_v1 | 7 | Men's Affinity Toward AI-Based Mental Health — No PDF available
+- t6u9s_v3 | 6 | Childhood Predictors of Educational Attainment — Developmental/educational, not clinical
+- a9kfz_v2 | 6 | Group prevention program for mental health — No PDF available
+- x5nsj_v1 | 5 | Meaningful Family Mealtime Conversations — Family/developmental, not clinical
+- 9rwxb_v1 | 5 | Student Evaluations of Teaching Performance — Education, not clinical
+- tp7h5_v3 | 5 | Bias-based bullying in schools — School-based, youth population
+- ury4s_v1 | 5 | Education and happiness anatomy — Education/well-being, not clinical
+- evs5j_v1 | 5 | Early numeracy and literacy in preschoolers — Developmental/educational
+- tpq7r_v1 | 4 | Cardiac Distress Inventory psychometrics — Pure methods, instrument fails validation
+- rkepz_v2 | 4 | Ethnic Dominance and Democratic Quality — Political science
+- 3mder_v2 | 4 | Misinformation as Strategy — Political/cognitive, not clinical
+- a6ykq_v2 | 4 | TikTok Disconnection and well-being — Digital media psychology, not clinical practice
+- 5gkzn_v1 | 3 | Public Funding of Fertility Treatment — Social policy, not clinical
+- 8skmv_v3 | 3 | Climate Change in U.S. News Media — Media/climate, not clinical
+- mrzyt_v1 | 3 | DIF in Eysenck neuroticism scale — Pure psychometrics
+- sykjn_v1 | 3 | Relational Mobility and Reputation Sharing — Social psychology
+- kpb4a_v1 | 3 | LGBTQ+ Acceptance through Media — Social/identity, not clinical
+- pu3cs_v1 | 3 | Planetary Health Knowledge tests — Environmental education
+- ys9nd_v1 | 2 | Student Perspectives on SET — Education, not clinical
+- 8d96p_v1 | 2 | GenAI and Critical Thinking in K-12 — Education/tech, not clinical
+- fspmq_v1 | 2 | Learning During Practice — Cognitive/educational
+- v63yk_v1 | 2 | French OSI-SP for Sport Performers — Sports psychology
+- 8pjae_v1 | 2 | Criminogenic Personality and Incarceration — Forensic/criminal
+- j6du2_v2 | 2 | Historical Violence and Prosocial Action — Social/political psychology
+- 9cf6p_v1 | 2 | Cardiovascular Baselines in Psychophysiology — Methods/physiology
+- tp6yq_v1 | 2 | Bayesian Efficient Coding — Computational neuroscience theory
+- 3p9xb_v1 | 2 | Media Education in Youth Welfare — Youth/education
+- k46ad_v1 | 2 | Mathematical Brains and Consciousness — Philosophy of mind
+- d6v5t_v7 | 2 | Bayesian Beta Regression Tutorial — Statistics methods
+- 4tdvg_v1 | 2 | White Adults and Racial Bias Discussion — Social psychology
+- pzkvh_v1 | 1 | Multi-Agent LLMs Coordination — AI/tech
+- t9s3k_v1 | 1 | Sequential Methods for Coding Tasks — Cognitive/education
+- ntcuq_v1 | 1 | Equivalence Testing Introduction — Statistics methods
+- 5spjk_v1 | 1 | Identifiability in SEOU Model — Mathematical modeling
+- 5yafr_v2 | 1 | Event boundaries in MCI/aging — No PDF, cognitive neuropsychology
+- nm236_v2 | 1 | Pre-Service Routines in Tennis — Sports psychology
+- ew7nj_v2 | 1 | Save-scumming in Video Games — Media psychology
+- dxf29_v2 | 1 | Compression-Based Simplicity Bias — Cognitive theory
+- 5tw42_v1 | 1 | Numerical cognition in Arabic — Cognitive/linguistic
+- abps9_v3 | 1 | Corollary Discharge and Inner Speech — Basic cognitive neuroscience
