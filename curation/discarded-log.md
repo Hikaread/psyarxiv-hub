@@ -465,3 +465,15 @@
 - q9jyt_v2 | 1 | Affective Signal in Everyday Digital Language — Methodological, no clinical application
 - p6nqj_v1 | 1 | Misleading Questions Influence Eyewitness Reports — Cognitive/forensic psychology, not clinical
 - bmtxc_v1 | 1 | Collaboration enhances collective intelligence — Cognitive science, not clinical
+- tv3qc_v1 | 6 | Waiting Spaces as Mental Health Gyms — Design/public health intervention, not clinical psychology
+- 7s2gb_v1 | 4 | Comparing frontal processes as predictors of false memory in older adults — Cognitive aging/neuropsychology, not clinical
+- cva3e_v2 | 3 | Ageing reduces access to body structural representations — Basic cognitive neuroscience, not clinical
+- eg3nw_v4 | 3 | Distinct patterns of syntactic errors in post-stroke aphasia — Neurolinguistics, not clinical psychology
+- zgkj8_v3 | 2 | Contrasting reward on attentional priority maps — Basic cognitive attention research
+- wbcn3_v2 | 2 | Clear construct definitions for Health Action Process Approach — Health psychology methodology
+- b5uyp_v1 | 2 | Inclusion Bayes Factors for Latent Network Modeling — Statistical methods paper
+- pb5wv_v1 | 1 | Mindscapes of Second Language Acquisition — Linguistics, not clinical
+- g9dvs_v1 | 1 | Learning Dynamic Neural Evidence for Brain-Computer Interfaces — Neuroengineering
+- tgxvh_v1 | 1 | Experience modulates action representation in gymnasts — Cognitive/motor science
+- ntgz9_v1 | 1 | Peacocks Dont Carry Tote Bags: Performative Male — Cultural studies, not clinical
+- z3prf_v1 | 1 | Idiographic Dynamical Framework for Self-Experience — Theoretical phenomenology, too abstract
