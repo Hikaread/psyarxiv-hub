@@ -520,3 +520,22 @@
 - dxf29_v2 | 1 | Compression-Based Simplicity Bias — Cognitive theory
 - 5tw42_v1 | 1 | Numerical cognition in Arabic — Cognitive/linguistic
 - abps9_v3 | 1 | Corollary Discharge and Inner Speech — Basic cognitive neuroscience
+- sxhwt_v3 | 10 | PBAT Spanish validation + network analysis — Pure psychometrics/methods, clinical use speculative
+- 3958w_v1 | 5 | Boredom regulation and personality — Personality/well-being, not clinical practice
+- wqvbf_v1 | 5 | Alzheimer's Chinese speech detection — No PDF available
+- 8x4wg_v2 | 5 | Redundancy in Visual Working Memory — Basic cognitive research
+- zkjhr_v1 | 5 | Corrective Focus Prosody — Linguistics
+- xkp6h_v1 | 4 | Expert perceptions of digital cognitive assessment — No PDF available
+- 43ks8_v1 | 4 | Intersecting Social Identities Inventory — Youth/identity, not clinical
+- 4pv75_v1 | 4 | Adolescent Psychotic-like Symptom Screener IRT — Adolescent/youth population
+- 9rdux_v5 | 3 | Text Psychometrics with NLP — Methods/AI, not clinical
+- 49kcv_v1 | 3 | Chinese Manifestation Scale validation — Pure psychometrics
+- fhkz2_v2 | 3 | Momentary Impulsive Action/Inaction — Basic personality research
+- gnryw_v1 | 2 | Intergenerational Math Anxiety — Education/developmental
+- 8bt54_v1 | 2 | Decision Tree Stability — Statistics/methods
+- hk4w5_v3 | 2 | Morality of Unbelievers — Social/political psychology
+- vc94q_v2 | 2 | Hierarchical Modeling Transformations — Statistical methods
+- bjp9r_v1 | 1 | Children word learning cross-situationally — Developmental/linguistic
+- e8rky_v1 | 1 | Action Perception System — Cognitive neuroscience
+- 5g8s9_v2 | 1 | Scene distance and object scaling — Vision/cognitive
+- x6hc9_v1 | 1 | Neural Dynamics of Action-Effect Predictions — Cognitive neuroscience

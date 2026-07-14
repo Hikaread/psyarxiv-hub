@@ -9211,5 +9211,39 @@
     "relevant_for": "- Clinicians and therapists working with adolescent self-harm in community and psychiatric settings\n- Family therapists and systemic practitioners treating families affected by youth self-harm\n- CAMHS administrators designing care pathways and discharge protocols\n- Policy makers addressing access barriers, waiting times, and specialist service availability",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/s5avb_v2"
+  },
+  {
+    "number": 566,
+    "title": "Ageing Wisely Online: co-design and randomised controlled trial of a therapist-supported internet-delivered cognitive behavioural therapy for anxiety and depression in older adults",
+    "authors": "Carly Johnco, Jessamine T.-H. Chen, Ron Rapee, Michael Jones, Brian Draper, Henry Brodaty, Jonas Fooken, Lauren McLellan, Viviana Wuthrich",
+    "osf_id": "hukx9_v1",
+    "date_posted": "2026-07-14",
+    "source_date": "14.07.2026",
+    "categories": [
+      "Digital Mental Health"
+    ],
+    "summary": "This paper reports a two-study investigation of **Ageing Wisely Online (AW Online)**, a co-designed therapist-supported iCBT program for older adults with anxiety and depression. Study 1 co-designed the intervention with 6 older adults and 7 clinicians using iterative participatory methods, incorporating age-specific features such as video-based content delivery, downloadable transcripts, large fonts, and age-appropriate case examples. Study 2 evaluated efficacy in a **parallel-group RCT (N = 68; aged 65 to 89 years, M = 70.32; 90% female)** randomised to AW Online (n = 34) or waitlist (n = 34). The 10-module transdiagnostic program was delivered weekly with brief 15-minute therapist phone calls (mean total therapist time = 139.63 minutes). On the primary outcome (ADIS primary diagnosis severity), between-group effect sizes were **d = 0.88 at post-treatment and d = 1.55 at 3-month follow-up**. Cumulative severity of all diagnoses showed d = 1.67 (post) and d = 2.17 (follow-up). Self-reported anxiety (GAI) showed d = 0.94 (post) and d = 1.04 (follow-up); depression (GDS) showed d = 1.19 (post) and d = 1.05 (follow-up). **Diagnostic remission** of the primary diagnosis was significantly greater for AW Online at post-treatment (44.1% vs. 14.7%, OR = 4.58, p = .011) and follow-up (52.9% vs. 11.8%, OR = 8.44, p < .001). Treatment response on the CGI-I was 38% vs. 6% at post-treatment (OR = 9.91) and 44% vs. 15% at follow-up. Efficacy was comparable to the face-to-face version (within-group d = 1.23 vs. 1.35) but with approximately **10-fold less therapist time** (2.3 hours vs. 22 hours). The trial was preregistered and used ITT analyses with blinded diagnostic assessors.",
+    "clinical_insight": "AW Online demonstrates that therapist-supported iCBT can achieve diagnostic remission rates in older adults (53% at follow-up) comparable to face-to-face CBT (54%) and exceeding pharmacological remission (36%), with only approximately 2.3 hours of total therapist contact via brief weekly phone calls. The co-design approach featuring video-based delivery, downloadable transcripts, large fonts, and a companion workbook addresses key age-specific barriers to digital mental health uptake. The transdiagnostic format treating anxiety and depression concurrently, combined with strong therapeutic alliance ratings despite minimal contact, suggests this model could be readily integrated into stepped-care pathways.",
+    "methodology_note": null,
+    "relevant_for": "- Clinicians and services seeking scalable digital interventions for late-life anxiety and depression\n- Geriatric mental health workforce planning, given the 10-fold therapist time reduction vs. face-to-face\n- Health policymakers evaluating cost-effective mental health solutions for ageing populations\n- Researchers studying iCBT efficacy and age-specific adaptations of psychotherapy",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/hukx9_v1"
+  },
+  {
+    "number": 567,
+    "title": "Emotion regulation strategy use, associations with depressive and anxious symptomatology, and sex-based differences in the transdiagnostic autistic adult population",
+    "authors": "Goldie A McQuaid, Allison Jack, Gregory Wallace",
+    "osf_id": "8h9jd_v1",
+    "date_posted": "2026-07-14",
+    "source_date": "14.07.2026",
+    "categories": [
+      "Neurodivergence"
+    ],
+    "summary": "This preregistered study examined **emotion regulation (ER) strategy use** and its associations with depressive and anxious symptomatology across two independent samples of autistic adults without co-occurring intellectual disability. Sample 1 (N = 225, age 18.6 to 31.5, M = 25.6; 70.7% female) assessed cognitive reappraisal (CR) and expressive suppression (ES) using the ERQ, along with PHQ-9 depression and GAD-7 anxiety. Sample 2 (N = 267, age 18 to 83, M = 33.3; 71.9% female) assessed CR, PHQ-9, and GAD-7. Compared to sex-normed general population data, **autistic females in both samples reported significantly less CR use** (Sample 1: z = -6.02, p < .0001; Sample 2: z = -4.27, p < .0001), and autistic adults reported significantly higher ES (females: z = 8.30, p < .0001). No significant sex differences in ER use were found within the autistic samples. In Sample 1 hierarchical regressions controlling for autistic traits (AQ-28), **ES was significantly associated with higher depressive (beta = 0.16, p = .02) and anxious (beta = 0.18, p = .008) symptoms**, while CR was not significant (depression: beta = -0.06, p = .35; anxiety: beta = -0.10, p = .16). Female sex was independently associated with higher symptoms in Sample 1 only. In Sample 2, neither CR nor sex predicted symptoms. The authors propose ES may **overlap with autistic masking**, a cognitively taxing process linked to burnout, depression, and anxiety.",
+    "clinical_insight": "Expressive suppression emerges as the more clinically relevant ER strategy in autistic adults, showing significant associations with both depression and anxiety whereas cognitive reappraisal did not. The proposal that ES overlaps with autistic masking is clinically significant: interventions targeting depression and anxiety in autistic adults should explicitly address expressive suppression and the social contexts driving it, rather than focusing solely on building cognitive reappraisal skills. Creating autism-affirming environments that reduce pressure to mask may free cognitive resources for more adaptive regulation.",
+    "methodology_note": null,
+    "relevant_for": "- Clinicians adapting CBT or DBT emotion regulation strategies for autistic adult populations\n- Therapists working with autistic adults presenting with co-occurring depression and anxiety\n- Researchers studying autistic masking and its mental health consequences\n- Transdiagnostic approaches to internalizing symptoms in neurodevelopmental conditions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/8h9jd_v1"
   }
 ]
