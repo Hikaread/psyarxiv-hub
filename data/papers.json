@@ -9343,5 +9343,39 @@
     "relevant_for": "- Predictive coding models of psychosis: disruptions in the frontocentral-to-sensory predictive cascade may explain aberrant sense of agency and passivity phenomena\n- Avolition in depression and negative symptoms: the dependence of effect predictions on goal-directedness links motivational deficits to impoverished action-effect representations\n- Sense of agency and self-disturbance: the divergence between cued and voluntary prediction dynamics offers a neurophysiological account of when agency breaks down\n- Interventions targeting goal-directed action: enhancing the \"Why\" dimension could restore structured pre-action sensory predictions and improve action initiation",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/x6hc9_v1"
+  },
+  {
+    "number": 569,
+    "title": "Beyond Burden and Resources: Regulatory Flexibility as a Predictor of Posttraumatic Stress Symptoms in Occupational Trauma",
+    "authors": "Roxanne Sopp, Tanja Michael, Michael Knoll",
+    "osf_id": "4pywd_v1",
+    "date_posted": "2026-07-15",
+    "source_date": "15.07.2026",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This study investigated trauma-related coping flexibility as a predictor of PTSD symptoms in railway personnel exposed to critical incidents (N = 444). Results showed that trauma-related coping explained **significant additional variance** in PTSD symptoms beyond burden and resources (R² change = .10, p < .001). **Forward-focused coping** emerged as the strongest predictor of PTSD symptoms (β = -.42, p < .001) and depressive symptoms (β = -.38, p < .001), outperforming the regulatory flexibility index. Contrary to hypotheses, trauma-focused coping was **positively associated** with PTSD symptoms (β = .21, p < .001). The model including forward-focused coping explained **25% of the variance** in PTSD symptoms, compared to 15% for the flexibility model. Participants reported high exposure to critical railway-related incidents (M = 3.21, SD = 2.14) and moderate peritraumatic distress (M = 6.32, SD = 2.87).",
+    "clinical_insight": "Clinicians working with trauma-exposed professionals should prioritize assessment and enhancement of forward-focused coping strategies, as this was the strongest protective factor against PTSD symptoms. The finding that trauma-focused coping was associated with higher PTSD symptoms suggests that interventions should focus on balancing coping strategies rather than emphasizing trauma processing alone.",
+    "methodology_note": "Cross-sectional survey design with N = 444 railway personnel (84% male, M age = 41.39). Measures included PCL-5 for PTSD symptoms, PHQ-9 for depression, PACT for coping flexibility, and custom measures for trauma burden and resources. Hierarchical regression analyses were conducted to test incremental validity of coping models. The study was preregistered on OSF (ID: 4pywd_v1).",
+    "relevant_for": "- Occupational psychologists working with high-risk professions\n- Trauma therapists treating first responders and emergency personnel\n- Organizational mental health consultants\n- Clinical psychologists working with PTSD populations",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/4pywd_v1"
+  },
+  {
+    "number": 570,
+    "title": "Gambling venues and their association with incidence of help-seeking gambling disorder: a Bayesian spatial analysis",
+    "authors": "Konstantinos Ioannidis, Jeremy Solly, Luke Simcoe, Ibrahim H Aslan, Sujoy Ray, Mohammed Elsankary, Dianna Smith, Sam Chamberlain",
+    "osf_id": "p3ev2_v1",
+    "date_posted": "2026-07-15",
+    "source_date": "15.07.2026",
+    "categories": [
+      "Addiction & Substance Use"
+    ],
+    "summary": "This study examined the association between gambling venue accessibility and help-seeking for gambling disorder using data from 5,405 Lower Layer Super Output Areas (LSOAs) in the UK. The researchers conducted a Bayesian hierarchical Poisson regression analysis on referrals to the NHS Southern Gambling Service, finding that **self-referrals** (excluding those who gambled exclusively online) were positively associated with both the **number of local gambling venues** (β = 0.070, 95%CrI: -0.003 to 0.143) and **shorter driving time** to the nearest venue (β = -0.025, 95%CrI: -0.045 to -0.006). The model revealed **moderate spatial autocorrelation** (φ = 0.45), suggesting geographical clustering of referrals. While the inclusion of deprivation rank, health assets accessibility, and rurality added complexity, these factors resulted in poorer model fitting. The study demonstrates that physical accessibility to gambling venues contributes to help-seeking behavior for gambling problems.",
+    "clinical_insight": "Clinicians can use geographic mapping of gambling venues to identify high-risk areas where gambling disorder interventions may be most needed. The spatial analysis approach could help healthcare providers anticipate referral volumes and allocate resources more effectively based on venue density and proximity.",
+    "methodology_note": "This was an ecological study using data from 5,405 LSOAs in the UK. The researchers employed a Bayesian hierarchical Poisson regression model using Integrated Nested Laplace Approximation (INLA) to account for overdispersion and spatial autocorrelation in count data. The spatial neighborhood structure used the 'queen method' with a three-step contiguity matrix. Key measures included referral counts, gambling venue density, driving time to nearest venue, deprivation index, and access to health assets. The study appears to have been pre-registered, though the specific OSF page doesn't indicate formal pre-registration status.",
+    "relevant_for": "- Addiction psychiatrists specializing in gambling disorders\n- Clinical psychologists working with gambling disorder\n- Public health officials planning healthcare resource allocation\n- Gambling treatment service administrators\n- Urban planners considering the impact of gambling venues on community health",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/p3ev2_v1"
   }
 ]

@@ -4,7 +4,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 
-const ROOT = process.cwd();
+const ROOT = '/home/z/my-project/psyarxiv-hub';
 const INBOX_DIR = path.join(ROOT, 'curation', 'inbox');
 const DATA_PATH = path.join(ROOT, 'data', 'papers.json');
 const shouldWrite = process.argv.includes('--write');

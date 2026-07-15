@@ -555,3 +555,22 @@
 - sgwjv_v2 | 1 | Do Habits Moderate the Intention-Behavior Link? — Health psychology methodology/statistics
 - y6bqg_v2 | 1 | A motor basis for a foreign accent? — Linguistics/speech motor research
 - jr3cy_v1 | 1 | Auditory Cue-weighting in BaYaka Forest-Foragers — Music cognition/cross-cultural perception
+
+- vk92r_v1 | 6 | Interventions to support healthy movement behaviours among preschool children in early childhood education and care settings — Child/preschool population, not clinical psychology practice
+- 94bhu_v1 | 5 | Respect and Disrespect in Political Disagreement: Divergent Effects of Personalized Information and Intellectual Humility — Political psychology, no clinical application
+- pcgzh_v1 | 3 | Unpleasant mind, deactivated body – A distinct somatic signature of boredom through bodily sensation mapping — Basic research on emotional states, no direct clinical application
+- vr4w7_v2 | 3 | What Race Means for Health among Black Americans: How Microaggressions Shape Self-Efficacy and Readiness for Behavior Change — Deferred (LLM not reached; signal=3, likely health psychology rather than clinical)
+- z5ebw_v2 | 3 | Mentalizing from self and friend perspectives: Relations between neural similarity, affective similarity and social anxiety — Deferred (signal=3, likely basic social neuroscience)
+- b5jax_v1 | 2 | Affective Nonverbal Vocalizations and Implications for Cochlear Implants: A Scoping Review — Deferred (signal=2, audiology/speech therapy focus)
+- zh39t_v6 | 2 | The Evaluation of Devaluation: Deficient outcome devaluation leads to wrongly considering goal-directed actions as habit — Deferred (signal=2, basic cognitive psychology)
+- 4trgp_v1 | 2 | When Music Feels Different Than It Sounds: Felt–Expressed Emotional Divergence in a Naturalistic Music Setting — Deferred (signal=2, music psychology)
+- 8wgy4_v1 | 2 | Letter in response to Shakibaei et al. Fluoxetine Use for Very Young Children — Deferred (signal=2, letter/commentary, child population)
+- vwm9s_v1 | 2 | Navigating the Barkley Marathons — Deferred (signal=2, sports/performance psychology)
+- nq5bw_v2 | 2 | GPT outperforms BERT and LIWC for stance and anger detection in German news articles — Deferred (signal=2, NLP/AI methods paper)
+- z587d_v1 | 2 | A Clinical Focus Article: A Practice-Guided Reflection on 120 Combined Years of Clinical Education Experience in Speech-Language Pathology — Deferred (signal=2, speech-language pathology education)
+- sdjry_v2 | 1 | How to Account for Unobserved Baseline Confounders in Cross-Lagged Panel Models — Deferred (signal=1, statistics/methods paper)
+- 5y6m4_v1 | 1 | AI advice suppresses people's willingness to say I don't know — Deferred (signal=1, AI/decision-making research)
+- dksj6_v1 | 1 | Teaching for creativity: What is the role of creativity knowledge? — Deferred (signal=1, education research)
+- h72rb_v4 | 1 | Stable Worldviews or Context-Sensitive Systems? Longitudinal Evidence on Epistemically Suspect Beliefs — Deferred (signal=1, social/personality psychology)
+- ybftn_v4 | 1 | Early readers know letter shapes without knowing letter names — Deferred (signal=1, developmental/education)
+- zjkcy_v4 | 1 | Do Researchers Claim Their Findings Are Applicable to the Real World? — Deferred (signal=1, metascience/research methodology)
