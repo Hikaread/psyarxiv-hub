@@ -9411,5 +9411,39 @@
     "relevant_for": "- Trauma therapists working with sexual assault survivors\n- PTSD treatment providers\n- Researchers studying trauma-related cognitive processes\n- Clinicians developing narrative-based interventions for trauma",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/2e9wb_v2"
+  },
+  {
+    "number": 573,
+    "title": "Testing the Utility of Using Large Language Models to Create Personalized Networks From Therapy Session Transcripts: A Proof of Concept Study",
+    "authors": "Clarissa W. Ong, Hiba Arnaout, Kate Sheehan, Estella Fox, Eugen Owtscharow, Iryna Gurevych",
+    "osf_id": "n8a6r_v1",
+    "date_posted": "2026-07-15",
+    "source_date": "15.07.2026",
+    "categories": [
+      "Digital Mental Health"
+    ],
+    "summary": "This proof-of-concept study developed an end-to-end pipeline using **large language models (LLMs)** to automatically generate personalized networks from therapy session transcripts. Researchers annotated **8,028 utterances** from **77 therapy sessions** involving **6 participants** (1 with major depressive disorder, 5 with generalized anxiety disorder). The pipeline identified clinically relevant processes through binary classification and classified their dimensions using multi-label classification. A two-step method grouped these processes into meaningful clusters and generated connections between them. While evaluation results generally supported model utility, **inter-rater agreement on model performance metrics was inconsistent**, ranging from poor to substantial. Qualitative examination indicated the generated networks showed consistency with original study data, suggesting the approach is feasible for creating interpretable networks to support case conceptualization and treatment planning.",
+    "clinical_insight": "This LLM-based approach could significantly reduce the burden of creating personalized networks for clinicians, potentially making network-driven treatment personalization more scalable without requiring extensive data collection or specialized statistical expertise.",
+    "methodology_note": "Sample size: N=6 participants (1 MDD, 5 GAD) with 77 therapy sessions. Design: Proof-of-concept study with annotation of 8,028 utterances. Key measures: Binary classification for clinically relevant processes, multi-label classification for dimensions, clustering and connection generation. Analysis approach: Qualitative examination of network consistency with original data, evaluation of inter-rater agreement. Preregistration status: Not preregistered.",
+    "relevant_for": "- Clinicians using process-based approaches to therapy\n- Researchers exploring AI applications in mental health\n- Practitioners interested in personalized treatment planning\n- Digital mental health developers",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/n8a6r_v1"
+  },
+  {
+    "number": 574,
+    "title": "Psychometric properties of the German Binge Eating Scale (G-BES): A cross-sectional validation study",
+    "authors": "Helena Althammer, Jessica Freiherr",
+    "osf_id": "cdtu4_v4",
+    "date_posted": "2026-07-14",
+    "source_date": "14.07.2026",
+    "categories": [
+      "Eating Disorders"
+    ],
+    "summary": "This study validated the German Binge Eating Scale (G-BES) in a cross-sectional sample of 1,148 German-speaking adults (predominantly female). The G-BES demonstrated excellent **convergent validity** (ρ = 0.79) with the Eating Disorder Examination Questionnaire and strong **divergent validity** (ρ = -0.83) with the Intuitive Eating Scale-2. The scale showed a robust unidimensional structure (EFA variance explained: 57%; CFI = 0.993, TLI = 0.992) and excellent **internal consistency** (Cronbach's α = 0.91, McDonald's ω = 0.92). ROC analyses revealed good screening accuracy for self-reported BED (AUC = 0.81), with a preliminary screening cutoff of ≥22 (72.2% sensitivity, 80.0% specificity). A secondary analysis suggested a potential lower threshold of ≥13 (80.9% sensitivity, 81.4% specificity). Subthreshold binge eating was highly prevalent across all weight spectrums, and binge-eating severity correlated with dieting history, lower intuitive eating, and depression.",
+    "clinical_insight": "The G-BES provides a reliable, brief tool for clinicians to assess binge eating severity across the weight spectrum, including subthreshold cases. Its unidimensional structure simplifies interpretation, while the suggested cutoffs offer practical screening thresholds for identifying individuals who may benefit from further assessment or intervention.",
+    "methodology_note": "Sample size: N = 1,148 German-speaking adults. Design: Cross-sectional validation study. Key measures: German Binge Eating Scale (G-BES), Eating Disorder Examination Questionnaire (EDE-Q), Intuitive Eating Scale-2 (IES-2), self-reported BED diagnoses, depression measures. Analysis approach: Split-sample EFA/CFA (N = 574 each), internal consistency (Cronbach's α, McDonald's ω), IRT modeling, ROC curve analyses, correlation analyses. Preregistration status: Not specified in the provided text.",
+    "relevant_for": "- Psychiatrists specializing in eating disorders\n- Psychologists and psychotherapists working with eating disorders\n- Primary care providers needing screening tools for binge eating\n- Researchers studying binge eating pathology\n- Clinicians in weight management and bariatric settings",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/cdtu4_v4"
   }
 ]

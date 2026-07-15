@@ -595,3 +595,17 @@
 - bj26m_v1 | 2 | Beyond Human-AI Agreement: LLMs for Content Validity — Psychometrics/AI methods
 - 3adgx_v1 | 2 | Censored DSEM Models for Analyzing ESM Data — Statistics/methods paper
 - r7qb5_v1 | 1 | SIMP2L: A template for simulation preregistration — Methods/template paper
+- b6d57_v2 | 9 | Cosmetocracy: A Proposed Sociocultural Framework for Understanding Appearance-Based Value — no PDF available
+- vmj96_v3 | 9 | Mental health changes in different adolescent groups from before to throughout the COVID-19 pandemic — adolescent focus, no direct clinical application for practicing clinicians
+- pghuy_v1 | 6 | Stronger Coupling of Accuracy, Confidence, and Response Time in Multi-Alternative Decisions — basic cognitive psychology, no clinical application
+- 4m3bf_v6 | 5 | Addressing Common Problems in Autism Research: cohort development — deferred (max_papers limit)
+- 9nh5u_v2 | 4 | Sustainably Reducing Prejudice through Brief Real-life Contact with the Living Library Intervention — deferred (max_papers limit)
+- pex93_v1 | 4 | Relationships amongst cognition, speech execution and social participation in typical aging — deferred (max_papers limit)
+- ndyra_v1 | 3 | Personality as attribution: Report-based traits and the problem of what personality research measures — deferred (max_papers limit)
+- hx98q_v1 | 2 | Seeing Brilliance as Masculine: Visual Stereotypes of Exceptional Intelligence — deferred (max_papers limit)
+- m3rcw_v1 | 2 | What Do Undergraduate Students Know About Distributed Practice and Interleaved Practice — deferred (max_papers limit)
+- gy54u_v1 | 2 | Interpolated Prequestioning, Focused Attention, Mind Wandering, and Learning — deferred (max_papers limit)
+- w9deg_v2 | 2 | Irresistibly Logical: Automatic Logical Inferences in Visual Scene Processing — deferred (max_papers limit)
+- tc34w_v1 | 1 | Computational Models Gone Rogue — deferred (max_papers limit)
+- k6f9m_v4 | 1 | Young Children Spontaneously Appreciate the Perspectives of their Social Partners — deferred (max_papers limit)
+- bw5kq_v1 | 1 | Large language models infer hidden preferences from eye movements — deferred (max_papers limit)
