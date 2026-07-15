@@ -388,7 +388,8 @@
     "clinical_insight": "Cognitive deficits in bipolar disorder persist during euthymic periods and directly impair occupational and social functioning, yet are rarely addressed in standard mood-stabilization treatment. Therapists should incorporate cognitive remediation strategies and compensatory techniques into treatment plans alongside pharmacotherapy and psychoeducation. Regular cognitive screening can help differentiate whether functional difficulties are driven by mood symptoms, cognitive impairment, or both.",
     "relevant_for": "Psychiatrists and clinical psychologists treating bipolar disorder",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/ja6wd"
+    "link": "https://osf.io/preprints/psyarxiv/ja6wd",
+    "methodology_note": "PDF unavailable (OSF files API returned 401). Paper may be withdrawn or access-restricted."
   },
   {
     "number": 24,
@@ -1510,7 +1511,8 @@
     "clinical_insight": "Smartphone-based interpretation bias modification allows therapists to extend therapeutic work between sessions through brief, accessible cognitive exercises that patients complete on their own devices. Clinicians can prescribe these apps as homework to actively reshape threat-related interpretation biases in generalized or social anxiety, complementing in-session CBT. The digital delivery format reduces barriers for clients who cannot attend frequent sessions while maintaining an evidence-based cognitive mechanism of change.",
     "relevant_for": "CBT practitioners treating generalized and social anxiety disorders",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/9kxga"
+    "link": "https://osf.io/preprints/psyarxiv/9kxga",
+    "methodology_note": "quantitative_experimental\n\n__Design__\nThis is a randomized controlled trial (RCT) comparing two smartphone-based interventions: HabitWorks (HW) interpretation bias modification versus Symptom Tracking (ST) control. Participants were randomized 50:50 to conditions using an Excel random number generator. The study followed a 4-week intervention period with assessments at baseline and post-intervention, plus a 1-month follow-up for the ST condition. The trial appears to have two primary samples: intent-to-treat (ITT) N=340 (HW: n=167; ST: n=173) and completer sample N=187 (HW: n=73; ST: n=114).\n\n__Participants__\nSample size appears adequate for detecting medium effects but may be underpowered for smaller effects. Of 694 screened individuals, 402 were eligible and 349 randomized. Participants were adults (≥18 years, with state-specific variations) with mild to moderate depression/anxiety symptoms (PHQ-2/GAD-2 score ≥3), access to smartphones, and able to read English. Excluded those with bipolar disorder, schizophrenia, or active mania/psychosis. Recruitment occurred through community fliers, social media, and healthcare system platforms.\n\n__Measurement Validity__\nThe study used validated screening tools (PHQ-2, GAD-2) for eligibility. The HW app utilized a personalized word-sentence ambiguity paradigm with 745 potential pairs based on participant concerns. The ST condition involved symptom tracking measures, though specific psychometric properties of these measures aren't detailed in the excerpt.\n\n__Statistical Rigor__\nThe study used REDCap for data collection and appears to have an ITT analysis approach. However, the methods excerpt doesn't specify statistical analysis plans, whether covariates were controlled for, or if multiple comparison corrections were applied. The randomization process was not described as masked, which introduces potential bias.\n\n__Effect Sizes__\nEffect sizes are not reported in the methods excerpt, making it impossible to evaluate the magnitude of expected or observed effects.\n\n__Preregistration__\nNo mention of preregistration is found in the methods excerpt.\n\n__Statistical Power__\nNo power analysis is described in the methods excerpt. The sample size (N=340 randomized) appears reasonable for detecting medium effects but may be underpowered for smaller effects, especially given the high attrition rate (approximately 45% attrition from ITT to completer sample).\n\n__Data Transparency__\nNo information about data or materials availability is provided in the methods excerpt."
   },
   {
     "number": 91,
@@ -1527,7 +1529,8 @@
     "clinical_insight": "Narrative therapy's re-authoring approach offers clinicians a non-pathologizing method for moral injury that helps patients reconstruct a coherent, morally integrated life narrative. Therapists can guide clients through externalizing the morally injurious event, identifying preferred values, and re-storying their experience in ways that incorporate both self-compassion and accountability. This is particularly valuable when traditional trauma processing alone leaves patients stuck in shame and self-condemnation.",
     "relevant_for": "Military and veteran mental health therapists treating moral injury",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/zs9t4"
+    "link": "https://osf.io/preprints/psyarxiv/zs9t4",
+    "methodology_note": "This is an other-type paper. No PDF was available for full methodology assessment. Title: Narrative therapy for moral injury: case study"
   },
   {
     "number": 92,
@@ -1543,7 +1546,8 @@
     "clinical_insight": "The integrative BPD etiology review helps therapists move beyond unidimensional models and present a biopsychosocial formulation to patients that normalizes their experience as understandable rather than characterological. Clinicians can use this synthesis to explain to patients why they react intensely—linking biological sensitivity, attachment disruption, and invalidating environments into a coherent narrative. This facilitates engagement in evidence-based treatments like DBT by providing a rationale that reduces shame and increases treatment motivation.",
     "relevant_for": "DBT therapists and clinicians treating borderline personality disorder",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/8dcs7"
+    "link": "https://osf.io/preprints/psyarxiv/8dcs7",
+    "methodology_note": "This is an other-type paper. No PDF was available for full methodology assessment. Title: BPD etiology: integrative review"
   },
   {
     "number": 93,
@@ -1559,7 +1563,8 @@
     "clinical_insight": "Differentiating cognitive restraint (thoughts about controlling eating) from actual dietary restriction helps eating disorder therapists identify which cognitive processes most strongly predict symptom maintenance. Clinicians can use EMA-informed assessments to determine whether a patient's primary driver is rigid dietary rules or preoccupation with food, and then target the more pathological process in treatment. This nuance supports moving beyond calorie-counting metrics to address the cognitive dimensions that sustain disordered eating patterns.",
     "relevant_for": "Eating disorder therapists and CBT-E practitioners",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/pmnz6"
+    "link": "https://osf.io/preprints/psyarxiv/pmnz6",
+    "methodology_note": "quantitative_experimental\n\n__Design__\nThis study employed an experience sampling method (EMA) design with a clinical sample of individuals with eating disorders (AN, BN, ARFID) and a healthy control group (NED). The study included a 14-day EMA period with 5 signal-contingent surveys per day (semi-randomly distributed across three time blocks) and event-contingent surveys for eating episodes. Participants also completed clinical interviews and questionnaires.\n\n__Participants__\nInitial N = 198 women (100% self-reported assigned female at birth, n = 9 [4.5%] identified as non-binary) including 58 with AN (47% restrictive subtype), 56 with BN, 31 with ARFID, and 53 NED. After excluding 11 who didn't complete minimum EMA requirements and 6 who withdrew, final analytical sample was N = 128 (only participants with eating disorders). Mean age = 27.8 years (SD = 7.7), predominantly White (69.2%). Recruitment through websites, social media, and clinics across Canada.\n\n__Measurement Validity__\nDiagnostic assessment used validated instruments: Structured Clinical Interview for DSM-5 (SCID-5-RV) and Eating Disorder Examination (EDE) with ARFID module. Inter-rater reliability was high (κ = 1.00 for AN and ARFID, κ = .87 for BN). Questionnaires included Eating Pathology Symptoms Inventory (EPSI) subscales for cognitive restraint and restriction. No information provided on test-retest reliability of EMA measures.\n\n__Statistical Rigor__\nNo information provided on statistical power analysis, planned analyses, or preregistration. The study appears to be exploratory given the comparison of different eating disorder groups on EMA measures.\n\n__Statistical Power__\nNo power analysis reported. Sample size of 128 for EMA analyses appears adequate for within-person analyses but may be underpowered for between-group comparisons (particularly for ARFID with n = 31).\n\n__Data Transparency__\nOSF ID provided (pmnz6), but no information on data availability or open science practices.\n\n__Effect Sizes__\nNot mentioned in methods section, though likely reported in results section.\n\n__Participant Transparency__\nDemographic information provided, but limited diversity (predominantly White sample). Inclusion of non-binary participants noted but small in number (n = 9)."
   },
   {
     "number": 94,
@@ -1776,7 +1781,8 @@
     "summary": "Feasibility randomized controlled trial of trauma-sensitive somatic yoga for functional neurological disorder.",
     "clinical_insight": "Trauma-sensitive somatic yoga provides a body-first therapeutic entry point for patients with functional neurological disorder whose symptoms may be worsened by traditional talk therapy. Clinicians can integrate gentle, interoceptive-awareness practices to help patients reconnect with bodily signals without triggering dissociation or symptom escalation. This feasibility evidence supports offering somatic yoga as an adjunct or alternative early in treatment when patients are ambivalent about psychological framing of their symptoms.",
     "relevant_for": "Neuropsychologists and rehabilitation therapists working with functional neurological disorder",
-    "link": "https://osf.io/preprints/psyarxiv/r3cgf"
+    "link": "https://osf.io/preprints/psyarxiv/r3cgf",
+    "methodology_note": "This is an other-type paper. No PDF was available for full methodology assessment. Title: Somatic yoga for FND: feasibility RCT"
   },
   {
     "number": 108,
@@ -1995,7 +2001,8 @@
     "clinical_insight": "Therapists working with trauma patients should exercise caution with memory recovery techniques, as the evidence base for repressed memory remains contested. Best practice involves using memory-grounding strategies, avoiding suggestive questioning, and focusing on present-day symptom management rather than pursuing recovered memories as a treatment goal.",
     "relevant_for": "Trauma therapists and EMDR practitioners",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/ewvry_v1"
+    "link": "https://osf.io/preprints/psyarxiv/ewvry_v1",
+    "methodology_note": "This is an other-type paper. No PDF was available for full methodology assessment. Title: Client-Reported Prevalence of Repressed Memory Recovery in Therapy: A Representative U.K. Sample"
   },
   {
     "number": 122,
@@ -2011,7 +2018,8 @@
     "clinical_insight": "A validated cognitive rigidity measure enables therapists to systematically track flexibility as a treatment target across conditions like OCD, depression, and personality disorders. Clinicians can administer the tool at intake and at intervals to monitor whether interventions such as behavioral experiments or schema work are producing measurable shifts in cognitive flexibility.",
     "relevant_for": "Clinical psychologists and neuropsychologists in assessment and therapy roles",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/pzbvf_v1"
+    "link": "https://osf.io/preprints/psyarxiv/pzbvf_v1",
+    "methodology_note": "quantitative_experimental\n\n__Design__\nThis study employed a randomized controlled trial (RCT) design comparing two intervention groups: B2B + BS (Brain2Business Plus Brainstorming) and BS (Brainstorming only). The study utilized an active control group (BS condition) and included participants with and without psychiatric disorders. The intervention involved two positive interventions (behavioral activation and gratitude intervention) applied during laboratory sessions and at home over 5 days. The study had three assessment time points: online questionnaire, laboratory session (~1 week later), and 5 home-based sessions.\n\n__Participants__\nThe study included adults (age ≥ 18 years) fluent in German with no acute suicidality or neurological disorders interfering with procedures. Recruitment occurred through psychiatric services, outpatient practices, social media, flyers, and newspaper articles. Participants received CHF 30 or course credit compensation. The study included participants both with and without psychiatric disorders, with disorder status determined by trained psychologists based on interviews and self-reported diagnosis information. However, the exact sample size (N) was not specified in the provided methods section.\n\n__Measurement Validity__\nThe primary outcome was general creative cognition, measured as a composite score of objective and subjective creative cognition. Objective creative cognition was assessed using fluency (number of relevant responses), flexibility (number of conceptual categories), and originality (uncommonness, remoteness, cleverness) scores from the idea generation phases. These scores were z-standardized and averaged. Disorder status was determined through clinical judgment based on five information types (diagnosis, treatment, distress, functional impairment). The study referenced established interventions (behavioral activation and gratitude intervention) with theoretical foundations in the literature.\n\n__Statistical Rigor__\nThe study employed random assignment to intervention groups. However, the provided methods section did not specify statistical analysis methods, power analysis, or whether the study was adequately powered. No information was provided on preregistration status, open data availability, or code sharing.\n\n__Effect Sizes__\nEffect sizes were not reported in the provided methods section.\n\n__Limitations__\nThe primary limitation is the lack of information about sample size and power analysis, making it difficult to evaluate whether the study was adequately powered to detect meaningful effects. Additionally, while the study included both healthy adults and those with psychiatric disorders, the specific characteristics and distribution of these groups were not detailed. The methods section also did not provide information about statistical analysis approaches or data transparency measures."
   },
   {
     "number": 123,
@@ -2028,7 +2036,8 @@
     "clinical_insight": "The differential impact of disinhibition versus anankastia on clinical outcomes suggests that personality profiling using these dimensions can guide treatment selection and prognostic planning. High disinhibition may predict impulsive self-harm, substance use, and therapy dropout, warranting a focus on distress tolerance and behavioral regulation. High anankastia may predict rigidity, treatment over-engagement without change, and obsessive coping, requiring flexible pacing and attention to therapeutic alliance.",
     "relevant_for": "Personality disorder specialists and clinical psychologists",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/rnkma_v1"
+    "link": "https://osf.io/preprints/psyarxiv/rnkma_v1",
+    "methodology_note": "PDF unavailable — paper may be withdrawn or access-restricted."
   },
   {
     "number": 124,
@@ -2045,7 +2054,8 @@
     "clinical_insight": "Mobile apps for suicidality monitoring in autistic populations can bridge the accessibility gap created by difficulties with in-person crisis disclosure and alexithymic presentations. Clinicians should integrate app-based mood and urge tracking into safety plans, enabling real-time data sharing between sessions and more responsive care. Selecting apps with sensory-friendly interfaces, clear visual cues, and optional caregiver alerts is critical for adoption in this population.",
     "relevant_for": "Crisis clinicians and autism spectrum disorder specialists",
     "published": null,
-    "link": "https://osf.io/preprints/psyarxiv/8bdwq_v1"
+    "link": "https://osf.io/preprints/psyarxiv/8bdwq_v1",
+    "methodology_note": "PDF unavailable — paper may be withdrawn or access-restricted."
   },
   {
     "number": 125,
