@@ -539,3 +539,19 @@
 - e8rky_v1 | 1 | Action Perception System — Cognitive neuroscience
 - 5g8s9_v2 | 1 | Scene distance and object scaling — Vision/cognitive
 - x6hc9_v1 | 1 | Neural Dynamics of Action-Effect Predictions — RECOVERED: bridges to sense of agency/avolition in psychosis/depression
+
+### Pipeline run 2026-07-15 12:00
+- jh37y_v1 | 11 | Promoting mental health using a mobile Health application in adolescents with a chronic somatic illness — Adolescent sample (ages 10-18), child exclusion rule
+- 64xva_v1 | 6 | Quality of Life in Older Adults and Positive Factors: A Systematic Review — QoL systematic review, aging-focused, not clinical psychology practice
+- az98u_v1 | 5 | Interpersonal coordination in unstructured conversation — Basic social psychology/communication research
+- scvdm_v1 | 5 | Cognitive Reserve as Adaptive Resilience: A Cross-Species Framework — Comparative neuropsychology, cross-species, not clinical
+- xny7h_v1 | 4 | Bridging population-level and person-specific approaches to SGM well-being — Statistical methodology for well-being research
+- pa89m_v5 | 3 | Wordle – A Game-Based Assessment of Verbal Ability? — Cognitive assessment via game, not clinical
+- dfq67_v1 | 3 | The Influence of Parental Cultural Values on Preschool Children's Over-Imitation — Developmental psychology, preschool children
+- wd45j_v1 | 2 | From Individual Perception to Collective Cooperation: Kuramoto Oscillators — Mathematical modeling, not psychology
+- nbm5h_v1 | 2 | Dynamic and Image Variation Archive (DIVA-Face) — Facial stimulus development, not clinical
+- 3s5cx_v2 | 1 | Modeling multidisciplinary data in developmental neuroscience — Developmental neuroscience methods
+- gydwk_v1 | 1 | Errors as signals: generative practice improves programming performance — Education/programming learning
+- sgwjv_v2 | 1 | Do Habits Moderate the Intention-Behavior Link? — Health psychology methodology/statistics
+- y6bqg_v2 | 1 | A motor basis for a foreign accent? — Linguistics/speech motor research
+- jr3cy_v1 | 1 | Auditory Cue-weighting in BaYaka Forest-Foragers — Music cognition/cross-cultural perception
