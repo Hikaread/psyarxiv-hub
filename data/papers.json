@@ -9377,5 +9377,39 @@
     "relevant_for": "- Addiction psychiatrists specializing in gambling disorders\n- Clinical psychologists working with gambling disorder\n- Public health officials planning healthcare resource allocation\n- Gambling treatment service administrators\n- Urban planners considering the impact of gambling venues on community health",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/p3ev2_v1"
+  },
+  {
+    "number": 571,
+    "title": "CogniCart: A Virtual Supermarket Task for Ecologically Valid Assessment of Executive Functions and Examination of Cognitive Support Effects",
+    "authors": "Farhad Aghayev, Manisha Dubey, Emanuele De Pellegrin, Jonathan Evans, Gnanathusharan Rajendran, Subramanian Ramamoorthy",
+    "osf_id": "bhmvd_v1",
+    "date_posted": "2026-07-14",
+    "source_date": "14.07.2026",
+    "categories": [
+      "Neuropsychology & Aging"
+    ],
+    "summary": "The CogniCart study introduces a novel virtual supermarket task designed to assess executive functions (EF) with enhanced ecological validity. The study employed a between-subjects design with 24 healthy university students, comparing a prompted intervention condition (providing external cognitive support features targeting planning, working memory, and inhibitory control) against an unprompted control condition. The task combined automatically logged behavioral measures with eye tracking data. Results showed that CogniCart behavioral features correlated strongly with external cognitive assessments, with regression models explaining up to **86.6% of the variance** in shopping list completion rate. Classification models distinguished between prompt conditions with up to **87.5% accuracy**, validated through permutation testing and Bayesian posterior inference. The findings suggest CogniCart has strong potential as a scalable assessment tool for executive functions in neurodiverse populations.",
+    "clinical_insight": "CogniCart offers a clinically practical assessment method that bridges the gap between traditional neuropsychological tests and real-world executive functioning. The dual-purpose design allows clinicians to both evaluate EF deficits and test the effectiveness of cognitive support interventions in a naturalistic setting.",
+    "methodology_note": "Sample size: N=24 healthy university students. Design type: Between-subjects experimental design with prompted intervention and unprompted control conditions. Key measures: Behavioral data (shopping list completion), eye tracking data, external cognitive assessments (Hotel Test, Cognitive Failures Questionnaire). Analysis approach: Regression models, classification models, permutation testing, Bayesian posterior inference. Preregistration status: Not specified in the provided abstract.",
+    "relevant_for": "- Neuropsychologists assessing executive function deficits\n- Clinicians working with ADHD patients\n- Geriatric specialists evaluating cognitive aging\n- Rehabilitation psychologists planning cognitive interventions\n- Researchers developing digital therapeutics for cognitive enhancement",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/bhmvd_v1"
+  },
+  {
+    "number": 572,
+    "title": "Event Centrality and Post-Traumatic Stress Symptoms in Sexual Assault Survivors: A Longitudinal Cross-Lagged Analysis",
+    "authors": "Isabel Kreis, Marianne Skogbrott Birkeland, Siri Thoresen, Ask Elklit, Ines Blix",
+    "osf_id": "2e9wb_v2",
+    "date_posted": "2026-07-15",
+    "source_date": "15.07.2026",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This longitudinal study examined the cross-lagged relationship between event centrality and post-traumatic stress symptoms (PTSS) in 423 sexual assault survivors (98% female, age M = 26.68) at 3-, 6-, and 12-month intervals. Using both cross-lagged panel model (CLPM) and random intercept CLPM (RI-CLPM) analyses, researchers found **significant unidirectional effects from PTSS to event centrality** (CLPM: β = 0.12, 95% CI [0.05,0.18]; RI-CLPM: β = 0.23, 95% CI [0.04,0.42]), with no significant effects from centrality to PTSS. This pattern was observed at both between-person and within-person levels, suggesting that higher early PTSS predicts increased centrality over time. Exploratory analyses tentatively indicated that the dynamics between these variables may vary based on temporal distance from the trauma, though these findings were not statistically significant. The study's generalizability is limited by the low demographic diversity of the sample.",
+    "clinical_insight": "These findings suggest that in sexual assault survivors, event centrality functions more as a consequence rather than a cause of ongoing post-traumatic stress. This challenges theoretical models positioning centrality as a primary driver of PTSS and has implications for intervention timing, potentially indicating that targeting centrality may be most beneficial after initial PTSS reduction.",
+    "methodology_note": "Sample size: N = 423 sexual assault survivors. Design: Longitudinal with three assessment points (3-, 6-, and 12-months post-inclusion). Key measures: Event centrality and PTSS assessed at each time point. Analysis approach: Cross-lagged panel model (CLPM) and random intercept CLPM (RI-CLPM) to examine both between- and within-person effects. Preregistration status: OSF ID provided (2e9wb_v2), indicating preregistration.",
+    "relevant_for": "- Trauma therapists working with sexual assault survivors\n- PTSD treatment providers\n- Researchers studying trauma-related cognitive processes\n- Clinicians developing narrative-based interventions for trauma",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/2e9wb_v2"
   }
 ]

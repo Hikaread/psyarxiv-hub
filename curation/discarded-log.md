@@ -574,3 +574,24 @@
 - h72rb_v4 | 1 | Stable Worldviews or Context-Sensitive Systems? Longitudinal Evidence on Epistemically Suspect Beliefs — Deferred (signal=1, social/personality psychology)
 - ybftn_v4 | 1 | Early readers know letter shapes without knowing letter names — Deferred (signal=1, developmental/education)
 - zjkcy_v4 | 1 | Do Researchers Claim Their Findings Are Applicable to the Real World? — Deferred (signal=1, metascience/research methodology)
+
+- ye869_v3 | 8 | Adolescents' experiences of social media content types and wellbeing — Adolescent population, not clinical practice
+- xgbh7_v1 | 5 | HOW SOUND HACKS THE SLEEPING BRAIN — Basic neuroscience of sleep oscillations, no clinical application
+- jb65h_v2 | 4 | Differences in Gender Identity Centrality Across Cultural Contexts — Cultural/gender psychology, no clinical application
+- grywc_v1 | 4 | The Role of Mathematical Activities in the Classroom for Executive Function Development — Elementary school children, education research
+- ebsy3_v1 | 4 | Beyond Behaviour: Autistic Students' Self-Reported Experiences at School — School/adolescent focus, not clinical
+- 234ru_v2 | 4 | Unmasking Unconscious Working Memory — Basic cognitive psychology, no clinical application
+- xc4zt_v2 | 3 | Time-Based Cognition and Working Memory Explain Changes in Delay Discounting Through Adolescence — Adolescent development, basic cognitive
+- werfj_v1 | 3 | The Role of School Context in Children's Well-Being and Executive Function — Children, education context
+- cpz4b_v2 | 3 | Empowered by a bot? AI chatbots and self-efficacy in therapy — AI/tech research, not clinical psychology
+- ayxkv_v1 | 3 | Anchored in Truth but Driven by Grandiosity — Personality psychology research, not clinical
+- 3vgu2_v4 | 3 | No attentional control in working memory? — Basic cognitive psychology methods
+- nz2fy_v4 | 2 | Revisiting Gino et al. Contagion in Unethical Behavior — Social psychology replication, not clinical
+- zu7mv_v2 | 2 | Affective context moderates mother-child cortisol synchrony — Developmental/parenting research
+- sb2zq_v4 | 2 | Who Emerges as a Leader in Adolescent Social Interactions — Adolescent social psychology
+- kqwzn_v2 | 2 | Can the Best Items Rescue Ryff's Six Factors? — Psychometrics/methods, not clinical
+- sgjkd_v2 | 2 | Reflections on lifetimes with music from over-60 year olds — Music/aging, not clinical
+- cfgdp_v3 | 2 | A method for studying contextual similarity of characters — Linguistics/perception methods
+- bj26m_v1 | 2 | Beyond Human-AI Agreement: LLMs for Content Validity — Psychometrics/AI methods
+- 3adgx_v1 | 2 | Censored DSEM Models for Analyzing ESM Data — Statistics/methods paper
+- r7qb5_v1 | 1 | SIMP2L: A template for simulation preregistration — Methods/template paper
