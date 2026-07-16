@@ -609,3 +609,4 @@
 - tc34w_v1 | 1 | Computational Models Gone Rogue — deferred (max_papers limit)
 - k6f9m_v4 | 1 | Young Children Spontaneously Appreciate the Perspectives of their Social Partners — deferred (max_papers limit)
 - bw5kq_v1 | 1 | Large language models infer hidden preferences from eye movements — deferred (max_papers limit)
+- gfxb2_v2 | 3 | The Kia Tīmata Pai RCT: ENRICH Early Childhood Teacher Training — early childhood/toddler focus, no direct clinical application
