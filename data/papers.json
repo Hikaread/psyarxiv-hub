@@ -9445,5 +9445,56 @@
     "relevant_for": "- Psychiatrists specializing in eating disorders\n- Psychologists and psychotherapists working with eating disorders\n- Primary care providers needing screening tools for binge eating\n- Researchers studying binge eating pathology\n- Clinicians in weight management and bariatric settings",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/cdtu4_v4"
+  },
+  {
+    "number": 575,
+    "title": "Divergent Perceptions of Autistic Parents Among Healthcare, Social-care, and Judicial Professionals and Autistic Adults : A Participatory Study",
+    "authors": "Adeline Lacroix, William Vallet, Meng-Chuan Lai, Daniele Langloys, Magali Pignard, Jerome Brunelin, Marine Dubreucq, Caroline Demily",
+    "osf_id": "c8wd9_v2",
+    "date_posted": "2026-05-20",
+    "source_date": "20.05.2026",
+    "categories": [
+      "Neurodivergence"
+    ],
+    "summary": "This participatory study examined **divergent perceptions** of autistic parents among healthcare, social-care, and judicial professionals compared to autistic adults themselves. The study involved a **collaborative research team** with autistic adults as co-researchers in the majority, ensuring authentic representation. Researchers recruited **124 autistic adults** (78% female, 78% parents) and **977 non-autistic professionals** across seven categories (medical, judicial, psychological, educational, paramedical, social, and speech therapy). Participants evaluated a clinical vignette of an autistic mother caring for her sick child using an 8-item questionnaire, with responses measured on a 0-100 slider scale. **Key findings revealed significant differences** in perceptions between autistic adults and professionals, particularly regarding judgments about parenting competence and likelihood of having certain disorders. Professionals showed **greater skepticism** of autistic parenting abilities compared to autistic adults themselves. The study used **exploratory factor analysis** to reduce items into latent factors and **generalized linear models** with gamma distribution for analysis, with power >0.8 for detecting effects.",
+    "clinical_insight": "This research highlights critical **diagnostic bias** in professional evaluations of autistic parents, which can lead to unfair assessments in healthcare, social services, and legal settings. Clinicians should be aware of their potential **over-pathologizing tendencies** when interacting with autistic parents and consider seeking consultation from autistic colleagues or incorporating autistic perspectives into assessment protocols.",
+    "methodology_note": "The study employed a **cross-sectional online survey design** with N=124 autistic adults and N=977 professionals. Key measures included an 8-item questionnaire evaluating a clinical vignette (pre- and post-autism disclosure) and items assessing professional competency perceptions. Analysis used **exploratory factor analysis** to reduce items into latent factors, followed by **generalized linear models** with gamma distribution. Power analysis confirmed adequate sample size (>0.8) for detecting effects. The study was **preregistered** with OSF ID c8wd9_v2 and approved by the local ethics committee (CEREVI/2023/08).",
+    "relevant_for": "- Clinical psychologists working with neurodivergent families\n- Pediatric healthcare providers assessing parenting capacity\n- Social workers involved in child protection services\n- Legal professionals dealing with family law cases involving neurodivergent parents\n- Mental health professionals providing training to other service providers",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/c8wd9_v2"
+  },
+  {
+    "number": 576,
+    "title": "A Community-led Intervention to Improve Well-Being among Latina Mothers and Caregivers",
+    "authors": "Monica Quezada Barrera, Igdalia Covarrubias Reyna, Maribel Arias, Delfina Alvarez, Kazi Priyanka Silmi, Erika Pugh, Aubrey Valenzuela, Precious Peters, Marybel R. Gonzalez",
+    "osf_id": "pdhxu_v1",
+    "date_posted": "2026-05-20",
+    "source_date": "20.05.2026",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This study employed a community-led grounded theory approach to investigate well-being interventions among Latina mothers in Southern California, with N = 20 participants across two cohorts. The research utilized mixed methods including surveys, semi-structured interviews, and longitudinal assessments over 4 months. Three salient themes emerged: (a) redefining health as holistic well-being, (b) reclaiming womanhood beyond motherhood, and (c) rooted in self, blooming for family. The findings indicated that culturally tailored programs significantly improved Latina mothers' well-being by addressing mental, physical, and nutritional health disparities. Participants reported meaningful shifts in their health perspectives, with particular emphasis on the integration of healthy eating practices and mental health support. The study demonstrated that community-led approaches can effectively empower Latina mothers to adopt sustainable family health practices while addressing systemic inequities.",
+    "clinical_insight": "This research demonstrates that culturally grounded interventions addressing multiple dimensions of health (mental, physical, nutritional) can significantly improve well-being outcomes for Latina mothers. The findings highlight the importance of creating spaces that allow mothers to reconnect with their identity beyond motherhood while developing practical health skills.",
+    "methodology_note": "Grounded theory methodology with N = 20 Latina mothers across two cohorts. Mixed methods approach included surveys (mental health, self-care, parental distress, immigration, program satisfaction), semi-structured interviews, and longitudinal assessments (pre, mid, post-program, 1-month and 4-month follow-ups). Data analysis followed thematic analysis within the grounded theory framework, with triangulation of data sources, peer debriefing, and member-checking to enhance trustworthiness. No preregistration status was mentioned.",
+    "relevant_for": "- Community mental health providers working with Latina populations\n- Public health professionals addressing health disparities\n- Family therapists working with immigrant families\n- Nutrition specialists focusing on culturally appropriate interventions\n- Community program developers for maternal health",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/pdhxu_v1"
+  },
+  {
+    "number": 577,
+    "title": "Increased reward sensitivity during motivational decision-making is associated with preserved perimenstrual mood",
+    "authors": "Annalise Whines, Sara Z. Mehrhof, Tory Eisenlohr-Moul, Camilla Nord",
+    "osf_id": "2bvwa_v2",
+    "date_posted": "2026-05-20",
+    "source_date": "20.05.2026",
+    "categories": [
+      "Somatic & Functional"
+    ],
+    "summary": "This study investigated how hormonal fluctuations during the menstrual cycle affect reward sensitivity and mental health. The researchers examined 200 naturally cycling participants who completed effort-based decision-making tasks and psychiatric measures during both periovulatory (high estradiol, low progesterone) and perimenstrual (low estradiol, low progesterone) phases. Using computational modeling, they found that participants showed increased reward sensitivity and decreased acceptance bias during the perimenstrual phase. Notably, those with larger perimenstrual increases in reward sensitivity experienced smaller increases in depression symptoms (β = -0.28, p < 0.001). The study demonstrates that **perimenstrual shifts in reward sensitivity** may represent a neurocognitive response to declining estradiol that helps buffer against low mood, with computational modeling revealing specific mechanisms underlying these effects.",
+    "clinical_insight": "Understanding individual differences in reward sensitivity during the menstrual cycle can help identify those at risk for perimenstrual mood disturbances and potentially guide personalized interventions targeting reward processing pathways.",
+    "methodology_note": "Sample size: N=200 naturally cycling adults from the general population. Design: Preregistered within-subjects counterbalanced design. Key measures: Effort-expenditure task, psychiatric symptom measures (depression, anxiety, anhedonia). Analysis approach: Computational modeling to extract reward sensitivity, effort sensitivity, and acceptance bias parameters, with mixed-effects models examining relationships between cycle phase, computational parameters, and symptom changes. Preregistration status: Preregistered on OSF (ID: 2bvwa_v2).",
+    "relevant_for": "- Psychiatrists treating patients with PMDD or PMS\n- Clinical psychologists working with women's mental health\n- Gynecologists managing patients with menstrual cycle-related mood symptoms\n- Researchers studying mood disorders and hormonal influences",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/2bvwa_v2"
   }
 ]
