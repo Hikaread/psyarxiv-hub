@@ -619,3 +619,14 @@
 - kxvqy_v1 | 2 | Pupillometry reveals a non-directional benefit of accent adaptation — deferred (max_papers limit)
 - 23trp_v2 | 2 | Supporting fidelity of implementation: Pathways-to-Success replications — deferred (max_papers limit)
 - 8mr5a_v2 | 2 | Analyses of Naturalistic MEG Data using Multivariate TRF Modeling — deferred (max_papers limit)
+- 4p7ke_v1 | 5 | "It's Okay Not to Be Okay"? Awareness Fatigue and Mental Health Campaigns — no PDF
+- 8kedf_v1 | 5 | Objective Measurement of Energy Behavior in TPB Research — no PDF (not clinical; energy behavior)
+- y3xh4_v1 | 4 | Multiple routes of semantic transparency in Chinese compound processing — PDF 403 (linguistics)
+- 8sepv_v1 | 4 | Sensory Saturation and Cognitive Surrender in Neurogastronomy — PDF 403 (not clinical)
+- uzwjn_v1 | 4 | Experiences of Social Adversity and Functioning Preceding Psychosis — no PDF
+- 56apf_v1 | 3 | Development and Initial Validation of the Violence Desensitization Scale — deferred (max_papers)
+- ev5mn_v2 | 2 | Measuring Social Attitudes with Best-Worst Multidimensional Unfolding — deferred (max_papers)
+- csjad_v1 | 2 | Theoretical Foundations of AI-Sycophancy — deferred (max_papers)
+- rh6vf_v3 | 1 | Influence of Age on Misinformation Retractions — deferred (max_papers)
+- 9dbhk_v1 | 1 | Modulation of gastric activity using appetizing and disgusting images — deferred (max_papers)
+- h8y3g_v1 | 1 | Cross-linguistic Semantic Stability in Diachronic Evolution — deferred (max_papers)
