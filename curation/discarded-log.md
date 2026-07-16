@@ -610,3 +610,12 @@
 - k6f9m_v4 | 1 | Young Children Spontaneously Appreciate the Perspectives of their Social Partners — deferred (max_papers limit)
 - bw5kq_v1 | 1 | Large language models infer hidden preferences from eye movements — deferred (max_papers limit)
 - gfxb2_v2 | 3 | The Kia Tīmata Pai RCT: ENRICH Early Childhood Teacher Training — early childhood/toddler focus, no direct clinical application
+- 2dfcu_v1 | 11 | Cultivating Flourishing through Yoga Nidra Practice in Students — no PDF (download 500)
+- 37s8j_v1 | 8 | Development and Initial Validation of a Brief Transdiagnostic Measure of Conflict Resolution — no PDF (download 500)
+- razwe_v1 | 5 | Oral Microbiome Dynamics in Health and Disease — no PDF (download 500)
+- cq4a9_v1 | 5 | Linking Fluctuations in Working Memory and Inhibitory Control to Daily Alcohol Use — no PDF (download 502)
+- vdum2_v1 | 4 | Population-level prediction from neural responses to video advertisements — no PDF (download 502)
+- am3rx_v1 | 3 | Rewind and Recall: Self-regulated Learning in Video-based Learning — deferred (max_papers limit)
+- kxvqy_v1 | 2 | Pupillometry reveals a non-directional benefit of accent adaptation — deferred (max_papers limit)
+- 23trp_v2 | 2 | Supporting fidelity of implementation: Pathways-to-Success replications — deferred (max_papers limit)
+- 8mr5a_v2 | 2 | Analyses of Naturalistic MEG Data using Multivariate TRF Modeling — deferred (max_papers limit)
