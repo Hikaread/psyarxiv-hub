@@ -685,3 +685,23 @@
 - Date: 2026-07-17 | Signal: 3
 - Reason: Methodological/statistical paper on causal research design, no clinical application
 - Status: rejected
+
+### b79w3_v1 — Student wellbeing over time and across subgroups: a network and mixed-effects analysis of 6511 university students
+- Date: 2026-03-26 | Signal: 13
+- Reason: Focuses on student wellbeing in university population without direct clinical application for practicing therapists
+- Status: rejected
+
+### vnyuj_v3 — Development and Validation of a Workplace Well-Being Assessment Tool for Workers with Intellectual Disabilities
+- Date: 2026-03-26 | Signal: 5
+- Reason: No PDF available
+- Status: no_pdf
+
+### fhstw_v2 — Analyzing Multidimensional Formal Dynamic Models in Psychology: A Tutorial Using Graphical Tools
+- Date: 2026-03-26 | Signal: 5
+- Reason: Mathematical modeling and computational methods tutorial, not clinical application
+- Status: rejected
+
+### b27sh_v1 — COVID-19 Impacts on Children and Resources for Resilience: What is the Direction of Causation?
+- Date: 2026-03-26 | Signal: 5
+- Reason: No PDF available; child/adolescent population
+- Status: no_pdf
