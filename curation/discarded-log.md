@@ -665,3 +665,23 @@
 - Date: 2026-05-21 | Signal: 5
 - Reason: Focuses on AI technology and adolescent development without direct clinical application; adolescent population
 - Status: rejected
+
+### tupn5_v1 — Exploring Unusual Moments in Daily Life: Phantom Phone Signals, psychosis-like experiences and wellbeing
+- Date: 2026-07-17 | Signal: 7
+- Reason: No PDF available
+- Status: no_pdf
+
+### qj3nc_v1 — Inconclusive intergenerational transmission of posttraumatic stress disorder symptoms: A comment on Geng et al. (2026)
+- Date: 2026-07-17 | Signal: 6
+- Reason: Statistical/methodological critique of a study on intergenerational PTSD transmission, not a clinical paper with direct practice implications
+- Status: rejected
+
+### qjmav_v2 — Predicting Bilinguals' End-of-year Reading Using A Best-Language Approach
+- Date: 2026-07-17 | Signal: 4
+- Reason: Educational assessment and bilingual reading prediction in children, not clinical psychology practice
+- Status: rejected
+
+### chzb7_v3 — Time Aggregation and Missing Time Frames in Causal Research With Panel Data
+- Date: 2026-07-17 | Signal: 3
+- Reason: Methodological/statistical paper on causal research design, no clinical application
+- Status: rejected
