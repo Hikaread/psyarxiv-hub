@@ -9496,5 +9496,23 @@
     "relevant_for": "- Psychiatrists treating patients with PMDD or PMS\n- Clinical psychologists working with women's mental health\n- Gynecologists managing patients with menstrual cycle-related mood symptoms\n- Researchers studying mood disorders and hormonal influences",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/2bvwa_v2"
+  },
+  {
+    "number": 578,
+    "title": "Inter- and intra- individual variability in audiovisual multisensory processes in healthy ageing",
+    "authors": "Naomi K. Middelmann, Lauriane Ecabert, Eduardo Villar Ortega, Alessandra Griffa, Andrea Brioschi Guevara, Gilles Allali, James E Bartlett, Micah M. Murray",
+    "osf_id": "an5d8_v1",
+    "date_posted": "2026-07-16",
+    "source_date": "16.07.2026",
+    "categories": [
+      "Neuropsychology & Aging"
+    ],
+    "summary": "This study examined inter- and intra-individual variability in audiovisual multisensory processes in healthy ageing, involving 55 cognitively healthy older participants (aged 60-84 years) who completed a simple detection task with auditory, visual, and simultaneous audiovisual multisensory stimuli. **Reaction times (RTs)** to multisensory stimuli were significantly faster and less variable than those to either visual or auditory stimuli, while auditory stimuli elicited the slowest and most variable responses. This speeding effect exceeded predictions based on probability summation, suggesting multisensory integration prior to motor response initiation. Further analyses revealed RT differences between auditory stimuli according to pitch range, with higher pitch sounds showing slower responses. The study highlights how multisensory contexts can improve stimulus processing during healthy ageing while also revealing sensitivity to age-related changes in auditory sensory processing, supporting detection tasks as a promising assessment tool for age-related sensory changes.",
+    "clinical_insight": "Simple detection tasks measuring reaction time variability to multisensory stimuli could serve as a cost-effective screening tool for early detection of age-related sensory processing changes that may precede cognitive decline. The sensitivity to pitch-related differences in auditory processing suggests these tasks might help identify individuals at higher risk for dementia.",
+    "methodology_note": "Cross-sectional study design with N=55 cognitively healthy older adults (60-84 years). Participants completed a simple detection task with auditory, visual, and audiovisual stimuli. Key measures included reaction times and intra-individual variability across stimulus conditions. Analysis approach compared RTs across conditions and examined effects of pitch on auditory responses. The study was preregistered (OSF ID: an5d8_v1).",
+    "relevant_for": "- Geriatric psychologists assessing cognitive aging\n- Neuropsychologists evaluating early markers of cognitive decline\n- Audiologists interested in central auditory processing changes\n- Primary care providers working with aging populations\n- Researchers developing accessible screening tools for dementia prevention",
+    "notes": "The study focused only on cognitively healthy older adults, limiting generalizability to those with mild cognitive impairment or dementia. The sample size was modest (N=55) and the task was relatively simple. The study did not include objective measures of hearing ability. Longitudinal data would be needed to establish whether these sensory processing changes predict subsequent cognitive decline.",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/an5d8_v1"
   }
 ]
