@@ -632,3 +632,16 @@
 - h8y3g_v1 | 1 | Cross-linguistic Semantic Stability in Diachronic Evolution — deferred (max_papers)
 - ca95e_v4 | 11 | Real-World Emotional Experience is Associated with Future Internalizing Symptoms — no PDF
 - psfg4_v1 | 7 | Executive function scores are lower for 20-month-olds with elevated autism/ADHD likelihood — no PDF
+- ed5nq_v1 | 12 | Predictors of adolescent mental health trajectories — adolescent focus
+- a56qj_v1 | 10 | Friendship Quality, Personality Traits, and Mental Health in Pakistani Students — basic social psychology
+- 2cs8a_v2 | 9 | High SES as risk context for anxiety and alcohol use in youth — no PDF (youth focus)
+- x6u35_v1 | 5 | Beyond Stressors and Outcomes in Correctional Officers — no PDF
+- 5mxyh_v1 | 5 | Consequences of Strong Emotions: Affect Attractor Parameters — deferred
+- cdwgt_v1 | 2 | Fitting RI-CLPM — deferred (methods paper)
+- w2cbs_v1 | 2 | Ecology of curiosity for human-AI ecosystems — deferred (AI theory)
+- t8c2q_v1 | 2 | Spoken sentence comprehension in children with hearing loss — deferred (child focus)
+- f9a76_v4 | 2 | Evaluating a Depolarization Program — deferred (political)
+- audwf_v1 | 1 | Deception-Enabling Cognitive Capabilities in AI — deferred
+- 9a7mq_v1 | 1 | Monkeys and apes sequence order — deferred (animal)
+- 582qs_v1 | 1 | Normative Data for False Memory Research — deferred (basic methods)
+- v8phx_v2 | 1 | Color preferences in dogs — deferred (animal)
