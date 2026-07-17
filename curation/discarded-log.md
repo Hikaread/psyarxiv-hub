@@ -645,3 +645,23 @@
 - 9a7mq_v1 | 1 | Monkeys and apes sequence order — deferred (animal)
 - 582qs_v1 | 1 | Normative Data for False Memory Research — deferred (basic methods)
 - v8phx_v2 | 1 | Color preferences in dogs — deferred (animal)
+
+### 53qga_v2 — State Rumination Disrupts Working Memory and Increases Cognitive Effort Through Cognitive Interference
+- Date: 2026-05-21 | Signal: 7
+- Reason: No PDF available
+- Status: no_pdf
+
+### p4mdy_v1 — The relationship between sensory features and time perception in autism spectrum disorders: A systematic review
+- Date: 2026-05-21 | Signal: 6
+- Reason: Focuses on autism spectrum disorders with sensory features and time perception — developmental psychology focus without direct clinical application for practicing therapists
+- Status: rejected
+
+### hb72e_v1 — Examining Facilitators and Barriers to Diversity in Patient and Public Involvement and Engagement: A Delphi Study
+- Date: 2026-05-21 | Signal: 6
+- Reason: No PDF available
+- Status: no_pdf
+
+### pgyfc_v1 — Coming of Age with Generative AI: The High Stakes of Automating Adolescent Development
+- Date: 2026-05-21 | Signal: 5
+- Reason: Focuses on AI technology and adolescent development without direct clinical application; adolescent population
+- Status: rejected

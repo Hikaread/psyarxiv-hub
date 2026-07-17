@@ -9514,5 +9514,20 @@
     "notes": "The study focused only on cognitively healthy older adults, limiting generalizability to those with mild cognitive impairment or dementia. The sample size was modest (N=55) and the task was relatively simple. The study did not include objective measures of hearing ability. Longitudinal data would be needed to establish whether these sensory processing changes predict subsequent cognitive decline.",
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/an5d8_v1"
+  },
+  {
+    "number": 579,
+    "title": "Interoceptive Profiling Identifies Separable Somatic and Alexithymic Contributors to Mental Health",
+    "authors": "Timo Kvamme, Juha Silvanto",
+    "osf_id": "8tjw9_v2",
+    "date_posted": "2026-05-21",
+    "source_date": "21.05.2026",
+    "categories": "Somatic & Functional",
+    "published": "",
+    "summary": "This study identified three distinct interoceptive profiles in a sample of **833 adults** using k-means clustering on interoceptive accuracy and attention measures. The **Hypervigilant profile** (high attention, moderate accuracy) showed the greatest somatic symptom burden and pain catastrophizing; the **Uncertain profile** (low accuracy, moderate attention) demonstrated the highest alexithymia; and the **Efficient profile** (high accuracy, low attention) exhibited the lowest overall psychopathology. Structural equation modeling revealed a **statistical dissociation**: alexithymia followed an **additive deficit model** driven primarily by low accuracy, while somatic symptoms followed a **multiplicative amplification model** where elevated attention weakened accuracy's protective effect. Effect sizes for profile differences were substantial, with η²ₚ values ranging from 0.05 to 0.17 for mental health outcomes. The findings indicate that mental health risk reflects how interoceptive dimensions combine within individuals rather than their independent levels.",
+    "clinical_insight": "Clinicians can use interoceptive profiling to identify specific pathways to mental health symptoms, allowing for targeted interventions - those with hypervigilant profiles may benefit from attention regulation techniques, while those with uncertain profiles might focus on improving interoceptive accuracy.",
+    "relevant_for": "- Clinical psychologists working with somatic symptom disorders\n- Therapists treating patients with alexithymia and emotional regulation difficulties\n- Pain management specialists dealing with pain catastrophizing\n- Mental health professionals developing personalized treatment approaches",
+    "notes": "The study was cross-sectional, limiting causal inferences; no a priori power calculation was performed; the sample was recruited online and may not represent the general population; the study was not pre-registered; gender identity was self-reported but biological sex was not separately assessed.",
+    "methodology_note": "Sample size: N=833 adults (mean age=40.5 years, SD=13.4). Design: Cross-sectional observational study using k-means clustering and structural equation modeling. Key measures: Interoceptive Accuracy Scale, Interoceptive Attention Scale, Toronto Alexithymia Scale, State-Trait Anxiety Inventory, GAD-7, PHQ-9, Somatic Symptom Scale-8, Pain Catastrophizing Scale. Analysis approach: k-means clustering with multiple validation methods, structural equation modeling with moderated mediation, LASSO regression, random forest, and network analysis. Preregistration status: Not pre-registered."
   }
 ]
