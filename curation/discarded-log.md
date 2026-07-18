@@ -705,3 +705,63 @@
 - Date: 2026-03-26 | Signal: 5
 - Reason: No PDF available; child/adolescent population
 - Status: no_pdf
+
+### e529h_v2 — The unique needs and experiences of autistic students in higher education
+- Date: 2026-05-22 | Signal: 7
+- Reason: Educational support for autistic students, not clinical psychology practice
+- Status: rejected
+
+### ne2qd_v4 — Validating the Academic Learning Experiences Questionnaire
+- Date: 2026-05-22 | Signal: 7
+- Reason: No PDF available
+- Status: no_pdf
+
+### fr73d_v2 — Phased development of REAL-TALK (aphasia assessment toolkit)
+- Date: 2026-05-22 | Signal: 6
+- Reason: No PDF available
+- Status: no_pdf
+
+### mdjw7_v1 — Underpinnings of the Greenspace Effects: The Role of Context and Emotion Regulation
+- Date: 2026-05-22 | Signal: 6
+- Reason: Basic environmental psychology research without direct clinical application
+- Status: rejected
+
+### 9hrt8_v3 — From Foundations to Frontiers: Fit-for-Purpose Discourse Science
+- Date: 2026-05-22 | Signal: 5
+- Reason: No PDF available
+- Status: no_pdf
+
+### stndb_v1 — When AI Feels like Human: Anthropomorphism, Loneliness, and Problematic Use of Chatbots among School Teachers
+- Date: 2026-05-22 | Signal: 4
+- Reason: AI technology use and behavioral addiction patterns without direct clinical application
+- Status: rejected
+
+### fs2qy_v3 — Beyond minimal effects: a cumulative digital exposure framework for digital childhood
+- Date: 2026-05-22 | Signal: 4
+- Reason: Children's digital technology exposure, not clinical psychology
+- Status: rejected
+
+### bzcnx_v2 — Culture by Design: A Sociotechnical Framework for Culturally Grounded AI for Mental Health
+- Date: 2026-05-22 | Signal: 4
+- Reason: AI/technology development framework, not clinical psychology practice
+- Status: rejected
+
+### 4nw5s_v1 — The Primacy of Fluid Intelligence in Hypothesis Sampling
+- Date: 2026-05-22 | Signal: 4
+- Reason: No PDF available
+- Status: no_pdf
+
+### jkqwh_v1 — Disinformation in Practice: Threats, Actors, Mechanisms, and Constraints
+- Date: 2026-05-22 | Signal: 3
+- Reason: Disinformation research in government/media contexts, not clinical
+- Status: rejected
+
+### suhpm_v1 — From social input to social attention: Parental mood predictability and gaze cueing
+- Date: 2026-05-22 | Signal: 3
+- Reason: No PDF available; infant development focus
+- Status: no_pdf
+
+### prvkt_v1 — Built to Last: Online operant conditioning induces nocebo expectancies in chronic pain
+- Date: 2026-05-22 | Signal: 3
+- Reason: No PDF available
+- Status: no_pdf
