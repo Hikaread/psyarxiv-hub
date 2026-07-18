@@ -70,8 +70,8 @@
   var pendingSharedPaperNumber = null;
 
   function getPaperPermalink(num) {
-    var base = window.location.origin + window.location.pathname.replace(/\/$/, '');
-    return base + 'paper/' + num + '.html';
+    var base = window.location.origin + window.location.pathname.replace(/\/+$/, '');
+    return base + '/paper/' + num + '.html';
   }
 
   function copyTextToClipboard(value) {
