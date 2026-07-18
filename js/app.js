@@ -295,7 +295,8 @@
       applyStateFromHash();
       applyFilters();
     })
-    .catch(function() {
+    .catch(function(err) {
+      console.error('Paper load failed:', err);
       document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">Failed to load paper data.</p>';
     });
 
