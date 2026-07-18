@@ -9522,7 +9522,9 @@
     "osf_id": "8tjw9_v2",
     "date_posted": "2026-05-21",
     "source_date": "21.05.2026",
-    "categories": "Somatic & Functional",
+    "categories": [
+      "Somatic & Functional"
+    ],
     "published": "",
     "summary": "This study identified three distinct interoceptive profiles in a sample of **833 adults** using k-means clustering on interoceptive accuracy and attention measures. The **Hypervigilant profile** (high attention, moderate accuracy) showed the greatest somatic symptom burden and pain catastrophizing; the **Uncertain profile** (low accuracy, moderate attention) demonstrated the highest alexithymia; and the **Efficient profile** (high accuracy, low attention) exhibited the lowest overall psychopathology. Structural equation modeling revealed a **statistical dissociation**: alexithymia followed an **additive deficit model** driven primarily by low accuracy, while somatic symptoms followed a **multiplicative amplification model** where elevated attention weakened accuracy's protective effect. Effect sizes for profile differences were substantial, with η²ₚ values ranging from 0.05 to 0.17 for mental health outcomes. The findings indicate that mental health risk reflects how interoceptive dimensions combine within individuals rather than their independent levels.",
     "clinical_insight": "Clinicians can use interoceptive profiling to identify specific pathways to mental health symptoms, allowing for targeted interventions - those with hypervigilant profiles may benefit from attention regulation techniques, while those with uncertain profiles might focus on improving interoceptive accuracy.",
@@ -9537,7 +9539,9 @@
     "osf_id": "akrxw_v2",
     "date_posted": "2026-07-17",
     "source_date": "17.07.2026",
-    "categories": "Other Clinical",
+    "categories": [
+      "Other Clinical"
+    ],
     "published": "",
     "summary": "This preprint presents a novel **normative theory of procrastination** that provides a unifying framework for understanding its correlates, consequences, and interventions. The researchers develop a computational model using **dynamic programming** to simulate the timecourse of work, treating procrastination as emerging from sequential decision-making processes where individuals choose between working and postponing at each timepoint. The theory successfully reproduces established effects of temporal discounting, task aversiveness, and alternative activities while introducing two new factors: **perfectionism** (whose relationship with procrastination depends on moderating factors like temporal discounting) and the **shape of the effort-cost function** (which accounts for exhaustion as a consequence). The model predicts three temporal patterns of procrastination under delayed rewards and additional patterns under interventions like immediate rewards and intermediate deadlines. The authors empirically validate the perfectionism component, finding it explains the mixed empirical findings in the literature. The theory demonstrates that procrastination can emerge from utility maximization rather than purely irrational behavior, offering a more comprehensive understanding of this widespread issue affecting 20% of adults and up to 70% of students.",
     "clinical_insight": "This theory provides clinicians with a computational framework to understand why clients procrastinate and predict how interventions might affect their behavior patterns. It suggests that interventions should be tailored to specific temporal patterns of work, such as targeting middle-phase effort dips or early-phase delays, rather than applying one-size-fits-all approaches.",
@@ -9552,7 +9556,9 @@
     "osf_id": "n5gq4_v2",
     "date_posted": "2026-03-26",
     "source_date": "26.03.2026",
-    "categories": "Therapeutic Modalities",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
     "published": "",
     "summary": "This multi-national mega-study investigated the effects of gratitude practices on subjective well-being across 34 countries with a total sample of N = 10,696 participants. The research experimentally tested 6 brief gratitude interventions compared to 3 control tasks, finding **statistically significant improvements** in positive affect (d = 0.37), negative affect (d = −0.22), optimism (d = 0.24), life satisfaction (d = 0.12), indebtedness (d = 0.15), and envy (d = −0.16). Notably, substantial **heterogeneity** was observed across different gratitude practices (0.00 < τ < 0.08) and countries (0.10 < τ < 0.19). Writing gratitude texts produced the greatest benefits across all outcomes, while merely listing gratitudes yielded the smallest effects. At the country level, Mexico showed the most positive results (95% CI [0.56, 1.11]), while Norway showed the least (95% CI [−0.26, 0.37]). The study identified cross-cultural moderators, including cultural tightness, indulgence, power distance, religiosity, and GDP, that influenced intervention effectiveness.",
     "clinical_insight": "Gratitude interventions can provide immediate, small-to-moderate benefits for mood and well-being across diverse populations, but effectiveness varies significantly by cultural context. Clinicians should consider cultural factors when implementing gratitude practices, as the same intervention may produce different outcomes in different countries.",
@@ -9567,7 +9573,9 @@
     "osf_id": "bwe7m_v1",
     "date_posted": "2026-05-22",
     "source_date": "22.05.2026",
-    "categories": "Addiction & Substance Use",
+    "categories": [
+      "Addiction & Substance Use"
+    ],
     "published": "",
     "summary": "This desk review examines international vaping and nicotine cessation services through interviews with **8 service providers** across **6 countries** (Australia, Austria, Canada, Denmark, Finland, Netherlands, UK). Providers work in diverse settings including public/private hospitals, telephone-based services, community networks, and youth clinics. Key findings reveal a shift toward **integrated nicotine dependence approaches** rather than product-specific treatments. Providers identified **low-threshold access** (self-referral options) and **evidence-informed behavioral strategies** (motivational interviewing, CBT-informed counseling) as effective components. Pharmacological support (NRT, varenicline) was offered but with caveats regarding optimal dosing for vapers and ethical considerations for under-16s. Services increasingly recognize the need for **age-tailored approaches**, particularly for adolescents who may never have smoked. Major challenges include **regulatory fragmentation**, **prescribing constraints**, **engagement difficulties**, and **social/environmental risks** like unsafe sourcing of products. Success factors include a **motivational, non-judgmental ethos** and **choice-based engagement strategies**.",
     "clinical_insight": "Clinicians should adopt an integrated nicotine dependence approach rather than treating vaping, smoking, and pouch use in isolation. Motivational interviewing with a non-judgmental stance combined with practical substitutions for the sensory components of vaping appears most effective for engagement and cessation.",
@@ -9582,7 +9590,9 @@
     "osf_id": "cy8a6_v2",
     "date_posted": "2026-05-22",
     "source_date": "22.05.2026",
-    "categories": "Somatic & Functional",
+    "categories": [
+      "Somatic & Functional"
+    ],
     "published": "",
     "summary": "This cross-sectional study examined **159 women** with newly diagnosed breast cancer during the preoperative period in three Greek public hospitals. The study investigated associations between family functioning, perceived family support, resilience-related coping mechanisms, and coping self-efficacy. Using validated measures including the Family Assessment Device (FAD), Family Crisis Oriented Personal Evaluation scales (F-COPES), Family Support Scale (FS-12), Family Problem Solving Communication (FPSC) index, and Social Relationship Coping Efficacy Scale (SRCE), researchers conducted correlation and multivariable regression analyses. Results revealed that **higher family support (p < 0.001)** and **better family problem-solving (p = 0.033)** significantly predicted greater individual coping self-efficacy (SRCE). Family support emerged as the lone significant predictor of overall adaptive coping (p < 0.001), while sociodemographic factors like lower monthly income (p = 0.029) and higher educational level (p < 0.001) accounted for variance in specific subscales. The study provides strong evidence for systemic models of psychosocial adaptation, suggesting family-level processes shape individual coping capacities during the acute preoperative phase.",
     "clinical_insight": "These findings highlight that family support and problem-solving capabilities are critical determinants of a breast cancer patient's coping self-efficacy before surgery. Clinicians should assess family functioning and support systems as part of preoperative psychological evaluations to identify at-risk patients who may benefit from targeted family-centered interventions.",
@@ -9597,7 +9607,9 @@
     "osf_id": "5kbg2_v5",
     "date_posted": "2026-05-22",
     "source_date": "22.05.2026",
-    "categories": "Neurodivergence",
+    "categories": [
+      "Neurodivergence"
+    ],
     "published": "",
     "summary": "This study examined the structural roles of reappraisal and suppression in the association between ADHD tendencies and mental health in a sample of 294 adults (N=294). ADHD tendencies were measured using the Adult ADHD Self-Report Scale (ASRS), emotion regulation strategies via the Emotion Regulation Questionnaire (ERQ), and mental health with the K6 scale. Participants were categorized into above- and below-cutoff groups based on ASRS screening scores. Results showed that emotion regulation strategies partly mediated the association between ADHD tendencies and mental health, particularly through reappraisal. **Multi-group structural equation modeling** revealed that the indirect pathway through reappraisal was relatively consistent across groups, whereas the suppression-mental health path differed significantly between groups and was significant only in the below-cutoff group. The study did not support moderation effects of reappraisal or suppression. These findings highlight the importance of understanding ADHD-related emotion dysregulation not just in terms of habitual strategy use but also in relation to broader emotional experiences being regulated.",
     "clinical_insight": "For adults with ADHD tendencies, cognitive reappraisal appears to be a more consistently beneficial emotion regulation strategy for mental health across different symptom levels, while suppression may only be beneficial for those with lower ADHD tendencies. Clinicians should prioritize teaching reappraisal techniques while being cautious about recommending suppression as a general emotion regulation strategy for this population.",

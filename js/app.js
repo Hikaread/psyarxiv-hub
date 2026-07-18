@@ -287,7 +287,6 @@
   }, { passive: true });
 
   /* ===== INIT ===== */
-  console.log("INIT: about to fetch, papers array length = " + papers.length);
   fetch('data/papers.json')
     .then(function(r) { return r.json(); })
     .then(function(data) {
@@ -297,13 +296,6 @@
       applyFilters();
     })
     .catch(function(err) {
-      document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">FETCH ERROR: ' + (err.message||err) + '</p>';
-      try { document.title = 'ERROR: ' + (err.message||err); } catch(e2) {}
-      document.body.setAttribute('data-error', JSON.stringify({message: (err.message||String(err)).substring(0,200)}));
-      console.error('Paper load failed:', err);
-      return;
-      // fallback below should never run
-      var x = UNDEFINED_VAR_TO_PROVE_CATCH_RAN;
       document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">Failed to load paper data.</p>';
     });
 
@@ -312,7 +304,8 @@
     var counts = {};
     CATEGORIES.forEach(function(c) { counts[c.id] = 0; });
     papers.forEach(function(p) {
-      (p.categories || []).forEach(function(c) {
+      var cats = Array.isArray(p.categories) ? p.categories : (p.categories ? [p.categories] : []);
+      cats.forEach(function(c) {
         var id = labelToId[c];
         if (id && counts[id] !== undefined) counts[id]++;
       });
@@ -633,7 +626,8 @@
 
     if (p.categories && p.categories.length) {
       h += '<div class="paper-badges">';
-      p.categories.forEach(function(c) {
+      var cats = Array.isArray(p.categories) ? p.categories : (p.categories ? [p.categories] : []);
+      cats.forEach(function(c) {
         var dataCat = labelToId[c] || 'other';
         h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
       });
@@ -685,7 +679,8 @@
 
     if (p.categories && p.categories.length) {
       h += '<div class="paper-badges" style="margin-bottom:12px;">';
-      p.categories.forEach(function(c) {
+      var mcats = Array.isArray(p.categories) ? p.categories : (p.categories ? [p.categories] : []);
+      mcats.forEach(function(c) {
         var dataCat = labelToId[c] || 'other';
         h += '<span class="badge" data-cat="' + dataCat + '">' + esc(c) + '</span>';
       });
