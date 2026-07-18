@@ -765,3 +765,6 @@
 - Date: 2026-05-22 | Signal: 3
 - Reason: No PDF available
 - Status: no_pdf
+- csjwd_v1 | 3 | An introduction to perceptual and affective responses to physical activity and exercise — Focuses on exercise physiology and perceptual responses rather than clinical psychology practice
+- hqt5s_v1 | 2 | Mapping the Abstraction of Song Representations from Perception to Autobiographical Memory — Basic cognitive psychology research on music perception and memory without clinical application
+- fmdvn_v3 | 1 | Orchestrating neuroimaging data processing using the 'Snakemake' workflow manager — Low signal score (1); methods paper on neuroimaging pipelines

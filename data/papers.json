@@ -9616,5 +9616,41 @@
     "relevant_for": "- Clinical psychologists working with adult ADHD populations\n- Psychiatrists treating adults with ADHD and comorbid mental health issues\n- Counselors specializing in neurodiversity\n- Mental health professionals developing emotion regulation interventions for ADHD",
     "notes": "The study used a screening measure rather than clinical diagnosis for ADHD categorization. The cross-sectional design limits causal inferences about the relationships between ADHD tendencies, emotion regulation strategies, and mental health. The sample may not be fully representative as participants were recruited through social media, university networks, and ADHD support groups. No preregistration information was provided for the study.",
     "methodology_note": "Sample size: N=294 adults aged 18 and older. Design: Cross-sectional web-based survey with multi-group comparison. Measures: ASRS for ADHD tendencies, ERQ for emotion regulation strategies (reappraisal and suppression subscales), and K6 for mental health. Analysis: Hierarchical multiple regression and structural equation modeling to examine mediation effects. No information provided on preregistration status."
+  },
+  {
+    "number": 585,
+    "title": "Predicting Treatment Outcomes, Attrition, and Enrolment Suitability in Mindfulness-integrated Cognitive Behavior Therapy: Machine Learning and Survival Analyses",
+    "authors": "Sarah Strohmaier; Bruno Cayoun; Alice Shires; Chris Krageloh; Oleg Medvedev",
+    "osf_id": "gzahr_v1",
+    "date_posted": "2026-07-18",
+    "source_date": "2026-07-18",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "published": "",
+    "summary": "This study investigated predictors of treatment outcomes, attrition, and enrolment suitability in Mindfulness-integrated Cognitive Behavior Therapy (MiCBT) using advanced statistical methods. The sample included 326 adults (195 male; M = 41.4, SD = 14.0) assessed at psychology clinics, with 190 engaging in MiCBT treatment. **Large treatment effects** were observed for stress reduction (d = 1.47) and equanimity improvement (d = 1.71). More severe depression and PTSD diagnoses predicted faster distress reduction, while PTSD and ADHD predicted greater life satisfaction gains. Equanimity improvement showed **strong correlations** with distress reduction (r = –0.47) and life satisfaction gains (r = 0.39). For retention, younger age (HR = 0.81, p = 0.027), lower baseline life satisfaction (HR = 0.83, p = 0.041), and personality disorder diagnosis (HR = 1.84, p = 0.042) were significant predictors. Prior meditation experience predicted higher enrolment likelihood (χ² = 9.44, p = 0.002) but not retention, while ADHD diagnosis predicted non-enrolment (χ² = 6.69, p = 0.010) but not discontinuation among those who commenced treatment.",
+    "clinical_insight": "The findings can help clinicians identify clients who may benefit most from MiCBT and those at risk of early dropout, allowing for personalized treatment planning and targeted interventions to improve retention. The distinct predictors for enrolment versus retention suggest that different strategies may be needed during intake versus ongoing treatment phases.",
+    "relevant_for": "- Clinicians offering MiCBT or mindfulness-based interventions\n- Clinical psychologists working with clients diagnosed with depression, PTSD, ADHD, or personality disorders\n- Mental health administrators optimizing treatment resource allocation\n- Researchers developing personalized treatment approaches in mindfulness therapies",
+    "notes": "The study utilized a naturalistic clinical setting rather than a randomized controlled trial, which may limit generalizability. While multiple machine learning approaches were employed, the study was cross-sectional in nature, limiting causal inference. The findings regarding ADHD's association with non-enrolment but not discontinuation warrant further investigation, as this counterintuitive pattern needs replication.",
+    "methodology_note": "Sample size: N = 326 assessed at intake, with N = 190 engaging in MiCBT treatment. Design type: Observational study with mixed methods. Key measures: DASS-21 for distress assessment, equanimity measures, diagnostic information, demographic variables. Analysis approach: Mixed-effects growth models, Elastic Net, logistic regression, XGBoost for outcomes; Cox regression, Random Survival Forests, Accelerated Failure Time for retention. Preregistration status: OSF ID provided (gzahr_v1), indicating study was preregistered.",
+    "link": "https://osf.io/preprints/psyarxiv/gzahr_v1"
+  },
+  {
+    "number": 586,
+    "title": "The Temporal Dynamics between Intrusion Frequency and Distress following Analog Trauma: A Mini Meta-Analysis",
+    "authors": "Marcella L. Woud; Philipp Herzog; Tobias Kube; Tim Kaiser",
+    "osf_id": "pv9m6_v3",
+    "date_posted": "2026-07-18",
+    "source_date": "2026-07-18",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "published": "",
+    "summary": "This mini meta-analysis examined the temporal dynamics between intrusion frequency and distress following analog trauma by re-analyzing primary datasets from six experimental studies (N = 513 participants, 2,573 intrusions). Studies used either the trauma film paradigm (TFP) to induce analog trauma or participants reactivated a distressing life event, followed by cognitive manipulations targeting expectancies or appraisals. Using a recurrent time-to-event framework, researchers modeled the probability of intrusions as a function of standardized distress ratings. **Results showed that higher distress reliably predicted a greater probability of intrusions** (p < .001), with a small but significant effect size across studies. While between-study variability highlighted potential contextual and methodological influences, differences between studies were modest (I² = 32.4%). These findings support the Retrieval-Based Feedback Loop Model of Intrusions, which posits that distress and intrusions create a self-reinforcing cycle over time.",
+    "clinical_insight": "The findings suggest that reducing distress associated with intrusive memories may be crucial for decreasing their frequency, making interventions targeting both cognitive appraisals and emotional responses key components in PTSD treatment.",
+    "relevant_for": "- PTSD clinicians working with trauma survivors experiencing intrusive memories\n- Cognitive-behavioral therapists targeting maladaptive appraisals and expectancies\n- Researchers studying the mechanisms maintaining PTSD symptoms\n- Clinicians developing early interventions for trauma-exposed individuals",
+    "notes": "Limitations include the use of analog trauma paradigms rather than real traumatic events, potential self-report biases in intrusion diaries, and the fact that all studies were conducted by the same research group, potentially limiting generalizability. The findings may not apply to individuals with chronic PTSD or those with comorbid conditions.",
+    "methodology_note": "Sample size: N = 513 participants reporting 2,573 intrusions. Design type: Mini meta-analysis of experimental studies using either trauma film paradigm or distressing life event reactivation. Key measures: Intrusion frequency and associated distress ratings recorded in diaries. Analysis approach: Recurrent time-to-event framework modeling intrusion probability as a function of distress ratings. Preregistration status: Not specified in the provided abstract.",
+    "link": "https://osf.io/preprints/psyarxiv/pv9m6_v3"
   }
 ]
