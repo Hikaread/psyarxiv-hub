@@ -297,7 +297,13 @@
       applyFilters();
     })
     .catch(function(err) {
+      document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">FETCH ERROR: ' + (err.message||err) + '</p>';
+      try { document.title = 'ERROR: ' + (err.message||err); } catch(e2) {}
+      document.body.setAttribute('data-error', JSON.stringify({message: (err.message||String(err)).substring(0,200)}));
       console.error('Paper load failed:', err);
+      return;
+      // fallback below should never run
+      var x = UNDEFINED_VAR_TO_PROVE_CATCH_RAN;
       document.getElementById('papers-list').innerHTML = '<p style="color:#c62828;padding:40px 0;text-align:center;">Failed to load paper data.</p>';
     });
 
