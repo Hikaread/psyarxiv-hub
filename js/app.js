@@ -287,6 +287,7 @@
   }, { passive: true });
 
   /* ===== INIT ===== */
+  console.log("INIT: about to fetch, papers array length = " + papers.length);
   fetch('data/papers.json')
     .then(function(r) { return r.json(); })
     .then(function(data) {
