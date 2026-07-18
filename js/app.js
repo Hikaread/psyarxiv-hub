@@ -204,6 +204,7 @@
     document.documentElement.setAttribute('data-theme', s.theme);
     document.documentElement.setAttribute('data-fontsize', s.fontSize);
     document.documentElement.setAttribute('data-dyslexic', s.dyslexic);
+    document.documentElement.setAttribute('data-font', s.font);
     PAGE_SIZE = parseInt(s.pageSize, 10) || 25;
     document.querySelectorAll('.setting-options').forEach(function(group) {
       var key = group.dataset.setting;
