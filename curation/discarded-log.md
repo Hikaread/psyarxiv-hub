@@ -768,3 +768,15 @@
 - csjwd_v1 | 3 | An introduction to perceptual and affective responses to physical activity and exercise — Focuses on exercise physiology and perceptual responses rather than clinical psychology practice
 - hqt5s_v1 | 2 | Mapping the Abstraction of Song Representations from Perception to Autobiographical Memory — Basic cognitive psychology research on music perception and memory without clinical application
 - fmdvn_v3 | 1 | Orchestrating neuroimaging data processing using the 'Snakemake' workflow manager — Low signal score (1); methods paper on neuroimaging pipelines
+- tekpu_v1 | Other Clinical | Bridging Borders:  Enhancing LGBTIQA+ Research Through Global Collaboration and  — This paper focuses on global collaboration in LGBTIQA+ research, which is primarily a review of cros
+- 5frp4_v2 | Neurodivergence | Autism Beyond the Checklist: Phenocopies, Diagnostic Overshadowing, and the Clin — Focuses on pediatric autism diagnosis and underlying medical/neurological conditions, not adult clin
+- yvjd3_v3 | None | Exploring the eco-anxiety continuum: calibrating scales with item response theor — no PDF (no_pdf)
+- t9ugz_v1 | None | Untangling community violence and mental health: A network analysis of item-leve — no PDF (no_pdf)
+- 79zeu_v1 | None | Between semasiology and onomasiology: leveraging meaning-form mapping to create  — no PDF (no_pdf)
+- 3nu5t_v1 | None | Testing an Expectancy-Value Theory of Policy Support — no PDF (no_pdf)
+- nua8y_v2 | Neuropsychology & Aging | The Chaos-State Space Dream Model: Integrating Phenomenology and Neurodynamics i — The paper focuses on theoretical neuroscience and computational modeling of dream consciousness with
+- zfj5x_v1 | Other Clinical | Stabilizing Propensity Score Weighting Estimators: An Evaluation of Truncation,  — This is a statistical/methodological paper focused on propensity score weighting techniques in obser
+- bxfhd_v1 | Other Clinical | Metaphors as the earth’s parachute: efficacy of MetaCom-Green in shaping childre — Focuses on environmental education and metaphor comprehension in children, not clinical psychology p
+- cyutp_v1 | None | Estimating Psychological Network in Data with Ceiling and Floor Effects — no PDF (no_pdf)
+- 9rh26_v1 | None | Redundancy in the DSM-5 Substance Use Disorder Criterion Set:   Evidence from a  — no PDF (no_pdf)
+- ktbcu_v1 | Neuropsychology & Aging | Moving beyond stationarity: A sliding window z-score criterion  for response tim — Focuses on statistical methods for response time outlier detection in experimental psychology, not c

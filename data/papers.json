@@ -9652,5 +9652,59 @@
     "notes": "Limitations include the use of analog trauma paradigms rather than real traumatic events, potential self-report biases in intrusion diaries, and the fact that all studies were conducted by the same research group, potentially limiting generalizability. The findings may not apply to individuals with chronic PTSD or those with comorbid conditions.",
     "methodology_note": "Sample size: N = 513 participants reporting 2,573 intrusions. Design type: Mini meta-analysis of experimental studies using either trauma film paradigm or distressing life event reactivation. Key measures: Intrusion frequency and associated distress ratings recorded in diaries. Analysis approach: Recurrent time-to-event framework modeling intrusion probability as a function of distress ratings. Preregistration status: Not specified in the provided abstract.",
     "link": "https://osf.io/preprints/psyarxiv/pv9m6_v3"
+  },
+  {
+    "number": 587,
+    "title": "Reasons to Live Instead of Dying by Suicide: New Insights from a Computer Assisted Content Analysis",
+    "authors": "Philip Resnik; Rebecca Resnik; Katherine Musacchio Schafer; Josh Hagedorn; Jonathan Singer",
+    "osf_id": "uwefx_v2",
+    "date_posted": "2026-07-17",
+    "source_date": "2026-07-17",
+    "categories": [
+      "Suicidality & Self-Harm"
+    ],
+    "published": "",
+    "summary": "This study analyzed 16,648 self-reports from Reddit users who had previously experienced suicidal thoughts but did not die by suicide, providing novel insights into reasons for living. The researchers employed a computer-assisted qualitative content analysis method (TOPCAT) that combined Latent Dirichlet Allocation topic modeling with expert qualitative analysis. The **large sample size** (N=16,648) represents a significant advance over previous studies which typically involved small samples. The analysis identified **multiple categories and themes** that both affirmed prior work and provided new perspectives on reasons for living. The study found that the **average response length** was 62.3 words, substantially longer than the 10-word items in traditional Reasons for Living inventories, suggesting more nuanced, narrative-based reasons emerged in this naturalistic setting. The **computer-assisted approach** allowed for analysis of the full dataset in just hours, overcoming the practical limitations of traditional manual content analysis methods.",
+    "clinical_insight": "This research offers clinicians access to contemporary, experience-based reasons for living that can enhance suicide risk assessment and safety planning. The findings suggest that incorporating narrative-based reasons for living, rather than relying solely on standardized inventories, may provide more meaningful insights for patients and inform more effective interventions.",
+    "relevant_for": "- Suicide prevention specialists\n- Clinical psychologists working with suicidal patients\n- Crisis intervention counselors\n- Mental health researchers studying suicidality\n- Therapists developing safety plans",
+    "notes": "The study relies on a nonprobability convenience sample of Reddit users, limiting generalizability. The self-selected nature of participants may introduce selection bias, as those who responded may differ systematically from those who didn't. The cross-sectional design prevents establishing causal relationships between identified reasons and outcomes. Additionally, the anonymous nature of Reddit responses means that verification of participants' suicidal histories was not possible.",
+    "methodology_note": "The study used a cross-sectional design with N=16,648 self-selected Reddit responses. Key measures included open-ended text responses to a question about reasons for living. Analysis employed a novel computer-assisted qualitative content analysis method (TOPCAT) combining Latent Dirichlet Allocation topic modeling with expert qualitative analysis. This hybrid approach allowed for analysis of the full dataset efficiently. The study was not preregistered, though the methodology has been previously described in the TOPCAT framework.",
+    "link": "https://osf.io/preprints/psyarxiv/uwefx_v2"
+  },
+  {
+    "number": 588,
+    "title": "Anxiety Beliefs Are More Responsive to Fixedness Than Malleability Inductions",
+    "authors": "Raphael Gutzweiler; Christopher Milde",
+    "osf_id": "8wef9_v1",
+    "date_posted": "2026-07-17",
+    "source_date": "2026-07-17",
+    "categories": [
+      "Anxiety & OCD"
+    ],
+    "published": "",
+    "summary": "This preprint presents a pre-registered online experiment investigating whether beliefs about emotion and anxiety controllability can be experimentally manipulated. The study involved 290 non-clinical participants (aged 16-25 years, 234 female) randomly assigned to one of four conditions in a 2 (induction direction: fixedness vs. malleability) x 2 (domain: emotions vs. anxiety) between-subjects design. **Fixedness induction strengthened anxiety uncontrollability beliefs (d = 0.33)**, with significantly stronger belief change in the anxiety domain (d = 0.44) compared to the emotion domain. **Malleability induction did not produce significant belief changes in either domain**. Emotion regulation (ER) self-efficacy did not change significantly in any condition. The authors interpret these findings within the extended process model of ER and the evolutionary smoke detector principle, suggesting that anxiety may be particularly susceptible to fixedness reinforcement due to an evolutionarily tuned negativity bias.",
+    "clinical_insight": "This research suggests that interventions targeting beliefs about anxiety controllability should focus on addressing fixedness beliefs rather than attempting to enhance malleability beliefs, as the latter approach appears ineffective. Clinicians working with anxiety disorders may benefit from specifically targeting and challenging beliefs about anxiety being uncontrollable and fixed.",
+    "relevant_for": "- Clinical psychologists working with anxiety disorders\n- Cognitive-behavioral therapists\n- Researchers developing emotion regulation interventions\n- Health psychologists addressing maladaptive emotion beliefs",
+    "notes": "The study limitations include a restricted age range (16-25 years), a predominantly Western, educated, industrialized, rich, and democratic (WEIRD) sample, and a single cultural context (Germany), limiting generalizability to more diverse populations. The findings are from a non-clinical sample, so may not directly apply to clinical populations with established anxiety disorders. Additionally, the ER self-efficacy measure used was domain-unspecific, which may explain the non-significant findings in this domain.",
+    "methodology_note": "Sample size: 290 non-clinical participants. Design type: Pre-registered online experiment with a 2 (induction direction: fixedness vs. malleability) x 2 (domain: emotions vs. anxiety) between-subjects design. Key measures: General beliefs about emotion/anxiety controllability and ER self-efficacy assessed before and after induction. Analysis approach: Effect sizes (Cohen's d) calculated for belief changes. Preregistration status: Pre-registered on OSF (ID: 8wef9_v1).",
+    "link": "https://osf.io/preprints/psyarxiv/8wef9_v1"
+  },
+  {
+    "number": 589,
+    "title": "Emotional Reactivity and Decision-Making Under Social Deprivation: The Role of Trait Anxiety During Quarantine",
+    "authors": "Avisha; Akhilesh Tayade; Arjun Ramakrishnan",
+    "osf_id": "vg8w9_v1",
+    "date_posted": "2026-07-17",
+    "source_date": "2026-07-17",
+    "categories": [
+      "Anxiety & OCD"
+    ],
+    "published": "",
+    "summary": "This study investigated emotional reactivity and decision-making under social deprivation during quarantine, focusing on the role of trait anxiety. Researchers conducted a **10-day longitudinal study** with **116 university students** (79 male, 36 female, 1 undisclosed) returning to campus, collecting approximately **31,000 momentary assessments** of affect and social interactions. Findings revealed that **quarantine significantly increased** the need for social interaction and altered patterns of social engagement. **Trait anxiety was robustly associated** with reduced positive affect and elevated negative affect throughout the study period. Close interactions following quarantine were associated with higher positive affect. Additionally, the study found that **greater variability in negative affect was associated with lower patch-exit thresholds** in a virtual patch-foraging task, suggesting a tendency to persist in depleted resources under uncertainty. The researchers used **cumulative link mixed models (CLMMs)** to analyze the ordinal EMA data and employed a **within-subjects design** comparing quarantine (S1) and post-quarantine (S2) periods.",
+    "clinical_insight": "The findings suggest that individuals with high trait anxiety may be particularly vulnerable to emotional distress during periods of social deprivation like quarantine, which could inform targeted interventions for anxiety management during isolation. The association between affect variability and decision-making patterns also highlights how emotional fluctuations might influence real-world choices under uncertainty, with potential implications for therapeutic approaches.",
+    "relevant_for": "- Clinical psychologists working with anxiety disorders\n- Therapists treating patients during periods of social isolation\n- Mental health professionals in university counseling centers\n- Researchers studying the impact of quarantine on mental health\n- Clinicians developing interventions for social anxiety",
+    "notes": "The study has several limitations including an imbalanced gender distribution (approximately 33% female participants), which limited gender-based analyses. The sample consisted exclusively of university students, limiting generalizability to other populations. Additionally, some hypotheses from the preregistration were excluded due to methodological constraints, including sleep-related analyses due to the complexity of additional analyses required. The study was conducted during a specific period of declining COVID-19 cases in India, which may affect the generalizability of findings to different pandemic contexts.",
+    "methodology_note": "The study employed a **longitudinal design** with **116 participants** who completed baseline measures including the Trait Anxiety subscale of the State-Trait Anxiety Inventory. Researchers used **Ecological Momentary Assessment (EMA)** via a mobile application to collect approximately 31,000 momentary assessments over 10 days. The study included a **virtual patch-foraging task** administered during and after quarantine to assess decision-making under uncertainty. **Cumulative link mixed models (CLMMs)** were used to analyze the ordinal EMA data. The study was **preregistered** on AsPredicted, though some hypotheses were excluded from the final analysis due to methodological constraints.",
+    "link": "https://osf.io/preprints/psyarxiv/vg8w9_v1"
   }
 ]
