@@ -9567,23 +9567,6 @@
     "methodology_note": "This was a large-scale experimental study with N = 10,696 participants across 34 countries. Six gratitude interventions were compared to three control conditions with immediate post-intervention measures of positive affect, negative affect, optimism, life satisfaction, indebtedness, and envy. The study employed a multilevel modeling approach to account for nested data (participants within countries) and conducted exploratory Bayesian analyses to examine cross-cultural moderators. The research was pre-registered (OSF ID: n5gq4_v2)."
   },
   {
-    "number": 584,
-    "title": "International vaping and nicotine cessation services: A desk review",
-    "authors": "Rory Coyne, Mengyang Zhang, Gintare Valentelyte, Paul Kavanagh, Jan Sørensen, Frank Doyle",
-    "osf_id": "bwe7m_v1",
-    "date_posted": "2026-05-22",
-    "source_date": "22.05.2026",
-    "categories": [
-      "Addiction & Substance Use"
-    ],
-    "published": "",
-    "summary": "This desk review examines international vaping and nicotine cessation services through interviews with **8 service providers** across **6 countries** (Australia, Austria, Canada, Denmark, Finland, Netherlands, UK). Providers work in diverse settings including public/private hospitals, telephone-based services, community networks, and youth clinics. Key findings reveal a shift toward **integrated nicotine dependence approaches** rather than product-specific treatments. Providers identified **low-threshold access** (self-referral options) and **evidence-informed behavioral strategies** (motivational interviewing, CBT-informed counseling) as effective components. Pharmacological support (NRT, varenicline) was offered but with caveats regarding optimal dosing for vapers and ethical considerations for under-16s. Services increasingly recognize the need for **age-tailored approaches**, particularly for adolescents who may never have smoked. Major challenges include **regulatory fragmentation**, **prescribing constraints**, **engagement difficulties**, and **social/environmental risks** like unsafe sourcing of products. Success factors include a **motivational, non-judgmental ethos** and **choice-based engagement strategies**.",
-    "clinical_insight": "Clinicians should adopt an integrated nicotine dependence approach rather than treating vaping, smoking, and pouch use in isolation. Motivational interviewing with a non-judgmental stance combined with practical substitutions for the sensory components of vaping appears most effective for engagement and cessation.",
-    "relevant_for": "- Addiction specialists and counselors working with nicotine dependence\n- School psychologists and youth health professionals\n- Primary care providers addressing vaping cessation\n- Public health professionals developing cessation programs\n- Mental health clinicians working with adolescents and young adults",
-    "notes": "This desk review has several limitations: small sample size (N=8 providers), potential selection bias in provider recruitment, and lack of quantitative data on effectiveness of interventions. Additionally, the review focuses primarily on English-speaking countries, potentially limiting generalizability to non-English speaking regions. The authors note the absence of vaping-specific clinical guidance in many jurisdictions, forcing providers to develop their own approaches.",
-    "methodology_note": "This study employed a qualitative desk review methodology with semi-structured interviews (20-40 minutes) with N=8 international service providers. Providers were identified through desk research and collaboration with HSE Tobacco Free Ireland. The study did not involve preregistration. Analysis was thematic, focusing on current approaches, challenges, and recommendations across different service settings and countries."
-  },
-  {
     "number": 582,
     "title": "Psychosocial factors associated with family dynamics, self-efficacy and family resilience in breast cancer patients. A cross-sectional study during the preoperative period",
     "authors": "Charos Dimitrios, Andriopoulou Maria, Asimaki Eleni, Vivilaki Victoria",
@@ -9616,6 +9599,23 @@
     "relevant_for": "- Clinical psychologists working with adult ADHD populations\n- Psychiatrists treating adults with ADHD and comorbid mental health issues\n- Counselors specializing in neurodiversity\n- Mental health professionals developing emotion regulation interventions for ADHD",
     "notes": "The study used a screening measure rather than clinical diagnosis for ADHD categorization. The cross-sectional design limits causal inferences about the relationships between ADHD tendencies, emotion regulation strategies, and mental health. The sample may not be fully representative as participants were recruited through social media, university networks, and ADHD support groups. No preregistration information was provided for the study.",
     "methodology_note": "Sample size: N=294 adults aged 18 and older. Design: Cross-sectional web-based survey with multi-group comparison. Measures: ASRS for ADHD tendencies, ERQ for emotion regulation strategies (reappraisal and suppression subscales), and K6 for mental health. Analysis: Hierarchical multiple regression and structural equation modeling to examine mediation effects. No information provided on preregistration status."
+  },
+  {
+    "number": 584,
+    "title": "International vaping and nicotine cessation services: A desk review",
+    "authors": "Rory Coyne, Mengyang Zhang, Gintare Valentelyte, Paul Kavanagh, Jan Sørensen, Frank Doyle",
+    "osf_id": "bwe7m_v1",
+    "date_posted": "2026-05-22",
+    "source_date": "22.05.2026",
+    "categories": [
+      "Addiction & Substance Use"
+    ],
+    "published": "",
+    "summary": "This desk review examines international vaping and nicotine cessation services through interviews with **8 service providers** across **6 countries** (Australia, Austria, Canada, Denmark, Finland, Netherlands, UK). Providers work in diverse settings including public/private hospitals, telephone-based services, community networks, and youth clinics. Key findings reveal a shift toward **integrated nicotine dependence approaches** rather than product-specific treatments. Providers identified **low-threshold access** (self-referral options) and **evidence-informed behavioral strategies** (motivational interviewing, CBT-informed counseling) as effective components. Pharmacological support (NRT, varenicline) was offered but with caveats regarding optimal dosing for vapers and ethical considerations for under-16s. Services increasingly recognize the need for **age-tailored approaches**, particularly for adolescents who may never have smoked. Major challenges include **regulatory fragmentation**, **prescribing constraints**, **engagement difficulties**, and **social/environmental risks** like unsafe sourcing of products. Success factors include a **motivational, non-judgmental ethos** and **choice-based engagement strategies**.",
+    "clinical_insight": "Clinicians should adopt an integrated nicotine dependence approach rather than treating vaping, smoking, and pouch use in isolation. Motivational interviewing with a non-judgmental stance combined with practical substitutions for the sensory components of vaping appears most effective for engagement and cessation.",
+    "relevant_for": "- Addiction specialists and counselors working with nicotine dependence\n- School psychologists and youth health professionals\n- Primary care providers addressing vaping cessation\n- Public health professionals developing cessation programs\n- Mental health clinicians working with adolescents and young adults",
+    "notes": "This desk review has several limitations: small sample size (N=8 providers), potential selection bias in provider recruitment, and lack of quantitative data on effectiveness of interventions. Additionally, the review focuses primarily on English-speaking countries, potentially limiting generalizability to non-English speaking regions. The authors note the absence of vaping-specific clinical guidance in many jurisdictions, forcing providers to develop their own approaches.",
+    "methodology_note": "This study employed a qualitative desk review methodology with semi-structured interviews (20-40 minutes) with N=8 international service providers. Providers were identified through desk research and collaboration with HSE Tobacco Free Ireland. The study did not involve preregistration. Analysis was thematic, focusing on current approaches, challenges, and recommendations across different service settings and countries."
   },
   {
     "number": 585,
@@ -9706,5 +9706,39 @@
     "notes": "The study has several limitations including an imbalanced gender distribution (approximately 33% female participants), which limited gender-based analyses. The sample consisted exclusively of university students, limiting generalizability to other populations. Additionally, some hypotheses from the preregistration were excluded due to methodological constraints, including sleep-related analyses due to the complexity of additional analyses required. The study was conducted during a specific period of declining COVID-19 cases in India, which may affect the generalizability of findings to different pandemic contexts.",
     "methodology_note": "The study employed a **longitudinal design** with **116 participants** who completed baseline measures including the Trait Anxiety subscale of the State-Trait Anxiety Inventory. Researchers used **Ecological Momentary Assessment (EMA)** via a mobile application to collect approximately 31,000 momentary assessments over 10 days. The study included a **virtual patch-foraging task** administered during and after quarantine to assess decision-making under uncertainty. **Cumulative link mixed models (CLMMs)** were used to analyze the ordinal EMA data. The study was **preregistered** on AsPredicted, though some hypotheses were excluded from the final analysis due to methodological constraints.",
     "link": "https://osf.io/preprints/psyarxiv/vg8w9_v1"
+  },
+  {
+    "number": 590,
+    "title": "Implementing Dimensional and Transdiagnostic Mental Health Assessment in Psycho-Oncology: Validation of the HiTOP Brief Report (HiTOP-BR) in Cancer Survivors",
+    "authors": "Unknown",
+    "osf_id": "5mfpx_v1",
+    "date_posted": "2026-07-19",
+    "source_date": "19.07.2026",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This study validated the 45-item HiTOP Brief Report (HiTOP-BR) in a sample of 728 cancer survivors (155 with current cancer, 573 with past cancer). The measure demonstrated excellent internal consistency (αs and ωs > .80) across all primary and secondary scales. Confirmatory factor analysis supported the proposed six-spectra structure, with all items loading meaningfully on their intended factors. A bifactor model identified a strong general psychopathology factor (ω = .84) with substantial variance attributable to specific spectra (ECV = .56). Participants with current cancer showed elevations across Somatoform, Internalizing, Thought Disorder, Antagonism, and p-Factor dimensions compared to general community data, while those with past cancer showed elevations only in the Somatoform spectrum. Higher HiTOP-BR scores were significantly associated with poorer physical functioning (r = -.42, p < .001) and greater fear of cancer progression/recurrence (r = .38, p < .001). The findings support the HiTOP-BR as a reliable and valid tool for **comprehensive assessment** of psychopathology dimensions in cancer survivors.",
+    "clinical_insight": "The HiTOP-BR offers clinicians a brief, efficient tool for dimensional assessment of psychopathology in cancer survivors, moving beyond traditional measures of generalized distress. Its transdiagnostic approach allows for identification of specific symptom dimensions that may be elevated in this population, such as somatoform symptoms in both current and past cancer survivors, and thought disorders and antagonism in those with active cancer. This can inform more targeted interventions and monitoring.",
+    "relevant_for": "- Psycho-oncologists working with cancer survivors\n- Clinical psychologists in oncology settings\n- Psychiatrists providing care for cancer patients\n- Mental health researchers in oncology\n- Psychologists conducting assessments in medical settings",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/5mfpx_v1",
+    "methodology_note": "Sample size: 728 cancer survivors (155 with current cancer, 573 with past cancer). Design: Cross-sectional validation study. Measures: 45-item HiTOP-BR, SF-36 Physical Functioning subscale, Fear of Progression Questionnaire–Rapid Screener (FoP-Q-RS) or Fear of Cancer Recurrence Screening Measure (FCR-1r). Analysis: Internal consistency, confirmatory factor analysis, bifactor modeling, comparative analyses with community norms, correlational analyses. Preregistration: No. Data and materials available upon request."
+  },
+  {
+    "number": 591,
+    "title": "Professional well-being among creative arts and psychomotor therapists in the Netherlands: A Job Demands-Resources perspective",
+    "authors": "Unknown",
+    "osf_id": "9fe2c_v1",
+    "date_posted": "2026-07-19",
+    "source_date": "19.07.2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This cross-sectional study surveyed 598 Creative Arts and Psychomotor Therapies (CAPTs) professionals in the Netherlands to examine professional well-being through the lens of the Job Demands-Resources (JD-R) model. Participants showed high compassion satisfaction (M = 39.7, SD = 4.4) and low burnout (M = 21.9, SD = 4.3) compared to international benchmarks, yet concerning levels of secondary traumatic stress (M = 20.1, SD = 4.8) exceeding 70% of benchmark samples. **Latent regression analyses** revealed that secondary traumatic stress (B = 0.40, p < .001) and work pressure (B = 0.29, p < .001) significantly predicted higher burnout, while compassion satisfaction (B = -0.30, p < .001) and work climate (B = -0.17, p < .01) functioned as protective resources. Notably, 21% of participants reported long-term work-related sickness absence (≥ 3 months), substantially higher than the 7% Dutch care sector average. The interaction between work pressure and work climate was significant but small (B = 0.06, p < .05), suggesting limited buffering effect of positive work environments against high demands. The findings emphasize secondary traumatic stress as a critical risk factor and highlight the need for structural work pressure reduction to prevent burnout among CAPTs professionals.",
+    "clinical_insight": "Clinicians working in creative arts and psychomotor therapies should routinely assess for secondary traumatic stress symptoms and implement preventive measures. The study suggests that organizational interventions targeting work pressure reduction may be more effective than individual-level resilience building, as work climate provided only limited protection against high demands. Long-term sickness absence rates indicate systemic issues requiring organizational attention.",
+    "relevant_for": "- Mental health care providers and supervisors working with creative arts and psychomotor therapists\n- Clinical psychologists and counselors in training settings where therapists work with trauma populations\n- Hospital and clinic administrators in mental health, rehabilitation, and geriatric care settings\n- Professional associations representing creative arts therapists",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/9fe2c_v1",
+    "methodology_note": "Cross-sectional survey design with N = 598 CAPTs professionals (approximately 12% of invited population). Used validated measures: Professional Quality of Life Scale (ProQOL-V) and Questionnaire on Professional Well-Being of CAPTs Professionals (VPWV). Employed latent regression analyses to examine relationships between variables. Sample was representative of Dutch CAPTs professionals in terms of sex, discipline, region, work sector, and employment characteristics. Study protocol received ethical approval from HAN University of Applied Sciences."
   }
 ]

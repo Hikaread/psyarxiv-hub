@@ -780,3 +780,12 @@
 - cyutp_v1 | None | Estimating Psychological Network in Data with Ceiling and Floor Effects — no PDF (no_pdf)
 - 9rh26_v1 | None | Redundancy in the DSM-5 Substance Use Disorder Criterion Set:   Evidence from a  — no PDF (no_pdf)
 - ktbcu_v1 | Neuropsychology & Aging | Moving beyond stationarity: A sliding window z-score criterion  for response tim — Focuses on statistical methods for response time outlier detection in experimental psychology, not c
+- p9yre_v1 | 13 | A Single-Arm Longitudinal Pilot Study of Brazilian Jiu-Jitsu as a Mental Health  — no PDF (no_pdf)
+- mzry3_v2 | 3 | Parental Digital Tracking of Adolescents’ School Performance, Location, and Fina — Focuses on parental digital tracking of adolescents, which falls under developmental psychology without clear clinical application to adult mental health practice, assessment, or therapy.
+- 9pgyc_v2 | 3 | Gender gaps in autonomy persist among remote IT professionals, whereas work-fami — no PDF (no_pdf)
+- 3zjuf_v1 | 2 | Awareness is Predictably Lossy — no PDF (no_pdf)
+- 9nm6v_v2 | 2 | The Microsystem Matters: Using machine learning to identify moderators of longit — Focuses on adolescent development with no direct clinical application for practicing therapists/psychologists; primarily examines parenting effects rather than clinical interventions or assessment methods
+- u9xdy_v1 | 2 | Artificial Intelligence as an Augmented Partner in School Consultation: Applicat — Focuses on AI applications in school consultation rather than clinical psychology practice
+- nt25s_v2 | 1 | Dissociating Eye and Mouth Contributions to Dynamic Face Processing with Frequen — low signal score (1)
+- rhquy_v2 | 1 | People Missallocate Risk-Reduction Investments in Decisions Under Extinction Ris — low signal score (1)
+- wgysv_v4 | 1 | Then a miracle occurs: explicating measurement theory to achieve justified valid — low signal score (1)
