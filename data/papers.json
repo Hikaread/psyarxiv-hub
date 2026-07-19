@@ -9740,5 +9740,141 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/9fe2c_v1",
     "methodology_note": "Cross-sectional survey design with N = 598 CAPTs professionals (approximately 12% of invited population). Used validated measures: Professional Quality of Life Scale (ProQOL-V) and Questionnaire on Professional Well-Being of CAPTs Professionals (VPWV). Employed latent regression analyses to examine relationships between variables. Sample was representative of Dutch CAPTs professionals in terms of sex, discipline, region, work sector, and employment characteristics. Study protocol received ethical approval from HAN University of Applied Sciences."
+  },
+  {
+    "number": 592,
+    "title": "Evidence Accumulation During Self-Referential Social Processing Captures Social Functioning and Psychopathology Dimensions in a Transdiagnostic Sample",
+    "authors": "Carly A Lasagna; Kathryn Kemp; Laura Locarno; Kelly Mathis; Katharine N. Thakkar; Colombi Costanza; Cynthia Z. Burton; Tim Pleskac; Ivy Fei Tso",
+    "osf_id": "kx5pb_v2",
+    "date_posted": "2026-07-18",
+    "source_date": "18.07.2026",
+    "categories": [
+      "Neuropsychology & Aging"
+    ],
+    "summary": "This study investigated **evidence accumulation** during gaze perception as a potential mechanism underlying social dysfunction across multiple psychopathologies. The researchers examined 111 participants (aged 14-30) with varying levels of psychosis proneness, autism traits, and social anxiety using a **self-referential gaze perception task** analyzed with **drift diffusion models (DDM)**. Results showed that **impaired evidence accumulation** was strongly associated with impaired social cognition (r = 0.47, p < .001), and modestly associated with diminished social functioning and elevated psychosis and social anxiety symptoms. Notably, evidence accumulation was not associated with autism traits. The findings suggest that **social cognitive processing deficits** may be a transdiagnostic mechanism contributing to social dysfunction across multiple clinical presentations.",
+    "clinical_insight": "The identification of evidence accumulation deficits as a potential mechanism for social dysfunction provides clinicians with a novel framework for conceptualizing social cognitive difficulties. This computational approach could inform targeted interventions aimed at improving information integration during social interactions, potentially benefiting individuals with psychosis, social anxiety, and related conditions.",
+    "relevant_for": "- Clinical psychologists working with psychosis spectrum disorders\n- Therapists treating social anxiety disorders\n- Professionals assessing autism spectrum conditions\n- Neuropsychologists evaluating social cognitive deficits\n- Researchers developing social cognition interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/kx5pb_v2",
+    "methodology_note": "Sample size: N=111 participants (aged 14-30) with varying levels of social dysfunction, psychosis proneness, social anxiety, and autistic traits. Design: Cross-sectional correlational study using computational modeling (drift diffusion models) of performance on a self-referential gaze perception task. Key measures included social cognition (RME, TASIT), social functioning (SRS, MIRECC GAF-Social, GF-Social, SASSR-Social), and psychopathology dimensions (PDI, CAPS, SADD, SPIN, AQ). Analysis approach: Associations between evidence accumulation parameters and clinical measures were examined using correlation analyses. The study materials are available on GitHub and OSF, with data planned for release at nda.nih.gov upon study completion."
+  },
+  {
+    "number": 593,
+    "title": "Algorithmic Trait Amplification (ATA): A Theoretical Model of Narcissistic Trait Intensification in Algorithmic Social Media Environments",
+    "authors": "Calli Tzani; Maria Ioannou",
+    "osf_id": "vkqfu_v2",
+    "date_posted": "2026-07-18",
+    "source_date": "18.07.2026",
+    "categories": [
+      "Personality Disorders"
+    ],
+    "summary": "This paper introduces Algorithmic Trait Amplification (ATA), a theoretical model explaining how social media recommendation algorithms may progressively intensify pre-existing narcissistic personality traits through iterative exposure to trait-congruent content. The **five-stage cyclical model** proposes that subclinical narcissistic traits generate preferential engagement with narcissism-congruent content; algorithmic systems capture this engagement as preference signals; curated content environments mirror and validate narcissistic self-perception; corrective psychological experiences are constrained; and narcissistic trait expression is intensified over time. The authors situate ATA within the broader **Digital Narcissus Effect** framework, drawing from personality psychology, cyberpsychology, algorithmic studies, clinical theory, and developmental psychology. While acknowledging that ATA doesn't necessarily imply stable trait restructuring in all users, the model suggests it may involve intensified trait expression, reinforcement of maladaptive self-schemas, or increased behavioral manifestation of narcissistic tendencies under sustained algorithmic exposure. The paper discusses implications for clinical practice, platform regulation, digital literacy education, and future research.",
+    "clinical_insight": "The ATA model provides a theoretical framework for understanding how digital environments may inadvertently reinforce narcissistic traits, offering clinicians insights into potential digital etiological factors in personality pathology. This could inform assessment approaches that evaluate social media usage patterns in clients with narcissistic traits and guide interventions focused on digital literacy and algorithmic awareness.",
+    "relevant_for": "- Clinical psychologists working with personality disorders\n- Psychiatrists treating narcissistic personality pathology\n- Mental health counselors addressing digital impacts on self-perception\n- Researchers studying digital effects on personality development",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/vkqfu_v2",
+    "methodology_note": "This is a theoretical paper proposing a conceptual model without original empirical research. The authors draw on existing literature from multiple disciplines including personality psychology, cyberpsychology, and clinical theory to construct the ATA framework. No specific sample size, measures, or analysis approaches are presented as this is not an empirical study. The paper does not mention preregistration status as it is theoretical in nature."
+  },
+  {
+    "number": 594,
+    "title": "Psychometric Decomposition of STAI-T and STAI-S: Estimating Trait-Like Variance with a Trait–State–Occasion Model",
+    "authors": "Yuke Yang; Zhengguo Dai; Zhihao Ma",
+    "osf_id": "2d38g_v1",
+    "date_posted": "2026-07-18",
+    "source_date": "18.07.2026",
+    "categories": [
+      "Anxiety & OCD"
+    ],
+    "summary": "This study conducted a psychometric decomposition of the STAI-T and STAI-S using data from 1,177 participants across 16 measurement waves during the COVID-19 pandemic. Researchers employed item-level confirmatory factor analyses, longitudinal measurement invariance testing, and trait-state-occasion (TSO) models to evaluate the measurement structure and temporal composition of these subscales. The study found that both STAI-T and STAI-S demonstrated strong unidimensional structures with good longitudinal measurement invariance. The TSO models revealed that approximately 65% of the variance in STAI-T scores was attributable to stable trait-like variance, while only 35% was state-like. For STAI-S, the trait-like variance accounted for approximately 40% of the total variance, with 60% representing state-like fluctuations. These findings challenge traditional interpretations of the STAI as purely trait or state measures and suggest that both scales capture a mixture of stable and transient components.",
+    "clinical_insight": "Clinicians should interpret STAI scores with the understanding that both trait and state subscales contain significant state-like variance, particularly the STAI-T which is traditionally viewed as purely trait-like. This suggests that anxiety assessments may be more influenced by recent situational factors than previously recognized, which could impact diagnostic decisions and treatment planning.",
+    "relevant_for": "- Clinical psychologists conducting anxiety assessments\n- Psychiatrists evaluating anxiety disorders\n- Researchers developing anxiety interventions\n- Mental health professionals using the STAI in clinical practice",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/2d38g_v1",
+    "methodology_note": "Sample size: N=1,177 participants with 16-wave longitudinal data. Design: Longitudinal measurement invariance testing and trait-state-occasion modeling. Key measures: STAI-T and STAI-S subscales. Analysis approach: CFA, measurement invariance testing, and TSO modeling. Preregistration status: Not specified in provided text."
+  },
+  {
+    "number": 595,
+    "title": "Campus Greenspace Use and Student Well-Being: The Mediating Role of Perceived Stress and the Moderating Role of Nature Connectedness",
+    "authors": "Kritika Bakshi",
+    "osf_id": "5zvea_v1",
+    "date_posted": "2026-05-23",
+    "source_date": "23.05.2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This cross-sectional study surveyed **106 university students** to examine the relationship between campus greenspace use and mental well-being, with perceived stress as a mediator and nature connectedness as a moderator. Using validated measures including the **WEMWBS** (α = .912), **PSS-10** (α = .853), **Connectedness to Nature Scale** (α = .806), and a composite **NEACT** greenspace use measure (α = .67), researchers found that greenspace use and nature connectedness were significantly correlated with **lower stress** (r = ?) and **greater well-being** (r = ?). **Mediation analysis** revealed a significant partial indirect effect of greenspace use on well-being through stress reduction (β = ?, p < .05), though **moderation analysis** for nature connectedness did not yield significant findings. **Threshold regression** showed no clear tipping point but demonstrated a **positive dose-response pattern** between greenspace use and well-being. The study provides evidence for greenspace as a **non-pharmacological, scalable intervention** particularly relevant for stressed university populations.",
+    "clinical_insight": "The findings support the integration of 'green social prescribing' into student mental health services, suggesting that campus greenspaces can function as accessible, low-cost therapeutic environments that reduce stress and enhance well-being. Clinicians might consider recommending regular greenspace use as an adjunct to traditional therapeutic approaches for students experiencing psychological distress.",
+    "relevant_for": "- University counseling center professionals- Student mental health services providers- Campus wellness program coordinators- Public health psychologists- Community mental health workers- Therapists working with young adults",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/5zvea_v1",
+    "methodology_note": "Cross-sectional correlational design with 106 university students; analyzed using SPSS v29 and PROCESS macro with 5,000 bootstrap samples; measures included WEMWBS, PSS-10, Connectedness to Nature Scale, and NEACT composite score; power analysis confirmed adequate power (N=80 needed for medium effects); ethical approval obtained; study was not preregistered"
+  },
+  {
+    "number": 596,
+    "title": "Scalable, context-sensitive psychiatric assessment with large language models and brief diaries",
+    "authors": "Whitney R. Ringwald; Aman Taxali; Mike Angstadt; Colin Vize; Chandra Sripada; Aidan G.C. Wright",
+    "osf_id": "hgsxd_v1",
+    "date_posted": "2026-05-23",
+    "source_date": "23.05.2026",
+    "categories": [
+      "Digital Mental Health"
+    ],
+    "summary": "This study demonstrates that **large language models (LLMs)** can effectively assess psychopathology from brief audio diaries, offering a scalable alternative to traditional clinical interviews. Researchers analyzed **108 participants** who provided **daily audio diaries** (~1 minute each) over **two weeks**, using **six different LLMs** to score five domains of psychopathology (Internalizing, Detachment, Disinhibition, Antagonism, and Anankastia). Results showed strong **convergent validity** with self-report measures (average r = .42 between-person, r = .28 within-person) and meaningful associations with clinical interview assessments. While LLM ratings generally aligned with traditional measures, exceptions were noted for Anankastia and Antagonism domains. The findings support LLM-based assessment as a **low-burden, context-sensitive** method that could transform psychiatric evaluation by combining the richness of idiographic data with the scalability of standardized measures.",
+    "clinical_insight": "Clinicians could use LLM assessment to gather rich, contextual psychopathology data between sessions without requiring additional patient time, potentially improving treatment monitoring and early identification of symptom fluctuations. This approach may be particularly valuable for settings with limited resources for extensive clinical interviews.",
+    "relevant_for": "- - Private practice clinicians seeking efficient monitoring tools\n- - Community mental health centers with limited staffing\n- - Research teams requiring scalable assessment methods\n- - Telehealth providers needing efficient data collection",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/hgsxd_v1",
+    "methodology_note": "Cross-sectional design with N=108 adults providing daily audio diaries for two weeks. Six different LLMs were used to score transcripts against five psychopathology domains. Validity was assessed through convergent/discriminant validity testing with self-reports and clinical interviews. No mention of preregistration status."
+  },
+  {
+    "number": 597,
+    "title": "The Physical and Mental Metaphors (PMM) task and its validation in schizophrenia: a tool for rapid assessment of figurative language comprehension, between pragmatics and symptoms",
+    "authors": "Luca Bischetti; Valentina Bambini; Agostoni Giulia; Margherita Bechi; Mariachiara Buonocore; Jacopo Sapienza; Federico Frau; Ginevra Martinelli; Chiara Pompei; Biagio Scalingi",
+    "osf_id": "r9m57_v3",
+    "date_posted": "2026-05-23",
+    "source_date": "23.05.2026",
+    "categories": [
+      "Psychosis & Schizophrenia"
+    ],
+    "summary": "This study introduces the Physical and Mental Metaphors (PMM) task, a rapid assessment tool for figurative language comprehension in schizophrenia. The research involved **143 patients with schizophrenia** and **57 healthy controls**, examining the PMM's reliability and validity. Results demonstrated **satisfactory internal consistency** and a factorial structure aligned with theoretical assumptions. The PMM showed **strong correlations** with the Assessment of Pragmatics and Cognitive Substrates (APACS) test, indicating good validity. Notably, the task revealed **relevant associations with symptomatology**, particularly abstract thinking, disorganization, and negative symptoms, as well as weaker links with Theory of Mind and global cognition. The PMM proved **highly effective** in discriminating between individuals with and without pragmatic deficits and in distinguishing patients from healthy controls. This tool captures **specific impairments in figurative language** and general pragmatic vulnerability characteristic of schizophrenia, representing a valuable resource for detecting communicative disorders and complementing diagnostic processes.",
+    "clinical_insight": "The PMM task offers clinicians a rapid, validated tool to assess metaphor comprehension deficits in schizophrenia, which are strongly linked to functional outcomes. This assessment can help identify specific communication difficulties that may impact social relationships and daily functioning, providing a more nuanced evaluation than traditional symptom scales that only crudely measure concretism through proverbs alone.",
+    "relevant_for": "- Clinical psychologists working with schizophrenia patients\n- Psychiatrists assessing communication disorders in psychosis\n- Neuropsychologists evaluating social cognition deficits\n- Researchers studying pragmatic impairments in psychosis",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/r9m57_v3",
+    "methodology_note": "Sample size: 200 participants (143 schizophrenia patients, 57 healthy controls). Design: Cross-sectional validation study. Key measures: PMM task, APACS test, symptom assessments, Theory of Mind measures, cognitive tests. Analysis approach: Reliability analysis, factor analysis, correlation analyses, ROC analysis for discriminant validity. No mention of preregistration status."
+  },
+  {
+    "number": 598,
+    "title": "Campus Greenspace Use and Student Well-Being: The Mediating Role of Perceived Stress and the Moderating Role of Nature Connectedness",
+    "authors": "Kritika Bakshi",
+    "osf_id": "5zvea_v1",
+    "date_posted": "2026-05-23",
+    "source_date": "23.05.2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This cross-sectional study of **106 university students** investigated the relationship between campus greenspace use and mental well-being, examining **perceived stress** as a mediator and **nature connectedness** as a moderator. Using validated measures (WEMWBS, PSS-10, CNS, NEACT), researchers found that greenspace use and nature connectedness were **significantly correlated** with lower stress (r = ?) and greater well-being (r = ?). **Mediation analysis** revealed a **partial indirect effect** of greenspace use on well-being through stress reduction, while moderation analysis did not show significant findings for nature connectedness. **Threshold regression** indicated a positive dose-response pattern without a clear tipping point. The study provides **robust statistical evidence** (5,000 bootstrap samples) supporting greenspace as a scalable intervention for student mental health, with implications for **green social prescribing** and biophilic campus design.",
+    "clinical_insight": "The findings support integrating greenspace access into student mental health services as a low-cost, accessible intervention. Clinicians might recommend structured outdoor activities or 'green breaks' as part of treatment plans for stressed university students, particularly when traditional mental health services are limited.",
+    "relevant_for": "- University mental health counselors and psychologists- Student health services providers- Campus wellness program developers- Public health professionals working with young adults- Environmental psychologists",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/5zvea_v1",
+    "methodology_note": "Cross-sectional correlational design with N=106 university students; used validated measures (WEMWBS, PSS-10, CNS, NEACT); analyzed with SPSS v29 and PROCESS macro v4.5; employed mediation, moderation, and threshold regression models with 5,000 bootstrap samples; a priori power analysis confirmed sufficient power (N>80) to detect medium effect sizes; ethical approval obtained from University of Strathclyde Ethics Committee"
+  },
+  {
+    "number": 599,
+    "title": "Scalable, context-sensitive psychiatric assessment with large language models and brief diaries",
+    "authors": "Whitney R. Ringwald; Aman Taxali; Mike Angstadt; Colin Vize; Chandra Sripada; Aidan G.C. Wright",
+    "osf_id": "hgsxd_v1",
+    "date_posted": "2026-05-23",
+    "source_date": "23.05.2026",
+    "categories": [
+      "Digital Mental Health"
+    ],
+    "summary": "This study investigates the use of large language models (LLMs) to assess psychopathology from brief personal narratives, addressing the tradeoff between comprehensive assessment and scalability. Participants (N=108) completed daily audio diaries for two weeks, which were analyzed by six LLMs to score major psychopathology domains (Internalizing, Detachment, Disinhibition, Antagonism, and Anankastia). The LLM ratings demonstrated strong **convergent validity** with corresponding self-report measures (average r = .42 between-person, r = .28 within-person) and showed similar patterns of association with external variables. All LLM-rated domains related to psychopathology ascertained by clinical interview, supporting **concurrent validity**. This approach transforms idiographic diagnostic data into standardized assessments using only minutes of audio, potentially revolutionizing psychiatric assessment by combining the contextual richness of interviews with the scalability of surveys.",
+    "clinical_insight": "This method could significantly reduce assessment burden in clinical settings while preserving contextual information crucial for accurate diagnosis. Clinicians could use brief narrative samples collected via smartphone to obtain standardized psychopathology scores between sessions, monitoring symptom fluctuations over time without requiring extensive in-person interviews.",
+    "relevant_for": "- Clinical psychologists seeking efficient assessment tools- Psychiatry practices with limited time for comprehensive interviews- Mental health researchers requiring scalable assessment methods- Telehealth providers needing remote assessment options- Community mental health centers with resource constraints",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/hgsxd_v1",
+    "methodology_note": "Cross-sectional study with N=108 participants completing daily audio diaries for two weeks. Six LLMs were used to score psychopathology from diary transcripts. Validity was assessed through convergent, discriminant, concurrent, and clinical validity testing using self-report measures and clinical interviews as comparison standards. No preregistration status was reported."
   }
 ]
