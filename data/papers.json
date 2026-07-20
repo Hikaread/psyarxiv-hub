@@ -9995,5 +9995,39 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/mdv6c_v3",
     "methodology_note": "Remote cross-sectional study with repeated measures design. Sample recruited from across the United States via email lists, Facebook, and word-of-mouth with minimal inclusion criteria (N=18+ with internet access). Each cognitive test administered up to 60 times across 3 weeks. Measures included 9 cognitive tasks plus assessments of stress, positive/negative affect, social interactions, personality traits, and logical reasoning. Analysis approach included intraclass correlations, variability and skew statistics, sensitivity analyses to contextual factors, and power analyses. No mention of preregistration status."
+  },
+  {
+    "number": 606,
+    "title": "Generic AI or Nothing: Support-Seeking Patterns After Market Withdrawal of a Purpose-Built AI Wellbeing Tool",
+    "authors": "Caitlin A. Stamatis; Kaylee P Kruzan; Josh Hsu; Mark Ungless; Thomas Hull",
+    "osf_id": "et8ma_v1",
+    "date_posted": "2026-03-29",
+    "source_date": "29.03.2026",
+    "categories": [
+      "Digital Mental Health"
+    ],
+    "summary": "This study surveyed 393 UK adults who had used a purpose-built AI wellbeing application (Ash) within 90 days prior to its market withdrawal in January 2026. Following the withdrawal, the most common primary sources of mental health support were general-purpose AI tools (27%) and no support at all (26%), with only 13% transitioning to professional care. Among the 157 respondents using general-purpose AI for mental health support, the dominant motivations were instant access (78%) and cost (74%). Sixty percent reported worse access to support, rising to 81% among those who had not sought support since. Qualitative analysis of 272 free-text responses revealed themes of perceived inferiority of general-purpose AI for mental health, distress at service loss, and appreciation of purpose-built AI design features. The findings highlight that removing a purpose-built AI wellbeing tool did not redirect users toward human-led mental health services, with most turning to general-purpose AI or ceasing support-seeking entirely.",
+    "clinical_insight": "Clinicians should be aware that patients may turn to unregulated general-purpose AI tools when purpose-built mental health AI becomes unavailable, potentially exposing them to less clinically appropriate support. This underscores the importance of discussing patients' digital mental health tool use and guiding them toward evidence-based alternatives when specialized tools are no longer accessible.",
+    "relevant_for": "- Psychiatrists\n- Clinical psychologists\n- Therapists\n- Digital mental health providers\n- Mental health policy makers",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/et8ma_v1",
+    "methodology_note": "Cross-sectional survey design with N=393 former users of a purpose-built AI wellbeing application. Measures included assessment of support sources, general-purpose AI use patterns, perceived access changes, and wellbeing. Quantitative analysis used descriptive statistics, while qualitative analysis employed a hybrid thematic approach on 272 free-text responses. The study was reviewed by an IRB and determined exempt, but there was no mention of preregistration status."
+  },
+  {
+    "number": 607,
+    "title": "Burnout among physician assistants and physician associates: A systematic review and meta-analysis",
+    "authors": "Anna Bock; Alec Knight; Ricardo Twumasi",
+    "osf_id": "xgc5s_v3",
+    "date_posted": "2026-03-29",
+    "source_date": "29.03.2026",
+    "categories": [
+      "Somatic & Functional"
+    ],
+    "summary": "This systematic review and meta-analysis examines burnout prevalence among physician assistants (PAs), analyzing 18 studies with a total sample of **47,098** practicing PAs. The **pooled burnout prevalence was 33.7%** (95% CI: 30.3–37.3%; prediction interval: 21.1–49.2%), with substantial heterogeneity observed (I² = 97.4%). Subgroup analysis revealed significantly higher burnout rates in studies using the **Maslach Burnout Inventory (MBI) at 39.0%** compared to non-MBI measures at 29.4% (p = .002). No evidence of small-study effects was detected (p = .98). The findings indicate that approximately one-third of PAs experience burnout, with prevalence estimates sensitive to the measurement instrument used.",
+    "clinical_insight": "The results highlight that burnout among PAs is substantial and systemic factors, rather than individual demographics, are the primary drivers. This suggests that clinical interventions should focus on organizational-level changes rather than individual coping strategies alone. Clinicians working with healthcare providers should consider systemic factors when assessing and treating burnout.",
+    "relevant_for": "- - Clinical psychologists working with healthcare professionals\n- Organizational psychologists in healthcare settings\n- Occupational health specialists\n- Hospital administrators and wellness program developers\n- Therapists treating burnout in medical professionals\n- - Psychiatrists treating healthcare providers with depression and anxiety related to occupational stress",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/xgc5s_v3",
+    "methodology_note": "This is a systematic review and meta-analysis of 18 observational studies (n = 47,098) published between January 2018 and January 2026. The protocol was pre-registered in PROSPERO (CRD42025644630). Data were pooled using inverse-variance weighted random-effects models. Three reviewers independently performed screening, quality assessment, and data extraction with a discrepancy resolution process."
   }
 ]
