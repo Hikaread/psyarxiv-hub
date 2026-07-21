@@ -893,3 +893,7 @@
 - 2qdf8_v2 | 1 | Sample Size Requirements for Continuous Norms: Two Illustrative Examples — low signal score (1)
 - 79ezb_v2 | 1 | Not so average: Heterogeneous boredom dynamics during an incremental physical ef — low signal score (1)
 - p4cu7_v1 | 1 | UnfoldBIDS.jl: Streamlining regression ERP Analysis of BIDS-Compliant EEG Data i — low signal score (1)
+- 84k9f_v2 | 5 | Positive Mental Health in Families of People with Intellectual Disabilities: A S — no PDF (fetch_failed)
+- crxdu_v1 | 4 | Auditory Function Following Sport-Related Concussion And Repetitive Head Impacts — no PDF (fetch_failed)
+- ksgbr_v1 | 3 | In drones we trust!?  Insights into mental model formation, trust development, a — This paper focuses on human-drone interaction in warehouse environments, examining trust development and mental models of autonomous technology. It falls under human-computer interaction and technology acceptance research rather than clinical psychology, as it does not address therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing therapists, psychologists, or psychiatrists.
+- fr5a9_v1 | 3 | When More Is Not Better: Costs of Increasing Multimodal Engagement During Letter — no PDF (fetch_failed)
