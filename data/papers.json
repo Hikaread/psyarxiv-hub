@@ -10386,5 +10386,73 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/uw8a2_v1",
     "methodology_note": "Cross-sectional online survey with N=197 total participants (103 ED, 25 psychiatric control, 69 healthy control). Used one-way MANOVAs to examine group differences, followed by MANCOVAs controlling for anxiety and depressive symptoms. Measures included the Frost Multidimensional Perfectionism Scale, GAD-7, and PHQ-9. Study is part of a larger project (https://osf.io/nd9bh/overview) with preregistration status not explicitly stated."
+  },
+  {
+    "number": 629,
+    "title": "Comparative efficacy of CBT protocols with different behavioral techniques for procrastination: a randomized controlled trial",
+    "authors": "Weronika Maria Browarczyk; Joachim Kowalski; Magdalena Pietruch; Justyna Piwińska; Marek Wypych; Jarosław M. Michałowski",
+    "osf_id": "245au_v1",
+    "date_posted": "2026-07-20",
+    "source_date": "20.07.2026",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This four-arm randomized controlled trial evaluated the efficacy of two CBT protocols (Realistic Planning and Timely Beginning [RPT] and Working Time Restriction [WTR]) against an active comparator (Pomodoro Technique [PT]) and waitlist control for 255 university students with problematic procrastination. All active interventions produced **large reductions** in procrastination compared to waitlist (API-R: d = −1.24 to −1.54), with no significant differences between them. Reliable or likely improvement occurred in 44.8–55.4% of active-condition participants versus 15.5% in waitlist. RPT and WTR additionally improved academic project progress. Depression decreased in all active conditions and anxiety in WTR and PT. Procrastination reductions were **maintained at six months**, while early gains in depression and anxiety were not. Negative effects were reported by 39.7% of completers but were mostly mild or moderate.",
+    "clinical_insight": "Clinicians can confidently recommend brief, group-based CBT protocols for treating procrastination in university students, as all tested approaches showed comparable large effect sizes. The maintenance of procrastination reduction at six-month follow-up suggests durable benefits, though comorbid symptoms like depression and anxiety may require additional intervention strategies.",
+    "relevant_for": "- University counseling center psychologists\n- Therapists treating academic performance issues\n- Mental health professionals working with young adults\n- CBT practitioners specializing in behavioral activation techniques",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/245au_v1",
+    "methodology_note": "Preregistered RCT (NCT05829174) with N=255 university students randomized to 4 conditions. Used linear mixed models for analysis with six-month follow-up in active conditions. Excluded participants with significant psychopathology requiring different treatment. Measures included API-R, Pure Procrastination Scale, academic project progress, PHQ-9, GAD-7, and NEQ-20."
+  },
+  {
+    "number": 630,
+    "title": "Passive Digital Phenotyping for Identifying Dynamic Symptom Patterns: Toward Precision Monitoring in Psychiatry",
+    "authors": "Rony Kapel Lev-ari; Christian A. Webb; Doron Amsalem; Annika C. Sweetland; Yuval Neria; Milton Wainberg",
+    "osf_id": "8zf96_v1",
+    "date_posted": "2026-07-20",
+    "source_date": "20.07.2026",
+    "categories": [
+      "Digital Mental Health"
+    ],
+    "summary": "This study investigated **daily symptom trajectories** across depression, anxiety, stress, and ADHD using **passive digital phenotyping** via the Behavidence app. The researchers conducted **latent class growth analyses** on **7 consecutive days** of data from a large sample, identifying **four trajectory patterns** for each domain: Stable Low, Stable High, Fluctuating Down, and Fluctuating Up. For depression, **48.9%** showed Stable Low trajectories, **29.2%** Stable High, and **21.9%** fluctuating patterns. Anxiety showed similar distribution (**60.8%** Stable Low, **24.9%** Stable High, **14.3%** fluctuating), while stress and ADHD demonstrated greater stability (**82.5%** and **90.9%** Stable Low, respectively). A **bivariate analysis** revealed strong co-occurrence patterns between depression and anxiety trajectories (**χ²(9) = 971.41, p < .001**). When stratifying by depression severity, those with high depressive symptoms showed **45%** with High Stable anxiety compared to **15%** in the low-depressive group, indicating **comorbidity patterns** that traditional weekly assessments might miss.",
+    "clinical_insight": "This research demonstrates how passive digital monitoring can capture dynamic symptom fluctuations that traditional infrequent assessments miss, enabling clinicians to identify individualized symptom patterns and tailor interventions more precisely. The ability to distinguish between stable and fluctuating symptom trajectories could help clinicians determine whether patients need continuous monitoring versus periodic check-ins.",
+    "relevant_for": "- Psychiatrists treating mood and anxiety disorders\n- Clinical psychologists developing personalized treatment plans\n- Mental health researchers studying symptom dynamics\n- Digital health developers creating monitoring tools\n- Clinicians working with ADHD populations",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/8zf96_v1",
+    "methodology_note": "Sample size not explicitly stated but appears large given the robust statistical results. Design type: observational study using latent class growth analysis. Key measures: daily depression, anxiety, stress, and ADHD scores via Behavidence app. Analysis approach: latent class growth analysis and bivariate latent class growth analysis. Preregistration status not mentioned."
+  },
+  {
+    "number": 631,
+    "title": "Investigating the Neurobiology of Minority Stress-related Moral Injury with fMRI",
+    "authors": "Andrew Nicholson; Emma Lynn; Ally H. Villeneuve; Victoria Klimkowski; Magdalena Siegel; Jillian Horning; Taylor Hatchard; Sandhya Narikuzhy; Mina Pichtikova; Ruth Lanius",
+    "osf_id": "cw8b6_v2",
+    "date_posted": "2026-07-20",
+    "source_date": "20.07.2026",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This fMRI study examined n=39 sexual and gender minority (SGM) participants to identify neural correlates of SGM-based moral injury. Participants recalled autobiographical memories of morally injurious events related to their SGM identity versus neutral events while undergoing fMRI scanning. Results revealed **increased activation in the left anterior and right posterior insula** (salience network nodes) during moral injury recall compared to neutral recall. Additionally, researchers found a **negative correlation between minority stress exposure and ventromedial prefrontal cortex activity** (default mode network hub) during moral injury recall. Minority stress exposure was significantly associated with trauma symptom severity (r values not reported). These findings suggest distinct neural processing patterns in SGM individuals experiencing moral injury, potentially informing targeted interventions for trauma-related symptoms in this population.",
+    "clinical_insight": "The identification of specific neural circuits involved in minority stress-related moral injury provides clinicians with biological markers to assess and monitor treatment response. Understanding these neurobiological mechanisms can guide development of trauma-focused interventions that target the salience and default mode networks in SGM clients experiencing moral injury.",
+    "relevant_for": "- Trauma therapists working with sexual and gender minority populations\n- Clinical neuropsychologists assessing trauma-related neural processing\n- Psychiatrists treating trauma symptoms in minority populations\n- Researchers developing neurobiologically-informed trauma interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/cw8b6_v2",
+    "methodology_note": "Cross-sectional fMRI study with n=39 SGM participants. Used paired sample t-tests (p<.05 FWE-corrected) to compare neural activation during moral injury vs. neutral memory recall. Linear regression analyses examined associations between neural activation, minority stress, and trauma symptoms. No mention of preregistration status."
+  },
+  {
+    "number": 632,
+    "title": "Using Alcohol First Predicts Heavier Drinking on Simultaneous Alcohol and Cannabis Use Days, with no Evidence for Moderation by Coping or Enhancement Motives",
+    "authors": "Kendra Carnrite; Korina Kaye Taguba; Andrea Howard",
+    "osf_id": "nv3bp_v1",
+    "date_posted": "2026-07-20",
+    "source_date": "20.07.2026",
+    "categories": [
+      "Addiction & Substance Use"
+    ],
+    "summary": "This study examined alcohol consumption patterns on simultaneous alcohol and cannabis (SAM) use days versus alcohol-only days among 370 undergraduate students (M age=20.8) over 14 weekends (n=2826/9017 observations, 31.3% SAM days). **Multilevel models revealed participants consumed significantly more alcohol on SAM days (M=5.08 drinks) compared to alcohol-only days (M=4.23 drinks)**. Importantly, when cannabis was used first on SAM days, participants consumed approximately **1.4 fewer drinks** compared to when alcohol was used first. However, the effect of order of use on alcohol consumption was **not moderated by daily coping or enhancement motives**. These findings suggest contextual factors beyond drinking motives may explain lighter drinking on cannabis-first SAM days.",
+    "clinical_insight": "Clinicians working with young adults should assess patterns of simultaneous substance use, particularly the order in which substances are consumed. The finding that alcohol-first use predicts heavier drinking suggests interventions targeting SAM use might benefit from emphasizing cannabis-first patterns to potentially reduce overall alcohol consumption.",
+    "relevant_for": "- Addiction counselors treating young adults\n- College/university mental health professionals\n- Clinicians in substance use treatment programs\n- Researchers studying polysubstance use patterns",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/nv3bp_v1",
+    "methodology_note": "Daily diary study design with 14 weekend assessments (n=370, M age=20.8). Analyses used multilevel models on 2826 observations restricted to alcohol-only and simultaneous use days. Preregistered hypotheses and analysis plan available at OSF (https://osf.io/79p26/). Data and code shared publicly."
   }
 ]
