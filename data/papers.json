@@ -10471,5 +10471,260 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/wkf97_v2",
     "methodology_note": "Modified Delphi study with 33 autistic women and 33 academics/clinicians. Participants rated relevance of individual items from five autism measures using item-level content validity index (I-CVI) and modified kappa statistic (k*), with scale-level content validity indices (S-CVI/Ave) derived for each measure. The study appears to be preregistered, though the specific registration details are not provided in the excerpt."
+  },
+  {
+    "number": 634,
+    "title": "Predicting moral elevation responses in a clinical sample with psychological distress: Identifying potential factors for optimizing elevation elicitation",
+    "authors": "Adam McGuire; Xrystyan Nino Lascano; Solomon Kurz",
+    "osf_id": "pw5ux_v2",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This study investigated predictors of moral elevation responses in a clinical sample (N=2,012) with significant anxiety, depressive, or PTSD symptoms. Participants viewed two elevation-eliciting videos from a set of ten diverse stimuli, and researchers used multilevel item response theory models to identify trait predictors associated with elevation intensity. Results revealed medium-to-strong positive associations between several trait predictors and elevation intensity, with PTSD symptoms emerging as the strongest predictor. The study found that a model with PTSD as the focal predictor best described elevation responses regarding intensity, item score distribution, and variability between videos and participants. The **State Moral Elevation Scale (SMES)** demonstrated excellent internal consistency (multilevel reliability = .97) in this clinical sample. The findings advance understanding of how elevation is experienced in clinical populations and provide insights for optimizing elevation as a therapeutic intervention.",
+    "clinical_insight": "Clinicians working with clients experiencing anxiety, depression, or PTSD can consider incorporating moral elevation elicitation as an adjunctive intervention. The identification of PTSD symptoms as a strong predictor of elevation responses suggests this approach may be particularly beneficial for clients with trauma histories. Understanding individual differences in elevation responses allows for personalized application of this therapeutic technique.",
+    "relevant_for": "- Therapists working with adults with anxiety disorders\n- Clinicians treating depression\n- PTSD specialists and trauma therapists\n- Researchers developing positive emotion-based interventions\n- Clinical psychologists interested in novel therapeutic approaches",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/pw5ux_v2",
+    "methodology_note": "Sample size: N=2,012 clinical participants. Design: Online cross-sectional study with video stimuli. Key measures: GAD-7, PHQ-9, PCL-5, PC-PTSD-5, and State Moral Elevation Scale. Analysis: Multilevel item response theory models to examine predictors of elevation intensity. Preregistration status not specified in provided text."
+  },
+  {
+    "number": 635,
+    "title": "Transcutaneous Vagus Nerve Stimulation, Tolerability, and the Alpha / Theta EEG Ratio: A Controlled Pilot Study Relevant to Emotion Regulation",
+    "authors": "Seyedeh Zeinab Molaeizadeh; Aitor Aritzeta Galan",
+    "osf_id": "3457h_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Neuropsychology & Aging"
+    ],
+    "summary": "This controlled pilot study investigated the effects of transcutaneous vagus nerve stimulation (tVNS) on EEG biomarkers of emotion regulation in 10 healthy female adults randomized to tVNS (n=5) or waitlist control (n=5). Participants completed eight 30-minute left tragus sessions over four weeks with individually titrated stimulation (11-25 mA). The tVNS group showed a **25.8% increase in Alpha/Theta ratio** (d = 1.47, p = .042 uncorrected) compared to stable controls, with a **positive correlation** between stimulation intensity and Alpha/Theta change (rₛ = 0.60). Protocol completion was 100% with predominantly mild adverse events (92.3% Grade 1), with a **2.9-fold lower incidence** at ≤20 mA. Findings provide preliminary evidence for tVNS's effects on neurophysiological markers of emotion regulation and establish tolerability parameters for future clinical applications.",
+    "clinical_insight": "The study suggests tVNS may modulate cortical oscillatory dynamics associated with emotion regulation, potentially offering a non-pharmacological intervention for anxiety and depressive disorders. The dose-response relationship between stimulation intensity and EEG effects provides clinicians with concrete parameters for optimizing treatment protocols.",
+    "relevant_for": "- - Psychiatrists treating patients with anxiety and depressive disorders\n- Clinical psychologists developing neuromodulation interventions\n- Neuropsychologists interested in EEG biomarkers for emotion regulation\n- Researchers designing sham-controlled trials for tVNS",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/3457h_v1",
+    "methodology_note": "Sample size: 10 healthy female adults (21.1 ± 1.8 years). Design: Randomized controlled pilot with tVNS (n=5) and waitlist control (n=5). Measures: Resting-state EEG at Cz deriving Alpha/Theta and Theta/Beta ratios, adverse event monitoring. Analysis: False Discovery Rate (FDR) correction applied. Preregistration status: Not specified."
+  },
+  {
+    "number": 636,
+    "title": "Impact of Gain and Nonloss Framing in Mental Health Self-Care:  Investigating Regulatory Focus and Perceived Risk of Worsening Mental Health as  Moderators",
+    "authors": "Siu Kit Yeung; Winnie W. S. Mak; Han Zhao; Chun Ming Lee",
+    "osf_id": "8eqj4_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Digital Mental Health"
+    ],
+    "summary": "This study examined how gain-framing (emphasizing benefits) and nonloss-framing (highlighting distress prevention) mental health self-care messages influence behavioral intentions and actual engagement in mindfulness practices. **385 participants** (aged 18+, M=27.82, SD=11.33; 250 women) were randomly assigned to gain-framing, nonloss-framing, or control conditions. The researchers measured **regulatory focus** (promotion vs. prevention focus) and **perceived risk of mental health worsening** as moderators. Both immediate measures and one-week follow-up data were collected on self-care intentions and behaviors. The study employed ANCOVAs and regression analyses, with **pre-registered protocols** and open data practices. Findings revealed significant main effects of message framing on self-care intentions, with **gain-framing** being more effective for those with a **promotion regulatory focus**, while **nonloss-framing** was more effective for those with a **prevention regulatory focus**. The effect sizes were moderate (η² = .08-.12), and behavioral engagement at follow-up showed similar patterns but with smaller effect sizes (η² = .04-.07). Perceived risk of mental health worsening emerged as a significant moderator, with higher risk amplifying framing effects.",
+    "clinical_insight": "Therapists can tailor self-care recommendations based on clients' regulatory focus—emphasizing positive outcomes for promotion-focused individuals and highlighting risks for prevention-focused clients. This personalized approach may enhance adherence to self-care practices in clinical settings.",
+    "relevant_for": "- Clinical psychologists\n- Cognitive-behavioral therapists\n- Mental health counselors\n- Digital mental health intervention designers\n- Primary care providers implementing brief behavioral interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/8eqj4_v1",
+    "methodology_note": "Sample size of 385 participants (362 after exclusions) with power analysis pre-registered. Randomized controlled trial with three conditions (gain-framing, nonloss-framing, control). Measures included Mindful Self-Care Scale (α=0.91), Lockwood et al. (2002) Regulatory Focus Measure (α=0.87), and perceived risk measures. Data collected at baseline, immediately after intervention, and at 1-week follow-up. Pre-registered on OSF with open data and code available."
+  },
+  {
+    "number": 637,
+    "title": "From Traits to Daily Experiences: An Adaptation of the Selflessness/Self-centeredness Inventory to Day-level Assessment",
+    "authors": "Lucas David; Nicolas Pellerin; Michaël Dambrun",
+    "osf_id": "mcnrv_v3",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This research introduces the Selflessness/Self-centeredness Inventory – Day-level (SSI-D), a new psychometric tool adapted from the trait-level version to assess daily experiences of selflessness and self-centeredness. Across three studies (N = 853, 265, and 1409 respectively), researchers established a **seven-factor structure** organized into two latent variables: selflessness (four components: connection with humanity, connection with nature, compassion, and decentering) and self-centeredness (three dimensions). **Confirmatory factor analyses** demonstrated good model fit, and **invariance analyses** confirmed measurement equivalence across samples. **Correlational analyses** revealed theoretically meaningful associations between day-level selflessness/self-centeredness and mental health, interpersonal functioning, and pro-environmental outcomes, with selflessness showing stronger links to positive psychological states and self-centeredness to emotional instability. The researchers acknowledge that while preliminary validity evidence supports theoretical expectations, further validation with more comprehensive criterion measures is needed.",
+    "clinical_insight": "The SSI-D provides clinicians with a tool to assess daily fluctuations in self-functioning that may contribute to emotional instability and mental health challenges. Understanding a client's daily patterns of self-centeredness versus selflessness could help tailor interventions targeting emotional regulation, mindfulness-based approaches, or values clarification work.",
+    "relevant_for": "- Clinical psychologists working with patients experiencing emotional dysregulation\n- Therapists utilizing mindfulness and acceptance-based approaches\n- Researchers studying the relationship between self-concept and mental health\n- Practitioners interested in positive psychology interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/mcnrv_v3",
+    "methodology_note": "Three studies were conducted: Study 1 (N=853) used exploratory factor analysis; Study 2 (N=265) employed confirmatory factor analysis; Study 3 (N=1409) conducted correlational analyses and invariance testing. The SSI-D was administered alongside measures of mental health, interpersonal health, and pro-environmental behaviors. No information about preregistration status was provided."
+  },
+  {
+    "number": 638,
+    "title": "Retrieval Stopping in Delayed Fear Extinction",
+    "authors": "Maike Bersch; Stephanie M. Ashton; Martyna Emanuela Gwiazda; Conny W.E.M. Quaedflieg",
+    "osf_id": "t6q4z_v4",
+    "date_posted": "2026-07-22",
+    "source_date": "22.07.2026",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This study examined whether retrieval stopping could enhance delayed fear extinction using a modified Extinction-Think/No-Think (eTNT) paradigm. The research involved 59 participants who underwent fear conditioning followed by an extinction phase with Think, No-Think, and View instructions. Results showed successful retrieval modulation with a 91.12% relative decrease in intrusions on No-Think trials across repetitions (from 35.40 points decrease). While US expectancy scores decreased from reminder to after the eighth eTNT repetition for No-Think and View objects (indicating extinction), this decline was not significantly larger for No-Think compared to View objects. The study found a significant increase in negative valence over time (F = 4.84, p = .032, η² = .08) and scene vividness (F = 5.05, p = .028, η² = .08), with vividness being higher for Think versus No-Think scenes (MD = 3.89, p = .012, d = 0.23). These findings contribute to understanding how inhibitory control mechanisms might be leveraged to enhance fear extinction treatments.",
+    "clinical_insight": "The findings suggest that while retrieval stopping shows promise as a technique for enhancing extinction learning (evidenced by successful intrusion suppression), it may not provide additional benefits beyond standard extinction procedures in the current paradigm. This indicates that **retrieval stopping alone** may not be sufficient to enhance fear extinction outcomes, though it demonstrates potential for reducing intrusive thoughts. Clinicians should consider combining retrieval stopping with other evidence-based techniques for trauma treatment.",
+    "relevant_for": "- Trauma therapists working with PTSD\n- Anxiety disorder specialists\n- Researchers developing exposure therapy protocols\n- Clinicians treating intrusive thoughts and memories",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/t6q4z_v4",
+    "methodology_note": "Sample size: N = 59 participants. Design type: Experimental with within-subjects manipulation (Think, No-Think, View conditions). Key measures: US expectancy ratings, intrusion frequency, scene valence and vividness ratings. Analysis approach: Repeated measures ANOVA, t-tests with effect sizes. Preregistration status: Not specified in provided text."
+  },
+  {
+    "number": 639,
+    "title": "Mental health of preadolescents in western Ukraine: feasibility and acceptability of a school-based psychosocial intervention during war",
+    "authors": "Oleksander Avramchuk; Olha Germanovych; Olha Ivanenko; Olga Uralova; Marina Lisenberg; Olena Mukha; Yuliya Stadnytska; Richard Davidson; Perla Kaliman",
+    "osf_id": "q38hg_v2",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This study evaluated the mental health status and feasibility of a school-based psychosocial intervention for 81 preadolescents (aged 10-12) in Lviv, Ukraine during active war conditions. **42% of children reported four or more Adverse Childhood Experiences (ACEs)**, and **39.5% exceeded the clinical cutoff for probable PTSD** on the CRIES-8 scale, with gender differences observed. Higher levels of self-compassion and mindfulness were significantly associated with lower PTSD symptoms. The intervention focused on mindfulness, self-compassion, social connection, purpose, and trauma processing, with **children, families, and school staff reporting improvements in well-being, emotion regulation, and social functioning** post-intervention. The study provides preliminary evidence supporting the potential of school-based interventions in war-affected settings, though limitations include the small sample size and lack of control group.",
+    "clinical_insight": "This research demonstrates that self-compassion and mindfulness training may serve as protective factors against PTSD in children exposed to war trauma. School-based interventions appear feasible and acceptable in conflict zones, offering a practical approach to reach vulnerable populations when specialized mental health services are limited.",
+    "relevant_for": "- Child and adolescent psychologists working in conflict zones\n- School psychologists and counselors\n- Humanitarian aid workers providing mental health support\n- Clinical psychologists developing trauma-informed interventions for high-stress environments",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/q38hg_v2",
+    "methodology_note": "Cross-sectional design with pre-post intervention assessment. Sample size of 81 children aged 10-12 from two schools in Lviv. Used standardized measures including ACEs, CRIES-8 for PTSD, quality of life, self-compassion, and mindfulness scales. No mention of preregistration. Feasibility was assessed through post-intervention feedback from children, families, and school staff."
+  },
+  {
+    "number": 640,
+    "title": "Feelings and defensive actions are dissociated under naturalistic threat",
+    "authors": "Lukas Kornemann; Olivier de Vries; Yonatan Hutabarat; Ulises Daniel Serratos Hernandez; Dominik R Bach",
+    "osf_id": "kxpjm_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Anxiety & OCD"
+    ],
+    "summary": "This study challenges the traditional emotion-as-cause theory by examining the relationship between feelings and defensive actions in naturalistic threat scenarios using virtual reality. Across two experiments with 20,000 feeling reports, researchers found that feelings and actions were largely dissociated - actions tracked immediate environmental factors, while feelings were strongly predicted by feelings in preceding epochs. Environmental variables influenced feelings and actions differently, with direct interdependencies consistent with a **modulatory rather than generative role** for feelings in action control. The findings suggest feelings and actions may be parallel outputs of separate systems, challenging established theories of emotion and their clinical applications in anxiety disorders.",
+    "clinical_insight": "This research has significant implications for understanding and treating anxiety disorders, which are diagnosed based on both distressing feelings and avoidance behaviors. If feelings and actions are dissociated, treatment approaches targeting one may not automatically affect the other, suggesting the need for more targeted interventions.",
+    "relevant_for": "- Clinical psychologists treating anxiety disorders\n- Therapists working with avoidance behaviors\n- Researchers studying emotion-action relationships\n- Psychiatrists developing new treatment approaches",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/kxpjm_v1",
+    "methodology_note": "Two experiments with exploration-confirmation approach using freely moving virtual reality (fm-VR). Total N not specified but included 20,000 feeling reports across experiments. Participants navigated naturalistic threat scenarios while tracking actions, environment, and feelings. Used bivariate screening followed by multivariable linear mixed effect models with latent factors summarizing subjective ratings."
+  },
+  {
+    "number": 641,
+    "title": "Between-session Chasing via Session Wager and Duration in Online eCasino Gambling",
+    "authors": "Nilosmita Banerjee; Xavier Noël; Zhang Chen",
+    "osf_id": "v26gt_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Addiction & Substance Use"
+    ],
+    "summary": "This study examined between-session chasing behaviors in online gambling using a large-scale dataset of 11,156 gamblers and approximately 170 million bets. Researchers found that gamblers wagered more and played longer following winning sessions compared to losing sessions, with both session wager and duration increasing as the magnitude of prior outcomes (both losses and wins) increased. This demonstrates both loss-chasing and win-chasing behaviors, consistent with the break-even and house money effects. The study also identified distinct patterns across different gambling products (dice game, multi-line slots, blackjack, and roulette) and involvement levels (high/low), suggesting that both product features and gambler characteristics impact chasing behaviors. These findings provide valuable **behavioral markers** for identifying problematic gambling patterns in real-world contexts.",
+    "clinical_insight": "Clinicians can use session wager and duration as objective indicators of chasing behaviors to assess gambling severity and treatment progress. Understanding how different gambling products and gambler involvement levels affect chasing patterns can inform personalized interventions for pathological gambling.",
+    "relevant_for": "- - Addiction counselors treating gambling disorder\n- Clinical psychologists working with behavioral addictions\n- Psychiatrists treating co-occurring disorders\n- Researchers studying behavioral markers of addiction",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/v26gt_v1",
+    "methodology_note": "Large-scale observational study with 11,156 unique gamblers across four gambling products. Data was split into exploratory (25%) and confirmatory (75%) datasets with pre-registered analysis plan. Key measures included session wager (total amount wagered in Euros) and session duration (number of rounds played). Due to heavily skewed distributions, these continuous variables were transformed into ordinal categories for analysis using ordinal regression."
+  },
+  {
+    "number": 642,
+    "title": "Pausing to Reflect During News Consumption Counteracts Negativity Biases in Memory",
+    "authors": "Alyssa H. Sinclair; Abigail Hsiung; Rachael Wright; Shabnam Hakimi; R. Alison Adcock",
+    "osf_id": "jsyeb_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This study examined how a simple reflection intervention during news consumption can counteract negativity biases in memory, particularly relevant during stressful events like the COVID-19 pandemic. Participants (N=260) completed a naturalistic information-seeking task in a virtual Newsroom, with those in the Reflection condition prompted to pause and reflect on how information made them feel, while the No-Reflection condition browsed uninterrupted. Results showed that No-Reflection participants exhibited significant negativity bias in memory (remembering negative information while forgetting positive information), especially when information was surprising or participants were in a negative mood. The reflection intervention effectively reduced this bias, with participants showing enhanced memory for positive information, particularly surprising positive content. The effect sizes were substantial enough to suggest meaningful clinical utility for managing information-related distress.",
+    "clinical_insight": "This intervention offers clinicians a simple, practical tool to help patients manage information-related distress during crises. By teaching patients to pause and reflect on their emotional responses to news, therapists can help counteract automatic negativity biases that contribute to anxiety, depression, and rumination.",
+    "relevant_for": "- Psychologists treating anxiety and mood disorders\n- Therapists working with patients experiencing crisis-related stress\n- Mental health professionals addressing media-related distress\n- Clinicians developing digital mental health interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/jsyeb_v1",
+    "methodology_note": "Randomized controlled trial with N=260 participants. Used a naturalistic information-seeking task in a virtual Newsroom environment. Memory was tested using a recognition task. Analysis included mixed-effects models examining condition effects on memory bias, moderated by mood and surprise. The study appears to be preregistered, though the specific registration details are not provided in the excerpt."
+  },
+  {
+    "number": 643,
+    "title": "Perspective taking predicts acute psychiatric treatment trajectories",
+    "authors": "Elizabeth Foley; Juliet L. Bockhorst; Courtney Beard; Chloe Hudson",
+    "osf_id": "5w9g8_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This study investigated whether perspective taking upon admission to a partial hospitalization program (PHP) predicted internalizing symptom change throughout treatment. The sample included **515 adult patients** (aged 18-77, M=35.56, SD=14.1) receiving group therapy in a two-week PHP for various mood, anxiety, and personality disorders. Participants completed the **GAD-7** (anxiety), **PHQ-9** (depression), and **IRI-PT** (perspective taking) measures, with symptom assessments administered daily. Results showed that more frequent perspective taking at baseline predicted greater reductions in **anxiety symptoms throughout treatment** (β = -0.14, p < .001), but did not predict changes in depressive symptoms. Additionally, higher baseline perspective taking was associated with lower overall depression and anxiety symptoms (β = -0.17, p < .001; β = -0.20, p < .001, respectively). These findings suggest perspective taking is not only a transdiagnostic feature of psychopathology but also a significant predictor of anxiety treatment responsiveness in group-based cognitive-behavioral therapy settings.",
+    "clinical_insight": "Clinicians should assess perspective taking skills upon admission to group-based PHPs, as it appears to be a valuable prognostic indicator for anxiety treatment outcomes. This could help tailor interventions and set appropriate expectations for patients with lower perspective taking abilities.",
+    "relevant_for": "- Psychiatrists and psychologists working in partial hospitalization programs\n- Therapists conducting group therapy for anxiety and mood disorders\n- Clinical directors of intensive outpatient programs\n- Researchers investigating predictors of treatment response in psychiatric populations",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/5w9g8_v1",
+    "methodology_note": "Sample size: N=515 adult patients. Design type: Prospective cohort study with daily symptom assessments. Key measures: GAD-7 (anxiety), PHQ-9 (depression), IRI-PT (perspective taking). Analysis approach: Multilevel modeling examining symptom trajectories over time. Preregistration status: Not explicitly mentioned in the provided text."
+  },
+  {
+    "number": 644,
+    "title": "Childhood complex trauma and social thinning in adolescence: evidence from a prospective cohort study",
+    "authors": "Ritika Chokhani; Praveetha Patalay; Essi Viding; Talya Greene; Eamon McCrory",
+    "osf_id": "h46cu_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This prospective observational study analyzed data from 7,058 children in the Millennium Cohort Study, with 2,024 exposed to complex trauma (repeated interpersonal adversity) and 5,034 controls. Trauma exposure was measured at ages 5 and 7, with outcomes assessed at ages 11, 14, and 17. Results showed that trauma-exposed adolescents reported **less positive feelings about friends** (COR: 0.75), **lower perceived social support** (COR: 0.75), **lower participation in social activities** (b = -0.47), and higher **emotional symptoms** (b = 0.34) and **conduct symptoms** (b = 0.44) compared to controls. Contrary to expectations, trauma-exposed youth showed greater increases in time spent with friends over adolescence, yet experienced reduced subjective connection. This pattern of 'social thinning'—objective social contact without subjective benefit—highlights how early adversity impacts social architecture. The study used mixed-effects models with multiple imputation to handle missing data and controlled for socioeconomic factors.",
+    "clinical_insight": "Clinicians working with trauma-exposed adolescents should assess both objective social engagement and subjective relationship quality, as increased social contact may not equate to positive experiences. The disconnect between time spent with friends and perceived support suggests interventions should focus on improving social skills and relationship quality rather than simply increasing social opportunities.",
+    "relevant_for": "- Child and adolescent psychologists\n- Trauma therapists\n- School counselors\n- Clinical social workers\n- Psychiatrists treating trauma-exposed youth",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/h46cu_v1",
+    "methodology_note": "Large prospective cohort study (N=7,058) with longitudinal data collection at 5 time points. Used mixed-effects models to analyze repeated measures outcomes. Multiple imputation by chained equations (25 datasets) was employed to handle missing data (20.9% missingness pre-imputation). Complex trauma was defined through caregiver reports of 5 types of interpersonal adversity at ages 5 and 7. Six social architecture outcomes and 2 mental health outcomes were measured. Study was preregistered as part of a multi-part protocol."
+  },
+  {
+    "number": 645,
+    "title": "Emotion regulation strategies produce distinct downstream effects on emotional memory",
+    "authors": "Jacob Buergler; Kayla Clark; Beatriz M Brandao; Madelyn Castro; Bryan Denny; Stephanie L Leal",
+    "osf_id": "2wcu8_v1",
+    "date_posted": "2026-07-20",
+    "source_date": "20.07.2026",
+    "categories": [
+      "Therapeutic Modalities"
+    ],
+    "summary": "This study investigated how different emotion regulation (ER) strategies impact emotional memory and affect in **239 young adults** (aged 18-35) randomly assigned to three groups: distancing/immersion, reinterpretation/immersion, or no ER control. Participants viewed emotional images while applying specific ER strategies during encoding, then completed memory assessments. Results showed that **ER strategies broadly enhanced memory** compared to passive viewing (ηp2 = 0.08), with specific strategy-dependent effects on detailed memory: **immersion enhanced detailed memory for positive images**, **distancing reduced detailed memory for negative images**, and **reinterpretation did not significantly alter detailed memory for negative images**. The study controlled for depressive symptoms using BDI-II and found group differences in ADHD symptoms and cognitive flexibility (WCST). These findings demonstrate that while ER generally improves memory encoding, specific strategies differentially shape the fidelity of emotional memories, with important implications for clinical practice.",
+    "clinical_insight": "Clinicians should consider that emotion regulation strategies during encoding may broadly enhance memory of emotional events, but specific strategies have different impacts on memory detail. For patients needing to reduce vivid traumatic memories, distancing may be most beneficial, while for enhancing positive memories, immersion could be recommended. This suggests a need for tailored ER interventions based on treatment goals.",
+    "relevant_for": "- Cognitive behavioral therapists treating anxiety and trauma disorders\n- Clinicians working with emotion dysregulation\n- Memory-focused therapies for PTSD\n- Researchers developing emotion regulation interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/2wcu8_v1",
+    "methodology_note": "Sample: N=239 (final after exclusions), randomized to three ER groups. Design: experimental with between-subjects comparison of ER strategies. Measures: self-reported emotion, general and detailed memory assessments, BDI-II, ASRS-5, WCST, and ER questionnaires (ERQ, DERS-SF). Analysis: repeated measures ANOVA with within-between interactions, sensitivity analysis confirmed adequate power (80%) for medium to large effects (ηp2 = 0.08). No evidence of preregistration."
+  },
+  {
+    "number": 646,
+    "title": "Personality Trait Levels and Similarity as Predictors of Daily Interactions and Relationship Satisfaction in Romantic Couples: A Dyadic Daily Diary",
+    "authors": "Melania Prandi; M.A. van Scheppingen; Gabriel Olaru",
+    "osf_id": "6z3je_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Couples Therapy & Sexology"
+    ],
+    "summary": "This study examined how Big Five personality traits predict daily positive and negative interactions, as well as relationship satisfaction, in 250 romantic couples (157 with complete daily data; Mage = 27.51) across a 14-day diary design. Using Actor–Partner Interdependence Models (APIMs), researchers tested actor, partner, and similarity effects based on both self- and partner-reports. Results showed that lower neuroticism and higher agreeableness were consistently associated with more positive interactions, fewer negative interactions, and greater relationship satisfaction for both partners. Conscientiousness and openness showed smaller but meaningful associations with daily interactions, while extraversion showed limited effects in self-reports. Notably, when partner-reports were used, **partner effects emerged for all traits and were substantially stronger than actor effects**, suggesting that perceived partner personality plays a central role in shaping relationship experiences. In contrast, actual and perceived similarity showed little consistent association with outcomes.",
+    "clinical_insight": "Clinicians working with couples should assess both partners' personality traits, particularly neuroticism and agreeableness, as these significantly impact daily relationship interactions. The finding that perceived partner personality is more influential than actual personality suggests that interventions targeting how partners perceive and interpret each other's traits may be more effective than trying to change personality itself.",
+    "relevant_for": "- Couples therapists\n- Relationship counselors\n- Marriage and family therapists\n- Clinical psychologists working with romantic dyads",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/6z3je_v1",
+    "methodology_note": "Sample of 250 couples with 157 providing complete daily data across 14 days. Used dyadic daily diary design with Actor–Partner Interdependence Models (APIMs). Measures included Big Five personality traits (self and partner reports), daily positive/negative interactions, and relationship satisfaction. Analysis approach included multilevel modeling to account for nested data structure (days within couples). Preregistration status not specified in the provided text."
+  },
+  {
+    "number": 647,
+    "title": "Genetics in human behavior (disorders): Concepts, misconceptions, and a resistance-based path to translation",
+    "authors": "Michael M. Vanyukov",
+    "osf_id": "tqbmz_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Addiction & Substance Use"
+    ],
+    "summary": "This think piece examines the translational failure of genetic research in behavioral/psychiatric conditions, particularly addiction, despite two decades of prioritization. The authors identify several **persistent misconceptions** in behavioral genetics, including the conflation of functional and variational causality and the misapplication of simple-trait paradigms to complex multifactorial conditions. They find that polygenic risk scores account for **trivial proportions of variance** in addiction phenotypes. The paper introduces an alternative paradigm centered on **resistance**—the opposite pole of liability, distinct from resilience and protective factors—which is continuously distributed and measurable through reversed sampling and quantitative liability indices. This resistance paradigm offers a methodologically tractable route to actionable findings in addiction and other complex behavioral conditions, potentially providing genetics with a clearer path to clinical translation.",
+    "clinical_insight": "Clinicians can benefit from understanding the limitations of current genetic risk models in addiction treatment and the potential value of focusing on resistance factors. This paradigm shift may help identify protective factors that could inform novel prevention strategies and personalized interventions that build upon individual strengths rather than solely targeting risk.",
+    "relevant_for": "- Addiction counselors and therapists\n- Clinical psychologists specializing in substance use disorders\n- Psychiatrists working with addiction populations\n- Researchers developing preventive interventions for behavioral disorders",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/tqbmz_v1",
+    "methodology_note": "Conceptual analysis paper examining existing literature on behavioral genetics, complex trait inheritance, and liability-threshold models. No original data collected. Discusses polygenic risk scores' limitations and proposes new methodological approaches for studying resistance in addiction research."
+  },
+  {
+    "number": 648,
+    "title": "Cultural engagement as an emerging health-promoting behaviour for depression in later life: Evidence from six ageing cohorts",
+    "authors": "Hei Wan Mak; Taiji Noguchi; Naoki Kondo; Daisy Fancourt",
+    "osf_id": "ayfcv_v1",
+    "date_posted": "2026-05-26",
+    "source_date": "26.05.2026",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This cross-country study analyzed data from six aging cohorts (N=202,963) across England, US, Germany, South Korea, Japan, and Brazil to examine cultural engagement as a potential protective factor against depression in later life. Cultural engagement levels varied significantly across countries, with highest rates in England and Germany and lowest in Japan and Brazil. Higher education consistently predicted greater engagement, though educational gradients differed over time. Cross-sectionally, cultural engagement was associated with fewer depressive symptoms in all countries except the US, with some attenuation after adjusting for confounders. Longitudinally, transitioning into engagement was associated with reduced depressive symptoms in England, Germany, Korea, and the US, but not Japan. England additionally showed evidence that engagement predicted later reductions in symptoms. The study adds important cross-cultural evidence linking cultural engagement with lower depressive symptoms while highlighting unequal participation rates and limited benefit distribution.",
+    "clinical_insight": "Clinicians working with older adults can consider assessing and promoting cultural engagement as a potential protective factor against depression, particularly given its association with symptom reduction in multiple cultural contexts. However, clinicians should be mindful of socioeconomic barriers to participation and consider culturally tailored interventions that account for variations in how cultural engagement is defined and valued across different populations.",
+    "relevant_for": "- Geriatric psychologists\n- Clinical psychologists working with older adults\n- Psychiatrists specializing in geriatric mental health\n- Community mental health providers serving diverse older adult populations",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/ayfcv_v1",
+    "methodology_note": "This study utilized six longitudinal aging cohorts with baseline N=202,963. Researchers employed OLS, fixed-effects, and Arellano-Bond models to examine socioeconomic determinants of cultural engagement and its cross-sectional, longitudinal, and temporal associations with depressive symptoms. Cultural engagement was measured differently across cohorts, ranging from single items to multiple activities. Longitudinal analyses included participants with data from at least two time points, with ELSI-Brazil excluded from longitudinal analyses due to limited waves."
   }
 ]
