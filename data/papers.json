@@ -10726,5 +10726,73 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/ayfcv_v1",
     "methodology_note": "This study utilized six longitudinal aging cohorts with baseline N=202,963. Researchers employed OLS, fixed-effects, and Arellano-Bond models to examine socioeconomic determinants of cultural engagement and its cross-sectional, longitudinal, and temporal associations with depressive symptoms. Cultural engagement was measured differently across cohorts, ranging from single items to multiple activities. Longitudinal analyses included participants with data from at least two time points, with ELSI-Brazil excluded from longitudinal analyses due to limited waves."
+  },
+  {
+    "number": 649,
+    "title": "A Mixed-Methods Study Exploring the Impact of Minority Stress on Trauma and Dissociation Symptoms Among Sexual and Gender Minorities: Preliminary Evidence for an Adapted Four-Dimensional Model of the Traumatized Self",
+    "authors": "Mina Pichtikova; Sandhya Narikuzhy; Ally H. Villeneuve; James Mirabelli; Jakub Wolf; Paul Frewen; Ruth Lanius; Taylor Hatchard; Hygge Schielke; Emily Levitt",
+    "osf_id": "gxur7_v2",
+    "date_posted": "2026-07-22",
+    "source_date": "22.07.2026",
+    "categories": [
+      "Trauma & Stressor-Related"
+    ],
+    "summary": "This mixed-methods study (N=40) investigated the relationship between minority stress, trauma symptoms, and dissociation among sexual and gender minorities (SGMs). Using a convergent parallel design, researchers conducted semi-structured interviews and administered clinical assessments. **Four qualitative themes** emerged: hypervigilance, negative sense-of-self, emotion dysregulation, and dissociation, with differential presentation based on minority stress severity. **Quantitative analyses** revealed that trauma symptoms significantly mediate the relationship between minority stress and dissociation (mediation effect not specified in abstract). The findings provide preliminary support for adapting the Four-Dimensional Model of the Traumatized Self to better understand trauma-related mental health disparities among SGMs. This study is among the first to employ mixed methods to examine these relationships, suggesting that dissociation may represent a trauma-related response to minority stress rather than a direct result.",
+    "clinical_insight": "Clinicians working with SGM clients should assess for minority stressors as potential contributors to trauma symptoms and dissociation. The identified themes (hypervigilance, negative sense-of-self, emotion dysregulation, dissociation) can inform targeted interventions that address the unique ways minority stress manifests as trauma-related symptoms in this population.",
+    "relevant_for": "- - Psychologists working with LGBTQ+ populations\n- Trauma therapists specializing in minority stress\n- Clinical social workers in LGBTQ+ affirmative settings\n- Psychiatrists treating SGM patients with trauma-related symptoms",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/gxur7_v2",
+    "methodology_note": "Convergent parallel mixed-methods design with N=40 SGM participants. Semi-structured qualitative interviews were conducted alongside clinical assessments and quantitative measures of minority stress, trauma symptoms, and dissociation. Qualitative themes were extracted and converged with quantitative minority stress scores. Mediation analysis examined dissociation as a potential trauma-related response to minority stress. No mention of preregistration status."
+  },
+  {
+    "number": 650,
+    "title": "A Permutation-Based Network Invariance Test Using the Network Similarity Metric",
+    "authors": "Simran Johal; Natalie Bondurant; Esther Ulitzsch; Mijke Rhemtulla",
+    "osf_id": "p57zr_v1",
+    "date_posted": "2026-07-22",
+    "source_date": "22.07.2026",
+    "categories": [
+      "Psychopathology & Assessment"
+    ],
+    "summary": "This paper introduces NCT-sF, a permutation-based network invariance test that simultaneously tests for network equivalence and quantifies the degree of similarity between two networks using the sF similarity metric. The authors evaluated this method through Monte Carlo simulations, finding it maintains appropriate Type 1 error control while increasing power to detect differences when sample sizes and/or network differences are large. The NCT-sF often demonstrates equal power to the traditional Network Comparison Test (NCT), particularly when moderate changes are spread throughout the entire network. This method addresses a key limitation in network comparison research by providing both statistical testing and quantification of similarity within the same graph-theoretic framework.",
+    "clinical_insight": "Clinicians and researchers can use NCT-sF to more precisely quantify how treatment interventions or clinical conditions affect the structure of psychological networks, moving beyond binary 'different/similar' conclusions to understand the magnitude of network differences.",
+    "relevant_for": "- Researchers conducting network analysis studies in clinical psychology\n- Psychologists studying treatment effects on psychopathology networks\n- Clinical researchers comparing subgroups of patients\n- Practitioners interested in understanding how interventions change symptom networks",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/p57zr_v1",
+    "methodology_note": "Monte Carlo simulation study evaluating Type 1 error and power. Compares NCT-sF to traditional NCT method. The test statistic is sF (similarity metric based on Frobenius norm), using permutation approach similar to NCT. No specific sample sizes mentioned in the provided text, but previous research suggests adequate performance with N≥250 per group. No mention of preregistration status."
+  },
+  {
+    "number": 651,
+    "title": "Effects of a Theory-Based Smartphone Intervention to Decrease Neuroticism in the General Public",
+    "authors": "Amanda Jo Wright; Peter Haehner; Rosalie Andrae; Till Lubczyk; Chris Hopwood; Wiebke Bleidorn",
+    "osf_id": "m8a5r_v2",
+    "date_posted": "2026-07-22",
+    "source_date": "22.07.2026",
+    "categories": [
+      "Personality Disorders"
+    ],
+    "summary": "This study examined a theory-based smartphone intervention to reduce neuroticism in a German-speaking sample (N = 446) through a 6-week randomized controlled trial. Participants were assigned to one of six treatment protocols targeting different neuroticism levels (state, habit, trait) and aspects (affective, behavioral, cognitive). Results showed significant self-report effects across groups (d = -0.22 to -0.37) that persisted through a 2-month follow-up (d = -0.16 to -0.33). Peer-report effects were also significant for one of two measures (d = -0.18 to -0.30). State-level strategies produced larger immediate but shorter-lasting effects, while habit-level strategies showed smaller initial declines that strengthened over time. Behavior-focused strategies, particularly for states and habits, yielded particularly strong effects across assessment methods. The findings demonstrate that neuroticism can be meaningfully changed within 6 weeks and provide insights into effective mechanisms of change.",
+    "clinical_insight": "This intervention offers clinicians a scalable tool to help reduce neuroticism in clients, potentially serving as an adjunct to traditional therapy or as a standalone intervention for mild to moderate neuroticism. The differential effects of state versus habit strategies suggest that treatment duration should be tailored to client needs - shorter interventions for immediate relief and longer interventions for more sustainable change.",
+    "relevant_for": "- Clinical psychologists working with adults experiencing high neuroticism\n- Psychiatrists seeking adjunct interventions for patients with neurotic traits\n- Mental health counselors looking for digital tools to supplement face-to-face therapy\n- Primary care providers addressing psychological distress in general practice",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/m8a5r_v2",
+    "methodology_note": "This was a randomized controlled trial with N = 446 participants. The study design was preregistered prior to data collection, though there were some deviations from the preregistered plan. The intervention lasted 6 weeks with a 2-month follow-up. Multiple measures were used including self-report and peer-report assessments. Data and materials are publicly available, and analysis scripts are accessible through OSF."
+  },
+  {
+    "number": 652,
+    "title": "Longitudinal Attendance Trajectories Across Three Academic Years in English Secondary Schools: Predictors and links with Internalising Symptoms",
+    "authors": "Christopher Knowles; Qiqi Cheng; Emma Thornton; Prof. Neil Humphrey",
+    "osf_id": "kcf5r_v2",
+    "date_posted": "2026-07-22",
+    "source_date": "22.07.2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This large-scale longitudinal study (N = 28,736 pupils across 156 schools) identified three attendance trajectories in secondary education: **Consistently High** (92.4%), **Progressive Decline** (5.1%), and **Decline & Recover** (2.5%). Using piecewise latent growth mixture modeling, researchers found that **socioeconomic disadvantage** was most strongly associated with sub-optimal attendance trajectories (ORs = 2.94–4.97), with dose-response effects for neighborhood deprivation. **Special educational needs** also increased risk, while protective factors included good physical health, sufficient sleep, school belonging, and minoritised ethnic group membership. LGBTQ+ identity was not independently associated in fully adjusted models. Pupils with sub-optimal attendance reported higher emotional difficulties at baseline (d ≈ .34–.41), but no differences in rates of change over time were observed, suggesting emotional difficulties precede rather than result from attendance problems.",
+    "clinical_insight": "The findings support a multi-tiered intervention approach combining universal strategies to promote school belonging with targeted support addressing socioeconomic disadvantage and mental health needs. The identification of a 'Decline & Recover' trajectory highlights the potential for timely intervention during secondary education, suggesting that mental health professionals working in schools should focus on early identification of at-risk students and implement support systems before attendance patterns become entrenched.",
+    "relevant_for": "- School psychologists\n- Child and adolescent clinical psychologists\n- Educational mental health practitioners\n- Clinical psychologists working with adolescents\n- Mental health teams in educational settings",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/kcf5r_v2",
+    "methodology_note": "This was a longitudinal cohort study using linked survey (#BeeWell) and administrative data across three academic years (2021-2024). The final analytical sample comprised N = 28,736 pupils from J = 156 schools. Statistical analysis used piecewise latent growth mixture modeling with MLR estimation and school-level clustering. Sample weights were applied to align with population margins. The study was preregistered, and the analytical strategy followed the maximum likelihood three-step approach to mixture modeling."
   }
 ]
