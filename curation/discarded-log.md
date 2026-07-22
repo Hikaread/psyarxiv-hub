@@ -898,3 +898,7 @@
 - ksgbr_v1 | 3 | In drones we trust!?  Insights into mental model formation, trust development, a — This paper focuses on human-drone interaction in warehouse environments, examining trust development and mental models of autonomous technology. It falls under human-computer interaction and technology acceptance research rather than clinical psychology, as it does not address therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing therapists, psychologists, or psychiatrists.
 - fr5a9_v1 | 3 | When More Is Not Better: Costs of Increasing Multimodal Engagement During Letter — no PDF (fetch_failed)
 - h4bsu_v1 | 9 | Postpartum Depression and Anxiety: A Literature Review of Neural Mechanisms, Chi — no PDF (fetch_failed)
+- vybsn_v1 | 10 | Verbal ability in trials of cognitive behavioural therapy for anxiety and depres — Paper focuses on youth population (children/adolescents) with no stated direct adult clinical implications
+- q4v3t_v2 | 7 | Executive Functioning as a Developmental Scaffold for Emotion Regulation: Longit — no PDF (fetch_failed)
+- akyhq_v3 | 5 | An Updated State-Level Collectivism-Individualism Index in the United States — no PDF (fetch_failed)
+- ze34m_v1 | 5 | Shared Reality, Perceived Responsiveness and Interpersonal Emotion Regulation Am — no PDF (fetch_failed)
