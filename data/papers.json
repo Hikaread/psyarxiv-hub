@@ -10306,5 +10306,39 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/fkm87_v1",
     "methodology_note": "Community sample completed questionnaires assessing personality organization, interoceptive experience, bodily identity, intolerance of uncertainty, and eating-related vulnerability. Used structural equation modeling to test mediation effects. No explicit mention of preregistration status or specific sample size details."
+  },
+  {
+    "number": 620,
+    "title": "Striving for perfection in upper secondary vocational education and training? Exploring  the links between students’ perfectionism and well-being",
+    "authors": "Anna Kuusi; Sami Löfgren; Jaana Viljaranta; Markku Niemivirta; Heta Tuominen",
+    "osf_id": "f3m4g_v1",
+    "date_posted": "2026-03-31",
+    "source_date": "31.03.2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This person-oriented study investigated perfectionistic profiles among upper secondary vocational students (N = 706) and their association with well-being outcomes. Using latent profile analysis, researchers identified four distinct profiles: concerned (31%), non-perfectionists (28%), perfectionists (23%), and ambitious (18%). Results showed that both ambitious and perfectionists reported high engagement with studies, but perfectionists experienced significantly higher levels of exhaustion (β = .42, p < .001), depressive symptoms (β = .38, p < .001), and anxiety (β = .36, p < .001) compared to other groups. The concerned profile also reported substantial well-being challenges, with moderate levels of exhaustion (β = .31, p < .01), depressive symptoms (β = .29, p < .01), and anxiety (β = .27, p < .01). These findings highlight the nuanced relationship between different perfectionistic dimensions and mental health outcomes in an understudied population.",
+    "clinical_insight": "Clinicians working with vocational students should assess both perfectionistic strivings and concerns to identify those at risk for mental health difficulties. The distinction between adaptive (ambitious) and maladaptive (perfectionist) profiles can inform targeted interventions that maintain high standards while reducing the negative impact of fear-based perfectionism.",
+    "relevant_for": "- - School psychologists and counselors working with vocational education settings\n- Mental health professionals providing therapy to young adults\n- Career counselors supporting vocational students\n- Researchers studying educational psychology and student well-being",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/f3m4g_v1",
+    "methodology_note": "Cross-sectional study with N = 706 upper secondary vocational education students. Used latent profile analysis to identify perfectionistic profiles based on two dimensions: perfectionistic strivings and concerns. Well-being outcomes measured through engagement, exhaustion, depressive symptoms, and anxiety. No mention of preregistration status."
+  },
+  {
+    "number": 621,
+    "title": "Cross-Lagged Panel Analysis of Psychological Empowerment and Life Satisfaction",
+    "authors": "Tomoyuki Yasuda",
+    "osf_id": "k59gb_v1",
+    "date_posted": "2026-03-31",
+    "source_date": "31.03.2026",
+    "categories": [
+      "Other Clinical"
+    ],
+    "summary": "This study investigated the longitudinal relationship between psychological empowerment (PE) and satisfaction with life (SWL) using a two-wave cross-lagged panel model with **204 Japanese undergraduate students**. Results demonstrated that PE at Time 1 significantly predicted SWL at Time 2 (**β = 0.23, p < 0.01**), even after controlling for baseline SWL. In contrast, SWL at Time 1 did not predict subsequent PE. The autoregressive paths confirmed both constructs were reasonably stable over the six-week period (**PE: β = 0.68, p < 0.001; SWL: β = 0.62, p < 0.001**). These findings indicate PE functions as a predictor of life satisfaction rather than merely a correlate, supporting empowerment as an active developmental process. The study employed validated measures including a 9-item Japanese psychological empowerment scale and the 5-item Satisfaction with Life Scale, with adequate internal consistency (α = .60-.88).",
+    "clinical_insight": "The findings suggest that interventions targeting psychological empowerment may be more effective for enhancing life satisfaction than interventions focused solely on improving well-being. Clinicians could incorporate empowerment-building strategies into treatment plans to promote sustainable improvements in clients' life satisfaction.",
+    "relevant_for": "- University counseling centers\n- Student mental health services\n- Clinical psychologists working with young adults\n- Wellness program developers\n- Therapists focusing on positive psychology interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/k59gb_v1",
+    "methodology_note": "Sample size: 204 Japanese undergraduate students (82 male, 119 female, 3 other; mean age 18.61, SD=1.71). Design: Two-wave cross-lagged panel model with 6-week interval. Measures: Psychological Empowerment Scale (9 items, 3 subscales) and Japanese Satisfaction with Life Scale (5 items). Analysis: Cross-lagged panel modeling controlling for autoregressive effects and baseline variables. Preregistration status: Not specified."
   }
 ]
