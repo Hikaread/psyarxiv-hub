@@ -10459,5 +10459,22 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/3bpeh_v1",
     "methodology_note": "Three-wave longitudinal design with N = 504 adolescents (55% female). Used linear mixed models and random-intercept cross-lagged panel models. Measures included Revised Children's Anxiety and Depression Scale (RCADS-SF), Self-Referential Encoding Task (SRET), and Balloon Analogue Risk Task (BART). Full information maximum likelihood estimation handled missing data. No mention of preregistration status."
+  },
+  {
+    "number": 629,
+    "title": "Bayesian Brain in ADHD: potential catecholaminergic pathway of volatility estimation",
+    "authors": "Irene Sophia Plank; Anna Yurova; Alexandra Pior; Julia Nowak; Zhuanghua Shi; Christine Falter-Wagner",
+    "osf_id": "yajsb_v1",
+    "date_posted": "2025-12-10",
+    "source_date": "10.12.2025",
+    "categories": [
+      "Neurodivergence"
+    ],
+    "summary": "This study investigated volatility estimation in ADHD using a probabilistic associative learning (PAL) task with **66 participants** (22 per group: ADHD, ADHD+ASD, controls). The Bayesian Brain framework posits that the brain continuously updates beliefs about dynamic environments, including multi-level volatility. Results showed **small evidence** for differences in cue-outcome tonic volatility between groups, but **strong evidence** that adults with ADHD not currently taking medication had **increased estimates** for cue-outcome tonic volatility. ADHD medication was associated with **decreased estimates** for cue-outcome volatility, suggesting a **causal relationship** between catecholaminergic imbalance and volatility processing in ADHD. The study provides crucial new evidence that catecholaminergic imbalance in ADHD may specifically manifest as altered processing of cue-outcome tonic volatility, offering a novel computational target for understanding the disorder's neurobiology.",
+    "clinical_insight": "Clinicians can conceptualize ADHD symptoms through the lens of altered volatility processing, which may explain difficulties in adapting to changing environments. The medication findings suggest that stimulant medications may normalize volatility estimation processes, potentially explaining their therapeutic effects beyond simple dopamine/norepinephrine elevation.",
+    "relevant_for": "- - Psychiatrists treating ADHD patients\n- Clinical neuropsychologists\n- ADHD researchers\n- Therapists working with adults with ADHD",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/yajsb_v1",
+    "methodology_note": "Preregistered design on OSF (https://osf.io/f23nq). Sample size estimated to achieve 80% power for detecting medium effects (d=0.45). Used probabilistic associative learning (PAL) task to extract participant-specific belief trajectories and volatility estimates. Bayesian analysis approach used for statistical inference. Data, materials, and code shared on GitHub."
   }
 ]
