@@ -10476,5 +10476,124 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/yajsb_v1",
     "methodology_note": "Preregistered design on OSF (https://osf.io/f23nq). Sample size estimated to achieve 80% power for detecting medium effects (d=0.45). Used probabilistic associative learning (PAL) task to extract participant-specific belief trajectories and volatility estimates. Bayesian analysis approach used for statistical inference. Data, materials, and code shared on GitHub."
+  },
+  {
+    "number": 630,
+    "title": "Reductions in limbic activity during negative emotion processing following cognitive-behavioural therapy in depressive disorders",
+    "authors": "Tiana Borgers; Esther Zwiky; Melissa Klug; Verena Enneking; Lukas Fisch; Lydia Klein; Laura Neutz; Elisabeth Leehr; Nils Opel; Philine König",
+    "osf_id": "36prt_v1",
+    "date_posted": "2024-06-18",
+    "source_date": "18.06.2024",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This naturalistic study examined neurobiological changes following cognitive-behavioral therapy (CBT) in 59 patients with depressive disorders, comparing them to 60 healthy controls. Using fMRI during negative emotion processing, researchers found significant reductions in hippocampal and dorsal anterior cingulate cortex activity post-CBT (p ≤ .024) that were specific to patients and not observed in controls. When patients were divided into subgroups based on treatment response (n=40 responders, n=19 non-responders), hippocampal activity decreases were driven by responders (p ≤ .020) and correlated with symptom improvement (r=.293, p=.024). Notably, responders exhibited higher pre-treatment hippocampal activity (p=.017), suggesting it may serve as a predictive marker for treatment response. The study provides evidence that successful CBT normalizes depression-specific brain activity related to emotion processing, potentially disrupting the cycle of negative emotion processing and low mood characteristic of depression.",
+    "clinical_insight": "Clinicians can interpret heightened hippocampal activity during emotional processing as a potential positive prognostic indicator for CBT response in depression. This neurobiological marker may help personalize treatment decisions, particularly for patients considering CBT versus alternative interventions. The findings also provide biological validation for CBT's mechanism of action in altering emotion processing circuits.",
+    "relevant_for": "- Clinical psychologists treating depression with CBT\n- Psychiatrists managing treatment-resistant depression\n- Neuropsychologists assessing treatment response biomarkers\n- Researchers developing personalized treatment approaches for depression",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/36prt_v1",
+    "methodology_note": "Sample of 59 patients with depressive disorders and 60 healthy controls, assessed at baseline and approximately 20 CBT sessions later (mean interval 7.8 months). Used fMRI with a negative emotion processing paradigm, clinical interviews (SCID), and depression symptom measures (HDRS, BDI). Analysis included 2x2 repeated-measures ANOVAs with response and time factors, and whole-brain analyses with FWE correction. Not preregistered."
+  },
+  {
+    "number": 631,
+    "title": "An Exploratory Graphical Analysis of the Montgomery-Åsberg Depression Rating Scale Pre- and Post-Treatment using Pooled Antidepressant Trial Secondary Data",
+    "authors": "David Byrne; ARUN GHOSHAL; Fiona Boland; Susan Brannick; Robert M. Carney; Pim Cuijpers; Alexandra Dima; Kenneth Freedland; Suzanne Guerin; David Hevey",
+    "osf_id": "87fqk_v1",
+    "date_posted": "2024-06-18",
+    "source_date": "18.06.2024",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This study analyzed the network structure and stability of the Montgomery-Åsberg Depression Rating Scale (MADRS) using data from **6,962 participants** across **15 clinical trials**. Researchers employed **Exploratory Graphical Analysis (EGA)** to examine the scale's configural structure at baseline and post-treatment (8-week outcome). The analysis revealed that the full 10-item model showed performance issues at baseline and for the placebo group at outcome. Through bootstrapping techniques, researchers identified an **abbreviated 8-item single-community model** that demonstrated **configural invariance** across time-points and treatment groups (placebo and intervention). **Symptoms of low mood and lassitude** emerged as the most central nodes across all models, suggesting these may be core depression symptoms. The findings provide important insights into the MADRS's psychometric properties when used in antidepressant clinical trials.",
+    "clinical_insight": "Clinicians can use the 8-item abbreviated MADRS model with greater confidence across different treatment phases and patient groups. The centrality of low mood and lassitude symptoms suggests these should be prioritized in treatment planning and monitoring.",
+    "relevant_for": "- Psychiatrists prescribing antidepressants\n- Clinical psychologists conducting depression assessments\n- Researchers designing depression outcome measures\n- Clinical trial coordinators evaluating antidepressant efficacy",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/87fqk_v1",
+    "methodology_note": "Sample size: N=6,962 participants from 15 clinical trials. Design type: Secondary analysis of pooled antidepressant trial data. Key measures: Montgomery-Åsberg Depression Rating Scale (MADRS). Analysis approach: Exploratory Graphical Analysis (EGA) with bootstrapping techniques. Preregistration status: Not specified."
+  },
+  {
+    "number": 632,
+    "title": "Factors Associated With Weight Loss Success: An Umbrella Review and the DELTA Grid Taxonomy",
+    "authors": "Kari Kuulman; Kadri Arumäe; Senta Karus; Uku Vainik",
+    "osf_id": "qaeg6_v1",
+    "date_posted": "2026-07-22",
+    "source_date": "22.07.2026",
+    "categories": [
+      "Somatic & Functional"
+    ],
+    "summary": "This comprehensive umbrella review analyzed 49 systematic reviews spanning 1,118 unique primary studies with 138,153 participants to identify factors associated with weight loss success. The researchers consolidated 992 original factor descriptions into 96 evidence-based factors using established psychological frameworks. They developed the DELTA Grid taxonomy, which classifies factors by ecological location (biological, psychological, habitual, relational, or environmental) and mechanism of operation (affective, behavioural, cognitive, or desire/motivational). **Behavioural mechanisms dominated** the evidence base (50.0%), while affective mechanisms (11.5%) and the relational-network domain (3.1%) were underrepresented. The taxonomy reveals structural patterns and blind spots in current research, with 30% of potential cells in the classification grid remaining empty. This integrated approach addresses limitations of previous single-dimensional taxonomies and provides a framework for multidimensional assessment and intervention in weight management.",
+    "clinical_insight": "The DELTA Grid offers clinicians a structured approach to identifying barriers to weight maintenance across multiple ecological levels. By understanding where a patient's challenge resides (biological, psychological, habitual, relational, or environmental) and through which mechanism it operates (affective, behavioural, cognitive, or desire/motivational), clinicians can develop more targeted interventions. This taxonomy helps explain why some patients struggle despite seemingly adequate behavioral interventions, potentially uncovering overlooked relational or affective factors.",
+    "relevant_for": "- Clinical psychologists working with obesity or weight management\n- Psychiatrists treating patients with comorbid obesity and mental health conditions\n- Health psychologists in medical settings\n- Behavioral medicine specialists\n- Dietitians and nutritionists seeking psychological frameworks for patient assessment\n- Primary care providers addressing weight-related health issues",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/qaeg6_v1",
+    "methodology_note": "This umbrella review synthesized 49 systematic reviews published between 2014-2024, with 27 reviews reporting aggregate totals of 138,153 participants. The search strategy included five databases supplemented by citation tracking. The authors used established psychological frameworks to consolidate 992 unique factor descriptions into 96 evidence-based factors. No preregistration status is mentioned for this umbrella review."
+  },
+  {
+    "number": 633,
+    "title": "The access and use of GLP-1 receptor agonists in people with eating disorders in the UK: A mixed method study",
+    "authors": "Abigail Pickard; Michelle Carroll; Lauren Bruha; Sukriye Acar; Emy Nimbley; Amelia Austin; Helen Sharpe; Fiona Duffy",
+    "osf_id": "5w4mc_v1",
+    "date_posted": "2026-07-22",
+    "source_date": "22.07.2026",
+    "categories": [
+      "Eating Disorders"
+    ],
+    "summary": "This mixed-methods study (N=72) explored the access and use of GLP-1 receptor agonists (GLP-1 RAs) among individuals with eating disorders (EDs) in the UK. **93% (n=67)** of participants reported current or previous GLP-1 RA use, primarily motivated by weight loss and binge eating reduction. Notably, **74.3% (n=52)** obtained medications through online pharmacies, with **two-thirds** not disclosing their ED to prescribers and **one-quarter** not being asked about ED history at all. **37% (n=25)** of those who received medication did not meet BMI prescription requirements, and approximately **half** did not receive ongoing monitoring. Qualitative analysis revealed that motivations for using GLP-1 RAs were guided by ED cognitions and recovery concerns, with uncertainty surrounding long-term use intentions. The findings highlight significant gaps in clinical screening and monitoring despite recommendations for ED assessment and BMI verification.",
+    "clinical_insight": "Clinicians should proactively screen patients about ED history when prescribing GLP-1 RAs, as many patients with EDs are accessing these medications through non-traditional channels without proper assessment. The high rate of non-disclosure by patients and inadequate screening by prescribers creates a potentially dangerous clinical situation that requires enhanced protocols for monitoring and support.",
+    "relevant_for": "- Psychiatrists and physicians prescribing GLP-1 RAs for weight management\n- Eating disorder specialists and treatment providers\n- Clinical psychologists working with patients using weight loss medications\n- Primary care providers managing patients with obesity and comorbid EDs\n- UK healthcare administrators developing prescribing guidelines",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/5w4mc_v1",
+    "methodology_note": "Mixed-methods convergent parallel design with 72 participants (aged 16+) who had an ED and attempted to access GLP-1 RAs in the past two years. Quantitative survey data analyzed descriptively; qualitative data analyzed thematically. Not specified whether the study was preregistered."
+  },
+  {
+    "number": 634,
+    "title": "Social media interventions to improve wellbeing",
+    "authors": "Amira Skeggs; Amy Orben",
+    "osf_id": "u9wqc_v1",
+    "date_posted": "2024-06-18",
+    "source_date": "18.06.2024",
+    "categories": [
+      "Digital Mental Health"
+    ],
+    "summary": "This paper introduces a theoretical framework for social media interventions (SMIs) guided by self-determination theory, categorizing interventions by context (platforms, devices, users, families, society) and proposing evidence-based design features. The authors review current interventions that target social media use to improve wellbeing, particularly for adolescents who show heightened vulnerability to social media's adverse effects. The paper distinguishes between 'use-reduction' approaches (quantitatively decreasing social media time) and 'use-improvement' approaches (qualitatively changing interaction content). The authors propose that interventions should address core psychological needs of autonomy, competence, and relatedness to maximize effectiveness. This framework addresses a growing societal concern and aims to prevent a 'high availability low evidence base' crisis in digital wellbeing interventions, similar to issues seen in digital mental health care.",
+    "clinical_insight": "Clinicians can apply this theoretical framework to develop more effective interventions for clients experiencing negative wellbeing impacts from social media. By targeting autonomy, competence, and relatedness through context-specific approaches, therapists can help clients establish healthier digital habits. The framework particularly benefits adolescent populations, who show heightened vulnerability to social media's adverse effects.",
+    "relevant_for": "- Clinical psychologists working with adolescents and young adults\n- School psychologists addressing digital wellbeing concerns\n- Psychiatrists treating patients with social media-related mental health issues\n- Therapists incorporating digital wellbeing strategies into treatment plans\n- Mental health researchers developing evidence-based digital interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/u9wqc_v1",
+    "methodology_note": "This is a theoretical review paper that synthesizes existing literature on social media interventions. The authors categorize interventions by context (platforms, devices, users, families, society) and propose design features based on self-determination theory. No new data collection or analysis is presented, as the work focuses on conceptual development and integration of existing research across behavioral sciences and technology design."
+  },
+  {
+    "number": 635,
+    "title": "Associations of lifestyle factors and genetic risk with risk and rate advancement periods of dementia",
+    "authors": "Yating You; Frederick K. Ho; Donald M. Lyall; Claire Hastie",
+    "osf_id": "9tsj3_v1",
+    "date_posted": "2026-07-22",
+    "source_date": "22.07.2026",
+    "categories": [
+      "Neuropsychology & Aging"
+    ],
+    "summary": "This large cohort study (N=224,516) analyzed how lifestyle factors and APOE genotype influence dementia risk and rate advancement periods (RAPs) using UK Biobank data. Participants were categorized by APOE status (ε2+ protective, ε3 neutral reference, ε4+ at-risk) and lifestyle levels (unfavorable, moderate, favorable based on smoking, alcohol, diet, sedentary behavior, and physical activity). **Lifestyle factors showed significant associations with dementia risk**, with favorable lifestyle associated with reduced risk compared to unfavorable (HR=0.68, 95% CI 0.60-0.77). The **RAP for APOE ε4+ was 2.9 years**, meaning carriers developed dementia 2.9 years earlier than non-carriers. **Optimal physical activity** was associated with the largest risk reduction (HR=0.79, 95% CI 0.71-0.88) and smallest RAP (0.7 years). Significant interactions were found between APOE genotype and lifestyle factors, suggesting lifestyle modifications may be particularly beneficial for genetically susceptible individuals.",
+    "clinical_insight": "Findings support the clinical utility of lifestyle interventions as preventive strategies for dementia, especially for APOE ε4 carriers. Clinicians can use these data to motivate patients with genetic risk factors to adopt healthier lifestyles, potentially delaying dementia onset by several years. The quantification of RAPs provides concrete benchmarks for counseling patients about the potential impact of behavioral changes.",
+    "relevant_for": "- Geriatric psychologists and neuropsychologists\n- Primary care physicians managing older adults\n- Clinical psychologists working with patients concerned about cognitive decline\n- Psychiatrists specializing in geriatric mental health\n- Health psychologists focusing on preventive interventions",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/9tsj3_v1",
+    "methodology_note": "Population-based cohort study with 224,516 UK Biobank participants aged ≥50 years at baseline, followed for median 8.9 years. Used Cox proportional hazards regression to calculate hazard ratios and rate advancement periods. Primary analyses adjusted for age, genetic ancestry, sex, and socioeconomic status. Study was preregistered and used FDR correction for multiple comparisons. Excluded first 5 years of follow-up to address reverse causality."
+  },
+  {
+    "number": 636,
+    "title": "The Ritvo Autism and Asperger Diagnostic Scale 14-Item-Screening – German version (RAADS-14-Screen-G)",
+    "authors": "Maria Etlender; Irina Jarvers",
+    "osf_id": "rxhs6_v1",
+    "date_posted": "2024-06-18",
+    "source_date": "18.06.2024",
+    "categories": [
+      "Neurodivergence"
+    ],
+    "summary": "This paper presents the German version of the RAADS-14-Screen (RAADS-14-Screen-G), a 14-item screening tool for Autism Spectrum Disorder in adults. The scale was translated following best practices with bilingual researchers performing independent translations and back-translations to ensure accuracy. The original RAADS-14-Screen has demonstrated strong psychometric properties with a median score of 32 in adults with ASD (N=135), 15 in adults with ADHD (N=344), 11 in adults with other psychiatric disorders (N=164), and 3 in non-psychiatric controls (N=590). The proposed cut-off score of 14 or higher shows excellent sensitivity (97%) and specificity (95%) for detecting ASD in non-psychiatric populations, though specificity is lower for ADHD (46%) and other psychiatric disorders (64%). The scale assesses three subdomains: mentalizing deficits (32.5% of variance), social anxiety (8.5% of variance), and sensory reactivity (6.4% of variance). A validation study with autistic adults is planned for the German version.",
+    "clinical_insight": "The RAADS-14-Screen-G provides clinicians with a brief, efficient tool to screen for ASD in adult populations. Its strong sensitivity makes it particularly useful for ruling out ASD when scores are low, while elevated scores can indicate the need for more comprehensive assessment. The German translation will address a significant need in German-speaking clinical settings.",
+    "relevant_for": "- Clinical psychologists working with adult populations\n- Psychiatrists conducting diagnostic assessments\n- Neuropsychologists evaluating cognitive profiles\n- Mental health professionals in German-speaking countries\n- Clinicians differentiating ASD from other conditions like ADHD",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/rxhs6_v1",
+    "methodology_note": "Translation study with bilingual researchers performing independent forward and back-translations. No validation data presented for the German version. Original validation involved N=135 ASD adults, N=344 ADHD adults, N=164 other psychiatric disorders, and N=590 non-psychiatric controls. Analysis approach included sensitivity/specificity calculations with proposed cut-off score of 14. No mention of preregistration status for the translation study."
   }
 ]
