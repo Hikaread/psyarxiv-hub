@@ -10595,5 +10595,39 @@
     "published": null,
     "link": "https://osf.io/preprints/psyarxiv/rxhs6_v1",
     "methodology_note": "Translation study with bilingual researchers performing independent forward and back-translations. No validation data presented for the German version. Original validation involved N=135 ASD adults, N=344 ADHD adults, N=164 other psychiatric disorders, and N=590 non-psychiatric controls. Analysis approach included sensitivity/specificity calculations with proposed cut-off score of 14. No mention of preregistration status for the translation study."
+  },
+  {
+    "number": 637,
+    "title": "The role of cortisol reactivity in the transmission of depressive symptoms from parents to adolescents",
+    "authors": "Jana Runze; Stefanie Nelemans; Inge van der Grint; Susanne Schulz",
+    "osf_id": "gcsm4_v1",
+    "date_posted": "2026-07-23",
+    "source_date": "23.07.2026",
+    "categories": [
+      "Mood Disorders"
+    ],
+    "summary": "This longitudinal, preregistered study followed 497 Dutch adolescents (56% boys, M age T1 = 13.03) and their parents (495 mothers, M age T1 = 44.41; 446 fathers, M age T1 = 46.74) across six years to examine the role of cortisol reactivity in the transmission of depressive symptoms. Results showed that higher maternal internalizing symptoms predicted higher adolescent depressive symptoms at age 18 (β = .23, p < .001), but this effect became non-significant after adjusting for adolescents' prior depressive symptoms. Neither maternal nor paternal internalizing symptoms predicted cortisol reactivity in middle to late adolescence, nor did adolescent cortisol reactivity predict depressive symptoms in late adolescence. The study used **Confirmatory Factor Analysis** to model latent factors for internalizing symptoms and employed **Full Information Maximum Likelihood** estimation to handle missing data. Model fit indices were adequate (CFI = .95-.97, SRMR = .03-.06, RMSEA = .06-.13), with the final model explaining 58.9% of the variance in adolescent depressive symptoms when controlling for prior symptoms.",
+    "clinical_insight": "The findings suggest that while maternal internalizing symptoms are associated with adolescent depressive symptoms, this relationship is largely accounted for by the adolescent's own prior depressive history rather than through HPA axis reactivity. This challenges the assumption that cortisol reactivity serves as a key mechanism in the intergenerational transmission of depression during middle to late adolescence.",
+    "relevant_for": "- Child and adolescent psychologists working with families\n- Clinical psychologists treating adolescent depression\n- Developmental psychopathology researchers\n- Family therapists addressing parental mental health impacts on children",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/gcsm4_v1",
+    "methodology_note": "Longitudinal design with N = 497 adolescents followed across six years. Used self-reported measures of internalizing symptoms and a standardized stress task to assess cortisol reactivity (AUCg and AUCi). Employed structural equation modeling with latent factors and controlled for prior depressive symptoms. Study was preregistered, used appropriate missing data handling, and conducted sensitivity analyses with outliers."
+  },
+  {
+    "number": 638,
+    "title": "A Registered Report of a Two-Site Study of Variations of the Flanker Task: ERN Experimental Effects and Data Quality",
+    "authors": "Peter E. Clayson; Harold Rocha; Julia B. McDonald; Scott Baldwin; Michael J. Larson",
+    "osf_id": "a3s42_v1",
+    "date_posted": "2023-12-21",
+    "source_date": "21.12.2023",
+    "categories": [
+      "Neuropsychology & Aging"
+    ],
+    "summary": "This registered report compared **error-related negativity (ERN)** measurements across three different versions of the flanker task in **172 participants** across two sites. The study found **numerical differences** in ERN scores between task versions, raising concerns about **comparability** across studies. While all three versions yielded **high data quality and internal consistency**, one version demonstrated **superior experimental effects** (correct vs. error trials) and **data quality**. Exploratory analyses of error positivity (Pe) provided tentative support for the other two versions. The study offers a **statistical roadmap** for comparing ERP psychometric characteristics across paradigms and provides **preliminary recommendations** for flanker tasks in ERN- and Pe-focused research, which is crucial for standardizing ERN as a clinical biomarker.",
+    "clinical_insight": "Clinicians and researchers can use these findings to select optimal flanker task versions when measuring ERN as a potential biomarker for anxiety disorders and other conditions. The methodological approach demonstrated here can be applied to standardize other ERP measures in clinical assessment.",
+    "relevant_for": "- - Neuropsychologists assessing cognitive control mechanisms\n- - Researchers developing neural biomarkers for anxiety disorders\n- - Clinical psychologists interested in objective measures of error monitoring\n- - Research teams standardizing ERP protocols for multi-site studies",
+    "published": null,
+    "link": "https://osf.io/preprints/psyarxiv/a3s42_v1",
+    "methodology_note": "Registered report design with N=172 participants across two sites. Used multilevel location-scale models to compare ERN experimental effects and data quality across three flanker task versions. Measured ERN and Pe components with high-density EEG. Preregistration status confirmed as registered report."
   }
 ]
