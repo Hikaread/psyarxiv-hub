@@ -985,3 +985,7 @@
 - eca7v_v1 | 2 | Making Cooperation Comparable: Conditional Response Profiles as a Common Currenc — This paper focuses on cross-species cooperation research using the iterated Prisoner's Dilemma framework, which falls under basic comparative cognition/animal behavior research without direct clinical application to human therapy, assessment, diagnosis, or mental health interventions. It does not address psychopathology, mental health treatments, or clinical utility for practicing therapists, psychologists, or psychiatrists.
 - 2e58a_v3 | 1 | Biased processing of multiple outcomes in human reinforcement learning: evidence — low signal score (1)
 - gu9yq_v3 | 1 | CLDassist: LLM-assisted CLD construction — low signal score (1)
+- sh29n_v2 | 3 | A Two-Stage Scaffolding Model of Color and Luminance Development: Retinal Waves, — This paper focuses on visual development, retinal waves, and luminance processing without any clinical application to psychology practice, assessment, diagnosis, or interventions. It's a basic neuroscience/developmental psychology study with no relevance to clinical psychology practice.
+- 367n5_v1 | 1 | Repetition Learning Depends on the Explicit Retrieval from Episodic Memory: Evid — low signal score (1)
+- u4fhk_v1 | 1 | Online Behavioral Experiments with jsPsych: A Workflow Guide — low signal score (1)
+- sb2jz_v1 | 1 | Toward a Formalization of Human Intuitive Theories of Bodily Pain — low signal score (1)
