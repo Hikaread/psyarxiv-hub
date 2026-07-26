@@ -7,7 +7,7 @@
 
 import { readFileSync, writeFileSync } from 'fs';
 
-const DISCOVERED = JSON.parse(readFileSync('/home/z/my-project/scripts/discovered-papers.json', 'utf8'));
+const DISCOVERED = JSON.parse(readFileSync('/home/z/my-project/psyarxiv-hub/curation/discovered-papers.json', 'utf8'));
 const EXISTING = JSON.parse(readFileSync('/home/z/my-project/psyarxiv-hub/data/papers.json', 'utf8'));
 
 // Build existing OSF ID set (compact)
@@ -171,6 +171,6 @@ const report = {
   }))
 };
 
-writeFileSync('/home/z/my-project/scripts/screened-papers.json', JSON.stringify(candidates, null, 2) + '\n', 'utf8');
-writeFileSync('/home/z/my-project/scripts/screening-brief.json', JSON.stringify(report, null, 2) + '\n', 'utf8');
+writeFileSync('/home/z/my-project/psyarxiv-hub/curation/screened-papers.json', JSON.stringify(candidates, null, 2) + '\n', 'utf8');
+writeFileSync('/home/z/my-project/psyarxiv-hub/curation/screening-brief.json', JSON.stringify(report, null, 2) + '\n', 'utf8');
 console.log(JSON.stringify(report, null, 2));

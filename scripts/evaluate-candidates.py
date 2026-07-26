@@ -12,9 +12,9 @@ import json, sys, os, subprocess, re, time, glob, shutil, urllib.request
 from datetime import datetime, timezone
 
 # Volatile paths (may be wiped) with git-tracked fallbacks
-SCREENED_PATH = '/home/z/my-project/scripts/screened-papers.json'
-DISCOVERED_PATH = '/home/z/my-project/scripts/discovered-papers.json'
-RESULTS_PATH = '/home/z/my-project/scripts/evaluation-results.json'
+SCREENED_PATH = '/home/z/my-project/psyarxiv-hub/curation/screened-papers.json'
+DISCOVERED_PATH = '/home/z/my-project/psyarxiv-hub/curation/discovered-papers.json'
+RESULTS_PATH = '/home/z/my-project/psyarxiv-hub/curation/evaluation-results.json'
 PAPERS_JSON = '/home/z/my-project/psyarxiv-hub/data/papers.json'
 SEEN_IDS_PATH = '/home/z/my-project/psyarxiv-hub/data/seen-compact-ids.json'
 DISCARD_LOG = '/home/z/my-project/psyarxiv-hub/curation/discarded-log.md'
@@ -22,15 +22,7 @@ OG_SCRIPT = '/home/z/my-project/psyarxiv-hub/scripts/generate-og-pages.mjs'
 FETCH_SCRIPT = '/home/z/my-project/psyarxiv-hub/scripts/fetch-paper-fulltext.py'
 INBOX_DIR = '/home/z/my-project/psyarxiv-hub/curation/inbox'
 
-# At startup, copy self to volatile location if missing (survives wipes)
-_THIS_FILE = os.path.abspath(__file__)
-_VOLATILE_COPY = '/home/z/my-project/scripts/evaluate-candidates.py'
-if _THIS_FILE != _VOLATILE_COPY and not os.path.exists(_VOLATILE_COPY):
-    try:
-        os.makedirs(os.path.dirname(_VOLATILE_COPY), exist_ok=True)
-        shutil.copy2(_THIS_FILE, _VOLATILE_COPY)
-    except Exception:
-        pass
+# All scripts and data now live in the git-tracked repo — no volatile copies needed
 
 # Merged prompt: accept/reject AND curation in one call
 MERGED_SYSTEM = """You are a clinical psychology preprint evaluator and curator for PsyArXiv Hub.

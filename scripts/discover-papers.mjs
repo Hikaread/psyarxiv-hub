@@ -13,7 +13,7 @@ const PAUSE_MS = 300;
 const MIN_UNSEEN = 15;           // stop when this many unseen papers collected
 const MAX_LOOKBACK_DAYS = 730;  // safety net: don't scan more than 2 years back
 const SEEN_IDS_FILE = '/home/z/my-project/psyarxiv-hub/data/seen-compact-ids.json';
-const OUTPUT_FILE = '/home/z/my-project/scripts/discovered-papers.json';
+const OUTPUT_FILE = '/home/z/my-project/psyarxiv-hub/curation/discovered-papers.json';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
