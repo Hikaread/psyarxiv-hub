@@ -1,21 +1,21 @@
 [
   {
-    "osf_id": "zhk27_v2",
-    "title": "Concurrent and Lagged Synchrony in Parents’ and Adolescents’ Daily Positive and Negative Affect: Distinct Predictors Across Synchrony Types",
-    "date_created": "2026-07-26T00:00:33.227195",
-    "date_modified": "2026-07-26T16:59:48.918215",
-    "description": "Most research on parent–adolescent emotion dynamics has relied on brief laboratory paradigms, which provide limited insight into whether affective synchrony unfolds in everyday life and what factors drive its patterns. In this pre-registered study, a community sample (69.5% Caucasian, 10.9% Black, 7.3% Bi/Multiracial, 12.3% other races) of 112 adolescents (M = 14.13 years, SD = 1.74, Range = 12–18; 61 female, 49 male, 2 nonbinary) and 108 of their parents (M = 43.98 years, SD = 6.00, Range = 33–64; 96 female, 12 male) completed baseline measures of closeness, responsiveness, insensitivity, depressive symptoms, and social anxiety symptoms. Then, for 28 days, participants reported their positive affect (PA) and negative affect (NA). We used Bayesian LMEM to quantify concurrent synchrony in PA and NA and test whether baseline measures predicted each type of synchrony. Results confirmed that parents and adolescents exhibited concurrent synchrony in their daily PA (β = 0.228) and NA (β = 0.278). Concurrent synchrony in PA and NA were differentially predicted by adolescents’ (but usually not parents’) perceptions of their relationship and social anxiety symptoms. Exploratory analyses examining lagged synchrony evidenced similar effects. In addition to advancing theoretical understanding of parent–adolescent emotion dynamics, these findings suggest that the dissociability of positive and negative emotions may extend to dyadic affective processes.",
+    "osf_id": "q5jrn_v1",
+    "title": "Word-Level Measures of Syntactic Complexity in Sentence Processing: An Organizing Review",
+    "date_created": "2026-07-27T03:02:14.294522",
+    "date_modified": "2026-07-27T16:38:22.576258",
+    "description": "The recent adoption of naturalistic paradigms in the psychology and neuroscience of language has necessitated methods for quantifying incremental syntactic processing complexity. However, there is little consensus about how complexity should be quantified. Existing studies employ a wide range of complexity metrics, reflecting divergent assumptions about the nature of grammatical representations and the mechanisms underlying syntactic processing. Because these assumptions are rarely made explicit, findings across studies cannot be reliably interpreted or consistently synthesized into general conclusions. The goal of the present study is to review the word-level syntactic complexity metrics that have been used to model behavioral and neural measures of syntactic processing. To organize the empirical literature, we introduce a taxonomy based on two complementary dimensions: the grammatical distinction between constituency and dependency representations, and the cognitive distinction between computation- and memory-related aspects of syntactic processing. Our review reveals substantial heterogeneity in how syntactic complexity is operationalized and interpreted, even among ostensibly similar metrics. To test this quantitatively, we applied hierarchical clustering to 26 metrics computed on a sample of 100 annotated sentences. Computation- and memory-related metrics largely clustered together, providing quantitative support for the relevance of our proposed taxonomy. However, this pattern emerged only when constituency- and dependency-based metrics were analyzed separately, showing that the choice of the grammatical formalism shapes how syntactic complexity is quantified. Taken together, these findings underscore the need for greater conceptual clarity in the use of syntactic complexity metrics and for more explicit linking hypotheses connecting linguistic structure to cognitive and neural processes. This review provides a useful framework for achieving these goals.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
         {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         },
         {
-          "id": "5b4e7426c6983001430b6c58",
-          "text": "Emotion"
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
         }
       ],
       [
@@ -24,14 +24,54 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
         },
         {
-          "id": "5b4e7427c6983001430b6ca4",
-          "text": "Emotional Development"
+          "id": "5b4e7427c6983001430b6c8e",
+          "text": "Syntax"
         }
       ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf4",
+          "text": "Computational Linguistics"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6d01",
+          "text": "Language"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/q5jrn_v1/"
+  },
+  {
+    "osf_id": "b9e2s_v1",
+    "title": "Learning Goals and Listening in Polarized Conversations: A Test Across Four Labs",
+    "date_created": "2026-07-27T06:24:50.027176",
+    "date_modified": "2026-07-27T17:35:27.850886",
+    "description": "Disagreements often feel threatening, leading people to respond defensively, which can intensify both attitude and social polarization. High-quality listening is a key strategy thought to reduce polarization in these interactions, but this type of listening is rarely employed when disagreeing partners converse, and little is known about how to encourage it. To address this gap, we tested whether conversational goals, specifically, adopting goals to learn about one’s conversational partner versus a goal to persuade one’s conversational partner, can improve high quality listening and, in turn, reduce attitude and social polarization during disagreements. We hypothesized that learning goals foster perceptions of high-quality listening behaviors, which in turn increase partners’ psychological safety, promote open-mindedness, and ultimately reduce polarization. We conducted a large, preregistered experiment across four sites (Israel, Singapore, the U.K., and the U.S.; Total N = 1407). Using live dyadic conversations between strangers who disagreed on a focal topic, we manipulated one participant’s conversational goal and assessed both partners’ experiences. The goal manipulation did not influence perceived listening quality or polarization outcomes in any sample. However, preregistered path analyses provided consistent support across the four labs for the listening-to-depolarization portion of the hypothesized model: Perceived listening quality positively predicted increased psychological safety, which in turn predicted increased open-mindedness and many of the assessed indicators of polarization. The findings highlighted both the need for, and the difficulty of, encouraging high-quality listening during disagreements, with implications for understanding and improving polarization.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -40,56 +80,34 @@
         {
           "id": "5b4e7425c6983001430b6c34",
           "text": "Social and Personality Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/b9e2s_v1/"
+  },
+  {
+    "osf_id": "84rfs_v1",
+    "title": "Cognitive Function and Return to Work: Protocol for a Longitudinal Study Investigating Cognitive Endurance in Stress-Related Disorders",
+    "date_created": "2026-07-27T07:59:23.522378",
+    "date_modified": "2026-07-27T17:45:44.526612",
+    "description": "Introduction: Patients with long-term stress-related disorders report cognitive symptoms across a broad range of domains; however, neuropsychological test results often do not align with these self-reported cognitive difficulties. One potential explanation for this discrepancy is that patients may perform well during a single, undisturbed test session but have difficulties sustaining cognitive performance over time following prolonged mental effort, which can be conceptualized as reduced cognitive endurance. This may have implications for work participation and hinder return to work unless adequately addressed. \n\nMethods and analysis: This study protocol describes a longitudinal study aimed at investigating cognitive endurance in patients with long-term stress-related disorders. Moreover, we will explore the association between cognitive endurance and each of the following variables: self-reported fatigue and cognitive function, self-assessed work ability, and return to work. Sixty patients with long-term stress-related disorders will be recruited from a nonrandomized multicentre controlled trial evaluating work-focused cognitive behavioural therapy in a primary healthcare setting. Sixty healthy controls will be recruited through advertisement. Cognitive endurance is assessed through repeated cognitive testing in the morning and afternoon of a regular working day, at two time points: baseline and six months after study enrolment. The cognitive tests focus on short-term and working memory, attention and processing speed, and executive functions. Prior to the assessments, participants complete questionnaires concerning trait fatigue, self-reported cognitive function and work ability. Moreover, state fatigue is assessed through self-report questionnaires administered during the assessment day. Sick-leave registry data is used to investigate return to work for the patient group. The study evaluates a novel method for assessing cognitive functioning in stress-related dis",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7428c6983001430b6caa",
-          "text": "Interpersonal Relationships"
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c33",
+          "text": "Mental Disorders"
         }
       ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cca",
-          "text": "Adolescence"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/zhk27_v2/"
-  },
-  {
-    "osf_id": "4qaj3_v1",
-    "title": "Pathways to Economic Flourishing: A Positive Economic Psychology Model of Financial Wellbeing",
-    "date_created": "2026-07-26T13:30:37.739590",
-    "date_modified": "2026-07-26T17:48:51.851363",
-    "description": "This paper presents a novel model of financial wellbeing grounded in the principles of Positive Economic Psychology, an emerging interdisciplinary field that integrates insights from Positive Psychology and Economic Psychology to promote economic prosperity and optimal economic functioning in individuals, groups, and institutions. \nThe proposed model is grounded in two theories: Hope Theory  and the Transtheoretical Model of Behaviour Change. It positions financial wellbeing as a hierarchical construct that offers pathways to financial wellbeing.  At its foundation are individuals’ dispositions and financial outlooks, which provide the bedrock for financial growth. The second tier concerns financial literacy and skills, which are essential for informed financial decision-making and the maximisation of opportunities. These  underpin the third tier: decisions and planning. The fourth tier refers to social context and social responsibility  guiding principles that influences financial decisions and behaviours. The fifth tier  includes financial behaviours, representing the application of a positive mindset, effective knowledge, skills and decisions towards achieving and maintaining financial wellbeing. At the top of the hierarchy are accomplishments, representing the ultimate expression and outcomes of effective financial behaviours. This final tier centres on the attainment of financial goals and the achievement of a secure and satisfying financial state. Situated outside the hierarchy are contextual and sociodemographic factors that can influence each tier and should be considered at every stage in the pursuit of financial wellbeing. The paper also reviews other models of financial wellbeing as well as the research evidence supporting the model.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/4qaj3_v1/"
-  },
-  {
-    "osf_id": "zvab9_v1",
-    "title": "(A)I wrote this for you: Memory for presumably AI-generated and human-written prose",
-    "date_created": "2026-07-25T00:08:37.865109",
-    "date_modified": "2026-07-26T16:03:24.659567",
-    "description": "The exponential rise of artificial intelligence-generated content in recent years has raised questions about how humans process, remember, and recall information based on its assumed source. Our study examined whether labeled authorship affects memory recall by testing the hypothesis that memory for human-authored text would be superior to memory for text believed to be generated by a large language model (LLM). A total of 122 undergraduate college students were randomly assigned to read identical excerpts of contemporary American prose labeled as either human-authored or AI-generated, then completed a surprise memory test along with measures of recall confidence and text readability, likability, and engagement. We observed higher memory recall in participants who believed they were reading a passage written by a human author, while participants who thought the story was written by an LLM recalled significantly fewer details. Participants also reported significantly higher engagement with a human-attributed text, though engagement did not correlate with memory performance. These findings suggest that perceived authorship influences memory recall independently of subjective engagement, with implications for understanding human-AI interactions in educational contexts.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -106,94 +124,12 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6ca0",
-          "text": "Evolution"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/zvab9_v1/"
-  },
-  {
-    "osf_id": "e4sx9_v2",
-    "title": "Registered Reports Reduce Bias and Improve Trust in Machine Learning",
-    "date_created": "2026-07-25T23:20:58.876408",
-    "date_modified": "2026-07-26T16:06:46.137672",
-    "description": "We propose the use of Registered Reports in applied machine learning research to strengthen methodological rigor, constrain researcher degrees of freedom, and better harness the potential of machine learning. We outline the main requirements for successful implementation and highlight the key benefits of this proposal.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c19",
-          "text": "Meta-science"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/e4sx9_v2/"
-  },
-  {
-    "osf_id": "n69ce_v1",
-    "title": "Benchmarking Relational Safety in Empathic AI: Perceived Empathy and Relational Appropriateness Can Diverge Across Large Language Models",
-    "date_created": "2026-07-24T22:08:05.947488",
-    "date_modified": "2026-07-26T15:53:29.966538",
-    "description": "People increasingly turn to AI chatbots for emotional support, and a growing body of work suggests that these systems can produce responses that are rated as more empathic than those of highly trained humans. Far less attention has been paid to whether these empathic responses are also relationally appropriate, meaning whether they maintain suitable boundaries, avoid fostering dependency, and support rather than substitute for users' own coping and social resources. The present study separates perceived empathy from relational appropriateness and tests whether these two dimensions diverge across large language models. Forty naturalistic, emotionally vulnerable prompts were submitted to the flagship model from four major providers (Claude Opus 4.7, GPT-5.5, Gemini 3.1 Pro, and Llama 4 Maverick), yielding 160 responses that were rated by two trained coders on validated empathy items and a novel relational appropriateness scale developed for this work. Perceived empathy and relational appropriateness were both highly reliable and unidimensional, but they related to one another differently across models (F(3, 112) = 4.39, p = .006). For most models, higher perceived empathy was associated with higher appropriateness, but for one (Llama 4 Maverick) this relationship was flat to slightly negative. Qualitative examples illustrate how a response can be rated as highly empathic while simultaneously discouraging external help-seeking and positioning the AI as a relational substitute. These findings suggest that empathy and relational appropriateness are separable constructs that should be evaluated independently, and that psychologists should be involved in the design of empathic AI safeguards.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/n69ce_v1/"
-  },
-  {
-    "osf_id": "stek7_v2",
-    "title": "Large Language Model–Generated Tutoring Responses Receive Higher Ratings but Are Penalized by Source-Based Evaluation Bias",
-    "date_created": "2026-07-22T13:06:01.534405",
-    "date_modified": "2026-07-26T15:58:53.979173",
-    "description": "Large language models (LLMs) are increasingly positioned as scalable providers of individualized tutoring, yet their pedagogical quality and social reception in authentic K–12 instructional contexts remain understudied. We conducted a factorial experiment in which independent participant samples evaluated identical tutoring responses under different source framing conditions. Adults and K–12 educators evaluated tutoring responses drawn from a randomized controlled trial with third- and fourth-grade students. Human-authored responses were produced by trained tutors during real instructional sessions; matched responses were generated by an LLM from the same conversational contexts. Responses varied in true authorship (human vs. LLM), and separate participant groups evaluated identical response sets told that responses were generated either by humans or by AI. When authorship was held constant, LLM-generated responses were rated as more effective, engaging, and responsive than those written by human tutors. However, identical responses received lower evaluations when attributed to AI, revealing a robust source-based evaluation bias. Computational linguistic analyses showed that AI and human responses were semantically similar but stylistically distinguishable, and that features most strongly associated with higher ratings were largely independent of those differentiating sources. These findings provide an ecologically grounded account of how LLM-generated instructional content is evaluated: LLM responses can match or exceed human responses on perceived pedagogical dimensions while being systematically penalized when attributed to AI.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/stek7_v2/"
-  },
-  {
-    "osf_id": "4zhtx_v1",
-    "title": "Adaptive multi-frequency oscillator modeling of coordination recovery during rhythm switching in human musical quartets",
-    "date_created": "2026-07-21T12:27:19.278887",
-    "date_modified": "2026-07-23T16:07:35.609167",
-    "description": "Musical ensemble coordination requires groups to stabilize shared timing while adapting to perturbations and changing rhythmic constraints. We developed an adaptive multi-frequency oscillator model of how human quartets recover coordination during switches between binary and ternary meters. The model combines nonlinear phase coupling, Hebbian-like frequency adaptation, and resonance-dependent relaxation in a four-oscillator network, allowing individual tempo adaptation while preserving subgroup-specific coupling within and between dyads. We evaluated the model against empirical quartet performances and surrogate datasets in which interpersonal coordination structure was disrupted. Parameter optimization minimized discrepancies between empirical and simulated inter-onset intervals, pairwise asynchronies, and cluster phase dynamics. Simulations reproduced transient destabilization after perturbation cues followed by recovery toward a new coordinated state. Cross-validated mixed-effects analyses showed that the model fit empirical quartets better than surrogate quartets, indicating sensitivity to genuine human coordination structure and generalization to unseen data. Optimized parameters revealed condition-specific mechanisms: within-dyad coupling was reduced in Complex–Ternary rhythms, whereas between-dyad coupling was lowest in Complex–Binary rhythms. Frequency relaxation rates were higher in Complex than Simple rhythms across meters, suggesting stronger adaptive tempo correction during polyrhythmic coordination. Stability analyses revealed bounded regions of period and phase synchronization, including Arnold tongue-like entrainment regions shaped by coupling architecture, adaptation asymmetry, and meter ratio. Together, these findings show that quartet synchronization depends on interactions among interpersonal coupling, adaptive frequency regulation, resonance-dependent constraints, and rhythmic ratio constraints. The model provides an interpretable dynamical frame",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c53",
-          "text": "Individual Differences"
+          "id": "5b4e7427c6983001430b6ca7",
+          "text": "Assessment"
         }
       ],
       [
@@ -202,51 +138,23 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
         },
         {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6caa",
-          "text": "Interpersonal Relationships"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb8",
-          "text": "Intragroup Processes"
+          "id": "5b4e7428c6983001430b6cdd",
+          "text": "Stress"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/4zhtx_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/84rfs_v1/"
   },
   {
-    "osf_id": "n5fct_v1",
-    "title": "Explorations in the distributional semantics of Mandarin two-character compounds",
-    "date_created": "2026-07-21T12:53:57.733452",
-    "date_modified": "2026-07-24T20:13:01.415332",
-    "description": "This study made use of distributional semantics to explore the semantic structure of two-character compounds in Mandarin Chinese. A total of 2,843 compounds,  extracted from the Chinese National Corpus, informed a series of exploratory analyses.  For larger-scale evaluation, we extracted all 29,376 two-character compounds from the Chinese Lexical Database (which is based on SUBTLEX-CH and Leiden Weibo Corpus) for which embeddings are available in the Tencent AI Lab resource. We observed that the compound families of mono\\-morph\\-emic monosyllabic Chinese words (pivots) cluster in the embedding space. The quality of these clusters does not depend on the ontological class of the compounds and is as good, and often better, than the quality of the clusters of the embeddings of derived words sharing the same suffix. The compound families of noun pivots are represented more prominently in the early principal components of the PCA-orthogonalized embedding space compared to the compound families of verb and adjective pivots. Compound families also cluster in the space of shift vectors, indicating that individual pivots contribute a core meaning to the compounds in which they occur.  Approximately half of all pivots show no positional preference in the compound, and for 83.6\\% of Mandarin two-character compounds, the position of the pivot cannot be predicted from the compounds' meanings. Therefore, pivot position cannot explain the clustering in semantic space of pivot families.  Furthermore, pivots cannot be classified as prefixes, suffixes, interfixes, or circumfixes. Not being bound to a specific position for their interpretation, pivots are best characterized as  ``floatfixes'', and instantiate morphological non-configurationality.",
+    "osf_id": "he9ru_v1",
+    "title": "La reconnaissance des mots dans la parole accentuée : Une étude en laboratoire et à l’extérieur.",
+    "date_created": "2026-07-27T09:34:13.283785",
+    "date_modified": "2026-07-27T17:50:56.350222",
+    "description": "Mispronunciations slow down word recognition: A study using touchscreens in the lab and the real world. Recent work suggests that children and adults are initially delayed when exposed to an accented talker, but quickly recover and develop talker-specific listening patterns. This research, however, is often carried out in the lab, where participants’ attention is focused on a single task and no distractions are present, and recovery is often deduced from looking patterns that require little overt response. In this experiment, we overcome these limitations and assess children’s and adults’ word recognition in accented speech, tested in both a laboratory and in a naturalistic setting. We found that mispronunciations in accented speech slow down overt decisions about word recognition, to a similar extent in the lab and in familiar environments, for both children and adults.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -256,8 +164,8 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
         }
       ],
       [
@@ -271,14 +179,134 @@
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/n5fct_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/he9ru_v1/"
   },
   {
-    "osf_id": "r3tez_v1",
-    "title": "Predictors of Problematic Binge Watching: The moderating role of sensation seeking and the mediating role of mental health",
-    "date_created": "2026-07-20T15:54:15.312971",
-    "date_modified": "2026-07-23T16:04:16.105122",
-    "description": "Binge watching (BW) TV series is now a popular phenomenon. However, there are legitimate concerns about BW and its similarities to other problematic online behaviours. Understanding how a healthy behaviour may transition to becoming problematic requires further investigation. The present study examined the predictors of problematic binge watching (PBW); hypothesising that impulsivity, anxiety, watching engagement, sensation seeking, and low levels of mental health would be associated with PBW. The moderating effect of sensation seeking in the relationship between watching engagement and PBW, and the mediating effect of mental health in the relationship between anxiety and PBW was also assessed. In total, 1,257 participants (mean age = 33.8 years, SD = 10.7) completed an online survey consisting of a battery of scales. Results revealed that number of months watching TV series, watching engagement, anxiety, impulsivity, and sensation seeking significantly predicted PBW with a large effect size. The interaction between watching engagement and sensation seeking was statistically significant, indicating sensation seeking significantly moderated the relationship between watching engagement and PBW. Furthermore, the relationship between anxiety and PBW was partially mediated by mental health. The findings showed support for direct and indirect pathways through which individuals traits shape PBW, future research is discussed.",
+    "osf_id": "nmbg7_v1",
+    "title": "Partner Responsiveness and Insensitivity Predict Emotion Regulation Flexibility in Parent-Adolescent Dyads: A Daily Diary Investigation",
+    "date_created": "2026-07-26T08:18:51.052818",
+    "date_modified": "2026-07-27T17:34:18.421995",
+    "description": "This study examined how perceived partner responsiveness (PPR) and insensitivity (PPI) predict daily emotion regulation (ER) flexibility, operationalized via the maladaptive ER ratio. Adolescents (N = 112, 12–18 years) and caregivers (N = 108, 33–64 years) dyads completed 28-day diaries. Actor-Partner Interdependence Model (APIM) analyses showed that actor (between and within person) PPR predicted higher ER flexibility, whereas actor PPI predicted lower ER flexibility (ps &lt; .038). Partner higher daily PPR predicted higher ER flexibility (p = .040). Furthermore, role (adolescent/caregiver) moderated the actor daily PPR effect (p = .037) and the partner daily PPI effect (p = .007), revealing distinct relational daily dynamics across roles. These findings highlight how interpersonal attachment perceptions shape daily family ER flexibility.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/nmbg7_v1/"
+  },
+  {
+    "osf_id": "bj7r5_v1",
+    "title": "Differential modulation of temporal precision and perceived timing by tactile spatial and temporal context",
+    "date_created": "2026-07-26T15:28:37.599775",
+    "date_modified": "2026-07-27T16:02:35.806324",
+    "description": "Perception of sensory events depends not only on the stimulus itself but also on the surrounding spatial and temporal context. While contextual interactions have been extensively studied in vision, less is known about how tactile spatial and temporal context shape temporal representation of tactile landmarks embedded within continuous tactile signals. we investigated how neighbouring tactile stimuli influence the temporal precision and perceived timing of a target tactile landmark using an auditory-referenced temporal order judgement task. The number, location, and relative timing of task-irrelevant vibrotactile flankers were manipulated independently. Increasing the number of flankers reduced temporal precision, with comparable effects for adjacent and contralateral stimulation, indicating that temporal precision is limited by contextual interactions beyond local spatial proximity. In contrast, the relative timing of the flankers did not alter temporal sensitivity but systematically shifted perceived target timing. Flankers preceding the target shifted the perceived timing of the target earlier, whereas lagging flankers shifted it to the opposite direction. When one flanker preceded and the other followed the target the direction of the resulting spatiotemporal sequence across the fingers determined the direction of the perceptual bias. These findings reveal two distinct forms of contextual modulation in tactile temporal perception. Spatial context degrades temporal precision, whereas temporal context shifts perceived event timing. These findings demonstrate that spatial and temporal context shape distinct temporal aspects of tactile representations, extending contextual interference from feature identity and localisation to temporal precision and perceived timing.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1c",
+          "text": "Computational Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c64",
+          "text": "Systems Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/bj7r5_v1/"
+  },
+  {
+    "osf_id": "gnw89_v1",
+    "title": "Designing Digital Games to Foster Growth Mindset in PreK–12 Education: A Systematic Review",
+    "date_created": "2026-07-26T17:36:29.718553",
+    "date_modified": "2026-07-27T16:11:09.095929",
+    "description": "Background: A growth mindset refers to the belief that abilities and intelligence can be developed through effort, learning, and persistence. Although digital games are often associated with motivational and learning benefits, little is known about how they are intentionally designed to foster growth mindset in preK–12 learners. Understanding how growth mindset principles are operationalized within game mechanics and learning environments is critical for advancing both theory and practice in serious game design.\nPurpose: This systematic review synthesizes how digital games have been designed and implemented to promote growth mindset in preK–12 education and examines associated student outcomes and future research directions.\nMethod: Following PRISMA guidelines, we screened 2,063 records across multiple databases and included 12 empirical studies that explicitly integrated growth-mindset-supportive design elements into digital games. Data were extracted and analyzed to identify trends in study design, targeted competencies, reported effects, and specific game design features.\nResults: Most reviewed studies reported positive effects on growth mindset and related competencies (e.g., persistence, creativity, self-efficacy), although some showed mixed or non-significant effects linked to design quality or implementation context. Two overarching design categories emerged: direct supports (e.g., explicit mindset instruction and effort-based rewards) and indirect supports (e.g., adaptive challenges, scaffolding, and mastery-oriented gameplay).\nConclusion: Well-designed digital games hold promise for fostering growth mindset in preK–12 contexts. However, the evidence base remains limited, highlighting the need for more rigorous research designs, longer-term interventions, and deeper theoretical integration to inform scalable and effective game-based mindset interventions.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6ca0",
+          "text": "Evolution"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/gnw89_v1/"
+  },
+  {
+    "osf_id": "9td6s_v1",
+    "title": "Beyond the Microbiome: Neuroimaging and the Role of Gut Motility in Gut-Brain Interactions",
+    "date_created": "2026-07-26T17:47:50.246937",
+    "date_modified": "2026-07-27T16:13:19.914830",
+    "description": "Bidirectional communication between the gut and the brain has emerged as a major research focus in recent years, accompanied by increasing use of neuroimaging approaches to investigate how variation in gut microbial composition relates to brain activity, connectivity, and behavior in humans.  In contrast, significantly less human neuroimaging data has examined how the brain contributes to regulation and perception of gastrointestinal motility.  Recently, a growing body of work has begun to investigate how gastric motility relates to neural dynamics in humans. This review aims to address this emerging area by providing a comprehensive overview of experimental approaches that use neuroimaging to quantify the relationship between gut motility, brain activity, and behavior. Specifically, we review three complementary experimental approaches for investigating the role of gut motility in gut–brain interactions: (i) neuroimaging studies comparing dysregulated and healthy gut motility, (ii) perturbation paradigms targeting gastrointestinal signaling pathways, and (iii) studies examining functional coupling between gastrointestinal rhythms and brain activity. Finally, we discuss key open questions and methodological gaps and outline future directions for advancing mechanistic insight into gut–brain signalling.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/9td6s_v1/"
+  },
+  {
+    "osf_id": "fx9yv_v2",
+    "title": "How and for Whom Do Perinatal Depression Interventions Work in LMICs? A Causal Inference and Machine Learning Analysis of Socioeconomic and Psychosocial Drivers",
+    "date_created": "2026-07-26T17:48:33.525903",
+    "date_modified": "2026-07-27T16:12:32.456377",
+    "description": "Background: Randomised trials evaluating psychological interventions for perinatal depression (PND) in low- and middle-income countries (LMICs) frequently provide conflicting findings. To optimise global maternal mental health interventions, we applied robust causal inference and causal machine learning approaches to individual participant data (IPD) to identify underlying causal mechanisms and responsive subgroups.\nMethods: We searched MEDLINE, Embase, PsycINFO, CINAHL, Web of Science, and the Cochrane Library from inception to November 19, 2025, for trials assessing the effectiveness of psychological interventions to treat PND. Using IPD, we assessed treatment effect heterogeneity using causal forests, and evaluated causal mechanisms using interventional effects for individual trials and across relevant pooled datasets.\nFindings: Seven of 11 eligible studies provided IPD, yielding a pooled sample of 3,154 participants (1,700 intervention, 1,454 control). Heterogeneity analyses of all trials demonstrated top responders presented with higher baseline depression and lower education. A four-study subset incorporating social determinants revealed those with lower perceived social support and education responded best. This four-study subset comprised two two-trial subsets: one delivered by community health workers (CHWs) and one by peers. In the CHW-delivered subset, top responders were similar to the four-study subset; however, within the peer-delivered subset, this effect was negligible. Causal mediation analyses of the four trials revealed social support mediated a 15% symptom reduction. The two-trial CHW subset indicated social support and reduced food insecurity mediated 15% and 3% improvements, respectively. Furthermore, a specific two-trial subset indicated behavioural activation and social support mediated improvements of 32% and 17%.\nInterpretation: Despite interventions effectively targeting perceived social support, trials capturing food insecurity demonstrat",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -287,22 +315,16 @@
           "id": "5b4e7424c6983001430b6c18",
           "text": "Psychiatry"
         }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/r3tez_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/fx9yv_v2/"
   },
   {
-    "osf_id": "mb4xt_v1",
-    "title": "Visual confidence is an online process",
-    "date_created": "2026-07-19T18:00:59.562047",
-    "date_modified": "2026-07-21T13:17:52.247580",
-    "description": "Although several prominent models of visual metacognition postulate that confidence is a post-decision process, many other models posit that confidence is an online process. To adjudicate between these two theories, we developed a novel task that requires continuous report of both choice and confidence. Participants estimated the global motion direction of dot motion stimuli by centering a confidence interval on the perceived direction and provided confidence by adjusting the width of the confidence interval. For the first half-second, participants exhibited chance performance, low confidence, and chance-level confidence-accuracy correlation. This initial period was followed by a rapid simultaneous increase in both accuracy and the confidence-accuracy correlation, suggesting that confidence did not exhibit any post-decision delay. Critically, a cross-correlogram analysis demonstrated no lag between the accuracy and confidence time-courses. These data were explained by an online model of confidence, where decision and confidence are made simultaneously. Altogether, our results strongly suggest that confidence is an online process that is computed simultaneously with the perceptual decision and challenge models where confidence is strictly a post-decision process.",
+    "osf_id": "vxhp5_v1",
+    "title": "From Seeing to Describing: A Pictogram-based method for investigation the vision-language interface",
+    "date_created": "2026-07-26T20:41:47.805261",
+    "date_modified": "2026-07-27T17:33:27.880597",
+    "description": "Visual scenes are routinely transformed into symbolic representations that ultimately become verbal language. However, the cognitive processes underlying this transformation remain only partially understood, largely because visual perception has traditionally been investigated through verbal descriptions that are already constrained by the grammatical organization of language. The present exploratory study proposes an alternative methodological approach by introducing pictogram-based representations as an intermediate level of conceptualization between visual perception and verbal description.\nTwenty-four native speakers of Puerto Rican Spanish viewed three experimentally designed visual scenes while their eye movements were recorded using Gazepoint GP3 eye tracker. Immediately afterward, participants described each scene first using pictograms and subsequently through verbal language. \nQualitative inspection of scan paths revealed substantial variability in visual exploration across participants. In contrast, pictogram selections exhibited considerably greater convergence, suggesting that symbolic representations were not simple reproductions of gaze trajectories. \nRather than demonstrating the existence of a visual grammar, the present study proposes a methodological framework for investigating how visual scenes become conceptual and symbolic representations before they are fully organized by linguistic structures. The findings suggest that pictogram-based representations may constitute an informative intermediate level for studying systematic visual organization at the vision–language interface.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -312,12 +334,40 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
         },
         {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
+          "id": "5b4e7427c6983001430b6c84",
+          "text": "Typological Linguistics and Linguistic Diversity"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8e",
+          "text": "Syntax"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c96",
+          "text": "Perceptual Organization"
         }
       ],
       [
@@ -340,12 +390,40 @@
           "text": "Social and Behavioral Sciences"
         },
         {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd5",
+          "text": "Attention"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
           "id": "5b4e7427c6983001430b6c71",
           "text": "Perception"
         },
         {
-          "id": "5b4e7428c6983001430b6cdb",
-          "text": "Motion Perception"
+          "id": "5b4e7428c6983001430b6cd8",
+          "text": "Picture Processing"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf0",
+          "text": "Imagery"
         }
       ],
       [
@@ -361,19 +439,71 @@
           "id": "5b4e7429c6983001430b6cfb",
           "text": "Judgment and Decision Making"
         }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6d01",
+          "text": "Language"
+        }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/mb4xt_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/vxhp5_v1/"
   },
   {
-    "osf_id": "hfnsy_v1",
-    "title": "Title: The Dual-Inheritance Model of Social Conservatism",
-    "date_created": "2026-07-18T09:03:51.490797",
-    "date_modified": "2026-07-23T20:24:12.219393",
-    "description": "An individual’s social-political attitudes can be explained by factors that are internal (e.g., personality traits) or external (e.g., parents' social attitudes) to the self. In the current work, we provide an account of the inter-generational transmission of socially-conservative attitudes that accommodates such internal and external factors. Relying on the ideas of Gene-Culture Co-Evolution theory, we propose that humans differ in their level of Psychological Conservatism, namely, the extent to which they are predisposed to adhere to the teachings of previous generations. Our model suggests that psychologically conservative individuals will often exhibit socially conservative political attitudes because of the extra-psychological processes of modernization of human society. We examine the preconditions and provide preliminary support for our model in three large correlational studies. The current work highlights that scientists’ understanding of social phenomena may benefit from a stronger integration of psychological and sociological theory.",
+    "osf_id": "zsm6r_v1",
+    "title": "When Does Prayer Promote Flourishing? Attachment, Prayer Profiles, and Psychological Flourishing",
+    "date_created": "2026-07-26T21:53:12.121956",
+    "date_modified": "2026-07-27T16:45:48.731938",
+    "description": "Prayer is among the most prevalent human behaviors, yet its psychological benefits are inconsistently documented. Most research relies on unidimensional measures and overlooks the relational dynamics that shape the function of prayer. The present study examined associations between attachment to God, latent prayer profiles, and flourishing in a sample of N = 452 Israeli Jews (M age = 44.69, SD = 14.96; 48.0% female). Participants completed the Multidimensional Prayer Inventory (MPI), the Attachment to God Inventory (AGI), and the Harvard Flourishing Measure. Latent profile analysis of MPI subscales identified four prayer profiles: Modal, Disengaged-Habitual, Engaged-Devotional, and Engaged-Penitential. Profiles differed significantly in flourishing and AGI scores: the Disengaged-Habitual profile showed the highest AGI avoidance and the lowest flourishing, whereas the Engaged-Devotional profile showed the lowest AGI anxiety and the highest flourishing. Hierarchical regression revealed that only the Disengaged-Habitual profile predicted significantly lower flourishing relative to Modal prayer, while AGI anxiety and avoidance were the dominant predictors. Interaction analyses showed that  AGI anxiety was less strongly associated with lower flourishing for the Engaged-Penitential profile. These findings underscore the centrality of relational orientation toward God in shaping the psychological function of prayer and inform a person-centered understanding of when and for whom prayer promotes flourishing.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c3b",
+          "text": "Affect and Emotion Regulation"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c45",
+          "text": "Psychology, other"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c47",
+          "text": "Attachment"
+        }
+      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -398,8 +528,32 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7427c6983001430b6c6d",
-          "text": "Social Cognition"
+          "id": "5b4e7426c6983001430b6c53",
+          "text": "Individual Differences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c58",
+          "text": "Emotion"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c73",
+          "text": "Personality Development"
         }
       ],
       [
@@ -412,8 +566,8 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7428c6983001430b6cb1",
-          "text": "Theories of Personality"
+          "id": "5b4e7427c6983001430b6c82",
+          "text": "Religion and Spirituality"
         }
       ],
       [
@@ -426,8 +580,8 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7428c6983001430b6cc9",
-          "text": "Politics"
+          "id": "5b4e7428c6983001430b6caa",
+          "text": "Interpersonal Relationships"
         }
       ],
       [
@@ -438,13 +592,105 @@
         {
           "id": "5b4e7428c6983001430b6cae",
           "text": "Cultural Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7429c6983001430b6cf1",
-          "text": "Cross-cultural Psychology"
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb2",
+          "text": "Well-being"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/hfnsy_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/zsm6r_v1/"
+  },
+  {
+    "osf_id": "74rjv_v2",
+    "title": "Mouse cursor tracking contributes to the psychological validation of the drift diffusion model",
+    "date_created": "2026-07-25T20:56:29.435321",
+    "date_modified": "2026-07-27T16:48:40.247368",
+    "description": "As a well-established cognitive model of human decision-making, the drift diffusion model (DDM) offers a psychologically intuitive account of the decision-making process by virtue of its four basic parameters. However, the reliance of the DDM on endpoint measures (response times and accuracy) creates a conceptual gap to this process-oriented account, which needs to be bridged with the help of independent process-tracing methods. In this study, we deployed mouse cursor tracking with the aim of validating the psychological interpretation of the basic DDM parameters drift rate, threshold separation, and non-decision time.  In a preregistered replication, 95 participants completed 90 trials of a random dot kinematogram (RDK). Partial least square regression was applied in order to predict the three DDM parameters with the help of 18 cursor measures, which were extracted from the literature. We found support for the psychological interpretation of threshold separation and non-decision time, replicating the results of our previous study, while the analyses of drift rate remained inconclusive. Our results further strengthen our psychological understanding of the DDM, point towards conceptual ambiguities, and encourage further joint application of cognitive models and process-tracing methodology.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c55",
+          "text": "Computational Modeling"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c92",
+          "text": "Statistical Methods"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce6",
+          "text": "Embodied Cognition"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfb",
+          "text": "Judgment and Decision Making"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/74rjv_v2/"
   }
 ]
