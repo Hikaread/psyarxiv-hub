@@ -1,45 +1,128 @@
 {
-  "evaluated": 5,
-  "accepted": 1,
-  "rejected": 4,
+  "evaluated": 1,
+  "accepted": 0,
+  "rejected": 1,
   "errors": 0,
-  "skipped": 0,
+  "skipped": 19,
   "deferred": 0,
   "results": [
     {
-      "osf_id": "gnw89_v1",
-      "title": "Designing Digital Games to Foster Growth Mindset in PreK\u201312 Education: A Systema",
-      "decision": "reject",
-      "reason": "This paper focuses on digital games for educational purposes in preK-12 settings, which falls under education rather than clinical psychology. While growth mindset is a psychological concept, the application described is educational rather than clinical, with no focus on therapy, assessment, diagnosis, psychopathology, or mental health interventions for clinical populations.",
-      "category": null
+      "osf_id": "b2j5t_v1",
+      "title": "\u201cIt\u2019s a form of survival\u201d: Autistic transgender and nonbinary people\u2019s experienc",
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
-      "osf_id": "9td6s_v1",
-      "title": "Beyond the Microbiome: Neuroimaging and the Role of Gut Motility in Gut-Brain In",
-      "decision": "accept",
-      "reason": "The paper examines gut-brain interactions through neuroimaging approaches, which has direct relevance to psychophysiology, somatic symptoms, and mental health outcomes in clinical psychology practice.",
-      "category": "Somatic & Functional",
-      "number": 731,
-      "authors": "Zeynep Ert\u00fcrk; Klara Nielsen; Leah Banellis; Henrik M. Roager; Anke Ninija Karabanov",
-      "curated": true
+      "osf_id": "yrmb8_v1",
+      "title": "\u201cChatGPT Is My Best Friend\u201d: AI as an Ambivalent Source of Social Support in Red",
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
-      "osf_id": "zsm6r_v1",
-      "title": "When Does Prayer Promote Flourishing? Attachment, Prayer Profiles, and Psycholog",
-      "decision": "reject",
-      "reason": "The paper focuses on prayer and spirituality, which are not core clinical psychology topics. While it examines psychological outcomes like flourishing, the primary focus is on religious/spiritual practices rather than clinical interventions, assessment, diagnosis, or psychopathology. The sample is drawn from a religious population studying prayer profiles, which doesn't align with the clinical psychology practice relevance criteria.",
-      "category": null
+      "osf_id": "9bh3e_v1",
+      "title": "Automated Classification of Restrictive and Repetitive Behaviors in Autistic Chi",
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
-      "osf_id": "bj7r5_v1",
-      "title": "Differential modulation of temporal precision and perceived timing by tactile sp",
-      "decision": "reject",
-      "reason": "This paper focuses on basic cognitive psychology research about tactile perception and temporal processing, with no clear application to clinical psychology practice, assessment, diagnosis, or mental health interventions.",
-      "category": null
+      "osf_id": "v9nrc_v1",
+      "title": "Methodological Consistency and Measurement Standards in Mindfulness-Based Random",
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
-      "osf_id": "74rjv_v2",
-      "title": "Mouse cursor tracking contributes to the psychological validation of the drift d",
+      "osf_id": "sa9hx_v1",
+      "title": "Evaluating the Effectiveness of MediLanguage\u2019s Language Support Starter: A Digit",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "vwszg_v1",
+      "title": "Affective Valence and Temporal Framing: A Unified Generative Model of the Tempor",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "bw4hc_v2",
+      "title": "Disentangling Negative Affectivity and General Psychopathology in Early Childhoo",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "9y2pv_v1",
+      "title": "(Computation of) the Standardized Mean Difference in Clinical Trials Should be S",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "p9qak_v1",
+      "title": "The Dynamic Hierarchy of Personal Space Regulation and its Modulation by Childho",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "vncgu_v1",
+      "title": "Investigating the longevity of real-world memory following a smartphone interven",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "beaqj_v2",
+      "title": "Difficult conversations as Self-Control Conflicts",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "e9sak_v1",
+      "title": "Closed-book and open-book language model assessment  of employee experience.  A ",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "zrpk8_v1",
+      "title": "Turn-Duration Burstiness as a Temporal Signature of Collective Cognitive Demand ",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "qruy7_v2",
+      "title": "Italian Adaptation and Validation of the ICAR-16 Sample Test",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "9rjux_v4",
+      "title": "Self-Efficacy Predicts Differential Neuroticism Change in a Smartphone-Based Int",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "vrh3w_v1",
+      "title": "Empirical Signatures of Choice-Induced Preference Change",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "rtkqu_v4",
+      "title": "The Morality-Effectiveness Disconnect of Pro-environmental Behaviors",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "q27wk_v2",
+      "title": "Assessment of food cravings and food addiction",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "e3n4g_v1",
+      "title": "Reading Tiramisu in Czech and English: Robust Processing Speed Differences in Tr",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "vxbt3_v1",
+      "title": "Toward a Unified Perspective on Content Analysis",
       "decision": "reject",
       "reason": "low signal score (1)",
       "category": null

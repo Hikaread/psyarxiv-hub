@@ -1,44 +1,149 @@
 {
-  "discovered": 8,
-  "alreadyExisting": 2,
+  "discovered": 21,
+  "alreadyExisting": 0,
   "hardExcluded": 0,
   "lowSignal": 1,
-  "candidates": 5,
+  "candidates": 20,
   "candidates_list": [
     {
-      "osf_id": "gnw89_v1",
-      "title": "Designing Digital Games to Foster Growth Mindset in PreK–12 Education: A Systematic Review",
-      "date_created": "2026-07-26T17:36:29.718553",
-      "signal_score": 3,
-      "description_preview": "Background: A growth mindset refers to the belief that abilities and intelligence can be developed through effort, learning, and persistence. Although digital games are often associated with motivatio"
+      "osf_id": "b2j5t_v1",
+      "title": "“It’s a form of survival”: Autistic transgender and nonbinary people’s experiences of disordered eating",
+      "date_created": "2026-07-28T12:50:29.598575",
+      "signal_score": 11,
+      "description_preview": "Autistic transgender and/or nonbinary (TNB) people are a multiply marginalised group systematically impacted by high rates of disordered eating. Feminist scholarship has examined the role of systems o"
     },
     {
-      "osf_id": "9td6s_v1",
-      "title": "Beyond the Microbiome: Neuroimaging and the Role of Gut Motility in Gut-Brain Interactions",
-      "date_created": "2026-07-26T17:47:50.246937",
-      "signal_score": 3,
-      "description_preview": "Bidirectional communication between the gut and the brain has emerged as a major research focus in recent years, accompanied by increasing use of neuroimaging approaches to investigate how variation i"
+      "osf_id": "yrmb8_v1",
+      "title": "“ChatGPT Is My Best Friend”: AI as an Ambivalent Source of Social Support in Reddit Mental Health Communities",
+      "date_created": "2026-07-27T20:33:11.955558",
+      "signal_score": 6,
+      "description_preview": "As artificial intelligence (AI) enters everyday mental health communication, people increasingly turn to chatbots for reassurance, advice, and companionship. Drawing on Social Support Theory and the C"
     },
     {
-      "osf_id": "zsm6r_v1",
-      "title": "When Does Prayer Promote Flourishing? Attachment, Prayer Profiles, and Psychological Flourishing",
-      "date_created": "2026-07-26T21:53:12.121956",
-      "signal_score": 3,
-      "description_preview": "Prayer is among the most prevalent human behaviors, yet its psychological benefits are inconsistently documented. Most research relies on unidimensional measures and overlooks the relational dynamics "
+      "osf_id": "9bh3e_v1",
+      "title": "Automated Classification of Restrictive and Repetitive Behaviors in Autistic Children",
+      "date_created": "2026-07-27T21:35:51.822380",
+      "signal_score": 6,
+      "description_preview": "Restricted and repetitive behaviors (RRBs) are a common class of behavior in autistic children, and their assessment is typically based on presence and severity. While previous research has primarily "
     },
     {
-      "osf_id": "bj7r5_v1",
-      "title": "Differential modulation of temporal precision and perceived timing by tactile spatial and temporal context",
-      "date_created": "2026-07-26T15:28:37.599775",
+      "osf_id": "v9nrc_v1",
+      "title": "Methodological Consistency and Measurement Standards in Mindfulness-Based Randomized Controlled Trials for Racial Minori",
+      "date_created": "2026-07-28T08:46:20.725394",
+      "signal_score": 4,
+      "description_preview": "Mindfulness-based interventions (MBIs) are increasingly delivered to racial minority populations, yet the methodological rigor and measurement practices underlying this literature have not been system"
+    },
+    {
+      "osf_id": "sa9hx_v1",
+      "title": "Evaluating the Effectiveness of MediLanguage’s Language Support Starter: A Digital Decision Aid to Support the Selection",
+      "date_created": "2026-07-28T08:46:24.663190",
+      "signal_score": 4,
+      "description_preview": "Objective: Migrant patients with limited proficiency in the host country's dominant language(s) often face difficulties in making informed decisions about selecting communication strategies to overcom"
+    },
+    {
+      "osf_id": "vwszg_v1",
+      "title": "Affective Valence and Temporal Framing: A Unified Generative Model of the Temporal Structure of Emotion",
+      "date_created": "2026-07-28T13:21:19.125750",
+      "signal_score": 4,
+      "description_preview": "Emotions are temporally structured: regret concerns what has happened, anxiety what will happen, joy what is happening now. Three strands of the active-inference literature each formalise one temporal"
+    },
+    {
+      "osf_id": "bw4hc_v2",
+      "title": "Disentangling Negative Affectivity and General Psychopathology in Early Childhood: A Multi-Trait Multi-Method Approach t",
+      "date_created": "2026-07-28T13:31:35.949238",
+      "signal_score": 4,
+      "description_preview": "Background\nChildren’s emotional and behavioral problems frequently co-occur, suggesting the existence of a general factor of psychopathology (\"p factor\") that accounts for the shared variance across i"
+    },
+    {
+      "osf_id": "9y2pv_v1",
+      "title": "(Computation of) the Standardized Mean Difference in Clinical Trials Should be Standardized",
+      "date_created": "2026-07-27T16:54:04.584087",
+      "signal_score": 4,
+      "description_preview": "The standardized mean difference (SMD) is widely used in psychology clinical trials to convert intervention effect estimates from raw units to a common scale, enabling comparison across settings. Howe"
+    },
+    {
+      "osf_id": "p9qak_v1",
+      "title": "The Dynamic Hierarchy of Personal Space Regulation and its Modulation by Childhood Traumatic Experiences",
+      "date_created": "2026-07-27T17:36:33.572740",
+      "signal_score": 4,
+      "description_preview": "Personal space (PS) regulation represents a core component of socio-affective functioning, requiring the dynamic coordination of perception, affect, and behavior. Yet how these components are hierarch"
+    },
+    {
+      "osf_id": "vncgu_v1",
+      "title": "Investigating the longevity of real-world memory following a smartphone intervention in older adults: A multi-year follo",
+      "date_created": "2026-07-27T19:03:26.903595",
+      "signal_score": 4,
+      "description_preview": "Our ability to recollect details from personal past events tends to decline with age, which can affect how we act in the world, communicate with others, and understand ourselves. HippoCamera is a neur"
+    },
+    {
+      "osf_id": "beaqj_v2",
+      "title": "Difficult conversations as Self-Control Conflicts",
+      "date_created": "2026-07-27T19:54:59.326153",
+      "signal_score": 4,
+      "description_preview": "Why do people avoid having important but difficult conversations? The dominant explanation is that people are overly pessimistic about the outcomes of conversations— overestimating costs and underesti"
+    },
+    {
+      "osf_id": "e9sak_v1",
+      "title": "Closed-book and open-book language model assessment  of employee experience.  A two-sample convergent validity study com",
+      "date_created": "2026-07-28T10:29:13.253189",
+      "signal_score": 3,
+      "description_preview": "Language models are increasingly used to produce quantitative judgements about organisations from publicly available text, yet such systems differ fundamentally in whether they consult external eviden"
+    },
+    {
+      "osf_id": "zrpk8_v1",
+      "title": "Turn-Duration Burstiness as a Temporal Signature of Collective Cognitive Demand in Multidisciplinary Healthcare Team Mee",
+      "date_created": "2026-07-28T12:33:36.302406",
+      "signal_score": 3,
+      "description_preview": "Collective cognition in team settings is shaped not only by what is communicated, but by the temporal dynamics of how communication unfolds. Multidisciplinary team meetings (MDTMs) in oncological care"
+    },
+    {
+      "osf_id": "qruy7_v2",
+      "title": "Italian Adaptation and Validation of the ICAR-16 Sample Test",
+      "date_created": "2026-07-28T08:53:23.165253",
       "signal_score": 2,
-      "description_preview": "Perception of sensory events depends not only on the stimulus itself but also on the surrounding spatial and temporal context. While contextual interactions have been extensively studied in vision, le"
+      "description_preview": "The International Cognitive Ability Resource 16 (ICAR-16) is a public-domain measure of cognitive ability. However, no Italian validation currently exists. We translated and validated the ICAR-16 in a"
     },
     {
-      "osf_id": "74rjv_v2",
-      "title": "Mouse cursor tracking contributes to the psychological validation of the drift diffusion model",
-      "date_created": "2026-07-25T20:56:29.435321",
+      "osf_id": "9rjux_v4",
+      "title": "Self-Efficacy Predicts Differential Neuroticism Change in a Smartphone-Based Intervention",
+      "date_created": "2026-07-28T13:05:25.398465",
+      "signal_score": 2,
+      "description_preview": "Self-guided, digital interventions can help people change their personality traits in desired directions, including becoming less neurotic. However, little is known about how and why people differ in "
+    },
+    {
+      "osf_id": "vrh3w_v1",
+      "title": "Empirical Signatures of Choice-Induced Preference Change",
+      "date_created": "2026-07-28T13:16:03.357445",
+      "signal_score": 2,
+      "description_preview": "Choice-induced preference change refers to the tendency for value estimates to differ after a choice relative to before it. Although this phenomenon is robust, the process that generates it remains de"
+    },
+    {
+      "osf_id": "rtkqu_v4",
+      "title": "The Morality-Effectiveness Disconnect of Pro-environmental Behaviors",
+      "date_created": "2026-07-27T17:31:59.611168",
+      "signal_score": 2,
+      "description_preview": "Not all pro-environmental behaviors are created equal—some are vastly more effective at mitigating climate change than others. Do people judge the more effective behaviors as proportionally more moral"
+    },
+    {
+      "osf_id": "q27wk_v2",
+      "title": "Assessment of food cravings and food addiction",
+      "date_created": "2026-07-27T17:34:55.930016",
+      "signal_score": 2,
+      "description_preview": "This chapter briefly defines the terms food craving and food addiction and describes the most common assessment methods. These include self-report instruments such as the Food Cravings Questionnaires,"
+    },
+    {
+      "osf_id": "e3n4g_v1",
+      "title": "Reading Tiramisu in Czech and English: Robust Processing Speed Differences in Translation Equivalent Stimuli",
+      "date_created": "2026-07-27T18:11:01.120547",
       "signal_score": 1,
-      "description_preview": "As a well-established cognitive model of human decision-making, the drift diffusion model (DDM) offers a psychologically intuitive account of the decision-making process by virtue of its four basic pa"
+      "description_preview": "Cross-linguistic studies of reading have documented broad similarities across languages, yet the extent to which first-language (L1) reading processes differ once structural confounds are minimized re"
+    },
+    {
+      "osf_id": "vxbt3_v1",
+      "title": "Toward a Unified Perspective on Content Analysis",
+      "date_created": "2026-07-27T20:11:11.518712",
+      "signal_score": 1,
+      "description_preview": "Content analysis, the practice of inferring individual difference characteristics from text data, is an important research technique across the behavioral and social sciences. The methods used to cond"
     }
   ]
 }
