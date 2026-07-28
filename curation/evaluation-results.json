@@ -1,128 +1,75 @@
 {
-  "evaluated": 1,
+  "evaluated": 2,
   "accepted": 0,
-  "rejected": 1,
+  "rejected": 2,
   "errors": 0,
-  "skipped": 19,
+  "skipped": 9,
   "deferred": 0,
   "results": [
     {
-      "osf_id": "b2j5t_v1",
-      "title": "\u201cIt\u2019s a form of survival\u201d: Autistic transgender and nonbinary people\u2019s experienc",
+      "osf_id": "kcwq2_v2",
+      "title": "Mental Health Supports for Caregivers of Autistic Children: An Umbrella Review",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "yrmb8_v1",
-      "title": "\u201cChatGPT Is My Best Friend\u201d: AI as an Ambivalent Source of Social Support in Red",
+      "osf_id": "8f7es_v1",
+      "title": "Fear of Negative Evaluation as a Core Predictor of Eating Disorder Risk in Adole",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "9bh3e_v1",
-      "title": "Automated Classification of Restrictive and Repetitive Behaviors in Autistic Chi",
+      "osf_id": "876fv_v1",
+      "title": "Self-Assessed, but Not Experimentally Induced, Rejection Sensitivity Predicts Ea",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "v9nrc_v1",
-      "title": "Methodological Consistency and Measurement Standards in Mindfulness-Based Random",
+      "osf_id": "q67r4_v1",
+      "title": "Parsing Exposure to Adversity: How does Caregiving Deprivation Pose a Unique Ris",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "sa9hx_v1",
-      "title": "Evaluating the Effectiveness of MediLanguage\u2019s Language Support Starter: A Digit",
+      "osf_id": "m29kq_v1",
+      "title": "Attachment and Caregiving as Social Allostatic Inference: An Updated Social Neur",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "vwszg_v1",
-      "title": "Affective Valence and Temporal Framing: A Unified Generative Model of the Tempor",
+      "osf_id": "4ahgb_v1",
+      "title": "90% mental, 10% physical? Psychological and physiological predictors of ultrarun",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "bw4hc_v2",
-      "title": "Disentangling Negative Affectivity and General Psychopathology in Early Childhoo",
+      "osf_id": "quxc6_v2",
+      "title": "Comfort in discomfort: A systematic review of pain perception in ultrarunners",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "9y2pv_v1",
-      "title": "(Computation of) the Standardized Mean Difference in Clinical Trials Should be S",
+      "osf_id": "uazpe_v1",
+      "title": "Top-down versus bottom-up theories of phonological acquisition: A big data appro",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "p9qak_v1",
-      "title": "The Dynamic Hierarchy of Personal Space Regulation and its Modulation by Childho",
+      "osf_id": "ybd85_v1",
+      "title": "Vaccination as Collective Action During a Pandemic: Evidence from 6.1 Million CO",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "vncgu_v1",
-      "title": "Investigating the longevity of real-world memory following a smartphone interven",
-      "decision": "skipped",
-      "reason": "already in papers.json"
+      "osf_id": "f9mnb_v1",
+      "title": "Facial expression synchrony is associated with neural synchrony during mother-in",
+      "decision": "reject",
+      "reason": "This study focuses on mother-infant interactions and developmental psychology, which falls outside the scope of clinical psychology practice. While it examines synchrony between mothers and infants, it does not address assessment, diagnosis, therapy, or clinical interventions relevant to practicing clinicians. The study population is infants (7.4 months old) and their mothers, which explicitly falls under the exclusion criteria for papers focused on children/adolescents/infants unless they have direct adult clinical implications, which this study does not.",
+      "category": null
     },
     {
-      "osf_id": "beaqj_v2",
-      "title": "Difficult conversations as Self-Control Conflicts",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "e9sak_v1",
-      "title": "Closed-book and open-book language model assessment  of employee experience.  A ",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "zrpk8_v1",
-      "title": "Turn-Duration Burstiness as a Temporal Signature of Collective Cognitive Demand ",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "qruy7_v2",
-      "title": "Italian Adaptation and Validation of the ICAR-16 Sample Test",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "9rjux_v4",
-      "title": "Self-Efficacy Predicts Differential Neuroticism Change in a Smartphone-Based Int",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "vrh3w_v1",
-      "title": "Empirical Signatures of Choice-Induced Preference Change",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "rtkqu_v4",
-      "title": "The Morality-Effectiveness Disconnect of Pro-environmental Behaviors",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "q27wk_v2",
-      "title": "Assessment of food cravings and food addiction",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "e3n4g_v1",
-      "title": "Reading Tiramisu in Czech and English: Robust Processing Speed Differences in Tr",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "vxbt3_v1",
-      "title": "Toward a Unified Perspective on Content Analysis",
+      "osf_id": "cykfe_v3",
+      "title": "Signaling social identity in referential communication",
       "decision": "reject",
       "reason": "low signal score (1)",
       "category": null

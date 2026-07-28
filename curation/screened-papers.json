@@ -1,81 +1,10 @@
 [
   {
-    "osf_id": "b2j5t_v1",
-    "title": "“It’s a form of survival”: Autistic transgender and nonbinary people’s experiences of disordered eating",
-    "date_created": "2026-07-28T12:50:29.598575",
-    "date_modified": "2026-07-28T13:03:44.355388",
-    "description": "Autistic transgender and/or nonbinary (TNB) people are a multiply marginalised group systematically impacted by high rates of disordered eating. Feminist scholarship has examined the role of systems of oppression in creating environments where disordered eating can flourish, particularly sexism, racism and weight stigma. We expand this conversation by taking an intersectional, minority stress lens to examine the roles of cis-heteronormativity and neuronormativity in disordered eating in Autistic TNB people. Twenty-one Autistic TNB participants (aged 19-51) with disordered eating were asked to take part in narrative online interviews that were analysed using reflexive thematic analysis. \nParticipants framed their disordered eating as a survival technique. In line with minority stress theory, disordered eating was articulated both as a direct response to systemic and interpersonal violence, and an indirect response to internalisation of queerphobic or anti-Autistic experiences. A struggle for belonging characterised participants’ intersectional experience. Queer communities provided a site of acceptance and improved disordered eating for some, yet were also places that could exacerbate unbelonging and disordered eating through intersecting ableism, racism and fatphobia and the communication of queer-specific appearance pressures. \nFindings demonstrate the utility of an intersectional minority stress lens to examine Autistic TNB health inequities. Beyond individualised neuro- and gender-affirming approaches for Autistic TNB people with disordered eating, researchers and clinicians must move towards an emancipatory approach which considers the systemic factors influencing the mental health of this multiple minoritised community.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/b2j5t_v1/",
-    "signal_score": 11
-  },
-  {
-    "osf_id": "yrmb8_v1",
-    "title": "“ChatGPT Is My Best Friend”: AI as an Ambivalent Source of Social Support in Reddit Mental Health Communities",
-    "date_created": "2026-07-27T20:33:11.955558",
-    "date_modified": "2026-07-28T11:52:08.446732",
-    "description": "As artificial intelligence (AI) enters everyday mental health communication, people increasingly turn to chatbots for reassurance, advice, and companionship. Drawing on Social Support Theory and the Computers Are Social Actors (CASA) framework, this study examined how members of ten Reddit mental health communities discuss AI in relation to mental health. We analyzed 10,042 AI-related posts, modeled their themes with structural topic modeling, measured affective language with LIWC, and estimated engagement with negative binomial models across the period surrounding ChatGPT's launch. We found thirteen themes covering every functional category of support that users sought from AI, positioning it as an informational aid, productivity assistant, therapist substitute, and companion, and also as a threat. Discussion shifted from tool-oriented uses toward clinically salient, emotionally charged themes, and its tone grew gradually more negative and anxious after the launch, diverging from a matched non-AI baseline from the same communities. Therapy-substitute and existential-threat themes drew the most engagement, whereas prevalent comfort-seeking drew little. Theoretically, the study extends social support theory by casting a nonhuman actor as a source users enlist across emotional, appraisal, informational, and instrumental functions yet also appraise as a threat, and it draws on CASA to interpret when people grant or withhold social standing to a machine. Practically, the findings inform the design and governance of AI tools already used for coping and crisis moments and highlight vulnerable users who rely on AI for private comfort yet remain least visible in peer communities. Findings position AI as an ambivalent, increasingly embedded source of support.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/yrmb8_v1/",
-    "signal_score": 6
-  },
-  {
-    "osf_id": "9bh3e_v1",
-    "title": "Automated Classification of Restrictive and Repetitive Behaviors in Autistic Children",
-    "date_created": "2026-07-27T21:35:51.822380",
-    "date_modified": "2026-07-28T15:28:19.556582",
-    "description": "Restricted and repetitive behaviors (RRBs) are a common class of behavior in autistic children, and their assessment is typically based on presence and severity. While previous research has primarily focused on detecting RRBs (i.e., presence or type), automated classification of severity levels has received limited attention. The present study aimed to categorize RRB severity in 58 autistic children using clinician-labeled data based on the Autism Diagnostic Observation Schedule (ADOS). A machine learning model was evaluated under two strategies: session-based and participant-based analyses. The model achieved high accuracy for session-based training (Cohen’s kappa = 0.82) whereas accuracy decreased for participant-based training (Cohen’s kappa = 0.54), indicating reduced generalization to new children. Confusion matrix analysis showed clearer class separation in the session-based analysis and greater overlap among ratings in the participant-based analysis. These findings suggest that the automated rating of RRBs is feasible, but that inter-individual variability remains a challenge for participant-independent applications.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c45",
-          "text": "Psychology, other"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/9bh3e_v1/",
-    "signal_score": 6
-  },
-  {
-    "osf_id": "v9nrc_v1",
-    "title": "Methodological Consistency and Measurement Standards in Mindfulness-Based Randomized Controlled Trials for Racial Minorities: A Systematic Review",
-    "date_created": "2026-07-28T08:46:20.725394",
-    "date_modified": "2026-07-28T13:10:24.975508",
-    "description": "Mindfulness-based interventions (MBIs) are increasingly delivered to racial minority populations, yet the methodological rigor and measurement practices underlying this literature have not been systematically evaluated. Following PRISMA guidelines, this review examined 20 U.S. randomized controlled trials (RCTs) of MBIs with samples of at least 75% racial minority participants. Each study was coded for location, adaptation type, MBI framework, control condition, solo practice, practice style, and outcome measure, and assessed for quality using modified Jadad criteria. Studies were additionally rated with the Hall et al. Mindfulness Methods Score, a novel tool developed from prior methodological recommendations. Scores ranged from 4 to 6 out of a possible 7. Reporting of intervention delivery was a consistent strength: all 20 studies described or linked their protocols, 19 described the intervention teachers, and 16 detailed the theory, content, and frequency of the practices used. Studies varied considerably in location, framework, and solo practice requirements, and none tested an un-adapted, standard MBI protocol, leaving no empirical baseline against which adaptations can be evaluated. The most consequential gap, however, concerned mindfulness itself. Eleven of the 20 studies administered no trait or state mindfulness measure, and none used a non-self-report measure. Without direct measurement of the proposed mechanism of change, neither the effect of adaptations nor the risk of adverse response can be evaluated empirically. Future research should administer explicit trait and state mindfulness measures, establish a standard-protocol baseline, and engage the methodological critiques directed at the broader mindfulness literature.",
+    "osf_id": "kcwq2_v2",
+    "title": "Mental Health Supports for Caregivers of Autistic Children: An Umbrella Review",
+    "date_created": "2026-07-27T22:41:34.812135",
+    "date_modified": "2026-07-28T20:09:00.626032",
+    "description": "Objective: Caregivers of Autistic children commonly report reduced mental health and wellbeing in comparison to caregivers of non-autistic children. Extensive research has demonstrated that psychological interventions improve caregiver mental health. This umbrella review aimed to (1) assess the quality and validity of systematic reviews and/or meta-analyses (SRs) that evaluated the effectiveness of clinician-delivered, non-pharmacological interventions on mental health and wellbeing outcomes in caregivers of Autistic children, and (2) synthesise evidence on the overall effectiveness of these interventions.\nMethod: The review was conducted in line with the Joanna Briggs Institute methodology for umbrella reviews. Risk of bias was assessed using the Risk of Bias in Systematic Reviews tool. \nResults: The search across seven databases identified 2227 potentially eligible records. Seventeen SRs were included, comprising n = 61 relevant primary studies and n = 1515 participating caregivers. Methodological quality of the included SRs was generally low. No SRs were considered authoritative sources for practice recommendations. Assessment of relevant studies from included SRs identified Acceptance and Commitment Therapy (ACT) and psychoeducation as demonstrating the most consistent positive impact on caregivers’ self-reported symptoms of anxiety, depression, and stress, as well as quality of life, and general mental health and wellbeing. Mindfulness and cognitive behaviour therapy (CBT) interventions also appeared to improve symptoms in most domains to an extent, though more inconsistently.\nConclusion: Despite the poor quality of available SRs, assessment of individual studies identified ACT and psychoeducation as broad intervention modalities that strengthen caregiver psychological wellbeing. Research, practice, and policy implications are discussed.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -88,92 +17,17 @@
           "id": "5b4e7425c6983001430b6c1f",
           "text": "Clinical Psychology"
         }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c72",
-          "text": "Diversity"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c7a",
-          "text": "Interventions"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/v9nrc_v1/",
-    "signal_score": 4
+    "link": "https://osf.io/preprints/psyarxiv/kcwq2_v2/",
+    "signal_score": 16
   },
   {
-    "osf_id": "sa9hx_v1",
-    "title": "Evaluating the Effectiveness of MediLanguage’s Language Support Starter: A Digital Decision Aid to Support the Selection of Communication Strategies to Overcome Language Barriers in General Practice",
-    "date_created": "2026-07-28T08:46:24.663190",
-    "date_modified": "2026-07-28T13:13:11.722556",
-    "description": "Objective: Migrant patients with limited proficiency in the host country's dominant language(s) often face difficulties in making informed decisions about selecting communication strategies to overcome language barriers. This study evaluated MediLanguage’s Language Support Starter, an evidence-based digital decision aid developed through the Spiral Technology Action Research Model with migrant patients, usability experts, and healthcare providers, using an iterative process. This approach led to MediLanguage’s Language Support Starter, designed to empower patients to select appropriate communication strategies before language-discordant medical consultations, thereby facilitating shared decision-making with their healthcare providers (HCPs) during these consultations. \nMethods: A cluster-randomised controlled trial (RCT) was conducted in seven Dutch general practices, involving 18 participating HCPs and 75 Turkish-Dutch patients (31 in the control group and 44 in the intervention group; Mage = 61.79, SD = 12.40), all of whom had limited proficiency in Dutch. While questionnaires assessing HCPs’ demographics and perceived communication self-efficacy were administered once before the start of the trial, questionnaires were given to patients both before and after consultations. Control patients received standard care; intervention patients used MediLanguage’s Language Support Starter prior to their consultations. \nResults: There were no differences between HCPs in the intervention and control groups regarding their perceived communication self-efficacy. On a scale from 1 to 10, they scored an average of 7.30 (SD = 1.23), indicating a high level of confidence in their ability to communicate with Turkish-Dutch patients with limited Dutch language proficiency. MediLanguage was well received for its ease of use, comprehensiveness, and attractiveness to patients. While assessments of perceived shared decision-making, perceived decisional conflict, communication self-efficac",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c45",
-          "text": "Psychology, other"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca1",
-          "text": "Experimental Design and Sample Surveys"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/sa9hx_v1/",
-    "signal_score": 4
-  },
-  {
-    "osf_id": "vwszg_v1",
-    "title": "Affective Valence and Temporal Framing: A Unified Generative Model of the Temporal Structure of Emotion",
-    "date_created": "2026-07-28T13:21:19.125750",
-    "date_modified": "2026-07-28T15:37:12.365714",
-    "description": "Emotions are temporally structured: regret concerns what has happened, anxiety what will happen, joy what is happening now. Three strands of the active-inference literature each formalise one temporal face of affect: backward valence as the negative rate of change of variational free energy (Joffily and Coricelli 2013), present valence as reward prediction error (Pattisapu et al. 2025), and forward valence as the affective charge of policy revision (Hesp et al. 2021). Yet none alone spans the full temporal range, unifies these quantities into a taxonomy of emotion, or models how an agent actively selects the temporal orientation that dominates its own affect. We develop a single factored generative model in which a hidden temporal-frame state (past/present/future) redistributes precision across horizons, so that framing emerges from expected-free-energy minimisation. We motivate the architecture from the psychology of mental time travel, understood as the graded, cost-bounded regulation of how deeply memories and plans are unrolled, and show that a single depth regulator with two temporal faces reproduces the classical split between rumination (past-directed) and worry (future-directed). Affect here is a readout layer over a task-specific generative model, and the three channels are general operators on its inference dynamics. Driven by real experience-sampling sequences, the full model predicts next-moment affect out of sample better than linear autoregressive baselines, roughly doubling one-step skill where affect is volatile (held-out R² = 0.19 vs 0.09); the lead replicates in an independent second sample. On a static gamble it recovers the standard happiness equation (n = 14,803 held out) where each predecessor channel alone falls short, reaching that ceiling without expected value as a regressor: the forward channel supplies it by construction, a +30% gain over a reward-prediction-error channel. The same integration then supports capabilities the single-channel",
+    "osf_id": "8f7es_v1",
+    "title": "Fear of Negative Evaluation as a Core Predictor of Eating Disorder Risk in Adolescents: A Sex-Based Analysis",
+    "date_created": "2026-07-28T05:58:17.462039",
+    "date_modified": "2026-07-28T19:57:09.369226",
+    "description": "Background: Eating disorders (ED) commonly emerge during adolescence, a developmental period characterised by heightened sensitivity to social evaluation. Fear of negative evaluation (FNE), a core feature of social anxiety, may represent a key mechanism underlying vulnerability to disordered eating. This study examined FNE as a predictor of ED psychopathology in a non-clinical sample of adolescents and tested whether this relationship differs by sex.\nMethods: 192 adolescents aged 16–19 completed standardised self-report measures of eating disorder symptoms (Eating Disorder Diagnostic Scale-5) and FNE (Brief Fear of Negative Evaluation Scale- revised) as part of a larger online survey. \nResults: FNE emerged as a significant and robust predictor of ED symptoms (b = 0.40, 95% CI [0.30, 0.51], p &lt; .001), accounting for approximately a third of the variance in ED symptom scores (R² = .32–.34). Females reported significantly higher FNE and ED symptoms than males (Mann-Whitney U tests, medium effect sizes), but the relationship between FNE and ED symptoms did not significantly differ by sex (FNE × Sex interaction, b = −.13, p = .228).\nConclusions: Findings support FNE as a key predictor of ED psychopathology in adolescents. Elevated sensitivity to social judgement appears to increase vulnerability to disordered eating similarly across sexes, even though females carry a disproportionately higher burden of both FNE and ED symptoms. Targeting FNE in early intervention and prevention efforts, particularly among adolescent females, may offer a promising avenue for reducing ED risk.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -185,50 +39,75 @@
       ],
       [
         {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1c",
-          "text": "Computational Neuroscience"
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         }
-      ],
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/8f7es_v1/",
+    "signal_score": 10
+  },
+  {
+    "osf_id": "876fv_v1",
+    "title": "Self-Assessed, but Not Experimentally Induced, Rejection Sensitivity Predicts Eating Disorder Symptoms in Adolescent Girls",
+    "date_created": "2026-07-27T21:44:41.593095",
+    "date_modified": "2026-07-28T20:09:33.406397",
+    "description": "Objective: Social rejection is a salient stressor during adolescence, a peak period for eating disorder (ED) onset. This study examined whether self-reported rejection sensitivity and affective responses to experimentally induced ostracism were associated with one another, and whether each independently predicted ED psychopathology, in non-clinical adolescent girls.\nMethod: Forty-seven girls aged 13–14 completed Cyberball and the Needs-Threat Scale (NTS), the Online and Offline Social Sensitivity Scale (O²S³), the Eating Disorder Diagnostic Scale-5 (EDDS), and the Autism Spectrum Quotient-10 (AQ-10). Partial correlation and multiple linear regression, controlling for autistic traits, examined associations between NTS, O²S³ and EDDS scores.\nResults: NTS and O²S³ scores were positively correlated after controlling for AQ-10 (r = .37, p = .009). NTS, O²S³ and AQ-10 together predicted EDDS scores (R² = .32, p &lt; .001); O²S³ was an independent predictor (β = .43, p = .003), whereas NTS was not (β = .24, p = .104).\nDiscussion: Self-assessed rejection sensitivity, rather than affective responses to induced ostracism, was associated with ED psychopathology, suggesting that subjective appraisal of everyday social rejection may be more clinically relevant than acute, laboratory-induced exclusion. Rejection sensitivity may represent a useful target for early ED intervention in adolescent girls.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
         }
       ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c3b",
-          "text": "Affect and Emotion Regulation"
         }
-      ],
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/876fv_v1/",
+    "signal_score": 8
+  },
+  {
+    "osf_id": "q67r4_v1",
+    "title": "Parsing Exposure to Adversity: How does Caregiving Deprivation Pose a Unique Risk to Children's Adjustment?",
+    "date_created": "2026-07-27T22:39:29.726849",
+    "date_modified": "2026-07-28T20:07:24.182488",
+    "description": "Children’s emotion perspective taking and social problem-solving are regarded as key social-cognitive mechanisms through which adverse parenting increases children’s vulnerability to social and behavioral problems. Guided by the Dimensional Model of Adversity and Psychopathology (DMAP), this study examined whether parenting threat and deprivation operate selectively or commonly through children’s emotion perspective taking and social problem-solving to increase risk to their social (i.e., peer relationship quality) and behavioral (i.e., externalizing symptomology) wellbeing. Participants included 238 children, primary caregivers, and their partners with the first of three annual measurement occasions occurring during the transition to formal school (Mean age = 4, 52% female; 68% White; 18% Black; 16% Latine, 10% multiracial, and 4% another race). Parenting deprivation and threat were assessed observationally across multiple parent-child interaction tasks. Children’s social-cognitive mechanisms were assessed using validated tasks, and teachers completed surveys of child psychological problems. Results from the fully lagged cascade model indicated that parental deprivation selectively predicted children’s subsequent social problem-solving and emotion perspective taking difficulties over and above the influence of parental threat. In the latter part of the cascade, children’s diminished emotion perspective taking predicted increases in externalizing symptoms, while children’s blunted social problem-solving predicted diminished social competence.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/q67r4_v1/",
+    "signal_score": 7
+  },
+  {
+    "osf_id": "m29kq_v1",
+    "title": "Attachment and Caregiving as Social Allostatic Inference: An Updated Social Neuroscience Account from Single Brains to Dyads",
+    "date_created": "2026-07-28T07:05:02.427367",
+    "date_modified": "2026-07-28T19:56:12.113979",
+    "description": "Humans are highly social, and much of that sociality is regulatory: individuals manage the demands placed upon their bodies not only alone but through and with others. Attachment science has pursued how the brain accomplishes this for the better part of a century, and its most recent contribution has been neurobiological. Within the Social Neuroscience of Human Attachment (SoNeAt) programme, we previously specified a neuroanatomical architecture of two interacting systems and four domain-general modules for organised attachment, extended it to attachment disruption and disorganisation, and moved it from single brains to dyads through hyperscanning as part of Relational Neuroscience. What that work established energetically, through social allostasis, it did not specify computationally. Here we close that gap. Drawing on active inference, allostasis as interoceptive inference, and recent constructs of attachment as prediction, we propose the term social allostatic inference: the attachment system is one predictive-allostatic loop, the four modules are its successive stages, and organised, disrupted, and disorganised attachment are characteristic settings of the precision parameters that govern it. We extend the account to the caregiving system, which shares this architecture but infers rather than senses both the error that initiates its loop and the signal that terminates it. At the level of the dyad, interpersonal neural and bio-behavioural synchrony are read as indices of where regulatory work is invested rather than of bond quality directly. We address persistent misconceptions in trauma-informed practice and set out a measurement programme.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
         {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         }
       ],
       [
@@ -239,10 +118,6 @@
         {
           "id": "5b4e7425c6983001430b6c2d",
           "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c60",
-          "text": "Self-concept and Identity"
         }
       ],
       [
@@ -253,10 +128,6 @@
         {
           "id": "5b4e7425c6983001430b6c34",
           "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c65",
-          "text": "Self-regulation"
         }
       ],
       [
@@ -265,12 +136,31 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
+          "id": "5b4e7426c6983001430b6c39",
+          "text": "Theory and Philosophy of Science"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/m29kq_v1/",
+    "signal_score": 5
+  },
+  {
+    "osf_id": "4ahgb_v1",
+    "title": "90% mental, 10% physical? Psychological and physiological predictors of ultrarunning performance",
+    "date_created": "2026-07-27T02:06:00.232379",
+    "date_modified": "2026-07-28T20:06:20.835530",
+    "description": "Within the ultrarunning community, performance is often considered ‘90% mental, 10% physical’. This demonstrates the influence of both psychological and physiological factors, particularly emphasising the perceived dominance of psychology. However, extant research typically considers psychological or physiological variables in isolation. Additionally, studies frequently recruit participants from a single ultramarathon, thereby neglecting heterogeneity between events. The current study addresses these limitations by employing an interdisciplinary approach and recruiting participants from a range of races to develop a robust, predictive model of ultrarunning performance. Ultramarathon participants (n = 69 across 24 events) underwent graded exercise testing, psychometric surveys, and physiological/cognitive assessments (Cold Pressor, Stop-Signal, and Serial Sevens tasks). Performance was quantified as percentile finishing time relative to gender-matched event winners. Selection of the initial 15 candidate variables was informed by evidence from relevant literature. A single global model was developed using backwards stepwise regression (Aikake Information Criterion selection), including four covariates: age, gender, apparatus, and distance. The overall model (p &lt; .001, adj. r2 = .426) included VO2max (ß = .609), emotional intelligence (ß = .281), inhibitory control (ß = .259), and sleep behaviours (ß = .226) as key significant predictors. These results demonstrate that the predictability of ultrarunning performance is improved by moving beyond traditional metrics of fitness and considering both psychological and physiological variables. Overall, this model provides an integrated approach for maximising endurance sports training and performance, with broader application to other fields involving physical and psychological exertion (e.g., military, pain management).",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c67",
-          "text": "Depressive Disorders"
+          "id": "5b4e7426c6983001430b6c3d",
+          "text": "Sport Psychology"
         }
       ],
       [
@@ -279,12 +169,51 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
+          "id": "5b4e7427c6983001430b6c7d",
+          "text": "Physiology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/4ahgb_v1/",
+    "signal_score": 4
+  },
+  {
+    "osf_id": "quxc6_v2",
+    "title": "Comfort in discomfort: A systematic review of pain perception in ultrarunners",
+    "date_created": "2026-07-28T00:11:09.275669",
+    "date_modified": "2026-07-28T20:06:49.147531",
+    "description": "Pain is an inherent and expected consequence of ultrarunning (distances &gt;42.2km). Pain perception encompasses how individuals interpret feelings of pain. Here, we systematically reviewed studies of pain management and coping, pain tolerance and threshold, experience of pain, and the impacts of pain perception on performance, within an ultrarunning context. We searched five electronic databases (MEDLINE, PsychINFO, Scopus, SportDiscus, and Web of Science), complemented with citation searches. A total 433 studies were screened, with 36 included in this review. Findings indicate that perceived pain increases during and after ultrarunning, with changes to pain intensity, sensitivity, and modulation. Pharmacological and physical interventions employed to manage pain show mixed effectiveness, with minimal impact on performance. Alternatively, maladaptive cognitive coping strategies increase the degree to which pain subjectively interferes with ultrarunning, time spent thinking about pain, and likelihood of race withdrawal, but experiential awareness reduces pain interference. Ultrarunners exhibit higher pain tolerance than non-athletes, derive moral value from pain, and actively distinguish between ‘good’ (expected) and ‘bad’ (injury-related) pain. The ability to effectively appraise manage, and tolerate pain is considered a key differentiator of high and low performing ultrarunners. Acknowledging that pain is not a unidimensional physiological phenomenon, directions for future research are discussed.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7428c6983001430b6caf",
-          "text": "Quantitative Psychology"
+          "id": "5b4e7426c6983001430b6c3d",
+          "text": "Sport Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c7d",
+          "text": "Physiology"
         }
       ],
       [
@@ -295,81 +224,21 @@
         {
           "id": "5b4e7427c6983001430b6c93",
           "text": "Health Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cdd",
-          "text": "Stress"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf5",
-          "text": "Biases, Framing, and Heuristics"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/vwszg_v1/",
-    "signal_score": 4
+    "link": "https://osf.io/preprints/psyarxiv/quxc6_v2/",
+    "signal_score": 3
   },
   {
-    "osf_id": "bw4hc_v2",
-    "title": "Disentangling Negative Affectivity and General Psychopathology in Early Childhood: A Multi-Trait Multi-Method Approach to Validity and Informant Perspectives",
-    "date_created": "2026-07-28T13:31:35.949238",
-    "date_modified": "2026-07-28T15:38:08.602169",
-    "description": "Background\nChildren’s emotional and behavioral problems frequently co-occur, suggesting the existence of a general factor of psychopathology (\"p factor\") that accounts for the shared variance across internalizing and externalizing problems. Ongoing questions remain regarding the extent to which negative affectivity—a temperamental tendency to display observable manifestations likely reflecting negative emotions—and general psychopathology represent overlapping versus distinct constructs across early development. \n\nMethods\nA community-based sample of 231 children aged 3 to 7 years participated in an accelerated longitudinal study, with assessments at four timepoints spaced nine months apart. Data were collected via multi-informant (mother, father, teacher/secondary caregiver) ratings, structured observational tasks, and standard questionnaires. This study evaluated the convergent and discriminant validity of negative affectivity and general psychopathology measures across informants and methods using multitrait-multimethod matrices while accounting for the unique perspective of the informant.\n\nResults\nFindings indicated that measures of negative affectivity and general psychopathology exhibited moderate convergent validity but also retained distinctiveness, supporting the discriminant validity in measures of these constructs. The association between the two was somewhat attenuated when controlling for informant type.\n\nConclusions\nThe results clarify that, although negative affectivity and general psychopathology are closely related in childhood, they are not redundant constructs. Additionally, the observed deflation in the association between negative affectivity and general psychopathology after accounting for the unique perspective of the informant highlights how measurement strategies—including informant source and method variance—can meaningfully alter interpretations of the associations between psychopathology and risk/protective factors. Together, these results",
+    "osf_id": "uazpe_v1",
+    "title": "Top-down versus bottom-up theories of phonological acquisition: A big data approach",
+    "date_created": "2026-07-28T07:27:06.505605",
+    "date_modified": "2026-07-28T21:41:33.470015",
+    "description": "Recent work has made available a number of standardized meta-analyses bearing on various aspects of infant language processing.   We  utilize  data  from  two  such  meta-analyses (discrimination of vowel contrasts and word segmentation,  i.e.,  recognition of word forms extracted from running speech) to assess whether the published body of empirical evidence supports a bottom-up versus a top-down theory of early phonological development by leveling the power of results from thousands of infants.   We predicted that if infants can rely purely on auditory experience to develop their phonological categories, then vowel discrimination and word segmentation should develop in parallel,  with  the  latter  being  potentially  lagged  compared  to the  former.   However,  if  infants  crucially  rely  on  word  form information to build their phonological categories, then development at the word level must precede the acquisition of native sound categories.  Our results do not support the latter prediction.   We discuss potential implications and limitations,  most saliently that word forms are only one topdown level proposed to affect phonological development, with other proposals suggesting that top-down pressures emerge from lexical (i.e., word-meaning pairs) development. This investigation also highlights general procedures by which standardized meta-analyses may be reused to answer theoretical questions spanning across phenomena.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c33",
-          "text": "Mental Disorders"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c3a",
-          "text": "Clinical Child Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c3e",
-          "text": "Anxiety Disorders"
-        }
-      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -378,10 +247,6 @@
         {
           "id": "5b4e7425c6983001430b6c2d",
           "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c47",
-          "text": "Attachment"
         }
       ],
       [
@@ -390,386 +255,21 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c52",
-          "text": "Early Childhood"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c58",
-          "text": "Emotion"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c5e",
-          "text": "Disruptive, Impulse-control, and Conduct Disorders"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c67",
-          "text": "Depressive Disorders"
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/bw4hc_v2/",
-    "signal_score": 4
-  },
-  {
-    "osf_id": "9y2pv_v1",
-    "title": "(Computation of) the Standardized Mean Difference in Clinical Trials Should be Standardized",
-    "date_created": "2026-07-27T16:54:04.584087",
-    "date_modified": "2026-07-28T07:34:38.889634",
-    "description": "The standardized mean difference (SMD) is widely used in psychology clinical trials to convert intervention effect estimates from raw units to a common scale, enabling comparison across settings. However, multiple operationalizations of the SMD are possible for clinical trial data, with large potential impacts on estimate magnitudes. In this commentary, I review practices for operationalizing the SMD in the Journal of Consulting and Clinical Psychology and other journals that publish results of clinical trials. I find that only one-third of studies report sufficient information to determine the operationalization. Among those, the operationalization varies widely, threatening the SMD’s utility in providing a common scale. Given the common goals and design elements across many trials, it is feasible to establish a default operationalization for the SMD’s standardizer. I outline eight desirable SMD properties and evaluate each option against these properties. The pooled baseline standard deviation meets seven of eight, far more than any alternative, with its main limitation being susceptibility to inflation from restrictive inclusion criteria. I conclude that raw effect estimates should be divided by the pooled baseline standard deviation as a default, one-size-fits-most choice. Adopting this standard will help the SMD meet its promise as a standardized metric, improving comparability of results across different measures, outcomes, studies, and populations. I also provide reporting recommendations to improve transparency and enable re-computation using alternative standardizers when needed.",
-    "doi": "10.1037/ccp0001016",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c27",
-          "text": "Intervention Research"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c7b",
-          "text": "Psychotherapy"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c92",
-          "text": "Statistical Methods"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7428c6983001430b6caf",
-          "text": "Quantitative Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/9y2pv_v1/",
-    "signal_score": 4
-  },
-  {
-    "osf_id": "p9qak_v1",
-    "title": "The Dynamic Hierarchy of Personal Space Regulation and its Modulation by Childhood Traumatic Experiences",
-    "date_created": "2026-07-27T17:36:33.572740",
-    "date_modified": "2026-07-28T11:59:50.815982",
-    "description": "Personal space (PS) regulation represents a core component of socio-affective functioning, requiring the dynamic coordination of perception, affect, and behavior. Yet how these components are hierarchically organized and how adverse childhood experiences modulate this organization remain unclear. To address these gaps, 57 healthy participants underwent a computerized audiovisual stop-distance paradigm. Participants were presented with social (angry, neutral faces) and non-social (ball) stimuli approaching at two speeds. Across trials, participants stopped the stimulus at their preferred distance and rated perceived distance, perceived speed, discomfort, and threat. Bayesian multilevel modeling revealed a hierarchical Perception→Affect→Behavior architecture sustained by two functionally distinct pathways: a spatial–behavioral pathway in which perceived distance directly predicted interpersonal distance, and a temporal–affective pathway in which perceived speed predicted behavior primarily through affective elaboration. Childhood trauma was quantified using the Childhood Trauma Questionnaire (CTQ) as a continuous measure. First, higher CTQ scores were associated with broader interpersonal distances across conditions and with amplified perceptual-affective reactivity to fast approach dynamics. Second, childhood trauma selectively restructured the spatial–behavioral pathway when stimuli were perceived as distant, shifting regulation from bodily discomfort toward anticipatory threat evaluation, while the temporal–affective pathway remained preserved. Third, higher childhood trauma scores were associated with reduced habituation of affective and behavioral responses across repeated trials. These findings characterize PS as a hierarchical dynamic regulatory system in which spatial and temporal cues engage distinct functional routes. Childhood adversity emerges as a systemic modulation that shifts the global regulatory threshold, reorganizes pathway-specific dynamics, and r",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c58",
-          "text": "Emotion"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c71",
-          "text": "Perception"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c86",
-          "text": "Action"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c90",
-          "text": "Trauma and Stress"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c71",
-          "text": "Perception"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cdb",
-          "text": "Motion Perception"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/p9qak_v1/",
-    "signal_score": 4
-  },
-  {
-    "osf_id": "vncgu_v1",
-    "title": "Investigating the longevity of real-world memory following a smartphone intervention in older adults: A multi-year follow-up study",
-    "date_created": "2026-07-27T19:03:26.903595",
-    "date_modified": "2026-07-28T11:41:29.419254",
-    "description": "Our ability to recollect details from personal past events tends to decline with age, which can affect how we act in the world, communicate with others, and understand ourselves. HippoCamera is a neuroscience-guided smartphone application that aims to mitigate these age-related memory changes by guiding users to record and review cues for real-world events using established mnemonic strategies. Previous work demonstrated improved episodic recollection and enhanced hippocampal activity for events reviewed using HippoCamera. Here, we followed up with 25 older adults 3.5 to 6 years after their participation in a HippoCamera study, using a mixed-methods approach to assess the longevity of these memory benefits. Participants reported greater subjective re-experiencing for events that were previously reviewed using HippoCamera relative to events that were only recorded but never reviewed. Further, participants reported greater subjective re-experiencing for events recorded using HippoCamera compared to events that were cued with calendar entries from a comparable time period. Using semi-structured interviews, we also explored the experience of using HippoCamera itself and reminiscing upon their past recorded events. Participants spoke to the benefits of HippoCamera not only for episodic memory, but more broadly to their daily lifestyle and activities, and their sense of meaning and well-being. Participants also reflected upon their attitudes and beliefs both towards HippoCamera and their own memory as it changes with age. Altogether, these results demonstrate the broad and long-lasting effects of a smartphone-based tool that improves memory for real-world events and enriches how older adults relate to their own past experiences.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca5",
-          "text": "Memory"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/vncgu_v1/",
-    "signal_score": 4
-  },
-  {
-    "osf_id": "beaqj_v2",
-    "title": "Difficult conversations as Self-Control Conflicts",
-    "date_created": "2026-07-27T19:54:59.326153",
-    "date_modified": "2026-07-28T11:47:26.662246",
-    "description": "Why do people avoid having important but difficult conversations? The dominant explanation is that people are overly pessimistic about the outcomes of conversations— overestimating costs and underestimating benefits. However, anecdotal evidence suggests people still fail to initiate conversations they expect to be more beneficial than costly. We address this puzzle by testing a self-control account of difficult conversations. Like other classic self-control conflicts (e.g., going to the gym, eating healthily), we argue that engaging in difficult conversations requires people to overcome proximal, concrete costs (e.g., feeling uncomfortable, hurting someone’s feelings in the moment) in pursuit of distal, abstract benefits (e.g., helping someone grow). Across four pilot studies and six experiments (N = 2,442), we provide three key pieces of support for our account. First, people perceive difficult conversations as having intertemporal trade-offs, such that the costs precede the benefits. Second, people’s decisions to initiate difficult conversations are sensitive to time, such that people are more willing to have difficult conversations in the future than the present (i.e., they delay). Importantly, this effect is specific to conversations that are expected to have both costs and benefits, suggesting that people do not generally delay all conversations. This delay is mediated by differential weighing of the costs and benefits in addition to lower anticipated costs in the future (vs. the present). Third, people are more willing to take up costly commitment devices to motivate themselves to initiate difficult conversations than to take up equivalently costly gambles. This suggests that people are aware of these dynamics. Overall, we provide a new theoretical lens for understanding difficult conversations and point to new interventions to prompt them.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c65",
-          "text": "Self-regulation"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c6d",
-          "text": "Social Cognition"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6caa",
-          "text": "Interpersonal Relationships"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb7",
-          "text": "Motivational Behavior"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cfb",
-          "text": "Judgment and Decision Making"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/beaqj_v2/",
-    "signal_score": 4
-  },
-  {
-    "osf_id": "e9sak_v1",
-    "title": "Closed-book and open-book language model assessment  of employee experience.  A two-sample convergent validity study comparing  multi-stage retrieval and single-prompt approaches",
-    "date_created": "2026-07-28T10:29:13.253189",
-    "date_modified": "2026-07-28T15:31:52.058351",
-    "description": "Language models are increasingly used to produce quantitative judgements about organisations from publicly available text, yet such systems differ fundamentally in whether they consult external evidence at the point of judgement or draw only on knowledge encoded during training. This study compared two systems that estimate the same 24 dimensions of employee experience using the same base language model and differ only in how evidence is gathered: a multi-stage retrieval approach, assembling each score through staged web retrieval and sequential scoring over two to three hours per organisation, and a single-prompt approach, producing all dimensions in one call from parametric knowledge. Because the two share a base model, the comparison isolates the contribution of retrieval. Evidence came from two independent samples, comprising 35 large, well-known companies and 152 organisations spanning insurance, retail, healthcare, education and professional services. Both approaches proved reliable across repeated runs (ICC(A,1) = .84 to .97). Convergence between them was moderate, with per-dimension correlations averaging .79 and .63 in the two samples and rising to .81 and .72 after correction for attenuation, and was consistently stronger for an organisation's overall score than for individual dimensions (corrected r = .91 and .85). Performance varied systematically by dimension in both samples: agreement was highest on dimensions describing an organisation's public identity, such as brand, mission and rewards, and lowest on those describing internal working experience, such as the direct manager, career progression, and diversity and inclusion. Retrieval contributed most where public text carries least, suggesting that gathering evidence determines which parts of a construct can be measured rather than simply improving accuracy.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c22",
-          "text": "Industrial and Organizational Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/e9sak_v1/",
-    "signal_score": 3
-  },
-  {
-    "osf_id": "zrpk8_v1",
-    "title": "Turn-Duration Burstiness as a Temporal Signature of Collective Cognitive Demand in Multidisciplinary Healthcare Team Meetings",
-    "date_created": "2026-07-28T12:33:36.302406",
-    "date_modified": "2026-07-28T15:18:41.611014",
-    "description": "Collective cognition in team settings is shaped not only by what is communicated, but by the temporal dynamics of how communication unfolds. Multidisciplinary team meetings (MDTMs) in oncological care offer a naturalistic window into collective decision-making under real-world constraints, where teams of medical clinicians must jointly process complex patient cases. In this study, we examine the temporal structure of speech turn durations in oncological MDTMs using burstiness, a measure of how irregularly communication is distributed over time, as a quantitative index of communicative temporal organization. We applied two complementary burstiness metrics, the burstiness parameter (B) and the length-normalized variant (Aₙ(r)), to meeting and case-level speech turn data, and used random intercept models to examine associations between burstiness, case complexity, and case processing time. Communication was predominantly bursty, exceeding levels expected under a random process. More complex cases were associated with higher burstiness, suggesting that irregular temporal communication structure has potential to serve as an observable marker of collective cognitive load. Growth curve modeling further revealed significant main effects of burstiness and case order on case processing time, as well as interactions moderated by MDT sample. These results indicate that temporal communication dynamics and case processing is context dependent varying systematically across meeting types and as meetings progress. These findings suggest that burstiness may reflect meaningful variation in the collective cognitive dynamics of MDTMs and may offer a promising foundation for real-time monitoring of team interactions and decision-making.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c22",
-          "text": "Industrial and Organizational Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/zrpk8_v1/",
-    "signal_score": 3
-  },
-  {
-    "osf_id": "qruy7_v2",
-    "title": "Italian Adaptation and Validation of the ICAR-16 Sample Test",
-    "date_created": "2026-07-28T08:53:23.165253",
-    "date_modified": "2026-07-28T13:06:40.540771",
-    "description": "The International Cognitive Ability Resource 16 (ICAR-16) is a public-domain measure of cognitive ability. However, no Italian validation currently exists. We translated and validated the ICAR-16 in a sample of 486 Italian adults (66% females), who completed the ICAR-16 and the long version of the Cognitive Reflection Test online. Confirmatory factor analyses supported the original hierarchical structure, with the Second-Order Latent Variable model (CFI=.98; TLI=.98) showing the best fit. Moreover, the ICAR-16 correlates strongly with the Cognitive Reflection Test (CRT) (ϕ= .81; 95% CI: .75, .86), confirming convergent validity. Internal consistency reliability was also adequate (ωt = .82; ωh = .59; α= .78). Measurement invariance analyses supported partial scalar invariance across sexes, with no further decrement in fit indexes for strict invariance. Only one item (MR47) exhibited uniform Differential Item Functioning. Overall, these findings support the Italian ICAR-16 as a reliable, freely available instrument for cognitive assessment in research.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/qruy7_v2/",
+    "link": "https://osf.io/preprints/psyarxiv/uazpe_v1/",
     "signal_score": 2
   },
   {
-    "osf_id": "9rjux_v4",
-    "title": "Self-Efficacy Predicts Differential Neuroticism Change in a Smartphone-Based Intervention",
-    "date_created": "2026-07-28T13:05:25.398465",
-    "date_modified": "2026-07-28T15:14:48.041845",
-    "description": "Self-guided, digital interventions can help people change their personality traits in desired directions, including becoming less neurotic. However, little is known about how and why people differ in intervention-related changes. Theoretical models state that intentional personality change must be perceived as feasible and that being motivated to change is not sufficient to elicit lasting trait changes. Using a German-speaking sample (N = 446; M_age = 25.88; 85% female; Residence: 47% Switzerland, 26% Germany, 26% Austria, 1% Other), we tested whether self-efficacy and growth mindset predict change in multiple neuroticism measures across a 6-week intervention and 2-month follow-up. To isolate temporal processes during the intervention, we examined co-development of weekly neuroticism and self-efficacy and their week-to-week temporal associations. We found evidence for self-efficacy predicting differential neuroticism change but not for growth mindset. Participants with higher self-efficacy showed greater pre-post decreases in self-reported neuroticism and greater pre-post increases in emotional resilience than those with lower self-efficacy. At follow-up, participants with higher self-efficacy continued to improve more in neuroticism and emotional resilience. Last, higher self-efficacy in one week predicted lower neuroticism in the following week, and vice versa, independent of participants’ overall trajectories. In contrast, there was no consistent evidence for between-person co-development of weekly self-efficacy and neuroticism across the intervention. Findings support theoretical expectations that perceived feasibility is a precondition for neuroticism change and suggest possible reinforcement mechanisms between weekly self-efficacy and neuroticism. We discuss implications for theory and future intervention studies.",
-    "doi": "10.1037/pspp0000610",
+    "osf_id": "ybd85_v1",
+    "title": "Vaccination as Collective Action During a Pandemic: Evidence from 6.1 Million COVID-19 Vaccination Records in Denmark",
+    "date_created": "2026-07-28T08:26:11.887282",
+    "date_modified": "2026-07-28T21:54:37.911711",
+    "description": "Classical theories in health psychology explain individuals’ decisions about whether or not to engage in protective behavior such as vaccination during a health emergency as guided by trade-offs about personal risks and benefits. Yet, vaccinations involve a clear collective action component, where individuals can protect others by getting vaccinated, beyond the personal benefits. Following recent research, we develop the argument that individual differences in the motivation to engage in collective action should influence vaccination decisions during the most significant health emergency in the 21st century, the COVID-19 pandemic, above and beyond the predictors proposed by classical theories. We test this argument by combining survey observations from 380,516 unique Danish adults with population-wide registry data on COVID-19 vaccination status for 6.1 million individuals in Denmark, of whom 4.9 million received at least one vaccine dose. Using this unique data infrastructure, we compare classical psychological correlates of protective behavior with psychological measures of individual-differences in collective action motivation. The results demonstrate collective action motivation was more strongly associated with vaccination behavior than threat appraisal or coping appraisal across the vaccination sequence, spanning completion of the recommended primary vaccination course, booster receipt, time to full vaccination, and vaccination uptake among the children of survey respondents. Furthermore, high levels of collective action motivation strongly weakened the role of personal considerations that would otherwise deter vaccination uptake, both in terms of whether or not the individual gets vaccinated and how quickly the individual gets vaccinated. These findings provide important information on the prerequisites of successful vaccination campaigns during major health crises and how governments and authorities can facilitate them.",
+    "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
@@ -778,12 +278,8 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c27",
-          "text": "Intervention Research"
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
         }
       ],
       [
@@ -792,52 +288,20 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c3b",
-          "text": "Affect and Emotion Regulation"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c49",
-          "text": "Personality Processes"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c7a",
-          "text": "Interventions"
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/9rjux_v4/",
+    "link": "https://osf.io/preprints/psyarxiv/ybd85_v1/",
     "signal_score": 2
   },
   {
-    "osf_id": "vrh3w_v1",
-    "title": "Empirical Signatures of Choice-Induced Preference Change",
-    "date_created": "2026-07-28T13:16:03.357445",
-    "date_modified": "2026-07-28T15:22:32.572192",
-    "description": "Choice-induced preference change refers to the tendency for value estimates to differ after a choice relative to before it. Although this phenomenon is robust, the process that generates it remains debated. In this work, we reanalyzed pooled data from two previous studies to identify empirical signatures to serve as benchmarks for candidate process accounts of choice-induced preference change. We focused on three factors that are especially informative for theory: choice difficulty, deliberation time, and the attribute structure of the options. First, we reproduced the well-established finding that the spreading of alternatives is greater for more difficult choices. Second, we showed that its relationship with response time remains after controlling for difficulty, indicating that the relationship with deliberation time is not reducible to initial value difference alone. Third, we found that preference change depends not only on overall value difference but also on how the options differ in terms of their attributes, with stronger effects for choices laden with tradeoffs than for cases of simple dominance. Together, these results indicate that choice-induced preference change is tied to deliberation itself rather than to a post hoc or artifactual revision of fixed values. The findings are compatible with both value-refinement and coherence-based reasoning accounts in some respects, but they also constrain both by showing that preference change depends jointly on difficulty, deliberation time, and attribute structure.",
+    "osf_id": "f9mnb_v1",
+    "title": "Facial expression synchrony is associated with neural synchrony during mother-infant interactions",
+    "date_created": "2026-07-27T08:41:42.749871",
+    "date_modified": "2026-07-28T19:55:12.126898",
+    "description": "Social interactions depend on the temporal coordination of multiple behavioral and neural processes. This coordination, known as interpersonal synchrony, is thought to support communication and shared understanding, yet how different synchrony modalities relate to one another remains unclear. Here we examined facial expression and neural synchrony during naturalistic play in 86 mother–infant dyads (infant age 7.4 months). Facial expression synchrony was quantified using automated facial action unit coding and windowed cross-lagged correlations, while neural synchrony was assessed using functional near-infrared spectroscopy and wavelet-transform coherence across prefrontal and temporo-parietal regions. Mothers and infants showed strong facial expression synchrony, during approximately 40 % of the interaction and consistent neural synchrony across cortical regions. The two synchrony modalities were related, but associations were localized and bidirectional, suggesting that synchrony across modalities does not arise from a single underlying process. Instead, synchrony may emerge from multiple interacting systems that support flexible social exchange.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -847,10 +311,43 @@
           "text": "Neuroscience"
         },
         {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
+          "id": "5b4e7425c6983001430b6c1d",
+          "text": "Developmental Neuroscience"
         }
       ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c37",
+          "text": "Infancy"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/f9mnb_v1/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "cykfe_v3",
+    "title": "Signaling social identity in referential communication",
+    "date_created": "2026-07-28T01:28:41.975086",
+    "date_modified": "2026-07-28T20:04:41.666325",
+    "description": "Any choice of words simultaneously conveys information about the world and, at the same time, conveys information about the speaker, revealing aspects of their social identity. In this paper, we investigate how speakers strategically modify referential language to signal group membership. Across four experiments using a minimal referential communication paradigm, we find that speakers with the explicit goal of signaling social affiliation (1) choose more concise utterances, (2) preferentially select group-specific referents and descriptions, and (3) resist the otherwise strong tendency to be understood by everyone in the audience. Standard models of referential communication that focus on the trade-off between informativity and efficiency cannot explain these patterns; we argue instead for a model where speakers trade off the referential utility of being understood against the social utility of being identified as an in-group member.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -861,138 +358,12 @@
           "text": "Cognitive Psychology"
         },
         {
-          "id": "5b4e7429c6983001430b6cfb",
-          "text": "Judgment and Decision Making"
+          "id": "5b4e7429c6983001430b6d01",
+          "text": "Language"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/vrh3w_v1/",
-    "signal_score": 2
-  },
-  {
-    "osf_id": "rtkqu_v4",
-    "title": "The Morality-Effectiveness Disconnect of Pro-environmental Behaviors",
-    "date_created": "2026-07-27T17:31:59.611168",
-    "date_modified": "2026-07-28T07:37:48.796335",
-    "description": "Not all pro-environmental behaviors are created equal—some are vastly more effective at mitigating climate change than others. Do people judge the more effective behaviors as proportionally more moral? Five main and six supplemental studies (N = 9,247) across five countries reveal a robust morality-effectiveness disconnect: pro-environmental behaviors that rank better on objective climate-mitigation potential rank worse on individual moral judgments. Laypeople fail to predict this pattern, believing that a positive relationship exists. Further, labeling behaviors by climate impact category reduces the morality-effectiveness disconnect, and detailed impact information reverses it and increases policy endorsement of more effective behaviors over less effective behaviors. While the disconnect primarily stems from effectiveness misperceptions that accurate information can mitigate, we find that personal support for less effective behaviors plays an additional role. Thus, people's moral intuition for climate action appears miscalibrated: moral cognition can undermine the collective welfare that such cognition should presumably promote.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c56",
-          "text": "Environmental Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/rtkqu_v4/",
-    "signal_score": 2
-  },
-  {
-    "osf_id": "q27wk_v2",
-    "title": "Assessment of food cravings and food addiction",
-    "date_created": "2026-07-27T17:34:55.930016",
-    "date_modified": "2026-07-28T11:36:51.686310",
-    "description": "This chapter briefly defines the terms food craving and food addiction and describes the most common assessment methods. These include self-report instruments such as the Food Cravings Questionnaires, the Food Craving Inventory, the Craving Experience Questionnaire, and the Yale Food Addiction Scale as well as interview measures such as the Food Addiction Symptom Inventory. It concludes by highlighting the overlaps between food craving measures and measures of food addiction as well as related constructs.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c28",
-          "text": "Feeding and Eating Disorders"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/q27wk_v2/",
-    "signal_score": 2
-  },
-  {
-    "osf_id": "e3n4g_v1",
-    "title": "Reading Tiramisu in Czech and English: Robust Processing Speed Differences in Translation Equivalent Stimuli",
-    "date_created": "2026-07-27T18:11:01.120547",
-    "date_modified": "2026-07-28T11:39:15.578431",
-    "description": "Cross-linguistic studies of reading have documented broad similarities across languages, yet the extent to which first-language (L1) reading processes differ once structural confounds are minimized remains unclear. We conducted self-paced reading experiments in English and Czech using tightly aligned translation-equivalent sentences, enabling a direct comparison of L1 reading under parallel input conditions. Matched groups of English and Czech L1 speakers (N = 176 per language) showed near-identical comprehension accuracy but robust differences in processing speed: reaction times (RTs) were reliably faster in English than in Czech, a pattern that persisted after controlling for word length and surprisal. At the same time, the effects of classical predictors such as length and surprisal were directionally similar across languages, consistent with universal reading mechanisms. Our analyses suggest two complementary explanations for the observed cross‑linguistic differences. First, Czech exhibits higher information density than English, which—under conditions that prevent skipping and regressions—manifests as slower per‑word reading. Second, surprisal was distributed differently across the two languages: in Czech, surprisal was markedly higher at sentence onset and decreased more steeply over word position, amplifying early‑sentence processing demands. These findings indicate that while core reading processes are universal, language‑specific typological properties shape how information is packaged and distributed across the sentence, yielding systematic cross‑linguistic differences in processing speed. The results parallel cross-linguistic findings on speech rate and support an emerging framework in which reading adapts to the informational structure of the language being processed.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c62",
-          "text": "Linguistics"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd2",
-          "text": "Psycholinguistics and Neurolinguistics"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/e3n4g_v1/",
-    "signal_score": 1
-  },
-  {
-    "osf_id": "vxbt3_v1",
-    "title": "Toward a Unified Perspective on Content Analysis",
-    "date_created": "2026-07-27T20:11:11.518712",
-    "date_modified": "2026-07-28T11:48:16.846450",
-    "description": "Content analysis, the practice of inferring individual difference characteristics from text data, is an important research technique across the behavioral and social sciences. The methods used to conduct it, however, are strikingly heterogenous, reflecting three distinct approaches: human-centered, dictionary-centered, and machine-learning centered. Currently, the utility of content analysis is hindered by a lack of clarity regarding how reliable, valid, and generalizable the outputs from each of these approaches are. This paper examines a cross-section of research on each approach to content analysis, evaluating each approach from the perspective of psychological measurement. Drawing on classical test theory, generalizability theory, latent variable theory, and cognitive psychometrics, I identify some potential sources of variance that shape content-analytic results. I then investigate the reliability of each approach and offer practical recommendations for future research concerning the specific situations where each approach is most appropriate. This paper suggests that the field would benefit from more theoretical cross-fertilization across camps of content analytic research practice, as well as additional work investigating the measurement processes involved in content analysis more generally. It also consolidates the essential elements of different styles of content analytic research practice and sheds light on content analysis’s strengths and limitations.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/vxbt3_v1/",
+    "link": "https://osf.io/preprints/psyarxiv/cykfe_v3/",
     "signal_score": 1
   }
 ]
