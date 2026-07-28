@@ -1,99 +1,45 @@
 {
-  "evaluated": 2,
-  "accepted": 0,
-  "rejected": 2,
+  "evaluated": 5,
+  "accepted": 1,
+  "rejected": 4,
   "errors": 0,
-  "skipped": 13,
+  "skipped": 0,
   "deferred": 0,
   "results": [
     {
-      "osf_id": "dy2nh_v1",
-      "title": "Cognitive functions in childhood apraxia of speech: A scoping review",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "5dy97_v2",
-      "title": "Testing the impact of filtering harmful posts: A randomized-controlled trial wit",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "s82jd_v1",
-      "title": "Meditation Fosters Bonding and Cooperation with Humanity and All Forms of Life",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "4d2z7_v1",
-      "title": "Self-Construal, Sense of Belonging, Perceived Match, and Persistence Intentions:",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "p3xy4_v3",
-      "title": "Interpreting FMS and SSQ Cybersickness Ratings via User Tolerance in Virtual Rea",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "b9e2s_v1",
-      "title": "Learning Goals and Listening in Polarized Conversations: A Test Across Four Labs",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "y825d_v1",
-      "title": "Measuring Reputation and Identity Effects in Multiple Rater Assessments: Guideli",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "he9ru_v1",
-      "title": "La reconnaissance des mots dans la parole accentu\u00e9e : Une \u00e9tude en laboratoire e",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "b8arf_v1",
-      "title": "National Predictors of Conspiracy Beliefs: A Machine Learning Analysis of Cross-",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "5c7fb_v2",
-      "title": "High-frequency visual stimulation can increase medial temporal lobe ripple oscil",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "q5jrn_v1",
-      "title": "Word-Level Measures of Syntactic Complexity in Sentence Processing: An Organizin",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "spw7e_v2",
-      "title": "The Lyric Focus Questionnaire (LFQ):  Measuring Individual Differences in Song L",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "qkp75_v1",
-      "title": "Creativity Geometry: Recursive Creative Self-Improvement Through System-3 Metaco",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "vzkdp_v2",
-      "title": "Enacting Open Science Values in Qualitative Leadership Research: Existing Practi",
+      "osf_id": "gnw89_v1",
+      "title": "Designing Digital Games to Foster Growth Mindset in PreK\u201312 Education: A Systema",
       "decision": "reject",
-      "reason": "low signal score (1)",
+      "reason": "This paper focuses on digital games for educational purposes in preK-12 settings, which falls under education rather than clinical psychology. While growth mindset is a psychological concept, the application described is educational rather than clinical, with no focus on therapy, assessment, diagnosis, psychopathology, or mental health interventions for clinical populations.",
       "category": null
     },
     {
-      "osf_id": "8x37h_v1",
-      "title": "Synthetic survey participants cannot substitute for sample diversity in policy",
+      "osf_id": "9td6s_v1",
+      "title": "Beyond the Microbiome: Neuroimaging and the Role of Gut Motility in Gut-Brain In",
+      "decision": "accept",
+      "reason": "The paper examines gut-brain interactions through neuroimaging approaches, which has direct relevance to psychophysiology, somatic symptoms, and mental health outcomes in clinical psychology practice.",
+      "category": "Somatic & Functional",
+      "number": 731,
+      "authors": "Zeynep Ert\u00fcrk; Klara Nielsen; Leah Banellis; Henrik M. Roager; Anke Ninija Karabanov",
+      "curated": true
+    },
+    {
+      "osf_id": "zsm6r_v1",
+      "title": "When Does Prayer Promote Flourishing? Attachment, Prayer Profiles, and Psycholog",
+      "decision": "reject",
+      "reason": "The paper focuses on prayer and spirituality, which are not core clinical psychology topics. While it examines psychological outcomes like flourishing, the primary focus is on religious/spiritual practices rather than clinical interventions, assessment, diagnosis, or psychopathology. The sample is drawn from a religious population studying prayer profiles, which doesn't align with the clinical psychology practice relevance criteria.",
+      "category": null
+    },
+    {
+      "osf_id": "bj7r5_v1",
+      "title": "Differential modulation of temporal precision and perceived timing by tactile sp",
+      "decision": "reject",
+      "reason": "This paper focuses on basic cognitive psychology research about tactile perception and temporal processing, with no clear application to clinical psychology practice, assessment, diagnosis, or mental health interventions.",
+      "category": null
+    },
+    {
+      "osf_id": "74rjv_v2",
+      "title": "Mouse cursor tracking contributes to the psychological validation of the drift d",
       "decision": "reject",
       "reason": "low signal score (1)",
       "category": null

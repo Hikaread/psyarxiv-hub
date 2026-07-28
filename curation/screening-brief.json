@@ -1,114 +1,44 @@
 {
-  "discovered": 17,
-  "alreadyExisting": 1,
+  "discovered": 8,
+  "alreadyExisting": 2,
   "hardExcluded": 0,
   "lowSignal": 1,
-  "candidates": 15,
+  "candidates": 5,
   "candidates_list": [
     {
-      "osf_id": "dy2nh_v1",
-      "title": "Cognitive functions in childhood apraxia of speech: A scoping review",
-      "date_created": "2026-07-27T13:44:27.566932",
-      "signal_score": 6,
-      "description_preview": "Purpose: Children with childhood apraxia of speech (CAS) often have co-occurring difficulties in language, learning, motor, and sensory function, but the neurological bases of the disorder are debated"
-    },
-    {
-      "osf_id": "5dy97_v2",
-      "title": "Testing the impact of filtering harmful posts: A randomized-controlled trial with 100.000 users on Nextdoor",
-      "date_created": "2026-07-27T11:07:52.146350",
-      "signal_score": 4,
-      "description_preview": "We investigate the effectiveness of an intervention designed to filter offensive content on the local social media platform Nextdoor. The intervention, commonly used across large social platforms, was"
-    },
-    {
-      "osf_id": "s82jd_v1",
-      "title": "Meditation Fosters Bonding and Cooperation with Humanity and All Forms of Life",
-      "date_created": "2026-07-27T14:24:30.185926",
-      "signal_score": 4,
-      "description_preview": "Altruism in social species, including humans, typically favors genetically close individuals. But humans also show altruism toward non-related individuals who share religious beliefs, ethnic origins, "
-    },
-    {
-      "osf_id": "4d2z7_v1",
-      "title": "Self-Construal, Sense of Belonging, Perceived Match, and Persistence Intentions: Exploring Intersecting Identities and M",
-      "date_created": "2026-07-27T14:33:33.492805",
-      "signal_score": 4,
-      "description_preview": "Prior research has examined the relationships among self-construal, sense of belonging, perceived match, persistence intentions, and demographic factors. However, investigations often overlook the int"
-    },
-    {
-      "osf_id": "p3xy4_v3",
-      "title": "Interpreting FMS and SSQ Cybersickness Ratings via User Tolerance in Virtual Reality",
-      "date_created": "2026-07-27T15:35:33.209057",
-      "signal_score": 4,
-      "description_preview": "Cybersickness remains a persistent challenge limiting the usability of virtual reality (VR), yet commonly used subjective measures such as the Simulator Sickness Questionnaire (SSQ) and the Fast Motio"
-    },
-    {
-      "osf_id": "b9e2s_v1",
-      "title": "Learning Goals and Listening in Polarized Conversations: A Test Across Four Labs",
-      "date_created": "2026-07-27T06:24:50.027176",
+      "osf_id": "gnw89_v1",
+      "title": "Designing Digital Games to Foster Growth Mindset in PreK–12 Education: A Systematic Review",
+      "date_created": "2026-07-26T17:36:29.718553",
       "signal_score": 3,
-      "description_preview": "Disagreements often feel threatening, leading people to respond defensively, which can intensify both attitude and social polarization. High-quality listening is a key strategy thought to reduce polar"
+      "description_preview": "Background: A growth mindset refers to the belief that abilities and intelligence can be developed through effort, learning, and persistence. Although digital games are often associated with motivatio"
     },
     {
-      "osf_id": "y825d_v1",
-      "title": "Measuring Reputation and Identity Effects in Multiple Rater Assessments: Guidelines for Specifying Trait Reputation Iden",
-      "date_created": "2026-07-27T10:32:55.280627",
+      "osf_id": "9td6s_v1",
+      "title": "Beyond the Microbiome: Neuroimaging and the Role of Gut Motility in Gut-Brain Interactions",
+      "date_created": "2026-07-26T17:47:50.246937",
       "signal_score": 3,
-      "description_preview": "Multirater assessments are widely used in psychology to seperate what targets report about themselves from what others perceive about them. The Trait–Reputation–Identity (TRI) model provides a promine"
+      "description_preview": "Bidirectional communication between the gut and the brain has emerged as a major research focus in recent years, accompanied by increasing use of neuroimaging approaches to investigate how variation i"
     },
     {
-      "osf_id": "he9ru_v1",
-      "title": "La reconnaissance des mots dans la parole accentuée : Une étude en laboratoire et à l’extérieur.",
-      "date_created": "2026-07-27T09:34:13.283785",
+      "osf_id": "zsm6r_v1",
+      "title": "When Does Prayer Promote Flourishing? Attachment, Prayer Profiles, and Psychological Flourishing",
+      "date_created": "2026-07-26T21:53:12.121956",
+      "signal_score": 3,
+      "description_preview": "Prayer is among the most prevalent human behaviors, yet its psychological benefits are inconsistently documented. Most research relies on unidimensional measures and overlooks the relational dynamics "
+    },
+    {
+      "osf_id": "bj7r5_v1",
+      "title": "Differential modulation of temporal precision and perceived timing by tactile spatial and temporal context",
+      "date_created": "2026-07-26T15:28:37.599775",
       "signal_score": 2,
-      "description_preview": "Mispronunciations slow down word recognition: A study using touchscreens in the lab and the real world. Recent work suggests that children and adults are initially delayed when exposed to an accented "
+      "description_preview": "Perception of sensory events depends not only on the stimulus itself but also on the surrounding spatial and temporal context. While contextual interactions have been extensively studied in vision, le"
     },
     {
-      "osf_id": "b8arf_v1",
-      "title": "National Predictors of Conspiracy Beliefs: A Machine Learning Analysis of Cross-Country Data",
-      "date_created": "2026-07-27T10:16:29.580456",
-      "signal_score": 2,
-      "description_preview": "Conspiracy beliefs vary widely across nations, yet their societal predictors remain poorly understood. Applying machine-learning meta-analytic techniques, we simultaneously examined 18 national-level "
-    },
-    {
-      "osf_id": "5c7fb_v2",
-      "title": "High-frequency visual stimulation can increase medial temporal lobe ripple oscillation density",
-      "date_created": "2026-07-27T13:00:46.711953",
-      "signal_score": 2,
-      "description_preview": "Background: Flickering visual stimulation can evoke neural oscillations, which can influence ongoing brain activity. Electrophysiological recordings of neural oscillations in the ripple band (80-180 H"
-    },
-    {
-      "osf_id": "q5jrn_v1",
-      "title": "Word-Level Measures of Syntactic Complexity in Sentence Processing: An Organizing Review",
-      "date_created": "2026-07-27T03:02:14.294522",
+      "osf_id": "74rjv_v2",
+      "title": "Mouse cursor tracking contributes to the psychological validation of the drift diffusion model",
+      "date_created": "2026-07-25T20:56:29.435321",
       "signal_score": 1,
-      "description_preview": "The recent adoption of naturalistic paradigms in the psychology and neuroscience of language has necessitated methods for quantifying incremental syntactic processing complexity. However, there is lit"
-    },
-    {
-      "osf_id": "spw7e_v2",
-      "title": "The Lyric Focus Questionnaire (LFQ):  Measuring Individual Differences in Song Listening",
-      "date_created": "2026-07-27T14:59:25.983358",
-      "signal_score": 1,
-      "description_preview": "Recent years have seen a significant increase in the use of songs, which contain an integrated music/language signal, as experimental stimuli. This has created a need for standardized tools to measure"
-    },
-    {
-      "osf_id": "qkp75_v1",
-      "title": "Creativity Geometry: Recursive Creative Self-Improvement Through System-3 Metacognitive Scaffolding",
-      "date_created": "2026-07-27T15:06:05.202156",
-      "signal_score": 1,
-      "description_preview": "Human creative cognition and frontier artificial intelligence increasingly confront the same higher-order problem: how to generate possibilities, evaluate them, integrate feedback, preserve meaningful"
-    },
-    {
-      "osf_id": "vzkdp_v2",
-      "title": "Enacting Open Science Values in Qualitative Leadership Research: Existing Practices and Future Directions",
-      "date_created": "2026-07-27T17:19:06.212492",
-      "signal_score": 1,
-      "description_preview": "The open science movement has gained considerable momentum in advancing the transparency, credibility, and rigor of scientific research across disciplines. Within this broader landscape, leadership sc"
-    },
-    {
-      "osf_id": "8x37h_v1",
-      "title": "Synthetic survey participants cannot substitute for sample diversity in policy",
-      "date_created": "2026-07-27T21:53:15.277995",
-      "signal_score": 1,
-      "description_preview": "Synthetic survey participants generated by large language models (LLMs) have recently been promoted as a means of reaching diverse and underrepresented populations in policy research. We argue that th"
+      "description_preview": "As a well-established cognitive model of human decision-making, the drift diffusion model (DDM) offers a psychologically intuitive account of the decision-making process by virtue of its four basic pa"
     }
   ]
 }
