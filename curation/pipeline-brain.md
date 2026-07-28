@@ -1,9 +1,9 @@
 # Pipeline Brain
 
 ## Current State
-- Papers: 727
-- Seen IDs: 2762
-- Last run: 2026-07-27 10:24
+- Papers: 730
+- Seen IDs: 2779
+- Last run: 2026-07-28 12:00
 
 ## Script Locations (CRITICAL)
 - **evaluate-candidates.py**: `/home/z/my-project/psyarxiv-hub/scripts/evaluate-candidates.py` (git-tracked, survives wipes)
@@ -45,4 +45,4 @@
 | 07-24 | Paragraph breaks in prompt | LLM prompt instructs \\n\\n for summary/clinical_insight |
 | 07-25 | Strengthened bold in prompt | MANDATORY: 6+ bold items per summary, 2+ in clinical_insight |
 | 07-25 | Updated Discord output format | Each paper on own line, full title |
-| 07-27 | Moved eval/og scripts into git repo | /home/z/my-project/scripts/ gets wiped; repo is persistent |
+| 07-28 | Fixed re-eval loop | Added load_discarded_ids() so rejected papers are skipped on subsequent runs |
