@@ -1,25 +1,35 @@
 [
   {
-    "osf_id": "84rfs_v1",
-    "title": "Cognitive Function and Return to Work: Protocol for a Longitudinal Study Investigating Cognitive Endurance in Stress-Related Disorders",
-    "date_created": "2026-07-27T07:59:23.522378",
-    "date_modified": "2026-07-27T17:45:44.526612",
-    "description": "Introduction: Patients with long-term stress-related disorders report cognitive symptoms across a broad range of domains; however, neuropsychological test results often do not align with these self-reported cognitive difficulties. One potential explanation for this discrepancy is that patients may perform well during a single, undisturbed test session but have difficulties sustaining cognitive performance over time following prolonged mental effort, which can be conceptualized as reduced cognitive endurance. This may have implications for work participation and hinder return to work unless adequately addressed. \n\nMethods and analysis: This study protocol describes a longitudinal study aimed at investigating cognitive endurance in patients with long-term stress-related disorders. Moreover, we will explore the association between cognitive endurance and each of the following variables: self-reported fatigue and cognitive function, self-assessed work ability, and return to work. Sixty patients with long-term stress-related disorders will be recruited from a nonrandomized multicentre controlled trial evaluating work-focused cognitive behavioural therapy in a primary healthcare setting. Sixty healthy controls will be recruited through advertisement. Cognitive endurance is assessed through repeated cognitive testing in the morning and afternoon of a regular working day, at two time points: baseline and six months after study enrolment. The cognitive tests focus on short-term and working memory, attention and processing speed, and executive functions. Prior to the assessments, participants complete questionnaires concerning trait fatigue, self-reported cognitive function and work ability. Moreover, state fatigue is assessed through self-report questionnaires administered during the assessment day. Sick-leave registry data is used to investigate return to work for the patient group. The study evaluates a novel method for assessing cognitive functioning in stress-related dis",
+    "osf_id": "dy2nh_v1",
+    "title": "Cognitive functions in childhood apraxia of speech: A scoping review",
+    "date_created": "2026-07-27T13:44:27.566932",
+    "date_modified": "2026-07-27T20:41:08.087228",
+    "description": "Purpose: Children with childhood apraxia of speech (CAS) often have co-occurring difficulties in language, learning, motor, and sensory function, but the neurological bases of the disorder are debated. A domain-general theory suggests that CAS may involve cognitive domains beyond motor-speech function. The purpose of this scoping review is to evaluate the state of the evidence describing cognitive functions in CAS and identify gaps to guide future research in elucidating the nature of the disorder.  \n\nMethod: The Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for scoping reviews (PRISMA-ScR) guidelines were used. Five databases were searched to identify articles, supplemented with citation chasing. Included articles were charted by purpose, design, and CAS diagnostic confidence.  \n\nResult: Seventeen articles published between 1979 and 2022 met inclusion criteria following full-text review. Studies primarily examined sequential processing, procedural learning, working memory, and executive function. Most studies used comparative designs. Across studies, participants with CAS demonstrated difficulties on cognitive tasks compared to controls or normative data. Variability in participants, measures, methodology, and diagnostic confidence limits the generalizability of findings.  \n\nDiscussion: Despite methodological variability, findings broadly support the investigation of domain-general cognitive mechanisms in CAS. Further research using replication, longitudinal designs, and ecologically valid assessments is needed to delineate the relationship between CAS and cognitive functioning.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1d",
+          "text": "Developmental Neuroscience"
+        }
+      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
         },
         {
-          "id": "5b4e7425c6983001430b6c33",
-          "text": "Mental Disorders"
+          "id": "5b4e7426c6983001430b6c63",
+          "text": "Cognitive Development"
         }
       ],
       [
@@ -30,46 +40,97 @@
         {
           "id": "5b4e7427c6983001430b6c8c",
           "text": "Cognitive Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca7",
-          "text": "Assessment"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c93",
-          "text": "Health Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cdd",
-          "text": "Stress"
+          "id": "5b4e7429c6983001430b6d01",
+          "text": "Language"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/84rfs_v1/",
-    "signal_score": 8
+    "link": "https://osf.io/preprints/psyarxiv/dy2nh_v1/",
+    "signal_score": 6
   },
   {
-    "osf_id": "nmbg7_v1",
-    "title": "Partner Responsiveness and Insensitivity Predict Emotion Regulation Flexibility in Parent-Adolescent Dyads: A Daily Diary Investigation",
-    "date_created": "2026-07-26T08:18:51.052818",
-    "date_modified": "2026-07-27T17:34:18.421995",
-    "description": "This study examined how perceived partner responsiveness (PPR) and insensitivity (PPI) predict daily emotion regulation (ER) flexibility, operationalized via the maladaptive ER ratio. Adolescents (N = 112, 12–18 years) and caregivers (N = 108, 33–64 years) dyads completed 28-day diaries. Actor-Partner Interdependence Model (APIM) analyses showed that actor (between and within person) PPR predicted higher ER flexibility, whereas actor PPI predicted lower ER flexibility (ps &lt; .038). Partner higher daily PPR predicted higher ER flexibility (p = .040). Furthermore, role (adolescent/caregiver) moderated the actor daily PPR effect (p = .037) and the partner daily PPI effect (p = .007), revealing distinct relational daily dynamics across roles. These findings highlight how interpersonal attachment perceptions shape daily family ER flexibility.",
+    "osf_id": "5dy97_v2",
+    "title": "Testing the impact of filtering harmful posts: A randomized-controlled trial with 100.000 users on Nextdoor",
+    "date_created": "2026-07-27T11:07:52.146350",
+    "date_modified": "2026-07-27T20:35:11.859139",
+    "description": "We investigate the effectiveness of an intervention designed to filter offensive content on the local social media platform Nextdoor. The intervention, commonly used across large social platforms, was tested through a randomized controlled trial involving 100,000 people over nine months. We evaluated whether filtering content impacted fifteen different measures of platform behavior including views of offensive posts, visits to the platform, content consumption, and content production. This randomized-controlled experiment was an advanced followup-study of a Nextdoor-study (Katsaros et al., 2023) conducted a year before, showing mostly null effects of the intervention. In this study, the results showed a significant reduction in two target outcomes - views of offensive posts and comments - in the treatment group compared to the control group. However, as in the past Nextdoor-experiment, we observed no significant effects of the intervention on the thirteen measured outcomes between groups. This study provides empirical evidence on the impact of a prominent and commonly used intervention and highlights its limitation, demonstrating the complexity of effectively moderating online platforms.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c1a",
+          "text": "Engineering Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c42",
+          "text": "Consumer Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c78",
+          "text": "Nudges"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c56",
+          "text": "Environmental Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cc6",
+          "text": "Natural Environments"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c42",
+          "text": "Consumer Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6ccd",
+          "text": "Experimental Economics"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c42",
+          "text": "Consumer Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd4",
+          "text": "Behavioral Economics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/5dy97_v2/",
+    "signal_score": 4
+  },
+  {
+    "osf_id": "s82jd_v1",
+    "title": "Meditation Fosters Bonding and Cooperation with Humanity and All Forms of Life",
+    "date_created": "2026-07-27T14:24:30.185926",
+    "date_modified": "2026-07-27T20:43:59.249509",
+    "description": "Altruism in social species, including humans, typically favors genetically close individuals. But humans also show altruism toward non-related individuals who share religious beliefs, ethnic origins, or national identities. This study explores whether Buddhist contemplative training fosters identity fusion—a strong, kin-like psychological bond—with humanity at large and all forms of life on Earth. In a cross-sectional design, 418 Buddhist meditation practitioners and 418 age and gender-matched non-practitioners completed measures of identity fusion and related mechanisms, such as perceived shared biology and empathy-related affective states. Participants also performed a semi-hypothetical donation task. Results showed that practitioners reported significantly higher identity fusion with both humans and animals and made larger donations to humanitarian and animal-protection charities. Meditation impacted underlying mechanisms differently: perceived shared biology increased more for animals, while empathy-related states increased more for humans. Both mechanisms mediated the link between contemplative practice and identity fusion. In turn, identity fusion partially mediated the relationship between meditation and charitable giving, suggesting that fusion with the target group influenced altruistic behavior. These findings suggest that contemplative training may help to extend the cooperative benefits of identity fusion with unrelated individuals, and even with other species.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -79,32 +140,73 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c9a",
+          "text": "Self and Social Identity"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb0",
+          "text": "Intergroup Processes"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/nmbg7_v1/",
-    "signal_score": 5
+    "link": "https://osf.io/preprints/psyarxiv/s82jd_v1/",
+    "signal_score": 4
   },
   {
-    "osf_id": "fx9yv_v2",
-    "title": "How and for Whom Do Perinatal Depression Interventions Work in LMICs? A Causal Inference and Machine Learning Analysis of Socioeconomic and Psychosocial Drivers",
-    "date_created": "2026-07-26T17:48:33.525903",
-    "date_modified": "2026-07-27T16:12:32.456377",
-    "description": "Background: Randomised trials evaluating psychological interventions for perinatal depression (PND) in low- and middle-income countries (LMICs) frequently provide conflicting findings. To optimise global maternal mental health interventions, we applied robust causal inference and causal machine learning approaches to individual participant data (IPD) to identify underlying causal mechanisms and responsive subgroups.\nMethods: We searched MEDLINE, Embase, PsycINFO, CINAHL, Web of Science, and the Cochrane Library from inception to November 19, 2025, for trials assessing the effectiveness of psychological interventions to treat PND. Using IPD, we assessed treatment effect heterogeneity using causal forests, and evaluated causal mechanisms using interventional effects for individual trials and across relevant pooled datasets.\nFindings: Seven of 11 eligible studies provided IPD, yielding a pooled sample of 3,154 participants (1,700 intervention, 1,454 control). Heterogeneity analyses of all trials demonstrated top responders presented with higher baseline depression and lower education. A four-study subset incorporating social determinants revealed those with lower perceived social support and education responded best. This four-study subset comprised two two-trial subsets: one delivered by community health workers (CHWs) and one by peers. In the CHW-delivered subset, top responders were similar to the four-study subset; however, within the peer-delivered subset, this effect was negligible. Causal mediation analyses of the four trials revealed social support mediated a 15% symptom reduction. The two-trial CHW subset indicated social support and reduced food insecurity mediated 15% and 3% improvements, respectively. Furthermore, a specific two-trial subset indicated behavioural activation and social support mediated improvements of 32% and 17%.\nInterpretation: Despite interventions effectively targeting perceived social support, trials capturing food insecurity demonstrat",
+    "osf_id": "4d2z7_v1",
+    "title": "Self-Construal, Sense of Belonging, Perceived Match, and Persistence Intentions: Exploring Intersecting Identities and Moderation Effects",
+    "date_created": "2026-07-27T14:33:33.492805",
+    "date_modified": "2026-07-27T20:45:52.486185",
+    "description": "Prior research has examined the relationships among self-construal, sense of belonging, perceived match, persistence intentions, and demographic factors. However, investigations often overlook the intersecting identities of race, gender, and generation status. Furthermore, little is known about how these demographic factors moderate the relationship between these psychosocial factors and persistence intentions. This study explored self-construal, perceived match, sense of belonging, and persistence intentions at the intersection of race, gender, and generation status. We also examined how these characteristics influence the relationship between these psychosocial factors and persistence intentions. Participants were introductory psychology students (N = 1,496). Three-way ANOVAs revealed one significant three-way interaction for interdependent self-construal, favoring Hispanic continuing-generation (CG) female students over Hispanic CG males, albeit with a small effect size. Additionally, moderation analysis revealed that independent self-construal more strongly influenced persistence intentions among first-generation students than CG students. Theoretical and practical implications of the findings are discussed.",
+    "doi": "10.1177/152102512614251",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/4d2z7_v1/",
+    "signal_score": 4
+  },
+  {
+    "osf_id": "p3xy4_v3",
+    "title": "Interpreting FMS and SSQ Cybersickness Ratings via User Tolerance in Virtual Reality",
+    "date_created": "2026-07-27T15:35:33.209057",
+    "date_modified": "2026-07-27T20:48:21.971132",
+    "description": "Cybersickness remains a persistent challenge limiting the usability of virtual reality (VR), yet commonly used subjective measures such as the Simulator Sickness Questionnaire (SSQ) and the Fast Motion Sickness (FMS) scale are often difficult to interpret in terms of user outcomes. In particular, there is limited guidance on how specific values on these scales relate to user tolerance or the likelihood that users will discontinue a VR experience due to discomfort. This work addresses this gap by calibrating cybersickness severity interpretations against early termination of a VR experience. In Study 1 (N = 183), participants played an immersive VR game for up to 20 minutes and were free to terminate the experience at any time. Using a Behavioral Risk Banding (BRB) framework, logistic regression linked a modified 0-10 version of the FMS (FMS-10) and post-exposure SSQ scores to dropout probability, yielding behaviorally grounded risk severity bands (mild, moderate, severe, extreme). Survival analyses then showed how these bands mapped onto tolerance over time, revealing a transitional region marked by heightened individual variability. Study 2 (N = 304) evaluated the robustness of these categories across variation in VR content and mitigation context by applying the Study 1 thresholds without re-estimation. Although absolute dropout risk varied, the ordering and behavioral meaning of severity categories were preserved. Together, these results provide a practical, behaviorally grounded framework for interpreting cybersickness ratings in terms of user tolerance and usability across VR contexts.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
         {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
+          "id": "5b4e7424c6983001430b6c1a",
+          "text": "Engineering Psychology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/fx9yv_v2/",
-    "signal_score": 5
+    "link": "https://osf.io/preprints/psyarxiv/p3xy4_v3/",
+    "signal_score": 4
   },
   {
     "osf_id": "b9e2s_v1",
@@ -130,69 +232,11 @@
     "signal_score": 3
   },
   {
-    "osf_id": "gnw89_v1",
-    "title": "Designing Digital Games to Foster Growth Mindset in PreK–12 Education: A Systematic Review",
-    "date_created": "2026-07-26T17:36:29.718553",
-    "date_modified": "2026-07-27T16:11:09.095929",
-    "description": "Background: A growth mindset refers to the belief that abilities and intelligence can be developed through effort, learning, and persistence. Although digital games are often associated with motivational and learning benefits, little is known about how they are intentionally designed to foster growth mindset in preK–12 learners. Understanding how growth mindset principles are operationalized within game mechanics and learning environments is critical for advancing both theory and practice in serious game design.\nPurpose: This systematic review synthesizes how digital games have been designed and implemented to promote growth mindset in preK–12 education and examines associated student outcomes and future research directions.\nMethod: Following PRISMA guidelines, we screened 2,063 records across multiple databases and included 12 empirical studies that explicitly integrated growth-mindset-supportive design elements into digital games. Data were extracted and analyzed to identify trends in study design, targeted competencies, reported effects, and specific game design features.\nResults: Most reviewed studies reported positive effects on growth mindset and related competencies (e.g., persistence, creativity, self-efficacy), although some showed mixed or non-significant effects linked to design quality or implementation context. Two overarching design categories emerged: direct supports (e.g., explicit mindset instruction and effort-based rewards) and indirect supports (e.g., adaptive challenges, scaffolding, and mastery-oriented gameplay).\nConclusion: Well-designed digital games hold promise for fostering growth mindset in preK–12 contexts. However, the evidence base remains limited, highlighting the need for more rigorous research designs, longer-term interventions, and deeper theoretical integration to inform scalable and effective game-based mindset interventions.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c21",
-          "text": "Life Sciences"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8b",
-          "text": "Educational Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca0",
-          "text": "Evolution"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/gnw89_v1/",
-    "signal_score": 3
-  },
-  {
-    "osf_id": "9td6s_v1",
-    "title": "Beyond the Microbiome: Neuroimaging and the Role of Gut Motility in Gut-Brain Interactions",
-    "date_created": "2026-07-26T17:47:50.246937",
-    "date_modified": "2026-07-27T16:13:19.914830",
-    "description": "Bidirectional communication between the gut and the brain has emerged as a major research focus in recent years, accompanied by increasing use of neuroimaging approaches to investigate how variation in gut microbial composition relates to brain activity, connectivity, and behavior in humans.  In contrast, significantly less human neuroimaging data has examined how the brain contributes to regulation and perception of gastrointestinal motility.  Recently, a growing body of work has begun to investigate how gastric motility relates to neural dynamics in humans. This review aims to address this emerging area by providing a comprehensive overview of experimental approaches that use neuroimaging to quantify the relationship between gut motility, brain activity, and behavior. Specifically, we review three complementary experimental approaches for investigating the role of gut motility in gut–brain interactions: (i) neuroimaging studies comparing dysregulated and healthy gut motility, (ii) perturbation paradigms targeting gastrointestinal signaling pathways, and (iii) studies examining functional coupling between gastrointestinal rhythms and brain activity. Finally, we discuss key open questions and methodological gaps and outline future directions for advancing mechanistic insight into gut–brain signalling.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/9td6s_v1/",
-    "signal_score": 3
-  },
-  {
-    "osf_id": "zsm6r_v1",
-    "title": "When Does Prayer Promote Flourishing? Attachment, Prayer Profiles, and Psychological Flourishing",
-    "date_created": "2026-07-26T21:53:12.121956",
-    "date_modified": "2026-07-27T16:45:48.731938",
-    "description": "Prayer is among the most prevalent human behaviors, yet its psychological benefits are inconsistently documented. Most research relies on unidimensional measures and overlooks the relational dynamics that shape the function of prayer. The present study examined associations between attachment to God, latent prayer profiles, and flourishing in a sample of N = 452 Israeli Jews (M age = 44.69, SD = 14.96; 48.0% female). Participants completed the Multidimensional Prayer Inventory (MPI), the Attachment to God Inventory (AGI), and the Harvard Flourishing Measure. Latent profile analysis of MPI subscales identified four prayer profiles: Modal, Disengaged-Habitual, Engaged-Devotional, and Engaged-Penitential. Profiles differed significantly in flourishing and AGI scores: the Disengaged-Habitual profile showed the highest AGI avoidance and the lowest flourishing, whereas the Engaged-Devotional profile showed the lowest AGI anxiety and the highest flourishing. Hierarchical regression revealed that only the Disengaged-Habitual profile predicted significantly lower flourishing relative to Modal prayer, while AGI anxiety and avoidance were the dominant predictors. Interaction analyses showed that  AGI anxiety was less strongly associated with lower flourishing for the Engaged-Penitential profile. These findings underscore the centrality of relational orientation toward God in shaping the psychological function of prayer and inform a person-centered understanding of when and for whom prayer promotes flourishing.",
+    "osf_id": "y825d_v1",
+    "title": "Measuring Reputation and Identity Effects in Multiple Rater Assessments: Guidelines for Specifying Trait Reputation Identity Models",
+    "date_created": "2026-07-27T10:32:55.280627",
+    "date_modified": "2026-07-27T20:33:57.929920",
+    "description": "Multirater assessments are widely used in psychology to seperate what targets report about themselves from what others perceive about them. The Trait–Reputation–Identity (TRI) model provides a prominent modeling approach for this purpose, but applications of the model often yield improper solutions, including negative variances and weak or inadmissible factor loadings. We argue that these problems arise because the original TRI model does not sufficiently distinguish between different rater types and designs. Building on stochastic measurement theory, we show that TRI model components have different meanings depending on whether observers are interchangeable or structurally different raters. For interchangeable observers, the common observer perspective is already represented by an observer-trait factor. Consequently, the reputation effect cannot be modeled as a higher-order factor. Moreover, identity and reputation effects must be estimated in separate models. For structurally different observers, different TRI models can be specified to answer different substantive questions. We derive different design-oriented TRI models, define variance components for trait, reputation, identity, and rater-specific effects, and illustrate the approach with empirical examples. The proposed framework clarifies the interpretation of TRI effects and provides practical guidelines for specifying TRI models.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -204,10 +248,6 @@
         {
           "id": "5b4e7425c6983001430b6c34",
           "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c3b",
-          "text": "Affect and Emotion Regulation"
         }
       ],
       [
@@ -216,8 +256,12 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c45",
-          "text": "Psychology, other"
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c55",
+          "text": "Computational Modeling"
         }
       ],
       [
@@ -226,134 +270,16 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
         },
         {
-          "id": "5b4e7426c6983001430b6c47",
-          "text": "Attachment"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c49",
-          "text": "Personality Processes"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c53",
-          "text": "Individual Differences"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c58",
-          "text": "Emotion"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c73",
-          "text": "Personality Development"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c82",
-          "text": "Religion and Spirituality"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6caa",
-          "text": "Interpersonal Relationships"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cae",
-          "text": "Cultural Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb2",
-          "text": "Well-being"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c93",
-          "text": "Health Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf6",
-          "text": "Mental Health"
+          "id": "5b4e7428c6983001430b6caf",
+          "text": "Quantitative Psychology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/zsm6r_v1/",
+    "link": "https://osf.io/preprints/psyarxiv/y825d_v1/",
     "signal_score": 3
   },
   {
@@ -390,24 +316,33 @@
     "signal_score": 2
   },
   {
-    "osf_id": "bj7r5_v1",
-    "title": "Differential modulation of temporal precision and perceived timing by tactile spatial and temporal context",
-    "date_created": "2026-07-26T15:28:37.599775",
-    "date_modified": "2026-07-27T16:02:35.806324",
-    "description": "Perception of sensory events depends not only on the stimulus itself but also on the surrounding spatial and temporal context. While contextual interactions have been extensively studied in vision, less is known about how tactile spatial and temporal context shape temporal representation of tactile landmarks embedded within continuous tactile signals. we investigated how neighbouring tactile stimuli influence the temporal precision and perceived timing of a target tactile landmark using an auditory-referenced temporal order judgement task. The number, location, and relative timing of task-irrelevant vibrotactile flankers were manipulated independently. Increasing the number of flankers reduced temporal precision, with comparable effects for adjacent and contralateral stimulation, indicating that temporal precision is limited by contextual interactions beyond local spatial proximity. In contrast, the relative timing of the flankers did not alter temporal sensitivity but systematically shifted perceived target timing. Flankers preceding the target shifted the perceived timing of the target earlier, whereas lagging flankers shifted it to the opposite direction. When one flanker preceded and the other followed the target the direction of the resulting spatiotemporal sequence across the fingers determined the direction of the perceptual bias. These findings reveal two distinct forms of contextual modulation in tactile temporal perception. Spatial context degrades temporal precision, whereas temporal context shifts perceived event timing. These findings demonstrate that spatial and temporal context shape distinct temporal aspects of tactile representations, extending contextual interference from feature identity and localisation to temporal precision and perceived timing.",
+    "osf_id": "b8arf_v1",
+    "title": "National Predictors of Conspiracy Beliefs: A Machine Learning Analysis of Cross-Country Data",
+    "date_created": "2026-07-27T10:16:29.580456",
+    "date_modified": "2026-07-27T20:32:05.923266",
+    "description": "Conspiracy beliefs vary widely across nations, yet their societal predictors remain poorly understood. Applying machine-learning meta-analytic techniques, we simultaneously examined 18 national-level developmental and cultural factors and ranked their relative importance in predicting conspiracy beliefs. Across six large cross-national datasets (total N = 178,789; 72 countries), the best-performing model (MetaForest) explained 43% of variance in test data. Corruption was the strongest predictor, followed by power distance, reading proficiency, individualism, mathematics proficiency, human development, GDP, and science proficiency. Conspiracy beliefs were most prevalent in societies marked by higher corruption and power distance, and lower educational performance, individualism, and socioeconomic development; developmental indicators generally outranked cultural ones, and dimensions such as WEIRDness, uncertainty avoidance, and long-term orientation mattered little. By integrating developmental and cultural predictors in a single framework, this study offers the most comprehensive test to date of national correlates of conspiracy beliefs and demonstrates the value of machine-learning approaches.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
         {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1c",
-          "text": "Computational Neuroscience"
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         }
-      ],
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/b8arf_v1/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "5c7fb_v2",
+    "title": "High-frequency visual stimulation can increase medial temporal lobe ripple oscillation density",
+    "date_created": "2026-07-27T13:00:46.711953",
+    "date_modified": "2026-07-27T20:40:31.581321",
+    "description": "Background: Flickering visual stimulation can evoke neural oscillations, which can influence ongoing brain activity. Electrophysiological recordings of neural oscillations in the ripple band (80-180 Hz) showed that these high-frequency oscillations occur in the neocortex and the hippocampus, that they phase-synchronize across long distances, and that ripple oscillations in the neocortex often precede those in the hippocampus during wakefulness. It is therefore possible that the neocortical ripple oscillations propagate beyond sensory areas to the hippocampus, inducing ripple oscillations. \nMethods: To test this hypothesis, we conducted an experiment (N = 8) in humans, using ultra-high frequency visual stimulation (UHV-stimulation) to evoke ripple oscillations recorded through electrodes implanted in or near the hippocampus. Although hippocampal ripple oscillations, so-called sharp-wave-ripples (SWRs), mostly occur during quiet rest or slow-wave-sleep, we aimed to increase their abundance using visual stimulation during wakefulness. We hypothesized that UHV-stimulation would increase the number of SWRs relative to an eyes-open resting-state baseline. \nResults: In line with this hypothesis, we observed significantly more SWRs per second during periods of stimulation compared to a resting-state baseline before and after the stimulation. \nConclusion: This indicates that UHV-stimulation can be used as a safe noninvasive tool to influence SWRs, which offers the potential to improve memory.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1b",
@@ -424,12 +359,22 @@
           "text": "Neuroscience"
         },
         {
-          "id": "5b4e7426c6983001430b6c64",
-          "text": "Systems Neuroscience"
+          "id": "5b4e7426c6983001430b6c40",
+          "text": "Other Neuroscience and Neurobiology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c68",
+          "text": "Clinical Neuroscience"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/bj7r5_v1/",
+    "link": "https://osf.io/preprints/psyarxiv/5c7fb_v2/",
     "signal_score": 2
   },
   {
@@ -498,11 +443,11 @@
     "signal_score": 1
   },
   {
-    "osf_id": "74rjv_v2",
-    "title": "Mouse cursor tracking contributes to the psychological validation of the drift diffusion model",
-    "date_created": "2026-07-25T20:56:29.435321",
-    "date_modified": "2026-07-27T16:48:40.247368",
-    "description": "As a well-established cognitive model of human decision-making, the drift diffusion model (DDM) offers a psychologically intuitive account of the decision-making process by virtue of its four basic parameters. However, the reliance of the DDM on endpoint measures (response times and accuracy) creates a conceptual gap to this process-oriented account, which needs to be bridged with the help of independent process-tracing methods. In this study, we deployed mouse cursor tracking with the aim of validating the psychological interpretation of the basic DDM parameters drift rate, threshold separation, and non-decision time.  In a preregistered replication, 95 participants completed 90 trials of a random dot kinematogram (RDK). Partial least square regression was applied in order to predict the three DDM parameters with the help of 18 cursor measures, which were extracted from the literature. We found support for the psychological interpretation of threshold separation and non-decision time, replicating the results of our previous study, while the analyses of drift rate remained inconclusive. Our results further strengthen our psychological understanding of the DDM, point towards conceptual ambiguities, and encourage further joint application of cognitive models and process-tracing methodology.",
+    "osf_id": "spw7e_v2",
+    "title": "The Lyric Focus Questionnaire (LFQ):  Measuring Individual Differences in Song Listening",
+    "date_created": "2026-07-27T14:59:25.983358",
+    "date_modified": "2026-07-27T20:48:19.551456",
+    "description": "Recent years have seen a significant increase in the use of songs, which contain an integrated music/language signal, as experimental stimuli. This has created a need for standardized tools to measure individual differences in song perception. The current article reports the development of the Lyric Focus Questionnaire (LFQ), which measures the degree to which a song listener’s cognitive resources are oriented towards the lyrics versus the other musical features (i.e., pitch, rhythm, timbre). In Study 1, we used exploratory factor analysis to reduce 121 candidate items down to 12 items for the LFQ. In Study 2, we used confirmatory factor analysis and internal consistency measures to ascertain the unidimensional structure of the LFQ. In Studies 3 and 4, we demonstrated that the LFQ is correlated to comprehension of lyrics but not to the ability to exactly recall lyrics. In Study 5, we aggregated data from the first four studies to create initial norms for the Lyric Focus Questionnaire and to explore discriminant validity between Lyric Focus and musical and literary activities with more statistical power than in each study alone. The LFQ is presented as a practical, valid, and reliable tool for researchers interested in the relation between music and language.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -512,12 +457,8 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
+          "id": "5b4e7426c6983001430b6c48",
+          "text": "Music"
         }
       ],
       [
@@ -526,12 +467,8 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c92",
-          "text": "Statistical Methods"
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
         }
       ],
       [
@@ -540,12 +477,55 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c71",
-          "text": "Perception"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/spw7e_v2/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "qkp75_v1",
+    "title": "Creativity Geometry: Recursive Creative Self-Improvement Through System-3 Metacognitive Scaffolding",
+    "date_created": "2026-07-27T15:06:05.202156",
+    "date_modified": "2026-07-27T20:59:29.273306",
+    "description": "Human creative cognition and frontier artificial intelligence increasingly confront the same higher-order problem: how to generate possibilities, evaluate them, integrate feedback, preserve meaningful diversity, and use previous experience to improve future creative activity. Existing accounts often isolate one part of this process. Creativity research commonly emphasizes novel and useful products; dual-process theories emphasize associative and analytic modes; artificial-intelligence research emphasizes generation, self-correction, agents, tools, or self-modification. None of these alone explains when recurrence becomes recursive creative self-improvement. This Conceptual Analysis introduces Creativity Geometry, a meta-theoretical framework centered on Generation, Reflection, Integration/Iteration, and Metacontrol (GRIM) across Time. These are not proposed as independent modules or a literal mathematical law, but as interdependent functions defining the relational shape of creative transformation. System-3 denotes the metacognitively governed configuration that regulates when to broaden search, constrain it, reorganize representations, seek feedback, continue, or commit. Novelty, usefulness, and diversity (NUD) independently evaluate the resulting creative repertoire; diversity is treated as a set- and population-level condition that protects future option value. In biological cognition, the framework is grounded in creative metacognition, embodied valuation, default-executive network cooperation, confidence and error monitoring, and neuromodulatory regulation of effort, persistence, exploration, and switching. In artificial systems, System-3 is a functional analogue involving generators, critics, memory, integration, telemetry, and bounded control, without implying consciousness or organismic purpose. Evidence from large-language-model self-correction, code refinement, automated scientific discovery, creativity benchmarks, and human-AI collaboration reveals both t",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         },
         {
-          "id": "5b4e7429c6983001430b6ce6",
-          "text": "Embodied Cognition"
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c63",
+          "text": "Cognitive Development"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
         }
       ],
       [
@@ -558,12 +538,64 @@
           "text": "Cognitive Psychology"
         },
         {
-          "id": "5b4e7429c6983001430b6cfb",
-          "text": "Judgment and Decision Making"
+          "id": "5b4e7428c6983001430b6cd0",
+          "text": "Creativity"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c42",
+          "text": "Consumer Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd4",
+          "text": "Behavioral Economics"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/74rjv_v2/",
+    "link": "https://osf.io/preprints/psyarxiv/qkp75_v1/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "vzkdp_v2",
+    "title": "Enacting Open Science Values in Qualitative Leadership Research: Existing Practices and Future Directions",
+    "date_created": "2026-07-27T17:19:06.212492",
+    "date_modified": "2026-07-27T20:52:15.060864",
+    "description": "The open science movement has gained considerable momentum in advancing the transparency, credibility, and rigor of scientific research across disciplines. Within this broader landscape, leadership scholars have played a prominent role in developing formal guidance to strengthen open science practices in organizational research. To date, most recommendations have focused on quantitative research rooted in post-positivist traditions. However, qualitative scholars working from interpretivist perspectives share core values such as openness, integrity, and reproducibility with open science and enact them through practices grounded in inductive, context-sensitive inquiry. Bringing these two conversations into closer dialogue offers meaningful opportunities for both domains. Leadership research provides a particularly generative context for this exchange, as qualitative methods have influenced the field by illuminating the socially constructed and value-laden nature of leading. Drawing on these contributions, we present a set of 12 established practices through which interpretivist qualitative researchers have historically embodied open science values in leadership research, followed by six additional practices that can further enhance the openness, integrity, and reproducibility of interpretivist scholarship. By articulating how open science principles can be enacted in qualitative paradigms, we show that leadership scholars are well-positioned to extend the open science conversation across methodologies and communities of practice.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vzkdp_v2/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "8x37h_v1",
+    "title": "Synthetic survey participants cannot substitute for sample diversity in policy",
+    "date_created": "2026-07-27T21:53:15.277995",
+    "date_modified": "2026-07-27T21:56:36.974889",
+    "description": "Synthetic survey participants generated by large language models (LLMs) have recently been promoted as a means of reaching diverse and underrepresented populations in policy research. We argue that this promise rests on a mistaken equivalence between demographic labelling and meaningful representation. Because LLM training corpora disproportionately reflect Western, English-language, and third-person accounts, synthetic responses may reproduce how populations are described by others rather than how their members understand and express their own experiences. We term this process etic-to-emic laundering: the transformation of external accounts into outputs that appear to be first-person testimony. Beyond methodological limitations, synthetic substitution may weaken incentives to invest in the infrastructure required for genuine inclusion, including translation, culturally grounded measurement, local expertise, community partnerships, and direct data collection. This displacement risks becoming self-reinforcing, as reduced collection of first-person data makes future synthetic samples still harder to validate. We therefore argue that synthetic participants should be confined to exploratory roles, accompanied by clear provenance disclosures, and never treated as substitutes for human respondents in policy inference. Sample diversity cannot be automated: it requires sustained engagement with the people whose lives and interests policy decisions affect.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/8x37h_v1/",
     "signal_score": 1
   }
 ]

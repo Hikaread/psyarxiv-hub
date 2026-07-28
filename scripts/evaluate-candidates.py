@@ -291,6 +291,31 @@ def update_seen_ids():
     return len(added)
 
 
+# Read discarded IDs to skip already-evaluated papers across runs
+def load_discarded_ids():
+    discarded = set()
+    try:
+        with open(DISCARD_LOG, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('- '):
+                    parts = line.split(' | ')
+                    if parts:
+                        discarded.add(parts[0][2:])  # strip "- "
+    except:
+        pass
+    # Also load from evaluation-results.json
+    try:
+        with open(RESULTS_PATH, 'r') as f:
+            res = json.load(f)
+        for r in res.get('results', []):
+            if r['decision'] in ('reject', 'error'):
+                discarded.add(r['osf_id'])
+    except:
+        pass
+    return discarded
+
+
 def generate_og_pages():
     """Run the OG page generator."""
     result = subprocess.run(['node', OG_SCRIPT], capture_output=True, text=True, timeout=60)
@@ -317,6 +342,8 @@ def main():
         update_seen_ids()
         return
 
+    discarded_ids = load_discarded_ids()
+
     existing_osf_ids = set()
     try:
         with open(PAPERS_JSON, 'r') as f:
@@ -326,7 +353,9 @@ def main():
     except:
         pass
 
-    print(f"Evaluating {len(candidates)} candidates (max {max_papers})...", file=sys.stderr)
+    skip_ids = existing_osf_ids | discarded_ids
+
+    print(f"Evaluating {len(candidates)} candidates (max {max_papers}, skipping {len(skip_ids & set(c['osf_id'] for c in candidates))} already-evaluated)...", file=sys.stderr)
     results = []
     accepted_papers = []
     accepted = 0
@@ -337,7 +366,7 @@ def main():
 
     for i, paper in enumerate(candidates):
         osf_id = paper['osf_id']
-        if osf_id in existing_osf_ids:
+        if osf_id in skip_ids:
             results.append({'osf_id': osf_id, 'title': paper['title'][:80], 'decision': 'skipped', 'reason': 'already in papers.json'})
             skipped += 1
             continue
