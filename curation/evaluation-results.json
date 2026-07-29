@@ -1,75 +1,28 @@
 {
-  "evaluated": 2,
+  "evaluated": 3,
   "accepted": 0,
-  "rejected": 2,
+  "rejected": 3,
   "errors": 0,
-  "skipped": 9,
+  "skipped": 0,
   "deferred": 0,
   "results": [
     {
-      "osf_id": "kcwq2_v2",
-      "title": "Mental Health Supports for Caregivers of Autistic Children: An Umbrella Review",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "8f7es_v1",
-      "title": "Fear of Negative Evaluation as a Core Predictor of Eating Disorder Risk in Adole",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "876fv_v1",
-      "title": "Self-Assessed, but Not Experimentally Induced, Rejection Sensitivity Predicts Ea",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "q67r4_v1",
-      "title": "Parsing Exposure to Adversity: How does Caregiving Deprivation Pose a Unique Ris",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "m29kq_v1",
-      "title": "Attachment and Caregiving as Social Allostatic Inference: An Updated Social Neur",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "4ahgb_v1",
-      "title": "90% mental, 10% physical? Psychological and physiological predictors of ultrarun",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "quxc6_v2",
-      "title": "Comfort in discomfort: A systematic review of pain perception in ultrarunners",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "uazpe_v1",
-      "title": "Top-down versus bottom-up theories of phonological acquisition: A big data appro",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "ybd85_v1",
-      "title": "Vaccination as Collective Action During a Pandemic: Evidence from 6.1 Million CO",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "f9mnb_v1",
-      "title": "Facial expression synchrony is associated with neural synchrony during mother-in",
+      "osf_id": "ky7uw_v2",
+      "title": "Conditional Associations Between HEXACO Personality Traits and NEET Status in Yo",
       "decision": "reject",
-      "reason": "This study focuses on mother-infant interactions and developmental psychology, which falls outside the scope of clinical psychology practice. While it examines synchrony between mothers and infants, it does not address assessment, diagnosis, therapy, or clinical interventions relevant to practicing clinicians. The study population is infants (7.4 months old) and their mothers, which explicitly falls under the exclusion criteria for papers focused on children/adolescents/infants unless they have direct adult clinical implications, which this study does not.",
+      "reason": "This study focuses on employment and educational status (NEET) in young adults, which is more related to vocational psychology and career development rather than clinical psychology practice. While it examines personality traits and psychological resources, the primary outcomes are employment/educational engagement rather than mental health disorders, psychopathology, or clinical interventions that would be relevant to practicing therapists, psychologists, or psychiatrists.",
       "category": null
     },
     {
-      "osf_id": "cykfe_v3",
-      "title": "Signaling social identity in referential communication",
+      "osf_id": "z5w4d_v1",
+      "title": "Dialogical Emergence in Embodied Collaboration: A Micro-Analysis of How Dyads Co",
+      "decision": "reject",
+      "reason": "This paper focuses on basic cognitive and social psychology research on perceptual divergence in embodied collaboration, with no clear clinical application to therapy, assessment, diagnosis, or mental health interventions. The study examines how dyads co-construct insight from conflicting perceptions in dance partnerships, which falls under basic social/cognitive psychology rather than clinical psychology practice.",
+      "category": null
+    },
+    {
+      "osf_id": "pmrgs_v1",
+      "title": "Revisiting Long-Term Trends in Germany\u2019s Upper Secondary Mathematics Achievement",
       "decision": "reject",
       "reason": "low signal score (1)",
       "category": null
