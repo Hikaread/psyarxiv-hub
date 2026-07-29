@@ -1,16 +1,30 @@
 {
-  "evaluated": 1,
+  "evaluated": 3,
   "accepted": 0,
-  "rejected": 1,
+  "rejected": 3,
   "errors": 0,
   "skipped": 0,
   "deferred": 0,
   "results": [
     {
-      "osf_id": "nhvz9_v4",
-      "title": "The Prospects and Challenges of Measuring a Person\u2019s Overall Moral Goodness",
+      "osf_id": "2rjmw_v1",
+      "title": "From Human to AI: Cognitive Mechanisms Underlying the Associations between Insec",
       "decision": "reject",
-      "reason": "This paper focuses on philosophical and theoretical aspects of measuring moral goodness, which falls outside the scope of clinical psychology practice. It discusses conceptual challenges of moral measurement without addressing clinical applications, assessment tools, interventions, or psychopathology relevant to practicing therapists, psychologists, or psychiatrists.",
+      "reason": "This paper focuses on human-AI interaction and attachment styles, which falls under technology/AI research rather than clinical psychology. While attachment theory has clinical applications, this study examines emotional engagement with AI systems, not mental health interventions, assessment, diagnosis, or psychopathology relevant to practicing clinicians.",
+      "category": null
+    },
+    {
+      "osf_id": "36wdy_v2",
+      "title": "Attitudes and Affect towards Statistics in First Year Psychology Studends - a Ba",
+      "decision": "reject",
+      "reason": "This study focuses on statistics attitudes in first-year psychology students, which is an educational psychology topic without direct clinical application. It examines learning attitudes rather than mental health, psychopathology, or clinical interventions relevant to practicing therapists.",
+      "category": null
+    },
+    {
+      "osf_id": "6e7kj_v3",
+      "title": "Robust circular cluster-based statistics for respiration-brain coupling",
+      "decision": "reject",
+      "reason": "low signal score (1)",
       "category": null
     }
   ]

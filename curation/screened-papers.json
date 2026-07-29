@@ -1,10 +1,33 @@
 [
   {
-    "osf_id": "nhvz9_v4",
-    "title": "The Prospects and Challenges of Measuring a Person’s Overall Moral Goodness",
-    "date_created": "2026-07-29T07:48:32.075667",
-    "date_modified": "2026-07-29T08:02:45.434125",
-    "description": "This paper integrates psychological and philosophical theory and research to explain what it would take to measure a person’s general morality (i.e., their overall moral goodness). Conceptually, to measure general morality, there must be general moral facts about people’s overall morality; the measure must correctly identify and weigh those facts; and the measure must apply clearly and consistently across people, groups, and time. We argue that it would be difficult to operationalize morality in a way that satisfies these requirements. Self-report, informant report, behavioral, and biological measurement approaches also have substantial methodological limitations. These conceptual and methodological challenges limit the validity of measures of general morality more than they do for most other psychological traits. This exercise also yields general lessons about the challenges that also confront the design of narrower, less ambitious morality measures (e.g., of specific moral virtues). Some—but not all—of these challenges can be mitigated when the measurement aims are more modest. It is therefore important to be transparent and intellectually humble about what we can and cannot conclude based on various moral assessments. Finally, we outline recommendations and future directions for psychological and philosophical inquiry into the development and use of morality measures.",
+    "osf_id": "2rjmw_v1",
+    "title": "From Human to AI: Cognitive Mechanisms Underlying the Associations between Insecure Interpersonal Attachment Styles and Human-AI Emotional Engagement",
+    "date_created": "2026-07-29T13:27:06.252070",
+    "date_modified": "2026-07-29T14:24:54.255348",
+    "description": "Attachment styles have long been shown to shape how individuals form and maintain interpersonal relationships. Extending this perspective to human-AI interaction, the present study examined whether and how individuals’ interpersonal attachment styles were linked to their human-AI emotion-related behaviors and attachment. We further tested whether this process was mediated by cognitive perceptions related to AI’s emotional capacity (i.e., perceived uniqueness of AI) and moderated by individuals’ cognitive disposition to view non-living entities as human-like (i.e., dispositional anthropomorphism). Participants were a regionally representative sample of 1,406 undergraduate students (Mage = 18.98 years, SD = 1.25; 40% male) recruited from 26 universities in Shanghai, China, using a stratified random sampling procedure. Participants reported on their interpersonal attachment styles, perceived uniqueness of AI, anthropomorphism, and two indicators of emotional engagement with AI: personal disclosure and emotional attachment. Results showed that both interpersonal attachment anxiety and attachment avoidance were positively associated with perceived uniqueness of AI, which was in turn associated with greater personal disclosure and stronger emotional attachment to AI. Anthropomorphism further moderated the association between perceived uniqueness of AI and emotional engagement, such that these associations were stronger among individuals with higher levels of anthropomorphism. Similarly, moderated mediation analyses indicated that the indirect effects of interpersonal attachment orientations on emotional engagement with AI through perceived uniqueness of AI were amplified at higher levels of anthropomorphism. Overall, the findings suggest that human-AI emotional engagement may be shaped by both individuals’ human-human attachment-related orientations and their psychological construal of AI as a human-like, relationally meaningful interaction partner.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/2rjmw_v1/",
+    "signal_score": 5
+  },
+  {
+    "osf_id": "36wdy_v2",
+    "title": "Attitudes and Affect towards Statistics in First Year Psychology Studends - a Bayesian Approach",
+    "date_created": "2026-07-28T12:23:23.001126",
+    "date_modified": "2026-07-29T14:14:33.094302",
+    "description": "Statistics is regarded as one of the most difficult and frightening subjects by psychology\nstudents. The present study develops a Bayesian framework for a more comprehensive\nunderstanding of students´ attitudes and affect towards statistics, their development and\npredictors. Furthermore, an extensive collection of related constructs was raised and analysed\npsychometrically. In a longitudinal design, data of first year psychology students was collected\nvia online surveys at the beginning of the lectures, midst-semester and after course completion.\nFour Bayesian models were fitted to inspect response patterns, pairwise item correlations and\nconstruct change over time. In a final multilevel generalized linear varying effects model, the\neffects of Statistics Anxiety on Affective Behaviours towards statistics were analysed.\nPsychometric analysis yielded surprising results, as most instruments revealed insufficient\nproperties in the present sample. Comparative analyses revealed that Affective Behaviours\nincreased over the course of the semester, and Statistics Anxiety decreased. The relationship\nbetween Affective Behaviours and Statistics Anxiety was complex, as some subscales were\ncorrelated positively against expectations. In conclusion, the present study developed a\nBayesian framework for comprehensive data analysis, presents preliminary results of Affective\nBehaviours and Statistics Anxiety and discusses a potential reliability risk in the field due to\ndeficient reporting of psychometric analyses.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -18,12 +41,117 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7428c6983001430b6cbc",
-          "text": "Moral Behavior"
+          "id": "5b4e7426c6983001430b6c3b",
+          "text": "Affect and Emotion Regulation"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c92",
+          "text": "Statistical Methods"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb7",
+          "text": "Motivational Behavior"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd6",
+          "text": "Attitudes and Persuasion"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/nhvz9_v4/",
+    "link": "https://osf.io/preprints/psyarxiv/36wdy_v2/",
     "signal_score": 2
+  },
+  {
+    "osf_id": "6e7kj_v3",
+    "title": "Robust circular cluster-based statistics for respiration-brain coupling",
+    "date_created": "2026-07-29T13:17:02.398050",
+    "date_modified": "2026-07-29T14:30:38.141829",
+    "description": "The rapidly developing research field of brain-body neuroscience faces methodological challenges, as analysts continue to develop new analysis strategies for robust statistics in the absence of established best practices. This quest for robust statistics is further complicated by the (naturally) circular data involved in the study of phase-locked effects, e.g. in respiration-brain coupling. Circularity of respiratory data particularly affects the problem of multiple comparisons in phase-related inferential statistics. In this tutorial, we propose a robust pipeline for respiration-related analyses based on a circular extension of cluster-based permutation testing we developed. We highlight and offer guidance on critical parameters in the analysis, systematically compare various approaches being used in the field today, and provide open-access software code for flexible use and future development of our proposed pipeline.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c64",
+          "text": "Systems Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/6e7kj_v3/",
+    "signal_score": 1
   }
 ]

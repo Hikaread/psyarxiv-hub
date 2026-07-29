@@ -1,16 +1,30 @@
 {
-  "discovered": 1,
+  "discovered": 3,
   "alreadyExisting": 0,
   "hardExcluded": 0,
   "lowSignal": 0,
-  "candidates": 1,
+  "candidates": 3,
   "candidates_list": [
     {
-      "osf_id": "nhvz9_v4",
-      "title": "The Prospects and Challenges of Measuring a Person’s Overall Moral Goodness",
-      "date_created": "2026-07-29T07:48:32.075667",
+      "osf_id": "2rjmw_v1",
+      "title": "From Human to AI: Cognitive Mechanisms Underlying the Associations between Insecure Interpersonal Attachment Styles and ",
+      "date_created": "2026-07-29T13:27:06.252070",
+      "signal_score": 5,
+      "description_preview": "Attachment styles have long been shown to shape how individuals form and maintain interpersonal relationships. Extending this perspective to human-AI interaction, the present study examined whether an"
+    },
+    {
+      "osf_id": "36wdy_v2",
+      "title": "Attitudes and Affect towards Statistics in First Year Psychology Studends - a Bayesian Approach",
+      "date_created": "2026-07-28T12:23:23.001126",
       "signal_score": 2,
-      "description_preview": "This paper integrates psychological and philosophical theory and research to explain what it would take to measure a person’s general morality (i.e., their overall moral goodness). Conceptually, to me"
+      "description_preview": "Statistics is regarded as one of the most difficult and frightening subjects by psychology\nstudents. The present study develops a Bayesian framework for a more comprehensive\nunderstanding of students´"
+    },
+    {
+      "osf_id": "6e7kj_v3",
+      "title": "Robust circular cluster-based statistics for respiration-brain coupling",
+      "date_created": "2026-07-29T13:17:02.398050",
+      "signal_score": 1,
+      "description_preview": "The rapidly developing research field of brain-body neuroscience faces methodological challenges, as analysts continue to develop new analysis strategies for robust statistics in the absence of establ"
     }
   ]
 }
