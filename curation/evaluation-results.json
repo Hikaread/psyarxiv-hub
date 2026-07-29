@@ -1,30 +1,16 @@
 {
-  "evaluated": 3,
+  "evaluated": 1,
   "accepted": 0,
-  "rejected": 3,
+  "rejected": 1,
   "errors": 0,
   "skipped": 0,
   "deferred": 0,
   "results": [
     {
-      "osf_id": "ky7uw_v2",
-      "title": "Conditional Associations Between HEXACO Personality Traits and NEET Status in Yo",
+      "osf_id": "nhvz9_v4",
+      "title": "The Prospects and Challenges of Measuring a Person\u2019s Overall Moral Goodness",
       "decision": "reject",
-      "reason": "This study focuses on employment and educational status (NEET) in young adults, which is more related to vocational psychology and career development rather than clinical psychology practice. While it examines personality traits and psychological resources, the primary outcomes are employment/educational engagement rather than mental health disorders, psychopathology, or clinical interventions that would be relevant to practicing therapists, psychologists, or psychiatrists.",
-      "category": null
-    },
-    {
-      "osf_id": "z5w4d_v1",
-      "title": "Dialogical Emergence in Embodied Collaboration: A Micro-Analysis of How Dyads Co",
-      "decision": "reject",
-      "reason": "This paper focuses on basic cognitive and social psychology research on perceptual divergence in embodied collaboration, with no clear clinical application to therapy, assessment, diagnosis, or mental health interventions. The study examines how dyads co-construct insight from conflicting perceptions in dance partnerships, which falls under basic social/cognitive psychology rather than clinical psychology practice.",
-      "category": null
-    },
-    {
-      "osf_id": "pmrgs_v1",
-      "title": "Revisiting Long-Term Trends in Germany\u2019s Upper Secondary Mathematics Achievement",
-      "decision": "reject",
-      "reason": "low signal score (1)",
+      "reason": "This paper focuses on philosophical and theoretical aspects of measuring moral goodness, which falls outside the scope of clinical psychology practice. It discusses conceptual challenges of moral measurement without addressing clinical applications, assessment tools, interventions, or psychopathology relevant to practicing therapists, psychologists, or psychiatrists.",
       "category": null
     }
   ]
