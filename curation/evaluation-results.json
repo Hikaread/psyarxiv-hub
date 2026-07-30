@@ -1,145 +1,121 @@
 {
   "evaluated": 5,
-  "accepted": 4,
-  "rejected": 1,
+  "accepted": 2,
+  "rejected": 3,
   "errors": 0,
   "skipped": 0,
-  "deferred": 15,
+  "deferred": 12,
   "results": [
     {
-      "osf_id": "qtwj2_v1",
-      "title": "The \u2018how\u2019 of mental health recovery: Developing a model of internal and external",
-      "decision": "accept",
-      "reason": "This study directly addresses mental health recovery processes through analysis of first-person narratives, providing clinically relevant insights into how recovery occurs rather than just describing it. It has clear implications for therapeutic practice and intervention development.",
-      "category": "Other Clinical",
-      "number": 747,
-      "authors": "Quinn William Harper; Amy Mowle; Warren mansell",
-      "curated": true
-    },
-    {
-      "osf_id": "q26ug_v1",
-      "title": "The kaleidoscope of distress: elevated negative emodiversity across objective an",
-      "decision": "accept",
-      "reason": "The study examines emodiversity in relation to mental health symptoms in adolescents, which is directly relevant to clinical psychology practice as it relates to assessment of emotional experience and its association with psychopathology.",
-      "category": "Mood Disorders",
-      "number": 748,
-      "authors": "Alice Roe; Tim Dalgleish",
-      "curated": true
-    },
-    {
-      "osf_id": "a4n37_v2",
-      "title": "Suicide in the community and mental healthcare usage: A nationwide register-base",
-      "decision": "accept",
-      "reason": "This study directly addresses suicide exposure and mental healthcare usage, which is highly relevant to clinical psychology practice, particularly in suicide prevention and community mental health interventions.",
-      "category": "Suicidality & Self-Harm",
-      "number": 749,
-      "authors": "Milan Zarchev; Philip Michielsen; Richard Vijverberg; Marco Helbich",
-      "curated": true
-    },
-    {
-      "osf_id": "xpq56_v1",
-      "title": "Sensory hyper-sensitivity associates with poor infant sleep and different parent",
+      "osf_id": "qgxsp_v1",
+      "title": "Nurturing Understanding, Resilience, and Trust Using Relationship Enrichment:  A",
       "decision": "reject",
-      "reason": "Focuses on infant sleep and sensory sensitivity, not adult clinical psychology practice",
+      "reason": "The paper focuses on adolescents in rural communities, which is outside the scope of the clinical psychology hub that prioritizes adult applications unless there are direct adult clinical implications.",
       "category": null
     },
     {
-      "osf_id": "cp67b_v2",
-      "title": "The Standardized Open-source Mindfulness Architecture (SOMA): A Modular, Equity-",
+      "osf_id": "uvfka_v1",
+      "title": "When Symptoms Don\u2019t Add Up: Addressing Poor Symptom Validity in Forensic Intervi",
       "decision": "accept",
-      "reason": "This paper addresses critical methodological limitations in mindfulness research, including poor control conditions and exclusion of low-SES populations, with direct implications for clinical practice and research.",
-      "category": "Therapeutic Modalities",
-      "number": 750,
-      "authors": "Alessandro Sparacio; Ivan Ropovik; Jonathan N Davies; Erin Lee; Ted Meissner; Christoph Spiessens; Alina Rodriguez; Johan Gunnar Eriksson",
+      "reason": "The paper addresses symptom validity assessment in forensic settings, which has direct clinical utility for psychologists conducting assessments and case formulation in high-stakes contexts.",
+      "category": "Other Clinical",
+      "number": 751,
+      "authors": "Dani\u00ebl van Helvoort; Brechje Dandachi-FitzGerald; Henry; Chijs van Nieuwenhuizen; Harald Merckelbach",
       "curated": true
     },
     {
-      "osf_id": "bz4rp_v1",
-      "title": "Mapping Mechanistic Interactions Between Layers of Presence and the Human Affect",
+      "osf_id": "53rkd_v1",
+      "title": "Who is highly distressed and impaired by climate change?  Cross-national cut-sco",
+      "decision": "accept",
+      "reason": "The paper addresses climate change-related psychological distress and functional impairment, which is highly relevant to clinical psychology practice. It develops validated cut-scores and brief screening tools for identifying individuals most affected by climate change, with clear implications for mental health assessment and intervention.",
+      "category": "Trauma & Stressor-Related",
+      "number": 752,
+      "authors": "Johanna Hepp; Jana Urbild; Sean Patrick Lane",
+      "curated": true
+    },
+    {
+      "osf_id": "qhnvr_v1",
+      "title": "Remembering more than the eye beholds: the effects of emotional content and ment",
+      "decision": "reject",
+      "reason": "This paper focuses on boundary extension, a cognitive memory phenomenon, in adolescents. While it mentions mental health symptoms, the study is primarily about basic cognitive psychology (scene perception and memory) rather than clinical practice, assessment, diagnosis, or mental health interventions. The paper lacks direct clinical applications for practicing therapists, psychologists, or psychiatrists.",
+      "category": null
+    },
+    {
+      "osf_id": "ys4g3_v3",
+      "title": "Attachment-Informed Leadership (AIL):  A New Leadership Framework based on Attac",
+      "decision": "reject",
+      "reason": "This paper focuses on leadership theory and organizational psychology, not clinical psychology practice. While it mentions attachment theory, its primary application is to leadership in organizational contexts rather than therapy, assessment, diagnosis, or mental health interventions. The paper does not address clinical utility for practicing therapists, psychologists, or psychiatrists.",
+      "category": null
+    },
+    {
+      "osf_id": "wu9nk_v1",
+      "title": "Health Behaviour Pathways to Internalising Symptoms in Adolescence. A Random Int",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "7pf68_v3",
-      "title": "Inclusive Neurodiverse Campuses: A participatory approach to understanding neuro",
+      "osf_id": "pa3wj_v1",
+      "title": "Can Artificial Intelligence Promote Metacognition? Evidence from a Three-Level M",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "ewxkv_v1",
-      "title": "The Effects of Online Enactive Education on Secondary School Students",
+      "osf_id": "8ua2h_v2",
+      "title": "Why You Switch Matters: Failure-Triggered Switching Between Different Problem Ty",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "xqtj3_v3",
-      "title": "An Initial Integration of Constructs that Account for Moral Actions: Moral Found",
+      "osf_id": "kvcaz_v2",
+      "title": "Straight-line behavior: conforming to design in a practice environment",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "bv295_v1",
-      "title": "Aversion to intergroup inequality can be leveraged to promote intergroup coopera",
+      "osf_id": "9yfqp_v1",
+      "title": "Impact of an Embodied Conversational Agent on Loneliness and Emotional States in",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "reywx_v1",
-      "title": "A General Neural Network Approach for Fitting and Comparing Attentional Decision",
+      "osf_id": "dqzry_v3",
+      "title": "Debugging Online Research: A Guide for Detecting Fraudulent Respondents",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "zgqu7_v5",
-      "title": "Complementary Indicators of Knowledge Purporting and Their Validity",
+      "osf_id": "yvgkh_v4",
+      "title": "Is the late positive potential (LPP) related to memory consolidation?",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "n2ukj_v3",
-      "title": "How participants confound experiments by generating desired experiences",
+      "osf_id": "kbxuj_v1",
+      "title": "Evaluation of an Online Intervention to Promote Hearing Protective Behavior in Y",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "96zsd_v1",
-      "title": "Individual differences in silent and filled pause production in spontaneous spee",
+      "osf_id": "83nha_v2",
+      "title": "Decomposing subject retrieval: Diverging interference profiles for agreement and",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "xgrv6_v1",
-      "title": "Shortening affect scales for ambulatory assessment: A comparison of different IR",
+      "osf_id": "p3gdw_v1",
+      "title": "Partisan by proxy: Ingroup favoritism biases how humans train and interact with ",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "3qxj2_v2",
-      "title": "From Construct Definitions to Narrative Response Models: The Case of Self-Effica",
+      "osf_id": "kp6jv_v1",
+      "title": "Characterizing the causes, dynamics, and consequences of choice deferral",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "783m9_v1",
-      "title": "Development and Validation of a Multilevel Deep-Learning Framework for Individua",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "5wpdu_v4",
-      "title": "Descriptions of phenomenal versus intentional mental states are differentially a",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "gv27s_v1",
-      "title": "The cognitive foundations of food moralization",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "kjbpg_v3",
-      "title": "The Development of Sensitivity to Automatic Behavior",
+      "osf_id": "b8sak_v1",
+      "title": "Understanding Young Adults' Behaviors and Beliefs Towards Loud Sound:  A Qualita",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     }
