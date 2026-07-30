@@ -21,8 +21,33 @@ DISCARD_LOG = '/home/z/my-project/psyarxiv-hub/curation/discarded-log.md'
 OG_SCRIPT = '/home/z/my-project/psyarxiv-hub/scripts/generate-og-pages.mjs'
 FETCH_SCRIPT = '/home/z/my-project/psyarxiv-hub/scripts/fetch-paper-fulltext.py'
 INBOX_DIR = '/home/z/my-project/psyarxiv-hub/curation/inbox'
+CHECKPOINT_PATH = '/home/z/my-project/psyarxiv-hub/curation/eval-checkpoint.json'
 
 # All scripts and data now live in the git-tracked repo — no volatile copies needed
+
+# Checkpoint: persists eval progress so timeouts don't lose work
+def load_checkpoint():
+    try:
+        with open(CHECKPOINT_PATH, 'r') as f:
+            cp = json.load(f)
+        # Stale if older than 4 hours
+        if time.time() - cp.get('ts', 0) > 14400:
+            os.remove(CHECKPOINT_PATH)
+            return set()
+        return set(cp.get('done_ids', []))
+    except:
+        return set()
+
+def save_checkpoint(done_ids):
+    with open(CHECKPOINT_PATH, 'w') as f:
+        json.dump({'ts': time.time(), 'done_ids': list(done_ids)}, f)
+        f.write('\n')
+
+def clear_checkpoint():
+    try:
+        os.remove(CHECKPOINT_PATH)
+    except:
+        pass
 
 # Merged prompt: accept/reject AND curation in one call
 MERGED_SYSTEM = """You are a clinical psychology preprint evaluator and curator for PsyArXiv Hub.
@@ -343,6 +368,8 @@ def main():
         return
 
     discarded_ids = load_discarded_ids()
+    checkpoint_ids = load_checkpoint()
+    eval_done_ids = discarded_ids | checkpoint_ids
 
     existing_osf_ids = set()
     try:
@@ -353,9 +380,10 @@ def main():
     except:
         pass
 
-    skip_ids = existing_osf_ids | discarded_ids
+    skip_ids = existing_osf_ids | eval_done_ids
 
-    print(f"Evaluating {len(candidates)} candidates (max {max_papers}, skipping {len(skip_ids & set(c['osf_id'] for c in candidates))} already-evaluated)...", file=sys.stderr)
+    to_eval = [c for c in candidates if c['osf_id'] not in skip_ids]
+    print(f"Evaluating {len(candidates)} candidates (max {max_papers}, {len(skip_ids & set(c['osf_id'] for c in candidates))} skipped, {len(to_eval)} to eval)...", file=sys.stderr)
     results = []
     accepted_papers = []
     accepted = 0
@@ -382,6 +410,8 @@ def main():
         if signal <= 1:
             results.append({'osf_id': osf_id, 'title': paper['title'][:80], 'decision': 'reject', 'reason': f'low signal score ({signal})', 'category': None})
             rejected += 1
+            checkpoint_ids.add(osf_id)
+            save_checkpoint(checkpoint_ids)
             continue
 
         fulltext, source = fetch_fulltext(osf_id)
@@ -389,6 +419,8 @@ def main():
         if fulltext is None:
             results.append({'osf_id': osf_id, 'title': paper['title'][:80], 'decision': 'reject', 'reason': f'no PDF ({source})', 'category': None})
             rejected += 1
+            checkpoint_ids.add(osf_id)
+            save_checkpoint(checkpoint_ids)
             print(f"  -> REJECT: {source}", file=sys.stderr)
             continue
 
@@ -406,7 +438,9 @@ Evaluate this paper for the PsyArXiv clinical psychology hub. If accepted, inclu
         if result is None:
             results.append({'osf_id': osf_id, 'title': paper['title'][:80], 'decision': 'error', 'reason': 'LLM call failed'})
             errors += 1
-            time.sleep(15)
+            checkpoint_ids.add(osf_id)
+            save_checkpoint(checkpoint_ids)
+            time.sleep(5)
             continue
 
         decision = result.get('decision', 'reject')
@@ -416,7 +450,9 @@ Evaluate this paper for the PsyArXiv clinical psychology hub. If accepted, inclu
             results.append({'osf_id': osf_id, 'title': paper['title'][:80], 'decision': 'reject', 'reason': reason, 'category': result.get('category')})
             rejected += 1
             print(f"  -> REJECT: {reason[:80]}", file=sys.stderr)
-            time.sleep(8)
+            checkpoint_ids.add(osf_id)
+            save_checkpoint(checkpoint_ids)
+            time.sleep(3)
             continue
 
         category = result.get('category', 'Other Clinical')
@@ -442,7 +478,9 @@ Evaluate this paper for the PsyArXiv clinical psychology hub. If accepted, inclu
         })
         accepted += 1
         print(f"  -> CURATED: #{number} — {paper['title'][:50]}...", file=sys.stderr)
-        time.sleep(10)
+        checkpoint_ids.add(osf_id)
+        save_checkpoint(checkpoint_ids)
+        time.sleep(3)
 
     output = {
         'evaluated': accepted + rejected + errors, 'accepted': accepted, 'rejected': rejected, 'errors': errors,
@@ -465,6 +503,11 @@ Evaluate this paper for the PsyArXiv clinical psychology hub. If accepted, inclu
         if accepted > 0:
             generate_og_pages()
         seen_added = update_seen_ids()
+        # Clear checkpoint after successful completion
+        remaining = [c for c in candidates if c['osf_id'] not in skip_ids and c['osf_id'] not in checkpoint_ids]
+        if not remaining:
+            clear_checkpoint()
+            print("Checkpoint cleared: all candidates processed", file=sys.stderr)
         for f in glob.glob(os.path.join(INBOX_DIR, '*.md')):
             if os.path.basename(f) != 'TEMPLATE.md':
                 try:
