@@ -3,8 +3,8 @@
   "accepted": 1,
   "rejected": 4,
   "errors": 0,
-  "skipped": 7,
-  "deferred": 9,
+  "skipped": 12,
+  "deferred": 4,
   "results": [
     {
       "osf_id": "sx5j4_v2",
@@ -51,70 +51,70 @@
     {
       "osf_id": "7xyge_v1",
       "title": "Alignment between Infant Sleep Advice and Parenting Approach: Associations with ",
-      "decision": "reject",
-      "reason": "Focuses on infant sleep and parenting approaches, not adult clinical psychology practice",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "5e6na_v2",
       "title": "The Effect of Crime Type and Knowledge about Autism Spectrum Condition (ASC) on ",
-      "decision": "accept",
-      "reason": "Examines clinical psychology implications for legal decision-making involving autism spectrum condition defendants, relevant to forensic psychology and clinical assessment",
-      "category": "Other Clinical",
-      "number": 761,
-      "authors": "Lynn Weiher; Rosa Vermeulen; Hannah Wessels; Steven James Watson",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "jrkwu_v1",
       "title": "Hindustani Classical Music and the Cognitive Brain: Revisiting Music Cognition t",
-      "decision": "reject",
-      "reason": "This paper focuses on music cognition from a cross-cultural perspective without direct clinical applications to therapy, assessment, diagnosis, or mental health interventions. It examines cognitive domains like emotions, memory, and predictive processing in relation to Hindustani Classical Music but does not address clinical utility for practicing therapists, psychologists, or psychiatrists.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "hgf4b_v3",
       "title": "A Comparison of Single and Multiple Diffusion Process Models of Continuous-Outco",
-      "decision": "reject",
-      "reason": "This is a computational cognitive psychology paper focused on diffusion process models for decision-making tasks, with no apparent clinical application to therapy, assessment, diagnosis, or mental health interventions. The content is highly technical and mathematical, dealing with theoretical models of perceptual decision-making rather than clinical psychology practice.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "4cqub_v1",
       "title": "Auditory and Visual Rhythms Shape Infant Attention in Infant-Directed Singing an",
-      "decision": "reject",
-      "reason": "This paper focuses on infant attention and development, which falls outside the scope of clinical psychology practice. It examines how rhythmic cues in infant-directed speech and singing affect attention in 12-month-olds, without addressing clinical applications for practicing therapists, psychologists, or psychiatrists.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "kcw62_v1",
       "title": "Beyond Creativity Scores: Changes in Teachers\u2019 Semantic Networks after SCIP Trai",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "This paper focuses on teacher creativity training and cognitive organization, which falls under educational psychology without direct clinical application to mental health assessment, diagnosis, or therapy interventions.",
+      "category": null
     },
     {
       "osf_id": "xe2mz_v4",
       "title": "Integrating interests, personality, character strengths, and person-job fit in r",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "This paper focuses on vocational psychology, workplace outcomes, and person-job fit rather than clinical psychology. It examines vocational interests, personality traits, and character strengths in relation to work outcomes like job satisfaction and engagement, which falls under organizational/industrial psychology rather than clinical practice. There's no direct relevance to therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing therapists, psychologists, or psychiatrists.",
+      "category": null
     },
     {
       "osf_id": "dusxv_v2",
       "title": "Developmental differences in probabilistic reinforcement learning reflect strate",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "This paper focuses on developmental differences in reinforcement learning strategies and computational modeling of decision-making, which falls under basic cognitive psychology research without direct clinical application. While it examines adolescent vs. adult differences in learning, it doesn't address therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing clinicians. The research is primarily theoretical and computational in nature, examining model-based vs. model-free learning strategies rather than clinical psychology topics.",
+      "category": null
     },
     {
       "osf_id": "f2zx9_v1",
       "title": "How does the Outdoor Play and Learning (OPAL) whole school playtime programme af",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "The paper focuses on children's outdoor play in primary schools without direct application to clinical psychology practice. It examines educational interventions and child development rather than therapy, assessment, diagnosis, psychopathology, or mental health interventions for adults.",
+      "category": null
     },
     {
       "osf_id": "mxzws_v1",
       "title": "Greater Reporting of Internal Than External Misinformation in Repeated Events Re",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "This research examines misinformation effects in memory for repeated events, which has direct relevance to clinical practice in forensic psychology, trauma therapy, and memory assessment. The findings demonstrate differential susceptibility to internal vs. external misinformation, with implications for interviewing techniques and memory accuracy in therapeutic settings.",
+      "category": "Psychopathology & Assessment",
+      "number": 761,
+      "authors": "Eva Rub\u00ednov\u00e1; Aida Rincon Chong; Medhasvy Surapaneni",
+      "curated": true
     },
     {
       "osf_id": "z42jq_v1",
