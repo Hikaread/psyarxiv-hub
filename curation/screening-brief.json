@@ -1,30 +1,149 @@
 {
-  "discovered": 3,
+  "discovered": 22,
   "alreadyExisting": 0,
   "hardExcluded": 0,
-  "lowSignal": 0,
-  "candidates": 3,
+  "lowSignal": 2,
+  "candidates": 20,
   "candidates_list": [
     {
-      "osf_id": "2rjmw_v1",
-      "title": "From Human to AI: Cognitive Mechanisms Underlying the Associations between Insecure Interpersonal Attachment Styles and ",
-      "date_created": "2026-07-29T13:27:06.252070",
+      "osf_id": "qtwj2_v1",
+      "title": "The ‘how’ of mental health recovery: Developing a model of internal and external recovery processes using critical reali",
+      "date_created": "2026-07-29T08:33:23.685706",
+      "signal_score": 10,
+      "description_preview": "Extant mental health recovery frameworks offer valuable thematic summaries, however are ill-equipped to explain how recovery occurs. Their descriptive, individualistic focus fails to account for syste"
+    },
+    {
+      "osf_id": "q26ug_v1",
+      "title": "The kaleidoscope of distress: elevated negative emodiversity across objective and idiographic cognitive tasks is associa",
+      "date_created": "2026-07-29T12:16:01.582155",
+      "signal_score": 10,
+      "description_preview": "Background\nGreater complexity in one’s emotional experience is thought to support mental health, including increased diversity in experienced emotions (emodiversity). However, findings linking emodive"
+    },
+    {
+      "osf_id": "a4n37_v2",
+      "title": "Suicide in the community and mental healthcare usage: A nationwide register-based study in the Netherlands",
+      "date_created": "2026-07-29T11:14:43.785404",
+      "signal_score": 6,
+      "description_preview": "Background – suicide bereavement can have profound effects on mental health. It is unclear, however, how suicide in ones community is related to mental health, and whether specific communities, such a"
+    },
+    {
+      "osf_id": "xpq56_v1",
+      "title": "Sensory hyper-sensitivity associates with poor infant sleep and different parental sleep practices, in a UK cohort",
+      "date_created": "2026-07-29T09:17:26.065244",
       "signal_score": 5,
-      "description_preview": "Attachment styles have long been shown to shape how individuals form and maintain interpersonal relationships. Extending this perspective to human-AI interaction, the present study examined whether an"
+      "description_preview": "Sleep difficulties (e.g., increased sleep onset latency and more frequent night awakenings) are common in early development and are associated with increased parental stress. Sleep difficulties have b"
     },
     {
-      "osf_id": "36wdy_v2",
-      "title": "Attitudes and Affect towards Statistics in First Year Psychology Studends - a Bayesian Approach",
-      "date_created": "2026-07-28T12:23:23.001126",
+      "osf_id": "cp67b_v2",
+      "title": "The Standardized Open-source Mindfulness Architecture (SOMA): A Modular, Equity-Engineered Stimulus Library for Mechanis",
+      "date_created": "2026-07-29T09:39:11.241200",
+      "signal_score": 5,
+      "description_preview": "Mindfulness research faces two recurring methodological problems: near-universal reliance on weak control conditions that cannot isolate specific mechanisms from expectancy effects, and systematic exc"
+    },
+    {
+      "osf_id": "bz4rp_v1",
+      "title": "Mapping Mechanistic Interactions Between Layers of Presence and the Human Affectome",
+      "date_created": "2026-07-29T12:55:50.761086",
+      "signal_score": 5,
+      "description_preview": "The sense of presence - the feeling of 'being there' in an environment - is a foundational concept in consciousness research, yet its relationship to human affect remains theoretically underdeveloped."
+    },
+    {
+      "osf_id": "7pf68_v3",
+      "title": "Inclusive Neurodiverse Campuses: A participatory approach to understanding neurodivergent belonging in higher education",
+      "date_created": "2026-07-29T16:12:47.500676",
+      "signal_score": 5,
+      "description_preview": "A sense of belonging is linked to people’s engagement, performance and wellbeing in educational and workplace settings. However, previous literature on belonging at university lacks conceptual clarity"
+    },
+    {
+      "osf_id": "ewxkv_v1",
+      "title": "The Effects of Online Enactive Education on Secondary School Students",
+      "date_created": "2026-07-29T14:58:05.965470",
+      "signal_score": 4,
+      "description_preview": "Enactive education is an innovative model based on embodied cognition. This quasi-experimental controlled study with pretest-posttest design investigated the effects of an online enactive school progr"
+    },
+    {
+      "osf_id": "xqtj3_v3",
+      "title": "An Initial Integration of Constructs that Account for Moral Actions: Moral Foundations, Values and Character Strengths",
+      "date_created": "2026-07-29T08:46:05.614742",
+      "signal_score": 3,
+      "description_preview": "Morality has been described as a psychological system comprising sets of values, practices, institutions, and psychological mechanisms that work together to support moral/socially positive behavior. N"
+    },
+    {
+      "osf_id": "bv295_v1",
+      "title": "Aversion to intergroup inequality can be leveraged to promote intergroup cooperation",
+      "date_created": "2026-07-29T15:06:35.616723",
+      "signal_score": 3,
+      "description_preview": "Tackling global challenges necessitates cooperation beyond group boundaries. This requires groups to reallocate resources from serving only their group members to creating public goods that benefit ev"
+    },
+    {
+      "osf_id": "reywx_v1",
+      "title": "A General Neural Network Approach for Fitting and Comparing Attentional Decision-Making Models",
+      "date_created": "2026-07-29T00:19:29.759837",
       "signal_score": 2,
-      "description_preview": "Statistics is regarded as one of the most difficult and frightening subjects by psychology\nstudents. The present study develops a Bayesian framework for a more comprehensive\nunderstanding of students´"
+      "description_preview": "Attentional decision models (ADMs), including attention-modulated decision models and joint models of attention and decision making, are important tools for studying the cognitive processes underlying"
     },
     {
-      "osf_id": "6e7kj_v3",
-      "title": "Robust circular cluster-based statistics for respiration-brain coupling",
-      "date_created": "2026-07-29T13:17:02.398050",
+      "osf_id": "zgqu7_v5",
+      "title": "Complementary Indicators of Knowledge Purporting and Their Validity",
+      "date_created": "2026-07-29T08:36:52.245448",
+      "signal_score": 2,
+      "description_preview": "Overclaiming (OC)—the tendency to claim knowledge one does not possess—is predominantly assessed through self-report Overclaiming Questionnaires (OCQs). However, exclusive reliance on OCQs raises conc"
+    },
+    {
+      "osf_id": "n2ukj_v3",
+      "title": "How participants confound experiments by generating desired experiences",
+      "date_created": "2026-07-29T11:30:58.138402",
+      "signal_score": 2,
+      "description_preview": "Since 18th century experiments demonstrated that the effects of mesmerism arose from belief rather than magnetic fluid, there has been evidence that situational cues can drive change in experience. Ac"
+    },
+    {
+      "osf_id": "96zsd_v1",
+      "title": "Individual differences in silent and filled pause production in spontaneous speech: Speaker-level and speech-level facto",
+      "date_created": "2026-07-29T14:53:18.510948",
+      "signal_score": 2,
+      "description_preview": "Speech is rarely completely fluent, and disfluencies, such as silent and filled pauses, can arise from difficulties in speech planning. Yet it remains unclear whether pause rates are driven by charact"
+    },
+    {
+      "osf_id": "xgrv6_v1",
+      "title": "Shortening affect scales for ambulatory assessment: A comparison of different IRT-based approaches",
+      "date_created": "2026-07-29T07:56:58.977923",
       "signal_score": 1,
-      "description_preview": "The rapidly developing research field of brain-body neuroscience faces methodological challenges, as analysts continue to develop new analysis strategies for robust statistics in the absence of establ"
+      "description_preview": "Researchers often seek to measure affective experiences in daily life. Consequently, measures of positive and negative affect frequently take up large parts of ambulatory questionnaires. Optimizing qu"
+    },
+    {
+      "osf_id": "3qxj2_v2",
+      "title": "From Construct Definitions to Narrative Response Models: The Case of Self-Efficacy",
+      "date_created": "2026-07-29T08:50:21.287592",
+      "signal_score": 1,
+      "description_preview": "Psychology faces crises of theory and measurement, where poorly specified constructs hinder the validity of measurement instruments. This article turns prior pleas to transparently explicate comprehen"
+    },
+    {
+      "osf_id": "783m9_v1",
+      "title": "Development and Validation of a Multilevel Deep-Learning Framework for Individualized Prediction in Clustered Data",
+      "date_created": "2026-07-29T09:29:53.496297",
+      "signal_score": 1,
+      "description_preview": "Clustered data are common in psychological studies that collect repeated observations from individuals, classrooms, clinics, or other naturally occurring units. Such data offer rich opportunities for "
+    },
+    {
+      "osf_id": "5wpdu_v4",
+      "title": "Descriptions of phenomenal versus intentional mental states are differentially associated with gaze direction",
+      "date_created": "2026-07-29T14:38:37.714625",
+      "signal_score": 1,
+      "description_preview": "Across cultures, humans reason about others’ mental states as being either phenomenal, reflecting shareable experiences, or intentional, reflecting agentive goals. Might our dissociated judgments of o"
+    },
+    {
+      "osf_id": "gv27s_v1",
+      "title": "The cognitive foundations of food moralization",
+      "date_created": "2026-07-29T14:55:41.078517",
+      "signal_score": 1,
+      "description_preview": "By adulthood, we attach moral valence to food—labeling some foods as “good,” others as “bad,” and judging ourselves and others based on the foods we choose. Here, we examined young children’s beliefs "
+    },
+    {
+      "osf_id": "kjbpg_v3",
+      "title": "The Development of Sensitivity to Automatic Behavior",
+      "date_created": "2026-07-29T15:55:13.356896",
+      "signal_score": 1,
+      "description_preview": "People’s behavior can be roughly categorized into two modes: reflective and thoughtful, or automatic and rote. Past work on Theory of Mind has focused on how children reason about the first category o"
     }
   ]
 }

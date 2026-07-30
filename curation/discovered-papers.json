@@ -1,52 +1,312 @@
 [
   {
-    "osf_id": "6e7kj_v3",
-    "title": "Robust circular cluster-based statistics for respiration-brain coupling",
-    "date_created": "2026-07-29T13:17:02.398050",
-    "date_modified": "2026-07-29T14:30:38.141829",
-    "description": "The rapidly developing research field of brain-body neuroscience faces methodological challenges, as analysts continue to develop new analysis strategies for robust statistics in the absence of established best practices. This quest for robust statistics is further complicated by the (naturally) circular data involved in the study of phase-locked effects, e.g. in respiration-brain coupling. Circularity of respiratory data particularly affects the problem of multiple comparisons in phase-related inferential statistics. In this tutorial, we propose a robust pipeline for respiration-related analyses based on a circular extension of cluster-based permutation testing we developed. We highlight and offer guidance on critical parameters in the analysis, systematically compare various approaches being used in the field today, and provide open-access software code for flexible use and future development of our proposed pipeline.",
+    "osf_id": "reywx_v1",
+    "title": "A General Neural Network Approach for Fitting and Comparing Attentional Decision-Making Models",
+    "date_created": "2026-07-29T00:19:29.759837",
+    "date_modified": "2026-07-29T16:59:37.475031",
+    "description": "Attentional decision models (ADMs), including attention-modulated decision models and joint models of attention and decision making, are important tools for studying the cognitive processes underlying decision formation. However, these models often cannot be fit or compared using likelihood-based methods. Building on simulation-based and machine-learning approaches, this paper develops and tests an end-to-end neural network framework for parameter estimation and model comparison, tailored to the high-dimensional, multimodal structure of attentional decision data.  In attentional drift diffusion models where likelihood-based fitting is feasible, we compared machine-learning methods to likelihood-based methods on parameter recovery, model recovery, and empirical data fitting. The machine-learning approach performed as well or better than the likelihood-based approach. The two methods yielded highly consistent conclusions for real participants on these tasks. In more complex models where likelihood-based methods are inapplicable, the machine-learning approach still achieved high accuracy in parameter recovery and model recovery. Moreover, we compared different feature-extraction strategies and network architectures and found that even the simplest were sufficient for reliable estimation and comparison with large-scale simulation data. Overall, our approach provides practical methodological tools that facilitate the advancement of attentional decision models and the development of associated theories.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
         {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
+          "id": "5b4e7424c6983001430b6c1a",
+          "text": "Engineering Psychology"
         }
       ],
       [
         {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c64",
-          "text": "Systems Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c77",
-          "text": "Behavioral Neuroscience"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/6e7kj_v3/"
+    "link": "https://osf.io/preprints/psyarxiv/reywx_v1/"
   },
   {
-    "osf_id": "2rjmw_v1",
-    "title": "From Human to AI: Cognitive Mechanisms Underlying the Associations between Insecure Interpersonal Attachment Styles and Human-AI Emotional Engagement",
-    "date_created": "2026-07-29T13:27:06.252070",
-    "date_modified": "2026-07-29T14:24:54.255348",
-    "description": "Attachment styles have long been shown to shape how individuals form and maintain interpersonal relationships. Extending this perspective to human-AI interaction, the present study examined whether and how individuals’ interpersonal attachment styles were linked to their human-AI emotion-related behaviors and attachment. We further tested whether this process was mediated by cognitive perceptions related to AI’s emotional capacity (i.e., perceived uniqueness of AI) and moderated by individuals’ cognitive disposition to view non-living entities as human-like (i.e., dispositional anthropomorphism). Participants were a regionally representative sample of 1,406 undergraduate students (Mage = 18.98 years, SD = 1.25; 40% male) recruited from 26 universities in Shanghai, China, using a stratified random sampling procedure. Participants reported on their interpersonal attachment styles, perceived uniqueness of AI, anthropomorphism, and two indicators of emotional engagement with AI: personal disclosure and emotional attachment. Results showed that both interpersonal attachment anxiety and attachment avoidance were positively associated with perceived uniqueness of AI, which was in turn associated with greater personal disclosure and stronger emotional attachment to AI. Anthropomorphism further moderated the association between perceived uniqueness of AI and emotional engagement, such that these associations were stronger among individuals with higher levels of anthropomorphism. Similarly, moderated mediation analyses indicated that the indirect effects of interpersonal attachment orientations on emotional engagement with AI through perceived uniqueness of AI were amplified at higher levels of anthropomorphism. Overall, the findings suggest that human-AI emotional engagement may be shaped by both individuals’ human-human attachment-related orientations and their psychological construal of AI as a human-like, relationally meaningful interaction partner.",
+    "osf_id": "xgrv6_v1",
+    "title": "Shortening affect scales for ambulatory assessment: A comparison of different IRT-based approaches",
+    "date_created": "2026-07-29T07:56:58.977923",
+    "date_modified": "2026-07-29T17:07:43.229914",
+    "description": "Researchers often seek to measure affective experiences in daily life. Consequently, measures of positive and negative affect frequently take up large parts of ambulatory questionnaires. Optimizing questionnaire content and length is crucial in intensive ambulatory studies. In the current study, we developed and tested approaches to shortening ambulatory affect questionnaires. Specifically, we sought to build a preliminary item bank of 14 positive and 20 negative affect items calibrated with a graded response model using data from 14 individual ambulatory assessment studies (N = 3,818). We then compared different IRT-based strategies for shortening affect questionnaires to 2-4 items in simulation studies. Results indicate that computerized adaptive testing, but also simpler, (semi-) static item selection strategies achieve higher precision with the same number of items compared to random selection. We give concrete recommendations and highlight encountered issues and avenues for further refinement of the item bank.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/xgrv6_v1/"
+  },
+  {
+    "osf_id": "qtwj2_v1",
+    "title": "The ‘how’ of mental health recovery: Developing a model of internal and external recovery processes using critical realist thematic analysis of first-person online narratives",
+    "date_created": "2026-07-29T08:33:23.685706",
+    "date_modified": "2026-07-29T17:06:42.590308",
+    "description": "Extant mental health recovery frameworks offer valuable thematic summaries, however are ill-equipped to explain how recovery occurs. Their descriptive, individualistic focus fails to account for systemic inequalities or ground new interventions. This study sought to develop an explanatory, general-purpose model of personal recovery by specifying relationships across recovery experiences, the actions leading to them, and the contextual factors these processes depend on. We conducted a tailored form of critical realist thematic analysis on a clinically and demographically diverse sample of 37 mental health recovery narratives from 28 authors within Recovery Diaries: an international online collection of recovery stories. This led to the REACHES model: Recovery Experiences, Actions, and Contexts as a Holistic Explanatory System. REACHES delineates three recovery phases, with each nesting two dialectically opposed recovery processes: individuation involves space and direction; engagement operates via interest and connection; and realisation encompasses perspective and contribution. Each process comprises a recovery action and its resulting recovery experience, and each phase also specifies contextual mechanisms that enable its occurrence. This structure integrates an individual’s complex context (including cultural, social, biological, and structural factors), how they can progress their recovery, and how they may feel as a result into a singular dynamic, explanatory framework. Consequently, REACHES provides versatile avenues for improving mental health outcomes across individual, service-delivery, and policy levels, while holding potential to democratise knowledge across clinicians, peers, and laypeople on how to facilitate recovery. Further research should triangulate and extend REACHES using other samples, data formats, and analytic methods.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c27",
+          "text": "Intervention Research"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c33",
+          "text": "Mental Disorders"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c36",
+          "text": "Narrative Research"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c39",
+          "text": "Theory and Philosophy of Science"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c7a",
+          "text": "Interventions"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb2",
+          "text": "Well-being"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce5",
+          "text": "Prevention"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfc",
+          "text": "Health-related Behavior"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6d02",
+          "text": "Illness"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/qtwj2_v1/"
+  },
+  {
+    "osf_id": "zgqu7_v5",
+    "title": "Complementary Indicators of Knowledge Purporting and Their Validity",
+    "date_created": "2026-07-29T08:36:52.245448",
+    "date_modified": "2026-07-29T16:57:28.775207",
+    "description": "Overclaiming (OC)—the tendency to claim knowledge one does not possess—is predominantly assessed through self-report Overclaiming Questionnaires (OCQs). However, exclusive reliance on OCQs raises concerns about mono-method bias, limiting our understanding of knowledge purporting as a broader psychological disposition. To reduce this bias, we investigated two additional indicators of knowledge purporting and examined their convergent validity with traditional OCQs. In our study (N = 297), one of the new measures scored responses on fictional questions and the other captured discrepancies between self-rated knowledge and actual knowledge. Using latent variable analyses, we found modest convergent relations between the three indicators of knowledge purporting. Apart from these substantial levels of method-specific variance, we found differential relations with covariates, thereby challenging the validity and utility of any specific task class, including the predominantly used OCQs. We recommend that knowledge purporting measures must not be equated with the broader concept of knowledge purporting. While this study suggests that the concept of knowledge purporting may have some generality, it also shows that the methods used to investigate it matter more than they should. Future studies should consider the relationship between multivariate measures of knowledge purporting and further discrepancies between self-reports of knowledge and actual performance.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c53",
+          "text": "Individual Differences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c59",
+          "text": "Psychometrics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/zgqu7_v5/"
+  },
+  {
+    "osf_id": "xqtj3_v3",
+    "title": "An Initial Integration of Constructs that Account for Moral Actions: Moral Foundations, Values and Character Strengths",
+    "date_created": "2026-07-29T08:46:05.614742",
+    "date_modified": "2026-07-29T17:05:38.574699",
+    "description": "Morality has been described as a psychological system comprising sets of values, practices, institutions, and psychological mechanisms that work together to support moral/socially positive behavior. Nonetheless, there have been relatively few efforts to integrate these diverse constructs. We address this limitation using data from two samples who completed measures of moral foundations (Moral Foundations Theory), values (Schwartz Value Theory), and character strengths (VIA Framework). First, we used principal components analysis to summarize the complex patterns of association among these variables. We then tested whether the extracted components overlapped with normal and maladaptive personality trait domains (HEXACO and DSM-5 Model for Personality Disorders). Finally, we tested incremental validity of the three frameworks. In both samples, variance among variables was explained by four components that were suggestive of different “psychological systems” (networks of associated constructs) that may be linked to individual differences in moral action: Universal caring, preservation, self-control, and self-expansion. Further analyses suggested these emergent components are not reducible to single personality domains, each sharing variance with multiple domains. Finally, incremental validity analyses suggested that moral foundations, basic values, and VIA character strengths are complementary rather than redundant constructs, each explaining unique variance in criterion variables (empathy and moral identity).",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/xqtj3_v3/"
+  },
+  {
+    "osf_id": "3qxj2_v2",
+    "title": "From Construct Definitions to Narrative Response Models: The Case of Self-Efficacy",
+    "date_created": "2026-07-29T08:50:21.287592",
+    "date_modified": "2026-07-29T16:56:57.232617",
+    "description": "Psychology faces crises of theory and measurement, where poorly specified constructs hinder the validity of measurement instruments. This article turns prior pleas to transparently explicate comprehensive construct definitions and accompanying measurement instructions into practice, using self-efficacy as an exemplary case. Drawing primarily on Bandura’s conceptualization, we explicate the key elements distinguishing self-efficacy from related constructs and examine implications for measurement. More importantly, this is the first time to introduce Narrative Response Models (NRMs) as a tool to describe and study how hypothesized processes that need to occur allow inferences about a psychological construct from the registered responses to an item used to assess that construct (in this case self-efficacy). Without this, there is no reason to assume the responses can tell anything about the construct: the item is invalid. Because NRMs as a tool were developed to justify confidence in the validity of an item, they explicate many underlying assumptions that warrant further investigation. In the case of self-efficacy, for example, the retrieval of gist traces and the simulation of what it takes to engage in the behaviour of interest. As such, NRMs provide scaffolding for the systematic study of a measurement instrument’s validity.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/3qxj2_v2/"
+  },
+  {
+    "osf_id": "xpq56_v1",
+    "title": "Sensory hyper-sensitivity associates with poor infant sleep and different parental sleep practices, in a UK cohort",
+    "date_created": "2026-07-29T09:17:26.065244",
+    "date_modified": "2026-07-29T16:43:36.580453",
+    "description": "Sleep difficulties (e.g., increased sleep onset latency and more frequent night awakenings) are common in early development and are associated with increased parental stress. Sleep difficulties have been linked to sensory hypersensitivity in typically developing infants and infants with family history of autism. In the current study, we investigate whether infant sensory sensitivity is associated with the strategies parents employ when settling infants to sleep. Strategies encouraging autonomy, rather than those involving active physical comforting, have previously been shown to lead to better sleep. We report findings from a cross-sectional UK sample of 245 infants aged 6 to 13 months, from which we collected online parent-report measures of infant sleep and sensory sensitivity (ITSP). We replicate previous findings showing that poorer sleep is correlated with higher infant sensory sensitivity. We then show an association between higher infant sensory sensitivity and more frequent use of all settling strategies, as well as a higher number of different strategies used. A strong correlation between infant and maternal sensory sensitivity precluded testing whether parental settling strategies are driven by infant or parental sensory sensitivity. The current findings emphasise the need to integrate information about intrinsic (e.g. infant sensitivity) and social environment factors (e.g. parental sensitivity, settling strategies) to understand infant sleep.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -58,20 +318,66 @@
         {
           "id": "5b4e7425c6983001430b6c2d",
           "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c37",
+          "text": "Infancy"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/2rjmw_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/xpq56_v1/"
   },
   {
-    "osf_id": "36wdy_v2",
-    "title": "Attitudes and Affect towards Statistics in First Year Psychology Studends - a Bayesian Approach",
-    "date_created": "2026-07-28T12:23:23.001126",
-    "date_modified": "2026-07-29T14:14:33.094302",
-    "description": "Statistics is regarded as one of the most difficult and frightening subjects by psychology\nstudents. The present study develops a Bayesian framework for a more comprehensive\nunderstanding of students´ attitudes and affect towards statistics, their development and\npredictors. Furthermore, an extensive collection of related constructs was raised and analysed\npsychometrically. In a longitudinal design, data of first year psychology students was collected\nvia online surveys at the beginning of the lectures, midst-semester and after course completion.\nFour Bayesian models were fitted to inspect response patterns, pairwise item correlations and\nconstruct change over time. In a final multilevel generalized linear varying effects model, the\neffects of Statistics Anxiety on Affective Behaviours towards statistics were analysed.\nPsychometric analysis yielded surprising results, as most instruments revealed insufficient\nproperties in the present sample. Comparative analyses revealed that Affective Behaviours\nincreased over the course of the semester, and Statistics Anxiety decreased. The relationship\nbetween Affective Behaviours and Statistics Anxiety was complex, as some subscales were\ncorrelated positively against expectations. In conclusion, the present study developed a\nBayesian framework for comprehensive data analysis, presents preliminary results of Affective\nBehaviours and Statistics Anxiety and discusses a potential reliability risk in the field due to\ndeficient reporting of psychometric analyses.",
+    "osf_id": "783m9_v1",
+    "title": "Development and Validation of a Multilevel Deep-Learning Framework for Individualized Prediction in Clustered Data",
+    "date_created": "2026-07-29T09:29:53.496297",
+    "date_modified": "2026-07-29T17:03:22.677284",
+    "description": "Clustered data are common in psychological studies that collect repeated observations from individuals, classrooms, clinics, or other naturally occurring units. Such data offer rich opportunities for predicting psychological outcomes, but they also pose substantial analytic challenges. Predictors are usually high-dimensional, and the relations between independent and dependent within-level variables may vary across between-level clusters. Traditional statistical models are often restrictive under these conditions, whereas many supervised machine-learning models assume common predictive relations across clusters. To address these limitations, we developed a multilevel deep-learning framework for clustered data. The framework separates stable between-cluster differences from within-cluster deviations while allowing between-level variables to shape how within-level data is processed. It includes three components: (a) a baseline network that predicts each cluster’s typical outcome level from between-level variables, (b) a deviation network that predicts within-level deviations from that baseline using within-level variables, and (c) a slope network that maps between-level variables onto individualized slope vectors that gate within-level variables. We validated the framework using a digital-sensing and experience-sampling dataset and compared its performance against previous state-of-the-art models. The validation sample comprised 483 participants (219 female; Mage = 42.98 years, SD = 12.84), contributing a total of 6,737 days of data. Predictors included 560 daily smartphone-sensing (within-level) variables and 37 person-level (between-level) variables, and the outcome was daily affect. The proposed framework outperformed existing models and provided multiple layers of interpretive opportunities. The framework offers an innovative approach for combining between-level and within-level data in personalized psychological prediction models.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c55",
+          "text": "Computational Modeling"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/783m9_v1/"
+  },
+  {
+    "osf_id": "cp67b_v2",
+    "title": "The Standardized Open-source Mindfulness Architecture (SOMA): A Modular, Equity-Engineered Stimulus Library for Mechanistic Mindfulness Research",
+    "date_created": "2026-07-29T09:39:11.241200",
+    "date_modified": "2026-07-29T17:04:51.378023",
+    "description": "Mindfulness research faces two recurring methodological problems: near-universal reliance on weak control conditions that cannot isolate specific mechanisms from expectancy effects, and systematic exclusion of low-socioeconomic status (SES) populations through design assumptions that presuppose high literacy, quiet private spaces, and contemplative familiarity. We present the Standardized Open-source Mindfulness Architecture (SOMA), a modular stimulus library designed to address both challenges. SOMA comprises 88 audio/script assets: 32 pre-specified Mindfulness–Active Control session pairs across 16 practice modules, written at Grade 5–6 reading level and designed for noisy, shared environments. A pre-registered validation randomised controlled trial (RCT; N = 360; ClinicalTrials.gov NCT07556744) provides proof-of-concept. The data supported the predicted double dissociation (Condition × Measure: F(1, 358) = 185.95, p = 2.2 × 10−34, BF10 ≈ 9.5 × 1063) and experiential equity across SES strata (Hedges' g = −0.07; TOST-confirmed within ±0.40), yet a small credibility gap remained, favouring the Mindfulness condition.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c19",
+          "text": "Meta-science"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        }
+      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -92,8 +398,204 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c8b",
-          "text": "Educational Psychology"
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7427c6983001430b6ca1",
+          "text": "Experimental Design and Sample Surveys"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/cp67b_v2/"
+  },
+  {
+    "osf_id": "a4n37_v2",
+    "title": "Suicide in the community and mental healthcare usage: A nationwide register-based study in the Netherlands",
+    "date_created": "2026-07-29T11:14:43.785404",
+    "date_modified": "2026-07-29T16:21:41.011521",
+    "description": "Background – suicide bereavement can have profound effects on mental health. It is unclear, however, how suicide in ones community is related to mental health, and whether specific communities, such as socially fragmented or economically deprived one, are affected differently.\n\nMethods – the current register-based study used an longitudinal cohort design (n=702,589) utilizing Dutch national registry data. Communities were identified using address registers to obtain postcode data. Community suicide exposure obtained from death registers was based on number of suicides in postcode during the follow up period. Mental healthcare usage was obtained from basic and specialized mental healthcare registers. We adjusted all association for socioeconomic neighborhood charactersitics. As moderators, we investigated community social fragmentation, proportion of non-Dutch residents, residential density and proportion of low income households.\n\nResults – more community suicide was associated with lower mental healthcare usage (log hazard ratio = -0.37 [95%CI = -0.37, -0.37]). A dose-response like relationship was observed for communities with higher categories of suicide rates and less mental healthcare usage. Socially fragmented communities and those with more migrant residents were least likely to use mental healthcare after high community suicide rates.\n\nConclusions – communities which experience high suicide rates, especially socially fragmentted and migrant ones, could potentially benefit from more mental healthcare usage to prevent further suicides.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/a4n37_v2/"
+  },
+  {
+    "osf_id": "n2ukj_v3",
+    "title": "How participants confound experiments by generating desired experiences",
+    "date_created": "2026-07-29T11:30:58.138402",
+    "date_modified": "2026-07-29T16:17:52.673370",
+    "description": "Since 18th century experiments demonstrated that the effects of mesmerism arose from belief rather than magnetic fluid, there has been evidence that situational cues can drive change in experience. Across four studies (total N = 2,042), we investigated the degree to which experiences in psychological experiments may arise from participants controlling their experience to satisfy their goals, i.e., phenomenological control. Trait phenomenological control predicts some experimental measures of changes in experience when demand characteristics are not controlled. Here, we investigated the reach of phenomenological control as a demand effect by contrasting relationships between Phenomenological Control Scale scores (PCS) and effects presumed to either be highly sensitive to beliefs (visually evoked auditory response or vEAR; tingling in the scalp or ASMR) or less sensitive to beliefs (Müller Lyer and vertical-horizontal illusions). Phenomenological control accounted for much of the effect for the posited belief-sensitive effects but not for the classic visual illusions (Study 1). This pattern of results remained after controlling for context effects (Study 2) and measurement differences across procedures (Study 3). Finally, Study 4 presents causal evidence that vEAR and ASMR can be modulated by high PCS participants in response to demand characteristics delivered by direct suggestion. When an effect is substantially predicted by trait phenomenological control and can be caused by phenomenological control following demand characteristics, this domain-general mechanism should be ruled out before appealing to domain-specific explanations. This presents a previously unrecognised threat to validity in psychology experiments analogous to that of placebo effects in medicine.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/n2ukj_v3/"
+  },
+  {
+    "osf_id": "56kqr_v1",
+    "title": "Memory Benefits for Schematically Incongruent Sequences Depend on the Type of Violation",
+    "date_created": "2026-07-29T11:44:51.888698",
+    "date_modified": "2026-07-29T16:53:35.238455",
+    "description": "Schemas, knowledge structures that represent regularities across episodes, can enhance memory for events that are either congruent or incongruent with their content. Across four experiments including 193 university students, we investigated whether these schema effects emerge when chronology forms a core aspect of a schema’s content, enabling temporal predictions of future events. After pre-training on schematically defined four-item sequences, participants studied novel sequences that either affirmed, violated, or were unrelated to these schemas. Memory benefits were observed for both schematically congruent and incongruent sequences relative to sequences that were schema-unrelated. Critically, incongruent memory benefits only emerged for violations of content, and not for violations of temporal order, despite behavioural evidence of prediction error at encoding for both violation types. Our findings show that schema effects depend on the type of schematic violation and that incongruent benefits are not the inevitable consequence of prediction error at encoding.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/56kqr_v1/"
+  },
+  {
+    "osf_id": "q26ug_v1",
+    "title": "The kaleidoscope of distress: elevated negative emodiversity across objective and idiographic cognitive tasks is associated with worse mental health in adolescence",
+    "date_created": "2026-07-29T12:16:01.582155",
+    "date_modified": "2026-07-29T16:52:13.087642",
+    "description": "Background\nGreater complexity in one’s emotional experience is thought to support mental health, including increased diversity in experienced emotions (emodiversity). However, findings linking emodiversity to psychological wellbeing in adults have been mixed, and little is known about its role during adolescence. We examined whether emodiversity across two different emotional contexts – related to self-referential material and to emotional responses to everyday visual scenes – was associated with mental ill-health symptomatology in a community sample of adolescents. \nMethods\nThree-hundred-and-thirty-five adolescents (Mage = 17.1, SD = 0.6, 81.8% female, 71.3% White British) completed two task-based measures of emotional experience, related to the self-concept and standardised visual stimuli, alongside self-report measures of depression, anxiety, post-traumatic stress symptoms, and emotion regulation.  \nResults\nGreater negative emodiversity across both tasks was associated with elevated depression and anxiety symptoms, while post-traumatic stress symptoms were associated with greater negative emodiversity for the self-concept only. Lower positive emodiversity for the self-concept was also associated with poorer mental health. There was a small, positive association between the two measures of emodiversity. Negative emodiversity for the self-concept was associated with greater use of maladaptive emotion regulation strategies.\nConclusions\nFindings suggest that elevated negative emodiversity may represent a transdiagnostic marker of mental ill-health symptomatology in adolescence and highlights the importance of examining different emotional contexts to further elucidate the relationship between emotional complexity and mental health.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c33",
+          "text": "Mental Disorders"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c58",
+          "text": "Emotion"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c67",
+          "text": "Depressive Disorders"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cca",
+          "text": "Adolescence"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/q26ug_v1/"
+  },
+  {
+    "osf_id": "7pbkf_v1",
+    "title": "Effects of the distribution of acoustic cues on infants' perception of sibilants",
+    "date_created": "2026-07-29T12:27:35.178142",
+    "date_modified": "2026-07-29T16:45:26.138018",
+    "description": "A current theoretical view proposes that infants converge on the speech categories of their native language by attending to frequency distributions that occur in the acoustic input. To date, the only empirical support for this statistical learning hypothesis comes from studies where a single, salient dimension was manipulated. Additional evidence is sought here, by introducing a less salient pair of categories supported by multiple cues. We exposed English-learning infants to a multi-cue bidimensional grid between retroflex and alveolopalatal sibilants in prevocalic position. This contrast is substantially more difficult according to previous cross-linguistic and perceptual research, and its perception is driven by cues in both the consonantal and the following vowel portions. Infants heard one of two distributions (flat, or with two peaks), and were tested with sounds varying along only one dimension. Infants’ responses differed depending on the familiarization distribution, and their performance was equally good for the vocalic and the frication dimension, lending some support to the statistical hypothesis even in this harder learning situation. However, learning was restricted to the retroflex category, and a control experiment showed that lack of learning for the alveolopalatal category was not due to the presence of a competing category. Thus, these results contribute fundamental evidence on the extent and limitations of the statistical hypothesis as an explanation for infants’ perceptual tuning.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/7pbkf_v1/"
+  },
+  {
+    "osf_id": "bz4rp_v1",
+    "title": "Mapping Mechanistic Interactions Between Layers of Presence and the Human Affectome",
+    "date_created": "2026-07-29T12:55:50.761086",
+    "date_modified": "2026-07-29T16:12:16.137652",
+    "description": "The sense of presence - the feeling of 'being there' in an environment - is a foundational concept in consciousness research, yet its relationship to human affect remains theoretically underdeveloped. Although presence and emotion are known to interact, prior accounts have treated this relationship as either unidirectional or have failed to specify which aspects of affect interact with which layers of presence. The present paper addresses this gap by proposing a model that maps mechanistic interactions between the layers of presence, as conceptualised by Riva et al. (2004), and the components of the human affectome, as taxonomised by Schiller et al. (2024). This paper argues that the affective features valence and arousal share bidirectional relationships with core presence, such that moment-to-moment affective quality both shapes and is shaped by the organism's felt engagement with the immediate environment. We further argue that the global affective concerns of trajectory and optimisation share bidirectional relationships with extended presence, such that long-timescale affective states both disrupt and are regulated by the organism's autobiographical, trans-temporal self. The hierarchy of affective concern, termed distance, is proposed to influence core presence unidirectionally, with more immediate concerns having greater impact than distal ones. These relationships are defended using a combination of empirical evidence from virtual reality research and convergent clinical observations from depersonalisation-derealisation disorder, depression, dementia and anosognosia. The model generates four testable hypotheses for future empirical investigation and offers a more granular and mechanistically precise account of the presence-affect relationship than has previously been proposed.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
         }
       ],
       [
@@ -105,19 +607,27 @@
           "id": "5b4e7427c6983001430b6c8c",
           "text": "Cognitive Psychology"
         }
-      ],
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/bz4rp_v1/"
+  },
+  {
+    "osf_id": "5wpdu_v4",
+    "title": "Descriptions of phenomenal versus intentional mental states are differentially associated with gaze direction",
+    "date_created": "2026-07-29T14:38:37.714625",
+    "date_modified": "2026-07-29T16:09:23.334312",
+    "description": "Across cultures, humans reason about others’ mental states as being either phenomenal, reflecting shareable experiences, or intentional, reflecting agentive goals. Might our dissociated judgments of others’ mental states be linked to dissociated judgments of others’ gaze direction, one of our earliest social cues from infancy? We presented adults (N = 600) and 6- to 8-year-old children (N = 200) with direct, definitional descriptions as well as descriptions of example phenomenal or intentional mental states and asked them to choose whether a face with averted or straight-ahead gaze better matched the character in each description. Adults and older children chose the averted-gaze face for the direct phenomenality description but the straight-ahead-gaze face for the direct intentionality description. Adults showed the same pattern of responses for the indirect, example descriptions, but children chose the straight-ahead-gaze face for both types of indirect descriptions. Descriptions of either phenomenal or intentional mental states might be intuitively associated with straight-ahead gaze, perhaps originating in infants’ understanding of straight-ahead gaze as communicating either mutual social engagement or general visible accessibility for goal-directed action. The association between phenomenality descriptions and averted gaze may, by contrast, arise only after learning that certain phenomenal contexts involve inner experiences with averted gaze (e.g., someone is looking at a particular emotion-evoking stimulus or looking “into their own mind”). If, in adulthood, our social concepts have indeed been built on prelinguistic intuitions that can be evoked by language, then these intuitions may continue to affect our mature, linguistically driven social reasoning.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c92",
-          "text": "Statistical Methods"
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
         }
       ],
       [
@@ -128,10 +638,6 @@
         {
           "id": "5b4e7425c6983001430b6c34",
           "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb7",
-          "text": "Motivational Behavior"
         }
       ],
       [
@@ -140,15 +646,257 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd6",
-          "text": "Attitudes and Persuasion"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/36wdy_v2/"
+    "link": "https://osf.io/preprints/psyarxiv/5wpdu_v4/"
+  },
+  {
+    "osf_id": "96zsd_v1",
+    "title": "Individual differences in silent and filled pause production in spontaneous speech: Speaker-level and speech-level factors",
+    "date_created": "2026-07-29T14:53:18.510948",
+    "date_modified": "2026-07-29T16:40:43.641972",
+    "description": "Speech is rarely completely fluent, and disfluencies, such as silent and filled pauses, can arise from difficulties in speech planning. Yet it remains unclear whether pause rates are driven by characteristics of the speaker, characteristics of the utterance, or interactions between the two. We analysed one-minute recordings of spontaneous speech from 112 participants who answered three open-ended questions in a test session and again in a re-test session after four weeks (Hintz et al., 2020a). Results showed that pause rates exhibited test–retest reliability and were consistent across elicitation questions. However, mixed-effects models showed that pause rates were not explained solely by the speaker-level factors of short-term memory, processing speed, or linguistic experience. Across analyses, speech-level factors, particularly word frequency, were the most consistent predictors of both silent and filled pauses. Importantly, the effect of word frequency was moderated by processing speed: speakers with slower processing speed showed stronger frequency effects, resulting in a higher predicted rate of filled pauses for utterances with low frequency words. Together, these findings suggest that while speech fluency is a stable characteristic of individual speakers, moment-to-moment disfluencies emerge from dynamic interactions between speakers' cognitive capacities and the planning demands of particular utterances.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd2",
+          "text": "Psycholinguistics and Neurolinguistics"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6d01",
+          "text": "Language"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/96zsd_v1/"
+  },
+  {
+    "osf_id": "gv27s_v1",
+    "title": "The cognitive foundations of food moralization",
+    "date_created": "2026-07-29T14:55:41.078517",
+    "date_modified": "2026-07-29T16:08:16.872180",
+    "description": "By adulthood, we attach moral valence to food—labeling some foods as “good,” others as “bad,” and judging ourselves and others based on the foods we choose. Here, we examined young children’s beliefs about which foods are permissible to eat and whether these conceptions vary across early childhood––shifting patterns of normative alignment that may reflect early internalization of societal beliefs about food and lay a cognitive foundation for food moralization. We presented 4- to 6-year-old children with 12 foods (four healthy, four unhealthy, four of mixed-health status; based on adult health ratings) and asked children to categorize each as “healthy” or “not healthy” (Health); “liked” or “not liked” (Desirability); and “OK” or “not OK” (Permissibility). Although children’s Desirability categorizations were similar across ages (with unhealthy foods categorized as “liked” most often), older (vs. younger) children’s Health and Permissibility categorizations were more closely aligned with each other and with adult health judgments. Moreover, whereas younger children positively associated Permissibility with Desirability, older children did not. In contrast, a positive association between Permissibility and Health was stronger among older children. Parents’ food-related behaviors further predicted differences in how children conceptualized Permissibility. Together, these findings reveal differences across early childhood in beliefs regarding what is permissible to eat––shifting patterns that may lay a foundation on which food moralization is built. The work paves the way for continued research on the emergence and consequences of food moralization and for efforts to teach about health in ways that support healthy relationships with food.",
+    "doi": "10.1016/j.appet.2026.108719",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c63",
+          "text": "Cognitive Development"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/gv27s_v1/"
+  },
+  {
+    "osf_id": "ewxkv_v1",
+    "title": "The Effects of Online Enactive Education on Secondary School Students",
+    "date_created": "2026-07-29T14:58:05.965470",
+    "date_modified": "2026-07-29T16:06:32.164011",
+    "description": "Enactive education is an innovative model based on embodied cognition. This quasi-experimental controlled study with pretest-posttest design investigated the effects of an online enactive school program on students’ learning outcomes, academic self-concept, and physical self-concept. The study was conducted in three secondary schools in the districts of Salerno and Potenza, Italy, during COVID-19 school closures in 2021. Participants were 431 students, 52.4% girls, mean age 14.27 years (SD = 1.01). The study instruments included a school questionnaire and the academic and physical scales of the multidimensional self-concept scale (MSCS). The experimental group received online sessions on mind-body wellbeing, healthy eating, and movement, while controls received non-enactive online classes on the same subjects. Findings indicate that the experimental group, compared to controls, showed higher levels of all the variables considered. Implications include that online enactive education should be used at secondary school level to promote desirable educational and psychological outcomes.",
+    "doi": "10.1080/00220671.2023.2251405",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce6",
+          "text": "Embodied Cognition"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/ewxkv_v1/"
+  },
+  {
+    "osf_id": "bv295_v1",
+    "title": "Aversion to intergroup inequality can be leveraged to promote intergroup cooperation",
+    "date_created": "2026-07-29T15:06:35.616723",
+    "date_modified": "2026-07-29T16:06:58.987660",
+    "description": "Tackling global challenges necessitates cooperation beyond group boundaries. This requires groups to reallocate resources from serving only their group members to creating public goods that benefit everyone. Such a transition to intergroup cooperation can be particularly challenging when certain groups benefit more strongly from group cooperation, because these advantaged groups may have little interest in establishing cooperative relationships with other groups. Using interactive experiments and computational modelling, we show how such structural inequality between groups creates systematic barriers to the emergence of intergroup cooperation and how these can be overcome. Specifically, while structural inequality undermines intergroup cooperation, a minority of members of advantaged groups show a concern for intergroup fairness (Study 1, N = 378). These fairness motives can be systematically leveraged through peer enforcement to promote intergroup cooperation (Study 2, N = 360). We show that peer enforcement is used not only to sanction free-riding but also to establish a norm of intergroup cooperation, discouraging exclusive in-group cooperation even among advantaged groups. Our findings challenge the notion that human cooperation is inherently biased towards the in-group. Instead, we provide evidence for an aversion to intergroup inequality that can be harnessed to establish intergroup cooperation even amid structural inequality.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c42",
+          "text": "Consumer Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd4",
+          "text": "Behavioral Economics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/bv295_v1/"
+  },
+  {
+    "osf_id": "kjbpg_v3",
+    "title": "The Development of Sensitivity to Automatic Behavior",
+    "date_created": "2026-07-29T15:55:13.356896",
+    "date_modified": "2026-07-29T16:05:47.590029",
+    "description": "People’s behavior can be roughly categorized into two modes: reflective and thoughtful, or automatic and rote. Past work on Theory of Mind has focused on how children reason about the first category of behavior. But do children also notice when other people are acting in an automatic way? And if so, when might this matter? This paper examined 5- to 10-year-old children’s reasoning about others’ rote behavior, mainly focusing on the consequences of this inference in teaching contexts (N = 660 across four studies, 327 girls; data collected online from U.S.-based children between May 2022 and December 2024). Children’s sensitivity to apparent rote behavior increased with development, with more consistent inferences emerging around age 7. Rote behavior was also associated with worse teaching. These results indicate when and how reasoning about automatic behavior matters to children’s perception of others, and suggest novel extensions to models of Theory of Mind.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c32",
+          "text": "Social Development"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c63",
+          "text": "Cognitive Development"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c6d",
+          "text": "Social Cognition"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cea",
+          "text": "Learning"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfa",
+          "text": "Reasoning"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfb",
+          "text": "Judgment and Decision Making"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/kjbpg_v3/"
+  },
+  {
+    "osf_id": "7pf68_v3",
+    "title": "Inclusive Neurodiverse Campuses: A participatory approach to understanding neurodivergent belonging in higher education",
+    "date_created": "2026-07-29T16:12:47.500676",
+    "date_modified": "2026-07-29T16:23:07.302581",
+    "description": "A sense of belonging is linked to people’s engagement, performance and wellbeing in educational and workplace settings. However, previous literature on belonging at university lacks conceptual clarity, often using unidimensional measures that foreground social integration, which may not be valid and transferable to neurodivergent students and employees. Adopting an inclusive definition of neurodivergence, we report a participatory action research project in the context of a university in northern England, with the aim of understanding and promoting belonging on campus. At the first phase, 152 anonymous contributions were received across a multi-media cross-campus installation. Data were analysed using conventional content analysis, which identified key determinants of belonging for neurodivergent people: (1) Meaningful inclusive practice, characterised by flexibility and choice in learning, inclusion by default, validation and being believed; (2) Neurodivergent representation as a shared responsibility, supported by identity spaces and visible acceptance of difference; and (3) Navigating time, space and transition, highlighting the interdependency between space and experience, via constant cost-benefit decision-making. These themes informed a second phase of in-depth interviews with staff and students (n=13), analysed using reflexive thematic analysis. The findings are presented as a Model of Neurodivergent Belonging at University, framed through five questions that people negotiate to actively construct a sense of belonging in their contexts. We conclude that belonging at university for neurodivergent people requires authentic acceptance, rather than assimilation or institutional affiliation. Making small, achievable changes across university systems can cascade into meaningful gains in success and wellbeing for neurodivergent people.",
+    "doi": "10.1177/27546330261431356",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/7pf68_v3/"
   }
 ]

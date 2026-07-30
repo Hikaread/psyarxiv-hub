@@ -1,31 +1,147 @@
 {
-  "evaluated": 3,
-  "accepted": 0,
-  "rejected": 3,
+  "evaluated": 5,
+  "accepted": 4,
+  "rejected": 1,
   "errors": 0,
   "skipped": 0,
-  "deferred": 0,
+  "deferred": 15,
   "results": [
     {
-      "osf_id": "2rjmw_v1",
-      "title": "From Human to AI: Cognitive Mechanisms Underlying the Associations between Insec",
+      "osf_id": "qtwj2_v1",
+      "title": "The \u2018how\u2019 of mental health recovery: Developing a model of internal and external",
+      "decision": "accept",
+      "reason": "This study directly addresses mental health recovery processes through analysis of first-person narratives, providing clinically relevant insights into how recovery occurs rather than just describing it. It has clear implications for therapeutic practice and intervention development.",
+      "category": "Other Clinical",
+      "number": 747,
+      "authors": "Quinn William Harper; Amy Mowle; Warren mansell",
+      "curated": true
+    },
+    {
+      "osf_id": "q26ug_v1",
+      "title": "The kaleidoscope of distress: elevated negative emodiversity across objective an",
+      "decision": "accept",
+      "reason": "The study examines emodiversity in relation to mental health symptoms in adolescents, which is directly relevant to clinical psychology practice as it relates to assessment of emotional experience and its association with psychopathology.",
+      "category": "Mood Disorders",
+      "number": 748,
+      "authors": "Alice Roe; Tim Dalgleish",
+      "curated": true
+    },
+    {
+      "osf_id": "a4n37_v2",
+      "title": "Suicide in the community and mental healthcare usage: A nationwide register-base",
+      "decision": "accept",
+      "reason": "This study directly addresses suicide exposure and mental healthcare usage, which is highly relevant to clinical psychology practice, particularly in suicide prevention and community mental health interventions.",
+      "category": "Suicidality & Self-Harm",
+      "number": 749,
+      "authors": "Milan Zarchev; Philip Michielsen; Richard Vijverberg; Marco Helbich",
+      "curated": true
+    },
+    {
+      "osf_id": "xpq56_v1",
+      "title": "Sensory hyper-sensitivity associates with poor infant sleep and different parent",
       "decision": "reject",
-      "reason": "This paper focuses on human-AI interaction and attachment styles, which falls under technology/AI research rather than clinical psychology. While attachment theory has clinical applications, this study examines emotional engagement with AI systems, not mental health interventions, assessment, diagnosis, or psychopathology relevant to practicing clinicians.",
+      "reason": "Focuses on infant sleep and sensory sensitivity, not adult clinical psychology practice",
       "category": null
     },
     {
-      "osf_id": "36wdy_v2",
-      "title": "Attitudes and Affect towards Statistics in First Year Psychology Studends - a Ba",
-      "decision": "reject",
-      "reason": "This study focuses on statistics attitudes in first-year psychology students, which is an educational psychology topic without direct clinical application. It examines learning attitudes rather than mental health, psychopathology, or clinical interventions relevant to practicing therapists.",
-      "category": null
+      "osf_id": "cp67b_v2",
+      "title": "The Standardized Open-source Mindfulness Architecture (SOMA): A Modular, Equity-",
+      "decision": "accept",
+      "reason": "This paper addresses critical methodological limitations in mindfulness research, including poor control conditions and exclusion of low-SES populations, with direct implications for clinical practice and research.",
+      "category": "Therapeutic Modalities",
+      "number": 750,
+      "authors": "Alessandro Sparacio; Ivan Ropovik; Jonathan N Davies; Erin Lee; Ted Meissner; Christoph Spiessens; Alina Rodriguez; Johan Gunnar Eriksson",
+      "curated": true
     },
     {
-      "osf_id": "6e7kj_v3",
-      "title": "Robust circular cluster-based statistics for respiration-brain coupling",
-      "decision": "reject",
-      "reason": "low signal score (1)",
-      "category": null
+      "osf_id": "bz4rp_v1",
+      "title": "Mapping Mechanistic Interactions Between Layers of Presence and the Human Affect",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "7pf68_v3",
+      "title": "Inclusive Neurodiverse Campuses: A participatory approach to understanding neuro",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ewxkv_v1",
+      "title": "The Effects of Online Enactive Education on Secondary School Students",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "xqtj3_v3",
+      "title": "An Initial Integration of Constructs that Account for Moral Actions: Moral Found",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "bv295_v1",
+      "title": "Aversion to intergroup inequality can be leveraged to promote intergroup coopera",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "reywx_v1",
+      "title": "A General Neural Network Approach for Fitting and Comparing Attentional Decision",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "zgqu7_v5",
+      "title": "Complementary Indicators of Knowledge Purporting and Their Validity",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "n2ukj_v3",
+      "title": "How participants confound experiments by generating desired experiences",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "96zsd_v1",
+      "title": "Individual differences in silent and filled pause production in spontaneous spee",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "xgrv6_v1",
+      "title": "Shortening affect scales for ambulatory assessment: A comparison of different IR",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "3qxj2_v2",
+      "title": "From Construct Definitions to Narrative Response Models: The Case of Self-Effica",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "783m9_v1",
+      "title": "Development and Validation of a Multilevel Deep-Learning Framework for Individua",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "5wpdu_v4",
+      "title": "Descriptions of phenomenal versus intentional mental states are differentially a",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "gv27s_v1",
+      "title": "The cognitive foundations of food moralization",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "kjbpg_v3",
+      "title": "The Development of Sensitivity to Automatic Behavior",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
     }
   ]
 }
