@@ -1,9 +1,9 @@
 # Pipeline Brain
 
 ## Current State
-- Papers: 760
-- Seen IDs: 2898
-- Last run: 2026-07-31 03:00
+- Papers: 761
+- Seen IDs: 2899
+- Last run: 2026-07-31 06:00
 
 ## Script Locations (CRITICAL)
 - **evaluate-candidates.py**: `/home/z/my-project/psyarxiv-hub/scripts/evaluate-candidates.py` (git-tracked, survives wipes)
