@@ -3,79 +3,79 @@
   "accepted": 2,
   "rejected": 3,
   "errors": 0,
-  "skipped": 0,
-  "deferred": 12,
+  "skipped": 5,
+  "deferred": 7,
   "results": [
     {
       "osf_id": "qgxsp_v1",
       "title": "Nurturing Understanding, Resilience, and Trust Using Relationship Enrichment:  A",
-      "decision": "reject",
-      "reason": "The paper focuses on adolescents in rural communities, which is outside the scope of the clinical psychology hub that prioritizes adult applications unless there are direct adult clinical implications.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "uvfka_v1",
       "title": "When Symptoms Don\u2019t Add Up: Addressing Poor Symptom Validity in Forensic Intervi",
-      "decision": "accept",
-      "reason": "The paper addresses symptom validity assessment in forensic settings, which has direct clinical utility for psychologists conducting assessments and case formulation in high-stakes contexts.",
-      "category": "Other Clinical",
-      "number": 751,
-      "authors": "Dani\u00ebl van Helvoort; Brechje Dandachi-FitzGerald; Henry; Chijs van Nieuwenhuizen; Harald Merckelbach",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "53rkd_v1",
       "title": "Who is highly distressed and impaired by climate change?  Cross-national cut-sco",
-      "decision": "accept",
-      "reason": "The paper addresses climate change-related psychological distress and functional impairment, which is highly relevant to clinical psychology practice. It develops validated cut-scores and brief screening tools for identifying individuals most affected by climate change, with clear implications for mental health assessment and intervention.",
-      "category": "Trauma & Stressor-Related",
-      "number": 752,
-      "authors": "Johanna Hepp; Jana Urbild; Sean Patrick Lane",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "qhnvr_v1",
       "title": "Remembering more than the eye beholds: the effects of emotional content and ment",
-      "decision": "reject",
-      "reason": "This paper focuses on boundary extension, a cognitive memory phenomenon, in adolescents. While it mentions mental health symptoms, the study is primarily about basic cognitive psychology (scene perception and memory) rather than clinical practice, assessment, diagnosis, or mental health interventions. The paper lacks direct clinical applications for practicing therapists, psychologists, or psychiatrists.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "ys4g3_v3",
       "title": "Attachment-Informed Leadership (AIL):  A New Leadership Framework based on Attac",
-      "decision": "reject",
-      "reason": "This paper focuses on leadership theory and organizational psychology, not clinical psychology practice. While it mentions attachment theory, its primary application is to leadership in organizational contexts rather than therapy, assessment, diagnosis, or mental health interventions. The paper does not address clinical utility for practicing therapists, psychologists, or psychiatrists.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "wu9nk_v1",
       "title": "Health Behaviour Pathways to Internalising Symptoms in Adolescence. A Random Int",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "This study examines the relationship between health behaviors and internalizing symptoms in adolescence, which has direct clinical relevance for understanding adolescent mental health and potential intervention points.",
+      "category": "Other Clinical",
+      "number": 753,
+      "authors": "Christopher Knowles; Qiqi Cheng; Prof. Neil Humphrey",
+      "curated": true
     },
     {
       "osf_id": "pa3wj_v1",
       "title": "Can Artificial Intelligence Promote Metacognition? Evidence from a Three-Level M",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "This paper focuses on AI in educational settings to promote metacognition in learners, which falls under education and technology research rather than clinical psychology. While metacognition is relevant to clinical practice, this study's context is educational technology, not mental health interventions, assessment, diagnosis, or therapy applications for clinical populations.",
+      "category": null
     },
     {
       "osf_id": "8ua2h_v2",
       "title": "Why You Switch Matters: Failure-Triggered Switching Between Different Problem Ty",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "This paper focuses on programming education and learning environments, examining how students switch between different types of programming tasks. It does not relate to clinical psychology practice, therapy, assessment, diagnosis, psychopathology, or mental health interventions. The content is entirely within educational psychology and computer science education domains without clinical application.",
+      "category": null
     },
     {
       "osf_id": "kvcaz_v2",
       "title": "Straight-line behavior: conforming to design in a practice environment",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "This paper focuses on computer science education and student behavior in online learning platforms, which is outside the scope of clinical psychology practice. It examines how students navigate programming activities on educational interfaces, with no connection to therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing mental health professionals.",
+      "category": null
     },
     {
       "osf_id": "9yfqp_v1",
       "title": "Impact of an Embodied Conversational Agent on Loneliness and Emotional States in",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "This study examines an embodied conversational agent for community-dwelling older adults, focusing on loneliness and emotional states, which has direct clinical relevance for mental health interventions in aging populations.",
+      "category": "Digital Mental Health",
+      "number": 754,
+      "authors": "Feliciano Villar; Rumen Manolov",
+      "curated": true
     },
     {
       "osf_id": "dqzry_v3",
