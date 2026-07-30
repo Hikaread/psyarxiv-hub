@@ -1,9 +1,9 @@
 # Pipeline Brain
 
 ## Current State
-- Papers: 759
-- Seen IDs: 2893
-- Last run: 2026-07-31 00:00
+- Papers: 760
+- Seen IDs: 2898
+- Last run: 2026-07-31 03:00
 
 ## Script Locations (CRITICAL)
 - **evaluate-candidates.py**: `/home/z/my-project/psyarxiv-hub/scripts/evaluate-candidates.py` (git-tracked, survives wipes)
@@ -27,6 +27,7 @@
 - git filemode changes: paper/*.html flip between 644/755 on stash/pop — lots of noise in commits
 - **Scripts in /home/z/my-project/scripts/ get wiped. Use repo copies.**
 - **pipeline-brain.md now lives in the repo at curation/pipeline-brain.md** — survives wipes via git
+- **Phantom entries**: timeouts during insert_paper_into_json can write partial entries (no osf_id). Dedup catches these.
 
 ## Patterns
 - Backfill mode: discoverer jumps back ~57-225d, pulls large batches
