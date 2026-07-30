@@ -1,9 +1,9 @@
 # Pipeline Brain
 
 ## Current State
-- Papers: 746
-- Seen IDs: 2827
-- Last run: 2026-07-30 00:00
+- Papers: 750
+- Seen IDs: 2849
+- Last run: 2026-07-30 09:00
 
 ## Script Locations (CRITICAL)
 - **evaluate-candidates.py**: `/home/z/my-project/psyarxiv-hub/scripts/evaluate-candidates.py` (git-tracked, survives wipes)
@@ -45,4 +45,4 @@
 | 07-24 | Paragraph breaks in prompt | LLM prompt instructs \\n\\n for summary/clinical_insight |
 | 07-25 | Strengthened bold in prompt | MANDATORY: 6+ bold items per summary, 2+ in clinical_insight |
 | 07-25 | Updated Discord output format | Each paper on own line, full title |
-| 07-28 | Fixed re-eval loop | Added load_discarded_ids() so rejected papers are skipped on subsequent runs |
+| 07-30 | Checkpoint + reduced batch | eval-checkpoint.json persists progress across timeouts; --max=5 default; sleeps 3-5s |
