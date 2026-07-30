@@ -1,121 +1,142 @@
 {
   "evaluated": 5,
-  "accepted": 2,
-  "rejected": 3,
+  "accepted": 1,
+  "rejected": 4,
   "errors": 0,
-  "skipped": 5,
-  "deferred": 7,
+  "skipped": 7,
+  "deferred": 9,
   "results": [
     {
-      "osf_id": "qgxsp_v1",
-      "title": "Nurturing Understanding, Resilience, and Trust Using Relationship Enrichment:  A",
+      "osf_id": "sx5j4_v2",
+      "title": "A Randomized Controlled Effectiveness Trial of Emotionally Focused Couple Therap",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "uvfka_v1",
-      "title": "When Symptoms Don\u2019t Add Up: Addressing Poor Symptom Validity in Forensic Intervi",
+      "osf_id": "whn7f_v1",
+      "title": "Stigma, medical gaslighting, and heterosexism: barriers to accessing healthcare ",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "53rkd_v1",
-      "title": "Who is highly distressed and impaired by climate change?  Cross-national cut-sco",
+      "osf_id": "zebw9_v1",
+      "title": "AI\u2013Human Support Profiles Among Sustained Users of Conversational AI for Emotion",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "qhnvr_v1",
-      "title": "Remembering more than the eye beholds: the effects of emotional content and ment",
+      "osf_id": "rc36b_v5",
+      "title": "Not just what happened, but how it felt: Subjective distress and its role in ado",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "ys4g3_v3",
-      "title": "Attachment-Informed Leadership (AIL):  A New Leadership Framework based on Attac",
+      "osf_id": "jcauw_v1",
+      "title": "Recontextualizing Cultural Humility in the Japanese Counseling Context: Developm",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "wu9nk_v1",
-      "title": "Health Behaviour Pathways to Internalising Symptoms in Adolescence. A Random Int",
+      "osf_id": "3jyud_v2",
+      "title": "Emotion regulation predicts responses to interpersonal moral disagreements",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "7wh8f_v2",
+      "title": "Pervasive negativity and fragmentation across the architecture of the self-conce",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "7xyge_v1",
+      "title": "Alignment between Infant Sleep Advice and Parenting Approach: Associations with ",
+      "decision": "reject",
+      "reason": "Focuses on infant sleep and parenting approaches, not adult clinical psychology practice",
+      "category": null
+    },
+    {
+      "osf_id": "5e6na_v2",
+      "title": "The Effect of Crime Type and Knowledge about Autism Spectrum Condition (ASC) on ",
       "decision": "accept",
-      "reason": "This study examines the relationship between health behaviors and internalizing symptoms in adolescence, which has direct clinical relevance for understanding adolescent mental health and potential intervention points.",
+      "reason": "Examines clinical psychology implications for legal decision-making involving autism spectrum condition defendants, relevant to forensic psychology and clinical assessment",
       "category": "Other Clinical",
-      "number": 753,
-      "authors": "Christopher Knowles; Qiqi Cheng; Prof. Neil Humphrey",
+      "number": 761,
+      "authors": "Lynn Weiher; Rosa Vermeulen; Hannah Wessels; Steven James Watson",
       "curated": true
     },
     {
-      "osf_id": "pa3wj_v1",
-      "title": "Can Artificial Intelligence Promote Metacognition? Evidence from a Three-Level M",
+      "osf_id": "jrkwu_v1",
+      "title": "Hindustani Classical Music and the Cognitive Brain: Revisiting Music Cognition t",
       "decision": "reject",
-      "reason": "This paper focuses on AI in educational settings to promote metacognition in learners, which falls under education and technology research rather than clinical psychology. While metacognition is relevant to clinical practice, this study's context is educational technology, not mental health interventions, assessment, diagnosis, or therapy applications for clinical populations.",
+      "reason": "This paper focuses on music cognition from a cross-cultural perspective without direct clinical applications to therapy, assessment, diagnosis, or mental health interventions. It examines cognitive domains like emotions, memory, and predictive processing in relation to Hindustani Classical Music but does not address clinical utility for practicing therapists, psychologists, or psychiatrists.",
       "category": null
     },
     {
-      "osf_id": "8ua2h_v2",
-      "title": "Why You Switch Matters: Failure-Triggered Switching Between Different Problem Ty",
+      "osf_id": "hgf4b_v3",
+      "title": "A Comparison of Single and Multiple Diffusion Process Models of Continuous-Outco",
       "decision": "reject",
-      "reason": "This paper focuses on programming education and learning environments, examining how students switch between different types of programming tasks. It does not relate to clinical psychology practice, therapy, assessment, diagnosis, psychopathology, or mental health interventions. The content is entirely within educational psychology and computer science education domains without clinical application.",
+      "reason": "This is a computational cognitive psychology paper focused on diffusion process models for decision-making tasks, with no apparent clinical application to therapy, assessment, diagnosis, or mental health interventions. The content is highly technical and mathematical, dealing with theoretical models of perceptual decision-making rather than clinical psychology practice.",
       "category": null
     },
     {
-      "osf_id": "kvcaz_v2",
-      "title": "Straight-line behavior: conforming to design in a practice environment",
+      "osf_id": "4cqub_v1",
+      "title": "Auditory and Visual Rhythms Shape Infant Attention in Infant-Directed Singing an",
       "decision": "reject",
-      "reason": "This paper focuses on computer science education and student behavior in online learning platforms, which is outside the scope of clinical psychology practice. It examines how students navigate programming activities on educational interfaces, with no connection to therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing mental health professionals.",
+      "reason": "This paper focuses on infant attention and development, which falls outside the scope of clinical psychology practice. It examines how rhythmic cues in infant-directed speech and singing affect attention in 12-month-olds, without addressing clinical applications for practicing therapists, psychologists, or psychiatrists.",
       "category": null
     },
     {
-      "osf_id": "9yfqp_v1",
-      "title": "Impact of an Embodied Conversational Agent on Loneliness and Emotional States in",
-      "decision": "accept",
-      "reason": "This study examines an embodied conversational agent for community-dwelling older adults, focusing on loneliness and emotional states, which has direct clinical relevance for mental health interventions in aging populations.",
-      "category": "Digital Mental Health",
-      "number": 754,
-      "authors": "Feliciano Villar; Rumen Manolov",
-      "curated": true
-    },
-    {
-      "osf_id": "dqzry_v3",
-      "title": "Debugging Online Research: A Guide for Detecting Fraudulent Respondents",
+      "osf_id": "kcw62_v1",
+      "title": "Beyond Creativity Scores: Changes in Teachers\u2019 Semantic Networks after SCIP Trai",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "yvgkh_v4",
-      "title": "Is the late positive potential (LPP) related to memory consolidation?",
+      "osf_id": "xe2mz_v4",
+      "title": "Integrating interests, personality, character strengths, and person-job fit in r",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "kbxuj_v1",
-      "title": "Evaluation of an Online Intervention to Promote Hearing Protective Behavior in Y",
+      "osf_id": "dusxv_v2",
+      "title": "Developmental differences in probabilistic reinforcement learning reflect strate",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "83nha_v2",
-      "title": "Decomposing subject retrieval: Diverging interference profiles for agreement and",
+      "osf_id": "f2zx9_v1",
+      "title": "How does the Outdoor Play and Learning (OPAL) whole school playtime programme af",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "p3gdw_v1",
-      "title": "Partisan by proxy: Ingroup favoritism biases how humans train and interact with ",
+      "osf_id": "mxzws_v1",
+      "title": "Greater Reporting of Internal Than External Misinformation in Repeated Events Re",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "kp6jv_v1",
-      "title": "Characterizing the causes, dynamics, and consequences of choice deferral",
+      "osf_id": "z42jq_v1",
+      "title": "Dynamic effects of multiround positive and negative feedback from robots and hum",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "b8sak_v1",
-      "title": "Understanding Young Adults' Behaviors and Beliefs Towards Loud Sound:  A Qualita",
+      "osf_id": "35wkd_v2",
+      "title": "Mapping motivations for livestream viewing to gambling",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "8y9hu_v1",
+      "title": "Development and validation of a Scale of Non-Material Motives for Voluntarily Re",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "bvscx_v1",
+      "title": "Examining the Influence of Perceived Authority and Expertise on Overimitation in",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     }
