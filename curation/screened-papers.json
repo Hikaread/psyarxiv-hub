@@ -1,10 +1,121 @@
 [
   {
-    "osf_id": "sx5j4_v2",
-    "title": "A Randomized Controlled Effectiveness Trial of Emotionally Focused Couple Therapy in Five Spanish-Speaking Countries",
-    "date_created": "2026-07-30T11:22:15.189775",
-    "date_modified": "2026-07-30T11:45:44.517743",
-    "description": "Objective: Emotionally Focused Couple Therapy (EFCT) is an evidence-based approach to treating couple relationship distress (Spengler et al., 2024), however the evidence comes primarily from English-speaking samples drawn from the U.S. and Canada. This randomized controlled trial (pre-registered at ClinicalTrials.gov, ID: blinded for review) aimed to investigate the efficacy of EFCT delivered in Spanish compared to waitlist controls in Argentina, Costa Rica, Guatemala, Mexico, and Spain. \nMethod: 140 individuals in 70 heterosexual couples were randomized to EFCT or wait-list control conditions. Treatment consisted of 18-20 sessions of EFCT provided by 17 community-based therapists with advanced training in EFCT. Primary outcomes were dyadic adjustment, relationship satisfaction, attachment anxiety, and attachment avoidance. Measures were administered at pretest, posttest, and at several points throughout the intervention period. Linear mixed models were used to examine whether the trajectory of outcome differed across treatment and control conditions. \nResults: Consistent with hypotheses, individuals in the treatment condition experienced significantly greater improvement in dyadic adjustment (dGMA=1.09), relationship satisfaction (dGMA = .72), and greater decreases in attachment avoidance (dGMA= -.31). No significant differences were evident for attachment anxiety. \nConclusion: Our findings suggest that EFCT provided by community-based therapists in Spanish-speaking countries is effective in improving dyadic adjustment and relationship satisfaction, with small decreases in attachment avoidance. \n\nPublic Health significance statement: This article presents the primary outcomes of the first randomized controlled trial of Emotionally Focused Couple Therapy (EFCT) in Spanish. This 5-nation study demonstrates that couples who engaged in EFCT reported increased dyadic adjustment and relationship satisfaction and reduced attachment avoidance, with gains in the treatment g",
+    "osf_id": "72gjr_v1",
+    "title": "Measuring Autistic Burnout: Psychometric Properties of the Autistic Burnout Severity Items in French",
+    "date_created": "2026-07-30T09:28:19.589813",
+    "date_modified": "2026-07-31T07:14:52.413889",
+    "description": "Autistic burnout is increasingly recognized in the literature, yet no validated French-language measure existed. This study examined the psychometric properties of a French adaptation of the Autistic Burnout Severity Items (ABSI-Fr) in a sample of autistic adults with lived experience of burnout (N = 393, drawn from a larger sample of 484). Exploratory factor analysis (polychoric correlations, minres extraction, Promax rotation) identified a six-factor, 26-item structure spanning exhaustion, social withdrawal, memory, cognitive slowing, autistic self-awareness, and emotional/somatic distress, differing from the original four-factor ABSI and from existing measures of autistic burnout. Internal consistency was satisfactory (α = .694-.867; ω = .646-.809), and a Schmid-Leiman transformation supported a hierarchical structure justifying both total and subscale scores (ωH = .762, ECV = .47, PUC = .852). The total score correlated significantly with depression, anxiety, general burnout, camouflaging, and alexithymia, albeit modestly, and was not significantly associated with autistic traits (AQ-10). The structure replicated closely in the full sample (N = 484). These findings provide the first evidence for a reliable, multidimensional measure of autistic burnout in French, offering French-speaking clinicians and autistic communities a tool to name and assess this experience; diagnostic thresholds are addressed in a companion paper.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c59",
+          "text": "Psychometrics"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c80",
+          "text": "Neurodevelopmental Disorders"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c92",
+          "text": "Statistical Methods"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6ca7",
+          "text": "Assessment"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7428c6983001430b6caf",
+          "text": "Quantitative Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cdd",
+          "text": "Stress"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/72gjr_v1/",
+    "signal_score": 11
+  },
+  {
+    "osf_id": "7kw6j_v1",
+    "title": "Pathways to Autistic Burnout: A Qualitative Study of French Autistic Adults' Experiences",
+    "date_created": "2026-07-30T15:23:51.245050",
+    "date_modified": "2026-07-31T07:17:54.597976",
+    "description": "Purpose: Autistic burnout—a state of chronic exhaustion with functional loss and increased sensory sensitivity—has been identified as a significant yet underexplored phenomenon. While emerging research has documented potential contributors in Anglophone contexts, little is known about how autistic individuals in diverse institutional settings describe pathways to burnout. This study examined how French autistic adults identify and articulate factors contributing to their experiences of autistic burnout.\nMethods: Semi-structured interviews were conducted with 67 French autistic adults (48 women, 11 men, 8 non-binary/agender/genderfluid; mean age 37.7 years; mean age at diagnosis 35.2 years). Interviews explored perceived contributors to burnout and were analyzed using qualitative content analysis with an abductive approach.\nResults: Participants described burnout as emerging from cumulative exposure to unaccommodating environments rather than discrete triggering events. Key contributors included persistent sensory overload, social demands requiring sustained self-monitoring, camouflaging, and systemic barriers to recognition and support. Participants emphasized how chronic adaptation progressively depleted resources, with life transitions or micro-disruptions functioning as tipping points within already fragile equilibriums. Gendered experiences, particularly late diagnosis linked to gender-biased diagnostic frameworks, intensified burnout pathways for women and gender-diverse individuals.\nConclusion: Autistic burnout reflects sustained adaptation to environments misaligned with autistic needs rather than individual deficit. Findings underscore the need for multilevel interventions addressing environmental barriers, reducing camouflaging pressures, and ensuring timely, accessible diagnostic and support systems. France's distinctive institutional landscape—marked by psychoanalytic legacies and diagnostic delays—may shape how universal burnout mechanisms manifest.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -16,21 +127,207 @@
         {
           "id": "5b4e7425c6983001430b6c1f",
           "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c80",
+          "text": "Neurodevelopmental Disorders"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cdd",
+          "text": "Stress"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c56",
+          "text": "Environmental Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce1",
+          "text": "Social Settings"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cae",
+          "text": "Cultural Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf1",
+          "text": "Cross-cultural Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/sx5j4_v2/",
-    "signal_score": 14
+    "link": "https://osf.io/preprints/psyarxiv/7kw6j_v1/",
+    "signal_score": 10
   },
   {
-    "osf_id": "whn7f_v1",
-    "title": "Stigma, medical gaslighting, and heterosexism: barriers to accessing healthcare and diagnosis in LGBTQ+ people with endometriosis symptoms",
-    "date_created": "2026-07-30T11:44:53.978359",
-    "date_modified": "2026-07-30T12:01:40.258159",
-    "description": "On average it takes around 9 years to get an endometriosis diagnosis, but there is limited research that explores why this delay occurs for LGBTQ+ people who may have unique healthcare needs. 133 LGBTQ+ people with endometriosis symptoms answered open-ended text questions via an online questionnaire. Using qualitative content analysis, 23 barriers were identified. Medical gaslighting, limited diagnosis and treatment options, and the normalisation of symptoms were most frequently mentioned. Seven barriers were LGBTQ+ specific, including assumptions made about patients’ sexuality and the healthcare needs of people in same-sex relationships. The Social Ecological Model demonstrated that barriers occurred across the domains, with the majority categorised at the interpersonal level. Therefore, interventions to reduce the delay should not only target patients’ ability to access care but also consider focusing on the wider social structures that influence interactions in healthcare settings. Wider implications for LGBTQ+ sensitive endometriosis care are discussed.",
+    "osf_id": "w4srg_v1",
+    "title": "Impairment in the Hierarchical Taxonomy of Psychopathology",
+    "date_created": "2026-07-31T07:49:11.265199",
+    "date_modified": "2026-07-31T08:10:26.899322",
+    "description": "The purpose of this paper is to define and describe impairment from the perspective of the\nHierarchical Taxonomy of Psychopathology (HiTOP). This work is intended to establish a\nfoundation for the development of a system for assessing impairment to complement HiTOP\nmeasures of psychopathology. We define impairment as the direct or indirect impact of\npsychopathology that is not itself part of psychopathology, involving (a) difficulty achieving\nimportant and reasonable personal goals and/or (b) direct or indirect interference with the goals\nof others. We articulate seven specific assessment features of a HiTOP-optimal impairment\nmeasurement approach and, having found no existing measures with all seven features in a\nreview of the literature, sketch a prototype approach using a case example and outline a plan\nfor generating a suite of tools for assessing impairment from a HiTOP perspective.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c20",
+          "text": "Diagnosis"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2b",
+          "text": "Clinical Decision Making"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c33",
+          "text": "Mental Disorders"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6ca7",
+          "text": "Assessment"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/w4srg_v1/",
+    "signal_score": 3
+  },
+  {
+    "osf_id": "cty6h_v2",
+    "title": "Laughing Together Influences Neural Synchrony in Child Peers: An fNIRS Hyperscanning Study",
+    "date_created": "2026-07-31T08:32:10.892206",
+    "date_modified": "2026-07-31T08:50:40.881665",
+    "description": "Shared laughter, a salient social cue in peer interactions, promotes bonding, liking and prosociality. Recent theoretical accounts on the neural dynamics of social interaction propose that rhythmic communicative signals, such as laughter, may foster neural synchrony by aligning brain activities between interacting partners, facilitating mutual understanding and social bonding. Here, we test whether neural synchrony mediates the positive social effects of laughing together in child peer dyads. We used fNIRS hyperscanning to measure neural synchrony in 5-year-old dyads (n = 196; 98 pairs) randomly assigned to a laughter condition (funny animal videos) or a control condition (neutral videos). Inferior frontal gyrus (IFG) and temporoparietal junction (TPJ) activity was recorded both during the video manipulation and during a subsequent 5-minute free-play session, and quantified with Wavelet Transform Coherence. Laughter behavior was annotated, bonding indexed by body proximity, prosociality with a sticker sharing task, and liking with smiley scales. Hypotheses were tested with Bayesian models. Compared with controls, children in the laughter condition showed higher neural synchrony while co-watching the videos. During free play, after the manipulation, left-hemisphere synchrony was greater in the control group. Exploratory findings showed that more laughter was linked to stronger bonding and prosociality. We did not find support for a mediation between laughter, neural synchrony and social outcomes. In summary, we show that neural synchrony among children changes with shared laughter. By revealing condition-specific and region-specific effects across time, this study highlights the dynamic nature of neural synchrony processes in child peer interactions.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1d",
+          "text": "Developmental Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c63",
+          "text": "Cognitive Development"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/cty6h_v2/",
+    "signal_score": 3
+  },
+  {
+    "osf_id": "7fj4n_v2",
+    "title": "When ‘Us’ Matters Less: Social Identity Complexity and Reduced Ingroup Favoritism in Stereotyping",
+    "date_created": "2026-07-30T19:47:07.920405",
+    "date_modified": "2026-07-31T07:23:04.426287",
+    "description": "How do people’s own identity structures shape the way they stereotype others? Across two preregistered experiments using a free-response stereotyping task and valence analysis, we tested whether social identity complexity (the extent to which individuals view their ingroups as differentiated rather than overlapping) was associated with intergroup bias in spontaneous stereotype valence. Consistent with classic intergroup patterns, participants generated more positive stereotypes for targets who shared more of their social group memberships. Social identity complexity moderated this bias by reducing the positivity of ingroup stereotypes rather than by enhancing evaluations of outgroup targets. To illuminate this process, we examined two potential mechanisms: ingroup attachment and perceived diagnosticity of social categories. Results aligned with an indirect effect through lower ingroup attachment, but not through perceived diagnosticity. These findings show that perceivers’ representations of their own social identities meaningfully shape how they spontaneously stereotype others, primarily by reducing ingroup favoritism.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c6d",
+          "text": "Social Cognition"
+        }
+      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -55,122 +352,10 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7427c6983001430b6c85",
-          "text": "Sexuality"
+          "id": "5b4e7427c6983001430b6c9a",
+          "text": "Self and Social Identity"
         }
       ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c93",
-          "text": "Health Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/whn7f_v1/",
-    "signal_score": 9
-  },
-  {
-    "osf_id": "zebw9_v1",
-    "title": "AI–Human Support Profiles Among Sustained Users of Conversational AI for Emotional Support in China: A Latent Profile Analysis",
-    "date_created": "2026-07-29T03:01:06.143800",
-    "date_modified": "2026-07-30T11:48:03.556876",
-    "description": "Background: Conversational artificial intelligence (AI) is increasingly used for emotional support. Among sustained users, AI may become an enduring part of their broader support ecology rather than a one-off or short-term coping strategy, yet little is known about how AI and human support are configured within this population.\nObjective: This study aimed to identify AI–human support profiles among sustained users of conversational AI for emotional support in China and compare their AI use, satisfaction, psychological distress, and positive well-being.\nMethods: In this cross-sectional study, 484 individuals who had used conversational AI for emotional support at least once per week for more than 1 continuous month were recruited online between February and March 2026, with sustained use verified through uploaded conversation screenshots. Latent profile analysis was conducted using perceived emotional support and emotional closeness from AI and human sources, and differences in AI use, satisfaction, and psychological outcomes were compared across profiles.\nResults: Participants were on average 23.62 years old (SD 4.24), and 59.3% (287/484) were women. A 3-profile solution was retained (entropy=0.824): human-anchored integrated (221/484, 45.7%), AI–human divergent (167/484, 34.5%), and AI-compensatory (96/484, 19.8%). The profiles were characterized by strong human resources with substantial AI support, greater perceived support from AI than from humans despite greater human closeness, and moderate AI support with near-floor human support, respectively. Profile differences were larger for human support and closeness (partial η²=.878 and .868) than for AI support and closeness (partial η²=.058 and .010). General-purpose AI systems predominated, and no significant profile differences existed in system type or most use behaviors. Significant profile differences existed in total AI use time (P=.019) and satisfaction (P=.013), with the AI–human divergent profile using AI l",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c93",
-          "text": "Health Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/zebw9_v1/",
-    "signal_score": 6
-  },
-  {
-    "osf_id": "rc36b_v5",
-    "title": "Not just what happened, but how it felt: Subjective distress and its role in adolescent health after childhood physical abuse",
-    "date_created": "2026-07-29T05:37:56.444934",
-    "date_modified": "2026-07-30T09:39:40.422290",
-    "description": "The role of subjective experience in understanding the links between childhood physical abuse and mental and somatic outcomes is gaining recognition but remains underexplored. Using data from a large population-based sample of youth (12–16 years) and generalized linear models, we examined whether current and past peak subjective distress following physical abuse were associated with symptoms, measured by the Hopkins Symptom Checklist (HSCL-10) and the Children’s Somatic Symptoms Inventory (CSSI-8). Causal mediation analyses were conducted to investigate whether subjective distress mediated the relationship between physical abuse and health outcomes. Subjective distress accounted for variation in symptoms, above and beyond severity and frequency of physical abuse. The impact of physical abuse on health was largely transmitted through subjective distress. While severity and frequency of maltreatment remain independent predictors of health outcomes, this study underscores the necessity of incorporating measures of subjective experience to understand the pathways linking childhood physical abuse to later health outcomes.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/rc36b_v5/",
-    "signal_score": 6
-  },
-  {
-    "osf_id": "jcauw_v1",
-    "title": "Recontextualizing Cultural Humility in the Japanese Counseling Context: Development and Validation of the MCHS-J",
-    "date_created": "2026-07-29T16:46:20.026383",
-    "date_modified": "2026-07-30T12:22:12.199257",
-    "description": "Although cultural humility has become a central professional orientation in\nmulticultural counseling, researchers have rarely examined its underlying structure\noutside Western contexts. Therefore, using data from 126 Japanese mental health\nprofessionals and graduate students, this study translated, culturally adapted, and\npsychometrically evaluated the Japanese version of the Multidimensional Cultural\nHumility Scale. Target-rotated exploratory structural equation modeling supported a\nrevised 4-factor, 11-item structure consisting of Openness, Self-Awareness,\nEgolessness, and Self-Reflection and Critique, eliminating one Openness item and the\nentire Supportive Interactions dimension. This revised scale showed adequate internal\nconsistency and a clear, simple structure. Its criterion-related validity was supported as\nwell: after controlling for socially desirable responding, associations with intercultural\nsensitivity and working alliance remained substantial. These findings suggest an item-\nand factor-level reorganization of cultural humility within the Japanese counseling\ncontext, rendering cross-cultural adaptation as less a matter of linguistic transfer than of\nempirically recontextualizing a psychological construct within local models of the self\nand interpersonal relationships.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cae",
-          "text": "Cultural Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf1",
-          "text": "Cross-cultural Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/jcauw_v1/",
-    "signal_score": 6
-  },
-  {
-    "osf_id": "3jyud_v2",
-    "title": "Emotion regulation predicts responses to interpersonal moral disagreements",
-    "date_created": "2026-07-30T06:18:13.663049",
-    "date_modified": "2026-07-30T11:58:52.387789",
-    "description": "Moral disagreements are common in interpersonal relationships, yet people vary widely in how they respond to them–from avoiding interaction and keeping silent, to finding common ground, persuading others, or updating belief. The present work examines whether emotion regulation (ER) can systematically predict how individuals choose among these responses when facing disagreements. Across three online studies (total N = 892), participants reported their likelihood of using eleven response strategies in hypothetical disagreement scenarios. Response strategies formed meaningful clusters that reflect different regulatory approaches: disengaging from disagreement, attempting to resolve it, or accommodating opposing views. In turn, these response categories were systematically predicted by individual differences in trait ER (e.g., reappraisal, avoidance) as well as situation-specific appraisals of the moral, relational, and social stakes of disagreement. Together, these findings indicate that ER provides a useful lens for understanding interpersonal moral disagreements.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -179,72 +364,51 @@
         {
           "id": "5b4e7425c6983001430b6c34",
           "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb0",
+          "text": "Intergroup Processes"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/3jyud_v2/",
-    "signal_score": 5
+    "link": "https://osf.io/preprints/psyarxiv/7fj4n_v2/",
+    "signal_score": 3
   },
   {
-    "osf_id": "7wh8f_v2",
-    "title": "Pervasive negativity and fragmentation across the architecture of the self-concept – a marker of transdiagnostic mental health risk in adolescence",
-    "date_created": "2026-07-30T07:12:59.469941",
-    "date_modified": "2026-07-30T12:04:16.636706",
-    "description": "Background\nDifferences in the affective organisation of the self-concept are a transdiagnostic marker of mental health problems in adults. Adolescence is a critical period for the development of the self-concept but we know little about the self-concept’s affective organisation during this critical developmental window. This study examined the architecture of the adolescent self-concept across five domains, focusing on four critical metrics: overall negativity; positive and negative redundancy (use of the same descriptive content across self-domains); and compartmentalization (the extent to which negative and positive content is segregated). \nMethod\nAdolescents at high (n=202, Mage = 17.16, SD = 0.62, 84.2% female, 2% other, 73.3% White British) and low (n=117, Mage = 17.08, SD = 0.57, 77.8% female, 71.8% White British) risk of affective disorder completed an Adolescent Self-Structure Task – a card-sorting task in which they were asked to characterise five pre-defined self-domains with respect to a set of positive and negative trait attributes. \nResults\nCompared to those at low risk, adolescents at transdiagnostic risk of affective disorder used a greater proportion of negative trait words to characterise their overall self-concept, showed greater negative redundancy and compartmentalization, and reduced positive redundancy across self-domains. They also characterised their ‘Core Self’ in more negative terms.\nConclusions\nFindings demonstrate how the organisation of an emerging sense of self during adolescence may constitute a transdiagnostic vulnerability factor for poor mental health. Efforts to improve positive self-evaluations across different domains may be effective in improving adolescent mental health.",
+    "osf_id": "x5bnw_v1",
+    "title": "Childhood maltreatment, brain development, and psychiatric risk",
+    "date_created": "2026-07-29T23:19:19.859685",
+    "date_modified": "2026-07-31T09:26:34.917462",
+    "description": "Childhood maltreatment impacts brain development in ways that vary by adversity type, developmental timing, and genetic vulnerability for psychiatric illness—heterogeneity that conventional approaches poorly capture. We contend that normative modeling, multivariate methods, and polygenic risk scores offer complementary frameworks for parsing this variability, advancing both mechanistic insight and clinical stratification.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
         {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
         }
       ],
       [
         {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c60",
-          "text": "Self-concept and Identity"
+          "id": "5b4e7425c6983001430b6c1d",
+          "text": "Developmental Neuroscience"
         }
       ],
       [
         {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cca",
-          "text": "Adolescence"
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
         }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/7wh8f_v2/",
-    "signal_score": 5
-  },
-  {
-    "osf_id": "7xyge_v1",
-    "title": "Alignment between Infant Sleep Advice and Parenting Approach: Associations with Advice Use and Satisfaction in a Cross-Sectional Survey of Australian Parents",
-    "date_created": "2026-07-29T04:22:03.653982",
-    "date_modified": "2026-07-30T11:56:02.544120",
-    "description": "Infant sleep is a relational, caregiving experience, yet parents encounter advice about it that varies in how well it fits the way they already care for their infant. How parents engage with this advice may relate to how well it aligns with their usual parenting approach, but this has not been examined. This exploratory study characterised parents' experiences of infant sleep advice from health professionals and other sources and examined whether alignment of advice with parents' usual parenting approach was associated with its use and with satisfaction. An online sample of 201 Western Australian parents (98% female) of an infant aged 0–3 years (mean infant age 16.25 months) rated, for each type of advice received and separately by source, its alignment with their usual way of parenting, whether they had used it, and their satisfaction with outcomes. Complete responsiveness was rated most aligned and used most often; extinction-based approaches least aligned. Health professionals more often provided extinction-based advice and other sources complete responsiveness; 43.5% of parents who received health-professional advice had not sought it. Greater alignment was associated with greater advice use (OR = 3.66 per one point increase in alignment) and higher satisfaction (B = 0.69), more so than type of advice or its source. Results suggest parents' engagement with advice reflects how well it fits their existing parenting approach. Supporting families well may therefore require a broader range of acceptable, relational approaches, attuned to the caregiving relationship rather than to infant behaviour alone.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
+      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -255,59 +419,18 @@
           "text": "Clinical Psychology"
         },
         {
-          "id": "5b4e7425c6983001430b6c27",
-          "text": "Intervention Research"
+          "id": "5b4e7426c6983001430b6c38",
+          "text": "Clinical Neuropsychology"
         }
       ],
       [
         {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c37",
-          "text": "Infancy"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca0",
-          "text": "Evolution"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cad",
-          "text": "Parenting"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/7xyge_v1/",
-    "signal_score": 5
-  },
-  {
-    "osf_id": "5e6na_v2",
-    "title": "The Effect of Crime Type and Knowledge about Autism Spectrum Condition (ASC) on the Judgement of Defendants with ASC",
-    "date_created": "2026-07-29T08:00:14.307693",
-    "date_modified": "2026-07-30T12:06:02.379589",
-    "description": "Research indicates autistic defendants are treated more leniently than non-autistic defendants. However, it is unclear whether this is caused by positive perceptions of autistic people, or because autism is a relevant mitigating factor. Across two studies we tested how mock jurors evaluated autistic defendants in autism relevant and irrelevant criminal cases to better understand when and why autistic defendants receive leniency. Further, we provided some of the participants with educational information about ASD allowing these participants to recognise autism as a relevant mitigation for criminal cases for which autistic traits can be a risk factor (assault and stalking cases, but not burglary cases).\nDefendants with ASD only received lower sentences when autism was a relevant mitigation (assault and stalking), but not when autism was irrelevant (burglary). Thus, participants did not simply give preferential treatment to autistic defendants, but considered how ASD was related to the offense. However, providing information about autism weakened these effects, indicating educating people about autism may not always benefit autistic defendants.\nOur study highlights the importance of nuanced messaging about autism. While explaining how autistic characteristics can explain criminal behaviour may reduce perceptions of criminal responsibility, it may also imply greater dangerousness or risk of reoffending.",
-    "doi": "10.1080/1068316X.2026.2708706",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c5f",
-          "text": "Forensic and Legal Psychology"
+          "id": "5b4e7426c6983001430b6c68",
+          "text": "Clinical Neuroscience"
         }
       ],
       [
@@ -323,29 +446,6 @@
           "id": "5b4e7427c6983001430b6c80",
           "text": "Neurodevelopmental Disorders"
         }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/5e6na_v2/",
-    "signal_score": 5
-  },
-  {
-    "osf_id": "jrkwu_v1",
-    "title": "Hindustani Classical Music and the Cognitive Brain: Revisiting Music Cognition through a Non-Western Lens",
-    "date_created": "2026-07-29T17:05:46.338259",
-    "date_modified": "2026-07-30T12:17:40.738680",
-    "description": "The influence of music on affective and cognitive processes has been widely explored; however,\nmuch of this exploration is limited to Western stimuli and samples, which may lead to a lack of\ngeneralizability in findings and basing models around them. This work introduces Hindustani\nClassical Music as an ideal case that raises questions around the cross-cultural validity of these\nfindings. Hindustani music, with its system of ragas, follows a unique structural pattern that\ngives each raga its own emotional identity, and performance is primarily based around\nimprovisation and ornamentation, hence making it the ideal testcase for making theoretical and\nempirical comparisons. It critically reviews empirical evidence across five cognitive domains –\nemotions, memory, imagery, embodiment, and predictive processing, concluding with an applied\ntherapeutic implication as a consequence of these domains. Each domain includes a section\nwherein findings from HCM-based studies converge with those of Western studies and then\ndivulges into findings that are distinct and unique for HCM, such as that of the bhava-rasa\nsystem, the memory-improvisation relationship, internally generated pulse, and culturally-coded\nimagery, factors that Western models may not fully be able to explain. The consistent\nconvergence-divergence reflects that although cognitive processes may be influenced by music\nin a general manner, this is true only to a certain extent. Other findings may be more system-\nspecific and thus reflect that paradigms and models of studying music cognition cannot be\nlimited to one tradition. The review concludes with future directions for developing paradigms to\nstudy the influence of HCM on cognition in a more systematic and culturally relevant manner.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c48",
-          "text": "Music"
-        }
       ],
       [
         {
@@ -353,73 +453,24 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c90",
+          "text": "Trauma and Stress"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/jrkwu_v1/",
-    "signal_score": 5
-  },
-  {
-    "osf_id": "hgf4b_v3",
-    "title": "A Comparison of Single and Multiple Diffusion Process Models of Continuous-Outcome Decision Making",
-    "date_created": "2026-07-30T05:59:14.528876",
-    "date_modified": "2026-07-30T11:58:11.829773",
-    "description": "Continuous-outcome decision tasks, in which responses are made on continuous scales, are increasingly used to characterize the processes involved in speeded decision making. These tasks yield entire distributions of response errors rather than just error proportions. Two diffusion process models of continuous-outcome decisions have recently been proposed, the circular diffusion model (CDM), and the spatially continuous diffusion model (SCDM), which generalize the two main classes of diffusion process models of two-choice decisions to continuous spaces. The CDM, which generalizes the two-boundary Wiener model, assumes evidence is accumulated by a two-dimensional Wiener process with a vector-valued drift rate on the interior of a disk, whose bounding circle represents the decision criterion. The SCDM, which generalizes the class of multiple accumulator models, assumes evidence is accumulated by a Gaussian random process with a function-valued drift rate to a criterion. We compared the ability of the models to account for the distributions of errors and response times on three perceptual tasks: color identification, Landolt rings, and triangle orientation, in which the difficulty of the task was manipulated by varying the exposure duration. Despite some differences in their predicted joint distributions of errors and response times, both models provided good accounts of performance in all three tasks. Our findings reinforce and extend findings from two-choice studies showing that diffusive evidence processes and not model architecture is the main determinant of successful model performance, and show the theoretical unity of diffusion models across different domains.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c39",
-          "text": "Theory and Philosophy of Science"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c71",
-          "text": "Perception"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/hgf4b_v3/",
+    "link": "https://osf.io/preprints/psyarxiv/x5bnw_v1/",
     "signal_score": 3
   },
   {
-    "osf_id": "4cqub_v1",
-    "title": "Auditory and Visual Rhythms Shape Infant Attention in Infant-Directed Singing and Speech",
-    "date_created": "2026-07-30T10:27:36.599163",
-    "date_modified": "2026-07-30T11:41:56.491195",
-    "description": "Early in life, infants are exposed to richly structured audiovisual signals during interactions with caregivers. Although infant-directed speech and singing effectively capture attention, it remains unclear how rhythmic cues across auditory and visual modalities shape the temporal dynamics of infant attention. To address this question, the natural temporal coupling between modalities in infant-directed singing and speech was disrupted by selectively preserving rhythmic information in either the auditory or visual dimension of the recordings while altering the other modality (auditory rhythm-only and visual rhythm-only conditions, respectively). Twelve-month-old infants showed rhythmic modulation of oculomotor behavior, with eye-tracking measures revealing systematic reorientations towards the eyes at the occurrence of auditory (strong beats and stressed syllables) and visual (head-nod) rhythmic cues, albeit in complementary ways. Synchronization was weaker and more reactive in the auditory rhythm-only condition than in the visual rhythm-only condition. However, when auditory and visual rhythmic cues were presented together in the original videos, eye-looking alignment adjusted to the faster tempo defined by the auditory rhythms, which occurred at a higher rate than the visual rhythms. These findings suggest complementary roles for each modality: visual rhythmic cues may act as an attentional elicitor, establishing reliable oculomotor synchronization, whereas auditory rhythms modulate the tempo of that alignment, serving a temporal tuning function. Our results highlight the dynamic nature of infant attention across different forms of infant-directed communication and the increased attention infants allocate to caregivers’ eyes at critical moments. This reallocation of attention toward the eyes may support learning of social and communicative meaning.",
+    "osf_id": "yhm96_v1",
+    "title": "Changes in and Stability of Well-Being During Adolescence:  A Systematic Review and Meta-Analysis of Longitudinal Studies Over Two Decades",
+    "date_created": "2026-07-31T07:13:23.609174",
+    "date_modified": "2026-07-31T08:11:18.286199",
+    "description": "In this meta-analytic review, we examine the development of well-being during adolescence by synthesizing mean-level changes and rank-order stability in longitudinal studies. We conceptualize well-being as a multidimensional construct that includes hedonic well-being, eudaimonic well-being, and quality of life. To compute effect sizes, we used the standardized mean change d per year and test-retest correlations adjusted for measurement error. Analyses of the mean-level change were based on 502 effect sizes from a total of 551,009 adolescents. Analyses of the rank-order stability were based on 427 effect sizes from a total of 515,081 adolescents. The results showed that well-being declines every year (d ̅_year = −.03) and the cumulative decline during adolescence is d= -.27. The rank-order stability is high (r ̅ = .62). Only the linear function of age was positively related to rank-order stability. Moderator analyses showed that the findings for mean-level changes and rank-order stability were consistent across gender, birth cohort, ethnicity, economic development of the country, concepts of well-being, positive and negative aspects of well-being, and the quality of studies. Time interval length was negatively associated with rank-order stability. The subgroup analysis of the positive and negative aspects of well-being revealed that younger generations born after 2000 are more likely to experience greater declines in well-being. In sum, well-being tends to decline during adolescence, yet well-being is stable. These findings provide a clear and precise picture of the changes in well-being and the stability of well-being during adolescence.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -431,89 +482,6 @@
         {
           "id": "5b4e7425c6983001430b6c2d",
           "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c37",
-          "text": "Infancy"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c48",
-          "text": "Music"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c63",
-          "text": "Cognitive Development"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd5",
-          "text": "Attention"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6d01",
-          "text": "Language"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/4cqub_v1/",
-    "signal_score": 3
-  },
-  {
-    "osf_id": "kcw62_v1",
-    "title": "Beyond Creativity Scores: Changes in Teachers’ Semantic Networks after SCIP Training",
-    "date_created": "2026-07-29T08:23:46.627804",
-    "date_modified": "2026-07-30T11:26:06.426747",
-    "description": "Teacher creativity plays a central role in fostering creative learning environments. However, most evaluations of creativity training focus on performance outcomes and self-report measures rather than changes in underlying cognitive organisation. We investigated whether an eight-month certified teacher-training course based on the Scientific Creativity in Practice (SCIP) framework was associated with changes in Austrian secondary teachers’ creative performance, semantic organisation, and professional mindsets. Seventeen teachers completed pre- and post-training assessments, including the Alternative Uses Task, Verbal Fluency,Word-Sentence-Construction, Behavioural Forma Mentis associations with valence ratings, and written reflections. We assessed originality in the AUT with two independent AI-based systems. Semantic and affective changes were modelled through cognitive networks, mindset streams, and measures of emotional framing. At POST, teachers had higher AUT originality scores and generated largely different concepts than at PRE. They produced broader conceptual repertoires and larger semantic networks, although other structural changes differed across tasks. Affective changes were more modest. Positive valence predominated at both measurement points and became slightly more common, while negative valence declined. Separate PRE and POST mindset streams showed substantial pathway turnover but remained predominantly positive. These findings suggest that creativity training may support changes in how teachers organise and connect professional knowledge, and does not only impact how creatively they perform. Furthermore, our findings show that cognitive network analyses can complement traditional creativity assessments by revealing changes in semantic organisation and professional mindsets that remain invisible in performance scores alone.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
         }
       ],
       [
@@ -525,58 +493,17 @@
           "id": "5b4e7427c6983001430b6c8b",
           "text": "Educational Psychology"
         }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd0",
-          "text": "Creativity"
-        }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/kcw62_v1/",
-    "signal_score": 3
-  },
-  {
-    "osf_id": "xe2mz_v4",
-    "title": "Integrating interests, personality, character strengths, and person-job fit in relation to work outcomes",
-    "date_created": "2026-07-30T07:37:37.841607",
-    "date_modified": "2026-07-30T10:45:52.903037",
-    "description": "Vocational interests, personality traits, and character strengths overlap, but their shared versus domain-specific links to work outcomes – and the role of person-job fit – remain unclear because these frameworks have rarely been examined together. In this study, N = 259 working adults (79% women; ages 20–73) rated their RIASEC interests, FFM personality traits, and VIA character strengths and the extent to which each attribute was demanded by their jobs. Profile correlations between person attributes and perceived job demands were used as indices of perceived person-job fit. Outcomes were job satisfaction, work engagement, and self-rated performance. At both the person and perceived job-demand levels, all three frameworks (vocational interests, personality traits, character strengths) showed associations with the work outcomes, although their relative contributions differed. Commonality analyses indicated substantial overlap among the three frameworks, alongside smaller domain-specific contributions. Across all three frameworks, person attributes and perceived job demands showed stronger associations with work outcomes than profile similarity, whose incremental contribution beyond person and environment characteristics was small. These findings suggest that character strengths complement established vocational-interest and personality frameworks by providing additional information about work-related individual differences, while profile similarity contributes comparatively little beyond person attributes and perceived job demands.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c53",
-          "text": "Individual Differences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/xe2mz_v4/",
+    "link": "https://osf.io/preprints/psyarxiv/yhm96_v1/",
     "signal_score": 2
   },
   {
-    "osf_id": "dusxv_v2",
-    "title": "Developmental differences in probabilistic reinforcement learning reflect strategy engagement rather than parameter changes",
-    "date_created": "2026-07-30T07:44:12.161096",
-    "date_modified": "2026-07-30T11:32:17.438210",
-    "description": "Theoretical accounts of decision-making distinguish between two reinforcement-learning strategies: a model-based system that supports goal-directed choices through internal representations of action–outcome contingencies, and a model-free system that updates action values based on recent rewards, often approximating a win–stay/lose–shift (WSLS) pattern. While previous studies have characterized these mechanisms, their developmental trajectory remains unclear. Prevailing accounts attribute adolescents’ poorer performance in probabilistic learning to increased exploration and overestimation of environmental volatility, based on Bayesian models assuming a shared model-based strategy across age groups but differing latent parameters. Such approaches may overlook model-free contributions and individual variability, particularly during adolescence. Here, 36 adolescents and 67 adults completed a probabilistic reinforcement-learning task with binary choices and asymmetric reward contingencies (70:30), presented in sequential blocks to dissociate learning strategies. Individual behavior was fit with competing models: (I) a random baseline, (II) a WSLS heuristic, and (III) a hierarchical reinforcement-learning model implementing Bayesian adaptive learning. The results showed that both strategies contributed to behavior in each group, but in different proportions: model-based strategy was evident in only a subset of adolescents and became predominant in adults. Critically, individuals classified as model-based showed comparable latent parameters (e.g., learning rate, model strength, inverse temperature, precision) across age groups, and WSLS behavior also did not differ between adolescents and adults. Adolescents exhibiting model-based behavior had higher IQ but did not differ in age from their peers. Our findings indicate that in stable probabilistic environments, developmental differences in decision-making between adolescents and adults reflect variability in the engagement",
+    "osf_id": "cj8ut_v3",
+    "title": "Participation Effects in Ecological Momentary Assessment Research: A Taxonomy and Call to Action",
+    "date_created": "2026-07-31T07:26:13.896645",
+    "date_modified": "2026-07-31T08:51:49.638908",
+    "description": "Ecological Momentary Assessment (EMA) is often praised for its ecological validity, under the assumption that change observed in EMA data reflects change in the underlying constructs, independent of study participation. However, participation itself may threaten ecological validity as participants’ involvement in an EMA study may already alter their experiences, behavior or responses. Existing research on such participation effects has primarily documented their occurrence rather than explained the mechanisms through which they arise. To advance this understanding, we developed a taxonomy of potential sources of (measurement-induced) change in EMA data. This taxonomy includes increased reflection on assessed constructs (i.e., measurement reactivity), alterations to daily routines (i.e., measurement interference), shifts in how participants interpret items or response scales (i.e., reconceptualization or recalibration), practice in gauging internal states (i.e., improved introspection), and declining participant engagement (i.e., heightened careless responding or reduced compliance). Identifying these distinct sources of change highlights the need for systematic investigation of their impact and the development of targeted mitigation strategies. We therefore outline a research agenda focusing on assessing and experimentally manipulating each source of measurement-induced change in isolation. In sum, this paper aims to initiate a collective effort among EMA researchers to clarify the mechanisms by which study participation shapes data, and to safeguard EMA’s promise of ecological validity. \n\nKeywords: experience sampling methodology, measurement reactivity, (ecological) validity, response shifts, careless or insufficient effort responding",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -586,67 +513,23 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c77",
-          "text": "Behavioral Neuroscience"
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/dusxv_v2/",
+    "link": "https://osf.io/preprints/psyarxiv/cj8ut_v3/",
     "signal_score": 2
   },
   {
-    "osf_id": "f2zx9_v1",
-    "title": "How does the Outdoor Play and Learning (OPAL) whole school playtime programme affect children’s play? Mixed-methods insights from two English primary schools.",
-    "date_created": "2026-07-30T08:14:05.248902",
-    "date_modified": "2026-07-30T11:47:33.763027",
-    "description": "This study examined how the Outdoor Play and Learning (OPAL) programme affects school playtime quality and explores what impacts it might have on children and schools. A pre-post quasi-experimental mixed method design was used. The research was conducted with two primary schools in deprived areas of England. Observations of play, child report questionnaires and qualitative interviews with school staff were conducted. Across measures and schools there was evidence for increased playtime quality: there were significant increases in loose parts play; children reported engaging in more nature play; children engaged in more adventurous play, although high adventure remained rare; and negative affect during playtime decreased (although it was only statistically significant at one school). School staff reported that OPAL had positively affected children’s behaviour, their social and emotional development, and inclusion. Limitations include the pre-post design and the absence of a control comparator.",
+    "osf_id": "zq5n4_v1",
+    "title": "Social Network Centrality and Emotional Dynamics in Classroom Learning: A Multilevel Approach",
+    "date_created": "2026-07-29T07:04:56.293485",
+    "date_modified": "2026-07-31T08:50:19.289998",
+    "description": "Background: Students' emotions are shaped both by the structure of their peer relationships and by the affective context of the classroom. Two features of a student's position in the classroom network may matter: being sought out by peers (in-degree centrality), indexing social acceptance, and reaching out to many peers (out-degree centrality), indexing the breadth of active peer engagement. Classroom emotional climate, the aggregated activated affect of the class, may further shape these associations. Yet few studies have examined how a student's network position and the surrounding climate jointly relate to emotional experience.\nAims: We examined how in-degree and out-degree centrality relate to students' emotions across four dimensions (positive and negative, activated and deactivated) and whether classroom emotional climate (aggregated positive or negative activated affect) moderates these relationships.\nSample: Data were collected from 1,284 high school students (50.5% female, Mage = 16.26, SD = 0.88) nested within 56 classrooms.\nMethods: We used multilevel structural equation modelling.\nResults: Higher out-degree centrality was associated with lower positive activated and lower positive deactivated affect. Higher in-degree centrality was associated with higher positive deactivated affect and with lower negative activated and lower negative deactivated affect. Classroom emotional climate moderated several of these associations: a positive climate attenuated the negative association between out-degree centrality and positive affect, whereas a negative climate weakened the protective association between in-degree centrality and lower negative affect.\nConclusions: Students' network positions were differentially associated with their emotions, and these associations depended on the classroom's emotional climate.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c58",
-          "text": "Emotion"
-        }
-      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -656,6 +539,29 @@
           "id": "5b4e7427c6983001430b6c8b",
           "text": "Educational Psychology"
         }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/zq5n4_v1/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "b3jg4_v2",
+    "title": "Spatial and featural cue weighting in children’s developing object representations",
+    "date_created": "2026-07-30T14:32:56.273099",
+    "date_modified": "2026-07-31T07:08:52.013480",
+    "description": "To accurately represent an object, observers must individuate it from surrounding objects and classify it with the appropriate category or identity. Adults flexibly weight different visual cues when perceiving objects, but less is known about whether, and how, the weighting of visual object information changes over development. The current study examined how and why children weight spatial (e.g., left/right location) and featural (e.g., color) cues during object perception. In Experiment 1, we tested whether 12-month-old infants and 4-year-old children encoded spatial and featural properties of objects, and, importantly, how children weighted these cues when they were pitted against each other. Infants learned and used relative spatial position more reliably than featural information. By contrast, preschoolers encoded both types of information but weighted featural information more heavily when the cues conflicted. In Experiment 2, we used computational models to test whether different visual objectives—individuation versus classification—are sufficient to produce these patterns of cue weighting. Models trained to individuate objects weighted spatial information more than features, whereas models trained to classify object weighted featural information more than space. These findings suggest that developmental changes in spatial and featural weighting may reflect, in part, changes in the visual objectives that guide object perception.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        }
       ],
       [
         {
@@ -663,124 +569,20 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c51",
-          "text": "School Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c97",
-          "text": "Intervention"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/f2zx9_v1/",
-    "signal_score": 2
-  },
-  {
-    "osf_id": "mxzws_v1",
-    "title": "Greater Reporting of Internal Than External Misinformation in Repeated Events Reflects Increased Familiarity and Suggestibility",
-    "date_created": "2026-07-30T09:27:48.542770",
-    "date_modified": "2026-07-30T10:47:37.660744",
-    "description": "Many events that people experience and share with others are instances of repeated events—unique instantiations of sequences of experiences with a similar underlying structure. In four experiments (each N = 128), we examined the impact of misinformation on reporting of one target instance of a repeated event; Experiments 3 and 4 additionally involved single-event conditions. Misinformation was delivered via a post-event narrative and was either internal, i.e., originating in a non-target instance of the repeated event, or external, i.e., originating outside of the repeated event. Memory was measured across free and cued recall to explore changes associated with increasing retrieval support, and in a recognition tests, where participants’ task was to select the original item from a range of options. Due to higher item familiarity and match to a general event context, we expected higher rates of endorsement and lower discriminability for internal than external misinformation. A synthesis of data across repeated-event conditions of all experiments supported our predictions: in contrast to external misinformation, exposure to internal misinformation resulted in higher rates of endorsement, lower discriminability, and overconfidence. These findings reflect two underlying processes: greater baseline accessibility of internal misinformation independent of post-event suggestion (a familiarity bias) and amplified suggestibility following exposure to internal misinformation (a suggestibility gain). There were no differences between internal and external misinformation in recognition, likely due to an overload of familiar items presented in the test. We discuss implications of our findings for theoretical understanding of repeated event memory and applied interviewing settings.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
           "id": "5b4e7427c6983001430b6c8c",
           "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca5",
-          "text": "Memory"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/mxzws_v1/",
-    "signal_score": 2
-  },
-  {
-    "osf_id": "z42jq_v1",
-    "title": "Dynamic effects of multiround positive and negative feedback from robots and humans on trust and collaboration",
-    "date_created": "2026-07-29T09:19:50.161434",
-    "date_modified": "2026-07-30T11:23:53.527853",
-    "description": "Human–robot collaboration is gradually emerging as a new mode of work in intelligent organizations. Trust serves as the foundation for cooperation among team members, and it is established and dynamically evolves through interaction. Therefore, it is particularly important to understand how human–robot interaction influences trust and how this process differs from interpersonal interaction. Through one pilot experiment and two formal experiments, the present study examined, from a dynamic perspective, the effects of multi-round feedback from robot versus human sources on the evolution of trust and cooperation. The pilot experiment was conducted to select appropriate positive and negative feedback statements. In the formal experiments, participants collaborated with either a robot or a human teammate to complete five rounds of an investment decision-making task, during which they evaluated each other between rounds. Participants received four rounds of negative feedback from either a robot or a human teammate in Experiment 1, and four rounds of positive feedback in Experiment 2. The results showed that, in the context of multi-round negative feedback, trust and cooperation exhibited a clearer source-dependent pattern. Specifically, under robot-generated negative feedback, trust and cooperation were more likely to follow a “lagged-cumulative” evolutionary pattern, characterized by delayed responses and cumulative effects. In contrast, under human-generated negative feedback, trust and cooperation were more likely to follow an “immediate-responsive” evolutionary pattern, characterized by higher sensitivity and stronger adaptability. However, in the context of multi-round positive feedback, no significant differences were found in the dynamic effects of different feedback sources on trust and cooperation. This study provides empirical evidence for understanding the differentiated evolution of human–robot trust and interpersonal trust from a dynamic perspective, and offe",
-    "doi": "10.3724/SP.J.1041.2026.075",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cfb",
-          "text": "Judgment and Decision Making"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/z42jq_v1/",
-    "signal_score": 2
-  },
-  {
-    "osf_id": "35wkd_v2",
-    "title": "Mapping motivations for livestream viewing to gambling",
-    "date_created": "2026-07-29T23:31:01.900447",
-    "date_modified": "2026-07-30T10:58:33.717290",
-    "description": "Prior research shows that people who watch gambling and gambling-like content on streaming platforms display an elevated risk of gambling problems. Here, we leverage the literature on motivations as a dominant framework for understanding engagement in addictive behaviors to test how watching gambling is linked to problematic gambling. We pooled data across three online surveys and selected 544 adults who have experience with both gambling streams and gambling. Participants were assessed for their motivations to watch gambling streams, motivations to gamble, and problem gambling severity. We further assessed the frequency of past-year engagement in different types of gambling/gambling-like streams and gambling/gambling-like activities. Structural equation modelling showed that motivations to watch gambling streams were positively associated with the same motivations to gamble (enhancement, coping, and social), suggesting that people watch gambling streams for the same gratifications they receive from gambling. The frequency of watching slots, esports, and loot box openings were positively associated with problem gambling severity, and these associations were attributable to the frequency of playing slots, betting on esports, and purchasing loot boxes, respectively. Amid growing concerns regarding gambling content on streaming platforms, our findings indicate an alignment of motives between gambling stream viewing and first-hand gambling that ultimately contributes to problematic gambling involvement.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c45",
-          "text": "Psychology, other"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/35wkd_v2/",
-    "signal_score": 2
-  },
-  {
-    "osf_id": "8y9hu_v1",
-    "title": "Development and validation of a Scale of Non-Material Motives for Voluntarily Reducing Consumption Scale  (NMVRC Scale)",
-    "date_created": "2026-07-30T07:43:52.647200",
-    "date_modified": "2026-07-30T11:29:54.490367",
-    "description": "Currently, overconsumption resources are accelerating climate change and driving ecological degradation, therefore reducing consumption levels has become a critical need and a global challenge. In response, several lifestyles that aim to reduce consumption have emerged, one of the most important being material voluntary simplicity, understood as the voluntary reduction of consumption because of specific personal, social or environmental concerns. However, existing scales mix consumption patterns with preferences, values ​​and attitudes, leaving aside such specific concerns that motivate the adoption of a voluntary simplistic lifestyle. This has several implications, including the difficulty of differentiating this lifestyle from other types of anticonsumption (e.g., frugalism or minimalism). Through three studies (Ntotal = 854), this research aims to solve this limitation, developing a scale that focuses on non-material motives (such as social, personal and environmental reasons) that precede voluntary simplicity in order to investigate more deeply the subsequent consequences of this lifestyle. The first two studies were used to perform exploratory and confirmatory factor analyses and to test evidence of convergent and divergent validity. The third study replicates the results in the general population. The results showed a scale with high internal consistency to measure the non-material reasons underlying the adoption of a voluntary simplistic lifestyle. NMVRC Scale was positively related to sustainable consumption, frugalism, and minimalism, but the correlations were not high, providing evidence of the distinctions between these constructs. This scale is a step forward in building a body of research that allows studying both the antecedents and the effects of voluntary simplicity on consumption.\nKeywords: Voluntary simplicity, Consumption Behavior, Minimalism, Materialism, Psychometric properties",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/8y9hu_v1/",
+    "link": "https://osf.io/preprints/psyarxiv/b3jg4_v2/",
     "signal_score": 1
   },
   {
-    "osf_id": "bvscx_v1",
-    "title": "Examining the Influence of Perceived Authority and Expertise on Overimitation in Children and Adults",
-    "date_created": "2026-07-29T23:50:23.347267",
-    "date_modified": "2026-07-30T11:00:08.949697",
-    "description": "This study is aimed at examining how perceived authority and expertise play in tantum to influence overimitation and knowledge transmission. We will adapt a previous two-phase paradigm (Mackie et al., 2025) and use a classic puzzlebox (Horner &amp; Whiten, 2005) to examine the influence of perceived authority and expertise on imitative behavior, set up in a pretend context of visiting a toy factory to learn about toys. Five- to 10-year-old children and young adults will observe a non-expert-authority figure (a toy factory boss) and an expert figure (a toy maker) demonstrate efficient and less-efficient methods for operating the classic puzzlebox. This will be followed by a transmission phase in which participants teach a third party how to operate the same puzzlebox. We will also explore whether each irrelevant action type will be imitated at different rate, which promises to offer novel insights into children’s and adults’ high-fidelity imitation.",
+    "osf_id": "7ynp5_v3",
+    "title": "Does Authenticity Matter in Humor Appreciation?",
+    "date_created": "2026-07-30T21:16:19.193150",
+    "date_modified": "2026-07-31T07:19:44.690446",
+    "description": "Does authenticity matter in a domain where one’s words and persona aren’t meant to be taken at face value? People often say “I’m just joking” to mean “Don’t take my words or actions literally.” To date, little is known about the role of authenticity in humor appreciation. To explore this question, we used audio recordings of comedic stories told by standup comedians (Experiments 1-3), text-only comedic stories (Experiments 4 &amp; 6), and text-only observational jokes (Experiment 5) as comedic materials. We manipulated perceptions of authenticity by alleging the comedian prioritizes authentic self-expression (vs. pleasing their audience) (Experiment 1), performs because they love performing (vs. for fame and money) (Experiment 2), tells jokes that are based on real, personal (vs. fictional, imagined) experiences (Experiments 3 &amp; 6), or wrote their own jokes (vs. used another human writer or AI) (Experiments 4-5). Across all studies, people evaluated the allegedly authentic jokes as funnier and expressed greater interest in following or sharing the comedian’s work.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -790,8 +592,8 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
         }
       ],
       [
@@ -800,16 +602,12 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c6d",
-          "text": "Social Cognition"
+          "id": "5b4e7426c6983001430b6c42",
+          "text": "Consumer Psychology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/bvscx_v1/",
+    "link": "https://osf.io/preprints/psyarxiv/7ynp5_v3/",
     "signal_score": 1
   }
 ]

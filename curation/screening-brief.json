@@ -1,156 +1,86 @@
 {
-  "discovered": 22,
+  "discovered": 13,
   "alreadyExisting": 0,
   "hardExcluded": 1,
-  "lowSignal": 0,
-  "candidates": 21,
+  "lowSignal": 1,
+  "candidates": 11,
   "candidates_list": [
     {
-      "osf_id": "sx5j4_v2",
-      "title": "A Randomized Controlled Effectiveness Trial of Emotionally Focused Couple Therapy in Five Spanish-Speaking Countries",
-      "date_created": "2026-07-30T11:22:15.189775",
-      "signal_score": 14,
-      "description_preview": "Objective: Emotionally Focused Couple Therapy (EFCT) is an evidence-based approach to treating couple relationship distress (Spengler et al., 2024), however the evidence comes primarily from English-s"
+      "osf_id": "72gjr_v1",
+      "title": "Measuring Autistic Burnout: Psychometric Properties of the Autistic Burnout Severity Items in French",
+      "date_created": "2026-07-30T09:28:19.589813",
+      "signal_score": 11,
+      "description_preview": "Autistic burnout is increasingly recognized in the literature, yet no validated French-language measure existed. This study examined the psychometric properties of a French adaptation of the Autistic "
     },
     {
-      "osf_id": "whn7f_v1",
-      "title": "Stigma, medical gaslighting, and heterosexism: barriers to accessing healthcare and diagnosis in LGBTQ+ people with endo",
-      "date_created": "2026-07-30T11:44:53.978359",
-      "signal_score": 9,
-      "description_preview": "On average it takes around 9 years to get an endometriosis diagnosis, but there is limited research that explores why this delay occurs for LGBTQ+ people who may have unique healthcare needs. 133 LGBT"
+      "osf_id": "7kw6j_v1",
+      "title": "Pathways to Autistic Burnout: A Qualitative Study of French Autistic Adults' Experiences",
+      "date_created": "2026-07-30T15:23:51.245050",
+      "signal_score": 10,
+      "description_preview": "Purpose: Autistic burnout—a state of chronic exhaustion with functional loss and increased sensory sensitivity—has been identified as a significant yet underexplored phenomenon. While emerging researc"
     },
     {
-      "osf_id": "zebw9_v1",
-      "title": "AI–Human Support Profiles Among Sustained Users of Conversational AI for Emotional Support in China: A Latent Profile An",
-      "date_created": "2026-07-29T03:01:06.143800",
-      "signal_score": 6,
-      "description_preview": "Background: Conversational artificial intelligence (AI) is increasingly used for emotional support. Among sustained users, AI may become an enduring part of their broader support ecology rather than a"
-    },
-    {
-      "osf_id": "rc36b_v5",
-      "title": "Not just what happened, but how it felt: Subjective distress and its role in adolescent health after childhood physical ",
-      "date_created": "2026-07-29T05:37:56.444934",
-      "signal_score": 6,
-      "description_preview": "The role of subjective experience in understanding the links between childhood physical abuse and mental and somatic outcomes is gaining recognition but remains underexplored. Using data from a large "
-    },
-    {
-      "osf_id": "jcauw_v1",
-      "title": "Recontextualizing Cultural Humility in the Japanese Counseling Context: Development and Validation of the MCHS-J",
-      "date_created": "2026-07-29T16:46:20.026383",
-      "signal_score": 6,
-      "description_preview": "Although cultural humility has become a central professional orientation in\nmulticultural counseling, researchers have rarely examined its underlying structure\noutside Western contexts. Therefore, usi"
-    },
-    {
-      "osf_id": "3jyud_v2",
-      "title": "Emotion regulation predicts responses to interpersonal moral disagreements",
-      "date_created": "2026-07-30T06:18:13.663049",
-      "signal_score": 5,
-      "description_preview": "Moral disagreements are common in interpersonal relationships, yet people vary widely in how they respond to them–from avoiding interaction and keeping silent, to finding common ground, persuading oth"
-    },
-    {
-      "osf_id": "7wh8f_v2",
-      "title": "Pervasive negativity and fragmentation across the architecture of the self-concept – a marker of transdiagnostic mental ",
-      "date_created": "2026-07-30T07:12:59.469941",
-      "signal_score": 5,
-      "description_preview": "Background\nDifferences in the affective organisation of the self-concept are a transdiagnostic marker of mental health problems in adults. Adolescence is a critical period for the development of the s"
-    },
-    {
-      "osf_id": "7xyge_v1",
-      "title": "Alignment between Infant Sleep Advice and Parenting Approach: Associations with Advice Use and Satisfaction in a Cross-S",
-      "date_created": "2026-07-29T04:22:03.653982",
-      "signal_score": 5,
-      "description_preview": "Infant sleep is a relational, caregiving experience, yet parents encounter advice about it that varies in how well it fits the way they already care for their infant. How parents engage with this advi"
-    },
-    {
-      "osf_id": "5e6na_v2",
-      "title": "The Effect of Crime Type and Knowledge about Autism Spectrum Condition (ASC) on the Judgement of Defendants with ASC",
-      "date_created": "2026-07-29T08:00:14.307693",
-      "signal_score": 5,
-      "description_preview": "Research indicates autistic defendants are treated more leniently than non-autistic defendants. However, it is unclear whether this is caused by positive perceptions of autistic people, or because aut"
-    },
-    {
-      "osf_id": "jrkwu_v1",
-      "title": "Hindustani Classical Music and the Cognitive Brain: Revisiting Music Cognition through a Non-Western Lens",
-      "date_created": "2026-07-29T17:05:46.338259",
-      "signal_score": 5,
-      "description_preview": "The influence of music on affective and cognitive processes has been widely explored; however,\nmuch of this exploration is limited to Western stimuli and samples, which may lead to a lack of\ngeneraliz"
-    },
-    {
-      "osf_id": "hgf4b_v3",
-      "title": "A Comparison of Single and Multiple Diffusion Process Models of Continuous-Outcome Decision Making",
-      "date_created": "2026-07-30T05:59:14.528876",
+      "osf_id": "w4srg_v1",
+      "title": "Impairment in the Hierarchical Taxonomy of Psychopathology",
+      "date_created": "2026-07-31T07:49:11.265199",
       "signal_score": 3,
-      "description_preview": "Continuous-outcome decision tasks, in which responses are made on continuous scales, are increasingly used to characterize the processes involved in speeded decision making. These tasks yield entire d"
+      "description_preview": "The purpose of this paper is to define and describe impairment from the perspective of the\nHierarchical Taxonomy of Psychopathology (HiTOP). This work is intended to establish a\nfoundation for the dev"
     },
     {
-      "osf_id": "4cqub_v1",
-      "title": "Auditory and Visual Rhythms Shape Infant Attention in Infant-Directed Singing and Speech",
-      "date_created": "2026-07-30T10:27:36.599163",
+      "osf_id": "cty6h_v2",
+      "title": "Laughing Together Influences Neural Synchrony in Child Peers: An fNIRS Hyperscanning Study",
+      "date_created": "2026-07-31T08:32:10.892206",
       "signal_score": 3,
-      "description_preview": "Early in life, infants are exposed to richly structured audiovisual signals during interactions with caregivers. Although infant-directed speech and singing effectively capture attention, it remains u"
+      "description_preview": "Shared laughter, a salient social cue in peer interactions, promotes bonding, liking and prosociality. Recent theoretical accounts on the neural dynamics of social interaction propose that rhythmic co"
     },
     {
-      "osf_id": "kcw62_v1",
-      "title": "Beyond Creativity Scores: Changes in Teachers’ Semantic Networks after SCIP Training",
-      "date_created": "2026-07-29T08:23:46.627804",
+      "osf_id": "7fj4n_v2",
+      "title": "When ‘Us’ Matters Less: Social Identity Complexity and Reduced Ingroup Favoritism in Stereotyping",
+      "date_created": "2026-07-30T19:47:07.920405",
       "signal_score": 3,
-      "description_preview": "Teacher creativity plays a central role in fostering creative learning environments. However, most evaluations of creativity training focus on performance outcomes and self-report measures rather than"
+      "description_preview": "How do people’s own identity structures shape the way they stereotype others? Across two preregistered experiments using a free-response stereotyping task and valence analysis, we tested whether socia"
     },
     {
-      "osf_id": "xe2mz_v4",
-      "title": "Integrating interests, personality, character strengths, and person-job fit in relation to work outcomes",
-      "date_created": "2026-07-30T07:37:37.841607",
+      "osf_id": "x5bnw_v1",
+      "title": "Childhood maltreatment, brain development, and psychiatric risk",
+      "date_created": "2026-07-29T23:19:19.859685",
+      "signal_score": 3,
+      "description_preview": "Childhood maltreatment impacts brain development in ways that vary by adversity type, developmental timing, and genetic vulnerability for psychiatric illness—heterogeneity that conventional approaches"
+    },
+    {
+      "osf_id": "yhm96_v1",
+      "title": "Changes in and Stability of Well-Being During Adolescence:  A Systematic Review and Meta-Analysis of Longitudinal Studie",
+      "date_created": "2026-07-31T07:13:23.609174",
       "signal_score": 2,
-      "description_preview": "Vocational interests, personality traits, and character strengths overlap, but their shared versus domain-specific links to work outcomes – and the role of person-job fit – remain unclear because thes"
+      "description_preview": "In this meta-analytic review, we examine the development of well-being during adolescence by synthesizing mean-level changes and rank-order stability in longitudinal studies. We conceptualize well-bei"
     },
     {
-      "osf_id": "dusxv_v2",
-      "title": "Developmental differences in probabilistic reinforcement learning reflect strategy engagement rather than parameter chan",
-      "date_created": "2026-07-30T07:44:12.161096",
+      "osf_id": "cj8ut_v3",
+      "title": "Participation Effects in Ecological Momentary Assessment Research: A Taxonomy and Call to Action",
+      "date_created": "2026-07-31T07:26:13.896645",
       "signal_score": 2,
-      "description_preview": "Theoretical accounts of decision-making distinguish between two reinforcement-learning strategies: a model-based system that supports goal-directed choices through internal representations of action–o"
+      "description_preview": "Ecological Momentary Assessment (EMA) is often praised for its ecological validity, under the assumption that change observed in EMA data reflects change in the underlying constructs, independent of s"
     },
     {
-      "osf_id": "f2zx9_v1",
-      "title": "How does the Outdoor Play and Learning (OPAL) whole school playtime programme affect children’s play? Mixed-methods insi",
-      "date_created": "2026-07-30T08:14:05.248902",
+      "osf_id": "zq5n4_v1",
+      "title": "Social Network Centrality and Emotional Dynamics in Classroom Learning: A Multilevel Approach",
+      "date_created": "2026-07-29T07:04:56.293485",
       "signal_score": 2,
-      "description_preview": "This study examined how the Outdoor Play and Learning (OPAL) programme affects school playtime quality and explores what impacts it might have on children and schools. A pre-post quasi-experimental mi"
+      "description_preview": "Background: Students' emotions are shaped both by the structure of their peer relationships and by the affective context of the classroom. Two features of a student's position in the classroom network"
     },
     {
-      "osf_id": "mxzws_v1",
-      "title": "Greater Reporting of Internal Than External Misinformation in Repeated Events Reflects Increased Familiarity and Suggest",
-      "date_created": "2026-07-30T09:27:48.542770",
-      "signal_score": 2,
-      "description_preview": "Many events that people experience and share with others are instances of repeated events—unique instantiations of sequences of experiences with a similar underlying structure. In four experiments (ea"
-    },
-    {
-      "osf_id": "z42jq_v1",
-      "title": "Dynamic effects of multiround positive and negative feedback from robots and humans on trust and collaboration",
-      "date_created": "2026-07-29T09:19:50.161434",
-      "signal_score": 2,
-      "description_preview": "Human–robot collaboration is gradually emerging as a new mode of work in intelligent organizations. Trust serves as the foundation for cooperation among team members, and it is established and dynamic"
-    },
-    {
-      "osf_id": "35wkd_v2",
-      "title": "Mapping motivations for livestream viewing to gambling",
-      "date_created": "2026-07-29T23:31:01.900447",
-      "signal_score": 2,
-      "description_preview": "Prior research shows that people who watch gambling and gambling-like content on streaming platforms display an elevated risk of gambling problems. Here, we leverage the literature on motivations as a"
-    },
-    {
-      "osf_id": "8y9hu_v1",
-      "title": "Development and validation of a Scale of Non-Material Motives for Voluntarily Reducing Consumption Scale  (NMVRC Scale)",
-      "date_created": "2026-07-30T07:43:52.647200",
+      "osf_id": "b3jg4_v2",
+      "title": "Spatial and featural cue weighting in children’s developing object representations",
+      "date_created": "2026-07-30T14:32:56.273099",
       "signal_score": 1,
-      "description_preview": "Currently, overconsumption resources are accelerating climate change and driving ecological degradation, therefore reducing consumption levels has become a critical need and a global challenge. In res"
+      "description_preview": "To accurately represent an object, observers must individuate it from surrounding objects and classify it with the appropriate category or identity. Adults flexibly weight different visual cues when p"
     },
     {
-      "osf_id": "bvscx_v1",
-      "title": "Examining the Influence of Perceived Authority and Expertise on Overimitation in Children and Adults",
-      "date_created": "2026-07-29T23:50:23.347267",
+      "osf_id": "7ynp5_v3",
+      "title": "Does Authenticity Matter in Humor Appreciation?",
+      "date_created": "2026-07-30T21:16:19.193150",
       "signal_score": 1,
-      "description_preview": "This study is aimed at examining how perceived authority and expertise play in tantum to influence overimitation and knowledge transmission. We will adapt a previous two-phase paradigm (Mackie et al.,"
+      "description_preview": "Does authenticity matter in a domain where one’s words and persona aren’t meant to be taken at face value? People often say “I’m just joking” to mean “Don’t take my words or actions literally.” To dat"
     }
   ]
 }
