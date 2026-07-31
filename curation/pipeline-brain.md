@@ -2,8 +2,8 @@
 
 ## Current State
 - Papers: 762
-- Seen IDs: 2902
-- Last run: 2026-07-31 12:00
+- Seen IDs: 2907
+- Last run: 2026-07-31 15:00
 
 ## Script Locations (CRITICAL)
 - **evaluate-candidates.py**: `/home/z/my-project/psyarxiv-hub/scripts/evaluate-candidates.py` (git-tracked, survives wipes)
