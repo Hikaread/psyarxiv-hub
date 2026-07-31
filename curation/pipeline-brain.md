@@ -47,4 +47,4 @@
 | 07-25 | Strengthened bold in prompt | MANDATORY: 6+ bold items per summary, 2+ in clinical_insight |
 | 07-25 | Updated Discord output format | Each paper on own line, full title |
 | 07-30 | Checkpoint + reduced batch | eval-checkpoint.json persists progress across timeouts; --max=5 default; sleeps 3-5s |
-| 07-31 | Added Agent Reach | v1.5.0 installed; Jina Reader as fallback for paper fetch failures; Exa search available. Cron job ID: 301082 |
+| 07-31 | Agent Reach tested & removed | Jina Reader blocked (server IP), social channels need SSH/OpenCLI. Not usable on this VPS. Cron job ID: 301091 |
