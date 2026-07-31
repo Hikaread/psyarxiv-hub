@@ -1,23 +1,72 @@
 {
-  "discovered": 2,
+  "discovered": 10,
   "alreadyExisting": 0,
-  "hardExcluded": 0,
+  "hardExcluded": 1,
   "lowSignal": 0,
-  "candidates": 2,
+  "candidates": 9,
   "candidates_list": [
     {
-      "osf_id": "asg5k_v3",
-      "title": "Effects of inoculation interventions on impressions of mock political candidates",
-      "date_created": "2026-07-30T16:41:10.545872",
-      "signal_score": 3,
-      "description_preview": "Inoculation interventions have been a major focus of recent research attempting to combat the influence of disinformation in our society. However, no prior work has examined whether these intervention"
+      "osf_id": "3sqtg_v1",
+      "title": "Psychosocial interventions and health-related quality of life in children and adolescents with type 1 diabetes: a system",
+      "date_created": "2026-07-31T17:52:11.796968",
+      "signal_score": 7,
+      "description_preview": "Background. Type 1 diabetes (T1D) imposes substantial psychosocial demands on children, adolescents, and their families, and health-related quality of life (HRQoL) is a key patient-centered outcome. P"
     },
     {
-      "osf_id": "jb6c4_v1",
-      "title": "The RFT Perspective Taking Protocol has very poor reliability and convergent validity with other measures of perspective",
-      "date_created": "2026-07-31T12:06:26.175420",
+      "osf_id": "39gth_v3",
+      "title": "Understanding acceptability of a brief intervention for intrusive thoughts: A mixed- methods study",
+      "date_created": "2026-07-31T20:02:28.256237",
+      "signal_score": 7,
+      "description_preview": "Intrusive thoughts (ITs) are common yet distressing experiences for many adolescents\nand young adults. Brief, accessible interventions that provide psychoeducation and\ncoping strategies are needed, ye"
+    },
+    {
+      "osf_id": "e6cbg_v1",
+      "title": "Perceived Changes in Religious Cognitive Dissonance and Mental Health Among Former Members of High-Demand Religions: A C",
+      "date_created": "2026-07-28T20:36:42.813717",
+      "signal_score": 5,
+      "description_preview": "Introduction: Recent advances in Cognitive Dissonance theory have clarified its broad applications and its mental health consequences when dissonance remains unresolved. However, this theory has rarel"
+    },
+    {
+      "osf_id": "wb5y2_v2",
+      "title": "Sex Differences in Overhand Throwing are Completely Due to Socialization: A Blank Slate “Hypothesis” Unconstrained by Ev",
+      "date_created": "2026-07-29T20:33:14.772434",
+      "signal_score": 4,
+      "description_preview": "Contemporary evolutionary biology–including evolutionary psychology–assumes an interactionist framework, recognizing the importance of both biological (nature) and environmental (nurture) influences. "
+    },
+    {
+      "osf_id": "w2qe6_v1",
+      "title": "The latent geometry of dream content",
+      "date_created": "2026-07-30T15:38:32.418990",
       "signal_score": 2,
-      "description_preview": "Relational Frame Theory (RFT) conceptualises perspective taking and related constructs of empathy, theory of mind, and false-belief understanding in terms of deictic relational responding. RFT's Persp"
+      "description_preview": "Dreams provide a potential unique window into human cognition, yet it remains unclear whether dream content reflects structured representational organization or largely idiosyncratic expression. Here,"
+    },
+    {
+      "osf_id": "ehsd5_v1",
+      "title": "Measuring Intention: The Sense of Agency, Intentional Binding, and The Temporal Difference Limen",
+      "date_created": "2026-07-29T20:28:53.803905",
+      "signal_score": 2,
+      "description_preview": "The sense of agency, the experience of controlling one’s actions and their outcomes, is essential to motor control, social cognition, and the design of assistive devices. Intentional binding (IB), the"
+    },
+    {
+      "osf_id": "cd4jv_v1",
+      "title": "Is There a Trade-Off Between Processing and Maintenance of Information in Working Memory?",
+      "date_created": "2026-07-31T21:52:07.844957",
+      "signal_score": 1,
+      "description_preview": "Working memory maintains information for ongoing processing. Concurrent maintenance and\nprocessing often incur a cost: Processing can impair memory, and memory load can slow\nprocessing responses. Such"
+    },
+    {
+      "osf_id": "uk7rf_v3",
+      "title": "Geographically aggregated psychological traits from linguistic analysis of Twitter data predict U.S. voter realignment s",
+      "date_created": "2026-07-30T16:48:33.332788",
+      "signal_score": 1,
+      "description_preview": "The 2016 U.S. Presidential election heralded the beginning of a political realignment in American politics. A key question for understanding this realignment is whether the Republican party’s shift to"
+    },
+    {
+      "osf_id": "hwaks_v1",
+      "title": "Quality of Life in Middle and Later Life across Europe: Trait-Occasion Decomposition Using the Measurement-Aligned SHARE",
+      "date_created": "2026-07-29T18:29:58.919322",
+      "signal_score": 1,
+      "description_preview": "Quality of life (QoL) in middle and later life is widely assessed using the CASP scale, yet its measurement structure and comparability across groups and longitudinal waves remain contested. Using dat"
     }
   ]
 }
