@@ -1,90 +1,27 @@
 {
-  "evaluated": 5,
-  "accepted": 3,
-  "rejected": 2,
+  "evaluated": 2,
+  "accepted": 1,
+  "rejected": 1,
   "errors": 0,
   "skipped": 0,
-  "deferred": 6,
+  "deferred": 0,
   "results": [
     {
-      "osf_id": "72gjr_v1",
-      "title": "Measuring Autistic Burnout: Psychometric Properties of the Autistic Burnout Seve",
-      "decision": "accept",
-      "reason": "The paper addresses a critical gap in clinical psychology by validating a French-language measure for autistic burnout, which is directly relevant to clinical practice with autistic adults. The study provides robust psychometric data on a new assessment tool with clear clinical utility.",
-      "category": "Neurodivergence",
-      "number": 763,
-      "authors": "Capucine Rebours; Patrick Raynal; Jeanne Kruck",
-      "curated": true
+      "osf_id": "asg5k_v3",
+      "title": "Effects of inoculation interventions on impressions of mock political candidates",
+      "decision": "reject",
+      "reason": "This paper focuses on political psychology and misinformation interventions, not clinical psychology practice. It examines how inoculation interventions affect impressions of political candidates, which is outside the scope of therapy, assessment, diagnosis, mental health interventions, or clinical utility for practicing mental health professionals.",
+      "category": null
     },
     {
-      "osf_id": "7kw6j_v1",
-      "title": "Pathways to Autistic Burnout: A Qualitative Study of French Autistic Adults' Exp",
+      "osf_id": "jb6c4_v1",
+      "title": "The RFT Perspective Taking Protocol has very poor reliability and convergent val",
       "decision": "accept",
-      "reason": "This study directly addresses autistic burnout, a significant clinical phenomenon affecting autistic adults, with clear implications for assessment, diagnosis, and intervention strategies.",
-      "category": "Neurodivergence",
-      "number": 764,
-      "authors": "Capucine Rebours; Jeanne Kruck",
-      "curated": true
-    },
-    {
-      "osf_id": "w4srg_v1",
-      "title": "Impairment in the Hierarchical Taxonomy of Psychopathology",
-      "decision": "accept",
-      "reason": "The paper directly addresses clinical assessment and diagnosis from the HiTOP framework, which is highly relevant for practicing clinicians and researchers in clinical psychology.",
+      "reason": "This paper directly addresses psychometric properties of a measure (RFT Perspective Taking Protocol) used in clinical psychology contexts, examining reliability and validity which are critical for clinical assessment and diagnosis.",
       "category": "Psychopathology & Assessment",
-      "number": 765,
-      "authors": "Chris Hopwood; Colin G. DeYoung; Stephen Aita; Elizabeth Bell; Stephen D. Benning; Marina Bornovalova; Lee Anna Clark; Nicholas R. Eaton; Omid V. Ebrahimi; Darren Haywood",
+      "number": 766,
+      "authors": "Ian Hussey; Malte Elson",
       "curated": true
-    },
-    {
-      "osf_id": "cty6h_v2",
-      "title": "Laughing Together Influences Neural Synchrony in Child Peers: An fNIRS Hyperscan",
-      "decision": "reject",
-      "reason": "This study focuses on child peer interactions and neural synchrony without direct clinical applications for adult therapy, assessment, or diagnosis. It's developmental/social neuroscience rather than clinical psychology.",
-      "category": null
-    },
-    {
-      "osf_id": "7fj4n_v2",
-      "title": "When \u2018Us\u2019 Matters Less: Social Identity Complexity and Reduced Ingroup Favoritis",
-      "decision": "reject",
-      "reason": "This is a social psychology study on stereotyping and social identity complexity with no direct clinical application to therapy, assessment, diagnosis, or mental health interventions.",
-      "category": null
-    },
-    {
-      "osf_id": "x5bnw_v1",
-      "title": "Childhood maltreatment, brain development, and psychiatric risk",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "yhm96_v1",
-      "title": "Changes in and Stability of Well-Being During Adolescence:  A Systematic Review ",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "cj8ut_v3",
-      "title": "Participation Effects in Ecological Momentary Assessment Research: A Taxonomy an",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "zq5n4_v1",
-      "title": "Social Network Centrality and Emotional Dynamics in Classroom Learning: A Multil",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "b3jg4_v2",
-      "title": "Spatial and featural cue weighting in children\u2019s developing object representatio",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "7ynp5_v3",
-      "title": "Does Authenticity Matter in Humor Appreciation?",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
     }
   ]
 }
