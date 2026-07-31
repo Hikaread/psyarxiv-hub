@@ -1,9 +1,9 @@
 {
-  "evaluated": 4,
-  "accepted": 1,
-  "rejected": 3,
+  "evaluated": 0,
+  "accepted": 0,
+  "rejected": 0,
   "errors": 0,
-  "skipped": 17,
+  "skipped": 21,
   "deferred": 0,
   "results": [
     {
@@ -111,33 +111,26 @@
     {
       "osf_id": "z42jq_v1",
       "title": "Dynamic effects of multiround positive and negative feedback from robots and hum",
-      "decision": "reject",
-      "reason": "This paper focuses on human-robot collaboration and trust dynamics in organizational settings, which falls under organizational psychology and human-computer interaction rather than clinical psychology. The study examines feedback from robots vs. humans on trust and cooperation in investment decision-making tasks, with no direct relevance to mental health assessment, diagnosis, therapy, or psychopathology.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "35wkd_v2",
       "title": "Mapping motivations for livestream viewing to gambling",
-      "decision": "accept",
-      "reason": "This study examines motivations for watching gambling livestreams and their association with problematic gambling, which is highly relevant for clinical psychology practice regarding addiction assessment and intervention.",
-      "category": "Addiction & Substance Use",
-      "number": 762,
-      "authors": "Raymond Wu; Luke Clark",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "8y9hu_v1",
       "title": "Development and validation of a Scale of Non-Material Motives for Voluntarily Re",
-      "decision": "reject",
-      "reason": "low signal score (1)",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "bvscx_v1",
       "title": "Examining the Influence of Perceived Authority and Expertise on Overimitation in",
-      "decision": "reject",
-      "reason": "low signal score (1)",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     }
   ]
 }
