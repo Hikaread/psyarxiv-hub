@@ -9,8 +9,8 @@
  */
 
 const API_BASE = 'https://api.osf.io/v2';
-const PAUSE_MS = 200;
-const MIN_UNSEEN = 20;
+const PAUSE_MS = 0;
+const MIN_UNSEEN = 15;
 const MAX_PAGES = 15;
 const SEEN_IDS_FILE = '/home/z/my-project/psyarxiv-hub/data/seen-compact-ids.json';
 const OUTPUT_FILE = '/home/z/my-project/psyarxiv-hub/curation/discovered-papers.json';
