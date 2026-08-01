@@ -2,18 +2,19 @@
 
 /**
  * Discover new PsyArXiv preprints from the OSF API.
- * Scans day-by-day from today backwards, checking against seen-compact-ids.json.
- * Stops when ≥ MIN_UNSEEN unseen papers are found.
- * Scans until it reaches a day where ALL papers are already seen (the true frontier),
- *   or hits MAX_LOOKBACK_DAYS as a safety net.
+ * Strategy: bulk-paginated sweep through ALL psyarxiv preprints,
+ * checking each against seen-compact-ids.json.
+ * Uses page[offset] to skip pages known to be fully seen (optimization).
+ * Stops when MIN_UNSEEN unseen papers are collected OR MAX_PAGES reached.
  */
 
 const API_BASE = 'https://api.osf.io/v2';
-const PAUSE_MS = 300;
-const MIN_UNSEEN = 15;           // stop when this many unseen papers collected
-const MAX_LOOKBACK_DAYS = 730;  // safety net: don't scan more than 2 years back
+const PAUSE_MS = 200;
+const MIN_UNSEEN = 20;
+const MAX_PAGES = 15;
 const SEEN_IDS_FILE = '/home/z/my-project/psyarxiv-hub/data/seen-compact-ids.json';
 const OUTPUT_FILE = '/home/z/my-project/psyarxiv-hub/curation/discovered-papers.json';
+const FRONTIER_FILE = '/home/z/my-project/psyarxiv-hub/curation/discover-frontier.json';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -36,10 +37,6 @@ async function fetchJson(url) {
   }
 }
 
-function toDateStr(d) {
-  return d.toISOString().split('T')[0]; // YYYY-MM-DD
-}
-
 function stripVersion(osfId) {
   return (osfId || '').replace(/_v\d+$/i, '');
 }
@@ -57,123 +54,88 @@ async function main() {
     console.error('No seen-IDs file found, starting fresh');
   }
 
-  const allPapers = [];
-  let dayOffset = 0;
-  let daysWithNewPapers = 0;
-  let daysFullyScanned = 0;
+  // Load frontier (last page cursor we reached)
+  let frontier = { page: 1, url: null };
+  try {
+    frontier = JSON.parse(fs.readFileSync(FRONTIER_FILE, 'utf8'));
+    console.error(`Resuming from frontier page ${frontier.page}`);
+  } catch {
+    console.error('No frontier file, starting from page 1');
+  }
+
+  // Fetch first page (or resume from frontier)
+  let pageUrl = frontier.url ||
+    `${API_BASE}/preprints/?filter[provider]=psyarxiv&sort=-date_created&page[size]=100`;
+
+  const allUnseen = [];
+  const globalSeen = new Set();
+  let pageNum = frontier.page - 1;
+  let pagesAllSeen = 0;
   let stopReason = '';
 
-  // Scan day-by-day from today backwards
-  while (true) {
-    const scanDate = new Date();
-    scanDate.setUTCDate(scanDate.getUTCDate() - dayOffset);
-    const dateStr = toDateStr(scanDate);
-    const nextDateStr = toDateStr(new Date(scanDate.getTime() + 86400000));
+  while (pageNum < frontier.page + MAX_PAGES) {
+    pageNum++;
+    console.error(`Page ${pageNum} — unseen so far: ${allUnseen.length}`);
 
-    console.error(`\n--- Day ${dayOffset}: scanning ${dateStr} ---`);
+    const payload = await fetchJson(pageUrl);
+    const items = payload.data || [];
+    let pageUnseen = 0;
 
-    // Fetch papers created on this specific day
-    const url = `${API_BASE}/preprints/?filter[provider]=psyarxiv&sort=date_created&filter[date_created][gte]=${dateStr}T00:00:00&filter[date_created][lt]=${nextDateStr}T00:00:00&page[size]=100`;
-
-    let dayPapers = [];
-    let pageUrl = url;
-    let pageCount = 0;
-
-    while (pageUrl) {
-      pageCount++;
-      const payload = await fetchJson(pageUrl);
-      const items = payload.data || [];
-
-      for (const item of items) {
-        dayPapers.push({
-          osf_id: item.id,
-          title: item.attributes?.title || '',
-          date_created: item.attributes?.date_created || '',
-          date_modified: item.attributes?.date_modified || '',
-          description: (item.attributes?.description || '').substring(0, 2000),
-          doi: item.attributes?.doi || '',
-          preprint_doi: item.attributes?.preprint_doi || '',
-          subjects: (item.attributes?.subjects || []).map(s => s.text || s),
-          link: item.links?.html || '',
-        });
-      }
-
-      pageUrl = payload.links?.next || null;
-      if (items.length < 100) break;
+    for (const item of items) {
+      const compact = stripVersion(item.id).toLowerCase();
+      if (globalSeen.has(compact)) continue;
+      globalSeen.add(compact);
+      if (seenIds.has(compact)) continue;
+      pageUnseen++;
+      allUnseen.push({
+        osf_id: item.id,
+        title: item.attributes?.title || '',
+        date_created: item.attributes?.date_created || '',
+        date_modified: item.attributes?.date_modified || '',
+        description: (item.attributes?.description || '').substring(0, 2000),
+        doi: item.attributes?.doi || '',
+        preprint_doi: item.attributes?.preprint_doi || '',
+        subjects: (item.attributes?.subjects || []).map(s => s.text || s),
+        link: item.links?.html || '',
+      });
     }
 
-    console.error(`  Fetched ${dayPapers.length} papers (${pageCount} pages)`);
+    console.error(`  ${pageUnseen} unseen / ${items.length} total`);
 
-    // Deduplicate within this day
-    const daySeen = new Set();
-    dayPapers = dayPapers.filter(p => {
-      const compact = stripVersion(p.osf_id).toLowerCase();
-      if (daySeen.has(compact)) return false;
-      daySeen.add(compact);
-      return true;
-    });
-
-    // Filter to unseen only
-    let unseenDayPapers = dayPapers.filter(p => {
-      const compact = stripVersion(p.osf_id).toLowerCase();
-      return !seenIds.has(compact);
-    });
-
-    console.error(`  Unseen: ${unseenDayPapers.length} / ${dayPapers.length}`);
-
-    if (unseenDayPapers.length > 0) {
-      daysWithNewPapers++;
-      allPapers.push(...unseenDayPapers);
-      console.error(`  Total unseen collected so far: ${allPapers.length}`);
-
-      if (allPapers.length >= MIN_UNSEEN) {
-        stopReason = `Reached ${MIN_UNSEEN} unseen papers after ${dayOffset} days`;
-        console.error(`  ✓ ${stopReason}`);
-        break;
-      }
+    if (pageUnseen > 0) {
+      pagesAllSeen = 0;
     } else {
-      daysFullyScanned++;
-      // If every paper on this day was already seen, we may have reached the frontier.
-      // Require CONSECUTIVE_FULLY_SEEN days of 100% seen to confirm we've passed the frontier.
-      const CONSECUTIVE_FULLY_SEEN = 3;
-      if (daysFullyScanned >= CONSECUTIVE_FULLY_SEEN && dayPapers.length > 0 && unseenDayPapers.length === 0) {
-        stopReason = `All papers seen for ${daysFullyScanned} consecutive days — reached seen-ID frontier at ${dateStr}`;
-        console.error(`  ✓ ${stopReason}`);
-        break;
-      }
+      pagesAllSeen++;
     }
 
-    // Safety net: don't scan more than MAX_LOOKBACK_DAYS
-    if (dayOffset + 1 >= MAX_LOOKBACK_DAYS) {
-      stopReason = `Reached max lookback of ${MAX_LOOKBACK_DAYS} days`;
+    // Save frontier for next run
+    const nextUrl = payload.links?.next || null;
+    fs.writeFileSync(FRONTIER_FILE, JSON.stringify({ page: pageNum + 1, url: nextUrl }) + '\n', 'utf8');
+
+    if (!nextUrl) {
+      stopReason = `Reached end of all pages (page ${pageNum})`;
       console.error(`  ✓ ${stopReason}`);
       break;
     }
 
-    dayOffset++;
+    if (allUnseen.length >= MIN_UNSEEN) {
+      stopReason = `Collected ${allUnseen.length} unseen papers`;
+      console.error(`  ✓ ${stopReason}`);
+      break;
+    }
+
+    pageUrl = nextUrl;
   }
 
-  // Final dedup across all days
-  const finalSeen = new Set();
-  const deduped = allPapers.filter(p => {
-    const compact = stripVersion(p.osf_id).toLowerCase();
-    if (finalSeen.has(compact)) return false;
-    finalSeen.add(compact);
-    return true;
-  });
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allUnseen, null, 2) + '\n', 'utf8');
 
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(deduped, null, 2) + '\n', 'utf8');
-
-  const report = {
+  console.log(JSON.stringify({
     stopReason,
-    daysScanned: dayOffset + 1,
-    daysWithNewPapers,
-    totalFetched: deduped.length,
-    totalUnseen: deduped.length,
+    pagesScanned: pageNum - (frontier.page - 1),
+    currentPage: pageNum,
+    totalUnseen: allUnseen.length,
     output: OUTPUT_FILE
-  };
-
-  console.log(JSON.stringify(report, null, 2));
+  }, null, 2));
 }
 
 main().catch(err => { console.error(err); process.exitCode = 1; });
