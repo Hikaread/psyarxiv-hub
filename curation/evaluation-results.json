@@ -1,16 +1,26 @@
 {
-  "evaluated": 1,
-  "accepted": 0,
+  "evaluated": 2,
+  "accepted": 1,
   "rejected": 1,
   "errors": 0,
   "skipped": 0,
   "deferred": 0,
   "results": [
     {
-      "osf_id": "wfs94_v1",
-      "title": "Are Temperament and Personality Traits Sibling Constructs or Twins? Toward a Lif",
+      "osf_id": "ys6pg_v1",
+      "title": "Environmental actions as a form of social prescribing for young people: needs, f",
+      "decision": "accept",
+      "reason": "The paper proposes Environmental-action Social Prescribing (ESP) as a clinical intervention model for young people's mental health, directly addressing climate-related distress through structured environmental action pathways, which has clear clinical utility for mental health practitioners.",
+      "category": "Other Clinical",
+      "number": 771,
+      "authors": "Caroline X. Gao; Rebecca Patrick; Samantha Julia Legaspi Eala; Sunny N Nguyen; David Baker; Angela H. Gold; Judah Njoroge; Georgia Monaghan; Courtney Kovac; Alison Hill",
+      "curated": true
+    },
+    {
+      "osf_id": "3c9me_v1",
+      "title": "Harmonious and Obsessive Passion in Professional Football Referees: A Five-Wave ",
       "decision": "reject",
-      "reason": "This paper focuses on theoretical integration of temperament and personality constructs across lifespan development, without clear clinical application or relevance to practicing therapists, psychologists, or psychiatrists. It examines conceptual overlap between these constructs but does not address therapy, assessment, diagnosis, psychopathology, mental health interventions, or neuropsychology.",
+      "reason": "low signal score (1)",
       "category": null
     }
   ]

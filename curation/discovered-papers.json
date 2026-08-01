@@ -1,10 +1,10 @@
 [
   {
-    "osf_id": "wfs94_v1",
-    "title": "Are Temperament and Personality Traits Sibling Constructs or Twins? Toward a Lifespan Science of Personality Development",
-    "date_created": "2026-08-01T12:25:11.958984",
-    "date_modified": "2026-08-01T12:29:11.956005",
-    "description": "Temperament and personality traits both refer to relatively stable individual differences in thoughts, feelings, and behaviors, but they are often studied in isolation from each other. Consequently, there are vast bodies of research exploring the nature, development, and consequences of temperament and personality traits, with little integration between areas. The present study examines the overlap vs. distinctness of temperament and personality traits, with the goal of promoting greater integration. First, we review past theory and research on their connections. Then, we apply 10 criteria from Lawson and Robins’ (2021) sibling constructs framework, supplemented by recently developed methods from large language models, to understand associations at the construct and measurement levels — aiming to orient researchers away from black-or-white thinking that has divided the two fields and toward embracing the complex overlap that characterizes the relationship between these domains. Based on our analyses, we argue that temperament and personality traits show substantial overlap at the construct level, differing mainly in how they are measured. We provide recommendations to unify these unnecessarily disparate literatures, paving the way toward a genuine, integrated science of personality development across the lifespan.",
+    "osf_id": "3c9me_v1",
+    "title": "Harmonious and Obsessive Passion in Professional Football Referees: A Five-Wave Population-Census Validation of the Passion Scale and Longitudinal Evidence for the DMP Internalization Sequence",
+    "date_created": "2026-06-21T18:47:39.871408",
+    "date_modified": "2026-07-22T17:30:16.028836",
+    "description": "This study presents the first longitudinal, population-census validation of the Passion Scale (Vallerand et al., 2003) in professional sport officials. A complete registered population of 619 Brazilian football referees (Federação Paulista de Futebol) was assessed across five measurement waves (T1–T5; 2010–2013), yielding 1,834 observations. Eight aims were addressed: (1) cross-sectional psychometric validation at T1 including CFA and ESEM; (2) longitudinal replication across T2–T5; (3) scalar measurement invariance across five waves; (4) within-person variability of harmonious (HP) and obsessive (OP) passion; (5) latent growth models of HP, OP, HP-OP Balance Index (IP), and Passion Criteria (PC); (6) role-specific passion dynamics (main referees vs. assistant referees); (7) internalization pathway analysis using pre-entry motivational data (mixed-methods approach); (8) exploratory factor analysis of antecedent instruments. Full scalar invariance was supported (ΔCFI = −.007). HP increased monotonically (d = 0.53). OP showed greater within-person variability than HP (d = 0.48; 66.1% of referees). Pre-entry motivational data mapped onto DMP-predicted internalization pathways at the item level, with antecedent EFA yielding three theoretically coherent factors. The census design eliminates sampling bias and allows population-parameter estimation. Findings extend DMP boundary conditions to part-time professional practitioners and provide the first longitudinal item-level examination consistent with the DMP antecedent sequence.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -14,8 +14,64 @@
           "text": "Social and Behavioral Sciences"
         },
         {
+          "id": "5b4e7426c6983001430b6c3d",
+          "text": "Sport Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c59",
+          "text": "Psychometrics"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
           "id": "5b4e7425c6983001430b6c2d",
           "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c60",
+          "text": "Self-concept and Identity"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c22",
+          "text": "Industrial and Organizational Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c6c",
+          "text": "Careers"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c22",
+          "text": "Industrial and Organizational Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c7f",
+          "text": "Performance Measurement"
         }
       ],
       [
@@ -26,9 +82,199 @@
         {
           "id": "5b4e7425c6983001430b6c34",
           "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c94",
+          "text": "Social Influence"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c9a",
+          "text": "Self and Social Identity"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7428c6983001430b6caf",
+          "text": "Quantitative Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb8",
+          "text": "Intragroup Processes"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c22",
+          "text": "Industrial and Organizational Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cbb",
+          "text": "Training and Development"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cdd",
+          "text": "Stress"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6ce2",
+          "text": "Social health"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfb",
+          "text": "Judgment and Decision Making"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/wfs94_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/3c9me_v1/"
+  },
+  {
+    "osf_id": "ys6pg_v1",
+    "title": "Environmental actions as a form of social prescribing for young people: needs, feasibility and policy priorities",
+    "date_created": "2026-06-15T00:19:12.557430",
+    "date_modified": "2026-07-28T20:01:14.361272",
+    "description": "Youth mental ill-health is rising globally, while climate change is intensifying distress, uncertainty, grief, and disaster-related trauma among young people. Existing mental health systems remain largely reactive and clinically oriented, while disaster responses are often short-term and crisis-focused. This leaves a major gap in care for the chronic, collective, and climate-related dimensions of distress. This paper proposes Environmental-action Social Prescribing (ESP) as a distinct and emerging model of care that connects young people with meaningful environmental action through structured, supported pathways. Drawing on evidence from social prescribing (including green and blue social prescribing), nature-based interventions, interventions for climate/eco-distress and environmental engagement programs, we outline the rationale, active ingredients, system and policy requirements for ESP. Using three case studies, we argue that ESP requires three key elements: effective models of mental health care, supportive ecosystems that enable sustained engagement, and cross-sector infrastructure and system capacity. Together, these elements can extend traditional social prescribing, in the context of climate-related distress and the need for more widespread environmental action, by combining emotional validation, social connection, practical coping, meaning-making, agency, and collective environmental action. Although ESP is not yet established as a formal youth mental health care model, it represents a unique opportunity to address both youth mental health and planetary challenges. Realising this opportunity will require targeted investment in model development, evaluation, workforce capability, community infrastructure, and policy integration. ESP could support a generation of psychologically resilient, socially connected, and environmentally engaged young people.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c56",
+          "text": "Environmental Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c6e",
+          "text": "Science and Technology Policy"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c94",
+          "text": "Social Influence"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/ys6pg_v1/"
   }
 ]
