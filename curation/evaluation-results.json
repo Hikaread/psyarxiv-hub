@@ -3,82 +3,82 @@
   "accepted": 3,
   "rejected": 2,
   "errors": 0,
-  "skipped": 0,
-  "deferred": 61,
+  "skipped": 5,
+  "deferred": 56,
   "results": [
     {
       "osf_id": "xtm9q_v1",
       "title": "Behavioral Emotion Regulation in Internalizing Disorders: A Transdiagnostic Psyc",
-      "decision": "accept",
-      "reason": "This study evaluates a psychometric measure specifically for behavioral emotion regulation in clinical populations with internalizing disorders, directly relevant to clinical practice for assessment and diagnosis.",
-      "category": "Psychopathology & Assessment",
-      "number": 775,
-      "authors": "Sarah Aline Wellan; Sarah Wyka; Till Langhammer; Gina-Isabelle Henze; Lars Schulze; Lydia Fehm; Norbert Kathmann; Babette Renneberg; Shuyan Liu; Susanne Erk",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "3d68f_v1",
       "title": "Environmental Dynamics and Exam Stress among Nigerian  Adolescents: The Mitigati",
-      "decision": "reject",
-      "reason": "The paper focuses on exam stress among Nigerian adolescents, which is an educational/developmental psychology topic without direct clinical application for practicing therapists. While it examines stress and anxiety, the population is adolescents and the context is academic performance rather than clinical mental health interventions or psychopathology.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "jfs79_v1",
       "title": "Motives of social media use are differentially associated with mental health out",
-      "decision": "reject",
-      "reason": "Study focuses on adolescents (16-17 years old) without clear adult clinical implications, and examines social media use motives rather than direct clinical interventions or assessment tools for practicing clinicians.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "pbcv4_v2",
       "title": "Effectiveness and uptake of ROOM to grow: Results of a randomized controlled tri",
-      "decision": "accept",
-      "reason": "This study evaluates a mobile intervention targeting emotion regulation for university students with mental health challenges, which has direct clinical relevance for mental health professionals working with young adults.",
-      "category": "Digital Mental Health",
-      "number": 776,
-      "authors": "Tajda Laure; Marilisa Boffo; Stefan Konigorski; Djameela Dulloo; Rutger Engels; Danielle Remmerswaal",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "7dyje_v1",
       "title": "Beyond Individual Resilience: Institutional Stressors, Burnout, and Coping among",
-      "decision": "accept",
-      "reason": "This study examines burnout, institutional stressors, and coping strategies among Baptist pastors in Ghana, which has direct clinical relevance for mental health professionals working with clergy populations. The research addresses psychopathology (burnout), mental health interventions (coping strategies), and organizational psychology factors affecting mental health.",
-      "category": "Other Clinical",
-      "number": 777,
-      "authors": "McFaustine Kofi Mahama; Yaw Adu-Gyamfi; Gabriel Osei Forkuo",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "7zhvr_v2",
       "title": "Digital shadows in mental health map how LLMs simulate depression, anxiety, and ",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "The paper examines how large language models (LLMs) simulate mental health conditions like depression, anxiety, and stress through language patterns and psychometric responses. This has direct relevance for clinical practice as LLMs are increasingly being used as mental health support tools, and understanding their simulated psychological profiles is crucial for clinical psychologists evaluating AI applications in therapy settings.",
+      "category": "Digital Mental Health",
+      "number": 778,
+      "authors": "Emma Franchino; Rodolfo Rizzi; Edoardo Sebastiano De Duro; Ali Aghazadeh Ardebili; Massimo Stella",
+      "curated": true
     },
     {
       "osf_id": "n57zk_v2",
       "title": "Disrupting the Mad Genius Myth: Emotional Instability Undermines Creative Self- ",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "The paper focuses on creativity and emotional instability in professional artists, which falls under basic psychology without direct clinical application. While it mentions psychological distress and well-being, the primary focus is on creativity research rather than clinical psychology practice, assessment, diagnosis, or interventions for mental health disorders.",
+      "category": null
     },
     {
       "osf_id": "bwtyz_v2",
       "title": "Optimizing Care for Older Transgender and Non-Binary Adults: A Co-created Agenda",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "This paper focuses on clinical care for older transgender and non-binary adults, which is directly relevant to clinical psychology practice, assessment, and intervention development.",
+      "category": "Other Clinical",
+      "number": 779,
+      "authors": "Mara Pieri; Nessa Millet; Martijn Anthonio; Alex Bakker; Maya Chew; Elia Covolan; Dr Zowie Davy; Tim de Jong; Joost Derwig; Koen Dreijerink",
+      "curated": true
     },
     {
       "osf_id": "hksru_v1",
       "title": "Measurement of American adolescents\u2019 experiences of online harms: A nationally r",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "Focuses on adolescents and online harms without direct clinical application to adult therapy, assessment, diagnosis, or mental health interventions for practicing clinicians.",
+      "category": null
     },
     {
       "osf_id": "pej9v_v2",
       "title": "Intersecting Identities and Campus Well-Being: Mental Health, Substance Use, and",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "The paper examines mental health, substance use, and service barriers among racial/ethnic and sexual/gender minoritized university students, which has direct relevance to clinical psychology practice through its focus on assessment of mental health needs, identification of barriers to care, and implications for intervention development.",
+      "category": "Other Clinical",
+      "number": 780,
+      "authors": "Victoria Doan; Erin Courtice; Tara Raessi; Sarah Dermody",
+      "curated": true
     },
     {
       "osf_id": "29czg_v1",
