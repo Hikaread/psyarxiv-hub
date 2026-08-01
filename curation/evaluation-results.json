@@ -1,30 +1,17 @@
 {
-  "evaluated": 2,
-  "accepted": 2,
-  "rejected": 0,
+  "evaluated": 1,
+  "accepted": 0,
+  "rejected": 1,
   "errors": 0,
   "skipped": 0,
   "deferred": 0,
   "results": [
     {
-      "osf_id": "m7k4w_v1",
-      "title": "Trauma-Informed Weight Lifting as an Adjunctive Intervention for Posttraumatic S",
-      "decision": "accept",
-      "reason": "The paper examines a trauma-informed weight lifting intervention for youth with complex trauma in residential treatment, directly addressing clinical practice relevance for treating trauma-related symptoms and interoception disruptions.",
-      "category": "Trauma & Stressor-Related",
-      "number": 769,
-      "authors": "Elizabeth K Lee; Nicole Strumbel; Mikayla J Falteisek; Mariah Rooney; Leena Haas; Sophia Pellegrom; Viann N Nguyen-Feng",
-      "curated": true
-    },
-    {
-      "osf_id": "avdrw_v1",
-      "title": "Differential Associations of Excellencism and Perfectionism with Mental Health O",
-      "decision": "accept",
-      "reason": "This study examines excellencism and perfectionism in relation to mental health outcomes among licensure examinees, which has direct relevance to clinical psychology practice, particularly in assessment and intervention for high-stress professional settings.",
-      "category": "Other Clinical",
-      "number": 770,
-      "authors": "Renz Louis T. Montano; Jan Patrick G. Gutierrez",
-      "curated": true
+      "osf_id": "wfs94_v1",
+      "title": "Are Temperament and Personality Traits Sibling Constructs or Twins? Toward a Lif",
+      "decision": "reject",
+      "reason": "This paper focuses on theoretical integration of temperament and personality constructs across lifespan development, without clear clinical application or relevance to practicing therapists, psychologists, or psychiatrists. It examines conceptual overlap between these constructs but does not address therapy, assessment, diagnosis, psychopathology, mental health interventions, or neuropsychology.",
+      "category": null
     }
   ]
 }
