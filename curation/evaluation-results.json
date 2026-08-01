@@ -1,75 +1,30 @@
 {
-  "evaluated": 5,
+  "evaluated": 2,
   "accepted": 2,
-  "rejected": 3,
+  "rejected": 0,
   "errors": 0,
   "skipped": 0,
-  "deferred": 4,
+  "deferred": 0,
   "results": [
     {
-      "osf_id": "3sqtg_v1",
-      "title": "Psychosocial interventions and health-related quality of life in children and ad",
-      "decision": "reject",
-      "reason": "Focuses on children and adolescents with type 1 diabetes, without clear direct implications for adult clinical practice",
-      "category": null
-    },
-    {
-      "osf_id": "39gth_v3",
-      "title": "Understanding acceptability of a brief intervention for intrusive thoughts: A mi",
+      "osf_id": "m7k4w_v1",
+      "title": "Trauma-Informed Weight Lifting as an Adjunctive Intervention for Posttraumatic S",
       "decision": "accept",
-      "reason": "The study examines the acceptability of a digital single-session intervention for intrusive thoughts in adolescents and young adults, which has direct clinical relevance for therapists working with this population.",
-      "category": "Digital Mental Health",
-      "number": 767,
-      "authors": "Megan Rose Serody; Clare Beatty; Erica Szkody; Jason Katz; Mary Kowalchyk; Aprajita Mohanty; Jessica L. Schleider",
-      "curated": true
-    },
-    {
-      "osf_id": "e6cbg_v1",
-      "title": "Perceived Changes in Religious Cognitive Dissonance and Mental Health Among Form",
-      "decision": "accept",
-      "reason": "This study examines cognitive dissonance in religious transitions and its mental health implications, which is highly relevant to clinical psychology practice, particularly for therapists working with clients experiencing religious identity crises or trauma from high-demand religious groups.",
+      "reason": "The paper examines a trauma-informed weight lifting intervention for youth with complex trauma in residential treatment, directly addressing clinical practice relevance for treating trauma-related symptoms and interoception disruptions.",
       "category": "Trauma & Stressor-Related",
-      "number": 768,
-      "authors": "David Bridger Lisonbee; Sam Hardy; Yehudis Keller; Daryl R. Van Tongeren; Julie J. Exline",
+      "number": 769,
+      "authors": "Elizabeth K Lee; Nicole Strumbel; Mikayla J Falteisek; Mariah Rooney; Leena Haas; Sophia Pellegrom; Viann N Nguyen-Feng",
       "curated": true
     },
     {
-      "osf_id": "wb5y2_v2",
-      "title": "Sex Differences in Overhand Throwing are Completely Due to Socialization: A Blan",
-      "decision": "reject",
-      "reason": "This paper is a commentary on evolutionary biology and gender studies, focusing on sex differences in throwing behavior. It does not address clinical psychology practice, therapy, assessment, diagnosis, psychopathology, mental health interventions, or neuropsychology. The content is theoretical and academic in nature, with no clinical applications or implications for practicing therapists, psychologists, or psychiatrists.",
-      "category": null
-    },
-    {
-      "osf_id": "w2qe6_v1",
-      "title": "The latent geometry of dream content",
-      "decision": "reject",
-      "reason": "This paper focuses on the computational analysis of dream content using language models, examining the latent structure of dreams rather than clinical applications, assessment, diagnosis, or therapeutic interventions. It falls under basic cognitive psychology without direct clinical relevance to practicing therapists, psychologists, or psychiatrists.",
-      "category": null
-    },
-    {
-      "osf_id": "ehsd5_v1",
-      "title": "Measuring Intention: The Sense of Agency, Intentional Binding, and The Temporal ",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "cd4jv_v1",
-      "title": "Is There a Trade-Off Between Processing and Maintenance of Information in Workin",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "uk7rf_v3",
-      "title": "Geographically aggregated psychological traits from linguistic analysis of Twitt",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "hwaks_v1",
-      "title": "Quality of Life in Middle and Later Life across Europe: Trait-Occasion Decomposi",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "osf_id": "avdrw_v1",
+      "title": "Differential Associations of Excellencism and Perfectionism with Mental Health O",
+      "decision": "accept",
+      "reason": "This study examines excellencism and perfectionism in relation to mental health outcomes among licensure examinees, which has direct relevance to clinical psychology practice, particularly in assessment and intervention for high-stress professional settings.",
+      "category": "Other Clinical",
+      "number": 770,
+      "authors": "Renz Louis T. Montano; Jan Patrick G. Gutierrez",
+      "curated": true
     }
   ]
 }
