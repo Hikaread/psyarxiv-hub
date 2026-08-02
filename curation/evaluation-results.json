@@ -3,416 +3,200 @@
   "accepted": 3,
   "rejected": 2,
   "errors": 0,
-  "skipped": 5,
-  "deferred": 56,
+  "skipped": 4,
+  "deferred": 21,
   "results": [
     {
-      "osf_id": "xtm9q_v1",
-      "title": "Behavioral Emotion Regulation in Internalizing Disorders: A Transdiagnostic Psyc",
+      "osf_id": "6e9qk_v1",
+      "title": "Prevalence, Correlates, and Adverse Effects of Health-Related Large Language Mod",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "3d68f_v1",
-      "title": "Environmental Dynamics and Exam Stress among Nigerian  Adolescents: The Mitigati",
+      "osf_id": "5qmjn_v2",
+      "title": "\"Know Thyself\" Through the Heart? How Cardiac Interoception Mediates Emotion Reg",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "jfs79_v1",
-      "title": "Motives of social media use are differentially associated with mental health out",
+      "osf_id": "z3b2d_v1",
+      "title": "Mapping International Best Practices in Climate\u2013Mental Health Facilitation and P",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "pbcv4_v2",
-      "title": "Effectiveness and uptake of ROOM to grow: Results of a randomized controlled tri",
+      "osf_id": "6jzvf_v1",
+      "title": "Black Woman-Performed R&amp;B and Gospel from Individual to Collective Resilienc",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
     {
-      "osf_id": "7dyje_v1",
-      "title": "Beyond Individual Resilience: Institutional Stressors, Burnout, and Coping among",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "7zhvr_v2",
-      "title": "Digital shadows in mental health map how LLMs simulate depression, anxiety, and ",
+      "osf_id": "672ch_v1",
+      "title": "Effects and Moderators of Message Frames and Message Themes on Self-Care in Hong",
       "decision": "accept",
-      "reason": "The paper examines how large language models (LLMs) simulate mental health conditions like depression, anxiety, and stress through language patterns and psychometric responses. This has direct relevance for clinical practice as LLMs are increasingly being used as mental health support tools, and understanding their simulated psychological profiles is crucial for clinical psychologists evaluating AI applications in therapy settings.",
+      "reason": "The study examines message framing effects on self-care intentions and behaviors, directly relevant to clinical psychology practice for mental health promotion and intervention.",
       "category": "Digital Mental Health",
-      "number": 778,
-      "authors": "Emma Franchino; Rodolfo Rizzi; Edoardo Sebastiano De Duro; Ali Aghazadeh Ardebili; Massimo Stella",
+      "number": 789,
+      "authors": "Siu Kit Yeung; Winnie W. S. Mak; Chun Ming Lee",
       "curated": true
     },
     {
-      "osf_id": "n57zk_v2",
-      "title": "Disrupting the Mad Genius Myth: Emotional Instability Undermines Creative Self- ",
+      "osf_id": "ukbxs_v2",
+      "title": "When you're with me, baby, the skies will be blue for all my life? A dyadic long",
+      "decision": "accept",
+      "reason": "The study examines relationship happiness in midlife couples, which is clinically relevant for therapists working with couples and individuals facing relationship challenges during this life stage. The research has direct implications for clinical practice regarding relationship dynamics, satisfaction trajectories, and factors that impact relationship quality during midlife.",
+      "category": "Couples Therapy & Sexology",
+      "number": 790,
+      "authors": "Georg Henning; Rebekka Weidmann; Dikla Segel-Karpas; Sophie Potter; Jenna W\u00fcnsche",
+      "curated": true
+    },
+    {
+      "osf_id": "v3uhz_v1",
+      "title": "Bodily responses to bullying",
+      "decision": "accept",
+      "reason": "The paper examines acute bodily responses to bullying, a clinically relevant topic with implications for understanding trauma responses and developing interventions for victimized individuals.",
+      "category": "Trauma & Stressor-Related",
+      "number": 791,
+      "authors": "Birgitta Paranko; Sarah Malamut; Claire F. Garandeau; Christina Salmivalli; Lauri Nummenmaa",
+      "curated": true
+    },
+    {
+      "osf_id": "jzhpw_v1",
+      "title": "Stress Under the Skin: How Structural Inequality Becomes Biologically Embedded T",
       "decision": "reject",
-      "reason": "The paper focuses on creativity and emotional instability in professional artists, which falls under basic psychology without direct clinical application. While it mentions psychological distress and well-being, the primary focus is on creativity research rather than clinical psychology practice, assessment, diagnosis, or interventions for mental health disorders.",
+      "reason": "This paper focuses on structural inequality and caregiver-infant interaction, which falls under developmental psychology without direct clinical application to adult therapy, assessment, or diagnosis. While it touches on biological embedding of stress, it doesn't address clinical interventions, psychopathology, or mental health treatments for practicing clinicians.",
       "category": null
     },
     {
-      "osf_id": "bwtyz_v2",
-      "title": "Optimizing Care for Older Transgender and Non-Binary Adults: A Co-created Agenda",
-      "decision": "accept",
-      "reason": "This paper focuses on clinical care for older transgender and non-binary adults, which is directly relevant to clinical psychology practice, assessment, and intervention development.",
-      "category": "Other Clinical",
-      "number": 779,
-      "authors": "Mara Pieri; Nessa Millet; Martijn Anthonio; Alex Bakker; Maya Chew; Elia Covolan; Dr Zowie Davy; Tim de Jong; Joost Derwig; Koen Dreijerink",
-      "curated": true
-    },
-    {
-      "osf_id": "hksru_v1",
-      "title": "Measurement of American adolescents\u2019 experiences of online harms: A nationally r",
+      "osf_id": "guf6j_v2",
+      "title": "Public Risk Judgments of Endocrine-Disrupting Chemicals: Psychometric Structure,",
       "decision": "reject",
-      "reason": "Focuses on adolescents and online harms without direct clinical application to adult therapy, assessment, diagnosis, or mental health interventions for practicing clinicians.",
+      "reason": "This paper focuses on public risk perception of endocrine-disrupting chemicals, which falls under environmental health psychology and risk perception research rather than clinical psychology. It examines how laypeople perceive chemical risks across different countries and exposure routes, with no direct application to therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing therapists, psychologists, or psychiatrists.",
       "category": null
     },
     {
-      "osf_id": "pej9v_v2",
-      "title": "Intersecting Identities and Campus Well-Being: Mental Health, Substance Use, and",
-      "decision": "accept",
-      "reason": "The paper examines mental health, substance use, and service barriers among racial/ethnic and sexual/gender minoritized university students, which has direct relevance to clinical psychology practice through its focus on assessment of mental health needs, identification of barriers to care, and implications for intervention development.",
-      "category": "Other Clinical",
-      "number": 780,
-      "authors": "Victoria Doan; Erin Courtice; Tara Raessi; Sarah Dermody",
-      "curated": true
-    },
-    {
-      "osf_id": "29czg_v1",
-      "title": "Executive functions in people with Williams syndrome: a scoping review",
+      "osf_id": "p24t9_v1",
+      "title": "Evidence for human universals evolved in response to coalitional aggression or w",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "f9v5s_v2",
-      "title": "Iatrogenic Harm, Ethics, and Epistemic Justice: A response to Swan et al. (2026)",
+      "osf_id": "9a7gy_v1",
+      "title": "Asynchronous versus Synchronous Online Training Formats and Behavioral Health Wo",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "6sz7h_v2",
-      "title": "Ethnoracial and Linguistic Diversity in Treatment Research for Primary Progressi",
+      "osf_id": "gvzur_v1",
+      "title": "Not One Approach to Rule Them All: How to Achieve Valid Cross-Group Assessment f",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "g8nbr_v2",
-      "title": "Social media and smartphone use are associated with blunted striatal reward resp",
+      "osf_id": "74mbj_v1",
+      "title": "The dynamic relationship between social media use and interpersonal adaptation a",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "zdk7q_v2",
-      "title": "Common Humanity and Resilience: A Scoping Review",
+      "osf_id": "sqcfw_v1",
+      "title": "Norm Commitment as a Link Between \u2018Dark\u2019 Personality and Norm Violation",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "ufmh5_v1",
-      "title": "A Dialectical Model of Self-Love: Worth, Compassion, and Embodied Self-Engagemen",
+      "osf_id": "mw9pr_v2",
+      "title": "Does Potential to Change Positively and Negatively Valenced Health Behaviors Inf",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "r4zxj_v4",
-      "title": "Emotion Regulation Partially Mediates the Relation Between Stressful Life Event ",
+      "osf_id": "2gzum_v3",
+      "title": "Effects of Positive-Negative Message Framing on Health-Related Attitudes, Intent",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "usf97_v2",
-      "title": "Metacontingency Analysis of Practices Associated to Mental Health",
+      "osf_id": "5yuxm_v1",
+      "title": "Integrating theory-driven and data-driven computational psychiatry",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "czu9f_v1",
-      "title": "Silent and Underestimated Climate Change Concern Without Behavioural Backlash: F",
+      "osf_id": "7y4q3_v1",
+      "title": "To Regulate or Not To Regulate? Situational and Individual Differences in Emotio",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "wz59n_v1",
-      "title": "The effect of semantic similarity on re-learning of vocabulary in activation and",
+      "osf_id": "wh52t_v1",
+      "title": "An existential perspective on counseling climate emotions",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "n8mby_v1",
-      "title": "Carpe diem or memento mori \u2013 The relationship between existential anxiety and te",
+      "osf_id": "6amjb_v1",
+      "title": "Development and Psychometric Evaluation of the Mental Health Support Scale for A",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "c73ws_v3",
-      "title": "Modality-Specific Consolidation Shapes Long-Term Retention in Statistical Learni",
+      "osf_id": "w9csv_v1",
+      "title": "From brain maps to mental processes: Benchmarking meta-analytic decoding for psy",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "hejvk_v2",
-      "title": "Kawaii (Cute) Feelings and Gender in Japanese Young Adults: Relations with Commu",
+      "osf_id": "qy8fa_v1",
+      "title": "The impact of grouping by ability on children\u2019s thinking about academic performa",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "m3pnz_v1",
-      "title": "Testing the Dual Representation Account of Memory for Trauma",
+      "osf_id": "ur4sy_v1",
+      "title": "Cholera vaccination readiness in six African countries:  A psychological and eco",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "fh4cz_v1",
-      "title": "State of Social Cognition Research: Challenges, Future Directions, and Efforts T",
+      "osf_id": "a8gcp_v1",
+      "title": "The Impact of Co-speech Gesture on Sentence Memory and Metacognitive Confidence",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "xasf6_v1",
-      "title": "The relationship between social media use and social isolation in young adults: ",
+      "osf_id": "swxmt_v2",
+      "title": "Groove Emerges Through Repetition: The Temporal Dynamics of Prediction and Organ",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "cfgd4_v1",
-      "title": "Situational and longitudinal associations between motivational beliefs, anxiety,",
+      "osf_id": "86rsy_v1",
+      "title": "A priori power analysis for ANOVA interaction effects with the anovapowersim R p",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "yjt6e_v3",
-      "title": "Defining Wellness: Conceptions of Ideal Mental Health in Ancient Yogic Texts and",
+      "osf_id": "gt4q6_v1",
+      "title": "Trust Issues: Social Learning Under Misaligned Goals",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "f6bue_v1",
-      "title": "Adolescents value learning about a newly acquainted peer in a face-to-face inter",
+      "osf_id": "g78na_v2",
+      "title": "Toward a unified theory of social relationships and social networks",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "695gp_v1",
-      "title": "Psychological Coupling: The Necessary Science of Human-AI Interaction",
+      "osf_id": "n52d9_v1",
+      "title": "Better Together? Facial Expressions as a Mechanism Shaping Enjoyment During Shar",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "3qzy8_v3",
-      "title": "Compassion as a Mechanism for Intergroup Helping: Preliminary Evidence from a Hu",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "s4hp8_v1",
-      "title": "Goals, Predictions, Valence: A Model Comparison of Agency Emergence",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "2gy9c_v2",
-      "title": "The Construct Validity of Automated Written Interview Competency Assessments",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "cu2vq_v1",
-      "title": "Do action video gamers search better than non-gamers?",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "sjtg7_v1",
-      "title": "Predictions and outcomes independently shape the subjective experience of regret",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "86vqz_v2",
-      "title": "Best practices and pitfalls in multivariate pattern analysis of event-related po",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "6e5du_v1",
-      "title": "What Do We Know About the Effects of Artificial Intelligence in Education? A Sec",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "ghdva_v1",
-      "title": "Pro Environmental Attitudes, Emotions, and Donations After Playing an  Ecogame -",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "ybde5_v1",
-      "title": "Bayesian Networks for Benchmark Validity in Score Reporting: An ePIRLS Demonstra",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "2hxnq_v1",
-      "title": "No evidence for predicting from conflict: A reverse cueing study reveals the lim",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "r62pa_v1",
-      "title": "The Experimental Study of Habitual Behavior in Humans: A Review of the Validity ",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "gk368_v1",
-      "title": "Good Kitty, Bad Bank? Rescoring Miscalibrated CATs Improves Accuracy",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "djcsb_v2",
-      "title": "Distinct Neural Representations across Discrete and Continuous Non-symbolic Rati",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "wr439_v3",
-      "title": "A selection of environmental sounds for behavioural and neuroimaging research: I",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "7avde_v1",
-      "title": "Aesthetic value is behaviorally and neurally dissociable from reinforcement valu",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "yuf78_v3",
-      "title": "Engagement-centered demonstrations in large enrollment introductory psychology c",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "j54py_v1",
-      "title": "Can Multi-Task Eye-Movement Profiles Identify People Across Recording Blocks?",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "3cbvy_v1",
-      "title": "A Narrative Review of the Role of Social Observation on Error Monitoring",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "r8swt_v2",
-      "title": "The role of consequence in evaluating approximate claims as true or false",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "g97u4_v1",
-      "title": "What Should Be Spaced? Variability Constrains Spacing Effects in Classroom Learn",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "9mx8r_v3",
-      "title": "Pluralism within limits: How to make the idea of multiple NCC kinds useful",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "tqpje_v2",
-      "title": "The Adoption of Open Science Practices in Communication Research: Taking Stock o",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "6rkwh_v2",
-      "title": "Learning words in diverse narrative contexts disrupts subsequent recall of their",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "je4ur_v1",
-      "title": "Thinking clearly about sampling and representation with the Total Survey Error F",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "hb5gs_v1",
-      "title": "Putting Out Statistical Fires: Assessing Model Fit Using DHARMa Randomized Quant",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "wkesf_v1",
-      "title": "From Sound-Colour Association to Sensory-Affective Worlds:  A Qualitative Case S",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "5mwre_v11",
-      "title": "The Moralization of Artificial Intelligence",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "3w59e_v2",
-      "title": "A Conversation Guide to Support Color-Conscious Racial Socialization among White",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "ta4vd_v2",
-      "title": "What is it to be aware? A Pragmatic Approach to Comparing Animal Awareness",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "n9vcq_v2",
-      "title": "Rated E for Emotional: Children's Understanding of Death, Conversations About De",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "5g64u_v2",
-      "title": "Object perception encodes mutually exclusive possibilities",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "kas3f_v1",
-      "title": "Planning paths not taken: False memories for unexecuted actions",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "uecdk_v1",
-      "title": "Transitions in Teachers\u2019 Technology Utilization: Evidence from a Large-Scale, Lo",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "5xstq_v1",
-      "title": "A test of the digital Give-a-Number task",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "ab7h5_v1",
-      "title": "Assessing the efficacy of crowdsourced fact-checking for TikTok videos",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
-    },
-    {
-      "osf_id": "pwv54_v2",
-      "title": "Bayesian Evidence Synthesis under Heterogeneity",
+      "osf_id": "r4xwb_v1",
+      "title": "Empirically derived effect size guidelines for social, individual differences, a",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     }
