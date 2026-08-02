@@ -1,202 +1,199 @@
 {
   "evaluated": 5,
-  "accepted": 3,
-  "rejected": 2,
+  "accepted": 4,
+  "rejected": 1,
   "errors": 0,
-  "skipped": 4,
-  "deferred": 21,
+  "skipped": 0,
+  "deferred": 24,
   "results": [
     {
-      "osf_id": "6e9qk_v1",
-      "title": "Prevalence, Correlates, and Adverse Effects of Health-Related Large Language Mod",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "5qmjn_v2",
-      "title": "\"Know Thyself\" Through the Heart? How Cardiac Interoception Mediates Emotion Reg",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "z3b2d_v1",
-      "title": "Mapping International Best Practices in Climate\u2013Mental Health Facilitation and P",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "6jzvf_v1",
-      "title": "Black Woman-Performed R&amp;B and Gospel from Individual to Collective Resilienc",
-      "decision": "skipped",
-      "reason": "already in papers.json"
-    },
-    {
-      "osf_id": "672ch_v1",
-      "title": "Effects and Moderators of Message Frames and Message Themes on Self-Care in Hong",
+      "osf_id": "qg9dw_v1",
+      "title": "A Glance in the Cognitive Mirror: Validation of an Interpretation Bias Task  for",
       "decision": "accept",
-      "reason": "The study examines message framing effects on self-care intentions and behaviors, directly relevant to clinical psychology practice for mental health promotion and intervention.",
-      "category": "Digital Mental Health",
-      "number": 789,
-      "authors": "Siu Kit Yeung; Winnie W. S. Mak; Chun Ming Lee",
+      "reason": "This paper directly relates to clinical psychology practice as it validates a new assessment tool for interpretation biases in body dissatisfaction, which is relevant to eating disorders and body image concerns. The research has clear clinical utility for practitioners working with eating disorders and body image issues.",
+      "category": "Eating Disorders",
+      "number": 792,
+      "authors": "Marielaura H\u00f6rning-Suermann; Marcella L. Woud; Mira A. Preis",
       "curated": true
     },
     {
-      "osf_id": "ukbxs_v2",
-      "title": "When you're with me, baby, the skies will be blue for all my life? A dyadic long",
+      "osf_id": "a29e3_v1",
+      "title": "Reward Prediction Error Signaling as a Neurocomputational Correlate of Co-Occurr",
       "decision": "accept",
-      "reason": "The study examines relationship happiness in midlife couples, which is clinically relevant for therapists working with couples and individuals facing relationship challenges during this life stage. The research has direct implications for clinical practice regarding relationship dynamics, satisfaction trajectories, and factors that impact relationship quality during midlife.",
-      "category": "Couples Therapy & Sexology",
-      "number": 790,
-      "authors": "Georg Henning; Rebekka Weidmann; Dikla Segel-Karpas; Sophie Potter; Jenna W\u00fcnsche",
+      "reason": "The paper examines neurocognitive mechanisms (reward prediction error signaling) in co-occurring depressive and anxiety symptoms in youth, which has direct clinical implications for understanding and treating these conditions.",
+      "category": "Anxiety & OCD",
+      "number": 793,
+      "authors": "Marta Korom; Diana Burk; Tahjanee Givens; Daniel S. Pine; Melissa A. Brotman; Simone Haller; Bruno B. Averbeck; Ellen Leibenluft; Katharina Kircanski",
       "curated": true
     },
     {
-      "osf_id": "v3uhz_v1",
-      "title": "Bodily responses to bullying",
-      "decision": "accept",
-      "reason": "The paper examines acute bodily responses to bullying, a clinically relevant topic with implications for understanding trauma responses and developing interventions for victimized individuals.",
-      "category": "Trauma & Stressor-Related",
-      "number": 791,
-      "authors": "Birgitta Paranko; Sarah Malamut; Claire F. Garandeau; Christina Salmivalli; Lauri Nummenmaa",
-      "curated": true
-    },
-    {
-      "osf_id": "jzhpw_v1",
-      "title": "Stress Under the Skin: How Structural Inequality Becomes Biologically Embedded T",
+      "osf_id": "fp3tw_v2",
+      "title": "Digital Companions for Academic Stress and Sleep Quality: A Conceptual Review an",
       "decision": "reject",
-      "reason": "This paper focuses on structural inequality and caregiver-infant interaction, which falls under developmental psychology without direct clinical application to adult therapy, assessment, or diagnosis. While it touches on biological embedding of stress, it doesn't address clinical interventions, psychopathology, or mental health treatments for practicing clinicians.",
+      "reason": "no PDF (no_pdf)",
       "category": null
     },
     {
-      "osf_id": "guf6j_v2",
-      "title": "Public Risk Judgments of Endocrine-Disrupting Chemicals: Psychometric Structure,",
-      "decision": "reject",
-      "reason": "This paper focuses on public risk perception of endocrine-disrupting chemicals, which falls under environmental health psychology and risk perception research rather than clinical psychology. It examines how laypeople perceive chemical risks across different countries and exposure routes, with no direct application to therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing therapists, psychologists, or psychiatrists.",
-      "category": null
+      "osf_id": "94ftd_v1",
+      "title": "Social anhedonia predicts behavioral differences in young people with and withou",
+      "decision": "accept",
+      "reason": "The paper examines social learning and generosity sensitivity in young adults with depression, focusing on the specific symptom of social anhedonia rather than global depressive symptoms. This has direct relevance to clinical psychology practice as it identifies potential mechanistic subgroups within depression that could inform treatment targets.",
+      "category": "Mood Disorders",
+      "number": 794,
+      "authors": "Brennan Delattre; Juliet Denise Griffin; Erdem Pulcu; Finley Watton; Amy Gillespie; Joshua Eusty Jonathan Buckman; Susannah Murphy; Catherine Harmer",
+      "curated": true
     },
     {
-      "osf_id": "p24t9_v1",
-      "title": "Evidence for human universals evolved in response to coalitional aggression or w",
+      "osf_id": "dg2r9_v2",
+      "title": "Self-compassion and mental wellbeing: a baseline cross-construct map from a mult",
+      "decision": "accept",
+      "reason": "This paper examines the relationship between self-compassion and mental wellbeing in a non-clinical adult sample, which has direct implications for clinical psychology practice, particularly in interventions targeting wellbeing and compassion.",
+      "category": "Therapeutic Modalities",
+      "number": 795,
+      "authors": "Anastasia Charitidou; Ioannis Valasakis",
+      "curated": true
+    },
+    {
+      "osf_id": "x94gb_v2",
+      "title": "A short embodied compassion curriculum for the Erasmus+ youth sector: design, fe",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "9a7gy_v1",
-      "title": "Asynchronous versus Synchronous Online Training Formats and Behavioral Health Wo",
+      "osf_id": "zvn49_v2",
+      "title": "Higher individualism predicts lower intensity of experienced love: Data from 91 ",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "gvzur_v1",
-      "title": "Not One Approach to Rule Them All: How to Achieve Valid Cross-Group Assessment f",
+      "osf_id": "bswyf_v2",
+      "title": "Systematic review: the integration and interpretation of Social Determinants of ",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "74mbj_v1",
-      "title": "The dynamic relationship between social media use and interpersonal adaptation a",
+      "osf_id": "hvbwc_v1",
+      "title": "The Functional Architecture of Self-Regulation: Network-Level Control Parameters",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "sqcfw_v1",
-      "title": "Norm Commitment as a Link Between \u2018Dark\u2019 Personality and Norm Violation",
+      "osf_id": "b8ega_v1",
+      "title": "A cross-cultural psychometric evaluation of the 3-item Relationship Satisfaction",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "mw9pr_v2",
-      "title": "Does Potential to Change Positively and Negatively Valenced Health Behaviors Inf",
+      "osf_id": "adqre_v2",
+      "title": "Digital Traces of Everyday Smartphone Usage Predict Cognitive Ability",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "2gzum_v3",
-      "title": "Effects of Positive-Negative Message Framing on Health-Related Attitudes, Intent",
+      "osf_id": "k6wuc_v2",
+      "title": "Evidence Before Entry: Evaluating the College of Psychologists and Behaviour Ana",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "5yuxm_v1",
-      "title": "Integrating theory-driven and data-driven computational psychiatry",
+      "osf_id": "zvtms_v1",
+      "title": "Meaningfulness Facilitates Voluntary Attentional Retrieval in Visual Working Mem",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "7y4q3_v1",
-      "title": "To Regulate or Not To Regulate? Situational and Individual Differences in Emotio",
+      "osf_id": "8nqsy_v2",
+      "title": "Differences in Dishonesty Toward Humans and Artificial Agents: The Role of Agent",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "wh52t_v1",
-      "title": "An existential perspective on counseling climate emotions",
+      "osf_id": "wuz8a_v2",
+      "title": "Accumulation, transfer, and maturation in bilingual toddlers\u2019 word learning",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "6amjb_v1",
-      "title": "Development and Psychometric Evaluation of the Mental Health Support Scale for A",
+      "osf_id": "7nbf2_v2",
+      "title": "The Impact of Mood and Affective Priming on Art Evaluation:  A Systematic Litera",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "w9csv_v1",
-      "title": "From brain maps to mental processes: Benchmarking meta-analytic decoding for psy",
+      "osf_id": "r2zse_v2",
+      "title": "Limits to intuition in number compositionality:  the case of multiplicative comm",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "qy8fa_v1",
-      "title": "The impact of grouping by ability on children\u2019s thinking about academic performa",
+      "osf_id": "bjehx_v1",
+      "title": "Cross-Linguistic Factors in Early Numerical Development",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "ur4sy_v1",
-      "title": "Cholera vaccination readiness in six African countries:  A psychological and eco",
+      "osf_id": "3h7sv_v1",
+      "title": "\u201cI know who the bad guy is!\u201d Infants map the word \u201cbad\u201d to hinderers, but not th",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "a8gcp_v1",
-      "title": "The Impact of Co-speech Gesture on Sentence Memory and Metacognitive Confidence",
+      "osf_id": "bv7qs_v1",
+      "title": "Using Natural Language Processing to Study Scene Recall in 360\u00b0 Virtual Reality",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "swxmt_v2",
-      "title": "Groove Emerges Through Repetition: The Temporal Dynamics of Prediction and Organ",
+      "osf_id": "khdjn_v1",
+      "title": "Evaluating the Residualized Change Score Pretest-Posttest Mediation Model via th",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "86rsy_v1",
-      "title": "A priori power analysis for ANOVA interaction effects with the anovapowersim R p",
+      "osf_id": "5dfbj_v2",
+      "title": "Beyond Valence: Arousal as a Core Dimension of Affective Polarization",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "gt4q6_v1",
-      "title": "Trust Issues: Social Learning Under Misaligned Goals",
+      "osf_id": "42ps7_v1",
+      "title": "Socially Motivated Observational Learning: Children Preferentially Learn from Ov",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "g78na_v2",
-      "title": "Toward a unified theory of social relationships and social networks",
+      "osf_id": "neqtd_v2",
+      "title": "Tiny Alchemists: The Developmental Emergence of Empowerment in Exploration",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "n52d9_v1",
-      "title": "Better Together? Facial Expressions as a Mechanism Shaping Enjoyment During Shar",
+      "osf_id": "7at9x_v1",
+      "title": "From Agent-Based Opinion Models to Quantum Circuits: A Tutorial",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "r4xwb_v1",
-      "title": "Empirically derived effect size guidelines for social, individual differences, a",
+      "osf_id": "j9vqh_v1",
+      "title": "Volitional Meditative Absorption States in an Advanced Yogic Practitioner: A Neu",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "7tz6u_v1",
+      "title": "Partial Metric Invariance in the Latent Actor-Partner Interdependence Model: A S",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "r8q53_v1",
+      "title": "Short words are more likely to refer to multiple meanings across 192 language fa",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "zvf8c_v2",
+      "title": "Goals shape dynamics of attention and selection for value-based decision-making",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     }
