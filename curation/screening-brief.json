@@ -1,527 +1,520 @@
 {
-  "discovered": 81,
+  "discovered": 80,
   "alreadyExisting": 0,
   "hardExcluded": 1,
   "lowSignal": 6,
-  "candidates": 74,
+  "candidates": 73,
   "candidates_list": [
     {
-      "osf_id": "tak62_v1",
-      "title": "Data-driven profiles of psychopathology following moderate-severe traumatic brain injury",
-      "date_created": "2026-05-06T06:16:43.701611",
-      "signal_score": 17,
-      "description_preview": "Objective: To identify data-driven “prototypes” (distinct profiles) of psychopathology among adults with moderate-severe traumatic brain injury (TBI) using a transdiagnostic assessment battery, and to"
+      "osf_id": "fhr4s_v1",
+      "title": "Associations of Psychosocial Factors with Internalizing and Externalizing Mental Health Problems Following Traumatic Bra",
+      "date_created": "2026-05-03T08:26:53.529465",
+      "signal_score": 15,
+      "description_preview": "Objective: To examine associations between life stressors, resilience, and coping across diverse mental health problems among adults with moderate-severe traumatic brain injury (TBI) using the Hierarc"
     },
     {
-      "osf_id": "9ucsv_v1",
-      "title": "Factors Associated with Mental Health Care Utilization Among Individuals with Predominately Compensable Moderate-Severe ",
-      "date_created": "2026-05-06T06:08:13.681476",
+      "osf_id": "f92sm_v1",
+      "title": "Utilization of different types of safety behavior during exposure-based CBT for anxiety disorders and its correlates",
+      "date_created": "2026-05-02T17:58:54.698976",
+      "signal_score": 13,
+      "description_preview": "Safety behavior is used to prevent or minimize perceived threats and contributes to the maintenance of anxiety disorders. Various types of safety behavior (e.g. cognitive, interoceptive strategies, ai"
+    },
+    {
+      "osf_id": "b9p76_v1",
+      "title": "Integrative Psychiatry: Reflections on the NIMHANS Model",
+      "date_created": "2026-05-03T19:09:57.340959",
+      "signal_score": 12,
+      "description_preview": "Integrative psychiatry combines conventional psychiatric treatments with evidence-informed complementary approaches to address the biological, psychological, social, and existential dimensions of ment"
+    },
+    {
+      "osf_id": "sfj8n_v1",
+      "title": "A qualitative systematic literature review of the lived experiences of people with depersonalisation-derealisation disor",
+      "date_created": "2026-05-05T10:24:56.607744",
+      "signal_score": 10,
+      "description_preview": "Introduction: Despite depersonalisation-derealisation being the third most commonly reported psychiatric symptom, it remains chronically understudied and poorly understood. Research into depersonalisa"
+    },
+    {
+      "osf_id": "hq9t7_v1",
+      "title": "Quests, Challenges, and Clinical Change: A Review and Clinical Recommendations for the Use of Therapeutically Applied Ro",
+      "date_created": "2026-05-05T01:32:00.803342",
+      "signal_score": 10,
+      "description_preview": "While the interest in Therapeutically Applied Role-Playing Games (TA-RPGs) is growing globally, there is a reluctance from clinicians and researchers to apply this intervention with people who experie"
+    },
+    {
+      "osf_id": "hwsyf_v1",
+      "title": "Psychometric Properties of the Seattle-Groningen Memory Assessment in Healthy Adults",
+      "date_created": "2026-05-04T08:47:03.912752",
+      "signal_score": 10,
+      "description_preview": "Brief assessments are increasingly important for scalable and accessible measurement of cognitive function. The Seattle-Groningen Memory Assessment (SGMA) is an accessible memory test that quantifies "
+    },
+    {
+      "osf_id": "8tm6c_v4",
+      "title": "Rebuilding HiTOP from the ground up: Symptom-level analyses and a revised mapping to the DSM",
+      "date_created": "2026-05-04T05:49:30.287112",
       "signal_score": 9,
-      "description_preview": "Objective: To document and identify determinants of mental health care utilization in individuals with predominately compensable moderate-severe traumatic brain injury (TBI).\n\nDesign: Cross-sectional "
+      "description_preview": "The evidence for the structure of the Hierarchical Taxonomy of Psychopathology (HiTOP) model relies heavily on analyses of correlations among DSM diagnoses, which entrenches some of their limitations."
     },
     {
-      "osf_id": "uvmyb_v1",
-      "title": "Mothers’ Smartphone Use, Phone-Related Distress and Empowerment, and Maternal and Infant Mood and Behavior: An Ecologica",
-      "date_created": "2026-05-06T14:52:51.684607",
+      "osf_id": "v7gr3_v2",
+      "title": "Beyond Snapshots: A Systematic Review of Dyadic and Triadic Parent-Adolescent Ecological Momentary Assessment Studies Ac",
+      "date_created": "2026-05-05T08:17:33.790231",
       "signal_score": 7,
-      "description_preview": "Although parents often use phones while around their infants, little research has looked at how this relates to mothers’ mood and their perceptions of their infant and their parenting on a momentary b"
+      "description_preview": "The last decade has seen a surge in studies using Ecological Momentary Assessment (EMA), where participants complete brief daily questionnaires to capture real-time experiences. While widely used to s"
     },
     {
-      "osf_id": "qfjsu_v2",
-      "title": "The Blind Spot in Research on Nature’s Benefits: Restorative versus Instorative Effects and Potential Biases.",
-      "date_created": "2026-05-06T12:16:23.321533",
+      "osf_id": "gcb4r_v1",
+      "title": "“It Feels Like We are an Outsider”: Understanding Barriers and Creating Opportunities for Fathers’ Engagement in Parenti",
+      "date_created": "2026-05-04T17:56:49.361228",
       "signal_score": 7,
-      "description_preview": "Environmental psychology has extensively documented the restorative effects of nature: the recovery of cognitive resources and emotional well-being following stress or fatigue. Yet, the field may have"
+      "description_preview": "Becoming a father entails significant psychological adaptations that impact fathers’ well-being and mental health, but also that of their partners and children. As such, structured parenting programs "
     },
     {
-      "osf_id": "xj8bu_v1",
-      "title": "Coping with the climate crisis: Text-derived coping profiles reveal a tension between burden, engagement, and mental wel",
-      "date_created": "2026-05-06T11:52:15.819604",
+      "osf_id": "t8efn_v1",
+      "title": "How and when to implement self-efficacy interventions to maximize the benefits of virtual reality exposure therapy for f",
+      "date_created": "2026-05-04T17:51:48.123135",
       "signal_score": 7,
-      "description_preview": "Prior research on how people cope with distress about the climate crisis has largely relied on convenience samples in single countries, has primarily used closed-response measures, and has rarely dist"
+      "description_preview": "Strategies aimed to enhance self-efficacy (SE), such activation and evaluation as mastery experiences and verbal persuasion (i.e. positive performance feedback) may promote exposure therapy. Here, we "
     },
     {
-      "osf_id": "8pvfu_v1",
-      "title": "Cancer patients’ experiences of psychological function in multimodal prehabilitation: A systematic review and meta-ethno",
-      "date_created": "2026-05-06T10:06:11.704864",
-      "signal_score": 7,
-      "description_preview": "Introduction: Multimodal prehabilitation is increasingly used to prepare patients for cancer treatment, yet the psychological functions of these programmes and how they are experienced by patients rem"
-    },
-    {
-      "osf_id": "vg5ju_v2",
-      "title": "Youth First Supports Adolescent Wellbeing: A Longitudinal Cluster Randomized Controlled Trial of a Teacher-Delivered Sch",
-      "date_created": "2026-05-05T19:14:41.910688",
-      "signal_score": 7,
-      "description_preview": "Globally, adolescents are facing a “polycrisis” of intersecting challenges that place them at heightened risk for poor mental health outcomes, particularly in low- and middle-income countries (LMICs),"
-    },
-    {
-      "osf_id": "47wsj_v1",
-      "title": "FRIENDS - Friendship-based Regulation of Individual Emotions in Networks in Daily Situations - An EMA Study on Emotion R",
-      "date_created": "2026-05-06T06:37:39.471673",
+      "osf_id": "n54j9_v1",
+      "title": "Calm but Disconnected: A Mixed-Methods Feasibility Trial of Nonviolent Communication as a Prosthetic Capability for Stud",
+      "date_created": "2026-05-05T09:21:59.376448",
       "signal_score": 6,
-      "description_preview": "Interpersonal emotion regulation depends not only on specific strategies, but also on the choice of regulation partner. While previous research suggests that individuals select regulation partners bas"
+      "description_preview": "University students increasingly report loneliness and diminished belonging despite high levels of surface-level social contact. This paper presents a pre-registered mixed-methods feasibility trial (N"
     },
     {
-      "osf_id": "bf87r_v1",
-      "title": "Exploring digital support for mental well-being in difficult times: the role of self-disclosure and perceived social sup",
-      "date_created": "2026-05-07T07:44:29.439575",
+      "osf_id": "jm3bx_v1",
+      "title": "Effectiveness of a School-based Workshop Promoting Mental Health on Adolescents Mental Health Literacy and Emotional Sel",
+      "date_created": "2026-05-04T18:06:45.012177",
+      "signal_score": 6,
+      "description_preview": "Theoretical background: Mental health crisis in adolescents is a growing concern in society and research. Because of the high prevalence of mental disorders during adolescence and the long waiting tim"
+    },
+    {
+      "osf_id": "w8dsf_v1",
+      "title": "Patterns of registered and self-reported sleep problems in young adults with different histories of childhood adversity",
+      "date_created": "2026-05-04T17:58:43.214262",
+      "signal_score": 6,
+      "description_preview": "Background: Sleep problems are increasing among young adults, with those experiencing childhood adversity particularly at risk. This study provides a comprehensive overview of sleep problems in young "
+    },
+    {
+      "osf_id": "g6xcw_v1",
+      "title": "Psychosocial Factors Associated with Suicidal behavior in Transgender Adolescents in Chilean Public Hospitals",
+      "date_created": "2026-05-02T01:54:38.115931",
+      "signal_score": 6,
+      "description_preview": "Suicidal behavior is a public health problem that is particularly common among transgender adolescents, although evidence from the Chilean public health system is limited. This cross-sectional, explor"
+    },
+    {
+      "osf_id": "9bt4u_v1",
+      "title": "Mapping Extreme Deviations in Cognition to Transdiagnostic Compulsivity: A Normative Modelling Approach",
+      "date_created": "2026-05-05T12:42:31.861976",
       "signal_score": 5,
-      "description_preview": "Objectives: Emotional distress and grief are prevalent in contemporary society due to major public crises (e.g., financial, economic, geopolitical) and private crises (e.g., illness), leading to menta"
+      "description_preview": "Transdiagnostic compulsivity has been linked to reductions in model-based planning, cognitive flexibility and working memory. However, it’s unclear if these effects reflect dimensional variation or as"
     },
     {
-      "osf_id": "p9yxv_v1",
-      "title": "The Effect of Motivational Interviewing on Physical Impairments, Activity Limitations, and Participation Restrictions in",
-      "date_created": "2026-05-06T16:43:25.083215",
+      "osf_id": "ruk84_v1",
+      "title": "Self-Control as a Mediator Between Personality Traits and Subjective Well-Being: Evidence from Three Panel Studies",
+      "date_created": "2026-05-05T12:28:30.977350",
       "signal_score": 5,
-      "description_preview": "Background: Motivational interviewing might have beneficial effects on psychological outcomes in stroke survivors, although evidence supporting its effects on physical functional outcomes, including p"
+      "description_preview": "Objective\nResearch suggests that self-control may mediate the relationships between the Big Five personality traits and subjective well-being (SWB), yet its role remains unclear. \nMethod\nThe mediating"
     },
     {
-      "osf_id": "y2p8a_v1",
-      "title": "Since the last beep or in the last 30 minutes: The effect of items’ retrospective time frame on their functioning and us",
-      "date_created": "2026-05-06T15:20:40.097333",
+      "osf_id": "u6hbs_v3",
+      "title": "Urban versus Rural Living and Health Outcomes: A Global Synthesis of Evidence Across Multiple Domains",
+      "date_created": "2026-05-05T08:50:36.400156",
       "signal_score": 5,
-      "description_preview": "Experience sampling method (ESM) studies often use items capturing retrospective time frames (e.g., the last hour). However, the effects of retrospective time frames on responses and response processe"
+      "description_preview": "Urbanization has raised urgent questions about how environmental contexts shape mental and physical health. This review synthesizes findings from 500 studies (1982–2023) on mental health, physical hea"
     },
     {
-      "osf_id": "8bnz9_v1",
-      "title": "What Is There to Gain? A Systematic Review on Psychosocial Co-Benefits of Climate Policies",
-      "date_created": "2026-05-06T07:59:26.397068",
+      "osf_id": "wdmu7_v2",
+      "title": "Adaptation and Validation of the Spanish version of the Perceived Occupational Stress Scale: Evidence from Factor Struct",
+      "date_created": "2026-05-04T08:07:22.885429",
       "signal_score": 5,
-      "description_preview": "Background: Climate change poses major risks to psychosocial health, yet little is known about potential psychosocial co-benefits of climate policies. This systematic review examines (1) psychosocial "
+      "description_preview": "Work is a double-edged sword. It fosters well-being but it is also linked to stress and burnout.  Recognizing that stress is ubiquitous and best understood encompassing both the objective and subjecti"
     },
     {
-      "osf_id": "vctq6_v10",
-      "title": "Bounded rationality and human development",
-      "date_created": "2026-05-07T15:15:37.800705",
+      "osf_id": "p28bj_v1",
+      "title": "“Don’t confuse your tired with my fatigue”: A content analysis of TikTok media relating to Myalgic Encephalomyelitis/Chr",
+      "date_created": "2026-05-03T02:28:07.496671",
+      "signal_score": 5,
+      "description_preview": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long COVID are invisible fatigue-related conditions that face widespread misunderstanding and stigma. The social media platform TikTok h"
+    },
+    {
+      "osf_id": "5cfyq_v4",
+      "title": "Building a Corpus to Analyze Stuttering according to a Dynamic Model of Speech Rhythm Production",
+      "date_created": "2026-05-01T19:31:35.438198",
+      "signal_score": 5,
+      "description_preview": "This article presents the design and theoretical motivation for the construction of a corpus of stuttered Brazilian Portuguese (BP) speech, to be analyzed within the framework of the Dynamic Model of "
+    },
+    {
+      "osf_id": "5c93a_v1",
+      "title": "From Courtrooms to Ballots: A Social Ecological Analysis of Anti-Trans Judicial Outcomes on Legislation, Elections, and ",
+      "date_created": "2026-05-05T11:06:22.832005",
       "signal_score": 4,
-      "description_preview": "Although multi-scale, multi-directional feedback between genes, brain, cognition, and behaviour is the cornerstone of well-evidenced interactionist models of human development (e.g., Gottlieb, 2007), "
+      "description_preview": "We applied a social ecological model to examine whether judicial decisions denying trans plaintiffs’ claims in employment discrimination cases forecast anti-trans legislative growth, and in turn, Trum"
     },
     {
-      "osf_id": "2vuqe_v1",
-      "title": "Body diversity to counteract body size adaptation: Testing the perceptual and attitudinal effects of a deadaptation proc",
-      "date_created": "2026-05-07T13:09:04.068826",
+      "osf_id": "7fzn5_v1",
+      "title": "Validating an abridged version of Planets and Pirates  conditioned punishment task",
+      "date_created": "2026-05-05T01:02:45.597416",
       "signal_score": 4,
-      "description_preview": "Visual exposure to thin or large bodies can produce perceptual aftereffects in the opposite direction. These adaptation effects could play a role in the detrimental effects of visual media on body ima"
+      "description_preview": "The Planets and Pirates task is used to investigate individual differences in learning about the adverse consequences of one’s actions. However, the original paradigm is relatively lengthy, which may "
     },
     {
-      "osf_id": "92ype_v1",
-      "title": "Identifying coping strategies that regulate negative climate emotions without reducing pro-environmental behavior",
-      "date_created": "2026-05-06T12:13:33.573946",
+      "osf_id": "gu5nm_v2",
+      "title": "What’s on Their For You Page? A Large-Scale Computational Approach to Analyzing Adolescents’ TikTok Archives Through Has",
+      "date_created": "2026-05-04T18:56:31.834060",
       "signal_score": 4,
-      "description_preview": "Negative climate emotions may represent both a psychological burden and a motivator for pro-environmental behavior (PEB). Identifying coping strategies that reduce distress without undermining engagem"
+      "description_preview": "Short-form video platforms like TikTok play a central role in adolescents’ lives, yet little is known about the actual content they engage with. This study presents a large-scale, computational approa"
     },
     {
-      "osf_id": "74mbt_v1",
-      "title": "A Short Scale for Assessing the Desire for Governmental Intervention in Climate Policy Research",
-      "date_created": "2026-05-06T08:30:28.544453",
+      "osf_id": "a3y7q_v1",
+      "title": "Why Some Words Stick and Others Fade: A Neurocognitive Perspective on Vocabulary Learning",
+      "date_created": "2026-05-04T10:55:19.859247",
       "signal_score": 4,
-      "description_preview": "Effective climate mitigation requires governmental intervention, yet its success hinges on public support. The Integrative Public Policy Acceptance (IPAC) framework highlights the desire for governmen"
+      "description_preview": "Research on word learning and memory often treats words as interchangeable, overlooking how linguistic features shape encoding and recall. In this review, we advance a neurocognitive-linguistic perspe"
     },
     {
-      "osf_id": "fu6de_v1",
-      "title": "Dissociable contributions of working memory capacity and lapses of attention to cognitive deficits in schizophrenia",
-      "date_created": "2026-05-05T14:55:03.560289",
+      "osf_id": "b658f_v1",
+      "title": "The use of motor imagery in geriatric rehabilitation : a case report before a cardiac surgery",
+      "date_created": "2026-05-04T06:05:04.485379",
       "signal_score": 4,
-      "description_preview": "Working Memory (WM) impairment is a central feature of schizophrenia, yet it remains unclear whether WM deficits primarily reflect reduced storage capacity or inconsistent attentional engagement of av"
+      "description_preview": "Introduction : This case illustrates the use of motor imagery in prehabilitation for an old patient with severe aortic insufficiency in the context of ischemic heart disease. Due to contraindications "
     },
     {
-      "osf_id": "9f7pn_v2",
-      "title": "Typical use of prior object knowledge in perceptual decisions in autism",
-      "date_created": "2026-05-07T16:54:27.367093",
+      "osf_id": "ctk7j_v3",
+      "title": "Designing Psychometric Measures for LLMs: Framework and Application to Racial Bias",
+      "date_created": "2026-05-03T20:28:47.395006",
+      "signal_score": 4,
+      "description_preview": "Artificial intelligence (AI), particularly in the form of large language models (LLMs) or chatbots, has become increasingly integrated into our daily lives. In the past five years, several LLMs have b"
+    },
+    {
+      "osf_id": "zr57s_v2",
+      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
+      "date_created": "2026-05-02T02:53:04.742101",
+      "signal_score": 4,
+      "description_preview": "The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare, such as limited resources, high cost, stigma, and privacy concerns, has created"
+    },
+    {
+      "osf_id": "sgeyu_v2",
+      "title": "The Strength of Target Representations Drives Mnemonic Discrimination at Extended Delays",
+      "date_created": "2026-05-04T19:23:29.477846",
       "signal_score": 3,
-      "description_preview": "A prominent theoretical framework in cognitive neuroscience proposes that the brain functions as a probabilistic prediction machine, continuously generating and updating hypotheses about sensory input"
+      "description_preview": "Mnemonic discrimination, or the ability to distinguish between similar remembered experiences, is critical for episodic memory and is dependent on the computational process of pattern separation. Prio"
     },
     {
-      "osf_id": "s8p2j_v2",
-      "title": "Impacts of voice pleasantness and familiarity on enjoyment and engagement with spoken narratives",
-      "date_created": "2026-05-07T16:18:15.724648",
+      "osf_id": "r8pxz_v1",
+      "title": "Social cognition, imitation, and sensory processing difficulties in extremely preterm-born children at six years of age",
+      "date_created": "2026-05-04T17:01:38.225329",
       "signal_score": 3,
-      "description_preview": "Recent experimental reading research has found that situational enjoyment of texts plays an important role in predicting both comprehension and motivation to continue reading. Here, we used narrative "
+      "description_preview": "This study compared children born extremely preterm (EPT, before 28 weeks of gestation) with full-term children (FT) on social-cognitive abilities, sensorimotor function, socioemotional behavior, and "
     },
     {
-      "osf_id": "g6syj_v1",
-      "title": "Internalized Racism as a Self-Regulatory System: The Internalized Racism Process Model",
-      "date_created": "2026-05-07T13:27:49.354659",
+      "osf_id": "n9gy3_v1",
+      "title": "Decision-making under risk and substance use experimentation among adolescents",
+      "date_created": "2026-05-04T15:20:53.043305",
       "signal_score": 3,
-      "description_preview": "Internalized racism, although widely studied, remains conceptually fragmented and theoretically underdeveloped. I advance the Internalized Racism Process Model (IRPM), a process framework that concept"
+      "description_preview": "Background and aims\nDecision-making processes have been linked to substance use frequency and related problems, yet less is known about how decision-making under explicit risk relates to early substan"
     },
     {
-      "osf_id": "hj3d7_v2",
-      "title": "The DAWN of Well-Being: Development and Validation of Daily Assessment of Well-Being Navigation",
-      "date_created": "2026-05-07T13:23:08.344268",
+      "osf_id": "fcg7s_v2",
+      "title": "\"AI Psychosis” as folie à 1.1:AI-induced delusion and trust in Large Language Models",
+      "date_created": "2026-05-04T13:03:29.512278",
       "signal_score": 3,
-      "description_preview": "This study presents the development and validation of the Daily Assessment of Well-Being Navigation (DAWN), a daily diary measurement instrument. A mixed-method design was employed across the two stud"
+      "description_preview": "The advent of chatbot applications for LLMs like ChatGPT has led to a novel psychiatric phenomenon popularly called “AI psychosis”. Excessive LLM-use appears to trigger in the user the acquisition of "
     },
     {
-      "osf_id": "g9cja_v1",
-      "title": "The Associations of Perfectionism and Excellencism with Passion and Persistence in Highly Passionate and Less Passionate",
-      "date_created": "2026-05-07T00:47:42.714937",
+      "osf_id": "ztx9n_v1",
+      "title": "Beliefs without Strong Supporting Evidence: Associations with Personality Items",
+      "date_created": "2026-05-04T02:58:00.527459",
       "signal_score": 3,
-      "description_preview": "Abstract\nTheories and clinical accounts hypothesized that perfectionism should be linked to obsessivity and inflexibility. However, a positive association between perfectionistic standards and harmoni"
+      "description_preview": "Beliefs without strong supporting evidence (BWSSE), such as conspiracy theories and pseudoscientific beliefs, are increasingly common, and their growing prevalence may have negative consequences for s"
     },
     {
-      "osf_id": "qbxw4_v2",
-      "title": "The Relationship Between Short-Form Video Use and Sustained Attention",
-      "date_created": "2026-05-06T14:03:28.984018",
+      "osf_id": "fhb6q_v3",
+      "title": "“Anyone Could Do This!”: Multiverse as an Undergraduate Psychology Capstone Project",
+      "date_created": "2026-05-03T15:20:55.285814",
       "signal_score": 3,
-      "description_preview": "Short-form video platforms such as TikTok are accused of negatively impacting users’ ability to sustain attention. In our study, we investigate the relationship between short-form video use and sustai"
+      "description_preview": "Background: Heyman and Vanpaemel (2022) proposed “many-multiverses-one-dataset” as a pedagogically sound alternative to traditional undergraduate capstone projects. However, they did not evaluate this"
     },
     {
-      "osf_id": "uf9ry_v2",
-      "title": "Evidence for the absence of attentional biases towards stigma- and disease-related information in Atopic Dermatitis (pre",
-      "date_created": "2026-05-06T10:13:34.598005",
+      "osf_id": "jufgk_v1",
+      "title": "Afraid of Hunger, Ashamed of Fullness: The Development and Validation of the Negative Appraisal of Gastric Sensations (N",
+      "date_created": "2026-05-02T09:18:15.369220",
       "signal_score": 3,
-      "description_preview": "The hypervigilance hypothesis of psychosocial distress posits that individuals with visible skin conditions exhibit an attentional bias toward disease- or stigma-related information. While previous re"
+      "description_preview": "Interoceptive dysfunction is central to eating disorders, and emerging evidence indicates that the maladaptive appraisal of gastrointestinal signals predicts pathology better than body-general interoc"
     },
     {
-      "osf_id": "5mqwk_v1",
-      "title": "Scoring Two-Part Multiple-Choice Items: An IRT Model Comparison with Implications for Validity Arguments and Process Inf",
-      "date_created": "2026-05-06T10:02:06.825499",
+      "osf_id": "qg5vm_v1",
+      "title": "Popular nonfiction can durably shift politically relevant attitudes—and AI summaries are just as persuasive",
+      "date_created": "2026-05-01T21:00:58.988328",
       "signal_score": 3,
-      "description_preview": "Two-part multiple-choice items elicit a content decision and a justifying reason, yet the choice of scoring rule that translates the paired responses into a latent-trait estimate is typically made on "
+      "description_preview": "Can reading a chapter of popular nonfiction shift politically relevant attitudes among resistant partisans, and, if so, can an AI-generated summary do so just as effectively? We address these question"
     },
     {
-      "osf_id": "a5cjf_v1",
-      "title": "When and how music promotes fantasies: a survey on Maladaptive Daydreaming",
-      "date_created": "2026-05-06T09:08:45.470376",
-      "signal_score": 3,
-      "description_preview": "Daydreaming is a form of mind wandering involving structured, imaginative scenarios.  Maladaptive daydreaming (MD), or compulsive fantasy disorder, involves vivid fantasies that disrupt daily life. Th"
-    },
-    {
-      "osf_id": "e8d6w_v1",
-      "title": "Priming Cognitive Flexibility in Reappraisal",
-      "date_created": "2026-05-05T21:13:17.425937",
-      "signal_score": 3,
-      "description_preview": "Cognitive reappraisal has long been shown to support adaptive emotion regulation, yet direct evidence about how to increase its effectiveness remains limited. We propose that increasing cognitive flex"
-    },
-    {
-      "osf_id": "e3mx7_v4",
-      "title": "Movement-related differences in infants with high and low likelihood of autism: A longitudinal study using automated kin",
-      "date_created": "2026-05-05T16:41:37.304867",
-      "signal_score": 3,
-      "description_preview": "Aim: While motor differences are increasingly recognised as early signs of autism, research on the developmental trajectories of specific kinematic features remains limited. This study aimed to examin"
-    },
-    {
-      "osf_id": "e4kqy_v1",
-      "title": "Epistemic Cost of Loyalty: Children’s Selective Trust Balances Social and Epistemic Cues",
-      "date_created": "2026-05-07T12:45:48.882305",
+      "osf_id": "5p8yt_v1",
+      "title": "Collapsing Waste Fractions Without Reducing Sorting Accuracy",
+      "date_created": "2026-05-05T13:29:41.314126",
       "signal_score": 2,
-      "description_preview": "The sources we rely on are embedded in networks of affiliation and competition, and engaging with them carries epistemic and social costs, yet little is known about how children navigate these demands"
+      "description_preview": "Waste sorting signs present an inviting avenue for comparison of categorisation theories as they often contain both a rule and either an abstract prototype or visual exemplars. Focus in waste sorting "
     },
     {
-      "osf_id": "qbwnf_v3",
-      "title": "Content-specific and temporally evolving neural correlates of dream experiences",
-      "date_created": "2026-05-07T10:46:37.059600",
+      "osf_id": "zq4ka_v2",
+      "title": "Social media reveals population dynamics of dysphoric dreaming",
+      "date_created": "2026-05-05T12:49:41.853512",
       "signal_score": 2,
-      "description_preview": "Previous studies on the neural correlates of dreaming using high-density EEG (hdEEG) and the serial awakening paradigm have identified posterior brain regions related to dreaming, with maximal activit"
+      "description_preview": "Nightmares disrupt sleep health and predict future psychiatric diagnoses, yet reliable population estimates and their fluctuations over time are difficult to obtain. Here, we set out to test if a digi"
     },
     {
-      "osf_id": "jqx7n_v1",
-      "title": "AIScreening: A Structured-Output Pipeline and Prompt-Policy Benchmark for LLM-Assisted Title and Abstract Screening",
-      "date_created": "2026-05-07T09:51:00.098746",
+      "osf_id": "yved4_v1",
+      "title": "Personal evaluation of narrator-to-story fit is a stronger predictor of audiobook enjoyment than crowd-sourced opinion.",
+      "date_created": "2026-05-05T12:28:00.485266",
       "signal_score": 2,
-      "description_preview": "Title and abstract screening is a major bottleneck in systematic review and meta-analytic workflows. Although large language models may support early-stage screening, false negatives are costly becaus"
+      "description_preview": "Here, we report two experiments investigating how perceived narrator-to-story fit affects audiobook listening enjoyment and other listening outcomes. In a first experiment (N=400 participants), we man"
     },
     {
-      "osf_id": "8u3bk_v3",
-      "title": "Philosophical Significance of Artificial Intuitions",
-      "date_created": "2026-05-07T07:33:58.981503",
+      "osf_id": "g5sqz_v1",
+      "title": "Content Validation Using Natural Language Processing: A Comparative Examination of Models for Multi-Item and Single-Item",
+      "date_created": "2026-05-04T19:37:45.072512",
       "signal_score": 2,
-      "description_preview": "This paper explores the ways in which large language models (LLMs) can be used for the purpose of experimental philosophy. LLMs can be used in different ways for different purposes in experimental phi"
+      "description_preview": "Content validation, the assessment of whether measurement items adequately capture their intended constructs, is essential to scale development in organizational research but remains resource-intensiv"
     },
     {
-      "osf_id": "cfw8k_v5",
-      "title": "Valuing Others Over Oneself: Development and Validation of a People Pleasing Scale in two German Samples",
-      "date_created": "2026-05-07T07:24:53.912942",
+      "osf_id": "9jtdn_v1",
+      "title": "Preferences for speech governance are polarized across 40 countries",
+      "date_created": "2026-05-04T14:27:19.740167",
       "signal_score": 2,
-      "description_preview": "People Pleasing refers to a tendency to prioritize the needs and goals of others over the own needs and goals, which arguably goes along with a manifold of psychological consequences for individuals h"
+      "description_preview": "The dilemma of balancing freedom of expression against limiting the spread of misinformation defines speech governance in today's information ecosystems. Yet, we lack cross-cultural, systematic eviden"
     },
     {
-      "osf_id": "db4qt_v2",
-      "title": "Group Identity, Moral Expansiveness, and Generosity Across 69 Countries",
-      "date_created": "2026-05-06T14:29:22.621407",
+      "osf_id": "u5tf2_v1",
+      "title": "Modeling Working Memory Capacity in Sentence Processing with Lossy-Context Surprisal",
+      "date_created": "2026-05-04T08:26:40.654720",
       "signal_score": 2,
-      "description_preview": "Group identity is theorized to shape how widely people extend moral concern. Yet, expansive moral concern is often assumed to undermine local bonds. Using data from 51,404 adults across 69 countries, "
+      "description_preview": "Understanding how comprehenders interpret linguistic input in real time has long been a focus of sentence processing research. \nThe recently-proposed Resource-Rational Lossy-context Surprisal (RR-LCS)"
     },
     {
-      "osf_id": "t4w5d_v4",
-      "title": "What music do people use for mood regulation?",
-      "date_created": "2026-05-06T10:58:15.682849",
+      "osf_id": "ytmup_v1",
+      "title": "Language as infrastructure for human intelligence in Large Language Models",
+      "date_created": "2026-05-04T06:17:48.884327",
       "signal_score": 2,
-      "description_preview": "This study seeks to understand what music is used for music mood regulation (MMR). We question how audio features can characterise the music used for different MMR strategies (Saarikallio and Erkkilä,"
+      "description_preview": "The emergence of large language models (LLMs) has fundamentally transformed our understanding of artificial intelligence and challenged traditional conceptualizations of intelligence itself. During re"
     },
     {
-      "osf_id": "fevds_v1",
-      "title": "Cross-Modal Transfer of Statistical Learning: Evidence from auditory and visual sequence learning",
-      "date_created": "2026-05-06T09:13:01.658351",
+      "osf_id": "fqdgk_v1",
+      "title": "An energy-gradient theory of embedded predictions in the brain",
+      "date_created": "2026-05-04T02:40:25.007667",
       "signal_score": 2,
-      "description_preview": "Statistical learning (SL) enables the extraction of regularities across sensory modalities, yet it remains unclear whether learned representations are modality-specific or modality-general. Here, we i"
+      "description_preview": "measured by neuroimaging methods, and how they relate to internal predictive models during states of rest. \nBy understanding these gradients, we can gain insight into how the brain efficiently process"
     },
     {
-      "osf_id": "s25rn_v1",
-      "title": "Perceptions of Teacher- Versus AI-Generated Feedback: Experimental Findings on the (Implicit) Bias of Teachers Against A",
-      "date_created": "2026-05-06T07:57:55.263640",
+      "osf_id": "pnj36_v1",
+      "title": "Cross-linguistic test of the pragmatic-informativeness account: Evidence from superordinate noun acquisition in Mandarin",
+      "date_created": "2026-05-03T23:53:54.087233",
       "signal_score": 2,
-      "description_preview": "Feedback is essential for enhancing student learning with complex tasks, but creating it is often time-consuming for teachers. Artificial intelligence (AI), particularly large language models, can sup"
+      "description_preview": "Superordinate nouns such as “animal” or “fruit” denote broad categories and carry distinctive distributional signatures in child-directed speech that learners may use to identify their meaning. On thi"
     },
     {
-      "osf_id": "qx9e3_v3",
-      "title": "Human judgments and machine learning reveal the perceptual diversity and contextual malleability of real-life emotional ",
-      "date_created": "2026-05-06T05:56:13.558069",
+      "osf_id": "zxjht_v1",
+      "title": "Are two senses better than (n)one? A systematic review showing advantages of multisensory stimulation for motor learning",
+      "date_created": "2026-05-03T22:15:37.574084",
       "signal_score": 2,
-      "description_preview": "Emotional vocalizations are central to human social life yet researchers debate their nature. Classic theories posit that human vocalizations convey accurate and reliable information about emotion. Ho"
+      "description_preview": "Multisensory, or multimodal, stimulation refers to the involvement of two or more senses in the guidance of movement. It has been theorized to be more advantageous for motor learning than unimodal, or"
     },
     {
-      "osf_id": "2svad_v1",
-      "title": "Limits of the illusory truth effect for social-political opinions: Evidence from two experiments and a mini meta-analysi",
-      "date_created": "2026-05-06T05:50:46.658275",
+      "osf_id": "w73rv_v1",
+      "title": "Functional Organization of Stereomotion Processing Revealed by Individual Differences",
+      "date_created": "2026-05-03T20:54:53.771344",
       "signal_score": 2,
-      "description_preview": "Repeated exposure to information often increases its perceived truthfulness, a phenomenon known as the illusory truth effect. Although this effect is well established for factual statements, it remain"
+      "description_preview": "Studies have shown that human visual system derives 3D space from at least two binocular motion channels: changes in disparity over time (CDOT) and interocular velocity differences (IOVD). Although th"
     },
     {
-      "osf_id": "5hqse_v2",
-      "title": "Child-produced speech preferences in 9-14-month-old infants with and without older siblings [working paper]",
-      "date_created": "2026-05-05T17:09:00.269228",
+      "osf_id": "8rv2z_v1",
+      "title": "Belief, Evidence, and Predictions in Simple Bayesian Acceptance Sampling Plans with JASP",
+      "date_created": "2026-05-02T12:47:32.945958",
       "signal_score": 2,
-      "description_preview": "Infants learn language through their linguistic experiences, but most of this research has focused on what infants hear from adult caregivers. However, children do not exclusively interact with adults"
+      "description_preview": "The standard frequentist methodology for acceptance sampling suffers from several limitations, including the inability to accommodate prior knowledge and the inability to provide a graded measure of c"
     },
     {
-      "osf_id": "uc5gb_v1",
-      "title": "Potential and Limitations of ComBat for the Harmonization of Multi-Site Neuroimaging Studies",
-      "date_created": "2026-05-05T14:51:20.499377",
+      "osf_id": "bdz74_v1",
+      "title": "Awareness and Adoption of Open Research Practices in Ireland: A Nationwide Survey Analysis",
+      "date_created": "2026-05-02T09:52:09.410931",
       "signal_score": 2,
-      "description_preview": "Integrating multiple neuroimaging datasets is a key strategy to obtain the increasing sample sizes needed to advance neuroscience. However, this requires addressing known biases due to differences in "
+      "description_preview": "In response to the reproducibility crisis, substantial and targeted efforts have promoted Open Research Practices (ORPs) to ensure research is rigorous, reliable and robust. To assess current needs, a"
     },
     {
-      "osf_id": "xj5e2_v3",
-      "title": "Age-related changes in how previous learning experiences impact subsequent visual statistical learning and relate to exe",
-      "date_created": "2026-05-05T14:12:17.202654",
+      "osf_id": "st3gw_v1",
+      "title": "From engaged trusters to disengaged distrusters: exploring political engagement styles and their relationship to partisa",
+      "date_created": "2026-05-02T06:13:56.513033",
       "signal_score": 2,
-      "description_preview": "Through statistical learning (SL), children implicitly extract repeated patterns in their environment. The developmental trajectory of how previously learned statistical information impacts children’s"
+      "description_preview": "The ways citizens evaluate and engage with their political system (e.g. through political trust, knowledge, and behavioural engagement) are commonly understood through partisanship, with partisans typ"
     },
     {
-      "osf_id": "j8tkv_v2",
-      "title": "Comparing physical literacy scores by sex and movement behaviour distributions across physical literacy profiles among e",
-      "date_created": "2026-05-05T13:55:47.530531",
+      "osf_id": "e8ch3_v1",
+      "title": "Generational Differences in Social Appraisals of AI Companion Use",
+      "date_created": "2026-05-01T22:09:10.419343",
       "signal_score": 2,
-      "description_preview": "Current literature supports the idea that physical literacy may serve as a key concept for promoting, in children, physically active lifestyles over the long term. However, in France, few studies have"
+      "description_preview": "As artificial intelligence (AI) companion use grows worldwide, understanding who is most vulnerable to associated harms requires identifying the social-cognitive orientations users bring to AI compani"
     },
     {
-      "osf_id": "te8xq_v5",
-      "title": "Why don’t web survey monitors complete a survey? An analysis of response refusal and discontinuation",
-      "date_created": "2026-05-07T14:20:54.462812",
-      "signal_score": 1,
-      "description_preview": "Not all participants complete web surveys distributed by web research companies. Some refuse to participate in the survey, whereas others discontinue their responses. This study aimed to examine the e"
+      "osf_id": "de5rz_v1",
+      "title": "Identification of Individual Animals from Position, Orientation, and Movement Sequences in the Morris Water Task with Ma",
+      "date_created": "2026-05-01T22:04:16.171287",
+      "signal_score": 2,
+      "description_preview": "The Morris Water Task (MWT) has been the gold standard assessment of place learning and\nmemory for over four decades, yet the processes that contribute to successful navigation are not\ncompletely unde"
     },
     {
-      "osf_id": "z5yed_v1",
-      "title": "Frequently Asked Parenting Questions: A Topic Modeling Approach to Trends in Parenting Advice Columns in Dutch Periodica",
-      "date_created": "2026-05-07T13:22:26.351113",
-      "signal_score": 1,
-      "description_preview": "Objective.  This study examines trends in (intensive) parenting norms and ideals by analyzing question and answer columns (Q/A columns) in popular periodicals in the Netherlands between 1946 and 2024."
+      "osf_id": "7gcyw_v2",
+      "title": "Robust Bayesian hypothesis testing with the hierarchical EZ-DDM",
+      "date_created": "2026-05-01T19:18:47.644061",
+      "signal_score": 2,
+      "description_preview": "The EZ-diffusion model (EZ-DDM) uses a method of moments to provide closed-form estimators for the three-parameter drift-diffusion model from summary statistics. In previous work, we showed that using"
     },
     {
-      "osf_id": "6qf9p_v2",
-      "title": "Changing moral beliefs and behaviors using human-AI dialogues",
-      "date_created": "2026-05-07T12:09:06.948283",
+      "osf_id": "7kqy3_v1",
+      "title": "From Features to Objects: Developmental Differences in Reinforcement Learning Strategies",
+      "date_created": "2026-05-05T13:18:46.220465",
       "signal_score": 1,
-      "description_preview": "Moral beliefs are widely considered resistant to change, yet the rise of conversational AI offers new tools for moral persuasion. We report a preregistered experiment (N = 500) in which participants w"
+      "description_preview": "Humans constantly learn in complex environments, and a central challenge is deciding whether to attend to individual features or whole objects – a learning strategy that may shift with development. He"
     },
     {
-      "osf_id": "x4jbm_v4",
-      "title": "Action anticipation based on an agent's epistemic state in toddlers and adults",
-      "date_created": "2026-05-07T10:51:17.730830",
+      "osf_id": "pem3t_v2",
+      "title": "Adaptive Cognitive Control in Prospective Memory",
+      "date_created": "2026-05-05T02:08:04.451872",
       "signal_score": 1,
-      "description_preview": "Do toddlers and adults engage in spontaneous Theory of Mind? This multi-lab collaboration examined whether 18- to 27-month-olds’ and adults’ anticipatory looks distinguish between two basic forms of e"
+      "description_preview": "Event-Based Prospective Memory (PM) requires performing a planned action upon encountering a target event. The PM decision control (PMDC) model quantifies the dual mechanisms of cognitive control (pro"
     },
     {
-      "osf_id": "vs2mk_v5",
-      "title": "The Potential of Synthetic Twins for Personalized Behavioural Interventions at Scale",
-      "date_created": "2026-05-07T09:19:13.963093",
+      "osf_id": "nhgq9_v1",
+      "title": "Toward a Formalization of Human Intuitive Theories of Bodily Pain",
+      "date_created": "2026-05-04T22:11:41.208029",
       "signal_score": 1,
-      "description_preview": "Personalization is increasingly emphasized in behavioural public policy, yet traditional approaches to tailoring interventions remain costly and difficult to scale. Synthetic twins AI-generated counte"
+      "description_preview": "Pain is a subjective experience that people often communicate through words. How do observers, from family members to medical professionals, interpret these reports? We propose that people use causal "
     },
     {
-      "osf_id": "x3jqa_v3",
-      "title": "Techno-Optimism Reduces Willingness to Address Climate Change",
-      "date_created": "2026-05-07T08:23:11.696592",
+      "osf_id": "53rsc_v1",
+      "title": "Psychometric Evaluation of Online Sexual Abuse Indicators in the UNICEF Disrupting Harm Project",
+      "date_created": "2026-05-04T21:32:57.629897",
       "signal_score": 1,
-      "description_preview": "Technological innovation is essential for mitigating climate change, but so are wider socio-economic transformations as well as lifestyle changes. Techno-optimism, the belief that technological innova"
+      "description_preview": "This analysis examined the psychometric properties of nine items related to online sexual exploitation and abuse, as well as follow-up questions on disclosures and reporting, from the Disrupting Harm "
     },
     {
-      "osf_id": "e5tk4_v1",
-      "title": "Public perception of AI risks mirrors nuclear fears",
-      "date_created": "2026-05-07T08:10:28.659230",
+      "osf_id": "456j2_v1",
+      "title": "Switching to an Allocentric Spatial Reference Frame Incurs Distinct Cognitive Processing Costs",
+      "date_created": "2026-05-04T21:29:50.840863",
       "signal_score": 1,
-      "description_preview": "Narratives about AI risks differ. One—the “AI-as-nuke” narrative—frames AI as an existential threat akin to nuclear weapons, implying it may require regulation as strict as nuclear governance. We exam"
+      "description_preview": "The ability to acquire, recall, and flexibly use information from first-person (egocentric) and map-like (allocentric) reference frames is essential for human wayfinding and thus, daily life. Prevaili"
     },
     {
-      "osf_id": "ysj3w_v1",
-      "title": "Guarded Slumber: Dynamic Disconnection, Selective Monitoring, and the Balance of Information Processing during Sleep",
-      "date_created": "2026-05-07T06:05:26.184751",
+      "osf_id": "5u2nk_v2",
+      "title": "Preregistration records do not reliably reflect the true state of psychology meta-analyses",
+      "date_created": "2026-05-04T19:13:47.323136",
       "signal_score": 1,
-      "description_preview": "Disconnection from the environment during sleep presents an adaptive constraint, as reduced\naccess to external cues heightens vulnerability even though sleep is necessary for\nfundamental restorative f"
+      "description_preview": "Meta-analysis preregistration is intended to promote transparency and reduce research waste. However, it is largely unknown whether preregistration records accurately reflect the actual state of resea"
     },
     {
-      "osf_id": "pdu69_v1",
-      "title": "Teaching Adults to Respond to Suspected Opioid Overdose:  A Proof-of-Concept Evaluation of Behavioral Skills Training",
-      "date_created": "2026-05-06T22:56:50.451901",
+      "osf_id": "3y5sm_v1",
+      "title": "Identifying and repairing mismatches between metadata and actual participant identifiers in CHILDES",
+      "date_created": "2026-05-04T14:50:11.139250",
       "signal_score": 1,
-      "description_preview": "The opioid crisis remains a major public health emergency in the United States, with over 100,000 drug overdose deaths reported in 2023, nearly 80,000 involving opioids. Naloxone can reverse the effec"
+      "description_preview": "Child Language Data Exchange System (CHILDES) is a large corpus of transcribed child speech covering many languages. In this brief analysis, I describe mismatches between participant identifiers betwe"
     },
     {
-      "osf_id": "d59ah_v5",
-      "title": "Single-trial principal components analysis of event-related potentials: Back-projection, theoretical rationale, empirica",
-      "date_created": "2026-05-06T21:39:35.876996",
+      "osf_id": "2cr56_v1",
+      "title": "How to Measure Machiavellianism? A Psychometric Evaluation of Six Scales",
+      "date_created": "2026-05-04T10:48:05.483822",
       "signal_score": 1,
-      "description_preview": "Temporal principal components analysis (tPCA) is widely used to identify and quantify event-related potentials (ERPs). It is less commonly applied to single-trial EEG epochs, despite concerns about th"
+      "description_preview": "Recently, several new Machiavellianism (Mach) scales have been developed to overcome psychometric issues of classical scales such as the Mach IV (Christie &amp; Geis, 1970). The growing number of scal"
     },
     {
-      "osf_id": "s7g2b_v1",
-      "title": "LLMorphism: When humans come to see themselves as language models",
-      "date_created": "2026-05-06T20:20:52.758432",
+      "osf_id": "pw8cs_v1",
+      "title": "Intuitive judgments of strangers are more popular but not more accurate than deliberate ones",
+      "date_created": "2026-05-04T08:14:17.809676",
       "signal_score": 1,
-      "description_preview": "LLMorphism is the biased belief that human cognition works like a large language model. I argue that the rise of conversational LLMs may make this bias increasingly psychologically available. When art"
+      "description_preview": "Popular advice in media and self-help literature encourages people to trust their intuition when forming impressions of strangers. We tested this widespread lay belief by examining whether intuitive j"
     },
     {
-      "osf_id": "83zke_v2",
-      "title": "Expérience Intérieure : Concepts, Modèles, Méthodes et Implications en Psychologie, une Scoping Review",
-      "date_created": "2026-05-06T20:04:23.340326",
+      "osf_id": "rj53h_v4",
+      "title": "Environmental regularities shape visual search strategy selection",
+      "date_created": "2026-05-04T05:33:24.072214",
       "signal_score": 1,
-      "description_preview": "L’expérience intérieure correspond à un ensemble de phénomène mentaux dont les modalités les plus connues sont le discours intérieur (la « voix dans la tête ») et la vision intérieur (« visualiser des"
+      "description_preview": "Visual search can be guided by multiple strategies, some of them relying on bottom-up salience, others on top-down expectations. However, little is known about how we arbitrate between these strategie"
     },
     {
-      "osf_id": "t9dcn_v1",
-      "title": "Stimulus-category confounds reduce, but do not explain, different roles of intent across moral domains: Valid statistica",
-      "date_created": "2026-05-06T18:32:55.558647",
+      "osf_id": "j6nqa_v1",
+      "title": "Reaction time cost produced by an auditory warning stimulus in mixed blocks",
+      "date_created": "2026-05-04T01:15:34.794974",
       "signal_score": 1,
-      "description_preview": "The reduced role of intent when judging impure, vs. harmful, acts provides evidence that our moral mind/brain may be composed of distinct, domain-specific systems. However, a study that manipulated an"
+      "description_preview": "Several studies have demonstrated that a spatially noninformative auditory or visual warning stimulus (WS) facilitates responding to a target stimulus (TS). Results obtained recently indicated that th"
     },
     {
-      "osf_id": "js9kc_v4",
-      "title": "Virtue Tradeoffs in Everyday life",
-      "date_created": "2026-05-06T16:43:30.561865",
+      "osf_id": "qdfeg_v1",
+      "title": "Longitudinal Dataset of Psychological Variables Influencing AI Perception and Usage",
+      "date_created": "2026-05-03T18:39:10.690100",
       "signal_score": 1,
-      "description_preview": "Is it usually possible to be virtuous in all ways, or do people experience ubiquitous tradeoffs among moral virtues? Past work has examined a limited set of virtue pairs (e.g., honesty vs. compassion,"
+      "description_preview": "Since the emergence of large language models (LLMs) in 2022, generative artificial intelligence (AI) has rapidly expanded into mainstream applications, leading, for example, to the integration of Appl"
     },
     {
-      "osf_id": "8yr92_v3",
-      "title": "Distributed Atrophy 2.0: Cognitive Offloading and the Reshaping of Thought",
-      "date_created": "2026-05-06T14:33:54.540580",
+      "osf_id": "6uqn3_v1",
+      "title": "Active inference contributes to a unified theory of cognitive development.",
+      "date_created": "2026-05-03T16:00:53.936371",
       "signal_score": 1,
-      "description_preview": "AI tools no longer just assist our thinking—they shape it. This paper introduces the concept of distributed atrophy: the gradual weakening of internal cognitive abilities through habitual reliance on "
+      "description_preview": "It is argued that the well-known approaches of Jean Piaget and Lev Vygotsky to developmental psychology can be harmonised by taking the standpoint of “active inference” which over the past two decades"
     },
     {
-      "osf_id": "kyts9_v2",
-      "title": "The Temporal Discounting of Moral Judgments",
-      "date_created": "2026-05-06T14:32:33.661309",
+      "osf_id": "w5dm8_v3",
+      "title": "Development and Validation of the TechTra Scales: A Tool to Assess Perceptions of and Needs for Technology Transparency ",
+      "date_created": "2026-05-03T14:39:12.697652",
       "signal_score": 1,
-      "description_preview": "When in time do people stop judging past actions by today's moral standards? Across two experiments, we tested whether and how time—ranging from today to medieval times—affects moral condemnation acro"
+      "description_preview": "The users’ subjective experience of a technology’s transparency is a crucial variable in human-computer interactions, shaping trust, satisfaction, and use. Technology transparency refers to different "
     },
     {
-      "osf_id": "fcmx4_v4",
-      "title": "Actively seeking variability: effects of active learning and talker variability on novel word learning in adults",
-      "date_created": "2026-05-06T14:27:44.141445",
+      "osf_id": "xhtmv_v1",
+      "title": "Separating Cognitive Development from Language Development in the Acquisition of Negation using International Adoption",
+      "date_created": "2026-05-03T13:16:29.574854",
       "signal_score": 1,
-      "description_preview": "Talker variability has been found to be both helpful and challenging for learners. For example, while adult word recognition is slowed down when the talker changes rapidly from trial to trial, this sa"
+      "description_preview": "Children learning words face at least one challenge, maybe two. First, children must gather enough information to identify which concept maps to which word (a linguistic bottleneck). Second, for this "
     },
     {
-      "osf_id": "n3fbv_v1",
-      "title": "Building world models by learning to distinguish imagination from reality: why childhood imagination feels so real",
-      "date_created": "2026-05-06T13:20:30.250522",
+      "osf_id": "m5d62_v1",
+      "title": "Real-time Functional Connectivity Analysis Using Multivariate Autoregressive Model-based Independent Component Analysis ",
+      "date_created": "2026-05-03T11:19:54.122078",
       "signal_score": 1,
-      "description_preview": "To be able to generate imagination, the brain first needs to acquire an internal model of the world from which to generate. However, as our world model develops as we get older, it seems that our abil"
+      "description_preview": "This chapter extends real-time EEG connectivity analysis beyond resting-state conditions by introducing a unified framework for online directed connectivity estimation using multivariate autoregressiv"
     },
     {
-      "osf_id": "u2r5b_v1",
-      "title": "Human sources of social bias in automated face classification",
-      "date_created": "2026-05-06T11:37:47.283933",
+      "osf_id": "3uh85_v1",
+      "title": "No Data Left Behind - A Primer on Bayesian State-Space Models for Acceptance Sampling",
+      "date_created": "2026-05-02T13:37:34.195072",
       "signal_score": 1,
-      "description_preview": "How do human sources of social bias introduce and exacerbate inequalities in automated face\nclassification? In this dissertation, I discuss existing work on demographic bias in machine\nlearning and co"
+      "description_preview": "Acceptance sampling is used to make accept-reject decisions on batches of products by taking a sample and evaluating the quality of the sampled items. If the number of defective items in the sample ex"
     },
     {
-      "osf_id": "pqk3d_v2",
-      "title": "Speech Cues Influence the Interpretation of Metaphoric Gestures",
-      "date_created": "2026-05-06T11:18:49.912331",
+      "osf_id": "8suyv_v1",
+      "title": "Gadgets, niches, and distributed cognition: a proposal on the external structures of the human mind",
+      "date_created": "2026-05-02T13:23:52.757101",
       "signal_score": 1,
-      "description_preview": "Language and gesture are argued to form an integrated system where each modality contributes to the meaning of utterances. While gestures are known to influence language comprehension, less is known a"
+      "description_preview": "In this paper, I approach cognition as a way of being within something (the brain) and with something (the environment), thus exhibiting a dual nature: rooted in interactions with the world, yet not f"
     },
     {
-      "osf_id": "kwzae_v2",
-      "title": "Prediction Errors Improve Declarative Learning but Not the Salience of Individual Words",
-      "date_created": "2026-05-06T09:34:52.451979",
+      "osf_id": "c46hs_v6",
+      "title": "Restructuring scientific papers for human and AI readers",
+      "date_created": "2026-05-02T09:02:28.387399",
       "signal_score": 1,
-      "description_preview": "Recent studies using the variable choice paradigm for word-association learning task suggest that reward prediction errors (RPEs) enhance one-shot declarative learning. However, these studies may conf"
+      "description_preview": "Scientific communication faces a dual crisis: exponential publication growth—now accelerated by AI-assisted writing—overwhelms human readers and reviewers, while fragmented research practices block au"
     },
     {
-      "osf_id": "hycq3_v1",
-      "title": "Does Choice Enhance Cognitive Control? Evidence for Indirect Effects via Choice History",
-      "date_created": "2026-05-06T08:35:07.750322",
+      "osf_id": "egsxr_v1",
+      "title": "Correcting for Shared Method Variance Changes Axt et al.’s Conclusions About The Race  Implicit Association Test",
+      "date_created": "2026-05-02T01:22:12.674078",
       "signal_score": 1,
-      "description_preview": "We examined whether the opportunity to choose modulates context-specific cognitive control by contrasting two accounts: The Intention Hypothesis proposes that choice directly enhances control by enabl"
+      "description_preview": "Schimmack (2021) showed that factors that represent shared variance among self-report \nmeasures and implicit measures of the same attitude are often highly correlated. This finding \nchallenged dual-at"
     },
     {
-      "osf_id": "he93b_v1",
-      "title": "Dynamics in subjective socioeconomic status matter over and above levels of socioeconomic status for self-regulation: Ev",
-      "date_created": "2026-05-06T08:20:53.823487",
+      "osf_id": "zbv8f_v6",
+      "title": "Signposts on the Path from Nominal to Ordinal Scales: Moving from a Discrete to a Continuous View",
+      "date_created": "2026-05-02T00:42:46.542422",
       "signal_score": 1,
-      "description_preview": "Do changes in socioeconomic status (SES) uniquely predict self-regulation beyond levels of SES? The present work examined whether changes in subjective and objective indices of SES predicted self-regu"
-    },
-    {
-      "osf_id": "wzj7g_v2",
-      "title": "Cross-structure variation in first and second language syntactic priming as evidence to distinguish models of priming.",
-      "date_created": "2026-05-06T07:50:58.372286",
-      "signal_score": 1,
-      "description_preview": "Speakers of all backgrounds tend to repeat the syntactic structures they hear, a phenomenon known as syntactic priming, and this effect influences not just their immediate language but also contribute"
-    },
-    {
-      "osf_id": "tdesm_v2",
-      "title": "Historical differences in intrinsic work motivation in midlife in Germany",
-      "date_created": "2026-05-06T06:32:32.238091",
-      "signal_score": 1,
-      "description_preview": "Intrinsic work motivation is important for workers’ performance and well-being across all ages. Ongoing demographic change makes it particular important to study the work motivation of ageing workers,"
-    },
-    {
-      "osf_id": "xjhya_v1",
-      "title": "Conceptual diversity of linguistic structure: a mixed-methods corpus study",
-      "date_created": "2026-05-06T02:17:21.545128",
-      "signal_score": 1,
-      "description_preview": "The goal of this paper is to uncover how conceptualizations of linguistic structure differ between the practice of research on language emergence and standard, formalized approaches of philosophy of l"
-    },
-    {
-      "osf_id": "6cyn4_v3",
-      "title": "Increasing the effectiveness of charitable giving with AI-generated persuasion",
-      "date_created": "2026-05-06T01:26:50.207730",
-      "signal_score": 1,
-      "description_preview": "Charitable donations frequently fail to maximize cost-effectiveness (the amount of good a donation does per dollar). This failure is often attributed to charitable motivations being affective and thus"
-    },
-    {
-      "osf_id": "9e4wt_v1",
-      "title": "Identifying individual difference correlations when the data are noisy: A case study of proactive and reactive control",
-      "date_created": "2026-05-05T20:05:23.515804",
-      "signal_score": 1,
-      "description_preview": "The Dual Mechanisms of Control (DMC) framework postulates two distinct and semi-independent modes of cognitive control.  Proactive control is hypothesized to be anticipatory, engaged prior to stimulus"
-    },
-    {
-      "osf_id": "xp69t_v1",
-      "title": "A harmonized trial-level dataset of picture-word interference",
-      "date_created": "2026-05-05T17:34:13.539308",
-      "signal_score": 1,
-      "description_preview": "The picture-word interference (PWI) paradigm is among the most widely used experimental tools for studying lexical access during language production. Despite decades of research, trial-level data from"
-    },
-    {
-      "osf_id": "cqyj7_v1",
-      "title": "Considering psychological mechanisms can change the interpretation of Bayesian models",
-      "date_created": "2026-05-05T14:41:34.636931",
-      "signal_score": 1,
-      "description_preview": "A significant challenge for Bayesian models of cognition is understanding how the abstract assumptions behind these models connect to psychological mechanisms. We examine the consequences of consideri"
-    },
-    {
-      "osf_id": "n4fjr_v1",
-      "title": "Neural Sensitivity without Behavioural Evidence: Frequency-Based Statistical Learning in Fast Periodic Visual Stimulatio",
-      "date_created": "2026-05-05T13:59:59.516995",
-      "signal_score": 1,
-      "description_preview": "Humans are sensitive to statistical cues in their perceptual in- put, including associations between stimuli (transitional probability) and their absolute frequency (unimodal information). To investig"
+      "description_preview": "Polytomous item response data are typically classified as either nominal or ordinal, but this binary distinction may oversimplify their true structure. In this paper, we reframe the nominal–ordinal di"
     }
   ]
 }
