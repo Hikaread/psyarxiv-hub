@@ -383,9 +383,6 @@ def main():
     skip_ids = existing_osf_ids | eval_done_ids
 
     to_eval = [c for c in candidates if c['osf_id'] not in skip_ids]
-    # Sort newest-first so today's papers get priority over backlog
-    to_eval.sort(key=lambda c: c.get('date_created', ''), reverse=True)
-    # Also re-sort the full candidates list to match (skipped ones stay in place)
     print(f"Evaluating {len(candidates)} candidates (max {max_papers}, {len(skip_ids & set(c['osf_id'] for c in candidates))} skipped, {len(to_eval)} to eval)...", file=sys.stderr)
     results = []
     accepted_papers = []
@@ -395,15 +392,20 @@ def main():
     skipped = 0
     base_number = get_next_number()
 
-    for i, paper in enumerate(to_eval):
+    for i, paper in enumerate(candidates):
         osf_id = paper['osf_id']
+        if osf_id in skip_ids:
+            results.append({'osf_id': osf_id, 'title': paper['title'][:80], 'decision': 'skipped', 'reason': 'already in papers.json'})
+            skipped += 1
+            continue
 
         evaluated_count = accepted + rejected + errors
         if evaluated_count >= max_papers:
-            break
+            results.append({'osf_id': osf_id, 'title': paper['title'][:80], 'decision': 'deferred', 'reason': 'max_papers limit reached'})
+            continue
 
         signal = paper.get('signal_score', 0)
-        print(f"[{i+1}/{min(len(to_eval), max_papers)}] {osf_id}: {paper['title'][:60]}... (signal={signal})", file=sys.stderr)
+        print(f"[{i+1}/{min(len(candidates), max_papers)}] {osf_id}: {paper['title'][:60]}... (signal={signal})", file=sys.stderr)
 
         if signal <= 1:
             results.append({'osf_id': osf_id, 'title': paper['title'][:80], 'decision': 'reject', 'reason': f'low signal score ({signal})', 'category': None})
@@ -482,8 +484,8 @@ Evaluate this paper for the PsyArXiv clinical psychology hub. If accepted, inclu
 
     output = {
         'evaluated': accepted + rejected + errors, 'accepted': accepted, 'rejected': rejected, 'errors': errors,
-        'skipped': len(candidates) - len(to_eval),
-        'deferred': max(0, len(to_eval) - accepted - rejected - errors),
+        'skipped': skipped,
+        'deferred': max(0, len(candidates) - accepted - rejected - errors - skipped),
         'results': results
     }
     with open(RESULTS_PATH, 'w') as f:
@@ -494,7 +496,7 @@ Evaluate this paper for the PsyArXiv clinical psychology hub. If accepted, inclu
         discard_count = 0
         for r in results:
             if r['decision'] in ('reject', 'error'):
-                signal = next((c.get('signal_score', 0) for c in to_eval if c['osf_id'] == r['osf_id']), 0)
+                signal = next((c.get('signal_score', 0) for c in candidates if c['osf_id'] == r['osf_id']), 0)
                 append_discard_log(r['osf_id'], signal, r['title'], r['reason'])
                 discard_count += 1
         print(f"Logged {discard_count} discards", file=sys.stderr)
@@ -502,7 +504,7 @@ Evaluate this paper for the PsyArXiv clinical psychology hub. If accepted, inclu
             generate_og_pages()
         seen_added = update_seen_ids()
         # Clear checkpoint after successful completion
-        remaining = [c for c in to_eval if c['osf_id'] not in checkpoint_ids]
+        remaining = [c for c in candidates if c['osf_id'] not in skip_ids and c['osf_id'] not in checkpoint_ids]
         if not remaining:
             clear_checkpoint()
             print("Checkpoint cleared: all candidates processed", file=sys.stderr)
