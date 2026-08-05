@@ -49,4 +49,4 @@
 | 07-30 | Checkpoint + reduced batch | eval-checkpoint.json persists progress across timeouts; --max=5 default; sleeps 3-5s |
 | 07-31 | Agent Reach tested & removed | Jina Reader blocked (server IP), social channels need SSH/OpenCLI. Not usable on this VPS. Cron job ID: 301091 |
 | 08-01 | Rewrote discoverer | Old day-by-day scan missed 9000+ papers (stopped after 3 all-seen days). New: bulk paginated sweep with persisted cursor (discover-frontier.json), 15 pages/run. Will sweep all papers in ~4 days. Cron ID: 301091 |
-| 08-05 | Newest-first eval + multi-run | Eval now sorts candidates by date (newest first). Cron runs eval up to 3x/cycle when backlog > 20, 1x when backlog ≤ 20. Cron job ID: 308419 |
+| 08-05 | Newest-first eval + multi-run | Eval sorts candidates by date (newest first). Cron runs eval up to 3x/cycle when backlog > 20. Skips discover/screen when backlog exists. Cron job ID: 308437 |
