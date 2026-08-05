@@ -155,7 +155,7 @@ def get_next_number():
     return 1
 
 
-def extract_sections(text, max_chars=8000):
+def extract_sections(text, max_chars=12000):
     sections = {}
     current_section = 'preamble'
     current_text = []
