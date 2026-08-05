@@ -1,50 +1,47 @@
 {
   "evaluated": 5,
-  "accepted": 2,
-  "rejected": 3,
+  "accepted": 1,
+  "rejected": 4,
   "errors": 0,
-  "skipped": 10,
-  "deferred": 36,
+  "skipped": 25,
+  "deferred": 21,
   "results": [
     {
-      "osf_id": "8c72w_v1",
-      "title": "How Different Discussion Formats Shape Political Disagreement Between Citizens: ",
+      "osf_id": "vxm84_v2",
+      "title": "How social, emotional, and behavioral skills differ across the life span",
       "decision": "reject",
-      "reason": "This paper focuses on political discourse and communication formats between citizens with opposing political views, which falls under political psychology rather than clinical psychology. It examines how text-based versus face-to-face discussions affect political disagreement, hostility, and willingness to engage in political discussions. There is no focus on mental health, psychopathology, diagnosis, therapy, assessment, or clinical interventions for individuals with psychological disorders.",
+      "reason": "This paper focuses on basic developmental psychology research examining age-related differences in social, emotional, and behavioral skills across the lifespan. While these skills have relevance to clinical practice, the paper itself does not address clinical applications, interventions, assessment, diagnosis, or psychopathology. It's primarily a descriptive study of developmental patterns without specific clinical utility for practicing therapists, psychologists, or psychiatrists.",
       "category": null
     },
     {
-      "osf_id": "9tfej_v1",
-      "title": "Evaluating Large Language Models for Psychometric Simulation Studies in R: Integ",
+      "osf_id": "x3mjb_v1",
+      "title": "Maintaining Performance Without Reducing Mind-Wandering: Exploring the Impact of",
+      "decision": "reject",
+      "reason": "This study focuses on basic cognitive psychology research about attention and mind-wandering during sustained attention tasks, with no direct clinical application to therapy, assessment, diagnosis, or mental health interventions. While the topic has potential relevance to clinical populations, the study itself is a cognitive psychology experiment without clinical implications for practicing therapists, psychologists, or psychiatrists.",
+      "category": null
+    },
+    {
+      "osf_id": "fmqwa_v1",
+      "title": "Arts Engagement, Active Inference, and Allostatic Regulation: A Neurobiological ",
+      "decision": "reject",
+      "reason": "This paper is a theoretical review proposing a neurobiological framework linking arts engagement to health effects through active inference and allostasis. It lacks clinical application, specific data on therapeutic interventions, or direct relevance to practicing clinicians. The focus is on computational neuroscience and theoretical modeling rather than clinical psychology practice, assessment, diagnosis, or interventions.",
+      "category": null
+    },
+    {
+      "osf_id": "dzmav_v1",
+      "title": "Psychology\u2019s Missing Matter",
       "decision": "reject",
       "reason": "low signal score (1)",
       "category": null
     },
     {
-      "osf_id": "6re3v_v2",
-      "title": "Smarter Together: Using the Science of Cooperation to Build Effective Global Col",
-      "decision": "reject",
-      "reason": "This paper focuses on research methodology and team science collaboration in psychological research, not clinical psychology practice. It discusses coordination of large research teams, social networks, and scientific collaboration processes without addressing therapy, assessment, diagnosis, psychopathology, mental health interventions, or clinical utility for practicing clinicians.",
-      "category": null
-    },
-    {
-      "osf_id": "kh6ez_v1",
-      "title": "Viscereality: Empirical Validation of a Bioresponsive Virtual-Reality Breathing ",
+      "osf_id": "cp4jt_v1",
+      "title": "Neural Mentalizing Signatures Predict Social Contacts, Not Loneliness or Support",
       "decision": "accept",
-      "reason": "The paper examines a bioresponsive virtual reality breathing environment with potential clinical applications for breathing regulation and modulation of altered states of consciousness, which has direct relevance to mental health interventions and therapeutic practices.",
-      "category": "Digital Mental Health",
-      "number": 866,
-      "authors": "George Fejer; Till Holzapfel; Anestis Lalidis Mateo; Taru Hirvonen; Johannes Blum; Michael Gaebler; Bigna Lenggenhager",
-      "curated": true
-    },
-    {
-      "osf_id": "9khnd_v4",
-      "title": "Action Control in Emotion Regulation: When Reappraisal May Carry Hidden Costs",
-      "decision": "accept",
-      "reason": "The study examines emotion regulation strategies (reappraisal and acceptance) in the context of clinical psychology, specifically how they affect responses to reminders of past adversity (parental divorce). This has direct implications for therapeutic practice and mental health interventions.",
-      "category": "Trauma & Stressor-Related",
-      "number": 867,
-      "authors": "David Brian Rompilla, jr.; Connor Bazar; Savannah Dod; Valerie Lu; Takashi Yamauchi",
+      "reason": "The study investigates neural signatures of mentalizing in relation to social connections in older adults, which has direct relevance to clinical psychology practice, particularly for understanding and addressing social disconnection in aging populations.",
+      "category": "Neuropsychology & Aging",
+      "number": 870,
+      "authors": "Sarah Rebecca Saju; Remi Janet; Ruien Wang; Julia Stietz; Andrea M.F. Reiter; Shu-Chen Li; Philipp Kanske; Anita Tusche",
       "curated": true
     }
   ]
