@@ -101,11 +101,19 @@ function clinicalSignalScore(text) {
   return score;
 }
 
+// Load existing screened candidates to preserve backlog
+const SCREENED_PATH = '/home/z/my-project/psyarxiv-hub/curation/screened-papers.json';
+let existingCandidates = [];
+try {
+  existingCandidates = JSON.parse(readFileSync(SCREENED_PATH, 'utf8'));
+} catch {}
+const existingCandidateIds = new Set(existingCandidates.map(c => c.osf_id));
+
 // Filter
 const alreadyExisting = [];
 const hardExcluded = [];
 const lowSignal = [];
-const candidates = [];
+const newCandidates = [];
 
 for (const paper of DISCOVERED) {
   const compactId = paper.osf_id.replace(/_v\d+$/i, '');
@@ -135,6 +143,12 @@ for (const paper of DISCOVERED) {
     continue;
   }
   
+  // Skip if already in screened backlog
+  if (existingCandidateIds.has(paper.osf_id)) {
+    alreadyExisting.push(paper);
+    continue;
+  }
+  
   const fullText = `${paper.title} ${paper.description}`;
   
   // Hard exclusions
@@ -150,8 +164,11 @@ for (const paper of DISCOVERED) {
     continue;
   }
   
-  candidates.push({ ...paper, signal_score: signal });
+  newCandidates.push({ ...paper, signal_score: signal });
 }
+
+// Merge: keep existing backlog + add new candidates
+const candidates = [...existingCandidates, ...newCandidates];
 
 // Sort candidates by signal score descending
 candidates.sort((a, b) => b.signal_score - a.signal_score);
