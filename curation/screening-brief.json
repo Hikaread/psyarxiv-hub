@@ -1,366 +1,79 @@
 {
-  "discovered": 59,
-  "alreadyExisting": 0,
-  "hardExcluded": 2,
-  "lowSignal": 6,
-  "candidates": 51,
+  "discovered": 19,
+  "alreadyExisting": 7,
+  "hardExcluded": 0,
+  "lowSignal": 2,
+  "candidates": 10,
   "candidates_list": [
     {
-      "osf_id": "kr8a2_v1",
-      "title": "Identifying Adaptive and Maladaptive Coping With Direct and Vicarious Antisemitism Among Jews in Germany",
-      "date_created": "2026-04-06T20:24:36.118328",
-      "signal_score": 13,
-      "description_preview": "Antisemitism has resurged globally, yet psychological research examining its impact on Jewish individuals remains limited. Grounded in theories of minority stress, coping, and intercultural adaptation"
-    },
-    {
-      "osf_id": "mf8ks_v1",
-      "title": "Artificial intelligence in neurodiverse education: A PRISMA-ScR systematic scoping review (2017–2025)",
-      "date_created": "2026-04-05T19:44:09.783953",
-      "signal_score": 10,
-      "description_preview": "Abstract\nArtificial intelligence (AI) is increasingly used to support neurodiverse learners and offers new opportunities for early identification, personalized instruction, and cognitive accessibility"
-    },
-    {
-      "osf_id": "v2mqh_v1",
-      "title": "Associations of caregiver-child interbrain synchrony and caregiver emotion socialization: a context-dependent perspectiv",
-      "date_created": "2026-04-06T20:58:20.809442",
-      "signal_score": 9,
-      "description_preview": "Supportive caregiver emotion-related socialization enhances child emotional, physical, and social outcomes. Emerging data suggest that greater caregiver-child interbrain synchrony is associated with p"
-    },
-    {
-      "osf_id": "fgqnt_v1",
-      "title": "Older Age-Group Differences in Long-Term Psychological Outcomes Related to Bushfire Exposure and Sense of Community: Fin",
-      "date_created": "2026-04-06T02:17:38.162383",
-      "signal_score": 8,
-      "description_preview": "Increasingly frequent and severe climate disasters and rapid population ageing are two intersecting trends with complex implications for population health. However, less is known about key predictors "
-    },
-    {
-      "osf_id": "fmqwa_v1",
-      "title": "Arts Engagement, Active Inference, and Allostatic Regulation: A Neurobiological Framework for Understanding the Health E",
-      "date_created": "2026-04-06T16:29:02.445487",
-      "signal_score": 7,
-      "description_preview": "A growing body of evidence indicates that arts engagement produces measurable effects on mental and physical health, yet a mechanistic account linking aesthetic experience to physiological regulation "
-    },
-    {
-      "osf_id": "vuh2t_v1",
-      "title": "Everyday Emotion Regulation and Empathic Accuracy in the Parent–Adolescent Relationship",
-      "date_created": "2026-04-07T12:55:22.400608",
+      "osf_id": "3nft9_v1",
+      "title": "Sex differences in executive functions in children with obesity",
+      "date_created": "2026-04-03T11:23:07.519846",
       "signal_score": 6,
-      "description_preview": "Empathic accuracy, the ability to accurately infer another’s emotions, is critical for relational well-being. Adolescence is marked by heightened emotional intensity and increased conflict within the "
+      "description_preview": "Obesity has been associated with executive functions (EF) impairments in both adults and children. Independent of obesity, age and sex have been associated with EF. Whether EF differ by sex in pediatr"
     },
     {
-      "osf_id": "thz7x_v1",
-      "title": "Statistical Analysis for the Changing Criterion Design: Separating Intervention Effects from Secular Change",
-      "date_created": "2026-04-06T22:20:05.574871",
-      "signal_score": 6,
-      "description_preview": "Interrupted time-series research designs have recently become the major alternative to randomized clinical trials in the health sciences. Methods used to analyze the simple two-phase (AB) version of t"
-    },
-    {
-      "osf_id": "jurhe_v1",
-      "title": "Profiles of Academic Demands and Resources Predicting Engagement and Motivation Among At-Risk Students",
-      "date_created": "2026-04-06T09:48:56.447136",
-      "signal_score": 6,
-      "description_preview": "This study examined how students’ personal resources (academic efficacy and future goals) and teacher-student relationships associate with academic outcomes within a school-based early intervention pr"
-    },
-    {
-      "osf_id": "kh6ez_v1",
-      "title": "Viscereality: Empirical Validation of a Bioresponsive Virtual-Reality Breathing Environment with Dynamic Particle-Driven",
-      "date_created": "2026-04-07T00:24:36.992991",
+      "osf_id": "qejzg_v2",
+      "title": "Children in War:  Attachment, Trauma, Support and Recovery",
+      "date_created": "2026-04-03T18:41:30.348971",
       "signal_score": 5,
-      "description_preview": "Breath-based interactions in virtual reality typically map breathing onto discrete visual objects or downstream physiological proxies. Viscereality takes a different approach, mapping lung volume onto"
+      "description_preview": "In Children in War, we describe the impact of armed conflicts and war on children and family life and elaborate on ways in which children in and after war can be supported. Attachment theory rooted in"
     },
     {
-      "osf_id": "9khnd_v4",
-      "title": "Action Control in Emotion Regulation: When Reappraisal May Carry Hidden Costs",
-      "date_created": "2026-04-06T23:18:35.816353",
-      "signal_score": 5,
-      "description_preview": "Cognitive reappraisal is widely regarded as adaptive, yet strategies that impose control to reduce unpleasant emotion may involve tradeoffs when individuals encounter personally meaningful reminders o"
-    },
-    {
-      "osf_id": "6fsgn_v2",
-      "title": "A Journey of Acculturation and Growth: An Autoethnography of an International Counseling Psychologist in Training",
-      "date_created": "2026-04-06T23:17:55.312284",
-      "signal_score": 5,
-      "description_preview": "The experiences of international counseling psychology students (ICPS) across multiple domains of training and their professional identity development were under investigated. To address this gap, thi"
-    },
-    {
-      "osf_id": "mz3ct_v1",
-      "title": "Racism across time: A critical approach to youth suicide research and prevention",
-      "date_created": "2026-04-06T13:12:49.634361",
-      "signal_score": 5,
-      "description_preview": "Suicide has disproportionately increased among ethnoracially minoritized youth in the U.S., yet causes underlying this concerning trend remain unknown. Growing research suggests that experiences of ra"
-    },
-    {
-      "osf_id": "2gn56_v2",
-      "title": "Reading Anxiety’s Longitudinal Associations With Reading Skills and Reading Interest From Second  to Third Grade",
-      "date_created": "2026-04-07T14:16:37.265546",
+      "osf_id": "6vkcg_v1",
+      "title": "Reframing Eating: Drivers, Influences, Environment, and Transitions (ReDIET) for a sustainable food system",
+      "date_created": "2026-04-03T08:28:15.967398",
       "signal_score": 4,
-      "description_preview": "To support literacy acquisition, abundant research has focused on cognitive predictors. However, \nreading processes involve also affective factors. The present study explored children’s reading\nrelate"
+      "description_preview": "Accelerating sustainability transitions in food systems and meeting climate change mitigation targets require fundamental changes in both production and consumption. Because research often focuses on "
     },
     {
-      "osf_id": "cauvz_v1",
-      "title": "A failure to find effects of relational operant training on scholastic aptitude of school children: A randomised control",
-      "date_created": "2026-04-07T08:08:35.935338",
-      "signal_score": 4,
-      "description_preview": "SMART (Strengthening Mental Abilities with Relational Training) is a popular relational training intervention based on Relational Frame Theory which has shown substantial promise in having a positive "
-    },
-    {
-      "osf_id": "cp4jt_v1",
-      "title": "Neural Mentalizing Signatures Predict Social Contacts, Not Loneliness or Support, in Older Adulthood",
-      "date_created": "2026-04-06T15:48:02.455540",
-      "signal_score": 4,
-      "description_preview": "Social disconnection in later life is a growing public health concern. Both structural aspects of social connections (reduced number of social contacts) and experiential elements (perceived loneliness"
-    },
-    {
-      "osf_id": "hj8y9_v1",
-      "title": "Knotted Minds: Knot Theory as a Framework for Modeling Psychological Dynamics",
-      "date_created": "2026-04-05T18:07:36.743418",
-      "signal_score": 4,
-      "description_preview": "This paper explores a novel synthesis between knot theory and psychology, proposing that recurring mental processes can be interpreted through topological structures. Building on Kurt Lewin’s early to"
-    },
-    {
-      "osf_id": "w5x3j_v2",
-      "title": "Children show stronger learning-dependent explicit knowledge than adults after offline wake or sleep intervals",
-      "date_created": "2026-04-05T17:13:27.464375",
-      "signal_score": 4,
-      "description_preview": "Previous research has extensively investigated the impact of post-training sleep and wakefulness on procedural memory consolidation across development. However, results regarding how offline processes"
-    },
-    {
-      "osf_id": "bh2mn_v1",
-      "title": "Multimodal narrative intervention to improve L2 oral narrative skills in secondary schools: A hybrid effectiveness-imple",
-      "date_created": "2026-04-05T11:03:39.746860",
-      "signal_score": 4,
-      "description_preview": "This study examined the effects of a MultiModal Narrative intervention (MMN-EFL) on second language oral narrative skills and its implementation in English-as-Foreign-Language classrooms. Participants"
-    },
-    {
-      "osf_id": "4fbh3_v1",
-      "title": "Stigmatizing the bleeding body:  Menstruation, dirty femininity, and masculine hegemony",
-      "date_created": "2026-04-07T14:07:24.702737",
+      "osf_id": "sua3b_v1",
+      "title": "Do domain-general visual recognition abilities predict memory for when and where meaningful visual stimuli were seen?",
+      "date_created": "2026-04-03T18:57:21.217443",
       "signal_score": 3,
-      "description_preview": "Menstruation is a perfectly normal bodily function but remains stigmatised and is considered dirty across patriarchal cultures. In this study, we apply the conceptual frameworks of dirty femininity, v"
+      "description_preview": "Individuals differ in the level of detail they can visually encode. Prior work (Gronau et al., 2026) found that a domain-general subordinate-level object discrimination ability (Op) predicted memory f"
     },
     {
-      "osf_id": "2vwpu_v4",
-      "title": "Children’s Voices on School Well-Being (CV-SWB): a child-centered approach to understanding early school experiences in ",
-      "date_created": "2026-04-07T12:29:24.516536",
-      "signal_score": 3,
-      "description_preview": "Understanding how young children experience well-being at school is essential for designing responsive and developmentally appropriate educational practices. Despite increasing interest in school well"
-    },
-    {
-      "osf_id": "bj2ct_v1",
-      "title": "Operationalising Global One Health Through a Psychological and Complex Adaptive Systems Lens: The Extended DEA-A Framewo",
-      "date_created": "2026-04-07T08:01:16.177218",
-      "signal_score": 3,
-      "description_preview": "Background. Global Health and One Health approaches have advanced a systemic understanding of health determinants, yet their translation into coordinated operational strategies remains limited. Interv"
-    },
-    {
-      "osf_id": "8c72w_v1",
-      "title": "How Different Discussion Formats Shape Political Disagreement Between Citizens: Comparing Low and High Cue Interactions",
-      "date_created": "2026-04-07T07:59:39.481108",
-      "signal_score": 3,
-      "description_preview": "Over the past decade, political interactions have increasingly moved to text-based online environments. This shift has raised widespread concern that the low richness of online communication, i.e., th"
-    },
-    {
-      "osf_id": "6re3v_v2",
-      "title": "Smarter Together: Using the Science of Cooperation to Build Effective Global Collaborations in Psychological Science",
-      "date_created": "2026-04-07T01:51:00.068826",
-      "signal_score": 3,
-      "description_preview": "Scientific research is increasingly done in large teams–and large teams tend to produce the greatest scientific impact. Big team science offers unprecedented opportunities to address global psychologi"
-    },
-    {
-      "osf_id": "j96yr_v1",
-      "title": "Are Dark Tetrad personality traits associated with baseline, reactive, or prenatal testosterone? A systematic review and",
-      "date_created": "2026-04-06T18:30:05.781194",
-      "signal_score": 3,
-      "description_preview": "The Dark Tetrad of personality (narcissism, Machiavellianism, psychopathy, and everyday sadism) is a set of socially undesirable traits potentially linked to both organizational (i.e., prenatal, long-"
-    },
-    {
-      "osf_id": "vxm84_v2",
-      "title": "How social, emotional, and behavioral skills differ across the life span",
-      "date_created": "2026-04-06T17:48:48.153556",
-      "signal_score": 3,
-      "description_preview": "We investigated age-related differences in social, emotional, and behavioral (SEB) skills and gender variations using a large cross-sectional sample (N=31,315, ages 10-70). Using generalized additive "
-    },
-    {
-      "osf_id": "r3ydm_v1",
-      "title": "How well can automated speech processing score early elementary student verbal responses on language and literacy assess",
-      "date_created": "2026-04-06T13:45:41.910145",
-      "signal_score": 3,
-      "description_preview": "Many literacy screeners have begun to implement automated pronunciation scoring to automatically score student verbal responses. However, little research has been done to evaluate item-level accuracy "
-    },
-    {
-      "osf_id": "esvuj_v1",
-      "title": "Religious Minimalism for a Journey Towards Net-Zero Carbon Footprint",
-      "date_created": "2026-04-06T12:40:07.924932",
-      "signal_score": 3,
-      "description_preview": "The journey towards net-zero emissions requires transformative changes in consumption patterns and individual lifestyles. Yet empirical benchmarks for viable low-carbon lifestyles remain limited in ex"
-    },
-    {
-      "osf_id": "n5d4y_v1",
-      "title": "Age of Consent Laws, Sexual Rights, and Adolescent Well-being in India: The Case for Close-in-Age Exemptions",
-      "date_created": "2026-04-06T09:51:43.929028",
-      "signal_score": 3,
-      "description_preview": "Age of consent laws are central to child protection, but may also criminalise consensual adolescent sexuality, creating tensions between protection, sexual rights, and psychological evidence on develo"
-    },
-    {
-      "osf_id": "35pek_v1",
-      "title": "Euphemisms and Abstractions: Marketing of Sex Toys in India",
-      "date_created": "2026-04-06T09:34:22.889013",
-      "signal_score": 3,
-      "description_preview": "In conservative socio-legal contexts like India, sex toys face ambiguous regulation and deep cultural stigma. Yet demand for and usage of sexual wellness products is rising. This study examines how In"
-    },
-    {
-      "osf_id": "g8cfr_v1",
-      "title": "Motivations and Beliefs Among Current and Former Intermittent Fasters: Links to Restrictiveness, Adherence, and Adherenc",
-      "date_created": "2026-04-05T19:24:17.620992",
-      "signal_score": 3,
-      "description_preview": "Intermittent fasting (IF) is a dietary pattern that consists of alternating between periods of fasting and feeding within a specified timeframe. IF has become increasingly popular among young adults. "
-    },
-    {
-      "osf_id": "npd9f_v1",
-      "title": "Generative Artificial Intelligence and Creativity in K–12 Education:  A Systematic Scoping Review",
-      "date_created": "2026-04-05T14:31:20.772975",
-      "signal_score": 3,
-      "description_preview": "The rapid rise of generative AI (GenAI) presents both opportunities and challenges for fostering creativity in K–12 education. This systematic scoping review analyzes 45 studies (2017–2025) to examine"
-    },
-    {
-      "osf_id": "m68kf_v5",
-      "title": "What Fifty Years of Research on the Misinformation Effect Can Tell Us: A Meta-Analytic Review",
-      "date_created": "2026-04-07T14:31:41.316860",
+      "osf_id": "4yr2d_v1",
+      "title": "How semantic seeds shape distributional learning: Evidence for semantic generalization over distributional categories",
+      "date_created": "2026-04-03T16:46:05.598690",
       "signal_score": 2,
-      "description_preview": "This meta-analysis examines the impact of misleading or incorrect information on subsequent reports of witnessed events, with the aim of identifying key moderators of the misinformation effect – defin"
+      "description_preview": "In three experiments, we investigated how a small vocabulary of meaningful words - a semantic seed - shapes distributional learning. Adults were exposed to an artificial language that mimicked Subject"
     },
     {
-      "osf_id": "nqx6d_v1",
-      "title": "The Cognitive Control Dilemma: When Strategies to Reduce Mind Wandering Both Improve and Impair Reading Comprehension",
-      "date_created": "2026-04-07T13:39:19.645903",
+      "osf_id": "p4zut_v1",
+      "title": "Predicting Technology Acceptance:  Basic Psychological Needs as Important Determinants of Intentions to Use an AI Assist",
+      "date_created": "2026-04-03T14:38:46.829672",
       "signal_score": 2,
-      "description_preview": "Mind wandering is a persistent challenge in educational settings that can disrupt reading comprehension and undermine learning. In the current study, we examined whether brief instructions encouraging"
+      "description_preview": "This study examines whether Basic Psychological Need (BPN) satisfaction, a core construct of Self-Determination Theory in motivational psychology, predicts acceptance of AI assistants. Satisfaction of"
     },
     {
-      "osf_id": "bkt4p_v1",
-      "title": "How Autistic Traits and Intolerance of Uncertainty Shape Literary Exploration",
-      "date_created": "2026-04-07T12:25:10.830403",
-      "signal_score": 2,
-      "description_preview": "Curiosity often involves seeking extra information even when doing so is effortful or uncertain. This study examined how adults manage uncertainty when choosing what to read, and how these choices rel"
-    },
-    {
-      "osf_id": "vsw6m_v1",
-      "title": "The transparency dilemma: how AI disclosure erodes trust",
-      "date_created": "2026-04-06T19:18:39.799898",
-      "signal_score": 2,
-      "description_preview": "As generative artificial intelligence (AI) has found its way into various work tasks, questions about whether its usage should be disclosed and the consequences of such disclosure have taken center st"
-    },
-    {
-      "osf_id": "x3mjb_v1",
-      "title": "Maintaining Performance Without Reducing Mind-Wandering: Exploring the Impact of Short Breaks during Sustained Attention",
-      "date_created": "2026-04-06T17:29:14.697088",
-      "signal_score": 2,
-      "description_preview": "Objective: Extensive evidence shows that performance during sustained attention tasks declines over time and mind-wandering (MW) frequency increases with time on task. It is not clear, however, what t"
-    },
-    {
-      "osf_id": "sm3vk_v3",
-      "title": "How Effective Are Interventions Against Misinformation?",
-      "date_created": "2026-04-06T14:50:48.661879",
-      "signal_score": 2,
-      "description_preview": "The way a problem is framed shapes its solutions. This article reframes the problem\nof misinformation and examines the implications of this shift for interventions against\nmisinformation. It advances "
-    },
-    {
-      "osf_id": "hxyqe_v1",
-      "title": "Screening cognitive assessments (MMSE, CDT, MoCA) of eight large language models",
-      "date_created": "2026-04-05T15:33:32.874717",
-      "signal_score": 2,
-      "description_preview": "In recent few years we have been observing a rapid growth of large language models (LLMs), a subset\nof artificial intelligence technique, focused on processing and generation of textual information. W"
-    },
-    {
-      "osf_id": "d87v5_v1",
-      "title": "Teachers’ Intention to Obtain Feedback from Students and Peers",
-      "date_created": "2026-04-07T11:44:48.267406",
+      "osf_id": "rt8ux_v3",
+      "title": "Who knows what? Bayesian Competence Inference guides Knowledge Attribution and Information search",
+      "date_created": "2026-04-03T17:44:37.511481",
       "signal_score": 1,
-      "description_preview": "Although feedback from students (SF) and peers (PF) is considered effective for improving teachers’ instructional practice, it is underutilized. In this pre-registered study, we use a representative s"
+      "description_preview": "One of the main challenges of social cognition is inferring the competence of others, which often occurs in contexts of limited information. Recent researchs suggest that people can successfully infer"
     },
     {
-      "osf_id": "9tfej_v1",
-      "title": "Evaluating Large Language Models for Psychometric Simulation Studies in R: Integrating Best Practices in Simulation and ",
-      "date_created": "2026-04-07T06:54:03.747220",
+      "osf_id": "bphrz_v2",
+      "title": "Simplified or Misunderstood? Rethinking How We Measure Americans’ Abortion Attitudes in the Post-Roe Era",
+      "date_created": "2026-04-03T17:17:20.799403",
       "signal_score": 1,
-      "description_preview": "While large language model (LLM) capabilities have been widely investigated across various domains, limited research has examined their capability to generate end-to-end R code for conducting simulati"
+      "description_preview": "Standard measures of abortion attitudes, such as the American National Election Survey’s four-point scale, do not capture public opinion on the dimensions that structure the post-Roe abortion policy l"
     },
     {
-      "osf_id": "y25vg_v1",
-      "title": "Letters from Home: Sex-Discordant Patterns of Parent-Child Correspondence in Reading Achievement",
-      "date_created": "2026-04-06T23:14:54.947137",
+      "osf_id": "5vdaj_v2",
+      "title": "Reconsidering the Scope and Mechanisms of the Birth Order Effect on Sexual Orientation",
+      "date_created": "2026-04-03T14:32:33.080264",
       "signal_score": 1,
-      "description_preview": "Purpose: Children’s reading development is shaped through a complex interplay of genetic and environmental influences within families. This exploratory study investigated the intergenerational transmi"
+      "description_preview": "Large-scale research in the past few years has confirmed the many previous findings that individuals with a greater number of older siblings (i.e., a higher birth order) have a greater probability of "
     },
     {
-      "osf_id": "m28g9_v1",
-      "title": "Reading comprehension involves distinct cognitive operators for establishing simple and composite discourse referents in",
-      "date_created": "2026-04-06T21:25:22.234819",
+      "osf_id": "2qsv7_v2",
+      "title": "Reducing Load, Fostering Curiosity: Empirical Validation of the IMCLM-XR",
+      "date_created": "2026-04-03T14:24:11.128923",
       "signal_score": 1,
-      "description_preview": "Reading comprehension involves constructing a cumulative mental model that represents unfolding information. Within this model, the mind establishes discourse referents—entities that can be picked out"
-    },
-    {
-      "osf_id": "73mbh_v2",
-      "title": "Some Assembly Required: Self-Testing Alone is Not an  Effective Way to Build Broader Understanding",
-      "date_created": "2026-04-06T20:04:22.954005",
-      "signal_score": 1,
-      "description_preview": "Extensive research has demonstrated that testing enhances long-term memory by strengthening retrieval processes for the tested memory traces. Such memory models explain why learners benefit from repea"
-    },
-    {
-      "osf_id": "w9r3t_v1",
-      "title": "Modeling guilty minds: Laypeople treat knowledge as categorically distinct from recklessness",
-      "date_created": "2026-04-06T17:52:22.872396",
-      "signal_score": 1,
-      "description_preview": "The Model Penal Code (MPC) distinguishes four levels of criminal culpability (purpose, knowledge, recklessness, and negligence), yet whether laypeople can reliably make these distinctions through genu"
-    },
-    {
-      "osf_id": "dzmav_v1",
-      "title": "Psychology’s Missing Matter",
-      "date_created": "2026-04-06T16:28:06.815360",
-      "signal_score": 1,
-      "description_preview": "Psychology's replication and generalizability shortcomings suggest that, although valuable, statistical and incentive reforms have not stabilized core constructs. I argue that residual implicit dualis"
-    },
-    {
-      "osf_id": "jpq7x_v1",
-      "title": "Trusting wisely? Developmental changes in how children learn and adapt to partner trustworthiness",
-      "date_created": "2026-04-06T14:33:29.242575",
-      "signal_score": 1,
-      "description_preview": "Trusting selectively is a crucial ability in successfully navigating social environments: trusting a trustworthy partner maximizes mutual benefits; withholding trust from an untrustworthy partner mini"
-    },
-    {
-      "osf_id": "pxuzw_v2",
-      "title": "Is four the same as 4? Exploring whether stimulus repetitions or identity repetitions drive voluntary task choice",
-      "date_created": "2026-04-05T23:16:02.200115",
-      "signal_score": 1,
-      "description_preview": "Though the voluntary task switching paradigm asks participants to select their task and whether to switch on each trial internally, external bottom-up information from the stimulus affects task choice"
-    },
-    {
-      "osf_id": "chy4b_v2",
-      "title": "Competing epistemic authorities during an infodemic: How trust in scientists versus populist governments shaped conspira",
-      "date_created": "2026-04-05T13:51:14.149026",
-      "signal_score": 1,
-      "description_preview": "The COVID-19 pandemic has been characterised not only as a public health crisis but also an ‘infodemic’, with competing sources of epistemic authority shaping what people believed about the virus and "
-    },
-    {
-      "osf_id": "2fuq8_v1",
-      "title": "The JAFFE Dataset as a Polemical Straw Man in How to See Like a Machine",
-      "date_created": "2026-04-05T08:06:51.064168",
-      "signal_score": 1,
-      "description_preview": "Trevor Paglen’s forthcoming book How to See Like a Machine (Paglen, 2026) reprises, in simplified form, a critique of the JAFFE dataset first advanced with Kate Crawford in “Excavating AI” (Crawford &"
-    },
-    {
-      "osf_id": "4hu5x_v1",
-      "title": "Language Models and the Missing Qualia in Face Evaluation",
-      "date_created": "2026-04-05T02:52:40.839938",
-      "signal_score": 1,
-      "description_preview": "Human cognition is grounded in direct sensory experience, whereas recent advances in \nlarge language models (LLMs) rely primarily on indirect, language-derived symbolic \ncomputation, raising intense d"
-    },
-    {
-      "osf_id": "jqxh9_v1",
-      "title": "AI Learning Strategies Scale: Development and Validation for Individual Differences in Self-Regulated Learning with AI",
-      "date_created": "2026-04-05T00:44:21.866795",
-      "signal_score": 1,
-      "description_preview": "As AI-powered tools become embedded in learning environments, understanding how learners regulate their interactions with these systems is essential for designing learner-sensitive, adaptive AI-suppor"
+      "description_preview": "Extended Reality (XR) is increasingly used in education, particularly in complex spatial learning domains such as neuroanatomy. Although prior research highlights XR’s potential to enhance engagement "
     }
   ]
 }

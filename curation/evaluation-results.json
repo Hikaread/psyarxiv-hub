@@ -1,48 +1,75 @@
 {
   "evaluated": 5,
-  "accepted": 1,
-  "rejected": 4,
+  "accepted": 0,
+  "rejected": 5,
   "errors": 0,
-  "skipped": 25,
-  "deferred": 21,
+  "skipped": 0,
+  "deferred": 5,
   "results": [
     {
-      "osf_id": "vxm84_v2",
-      "title": "How social, emotional, and behavioral skills differ across the life span",
+      "osf_id": "3nft9_v1",
+      "title": "Sex differences in executive functions in children with obesity",
       "decision": "reject",
-      "reason": "This paper focuses on basic developmental psychology research examining age-related differences in social, emotional, and behavioral skills across the lifespan. While these skills have relevance to clinical practice, the paper itself does not address clinical applications, interventions, assessment, diagnosis, or psychopathology. It's primarily a descriptive study of developmental patterns without specific clinical utility for practicing therapists, psychologists, or psychiatrists.",
+      "reason": "The paper focuses on children with obesity and executive functions, which falls under developmental psychology without direct adult clinical application. While it has some clinical relevance regarding obesity, the sample is exclusively children (9-12 years old) with no discussion of adult implications, making it inappropriate for the clinical psychology hub focused on practicing therapists, psychologists, or psychiatrists.",
       "category": null
     },
     {
-      "osf_id": "x3mjb_v1",
-      "title": "Maintaining Performance Without Reducing Mind-Wandering: Exploring the Impact of",
+      "osf_id": "qejzg_v2",
+      "title": "Children in War:  Attachment, Trauma, Support and Recovery",
       "decision": "reject",
-      "reason": "This study focuses on basic cognitive psychology research about attention and mind-wandering during sustained attention tasks, with no direct clinical application to therapy, assessment, diagnosis, or mental health interventions. While the topic has potential relevance to clinical populations, the study itself is a cognitive psychology experiment without clinical implications for practicing therapists, psychologists, or psychiatrists.",
+      "reason": "Focuses on children/adolescents in war context without direct adult clinical implications",
       "category": null
     },
     {
-      "osf_id": "fmqwa_v1",
-      "title": "Arts Engagement, Active Inference, and Allostatic Regulation: A Neurobiological ",
+      "osf_id": "6vkcg_v1",
+      "title": "Reframing Eating: Drivers, Influences, Environment, and Transitions (ReDIET) for",
       "decision": "reject",
-      "reason": "This paper is a theoretical review proposing a neurobiological framework linking arts engagement to health effects through active inference and allostasis. It lacks clinical application, specific data on therapeutic interventions, or direct relevance to practicing clinicians. The focus is on computational neuroscience and theoretical modeling rather than clinical psychology practice, assessment, diagnosis, or interventions.",
+      "reason": "This paper focuses on food systems sustainability and environmental interventions rather than clinical psychology topics. It examines plant-based diets and food system transitions from a policy and systems perspective, not mental health assessment, diagnosis, therapy, or clinical interventions.",
       "category": null
     },
     {
-      "osf_id": "dzmav_v1",
-      "title": "Psychology\u2019s Missing Matter",
+      "osf_id": "sua3b_v1",
+      "title": "Do domain-general visual recognition abilities predict memory for when and where",
       "decision": "reject",
-      "reason": "low signal score (1)",
+      "reason": "This paper focuses on basic cognitive psychology research examining visual recognition abilities and memory for spatial/temporal information, with no direct clinical application, intervention, or relevance to practicing clinicians.",
       "category": null
     },
     {
-      "osf_id": "cp4jt_v1",
-      "title": "Neural Mentalizing Signatures Predict Social Contacts, Not Loneliness or Support",
-      "decision": "accept",
-      "reason": "The study investigates neural signatures of mentalizing in relation to social connections in older adults, which has direct relevance to clinical psychology practice, particularly for understanding and addressing social disconnection in aging populations.",
-      "category": "Neuropsychology & Aging",
-      "number": 870,
-      "authors": "Sarah Rebecca Saju; Remi Janet; Ruien Wang; Julia Stietz; Andrea M.F. Reiter; Shu-Chen Li; Philipp Kanske; Anita Tusche",
-      "curated": true
+      "osf_id": "4yr2d_v1",
+      "title": "How semantic seeds shape distributional learning: Evidence for semantic generali",
+      "decision": "reject",
+      "reason": "This paper focuses on basic cognitive psychology research about language acquisition and distributional learning, with no clear clinical applications or relevance to practicing therapists, psychologists, or psychiatrists. The study examines how semantic seeds affect artificial language learning in adults, which falls under cognitive science rather than clinical psychology.",
+      "category": null
+    },
+    {
+      "osf_id": "p4zut_v1",
+      "title": "Predicting Technology Acceptance:  Basic Psychological Needs as Important Determ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "rt8ux_v3",
+      "title": "Who knows what? Bayesian Competence Inference guides Knowledge Attribution and I",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "bphrz_v2",
+      "title": "Simplified or Misunderstood? Rethinking How We Measure Americans\u2019 Abortion Attit",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "5vdaj_v2",
+      "title": "Reconsidering the Scope and Mechanisms of the Birth Order Effect on Sexual Orien",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "2qsv7_v2",
+      "title": "Reducing Load, Fostering Curiosity: Empirical Validation of the IMCLM-XR",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
     }
   ]
 }
