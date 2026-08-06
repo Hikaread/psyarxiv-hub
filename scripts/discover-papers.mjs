@@ -2,19 +2,17 @@
 
 /**
  * Discover new PsyArXiv preprints from the OSF API.
- * Strategy: bulk-paginated sweep through ALL psyarxiv preprints,
- * checking each against seen-compact-ids.json.
- * Uses page[offset] to skip pages known to be fully seen (optimization).
+ * Scans newest pages first, checks against seen-compact-ids.json.
  * Stops when MIN_UNSEEN unseen papers are collected OR MAX_PAGES reached.
  */
 
 const API_BASE = 'https://api.osf.io/v2';
 const PAUSE_MS = 0;
-const MIN_UNSEEN = 15;
-const MAX_PAGES = 15;
+const MIN_UNSEEN = 5;
+const MAX_PAGES = 3;
 const SEEN_IDS_FILE = '/home/z/my-project/psyarxiv-hub/data/seen-compact-ids.json';
 const OUTPUT_FILE = '/home/z/my-project/psyarxiv-hub/curation/discovered-papers.json';
-const FRONTIER_FILE = '/home/z/my-project/psyarxiv-hub/curation/discover-frontier.json';
+// FRONTIER_FILE removed — always start from page 1 (newest)
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -54,26 +52,17 @@ async function main() {
     console.error('No seen-IDs file found, starting fresh');
   }
 
-  // Load frontier (last page cursor we reached)
-  let frontier = { page: 1, url: null };
-  try {
-    frontier = JSON.parse(fs.readFileSync(FRONTIER_FILE, 'utf8'));
-    console.error(`Resuming from frontier page ${frontier.page}`);
-  } catch {
-    console.error('No frontier file, starting from page 1');
-  }
-
-  // Fetch first page (or resume from frontier)
-  let pageUrl = frontier.url ||
+  // Always start from newest (page 1) — seen-compact-ids handles dedup
+  let pageUrl =
     `${API_BASE}/preprints/?filter[provider]=psyarxiv&sort=-date_created&page[size]=100`;
 
   const allUnseen = [];
   const globalSeen = new Set();
-  let pageNum = frontier.page - 1;
+  let pageNum = 0;
   let pagesAllSeen = 0;
   let stopReason = '';
 
-  while (pageNum < frontier.page + MAX_PAGES) {
+  while (pageNum < MAX_PAGES) {
     pageNum++;
     console.error(`Page ${pageNum} — unseen so far: ${allUnseen.length}`);
 
@@ -108,9 +97,7 @@ async function main() {
       pagesAllSeen++;
     }
 
-    // Save frontier for next run
     const nextUrl = payload.links?.next || null;
-    fs.writeFileSync(FRONTIER_FILE, JSON.stringify({ page: pageNum + 1, url: nextUrl }) + '\n', 'utf8');
 
     if (!nextUrl) {
       stopReason = `Reached end of all pages (page ${pageNum})`;
@@ -131,7 +118,7 @@ async function main() {
 
   console.log(JSON.stringify({
     stopReason,
-    pagesScanned: pageNum - (frontier.page - 1),
+    pagesScanned: pageNum,
     currentPage: pageNum,
     totalUnseen: allUnseen.length,
     output: OUTPUT_FILE
