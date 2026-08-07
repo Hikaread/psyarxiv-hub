@@ -908,18 +908,18 @@
     if (!text) return '';
     // 0. For cards: if text has no paragraph breaks, insert breaks after sentences
     if (forCard && text.indexOf(String.fromCharCode(10,10)) < 0) {
-      var abbrSet = ['e.g','i.e','etc','vs.','dr.','mr.','mrs.','ms.','prof.','fig.','al.','n.s.','no.'];
+      var abbrSet = ['e.g','i.e','etc','vs','dr','mr','mrs','ms','prof','fig','al','n.s','no','vol','ed','pp','sr','jr','st','ave','dept','univ','approx','cf'];
       var sentences = text.split(/(?<=\.)\s+(?=[A-Z])/);
       var result = '';
       for (var i = 0; i < sentences.length; i++) {
         var s = sentences[i].trim();
         if (!s) continue;
-        var lastWord = s.split(/\s+/).pop().toLowerCase();
+        var lastWord = s.split(/\s+/).pop().toLowerCase().replace(/\.$/, '');
         var isAbbr = false;
         for (var a = 0; a < abbrSet.length; a++) {
           if (lastWord === abbrSet[a]) { isAbbr = true; break; }
         }
-        if (i > 0 && !isAbbr) result += String.fromCharCode(10,10);
+        if (i > 0 && !isAbbr) result += String.fromCharCode(10);
         else if (i > 0) result += ' ';
         result += s;
       }
