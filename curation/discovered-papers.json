@@ -1,10 +1,10 @@
 [
   {
-    "osf_id": "hwbuf_v1",
-    "title": "Autobiographical Recollective Style in Grapheme–Color Synesthesia: Overlap with Fantasy Proneness and Multisensory Imagery",
-    "date_created": "2026-08-07T03:07:51.622850",
-    "date_modified": "2026-08-07T08:26:17.940462",
-    "description": "Although more vivid mental imagery and subjectively richer individual autobiographical memories have been reported in\nsynesthetes, whether synesthesia is associated with a trait-like autobiographical recollective style governing how individuals\ntypically recollect their personal past remains unclear. We compared 27 participants operationally classified into a grapheme–\ncolor synesthesia group through large-scale screening with 30 controls selected through individual matching on age and sex.\nAutobiographical recollective style was assessed using the Japanese version of the Autobiographical Recollection Test (ART-\nJ), and we examined the extent to which group differences overlapped with Big Five personality traits, fantasy proneness,\nand multisensory imagery vividness. The synesthesia group scored higher than the control group on the ART-J total score\nand all seven subscales. The group coefficient was not substantially attenuated in a model that included the five Big Five\ntraits. By contrast, adding fantasy proneness and multisensory imagery significantly increased the explained variance and\nsubstantially attenuated the point estimate of the group coefficient. These findings suggest that the characteristics of the\ngrapheme–color synesthesia group extend beyond visual imagery to a broad subjective autobiographical recollective style\nencompassing scene construction, reliving, rehearsal, and integration into a life story, and that this group difference partly\noverlaps with broader characteristics of inner experience.",
+    "osf_id": "vzs2e_v1",
+    "title": "Psychiatric Symptom Severity and Performance Monitoring:  Intraindividual Variability in Neural Responses and Behavioral Adjustments to Errors",
+    "date_created": "2026-08-07T14:59:39.492112",
+    "date_modified": "2026-08-07T15:58:11.296467",
+    "description": "Performance monitoring involves evaluating actions and adjusting behavior accordingly. Atypical neural and behavioral indices of performance monitoring are commonly observed in individuals with psychopathology, raising the possibility that psychiatric symptoms may disrupt the link between error-related neural activity and subsequent behavioral adjustment. However, neural and behavioral indices of performance monitoring are often examined separately, leaving trial-level event-related brain potential (ERP) coupling with behavior poorly understood. The present study examined whether previous-trial error-related ERP components predicted current-trial behavior (i.e., response time [RT], accuracy) and whether these relationships varied by self-reported internalizing and externalizing symptoms. In a college student sample (N=247), larger previous-trial error-related negativity (ERN), an index of early error monitoring, predicted longer RTs. In contrast, larger previous-trial error positivity (Pe), an index of later error awareness, predicted higher current-trial accuracy. Internalizing and externalizing symptom scores did not robustly moderate these ERP-behavior relationships or consistently predict behavioral adjustments. These findings suggest that trial-level coupling between error-related ERP components and behavioral adjustment showed no robust evidence of differing across levels of self-reported internalizing and externalizing symptoms within the observed range. More broadly, the results highlight the value of examining performance monitoring as an integrated neural-behavioral process rather than as isolated neural or behavioral indices.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -16,10 +16,32 @@
         {
           "id": "5b4e7427c6983001430b6c8c",
           "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vzs2e_v1/"
+  },
+  {
+    "osf_id": "vh7gy_v2",
+    "title": "Measurement Invariance of Latent Models of Externalizing by Contextual and Sociocultural Factors in System-Involved Youth",
+    "date_created": "2026-07-31T16:37:58.149258",
+    "date_modified": "2026-08-07T16:00:56.092852",
+    "description": "Externalizing forms of psychopathology in youth, including substance use, conduct problems, and aggression, are said to result from a general liability towards impulsive and disruptive behaviors. While the field often focuses on dispositional explanations of externalizing behaviors, there is a notable lack of attention to the extent to which contextual factors affect the measurement of latent externalizing (EXT) in youth, an analysis with implications for racial/ethnic and socioeconomic disparities in juvenile justice system involvement. The present study examines if certain behavioral indicators of EXT vary in the extent to which they reflect the respective trait (metric invariance) or how much EXT trait levels explain observed values of behavioral indicators (scalar invariance) as a function of context, including immediate environments and sociocultural factors. Using the Pathways to Desistance dataset of system-involved youth (N=1276; 41.4% Black, 33.5% Hispanic; 86.4% male), multigroup CFA and moderated nonlinear factor analyses revealed metric invariance across race and contextual moderators, except that exposure to antisocial peers was associated with higher loadings on all EXT indicators. In contrast, scalar noninvariance was evident across race and nearly all contextual moderators, such that Black race and more disadvantage tended to raise the intercept values for EXT indicators beyond the latent trait level. Intercepts for EXT indicators like school discipline, substance use, juvenile justice history, and impulsivity appeared to be the most vulnerable to measurement bias. This research is important for addressing biases inherent in our measures and enhancing the cultural sensitivity and accuracy of assessments of EXT across varied populations.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6ca5",
-          "text": "Memory"
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c3a",
+          "text": "Clinical Child Psychology"
         }
       ],
       [
@@ -28,12 +50,12 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7429c6983001430b6cf0",
-          "text": "Imagery"
+          "id": "5b4e7426c6983001430b6c53",
+          "text": "Individual Differences"
         }
       ],
       [
@@ -42,89 +64,43 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
         },
         {
-          "id": "5b4e7429c6983001430b6cf8",
-          "text": "Consciousness"
+          "id": "5b4e7426c6983001430b6c5e",
+          "text": "Disruptive, Impulse-control, and Conduct Disorders"
         }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/hwbuf_v1/"
-  },
-  {
-    "osf_id": "8psd9_v2",
-    "title": "Validating local open-weight LLMs against expert raters for graded deductive coding of open-ended responses in Russian",
-    "date_created": "2026-08-06T23:48:18.200567",
-    "date_modified": "2026-08-07T08:24:30.959497",
-    "description": "Large language models (LLMs) are increasingly used to code open-ended survey responses, but their validity against expert annotation remains uncertain, especially outside English. We evaluated four open-weight LLMs for deductive coding of Russian responses from a psychological human-robot interaction experiment (N = 33): DeepSeek-R1-32B, Qwen3-32B, Gemma3-27B, and Mistral-Small-3.2-24B. Ten psychology-trained coders provided a graded expert reference for seven predefined codes. Each model was run under singular-code prompts, an exploratory conservative variant, and fixed-sequence prompts mirroring the expert memo, with ten repeated runs aggregated into graded code-presence estimates. Agreement was assessed with graded concordance, calibration, human-equivalence, and threshold-sensitivity diagnostics. The strongest configurations by concordance — DeepSeek-R1-32B with singular-code prompting (CCC = 0.71) and Qwen3-32B with fixed-sequence prompting (CCC = 0.69) — reached agreement with the expert aggregate comparable to the disagreement among individual experts, although both relied on reasoning mode, which was confounded with model identity. Several models over-attributed codes relative to experts, and prompt format and aggregation strategy materially affected agreement. We recommend validating LLM coding as a measurement procedure, with reported calibration and uncertainty, rather than as automatic expert replacement in small applied psychological datasets.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
+      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7428c6983001430b6caf",
-          "text": "Quantitative Psychology"
+          "id": "5b4e7428c6983001430b6cb0",
+          "text": "Intergroup Processes"
         }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/8psd9_v2/"
-  },
-  {
-    "osf_id": "n9f7j_v1",
-    "title": "Audioaufnahmen von Entscheidungsgesprächen in der Geburtsplanung bei Beckenendlage – Evaluation von Akzeptanz, Relevanz und Umsetzbarkeit einer perso-nenzentrierten Intervention",
-    "date_created": "2026-08-04T11:49:38.702534",
-    "date_modified": "2026-08-07T11:16:35.217121",
-    "description": "In around five percent of pregnancies, the baby is in breech presentation at term, meaning that the buttocks or feet are positioned downward instead of the head. In Germany, a cesare-an section is performed in 87% of these cases. Many of these procedures are planned, alt-hough there is not always a clear medical indication. At the same time, many pregnant wom-en wish to receive comprehensive and understandable counseling in order to make an in-formed decision together with their healthcare professionals about whether to attempt an ex-ternal cephalic version before birth or about the mode of birth itself (vaginal birth or cesarean section). These decisions are considered “preference-sensitive” because personal wishes, fears, experiences, and life circumstances play an important role. \nThe PregAUDIO pilot project, led by Dr. Anja Lindig, examined the attitudes of 23 pregnant women and 5 gynecologists toward a person-centered intervention – namely, audio record-ings of birth planning consultations at BEL. Only 7 participants listened to the audio recording at home. In interviews, pregnant women and gynecologists expressed support for audio re-cordings as part of birth planning. However, the pregnant women found the recording to be of little relevance to their own decision, as they remembered the content of the conversation well, their partner was present during the conversation, or the decision had already been made during the conversation. When the recording was listened to, it mostly served to con-firm a decision that had already been made. Gynecologists expressed concern regarding possible legal consequences of recorded counseling sessions. \nThe Decisional Conflict Scale used showed that the pregnant women’s decision conflict de-creased significantly between t0 and t1 and continued to decrease slightly to t2. Pregnant women rated PEF as very high during the counseling session. However, the objectively measured extent of PEF (measured using the Observer OPTION 5 TM o",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
+      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c93",
-          "text": "Health Psychology"
+          "id": "5b4e7426c6983001430b6c5f",
+          "text": "Forensic and Legal Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cda",
+          "text": "Clinical"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/n9f7j_v1/"
-  },
-  {
-    "osf_id": "jav6y_v1",
-    "title": "Parafoveal access to embedded-word meaning during Chinese word segmentation",
-    "date_created": "2026-08-02T14:19:48.473807",
-    "date_modified": "2026-08-07T04:24:29.377447",
-    "description": "The absence of word-boundary cues in Chinese text creates segmentation ambiguities that readers must resolve online. One example is incremental ambiguity, in which the initial characters of a longer word (e.g., 体育馆, \"stadium\") can also form a standalone embedded word (体育, \"sport\"). Previous studies manipulated the preceding verb context to render the embedded word either plausible or implausible while the longer-word analysis remained plausible, comparing these with control sentences in which the longer word was replaced by the embedded word. Plausibility effects were observed only for the control words, suggesting that readers do not access embedded-word meaning before segmentation is resolved, consistent with the Chinese Reading Model (Li &amp; Pollatsek, 2020). However, these studies also failed to detect the early first-pass plausibility effects reported in other studies using unambiguous materials, making the absence of embedded-word effects difficult to interpret. We therefore conducted a high-powered eye-movement experiment using a larger participant sample and stimulus set, and assessed the robustness of critical effects using split-half reliability and bootstrap analyses. Embedded-word plausibility effects emerged robustly during first-pass fixations on the pre-target verb, indicating parafoveal access to an embedded-word representation. No corresponding effects emerged at the ambiguity region, suggesting that readers ultimately favored the longer-word analysis. Control-word plausibility effects emerged during first-pass fixations at both regions, confirming that the experiment was sufficiently sensitive to detect early plausibility effects. These findings show that embedded-word representations become available parafoveally during incremental ambiguity resolution, challenging current accounts of Chinese word segmentation.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6d01",
-          "text": "Language"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/jav6y_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/vh7gy_v2/"
   }
 ]

@@ -547,6 +547,89 @@
     "signal_score": 7
   },
   {
+    "osf_id": "vh7gy_v2",
+    "title": "Measurement Invariance of Latent Models of Externalizing by Contextual and Sociocultural Factors in System-Involved Youth",
+    "date_created": "2026-07-31T16:37:58.149258",
+    "date_modified": "2026-08-07T16:00:56.092852",
+    "description": "Externalizing forms of psychopathology in youth, including substance use, conduct problems, and aggression, are said to result from a general liability towards impulsive and disruptive behaviors. While the field often focuses on dispositional explanations of externalizing behaviors, there is a notable lack of attention to the extent to which contextual factors affect the measurement of latent externalizing (EXT) in youth, an analysis with implications for racial/ethnic and socioeconomic disparities in juvenile justice system involvement. The present study examines if certain behavioral indicators of EXT vary in the extent to which they reflect the respective trait (metric invariance) or how much EXT trait levels explain observed values of behavioral indicators (scalar invariance) as a function of context, including immediate environments and sociocultural factors. Using the Pathways to Desistance dataset of system-involved youth (N=1276; 41.4% Black, 33.5% Hispanic; 86.4% male), multigroup CFA and moderated nonlinear factor analyses revealed metric invariance across race and contextual moderators, except that exposure to antisocial peers was associated with higher loadings on all EXT indicators. In contrast, scalar noninvariance was evident across race and nearly all contextual moderators, such that Black race and more disadvantage tended to raise the intercept values for EXT indicators beyond the latent trait level. Intercepts for EXT indicators like school discipline, substance use, juvenile justice history, and impulsivity appeared to be the most vulnerable to measurement bias. This research is important for addressing biases inherent in our measures and enhancing the cultural sensitivity and accuracy of assessments of EXT across varied populations.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c3a",
+          "text": "Clinical Child Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c53",
+          "text": "Individual Differences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c5e",
+          "text": "Disruptive, Impulse-control, and Conduct Disorders"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb0",
+          "text": "Intergroup Processes"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c5f",
+          "text": "Forensic and Legal Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cda",
+          "text": "Clinical"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vh7gy_v2/",
+    "signal_score": 7
+  },
+  {
     "osf_id": "pyg2n_v4",
     "title": "Cognitive performance in young and middle-aged adults with obesity: a systematic literature review",
     "date_created": "2026-08-04T17:24:26.217954",
@@ -3078,6 +3161,29 @@
       ]
     ],
     "link": "https://osf.io/preprints/psyarxiv/8psd9_v2/",
+    "signal_score": 3
+  },
+  {
+    "osf_id": "vzs2e_v1",
+    "title": "Psychiatric Symptom Severity and Performance Monitoring:  Intraindividual Variability in Neural Responses and Behavioral Adjustments to Errors",
+    "date_created": "2026-08-07T14:59:39.492112",
+    "date_modified": "2026-08-07T15:58:11.296467",
+    "description": "Performance monitoring involves evaluating actions and adjusting behavior accordingly. Atypical neural and behavioral indices of performance monitoring are commonly observed in individuals with psychopathology, raising the possibility that psychiatric symptoms may disrupt the link between error-related neural activity and subsequent behavioral adjustment. However, neural and behavioral indices of performance monitoring are often examined separately, leaving trial-level event-related brain potential (ERP) coupling with behavior poorly understood. The present study examined whether previous-trial error-related ERP components predicted current-trial behavior (i.e., response time [RT], accuracy) and whether these relationships varied by self-reported internalizing and externalizing symptoms. In a college student sample (N=247), larger previous-trial error-related negativity (ERN), an index of early error monitoring, predicted longer RTs. In contrast, larger previous-trial error positivity (Pe), an index of later error awareness, predicted higher current-trial accuracy. Internalizing and externalizing symptom scores did not robustly moderate these ERP-behavior relationships or consistently predict behavioral adjustments. These findings suggest that trial-level coupling between error-related ERP components and behavioral adjustment showed no robust evidence of differing across levels of self-reported internalizing and externalizing symptoms within the observed range. More broadly, the results highlight the value of examining performance monitoring as an integrated neural-behavioral process rather than as isolated neural or behavioral indices.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vzs2e_v1/",
     "signal_score": 3
   },
   {
