@@ -367,6 +367,9 @@ def main():
         update_seen_ids()
         return
 
+    # Update seen IDs FIRST so delta is visible even if eval times out
+    seen_added = update_seen_ids()
+
     discarded_ids = load_discarded_ids()
     checkpoint_ids = load_checkpoint()
     eval_done_ids = discarded_ids | checkpoint_ids
@@ -502,7 +505,7 @@ Evaluate this paper for the PsyArXiv clinical psychology hub. If accepted, inclu
         print(f"Logged {discard_count} discards", file=sys.stderr)
         if accepted > 0:
             generate_og_pages()
-        seen_added = update_seen_ids()
+        # seen IDs already updated at start
         # Clear checkpoint after successful completion
         remaining = [c for c in candidates if c['osf_id'] not in skip_ids and c['osf_id'] not in checkpoint_ids]
         if not remaining:
