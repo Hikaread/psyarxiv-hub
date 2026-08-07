@@ -1,10 +1,50 @@
 [
   {
-    "osf_id": "dexbc_v1",
-    "title": "Some Don’t Like It Hot: Climate Change Anxiety Influences Symptom Perception In A Heated Environment",
-    "date_created": "2026-04-03T20:01:37.646039",
-    "date_modified": "2026-04-08T12:12:19.067569",
-    "description": "Awareness about climate change can lead to psychological distress and somatic symptoms despite not being exposed to a harmful agent (‘nocebo effect’). Thus, we wanted to test whether watching a media piece about climate change effects could induce somatic symptoms.  We recruited 46 participants who watched media pieces about climate change or a control video (randomized order) and were then exposed to a heated environment (33° C). After watching the videos, participants were asked about state climate change anxiety, and during the heat exposure, somatic symptoms and temperature estimates were assessed. We also collected state general anxiety and trait climate change anxiety. Both anxiety related to climate change (between r=.33, p=.02 for state anxiety, experimental condition, and r=.51, p=.004 for trait anxiety, control condition) and general anxiety (r=.38, p&lt;.001) were associated with reporting symptoms in the heated environment. While the video about climate change did not modify symptoms reports in an ANOVA, adding video condition improved a multilevel model of symptoms in the heated environment (chi²=13.239, df =2, p=.001). Perceived temperature was not predicted by climate change anxiety or video condition. Thus, somatic symptoms experienced in hot environments are modulated by affective processes and fit the predictive processing framework.",
+    "osf_id": "y9rx4_v1",
+    "title": "No Single Model Fits All: Conflict Decision-Making Models Vary More Across Datasets Than Across Tasks",
+    "date_created": "2026-08-04T07:47:06.964978",
+    "date_modified": "2026-08-06T20:36:13.986354",
+    "description": "Conflict variants of evidence accumulation models are widely used to explain human cognitive control. However, the generalizability of these models is largely unknown because of the lack of systematic comparisons across multiple conflict tasks and multiple datasets. Here, using a unified amortized Bayesian inference (ABI) framework, we compare the standard DDM and three conflict-specific variants across a benchmark database comprising eight independent studies (N = 1,375). We validate the ABI as a common framework for model comparison, fit DDM, DMC, DSTP, and SSP to each participant, and find that DSTP is the most frequently selected best-fitting model, but its superiority varies more across datasets than across tasks. Exploratory analyses show the 22 parameters cluster into four latent dimensions; the Inhibitory Process factor, of greatest theoretical interest in cognitive control, is unstable. Achieving cross-dataset generality of conflict diffusion models remains a major challenge.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/y9rx4_v1/"
+  },
+  {
+    "osf_id": "qtbex_v1",
+    "title": "Depression symptom network reorganization under internet-based emotion regulation intervention: Evidence from a large real-world cohort",
+    "date_created": "2026-08-04T07:19:10.098823",
+    "date_modified": "2026-08-06T20:54:21.103315",
+    "description": "Depression can be conceptualized as a network of interacting symptoms. Although internet-based interventions are widely used, their associations with changes in symptom network structure remain unclear. Here, in a real-world observational cohort of 26,643 adults completing an internet-based emotion regulation intervention, we examined pre–post differences in depressive symptom network structure, global connectedness, and symptom centrality, stratified by reduction status. Analyses indicated that the two core depressive symptoms (i.e., depressed mood and anhedonia) showed reduced centrality after the intervention, whereas several non-core symptoms either increased or remained unchanged. The “symptom reduction” and “symptom non-reduction” subgroups showed largely comparable network characteristics at baseline. After the intervention, the “symptom reduction” subgroup displayed lower global network strength, a reorganized network topology, and reduced centrality of the core symptoms, whereas the “symptom non-reduction” subgroup showed no significant network alteration. Further analyses using residualized symptom change scores showed a similar pattern: among individuals with comparable baseline depressive symptom severity, those with better-than-expected outcomes showed lower post-intervention network connectivity than those with poorer-than-expected outcomes. Clinically anchored improvement analyses further indicated that reduced centrality of depressed mood was observed across alternative definitions of improvement. Although causal inference is precluded by the observational design, this study provides large-scale descriptive real-world evidence on how depressive symptom networks change alongside symptom reduction during routine use of a digital intervention.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/qtbex_v1/"
+  },
+  {
+    "osf_id": "8ae7w_v1",
+    "title": "Recovery order in adaptive systems is set by dependency structure",
+    "date_created": "2026-08-03T23:05:33.250289",
+    "date_modified": "2026-08-06T20:13:43.413283",
+    "description": "Adaptive systems recover their capacities in reproducible orders. Predicting it has meant fitting a dynamical model to each system and reading the order off its trajectories, an output of the fit, not of structure. Here we show that recovery order follows from dependency structure: which capacities must be in place before which others recover. From four axioms we prove that where prerequisite gates vanish at baseline no capacity begins to recover before its prerequisites, whatever the rate constants, and that under a common deficit-closing rule with rates non-increasing along dependencies the admissible orders are exactly the linear extensions of the graph: a chain gives a unique sequence, a branch a partial order. We map where steep heterogeneity adds further orders. The graph is an input, realized in probabilistic models as identifiability structure. We instantiate it in catatonia, post-injury motor recovery and curriculum learning, the last without a probabilistic model.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -12,6 +52,12 @@
         {
           "id": "5b4e7424c6983001430b6c18",
           "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         }
       ],
       [
@@ -30,26 +76,122 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c56",
-          "text": "Environmental Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c9f",
-          "text": "Sustainability Behavior"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/dexbc_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/8ae7w_v1/"
   },
   {
-    "osf_id": "sua3b_v1",
-    "title": "Do domain-general visual recognition abilities predict memory for when and where meaningful visual stimuli were seen?",
-    "date_created": "2026-04-03T18:57:21.217443",
-    "date_modified": "2026-04-04T11:15:58.497857",
-    "description": "Individuals differ in the level of detail they can visually encode. Prior work (Gronau et al., 2026) found that a domain-general subordinate-level object discrimination ability (Op) predicted memory for where an object was encountered. Additionally, Op predicted a meaningfulness effect on location – locations of objects considered to be familiar were better remembered than locations of objects considered to be novel. Here, we again tested whether Op predicted the meaningfulness effect on memory for location but also tested whether Op predicted a meaningfulness effect on memory for when an image was encountered. Unlike in Gronau et al. (2026), a levels-of-processing definition of meaningfulness was employed. Storybook images were encoded while participants attended to either the semantic content or the artist style. Other predictor variables included intelligence, working memory, and low-level perception. Preregistered structural equation models found no unique relationship between Op and memory for either when or where storybook images were encountered. They suggested that Op and intelligence had a shared relationship with memory for spatial location and sequence position, and with the meaningfulness effect on spatial location memory. Non-preregistered multiple regression models suggested that Op uniquely predicted spatial location memory and the meaningfulness effect on spatial location memory. Scene perception explained additional variance in memory for spatial location and sequence position, as well as in the meaningfulness effect on spatial location memory. These findings may suggest that domain-general visual abilities contribute to memory for when and where stimuli appeared, but that meaningfulness modulates this contribution only for spatial location.",
+    "osf_id": "de6bu_v1",
+    "title": "The Saito Loop, a computational theory of hierarchical recovery in catatonia",
+    "date_created": "2026-08-03T22:55:40.822468",
+    "date_modified": "2026-08-06T22:07:51.494201",
+    "description": "Clinical observation identified a reproducible recovery hierarchy in catatonia, the Saito Loop (πs → β → πm → πv_fast → πv_slow), but not why recovery should follow any fixed order. We ask whether the order follows from an active-inference architecture without being supplied. The five computational quantities follow a priori from their computational roles; structural identifiability analysis then reconstructs their prerequisite relations as a directed acyclic graph. Because the graph is a chain, its topological ordering is unique and identical to the Saito Loop: the order is a structural consequence of the dependency relations, not a fitted sequence, and the complete ordering is never supplied. All uniqueness claims hold within an explicitly specified model class, and whether the structural order is realized in recovery time is a separate, falsifiable dynamical question. The clinically observed recovery hierarchy therefore becomes a constrained computational consequence rather than an empirical regularity.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/de6bu_v1/"
+  },
+  {
+    "osf_id": "7wtxz_v1",
+    "title": "Which Comes First: Ideology, or Moral Values? Panel evidence from the 2024 U.S. Presidential Election",
+    "date_created": "2026-08-03T21:46:17.445432",
+    "date_modified": "2026-08-06T20:01:59.131369",
+    "description": "Recent work has called into question the longstanding intuition that differences in political orientation are attributable to differences in moral values; instead, people may change their reported values to justify their political preferences. To identify which most plausibly causes which, we conducted a three-wave panel study, using quotas to approximate a demographically representative initial sample of U.S. adults and measuring values in four different ways, with each measure grounded in a distinct theoretical framework. We found that: 1) Ideology and partisanship consistently showed greater cross-wave stability than values. 2) Within-subject wave-to-wave shifts in political orientation and values were rarely and weakly related in either direction. Between-subjects analyses replicated existing work: conservatives and liberals tended to value different things. But during these months, respondents did not tend to become more conservative or liberal depending on what they valued, or to come to value anything more or less because of their ideology.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cc9",
+          "text": "Politics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/7wtxz_v1/"
+  },
+  {
+    "osf_id": "4mt86_v1",
+    "title": "Is fashion just a fashion? Or does it have an evolutionary basis?",
+    "date_created": "2026-08-03T21:29:31.838654",
+    "date_modified": "2026-08-06T20:05:18.818894",
+    "description": "Female models presented in advertising, entertainment, and fashion shows are much slimmer on average than the general population. The fashion industry has been criticized for advertising a body type that would influence the self perception of young women, leading to eating disorders and concomitant health risks. Given the intense criticism one would expect a corresponding change in publication policies that would mitigate these negative effects. But a recent study that analyzed 25 years of published fashion records found no improvement. The present paper suggests an evolutionary explanation for why consumers prefer the unrealistic body type.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/4mt86_v1/"
+  },
+  {
+    "osf_id": "xg8wt_v2",
+    "title": "Stimulated recall protocols: Field-specific guidelines for second language acquisition and bilingualism research",
+    "date_created": "2026-08-03T21:20:00.052770",
+    "date_modified": "2026-08-06T20:02:31.471156",
+    "description": "Stimulated recall protocols are one of the most popular methods in second language acquisition and bilingualism research to investigate language learners’ internal thought processes when using second languages. Although methodological handbooks are available for learning how to set up a stimulated recall study, there is little empirically driven guidance on best practices for reporting variables central to the method. To develop field-specific reporting guidelines, this systematic review analyzed articles that used stimulated recall to elicit introspective reports in sixteen Q1 journals in applied linguistics between 2000 and 2024. After screening, 171 studies were analyzed for 62 variables inherent to this practice. Findings showed that some details were well-reported, but others critical for stimulated recalls, such as the use of instructions or the L2 proficiency of participants, were reported infrequently. The review concludes with empirically derived reporting guidelines derived from the literature to support authors, editors, and peer reviewers.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c19",
+          "text": "Meta-science"
+        }
+      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -70,23 +212,23 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7427c6983001430b6c71",
-          "text": "Perception"
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
         },
         {
-          "id": "5b4e7428c6983001430b6cc0",
-          "text": "Vision"
+          "id": "5b4e7427c6983001430b6ca8",
+          "text": "Applied Linguistics"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/sua3b_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/xg8wt_v2/"
   },
   {
-    "osf_id": "qejzg_v2",
-    "title": "Children in War:  Attachment, Trauma, Support and Recovery",
-    "date_created": "2026-04-03T18:41:30.348971",
-    "date_modified": "2026-04-08T14:56:17.562771",
-    "description": "In Children in War, we describe the impact of armed conflicts and war on children and family life and elaborate on ways in which children in and after war can be supported. Attachment theory rooted in the World Wars raging in the 20th century is one of our conceptual underpinnings. The protracted Russian war against Ukraine served as the driving rationale for this Element. Its deleterious effects on child development but also the untold reserves in parents and professionals show that families under siege can profit from support to create safe, stable and shared care for the children. Two developmental scientists recognized for their attachment research and a child psychiatrist working 'in situ' during the war in Ukraine wrote this brief but comprehensive treatise on children and families weathering war. The authors aim to reach researchers but also policymakers and professionals working with children in wartime and its aftermath.",
+    "osf_id": "nqmr7_v1",
+    "title": "Pilot Study of Combined tDCS and Cognitive Training Intervention for Suicide Risk with Ecological Momentary Assessment: Feasibility and Acceptability in Psychiatric Inpatient Veterans",
+    "date_created": "2026-08-03T20:11:56.155760",
+    "date_modified": "2026-08-06T21:10:34.997136",
+    "description": "Objective: This pilot study examined the feasibility and acceptability of an impulsivity-targeted neuromodulation intervention and high-density ecological momentary assessment (EMA) in high-risk veterans with suicidal thoughts and behaviors following discharge from acute inpatient psychiatric care.\nMethod: Fourteen adult veterans receiving acute psychiatric care screened for suicide risk were recruited to the study and completed a baseline assessment, 10 sessions of transcranial direct current stimulation (tDCS) paired with cognitive training, one month of EMA surveys (2-3x per day) post-discharge, and questionnaires and cognitive tasks one- and two-months following the last intervention received.\nResults: Study feasibility was supported by a 21% enrollment rate, 56% intervention adherence, and no reported difficulties tolerating the intervention. Adherence to EMA surveys was high (77%) among participants who completed the EMA protocol, with the highest adherence in the first week followed by a reduction in subsequent weeks.\nConclusions: This study demonstrated that neuromodulation and cognitive training interventions and high-density EMA designs are generally feasible and acceptable among veterans at high risk of suicide following acute psychiatric care. Recommendations for increasing feasibility and adherence to such interventions and suicide risk safety procedures for intensive EMA protocols with high-risk veterans are discussed.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -98,12 +240,44 @@
       ],
       [
         {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
         },
         {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c68",
+          "text": "Clinical Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/nqmr7_v1/"
+  },
+  {
+    "osf_id": "z8qa7_v1",
+    "title": "Pupil size dynamics predict momentary changes in self-reported arousal",
+    "date_created": "2026-08-03T18:34:00.989140",
+    "date_modified": "2026-08-06T20:08:36.573397",
+    "description": "Subjective arousal, or feelings of activation and alertness, can dynamically modulate affect, behavior, and cognition. Momentary changes in subjective arousal have typically been assessed with self-report in humans, which may alter those very feelings. Although researchers have traditionally used pupil size as a physiological index of arousal, links between pupil dynamics and momentary changes in subjective arousal remain unclear. Here, we combined continuous pupillometry with repeated self-report probes of changing arousal as individuals engaged in a modified Monetary Incentive Delay task. Across Virtual Reality (N = 28; 12 females, 16 males) and Functional Magnetic Resonance Imaging (N = 27; 15 females, 12 males) studies, tonic and phasic pupil measures jointly predicted subsequent self-reported arousal beyond stated incentive value and at a temporal lag of approximately 1.5–3.5 seconds. Neural activity associated with pupil dynamics further predicted pupil size, self-reported arousal, and behavioral motivation in held-out data. Together, these convergent findings establish pupil size as a temporally-precise marker of momentary fluctuations in self-reported arousal.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
         }
       ],
       [
@@ -112,19 +286,29 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
+          "id": "5b4e7426c6983001430b6c58",
+          "text": "Emotion"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c7d",
+          "text": "Physiology"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/qejzg_v2/"
+    "link": "https://osf.io/preprints/psyarxiv/z8qa7_v1/"
   },
   {
-    "osf_id": "xchav_v2",
-    "title": "A crosslinguistic corpus phonetic analysis of intrinsic vowel duration",
-    "date_created": "2026-04-03T18:39:35.424749",
-    "date_modified": "2026-04-04T11:01:44.966758",
-    "description": "This study investigated the crosslinguistic distribution of intrinsic vowel duration, the observation that high vowels tend to be shorter than low vowels, using a large-scale corpus phonetic approach. Previous studies have reported a durational difference but have been limited by small speaker samples and narrow language coverage. Nevertheless, this observation has been debated to reflect an automatic consequence of the vowel height difference, or to be under speaker control. We reconsider this dichotomy in terms of competing pressures of target uniformity and enhancement in phonetic realization. Target uniformity would be consistent with a systematically shorter duration for high than low vowels and no systematic asymmetry between front and back vowels. In contrast, enhancement would predict larger, more variable durational differences between high and low vowels. To address the empirical gap, we analyzed duration contrasts among /i/, /u/, and /a/ in inter-obstruent contexts from over 60 languages, 80 language–length contrasts, and 16 language families in the VoxCommunis Corpus using automatic and manual vowel segmentations. Linear mixed-effects models assessed duration differences across vowel height and backness, incorporating rate-normalized and raw measures, while by-speaker analyses probed individual consistency. High vowels were shorter than low vowels in approximately 90% of language contrasts and significantly so for almost 80%. Crucially, no consistent durational bias emerged between high front and high back vowels. These findings suggest that intrinsic vowel duration is better understood as a statistical universal emerging from the balance between uniformity and enhancement in phonetic realization, rather than as a purely automatic universal.",
+    "osf_id": "dy25h_v2",
+    "title": "Imagination boosts strategy learning",
+    "date_created": "2026-08-03T17:33:40.765335",
+    "date_modified": "2026-08-06T19:55:11.967479",
+    "description": "Imagination is thought to boost exploration and problem solving by simulating states that have not been directly experienced as a means of reasoning through future plans. Here we tested this idea in the context of an impartial combinatorial game with a ground truth optional strategy. Adopting a stumbler-strategist reinforcement learning architecture, we showed how imagination can boost optimal strategy learning over memory replay. These model predictions were validated experimentally in humans (N=255) using an intervention design where participants were tasked with either imagining unplayed scenarios, reviewing prior games, or engaging in a simple visual attention task (control). These convergent results show how imagination uniquely boosts strategy learning in partially explored tasks.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -134,12 +318,118 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c62",
-          "text": "Linguistics"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
         },
         {
-          "id": "5b4e7427c6983001430b6c84",
-          "text": "Typological Linguistics and Linguistic Diversity"
+          "id": "5b4e7429c6983001430b6cea",
+          "text": "Learning"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/dy25h_v2/"
+  },
+  {
+    "osf_id": "dk67s_v1",
+    "title": "FLM UNGOAL: A Factor-Label Method for Removing Semantic Distractors in Health Behavior Change",
+    "date_created": "2026-08-03T16:54:01.714797",
+    "date_modified": "2026-08-06T19:54:56.324529",
+    "description": "Health behavior change frequently fails despite genuine patient motivation and adequate health literacy. This article presents a proof-of-concept single-subject case study (N=1) investigating the FLM UNGOAL framework—a novel cognitive-identity restructuring protocol using the Factor-Label Method (dimensional analysis) to systematically remove ungoal distractors (maladaptive Past Self cognitions in QIII) and transfer identity to the Future I (QI) via a diagonal conversion vector through a 4-region trigonometric spatial architecture.\nParticipant: A 42-year-old bilingual Persian-Iranian male (native Persian, fluent German) with Type 2 Diabetes (HbA1c 8.2%) and poor treatment adherence. Procedure: Following a 7-day baseline, the participant engaged in 6 sessions (90 min each) over 6 weeks using the FLM UNGOAL Board and protocol. Measures: Tri-Circle Overlap Index (TCOI), Goal Proximity Index (GPI), Conversion Factor (CF), daily practice logs. Results: TCOI improved from 0.18 (baseline, high Past Self identification) to 3.00 (post-intervention, Future I dominant) to 5.67 (maintenance). GPI increased from 15% to 85%. CF increased from N/A to 5.7. HbA1c improved from 8.2% to 7.0% at 3-month follow-up. Qualitative reports confirmed reduced cognitive friction and sustained identity transfer.\nThe framework integrates embodied cognition (Lakoff &amp; Johnson, 1999), the Tri-Circle Temporal Self Model (Markus &amp; Nurius, 1986; Higgins, 1987), industrial design principles via the FLM UNGOAL Board, complex systems theory, and Measurement-Based Care principles (Fortney et al., 2017). The 4-region trigonometric circle maps valence (Y-axis: Positive/Negative) and temporality (X-axis: Future/Past) with Cartesian independence—Fear is precisely localized to QIV (Future + Negative) and deliberately bypassed by the diagonal conversion vector. The protocol captures any representational format (pure shape, pure proposition, or hybrid) and transforms it through spatial reconfiguration alo",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7424c6983001430b6c18",
+          "text": "Psychiatry"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/dk67s_v1/"
+  },
+  {
+    "osf_id": "m8g6k_v1",
+    "title": "Addiction as a Chronic Brain Disease: A Narrative Review of the Neurobiological Evidence",
+    "date_created": "2026-08-03T15:36:49.358276",
+    "date_modified": "2026-08-06T19:45:36.307345",
+    "description": "Addiction has traditionally been explained in moral terms, as a failure of discipline repeated one\ntoo many times. Three decades of neuroscience research complicate that story considerably.\nRepeated exposure to alcohol and other drugs changes how the brain's reward circuitry responds\nto everyday experience, weakens the prefrontal systems responsible for planning and impulse\ncontrol, and leaves behind changes to stress and memory circuits that can persist long after drug\nuse has stopped. This narrative review draws on major research syntheses, including work by\nVolkow, Koob, and colleagues and Heilig and colleagues' 2021 reassessment of the brain disease\nmodel, to lay out the neurobiological case for classifying addiction as a chronic brain disease. It\nalso takes seriously the strongest published objections to that framing, including Sally Satel and\nScott Lilienfeld's argument that a heavily biological account can understate the role of choice and\ncontext, Gene Heyman's evidence on unassisted recovery, and experimental work showing that a\ndisease-focused message can reduce people's stated intent to seek treatment. The review\nconcludes that the neurobiological evidence is substantial enough to support the disease\nclassification, but that the classification works best when paired with, rather than substituted for,\npersonal responsibility and psychosocial treatment. It closes with a discussion of clinical and\n1 policy implications and the limits of a narrative review built on a curated set of sources rather\nthan a systematic literature search.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1d",
+          "text": "Developmental Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/m8g6k_v1/"
+  },
+  {
+    "osf_id": "hb4z9_v1",
+    "title": "Bilingual experience predicts language skills, but not reading skills, in a low-literacy and multilingual context",
+    "date_created": "2026-08-03T15:07:14.709448",
+    "date_modified": "2026-08-06T19:49:01.018417",
+    "description": "Children throughout the world attend school and learn to read in a language of instruction (LoI) other than the language(s) they speak at home, which is one factor contributing to poor reading outcomes. Understanding reading development in multilingual, Majority World contexts is important for improving reading skills globally. In a linguistically diverse sample of children in rural Côte d’Ivoire, we examined how home language experience (monolingual, regional bilingual [two Ivorian languages], French bilingual [French + Ivorian language], French multilingual [French + two Ivorian languages]) relates to children’s (N = 1335) language and reading skills. Bilingual children (French and regional) outperformed monolingual children on French language tasks, suggesting bilingual experience benefits language skills regardless of whether it includes the LoI (French). However, this language advantage did not extend to reading; there were no differences in reading scores between groups and all children leveraged phonological awareness for reading regardless of their home language experience. The findings suggest that bilingual/multilingual education programs, and reading instruction that strengthens language skills, may support reading outcomes in multilingual, Majority World contexts.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
         }
       ],
       [
@@ -148,24 +438,24 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c62",
-          "text": "Linguistics"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
         },
         {
-          "id": "5b4e7428c6983001430b6cc4",
-          "text": "Phonetics and Phonology"
+          "id": "5b4e7429c6983001430b6d01",
+          "text": "Language"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/xchav_v2/"
+    "link": "https://osf.io/preprints/psyarxiv/hb4z9_v1/"
   },
   {
-    "osf_id": "rt8ux_v3",
-    "title": "Who knows what? Bayesian Competence Inference guides Knowledge Attribution and Information search",
-    "date_created": "2026-04-03T17:44:37.511481",
-    "date_modified": "2026-04-04T11:02:57.922534",
-    "description": "One of the main challenges of social cognition is inferring the competence of others, which often occurs in contexts of limited information. Recent researchs suggest that people can successfully infer the knowledgeability of others from past accuracy, but the computational principles underlying these judgments are unknown. We test whether people can both infer and search for information about others' competence in a near-optimal way, consistent with rational Bayesian reasoning. In Studies 1 and 2, participants were presented with an individual's performance on a trivia question and predicted the individual's ability to answer other trivia questions from the same theme. Replicating and extending past results, we observe that participants very accurately predict performance from limited information. Computational modelling shows that participants' inferences are better described by Bayesian processes than by plausible heuristics, suggesting that participants rationally integrate new information with their prior expectations about others' competence. Study 3 shows that participants can select which information would be most diagnostic for inferring an individual's competence, again in a manner consistent with Bayesian rationality. Overall, our results suggest that people approximate a rational Bayesian model both when searching for and when integrating information about others' competence.",
-    "doi": "10.1016/j.cognition.2026.106533",
+    "osf_id": "s5zw2_v2",
+    "title": "Welcome to the Jangle (Fallacy): The Case of Statistics and Mathematics Anxieties",
+    "date_created": "2026-08-03T13:16:31.082016",
+    "date_modified": "2026-08-06T19:38:28.488497",
+    "description": "Background: Statistics-related anxiety is a common barrier to learning in higher education, particularly for psychology and other non-specialist students. High prevalence rates are concerning because statistical literacy is integral to academic success, employability, and informed citizenship. Clarifying the nature of statistics anxiety is central to understanding it, yet it remains unclear whether statistics anxiety is genuinely distinct from mathematics anxiety or simply another manifestation of the same construct.\n\nAims: We examined the degree of overlap (jangle fallacy) between the Statistics Anxiety Rating Scale (STARS) and the Revised Mathematics Anxiety Rating Scale (R-MARS).\n\nSamples: Two cohorts of UK undergraduate psychology students participated: Study 1 (n = 489) and Study 2 (n = 245).\n\nMethods: Each study combined a cross-sectional survey with a between-participants experiment. Surveys included the STARS, R-MARS, parallel forms to control for scale content, and measures of trait and state anxiety. In the experiment, participants were randomly assigned to complete either a statistics or mathematics multiple-choice test, with state anxiety measured before and after.\n\nResults:\nResults pointed to overlap across all analyses and samples. Scales were highly correlated, items did not separate into distinct domains, individuals rarely reported one without the other, and state anxiety increased similarly across test types.\n\nConclusions:\nFindings show that statistics anxiety, as measured by the STARS, is not distinct from mathematics anxiety, as measured by the R-MARS. Recognising statistics anxiety as part of the broader mathematics anxiety construct can streamline measurement, clarify theory, and support more effective interventions for reducing quantitative anxieties in education.",
+    "doi": "",
     "preprint_doi": "",
     "subjects": [
       [
@@ -178,8 +468,8 @@
           "text": "Quantitative Methods"
         },
         {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
+          "id": "5b4e7426c6983001430b6c59",
+          "text": "Psychometrics"
         }
       ],
       [
@@ -188,12 +478,100 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/s5zw2_v2/"
+  },
+  {
+    "osf_id": "2z3eu_v5",
+    "title": "The Behavioural Effects of Cash-Out Availability in a Naturalistic Betting Task: Results of a Randomised Experiment",
+    "date_created": "2026-08-03T12:44:35.713751",
+    "date_modified": "2026-08-06T21:47:43.669264",
+    "description": "Introduction: People place larger bets on risky events when they can cash-out before the bet concludes. This study experimentally investigates how cash-out availability impacts wider betting behaviour in a simulated betting task and whether risk of gambling problems moderates observed effects.\nMethod: An incentivised, between-participants online experiment (n=377; 70.8% males, 28.6% females; Mage = 39.9), where participants could place bets on horse races via a simulated bookmaker’s website. Participants were randomly assigned to either have the option of cashing-out their bets or not. We examined choices to engage with the gambling task, stake sizes and implied win probabilities of placed bets, and measured risk of gambling problems by administering the PGSI.\nResults: The cash-out group was more likely to choose the gambling task over a distractor game (χ²(1, N=377)=4.59, p=0.032) and engaged with the gambling task for longer than the no-cash-out group (β=0.61, SE=0.23, p=0.0077). The cash-out group also made larger bets (W=19761.5, p=0.021), though this finding was more nuanced. There was no effect of cash-out availability on the average odds of placed bets (W=10635.5, p=0.67). No significant interactions between cash-out availability and PGSI were observed for either the implied win probability of placed bets (β&lt;0.01, SE&lt;0.01, p=0.44) or stake size (β=-0.02, SE=0.02, p=0.15), though a subgroup analysis revealed groupwise differences in stake size within a low-PGSI (W=6909.5, p=0.0076, n=260) subgroup. No such difference was found in the high-PGSI subgroup (W=1699.5, p=0.89, n=117).\nConclusion: The provision of cash-out options in betting products results in significant changes in betting behaviour, which could potentially lead to increased risk of gambling harms.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7428c6983001430b6cb9",
-          "text": "Impression Formation"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf5",
+          "text": "Biases, Framing, and Heuristics"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfb",
+          "text": "Judgment and Decision Making"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/2z3eu_v5/"
+  },
+  {
+    "osf_id": "smev7_v1",
+    "title": "How we see relations: the case of containment and support",
+    "date_created": "2026-08-03T07:27:41.670329",
+    "date_modified": "2026-08-06T21:04:32.764516",
+    "description": "To navigate and act in the environment, it is necessary to recognize objects and the relationships between them. Recognition of objects in visual scenes is rapid and automatic. Are relations between objects in a scene also extracted rapidly and automatically during perception? Here, we considered containment and support, two relations that are fundamental to our understanding of the physical world. Using frequency-tagging electroencephalography (EEG) on human subjects, we measured stimulus-driven neural responses during rapid visual presentation of images (4 Hz), with a periodic oddball structure to isolate the selective response to object pairs presented side-by-side (e.g., a book and a table) versus two objects in support or containment relations (e.g., a book on a table). We found enhanced responses to objects in support/containment relations (vs. objects side-by-side) when a relation was instantiated by different exemplars of the same scene (e.g., a book on a table), but not by different scenes involving distinct object categories (e.g., a book on a table, a lamp on a stand, a laptop on a desk). These findings indicate that, during scene perception, relations are extracted in a format that generalizes within, but not across types of visual scenes. We propose that, during perception, relations are not represented as discrete, abstract tokens (“in” or “on”) but rather as objects’ properties, such that changes in the objects entail changes in the relational representation. These results provide new insight into the perceptual foundations of relational processing underlying physical reasoning.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
         }
       ],
       [
@@ -220,321 +598,19 @@
           "text": "Cognitive Psychology"
         },
         {
-          "id": "5b4e7429c6983001430b6cfb",
-          "text": "Judgment and Decision Making"
+          "id": "5b4e7429c6983001430b6cfe",
+          "text": "Concepts and Categories"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/rt8ux_v3/"
+    "link": "https://osf.io/preprints/psyarxiv/smev7_v1/"
   },
   {
-    "osf_id": "ck2r5_v3",
-    "title": "Noise in the process: Assessing the evidential value of mediation analyses in marketing and consumer psychology journals",
-    "date_created": "2026-04-03T17:20:39.684127",
-    "date_modified": "2026-04-04T11:06:25.651777",
-    "description": "Mediation analysis plays a central role in marketing research due to its usefulness in helping to explain complex processes. Like other forms of inference, mediation analyses are susceptible to false positive results. This is particularly true when analytic decisions are based on the data, rather than a priori hypotheses. To assess the collective evidential value of mediation analyses in marketing, we used an approach first implemented by Götz and colleagues (2021) that (1) measures the relative proximity of confidence intervals to zero (RP) and (2) aggregates a related set of RP scores into a single distribution. For our analysis, we compared the RP distribution of top marketing journals (2018-20) to simulations of low power, adequate power, and null effects. We also compared the marketing journals to real-world data from Journal of Personality and Social Psychology (JPSP) (2018-20). We found that, in terms of evidential value, mediation analyses in marketing substantially deviated from simulations of adequate power and JPSP but  were similar to simulations of low power and null effects. We propose study preregistration, corrections for multiple testing, and increased statistical power as solutions to increase evidence quality going forward.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c42",
-          "text": "Consumer Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c92",
-          "text": "Statistical Methods"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/ck2r5_v3/"
-  },
-  {
-    "osf_id": "bphrz_v2",
-    "title": "Simplified or Misunderstood? Rethinking How We Measure Americans’ Abortion Attitudes in the Post-Roe Era",
-    "date_created": "2026-04-03T17:17:20.799403",
-    "date_modified": "2026-04-04T11:07:04.822955",
-    "description": "Standard measures of abortion attitudes, such as the American National Election Survey’s four-point scale, do not capture public opinion on the dimensions that structure the post-Roe abortion policy landscape. While these traditional measures rely on broad, categorical distinctions, contemporary policy debates increasingly hinge on two specific factors: the reason for seeking an abortion and the gestational age of the fetus. To address this mismatch, I develop an original survey instrument that measures opinion along these dimensions. Using data from a large-scale survey (N = 69,752), I show that continuing to use the ANES scale introduces partisan-driven, nonrandom measurement error. Specifically, Democrats and Republicans who select the same ANES response hold systematically different policy preferences, and respondents with comparable policy preferences select different ANES answer choices depending on their partisanship—with Democrats anchoring their answers to a more permissive baseline. These findings underscore the risk of relying on broad-based attitudinal scales that do not evolve alongside the policy debates they are meant to capture.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/bphrz_v2/"
-  },
-  {
-    "osf_id": "4yr2d_v1",
-    "title": "How semantic seeds shape distributional learning: Evidence for semantic generalization over distributional categories",
-    "date_created": "2026-04-03T16:46:05.598690",
-    "date_modified": "2026-04-04T13:57:07.199573",
-    "description": "In three experiments, we investigated how a small vocabulary of meaningful words - a semantic seed - shapes distributional learning. Adults were exposed to an artificial language that mimicked Subject-Object-Verb word order and contained pseudowords organized into three distributional categories. Prior to exposure to this language, half of participants were taught the meanings of several Seed words, while the other half were trained only on the form of the same Seed words. Then all participants heard and read sentences from the language, containing both the Seed words and novel words, followed by a task assessing their semantic biases for the novel words. In Experiment 1, we found that learners can use novel words’ distributional histories to make inferences about their meanings, but only when they already had a semantic seed. Experiment 2 demonstrated that the benefit of semantic seeding is not merely the result of familiarity with particular Seed meanings. Experiment 3 showed that semantic seeds influence distributional learning by revealing semantic features of distributional categories, rather than by supporting interpretation of sentences containing semantic seeds. A grammar test in Experiment 3 provides evidence that learners, regardless of whether they have a Semantic Seed, engage in distributional analysis over all sentences. Thus, Semantic Seeds and distributional learning interact to enable learners to discover semantic features of distributional classes, which can be generalized to all words within a distributional class.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c62",
-          "text": "Linguistics"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/4yr2d_v1/"
-  },
-  {
-    "osf_id": "agkv5_v1",
-    "title": "Not All AI Use Is Equal: Socio-Emotional Engagement, Mental Health Risks, and the Protective Role of Emotion Regulation in Adolescents",
-    "date_created": "2026-04-03T15:22:28.806646",
-    "date_modified": "2026-04-04T18:27:08.366637",
-    "description": "Adolescents increasingly turn to AI chatbots for social and emotional support, yet the mental health implications of this trend remain poorly understood, particularly in real-world, naturalistic settings. The present study examined the prevalence and contextual correlates of socio-emotional AI engagement among adolescents, its associations with mental health outcomes, and whether emotion regulation ability moderates these associations. A large-scale survey was conducted with 2,500 high school adolescents (48.6% male; Mage = 15.42) in a less-developed region of China, where many adolescents lack adequate parental guidance and social support due to labor migration and limited institutional resources, and where AI literacy education has not yet been systematically implemented. Participants reported their AI usage across four functional domains (instrumental, informational, evaluative, and socio-emotional), their tendency to prefer AI over human interaction (AI-over-human preference), emotion regulation ability, and three mental health outcomes: depressive symptoms, anxiety symptoms, and self-injurious thoughts and behaviors (SITBs). Results showed that AI-over-human preference and socio-emotional AI use— but not instrumental, informational, or evaluative use — were positively associated with depression, anxiety, and SITBs. Both forms of socio-emotional engagement (AI-over-human preference and socio-emotional AI use) were more common among adolescents experiencing family disadvantage and peer victimization. Critically, emotion regulation ability moderated these associations. The mental health risks of socio-emotional AI engagement were pronounced among those with weaker skills, and substantially attenuated among adolescents with stronger regulation skills. These findings highlight the importance of distinguishing AI use by purpose rather than frequency, and identify emotion regulation ability as a key protective factor and potential intervention target for adolescents n",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cca",
-          "text": "Adolescence"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c93",
-          "text": "Health Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf6",
-          "text": "Mental Health"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/agkv5_v1/"
-  },
-  {
-    "osf_id": "cxz2d_v1",
-    "title": "Disorders of personality or disorders of relationships?  A comprehensive examination of two competing hypotheses on the nature of personality pathology",
-    "date_created": "2026-04-03T15:22:01.149092",
-    "date_modified": "2026-04-04T11:19:36.917361",
-    "description": "Contemporary perspectives view personality disorder as a disorder of either all aspects personality (that is, maladaptive ways of ‘thinking, feeling, behaving, and relating’) or mainly some aspects of personality (that is, maladaptive ways of ‘relating’). In this study, we examine these competing hypotheses by quantifying the diagnostic importance of 124 personality symptoms in three large representative samples of the United Kingdom population: namely, the Adult Psychiatric Morbidity Surveys of 2000 (APMS2000; N= 8,580), 2007 (APMS2007; N=7,403), and 2014 (APMS2014; N=7,546). To identify the most important diagnostic predictors, we regress diagnostic outcomes (presence vs. absence of personality disorder) on all DSM-IV personality symptoms: first in random forests and then in logistic regression models. Our results show that the strongest predictors of a ‘personality disorder’ diagnosis are self-harming, social suspiciousness, and intimacy problems (in APMS2000); self-harming, unstable relationships, conduct problems, and fears of abandonment (in APMS2007); social suspiciousness, impulsiveness, difficulty making and keeping friends, and being overly dependent on others (in APMS2014). These results support recent perspectives that view personality disorders as relational disorders by showing that their diagnosis is primarily determined by maladaptive ways of relating to oneself (e.g., self-harming) and others (e.g., intimacy problems).",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7424c6983001430b6c19",
-          "text": "Meta-science"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c5c",
-          "text": "Personality Disorders"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/cxz2d_v1/"
-  },
-  {
-    "osf_id": "9ucwa_v1",
-    "title": "Experiencing Discrimination Predicts Higher Body Mass Index Among Food Insecure Young Adults",
-    "date_created": "2026-04-03T14:51:54.452545",
-    "date_modified": "2026-04-04T18:52:01.248427",
-    "description": "Large scale epidemiological data suggests that exposure to childhood food insecurity increases risk for cardiometabolic diseases in emerging adulthood. Yet contextual factors during emerging adulthood that shape this association are not fully understood. Experiencing systemic barriers such as discrimination during emerging adulthood, a critical developmental phase may be an important contextual factor. Grounded in a syndemic framework, this cross-sectional study of emerging adults (n = 126) examined the link between childhood food insecurity, discrimination, and body mass index. Results showed that discrimination predicted higher body mass index only among emerging adults who endorsed childhood food insecurity, (β = 0.64, SE = 0.27, p = .02). Findings suggest that the health impact of discrimination appears to be amplified when emerging adults have experienced childhood food insecurity. Results underscore the importance of childhood food security in understanding emerging adult health amid stress experienced from discrimination.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/9ucwa_v1/"
-  },
-  {
-    "osf_id": "8tj7c_v1",
-    "title": "Clinically Meaningful Change Reconsidered: Introducing Reliable Response",
-    "date_created": "2026-04-03T14:51:29.405591",
-    "date_modified": "2026-04-19T20:15:23.267467",
-    "description": "Clinically meaningful change is a key concept in the evaluation of clinical psychological and\npsychiatric treatments. While status-based approaches, such as the Reliable Change Index\n(Jacobson &amp; Truax, 1991), test whether post-treatment scores fall outside the dysfunctional\nrange and whether change exceeds random fluctuations due to an imprecise measurement\ninstrument, they do not account for baseline severity. Response-based approaches (e.g., Leucht\net al., 2009), on the other hand, define improvement as the percentage symptom reduction from\nbaseline and are therefore clinically intuitive, but they typically ignore measurement error and\nmay misclassify random fluctuation as true improvement. Therefore, we propose a novel\napproach to clinically meaningful change, termed reliable response, which retains the clinical\ninterpretability of response while explicitly accounting for measurement error. Using two\nillustrative schizophrenia cases based on realistic score distributions of the Positive and\nNegative Syndrome Scale (PANSS) in dysfunctional clinical populations, we demonstrate that\ntraditional approaches can yield inconclusive results, whereas the reliable response approach\nenables evaluations that are both clinically plausible and statistically defensible. We provide a\nuser-friendly tool in the supplement to apply our approach, which we call\nthe Reliable Response Calculator (RRC). The tool allows users to determine whether observed\nsymptom improvements represent reliable meaningful responses. Although the RRC is\npreconfigured for the PANSS, it can be adapted to other instruments, facilitating application of\nthe reliable response approach across a wide range of clinical contexts.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7427c6983001430b6ca7",
-          "text": "Assessment"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/8tj7c_v1/"
-  },
-  {
-    "osf_id": "p4zut_v1",
-    "title": "Predicting Technology Acceptance:  Basic Psychological Needs as Important Determinants of Intentions to Use an AI Assistant",
-    "date_created": "2026-04-03T14:38:46.829672",
-    "date_modified": "2026-04-07T09:06:30.157452",
-    "description": "This study examines whether Basic Psychological Need (BPN) satisfaction, a core construct of Self-Determination Theory in motivational psychology, predicts acceptance of AI assistants. Satisfaction of the three basic psychological needs — autonomy, competence, and relatedness — has been shown to foster motivation, engagement, and well-being in domains such as work and education. Although BPN satisfaction has received some attention in technology acceptance research, its relevance may still be underestimated given the motivational nature of technology adoption and use. Using data from an online study with 883 participants, we investigated the predictive validity of BPN satisfaction for intention to use (ITU) an AI assistant for personal banking. Further, we assessed the predictive validity of BPN satisfaction in comparison with and in addition to the two core predictors of ITU in the classic Technology Acceptance Model (TAM): perceived usefulness and ease of use. Hierarchical linear regression analyses showed that BPN satisfaction explained substantial variance in ITU (70%), comparable to perceived usefulness and ease of use (73%), and accounted for additional variance beyond these two established predictors. Our findings identify BPN satisfaction as an important complement to established technology acceptance models and highlight its relevance for human-computer interaction research and the design of AI systems.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c1a",
-          "text": "Engineering Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c22",
-          "text": "Industrial and Organizational Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c42",
-          "text": "Consumer Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c45",
-          "text": "Psychology, other"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/p4zut_v1/"
-  },
-  {
-    "osf_id": "5vdaj_v2",
-    "title": "Reconsidering the Scope and Mechanisms of the Birth Order Effect on Sexual Orientation",
-    "date_created": "2026-04-03T14:32:33.080264",
-    "date_modified": "2026-04-09T16:18:23.140930",
-    "description": "Large-scale research in the past few years has confirmed the many previous findings that individuals with a greater number of older siblings (i.e., a higher birth order) have a greater probability of homosexuality. The birth order effect is now one of the best-established empirical findings in all research on human homosexuality. These studies have, at the same time, challenged the conclusion that the birth order effect is caused solely by older brothers and that its impact is limited to younger brothers. Rather, the available evidence now suggests that females are also, and perhaps equally, involved in the phenomenon. The newer findings, therefore, necessitate reconsideration of the hypothesis that the underlying mechanism involves a straightforward maternal immune response to male-specific (i.e., Y-chromosome-linked) fetal antigen. The present document argues that a maternal immune response of some kind nevertheless remains the most likely explanation of the birth order effect and suggests testable modified interpretations of the data.",
+    "osf_id": "h8um3_v1",
+    "title": "Impaired Interoception as a Pathway from Binge-Eating Severity to Self-Regulatory Dysfunction and Hedonic Food Responsiveness",
+    "date_created": "2026-08-02T02:58:59.245528",
+    "date_modified": "2026-08-06T20:12:17.789819",
+    "description": "Binge eating has been linked to alterations in interoceptive awareness, self-regulation, and hedonic responsiveness to food, yet the mechanisms connecting these domains remain incompletely understood. The present study examined differences in interoceptive awareness, executive functioning, and hedonic responsiveness to food across levels of binge-eating severity in a community sample of adults. Participants completed self-report measures assessing multidimensional interoceptive awareness, executive functioning, and food reward sensitivity, as well as a battery of neuropsychological tasks evaluating inhibition, cognitive flexibility, and decision-making. Structural equation modeling was used to compare five theoretically grounded alternative models describing the relationships among these constructs. Individuals with higher binge-eating severity showed greater hedonic responsiveness to food cues, higher levels of negative urgency, reduced perseverance, and greater self-reported executive difficulties, alongside lower interoceptive awareness across several dimensions. In contrast, performance-based neuropsychological tasks did not reliably differentiate binge-eating severity groups. Binge-eating severity was associated with hedonic food responsiveness both directly and indirectly through reduced interoceptive awareness and self-regulatory dysfunction. These findings suggest that binge-eating severity may be more strongly related to subjective and experiential aspects of self-regulation and bodily awareness than to deficits detected through classical neuropsychological tasks and point to interoceptive awareness as a transdiagnostic mechanism through which binge-eating severity may amplify hedonic food responsiveness via self-regulatory dysfunction.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -548,106 +624,16 @@
         {
           "id": "5b4e7425c6983001430b6c1e",
           "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/5vdaj_v2/"
-  },
-  {
-    "osf_id": "2qsv7_v2",
-    "title": "Reducing Load, Fostering Curiosity: Empirical Validation of the IMCLM-XR",
-    "date_created": "2026-04-03T14:24:11.128923",
-    "date_modified": "2026-04-07T18:46:53.857725",
-    "description": "Extended Reality (XR) is increasingly used in education, particularly in complex spatial learning domains such as neuroanatomy. Although prior research highlights XR’s potential to enhance engagement and improve learning, the cognitive and motivational mechanisms underlying these effects remain insufficiently understood. This study introduces the Integrative Model of Cognitive Load and Motivation in XR learning (IMCLM-XR), a theoretical framework combining Cognitive Load Theory with the Learning Progress Hypothesis to explain how XR technologies influence learning through the joint regulation of cognitive demands and curiosity-driven motivational processes.\nA total of 282 medical students were randomly assigned to one of three conditions: a traditional video-based lesson, an AR-guided drawing activity, or an interactive VR task. Using Bayesian structural equation modeling, results showed that both AR and VR significantly reduced extraneous cognitive load, while VR additionally reduced intrinsic cognitive load. Extraneous load negatively predicted both perceived learning progress and autonomy, which in turn positively predicted intrinsic motivation, revealing extraneous load as the primary cognitive mechanism through which instructional design shapes curiosity-driven engagement. Instead, extraneous load associated with lower perceived learning progress and autonomy, which in turn predicted intrinsic motivation, revealing a key mediating pathway.\nThese findings advance a unified theoretical perspective on XR-based learning by demonstrating that the motivational benefits of immersive technologies are not a direct product of novelty or immersion, but emerge from their capacity to reduce unnecessary cognitive demands, thereby creating the conditions under which learners can perceive progress, exercise autonomous engagement, and sustain intrinsic motivation. Implications for the design of cognitively and motivationally optimized XR learning environments are discussed.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
         },
         {
-          "id": "5b4e7426c6983001430b6c55",
-          "text": "Computational Modeling"
+          "id": "5b4e7425c6983001430b6c28",
+          "text": "Feeding and Eating Disorders"
         }
       ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8b",
-          "text": "Educational Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6ccf",
-          "text": "Learning Process"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cea",
-          "text": "Learning"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8b",
-          "text": "Educational Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6d00",
-          "text": "Learning Situation"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/2qsv7_v2/"
-  },
-  {
-    "osf_id": "4gs68_v2",
-    "title": "Capturing heterogeneity in levels, variability, and couplings across persons and time with a hierarchical time-varying coefficient formulation of the multivariate normal",
-    "date_created": "2026-04-03T12:43:08.685647",
-    "date_modified": "2026-04-04T18:14:24.209477",
-    "description": "Time-varying coefficient modeling (TVCM), which represents regression coefficients as smooth functions of continuous time, provides a flexible framework for uncovering complex patterns of change in levels and associations among variables in intensive longitudinal data. However, conventional TVCM remains limited to investigating directional effects across individuals. By introducing a TVCM formulation of the multivariate normal distribution, the present study extends TVCM to explore temporal dynamics in undirected associations (couplings) and variability, thereby broadening its utility for psychological research. We discuss three versions of this approach: an aggregate-level model and two hierarchical versions capturing interindividual differences in temporal dynamics, either via person-specific intercepts accounting for onset differences or through fully person-specific coefficient functions smoothed via partial pooling. To illustrate the proposed developments, we apply them to six weeks of intensive longitudinal data from 16 anxiety patients undergoing therapy, and examine unfolding changes in the level and volatility of nervousness and threat monitoring, the temporal dynamics of their coupling, as well as between-person heterogeneity in each of these. We further show how inspecting first-order derivatives of the coefficient functions supports identifying periods of stability and change. Finally, we discuss extensions incorporating person-level characteristics to explain heterogeneity in temporal dynamics and predict outcomes.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/4gs68_v2/"
-  },
-  {
-    "osf_id": "3nft9_v1",
-    "title": "Sex differences in executive functions in children with obesity",
-    "date_created": "2026-04-03T11:23:07.519846",
-    "date_modified": "2026-04-10T15:16:08.379957",
-    "description": "Obesity has been associated with executive functions (EF) impairments in both adults and children. Independent of obesity, age and sex have been associated with EF. Whether EF differ by sex in pediatric obesity remains understudied. \nThe study investigated sex-dependent differences in working memory, cognitive flexibility, inhibitory control, and planning abilities among 46 children with obesity using neuropsychological tests. Z scores were used to index the performances relative to normative data.\nOverall, children with obesity showed performances below the norms on some but not all domains and presented clinically meaningful decreased performances in working memory. Relative to boys, girls were less efficient in planning strategies and deviated more from the norms in that domain. Although the cross-sectional design of our study precludes any firm conclusion on causal relationships between obesity and EF, our findings suggest that sex could be an important factor to consider for optimizing treatment efficacy in pediatric obesity.  \nThe trial (number NCT03615274) was registered in ClinicalTrials.gov (https://clinicaltrials.gov/) on August 3, 2018.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -661,62 +647,8 @@
           "id": "5b4e7426c6983001430b6c38",
           "text": "Clinical Neuropsychology"
         }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c68",
-          "text": "Clinical Neuroscience"
-        }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/3nft9_v1/"
-  },
-  {
-    "osf_id": "7yfna_v1",
-    "title": "Self-Care Entitlement: Conceptualization and Psychometric Evaluation of a New Scale",
-    "date_created": "2026-04-03T10:58:36.251932",
-    "date_modified": "2026-04-06T10:08:33.363051",
-    "description": "Self-care is widely recognized as essential for health and everyday functioning, yet individuals vary substantially in their engagement in self-care, partly due to internal beliefs regarding the legitimacy of caring for oneself. The present research developed and provided an initial psychometric evaluation of the Self-Care Entitlement Scale (SCES), a self-report measure assessing perceived entitlement to allocate time, energy, and resources to one’s own well-being. The scale was theoretically grounded and developed through adapting established entitlement measures. Study 1 (N = 221) involved item development and exploratory factor analysis with parallel analysis, supporting a two-factor structure reflecting active and restricted self-care entitlement, with high internal consistency and good test-retest reliability. Study 2 (N = 407) employed confirmatory factor analysis, supporting the two-factor model, and examined construct validity. Active entitlement was positively associated with general entitlement, self-care behaviors, and life satisfaction. Restricted entitlement was negatively associated with self-care behaviors and life satisfaction. Findings support the SCES as a reliable and valid measure capturing internal authorization processes underlying self-care engagement.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/7yfna_v1/"
-  },
-  {
-    "osf_id": "6vkcg_v1",
-    "title": "Reframing Eating: Drivers, Influences, Environment, and Transitions (ReDIET) for a sustainable food system",
-    "date_created": "2026-04-03T08:28:15.967398",
-    "date_modified": "2026-04-05T16:02:20.531732",
-    "description": "Accelerating sustainability transitions in food systems and meeting climate change mitigation targets require fundamental changes in both production and consumption. Because research often focuses on either systemic or individual interventions, these approaches tend to fall short when used in isolation. System-level measures may overlook behavioral dynamics, while individual-focused interventions rarely scale to broader transformation. We introduce the ReDIET framework, a conceptual tool that makes explicit the interactions between system-level and individual-level drivers of sustainable dietary behavior. Drawing on insights from the natural and social sciences, the framework maps key push and pull factors and highlights how they relate across levels by integrating behavioral science with food system transition theory. ReDIET helps reveal how factors may reinforce or counteract each other. By making these relationships visible, it supports a more nuanced understanding of where interventions could be most effective in advancing sustainable food system transitions.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c42",
-          "text": "Consumer Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cd4",
-          "text": "Behavioral Economics"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/6vkcg_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/h8um3_v1/"
   }
 ]

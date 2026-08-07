@@ -1,73 +1,780 @@
 {
   "evaluated": 5,
-  "accepted": 0,
-  "rejected": 5,
-  "errors": 0,
-  "skipped": 0,
-  "deferred": 5,
+  "accepted": 2,
+  "rejected": 2,
+  "errors": 1,
+  "skipped": 3,
+  "deferred": 119,
   "results": [
     {
-      "osf_id": "3nft9_v1",
-      "title": "Sex differences in executive functions in children with obesity",
+      "osf_id": "f5bmt_v1",
+      "title": "\u201cI Had to Figure It Out Alone\u201d: A Qualitative Exploration of Fathers\u2019 Experience",
+      "decision": "error",
+      "reason": "LLM call failed"
+    },
+    {
+      "osf_id": "pvjme_v1",
+      "title": "Protocol for a small-scale mixed methods efficacy trial of a novel co-designed d",
       "decision": "reject",
-      "reason": "The paper focuses on children with obesity and executive functions, which falls under developmental psychology without direct adult clinical application. While it has some clinical relevance regarding obesity, the sample is exclusively children (9-12 years old) with no discussion of adult implications, making it inappropriate for the clinical psychology hub focused on practicing therapists, psychologists, or psychiatrists.",
+      "reason": "The paper focuses on a protocol for a trial with adolescents (11-15 years) with ADHD symptoms, which falls under the rejection criteria of being focused on children/adolescents without direct adult clinical implications.",
       "category": null
     },
     {
-      "osf_id": "qejzg_v2",
-      "title": "Children in War:  Attachment, Trauma, Support and Recovery",
+      "osf_id": "pvf39_v1",
+      "title": "Emotional Mirror: A Local Multimodal Generative Framework for Synthetic Memory R",
       "decision": "reject",
-      "reason": "Focuses on children/adolescents in war context without direct adult clinical implications",
+      "reason": "This paper focuses on AI/technology development for memory reconstruction, not clinical psychology practice or intervention. It describes a technical framework for generating visual representations of traumatic memories using AI, with no clinical data, patient outcomes, or therapeutic applications. The paper is primarily about machine learning architecture and computational methods, not clinical psychology practice, assessment, or interventions.",
       "category": null
     },
     {
-      "osf_id": "6vkcg_v1",
-      "title": "Reframing Eating: Drivers, Influences, Environment, and Transitions (ReDIET) for",
-      "decision": "reject",
-      "reason": "This paper focuses on food systems sustainability and environmental interventions rather than clinical psychology topics. It examines plant-based diets and food system transitions from a policy and systems perspective, not mental health assessment, diagnosis, therapy, or clinical interventions.",
-      "category": null
+      "osf_id": "kgr8t_v2",
+      "title": "Assessing Sensitivity in Youth as a Moderator of Psychopathological Outcomes Acr",
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
-      "osf_id": "sua3b_v1",
-      "title": "Do domain-general visual recognition abilities predict memory for when and where",
-      "decision": "reject",
-      "reason": "This paper focuses on basic cognitive psychology research examining visual recognition abilities and memory for spatial/temporal information, with no direct clinical application, intervention, or relevance to practicing clinicians.",
-      "category": null
+      "osf_id": "upvk3_v1",
+      "title": "The Perfect Storm Framework: A Testable Multi-Hit Model Linking Connective Tissu",
+      "decision": "accept",
+      "reason": "The paper directly relates to clinical psychology through its focus on neurodivergence (autism, ADHD), chronic illness, and mental health outcomes. It presents a testable framework for understanding how constitutional factors interact with environmental stressors to produce complex clinical presentations relevant to practicing psychologists.",
+      "category": "Neurodivergence",
+      "number": 886,
+      "authors": "Jessica Eccles; Nigel Cole; Hugo Critchley; Kevin Davies; Ihab Tewfik; Lisa Quadt; Kimia Witte; Ruchika Gajwani; Helen Minnis; Alessandro Colasanti",
+      "curated": true
     },
     {
-      "osf_id": "4yr2d_v1",
-      "title": "How semantic seeds shape distributional learning: Evidence for semantic generali",
-      "decision": "reject",
-      "reason": "This paper focuses on basic cognitive psychology research about language acquisition and distributional learning, with no clear clinical applications or relevance to practicing therapists, psychologists, or psychiatrists. The study examines how semantic seeds affect artificial language learning in adults, which falls under cognitive science rather than clinical psychology.",
-      "category": null
+      "osf_id": "6j5zr_v1",
+      "title": "What makes preventative psychosocial interventions acceptable to young people ex",
+      "decision": "accept",
+      "reason": "The paper examines acceptability factors for preventative psychosocial interventions for young people with ACEs, which is highly relevant for clinical psychology practice in prevention and early intervention.",
+      "category": "Trauma & Stressor-Related",
+      "number": 887,
+      "authors": "Tom Jenkins; Jeffrey Lambert; Chloe Hampshire; Tom Freeman; Sarah Halligan; Lisa Price`; Caledonia Swindells-Macleod; Pamela Jacobsen",
+      "curated": true
     },
     {
-      "osf_id": "p4zut_v1",
-      "title": "Predicting Technology Acceptance:  Basic Psychological Needs as Important Determ",
+      "osf_id": "cs52x_v1",
+      "title": "A Test of the 2 \u00d7 2 Model of Perfectionism in Predicting Distress among Licensur",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "rt8ux_v3",
-      "title": "Who knows what? Bayesian Competence Inference guides Knowledge Attribution and I",
+      "osf_id": "bdvms_v2",
+      "title": "Peer work interventions for young people navigating hospital services: A systema",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "e3qg7_v3",
+      "title": "Conversational AI Should Fill the White Space in Mental Health Care, Not Replace",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "bphrz_v2",
-      "title": "Simplified or Misunderstood? Rethinking How We Measure Americans\u2019 Abortion Attit",
+      "osf_id": "g796a_v1",
+      "title": "Work-focused Cognitive Behavioural Therapy for patients on sick leave due to str",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "5vdaj_v2",
-      "title": "Reconsidering the Scope and Mechanisms of the Birth Order Effect on Sexual Orien",
+      "osf_id": "pyg2n_v4",
+      "title": "Cognitive performance in young and middle-aged adults with obesity: a systematic",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "j6xz3_v1",
+      "title": "\u2018It is my life don\u2019t take that choice from me\u2019: Autistic young adults\u2019 experienc",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
     {
-      "osf_id": "2qsv7_v2",
-      "title": "Reducing Load, Fostering Curiosity: Empirical Validation of the IMCLM-XR",
+      "osf_id": "7pdx9_v2",
+      "title": "Personality trait and state associations with cognitive functioning and variabil",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "c63zv_v2",
+      "title": "Beyond awareness: A multidimensional meta-analysis on the nuanced relationship b",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "gd35j_v1",
+      "title": "Relationships between salivary oxytocin levels in infants, age and caregiving pr",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "mer3s_v1",
+      "title": "Artificial Intelligence as a Mental Health Support Tool, Not a Therapist: Implic",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "25c4h_v1",
+      "title": "Conversational AI and Emerging Psychosis: A Simulation Study of Potentially Iatr",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "gct58_v2",
+      "title": "Cognitive resources can be intentionally released when processed information bec",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "39gwa_v2",
+      "title": "The cost of scrutiny: subclinical social anxiety and performance context reshape",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "5n6df_v2",
+      "title": "Stressed out! Not working out? Relationship between momentary stress and physica",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ykt3e_v2",
+      "title": "Environmental Influences using Linked External Data in ABCD: A Review of the Fir",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "c2mxn_v1",
+      "title": "Spontaneous thought as attentional competition",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "35htu_v1",
+      "title": "Testing the Alliance and Cognitive Change as Simultaneous Processes of Change in",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ad5qy_v4",
+      "title": "Statistical learning and rhythmic ability in Attention-Deficit/Hyperactivity Dis",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "86c4n_v1",
+      "title": "Reimagining Care for Community Members Who Use Substances:  An Application of th",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "26n9d_v2",
+      "title": "Parenting Behavior in Relation to Children's Socio-Emotional Skills: A Latent Pr",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "cnkyz_v4",
+      "title": "An integrative framework for the human sense of control",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "cp6xz_v1",
+      "title": "Asymmetric temporal dynamics in the relationship between social media use and ad",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "5mwte_v1",
+      "title": "Prepping for School: Parent\u2013Child Neural Synchrony  During Guided Preschool Lear",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "b4z9f_v2",
+      "title": "Reinforcement learning underlies social connection and memory in a friendship de",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "6wspu_v1",
+      "title": "Neuropsychological assessment of executive functions in Argentina: a systematic ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "3462s_v1",
+      "title": "Historical Stereotype Change is Tied to the Entry and Exit of Distributed Group ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ebf5y_v1",
+      "title": "Queer Individuals Perception of Heteronormativity in Literature and the Developm",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "g5dyt_v1",
+      "title": "A Mixed Methods Study Clarifying Clinicians\u2019 Definitions of Harm Reduction and R",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "uvgs5_v1",
+      "title": "Rethinking the depression narrative in menopause research: Delineating the role ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "9a6p4_v1",
+      "title": "Unified Definition of Psychological Stress and the Cognitive Integration Model",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "k6jeh_v2",
+      "title": "Assessing Parent and Youth Perceptions of Attachment:  Validation of the Adolesc",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "dvq5s_v3",
+      "title": "Activities, Motivational Congruence, and Well-Being:  Cross-Sectional and Longit",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "hg2ka_v2",
+      "title": "Detecting political misinformation: A boosting intervention tested on Donald Tru",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "x256n_v1",
+      "title": "SHAP-Interpretable Random Forest Classification of Obsessive-Compulsive Disorder",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "brgz6_v2",
+      "title": "Losing Focus Behind the Wheel: Psychometric Adaptation of the Attention\u2011Related ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "y2qnb_v3",
+      "title": "Beyond Reciprocity: Common Knowledge of Social Identity Enhances the Intrinsic V",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "quxta_v2",
+      "title": "Learning to Care More About Distant Others:  A Systematic Moral Reflection Inter",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "fp2dy_v1",
+      "title": "The Algebra of Experience - Recursive Semantic Operator Theory",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "p4erb_v1",
+      "title": "What Adolescents Do and See on Social Media: An Experience Sampling Study of Soc",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "txf2e_v1",
+      "title": "Same Tool, Different Work: Patterns of Generative AI Use and Academic Outcomes",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "4v7pe_v1",
+      "title": "The BRIMMER test: The bounds of the Standard Deviation under constraints",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "f38rv_v1",
+      "title": "Mindfulness Promotes Adaptive Meaning-Making about Difficult Experiences in Intr",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "4xprk_v2",
+      "title": "Effect of meditation across scales: Integrating metabolism, circadian rhythm and",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "upvd5_v1",
+      "title": "Workplace Spirituality and Academic Achievement in Business Schools: The Mediati",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "x5gyq_v2",
+      "title": "Psychometric Properties of the Highly Sensitive Child Scale and Its Role in Soci",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "u2nvy_v1",
+      "title": "Bounded Psychological Change: Why Identity Preservation Constrains Experimental ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "96q45_v1",
+      "title": "Digital (self-)nudging: A framework for a continuum of user agency",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "awuq5_v1",
+      "title": "Intention to Participate in Wheelchair Sports Groups Among Individuals With Phys",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ywh9e_v1",
+      "title": "Disentangling sociality and communicative meaning in EEG correlates of feedback ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "dyj3c_v3",
+      "title": "Autistic children and adolescents have difficulty perceiving speech in social an",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "s7ujg_v2",
+      "title": "Future-oriented action interventions promote personal and civic climate action",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "k8mjf_v1",
+      "title": "Visuospatial features influencing the evaluation of two-body interactions",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "235kr_v1",
+      "title": "Linguistic diversity as a two-step process: Grounding polysemy in universal neur",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "nytj8_v1",
+      "title": "Self-regulation shapes who benefits from large language models",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "8xr5b_v1",
+      "title": "Pupil Dynamics Are Associated with Individual Differences in Visual Time-Reprodu",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "54rqt_v1",
+      "title": "The Impact of Complexity on Risky Choices: An Evidence Accumulation Account",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "qr9zt_v2",
+      "title": "Weak Links between Speech Perception and Speech Production at the Subphonemic Le",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "dehtv_v2",
+      "title": "Sparse Residual Estimation in Partially Confirmatory Factor Analysis",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "knzyb_v1",
+      "title": "Seeing the world through others' minds: Determining the role of executive functi",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "6tyqw_v1",
+      "title": "Human-Supervised LLM-Assisted Mapping of Educational Research at Scale: A Mathem",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ertzx_v2",
+      "title": "AI-Faces by Illinois: A Database of AI-Generated Faces Depicting Children",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "q2rjd_v2",
+      "title": "Friends and strangers engage in distinct regimes of body motion synchrony during",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "xcuge_v1",
+      "title": "Open science in a contentious field: How transparent is research on social media",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "vdhfu_v1",
+      "title": "Measuring U.S. and Kenyan children\u2019s vocabularies using object, photograph, cart",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ke927_v1",
+      "title": "Inconclusive prospective effects between problematic social media use and attent",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "7jc3t_v1",
+      "title": "Very little data tampering is needed to produce statistically significant result",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "s6a93_v1",
+      "title": "Emoticon variation: Noses and rotations do not alter meaning, but mouths and mir",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "2f4sk_v1",
+      "title": "A guide to evaluating LLM-based extraction and judgement tools",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "9ehbn_v2",
+      "title": "Human or AI? An Interpretable Method for Auditing  Free-Text Data in Online Psyc",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "zxmy9_v1",
+      "title": "Brief and simultaneous assessment of delay, probability, and joint delay\u2013probabi",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "vewcg_v1",
+      "title": "Unpacking Human Decision Strategies during AI-aided Decision-making",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "yncmv_v1",
+      "title": "Culture shapes cognition and motives in early social interactions",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "gcn7f_v2",
+      "title": "Building Science Identity Through University-High School Partnerships: A Mixed-M",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "b3svz_v1",
+      "title": "The developmental dynamics of bilingual spelling:  Longitudinal and intervention",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "264wx_v1",
+      "title": "Functional Brain Activation during Statistical Learning is Related to Rapid Auto",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "hr7w4_v1",
+      "title": "The Role of Temperament and Personality Traits in the Development of ADHD from L",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "tm23d_v1",
+      "title": "Two temporally distinct prediction stages overlap under moderately faster speech",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "25nu8_v1",
+      "title": "Multilevel Reward Prediction Errors Drive Emotional Valence During Perceptual De",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ng9mh_v1",
+      "title": "When and why stimulus repetition does not lead to learning",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "a42c6_v2",
+      "title": "Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replicat",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "9rjk8_v1",
+      "title": "Statistical learning generalizes across phonological context and transfers to vo",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "8jx4u_v2",
+      "title": "Large Language Models Reveal the Content and Consistency of Suicidal Thoughts: A",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "d6ahj_v1",
+      "title": "Cracking the multidimensionality of cognition with cross-domain transfer",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "uh57f_v1",
+      "title": "Investigating the effect of text appearance on visual search for typos",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "g5njb_v1",
+      "title": "Music was my first love: Biographic resonance makes everyday music listening mea",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "sjtp3_v1",
+      "title": "Effect-Based Assessments of Intergroup Comparability  \u2013 The Practical Impact of ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ym2kp_v1",
+      "title": "Effects of a Neuroticism Intervention Over One Year",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "rbyu4_v1",
+      "title": "The Role of Individual Differences in the Effects of PC and VR Simulations on El",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "e9zrw_v1",
+      "title": "The Sensitivity of Rasch Tree DIF Detection to Model Misspecification",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "dm8yu_v1",
+      "title": "The crossword effect: A recall advantage for words encoded in alignment with the",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "qubzv_v1",
+      "title": "Growth Trajectory Profiles of Self-concept of Abilities, Intrinsic Value, Utilit",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "nghtc_v1",
+      "title": "Identifying Acoustic Characteristics for Disgust-Related Musical Stimuli",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "fvxwr_v1",
+      "title": "Some psycholinguistic effect sizes are larger in the lab than on web-based platf",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "hv3wm_v2",
+      "title": "Illusion of control, gambler\u2019s fallacy, or neither? Testing key models of gambli",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "n3h95_v1",
+      "title": "When Is Complexity Avoided in Risky Choice? A Domain Comparison of Gains and Los",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "vxgyu_v1",
+      "title": "Intra-decisional Dynamics Shape the Influence of Attributes on Value-based Choic",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "fsqxg_v1",
+      "title": "The Impact of Social Learning on Learning Traps",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "zacnu_v1",
+      "title": "Characterizing the functional characteristics/rules governing extended cognition",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "9gv3e_v1",
+      "title": "Theory of Mind and Body: Interoceptive Accuracy Predicts Accurate Intuitions of ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "5n4zr_v1",
+      "title": "A Hierarchical Dynamical Model of Learning, Forgetting, and Relearning",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "r69hk_v2",
+      "title": "A Crisis of Unverifiable Data: IP Analyses May Be Key to Ensuring Data Integrity",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "cjv3g_v1",
+      "title": "Algorithmic Grammar of Flexible Cognition: A Walk through Latent Operations",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "m4qxv_v1",
+      "title": "Item-dropping to improve in-sample Cronbach's alpha can harm true reliability: A",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "qdxwc_v2",
+      "title": "A movement-suppression perspective of cognitive effort during listening",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "tm85k_v2",
+      "title": "Reward, Affiliative, and Dominance Smiles are Categorized More Accurately when D",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "f4ypz_v1",
+      "title": "From RI-CLPM to panelGVAR: Evaluating Stationarity in Network Modeling of Panel ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "vz3mc_v1",
+      "title": "The Humorous Hill: A U-shaped Relationship Between Humor and Quality",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "esypr_v2",
+      "title": "Social sages: Popularity as a distinct form of social status emerging in middle ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "g8k6w_v1",
+      "title": "Increased pupil dilation in autistic adults during a naturalistic audiobook-in-n",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "xhtbm_v1",
+      "title": "Authoritarianism in American Conservatives and Liberals Before and After January",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "723nq_v1",
+      "title": "Free will: Theory and Practice",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ksqb4_v3",
+      "title": "No evidence for attentional prioritization in visual working memory through stat",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "2hf86_v2",
+      "title": "Accounts Balanced: The Contingent Role of Rhetoric in Who Survives Political Sca",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "6kvp3_v1",
+      "title": "Surprised\u2013Curious\u2013Confused, Empathetic, and Entertained? The Role of Epistemic E",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "p2zvf_v1",
+      "title": "Complex systems approach to social science",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "46mzt_v1",
+      "title": "A Practical Playbook for Using AI Link Building Software Without Losing SEO Cont",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "6jdms_v3",
+      "title": "Stability and Change of Spirituality following Childbirth: Longitudinal Evidence",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "3xkb2_v1",
+      "title": "The Positively Reconstructed Self-Voice: The Mental Representation of One\u2019s Own ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "by2a7_v2",
+      "title": "Time to Divest?: Perceived Inconsistencies between universities\u2019 environmental p",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "hskng_v1",
+      "title": "Resolving Phonological Uncertainty in Reading: Orthography-to-Phonology Computat",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "6y4fj_v1",
+      "title": "Cardiac and Respiratory Dynamics Modulate Temporal Interval Judgments",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     }
