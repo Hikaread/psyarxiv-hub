@@ -97,6 +97,35 @@
     "signal_score": 10
   },
   {
+    "osf_id": "kzt7j_v1",
+    "title": "The vegetative state is not a state of mind",
+    "date_created": "2026-08-06T09:42:06.141514",
+    "date_modified": "2026-08-07T04:21:39.099580",
+    "description": "The discovery of covert consciousness (CC) and cognitive motor dissociation (CMD) has revealed a conceptual inconsistency at the heart of disorders of consciousness (DoC) nosology. Advanced neuroimaging and electrophysiological studies have demonstrated that behavioral unresponsiveness does not necessarily imply the absence of consciousness or cognitive capacity, yet contemporary diagnostic categories continue conflating responsiveness with consciousness itself. This conflation is embedded throughout DoC nomenclature, where behavioral syndromes such as the vegetative state (VS) and minimally conscious state (MCS) transform observations of what patients do (or do not do) into inferences about what they experience (i.e., their state of mind). We argue that this category error now impedes the translation of over two decades of scientific advances into a coherent clinical framework. First, it has fostered the widespread but incorrect conflation of covert consciousness (CC) and cognitive motor dissociation (CMD), despite the fact that the two concepts identify different patient populations and may carry distinct implications for diagnosis, prognosis, and treatment. Second, it renders contemporary DoC nosology incapable of coherently incorporating modern neuroimaging and electrophysiological findings. Because the absence of consciousness is an entrenched, definitional component of the vegetative state (VS), its behavioral phenotype cannot be reconciled with covert neurophysiological phenotypes such as CC and CMD. As a result, current nomenclature impedes the development of a phenotype-endotype framework in which bedside behavioral classifications are complemented by biologically informed categories derived from advanced neuroimaging and electrophysiological assessments. We trace the origins of this problem to a historical shift whereby the definitions of vegetative state and minimally conscious state evolved from descriptions of observable behavior into claims about a pat",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c21",
+          "text": "Life Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c68",
+          "text": "Clinical Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/kzt7j_v1/",
+    "signal_score": 9
+  },
+  {
     "osf_id": "kgr8t_v2",
     "title": "Assessing Sensitivity in Youth as a Moderator of Psychopathological Outcomes Across Contexts",
     "date_created": "2026-08-04T14:35:07.284678",
@@ -1416,6 +1445,39 @@
       ]
     ],
     "link": "https://osf.io/preprints/psyarxiv/h8um3_v1/",
+    "signal_score": 5
+  },
+  {
+    "osf_id": "r3zhp_v1",
+    "title": "Subjective effects of flicker light do not differ between open- and closed-eye viewing",
+    "date_created": "2026-08-06T01:55:34.650443",
+    "date_modified": "2026-08-07T04:13:21.624273",
+    "description": "Flicker light stimulation shows promise for inducing visual imagery, altered states of consciousness, and changes in arousal, with potential applications in relaxation and imagery-based therapeutic interventions. However, optimal utility depends on identifying how viewing conditions shape subjective and physiological outcomes. We examined whether eye condition (open, closed) modulates subjective and autonomic responses to 15 Hz audiovisual flicker. Methods. In a preregistered mixed-design experiment, 68 participants were assigned to eyes-open or eyes-closed conditions and completed two 10-minute tasks: a 15 Hz visual flicker with white noise and a passive rest control. Measures included visual imagery, altered consciousness, relaxation, and skin conductance level (SCL) as an index of physiological arousal. Results. Bayesian analyses supported no difference between eye conditions in ratings of visual imagery, altered consciousness and relaxation. Flicker increased SCL and decreased ratings of relaxation compared to control, however free reports indicated variable tension and relaxation responses. Across tasks and eye conditions, SCL exhibited a logarithmic habituation pattern. Greater reductions in SCL over time occurred for eyes closed compared to eyes open, however, SCL was not related to any subjective measures. Implications. Eye condition impacted the physiological but not phenomenological effects of flicker. Flicker protocols may be implemented flexibly across eye conditions without meaningfully altering subjective outcomes, supporting use in both experimental and applied settings. Relaxation during flicker may depend on individual characteristics. The logarithmic habituation of SCL suggests that autonomic responses to flicker diminish with continued exposure, which may inform stimulation duration in experimental and therapeutic applications.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c7d",
+          "text": "Physiology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/r3zhp_v1/",
     "signal_score": 5
   },
   {
@@ -2989,6 +3051,33 @@
       ]
     ],
     "link": "https://osf.io/preprints/psyarxiv/de6bu_v1/",
+    "signal_score": 3
+  },
+  {
+    "osf_id": "8psd9_v2",
+    "title": "Validating local open-weight LLMs against expert raters for graded deductive coding of open-ended responses in Russian",
+    "date_created": "2026-08-06T23:48:18.200567",
+    "date_modified": "2026-08-07T08:24:30.959497",
+    "description": "Large language models (LLMs) are increasingly used to code open-ended survey responses, but their validity against expert annotation remains uncertain, especially outside English. We evaluated four open-weight LLMs for deductive coding of Russian responses from a psychological human-robot interaction experiment (N = 33): DeepSeek-R1-32B, Qwen3-32B, Gemma3-27B, and Mistral-Small-3.2-24B. Ten psychology-trained coders provided a graded expert reference for seven predefined codes. Each model was run under singular-code prompts, an exploratory conservative variant, and fixed-sequence prompts mirroring the expert memo, with ten repeated runs aggregated into graded code-presence estimates. Agreement was assessed with graded concordance, calibration, human-equivalence, and threshold-sensitivity diagnostics. The strongest configurations by concordance — DeepSeek-R1-32B with singular-code prompting (CCC = 0.71) and Qwen3-32B with fixed-sequence prompting (CCC = 0.69) — reached agreement with the expert aggregate comparable to the disagreement among individual experts, although both relied on reasoning mode, which was confounded with model identity. Several models over-attributed codes relative to experts, and prompt format and aggregation strategy materially affected agreement. We recommend validating LLM coding as a measurement procedure, with reported calibration and uncertainty, rather than as automatic expert replacement in small applied psychological datasets.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7428c6983001430b6caf",
+          "text": "Quantitative Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/8psd9_v2/",
     "signal_score": 3
   },
   {
@@ -4824,6 +4913,273 @@
     "signal_score": 2
   },
   {
+    "osf_id": "pyuxn_v2",
+    "title": "Revealing implicit social bias through EEG-informed generative AI.",
+    "date_created": "2026-08-06T23:26:22.675737",
+    "date_modified": "2026-08-07T04:30:13.657961",
+    "description": "Social biases can shape rapid judgements of others, but social desirability and limited self-awareness make these biases difficult to measure. We tested whether electroencephalographic (EEG) responses to faces could provide implicit feedback for generating visual prototypes of political leadership. Forty adults were recruited, of whom 38 provided analysable EEG data. Participants viewed 300 AI-generated faces during rapid serial visual presentation while attending to faces they would vote for, and subsequently provided explicit yes/no votes that were used to label image-locked EEG epochs. An EEGNet ensemble classified later-voted versus non-voted faces, and its predictions guided a pretrained StyleGAN3 model to generate participant-specific and multi-participant BrainVote faces. Twenty returning participants evaluated these faces and label-shuffled matched controls in a mock election two months later. Classification exceeded permutation baselines for 36 of 38 participants. BrainVote faces were preferred to matched controls, and 80% of returning participants voted for the face generated from their own EEG responses. Aggregation across participants produced increasingly homogeneous prototypes characterised by senior and masculine features, with stronger patterns among participants with larger gender-career Implicit Association Test scores. EEG-informed generative AI can therefore visualise sample-level implicit leadership associations while revealing how aggregation may amplify demographic stereotypes.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/pyuxn_v2/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "vau7y_v1",
+    "title": "Personality Prediction from Moments to Lifetimes",
+    "date_created": "2026-08-06T22:47:35.272549",
+    "date_modified": "2026-08-07T04:26:07.075619",
+    "description": "Personality is robustly linked to long-term outcomes, yet predicting momentary behavior (i.e., who does what, when, and where) remains challenging. We argue that personality and its outcomes can be understood at multiple levels within an emergent hierarchy, and that prediction requires identifying what level(s) is most informative for a given target. Broad traits reliably predict distal outcomes such as cognitive aging and mortality but reveal little about underlying processes. Within-person patterns capture shorter-term regularities, though heterogeneity is often overlooked. Momentary processes unfold as complex, multivariate systems that support personalized prediction but challenge generalization. We therefore propose a bottom-up integrative framework that derives comparable features from person-specific dynamics and tests whether they predict outcomes at other levels. Emerging evidence suggests that such features can bridge levels and support more integrative, explainable prediction.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c39",
+          "text": "Theory and Philosophy of Science"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c45",
+          "text": "Psychology, other"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vau7y_v1/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "5t6cv_v2",
+    "title": "Coping With Complexity: A Selective Sampling Account of Consideration Set Formation for Product Bundles",
+    "date_created": "2026-08-06T10:51:01.139137",
+    "date_modified": "2026-08-07T04:23:39.435660",
+    "description": "Consumers frequently encounter a variety of products to choose from, and these products are often complex bundles of multiple components. To simplify decisions, consumers sometimes consider only a subset of the products on offer—the consideration set. We propose a selective sampling account of consideration set formation, according to which consumers probabilistically sample information from within each bundle when deciding which alternatives to consider. Converging evidence from six studies and computational modeling shows that consideration set inclusion is shaped by the distribution of values across bundle components, even when total value is similar. Consumers favored bundles with attractive values on highly relevant components, but they also favored bundles with attractive values on less relevant components when those components were made salient by their spatial position in the display, with downstream consequences for the final choice. Importantly, traditional compensatory and non-compensatory models cannot fully capture this behavior. We conclude that consumers cope with complexity by disregarding seemingly less relevant or less salient information, thereby biasing consideration toward bundles with attractive features on the items most likely to be attended to. This suggests a counterintuitive managerial implication: highlighting high-value but less relevant components in the bundle may be especially effective because consumers may otherwise overlook them while selectively paying attention to more relevant components.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c42",
+          "text": "Consumer Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cbd",
+          "text": "Consumer Decision Making"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/5t6cv_v2/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "w4hbu_v2",
+    "title": "Varieties of generalization inspired by Pavlov’s legacy",
+    "date_created": "2026-08-06T07:31:54.176246",
+    "date_modified": "2026-08-07T04:20:57.883304",
+    "description": "In this selective review, we summarise recent studies from our laboratory in which we have assessed the effect of different variables (such as contiguity and contingency) on the generalization of prior learning. Much of this work was inspired by Pavlov’s work in which it was first documented that trace conditioning can broaden generalization, a finding that we have replicated in human participants. We then describe studies in which we have assessed whether the affective valence of stimuli and outcomes can affect generalization, and we find that indeed human participants can generalize across the valence of stimuli and this can interact with different outcomes. Finally, we review a study in which we assessed whether changes in a response-produced safety signal can influence avoidance and conclude that it does. We also observed that this generalizes and this depends on the similarity between trained and tested safety signals (i.e., outcomes). Overall, we conclude that generalization is a much more complex phenomenon than previously thoughts, and that more research is needed to understand this phenomenon and make it amenable to current theorising.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c7e",
+          "text": "Animal Learning and Behavior"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/w4hbu_v2/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "vm356_v1",
+    "title": "Confirmatory Matrix Factorization",
+    "date_created": "2026-08-06T02:54:15.290964",
+    "date_modified": "2026-08-07T04:12:16.578105",
+    "description": "Recent advances in assessments have challenged traditional psychometric methods in analyzing high-dimensional sparse data and achieving accurate predictions. Meanwhile, machine learning methods, such as Matrix Factorization (MF) sharing similarities with the common factor model, show promising potential for addressing those challenges but lack interpretability. To fill this gap, we propose Confirmatory Matrix Factorization (CMF) as a computational psychometric method based on MF and compare it to Confirmatory Factor Analysis (CFA) and Confirmatory Penalized Factor Analysis (CPFA). The comparison is based on 48,600 data sets generated by the common factor model under various characteristics, alongside two real data sets. The results show that CFA and CPFA struggles with non-convergence in high-dimensional sparse data, whereas CMF performs effectively with high computation efficiency. CMF generally outperforms CFA and CPFA regarding prediction performance in most cases. CMF can successfully recover factor loadings and the estimated factor scores from three methods are comparable. Additionally, missing values negatively affect the performance of the three methods. Overall, CMF can be an interpretable and robust alternative to CFA and CPFA, particularly in emerging assessments where CFA and CPFA is less effective.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c59",
+          "text": "Psychometrics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vm356_v1/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "hwbuf_v1",
+    "title": "Autobiographical Recollective Style in Grapheme–Color Synesthesia: Overlap with Fantasy Proneness and Multisensory Imagery",
+    "date_created": "2026-08-07T03:07:51.622850",
+    "date_modified": "2026-08-07T08:26:17.940462",
+    "description": "Although more vivid mental imagery and subjectively richer individual autobiographical memories have been reported in\nsynesthetes, whether synesthesia is associated with a trait-like autobiographical recollective style governing how individuals\ntypically recollect their personal past remains unclear. We compared 27 participants operationally classified into a grapheme–\ncolor synesthesia group through large-scale screening with 30 controls selected through individual matching on age and sex.\nAutobiographical recollective style was assessed using the Japanese version of the Autobiographical Recollection Test (ART-\nJ), and we examined the extent to which group differences overlapped with Big Five personality traits, fantasy proneness,\nand multisensory imagery vividness. The synesthesia group scored higher than the control group on the ART-J total score\nand all seven subscales. The group coefficient was not substantially attenuated in a model that included the five Big Five\ntraits. By contrast, adding fantasy proneness and multisensory imagery significantly increased the explained variance and\nsubstantially attenuated the point estimate of the group coefficient. These findings suggest that the characteristics of the\ngrapheme–color synesthesia group extend beyond visual imagery to a broad subjective autobiographical recollective style\nencompassing scene construction, reliving, rehearsal, and integration into a life story, and that this group difference partly\noverlaps with broader characteristics of inner experience.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6ca5",
+          "text": "Memory"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf0",
+          "text": "Imagery"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf8",
+          "text": "Consciousness"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/hwbuf_v1/",
+    "signal_score": 2
+  },
+  {
+    "osf_id": "n9f7j_v1",
+    "title": "Audioaufnahmen von Entscheidungsgesprächen in der Geburtsplanung bei Beckenendlage – Evaluation von Akzeptanz, Relevanz und Umsetzbarkeit einer perso-nenzentrierten Intervention",
+    "date_created": "2026-08-04T11:49:38.702534",
+    "date_modified": "2026-08-07T11:16:35.217121",
+    "description": "In around five percent of pregnancies, the baby is in breech presentation at term, meaning that the buttocks or feet are positioned downward instead of the head. In Germany, a cesare-an section is performed in 87% of these cases. Many of these procedures are planned, alt-hough there is not always a clear medical indication. At the same time, many pregnant wom-en wish to receive comprehensive and understandable counseling in order to make an in-formed decision together with their healthcare professionals about whether to attempt an ex-ternal cephalic version before birth or about the mode of birth itself (vaginal birth or cesarean section). These decisions are considered “preference-sensitive” because personal wishes, fears, experiences, and life circumstances play an important role. \nThe PregAUDIO pilot project, led by Dr. Anja Lindig, examined the attitudes of 23 pregnant women and 5 gynecologists toward a person-centered intervention – namely, audio record-ings of birth planning consultations at BEL. Only 7 participants listened to the audio recording at home. In interviews, pregnant women and gynecologists expressed support for audio re-cordings as part of birth planning. However, the pregnant women found the recording to be of little relevance to their own decision, as they remembered the content of the conversation well, their partner was present during the conversation, or the decision had already been made during the conversation. When the recording was listened to, it mostly served to con-firm a decision that had already been made. Gynecologists expressed concern regarding possible legal consequences of recorded counseling sessions. \nThe Decisional Conflict Scale used showed that the pregnant women’s decision conflict de-creased significantly between t0 and t1 and continued to decrease slightly to t2. Pregnant women rated PEF as very high during the counseling session. However, the objectively measured extent of PEF (measured using the Observer OPTION 5 TM o",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/n9f7j_v1/",
+    "signal_score": 2
+  },
+  {
     "osf_id": "dm8yu_v1",
     "title": "The crossword effect: A recall advantage for words encoded in alignment with their spatial associations",
     "date_created": "2026-08-05T09:33:30.443453",
@@ -6108,6 +6464,204 @@
       ]
     ],
     "link": "https://osf.io/preprints/psyarxiv/2z3eu_v5/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "wjrxt_v1",
+    "title": "Trajectory elevation in reach-to-grasp movements under increased arm weight and repeated trials",
+    "date_created": "2026-08-07T01:50:30.762264",
+    "date_modified": "2026-08-07T04:32:00.977309",
+    "description": "This study examined how three-dimensional upper-limb movement trajectories are modulated by changes in gravitational load. We hypothesized that individuals adopt a trajectory elevation strategy in reach-to-grasp movements performed on a desk to compensate for increased movement variability arising from motor noise. To increase motor demands and create conditions under which trial-related fatigue effects could emerge, we manipulated arm weight and used an extended repeated-trial protocol. Participants completed 400 reach-to-grasp trials under three weight conditions (0 g, 200 g, and 400 g), with weights applied to the forearm during the middle 300 trials in the 200 g and 400 g conditions. From the first weighted block—when substantial muscle fatigue was unlikely to have developed—maximum trajectory height was greater in the weighted conditions than in the 0 g condition. Across trials, trajectory height gradually decreased in the 0 g and 200 g conditions, whereas a slight increase was observed in the 400 g condition. In the 400 g condition, trajectory elevation across trials was positively correlated with trajectory variability in later trials. These findings are consistent with the hypothesis that trajectory elevation may serve as a strategy to mitigate detrimental effects on task performance caused by fluctuations in motor output, whether arising from added weight or trial-related fatigue effects. Additionally, exploratory analyses examined the effects of within-day repeated practice on aperture control during reach-to-grasp movements.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/wjrxt_v1/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "ut28p_v1",
+    "title": "The balance corpus: An audiovisual collection of 30 adult pairs playing an interactive word-guessing game",
+    "date_created": "2026-08-06T11:08:41.323791",
+    "date_modified": "2026-08-07T04:25:22.789339",
+    "description": "This paper reports on the development of the balance corpus, a multimodal dataset of adults interacting with either a friend or a stranger under varying postural stability constraints induced via a wobble board manipulation. The dataset comprises 60 adults (30 pairs) who played a word-guessing game (Taboo). The task consisted of four rounds in which participants alternated between the roles of clue-giver and guesser. Each round included 10 trials, resulting in 40 trials per pair and 1,200 in total. In each trial, the clue-giver described a target word while avoiding five semantically related taboo words, and the guesser attempted to identify the target word within a 60-second time limit. The dataset includes fully synchronized audiovisual recordings from two cameras per participant, separately capturing the clue-giver and guesser, alongside speech transcripts, gyroscope recordings from the wobble board, and participant metadata. The metadata includes participants’ demographic characteristics, height, weight, and handedness and footedness. The dataset enables analyses of speech, gesture, body movement, and postural control in face-to-face interaction under varying stability constraints.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c62",
+          "text": "Linguistics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/ut28p_v1/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "vdge8_v1",
+    "title": "Perceived Artificiality Markedly Reduces Trustworthiness but Only Minimally Affects Attractiveness in AI-Synthetic Faces",
+    "date_created": "2026-08-06T06:39:46.465560",
+    "date_modified": "2026-08-07T04:32:30.803112",
+    "description": "With the spread of artificial intelligence (AI)-synthesized human faces in digital communication, researchers have begun to investigate the associations of the perceived artificiality of such faces with their social evaluations, finding that artificial faces tend to be perceived as less trustworthy and attractive. However, as facial trustworthiness and attractiveness are strongly correlated, it is unclear which dimension is more strongly influenced by perceived artificiality once the correlation between trustworthiness and attractiveness is controlled. Accordingly, we collected the manual ratings by 100 participants of the perceived artificiality, trustworthiness, and attractiveness of 500 AI-synthesized faces and analyzed the unique pairwise associations among these variables using participant-wise partial correlation and generalized estimating equation analyses. Perceived artificiality showed a robust negative association with trustworthiness even after controlling for attractiveness, whereas the association between artificiality and attractiveness was much weaker and negligible in magnitude after controlling for trustworthiness. These results suggest that artificial cues predominantly influence social trust rather than aesthetic evaluation. Our findings offer important insights into the distinct psychological role of perceived artificiality in social face perception.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c6d",
+          "text": "Social Cognition"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cb9",
+          "text": "Impression Formation"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/vdge8_v1/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "h2apv_v1",
+    "title": "Social inference in an empty room: children use indirect evidence to infer an agent’s past actions",
+    "date_created": "2026-08-05T22:59:36.119138",
+    "date_modified": "2026-08-07T04:27:28.793080",
+    "description": "People’s actions often leave physical traces (e.g., footprints in the mud, a dirty mug) that adults can use to reconstruct what another person was doing, what their goals were, and what they knew. Here we test whether children can make these inferences in cases that require going beyond a direct mapping from traces to actions, focusing on reasoning about a conspicuous absence of evidence, and relying on an agent’s preferences to interpret physical traces that are otherwise ambiguous. In Experiment 1, five- and six-year-olds inferred that an agent had lifted a rock-filled bowl or a rice-filled bowl when they saw the corresponding physical trace (i.e., rocks or rice spilled on the table). Critically, when no traces were left behind, children also inferred that the agent had lifted the rock-filled bowl, suggesting they understood that this action was less likely to produce observable evidence. Experiments 2 and 3 then show that children can integrate the agent’s preferences when the physical evidence alone does not reveal what happened. Our results suggest that, by age five, children begin to draw social inferences from indirect evidence by integrating physical and social reasoning.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c2d",
+          "text": "Developmental Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c63",
+          "text": "Cognitive Development"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/h2apv_v1/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "ahbkq_v2",
+    "title": "Dissociating retina- and face-centered reference frames of human face recognition.",
+    "date_created": "2026-08-05T17:36:59.150679",
+    "date_modified": "2026-08-07T04:00:38.033244",
+    "description": "Face identity recognition is a core function of the human brain, predominantly driven by horizontally oriented facial cues. While face processing largely operates in a face-centered reference frame, it is not devoid of retinotopic sensitivity. Addressing whether face rotation influences the orientation tuning profile of identity recognition enables a direct empirical test of the reference frame of human face identification. Forty-two young adults performed identity recognition of famous faces filtered to restrict content to narrow orientation bands (i.e., from 0° to 150°, in 30°-steps), and presented either upright, rotated by ±45°, or by ±90° away from upright. If the horizontal face identity information is defined along face-centered coordinates, identity recognition performance should stay tuned to the horizontal irrespective of rotation angle. Any contribution of the retina-centered reference frame should cause the peak of orientation tuning to shift away from the horizontal, in the same direction as the stimulus rotation. While overall identity recognition performance decreased when faces were rotated by ±90° compared to upright and ±45° rotation, it kept broadly tuned to the horizontal range of the face stimulus regardless of rotation angle. However, the advantage of the horizontal over the vertical range decreased significantly for ±90° compared to upright and ±45° rotations. Through the systematic investigation of the orientation tuning parameters across stimulus rotation, the present work provides quantitative evidence that the visual information driving human face-specialized identity recognition is defined within the reference frame of the face-image.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7428c6983001430b6caf",
+          "text": "Quantitative Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c71",
+          "text": "Perception"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd8",
+          "text": "Picture Processing"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/ahbkq_v2/",
+    "signal_score": 1
+  },
+  {
+    "osf_id": "jav6y_v1",
+    "title": "Parafoveal access to embedded-word meaning during Chinese word segmentation",
+    "date_created": "2026-08-02T14:19:48.473807",
+    "date_modified": "2026-08-07T04:24:29.377447",
+    "description": "The absence of word-boundary cues in Chinese text creates segmentation ambiguities that readers must resolve online. One example is incremental ambiguity, in which the initial characters of a longer word (e.g., 体育馆, \"stadium\") can also form a standalone embedded word (体育, \"sport\"). Previous studies manipulated the preceding verb context to render the embedded word either plausible or implausible while the longer-word analysis remained plausible, comparing these with control sentences in which the longer word was replaced by the embedded word. Plausibility effects were observed only for the control words, suggesting that readers do not access embedded-word meaning before segmentation is resolved, consistent with the Chinese Reading Model (Li &amp; Pollatsek, 2020). However, these studies also failed to detect the early first-pass plausibility effects reported in other studies using unambiguous materials, making the absence of embedded-word effects difficult to interpret. We therefore conducted a high-powered eye-movement experiment using a larger participant sample and stimulus set, and assessed the robustness of critical effects using split-half reliability and bootstrap analyses. Embedded-word plausibility effects emerged robustly during first-pass fixations on the pre-target verb, indicating parafoveal access to an embedded-word representation. No corresponding effects emerged at the ambiguity region, suggesting that readers ultimately favored the longer-word analysis. Control-word plausibility effects emerged during first-pass fixations at both regions, confirming that the experiment was sufficiently sensitive to detect early plausibility effects. These findings show that embedded-word representations become available parafoveally during incremental ambiguity resolution, challenging current accounts of Chinese word segmentation.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6d01",
+          "text": "Language"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/jav6y_v1/",
     "signal_score": 1
   }
 ]

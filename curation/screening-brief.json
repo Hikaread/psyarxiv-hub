@@ -1,9 +1,9 @@
 {
-  "discovered": 17,
+  "discovered": 4,
   "alreadyExisting": 0,
   "hardExcluded": 0,
-  "lowSignal": 1,
-  "candidates": 143,
+  "lowSignal": 0,
+  "candidates": 159,
   "candidates_list": [
     {
       "osf_id": "f5bmt_v1",
@@ -25,6 +25,13 @@
       "date_created": "2026-08-04T14:34:32.411078",
       "signal_score": 10,
       "description_preview": "This research introduces a novel human–AI collaborative framework that establishes the technical foundation for future physiologically informed design in Narrative Exposure Therapy (NET) for Post-Trau"
+    },
+    {
+      "osf_id": "kzt7j_v1",
+      "title": "The vegetative state is not a state of mind",
+      "date_created": "2026-08-06T09:42:06.141514",
+      "signal_score": 9,
+      "description_preview": "The discovery of covert consciousness (CC) and cognitive motor dissociation (CMD) has revealed a conceptual inconsistency at the heart of disorders of consciousness (DoC) nosology. Advanced neuroimagi"
     },
     {
       "osf_id": "kgr8t_v2",
@@ -221,6 +228,13 @@
       "date_created": "2026-08-02T02:58:59.245528",
       "signal_score": 5,
       "description_preview": "Binge eating has been linked to alterations in interoceptive awareness, self-regulation, and hedonic responsiveness to food, yet the mechanisms connecting these domains remain incompletely understood."
+    },
+    {
+      "osf_id": "r3zhp_v1",
+      "title": "Subjective effects of flicker light do not differ between open- and closed-eye viewing",
+      "date_created": "2026-08-06T01:55:34.650443",
+      "signal_score": 5,
+      "description_preview": "Flicker light stimulation shows promise for inducing visual imagery, altered states of consciousness, and changes in arousal, with potential applications in relaxation and imagery-based therapeutic in"
     },
     {
       "osf_id": "cnkyz_v4",
@@ -466,6 +480,13 @@
       "date_created": "2026-08-03T22:55:40.822468",
       "signal_score": 3,
       "description_preview": "Clinical observation identified a reproducible recovery hierarchy in catatonia, the Saito Loop (πs → β → πm → πv_fast → πv_slow), but not why recovery should follow any fixed order. We ask whether the"
+    },
+    {
+      "osf_id": "8psd9_v2",
+      "title": "Validating local open-weight LLMs against expert raters for graded deductive coding of open-ended responses in Russian",
+      "date_created": "2026-08-06T23:48:18.200567",
+      "signal_score": 3,
+      "description_preview": "Large language models (LLMs) are increasingly used to code open-ended survey responses, but their validity against expert annotation remains uncertain, especially outside English. We evaluated four op"
     },
     {
       "osf_id": "8xr5b_v1",
@@ -762,6 +783,55 @@
       "description_preview": "To navigate and act in the environment, it is necessary to recognize objects and the relationships between them. Recognition of objects in visual scenes is rapid and automatic. Are relations between o"
     },
     {
+      "osf_id": "pyuxn_v2",
+      "title": "Revealing implicit social bias through EEG-informed generative AI.",
+      "date_created": "2026-08-06T23:26:22.675737",
+      "signal_score": 2,
+      "description_preview": "Social biases can shape rapid judgements of others, but social desirability and limited self-awareness make these biases difficult to measure. We tested whether electroencephalographic (EEG) responses"
+    },
+    {
+      "osf_id": "vau7y_v1",
+      "title": "Personality Prediction from Moments to Lifetimes",
+      "date_created": "2026-08-06T22:47:35.272549",
+      "signal_score": 2,
+      "description_preview": "Personality is robustly linked to long-term outcomes, yet predicting momentary behavior (i.e., who does what, when, and where) remains challenging. We argue that personality and its outcomes can be un"
+    },
+    {
+      "osf_id": "5t6cv_v2",
+      "title": "Coping With Complexity: A Selective Sampling Account of Consideration Set Formation for Product Bundles",
+      "date_created": "2026-08-06T10:51:01.139137",
+      "signal_score": 2,
+      "description_preview": "Consumers frequently encounter a variety of products to choose from, and these products are often complex bundles of multiple components. To simplify decisions, consumers sometimes consider only a sub"
+    },
+    {
+      "osf_id": "w4hbu_v2",
+      "title": "Varieties of generalization inspired by Pavlov’s legacy",
+      "date_created": "2026-08-06T07:31:54.176246",
+      "signal_score": 2,
+      "description_preview": "In this selective review, we summarise recent studies from our laboratory in which we have assessed the effect of different variables (such as contiguity and contingency) on the generalization of prio"
+    },
+    {
+      "osf_id": "vm356_v1",
+      "title": "Confirmatory Matrix Factorization",
+      "date_created": "2026-08-06T02:54:15.290964",
+      "signal_score": 2,
+      "description_preview": "Recent advances in assessments have challenged traditional psychometric methods in analyzing high-dimensional sparse data and achieving accurate predictions. Meanwhile, machine learning methods, such "
+    },
+    {
+      "osf_id": "hwbuf_v1",
+      "title": "Autobiographical Recollective Style in Grapheme–Color Synesthesia: Overlap with Fantasy Proneness and Multisensory Image",
+      "date_created": "2026-08-07T03:07:51.622850",
+      "signal_score": 2,
+      "description_preview": "Although more vivid mental imagery and subjectively richer individual autobiographical memories have been reported in\nsynesthetes, whether synesthesia is associated with a trait-like autobiographical "
+    },
+    {
+      "osf_id": "n9f7j_v1",
+      "title": "Audioaufnahmen von Entscheidungsgesprächen in der Geburtsplanung bei Beckenendlage – Evaluation von Akzeptanz, Relevanz ",
+      "date_created": "2026-08-04T11:49:38.702534",
+      "signal_score": 2,
+      "description_preview": "In around five percent of pregnancies, the baby is in breech presentation at term, meaning that the buttocks or feet are positioned downward instead of the head. In Germany, a cesare-an section is per"
+    },
+    {
       "osf_id": "dm8yu_v1",
       "title": "The crossword effect: A recall advantage for words encoded in alignment with their spatial associations",
       "date_created": "2026-08-05T09:33:30.443453",
@@ -1005,6 +1075,48 @@
       "date_created": "2026-08-03T12:44:35.713751",
       "signal_score": 1,
       "description_preview": "Introduction: People place larger bets on risky events when they can cash-out before the bet concludes. This study experimentally investigates how cash-out availability impacts wider betting behaviour"
+    },
+    {
+      "osf_id": "wjrxt_v1",
+      "title": "Trajectory elevation in reach-to-grasp movements under increased arm weight and repeated trials",
+      "date_created": "2026-08-07T01:50:30.762264",
+      "signal_score": 1,
+      "description_preview": "This study examined how three-dimensional upper-limb movement trajectories are modulated by changes in gravitational load. We hypothesized that individuals adopt a trajectory elevation strategy in rea"
+    },
+    {
+      "osf_id": "ut28p_v1",
+      "title": "The balance corpus: An audiovisual collection of 30 adult pairs playing an interactive word-guessing game",
+      "date_created": "2026-08-06T11:08:41.323791",
+      "signal_score": 1,
+      "description_preview": "This paper reports on the development of the balance corpus, a multimodal dataset of adults interacting with either a friend or a stranger under varying postural stability constraints induced via a wo"
+    },
+    {
+      "osf_id": "vdge8_v1",
+      "title": "Perceived Artificiality Markedly Reduces Trustworthiness but Only Minimally Affects Attractiveness in AI-Synthetic Faces",
+      "date_created": "2026-08-06T06:39:46.465560",
+      "signal_score": 1,
+      "description_preview": "With the spread of artificial intelligence (AI)-synthesized human faces in digital communication, researchers have begun to investigate the associations of the perceived artificiality of such faces wi"
+    },
+    {
+      "osf_id": "h2apv_v1",
+      "title": "Social inference in an empty room: children use indirect evidence to infer an agent’s past actions",
+      "date_created": "2026-08-05T22:59:36.119138",
+      "signal_score": 1,
+      "description_preview": "People’s actions often leave physical traces (e.g., footprints in the mud, a dirty mug) that adults can use to reconstruct what another person was doing, what their goals were, and what they knew. Her"
+    },
+    {
+      "osf_id": "ahbkq_v2",
+      "title": "Dissociating retina- and face-centered reference frames of human face recognition.",
+      "date_created": "2026-08-05T17:36:59.150679",
+      "signal_score": 1,
+      "description_preview": "Face identity recognition is a core function of the human brain, predominantly driven by horizontally oriented facial cues. While face processing largely operates in a face-centered reference frame, i"
+    },
+    {
+      "osf_id": "jav6y_v1",
+      "title": "Parafoveal access to embedded-word meaning during Chinese word segmentation",
+      "date_created": "2026-08-02T14:19:48.473807",
+      "signal_score": 1,
+      "description_preview": "The absence of word-boundary cues in Chinese text creates segmentation ambiguities that readers must resolve online. One example is incremental ambiguity, in which the initial characters of a longer w"
     }
   ]
 }

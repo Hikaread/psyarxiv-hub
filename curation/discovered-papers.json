@@ -1,197 +1,13 @@
 [
   {
-    "osf_id": "y9rx4_v1",
-    "title": "No Single Model Fits All: Conflict Decision-Making Models Vary More Across Datasets Than Across Tasks",
-    "date_created": "2026-08-04T07:47:06.964978",
-    "date_modified": "2026-08-06T20:36:13.986354",
-    "description": "Conflict variants of evidence accumulation models are widely used to explain human cognitive control. However, the generalizability of these models is largely unknown because of the lack of systematic comparisons across multiple conflict tasks and multiple datasets. Here, using a unified amortized Bayesian inference (ABI) framework, we compare the standard DDM and three conflict-specific variants across a benchmark database comprising eight independent studies (N = 1,375). We validate the ABI as a common framework for model comparison, fit DDM, DMC, DSTP, and SSP to each participant, and find that DSTP is the most frequently selected best-fitting model, but its superiority varies more across datasets than across tasks. Exploratory analyses show the 22 parameters cluster into four latent dimensions; the Inhibitory Process factor, of greatest theoretical interest in cognitive control, is unstable. Achieving cross-dataset generality of conflict diffusion models remains a major challenge.",
+    "osf_id": "hwbuf_v1",
+    "title": "Autobiographical Recollective Style in Grapheme–Color Synesthesia: Overlap with Fantasy Proneness and Multisensory Imagery",
+    "date_created": "2026-08-07T03:07:51.622850",
+    "date_modified": "2026-08-07T08:26:17.940462",
+    "description": "Although more vivid mental imagery and subjectively richer individual autobiographical memories have been reported in\nsynesthetes, whether synesthesia is associated with a trait-like autobiographical recollective style governing how individuals\ntypically recollect their personal past remains unclear. We compared 27 participants operationally classified into a grapheme–\ncolor synesthesia group through large-scale screening with 30 controls selected through individual matching on age and sex.\nAutobiographical recollective style was assessed using the Japanese version of the Autobiographical Recollection Test (ART-\nJ), and we examined the extent to which group differences overlapped with Big Five personality traits, fantasy proneness,\nand multisensory imagery vividness. The synesthesia group scored higher than the control group on the ART-J total score\nand all seven subscales. The group coefficient was not substantially attenuated in a model that included the five Big Five\ntraits. By contrast, adding fantasy proneness and multisensory imagery significantly increased the explained variance and\nsubstantially attenuated the point estimate of the group coefficient. These findings suggest that the characteristics of the\ngrapheme–color synesthesia group extend beyond visual imagery to a broad subjective autobiographical recollective style\nencompassing scene construction, reliving, rehearsal, and integration into a life story, and that this group difference partly\noverlaps with broader characteristics of inner experience.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/y9rx4_v1/"
-  },
-  {
-    "osf_id": "qtbex_v1",
-    "title": "Depression symptom network reorganization under internet-based emotion regulation intervention: Evidence from a large real-world cohort",
-    "date_created": "2026-08-04T07:19:10.098823",
-    "date_modified": "2026-08-06T20:54:21.103315",
-    "description": "Depression can be conceptualized as a network of interacting symptoms. Although internet-based interventions are widely used, their associations with changes in symptom network structure remain unclear. Here, in a real-world observational cohort of 26,643 adults completing an internet-based emotion regulation intervention, we examined pre–post differences in depressive symptom network structure, global connectedness, and symptom centrality, stratified by reduction status. Analyses indicated that the two core depressive symptoms (i.e., depressed mood and anhedonia) showed reduced centrality after the intervention, whereas several non-core symptoms either increased or remained unchanged. The “symptom reduction” and “symptom non-reduction” subgroups showed largely comparable network characteristics at baseline. After the intervention, the “symptom reduction” subgroup displayed lower global network strength, a reorganized network topology, and reduced centrality of the core symptoms, whereas the “symptom non-reduction” subgroup showed no significant network alteration. Further analyses using residualized symptom change scores showed a similar pattern: among individuals with comparable baseline depressive symptom severity, those with better-than-expected outcomes showed lower post-intervention network connectivity than those with poorer-than-expected outcomes. Clinically anchored improvement analyses further indicated that reduced centrality of depressed mood was observed across alternative definitions of improvement. Although causal inference is precluded by the observational design, this study provides large-scale descriptive real-world evidence on how depressive symptom networks change alongside symptom reduction during routine use of a digital intervention.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/qtbex_v1/"
-  },
-  {
-    "osf_id": "8ae7w_v1",
-    "title": "Recovery order in adaptive systems is set by dependency structure",
-    "date_created": "2026-08-03T23:05:33.250289",
-    "date_modified": "2026-08-06T20:13:43.413283",
-    "description": "Adaptive systems recover their capacities in reproducible orders. Predicting it has meant fitting a dynamical model to each system and reading the order off its trajectories, an output of the fit, not of structure. Here we show that recovery order follows from dependency structure: which capacities must be in place before which others recover. From four axioms we prove that where prerequisite gates vanish at baseline no capacity begins to recover before its prerequisites, whatever the rate constants, and that under a common deficit-closing rule with rates non-increasing along dependencies the admissible orders are exactly the linear extensions of the graph: a chain gives a unique sequence, a branch a partial order. We map where steep heterogeneity adds further orders. The graph is an input, realized in probabilistic models as identifiability structure. We instantiate it in catatonia, post-injury motor recovery and curriculum learning, the last without a probabilistic model.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/8ae7w_v1/"
-  },
-  {
-    "osf_id": "de6bu_v1",
-    "title": "The Saito Loop, a computational theory of hierarchical recovery in catatonia",
-    "date_created": "2026-08-03T22:55:40.822468",
-    "date_modified": "2026-08-06T22:07:51.494201",
-    "description": "Clinical observation identified a reproducible recovery hierarchy in catatonia, the Saito Loop (πs → β → πm → πv_fast → πv_slow), but not why recovery should follow any fixed order. We ask whether the order follows from an active-inference architecture without being supplied. The five computational quantities follow a priori from their computational roles; structural identifiability analysis then reconstructs their prerequisite relations as a directed acyclic graph. Because the graph is a chain, its topological ordering is unique and identical to the Saito Loop: the order is a structural consequence of the dependency relations, not a fitted sequence, and the complete ordering is never supplied. All uniqueness claims hold within an explicitly specified model class, and whether the structural order is realized in recovery time is a separate, falsifiable dynamical question. The clinically observed recovery hierarchy therefore becomes a constrained computational consequence rather than an empirical regularity.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/de6bu_v1/"
-  },
-  {
-    "osf_id": "7wtxz_v1",
-    "title": "Which Comes First: Ideology, or Moral Values? Panel evidence from the 2024 U.S. Presidential Election",
-    "date_created": "2026-08-03T21:46:17.445432",
-    "date_modified": "2026-08-06T20:01:59.131369",
-    "description": "Recent work has called into question the longstanding intuition that differences in political orientation are attributable to differences in moral values; instead, people may change their reported values to justify their political preferences. To identify which most plausibly causes which, we conducted a three-wave panel study, using quotas to approximate a demographically representative initial sample of U.S. adults and measuring values in four different ways, with each measure grounded in a distinct theoretical framework. We found that: 1) Ideology and partisanship consistently showed greater cross-wave stability than values. 2) Within-subject wave-to-wave shifts in political orientation and values were rarely and weakly related in either direction. Between-subjects analyses replicated existing work: conservatives and liberals tended to value different things. But during these months, respondents did not tend to become more conservative or liberal depending on what they valued, or to come to value anything more or less because of their ideology.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c34",
-          "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cc9",
-          "text": "Politics"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/7wtxz_v1/"
-  },
-  {
-    "osf_id": "4mt86_v1",
-    "title": "Is fashion just a fashion? Or does it have an evolutionary basis?",
-    "date_created": "2026-08-03T21:29:31.838654",
-    "date_modified": "2026-08-06T20:05:18.818894",
-    "description": "Female models presented in advertising, entertainment, and fashion shows are much slimmer on average than the general population. The fashion industry has been criticized for advertising a body type that would influence the self perception of young women, leading to eating disorders and concomitant health risks. Given the intense criticism one would expect a corresponding change in publication policies that would mitigate these negative effects. But a recent study that analyzed 25 years of published fashion records found no improvement. The present paper suggests an evolutionary explanation for why consumers prefer the unrealistic body type.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c21",
-          "text": "Life Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/4mt86_v1/"
-  },
-  {
-    "osf_id": "xg8wt_v2",
-    "title": "Stimulated recall protocols: Field-specific guidelines for second language acquisition and bilingualism research",
-    "date_created": "2026-08-03T21:20:00.052770",
-    "date_modified": "2026-08-06T20:02:31.471156",
-    "description": "Stimulated recall protocols are one of the most popular methods in second language acquisition and bilingualism research to investigate language learners’ internal thought processes when using second languages. Although methodological handbooks are available for learning how to set up a stimulated recall study, there is little empirically driven guidance on best practices for reporting variables central to the method. To develop field-specific reporting guidelines, this systematic review analyzed articles that used stimulated recall to elicit introspective reports in sixteen Q1 journals in applied linguistics between 2000 and 2024. After screening, 171 studies were analyzed for 62 variables inherent to this practice. Findings showed that some details were well-reported, but others critical for stimulated recalls, such as the use of instructions or the L2 proficiency of participants, were reported infrequently. The review concludes with empirically derived reporting guidelines derived from the literature to support authors, editors, and peer reviewers.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c19",
-          "text": "Meta-science"
-        }
-      ],
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -212,106 +28,14 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7426c6983001430b6c62",
-          "text": "Linguistics"
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
         },
         {
-          "id": "5b4e7427c6983001430b6ca8",
-          "text": "Applied Linguistics"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/xg8wt_v2/"
-  },
-  {
-    "osf_id": "nqmr7_v1",
-    "title": "Pilot Study of Combined tDCS and Cognitive Training Intervention for Suicide Risk with Ecological Momentary Assessment: Feasibility and Acceptability in Psychiatric Inpatient Veterans",
-    "date_created": "2026-08-03T20:11:56.155760",
-    "date_modified": "2026-08-06T21:10:34.997136",
-    "description": "Objective: This pilot study examined the feasibility and acceptability of an impulsivity-targeted neuromodulation intervention and high-density ecological momentary assessment (EMA) in high-risk veterans with suicidal thoughts and behaviors following discharge from acute inpatient psychiatric care.\nMethod: Fourteen adult veterans receiving acute psychiatric care screened for suicide risk were recruited to the study and completed a baseline assessment, 10 sessions of transcranial direct current stimulation (tDCS) paired with cognitive training, one month of EMA surveys (2-3x per day) post-discharge, and questionnaires and cognitive tasks one- and two-months following the last intervention received.\nResults: Study feasibility was supported by a 21% enrollment rate, 56% intervention adherence, and no reported difficulties tolerating the intervention. Adherence to EMA surveys was high (77%) among participants who completed the EMA protocol, with the highest adherence in the first week followed by a reduction in subsequent weeks.\nConclusions: This study demonstrated that neuromodulation and cognitive training interventions and high-density EMA designs are generally feasible and acceptable among veterans at high risk of suicide following acute psychiatric care. Recommendations for increasing feasibility and adherence to such interventions and suicide risk safety procedures for intensive EMA protocols with high-risk veterans are discussed.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
+          "id": "5b4e7429c6983001430b6cf0",
+          "text": "Imagery"
         }
       ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c68",
-          "text": "Clinical Neuroscience"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/nqmr7_v1/"
-  },
-  {
-    "osf_id": "z8qa7_v1",
-    "title": "Pupil size dynamics predict momentary changes in self-reported arousal",
-    "date_created": "2026-08-03T18:34:00.989140",
-    "date_modified": "2026-08-06T20:08:36.573397",
-    "description": "Subjective arousal, or feelings of activation and alertness, can dynamically modulate affect, behavior, and cognition. Momentary changes in subjective arousal have typically been assessed with self-report in humans, which may alter those very feelings. Although researchers have traditionally used pupil size as a physiological index of arousal, links between pupil dynamics and momentary changes in subjective arousal remain unclear. Here, we combined continuous pupillometry with repeated self-report probes of changing arousal as individuals engaged in a modified Monetary Incentive Delay task. Across Virtual Reality (N = 28; 12 females, 16 males) and Functional Magnetic Resonance Imaging (N = 27; 15 females, 12 males) studies, tonic and phasic pupil measures jointly predicted subsequent self-reported arousal beyond stated incentive value and at a temporal lag of approximately 1.5–3.5 seconds. Neural activity associated with pupil dynamics further predicted pupil size, self-reported arousal, and behavioral motivation in held-out data. Together, these convergent findings establish pupil size as a temporally-precise marker of momentary fluctuations in self-reported arousal.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c58",
-          "text": "Emotion"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c7d",
-          "text": "Physiology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/z8qa7_v1/"
-  },
-  {
-    "osf_id": "dy25h_v2",
-    "title": "Imagination boosts strategy learning",
-    "date_created": "2026-08-03T17:33:40.765335",
-    "date_modified": "2026-08-06T19:55:11.967479",
-    "description": "Imagination is thought to boost exploration and problem solving by simulating states that have not been directly experienced as a means of reasoning through future plans. Here we tested this idea in the context of an impartial combinatorial game with a ground truth optional strategy. Adopting a stumbler-strategist reinforcement learning architecture, we showed how imagination can boost optimal strategy learning over memory replay. These model predictions were validated experimentally in humans (N=255) using an intervention design where participants were tasked with either imagining unplayed scenarios, reviewing prior games, or engaging in a simple visual attention task (control). These convergent results show how imagination uniquely boosts strategy learning in partially explored tasks.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -322,103 +46,19 @@
           "text": "Cognitive Psychology"
         },
         {
-          "id": "5b4e7429c6983001430b6cea",
-          "text": "Learning"
+          "id": "5b4e7429c6983001430b6cf8",
+          "text": "Consciousness"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/dy25h_v2/"
+    "link": "https://osf.io/preprints/psyarxiv/hwbuf_v1/"
   },
   {
-    "osf_id": "dk67s_v1",
-    "title": "FLM UNGOAL: A Factor-Label Method for Removing Semantic Distractors in Health Behavior Change",
-    "date_created": "2026-08-03T16:54:01.714797",
-    "date_modified": "2026-08-06T19:54:56.324529",
-    "description": "Health behavior change frequently fails despite genuine patient motivation and adequate health literacy. This article presents a proof-of-concept single-subject case study (N=1) investigating the FLM UNGOAL framework—a novel cognitive-identity restructuring protocol using the Factor-Label Method (dimensional analysis) to systematically remove ungoal distractors (maladaptive Past Self cognitions in QIII) and transfer identity to the Future I (QI) via a diagonal conversion vector through a 4-region trigonometric spatial architecture.\nParticipant: A 42-year-old bilingual Persian-Iranian male (native Persian, fluent German) with Type 2 Diabetes (HbA1c 8.2%) and poor treatment adherence. Procedure: Following a 7-day baseline, the participant engaged in 6 sessions (90 min each) over 6 weeks using the FLM UNGOAL Board and protocol. Measures: Tri-Circle Overlap Index (TCOI), Goal Proximity Index (GPI), Conversion Factor (CF), daily practice logs. Results: TCOI improved from 0.18 (baseline, high Past Self identification) to 3.00 (post-intervention, Future I dominant) to 5.67 (maintenance). GPI increased from 15% to 85%. CF increased from N/A to 5.7. HbA1c improved from 8.2% to 7.0% at 3-month follow-up. Qualitative reports confirmed reduced cognitive friction and sustained identity transfer.\nThe framework integrates embodied cognition (Lakoff &amp; Johnson, 1999), the Tri-Circle Temporal Self Model (Markus &amp; Nurius, 1986; Higgins, 1987), industrial design principles via the FLM UNGOAL Board, complex systems theory, and Measurement-Based Care principles (Fortney et al., 2017). The 4-region trigonometric circle maps valence (Y-axis: Positive/Negative) and temporality (X-axis: Future/Past) with Cartesian independence—Fear is precisely localized to QIV (Future + Negative) and deliberately bypassed by the diagonal conversion vector. The protocol captures any representational format (pure shape, pure proposition, or hybrid) and transforms it through spatial reconfiguration alo",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7424c6983001430b6c18",
-          "text": "Psychiatry"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/dk67s_v1/"
-  },
-  {
-    "osf_id": "m8g6k_v1",
-    "title": "Addiction as a Chronic Brain Disease: A Narrative Review of the Neurobiological Evidence",
-    "date_created": "2026-08-03T15:36:49.358276",
-    "date_modified": "2026-08-06T19:45:36.307345",
-    "description": "Addiction has traditionally been explained in moral terms, as a failure of discipline repeated one\ntoo many times. Three decades of neuroscience research complicate that story considerably.\nRepeated exposure to alcohol and other drugs changes how the brain's reward circuitry responds\nto everyday experience, weakens the prefrontal systems responsible for planning and impulse\ncontrol, and leaves behind changes to stress and memory circuits that can persist long after drug\nuse has stopped. This narrative review draws on major research syntheses, including work by\nVolkow, Koob, and colleagues and Heilig and colleagues' 2021 reassessment of the brain disease\nmodel, to lay out the neurobiological case for classifying addiction as a chronic brain disease. It\nalso takes seriously the strongest published objections to that framing, including Sally Satel and\nScott Lilienfeld's argument that a heavily biological account can understate the role of choice and\ncontext, Gene Heyman's evidence on unassisted recovery, and experimental work showing that a\ndisease-focused message can reduce people's stated intent to seek treatment. The review\nconcludes that the neurobiological evidence is substantial enough to support the disease\nclassification, but that the classification works best when paired with, rather than substituted for,\npersonal responsibility and psychosocial treatment. It closes with a discussion of clinical and\n1 policy implications and the limits of a narrative review built on a curated set of sources rather\nthan a systematic literature search.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1d",
-          "text": "Developmental Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c21",
-          "text": "Life Sciences"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c77",
-          "text": "Behavioral Neuroscience"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/m8g6k_v1/"
-  },
-  {
-    "osf_id": "hb4z9_v1",
-    "title": "Bilingual experience predicts language skills, but not reading skills, in a low-literacy and multilingual context",
-    "date_created": "2026-08-03T15:07:14.709448",
-    "date_modified": "2026-08-06T19:49:01.018417",
-    "description": "Children throughout the world attend school and learn to read in a language of instruction (LoI) other than the language(s) they speak at home, which is one factor contributing to poor reading outcomes. Understanding reading development in multilingual, Majority World contexts is important for improving reading skills globally. In a linguistically diverse sample of children in rural Côte d’Ivoire, we examined how home language experience (monolingual, regional bilingual [two Ivorian languages], French bilingual [French + Ivorian language], French multilingual [French + two Ivorian languages]) relates to children’s (N = 1335) language and reading skills. Bilingual children (French and regional) outperformed monolingual children on French language tasks, suggesting bilingual experience benefits language skills regardless of whether it includes the LoI (French). However, this language advantage did not extend to reading; there were no differences in reading scores between groups and all children leveraged phonological awareness for reading regardless of their home language experience. The findings suggest that bilingual/multilingual education programs, and reading instruction that strengthens language skills, may support reading outcomes in multilingual, Majority World contexts.",
+    "osf_id": "8psd9_v2",
+    "title": "Validating local open-weight LLMs against expert raters for graded deductive coding of open-ended responses in Russian",
+    "date_created": "2026-08-06T23:48:18.200567",
+    "date_modified": "2026-08-07T08:24:30.959497",
+    "description": "Large language models (LLMs) are increasingly used to code open-ended survey responses, but their validity against expert annotation remains uncertain, especially outside English. We evaluated four open-weight LLMs for deductive coding of Russian responses from a psychological human-robot interaction experiment (N = 33): DeepSeek-R1-32B, Qwen3-32B, Gemma3-27B, and Mistral-Small-3.2-24B. Ten psychology-trained coders provided a graded expert reference for seven predefined codes. Each model was run under singular-code prompts, an exploratory conservative variant, and fixed-sequence prompts mirroring the expert memo, with ten repeated runs aggregated into graded code-presence estimates. Agreement was assessed with graded concordance, calibration, human-equivalence, and threshold-sensitivity diagnostics. The strongest configurations by concordance — DeepSeek-R1-32B with singular-code prompting (CCC = 0.71) and Qwen3-32B with fixed-sequence prompting (CCC = 0.69) — reached agreement with the expert aggregate comparable to the disagreement among individual experts, although both relied on reasoning mode, which was confounded with model identity. Several models over-attributed codes relative to experts, and prompt format and aggregation strategy materially affected agreement. We recommend validating LLM coding as a measurement procedure, with reported calibration and uncertainty, rather than as automatic expert replacement in small applied psychological datasets.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -428,10 +68,48 @@
           "text": "Social and Behavioral Sciences"
         },
         {
-          "id": "5b4e7425c6983001430b6c2d",
-          "text": "Developmental Psychology"
+          "id": "5b4e7426c6983001430b6c41",
+          "text": "Quantitative Methods"
+        },
+        {
+          "id": "5b4e7428c6983001430b6caf",
+          "text": "Quantitative Psychology"
         }
-      ],
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/8psd9_v2/"
+  },
+  {
+    "osf_id": "n9f7j_v1",
+    "title": "Audioaufnahmen von Entscheidungsgesprächen in der Geburtsplanung bei Beckenendlage – Evaluation von Akzeptanz, Relevanz und Umsetzbarkeit einer perso-nenzentrierten Intervention",
+    "date_created": "2026-08-04T11:49:38.702534",
+    "date_modified": "2026-08-07T11:16:35.217121",
+    "description": "In around five percent of pregnancies, the baby is in breech presentation at term, meaning that the buttocks or feet are positioned downward instead of the head. In Germany, a cesare-an section is performed in 87% of these cases. Many of these procedures are planned, alt-hough there is not always a clear medical indication. At the same time, many pregnant wom-en wish to receive comprehensive and understandable counseling in order to make an in-formed decision together with their healthcare professionals about whether to attempt an ex-ternal cephalic version before birth or about the mode of birth itself (vaginal birth or cesarean section). These decisions are considered “preference-sensitive” because personal wishes, fears, experiences, and life circumstances play an important role. \nThe PregAUDIO pilot project, led by Dr. Anja Lindig, examined the attitudes of 23 pregnant women and 5 gynecologists toward a person-centered intervention – namely, audio record-ings of birth planning consultations at BEL. Only 7 participants listened to the audio recording at home. In interviews, pregnant women and gynecologists expressed support for audio re-cordings as part of birth planning. However, the pregnant women found the recording to be of little relevance to their own decision, as they remembered the content of the conversation well, their partner was present during the conversation, or the decision had already been made during the conversation. When the recording was listened to, it mostly served to con-firm a decision that had already been made. Gynecologists expressed concern regarding possible legal consequences of recorded counseling sessions. \nThe Decisional Conflict Scale used showed that the pregnant women’s decision conflict de-creased significantly between t0 and t1 and continued to decrease slightly to t2. Pregnant women rated PEF as very high during the counseling session. However, the objectively measured extent of PEF (measured using the Observer OPTION 5 TM o",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/n9f7j_v1/"
+  },
+  {
+    "osf_id": "jav6y_v1",
+    "title": "Parafoveal access to embedded-word meaning during Chinese word segmentation",
+    "date_created": "2026-08-02T14:19:48.473807",
+    "date_modified": "2026-08-07T04:24:29.377447",
+    "description": "The absence of word-boundary cues in Chinese text creates segmentation ambiguities that readers must resolve online. One example is incremental ambiguity, in which the initial characters of a longer word (e.g., 体育馆, \"stadium\") can also form a standalone embedded word (体育, \"sport\"). Previous studies manipulated the preceding verb context to render the embedded word either plausible or implausible while the longer-word analysis remained plausible, comparing these with control sentences in which the longer word was replaced by the embedded word. Plausibility effects were observed only for the control words, suggesting that readers do not access embedded-word meaning before segmentation is resolved, consistent with the Chinese Reading Model (Li &amp; Pollatsek, 2020). However, these studies also failed to detect the early first-pass plausibility effects reported in other studies using unambiguous materials, making the absence of embedded-word effects difficult to interpret. We therefore conducted a high-powered eye-movement experiment using a larger participant sample and stimulus set, and assessed the robustness of critical effects using split-half reliability and bootstrap analyses. Embedded-word plausibility effects emerged robustly during first-pass fixations on the pre-target verb, indicating parafoveal access to an embedded-word representation. No corresponding effects emerged at the ambiguity region, suggesting that readers ultimately favored the longer-word analysis. Control-word plausibility effects emerged during first-pass fixations at both regions, confirming that the experiment was sufficiently sensitive to detect early plausibility effects. These findings show that embedded-word representations become available parafoveally during incremental ambiguity resolution, challenging current accounts of Chinese word segmentation.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -447,208 +125,6 @@
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/hb4z9_v1/"
-  },
-  {
-    "osf_id": "s5zw2_v2",
-    "title": "Welcome to the Jangle (Fallacy): The Case of Statistics and Mathematics Anxieties",
-    "date_created": "2026-08-03T13:16:31.082016",
-    "date_modified": "2026-08-06T19:38:28.488497",
-    "description": "Background: Statistics-related anxiety is a common barrier to learning in higher education, particularly for psychology and other non-specialist students. High prevalence rates are concerning because statistical literacy is integral to academic success, employability, and informed citizenship. Clarifying the nature of statistics anxiety is central to understanding it, yet it remains unclear whether statistics anxiety is genuinely distinct from mathematics anxiety or simply another manifestation of the same construct.\n\nAims: We examined the degree of overlap (jangle fallacy) between the Statistics Anxiety Rating Scale (STARS) and the Revised Mathematics Anxiety Rating Scale (R-MARS).\n\nSamples: Two cohorts of UK undergraduate psychology students participated: Study 1 (n = 489) and Study 2 (n = 245).\n\nMethods: Each study combined a cross-sectional survey with a between-participants experiment. Surveys included the STARS, R-MARS, parallel forms to control for scale content, and measures of trait and state anxiety. In the experiment, participants were randomly assigned to complete either a statistics or mathematics multiple-choice test, with state anxiety measured before and after.\n\nResults:\nResults pointed to overlap across all analyses and samples. Scales were highly correlated, items did not separate into distinct domains, individuals rarely reported one without the other, and state anxiety increased similarly across test types.\n\nConclusions:\nFindings show that statistics anxiety, as measured by the STARS, is not distinct from mathematics anxiety, as measured by the R-MARS. Recognising statistics anxiety as part of the broader mathematics anxiety construct can streamline measurement, clarify theory, and support more effective interventions for reducing quantitative anxieties in education.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c41",
-          "text": "Quantitative Methods"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c59",
-          "text": "Psychometrics"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8b",
-          "text": "Educational Psychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/s5zw2_v2/"
-  },
-  {
-    "osf_id": "2z3eu_v5",
-    "title": "The Behavioural Effects of Cash-Out Availability in a Naturalistic Betting Task: Results of a Randomised Experiment",
-    "date_created": "2026-08-03T12:44:35.713751",
-    "date_modified": "2026-08-06T21:47:43.669264",
-    "description": "Introduction: People place larger bets on risky events when they can cash-out before the bet concludes. This study experimentally investigates how cash-out availability impacts wider betting behaviour in a simulated betting task and whether risk of gambling problems moderates observed effects.\nMethod: An incentivised, between-participants online experiment (n=377; 70.8% males, 28.6% females; Mage = 39.9), where participants could place bets on horse races via a simulated bookmaker’s website. Participants were randomly assigned to either have the option of cashing-out their bets or not. We examined choices to engage with the gambling task, stake sizes and implied win probabilities of placed bets, and measured risk of gambling problems by administering the PGSI.\nResults: The cash-out group was more likely to choose the gambling task over a distractor game (χ²(1, N=377)=4.59, p=0.032) and engaged with the gambling task for longer than the no-cash-out group (β=0.61, SE=0.23, p=0.0077). The cash-out group also made larger bets (W=19761.5, p=0.021), though this finding was more nuanced. There was no effect of cash-out availability on the average odds of placed bets (W=10635.5, p=0.67). No significant interactions between cash-out availability and PGSI were observed for either the implied win probability of placed bets (β&lt;0.01, SE&lt;0.01, p=0.44) or stake size (β=-0.02, SE=0.02, p=0.15), though a subgroup analysis revealed groupwise differences in stake size within a low-PGSI (W=6909.5, p=0.0076, n=260) subgroup. No such difference was found in the high-PGSI subgroup (W=1699.5, p=0.89, n=117).\nConclusion: The provision of cash-out options in betting products results in significant changes in betting behaviour, which could potentially lead to increased risk of gambling harms.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cf5",
-          "text": "Biases, Framing, and Heuristics"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cfb",
-          "text": "Judgment and Decision Making"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/2z3eu_v5/"
-  },
-  {
-    "osf_id": "smev7_v1",
-    "title": "How we see relations: the case of containment and support",
-    "date_created": "2026-08-03T07:27:41.670329",
-    "date_modified": "2026-08-06T21:04:32.764516",
-    "description": "To navigate and act in the environment, it is necessary to recognize objects and the relationships between them. Recognition of objects in visual scenes is rapid and automatic. Are relations between objects in a scene also extracted rapidly and automatically during perception? Here, we considered containment and support, two relations that are fundamental to our understanding of the physical world. Using frequency-tagging electroencephalography (EEG) on human subjects, we measured stimulus-driven neural responses during rapid visual presentation of images (4 Hz), with a periodic oddball structure to isolate the selective response to object pairs presented side-by-side (e.g., a book and a table) versus two objects in support or containment relations (e.g., a book on a table). We found enhanced responses to objects in support/containment relations (vs. objects side-by-side) when a relation was instantiated by different exemplars of the same scene (e.g., a book on a table), but not by different scenes involving distinct object categories (e.g., a book on a table, a lamp on a stand, a laptop on a desk). These findings indicate that, during scene perception, relations are extracted in a format that generalizes within, but not across types of visual scenes. We propose that, during perception, relations are not represented as discrete, abstract tokens (“in” or “on”) but rather as objects’ properties, such that changes in the objects entail changes in the relational representation. These results provide new insight into the perceptual foundations of relational processing underlying physical reasoning.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c23",
-          "text": "Cognitive Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c62",
-          "text": "Linguistics"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c71",
-          "text": "Perception"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c77",
-          "text": "Behavioral Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cfa",
-          "text": "Reasoning"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7427c6983001430b6c8c",
-          "text": "Cognitive Psychology"
-        },
-        {
-          "id": "5b4e7429c6983001430b6cfe",
-          "text": "Concepts and Categories"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/smev7_v1/"
-  },
-  {
-    "osf_id": "h8um3_v1",
-    "title": "Impaired Interoception as a Pathway from Binge-Eating Severity to Self-Regulatory Dysfunction and Hedonic Food Responsiveness",
-    "date_created": "2026-08-02T02:58:59.245528",
-    "date_modified": "2026-08-06T20:12:17.789819",
-    "description": "Binge eating has been linked to alterations in interoceptive awareness, self-regulation, and hedonic responsiveness to food, yet the mechanisms connecting these domains remain incompletely understood. The present study examined differences in interoceptive awareness, executive functioning, and hedonic responsiveness to food across levels of binge-eating severity in a community sample of adults. Participants completed self-report measures assessing multidimensional interoceptive awareness, executive functioning, and food reward sensitivity, as well as a battery of neuropsychological tasks evaluating inhibition, cognitive flexibility, and decision-making. Structural equation modeling was used to compare five theoretically grounded alternative models describing the relationships among these constructs. Individuals with higher binge-eating severity showed greater hedonic responsiveness to food cues, higher levels of negative urgency, reduced perseverance, and greater self-reported executive difficulties, alongside lower interoceptive awareness across several dimensions. In contrast, performance-based neuropsychological tasks did not reliably differentiate binge-eating severity groups. Binge-eating severity was associated with hedonic food responsiveness both directly and indirectly through reduced interoceptive awareness and self-regulatory dysfunction. These findings suggest that binge-eating severity may be more strongly related to subjective and experiential aspects of self-regulation and bodily awareness than to deficits detected through classical neuropsychological tasks and point to interoceptive awareness as a transdiagnostic mechanism through which binge-eating severity may amplify hedonic food responsiveness via self-regulatory dysfunction.",
-    "doi": "",
-    "preprint_doi": "",
-    "subjects": [
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1b",
-          "text": "Neuroscience"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c28",
-          "text": "Feeding and Eating Disorders"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7425c6983001430b6c1f",
-          "text": "Clinical Psychology"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c38",
-          "text": "Clinical Neuropsychology"
-        }
-      ]
-    ],
-    "link": "https://osf.io/preprints/psyarxiv/h8um3_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/jav6y_v1/"
   }
 ]

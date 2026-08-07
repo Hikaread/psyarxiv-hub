@@ -1,30 +1,34 @@
 {
   "evaluated": 5,
-  "accepted": 2,
+  "accepted": 3,
   "rejected": 2,
-  "errors": 1,
-  "skipped": 3,
-  "deferred": 119,
+  "errors": 0,
+  "skipped": 18,
+  "deferred": 136,
   "results": [
     {
       "osf_id": "f5bmt_v1",
       "title": "\u201cI Had to Figure It Out Alone\u201d: A Qualitative Exploration of Fathers\u2019 Experience",
-      "decision": "error",
-      "reason": "LLM call failed"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "pvjme_v1",
       "title": "Protocol for a small-scale mixed methods efficacy trial of a novel co-designed d",
-      "decision": "reject",
-      "reason": "The paper focuses on a protocol for a trial with adolescents (11-15 years) with ADHD symptoms, which falls under the rejection criteria of being focused on children/adolescents without direct adult clinical implications.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "pvf39_v1",
       "title": "Emotional Mirror: A Local Multimodal Generative Framework for Synthetic Memory R",
-      "decision": "reject",
-      "reason": "This paper focuses on AI/technology development for memory reconstruction, not clinical psychology practice or intervention. It describes a technical framework for generating visual representations of traumatic memories using AI, with no clinical data, patient outcomes, or therapeutic applications. The paper is primarily about machine learning architecture and computational methods, not clinical psychology practice, assessment, or interventions.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "kzt7j_v1",
+      "title": "The vegetative state is not a state of mind",
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "kgr8t_v2",
@@ -35,28 +39,26 @@
     {
       "osf_id": "upvk3_v1",
       "title": "The Perfect Storm Framework: A Testable Multi-Hit Model Linking Connective Tissu",
-      "decision": "accept",
-      "reason": "The paper directly relates to clinical psychology through its focus on neurodivergence (autism, ADHD), chronic illness, and mental health outcomes. It presents a testable framework for understanding how constitutional factors interact with environmental stressors to produce complex clinical presentations relevant to practicing psychologists.",
-      "category": "Neurodivergence",
-      "number": 886,
-      "authors": "Jessica Eccles; Nigel Cole; Hugo Critchley; Kevin Davies; Ihab Tewfik; Lisa Quadt; Kimia Witte; Ruchika Gajwani; Helen Minnis; Alessandro Colasanti",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "6j5zr_v1",
       "title": "What makes preventative psychosocial interventions acceptable to young people ex",
-      "decision": "accept",
-      "reason": "The paper examines acceptability factors for preventative psychosocial interventions for young people with ACEs, which is highly relevant for clinical psychology practice in prevention and early intervention.",
-      "category": "Trauma & Stressor-Related",
-      "number": 887,
-      "authors": "Tom Jenkins; Jeffrey Lambert; Chloe Hampshire; Tom Freeman; Sarah Halligan; Lisa Price`; Caledonia Swindells-Macleod; Pamela Jacobsen",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "m8g6k_v1",
+      "title": "Addiction as a Chronic Brain Disease: A Narrative Review of the Neurobiological ",
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "cs52x_v1",
       "title": "A Test of the 2 \u00d7 2 Model of Perfectionism in Predicting Distress among Licensur",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "bdvms_v2",
@@ -67,14 +69,20 @@
     {
       "osf_id": "e3qg7_v3",
       "title": "Conversational AI Should Fill the White Space in Mental Health Care, Not Replace",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "g796a_v1",
       "title": "Work-focused Cognitive Behavioural Therapy for patients on sick leave due to str",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "dk67s_v1",
+      "title": "FLM UNGOAL: A Factor-Label Method for Removing Semantic Distractors in Health Be",
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "pyg2n_v4",
@@ -85,50 +93,70 @@
     {
       "osf_id": "j6xz3_v1",
       "title": "\u2018It is my life don\u2019t take that choice from me\u2019: Autistic young adults\u2019 experienc",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "7pdx9_v2",
       "title": "Personality trait and state associations with cognitive functioning and variabil",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "c63zv_v2",
       "title": "Beyond awareness: A multidimensional meta-analysis on the nuanced relationship b",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "gd35j_v1",
       "title": "Relationships between salivary oxytocin levels in infants, age and caregiving pr",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "mer3s_v1",
       "title": "Artificial Intelligence as a Mental Health Support Tool, Not a Therapist: Implic",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "This paper focuses on AI chatbots for young people's mental health, which falls under digital technology applications rather than direct clinical psychology practice. The paper examines AI as a support tool rather than a therapeutic intervention, and specifically focuses on children/adolescents without clear adult clinical implications. It's more aligned with technology and education perspectives rather than core clinical psychology practice.",
+      "category": null
+    },
+    {
+      "osf_id": "qtbex_v1",
+      "title": "Depression symptom network reorganization under internet-based emotion regulatio",
+      "decision": "accept",
+      "reason": "This study examines how depressive symptom networks reorganize following an internet-based emotion regulation intervention, with direct relevance to clinical psychology practice through its focus on digital mental health interventions and symptom network analysis.",
+      "category": "Digital Mental Health",
+      "number": 897,
+      "authors": "Jianjie Xu; Sihan Liu; Hanyi Zhang; lu Chen; Lv Xiangxi; Mengyu Miranda Gao; Yueqin Hu; Shaozheng Qin; Mark S. Chen; Rachel Han",
+      "curated": true
     },
     {
       "osf_id": "25c4h_v1",
       "title": "Conversational AI and Emerging Psychosis: A Simulation Study of Potentially Iatr",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "This study directly examines the clinical implications of conversational AI for individuals experiencing psychotic symptoms, evaluating potential iatrogenic effects on psychotic processes, which is highly relevant to clinical psychology practice.",
+      "category": "Psychosis & Schizophrenia",
+      "number": 898,
+      "authors": "In\u00e9s Abalo-Rodr\u00edguez; Rebeca Pardo Cebri\u00e1n; Roman D Moreno-Fernandez; Ben Alderson-Day",
+      "curated": true
     },
     {
       "osf_id": "gct58_v2",
       "title": "Cognitive resources can be intentionally released when processed information bec",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "This paper focuses on basic cognitive psychology and memory mechanisms (primacy effect, resource depletion) without clear clinical application or relevance to practicing therapists, psychologists, or psychiatrists. It examines theoretical models of working memory rather than mental health interventions, assessment tools, or clinical psychopathology.",
+      "category": null
     },
     {
       "osf_id": "39gwa_v2",
       "title": "The cost of scrutiny: subclinical social anxiety and performance context reshape",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "This study investigates neural mechanisms of social anxiety during learning, with direct implications for understanding avoidance behaviors and cognitive processing in clinical populations.",
+      "category": "Anxiety & OCD",
+      "number": 899,
+      "authors": "Hanjie Liu; Melle J.W. van der Molen",
+      "curated": true
     },
     {
       "osf_id": "5n6df_v2",
@@ -169,6 +197,24 @@
     {
       "osf_id": "26n9d_v2",
       "title": "Parenting Behavior in Relation to Children's Socio-Emotional Skills: A Latent Pr",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "nqmr7_v1",
+      "title": "Pilot Study of Combined tDCS and Cognitive Training Intervention for Suicide Ris",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "h8um3_v1",
+      "title": "Impaired Interoception as a Pathway from Binge-Eating Severity to Self-Regulator",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "r3zhp_v1",
+      "title": "Subjective effects of flicker light do not differ between open- and closed-eye v",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
@@ -373,6 +419,18 @@
     {
       "osf_id": "nytj8_v1",
       "title": "Self-regulation shapes who benefits from large language models",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "de6bu_v1",
+      "title": "The Saito Loop, a computational theory of hierarchical recovery in catatonia",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "8psd9_v2",
+      "title": "Validating local open-weight LLMs against expert raters for graded deductive cod",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
@@ -587,6 +645,90 @@
       "reason": "max_papers limit reached"
     },
     {
+      "osf_id": "8ae7w_v1",
+      "title": "Recovery order in adaptive systems is set by dependency structure",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "xg8wt_v2",
+      "title": "Stimulated recall protocols: Field-specific guidelines for second language acqui",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "z8qa7_v1",
+      "title": "Pupil size dynamics predict momentary changes in self-reported arousal",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "dy25h_v2",
+      "title": "Imagination boosts strategy learning",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "hb4z9_v1",
+      "title": "Bilingual experience predicts language skills, but not reading skills, in a low-",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "s5zw2_v2",
+      "title": "Welcome to the Jangle (Fallacy): The Case of Statistics and Mathematics Anxietie",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "smev7_v1",
+      "title": "How we see relations: the case of containment and support",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "pyuxn_v2",
+      "title": "Revealing implicit social bias through EEG-informed generative AI.",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "vau7y_v1",
+      "title": "Personality Prediction from Moments to Lifetimes",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "5t6cv_v2",
+      "title": "Coping With Complexity: A Selective Sampling Account of Consideration Set Format",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "w4hbu_v2",
+      "title": "Varieties of generalization inspired by Pavlov\u2019s legacy",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "vm356_v1",
+      "title": "Confirmatory Matrix Factorization",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "hwbuf_v1",
+      "title": "Autobiographical Recollective Style in Grapheme\u2013Color Synesthesia: Overlap with ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "n9f7j_v1",
+      "title": "Audioaufnahmen von Entscheidungsgespr\u00e4chen in der Geburtsplanung bei Beckenendla",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
       "osf_id": "dm8yu_v1",
       "title": "The crossword effect: A recall advantage for words encoded in alignment with the",
       "decision": "deferred",
@@ -775,6 +917,60 @@
     {
       "osf_id": "6y4fj_v1",
       "title": "Cardiac and Respiratory Dynamics Modulate Temporal Interval Judgments",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "y9rx4_v1",
+      "title": "No Single Model Fits All: Conflict Decision-Making Models Vary More Across Datas",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "4mt86_v1",
+      "title": "Is fashion just a fashion? Or does it have an evolutionary basis?",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "2z3eu_v5",
+      "title": "The Behavioural Effects of Cash-Out Availability in a Naturalistic Betting Task:",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "wjrxt_v1",
+      "title": "Trajectory elevation in reach-to-grasp movements under increased arm weight and ",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ut28p_v1",
+      "title": "The balance corpus: An audiovisual collection of 30 adult pairs playing an inter",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "vdge8_v1",
+      "title": "Perceived Artificiality Markedly Reduces Trustworthiness but Only Minimally Affe",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "h2apv_v1",
+      "title": "Social inference in an empty room: children use indirect evidence to infer an ag",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "ahbkq_v2",
+      "title": "Dissociating retina- and face-centered reference frames of human face recognitio",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "jav6y_v1",
+      "title": "Parafoveal access to embedded-word meaning during Chinese word segmentation",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     }
