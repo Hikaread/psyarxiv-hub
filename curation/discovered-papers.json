@@ -1,10 +1,10 @@
 [
   {
-    "osf_id": "vzs2e_v1",
-    "title": "Psychiatric Symptom Severity and Performance Monitoring:  Intraindividual Variability in Neural Responses and Behavioral Adjustments to Errors",
-    "date_created": "2026-08-07T14:59:39.492112",
-    "date_modified": "2026-08-07T15:58:11.296467",
-    "description": "Performance monitoring involves evaluating actions and adjusting behavior accordingly. Atypical neural and behavioral indices of performance monitoring are commonly observed in individuals with psychopathology, raising the possibility that psychiatric symptoms may disrupt the link between error-related neural activity and subsequent behavioral adjustment. However, neural and behavioral indices of performance monitoring are often examined separately, leaving trial-level event-related brain potential (ERP) coupling with behavior poorly understood. The present study examined whether previous-trial error-related ERP components predicted current-trial behavior (i.e., response time [RT], accuracy) and whether these relationships varied by self-reported internalizing and externalizing symptoms. In a college student sample (N=247), larger previous-trial error-related negativity (ERN), an index of early error monitoring, predicted longer RTs. In contrast, larger previous-trial error positivity (Pe), an index of later error awareness, predicted higher current-trial accuracy. Internalizing and externalizing symptom scores did not robustly moderate these ERP-behavior relationships or consistently predict behavioral adjustments. These findings suggest that trial-level coupling between error-related ERP components and behavioral adjustment showed no robust evidence of differing across levels of self-reported internalizing and externalizing symptoms within the observed range. More broadly, the results highlight the value of examining performance monitoring as an integrated neural-behavioral process rather than as isolated neural or behavioral indices.",
+    "osf_id": "e54zv_v2",
+    "title": "Why Are You Slowing Down? Performance-Monitoring ERPs Predict Drift Diffusion Model Parameters of Post-Error Adjustment",
+    "date_created": "2026-08-07T14:25:22.177031",
+    "date_modified": "2026-08-07T16:19:11.159561",
+    "description": "Post-error slowing is usually attributed to the prioritization of accurate responding. However, neural and behavioral measures of performance monitoring are typically examined in isolation, failing to capture how individuals’ responses to an error relate to changes in subsequent decision making. The role of performance monitoring in the context of the speed-accuracy tradeoff can be understood by examining within-person changes in the relationship between error-monitoring event-related brain potentials (ERPs) and drift-diffusion model (DDM) parameters. In the neural domain, we examined the error-related negativity (ERN) and error positivity (Pe), the two error-monitoring ERPs that reflect different stages of error processing. In the behavioral domain, we used a DDM to characterize the cognitive operations involved in the task. We used Hierarchical DDM regressor models to relate the two domains using data collected from 177 healthy participants during a flanker task. We found that larger previous-trial ERN predicted a less cautious response style (i.e., lower decision boundary) and slower visual encoding and motor execution on the current trial. Robust relationships were observed between heightened early-stage error processing and changes in both attentional and non-attentional processes in subsequent decision-making, even after accounting for current-trial characteristics. Importantly, heightened error detection and the subsequent increase in non-decision time provided strong support for the bottleneck theory of post-error slowing, such that sustained error monitoring interferes with efficient visual encoding on the subsequent trial.",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -19,14 +19,14 @@
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/vzs2e_v1/"
+    "link": "https://osf.io/preprints/psyarxiv/e54zv_v2/"
   },
   {
-    "osf_id": "vh7gy_v2",
-    "title": "Measurement Invariance of Latent Models of Externalizing by Contextual and Sociocultural Factors in System-Involved Youth",
-    "date_created": "2026-07-31T16:37:58.149258",
-    "date_modified": "2026-08-07T16:00:56.092852",
-    "description": "Externalizing forms of psychopathology in youth, including substance use, conduct problems, and aggression, are said to result from a general liability towards impulsive and disruptive behaviors. While the field often focuses on dispositional explanations of externalizing behaviors, there is a notable lack of attention to the extent to which contextual factors affect the measurement of latent externalizing (EXT) in youth, an analysis with implications for racial/ethnic and socioeconomic disparities in juvenile justice system involvement. The present study examines if certain behavioral indicators of EXT vary in the extent to which they reflect the respective trait (metric invariance) or how much EXT trait levels explain observed values of behavioral indicators (scalar invariance) as a function of context, including immediate environments and sociocultural factors. Using the Pathways to Desistance dataset of system-involved youth (N=1276; 41.4% Black, 33.5% Hispanic; 86.4% male), multigroup CFA and moderated nonlinear factor analyses revealed metric invariance across race and contextual moderators, except that exposure to antisocial peers was associated with higher loadings on all EXT indicators. In contrast, scalar noninvariance was evident across race and nearly all contextual moderators, such that Black race and more disadvantage tended to raise the intercept values for EXT indicators beyond the latent trait level. Intercepts for EXT indicators like school discipline, substance use, juvenile justice history, and impulsivity appeared to be the most vulnerable to measurement bias. This research is important for addressing biases inherent in our measures and enhancing the cultural sensitivity and accuracy of assessments of EXT across varied populations.",
+    "osf_id": "n8vmx_v1",
+    "title": "From Acute Attack to Prolonged War: A Scoping Review of Mental Health Burden in Israel After October 7",
+    "date_created": "2026-08-07T14:18:41.005911",
+    "date_modified": "2026-08-07T17:59:45.828081",
+    "description": "Background: The October 7, 2023, attack in Israel was followed by a prolonged war marked by repeated threat, displacement, reserve mobilization, and hostage-related uncertainty. This context generated a rapidly expanding yet heterogeneous empirical literature on psychological distress. This scoping review mapped the scope, temporal patterning, distribution, and evidence gaps of peer-reviewed publications among individuals residing in Israel after October 7, foregrounding prolonged war as the central context.\nMethods: This prospectively registered review followed PRISMA-ScR guidance. Searches were conducted in PubMed/MEDLINE, APA PsycINFO, Scopus, and Web of Science Core Collection for publications from October 7, 2023, to April 2026. Eligible publications reported quantitative findings on mental health symptoms, functioning, risk or protective factors, or service use. Findings were synthesized narratively by publication characteristics, temporal patterns, exposure contexts, population groups, and evidence gaps.\nFindings: Searches yielded 11,285 records; screening identified 240 eligible publications, of which 205 reported distress-related outcomes and were retained here. Cross-sectional publications predominated (120/205; 58.5%), followed by longitudinal or repeated-assessment publications (80/205; 39.0%); intervention or experimental publications were rare (5/205; 2.4%). Findings documented acute increases in PTSD/PTSS, depression, anxiety, acute stress, sleep disturbance, and general distress, followed by partial but uneven symptom reduction during the first year. Evidence beyond the first year was limited but suggested persistent or possible cumulative burden under prolonged-war conditions. Burden was concentrated in groups marked by direct trauma, displacement, bereavement or hostage-related uncertainty, military or caregiving burden, minority or age-related vulnerability, and moral injury or betrayal.\nInterpretation: Post-October 7 mental health burden is best ",
     "doi": "",
     "preprint_doi": "",
     "subjects": [
@@ -40,8 +40,48 @@
           "text": "Clinical Psychology"
         },
         {
-          "id": "5b4e7426c6983001430b6c3a",
-          "text": "Clinical Child Psychology"
+          "id": "5b4e7427c6983001430b6c90",
+          "text": "Trauma and Stress"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/n8vmx_v1/"
+  },
+  {
+    "osf_id": "dpe2s_v1",
+    "title": "Motivational Framing Shapes Effort Judgments in Individuals with Depressive Symptoms",
+    "date_created": "2026-08-07T12:35:52.777589",
+    "date_modified": "2026-08-07T16:48:43.283644",
+    "description": "Effort-related motivational deficits in depression are often studied through effort-reward decisions, yet everyday effort also depends on the reference standards against which it is judged. In a preregistered laboratory crossover study, 51 participants with at least mild depressive symptoms received two opposing effort framings: self-initiated allocation toward goals and need frustration emphasizing burden and affective demand. After reconstructing previous-day activities, participants evaluated upward and downward social, temporal-past, criteria-based, and counterfactual standards for their two most effortful activities per session, yielding 1,632 standard-endorsement judgments followed by intensity and discrepancy ratings for endorsed standards. As predicted, need-frustration framing increased endorsement of upward criteria-based standards (“this should feel less effortful”). However, this effect did not generalize across upward comparisons. Instead, need frustration decreased upward temporal standards (“this used to feel easier”) and increased downward counterfactual standards (“it could have been harder under worse circumstances”). Intensity ratings among endorsed standards were not reliably affected, although an exploratory relevance score supported the specific role of upward criteria-based standards. Perceived effort was higher under allocation but correlated more positively with depressive symptoms under need frustration. These findings suggest that motivational framing changes the comparison standards people identify as relevant to everyday effort judgments and highlight the need to assess the appraised meaning of effort-related comparisons directly.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c67",
+          "text": "Depressive Disorders"
         }
       ],
       [
@@ -54,8 +94,180 @@
           "text": "Social and Personality Psychology"
         },
         {
-          "id": "5b4e7426c6983001430b6c53",
-          "text": "Individual Differences"
+          "id": "5b4e7428c6983001430b6cb7",
+          "text": "Motivational Behavior"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf5",
+          "text": "Biases, Framing, and Heuristics"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/dpe2s_v1/"
+  },
+  {
+    "osf_id": "umspj_v1",
+    "title": "Student Adoption of an AI Tutor for Statistical Programming: A Longitudinal Study",
+    "date_created": "2026-08-07T12:35:18.877471",
+    "date_modified": "2026-08-07T16:45:58.661517",
+    "description": "Background: The rise in AI use among students has raised questions about the integration of AI tools into higher education. This longitudinal study examined the adoption of an AI tutor and its consequences during a semester-long university course on R programming. Methods: We analyzed the relationships between AI tutor usage, academic performance, students’ attitudes toward R programming, self-efficacy, and their attitudes toward and trust in AI. Results: We found that 76-84% of students used the AI tutor during the exam-relevant phase of the semester and that, on average, students used alternative AI tools only 8% of the time. Surprisingly, trust in and attitudes toward AI did not predict AI tutor usage, raising questions about the interplay between personal dispositions and situational demands. AI tutor usage was positively associated with academic performance, and no adverse effects of usage were observed. In this context, we discuss the potential to mitigate negative consequences of cognitive offloading by embedding AI tools within an appropriate instructional framework. The AI tutor was positively evaluated by students, and adaptations made during the semester provide further insights into user-friendly design features. Conclusion: This study offers an example of how AI tools can be integrated into a university course setting in a way that may help mitigate adverse effects of AI overreliance. We encourage future research to explore the implementation of AI tools in domains beyond programming.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8b",
+          "text": "Educational Psychology"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/umspj_v1/"
+  },
+  {
+    "osf_id": "eqvf7_v2",
+    "title": "Explicit knowledge enables allocentric target but not distractor learning",
+    "date_created": "2026-08-07T12:06:22.073289",
+    "date_modified": "2026-08-07T17:28:06.009845",
+    "description": "Humans can learn to attend to and to ignore specific locations based on statistical regularities. Such statistical learning effects may arise through both implicit and explicit mechanisms and may be expressed in egocentric (viewer-centered) or allocentric (world-centered) reference frames. In the absence of explicit knowledge, statistical learning is typically egocentric, but explicit knowledge can promote allocentric target-location learning. Yet, whether explicit knowledge can similarly promote allocentric distractor-location learning remains unclear. Here, we addressed this question across six experiments. Study 1 (Experiments 1-4; n=95) examined whether explicit knowledge can enable allocentric distractor-location learning using an additional-singleton visual-search task in which participants continuously changed their viewpoint following full-body movements. Participants were either informed (explicit) or uninformed (implicit) about a high-probability distractor location, which was defined relative to their perspective (egocentric) or the environment (allocentric). Unlike what has been reported for target regularities, even with explicit knowledge of the regularity, no evidence for allocentric location learning was found for distractor regularities. Study 2 (Experiments 5-6, n=54) confirmed that explicit knowledge can support allocentric target-location learning in our set-up. Together, these findings indicate that explicit knowledge about world-centered spatial regularities can be exploited when it concerns task-relevant but not task-irrelevant information. This dissociation suggests that learning what to ignore is not simply the inverse of learning where to attend, with important implications for theories of statistical learning and attentional control.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/eqvf7_v2/"
+  },
+  {
+    "osf_id": "g3uk4_v2",
+    "title": "Media portrayals of youth self-harm and suicide: An examination social determinants and inequalities",
+    "date_created": "2026-08-07T09:02:23.299569",
+    "date_modified": "2026-08-07T21:29:12.751710",
+    "description": "Increasing evidence shows that social inequalities are central determinants of youth self harm and suicide. Media coverage shapes public understanding of these risk factors, yet little is known how Irish news outlets portray them. The study examined the representation of determinants in popular Irish print and online news between 2023 and 2025. Following a systematic keyword search of eight major outlets, 918 articles were examined, of which 25% contained at least one causal explanation. Using abductive content analysis guided by the WHO Commission on Social Determinants of Health framework, articles were coded for type of causal explanation, source of the explanation, and social characteristics of described individuals. Frequency counts and chi square tests assessed differences by year, publication, source, gender of described individuals, and whether the explanation referred to suicide, self harm, or both. Psychosocial explanations dominated (71% of mentions), driven by abuse/trauma (37%) relational factors (23%), and technology and social media use (17%). Macro-level structural determinants such as wider political, socioeconomic, or cultural contexts were less frequently mentioned, and no biological factors were reported. Female experiences were over represented (62% of profiles), and explanations were most commonly supplied by lived-experience accounts (20%) and non-expert professionals, such as politicians or teachers (17%). No temporal trend was observed, and there were limited differences in explanations for self-harm vs suicide. The findings reveal a media landscape that foregrounds individual level narratives and under represents systemic risk factors. Extending Irish suicide reporting guidelines to require inclusion of structural determinants and expert perspectives could improve public awareness, reduce stigma, and bolster evidence based prevention strategies.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7428c6983001430b6cd6",
+          "text": "Attitudes and Persuasion"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cf6",
+          "text": "Mental Health"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfc",
+          "text": "Health-related Behavior"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/g3uk4_v2/"
+  },
+  {
+    "osf_id": "7kwae_v2",
+    "title": "Actions speak louder than words: Towards measuring real-world behaviour change in psychedelic research",
+    "date_created": "2026-08-07T08:02:15.386784",
+    "date_modified": "2026-08-07T17:32:58.085178",
+    "description": "The therapeutic and societal promise often attributed to psychedelic drugs implies meaningful change in real-world behaviour, yet such change is rarely measured directly. Across psychedelic research, outcomes are typically assessed using symptom scales, self-reported psychological states, or retrospective judgments of change, which may capture subjective improvement but do not by themselves demonstrate altered behaviour. Reviewing evidence across health, prosocial, and pro-environmental domains, we show that outside addiction, claims about behavioural transformation remain methodologically ahead of the data. We outline methodological approaches that could help bring the field’s strongest claims into closer alignment with more rigorous tests of real-world change.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c34",
+          "text": "Social and Personality Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c6b",
+          "text": "Prosocial Behavior"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c56",
+          "text": "Environmental Psychology"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c9f",
+          "text": "Sustainability Behavior"
         }
       ],
       [
@@ -68,10 +280,108 @@
           "text": "Clinical Psychology"
         },
         {
-          "id": "5b4e7426c6983001430b6c5e",
-          "text": "Disruptive, Impulse-control, and Conduct Disorders"
+          "id": "5b4e7428c6983001430b6cab",
+          "text": "Psychopharmacology"
         }
       ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c8c",
+          "text": "Cognitive Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfb",
+          "text": "Judgment and Decision Making"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c93",
+          "text": "Health Psychology"
+        },
+        {
+          "id": "5b4e7429c6983001430b6cfc",
+          "text": "Health-related Behavior"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/7kwae_v2/"
+  },
+  {
+    "osf_id": "8276x_v3",
+    "title": "The emotional experience of time: Effects of anxiety and interoceptive ability on temporal perception",
+    "date_created": "2026-08-06T09:44:17.596454",
+    "date_modified": "2026-08-07T17:32:33.008483",
+    "description": "Our experience of time is deeply shaped by emotional and bodily states. Anxiety is known to distort our temporal perception, yet the underlying mechanisms remain poorly understood. Here, we tested whether interoception links anxiety to variability in timing. Thirty participants underwent fMRI while performing a temporal reproduction task within a modified Threat of Scream paradigm. Safe and Threat blocks alternated, with aversive screams unpredictably delivered during Threat blocks. Screams reliably increased subjective anxiety and engaged salience and limbic regions, including the amygdala, hippocampus, and insula. Despite these affective and neural responses, Threat did not produce systematic changes in temporal accuracy. Instead, individuals with higher interoceptive accuracy tended to preserve reproduction accuracy under elevated anxiety, implicating an interoceptive contribution to anxiety-related variability in timing. At the neural level, reproduction compared with the encoding phase increased activity in sensorimotor and parietal regions, with engagement of the insula, cingulate, and striato-thalamic regions in the Safe context. Under Threat, the same contrast encompassed a more circumscribed set of sensorimotor and parietal regions, and screams robustly recruited a salience–limbic–temporal network relative to both non-emotional tones. Together, these findings suggest that individual differences in interoceptive accuracy may moderate the relationship between anxiety and temporal reproduction, and characterise the neural response to threat during a timing task.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c23",
+          "text": "Cognitive Neuroscience"
+        }
+      ],
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1b",
+          "text": "Neuroscience"
+        },
+        {
+          "id": "5b4e7427c6983001430b6c77",
+          "text": "Behavioral Neuroscience"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/8276x_v3/"
+  },
+  {
+    "osf_id": "c26zw_v1",
+    "title": "Moving On Up: Momentary Physical Activity Predicts Proximal Affect and Emotion Regulation in Remitted Depression",
+    "date_created": "2026-08-06T04:18:47.502105",
+    "date_modified": "2026-08-07T17:29:50.075654",
+    "description": "Reduced physical activity is a persistent feature of major depressive disorder (MDD), yet its momentary emotional and regulatory consequences remain poorly understood, especially after remission. Across one week, young adults with remitted depression (rMDD; n = 49) and never-depressed controls (n = 40) reported affect and emotion regulation three times daily while wearing a Hexoskin torso-mounted accelerometer. Mean activity level and activity variability were derived from the continuous accelerometer signal in the 30 minutes preceding each assessment. Within individuals, increases in physical activity predicted more high-arousal positive affect and less low-arousal negative affect, while activity variability predicted emotion regulation strategy use. Depression history and current symptoms moderated these associations, with the rMDD group exhibiting a stronger physical activity–positive affect link. These findings provide the first evidence that momentary physical activity patterns predict both adaptive and maladaptive emotion regulation, highlighting activity variability as an overlooked dimension relevant to depression risk.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
+      [
+        {
+          "id": "5b4e7425c6983001430b6c1e",
+          "text": "Social and Behavioral Sciences"
+        },
+        {
+          "id": "5b4e7425c6983001430b6c1f",
+          "text": "Clinical Psychology"
+        },
+        {
+          "id": "5b4e7426c6983001430b6c67",
+          "text": "Depressive Disorders"
+        }
+      ]
+    ],
+    "link": "https://osf.io/preprints/psyarxiv/c26zw_v1/"
+  },
+  {
+    "osf_id": "63hbx_v2",
+    "title": "Gender Differences in Self-Consciousness Across Offline and Social Media Contexts",
+    "date_created": "2026-08-06T02:27:33.332375",
+    "date_modified": "2026-08-07T17:31:54.208384",
+    "description": "Women tend to be more self-conscious than men. Drawing on Whole Trait Theory, we show, however, that gender differences in self-consciousness manifest differently between offline and social media contexts. Participants (Studies 1 and 2; N = 2,770; 58% women) completed context-framed measures of self-consciousness specified to indicate a) offline and b) social media contexts in c) private (i.e., concerning internal states) and d) public (i.e., concerning external appearance) senses. Findings showed that both women and men were more privately and publicly self-conscious offline than on social media. However, public self-consciousness was pronounced on social media in women relative to men (Study 1). Greater femininity also predicted greater public self-consciousness, which, in turn, was more pronounced than private self-consciousness on social media (Study 2), suggesting effects beyond gender categories. We corroborated these findings with women’s qualitative experiences, which further suggested the prominent role of image-based platforms and attempts to manage self-consciousness online (Study 3; N = 37, 76% women). Our findings imply unique gender dynamics in self-consciousness, centering women’s public self-consciousness on social media.",
+    "doi": "",
+    "preprint_doi": "",
+    "subjects": [
       [
         {
           "id": "5b4e7425c6983001430b6c1e",
@@ -80,27 +390,9 @@
         {
           "id": "5b4e7425c6983001430b6c34",
           "text": "Social and Personality Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cb0",
-          "text": "Intergroup Processes"
-        }
-      ],
-      [
-        {
-          "id": "5b4e7425c6983001430b6c1e",
-          "text": "Social and Behavioral Sciences"
-        },
-        {
-          "id": "5b4e7426c6983001430b6c5f",
-          "text": "Forensic and Legal Psychology"
-        },
-        {
-          "id": "5b4e7428c6983001430b6cda",
-          "text": "Clinical"
         }
       ]
     ],
-    "link": "https://osf.io/preprints/psyarxiv/vh7gy_v2/"
+    "link": "https://osf.io/preprints/psyarxiv/63hbx_v2/"
   }
 ]

@@ -1,11 +1,21 @@
 {
   "evaluated": 5,
-  "accepted": 3,
-  "rejected": 2,
+  "accepted": 4,
+  "rejected": 1,
   "errors": 0,
-  "skipped": 18,
-  "deferred": 136,
+  "skipped": 28,
+  "deferred": 137,
   "results": [
+    {
+      "osf_id": "n8vmx_v1",
+      "title": "From Acute Attack to Prolonged War: A Scoping Review of Mental Health Burden in ",
+      "decision": "accept",
+      "reason": "This scoping review directly addresses mental health outcomes in a clinical context related to trauma and stressor-related disorders resulting from prolonged war exposure, with clear implications for clinical practice and intervention.",
+      "category": "Trauma & Stressor-Related",
+      "number": 904,
+      "authors": "Yossi Levi-Belz; Adrian Mendelson; Yael Segal Elbak; Dalia Moallem; Ziv Ben-Zion",
+      "curated": true
+    },
     {
       "osf_id": "f5bmt_v1",
       "title": "\u201cI Had to Figure It Out Alone\u201d: A Qualitative Exploration of Fathers\u2019 Experience",
@@ -55,6 +65,16 @@
       "reason": "already in papers.json"
     },
     {
+      "osf_id": "g3uk4_v2",
+      "title": "Media portrayals of youth self-harm and suicide: An examination social determina",
+      "decision": "accept",
+      "reason": "The paper examines media portrayals of youth self-harm and suicide, focusing on social determinants and inequalities, which has direct relevance to clinical psychology practice, particularly in understanding how public discourse may influence clinical approaches and public health interventions for these critical issues.",
+      "category": "Suicidality & Self-Harm",
+      "number": 905,
+      "authors": "Leigh Huggard; Daisy Wiggin; Eve Griffin; Elaine McMahon",
+      "curated": true
+    },
+    {
       "osf_id": "cs52x_v1",
       "title": "A Test of the 2 \u00d7 2 Model of Perfectionism in Predicting Distress among Licensur",
       "decision": "skipped",
@@ -81,6 +101,12 @@
     {
       "osf_id": "dk67s_v1",
       "title": "FLM UNGOAL: A Factor-Label Method for Removing Semantic Distractors in Health Be",
+      "decision": "skipped",
+      "reason": "already in papers.json"
+    },
+    {
+      "osf_id": "vh7gy_v2",
+      "title": "Measurement Invariance of Latent Models of Externalizing by Contextual and Socio",
       "decision": "skipped",
       "reason": "already in papers.json"
     },
@@ -117,88 +143,83 @@
     {
       "osf_id": "mer3s_v1",
       "title": "Artificial Intelligence as a Mental Health Support Tool, Not a Therapist: Implic",
-      "decision": "reject",
-      "reason": "This paper focuses on AI chatbots for young people's mental health, which falls under digital technology applications rather than direct clinical psychology practice. The paper examines AI as a support tool rather than a therapeutic intervention, and specifically focuses on children/adolescents without clear adult clinical implications. It's more aligned with technology and education perspectives rather than core clinical psychology practice.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "qtbex_v1",
       "title": "Depression symptom network reorganization under internet-based emotion regulatio",
-      "decision": "accept",
-      "reason": "This study examines how depressive symptom networks reorganize following an internet-based emotion regulation intervention, with direct relevance to clinical psychology practice through its focus on digital mental health interventions and symptom network analysis.",
-      "category": "Digital Mental Health",
-      "number": 897,
-      "authors": "Jianjie Xu; Sihan Liu; Hanyi Zhang; lu Chen; Lv Xiangxi; Mengyu Miranda Gao; Yueqin Hu; Shaozheng Qin; Mark S. Chen; Rachel Han",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "25c4h_v1",
       "title": "Conversational AI and Emerging Psychosis: A Simulation Study of Potentially Iatr",
-      "decision": "accept",
-      "reason": "This study directly examines the clinical implications of conversational AI for individuals experiencing psychotic symptoms, evaluating potential iatrogenic effects on psychotic processes, which is highly relevant to clinical psychology practice.",
-      "category": "Psychosis & Schizophrenia",
-      "number": 898,
-      "authors": "In\u00e9s Abalo-Rodr\u00edguez; Rebeca Pardo Cebri\u00e1n; Roman D Moreno-Fernandez; Ben Alderson-Day",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "gct58_v2",
       "title": "Cognitive resources can be intentionally released when processed information bec",
-      "decision": "reject",
-      "reason": "This paper focuses on basic cognitive psychology and memory mechanisms (primacy effect, resource depletion) without clear clinical application or relevance to practicing therapists, psychologists, or psychiatrists. It examines theoretical models of working memory rather than mental health interventions, assessment tools, or clinical psychopathology.",
-      "category": null
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "39gwa_v2",
       "title": "The cost of scrutiny: subclinical social anxiety and performance context reshape",
-      "decision": "accept",
-      "reason": "This study investigates neural mechanisms of social anxiety during learning, with direct implications for understanding avoidance behaviors and cognitive processing in clinical populations.",
-      "category": "Anxiety & OCD",
-      "number": 899,
-      "authors": "Hanjie Liu; Melle J.W. van der Molen",
-      "curated": true
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "5n6df_v2",
       "title": "Stressed out! Not working out? Relationship between momentary stress and physica",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "ykt3e_v2",
       "title": "Environmental Influences using Linked External Data in ABCD: A Review of the Fir",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "c2mxn_v1",
       "title": "Spontaneous thought as attentional competition",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "35htu_v1",
       "title": "Testing the Alliance and Cognitive Change as Simultaneous Processes of Change in",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "skipped",
+      "reason": "already in papers.json"
     },
     {
       "osf_id": "ad5qy_v4",
       "title": "Statistical learning and rhythmic ability in Attention-Deficit/Hyperactivity Dis",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "This study investigates statistical learning in ADHD, which has direct implications for understanding language processing and potential interventions for individuals with ADHD.",
+      "category": "Neurodivergence",
+      "number": 906,
+      "authors": "Iris van der Wulp; Marijn Struiksma; Frank Wijnen",
+      "curated": true
     },
     {
       "osf_id": "86c4n_v1",
       "title": "Reimagining Care for Community Members Who Use Substances:  An Application of th",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "accept",
+      "reason": "The paper addresses substance use interventions in Indigenous communities through a culturally-grounded framework with direct clinical implications for mental health practitioners working with diverse populations.",
+      "category": "Addiction & Substance Use",
+      "number": 907,
+      "authors": "Jillian Fish; Andrea Medley; Monica M. Desjardin; Miigis Gonzalez; Rachel E. Wilbur; Melissa L. Walls; Emily E Haroz",
+      "curated": true
     },
     {
       "osf_id": "26n9d_v2",
       "title": "Parenting Behavior in Relation to Children's Socio-Emotional Skills: A Latent Pr",
-      "decision": "deferred",
-      "reason": "max_papers limit reached"
+      "decision": "reject",
+      "reason": "The paper focuses on parenting behavior and children's socio-emotional development, which falls under developmental psychology rather than clinical psychology. While it has implications for child development, it doesn't directly address therapy, assessment, diagnosis, psychopathology, mental health interventions, or neuropsychology in clinical practice settings. The sample consists of kindergarten children, which is explicitly excluded unless there are direct adult clinical implications, which this paper lacks.",
+      "category": null
     },
     {
       "osf_id": "nqmr7_v1",
@@ -215,6 +236,12 @@
     {
       "osf_id": "r3zhp_v1",
       "title": "Subjective effects of flicker light do not differ between open- and closed-eye v",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "c26zw_v1",
+      "title": "Moving On Up: Momentary Physical Activity Predicts Proximal Affect and Emotion R",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
@@ -431,6 +458,30 @@
     {
       "osf_id": "8psd9_v2",
       "title": "Validating local open-weight LLMs against expert raters for graded deductive cod",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "vzs2e_v1",
+      "title": "Psychiatric Symptom Severity and Performance Monitoring:  Intraindividual Variab",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "e54zv_v2",
+      "title": "Why Are You Slowing Down? Performance-Monitoring ERPs Predict Drift Diffusion Mo",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "dpe2s_v1",
+      "title": "Motivational Framing Shapes Effort Judgments in Individuals with Depressive Symp",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "8276x_v3",
+      "title": "The emotional experience of time: Effects of anxiety and interoceptive ability o",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     },
@@ -729,6 +780,12 @@
       "reason": "max_papers limit reached"
     },
     {
+      "osf_id": "eqvf7_v2",
+      "title": "Explicit knowledge enables allocentric target but not distractor learning",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
       "osf_id": "dm8yu_v1",
       "title": "The crossword effect: A recall advantage for words encoded in alignment with the",
       "decision": "deferred",
@@ -971,6 +1028,18 @@
     {
       "osf_id": "jav6y_v1",
       "title": "Parafoveal access to embedded-word meaning during Chinese word segmentation",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "umspj_v1",
+      "title": "Student Adoption of an AI Tutor for Statistical Programming: A Longitudinal Stud",
+      "decision": "deferred",
+      "reason": "max_papers limit reached"
+    },
+    {
+      "osf_id": "63hbx_v2",
+      "title": "Gender Differences in Self-Consciousness Across Offline and Social Media Context",
       "decision": "deferred",
       "reason": "max_papers limit reached"
     }

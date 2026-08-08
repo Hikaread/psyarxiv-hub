@@ -1,10 +1,17 @@
 {
-  "discovered": 2,
+  "discovered": 10,
   "alreadyExisting": 0,
-  "hardExcluded": 0,
+  "hardExcluded": 1,
   "lowSignal": 0,
-  "candidates": 161,
+  "candidates": 170,
   "candidates_list": [
+    {
+      "osf_id": "n8vmx_v1",
+      "title": "From Acute Attack to Prolonged War: A Scoping Review of Mental Health Burden in Israel After October 7",
+      "date_created": "2026-08-07T14:18:41.005911",
+      "signal_score": 17,
+      "description_preview": "Background: The October 7, 2023, attack in Israel was followed by a prolonged war marked by repeated threat, displacement, reserve mobilization, and hostage-related uncertainty. This context generated"
+    },
     {
       "osf_id": "f5bmt_v1",
       "title": "“I Had to Figure It Out Alone”: A Qualitative Exploration of Fathers’ Experiences, Unmet Support Needs, and Digital Inte",
@@ -60,6 +67,13 @@
       "date_created": "2026-08-03T15:36:49.358276",
       "signal_score": 8,
       "description_preview": "Addiction has traditionally been explained in moral terms, as a failure of discipline repeated one\ntoo many times. Three decades of neuroscience research complicate that story considerably.\nRepeated e"
+    },
+    {
+      "osf_id": "g3uk4_v2",
+      "title": "Media portrayals of youth self-harm and suicide: An examination social determinants and inequalities",
+      "date_created": "2026-08-07T09:02:23.299569",
+      "signal_score": 8,
+      "description_preview": "Increasing evidence shows that social inequalities are central determinants of youth self harm and suicide. Media coverage shapes public understanding of these risk factors, yet little is known how Ir"
     },
     {
       "osf_id": "cs52x_v1",
@@ -242,6 +256,13 @@
       "date_created": "2026-08-06T01:55:34.650443",
       "signal_score": 5,
       "description_preview": "Flicker light stimulation shows promise for inducing visual imagery, altered states of consciousness, and changes in arousal, with potential applications in relaxation and imagery-based therapeutic in"
+    },
+    {
+      "osf_id": "c26zw_v1",
+      "title": "Moving On Up: Momentary Physical Activity Predicts Proximal Affect and Emotion Regulation in Remitted Depression",
+      "date_created": "2026-08-06T04:18:47.502105",
+      "signal_score": 5,
+      "description_preview": "Reduced physical activity is a persistent feature of major depressive disorder (MDD), yet its momentary emotional and regulatory consequences remain poorly understood, especially after remission. Acro"
     },
     {
       "osf_id": "cnkyz_v4",
@@ -501,6 +522,27 @@
       "date_created": "2026-08-07T14:59:39.492112",
       "signal_score": 3,
       "description_preview": "Performance monitoring involves evaluating actions and adjusting behavior accordingly. Atypical neural and behavioral indices of performance monitoring are commonly observed in individuals with psycho"
+    },
+    {
+      "osf_id": "e54zv_v2",
+      "title": "Why Are You Slowing Down? Performance-Monitoring ERPs Predict Drift Diffusion Model Parameters of Post-Error Adjustment",
+      "date_created": "2026-08-07T14:25:22.177031",
+      "signal_score": 3,
+      "description_preview": "Post-error slowing is usually attributed to the prioritization of accurate responding. However, neural and behavioral measures of performance monitoring are typically examined in isolation, failing to"
+    },
+    {
+      "osf_id": "dpe2s_v1",
+      "title": "Motivational Framing Shapes Effort Judgments in Individuals with Depressive Symptoms",
+      "date_created": "2026-08-07T12:35:52.777589",
+      "signal_score": 3,
+      "description_preview": "Effort-related motivational deficits in depression are often studied through effort-reward decisions, yet everyday effort also depends on the reference standards against which it is judged. In a prere"
+    },
+    {
+      "osf_id": "8276x_v3",
+      "title": "The emotional experience of time: Effects of anxiety and interoceptive ability on temporal perception",
+      "date_created": "2026-08-06T09:44:17.596454",
+      "signal_score": 3,
+      "description_preview": "Our experience of time is deeply shaped by emotional and bodily states. Anxiety is known to distort our temporal perception, yet the underlying mechanisms remain poorly understood. Here, we tested whe"
     },
     {
       "osf_id": "8xr5b_v1",
@@ -846,6 +888,13 @@
       "description_preview": "In around five percent of pregnancies, the baby is in breech presentation at term, meaning that the buttocks or feet are positioned downward instead of the head. In Germany, a cesare-an section is per"
     },
     {
+      "osf_id": "eqvf7_v2",
+      "title": "Explicit knowledge enables allocentric target but not distractor learning",
+      "date_created": "2026-08-07T12:06:22.073289",
+      "signal_score": 2,
+      "description_preview": "Humans can learn to attend to and to ignore specific locations based on statistical regularities. Such statistical learning effects may arise through both implicit and explicit mechanisms and may be e"
+    },
+    {
       "osf_id": "dm8yu_v1",
       "title": "The crossword effect: A recall advantage for words encoded in alignment with their spatial associations",
       "date_created": "2026-08-05T09:33:30.443453",
@@ -1131,6 +1180,20 @@
       "date_created": "2026-08-02T14:19:48.473807",
       "signal_score": 1,
       "description_preview": "The absence of word-boundary cues in Chinese text creates segmentation ambiguities that readers must resolve online. One example is incremental ambiguity, in which the initial characters of a longer w"
+    },
+    {
+      "osf_id": "umspj_v1",
+      "title": "Student Adoption of an AI Tutor for Statistical Programming: A Longitudinal Study",
+      "date_created": "2026-08-07T12:35:18.877471",
+      "signal_score": 1,
+      "description_preview": "Background: The rise in AI use among students has raised questions about the integration of AI tools into higher education. This longitudinal study examined the adoption of an AI tutor and its consequ"
+    },
+    {
+      "osf_id": "63hbx_v2",
+      "title": "Gender Differences in Self-Consciousness Across Offline and Social Media Contexts",
+      "date_created": "2026-08-06T02:27:33.332375",
+      "signal_score": 1,
+      "description_preview": "Women tend to be more self-conscious than men. Drawing on Whole Trait Theory, we show, however, that gender differences in self-consciousness manifest differently between offline and social media cont"
     }
   ]
 }
